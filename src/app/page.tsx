@@ -6,11 +6,12 @@ import { motion } from 'framer-motion';
 import { useI18n } from '@/lib/i18n/context';
 import { useCompare } from '@/context/CompareContext';
 import { getFeaturedSmartphones, getPopularComparisonsData, getAllSmartphones, getAllTVs } from '@/lib/data';
+import { getStoredProducts } from '@/lib/adminData';
 import { popularComparisonsList } from '@/lib/mockData';
 import { Smartphone, TVProduct } from '@/lib/types';
 import { calculateTVScore } from '@/lib/tvScoring';
 import { CategoryBar } from '@/components/layout/CategoryBar';
-import { HeroCarousel, HERO_CAROUSEL_DATA } from '@/components/promo/HeroCarousel';
+import { HeroCarousel, getDynamicHeroSlides } from '@/components/promo/HeroCarousel';
 import { HeroThumbnailStrip } from '@/components/promo/HeroThumbnailStrip';
 import { WeeklyPromoStrip } from '@/components/promo/WeeklyPromoStrip';
 import { PhoneCard } from '@/components/catalog/PhoneCard';
@@ -20,12 +21,19 @@ import { CategoryBannerGrid } from '@/components/promo/CategoryBannerGrid';
 import { ProductCarousel } from '@/components/catalog/ProductCarousel';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
 
+const allProductsCache = getStoredProducts();
+const allMockSmartphonesCount = allProductsCache.filter((p) => p.category === 'smartphones').length;
+const allMockTVsCount = allProductsCache.filter((p) => p.category === 'tvs').length;
+const allMockTabletsCount = allProductsCache.filter((p) => p.category === 'tablets').length;
+const allMockLaptopsCount = allProductsCache.filter((p) => p.category === 'laptops').length;
+const allMockSmartwatchesCount = allProductsCache.filter((p) => p.category === 'smartwatches').length;
+
 const CATEGORY_BANNERS_ROW1 = [
   {
     id: 'cat-1',
     title: 'Akıllı Telefonlar',
     subtitle: 'ZİRVE VERİMLİLİK',
-    badge: '📱 1.066+ MODEL',
+    badge: `📱 ${allMockSmartphonesCount}+ MODEL`,
     image: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80',
     href: '/phones'
   },
@@ -33,7 +41,7 @@ const CATEGORY_BANNERS_ROW1 = [
     id: 'cat-2',
     title: 'Bilgisayar & Laptop',
     subtitle: 'YAPAY ZEKÂ İŞLEMCİLER',
-    badge: '💻 M4/M5 & RTX 4090',
+    badge: `💻 ${allMockLaptopsCount > 0 ? `${allMockLaptopsCount} MODEL` : 'LAPTOPS'}`,
     image: 'https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=800&auto=format&fit=crop&q=80',
     href: '/laptops'
   },
@@ -41,7 +49,7 @@ const CATEGORY_BANNERS_ROW1 = [
     id: 'cat-3',
     title: 'Televizyonlar',
     subtitle: 'DEV EKRAN SİNEMA',
-    badge: '📺 OLED & QD-MINI LED',
+    badge: `📺 ${allMockTVsCount > 0 ? `${allMockTVsCount} MODEL` : 'TELEVİZYON'}`,
     image: 'https://images.unsplash.com/photo-1593784991095-a205069470b6?w=800&auto=format&fit=crop&q=80',
     href: '/tvs'
   },
@@ -49,7 +57,7 @@ const CATEGORY_BANNERS_ROW1 = [
     id: 'cat-4',
     title: 'Tabletler',
     subtitle: 'MOBİL ÜRETKENLİK',
-    badge: '📱 IPAD M4 & TAB S10',
+    badge: `📱 ${allMockTabletsCount > 0 ? `${allMockTabletsCount} MODEL` : 'TABLETLER'}`,
     image: 'https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&auto=format&fit=crop&q=80',
     href: '/tablets'
   }
@@ -244,11 +252,12 @@ export default function HomePage() {
   const secondRowProducts = currentProducts.slice(4, 8);
   const remainingProducts = currentProducts.slice(8);
 
-  const heroThumbnails = HERO_CAROUSEL_DATA.map((slide) => ({
+  const dynamicHeroSlides = getDynamicHeroSlides();
+  const heroThumbnails = dynamicHeroSlides.map((slide) => ({
     id: slide.id,
     name: slide.productName,
-    image: slide.image,
-    price: slide.price
+    price: slide.price,
+    image: slide.image
   }));
 
   return (
@@ -258,7 +267,7 @@ export default function HomePage() {
       <CategoryBar />
 
       {/* 2. Hero Banner & Interactive Showcase Slider */}
-      <HeroCarousel activeIndex={heroIndex} onIndexChange={setHeroIndex} />
+      <HeroCarousel activeIndex={heroIndex} onSelect={setHeroIndex} />
 
       {/* 3. Sub-Hero Horizontal Thumbnail Strip */}
       <HeroThumbnailStrip items={heroThumbnails} activeIndex={heroIndex} onSelect={setHeroIndex} />

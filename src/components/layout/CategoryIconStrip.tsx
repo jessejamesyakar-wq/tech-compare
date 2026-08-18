@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import {
   Smartphone,
@@ -13,19 +13,109 @@ import {
   Scale,
   PlugZap
 } from 'lucide-react';
+import { getStoredProducts } from '@/lib/adminData';
 
 export function CategoryIconStrip() {
+  const [counts, setCounts] = useState<{
+    smartphones: number;
+    laptops: number;
+    tvs: number;
+    appliances: number;
+    tablets: number;
+    smartwatches: number;
+    headphones: number;
+    consoles: number;
+  }>({
+    smartphones: 0,
+    laptops: 0,
+    tvs: 0,
+    appliances: 0,
+    tablets: 0,
+    smartwatches: 0,
+    headphones: 0,
+    consoles: 0
+  });
+
+  useEffect(() => {
+    function updateCounts() {
+      const all = getStoredProducts();
+      setCounts({
+        smartphones: all.filter((p) => p.category === 'smartphones').length,
+        laptops: all.filter((p) => p.category === 'laptops').length,
+        tvs: all.filter((p) => p.category === 'tvs').length,
+        appliances: all.filter((p) => p.category === 'appliances').length,
+        tablets: all.filter((p) => p.category === 'tablets').length,
+        smartwatches: all.filter((p) => p.category === 'smartwatches').length,
+        headphones: all.filter((p) => p.category === 'headphones').length,
+        consoles: all.filter((p) => p.category === 'consoles').length
+      });
+    }
+
+    updateCounts();
+    if (typeof window !== 'undefined') {
+      window.addEventListener('tech_admin_data_updated', updateCounts);
+      return () => window.removeEventListener('tech_admin_data_updated', updateCounts);
+    }
+  }, []);
+
   const categories = [
-    { name: 'Akıllı Telefonlar', href: '/phones', icon: Smartphone, count: '1.066+ Model' },
-    { name: 'Bilgisayar & Laptop', href: '/laptops', icon: Laptop, count: '35+ Model' },
-    { name: 'Televizyonlar', href: '/tvs', icon: Tv, count: '1.430+ Model' },
-    { name: 'Küçük Ev Aletleri', href: '/appliances', icon: PlugZap, count: 'Dyson & Robot' },
-    { name: 'Tabletler', href: '/tablets', icon: Tablet, count: 'iPad & Tab S10' },
-    { name: 'Akıllı Saatler', href: '/smartwatches', icon: Watch, count: 'Watch Ultra 2' },
-    { name: 'Ses & Kulaklık', href: '/headphones', icon: Headphones, count: 'AirPods & Sony' },
-    { name: 'Oyun Konsolları', href: '/consoles', icon: Gamepad2, count: 'PS5 Pro & Xbox' },
-    { name: 'Karşılaştırma', href: '/compare', icon: Scale, count: 'Canlı Düello' }
+    {
+      name: 'Akıllı Telefonlar',
+      href: '/phones',
+      icon: Smartphone,
+      count: counts.smartphones > 0 ? `${counts.smartphones} Model` : 'Çok Yakında'
+    },
+    {
+      name: 'Bilgisayar & Laptop',
+      href: '/laptops',
+      icon: Laptop,
+      count: counts.laptops > 0 ? `${counts.laptops} Model` : 'Çok Yakında'
+    },
+    {
+      name: 'Televizyonlar',
+      href: '/tvs',
+      icon: Tv,
+      count: counts.tvs > 0 ? `${counts.tvs} Model` : 'Çok Yakında'
+    },
+    {
+      name: 'Küçük Ev Aletleri',
+      href: '/appliances',
+      icon: PlugZap,
+      count: counts.appliances > 0 ? `${counts.appliances} Model` : 'Çok Yakında'
+    },
+    {
+      name: 'Tabletler',
+      href: '/tablets',
+      icon: Tablet,
+      count: counts.tablets > 0 ? `${counts.tablets} Model` : 'Çok Yakında'
+    },
+    {
+      name: 'Akıllı Saatler',
+      href: '/smartwatches',
+      icon: Watch,
+      count: counts.smartwatches > 0 ? `${counts.smartwatches} Model` : 'Çok Yakında'
+    },
+    {
+      name: 'Ses & Kulaklık',
+      href: '/headphones',
+      icon: Headphones,
+      count: counts.headphones > 0 ? `${counts.headphones} Model` : 'Çok Yakında'
+    },
+    {
+      name: 'Oyun Konsolları',
+      href: '/consoles',
+      icon: Gamepad2,
+      count: counts.consoles > 0 ? `${counts.consoles} Model` : 'Çok Yakında'
+    },
+    {
+      name: 'Karşılaştırma',
+      href: '/compare',
+      icon: Scale,
+      count: 'Canlı Düello'
+    }
   ];
+
+  const totalProductCount = Object.values(counts).reduce((a, b) => a + b, 0);
 
   return (
     <section className="pt-6 border-t border-slate-200/80 space-y-4">
@@ -33,7 +123,9 @@ export function CategoryIconStrip() {
         <h4 className="text-slate-900 text-sm font-black uppercase tracking-wider">
           Tüm Kategoriler & Hızlı Erişim
         </h4>
-        <span className="text-xs text-slate-400 font-medium">10.000+ Doğrulanmış Ürün Fiyat Takibi</span>
+        <span className="text-xs text-slate-400 font-medium">
+          {totalProductCount > 0 ? `${totalProductCount.toLocaleString()} Doğrulanmış Ürün Fiyat Takibi` : 'Canlı Fiyat Takibi'}
+        </span>
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-9 gap-3">
@@ -51,7 +143,7 @@ export function CategoryIconStrip() {
               <span className="text-xs font-bold text-slate-800 group-hover:text-emerald-700 transition-colors block line-clamp-1">
                 {cat.name}
               </span>
-              <span className="text-[9px] font-semibold text-slate-400 block">
+              <span className="text-[9px] font-semibold text-slate-400 block tabular-nums">
                 {cat.count}
               </span>
             </Link>

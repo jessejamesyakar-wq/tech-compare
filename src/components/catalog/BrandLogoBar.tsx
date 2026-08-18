@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { getAllSmartphones, getAllTVs } from '@/lib/data';
+import { getStoredProducts } from '@/lib/adminData';
 import { saveBrandLogoToIDB, getAllBrandLogosFromIDB, deleteBrandLogoFromIDB } from '@/lib/idbBrandLogos';
 import { Sparkles, ArrowRight, Upload, Image as ImageIcon, RotateCcw, X, Edit3, Check, AlertCircle } from 'lucide-react';
 
@@ -270,6 +271,12 @@ export function BrandLogoBar({ onSelectBrand }: { onSelectBrand?: (brand: string
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
   const [storageError, setStorageError] = useState<string | null>(null);
 
+  const activeBrandConfigs = React.useMemo(() => {
+    const all = getStoredProducts();
+    const presentBrands = new Set(all.map((p) => p.brand.toLowerCase()));
+    return BRAND_CONFIGS.filter((b) => presentBrands.has(b.name.toLowerCase()));
+  }, []);
+
   useEffect(() => {
     // Load custom brand logos safely from IndexedDB
     getAllBrandLogosFromIDB().then(setCustomLogos).catch(console.warn);
@@ -377,7 +384,7 @@ export function BrandLogoBar({ onSelectBrand }: { onSelectBrand?: (brand: string
 
       {/* Grid of Ultra-Minimalist Pure Logo Cards (No Text Below) */}
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3.5 sm:gap-4">
-        {BRAND_CONFIGS.map((brand) => {
+        {activeBrandConfigs.map((brand) => {
           const modelCount = brandCounts[brand.name] || 0;
           const displayLabel = brand.isMultiCategory
             ? (modelCount > 0 ? `Telefon & TV (${modelCount} Model)` : 'Çoklu Ekosistem')
@@ -483,7 +490,7 @@ export function BrandLogoBar({ onSelectBrand }: { onSelectBrand?: (brand: string
                 onChange={(e) => setEditingBrand(e.target.value)}
                 className="w-full bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl p-2.5 text-xs font-bold text-slate-900 dark:text-white focus:ring-2 focus:ring-emerald-500 outline-none"
               >
-                {BRAND_CONFIGS.map((b) => (
+                {activeBrandConfigs.map((b) => (
                   <option key={b.name} value={b.name}>
                     {b.name} {customLogos[b.name] ? ' (Özel Logo Yüklü)' : ''}
                   </option>
