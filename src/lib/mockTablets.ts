@@ -14,9 +14,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple M3 Çip Yüksek Performanslı İşlemci",
@@ -468,9 +468,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple M2 Çip Yüksek Performanslı İşlemci",
@@ -1011,6 +1011,187 @@ export const mockTablets: Product[] = [
       {
         "name": "Ada Yeşili",
         "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-xiaomi-pad-5-pro-12-4-11759",
+    "slug": "xiaomi-pad-5-pro-12-4-11759",
+    "name": "Xiaomi Pad 5 Pro 12.4",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "rating": 4.6,
+    "reviewCount": 449,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/tablets/xiaomi/xiaomi-pad-5-pro-12-4-11759.jpg",
+    "images": [
+      "/images/tablets/xiaomi/xiaomi-pad-5-pro-12-4-11759.jpg"
+    ],
+    "highlights": [
+      "Pad 5 Pro 12.4 Geniş ve Net Ekran Deneyimi",
+      "Akıllı Kalem & Manyetik Klavye Desteği",
+      "10000 mAh Yüksek Kapasiteli Batarya",
+      "Xiaomi HyperOS Tablet İş İstasyonu ve Çoklu Pencere Modu"
+    ],
+    "tags": [
+      "Xiaomi",
+      "HyperOS",
+      "Pad 5 Pro 12.4",
+      "Kalem & Klavye Desteği",
+      "2026 Modeli"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-xiaomi-pad-5-pro-12-4-11759",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com/ara?q=xiaomi+xiaomi-pad-5-pro-12-4-11759"
+      },
+      {
+        "id": "st-tr-xiaomi-pad-5-pro-12-4-11759",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 22109,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com/sr?q=xiaomi+xiaomi-pad-5-pro-12-4-11759"
+      },
+      {
+        "id": "st-me-xiaomi-pad-5-pro-12-4-11759",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 22219,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=xiaomi+xiaomi-pad-5-pro-12-4-11759"
+      },
+      {
+        "id": "st-va-xiaomi-pad-5-pro-12-4-11759",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 21955,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.vatanbilgisayar.com/arama/xiaomi-xiaomi-pad-5-pro-12-4-11759/"
+      },
+      {
+        "id": "st-te-xiaomi-pad-5-pro-12-4-11759",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 22043,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.teknosa.com/arama?s=xiaomi+xiaomi-pad-5-pro-12-4-11759"
+      },
+      {
+        "id": "st-am-xiaomi-pad-5-pro-12-4-11759",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 21889,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr/s?k=xiaomi+xiaomi-pad-5-pro-12-4-11759"
+      },
+      {
+        "id": "st-mi-xiaomi-pad-5-pro-12-4-11759",
+        "storeName": "Mi Store",
+        "storeLogoColor": "bg-orange-500",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mi.com/tr/product/xiaomi-pad-5-pro-12-4-11759/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 23319,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 22659,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 22219,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21999,
+        "store": "Mi Store"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Koyu Gri",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#0284c7"
       }
     ]
   },
@@ -1779,9 +1960,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple M5 / M4 Pro Çip Yüksek Performanslı İşlemci",
@@ -1895,9 +2076,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/ipad-pro-11.jpg",
+    "image": "/images/tablets/apple/ipad-pro-11.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/ipad-pro-11.jpg"
+      "/images/tablets/apple/ipad-pro-11.jpg"
     ],
     "highlights": [
       "Apple M4 Çip (3nm) Yüksek Performanslı İşlemci",
@@ -2011,9 +2192,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple M2 Çip Yüksek Performanslı İşlemci",
@@ -2589,6 +2770,368 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "xiaomi-xiaomi-pad-7s-pro-12-5-13968",
+    "slug": "xiaomi-pad-7s-pro-12-5-13968",
+    "name": "Xiaomi Pad 7S Pro 12.5",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "rating": 4.6,
+    "reviewCount": 430,
+    "basePrice": 32999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/tablets/xiaomi/xiaomi-pad-7s-pro-12-5-13968.jpg",
+    "images": [
+      "/images/tablets/xiaomi/xiaomi-pad-7s-pro-12-5-13968.jpg"
+    ],
+    "highlights": [
+      "Pad 7S Pro 12.5 Geniş ve Net Ekran Deneyimi",
+      "Akıllı Kalem & Manyetik Klavye Desteği",
+      "10000 mAh Yüksek Kapasiteli Batarya",
+      "Xiaomi HyperOS Tablet İş İstasyonu ve Çoklu Pencere Modu"
+    ],
+    "tags": [
+      "Xiaomi",
+      "HyperOS",
+      "Pad 7S Pro 12.5",
+      "Kalem & Klavye Desteği",
+      "2025 Modeli"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-xiaomi-pad-7s-pro-12-5-13968",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 32999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com/ara?q=xiaomi+xiaomi-pad-7s-pro-12-5-13968"
+      },
+      {
+        "id": "st-tr-xiaomi-pad-7s-pro-12-5-13968",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 33164,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com/sr?q=xiaomi+xiaomi-pad-7s-pro-12-5-13968"
+      },
+      {
+        "id": "st-me-xiaomi-pad-7s-pro-12-5-13968",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 33329,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=xiaomi+xiaomi-pad-7s-pro-12-5-13968"
+      },
+      {
+        "id": "st-va-xiaomi-pad-7s-pro-12-5-13968",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 32933,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.vatanbilgisayar.com/arama/xiaomi-xiaomi-pad-7s-pro-12-5-13968/"
+      },
+      {
+        "id": "st-te-xiaomi-pad-7s-pro-12-5-13968",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 33065,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.teknosa.com/arama?s=xiaomi+xiaomi-pad-7s-pro-12-5-13968"
+      },
+      {
+        "id": "st-am-xiaomi-pad-7s-pro-12-5-13968",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 32834,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr/s?k=xiaomi+xiaomi-pad-7s-pro-12-5-13968"
+      },
+      {
+        "id": "st-mi-xiaomi-pad-7s-pro-12-5-13968",
+        "storeName": "Mi Store",
+        "storeLogoColor": "bg-orange-500",
+        "price": 32999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mi.com/tr/product/xiaomi-pad-7s-pro-12-5-13968/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 34979,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 33989,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 33329,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 32999,
+        "store": "Mi Store"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Koyu Gri",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#0284c7"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-xiaomi-pad-7-ultra-13896",
+    "slug": "xiaomi-pad-7-ultra-13896",
+    "name": "Xiaomi Pad 7 Ultra",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 388,
+    "basePrice": 32999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/tablets/xiaomi/xiaomi-pad-7-ultra-13896.jpg",
+    "images": [
+      "/images/tablets/xiaomi/xiaomi-pad-7-ultra-13896.jpg"
+    ],
+    "highlights": [
+      "Pad 7 Ultra Geniş ve Net Ekran Deneyimi",
+      "Akıllı Kalem & Manyetik Klavye Desteği",
+      "10000 mAh Yüksek Kapasiteli Batarya",
+      "Xiaomi HyperOS Tablet İş İstasyonu ve Çoklu Pencere Modu"
+    ],
+    "tags": [
+      "Xiaomi",
+      "HyperOS",
+      "Pad 7 Ultra",
+      "Kalem & Klavye Desteği",
+      "2025 Modeli"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-xiaomi-pad-7-ultra-13896",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 32999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com/ara?q=xiaomi+xiaomi-pad-7-ultra-13896"
+      },
+      {
+        "id": "st-tr-xiaomi-pad-7-ultra-13896",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 33164,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com/sr?q=xiaomi+xiaomi-pad-7-ultra-13896"
+      },
+      {
+        "id": "st-me-xiaomi-pad-7-ultra-13896",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 33329,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=xiaomi+xiaomi-pad-7-ultra-13896"
+      },
+      {
+        "id": "st-va-xiaomi-pad-7-ultra-13896",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 32933,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.vatanbilgisayar.com/arama/xiaomi-xiaomi-pad-7-ultra-13896/"
+      },
+      {
+        "id": "st-te-xiaomi-pad-7-ultra-13896",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 33065,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.teknosa.com/arama?s=xiaomi+xiaomi-pad-7-ultra-13896"
+      },
+      {
+        "id": "st-am-xiaomi-pad-7-ultra-13896",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 32834,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr/s?k=xiaomi+xiaomi-pad-7-ultra-13896"
+      },
+      {
+        "id": "st-mi-xiaomi-pad-7-ultra-13896",
+        "storeName": "Mi Store",
+        "storeLogoColor": "bg-orange-500",
+        "price": 32999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mi.com/tr/product/xiaomi-pad-7-ultra-13896/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 34979,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 33989,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 33329,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 32999,
+        "store": "Mi Store"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Koyu Gri",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#0284c7"
+      }
+    ]
+  },
+  {
     "id": "apple-apple-ipad-air-11-(2025",
     "slug": "apple-ipad-air-11-(2025",
     "name": "Apple iPad Air 11 (2025) Tablet",
@@ -2601,9 +3144,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple M2 Çip Yüksek Performanslı İşlemci",
@@ -2822,9 +3365,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple A16 Bionic Yüksek Performanslı İşlemci",
@@ -3576,6 +4119,549 @@ export const mockTablets: Product[] = [
       {
         "name": "Ada Yeşili",
         "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-xiaomi-black-shark-pad-7-pro-14308",
+    "slug": "xiaomi-black-shark-pad-7-pro-14308",
+    "name": "Black Shark Pad 7 Pro",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "rating": 4.9,
+    "reviewCount": 362,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/tablets/xiaomi/xiaomi-black-shark-pad-7-pro-14308.jpg",
+    "images": [
+      "/images/tablets/xiaomi/xiaomi-black-shark-pad-7-pro-14308.jpg"
+    ],
+    "highlights": [
+      "Black Shark Pad 7 Pro Geniş ve Net Ekran Deneyimi",
+      "Akıllı Kalem & Manyetik Klavye Desteği",
+      "10000 mAh Yüksek Kapasiteli Batarya",
+      "Xiaomi HyperOS Tablet İş İstasyonu ve Çoklu Pencere Modu"
+    ],
+    "tags": [
+      "Xiaomi",
+      "HyperOS",
+      "Black Shark Pad 7 Pro",
+      "Kalem & Klavye Desteği",
+      "2025 Modeli"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-xiaomi-black-shark-pad-7-pro-14308",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com/ara?q=xiaomi+xiaomi-black-shark-pad-7-pro-14308"
+      },
+      {
+        "id": "st-tr-xiaomi-black-shark-pad-7-pro-14308",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 22109,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com/sr?q=xiaomi+xiaomi-black-shark-pad-7-pro-14308"
+      },
+      {
+        "id": "st-me-xiaomi-black-shark-pad-7-pro-14308",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 22219,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=xiaomi+xiaomi-black-shark-pad-7-pro-14308"
+      },
+      {
+        "id": "st-va-xiaomi-black-shark-pad-7-pro-14308",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 21955,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.vatanbilgisayar.com/arama/xiaomi-xiaomi-black-shark-pad-7-pro-14308/"
+      },
+      {
+        "id": "st-te-xiaomi-black-shark-pad-7-pro-14308",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 22043,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.teknosa.com/arama?s=xiaomi+xiaomi-black-shark-pad-7-pro-14308"
+      },
+      {
+        "id": "st-am-xiaomi-black-shark-pad-7-pro-14308",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 21889,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr/s?k=xiaomi+xiaomi-black-shark-pad-7-pro-14308"
+      },
+      {
+        "id": "st-mi-xiaomi-black-shark-pad-7-pro-14308",
+        "storeName": "Mi Store",
+        "storeLogoColor": "bg-orange-500",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mi.com/tr/product/xiaomi-black-shark-pad-7-pro-14308/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 23319,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 22659,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 22219,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21999,
+        "store": "Mi Store"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Koyu Gri",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#0284c7"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-xiaomi-black-shark-pad-7-14307",
+    "slug": "xiaomi-black-shark-pad-7-14307",
+    "name": "Black Shark Pad 7",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 353,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/tablets/xiaomi/xiaomi-black-shark-pad-7-14307.jpg",
+    "images": [
+      "/images/tablets/xiaomi/xiaomi-black-shark-pad-7-14307.jpg"
+    ],
+    "highlights": [
+      "Black Shark Pad 7 Geniş ve Net Ekran Deneyimi",
+      "Akıllı Kalem & Manyetik Klavye Desteği",
+      "10000 mAh Yüksek Kapasiteli Batarya",
+      "Xiaomi HyperOS Tablet İş İstasyonu ve Çoklu Pencere Modu"
+    ],
+    "tags": [
+      "Xiaomi",
+      "HyperOS",
+      "Black Shark Pad 7",
+      "Kalem & Klavye Desteği",
+      "2025 Modeli"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-xiaomi-black-shark-pad-7-14307",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com/ara?q=xiaomi+xiaomi-black-shark-pad-7-14307"
+      },
+      {
+        "id": "st-tr-xiaomi-black-shark-pad-7-14307",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 22109,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com/sr?q=xiaomi+xiaomi-black-shark-pad-7-14307"
+      },
+      {
+        "id": "st-me-xiaomi-black-shark-pad-7-14307",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 22219,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=xiaomi+xiaomi-black-shark-pad-7-14307"
+      },
+      {
+        "id": "st-va-xiaomi-black-shark-pad-7-14307",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 21955,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.vatanbilgisayar.com/arama/xiaomi-xiaomi-black-shark-pad-7-14307/"
+      },
+      {
+        "id": "st-te-xiaomi-black-shark-pad-7-14307",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 22043,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.teknosa.com/arama?s=xiaomi+xiaomi-black-shark-pad-7-14307"
+      },
+      {
+        "id": "st-am-xiaomi-black-shark-pad-7-14307",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 21889,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr/s?k=xiaomi+xiaomi-black-shark-pad-7-14307"
+      },
+      {
+        "id": "st-mi-xiaomi-black-shark-pad-7-14307",
+        "storeName": "Mi Store",
+        "storeLogoColor": "bg-orange-500",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mi.com/tr/product/xiaomi-black-shark-pad-7-14307/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 23319,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 22659,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 22219,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21999,
+        "store": "Mi Store"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Koyu Gri",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#0284c7"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-xiaomi-mi-pad-7-9-6365",
+    "slug": "xiaomi-mi-pad-7-9-6365",
+    "name": "Mi Pad 7.9",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "rating": 4.9,
+    "reviewCount": 435,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/tablets/xiaomi/xiaomi-mi-pad-7-9-6365.jpg",
+    "images": [
+      "/images/tablets/xiaomi/xiaomi-mi-pad-7-9-6365.jpg"
+    ],
+    "highlights": [
+      "Mi Pad 7.9 Geniş ve Net Ekran Deneyimi",
+      "Akıllı Kalem & Manyetik Klavye Desteği",
+      "10000 mAh Yüksek Kapasiteli Batarya",
+      "Xiaomi HyperOS Tablet İş İstasyonu ve Çoklu Pencere Modu"
+    ],
+    "tags": [
+      "Xiaomi",
+      "HyperOS",
+      "Mi Pad 7.9",
+      "Kalem & Klavye Desteği",
+      "2025 Modeli"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-xiaomi-mi-pad-7-9-6365",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com/ara?q=xiaomi+xiaomi-mi-pad-7-9-6365"
+      },
+      {
+        "id": "st-tr-xiaomi-mi-pad-7-9-6365",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 22109,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com/sr?q=xiaomi+xiaomi-mi-pad-7-9-6365"
+      },
+      {
+        "id": "st-me-xiaomi-mi-pad-7-9-6365",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 22219,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=xiaomi+xiaomi-mi-pad-7-9-6365"
+      },
+      {
+        "id": "st-va-xiaomi-mi-pad-7-9-6365",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 21955,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.vatanbilgisayar.com/arama/xiaomi-xiaomi-mi-pad-7-9-6365/"
+      },
+      {
+        "id": "st-te-xiaomi-mi-pad-7-9-6365",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 22043,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.teknosa.com/arama?s=xiaomi+xiaomi-mi-pad-7-9-6365"
+      },
+      {
+        "id": "st-am-xiaomi-mi-pad-7-9-6365",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 21889,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr/s?k=xiaomi+xiaomi-mi-pad-7-9-6365"
+      },
+      {
+        "id": "st-mi-xiaomi-mi-pad-7-9-6365",
+        "storeName": "Mi Store",
+        "storeLogoColor": "bg-orange-500",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mi.com/tr/product/xiaomi-mi-pad-7-9-6365/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 23319,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 22659,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 22219,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21999,
+        "store": "Mi Store"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Koyu Gri",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#0284c7"
       }
     ]
   },
@@ -5245,7 +6331,7 @@ export const mockTablets: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-finish-select-202405-13inch-spaceblack?fmt=jpeg&qlt=95",
+    "image": "/images/tablets/apple/ipad-pro-finish-select-202405-13inch-spaceblackfmtjpegqlt95",
     "highlights": [
       "Ultra Retina Tandem OLED 120Hz",
       "Apple M4 3nm Çip (38 TOPS NPU)",
@@ -5293,6 +6379,9 @@ export const mockTablets: Product[] = [
         "price": 59999,
         "store": "Hepsiburada"
       }
+    ],
+    "images": [
+      "/images/tablets/apple/ipad-pro-finish-select-202405-13inch-spaceblackfmtjpegqlt95"
     ]
   },
   {
@@ -5308,9 +6397,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple M4 Çip (3nm) Yüksek Performanslı İşlemci",
@@ -5424,9 +6513,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/ipad-pro-11.jpg",
+    "image": "/images/tablets/apple/ipad-pro-11.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/ipad-pro-11.jpg"
+      "/images/tablets/apple/ipad-pro-11.jpg"
     ],
     "highlights": [
       "Apple M4 Çip (3nm) Yüksek Performanslı İşlemci",
@@ -5540,7 +6629,7 @@ export const mockTablets: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-finish-select-202405-13inch-spaceblack?fmt=jpeg&qlt=95",
+    "image": "/images/tablets/samsung/ipad-pro-finish-select-202405-13inch-spaceblackfmtjpegqlt95",
     "highlights": [
       "14.6\" Dev Dynamic AMOLED 2X 120Hz",
       "Kutudan Çıkan Dahili S Pen",
@@ -5574,6 +6663,9 @@ export const mockTablets: Product[] = [
         "price": 46999,
         "store": "MediaMarkt"
       }
+    ],
+    "images": [
+      "/images/tablets/samsung/ipad-pro-finish-select-202405-13inch-spaceblackfmtjpegqlt95"
     ]
   },
   {
@@ -5589,9 +6681,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple M2 Çip Yüksek Performanslı İşlemci",
@@ -6167,6 +7259,187 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "xiaomi-xiaomi-pad-6-max-14-12463",
+    "slug": "xiaomi-pad-6-max-14-12463",
+    "name": "Xiaomi Pad 6 Max 14",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "rating": 4.6,
+    "reviewCount": 413,
+    "basePrice": 32999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tablets/xiaomi/xiaomi-pad-6-max-14-12463.jpg",
+    "images": [
+      "/images/tablets/xiaomi/xiaomi-pad-6-max-14-12463.jpg"
+    ],
+    "highlights": [
+      "Pad 6 Max 14 Geniş ve Net Ekran Deneyimi",
+      "Akıllı Kalem & Manyetik Klavye Desteği",
+      "10000 mAh Yüksek Kapasiteli Batarya",
+      "Xiaomi HyperOS Tablet İş İstasyonu ve Çoklu Pencere Modu"
+    ],
+    "tags": [
+      "Xiaomi",
+      "HyperOS",
+      "Pad 6 Max 14",
+      "Kalem & Klavye Desteği",
+      "2024 Modeli"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-xiaomi-pad-6-max-14-12463",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 32999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com/ara?q=xiaomi+xiaomi-pad-6-max-14-12463"
+      },
+      {
+        "id": "st-tr-xiaomi-pad-6-max-14-12463",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 33164,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com/sr?q=xiaomi+xiaomi-pad-6-max-14-12463"
+      },
+      {
+        "id": "st-me-xiaomi-pad-6-max-14-12463",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 33329,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=xiaomi+xiaomi-pad-6-max-14-12463"
+      },
+      {
+        "id": "st-va-xiaomi-pad-6-max-14-12463",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 32933,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.vatanbilgisayar.com/arama/xiaomi-xiaomi-pad-6-max-14-12463/"
+      },
+      {
+        "id": "st-te-xiaomi-pad-6-max-14-12463",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 33065,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.teknosa.com/arama?s=xiaomi+xiaomi-pad-6-max-14-12463"
+      },
+      {
+        "id": "st-am-xiaomi-pad-6-max-14-12463",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 32834,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr/s?k=xiaomi+xiaomi-pad-6-max-14-12463"
+      },
+      {
+        "id": "st-mi-xiaomi-pad-6-max-14-12463",
+        "storeName": "Mi Store",
+        "storeLogoColor": "bg-orange-500",
+        "price": 32999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mi.com/tr/product/xiaomi-pad-6-max-14-12463/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 34979,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 33989,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 33329,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 32999,
+        "store": "Mi Store"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Koyu Gri",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#0284c7"
+      }
+    ]
+  },
+  {
     "id": "apple-apple-ipad-air-11-(2024",
     "slug": "apple-ipad-air-11-(2024",
     "name": "Apple iPad Air 11 (2024) Tablet",
@@ -6179,9 +7452,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple M2 Çip Yüksek Performanslı İşlemci",
@@ -6475,7 +7748,7 @@ export const mockTablets: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-finish-select-202405-13inch-spaceblack?fmt=jpeg&qlt=95",
+    "image": "/images/tablets/apple/ipad-pro-finish-select-202405-13inch-spaceblackfmtjpegqlt95",
     "highlights": [
       "Apple M2 Çip Performansı",
       "11\" Liquid Retina Ekran (500 nits)",
@@ -6509,6 +7782,9 @@ export const mockTablets: Product[] = [
         "price": 28999,
         "store": "Vatan"
       }
+    ],
+    "images": [
+      "/images/tablets/apple/ipad-pro-finish-select-202405-13inch-spaceblackfmtjpegqlt95"
     ]
   },
   {
@@ -6524,9 +7800,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-mini.jpg",
+    "image": "/images/tablets/apple/apple-ipad-mini.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-mini.jpg"
+      "/images/tablets/apple/apple-ipad-mini.jpg"
     ],
     "highlights": [
       "Apple A17 Pro Çip (Apple Intelligence) Yüksek Performanslı İşlemci",
@@ -7753,6 +9029,549 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "xiaomi-xiaomi-poco-pad-c1-14682",
+    "slug": "xiaomi-poco-pad-c1-14682",
+    "name": "Poco Pad C1",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "rating": 4.9,
+    "reviewCount": 346,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/xiaomi/xiaomi-poco-pad-c1-14682.jpg",
+    "images": [
+      "/images/tablets/xiaomi/xiaomi-poco-pad-c1-14682.jpg"
+    ],
+    "highlights": [
+      "Poco Pad C1 Geniş ve Net Ekran Deneyimi",
+      "Akıllı Kalem & Manyetik Klavye Desteği",
+      "8600 mAh Yüksek Kapasiteli Batarya",
+      "Xiaomi HyperOS Tablet İş İstasyonu ve Çoklu Pencere Modu"
+    ],
+    "tags": [
+      "Xiaomi",
+      "HyperOS",
+      "Poco Pad C1",
+      "Kalem & Klavye Desteği",
+      "2024 Modeli"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-xiaomi-poco-pad-c1-14682",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com/ara?q=xiaomi+xiaomi-poco-pad-c1-14682"
+      },
+      {
+        "id": "st-tr-xiaomi-poco-pad-c1-14682",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 15074,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com/sr?q=xiaomi+xiaomi-poco-pad-c1-14682"
+      },
+      {
+        "id": "st-me-xiaomi-poco-pad-c1-14682",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 15149,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=xiaomi+xiaomi-poco-pad-c1-14682"
+      },
+      {
+        "id": "st-va-xiaomi-poco-pad-c1-14682",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 14969,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.vatanbilgisayar.com/arama/xiaomi-xiaomi-poco-pad-c1-14682/"
+      },
+      {
+        "id": "st-te-xiaomi-poco-pad-c1-14682",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 15029,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.teknosa.com/arama?s=xiaomi+xiaomi-poco-pad-c1-14682"
+      },
+      {
+        "id": "st-am-xiaomi-poco-pad-c1-14682",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14924,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr/s?k=xiaomi+xiaomi-poco-pad-c1-14682"
+      },
+      {
+        "id": "st-mi-xiaomi-poco-pad-c1-14682",
+        "storeName": "Mi Store",
+        "storeLogoColor": "bg-orange-500",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mi.com/tr/product/xiaomi-poco-pad-c1-14682/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 15899,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 15449,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 15149,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "Mi Store"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Koyu Gri",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#0284c7"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-xiaomi-black-shark-pad-se-14777",
+    "slug": "xiaomi-black-shark-pad-se-14777",
+    "name": "Black Shark Pad SE",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 62,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/xiaomi/xiaomi-black-shark-pad-se-14777.jpg",
+    "images": [
+      "/images/tablets/xiaomi/xiaomi-black-shark-pad-se-14777.jpg"
+    ],
+    "highlights": [
+      "Black Shark Pad SE Geniş ve Net Ekran Deneyimi",
+      "Akıllı Kalem & Manyetik Klavye Desteği",
+      "8600 mAh Yüksek Kapasiteli Batarya",
+      "Xiaomi HyperOS Tablet İş İstasyonu ve Çoklu Pencere Modu"
+    ],
+    "tags": [
+      "Xiaomi",
+      "HyperOS",
+      "Black Shark Pad SE",
+      "Kalem & Klavye Desteği",
+      "2024 Modeli"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-xiaomi-black-shark-pad-se-14777",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com/ara?q=xiaomi+xiaomi-black-shark-pad-se-14777"
+      },
+      {
+        "id": "st-tr-xiaomi-black-shark-pad-se-14777",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 15074,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com/sr?q=xiaomi+xiaomi-black-shark-pad-se-14777"
+      },
+      {
+        "id": "st-me-xiaomi-black-shark-pad-se-14777",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 15149,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=xiaomi+xiaomi-black-shark-pad-se-14777"
+      },
+      {
+        "id": "st-va-xiaomi-black-shark-pad-se-14777",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 14969,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.vatanbilgisayar.com/arama/xiaomi-xiaomi-black-shark-pad-se-14777/"
+      },
+      {
+        "id": "st-te-xiaomi-black-shark-pad-se-14777",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 15029,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.teknosa.com/arama?s=xiaomi+xiaomi-black-shark-pad-se-14777"
+      },
+      {
+        "id": "st-am-xiaomi-black-shark-pad-se-14777",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14924,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr/s?k=xiaomi+xiaomi-black-shark-pad-se-14777"
+      },
+      {
+        "id": "st-mi-xiaomi-black-shark-pad-se-14777",
+        "storeName": "Mi Store",
+        "storeLogoColor": "bg-orange-500",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mi.com/tr/product/xiaomi-black-shark-pad-se-14777/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 15899,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 15449,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 15149,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "Mi Store"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Koyu Gri",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#0284c7"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-xiaomi-redmi-k-pad-2-14625",
+    "slug": "xiaomi-redmi-k-pad-2-14625",
+    "name": "Redmi K Pad 2",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 322,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/xiaomi/xiaomi-redmi-k-pad-2-14625.jpg",
+    "images": [
+      "/images/tablets/xiaomi/xiaomi-redmi-k-pad-2-14625.jpg"
+    ],
+    "highlights": [
+      "Redmi K Pad 2 Geniş ve Net Ekran Deneyimi",
+      "Akıllı Kalem & Manyetik Klavye Desteği",
+      "8600 mAh Yüksek Kapasiteli Batarya",
+      "Xiaomi HyperOS Tablet İş İstasyonu ve Çoklu Pencere Modu"
+    ],
+    "tags": [
+      "Xiaomi",
+      "HyperOS",
+      "Redmi K Pad 2",
+      "Kalem & Klavye Desteği",
+      "2024 Modeli"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-xiaomi-redmi-k-pad-2-14625",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com/ara?q=xiaomi+xiaomi-redmi-k-pad-2-14625"
+      },
+      {
+        "id": "st-tr-xiaomi-redmi-k-pad-2-14625",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 15074,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com/sr?q=xiaomi+xiaomi-redmi-k-pad-2-14625"
+      },
+      {
+        "id": "st-me-xiaomi-redmi-k-pad-2-14625",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 15149,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=xiaomi+xiaomi-redmi-k-pad-2-14625"
+      },
+      {
+        "id": "st-va-xiaomi-redmi-k-pad-2-14625",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 14969,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.vatanbilgisayar.com/arama/xiaomi-xiaomi-redmi-k-pad-2-14625/"
+      },
+      {
+        "id": "st-te-xiaomi-redmi-k-pad-2-14625",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 15029,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.teknosa.com/arama?s=xiaomi+xiaomi-redmi-k-pad-2-14625"
+      },
+      {
+        "id": "st-am-xiaomi-redmi-k-pad-2-14625",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14924,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr/s?k=xiaomi+xiaomi-redmi-k-pad-2-14625"
+      },
+      {
+        "id": "st-mi-xiaomi-redmi-k-pad-2-14625",
+        "storeName": "Mi Store",
+        "storeLogoColor": "bg-orange-500",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mi.com/tr/product/xiaomi-redmi-k-pad-2-14625/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 15899,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 15449,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 15149,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "Mi Store"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Koyu Gri",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#0284c7"
+      }
+    ]
+  },
+  {
     "id": "xiaomi-poco-pad",
     "slug": "poco-pad",
     "name": "POCO Pad",
@@ -8245,6 +10064,187 @@ export const mockTablets: Product[] = [
       {
         "name": "Ada Yeşili",
         "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-xiaomi-black-shark-gaming-tablet-14509",
+    "slug": "xiaomi-black-shark-gaming-tablet-14509",
+    "name": "Black Shark Gaming Tablet",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "rating": 4.9,
+    "reviewCount": 107,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/xiaomi/xiaomi-black-shark-gaming-tablet-14509.jpg",
+    "images": [
+      "/images/tablets/xiaomi/xiaomi-black-shark-gaming-tablet-14509.jpg"
+    ],
+    "highlights": [
+      "Black Shark Gaming Tablet Geniş ve Net Ekran Deneyimi",
+      "Akıllı Kalem & Manyetik Klavye Desteği",
+      "8600 mAh Yüksek Kapasiteli Batarya",
+      "Xiaomi HyperOS Tablet İş İstasyonu ve Çoklu Pencere Modu"
+    ],
+    "tags": [
+      "Xiaomi",
+      "HyperOS",
+      "Black Shark Gaming Tablet",
+      "Kalem & Klavye Desteği",
+      "2024 Modeli"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-xiaomi-black-shark-gaming-tablet-14509",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com/ara?q=xiaomi+xiaomi-black-shark-gaming-tablet-14509"
+      },
+      {
+        "id": "st-tr-xiaomi-black-shark-gaming-tablet-14509",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 12059,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com/sr?q=xiaomi+xiaomi-black-shark-gaming-tablet-14509"
+      },
+      {
+        "id": "st-me-xiaomi-black-shark-gaming-tablet-14509",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 12119,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=xiaomi+xiaomi-black-shark-gaming-tablet-14509"
+      },
+      {
+        "id": "st-va-xiaomi-black-shark-gaming-tablet-14509",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 11975,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.vatanbilgisayar.com/arama/xiaomi-xiaomi-black-shark-gaming-tablet-14509/"
+      },
+      {
+        "id": "st-te-xiaomi-black-shark-gaming-tablet-14509",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 12023,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.teknosa.com/arama?s=xiaomi+xiaomi-black-shark-gaming-tablet-14509"
+      },
+      {
+        "id": "st-am-xiaomi-black-shark-gaming-tablet-14509",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11939,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr/s?k=xiaomi+xiaomi-black-shark-gaming-tablet-14509"
+      },
+      {
+        "id": "st-mi-xiaomi-black-shark-gaming-tablet-14509",
+        "storeName": "Mi Store",
+        "storeLogoColor": "bg-orange-500",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mi.com/tr/product/xiaomi-black-shark-gaming-tablet-14509/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 12719,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 12359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 12119,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11999,
+        "store": "Mi Store"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Koyu Gri",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#0284c7"
       }
     ]
   },
@@ -10428,6 +12428,368 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "xiaomi-xiaomi-black-shark-pad-6-4g-13774",
+    "slug": "xiaomi-black-shark-pad-6-4g-13774",
+    "name": "Black Shark Pad 6",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "rating": 4.9,
+    "reviewCount": 195,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tablets/xiaomi/xiaomi-black-shark-pad-6-4g-13774.jpg",
+    "images": [
+      "/images/tablets/xiaomi/xiaomi-black-shark-pad-6-4g-13774.jpg"
+    ],
+    "highlights": [
+      "Black Shark Pad 6 Geniş ve Net Ekran Deneyimi",
+      "Akıllı Kalem & Manyetik Klavye Desteği",
+      "10000 mAh Yüksek Kapasiteli Batarya",
+      "Xiaomi HyperOS Tablet İş İstasyonu ve Çoklu Pencere Modu"
+    ],
+    "tags": [
+      "Xiaomi",
+      "HyperOS",
+      "Black Shark Pad 6",
+      "Kalem & Klavye Desteği",
+      "2023 Modeli"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-xiaomi-black-shark-pad-6-4g-13774",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com/ara?q=xiaomi+xiaomi-black-shark-pad-6-4g-13774"
+      },
+      {
+        "id": "st-tr-xiaomi-black-shark-pad-6-4g-13774",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 22109,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com/sr?q=xiaomi+xiaomi-black-shark-pad-6-4g-13774"
+      },
+      {
+        "id": "st-me-xiaomi-black-shark-pad-6-4g-13774",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 22219,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=xiaomi+xiaomi-black-shark-pad-6-4g-13774"
+      },
+      {
+        "id": "st-va-xiaomi-black-shark-pad-6-4g-13774",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 21955,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.vatanbilgisayar.com/arama/xiaomi-xiaomi-black-shark-pad-6-4g-13774/"
+      },
+      {
+        "id": "st-te-xiaomi-black-shark-pad-6-4g-13774",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 22043,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.teknosa.com/arama?s=xiaomi+xiaomi-black-shark-pad-6-4g-13774"
+      },
+      {
+        "id": "st-am-xiaomi-black-shark-pad-6-4g-13774",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 21889,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr/s?k=xiaomi+xiaomi-black-shark-pad-6-4g-13774"
+      },
+      {
+        "id": "st-mi-xiaomi-black-shark-pad-6-4g-13774",
+        "storeName": "Mi Store",
+        "storeLogoColor": "bg-orange-500",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mi.com/tr/product/xiaomi-black-shark-pad-6-4g-13774/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 23319,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 22659,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 22219,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21999,
+        "store": "Mi Store"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Koyu Gri",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#0284c7"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-xiaomi-pad-6-pro-12238",
+    "slug": "xiaomi-pad-6-pro-12238",
+    "name": "Xiaomi Pad 6 Pro",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "rating": 4.9,
+    "reviewCount": 457,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tablets/xiaomi/xiaomi-pad-6-pro-12238.jpg",
+    "images": [
+      "/images/tablets/xiaomi/xiaomi-pad-6-pro-12238.jpg"
+    ],
+    "highlights": [
+      "Pad 6 Pro Geniş ve Net Ekran Deneyimi",
+      "Akıllı Kalem & Manyetik Klavye Desteği",
+      "10000 mAh Yüksek Kapasiteli Batarya",
+      "Xiaomi HyperOS Tablet İş İstasyonu ve Çoklu Pencere Modu"
+    ],
+    "tags": [
+      "Xiaomi",
+      "HyperOS",
+      "Pad 6 Pro",
+      "Kalem & Klavye Desteği",
+      "2023 Modeli"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-xiaomi-pad-6-pro-12238",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com/ara?q=xiaomi+xiaomi-pad-6-pro-12238"
+      },
+      {
+        "id": "st-tr-xiaomi-pad-6-pro-12238",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 22109,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com/sr?q=xiaomi+xiaomi-pad-6-pro-12238"
+      },
+      {
+        "id": "st-me-xiaomi-pad-6-pro-12238",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 22219,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=xiaomi+xiaomi-pad-6-pro-12238"
+      },
+      {
+        "id": "st-va-xiaomi-pad-6-pro-12238",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 21955,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.vatanbilgisayar.com/arama/xiaomi-xiaomi-pad-6-pro-12238/"
+      },
+      {
+        "id": "st-te-xiaomi-pad-6-pro-12238",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 22043,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.teknosa.com/arama?s=xiaomi+xiaomi-pad-6-pro-12238"
+      },
+      {
+        "id": "st-am-xiaomi-pad-6-pro-12238",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 21889,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr/s?k=xiaomi+xiaomi-pad-6-pro-12238"
+      },
+      {
+        "id": "st-mi-xiaomi-pad-6-pro-12238",
+        "storeName": "Mi Store",
+        "storeLogoColor": "bg-orange-500",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mi.com/tr/product/xiaomi-pad-6-pro-12238/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 23319,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 22659,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 22219,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21999,
+        "store": "Mi Store"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Koyu Gri",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#0284c7"
+      }
+    ]
+  },
+  {
     "id": "oneplus-oneplus-pad",
     "slug": "oneplus-pad",
     "name": "OnePlus Pad",
@@ -10708,6 +13070,368 @@ export const mockTablets: Product[] = [
       {
         "name": "Gümüş",
         "hex": "#cbd5e1"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-xiaomi-redmi-k-pad-13960",
+    "slug": "xiaomi-redmi-k-pad-13960",
+    "name": "Redmi K Pad",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 329,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/xiaomi/xiaomi-redmi-k-pad-13960.jpg",
+    "images": [
+      "/images/tablets/xiaomi/xiaomi-redmi-k-pad-13960.jpg"
+    ],
+    "highlights": [
+      "Redmi K Pad Geniş ve Net Ekran Deneyimi",
+      "Akıllı Kalem & Manyetik Klavye Desteği",
+      "8600 mAh Yüksek Kapasiteli Batarya",
+      "Xiaomi HyperOS Tablet İş İstasyonu ve Çoklu Pencere Modu"
+    ],
+    "tags": [
+      "Xiaomi",
+      "HyperOS",
+      "Redmi K Pad",
+      "Kalem & Klavye Desteği",
+      "2023 Modeli"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-xiaomi-redmi-k-pad-13960",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com/ara?q=xiaomi+xiaomi-redmi-k-pad-13960"
+      },
+      {
+        "id": "st-tr-xiaomi-redmi-k-pad-13960",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 15074,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com/sr?q=xiaomi+xiaomi-redmi-k-pad-13960"
+      },
+      {
+        "id": "st-me-xiaomi-redmi-k-pad-13960",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 15149,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=xiaomi+xiaomi-redmi-k-pad-13960"
+      },
+      {
+        "id": "st-va-xiaomi-redmi-k-pad-13960",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 14969,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.vatanbilgisayar.com/arama/xiaomi-xiaomi-redmi-k-pad-13960/"
+      },
+      {
+        "id": "st-te-xiaomi-redmi-k-pad-13960",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 15029,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.teknosa.com/arama?s=xiaomi+xiaomi-redmi-k-pad-13960"
+      },
+      {
+        "id": "st-am-xiaomi-redmi-k-pad-13960",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14924,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr/s?k=xiaomi+xiaomi-redmi-k-pad-13960"
+      },
+      {
+        "id": "st-mi-xiaomi-redmi-k-pad-13960",
+        "storeName": "Mi Store",
+        "storeLogoColor": "bg-orange-500",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mi.com/tr/product/xiaomi-redmi-k-pad-13960/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 15899,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 15449,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 15149,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "Mi Store"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Koyu Gri",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#0284c7"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-xiaomi-poco-pad-5g-13279",
+    "slug": "xiaomi-poco-pad-5g-13279",
+    "name": "Poco Pad 5G",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "rating": 4.9,
+    "reviewCount": 62,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/xiaomi/xiaomi-poco-pad-5g-13279.jpg",
+    "images": [
+      "/images/tablets/xiaomi/xiaomi-poco-pad-5g-13279.jpg"
+    ],
+    "highlights": [
+      "Poco Pad 5G Geniş ve Net Ekran Deneyimi",
+      "Akıllı Kalem & Manyetik Klavye Desteği",
+      "8600 mAh Yüksek Kapasiteli Batarya",
+      "Xiaomi HyperOS Tablet İş İstasyonu ve Çoklu Pencere Modu"
+    ],
+    "tags": [
+      "Xiaomi",
+      "HyperOS",
+      "Poco Pad 5G",
+      "Kalem & Klavye Desteği",
+      "2023 Modeli"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-xiaomi-poco-pad-5g-13279",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com/ara?q=xiaomi+xiaomi-poco-pad-5g-13279"
+      },
+      {
+        "id": "st-tr-xiaomi-poco-pad-5g-13279",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 15074,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com/sr?q=xiaomi+xiaomi-poco-pad-5g-13279"
+      },
+      {
+        "id": "st-me-xiaomi-poco-pad-5g-13279",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 15149,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=xiaomi+xiaomi-poco-pad-5g-13279"
+      },
+      {
+        "id": "st-va-xiaomi-poco-pad-5g-13279",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 14969,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.vatanbilgisayar.com/arama/xiaomi-xiaomi-poco-pad-5g-13279/"
+      },
+      {
+        "id": "st-te-xiaomi-poco-pad-5g-13279",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 15029,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.teknosa.com/arama?s=xiaomi+xiaomi-poco-pad-5g-13279"
+      },
+      {
+        "id": "st-am-xiaomi-poco-pad-5g-13279",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14924,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr/s?k=xiaomi+xiaomi-poco-pad-5g-13279"
+      },
+      {
+        "id": "st-mi-xiaomi-poco-pad-5g-13279",
+        "storeName": "Mi Store",
+        "storeLogoColor": "bg-orange-500",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mi.com/tr/product/xiaomi-poco-pad-5g-13279/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 15899,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 15449,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 15149,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "Mi Store"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Koyu Gri",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#0284c7"
       }
     ]
   },
@@ -13252,9 +15976,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple M2 Çip Yüksek Performanslı İşlemci",
@@ -13368,9 +16092,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/ipad-pro-11.jpg",
+    "image": "/images/tablets/apple/ipad-pro-11.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/ipad-pro-11.jpg"
+      "/images/tablets/apple/ipad-pro-11.jpg"
     ],
     "highlights": [
       "Apple M2 Çip Yüksek Performanslı İşlemci",
@@ -13484,9 +16208,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-air.jpg",
+    "image": "/images/tablets/apple/apple-ipad-air.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-air.jpg"
+      "/images/tablets/apple/apple-ipad-air.jpg"
     ],
     "highlights": [
       "Apple M1 Çip Yüksek Performanslı İşlemci",
@@ -13588,6 +16312,187 @@ export const mockTablets: Product[] = [
     }
   },
   {
+    "id": "xiaomi-xiaomi-pad-5-pro-11043",
+    "slug": "xiaomi-pad-5-pro-11043",
+    "name": "Xiaomi Pad 5 Pro",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 413,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tablets/xiaomi/xiaomi-pad-5-pro-11043.jpg",
+    "images": [
+      "/images/tablets/xiaomi/xiaomi-pad-5-pro-11043.jpg"
+    ],
+    "highlights": [
+      "Pad 5 Pro Geniş ve Net Ekran Deneyimi",
+      "Akıllı Kalem & Manyetik Klavye Desteği",
+      "10000 mAh Yüksek Kapasiteli Batarya",
+      "Xiaomi HyperOS Tablet İş İstasyonu ve Çoklu Pencere Modu"
+    ],
+    "tags": [
+      "Xiaomi",
+      "HyperOS",
+      "Pad 5 Pro",
+      "Kalem & Klavye Desteği",
+      "2022 Modeli"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-xiaomi-pad-5-pro-11043",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com/ara?q=xiaomi+xiaomi-pad-5-pro-11043"
+      },
+      {
+        "id": "st-tr-xiaomi-pad-5-pro-11043",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 22109,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com/sr?q=xiaomi+xiaomi-pad-5-pro-11043"
+      },
+      {
+        "id": "st-me-xiaomi-pad-5-pro-11043",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 22219,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=xiaomi+xiaomi-pad-5-pro-11043"
+      },
+      {
+        "id": "st-va-xiaomi-pad-5-pro-11043",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 21955,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.vatanbilgisayar.com/arama/xiaomi-xiaomi-pad-5-pro-11043/"
+      },
+      {
+        "id": "st-te-xiaomi-pad-5-pro-11043",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 22043,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.teknosa.com/arama?s=xiaomi+xiaomi-pad-5-pro-11043"
+      },
+      {
+        "id": "st-am-xiaomi-pad-5-pro-11043",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 21889,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr/s?k=xiaomi+xiaomi-pad-5-pro-11043"
+      },
+      {
+        "id": "st-mi-xiaomi-pad-5-pro-11043",
+        "storeName": "Mi Store",
+        "storeLogoColor": "bg-orange-500",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mi.com/tr/product/xiaomi-pad-5-pro-11043/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 23319,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 22659,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 22219,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21999,
+        "store": "Mi Store"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Koyu Gri",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#0284c7"
+      }
+    ]
+  },
+  {
     "id": "apple-apple-ipad-(2022",
     "slug": "apple-ipad-(2022",
     "name": "Apple iPad (2022) Tablet",
@@ -13600,9 +16505,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple A14 Bionic Yüksek Performanslı İşlemci",
@@ -14032,9 +16937,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple M2 Çip Yüksek Performanslı İşlemci",
@@ -14148,9 +17053,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/ipad-pro-11.jpg",
+    "image": "/images/tablets/apple/ipad-pro-11.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/ipad-pro-11.jpg"
+      "/images/tablets/apple/ipad-pro-11.jpg"
     ],
     "highlights": [
       "Apple M2 Çip Yüksek Performanslı İşlemci",
@@ -14422,9 +17327,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-mini.jpg",
+    "image": "/images/tablets/apple/apple-ipad-mini.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-mini.jpg"
+      "/images/tablets/apple/apple-ipad-mini.jpg"
     ],
     "highlights": [
       "Apple A15 Bionic Yüksek Performanslı İşlemci",
@@ -14538,9 +17443,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple A14 Bionic Yüksek Performanslı İşlemci",
@@ -14970,9 +17875,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple M2 Çip Yüksek Performanslı İşlemci",
@@ -15086,9 +17991,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/ipad-pro-11.jpg",
+    "image": "/images/tablets/apple/ipad-pro-11.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/ipad-pro-11.jpg"
+      "/images/tablets/apple/ipad-pro-11.jpg"
     ],
     "highlights": [
       "Apple M2 Çip Yüksek Performanslı İşlemci",
@@ -15202,9 +18107,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-air.jpg",
+    "image": "/images/tablets/apple/apple-ipad-air.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-air.jpg"
+      "/images/tablets/apple/apple-ipad-air.jpg"
     ],
     "highlights": [
       "Apple M1 Çip Yüksek Performanslı İşlemci",
@@ -15318,9 +18223,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple A14 Bionic Yüksek Performanslı İşlemci",
@@ -17172,9 +20077,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2019,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-air.jpg",
+    "image": "/images/tablets/apple/apple-ipad-air.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-air.jpg"
+      "/images/tablets/apple/apple-ipad-air.jpg"
     ],
     "highlights": [
       "Apple M1 Çip Yüksek Performanslı İşlemci",
@@ -17288,9 +20193,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2019,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-mini.jpg",
+    "image": "/images/tablets/apple/apple-ipad-mini.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-mini.jpg"
+      "/images/tablets/apple/apple-ipad-mini.jpg"
     ],
     "highlights": [
       "Apple A15 Bionic Yüksek Performanslı İşlemci",
@@ -17404,9 +20309,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2019,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple A14 Bionic Yüksek Performanslı İşlemci",
@@ -17506,6 +20411,187 @@ export const mockTablets: Product[] = [
       "connectivity": "Wi-Fi 7/6E",
       "battery": "10 Saate Kadar Web'de Gezinme / Video Oynatma"
     }
+  },
+  {
+    "id": "xiaomi-xiaomi-mi-pad-4-9249",
+    "slug": "xiaomi-mi-pad-4-9249",
+    "name": "Mi Pad 4",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 195,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/xiaomi/xiaomi-mi-pad-4-9249.jpg",
+    "images": [
+      "/images/tablets/xiaomi/xiaomi-mi-pad-4-9249.jpg"
+    ],
+    "highlights": [
+      "Mi Pad 4 Geniş ve Net Ekran Deneyimi",
+      "Akıllı Kalem & Manyetik Klavye Desteği",
+      "8600 mAh Yüksek Kapasiteli Batarya",
+      "Xiaomi HyperOS Tablet İş İstasyonu ve Çoklu Pencere Modu"
+    ],
+    "tags": [
+      "Xiaomi",
+      "HyperOS",
+      "Mi Pad 4",
+      "Kalem & Klavye Desteği",
+      "2019 Modeli"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-xiaomi-mi-pad-4-9249",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com/ara?q=xiaomi+xiaomi-mi-pad-4-9249"
+      },
+      {
+        "id": "st-tr-xiaomi-mi-pad-4-9249",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 12059,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com/sr?q=xiaomi+xiaomi-mi-pad-4-9249"
+      },
+      {
+        "id": "st-me-xiaomi-mi-pad-4-9249",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 12119,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=xiaomi+xiaomi-mi-pad-4-9249"
+      },
+      {
+        "id": "st-va-xiaomi-mi-pad-4-9249",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 11975,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.vatanbilgisayar.com/arama/xiaomi-xiaomi-mi-pad-4-9249/"
+      },
+      {
+        "id": "st-te-xiaomi-mi-pad-4-9249",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 12023,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.teknosa.com/arama?s=xiaomi+xiaomi-mi-pad-4-9249"
+      },
+      {
+        "id": "st-am-xiaomi-mi-pad-4-9249",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11939,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr/s?k=xiaomi+xiaomi-mi-pad-4-9249"
+      },
+      {
+        "id": "st-mi-xiaomi-mi-pad-4-9249",
+        "storeName": "Mi Store",
+        "storeLogoColor": "bg-orange-500",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mi.com/tr/product/xiaomi-mi-pad-4-9249/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 12719,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 12359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 12119,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11999,
+        "store": "Mi Store"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Koyu Gri",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#0284c7"
+      }
+    ]
   },
   {
     "id": "huawei-huawei_matepad_pro_10_8_5g_(2019",
@@ -19890,9 +22976,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2018,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple M2 Çip Yüksek Performanslı İşlemci",
@@ -20006,9 +23092,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2018,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/ipad-pro-11.jpg",
+    "image": "/images/tablets/apple/ipad-pro-11.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/ipad-pro-11.jpg"
+      "/images/tablets/apple/ipad-pro-11.jpg"
     ],
     "highlights": [
       "Apple M2 Çip Yüksek Performanslı İşlemci",
@@ -20122,9 +23208,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2018,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple A14 Bionic Yüksek Performanslı İşlemci",
@@ -20226,6 +23312,187 @@ export const mockTablets: Product[] = [
     }
   },
   {
+    "id": "xiaomi-xiaomi-mi-pad-3-8477",
+    "slug": "xiaomi-mi-pad-3-8477",
+    "name": "Mi Pad 3",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "rating": 4.6,
+    "reviewCount": 444,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2018,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/xiaomi/xiaomi-mi-pad-3-8477.jpg",
+    "images": [
+      "/images/tablets/xiaomi/xiaomi-mi-pad-3-8477.jpg"
+    ],
+    "highlights": [
+      "Mi Pad 3 Geniş ve Net Ekran Deneyimi",
+      "Akıllı Kalem & Manyetik Klavye Desteği",
+      "8600 mAh Yüksek Kapasiteli Batarya",
+      "Xiaomi HyperOS Tablet İş İstasyonu ve Çoklu Pencere Modu"
+    ],
+    "tags": [
+      "Xiaomi",
+      "HyperOS",
+      "Mi Pad 3",
+      "Kalem & Klavye Desteği",
+      "2018 Modeli"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-xiaomi-mi-pad-3-8477",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com/ara?q=xiaomi+xiaomi-mi-pad-3-8477"
+      },
+      {
+        "id": "st-tr-xiaomi-mi-pad-3-8477",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 12059,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com/sr?q=xiaomi+xiaomi-mi-pad-3-8477"
+      },
+      {
+        "id": "st-me-xiaomi-mi-pad-3-8477",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 12119,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=xiaomi+xiaomi-mi-pad-3-8477"
+      },
+      {
+        "id": "st-va-xiaomi-mi-pad-3-8477",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 11975,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.vatanbilgisayar.com/arama/xiaomi-xiaomi-mi-pad-3-8477/"
+      },
+      {
+        "id": "st-te-xiaomi-mi-pad-3-8477",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 12023,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.teknosa.com/arama?s=xiaomi+xiaomi-mi-pad-3-8477"
+      },
+      {
+        "id": "st-am-xiaomi-mi-pad-3-8477",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11939,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr/s?k=xiaomi+xiaomi-mi-pad-3-8477"
+      },
+      {
+        "id": "st-mi-xiaomi-mi-pad-3-8477",
+        "storeName": "Mi Store",
+        "storeLogoColor": "bg-orange-500",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xiaomi Türkiye Garantili",
+          "Orijinal Ürün",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.mi.com/tr/product/xiaomi-mi-pad-3-8477/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 12719,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 12359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 12119,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11999,
+        "store": "Mi Store"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Koyu Gri",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#0284c7"
+      }
+    ]
+  },
+  {
     "id": "apple-apple-ipad-pro-12-9-(2017",
     "slug": "apple-ipad-pro-12-9-(2017",
     "name": "Apple iPad Pro 12.9 (2017) Tablet",
@@ -20238,9 +23505,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2017,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple M2 Çip Yüksek Performanslı İşlemci",
@@ -20354,9 +23621,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2017,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple A14 Bionic Yüksek Performanslı İşlemci",
@@ -20470,9 +23737,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2017,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple A14 Bionic Yüksek Performanslı İşlemci",
@@ -20586,9 +23853,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2016,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-97.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-97.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-97.jpg"
+      "/images/tablets/apple/apple-ipad-pro-97.jpg"
     ],
     "highlights": [
       "Apple A14 Bionic Yüksek Performanslı İşlemci",
@@ -20702,9 +23969,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2015,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple M2 Çip Yüksek Performanslı İşlemci",
@@ -20818,9 +24085,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2015,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple M1 Çip Yüksek Performanslı İşlemci",
@@ -20934,9 +24201,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2015,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-air.jpg",
+    "image": "/images/tablets/apple/apple-ipad-air.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-air.jpg"
+      "/images/tablets/apple/apple-ipad-air.jpg"
     ],
     "highlights": [
       "Apple M1 Çip Yüksek Performanslı İşlemci",
@@ -21050,9 +24317,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2015,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-mini-4.jpg",
+    "image": "/images/tablets/apple/apple-ipad-mini-4.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-mini-4.jpg"
+      "/images/tablets/apple/apple-ipad-mini-4.jpg"
     ],
     "highlights": [
       "Apple A15 Bionic Yüksek Performanslı İşlemci",
@@ -21166,9 +24433,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2015,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple A15 Bionic Yüksek Performanslı İşlemci",
@@ -21282,9 +24549,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2015,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple A15 Bionic Yüksek Performanslı İşlemci",
@@ -21398,9 +24665,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2015,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple A15 Bionic Yüksek Performanslı İşlemci",
@@ -21514,9 +24781,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2015,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple A15 Bionic Yüksek Performanslı İşlemci",
@@ -21630,9 +24897,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2015,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple A14 Bionic Yüksek Performanslı İşlemci",
@@ -21746,9 +25013,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2015,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple A14 Bionic Yüksek Performanslı İşlemci",
@@ -21862,9 +25129,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2015,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple A14 Bionic Yüksek Performanslı İşlemci",
@@ -21978,9 +25245,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2015,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple A14 Bionic Yüksek Performanslı İşlemci",
@@ -22094,9 +25361,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2015,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple A14 Bionic Yüksek Performanslı İşlemci",
@@ -22210,9 +25477,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2015,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple A14 Bionic Yüksek Performanslı İşlemci",
@@ -22326,9 +25593,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2015,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple A14 Bionic Yüksek Performanslı İşlemci",
@@ -22442,9 +25709,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2015,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg",
+    "image": "/images/tablets/apple/apple-ipad-pro-13-2024.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-13-2024.jpg"
+      "/images/tablets/apple/apple-ipad-pro-13-2024.jpg"
     ],
     "highlights": [
       "Apple A14 Bionic Yüksek Performanslı İşlemci",
@@ -22558,9 +25825,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2015,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-wifi.jpg",
+    "image": "/images/tablets/apple/apple-ipad-wifi.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-wifi.jpg"
+      "/images/tablets/apple/apple-ipad-wifi.jpg"
     ],
     "highlights": [
       "Apple A14 Bionic Yüksek Performanslı İşlemci",
