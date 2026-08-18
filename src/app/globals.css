@@ -58,10 +58,9 @@ body {
   border-radius: 9999px;
 }
 
-/* Diagonal Ribbon Badge / Starburst Badge (Vatan Style) */
+/* Diagonal Ribbon Badge / Starburst Badge (Disabled) */
 .badge-starburst {
-  background: radial-gradient(circle at 30% 30%, #ef4444, #dc2626);
-  box-shadow: 0 4px 14px rgba(239, 68, 68, 0.4);
+  display: none !important;
 }
 
 /* Handwritten / Expressive Script Accent Typography for Hero Banner */
