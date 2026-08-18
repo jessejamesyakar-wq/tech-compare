@@ -7636,5 +7636,12329 @@ export const mockTablets: Product[] = [
       "connectivity": "Wi-Fi 7/6E",
       "battery": "10 Saate Kadar Web'de Gezinme / Video Oynatma"
     }
+  },
+  {
+    "id": "huawei-huawei_matepad_pro_12_(2026",
+    "slug": "huawei_matepad_pro_12_(2026",
+    "name": "Huawei MatePad Pro 12 (2026)",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 245,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-pro-12--2026.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-pro-12--2026.jpg"
+    ],
+    "highlights": [
+      "PaperMatte 144Hz Göz Korumalı Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "10100 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_pro_12_(2026",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_pro_12_(2026"
+      },
+      {
+        "id": "st-tr-huawei_matepad_pro_12_(2026",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 35174,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_pro_12_(2026"
+      },
+      {
+        "id": "st-me-huawei_matepad_pro_12_(2026",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 35349,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_pro_12_(2026"
+      },
+      {
+        "id": "st-va-huawei_matepad_pro_12_(2026",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 34929,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_pro_12_(2026/"
+      },
+      {
+        "id": "st-te-huawei_matepad_pro_12_(2026",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 35069,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_pro_12_(2026"
+      },
+      {
+        "id": "st-am-huawei_matepad_pro_12_(2026",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34824,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_pro_12_(2026"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 36749,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 35699,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 34999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_air_(2026",
+    "slug": "huawei_matepad_air_(2026",
+    "name": "Huawei MatePad Air (2026)",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 349,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-air--2026.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-air--2026.jpg"
+    ],
+    "highlights": [
+      "PaperMatte 144Hz Göz Korumalı Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "10100 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_air_(2026",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_air_(2026"
+      },
+      {
+        "id": "st-tr-huawei_matepad_air_(2026",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 22109,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_air_(2026"
+      },
+      {
+        "id": "st-me-huawei_matepad_air_(2026",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 22219,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_air_(2026"
+      },
+      {
+        "id": "st-va-huawei_matepad_air_(2026",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 21955,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_air_(2026/"
+      },
+      {
+        "id": "st-te-huawei_matepad_air_(2026",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 22043,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_air_(2026"
+      },
+      {
+        "id": "st-am-huawei_matepad_air_(2026",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 21889,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_air_(2026"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 23099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 22439,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 21999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_pro_max-14658",
+    "slug": "huawei_matepad_pro_max-14658",
+    "name": "Huawei MatePad Pro Max",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.9,
+    "reviewCount": 329,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-pro-max-14658.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-pro-max-14658.jpg"
+    ],
+    "highlights": [
+      "PaperMatte 144Hz Göz Korumalı Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "10100 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_pro_max-14658",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_pro_max-14658"
+      },
+      {
+        "id": "st-tr-huawei_matepad_pro_max-14658",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 35174,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_pro_max-14658"
+      },
+      {
+        "id": "st-me-huawei_matepad_pro_max-14658",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 35349,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_pro_max-14658"
+      },
+      {
+        "id": "st-va-huawei_matepad_pro_max-14658",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 34929,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_pro_max-14658/"
+      },
+      {
+        "id": "st-te-huawei_matepad_pro_max-14658",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 35069,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_pro_max-14658"
+      },
+      {
+        "id": "st-am-huawei_matepad_pro_max-14658",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34824,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_pro_max-14658"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 36749,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 35699,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 34999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_11_5_(2026",
+    "slug": "huawei_matepad_11_5_(2026",
+    "name": "Huawei MatePad 11.5 (2026)",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.9,
+    "reviewCount": 170,
+    "basePrice": 13999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-11-5--2026.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-11-5--2026.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_11_5_(2026",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 13999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_11_5_(2026"
+      },
+      {
+        "id": "st-tr-huawei_matepad_11_5_(2026",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14069,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_11_5_(2026"
+      },
+      {
+        "id": "st-me-huawei_matepad_11_5_(2026",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 14139,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_11_5_(2026"
+      },
+      {
+        "id": "st-va-huawei_matepad_11_5_(2026",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13971,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_11_5_(2026/"
+      },
+      {
+        "id": "st-te-huawei_matepad_11_5_(2026",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14027,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_11_5_(2026"
+      },
+      {
+        "id": "st-am-huawei_matepad_11_5_(2026",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 13929,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_11_5_(2026"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 14699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 14279,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 13999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_edge-14316",
+    "slug": "huawei_matepad_edge-14316",
+    "name": "Huawei MatePad Edge",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 284,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-edge-14316.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-edge-14316.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_edge-14316",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_edge-14316"
+      },
+      {
+        "id": "st-tr-huawei_matepad_edge-14316",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 35174,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_edge-14316"
+      },
+      {
+        "id": "st-me-huawei_matepad_edge-14316",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 35349,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_edge-14316"
+      },
+      {
+        "id": "st-va-huawei_matepad_edge-14316",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 34929,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_edge-14316/"
+      },
+      {
+        "id": "st-te-huawei_matepad_edge-14316",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 35069,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_edge-14316"
+      },
+      {
+        "id": "st-am-huawei_matepad_edge-14316",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34824,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_edge-14316"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 36749,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 35699,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 34999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_12_x_(2025",
+    "slug": "huawei_matepad_12_x_(2025",
+    "name": "Huawei MatePad 12 X (2025)",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 348,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-12-x--2025.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-12-x--2025.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_12_x_(2025",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_12_x_(2025"
+      },
+      {
+        "id": "st-tr-huawei_matepad_12_x_(2025",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 22109,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_12_x_(2025"
+      },
+      {
+        "id": "st-me-huawei_matepad_12_x_(2025",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 22219,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_12_x_(2025"
+      },
+      {
+        "id": "st-va-huawei_matepad_12_x_(2025",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 21955,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_12_x_(2025/"
+      },
+      {
+        "id": "st-te-huawei_matepad_12_x_(2025",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 22043,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_12_x_(2025"
+      },
+      {
+        "id": "st-am-huawei_matepad_12_x_(2025",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 21889,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_12_x_(2025"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 23099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 22439,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 21999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_mini_5g-14122",
+    "slug": "huawei_matepad_mini_5g-14122",
+    "name": "Huawei MatePad Mini",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 268,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-mini-5g-14122.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-mini-5g-14122.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_mini_5g-14122",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_mini_5g-14122"
+      },
+      {
+        "id": "st-tr-huawei_matepad_mini_5g-14122",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_mini_5g-14122"
+      },
+      {
+        "id": "st-me-huawei_matepad_mini_5g-14122",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_mini_5g-14122"
+      },
+      {
+        "id": "st-va-huawei_matepad_mini_5g-14122",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_mini_5g-14122/"
+      },
+      {
+        "id": "st-te-huawei_matepad_mini_5g-14122",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_mini_5g-14122"
+      },
+      {
+        "id": "st-am-huawei_matepad_mini_5g-14122",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_mini_5g-14122"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_air_(2025",
+    "slug": "huawei_matepad_air_(2025",
+    "name": "Huawei MatePad Air (2025)",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 316,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-air--2025.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-air--2025.jpg"
+    ],
+    "highlights": [
+      "PaperMatte 144Hz Göz Korumalı Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "10100 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_air_(2025",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_air_(2025"
+      },
+      {
+        "id": "st-tr-huawei_matepad_air_(2025",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 22109,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_air_(2025"
+      },
+      {
+        "id": "st-me-huawei_matepad_air_(2025",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 22219,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_air_(2025"
+      },
+      {
+        "id": "st-va-huawei_matepad_air_(2025",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 21955,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_air_(2025/"
+      },
+      {
+        "id": "st-te-huawei_matepad_air_(2025",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 22043,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_air_(2025"
+      },
+      {
+        "id": "st-am-huawei_matepad_air_(2025",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 21889,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_air_(2025"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 23099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 22439,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 21999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_11_5_s_(2025",
+    "slug": "huawei_matepad_11_5_s_(2025",
+    "name": "Huawei MatePad 11.5 S (2025)",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 220,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-11-5-s--2025.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-11-5-s--2025.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_11_5_s_(2025",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_11_5_s_(2025"
+      },
+      {
+        "id": "st-tr-huawei_matepad_11_5_s_(2025",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 22109,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_11_5_s_(2025"
+      },
+      {
+        "id": "st-me-huawei_matepad_11_5_s_(2025",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 22219,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_11_5_s_(2025"
+      },
+      {
+        "id": "st-va-huawei_matepad_11_5_s_(2025",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 21955,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_11_5_s_(2025/"
+      },
+      {
+        "id": "st-te-huawei_matepad_11_5_s_(2025",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 22043,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_11_5_s_(2025"
+      },
+      {
+        "id": "st-am-huawei_matepad_11_5_s_(2025",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 21889,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_11_5_s_(2025"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 23099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 22439,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 21999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_11_5_(2025",
+    "slug": "huawei_matepad_11_5_(2025",
+    "name": "Huawei MatePad 11.5 (2025)",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.9,
+    "reviewCount": 254,
+    "basePrice": 13999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-11-5--2025.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-11-5--2025.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_11_5_(2025",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 13999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_11_5_(2025"
+      },
+      {
+        "id": "st-tr-huawei_matepad_11_5_(2025",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14069,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_11_5_(2025"
+      },
+      {
+        "id": "st-me-huawei_matepad_11_5_(2025",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 14139,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_11_5_(2025"
+      },
+      {
+        "id": "st-va-huawei_matepad_11_5_(2025",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13971,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_11_5_(2025/"
+      },
+      {
+        "id": "st-te-huawei_matepad_11_5_(2025",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14027,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_11_5_(2025"
+      },
+      {
+        "id": "st-am-huawei_matepad_11_5_(2025",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 13929,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_11_5_(2025"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 14699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 14279,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 13999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_pro_12_2_(2025",
+    "slug": "huawei_matepad_pro_12_2_(2025",
+    "name": "Huawei MatePad Pro 12.2 (2025)",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 297,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-pro-12-2--2025.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-pro-12-2--2025.jpg"
+    ],
+    "highlights": [
+      "PaperMatte 144Hz Göz Korumalı Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "10100 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_pro_12_2_(2025",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_pro_12_2_(2025"
+      },
+      {
+        "id": "st-tr-huawei_matepad_pro_12_2_(2025",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 35174,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_pro_12_2_(2025"
+      },
+      {
+        "id": "st-me-huawei_matepad_pro_12_2_(2025",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 35349,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_pro_12_2_(2025"
+      },
+      {
+        "id": "st-va-huawei_matepad_pro_12_2_(2025",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 34929,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_pro_12_2_(2025/"
+      },
+      {
+        "id": "st-te-huawei_matepad_pro_12_2_(2025",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 35069,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_pro_12_2_(2025"
+      },
+      {
+        "id": "st-am-huawei_matepad_pro_12_2_(2025",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34824,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_pro_12_2_(2025"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 36749,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 35699,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 34999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_pro_13_2_(2024",
+    "slug": "huawei_matepad_pro_13_2_(2024",
+    "name": "Huawei MatePad Pro 13.2 (2025)",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 288,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-pro-13-2--2024.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-pro-13-2--2024.jpg"
+    ],
+    "highlights": [
+      "PaperMatte 144Hz Göz Korumalı Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "10100 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_pro_13_2_(2024",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_pro_13_2_(2024"
+      },
+      {
+        "id": "st-tr-huawei_matepad_pro_13_2_(2024",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 35174,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_pro_13_2_(2024"
+      },
+      {
+        "id": "st-me-huawei_matepad_pro_13_2_(2024",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 35349,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_pro_13_2_(2024"
+      },
+      {
+        "id": "st-va-huawei_matepad_pro_13_2_(2024",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 34929,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_pro_13_2_(2024/"
+      },
+      {
+        "id": "st-te-huawei_matepad_pro_13_2_(2024",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 35069,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_pro_13_2_(2024"
+      },
+      {
+        "id": "st-am-huawei_matepad_pro_13_2_(2024",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34824,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_pro_13_2_(2024"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 36749,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 35699,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 34999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_12_x-13352",
+    "slug": "huawei_matepad_12_x-13352",
+    "name": "Huawei MatePad 12 X",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 232,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-12-x-13352.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-12-x-13352.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_12_x-13352",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_12_x-13352"
+      },
+      {
+        "id": "st-tr-huawei_matepad_12_x-13352",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 22109,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_12_x-13352"
+      },
+      {
+        "id": "st-me-huawei_matepad_12_x-13352",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 22219,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_12_x-13352"
+      },
+      {
+        "id": "st-va-huawei_matepad_12_x-13352",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 21955,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_12_x-13352/"
+      },
+      {
+        "id": "st-te-huawei_matepad_12_x-13352",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 22043,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_12_x-13352"
+      },
+      {
+        "id": "st-am-huawei_matepad_12_x-13352",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 21889,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_12_x-13352"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 23099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 22439,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 21999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_air_(2024",
+    "slug": "huawei_matepad_air_(2024",
+    "name": "Huawei MatePad Air (2024)",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 84,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-air--2024.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-air--2024.jpg"
+    ],
+    "highlights": [
+      "PaperMatte 144Hz Göz Korumalı Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "10100 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_air_(2024",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_air_(2024"
+      },
+      {
+        "id": "st-tr-huawei_matepad_air_(2024",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 22109,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_air_(2024"
+      },
+      {
+        "id": "st-me-huawei_matepad_air_(2024",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 22219,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_air_(2024"
+      },
+      {
+        "id": "st-va-huawei_matepad_air_(2024",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 21955,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_air_(2024/"
+      },
+      {
+        "id": "st-te-huawei_matepad_air_(2024",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 22043,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_air_(2024"
+      },
+      {
+        "id": "st-am-huawei_matepad_air_(2024",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 21889,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_air_(2024"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 23099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 22439,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 21999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_pro_12_2_(2024",
+    "slug": "huawei_matepad_pro_12_2_(2024",
+    "name": "Huawei MatePad Pro 12.2 (2024)",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.9,
+    "reviewCount": 359,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-pro-12-2--2024.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-pro-12-2--2024.jpg"
+    ],
+    "highlights": [
+      "PaperMatte 144Hz Göz Korumalı Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "10100 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_pro_12_2_(2024",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_pro_12_2_(2024"
+      },
+      {
+        "id": "st-tr-huawei_matepad_pro_12_2_(2024",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 35174,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_pro_12_2_(2024"
+      },
+      {
+        "id": "st-me-huawei_matepad_pro_12_2_(2024",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 35349,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_pro_12_2_(2024"
+      },
+      {
+        "id": "st-va-huawei_matepad_pro_12_2_(2024",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 34929,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_pro_12_2_(2024/"
+      },
+      {
+        "id": "st-te-huawei_matepad_pro_12_2_(2024",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 35069,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_pro_12_2_(2024"
+      },
+      {
+        "id": "st-am-huawei_matepad_pro_12_2_(2024",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34824,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_pro_12_2_(2024"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 36749,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 35699,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 34999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_se_11-13135",
+    "slug": "huawei_matepad_se_11-13135",
+    "name": "Huawei MatePad SE 11",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 344,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-se-11-13135.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-se-11-13135.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_se_11-13135",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_se_11-13135"
+      },
+      {
+        "id": "st-tr-huawei_matepad_se_11-13135",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_se_11-13135"
+      },
+      {
+        "id": "st-me-huawei_matepad_se_11-13135",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_se_11-13135"
+      },
+      {
+        "id": "st-va-huawei_matepad_se_11-13135",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_se_11-13135/"
+      },
+      {
+        "id": "st-te-huawei_matepad_se_11-13135",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_se_11-13135"
+      },
+      {
+        "id": "st-am-huawei_matepad_se_11-13135",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_se_11-13135"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_11_5_s-12993",
+    "slug": "huawei_matepad_11_5_s-12993",
+    "name": "Huawei MatePad 11.5 S",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 163,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-11-5-s-12993.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-11-5-s-12993.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_11_5_s-12993",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_11_5_s-12993"
+      },
+      {
+        "id": "st-tr-huawei_matepad_11_5_s-12993",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 22109,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_11_5_s-12993"
+      },
+      {
+        "id": "st-me-huawei_matepad_11_5_s-12993",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 22219,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_11_5_s-12993"
+      },
+      {
+        "id": "st-va-huawei_matepad_11_5_s-12993",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 21955,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_11_5_s-12993/"
+      },
+      {
+        "id": "st-te-huawei_matepad_11_5_s-12993",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 22043,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_11_5_s-12993"
+      },
+      {
+        "id": "st-am-huawei_matepad_11_5_s-12993",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 21889,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_11_5_s-12993"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 23099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 22439,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 21999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_pro_11_(2024",
+    "slug": "huawei_matepad_pro_11_(2024",
+    "name": "Huawei MatePad Pro 11 (2024)",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 132,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-pro-11--2024.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-pro-11--2024.jpg"
+    ],
+    "highlights": [
+      "PaperMatte 144Hz Göz Korumalı Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "10100 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_pro_11_(2024",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_pro_11_(2024"
+      },
+      {
+        "id": "st-tr-huawei_matepad_pro_11_(2024",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_pro_11_(2024"
+      },
+      {
+        "id": "st-me-huawei_matepad_pro_11_(2024",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_pro_11_(2024"
+      },
+      {
+        "id": "st-va-huawei_matepad_pro_11_(2024",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_pro_11_(2024/"
+      },
+      {
+        "id": "st-te-huawei_matepad_pro_11_(2024",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_pro_11_(2024"
+      },
+      {
+        "id": "st-am-huawei_matepad_pro_11_(2024",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_pro_11_(2024"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_pro_13_2-12586",
+    "slug": "huawei_matepad_pro_13_2-12586",
+    "name": "Huawei MatePad Pro 13.2",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 256,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-pro-13-2-12586.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-pro-13-2-12586.jpg"
+    ],
+    "highlights": [
+      "PaperMatte 144Hz Göz Korumalı Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "10100 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_pro_13_2-12586",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_pro_13_2-12586"
+      },
+      {
+        "id": "st-tr-huawei_matepad_pro_13_2-12586",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 35174,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_pro_13_2-12586"
+      },
+      {
+        "id": "st-me-huawei_matepad_pro_13_2-12586",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 35349,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_pro_13_2-12586"
+      },
+      {
+        "id": "st-va-huawei_matepad_pro_13_2-12586",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 34929,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_pro_13_2-12586/"
+      },
+      {
+        "id": "st-te-huawei_matepad_pro_13_2-12586",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 35069,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_pro_13_2-12586"
+      },
+      {
+        "id": "st-am-huawei_matepad_pro_13_2-12586",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34824,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_pro_13_2-12586"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 36749,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 35699,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 34999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_11_5-12420",
+    "slug": "huawei_matepad_11_5-12420",
+    "name": "Huawei MatePad 11.5",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.9,
+    "reviewCount": 294,
+    "basePrice": 13999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-11-5-12420.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-11-5-12420.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_11_5-12420",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 13999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_11_5-12420"
+      },
+      {
+        "id": "st-tr-huawei_matepad_11_5-12420",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14069,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_11_5-12420"
+      },
+      {
+        "id": "st-me-huawei_matepad_11_5-12420",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 14139,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_11_5-12420"
+      },
+      {
+        "id": "st-va-huawei_matepad_11_5-12420",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13971,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_11_5-12420/"
+      },
+      {
+        "id": "st-te-huawei_matepad_11_5-12420",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14027,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_11_5-12420"
+      },
+      {
+        "id": "st-am-huawei_matepad_11_5-12420",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 13929,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_11_5-12420"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 14699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 14279,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 13999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_air-12415",
+    "slug": "huawei_matepad_air-12415",
+    "name": "Huawei MatePad Air",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 197,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-air-12415.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-air-12415.jpg"
+    ],
+    "highlights": [
+      "PaperMatte 144Hz Göz Korumalı Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "10100 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_air-12415",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_air-12415"
+      },
+      {
+        "id": "st-tr-huawei_matepad_air-12415",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 22109,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_air-12415"
+      },
+      {
+        "id": "st-me-huawei_matepad_air-12415",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 22219,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_air-12415"
+      },
+      {
+        "id": "st-va-huawei_matepad_air-12415",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 21955,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_air-12415/"
+      },
+      {
+        "id": "st-te-huawei_matepad_air-12415",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 22043,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_air-12415"
+      },
+      {
+        "id": "st-am-huawei_matepad_air-12415",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 21889,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_air-12415"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 23099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 22439,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 21999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_11_(2023",
+    "slug": "huawei_matepad_11_(2023",
+    "name": "Huawei MatePad 11 (2023)",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 101,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-11--2023.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-11--2023.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_11_(2023",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_11_(2023"
+      },
+      {
+        "id": "st-tr-huawei_matepad_11_(2023",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_11_(2023"
+      },
+      {
+        "id": "st-me-huawei_matepad_11_(2023",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_11_(2023"
+      },
+      {
+        "id": "st-va-huawei_matepad_11_(2023",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_11_(2023/"
+      },
+      {
+        "id": "st-te-huawei_matepad_11_(2023",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_11_(2023"
+      },
+      {
+        "id": "st-am-huawei_matepad_11_(2023",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_11_(2023"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_c5e-11942",
+    "slug": "huawei_matepad_c5e-11942",
+    "name": "Huawei MatePad C5e",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 206,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-c5e-11942.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-c5e-11942.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_c5e-11942",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_c5e-11942"
+      },
+      {
+        "id": "st-tr-huawei_matepad_c5e-11942",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_c5e-11942"
+      },
+      {
+        "id": "st-me-huawei_matepad_c5e-11942",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_c5e-11942"
+      },
+      {
+        "id": "st-va-huawei_matepad_c5e-11942",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_c5e-11942/"
+      },
+      {
+        "id": "st-te-huawei_matepad_c5e-11942",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_c5e-11942"
+      },
+      {
+        "id": "st-am-huawei_matepad_c5e-11942",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_c5e-11942"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_pro_11_(2022",
+    "slug": "huawei_matepad_pro_11_(2022",
+    "name": "Huawei MatePad Pro 11 (2022)",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 235,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-pro-11--2022.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-pro-11--2022.jpg"
+    ],
+    "highlights": [
+      "PaperMatte 144Hz Göz Korumalı Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "10100 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_pro_11_(2022",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_pro_11_(2022"
+      },
+      {
+        "id": "st-tr-huawei_matepad_pro_11_(2022",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_pro_11_(2022"
+      },
+      {
+        "id": "st-me-huawei_matepad_pro_11_(2022",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_pro_11_(2022"
+      },
+      {
+        "id": "st-va-huawei_matepad_pro_11_(2022",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_pro_11_(2022/"
+      },
+      {
+        "id": "st-te-huawei_matepad_pro_11_(2022",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_pro_11_(2022"
+      },
+      {
+        "id": "st-am-huawei_matepad_pro_11_(2022",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_pro_11_(2022"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_10_4_(2022",
+    "slug": "huawei_matepad_10_4_(2022",
+    "name": "Huawei MatePad 10.4 (2022)",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 333,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-10-4--2022.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-10-4--2022.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_10_4_(2022",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_10_4_(2022"
+      },
+      {
+        "id": "st-tr-huawei_matepad_10_4_(2022",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_10_4_(2022"
+      },
+      {
+        "id": "st-me-huawei_matepad_10_4_(2022",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_10_4_(2022"
+      },
+      {
+        "id": "st-va-huawei_matepad_10_4_(2022",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_10_4_(2022/"
+      },
+      {
+        "id": "st-te-huawei_matepad_10_4_(2022",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_10_4_(2022"
+      },
+      {
+        "id": "st-am-huawei_matepad_10_4_(2022",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_10_4_(2022"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_se-11506",
+    "slug": "huawei_matepad_se-11506",
+    "name": "Huawei MatePad SE",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.6,
+    "reviewCount": 103,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-se-11506.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-se-11506.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_se-11506",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_se-11506"
+      },
+      {
+        "id": "st-tr-huawei_matepad_se-11506",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_se-11506"
+      },
+      {
+        "id": "st-me-huawei_matepad_se-11506",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_se-11506"
+      },
+      {
+        "id": "st-va-huawei_matepad_se-11506",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_se-11506/"
+      },
+      {
+        "id": "st-te-huawei_matepad_se-11506",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_se-11506"
+      },
+      {
+        "id": "st-am-huawei_matepad_se-11506",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_se-11506"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_pro_12_6_(2021",
+    "slug": "huawei_matepad_pro_12_6_(2021",
+    "name": "Huawei MatePad Pro 12.6 (2021)",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.6,
+    "reviewCount": 295,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-pro-12-6--2021.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-pro-12-6--2021.jpg"
+    ],
+    "highlights": [
+      "PaperMatte 144Hz Göz Korumalı Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "10100 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_pro_12_6_(2021",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_pro_12_6_(2021"
+      },
+      {
+        "id": "st-tr-huawei_matepad_pro_12_6_(2021",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 35174,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_pro_12_6_(2021"
+      },
+      {
+        "id": "st-me-huawei_matepad_pro_12_6_(2021",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 35349,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_pro_12_6_(2021"
+      },
+      {
+        "id": "st-va-huawei_matepad_pro_12_6_(2021",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 34929,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_pro_12_6_(2021/"
+      },
+      {
+        "id": "st-te-huawei_matepad_pro_12_6_(2021",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 35069,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_pro_12_6_(2021"
+      },
+      {
+        "id": "st-am-huawei_matepad_pro_12_6_(2021",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34824,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_pro_12_6_(2021"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 36749,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 35699,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 34999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_pro_10_8_(2021",
+    "slug": "huawei_matepad_pro_10_8_(2021",
+    "name": "Huawei MatePad Pro 10.8 (2021)",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 154,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-pro-10-8--2021.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-pro-10-8--2021.jpg"
+    ],
+    "highlights": [
+      "PaperMatte 144Hz Göz Korumalı Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "10100 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_pro_10_8_(2021",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_pro_10_8_(2021"
+      },
+      {
+        "id": "st-tr-huawei_matepad_pro_10_8_(2021",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_pro_10_8_(2021"
+      },
+      {
+        "id": "st-me-huawei_matepad_pro_10_8_(2021",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_pro_10_8_(2021"
+      },
+      {
+        "id": "st-va-huawei_matepad_pro_10_8_(2021",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_pro_10_8_(2021/"
+      },
+      {
+        "id": "st-te-huawei_matepad_pro_10_8_(2021",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_pro_10_8_(2021"
+      },
+      {
+        "id": "st-am-huawei_matepad_pro_10_8_(2021",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_pro_10_8_(2021"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_11_(2021",
+    "slug": "huawei_matepad_11_(2021",
+    "name": "Huawei MatePad 11 (2021)",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 327,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-11--2021.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-11--2021.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_11_(2021",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_11_(2021"
+      },
+      {
+        "id": "st-tr-huawei_matepad_11_(2021",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_11_(2021"
+      },
+      {
+        "id": "st-me-huawei_matepad_11_(2021",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_11_(2021"
+      },
+      {
+        "id": "st-va-huawei_matepad_11_(2021",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_11_(2021/"
+      },
+      {
+        "id": "st-te-huawei_matepad_11_(2021",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_11_(2021"
+      },
+      {
+        "id": "st-am-huawei_matepad_11_(2021",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_11_(2021"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_t_10-11768",
+    "slug": "huawei_matepad_t_10-11768",
+    "name": "Huawei MatePad T 10",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.6,
+    "reviewCount": 262,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-t-10-11768.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-t-10-11768.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_t_10-11768",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_t_10-11768"
+      },
+      {
+        "id": "st-tr-huawei_matepad_t_10-11768",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_t_10-11768"
+      },
+      {
+        "id": "st-me-huawei_matepad_t_10-11768",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_t_10-11768"
+      },
+      {
+        "id": "st-va-huawei_matepad_t_10-11768",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_t_10-11768/"
+      },
+      {
+        "id": "st-te-huawei_matepad_t_10-11768",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_t_10-11768"
+      },
+      {
+        "id": "st-am-huawei_matepad_t_10-11768",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_t_10-11768"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_5g-10450",
+    "slug": "huawei_matepad_5g-10450",
+    "name": "Huawei MatePad 5G",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 267,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-5g-10450.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-5g-10450.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_5g-10450",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_5g-10450"
+      },
+      {
+        "id": "st-tr-huawei_matepad_5g-10450",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_5g-10450"
+      },
+      {
+        "id": "st-me-huawei_matepad_5g-10450",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_5g-10450"
+      },
+      {
+        "id": "st-va-huawei_matepad_5g-10450",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_5g-10450/"
+      },
+      {
+        "id": "st-te-huawei_matepad_5g-10450",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_5g-10450"
+      },
+      {
+        "id": "st-am-huawei_matepad_5g-10450",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_5g-10450"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_10_8-10362",
+    "slug": "huawei_matepad_10_8-10362",
+    "name": "Huawei MatePad 10.8",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.6,
+    "reviewCount": 301,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-10-8-10362.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-10-8-10362.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_10_8-10362",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_10_8-10362"
+      },
+      {
+        "id": "st-tr-huawei_matepad_10_8-10362",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_10_8-10362"
+      },
+      {
+        "id": "st-me-huawei_matepad_10_8-10362",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_10_8-10362"
+      },
+      {
+        "id": "st-va-huawei_matepad_10_8-10362",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_10_8-10362/"
+      },
+      {
+        "id": "st-te-huawei_matepad_10_8-10362",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_10_8-10362"
+      },
+      {
+        "id": "st-am-huawei_matepad_10_8-10362",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_10_8-10362"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_t_10s-10494",
+    "slug": "huawei_matepad_t_10s-10494",
+    "name": "Huawei MatePad T 10s",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.9,
+    "reviewCount": 120,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-t-10s-10494.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-t-10s-10494.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_t_10s-10494",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_t_10s-10494"
+      },
+      {
+        "id": "st-tr-huawei_matepad_t_10s-10494",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_t_10s-10494"
+      },
+      {
+        "id": "st-me-huawei_matepad_t_10s-10494",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_t_10s-10494"
+      },
+      {
+        "id": "st-va-huawei_matepad_t_10s-10494",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_t_10s-10494/"
+      },
+      {
+        "id": "st-te-huawei_matepad_t_10s-10494",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_t_10s-10494"
+      },
+      {
+        "id": "st-am-huawei_matepad_t_10s-10494",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_t_10s-10494"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_enjoy_tablet_2-10363",
+    "slug": "huawei_enjoy_tablet_2-10363",
+    "name": "Huawei Enjoy Tablet 2",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 339,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-enjoy-tablet-2-10363.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-enjoy-tablet-2-10363.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_enjoy_tablet_2-10363",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_enjoy_tablet_2-10363"
+      },
+      {
+        "id": "st-tr-huawei_enjoy_tablet_2-10363",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_enjoy_tablet_2-10363"
+      },
+      {
+        "id": "st-me-huawei_enjoy_tablet_2-10363",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_enjoy_tablet_2-10363"
+      },
+      {
+        "id": "st-va-huawei_enjoy_tablet_2-10363",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_enjoy_tablet_2-10363/"
+      },
+      {
+        "id": "st-te-huawei_enjoy_tablet_2-10363",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_enjoy_tablet_2-10363"
+      },
+      {
+        "id": "st-am-huawei_enjoy_tablet_2-10363",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_enjoy_tablet_2-10363"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_t8-10231",
+    "slug": "huawei_matepad_t8-10231",
+    "name": "Huawei MatePad T8",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 224,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-t8-10231.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-t8-10231.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_t8-10231",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_t8-10231"
+      },
+      {
+        "id": "st-tr-huawei_matepad_t8-10231",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_t8-10231"
+      },
+      {
+        "id": "st-me-huawei_matepad_t8-10231",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_t8-10231"
+      },
+      {
+        "id": "st-va-huawei_matepad_t8-10231",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_t8-10231/"
+      },
+      {
+        "id": "st-te-huawei_matepad_t8-10231",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_t8-10231"
+      },
+      {
+        "id": "st-am-huawei_matepad_t8-10231",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_t8-10231"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_10_4-10206",
+    "slug": "huawei_matepad_10_4-10206",
+    "name": "Huawei MatePad 10.4",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 149,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-10-4-10206.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-10-4-10206.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_10_4-10206",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_10_4-10206"
+      },
+      {
+        "id": "st-tr-huawei_matepad_10_4-10206",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_10_4-10206"
+      },
+      {
+        "id": "st-me-huawei_matepad_10_4-10206",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_10_4-10206"
+      },
+      {
+        "id": "st-va-huawei_matepad_10_4-10206",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_10_4-10206/"
+      },
+      {
+        "id": "st-te-huawei_matepad_10_4-10206",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_10_4-10206"
+      },
+      {
+        "id": "st-am-huawei_matepad_10_4-10206",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_10_4-10206"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_pro_10_8_5g_(2019",
+    "slug": "huawei_matepad_pro_10_8_5g_(2019",
+    "name": "Huawei MatePad Pro 10.8 5G (2019)",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 193,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-pro-10-8-5g--2019.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-pro-10-8-5g--2019.jpg"
+    ],
+    "highlights": [
+      "PaperMatte 144Hz Göz Korumalı Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "10100 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_pro_10_8_5g_(2019",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_pro_10_8_5g_(2019"
+      },
+      {
+        "id": "st-tr-huawei_matepad_pro_10_8_5g_(2019",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_pro_10_8_5g_(2019"
+      },
+      {
+        "id": "st-me-huawei_matepad_pro_10_8_5g_(2019",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_pro_10_8_5g_(2019"
+      },
+      {
+        "id": "st-va-huawei_matepad_pro_10_8_5g_(2019",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_pro_10_8_5g_(2019/"
+      },
+      {
+        "id": "st-te-huawei_matepad_pro_10_8_5g_(2019",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_pro_10_8_5g_(2019"
+      },
+      {
+        "id": "st-am-huawei_matepad_pro_10_8_5g_(2019",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_pro_10_8_5g_(2019"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_matepad_pro_10_8_(2019",
+    "slug": "huawei_matepad_pro_10_8_(2019",
+    "name": "Huawei MatePad Pro 10.8 (2019)",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 126,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-matepad-pro-10-8--2019.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-matepad-pro-10-8--2019.jpg"
+    ],
+    "highlights": [
+      "PaperMatte 144Hz Göz Korumalı Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "10100 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_matepad_pro_10_8_(2019",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_matepad_pro_10_8_(2019"
+      },
+      {
+        "id": "st-tr-huawei_matepad_pro_10_8_(2019",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_matepad_pro_10_8_(2019"
+      },
+      {
+        "id": "st-me-huawei_matepad_pro_10_8_(2019",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_matepad_pro_10_8_(2019"
+      },
+      {
+        "id": "st-va-huawei_matepad_pro_10_8_(2019",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_matepad_pro_10_8_(2019/"
+      },
+      {
+        "id": "st-te-huawei_matepad_pro_10_8_(2019",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_matepad_pro_10_8_(2019"
+      },
+      {
+        "id": "st-am-huawei_matepad_pro_10_8_(2019",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_matepad_pro_10_8_(2019"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_m6_10_8-9748",
+    "slug": "huawei_mediapad_m6_10_8-9748",
+    "name": "Huawei MediaPad M6 10.8",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 330,
+    "basePrice": 13999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-m6-10-8-9748.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-m6-10-8-9748.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_m6_10_8-9748",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 13999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_m6_10_8-9748"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_m6_10_8-9748",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14069,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_m6_10_8-9748"
+      },
+      {
+        "id": "st-me-huawei_mediapad_m6_10_8-9748",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 14139,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_m6_10_8-9748"
+      },
+      {
+        "id": "st-va-huawei_mediapad_m6_10_8-9748",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13971,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_m6_10_8-9748/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_m6_10_8-9748",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14027,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_m6_10_8-9748"
+      },
+      {
+        "id": "st-am-huawei_mediapad_m6_10_8-9748",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 13929,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_m6_10_8-9748"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 14699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 14279,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 13999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_m6_turbo_8_4-9823",
+    "slug": "huawei_mediapad_m6_turbo_8_4-9823",
+    "name": "Huawei MediaPad M6 Turbo 8.4",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.6,
+    "reviewCount": 71,
+    "basePrice": 13999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-m6-turbo-8-4-9823.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-m6-turbo-8-4-9823.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_m6_turbo_8_4-9823",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 13999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_m6_turbo_8_4-9823"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_m6_turbo_8_4-9823",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14069,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_m6_turbo_8_4-9823"
+      },
+      {
+        "id": "st-me-huawei_mediapad_m6_turbo_8_4-9823",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 14139,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_m6_turbo_8_4-9823"
+      },
+      {
+        "id": "st-va-huawei_mediapad_m6_turbo_8_4-9823",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13971,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_m6_turbo_8_4-9823/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_m6_turbo_8_4-9823",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14027,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_m6_turbo_8_4-9823"
+      },
+      {
+        "id": "st-am-huawei_mediapad_m6_turbo_8_4-9823",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 13929,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_m6_turbo_8_4-9823"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 14699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 14279,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 13999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_m6_8_4-9747",
+    "slug": "huawei_mediapad_m6_8_4-9747",
+    "name": "Huawei MediaPad M6 8.4",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 158,
+    "basePrice": 13999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-m6-8-4-9747.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-m6-8-4-9747.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_m6_8_4-9747",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 13999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_m6_8_4-9747"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_m6_8_4-9747",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14069,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_m6_8_4-9747"
+      },
+      {
+        "id": "st-me-huawei_mediapad_m6_8_4-9747",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 14139,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_m6_8_4-9747"
+      },
+      {
+        "id": "st-va-huawei_mediapad_m6_8_4-9747",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13971,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_m6_8_4-9747/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_m6_8_4-9747",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14027,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_m6_8_4-9747"
+      },
+      {
+        "id": "st-am-huawei_mediapad_m6_8_4-9747",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 13929,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_m6_8_4-9747"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 14699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 14279,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 13999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_m5_lite_8-9668",
+    "slug": "huawei_mediapad_m5_lite_8-9668",
+    "name": "Huawei MediaPad M5 Lite 8",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 273,
+    "basePrice": 13999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-m5-lite-8-9668.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-m5-lite-8-9668.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_m5_lite_8-9668",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 13999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_m5_lite_8-9668"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_m5_lite_8-9668",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14069,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_m5_lite_8-9668"
+      },
+      {
+        "id": "st-me-huawei_mediapad_m5_lite_8-9668",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 14139,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_m5_lite_8-9668"
+      },
+      {
+        "id": "st-va-huawei_mediapad_m5_lite_8-9668",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13971,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_m5_lite_8-9668/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_m5_lite_8-9668",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14027,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_m5_lite_8-9668"
+      },
+      {
+        "id": "st-am-huawei_mediapad_m5_lite_8-9668",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 13929,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_m5_lite_8-9668"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 14699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 14279,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 13999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_t5-9412",
+    "slug": "huawei_mediapad_t5-9412",
+    "name": "Huawei MediaPad T5",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 92,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-t5-9412.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-t5-9412.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_t5-9412",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_t5-9412"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_t5-9412",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_t5-9412"
+      },
+      {
+        "id": "st-me-huawei_mediapad_t5-9412",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_t5-9412"
+      },
+      {
+        "id": "st-va-huawei_mediapad_t5-9412",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_t5-9412/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_t5-9412",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_t5-9412"
+      },
+      {
+        "id": "st-am-huawei_mediapad_t5-9412",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_t5-9412"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_m5_lite-9351",
+    "slug": "huawei_mediapad_m5_lite-9351",
+    "name": "Huawei MediaPad M5 lite",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 147,
+    "basePrice": 13999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-m5-lite-9351.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-m5-lite-9351.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_m5_lite-9351",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 13999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_m5_lite-9351"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_m5_lite-9351",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14069,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_m5_lite-9351"
+      },
+      {
+        "id": "st-me-huawei_mediapad_m5_lite-9351",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 14139,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_m5_lite-9351"
+      },
+      {
+        "id": "st-va-huawei_mediapad_m5_lite-9351",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13971,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_m5_lite-9351/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_m5_lite-9351",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14027,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_m5_lite-9351"
+      },
+      {
+        "id": "st-am-huawei_mediapad_m5_lite-9351",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 13929,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_m5_lite-9351"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 14699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 14279,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 13999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_m5_10_(pro",
+    "slug": "huawei_mediapad_m5_10_(pro",
+    "name": "Huawei MediaPad M5 10 (Pro)",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 145,
+    "basePrice": 13999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-m5-10--pro.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-m5-10--pro.jpg"
+    ],
+    "highlights": [
+      "PaperMatte 144Hz Göz Korumalı Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "10100 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_m5_10_(pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 13999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_m5_10_(pro"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_m5_10_(pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14069,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_m5_10_(pro"
+      },
+      {
+        "id": "st-me-huawei_mediapad_m5_10_(pro",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 14139,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_m5_10_(pro"
+      },
+      {
+        "id": "st-va-huawei_mediapad_m5_10_(pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13971,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_m5_10_(pro/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_m5_10_(pro",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14027,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_m5_10_(pro"
+      },
+      {
+        "id": "st-am-huawei_mediapad_m5_10_(pro",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 13929,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_m5_10_(pro"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 14699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 14279,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 13999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_m5_10-9091",
+    "slug": "huawei_mediapad_m5_10-9091",
+    "name": "Huawei MediaPad M5 10",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.9,
+    "reviewCount": 120,
+    "basePrice": 13999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-m5-10-9091.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-m5-10-9091.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_m5_10-9091",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 13999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_m5_10-9091"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_m5_10-9091",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14069,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_m5_10-9091"
+      },
+      {
+        "id": "st-me-huawei_mediapad_m5_10-9091",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 14139,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_m5_10-9091"
+      },
+      {
+        "id": "st-va-huawei_mediapad_m5_10-9091",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13971,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_m5_10-9091/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_m5_10-9091",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14027,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_m5_10-9091"
+      },
+      {
+        "id": "st-am-huawei_mediapad_m5_10-9091",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 13929,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_m5_10-9091"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 14699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 14279,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 13999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_m5_8-9092",
+    "slug": "huawei_mediapad_m5_8-9092",
+    "name": "Huawei MediaPad M5 8",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 262,
+    "basePrice": 13999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-m5-8-9092.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-m5-8-9092.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_m5_8-9092",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 13999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_m5_8-9092"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_m5_8-9092",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14069,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_m5_8-9092"
+      },
+      {
+        "id": "st-me-huawei_mediapad_m5_8-9092",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 14139,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_m5_8-9092"
+      },
+      {
+        "id": "st-va-huawei_mediapad_m5_8-9092",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13971,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_m5_8-9092/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_m5_8-9092",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14027,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_m5_8-9092"
+      },
+      {
+        "id": "st-am-huawei_mediapad_m5_8-9092",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 13929,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_m5_8-9092"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 14699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 14279,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 13999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_m3_lite_8-8715",
+    "slug": "huawei_mediapad_m3_lite_8-8715",
+    "name": "Huawei MediaPad M3 Lite 8",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.9,
+    "reviewCount": 170,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-m3-lite-8-8715.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-m3-lite-8-8715.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_m3_lite_8-8715",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_m3_lite_8-8715"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_m3_lite_8-8715",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_m3_lite_8-8715"
+      },
+      {
+        "id": "st-me-huawei_mediapad_m3_lite_8-8715",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_m3_lite_8-8715"
+      },
+      {
+        "id": "st-va-huawei_mediapad_m3_lite_8-8715",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_m3_lite_8-8715/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_m3_lite_8-8715",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_m3_lite_8-8715"
+      },
+      {
+        "id": "st-am-huawei_mediapad_m3_lite_8-8715",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_m3_lite_8-8715"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_t3_10-8636",
+    "slug": "huawei_mediapad_t3_10-8636",
+    "name": "Huawei MediaPad T3 10",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 318,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-t3-10-8636.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-t3-10-8636.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_t3_10-8636",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_t3_10-8636"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_t3_10-8636",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_t3_10-8636"
+      },
+      {
+        "id": "st-me-huawei_mediapad_t3_10-8636",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_t3_10-8636"
+      },
+      {
+        "id": "st-va-huawei_mediapad_t3_10-8636",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_t3_10-8636/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_t3_10-8636",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_t3_10-8636"
+      },
+      {
+        "id": "st-am-huawei_mediapad_t3_10-8636",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_t3_10-8636"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_m3_lite_10-8637",
+    "slug": "huawei_mediapad_m3_lite_10-8637",
+    "name": "Huawei MediaPad M3 Lite 10",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 344,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-m3-lite-10-8637.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-m3-lite-10-8637.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_m3_lite_10-8637",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_m3_lite_10-8637"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_m3_lite_10-8637",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_m3_lite_10-8637"
+      },
+      {
+        "id": "st-me-huawei_mediapad_m3_lite_10-8637",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_m3_lite_10-8637"
+      },
+      {
+        "id": "st-va-huawei_mediapad_m3_lite_10-8637",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_m3_lite_10-8637/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_m3_lite_10-8637",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_m3_lite_10-8637"
+      },
+      {
+        "id": "st-am-huawei_mediapad_m3_lite_10-8637",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_m3_lite_10-8637"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_t3_8_0-8578",
+    "slug": "huawei_mediapad_t3_8_0-8578",
+    "name": "Huawei MediaPad T3 8.0",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.6,
+    "reviewCount": 288,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-t3-8-0-8578.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-t3-8-0-8578.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_t3_8_0-8578",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_t3_8_0-8578"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_t3_8_0-8578",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_t3_8_0-8578"
+      },
+      {
+        "id": "st-me-huawei_mediapad_t3_8_0-8578",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_t3_8_0-8578"
+      },
+      {
+        "id": "st-va-huawei_mediapad_t3_8_0-8578",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_t3_8_0-8578/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_t3_8_0-8578",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_t3_8_0-8578"
+      },
+      {
+        "id": "st-am-huawei_mediapad_t3_8_0-8578",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_t3_8_0-8578"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_t3_7_0-8635",
+    "slug": "huawei_mediapad_t3_7_0-8635",
+    "name": "Huawei MediaPad T3 7.0",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 94,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-t3-7-0-8635.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-t3-7-0-8635.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_t3_7_0-8635",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_t3_7_0-8635"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_t3_7_0-8635",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_t3_7_0-8635"
+      },
+      {
+        "id": "st-me-huawei_mediapad_t3_7_0-8635",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_t3_7_0-8635"
+      },
+      {
+        "id": "st-va-huawei_mediapad_t3_7_0-8635",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_t3_7_0-8635/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_t3_7_0-8635",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_t3_7_0-8635"
+      },
+      {
+        "id": "st-am-huawei_mediapad_t3_7_0-8635",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_t3_7_0-8635"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_m3_8_4-8315",
+    "slug": "huawei_mediapad_m3_8_4-8315",
+    "name": "Huawei MediaPad M3 8.4",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 207,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-m3-8-4-8315.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-m3-8-4-8315.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_m3_8_4-8315",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_m3_8_4-8315"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_m3_8_4-8315",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_m3_8_4-8315"
+      },
+      {
+        "id": "st-me-huawei_mediapad_m3_8_4-8315",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_m3_8_4-8315"
+      },
+      {
+        "id": "st-va-huawei_mediapad_m3_8_4-8315",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_m3_8_4-8315/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_m3_8_4-8315",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_m3_8_4-8315"
+      },
+      {
+        "id": "st-am-huawei_mediapad_m3_8_4-8315",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_m3_8_4-8315"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_t2_10_0_pro-8303",
+    "slug": "huawei_mediapad_t2_10_0_pro-8303",
+    "name": "Huawei MediaPad T2 10.0 Pro",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 173,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-t2-10-0-pro-8303.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-t2-10-0-pro-8303.jpg"
+    ],
+    "highlights": [
+      "PaperMatte 144Hz Göz Korumalı Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "10100 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_t2_10_0_pro-8303",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_t2_10_0_pro-8303"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_t2_10_0_pro-8303",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_t2_10_0_pro-8303"
+      },
+      {
+        "id": "st-me-huawei_mediapad_t2_10_0_pro-8303",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_t2_10_0_pro-8303"
+      },
+      {
+        "id": "st-va-huawei_mediapad_t2_10_0_pro-8303",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_t2_10_0_pro-8303/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_t2_10_0_pro-8303",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_t2_10_0_pro-8303"
+      },
+      {
+        "id": "st-am-huawei_mediapad_t2_10_0_pro-8303",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_t2_10_0_pro-8303"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_t2_7_0_pro-8302",
+    "slug": "huawei_mediapad_t2_7_0_pro-8302",
+    "name": "Huawei MediaPad T2 7.0 Pro",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 302,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-t2-7-0-pro-8302.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-t2-7-0-pro-8302.jpg"
+    ],
+    "highlights": [
+      "PaperMatte 144Hz Göz Korumalı Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "10100 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_t2_7_0_pro-8302",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_t2_7_0_pro-8302"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_t2_7_0_pro-8302",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_t2_7_0_pro-8302"
+      },
+      {
+        "id": "st-me-huawei_mediapad_t2_7_0_pro-8302",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_t2_7_0_pro-8302"
+      },
+      {
+        "id": "st-va-huawei_mediapad_t2_7_0_pro-8302",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_t2_7_0_pro-8302/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_t2_7_0_pro-8302",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_t2_7_0_pro-8302"
+      },
+      {
+        "id": "st-am-huawei_mediapad_t2_7_0_pro-8302",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_t2_7_0_pro-8302"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_t2_7_0-8301",
+    "slug": "huawei_mediapad_t2_7_0-8301",
+    "name": "Huawei MediaPad T2 7.0",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.9,
+    "reviewCount": 263,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-t2-7-0-8301.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-t2-7-0-8301.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_t2_7_0-8301",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_t2_7_0-8301"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_t2_7_0-8301",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_t2_7_0-8301"
+      },
+      {
+        "id": "st-me-huawei_mediapad_t2_7_0-8301",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_t2_7_0-8301"
+      },
+      {
+        "id": "st-va-huawei_mediapad_t2_7_0-8301",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_t2_7_0-8301/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_t2_7_0-8301",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_t2_7_0-8301"
+      },
+      {
+        "id": "st-am-huawei_mediapad_t2_7_0-8301",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_t2_7_0-8301"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_t1_7_0_plus-8138",
+    "slug": "huawei_mediapad_t1_7_0_plus-8138",
+    "name": "Huawei MediaPad T1 7.0 Plus",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 306,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-t1-7-0-plus-8138.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-t1-7-0-plus-8138.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_t1_7_0_plus-8138",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_t1_7_0_plus-8138"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_t1_7_0_plus-8138",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_t1_7_0_plus-8138"
+      },
+      {
+        "id": "st-me-huawei_mediapad_t1_7_0_plus-8138",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_t1_7_0_plus-8138"
+      },
+      {
+        "id": "st-va-huawei_mediapad_t1_7_0_plus-8138",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_t1_7_0_plus-8138/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_t1_7_0_plus-8138",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_t1_7_0_plus-8138"
+      },
+      {
+        "id": "st-am-huawei_mediapad_t1_7_0_plus-8138",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_t1_7_0_plus-8138"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_m2_7_0-8084",
+    "slug": "huawei_mediapad_m2_7_0-8084",
+    "name": "Huawei MediaPad M2 7.0",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.6,
+    "reviewCount": 76,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-m2-7-0-8084.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-m2-7-0-8084.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_m2_7_0-8084",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_m2_7_0-8084"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_m2_7_0-8084",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_m2_7_0-8084"
+      },
+      {
+        "id": "st-me-huawei_mediapad_m2_7_0-8084",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_m2_7_0-8084"
+      },
+      {
+        "id": "st-va-huawei_mediapad_m2_7_0-8084",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_m2_7_0-8084/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_m2_7_0-8084",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_m2_7_0-8084"
+      },
+      {
+        "id": "st-am-huawei_mediapad_m2_7_0-8084",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_m2_7_0-8084"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_m2_10_0-7854",
+    "slug": "huawei_mediapad_m2_10_0-7854",
+    "name": "Huawei MediaPad M2 10.0",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.6,
+    "reviewCount": 308,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-m2-10-0-7854.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-m2-10-0-7854.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_m2_10_0-7854",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_m2_10_0-7854"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_m2_10_0-7854",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_m2_10_0-7854"
+      },
+      {
+        "id": "st-me-huawei_mediapad_m2_10_0-7854",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_m2_10_0-7854"
+      },
+      {
+        "id": "st-va-huawei_mediapad_m2_10_0-7854",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_m2_10_0-7854/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_m2_10_0-7854",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_m2_10_0-7854"
+      },
+      {
+        "id": "st-am-huawei_mediapad_m2_10_0-7854",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_m2_10_0-7854"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_m2_8_0-7309",
+    "slug": "huawei_mediapad_m2_8_0-7309",
+    "name": "Huawei MediaPad M2 8.0",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 176,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-m2-8-0-7309.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-m2-8-0-7309.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_m2_8_0-7309",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_m2_8_0-7309"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_m2_8_0-7309",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_m2_8_0-7309"
+      },
+      {
+        "id": "st-me-huawei_mediapad_m2_8_0-7309",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_m2_8_0-7309"
+      },
+      {
+        "id": "st-va-huawei_mediapad_m2_8_0-7309",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_m2_8_0-7309/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_m2_8_0-7309",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_m2_8_0-7309"
+      },
+      {
+        "id": "st-am-huawei_mediapad_m2_8_0-7309",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_m2_8_0-7309"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_x2-7075",
+    "slug": "huawei_mediapad_x2-7075",
+    "name": "Huawei MediaPad X2",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 66,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-x2-7075.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-x2-7075.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_x2-7075",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_x2-7075"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_x2-7075",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_x2-7075"
+      },
+      {
+        "id": "st-me-huawei_mediapad_x2-7075",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_x2-7075"
+      },
+      {
+        "id": "st-va-huawei_mediapad_x2-7075",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_x2-7075/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_x2-7075",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_x2-7075"
+      },
+      {
+        "id": "st-am-huawei_mediapad_x2-7075",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_x2-7075"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_t1_10-7308",
+    "slug": "huawei_mediapad_t1_10-7308",
+    "name": "Huawei MediaPad T1 10",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 151,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-t1-10-7308.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-t1-10-7308.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_t1_10-7308",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_t1_10-7308"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_t1_10-7308",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_t1_10-7308"
+      },
+      {
+        "id": "st-me-huawei_mediapad_t1_10-7308",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_t1_10-7308"
+      },
+      {
+        "id": "st-va-huawei_mediapad_t1_10-7308",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_t1_10-7308/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_t1_10-7308",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_t1_10-7308"
+      },
+      {
+        "id": "st-am-huawei_mediapad_t1_10-7308",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_t1_10-7308"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_t1_8_0-6705",
+    "slug": "huawei_mediapad_t1_8_0-6705",
+    "name": "Huawei MediaPad T1 8.0",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 301,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-t1-8-0-6705.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-t1-8-0-6705.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_t1_8_0-6705",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_t1_8_0-6705"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_t1_8_0-6705",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_t1_8_0-6705"
+      },
+      {
+        "id": "st-me-huawei_mediapad_t1_8_0-6705",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_t1_8_0-6705"
+      },
+      {
+        "id": "st-va-huawei_mediapad_t1_8_0-6705",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_t1_8_0-6705/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_t1_8_0-6705",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_t1_8_0-6705"
+      },
+      {
+        "id": "st-am-huawei_mediapad_t1_8_0-6705",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_t1_8_0-6705"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_t1_7_0-7307",
+    "slug": "huawei_mediapad_t1_7_0-7307",
+    "name": "Huawei MediaPad T1 7.0",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.6,
+    "reviewCount": 241,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-t1-7-0-7307.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-t1-7-0-7307.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_t1_7_0-7307",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_t1_7_0-7307"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_t1_7_0-7307",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_t1_7_0-7307"
+      },
+      {
+        "id": "st-me-huawei_mediapad_t1_7_0-7307",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_t1_7_0-7307"
+      },
+      {
+        "id": "st-va-huawei_mediapad_t1_7_0-7307",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_t1_7_0-7307/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_t1_7_0-7307",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_t1_7_0-7307"
+      },
+      {
+        "id": "st-am-huawei_mediapad_t1_7_0-7307",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_t1_7_0-7307"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_10_link+-6169",
+    "slug": "huawei_mediapad_10_link+-6169",
+    "name": "Huawei MediaPad 10 Link+",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 247,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-10-link--6169.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-10-link--6169.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_10_link+-6169",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_10_link+-6169"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_10_link+-6169",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_10_link+-6169"
+      },
+      {
+        "id": "st-me-huawei_mediapad_10_link+-6169",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_10_link+-6169"
+      },
+      {
+        "id": "st-va-huawei_mediapad_10_link+-6169",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_10_link+-6169/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_10_link+-6169",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_10_link+-6169"
+      },
+      {
+        "id": "st-am-huawei_mediapad_10_link+-6169",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_10_link+-6169"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_m1-6137",
+    "slug": "huawei_mediapad_m1-6137",
+    "name": "Huawei MediaPad M1",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 175,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-m1-6137.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-m1-6137.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_m1-6137",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_m1-6137"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_m1-6137",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_m1-6137"
+      },
+      {
+        "id": "st-me-huawei_mediapad_m1-6137",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_m1-6137"
+      },
+      {
+        "id": "st-va-huawei_mediapad_m1-6137",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_m1-6137/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_m1-6137",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_m1-6137"
+      },
+      {
+        "id": "st-am-huawei_mediapad_m1-6137",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_m1-6137"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_x1-6129",
+    "slug": "huawei_mediapad_x1-6129",
+    "name": "Huawei MediaPad X1",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.6,
+    "reviewCount": 192,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-x1-6129.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-x1-6129.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_x1-6129",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_x1-6129"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_x1-6129",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_x1-6129"
+      },
+      {
+        "id": "st-me-huawei_mediapad_x1-6129",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_x1-6129"
+      },
+      {
+        "id": "st-va-huawei_mediapad_x1-6129",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_x1-6129/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_x1-6129",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_x1-6129"
+      },
+      {
+        "id": "st-am-huawei_mediapad_x1-6129",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_x1-6129"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_7_youth2-5981",
+    "slug": "huawei_mediapad_7_youth2-5981",
+    "name": "Huawei MediaPad 7 Youth2",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.9,
+    "reviewCount": 205,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-7-youth2-5981.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-7-youth2-5981.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_7_youth2-5981",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_7_youth2-5981"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_7_youth2-5981",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_7_youth2-5981"
+      },
+      {
+        "id": "st-me-huawei_mediapad_7_youth2-5981",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_7_youth2-5981"
+      },
+      {
+        "id": "st-va-huawei_mediapad_7_youth2-5981",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_7_youth2-5981/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_7_youth2-5981",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_7_youth2-5981"
+      },
+      {
+        "id": "st-am-huawei_mediapad_7_youth2-5981",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_7_youth2-5981"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_7_youth-5698",
+    "slug": "huawei_mediapad_7_youth-5698",
+    "name": "Huawei MediaPad 7 Youth",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 154,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-7-youth-5698.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-7-youth-5698.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_7_youth-5698",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_7_youth-5698"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_7_youth-5698",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_7_youth-5698"
+      },
+      {
+        "id": "st-me-huawei_mediapad_7_youth-5698",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_7_youth-5698"
+      },
+      {
+        "id": "st-va-huawei_mediapad_7_youth-5698",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_7_youth-5698/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_7_youth-5698",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_7_youth-5698"
+      },
+      {
+        "id": "st-am-huawei_mediapad_7_youth-5698",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_7_youth-5698"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_7_vogue-5539",
+    "slug": "huawei_mediapad_7_vogue-5539",
+    "name": "Huawei MediaPad 7 Vogue",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.9,
+    "reviewCount": 196,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-7-vogue-5539.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-7-vogue-5539.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_7_vogue-5539",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_7_vogue-5539"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_7_vogue-5539",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_7_vogue-5539"
+      },
+      {
+        "id": "st-me-huawei_mediapad_7_vogue-5539",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_7_vogue-5539"
+      },
+      {
+        "id": "st-va-huawei_mediapad_7_vogue-5539",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_7_vogue-5539/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_7_vogue-5539",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_7_vogue-5539"
+      },
+      {
+        "id": "st-am-huawei_mediapad_7_vogue-5539",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_7_vogue-5539"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_10_link-5507",
+    "slug": "huawei_mediapad_10_link-5507",
+    "name": "Huawei MediaPad 10 Link",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 202,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-10-link-5507.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-10-link-5507.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_10_link-5507",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_10_link-5507"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_10_link-5507",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_10_link-5507"
+      },
+      {
+        "id": "st-me-huawei_mediapad_10_link-5507",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_10_link-5507"
+      },
+      {
+        "id": "st-va-huawei_mediapad_10_link-5507",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_10_link-5507/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_10_link-5507",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_10_link-5507"
+      },
+      {
+        "id": "st-am-huawei_mediapad_10_link-5507",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_10_link-5507"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_7_lite-4882",
+    "slug": "huawei_mediapad_7_lite-4882",
+    "name": "Huawei MediaPad 7 Lite",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 170,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-7-lite-4882.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-7-lite-4882.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_7_lite-4882",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_7_lite-4882"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_7_lite-4882",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_7_lite-4882"
+      },
+      {
+        "id": "st-me-huawei_mediapad_7_lite-4882",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_7_lite-4882"
+      },
+      {
+        "id": "st-va-huawei_mediapad_7_lite-4882",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_7_lite-4882/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_7_lite-4882",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_7_lite-4882"
+      },
+      {
+        "id": "st-am-huawei_mediapad_7_lite-4882",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_7_lite-4882"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_10_fhd-4587",
+    "slug": "huawei_mediapad_10_fhd-4587",
+    "name": "Huawei MediaPad 10 FHD",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 356,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-10-fhd-4587.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-10-fhd-4587.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_10_fhd-4587",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_10_fhd-4587"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_10_fhd-4587",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_10_fhd-4587"
+      },
+      {
+        "id": "st-me-huawei_mediapad_10_fhd-4587",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_10_fhd-4587"
+      },
+      {
+        "id": "st-va-huawei_mediapad_10_fhd-4587",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_10_fhd-4587/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_10_fhd-4587",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_10_fhd-4587"
+      },
+      {
+        "id": "st-am-huawei_mediapad_10_fhd-4587",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_10_fhd-4587"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad-4264",
+    "slug": "huawei_mediapad-4264",
+    "name": "Huawei MediaPad",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 145,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-4264.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-4264.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad-4264",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad-4264"
+      },
+      {
+        "id": "st-tr-huawei_mediapad-4264",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad-4264"
+      },
+      {
+        "id": "st-me-huawei_mediapad-4264",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad-4264"
+      },
+      {
+        "id": "st-va-huawei_mediapad-4264",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad-4264/"
+      },
+      {
+        "id": "st-te-huawei_mediapad-4264",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad-4264"
+      },
+      {
+        "id": "st-am-huawei_mediapad-4264",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad-4264"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_mediapad_s7_301w-4265",
+    "slug": "huawei_mediapad_s7_301w-4265",
+    "name": "Huawei MediaPad S7-301w",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.7,
+    "reviewCount": 109,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-mediapad-s7-301w-4265.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-mediapad-s7-301w-4265.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_mediapad_s7_301w-4265",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_mediapad_s7_301w-4265"
+      },
+      {
+        "id": "st-tr-huawei_mediapad_s7_301w-4265",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_mediapad_s7_301w-4265"
+      },
+      {
+        "id": "st-me-huawei_mediapad_s7_301w-4265",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_mediapad_s7_301w-4265"
+      },
+      {
+        "id": "st-va-huawei_mediapad_s7_301w-4265",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_mediapad_s7_301w-4265/"
+      },
+      {
+        "id": "st-te-huawei_mediapad_s7_301w-4265",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_mediapad_s7_301w-4265"
+      },
+      {
+        "id": "st-am-huawei_mediapad_s7_301w-4265",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_mediapad_s7_301w-4265"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_ideos_s7_slim-3789",
+    "slug": "huawei_ideos_s7_slim-3789",
+    "name": "Huawei IDEOS S7 Slim",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.6,
+    "reviewCount": 220,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-ideos-s7-slim-3789.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-ideos-s7-slim-3789.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_ideos_s7_slim-3789",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_ideos_s7_slim-3789"
+      },
+      {
+        "id": "st-tr-huawei_ideos_s7_slim-3789",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_ideos_s7_slim-3789"
+      },
+      {
+        "id": "st-me-huawei_ideos_s7_slim-3789",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_ideos_s7_slim-3789"
+      },
+      {
+        "id": "st-va-huawei_ideos_s7_slim-3789",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_ideos_s7_slim-3789/"
+      },
+      {
+        "id": "st-te-huawei_ideos_s7_slim-3789",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_ideos_s7_slim-3789"
+      },
+      {
+        "id": "st-am-huawei_ideos_s7_slim-3789",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_ideos_s7_slim-3789"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_ideos_s7_slim_cdma-3905",
+    "slug": "huawei_ideos_s7_slim_cdma-3905",
+    "name": "Huawei IDEOS S7 Slim CDMA",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.6,
+    "reviewCount": 263,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-ideos-s7-slim-cdma-3905.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-ideos-s7-slim-cdma-3905.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_ideos_s7_slim_cdma-3905",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_ideos_s7_slim_cdma-3905"
+      },
+      {
+        "id": "st-tr-huawei_ideos_s7_slim_cdma-3905",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_ideos_s7_slim_cdma-3905"
+      },
+      {
+        "id": "st-me-huawei_ideos_s7_slim_cdma-3905",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_ideos_s7_slim_cdma-3905"
+      },
+      {
+        "id": "st-va-huawei_ideos_s7_slim_cdma-3905",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_ideos_s7_slim_cdma-3905/"
+      },
+      {
+        "id": "st-te-huawei_ideos_s7_slim_cdma-3905",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_ideos_s7_slim_cdma-3905"
+      },
+      {
+        "id": "st-am-huawei_ideos_s7_slim_cdma-3905",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_ideos_s7_slim_cdma-3905"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_ideos_s7-3740",
+    "slug": "huawei_ideos_s7-3740",
+    "name": "Huawei IDEOS S7",
+    "brand": "Huawei",
+    "category": "tablets",
+    "rating": 4.8,
+    "reviewCount": 357,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/huawei/huawei-huawei-ideos-s7-3740.jpg",
+    "images": [
+      "/images/tablets/huawei/huawei-huawei-ideos-s7-3740.jpg"
+    ],
+    "highlights": [
+      "2.8K FullView Yüksek Çözünürlüklü Ekran",
+      "M-Pencil 3. Nesil NearLink Kalem Desteği",
+      "8300 mAh Ultra Güçlü Batarya & 88W Süper Şarj",
+      "PC Seviyesinde WPS Office & HarmonyOS Çoklu Görev"
+    ],
+    "tags": [
+      "Huawei",
+      "HarmonyOS",
+      "PaperMatte Ekran",
+      "M-Pencil Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_ideos_s7-3740",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_ideos_s7-3740"
+      },
+      {
+        "id": "st-tr-huawei_ideos_s7-3740",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_ideos_s7-3740"
+      },
+      {
+        "id": "st-me-huawei_ideos_s7-3740",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_ideos_s7-3740"
+      },
+      {
+        "id": "st-va-huawei_ideos_s7-3740",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 7983,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_ideos_s7-3740/"
+      },
+      {
+        "id": "st-te-huawei_ideos_s7-3740",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_ideos_s7-3740"
+      },
+      {
+        "id": "st-am-huawei_ideos_s7-3740",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_ideos_s7-3740"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Siyahı",
+        "hex": "#1e293b"
+      },
+      {
+        "name": "Buz Grisi",
+        "hex": "#cbd5e1"
+      },
+      {
+        "name": "Ada Yeşili",
+        "hex": "#10b981"
+      }
+    ]
   }
 ];

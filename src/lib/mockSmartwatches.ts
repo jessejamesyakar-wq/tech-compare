@@ -5864,5 +5864,7431 @@ export const mockSmartwatches: Product[] = [
       "sensors": "Elektriksel Kalp Sensörü (EKG), Optik Kalp Sensörü, Sıcaklık Algılama, İvmeölçer, Jiroskop, Pusula, Altimetre",
       "batteryLife": "18-36 Saate Kadar Pil Ömrü (Hızlı Şarj Destekli)"
     }
+  },
+  {
+    "id": "huawei-huawei_watch_gt_7_pro-14872",
+    "slug": "huawei_watch_gt_7_pro-14872",
+    "name": "Huawei Watch GT 7 Pro",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 388,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-7-pro-14872.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-gt-7-pro-14872.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_gt_7_pro-14872",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_gt_7_pro-14872"
+      },
+      {
+        "id": "st-tr-huawei_watch_gt_7_pro-14872",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 15074,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_gt_7_pro-14872"
+      },
+      {
+        "id": "st-me-huawei_watch_gt_7_pro-14872",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 15149,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_gt_7_pro-14872"
+      },
+      {
+        "id": "st-va-huawei_watch_gt_7_pro-14872",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 14969,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_gt_7_pro-14872/"
+      },
+      {
+        "id": "st-te-huawei_watch_gt_7_pro-14872",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 15029,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_gt_7_pro-14872"
+      },
+      {
+        "id": "st-am-huawei_watch_gt_7_pro-14872",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14924,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_gt_7_pro-14872"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 15749,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 15299,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 14999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_gt_7-14873",
+    "slug": "huawei_watch_gt_7-14873",
+    "name": "Huawei Watch GT 7",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 394,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-7-14873.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-gt-7-14873.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_gt_7-14873",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_gt_7-14873"
+      },
+      {
+        "id": "st-tr-huawei_watch_gt_7-14873",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 15074,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_gt_7-14873"
+      },
+      {
+        "id": "st-me-huawei_watch_gt_7-14873",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 15149,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_gt_7-14873"
+      },
+      {
+        "id": "st-va-huawei_watch_gt_7-14873",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 14969,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_gt_7-14873/"
+      },
+      {
+        "id": "st-te-huawei_watch_gt_7-14873",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 15029,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_gt_7-14873"
+      },
+      {
+        "id": "st-am-huawei_watch_gt_7-14873",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14924,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_gt_7-14873"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 15749,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 15299,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 14999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_ultimate_design_spring-14657",
+    "slug": "huawei_watch_ultimate_design_spring-14657",
+    "name": "Huawei Watch Ultimate Design Spring",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 624,
+    "basePrice": 45999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-ultimate-design-spring-14657.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-ultimate-design-spring-14657.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_ultimate_design_spring-14657",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 45999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_ultimate_design_spring-14657"
+      },
+      {
+        "id": "st-tr-huawei_watch_ultimate_design_spring-14657",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 46229,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_ultimate_design_spring-14657"
+      },
+      {
+        "id": "st-me-huawei_watch_ultimate_design_spring-14657",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 46459,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_ultimate_design_spring-14657"
+      },
+      {
+        "id": "st-va-huawei_watch_ultimate_design_spring-14657",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 45907,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_ultimate_design_spring-14657/"
+      },
+      {
+        "id": "st-te-huawei_watch_ultimate_design_spring-14657",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 46091,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_ultimate_design_spring-14657"
+      },
+      {
+        "id": "st-am-huawei_watch_ultimate_design_spring-14657",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 45769,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_ultimate_design_spring-14657"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 48299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 46919,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 45999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 45999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_buds_2-14664",
+    "slug": "huawei_watch_buds_2-14664",
+    "name": "Huawei Watch Buds 2",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 283,
+    "basePrice": 9999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-buds-2-14664.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-buds-2-14664.jpg"
+    ],
+    "highlights": [
+      "10 Gün Kesintisiz Kullanım Süresi",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Hafif & Şık Alüminyum Kasa",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_buds_2-14664",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 9999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_buds_2-14664"
+      },
+      {
+        "id": "st-tr-huawei_watch_buds_2-14664",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 10049,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_buds_2-14664"
+      },
+      {
+        "id": "st-me-huawei_watch_buds_2-14664",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 10099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_buds_2-14664"
+      },
+      {
+        "id": "st-va-huawei_watch_buds_2-14664",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9979,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_buds_2-14664/"
+      },
+      {
+        "id": "st-te-huawei_watch_buds_2-14664",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 10019,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_buds_2-14664"
+      },
+      {
+        "id": "st-am-huawei_watch_buds_2-14664",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 9949,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_buds_2-14664"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 10499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 10199,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 9999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_fit_5_pro-14614",
+    "slug": "huawei_watch_fit_5_pro-14614",
+    "name": "Huawei Watch Fit 5 Pro",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 644,
+    "basePrice": 4999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-fit-5-pro-14614.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-fit-5-pro-14614.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_fit_5_pro-14614",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_fit_5_pro-14614"
+      },
+      {
+        "id": "st-tr-huawei_watch_fit_5_pro-14614",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5024,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_fit_5_pro-14614"
+      },
+      {
+        "id": "st-me-huawei_watch_fit_5_pro-14614",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 5049,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_fit_5_pro-14614"
+      },
+      {
+        "id": "st-va-huawei_watch_fit_5_pro-14614",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 4989,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_fit_5_pro-14614/"
+      },
+      {
+        "id": "st-te-huawei_watch_fit_5_pro-14614",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5009,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_fit_5_pro-14614"
+      },
+      {
+        "id": "st-am-huawei_watch_fit_5_pro-14614",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 4974,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_fit_5_pro-14614"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 5249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 5099,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 4999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_fit_5-14613",
+    "slug": "huawei_watch_fit_5-14613",
+    "name": "Huawei Watch Fit 5",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 368,
+    "basePrice": 4999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-fit-5-14613.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-fit-5-14613.jpg"
+    ],
+    "highlights": [
+      "10 Gün Kesintisiz Kullanım Süresi",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Hafif & Şık Alüminyum Kasa",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_fit_5-14613",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_fit_5-14613"
+      },
+      {
+        "id": "st-tr-huawei_watch_fit_5-14613",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5024,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_fit_5-14613"
+      },
+      {
+        "id": "st-me-huawei_watch_fit_5-14613",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 5049,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_fit_5-14613"
+      },
+      {
+        "id": "st-va-huawei_watch_fit_5-14613",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 4989,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_fit_5-14613/"
+      },
+      {
+        "id": "st-te-huawei_watch_fit_5-14613",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5009,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_fit_5-14613"
+      },
+      {
+        "id": "st-am-huawei_watch_fit_5-14613",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 4974,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_fit_5-14613"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 5249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 5099,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 4999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_gt_runner_2-14514",
+    "slug": "huawei_watch_gt_runner_2-14514",
+    "name": "Huawei Watch GT Runner 2",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 349,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-runner-2-14514.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-gt-runner-2-14514.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_gt_runner_2-14514",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_gt_runner_2-14514"
+      },
+      {
+        "id": "st-tr-huawei_watch_gt_runner_2-14514",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3516,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_gt_runner_2-14514"
+      },
+      {
+        "id": "st-me-huawei_watch_gt_runner_2-14514",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 3534,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_gt_runner_2-14514"
+      },
+      {
+        "id": "st-va-huawei_watch_gt_runner_2-14514",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 3492,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_gt_runner_2-14514/"
+      },
+      {
+        "id": "st-te-huawei_watch_gt_runner_2-14514",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3506,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_gt_runner_2-14514"
+      },
+      {
+        "id": "st-am-huawei_watch_gt_runner_2-14514",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3482,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_gt_runner_2-14514"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3674,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 3569,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_ultimate_2-14166",
+    "slug": "huawei_watch_ultimate_2-14166",
+    "name": "Huawei Watch Ultimate 2",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 626,
+    "basePrice": 45999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-ultimate-2-14166.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-ultimate-2-14166.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_ultimate_2-14166",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 45999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_ultimate_2-14166"
+      },
+      {
+        "id": "st-tr-huawei_watch_ultimate_2-14166",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 46229,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_ultimate_2-14166"
+      },
+      {
+        "id": "st-me-huawei_watch_ultimate_2-14166",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 46459,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_ultimate_2-14166"
+      },
+      {
+        "id": "st-va-huawei_watch_ultimate_2-14166",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 45907,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_ultimate_2-14166/"
+      },
+      {
+        "id": "st-te-huawei_watch_ultimate_2-14166",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 46091,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_ultimate_2-14166"
+      },
+      {
+        "id": "st-am-huawei_watch_ultimate_2-14166",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 45769,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_ultimate_2-14166"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 48299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 46919,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 45999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 45999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_gt_6_pro-14167",
+    "slug": "huawei_watch_gt_6_pro-14167",
+    "name": "Huawei Watch GT 6 Pro",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 373,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-6-pro-14167.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-gt-6-pro-14167.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_gt_6_pro-14167",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_gt_6_pro-14167"
+      },
+      {
+        "id": "st-tr-huawei_watch_gt_6_pro-14167",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 15074,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_gt_6_pro-14167"
+      },
+      {
+        "id": "st-me-huawei_watch_gt_6_pro-14167",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 15149,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_gt_6_pro-14167"
+      },
+      {
+        "id": "st-va-huawei_watch_gt_6_pro-14167",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 14969,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_gt_6_pro-14167/"
+      },
+      {
+        "id": "st-te-huawei_watch_gt_6_pro-14167",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 15029,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_gt_6_pro-14167"
+      },
+      {
+        "id": "st-am-huawei_watch_gt_6_pro-14167",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14924,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_gt_6_pro-14167"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 15749,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 15299,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 14999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_gt_6-14168",
+    "slug": "huawei_watch_gt_6-14168",
+    "name": "Huawei Watch GT 6",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 464,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-6-14168.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-gt-6-14168.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_gt_6-14168",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_gt_6-14168"
+      },
+      {
+        "id": "st-tr-huawei_watch_gt_6-14168",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 15074,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_gt_6-14168"
+      },
+      {
+        "id": "st-me-huawei_watch_gt_6-14168",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 15149,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_gt_6-14168"
+      },
+      {
+        "id": "st-va-huawei_watch_gt_6-14168",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 14969,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_gt_6-14168/"
+      },
+      {
+        "id": "st-te-huawei_watch_gt_6-14168",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 15029,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_gt_6-14168"
+      },
+      {
+        "id": "st-am-huawei_watch_gt_6-14168",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14924,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_gt_6-14168"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 15749,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 15299,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 14999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_5-13868",
+    "slug": "huawei_watch_5-13868",
+    "name": "Huawei Watch 5",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 437,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-5-13868.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-5-13868.jpg"
+    ],
+    "highlights": [
+      "10 Gün Kesintisiz Kullanım Süresi",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Hafif & Şık Alüminyum Kasa",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_5-13868",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_5-13868"
+      },
+      {
+        "id": "st-tr-huawei_watch_5-13868",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 15074,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_5-13868"
+      },
+      {
+        "id": "st-me-huawei_watch_5-13868",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 15149,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_5-13868"
+      },
+      {
+        "id": "st-va-huawei_watch_5-13868",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 14969,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_5-13868/"
+      },
+      {
+        "id": "st-te-huawei_watch_5-13868",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 15029,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_5-13868"
+      },
+      {
+        "id": "st-am-huawei_watch_5-13868",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14924,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_5-13868"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 15749,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 15299,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 14999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_fit_4_pro-14114",
+    "slug": "huawei_watch_fit_4_pro-14114",
+    "name": "Huawei Watch Fit 4 Pro",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 196,
+    "basePrice": 4999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-fit-4-pro-14114.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-fit-4-pro-14114.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_fit_4_pro-14114",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_fit_4_pro-14114"
+      },
+      {
+        "id": "st-tr-huawei_watch_fit_4_pro-14114",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5024,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_fit_4_pro-14114"
+      },
+      {
+        "id": "st-me-huawei_watch_fit_4_pro-14114",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 5049,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_fit_4_pro-14114"
+      },
+      {
+        "id": "st-va-huawei_watch_fit_4_pro-14114",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 4989,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_fit_4_pro-14114/"
+      },
+      {
+        "id": "st-te-huawei_watch_fit_4_pro-14114",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5009,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_fit_4_pro-14114"
+      },
+      {
+        "id": "st-am-huawei_watch_fit_4_pro-14114",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 4974,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_fit_4_pro-14114"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 5249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 5099,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 4999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_fit_4-14113",
+    "slug": "huawei_watch_fit_4-14113",
+    "name": "Huawei Watch Fit 4",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 208,
+    "basePrice": 4999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-fit-4-14113.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-fit-4-14113.jpg"
+    ],
+    "highlights": [
+      "10 Gün Kesintisiz Kullanım Süresi",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Hafif & Şık Alüminyum Kasa",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_fit_4-14113",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_fit_4-14113"
+      },
+      {
+        "id": "st-tr-huawei_watch_fit_4-14113",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5024,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_fit_4-14113"
+      },
+      {
+        "id": "st-me-huawei_watch_fit_4-14113",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 5049,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_fit_4-14113"
+      },
+      {
+        "id": "st-va-huawei_watch_fit_4-14113",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 4989,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_fit_4-14113/"
+      },
+      {
+        "id": "st-te-huawei_watch_fit_4-14113",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5009,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_fit_4-14113"
+      },
+      {
+        "id": "st-am-huawei_watch_fit_4-14113",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 4974,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_fit_4-14113"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 5249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 5099,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 4999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_gt_5_pro-13349",
+    "slug": "huawei_watch_gt_5_pro-13349",
+    "name": "Huawei Watch GT 5 Pro",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 539,
+    "basePrice": 9999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-5-pro-13349.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-gt-5-pro-13349.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_gt_5_pro-13349",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 9999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_gt_5_pro-13349"
+      },
+      {
+        "id": "st-tr-huawei_watch_gt_5_pro-13349",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 10049,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_gt_5_pro-13349"
+      },
+      {
+        "id": "st-me-huawei_watch_gt_5_pro-13349",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 10099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_gt_5_pro-13349"
+      },
+      {
+        "id": "st-va-huawei_watch_gt_5_pro-13349",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9979,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_gt_5_pro-13349/"
+      },
+      {
+        "id": "st-te-huawei_watch_gt_5_pro-13349",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 10019,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_gt_5_pro-13349"
+      },
+      {
+        "id": "st-am-huawei_watch_gt_5_pro-13349",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 9949,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_gt_5_pro-13349"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 10499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 10199,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 9999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_gt_5-13350",
+    "slug": "huawei_watch_gt_5-13350",
+    "name": "Huawei Watch GT 5",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 612,
+    "basePrice": 9999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-5-13350.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-gt-5-13350.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_gt_5-13350",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 9999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_gt_5-13350"
+      },
+      {
+        "id": "st-tr-huawei_watch_gt_5-13350",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 10049,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_gt_5-13350"
+      },
+      {
+        "id": "st-me-huawei_watch_gt_5-13350",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 10099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_gt_5-13350"
+      },
+      {
+        "id": "st-va-huawei_watch_gt_5-13350",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9979,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_gt_5-13350/"
+      },
+      {
+        "id": "st-te-huawei_watch_gt_5-13350",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 10019,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_gt_5-13350"
+      },
+      {
+        "id": "st-am-huawei_watch_gt_5-13350",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 9949,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_gt_5-13350"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 10499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 10199,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 9999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_d2-13351",
+    "slug": "huawei_watch_d2-13351",
+    "name": "Huawei Watch D2",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 172,
+    "basePrice": 9999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-d2-13351.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-d2-13351.jpg"
+    ],
+    "highlights": [
+      "10 Gün Kesintisiz Kullanım Süresi",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Hafif & Şık Alüminyum Kasa",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_d2-13351",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 9999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_d2-13351"
+      },
+      {
+        "id": "st-tr-huawei_watch_d2-13351",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 10049,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_d2-13351"
+      },
+      {
+        "id": "st-me-huawei_watch_d2-13351",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 10099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_d2-13351"
+      },
+      {
+        "id": "st-va-huawei_watch_d2-13351",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9979,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_d2-13351/"
+      },
+      {
+        "id": "st-te-huawei_watch_d2-13351",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 10019,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_d2-13351"
+      },
+      {
+        "id": "st-am-huawei_watch_d2-13351",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 9949,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_d2-13351"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 10499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 10199,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 9999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_ultimate_design-12607",
+    "slug": "huawei_watch_ultimate_design-12607",
+    "name": "Huawei Watch Ultimate Design",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 637,
+    "basePrice": 45999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-ultimate-design-12607.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-ultimate-design-12607.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_ultimate_design-12607",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 45999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_ultimate_design-12607"
+      },
+      {
+        "id": "st-tr-huawei_watch_ultimate_design-12607",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 46229,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_ultimate_design-12607"
+      },
+      {
+        "id": "st-me-huawei_watch_ultimate_design-12607",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 46459,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_ultimate_design-12607"
+      },
+      {
+        "id": "st-va-huawei_watch_ultimate_design-12607",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 45907,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_ultimate_design-12607/"
+      },
+      {
+        "id": "st-te-huawei_watch_ultimate_design-12607",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 46091,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_ultimate_design-12607"
+      },
+      {
+        "id": "st-am-huawei_watch_ultimate_design-12607",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 45769,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_ultimate_design-12607"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 48299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 46919,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 45999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 45999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_gt_4-12563",
+    "slug": "huawei_watch_gt_4-12563",
+    "name": "Huawei Watch GT 4",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 498,
+    "basePrice": 9999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-4-12563.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-gt-4-12563.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_gt_4-12563",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 9999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_gt_4-12563"
+      },
+      {
+        "id": "st-tr-huawei_watch_gt_4-12563",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 10049,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_gt_4-12563"
+      },
+      {
+        "id": "st-me-huawei_watch_gt_4-12563",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 10099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_gt_4-12563"
+      },
+      {
+        "id": "st-va-huawei_watch_gt_4-12563",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9979,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_gt_4-12563/"
+      },
+      {
+        "id": "st-te-huawei_watch_gt_4-12563",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 10019,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_gt_4-12563"
+      },
+      {
+        "id": "st-am-huawei_watch_gt_4-12563",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 9949,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_gt_4-12563"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 10499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 10199,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 9999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_4_pro-12278",
+    "slug": "huawei_watch_4_pro-12278",
+    "name": "Huawei Watch 4 Pro",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 430,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-4-pro-12278.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-4-pro-12278.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_4_pro-12278",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_4_pro-12278"
+      },
+      {
+        "id": "st-tr-huawei_watch_4_pro-12278",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 15074,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_4_pro-12278"
+      },
+      {
+        "id": "st-me-huawei_watch_4_pro-12278",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 15149,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_4_pro-12278"
+      },
+      {
+        "id": "st-va-huawei_watch_4_pro-12278",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 14969,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_4_pro-12278/"
+      },
+      {
+        "id": "st-te-huawei_watch_4_pro-12278",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 15029,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_4_pro-12278"
+      },
+      {
+        "id": "st-am-huawei_watch_4_pro-12278",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14924,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_4_pro-12278"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 15749,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 15299,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 14999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_4-12279",
+    "slug": "huawei_watch_4-12279",
+    "name": "Huawei Watch 4",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 277,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-4-12279.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-4-12279.jpg"
+    ],
+    "highlights": [
+      "10 Gün Kesintisiz Kullanım Süresi",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Hafif & Şık Alüminyum Kasa",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_4-12279",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_4-12279"
+      },
+      {
+        "id": "st-tr-huawei_watch_4-12279",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3516,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_4-12279"
+      },
+      {
+        "id": "st-me-huawei_watch_4-12279",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 3534,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_4-12279"
+      },
+      {
+        "id": "st-va-huawei_watch_4-12279",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 3492,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_4-12279/"
+      },
+      {
+        "id": "st-te-huawei_watch_4-12279",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3506,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_4-12279"
+      },
+      {
+        "id": "st-am-huawei_watch_4-12279",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3482,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_4-12279"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3674,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 3569,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_ultimate-12190",
+    "slug": "huawei_watch_ultimate-12190",
+    "name": "Huawei Watch Ultimate",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 632,
+    "basePrice": 45999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-ultimate-12190.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-ultimate-12190.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_ultimate-12190",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 45999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_ultimate-12190"
+      },
+      {
+        "id": "st-tr-huawei_watch_ultimate-12190",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 46229,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_ultimate-12190"
+      },
+      {
+        "id": "st-me-huawei_watch_ultimate-12190",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 46459,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_ultimate-12190"
+      },
+      {
+        "id": "st-va-huawei_watch_ultimate-12190",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 45907,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_ultimate-12190/"
+      },
+      {
+        "id": "st-te-huawei_watch_ultimate-12190",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 46091,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_ultimate-12190"
+      },
+      {
+        "id": "st-am-huawei_watch_ultimate-12190",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 45769,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_ultimate-12190"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 48299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 46919,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 45999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 45999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_buds-12021",
+    "slug": "huawei_watch_buds-12021",
+    "name": "Huawei Watch Buds",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 130,
+    "basePrice": 9999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-buds-12021.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-buds-12021.jpg"
+    ],
+    "highlights": [
+      "10 Gün Kesintisiz Kullanım Süresi",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Hafif & Şık Alüminyum Kasa",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_buds-12021",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 9999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_buds-12021"
+      },
+      {
+        "id": "st-tr-huawei_watch_buds-12021",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 10049,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_buds-12021"
+      },
+      {
+        "id": "st-me-huawei_watch_buds-12021",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 10099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_buds-12021"
+      },
+      {
+        "id": "st-va-huawei_watch_buds-12021",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9979,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_buds-12021/"
+      },
+      {
+        "id": "st-te-huawei_watch_buds-12021",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 10019,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_buds-12021"
+      },
+      {
+        "id": "st-am-huawei_watch_buds-12021",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 9949,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_buds-12021"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 10499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 10199,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 9999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_gt_3_se-11980",
+    "slug": "huawei_watch_gt_3_se-11980",
+    "name": "Huawei Watch GT 3 SE",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 583,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-3-se-11980.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-gt-3-se-11980.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_gt_3_se-11980",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_gt_3_se-11980"
+      },
+      {
+        "id": "st-tr-huawei_watch_gt_3_se-11980",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3516,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_gt_3_se-11980"
+      },
+      {
+        "id": "st-me-huawei_watch_gt_3_se-11980",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 3534,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_gt_3_se-11980"
+      },
+      {
+        "id": "st-va-huawei_watch_gt_3_se-11980",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 3492,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_gt_3_se-11980/"
+      },
+      {
+        "id": "st-te-huawei_watch_gt_3_se-11980",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3506,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_gt_3_se-11980"
+      },
+      {
+        "id": "st-am-huawei_watch_gt_3_se-11980",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3482,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_gt_3_se-11980"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3674,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 3569,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_gt_cyber-11972",
+    "slug": "huawei_watch_gt_cyber-11972",
+    "name": "Huawei Watch GT Cyber",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 512,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-cyber-11972.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-gt-cyber-11972.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_gt_cyber-11972",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_gt_cyber-11972"
+      },
+      {
+        "id": "st-tr-huawei_watch_gt_cyber-11972",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3516,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_gt_cyber-11972"
+      },
+      {
+        "id": "st-me-huawei_watch_gt_cyber-11972",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 3534,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_gt_cyber-11972"
+      },
+      {
+        "id": "st-va-huawei_watch_gt_cyber-11972",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 3492,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_gt_cyber-11972/"
+      },
+      {
+        "id": "st-te-huawei_watch_gt_cyber-11972",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3506,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_gt_cyber-11972"
+      },
+      {
+        "id": "st-am-huawei_watch_gt_cyber-11972",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3482,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_gt_cyber-11972"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3674,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 3569,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_gt_3_porsche_design-11505",
+    "slug": "huawei_watch_gt_3_porsche_design-11505",
+    "name": "Huawei Watch GT 3 Porsche Design",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 553,
+    "basePrice": 45999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-3-porsche-design-11505.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-gt-3-porsche-design-11505.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_gt_3_porsche_design-11505",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 45999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_gt_3_porsche_design-11505"
+      },
+      {
+        "id": "st-tr-huawei_watch_gt_3_porsche_design-11505",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 46229,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_gt_3_porsche_design-11505"
+      },
+      {
+        "id": "st-me-huawei_watch_gt_3_porsche_design-11505",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 46459,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_gt_3_porsche_design-11505"
+      },
+      {
+        "id": "st-va-huawei_watch_gt_3_porsche_design-11505",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 45907,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_gt_3_porsche_design-11505/"
+      },
+      {
+        "id": "st-te-huawei_watch_gt_3_porsche_design-11505",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 46091,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_gt_3_porsche_design-11505"
+      },
+      {
+        "id": "st-am-huawei_watch_gt_3_porsche_design-11505",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 45769,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_gt_3_porsche_design-11505"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 48299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 46919,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 45999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 45999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_gt_3_pro-11504",
+    "slug": "huawei_watch_gt_3_pro-11504",
+    "name": "Huawei Watch GT 3 Pro",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 390,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-3-pro-11504.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-gt-3-pro-11504.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_gt_3_pro-11504",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_gt_3_pro-11504"
+      },
+      {
+        "id": "st-tr-huawei_watch_gt_3_pro-11504",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3516,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_gt_3_pro-11504"
+      },
+      {
+        "id": "st-me-huawei_watch_gt_3_pro-11504",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 3534,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_gt_3_pro-11504"
+      },
+      {
+        "id": "st-va-huawei_watch_gt_3_pro-11504",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 3492,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_gt_3_pro-11504/"
+      },
+      {
+        "id": "st-te-huawei_watch_gt_3_pro-11504",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3506,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_gt_3_pro-11504"
+      },
+      {
+        "id": "st-am-huawei_watch_gt_3_pro-11504",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3482,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_gt_3_pro-11504"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3674,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 3569,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_d-12030",
+    "slug": "huawei_watch_d-12030",
+    "name": "Huawei Watch D",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 637,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-d-12030.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-d-12030.jpg"
+    ],
+    "highlights": [
+      "10 Gün Kesintisiz Kullanım Süresi",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Hafif & Şık Alüminyum Kasa",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_d-12030",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_d-12030"
+      },
+      {
+        "id": "st-tr-huawei_watch_d-12030",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3516,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_d-12030"
+      },
+      {
+        "id": "st-me-huawei_watch_d-12030",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 3534,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_d-12030"
+      },
+      {
+        "id": "st-va-huawei_watch_d-12030",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 3492,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_d-12030/"
+      },
+      {
+        "id": "st-te-huawei_watch_d-12030",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3506,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_d-12030"
+      },
+      {
+        "id": "st-am-huawei_watch_d-12030",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3482,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_d-12030"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3674,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 3569,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_gt_runner-11227",
+    "slug": "huawei_watch_gt_runner-11227",
+    "name": "Huawei Watch GT Runner",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 247,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-runner-11227.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-gt-runner-11227.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_gt_runner-11227",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_gt_runner-11227"
+      },
+      {
+        "id": "st-tr-huawei_watch_gt_runner-11227",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3516,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_gt_runner-11227"
+      },
+      {
+        "id": "st-me-huawei_watch_gt_runner-11227",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 3534,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_gt_runner-11227"
+      },
+      {
+        "id": "st-va-huawei_watch_gt_runner-11227",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 3492,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_gt_runner-11227/"
+      },
+      {
+        "id": "st-te-huawei_watch_gt_runner-11227",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3506,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_gt_runner-11227"
+      },
+      {
+        "id": "st-am-huawei_watch_gt_runner-11227",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3482,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_gt_runner-11227"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3674,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 3569,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_fit_mini-11176",
+    "slug": "huawei_watch_fit_mini-11176",
+    "name": "Huawei Watch Fit mini",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 603,
+    "basePrice": 4999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-fit-mini-11176.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-fit-mini-11176.jpg"
+    ],
+    "highlights": [
+      "10 Gün Kesintisiz Kullanım Süresi",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Hafif & Şık Alüminyum Kasa",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_fit_mini-11176",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_fit_mini-11176"
+      },
+      {
+        "id": "st-tr-huawei_watch_fit_mini-11176",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5024,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_fit_mini-11176"
+      },
+      {
+        "id": "st-me-huawei_watch_fit_mini-11176",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 5049,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_fit_mini-11176"
+      },
+      {
+        "id": "st-va-huawei_watch_fit_mini-11176",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 4989,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_fit_mini-11176/"
+      },
+      {
+        "id": "st-te-huawei_watch_fit_mini-11176",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5009,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_fit_mini-11176"
+      },
+      {
+        "id": "st-am-huawei_watch_fit_mini-11176",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 4974,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_fit_mini-11176"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 5249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 5099,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 4999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_gt_3-11171",
+    "slug": "huawei_watch_gt_3-11171",
+    "name": "Huawei Watch GT 3",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 503,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-3-11171.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-gt-3-11171.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_gt_3-11171",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_gt_3-11171"
+      },
+      {
+        "id": "st-tr-huawei_watch_gt_3-11171",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3516,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_gt_3-11171"
+      },
+      {
+        "id": "st-me-huawei_watch_gt_3-11171",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 3534,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_gt_3-11171"
+      },
+      {
+        "id": "st-va-huawei_watch_gt_3-11171",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 3492,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_gt_3-11171/"
+      },
+      {
+        "id": "st-te-huawei_watch_gt_3-11171",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3506,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_gt_3-11171"
+      },
+      {
+        "id": "st-am-huawei_watch_gt_3-11171",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3482,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_gt_3-11171"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3674,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 3569,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_3_pro-10941",
+    "slug": "huawei_watch_3_pro-10941",
+    "name": "Huawei Watch 3 Pro",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 686,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-3-pro-10941.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-3-pro-10941.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_3_pro-10941",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_3_pro-10941"
+      },
+      {
+        "id": "st-tr-huawei_watch_3_pro-10941",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3516,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_3_pro-10941"
+      },
+      {
+        "id": "st-me-huawei_watch_3_pro-10941",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 3534,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_3_pro-10941"
+      },
+      {
+        "id": "st-va-huawei_watch_3_pro-10941",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 3492,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_3_pro-10941/"
+      },
+      {
+        "id": "st-te-huawei_watch_3_pro-10941",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3506,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_3_pro-10941"
+      },
+      {
+        "id": "st-am-huawei_watch_3_pro-10941",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3482,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_3_pro-10941"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3674,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 3569,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_3-10940",
+    "slug": "huawei_watch_3-10940",
+    "name": "Huawei Watch 3",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 351,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-3-10940.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-3-10940.jpg"
+    ],
+    "highlights": [
+      "10 Gün Kesintisiz Kullanım Süresi",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Hafif & Şık Alüminyum Kasa",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_3-10940",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_3-10940"
+      },
+      {
+        "id": "st-tr-huawei_watch_3-10940",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3516,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_3-10940"
+      },
+      {
+        "id": "st-me-huawei_watch_3-10940",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 3534,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_3-10940"
+      },
+      {
+        "id": "st-va-huawei_watch_3-10940",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 3492,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_3-10940/"
+      },
+      {
+        "id": "st-te-huawei_watch_3-10940",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3506,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_3-10940"
+      },
+      {
+        "id": "st-am-huawei_watch_3-10940",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3482,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_3-10940"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3674,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 3569,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_fit_elegant-10794",
+    "slug": "huawei_watch_fit_elegant-10794",
+    "name": "Huawei Watch Fit Elegant",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 606,
+    "basePrice": 4999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-fit-elegant-10794.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-fit-elegant-10794.jpg"
+    ],
+    "highlights": [
+      "10 Gün Kesintisiz Kullanım Süresi",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Hafif & Şık Alüminyum Kasa",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_fit_elegant-10794",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_fit_elegant-10794"
+      },
+      {
+        "id": "st-tr-huawei_watch_fit_elegant-10794",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5024,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_fit_elegant-10794"
+      },
+      {
+        "id": "st-me-huawei_watch_fit_elegant-10794",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 5049,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_fit_elegant-10794"
+      },
+      {
+        "id": "st-va-huawei_watch_fit_elegant-10794",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 4989,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_fit_elegant-10794/"
+      },
+      {
+        "id": "st-te-huawei_watch_fit_elegant-10794",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5009,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_fit_elegant-10794"
+      },
+      {
+        "id": "st-am-huawei_watch_fit_elegant-10794",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 4974,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_fit_elegant-10794"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 5249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 5099,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 4999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_gt_2_porsche_design-10554",
+    "slug": "huawei_watch_gt_2_porsche_design-10554",
+    "name": "Huawei Watch GT 2 Porsche Design",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 315,
+    "basePrice": 45999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-2-porsche-design-10554.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-gt-2-porsche-design-10554.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_gt_2_porsche_design-10554",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 45999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_gt_2_porsche_design-10554"
+      },
+      {
+        "id": "st-tr-huawei_watch_gt_2_porsche_design-10554",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 46229,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_gt_2_porsche_design-10554"
+      },
+      {
+        "id": "st-me-huawei_watch_gt_2_porsche_design-10554",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 46459,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_gt_2_porsche_design-10554"
+      },
+      {
+        "id": "st-va-huawei_watch_gt_2_porsche_design-10554",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 45907,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_gt_2_porsche_design-10554/"
+      },
+      {
+        "id": "st-te-huawei_watch_gt_2_porsche_design-10554",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 46091,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_gt_2_porsche_design-10554"
+      },
+      {
+        "id": "st-am-huawei_watch_gt_2_porsche_design-10554",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 45769,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_gt_2_porsche_design-10554"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 48299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 46919,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 45999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 45999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_gt_2_pro-10426",
+    "slug": "huawei_watch_gt_2_pro-10426",
+    "name": "Huawei Watch GT 2 Pro",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 653,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-2-pro-10426.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-gt-2-pro-10426.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_gt_2_pro-10426",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_gt_2_pro-10426"
+      },
+      {
+        "id": "st-tr-huawei_watch_gt_2_pro-10426",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3516,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_gt_2_pro-10426"
+      },
+      {
+        "id": "st-me-huawei_watch_gt_2_pro-10426",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 3534,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_gt_2_pro-10426"
+      },
+      {
+        "id": "st-va-huawei_watch_gt_2_pro-10426",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 3492,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_gt_2_pro-10426/"
+      },
+      {
+        "id": "st-te-huawei_watch_gt_2_pro-10426",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3506,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_gt_2_pro-10426"
+      },
+      {
+        "id": "st-am-huawei_watch_gt_2_pro-10426",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3482,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_gt_2_pro-10426"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3674,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 3569,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_fit-10427",
+    "slug": "huawei_watch_fit-10427",
+    "name": "Huawei Watch Fit",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 438,
+    "basePrice": 4999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-fit-10427.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-fit-10427.jpg"
+    ],
+    "highlights": [
+      "10 Gün Kesintisiz Kullanım Süresi",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Hafif & Şık Alüminyum Kasa",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_fit-10427",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_fit-10427"
+      },
+      {
+        "id": "st-tr-huawei_watch_fit-10427",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5024,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_fit-10427"
+      },
+      {
+        "id": "st-me-huawei_watch_fit-10427",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 5049,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_fit-10427"
+      },
+      {
+        "id": "st-va-huawei_watch_fit-10427",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 4989,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_fit-10427/"
+      },
+      {
+        "id": "st-te-huawei_watch_fit-10427",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5009,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_fit-10427"
+      },
+      {
+        "id": "st-am-huawei_watch_fit-10427",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 4974,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_fit-10427"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 5249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 5099,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 4999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_children_s_watch_4x-10364",
+    "slug": "huawei_children_s_watch_4x-10364",
+    "name": "Huawei Children's Watch 4X",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 668,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-children-s-watch-4x-10364.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-children-s-watch-4x-10364.jpg"
+    ],
+    "highlights": [
+      "10 Gün Kesintisiz Kullanım Süresi",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Hafif & Şık Alüminyum Kasa",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_children_s_watch_4x-10364",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_children_s_watch_4x-10364"
+      },
+      {
+        "id": "st-tr-huawei_children_s_watch_4x-10364",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3516,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_children_s_watch_4x-10364"
+      },
+      {
+        "id": "st-me-huawei_children_s_watch_4x-10364",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 3534,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_children_s_watch_4x-10364"
+      },
+      {
+        "id": "st-va-huawei_children_s_watch_4x-10364",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 3492,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_children_s_watch_4x-10364/"
+      },
+      {
+        "id": "st-te-huawei_children_s_watch_4x-10364",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3506,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_children_s_watch_4x-10364"
+      },
+      {
+        "id": "st-am-huawei_children_s_watch_4x-10364",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3482,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_children_s_watch_4x-10364"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3674,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 3569,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_gt_2e-10166",
+    "slug": "huawei_watch_gt_2e-10166",
+    "name": "Huawei Watch GT 2e",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 381,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-2e-10166.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-gt-2e-10166.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_gt_2e-10166",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_gt_2e-10166"
+      },
+      {
+        "id": "st-tr-huawei_watch_gt_2e-10166",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3516,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_gt_2e-10166"
+      },
+      {
+        "id": "st-me-huawei_watch_gt_2e-10166",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 3534,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_gt_2e-10166"
+      },
+      {
+        "id": "st-va-huawei_watch_gt_2e-10166",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 3492,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_gt_2e-10166/"
+      },
+      {
+        "id": "st-te-huawei_watch_gt_2e-10166",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3506,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_gt_2e-10166"
+      },
+      {
+        "id": "st-am-huawei_watch_gt_2e-10166",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3482,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_gt_2e-10166"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3674,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 3569,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_gt_2-9888",
+    "slug": "huawei_watch_gt_2-9888",
+    "name": "Huawei Watch GT 2",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 250,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-2-9888.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-gt-2-9888.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_gt_2-9888",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_gt_2-9888"
+      },
+      {
+        "id": "st-tr-huawei_watch_gt_2-9888",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3516,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_gt_2-9888"
+      },
+      {
+        "id": "st-me-huawei_watch_gt_2-9888",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 3534,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_gt_2-9888"
+      },
+      {
+        "id": "st-va-huawei_watch_gt_2-9888",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 3492,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_gt_2-9888/"
+      },
+      {
+        "id": "st-te-huawei_watch_gt_2-9888",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3506,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_gt_2-9888"
+      },
+      {
+        "id": "st-am-huawei_watch_gt_2-9888",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3482,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_gt_2-9888"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3674,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 3569,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_magic-9401",
+    "slug": "huawei_watch_magic-9401",
+    "name": "Huawei Watch Magic",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 434,
+    "basePrice": 4999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-magic-9401.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-magic-9401.jpg"
+    ],
+    "highlights": [
+      "10 Gün Kesintisiz Kullanım Süresi",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Hafif & Şık Alüminyum Kasa",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_magic-9401",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_magic-9401"
+      },
+      {
+        "id": "st-tr-huawei_watch_magic-9401",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5024,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_magic-9401"
+      },
+      {
+        "id": "st-me-huawei_watch_magic-9401",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 5049,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_magic-9401"
+      },
+      {
+        "id": "st-va-huawei_watch_magic-9401",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 4989,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_magic-9401/"
+      },
+      {
+        "id": "st-te-huawei_watch_magic-9401",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5009,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_magic-9401"
+      },
+      {
+        "id": "st-am-huawei_watch_magic-9401",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 4974,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_magic-9401"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 5249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 5099,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 4999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_gt-9395",
+    "slug": "huawei_watch_gt-9395",
+    "name": "Huawei Watch GT",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 251,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-gt-9395.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-gt-9395.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_gt-9395",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_gt-9395"
+      },
+      {
+        "id": "st-tr-huawei_watch_gt-9395",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3516,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_gt-9395"
+      },
+      {
+        "id": "st-me-huawei_watch_gt-9395",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 3534,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_gt-9395"
+      },
+      {
+        "id": "st-va-huawei_watch_gt-9395",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 3492,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_gt-9395/"
+      },
+      {
+        "id": "st-te-huawei_watch_gt-9395",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3506,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_gt-9395"
+      },
+      {
+        "id": "st-am-huawei_watch_gt-9395",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3482,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_gt-9395"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3674,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 3569,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_2_2018-9199",
+    "slug": "huawei_watch_2_2018-9199",
+    "name": "Huawei Watch 2 2018",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 518,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2018,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-2-2018-9199.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-2-2018-9199.jpg"
+    ],
+    "highlights": [
+      "10 Gün Kesintisiz Kullanım Süresi",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Hafif & Şık Alüminyum Kasa",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_2_2018-9199",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_2_2018-9199"
+      },
+      {
+        "id": "st-tr-huawei_watch_2_2018-9199",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3516,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_2_2018-9199"
+      },
+      {
+        "id": "st-me-huawei_watch_2_2018-9199",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 3534,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_2_2018-9199"
+      },
+      {
+        "id": "st-va-huawei_watch_2_2018-9199",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 3492,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_2_2018-9199/"
+      },
+      {
+        "id": "st-te-huawei_watch_2_2018-9199",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3506,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_2_2018-9199"
+      },
+      {
+        "id": "st-am-huawei_watch_2_2018-9199",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3482,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_2_2018-9199"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3674,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 3569,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_2_pro-8910",
+    "slug": "huawei_watch_2_pro-8910",
+    "name": "Huawei Watch 2 Pro",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 655,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-2-pro-8910.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-2-pro-8910.jpg"
+    ],
+    "highlights": [
+      "14 Güne Varan Ultra Uzun Pil Ömrü",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Safir Cam & Titanyum / Seramik Premium Gövde",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_2_pro-8910",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_2_pro-8910"
+      },
+      {
+        "id": "st-tr-huawei_watch_2_pro-8910",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3516,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_2_pro-8910"
+      },
+      {
+        "id": "st-me-huawei_watch_2_pro-8910",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 3534,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_2_pro-8910"
+      },
+      {
+        "id": "st-va-huawei_watch_2_pro-8910",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 3492,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_2_pro-8910/"
+      },
+      {
+        "id": "st-te-huawei_watch_2_pro-8910",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3506,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_2_pro-8910"
+      },
+      {
+        "id": "st-am-huawei_watch_2_pro-8910",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3482,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_2_pro-8910"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3674,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 3569,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_2_classic-8594",
+    "slug": "huawei_watch_2_classic-8594",
+    "name": "Huawei Watch 2 Classic",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 352,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-2-classic-8594.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-2-classic-8594.jpg"
+    ],
+    "highlights": [
+      "10 Gün Kesintisiz Kullanım Süresi",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Hafif & Şık Alüminyum Kasa",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_2_classic-8594",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_2_classic-8594"
+      },
+      {
+        "id": "st-tr-huawei_watch_2_classic-8594",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3516,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_2_classic-8594"
+      },
+      {
+        "id": "st-me-huawei_watch_2_classic-8594",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 3534,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_2_classic-8594"
+      },
+      {
+        "id": "st-va-huawei_watch_2_classic-8594",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 3492,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_2_classic-8594/"
+      },
+      {
+        "id": "st-te-huawei_watch_2_classic-8594",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3506,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_2_classic-8594"
+      },
+      {
+        "id": "st-am-huawei_watch_2_classic-8594",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3482,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_2_classic-8594"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3674,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 3569,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch_2-8585",
+    "slug": "huawei_watch_2-8585",
+    "name": "Huawei Watch 2",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 242,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-2-8585.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-2-8585.jpg"
+    ],
+    "highlights": [
+      "10 Gün Kesintisiz Kullanım Süresi",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Hafif & Şık Alüminyum Kasa",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch_2-8585",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch_2-8585"
+      },
+      {
+        "id": "st-tr-huawei_watch_2-8585",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3516,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch_2-8585"
+      },
+      {
+        "id": "st-me-huawei_watch_2-8585",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 3534,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch_2-8585"
+      },
+      {
+        "id": "st-va-huawei_watch_2-8585",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 3492,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch_2-8585/"
+      },
+      {
+        "id": "st-te-huawei_watch_2-8585",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3506,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch_2-8585"
+      },
+      {
+        "id": "st-am-huawei_watch_2-8585",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3482,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch_2-8585"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3674,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 3569,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_fit-8411",
+    "slug": "huawei_fit-8411",
+    "name": "Huawei Fit",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 215,
+    "basePrice": 4999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-fit-8411.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-fit-8411.jpg"
+    ],
+    "highlights": [
+      "10 Gün Kesintisiz Kullanım Süresi",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Hafif & Şık Alüminyum Kasa",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_fit-8411",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_fit-8411"
+      },
+      {
+        "id": "st-tr-huawei_fit-8411",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5024,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_fit-8411"
+      },
+      {
+        "id": "st-me-huawei_fit-8411",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 5049,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_fit-8411"
+      },
+      {
+        "id": "st-va-huawei_fit-8411",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 4989,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_fit-8411/"
+      },
+      {
+        "id": "st-te-huawei_fit-8411",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5009,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_fit-8411"
+      },
+      {
+        "id": "st-am-huawei_fit-8411",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 4974,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_fit-8411"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 5249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 5099,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 4999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei_watch-7687",
+    "slug": "huawei_watch-7687",
+    "name": "Huawei Watch",
+    "brand": "Huawei",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 483,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/huawei/huawei-huawei-watch-7687.jpg",
+    "images": [
+      "/images/smartwatches/huawei/huawei-huawei-watch-7687.jpg"
+    ],
+    "highlights": [
+      "10 Gün Kesintisiz Kullanım Süresi",
+      "TruSense / TruSeen 5.5+ Gelişmiş Nabız & EKG & SpO2 Takibi",
+      "Hafif & Şık Alüminyum Kasa",
+      "Çift Frekanslı GPS & 100+ Profesyonel Spor Modu"
+    ],
+    "tags": [
+      "Huawei",
+      "Akıllı Saat",
+      "14 Gün Pil Ömrü",
+      "TruSense"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-he-huawei_watch-7687",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com/ara?q=huawei+huawei_watch-7687"
+      },
+      {
+        "id": "st-tr-huawei_watch-7687",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3516,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com/sr?q=huawei+huawei_watch-7687"
+      },
+      {
+        "id": "st-me-huawei_watch-7687",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 3534,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=huawei+huawei_watch-7687"
+      },
+      {
+        "id": "st-va-huawei_watch-7687",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 3492,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.vatanbilgisayar.com/arama/huawei-huawei_watch-7687/"
+      },
+      {
+        "id": "st-te-huawei_watch-7687",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3506,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.teknosa.com/arama?s=huawei+huawei_watch-7687"
+      },
+      {
+        "id": "st-am-huawei_watch-7687",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3482,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.amazon.com.tr/s?k=huawei+huawei_watch-7687"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3674,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 3569,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kahverengi Deri",
+        "hex": "#78350f"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      }
+    ]
   }
 ];
