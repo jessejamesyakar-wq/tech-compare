@@ -121,22 +121,8 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
       style={{ contentVisibility: 'auto', containIntrinsicSize: '0 440px' }}
       className="product-card group relative bg-white border border-[#e0e0e0] hover:border-blue-600/60 rounded-xl p-3 sm:p-3.5 transition-all duration-200 shadow-2xs hover:shadow-lg flex flex-col justify-between overflow-hidden"
     >
-      {/* Starburst Ribbon Badge */}
-      {index % 4 === 0 && (
-        <div className="absolute top-2.5 left-2.5 z-20 w-11 h-11 rounded-full badge-starburst text-white flex flex-col items-center justify-center text-[7.5px] font-black leading-none text-center p-1 border border-white transform -rotate-12 shadow-md">
-          <span>Peşin</span>
-          <span className="text-[7px] font-black text-amber-200 mt-0.5">3 Taksit</span>
-        </div>
-      )}
-      {index % 4 === 2 && (
-        <div className="absolute top-2.5 left-2.5 z-20 w-11 h-11 rounded-full badge-starburst text-white flex flex-col items-center justify-center text-[7.5px] font-black leading-none text-center p-1 border border-white transform -rotate-12 shadow-md">
-          <span>Vade Farksız</span>
-          <span className="text-[7px] font-black text-amber-200 mt-0.5">6 Taksit</span>
-        </div>
-      )}
-
       {/* Popular Tag Badge */}
-      {phone.isPopular && index % 4 !== 0 && index % 4 !== 2 && (
+      {phone.isPopular && (
         <div className="absolute top-2.5 left-2.5 z-10 bg-blue-50 text-blue-700 text-[9.5px] font-extrabold px-2 py-0.5 rounded-full border border-blue-200 flex items-center gap-1 shadow-2xs">
           <Zap className="w-3 h-3 fill-blue-600 text-blue-600" />
           <span>Popüler</span>
