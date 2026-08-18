@@ -1,5 +1,149 @@
 [
   {
+    "id": "samsung-galaxy-a07-5g",
+    "slug": "samsung-galaxy-a07-5g",
+    "name": "Samsung Galaxy A07 5G",
+    "brand": "Samsung",
+    "category": "phones",
+    "price": 13999,
+    "priceFormatted": "13.999 TL",
+    "rating": 4,
+    "reviewCount": 2,
+    "image": "/images/phones/samsung/samsung-galaxy-a07-5g.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-a07-5g.png"
+    ],
+    "releaseDate": "2026",
+    "specs": {
+      "processor": "Dimensity 6100+ Octa-Core",
+      "weight": "199 g",
+      "os": "Android 16, One UI 8.0",
+      "battery": "5000 mAh",
+      "storage": "64 GB, 128 GB",
+      "ram": "12 GB"
+    }
+  },
+  {
+    "id": "samsung-galaxy-a17",
+    "slug": "samsung-galaxy-a17",
+    "name": "Samsung Galaxy A17",
+    "brand": "Samsung",
+    "category": "phones",
+    "price": 16499,
+    "priceFormatted": "16.499 TL",
+    "rating": 5,
+    "reviewCount": 3,
+    "image": "/images/phones/samsung/samsung-galaxy-a17.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-a17.png"
+    ],
+    "releaseDate": "2026",
+    "specs": {
+      "processor": "Helio G99 (2.2GHz, 2GHz)",
+      "weight": "190 g",
+      "os": "Android 16, One UI 8.0",
+      "battery": "5000 mAh",
+      "storage": "128 GB, 256 GB",
+      "ram": "12 GB"
+    }
+  },
+  {
+    "id": "samsung-galaxy-a27-5g",
+    "slug": "samsung-galaxy-a27-5g",
+    "name": "Samsung Galaxy A27 5G",
+    "brand": "Samsung",
+    "category": "phones",
+    "price": 21999,
+    "priceFormatted": "21.999 TL",
+    "rating": 5,
+    "reviewCount": 1,
+    "image": "/images/phones/samsung/samsung-galaxy-a27-5g.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-a27-5g.png"
+    ],
+    "releaseDate": "2026",
+    "specs": {
+      "processor": "Exynos 1380 / 1480 Octa-Core",
+      "weight": "195 g",
+      "os": "Android 16, One UI 8.0",
+      "battery": "5000 mAh",
+      "storage": "128 GB, 256 GB",
+      "ram": "12 GB"
+    }
+  },
+  {
+    "id": "samsung-galaxy-z-flip8",
+    "slug": "samsung-galaxy-z-flip8",
+    "name": "Samsung Galaxy Z Flip8",
+    "brand": "Samsung",
+    "category": "phones",
+    "price": 96999,
+    "priceFormatted": "96.999 TL",
+    "rating": 4.9,
+    "reviewCount": 3749,
+    "image": "/images/phones/samsung/samsung-galaxy-z-flip8.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-z-flip8.png"
+    ],
+    "releaseDate": "2026",
+    "specs": {
+      "processor": "3.8 GHz, 3.26 GHz, 2.76 GHz (Snapdragon 8 Elite)",
+      "weight": "180 g",
+      "os": "Android 16, One UI 8.0",
+      "battery": "5000 mAh",
+      "storage": "256 GB, 512 GB",
+      "ram": "12 GB"
+    }
+  },
+  {
+    "id": "samsung-galaxy-z-fold8",
+    "slug": "samsung-galaxy-z-fold8",
+    "name": "Samsung Galaxy Z Fold8",
+    "brand": "Samsung",
+    "category": "phones",
+    "price": 131999,
+    "priceFormatted": "131.999 TL",
+    "rating": 4.9,
+    "reviewCount": 6205,
+    "image": "/images/phones/samsung/samsung-galaxy-z-fold8.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-z-fold8.png"
+    ],
+    "releaseDate": "2026",
+    "specs": {
+      "processor": "4.74 GHz, 3.6 GHz (Snapdragon 8 Elite / Gen 5)",
+      "weight": "201 g",
+      "os": "Android 16, One UI 8.0",
+      "battery": "5000 mAh",
+      "storage": "256 GB, 512 GB, 1 TB",
+      "ram": "12 GB"
+    }
+  },
+  {
+    "id": "samsung-galaxy-z-fold8-ultra",
+    "slug": "samsung-galaxy-z-fold8-ultra",
+    "name": "Samsung Galaxy Z Fold8 Ultra",
+    "brand": "Samsung",
+    "category": "phones",
+    "price": 151999,
+    "priceFormatted": "151.999 TL",
+    "rating": 4.9,
+    "reviewCount": 5008,
+    "image": "/images/phones/samsung/samsung-galaxy-z-fold8-ultra.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-z-fold8-ultra.png"
+    ],
+    "releaseDate": "2026",
+    "specs": {
+      "processor": "4.74 GHz, 3.6 GHz (Snapdragon 8 Elite / Gen 5)",
+      "weight": "215 g",
+      "os": "Android 16, One UI 8.0",
+      "battery": "5000 mAh",
+      "storage": "256 GB, 512 GB, 1 TB",
+      "ram": "12 GB"
+    }
+  },
+  {
     "id": "apple-iphone-17-pro-max-2tb-1",
     "slug": "vivo-x300-ultra",
     "name": "vivo X300 Ultra",
@@ -2503,8 +2647,8 @@
     "category": "smartphones",
     "basePrice": 92999,
     "currency": "TL",
-    "rating": 4.9,
-    "reviewCount": 613,
+    "rating": 4.8,
+    "reviewCount": 29801,
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": true,
@@ -2514,9 +2658,9 @@
       "16 GB RAM & 512 GB Depolama",
       "5200 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/phones/samsung/samsung-galaxy-s26-ultra-new.jpg",
+    "image": "/images/phones/samsung/samsung-galaxy-s26-ultra.png",
     "images": [
-      "/images/phones/samsung/samsung-galaxy-s26-ultra-new.jpg"
+      "/images/phones/samsung/samsung-galaxy-s26-ultra.png"
     ],
     "storeOffers": [
       {
@@ -2608,12 +2752,7 @@
         "ppi": 500,
         "brightnessNits": 2600
       },
-      "processor": {
-        "chip": "Snapdragon 8 Gen 5 for Galaxy (2nm)",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 1850000
-      },
+      "processor": "4.74 GHz, 3.6 GHz (Snapdragon 8 Elite for Galaxy)",
       "memory": {
         "ramGb": 16,
         "ramType": "LPDDR5X",
@@ -2653,8 +2792,11 @@
       "software": {
         "osName": "Android 16 (One UI 8.0)",
         "updateYears": 7
-      }
-    }
+      },
+      "weight": "214 g"
+    },
+    "price": 131999,
+    "priceFormatted": "131.999 TL"
   },
   {
     "id": "apple-iphone-16-plus-512gb-26",
@@ -7447,15 +7589,15 @@
     }
   },
   {
-    "id": "samsung-samsung-galaxy-s26-119",
-    "slug": "samsung-galaxy-s26",
+    "id": "samsung-galaxy-s26-plus",
+    "slug": "samsung-galaxy-s26-plus",
     "name": "Samsung Galaxy S26+",
     "brand": "Samsung",
     "category": "smartphones",
     "basePrice": 64999,
     "currency": "TL",
     "rating": 4.8,
-    "reviewCount": 566,
+    "reviewCount": 5247,
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": true,
@@ -7465,9 +7607,9 @@
       "12 GB RAM & 256 GB Depolama",
       "5100 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/phones/samsung/samsung-galaxy-s26-plus.jpg",
+    "image": "/images/phones/samsung/samsung-galaxy-s26-plus.png",
     "images": [
-      "/images/phones/samsung/samsung-galaxy-s26-plus.jpg"
+      "/images/phones/samsung/samsung-galaxy-s26-plus.png"
     ],
     "storeOffers": [
       {
@@ -7559,12 +7701,7 @@
         "ppi": 500,
         "brightnessNits": 2600
       },
-      "processor": {
-        "chip": "Snapdragon 8 Gen 5 for Galaxy",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 1850000
-      },
+      "processor": "3.8 GHz, 3.26 GHz, 2.76 GHz",
       "memory": {
         "ramGb": 12,
         "ramType": "LPDDR5X",
@@ -7604,8 +7741,11 @@
       "software": {
         "osName": "Android 16 (One UI 8.0)",
         "updateYears": 7
-      }
-    }
+      },
+      "weight": "167 g"
+    },
+    "price": 87999,
+    "priceFormatted": "87.999 TL"
   },
   {
     "id": "honor-honor-magic8-84",
@@ -11795,7 +11935,7 @@
     }
   },
   {
-    "id": "samsung-samsung-galaxy-s26-118",
+    "id": "samsung-galaxy-s26",
     "slug": "samsung-galaxy-s26",
     "name": "Samsung Galaxy S26",
     "brand": "Samsung",
@@ -11813,9 +11953,9 @@
       "12 GB RAM & 256 GB Depolama",
       "4200 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/phones/samsung/samsung-galaxy-s26.jpg",
+    "image": "/images/phones/samsung/samsung-galaxy-s26.png",
     "images": [
-      "/images/phones/samsung/samsung-galaxy-s26.jpg"
+      "/images/phones/samsung/samsung-galaxy-s26.png"
     ],
     "storeOffers": [
       {
@@ -11953,7 +12093,9 @@
         "osName": "Android 16 (One UI 8.0)",
         "updateYears": 7
       }
-    }
+    },
+    "price": 77999,
+    "priceFormatted": "77.999 TL"
   },
   {
     "id": "vivo-vivo-x300",
@@ -23216,8 +23358,8 @@
     "category": "smartphones",
     "basePrice": 17999,
     "currency": "TL",
-    "rating": 4.6,
-    "reviewCount": 848,
+    "rating": 4.5,
+    "reviewCount": 170,
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": false,
@@ -23227,9 +23369,9 @@
       "8 GB RAM & 128 GB Depolama",
       "5000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/phones/samsung/samsung-galaxy-a37.jpg",
+    "image": "/images/phones/samsung/samsung-galaxy-a37-5g.png",
     "images": [
-      "/images/phones/samsung/samsung-galaxy-a37.jpg"
+      "/images/phones/samsung/samsung-galaxy-a37-5g.png"
     ],
     "storeOffers": [
       {
@@ -23321,12 +23463,7 @@
         "ppi": 390,
         "brightnessNits": 1000
       },
-      "processor": {
-        "chip": "Snapdragon 7s Gen 3 5G",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 750000
-      },
+      "processor": "Exynos 1580 Octa-Core",
       "memory": {
         "ramGb": 8,
         "ramType": "LPDDR5X",
@@ -23366,8 +23503,11 @@
       "software": {
         "osName": "Android 16 (One UI 8.0)",
         "updateYears": 7
-      }
-    }
+      },
+      "weight": "199 g"
+    },
+    "price": 29499,
+    "priceFormatted": "29.499 TL"
   },
   {
     "id": "tcl-tcl-k70-power-54",
@@ -29242,8 +29382,8 @@
     "category": "smartphones",
     "basePrice": 9999,
     "currency": "TL",
-    "rating": 4.5,
-    "reviewCount": 801,
+    "rating": 4.2,
+    "reviewCount": 9,
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": false,
@@ -29253,9 +29393,9 @@
       "6 GB RAM & 128 GB Depolama",
       "5000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/phones/samsung/samsung-galaxy-a17-5g.jpg",
+    "image": "/images/phones/samsung/samsung-galaxy-a17-5g.png",
     "images": [
-      "/images/phones/samsung/samsung-galaxy-a17-5g.jpg"
+      "/images/phones/samsung/samsung-galaxy-a17-5g.png"
     ],
     "storeOffers": [
       {
@@ -29347,12 +29487,7 @@
         "ppi": 390,
         "brightnessNits": 1000
       },
-      "processor": {
-        "chip": "Exynos 1380 5G",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 750000
-      },
+      "processor": "Dimensity 6300 / Exynos 1330",
       "memory": {
         "ramGb": 6,
         "ramType": "LPDDR5X",
@@ -29392,8 +29527,11 @@
       "software": {
         "osName": "Android 16 (One UI 8.0)",
         "updateYears": 7
-      }
-    }
+      },
+      "weight": "192 g"
+    },
+    "price": 17499,
+    "priceFormatted": "17.499 TL"
   },
   {
     "id": "tecno-tecno-spark-go-3",
@@ -36366,8 +36504,8 @@
     "category": "smartphones",
     "basePrice": 79999,
     "currency": "TL",
-    "rating": 4.6,
-    "reviewCount": 946,
+    "rating": 4.9,
+    "reviewCount": 26987,
     "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": true,
@@ -36377,9 +36515,9 @@
       "16 GB RAM & 512 GB Depolama",
       "5000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/phones/samsung/samsung-galaxy-s25-ultra-sm-s938.jpg",
+    "image": "/images/phones/samsung/samsung-galaxy-s25-ultra.png",
     "images": [
-      "/images/phones/samsung/samsung-galaxy-s25-ultra-sm-s938.jpg"
+      "/images/phones/samsung/samsung-galaxy-s25-ultra.png"
     ],
     "storeOffers": [
       {
@@ -36471,12 +36609,7 @@
         "ppi": 500,
         "brightnessNits": 2600
       },
-      "processor": {
-        "chip": "Snapdragon 8 Elite for Galaxy (3nm)",
-        "cores": "8 Çekirdek",
-        "process": "3nm",
-        "antutuScore": 1850000
-      },
+      "processor": "Snapdragon 8 Elite for Galaxy (4.47 GHz)",
       "memory": {
         "ramGb": 16,
         "ramType": "LPDDR5X",
@@ -36516,8 +36649,11 @@
       "software": {
         "osName": "Android 15 (One UI 7.0)",
         "updateYears": 7
-      }
-    }
+      },
+      "weight": "219 g"
+    },
+    "price": 111499,
+    "priceFormatted": "111.499 TL"
   },
   {
     "id": "sony-sony-xperia-1-vii-33",
@@ -41056,8 +41192,8 @@
     "category": "smartphones",
     "basePrice": 54999,
     "currency": "TL",
-    "rating": 4.9,
-    "reviewCount": 899,
+    "rating": 4.7,
+    "reviewCount": 2477,
     "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": true,
@@ -41067,9 +41203,9 @@
       "12 GB RAM & 256 GB Depolama",
       "4900 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/phones/samsung/samsung-galaxy-s25-plus-sm-s936.jpg",
+    "image": "/images/phones/samsung/samsung-galaxy-s25-plus.png",
     "images": [
-      "/images/phones/samsung/samsung-galaxy-s25-plus-sm-s936.jpg"
+      "/images/phones/samsung/samsung-galaxy-s25-plus.png"
     ],
     "storeOffers": [
       {
@@ -41161,12 +41297,7 @@
         "ppi": 500,
         "brightnessNits": 2600
       },
-      "processor": {
-        "chip": "Snapdragon 8 Elite for Galaxy",
-        "cores": "8 Çekirdek",
-        "process": "3nm",
-        "antutuScore": 1850000
-      },
+      "processor": "Snapdragon 8 Elite for Galaxy",
       "memory": {
         "ramGb": 12,
         "ramType": "LPDDR5X",
@@ -41206,8 +41337,11 @@
       "software": {
         "osName": "Android 15 (One UI 7.0)",
         "updateYears": 7
-      }
-    }
+      },
+      "weight": "190 g"
+    },
+    "price": 73499,
+    "priceFormatted": "73.499 TL"
   },
   {
     "id": "honor-honor-magic7-76",
@@ -45131,8 +45265,8 @@
     "category": "smartphones",
     "basePrice": 34999,
     "currency": "TL",
-    "rating": 4.7,
-    "reviewCount": 143,
+    "rating": 4.3,
+    "reviewCount": 36,
     "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": true,
@@ -45142,9 +45276,9 @@
       "12 GB RAM & 256 GB Depolama",
       "4800 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/phones/samsung/samsung-galaxy-s25-fe.jpg",
+    "image": "/images/phones/samsung/samsung-galaxy-s25-fe.png",
     "images": [
-      "/images/phones/samsung/samsung-galaxy-s25-fe.jpg"
+      "/images/phones/samsung/samsung-galaxy-s25-fe.png"
     ],
     "storeOffers": [
       {
@@ -45236,12 +45370,7 @@
         "ppi": 500,
         "brightnessNits": 2600
       },
-      "processor": {
-        "chip": "Exynos 2500 / Snapdragon 8s Gen 3",
-        "cores": "8 Çekirdek",
-        "process": "3nm",
-        "antutuScore": 1850000
-      },
+      "processor": "Exynos 2400e / Snapdragon 8 Gen 3",
       "memory": {
         "ramGb": 12,
         "ramType": "LPDDR5X",
@@ -45281,8 +45410,11 @@
       "software": {
         "osName": "Android 15 (One UI 7.0)",
         "updateYears": 7
-      }
-    }
+      },
+      "weight": "190 g"
+    },
+    "price": 46999,
+    "priceFormatted": "46.999 TL"
   },
   {
     "id": "poco-poco-f7-ultra-86",
