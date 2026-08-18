@@ -1,51 +1,325 @@
 [
   {
-    "id": "samsung-galaxy-a07-5g",
-    "slug": "samsung-galaxy-a07-5g",
-    "name": "Samsung Galaxy A07 5G",
+    "id": "samsung-galaxy-z-fold8-ultra",
+    "slug": "samsung-galaxy-z-fold8-ultra",
+    "name": "Samsung Galaxy Z Fold8 Ultra",
     "brand": "Samsung",
     "category": "phones",
-    "price": 13999,
-    "priceFormatted": "13.999 TL",
-    "rating": 4,
-    "reviewCount": 2,
-    "image": "/images/phones/samsung/samsung-galaxy-a07-5g.png",
+    "price": 151999,
+    "priceFormatted": "151.999 TL",
+    "modelCode": "SM-F976BZVBTUR",
+    "rating": 4.93,
+    "reviewCount": 5008,
+    "image": "/images/phones/samsung/samsung-galaxy-z-fold8-ultra.png",
     "images": [
-      "/images/phones/samsung/samsung-galaxy-a07-5g.png"
+      "/images/phones/samsung/samsung-galaxy-z-fold8-ultra.png"
     ],
     "releaseDate": "2026",
     "specs": {
-      "display": "6.7\" PLS LCD, 90Hz",
-      "processor": "MediaTek Dimensity 6100+",
-      "camera": "50 MP + 2 MP",
-      "battery": "5000 mAh, 25W şarj",
-      "ram": "4 GB / 6 GB",
-      "storage": "64 GB, 128 GB",
+      "display": "8.0\" Foldable Dynamic LTPO AMOLED 2X, 120Hz, 3088x1440",
+      "processor": "Qualcomm Snapdragon 8 Elite (3nm, 4.74 GHz, 3.6 GHz)",
+      "camera": "200 MP + 50 MP (5x) + 50 MP (3x) + 12 MP ultra-geniş",
+      "battery": "5000 mAh, 45W kablolu, 15W kablosuz",
+      "ram": "16 GB",
+      "storage": "256 GB, 512 GB, 1 TB",
+      "weight": "215 g",
       "os": "Android 16, One UI 8.0"
     }
   },
   {
-    "id": "samsung-galaxy-a17",
-    "slug": "samsung-galaxy-a17",
-    "name": "Samsung Galaxy A17",
+    "id": "samsung-galaxy-z-fold8",
+    "slug": "samsung-galaxy-z-fold8",
+    "name": "Samsung Galaxy Z Fold8",
     "brand": "Samsung",
     "category": "phones",
-    "price": 16499,
-    "priceFormatted": "16.499 TL",
-    "rating": 5,
-    "reviewCount": 3,
-    "image": "/images/phones/samsung/samsung-galaxy-a17.png",
+    "price": 131999,
+    "priceFormatted": "131.999 TL",
+    "modelCode": "SM-F971BLVBTUR",
+    "rating": 4.92,
+    "reviewCount": 6205,
+    "image": "/images/phones/samsung/samsung-galaxy-z-fold8.png",
     "images": [
-      "/images/phones/samsung/samsung-galaxy-a17.png"
+      "/images/phones/samsung/samsung-galaxy-z-fold8.png"
     ],
     "releaseDate": "2026",
     "specs": {
-      "display": "6.5\" Super AMOLED, 90Hz, 1080x2340",
-      "processor": "MediaTek Helio G99 (6nm)",
-      "camera": "50 MP + 5 MP + 2 MP",
-      "battery": "5000 mAh, 25W şarj",
-      "ram": "4 GB / 6 GB / 8 GB",
+      "display": "7.6\" Foldable Dynamic LTPO AMOLED 2X, 120Hz",
+      "processor": "Qualcomm Snapdragon 8 Elite (3nm, 4.74 GHz, 3.6 GHz)",
+      "camera": "50 MP + 10 MP + 12 MP",
+      "battery": "4700 mAh, 45W hızlı şarj",
+      "ram": "12 GB / 16 GB",
+      "storage": "256 GB, 512 GB, 1 TB",
+      "weight": "201 g",
+      "os": "Android 16, One UI 8.0"
+    }
+  },
+  {
+    "id": "samsung-galaxy-z-flip8",
+    "slug": "samsung-galaxy-z-flip8",
+    "name": "Samsung Galaxy Z Flip8",
+    "brand": "Samsung",
+    "category": "phones",
+    "price": 96999,
+    "priceFormatted": "96.999 TL",
+    "modelCode": "SM-F776BLIGTUR",
+    "rating": 4.95,
+    "reviewCount": 3749,
+    "image": "/images/phones/samsung/samsung-galaxy-z-flip8.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-z-flip8.png"
+    ],
+    "releaseDate": "2026",
+    "specs": {
+      "display": "6.7\" Katlanabilir Dynamic AMOLED 2X + 3.9\" Kapak Ekranı",
+      "processor": "Snapdragon 8 Elite (3.8 GHz, 3.26 GHz, 2.76 GHz)",
+      "camera": "50 MP + 12 MP ultra-geniş",
+      "battery": "4000 mAh, 25W şarj",
+      "ram": "12 GB",
+      "storage": "256 GB, 512 GB",
+      "weight": "180 g",
+      "os": "Android 16, One UI 8.0"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s26-ultra",
+    "slug": "samsung-galaxy-s26-ultra",
+    "name": "Samsung Galaxy S26 Ultra",
+    "brand": "Samsung",
+    "category": "phones",
+    "price": 131999,
+    "priceFormatted": "131.999 TL",
+    "modelCode": "SM-S948BZVGTUR",
+    "rating": 4.8,
+    "reviewCount": 29801,
+    "image": "/images/phones/samsung/samsung-galaxy-s26-ultra.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-s26-ultra.png"
+    ],
+    "releaseDate": "2026",
+    "specs": {
+      "display": "6.8\" Dynamic LTPO AMOLED 2X, 120Hz, 3120x1440, Dahili S-Pen",
+      "processor": "Qualcomm Snapdragon 8 Elite for Galaxy (4.74 GHz, 3.6 GHz)",
+      "camera": "200 MP + 50 MP (5x) + 50 MP (3x) + 12 MP, 8K Video",
+      "battery": "5000 mAh, 45W kablolu, 15W kablosuz",
+      "ram": "12 GB / 16 GB",
+      "storage": "256 GB, 512 GB, 1 TB",
+      "weight": "214 g",
+      "os": "Android 16, One UI 8.0"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s26-plus",
+    "slug": "samsung-galaxy-s26-plus",
+    "name": "Samsung Galaxy S26+",
+    "brand": "Samsung",
+    "category": "phones",
+    "price": 87999,
+    "priceFormatted": "87.999 TL",
+    "modelCode": "SM-S946BDBDTUR",
+    "rating": 4.8,
+    "reviewCount": 4150,
+    "image": "/images/phones/samsung/samsung-galaxy-s26-plus.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-s26-plus.png"
+    ],
+    "releaseDate": "2026",
+    "specs": {
+      "display": "6.7\" Dynamic LTPO AMOLED 2X, 120Hz, QHD+",
+      "processor": "Qualcomm Snapdragon 8 Elite for Galaxy (4.74 GHz)",
+      "camera": "50 MP + 10 MP (3x) + 12 MP ultra-geniş",
+      "battery": "4900 mAh, 45W şarj",
+      "ram": "12 GB",
+      "storage": "256 GB, 512 GB",
+      "weight": "195 g",
+      "os": "Android 16, One UI 8.0"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s26",
+    "slug": "samsung-galaxy-s26",
+    "name": "Samsung Galaxy S26",
+    "brand": "Samsung",
+    "category": "phones",
+    "price": 77999,
+    "priceFormatted": "77.999 TL",
+    "modelCode": "SM-S942BZWGTUR",
+    "rating": 4.77,
+    "reviewCount": 5247,
+    "image": "/images/phones/samsung/samsung-galaxy-s26.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-s26.png"
+    ],
+    "releaseDate": "2026",
+    "specs": {
+      "display": "6.2\" Dynamic LTPO AMOLED 2X, 120Hz, FHD+",
+      "processor": "Snapdragon 8 Elite / Exynos 2600 (3.8 GHz, 3.26 GHz)",
+      "camera": "50 MP + 10 MP + 12 MP",
+      "battery": "4000 mAh, 25W şarj",
+      "ram": "12 GB",
+      "storage": "128 GB, 256 GB, 512 GB",
+      "weight": "167 g",
+      "os": "Android 16, One UI 8.0"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s25-ultra",
+    "slug": "samsung-galaxy-s25-ultra",
+    "name": "Samsung Galaxy S25 Ultra",
+    "brand": "Samsung",
+    "category": "phones",
+    "price": 111499,
+    "priceFormatted": "111.499 TL",
+    "modelCode": "SM-S938BZSHTUR",
+    "rating": 4.87,
+    "reviewCount": 26987,
+    "image": "/images/phones/samsung/samsung-galaxy-s25-ultra.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-s25-ultra.png"
+    ],
+    "releaseDate": "2025",
+    "specs": {
+      "display": "6.86\" Dynamic LTPO AMOLED 2X, 120Hz, 3120x1440, Titanyum Kasa",
+      "processor": "Qualcomm Snapdragon 8 Elite for Galaxy (4.47 GHz)",
+      "camera": "200 MP + 50 MP (5x periskop) + 50 MP (3x) + 50 MP ultra-geniş",
+      "battery": "5000 mAh, 45W şarj",
+      "ram": "12 GB / 16 GB",
+      "storage": "256 GB, 512 GB, 1 TB",
+      "weight": "219 g",
+      "os": "Android 15, One UI 7.0"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s25-plus",
+    "slug": "samsung-galaxy-s25-plus",
+    "name": "Samsung Galaxy S25+",
+    "brand": "Samsung",
+    "category": "phones",
+    "price": 73499,
+    "priceFormatted": "73.499 TL",
+    "modelCode": "SM-S936BDBDTUR",
+    "rating": 4.65,
+    "reviewCount": 2477,
+    "image": "/images/phones/samsung/samsung-galaxy-s25-plus.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-s25-plus.png"
+    ],
+    "releaseDate": "2025",
+    "specs": {
+      "display": "6.7\" Dynamic LTPO AMOLED 2X, 120Hz, QHD+",
+      "processor": "Qualcomm Snapdragon 8 Elite for Galaxy",
+      "camera": "50 MP + 10 MP + 12 MP",
+      "battery": "4900 mAh, 45W şarj",
+      "ram": "12 GB",
+      "storage": "256 GB, 512 GB",
+      "weight": "190 g",
+      "os": "Android 15, One UI 7.0"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s25",
+    "slug": "samsung-galaxy-s25",
+    "name": "Samsung Galaxy S25",
+    "brand": "Samsung",
+    "category": "phones",
+    "price": 64999,
+    "priceFormatted": "64.999 TL",
+    "modelCode": "SM-S931BDBGTUR",
+    "rating": 4.7,
+    "reviewCount": 3120,
+    "image": "/images/phones/samsung/samsung-galaxy-s25.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-s25.png"
+    ],
+    "releaseDate": "2025",
+    "specs": {
+      "display": "6.2\" Dynamic LTPO AMOLED 2X, 120Hz, FHD+",
+      "processor": "Qualcomm Snapdragon 8 Elite for Galaxy",
+      "camera": "50 MP + 10 MP + 12 MP",
+      "battery": "4000 mAh, 25W şarj",
+      "ram": "12 GB",
+      "storage": "128 GB, 256 GB, 512 GB",
+      "weight": "162 g",
+      "os": "Android 15, One UI 7.0"
+    }
+  },
+  {
+    "id": "samsung-galaxy-s25-fe",
+    "slug": "samsung-galaxy-s25-fe",
+    "name": "Samsung Galaxy S25 FE",
+    "brand": "Samsung",
+    "category": "phones",
+    "price": 46999,
+    "priceFormatted": "46.999 TL",
+    "modelCode": "SM-S731BDBGTUR",
+    "rating": 4.25,
+    "reviewCount": 36,
+    "image": "/images/phones/samsung/samsung-galaxy-s25-fe.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-s25-fe.png"
+    ],
+    "releaseDate": "2025",
+    "specs": {
+      "display": "6.7\" Dynamic AMOLED 2X, 120Hz, FHD+",
+      "processor": "Samsung Exynos 2400e (4nm)",
+      "camera": "50 MP + 8 MP (3x) + 12 MP ultra-geniş",
+      "battery": "4700 mAh, 25W şarj",
+      "ram": "8 GB",
+      "storage": "128 GB, 256 GB, 512 GB",
+      "weight": "190 g",
+      "os": "Android 15, One UI 7.0"
+    }
+  },
+  {
+    "id": "samsung-galaxy-a57-5g",
+    "slug": "samsung-galaxy-a57-5g",
+    "name": "Samsung Galaxy A57 5G",
+    "brand": "Samsung",
+    "category": "phones",
+    "price": 36999,
+    "priceFormatted": "36.999 TL",
+    "modelCode": "SM-A576BDGGTUR",
+    "rating": 4.7,
+    "reviewCount": 1420,
+    "image": "/images/phones/samsung/samsung-galaxy-a57-5g.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-a57-5g.png"
+    ],
+    "releaseDate": "2026",
+    "specs": {
+      "display": "6.6\" Super AMOLED, 120Hz, HDR10+, 1080x2340",
+      "processor": "Samsung Exynos 1680 (4nm)",
+      "camera": "50 MP (OIS) + 12 MP + 5 MP",
+      "battery": "5000 mAh, 45W şarj",
+      "ram": "8 GB / 12 GB",
       "storage": "128 GB, 256 GB",
+      "weight": "205 g",
+      "os": "Android 16, One UI 8.0"
+    }
+  },
+  {
+    "id": "samsung-galaxy-a37-5g",
+    "slug": "samsung-galaxy-a37-5g",
+    "name": "Samsung Galaxy A37 5G",
+    "brand": "Samsung",
+    "category": "phones",
+    "price": 29499,
+    "priceFormatted": "29.499 TL",
+    "modelCode": "SM-A376BDGGTUR",
+    "rating": 4.53,
+    "reviewCount": 170,
+    "image": "/images/phones/samsung/samsung-galaxy-a37-5g.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-a37-5g.png"
+    ],
+    "releaseDate": "2026",
+    "specs": {
+      "display": "6.6\" Super AMOLED, 120Hz, FHD+",
+      "processor": "Samsung Exynos 1580",
+      "camera": "50 MP + 8 MP + 5 MP",
+      "battery": "5000 mAh, 25W şarj",
+      "ram": "6 GB / 8 GB",
+      "storage": "128 GB, 256 GB",
+      "weight": "199 g",
       "os": "Android 16, One UI 8.0"
     }
   },
@@ -57,6 +331,7 @@
     "category": "phones",
     "price": 21999,
     "priceFormatted": "21.999 TL",
+    "modelCode": "SM-A276BZKCTUR",
     "rating": 5,
     "reviewCount": 1,
     "image": "/images/phones/samsung/samsung-galaxy-a27-5g.png",
@@ -71,82 +346,251 @@
       "battery": "5000 mAh, 25W şarj",
       "ram": "6 GB / 8 GB",
       "storage": "128 GB, 256 GB",
+      "weight": "195 g",
       "os": "Android 16, One UI 8.0"
     }
   },
   {
-    "id": "samsung-galaxy-z-flip8",
-    "slug": "samsung-galaxy-z-flip8",
-    "name": "Samsung Galaxy Z Flip8",
+    "id": "samsung-galaxy-a17-5g",
+    "slug": "samsung-galaxy-a17-5g",
+    "name": "Samsung Galaxy A17 5G",
     "brand": "Samsung",
     "category": "phones",
-    "price": 96999,
-    "priceFormatted": "96.999 TL",
-    "rating": 4.9,
-    "reviewCount": 3749,
-    "image": "/images/phones/samsung/samsung-galaxy-z-flip8.png",
+    "price": 17499,
+    "priceFormatted": "17.499 TL",
+    "modelCode": "SM-A176BZABTUR",
+    "rating": 4.22,
+    "reviewCount": 9,
+    "image": "/images/phones/samsung/samsung-galaxy-a17-5g.png",
     "images": [
-      "/images/phones/samsung/samsung-galaxy-z-flip8.png"
+      "/images/phones/samsung/samsung-galaxy-a17-5g.png"
     ],
     "releaseDate": "2026",
     "specs": {
-      "display": "6.7\" Katlanabilir Dynamic AMOLED 2X + 3.9\" Kapak Ekranı",
-      "processor": "Qualcomm Snapdragon 8 Elite (3nm)",
+      "display": "6.5\" Super AMOLED, 90Hz, FHD+",
+      "processor": "MediaTek Dimensity 6300 (6nm)",
+      "camera": "50 MP + 5 MP + 2 MP",
+      "battery": "5000 mAh, 25W şarj",
+      "ram": "4 GB / 6 GB / 8 GB",
+      "storage": "128 GB, 256 GB",
+      "weight": "192 g",
+      "os": "Android 16, One UI 8.0"
+    }
+  },
+  {
+    "id": "samsung-galaxy-a17",
+    "slug": "samsung-galaxy-a17",
+    "name": "Samsung Galaxy A17",
+    "brand": "Samsung",
+    "category": "phones",
+    "price": 16499,
+    "priceFormatted": "16.499 TL",
+    "modelCode": "SM-A175FZABTUR",
+    "rating": 5,
+    "reviewCount": 3,
+    "image": "/images/phones/samsung/samsung-galaxy-a17.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-a17.png"
+    ],
+    "releaseDate": "2026",
+    "specs": {
+      "display": "6.5\" Super AMOLED, 90Hz, 1080x2340",
+      "processor": "MediaTek Helio G99 (6nm)",
+      "camera": "50 MP + 5 MP + 2 MP",
+      "battery": "5000 mAh, 25W şarj",
+      "ram": "4 GB / 6 GB / 8 GB",
+      "storage": "128 GB, 256 GB",
+      "weight": "190 g",
+      "os": "Android 16, One UI 8.0"
+    }
+  },
+  {
+    "id": "samsung-galaxy-a07-5g",
+    "slug": "samsung-galaxy-a07-5g",
+    "name": "Samsung Galaxy A07 5G",
+    "brand": "Samsung",
+    "category": "phones",
+    "price": 13999,
+    "priceFormatted": "13.999 TL",
+    "modelCode": "SM-A076EZKBTUR",
+    "rating": 4,
+    "reviewCount": 2,
+    "image": "/images/phones/samsung/samsung-galaxy-a07-5g.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-a07-5g.png"
+    ],
+    "releaseDate": "2026",
+    "specs": {
+      "display": "6.7\" PLS LCD, 90Hz",
+      "processor": "MediaTek Dimensity 6100+",
+      "camera": "50 MP + 2 MP",
+      "battery": "5000 mAh, 25W şarj",
+      "ram": "4 GB / 6 GB",
+      "storage": "64 GB, 128 GB",
+      "weight": "199 g",
+      "os": "Android 16, One UI 8.0"
+    }
+  },
+  {
+    "id": "samsung-galaxy-z-fold7",
+    "slug": "samsung-galaxy-z-fold7",
+    "name": "Samsung Galaxy Z Fold7",
+    "brand": "Samsung",
+    "category": "phones",
+    "price": 104999,
+    "priceFormatted": "104.999 TL",
+    "modelCode": "SM-F966BZKBTUR",
+    "rating": 4.85,
+    "reviewCount": 4120,
+    "image": "/images/phones/samsung/samsung-galaxy-z-fold7.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-z-fold7.png"
+    ],
+    "releaseDate": "2025",
+    "specs": {
+      "display": "7.6\" Foldable Dynamic LTPO AMOLED 2X, 120Hz, HDR10+",
+      "processor": "Snapdragon 8 Gen 3 for Galaxy (3.39 GHz)",
+      "camera": "50 MP + 10 MP (3x) + 12 MP ultra-geniş",
+      "battery": "4400 mAh, 25W kablolu, 15W kablosuz",
+      "ram": "12 GB",
+      "storage": "256 GB, 512 GB, 1 TB",
+      "weight": "239 g",
+      "os": "Android 14 / 15, One UI 6.1.1"
+    }
+  },
+  {
+    "id": "samsung-galaxy-z-flip7",
+    "slug": "samsung-galaxy-z-flip7",
+    "name": "Samsung Galaxy Z Flip7",
+    "brand": "Samsung",
+    "category": "phones",
+    "price": 68999,
+    "priceFormatted": "68.999 TL",
+    "modelCode": "SM-F766BLIBTUR",
+    "rating": 4.88,
+    "reviewCount": 3200,
+    "image": "/images/phones/samsung/samsung-galaxy-z-flip7.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-z-flip7.png"
+    ],
+    "releaseDate": "2025",
+    "specs": {
+      "display": "6.7\" Katlanabilir Dynamic AMOLED 2X + 3.4\" Kapak Ekranı",
+      "processor": "Snapdragon 8 Gen 3 for Galaxy",
       "camera": "50 MP + 12 MP ultra-geniş",
       "battery": "4000 mAh, 25W şarj",
       "ram": "12 GB",
       "storage": "256 GB, 512 GB",
-      "os": "Android 16, One UI 8.0"
+      "weight": "187 g",
+      "os": "Android 14 / 15, One UI 6.1.1"
     }
   },
   {
-    "id": "samsung-galaxy-z-fold8",
-    "slug": "samsung-galaxy-z-fold8",
-    "name": "Samsung Galaxy Z Fold8",
+    "id": "samsung-galaxy-a56-5g",
+    "slug": "samsung-galaxy-a56-5g",
+    "name": "Samsung Galaxy A56 5G",
     "brand": "Samsung",
     "category": "phones",
-    "price": 131999,
-    "priceFormatted": "131.999 TL",
-    "rating": 4.9,
-    "reviewCount": 6205,
-    "image": "/images/phones/samsung/samsung-galaxy-z-fold8.png",
+    "price": 31999,
+    "priceFormatted": "31.999 TL",
+    "modelCode": "SM-A566BZKBTUR",
+    "rating": 4.6,
+    "reviewCount": 950,
+    "image": "/images/phones/samsung/samsung-galaxy-a56-5g.png",
     "images": [
-      "/images/phones/samsung/samsung-galaxy-z-fold8.png"
+      "/images/phones/samsung/samsung-galaxy-a56-5g.png"
     ],
-    "releaseDate": "2026",
+    "releaseDate": "2025",
     "specs": {
-      "display": "7.6\" Foldable Dynamic LTPO AMOLED 2X, 120Hz",
-      "processor": "Qualcomm Snapdragon 8 Elite (3nm)",
-      "camera": "50 MP + 10 MP + 12 MP",
-      "battery": "4700 mAh, 45W hızlı şarj",
-      "ram": "12 GB / 16 GB",
-      "storage": "256 GB, 512 GB, 1 TB",
-      "os": "Android 16, One UI 8.0"
+      "display": "6.6\" Super AMOLED, 120Hz, 1080x2340",
+      "processor": "Samsung Exynos 1580 (4nm)",
+      "camera": "50 MP (OIS) + 12 MP + 5 MP",
+      "battery": "5000 mAh, 25W şarj",
+      "ram": "8 GB",
+      "storage": "128 GB, 256 GB",
+      "weight": "213 g",
+      "os": "Android 15, One UI 7.0"
     }
   },
   {
-    "id": "samsung-galaxy-z-fold8-ultra",
-    "slug": "samsung-galaxy-z-fold8-ultra",
-    "name": "Samsung Galaxy Z Fold8 Ultra",
+    "id": "samsung-galaxy-a36-5g",
+    "slug": "samsung-galaxy-a36-5g",
+    "name": "Samsung Galaxy A36 5G",
     "brand": "Samsung",
     "category": "phones",
-    "price": 151999,
-    "priceFormatted": "151.999 TL",
-    "rating": 4.9,
-    "reviewCount": 5008,
-    "image": "/images/phones/samsung/samsung-galaxy-z-fold8-ultra.png",
+    "price": 24999,
+    "priceFormatted": "24.999 TL",
+    "modelCode": "SM-A366BZKBTUR",
+    "rating": 4.5,
+    "reviewCount": 680,
+    "image": "/images/phones/samsung/samsung-galaxy-a36-5g.png",
     "images": [
-      "/images/phones/samsung/samsung-galaxy-z-fold8-ultra.png"
+      "/images/phones/samsung/samsung-galaxy-a36-5g.png"
     ],
-    "releaseDate": "2026",
+    "releaseDate": "2025",
     "specs": {
-      "display": "8.0\" Foldable Dynamic LTPO AMOLED 2X, 120Hz, 3088x1440",
-      "processor": "Qualcomm Snapdragon 8 Elite (3nm)",
-      "camera": "200 MP + 50 MP (5x) + 50 MP (3x) + 12 MP ultra-geniş",
-      "battery": "5000 mAh, 45W kablolu, 15W kablosuz",
-      "ram": "16 GB",
-      "storage": "256 GB, 512 GB, 1 TB",
-      "os": "Android 16, One UI 8.0"
+      "display": "6.6\" Super AMOLED, 120Hz, FHD+",
+      "processor": "Samsung Exynos 1380",
+      "camera": "50 MP + 8 MP + 5 MP",
+      "battery": "5000 mAh, 25W şarj",
+      "ram": "6 GB / 8 GB",
+      "storage": "128 GB, 256 GB",
+      "weight": "209 g",
+      "os": "Android 15, One UI 7.0"
+    }
+  },
+  {
+    "id": "samsung-galaxy-a26-5g",
+    "slug": "samsung-galaxy-a26-5g",
+    "name": "Samsung Galaxy A26 5G",
+    "brand": "Samsung",
+    "category": "phones",
+    "price": 18999,
+    "priceFormatted": "18.999 TL",
+    "modelCode": "SM-A266BZKBTUR",
+    "rating": 4.4,
+    "reviewCount": 320,
+    "image": "/images/phones/samsung/samsung-galaxy-a26-5g.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-a26-5g.png"
+    ],
+    "releaseDate": "2025",
+    "specs": {
+      "display": "6.5\" Super AMOLED, 120Hz",
+      "processor": "Samsung Exynos 1280",
+      "camera": "50 MP + 8 MP + 2 MP",
+      "battery": "5000 mAh, 25W şarj",
+      "ram": "6 GB / 8 GB",
+      "storage": "128 GB, 256 GB",
+      "weight": "197 g",
+      "os": "Android 15, One UI 7.0"
+    }
+  },
+  {
+    "id": "samsung-galaxy-a16-5g",
+    "slug": "samsung-galaxy-a16-5g",
+    "name": "Samsung Galaxy A16 5G",
+    "brand": "Samsung",
+    "category": "phones",
+    "price": 14999,
+    "priceFormatted": "14.999 TL",
+    "modelCode": "SM-A166BZKBTUR",
+    "rating": 4.3,
+    "reviewCount": 150,
+    "image": "/images/phones/samsung/samsung-galaxy-a16-5g.png",
+    "images": [
+      "/images/phones/samsung/samsung-galaxy-a16-5g.png"
+    ],
+    "releaseDate": "2025",
+    "specs": {
+      "display": "6.7\" Super AMOLED, 90Hz, 1080x2340",
+      "processor": "Samsung Exynos 1330 / Dimensity 6300",
+      "camera": "50 MP + 5 MP + 2 MP",
+      "battery": "5000 mAh, 25W şarj",
+      "ram": "4 GB / 6 GB / 8 GB",
+      "storage": "128 GB, 256 GB",
+      "weight": "200 g",
+      "os": "Android 14 / 15, 6 Yıl Güncelleme Desteği"
     }
   },
   {
@@ -2322,123 +2766,6 @@
     "images": [
       "/images/phones/sony/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ]
-  },
-  {
-    "id": "samsung-galaxy-s26-ultra",
-    "slug": "samsung-galaxy-s26-ultra",
-    "name": "Samsung Galaxy S26 Ultra",
-    "brand": "Samsung",
-    "category": "phones",
-    "basePrice": 92999,
-    "currency": "TL",
-    "rating": 4.8,
-    "reviewCount": 29801,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": true,
-    "highlights": [
-      "Samsung Galaxy S26 Ultra Orijinal Türkiye Garantili",
-      "6.9\" QHD+ 144Hz Titanyum Armor 2.0 (Galaxy AI 3.0)",
-      "16 GB RAM & 512 GB Depolama",
-      "5200 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/phones/samsung/samsung-galaxy-s26-ultra.png",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-s26-ultra.png"
-    ],
-    "storeOffers": [
-      {
-        "id": "st-hb-sam-119",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 92069,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 14500,
-        "url": "https://www.vatanbilgisayar.com/samsung-samsung-galaxy-s26-ultra/"
-      },
-      {
-        "id": "st-ty-sam-119",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 92534,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 21000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-sam-119",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 92999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 18000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-sam-119",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 93929,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 100439,
-        "store": "Samsung TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 96719,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 93929,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 92999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "display": "6.8\" Dynamic LTPO AMOLED 2X, 120Hz, 3120x1440, Dahili S-Pen",
-      "processor": "Qualcomm Snapdragon 8 Elite for Galaxy",
-      "camera": "200 MP + 50 MP (5x) + 50 MP (3x) + 12 MP, 8K Video",
-      "battery": "5000 mAh, 45W kablolu, 15W kablosuz",
-      "ram": "12 GB / 16 GB",
-      "storage": "256 GB, 512 GB, 1 TB",
-      "os": "Android 16, One UI 8.0"
-    },
-    "price": 131999,
-    "priceFormatted": "131.999 TL",
-    "releaseDate": "2026"
   },
   {
     "id": "apple-iphone-16-plus-512gb-26",
@@ -7070,123 +7397,6 @@
     }
   },
   {
-    "id": "samsung-galaxy-s26-plus",
-    "slug": "samsung-galaxy-s26-plus",
-    "name": "Samsung Galaxy S26+",
-    "brand": "Samsung",
-    "category": "phones",
-    "basePrice": 64999,
-    "currency": "TL",
-    "rating": 4.8,
-    "reviewCount": 4150,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": true,
-    "highlights": [
-      "Samsung Galaxy S26+ Orijinal Türkiye Garantili",
-      "6.7\" QHD+ 1-120Hz LTPO OLED 3.0 (Galaxy AI 3.0)",
-      "12 GB RAM & 256 GB Depolama",
-      "5100 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/phones/samsung/samsung-galaxy-s26-plus.png",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-s26-plus.png"
-    ],
-    "storeOffers": [
-      {
-        "id": "st-hb-sam-118",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 64349,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 14500,
-        "url": "https://www.vatanbilgisayar.com/samsung-samsung-galaxy-s26/"
-      },
-      {
-        "id": "st-ty-sam-118",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 64674,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 21000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-sam-118",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 64999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 18000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-sam-118",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 65649,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 70199,
-        "store": "Samsung TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 67599,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 65649,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 64999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "display": "6.7\" Dynamic LTPO AMOLED 2X, 120Hz, QHD+",
-      "processor": "Qualcomm Snapdragon 8 Elite for Galaxy",
-      "camera": "50 MP + 10 MP (3x) + 12 MP ultra-geniş",
-      "battery": "4900 mAh, 45W şarj",
-      "ram": "12 GB",
-      "storage": "256 GB, 512 GB",
-      "os": "Android 16, One UI 8.0"
-    },
-    "price": 87999,
-    "priceFormatted": "87.999 TL",
-    "releaseDate": "2026"
-  },
-  {
     "id": "honor-honor-magic8-84",
     "slug": "honor-magic8",
     "name": "Honor Magic8",
@@ -11372,123 +11582,6 @@
         "updateYears": 6
       }
     }
-  },
-  {
-    "id": "samsung-galaxy-s26",
-    "slug": "samsung-galaxy-s26",
-    "name": "Samsung Galaxy S26",
-    "brand": "Samsung",
-    "category": "phones",
-    "basePrice": 54999,
-    "currency": "TL",
-    "rating": 4.8,
-    "reviewCount": 5247,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": true,
-    "highlights": [
-      "Samsung Galaxy S26 Orijinal Türkiye Garantili",
-      "6.2\" QHD+ 1-120Hz LTPO OLED 3.0 (Galaxy AI 3.0)",
-      "12 GB RAM & 256 GB Depolama",
-      "4200 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/phones/samsung/samsung-galaxy-s26.png",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-s26.png"
-    ],
-    "storeOffers": [
-      {
-        "id": "st-hb-sam-117",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 54449,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 14500,
-        "url": "https://www.vatanbilgisayar.com/samsung-samsung-galaxy-s26/"
-      },
-      {
-        "id": "st-ty-sam-117",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 54724,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 21000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-sam-117",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 54999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 18000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-sam-117",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 55549,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 59399,
-        "store": "Samsung TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 57199,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 55549,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 54999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "display": "6.2\" Dynamic LTPO AMOLED 2X, 120Hz, FHD+",
-      "processor": "Snapdragon 8 Elite / Exynos 2600",
-      "camera": "50 MP + 10 MP + 12 MP",
-      "battery": "4000 mAh, 25W şarj",
-      "ram": "12 GB",
-      "storage": "128 GB, 256 GB, 512 GB",
-      "os": "Android 16, One UI 8.0"
-    },
-    "price": 77999,
-    "priceFormatted": "77.999 TL",
-    "releaseDate": "2026"
   },
   {
     "id": "vivo-vivo-x300",
@@ -19544,123 +19637,6 @@
     }
   },
   {
-    "id": "samsung-galaxy-a57-5g",
-    "slug": "samsung-galaxy-a57-5g",
-    "name": "Samsung Galaxy A57 5G",
-    "brand": "Samsung",
-    "category": "phones",
-    "basePrice": 24999,
-    "currency": "TL",
-    "rating": 4.7,
-    "reviewCount": 1420,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": false,
-    "highlights": [
-      "Samsung Galaxy A57 5G Orijinal Türkiye Garantili",
-      "6.7\" FHD+ 120Hz Metal Çerçeve Super AMOLED",
-      "12 GB RAM & 256 GB Depolama",
-      "5000 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/phones/samsung/samsung-galaxy-a37-5g.png",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-a37-5g.png"
-    ],
-    "storeOffers": [
-      {
-        "id": "st-hb-sam-125",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 24749,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 14500,
-        "url": "https://www.vatanbilgisayar.com/samsung-samsung-galaxy-a57-5g/"
-      },
-      {
-        "id": "st-ty-sam-125",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 24874,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 21000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-sam-125",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 24999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 18000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-sam-125",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 25249,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 26999,
-        "store": "Samsung TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 25999,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 25249,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 24999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "display": "6.6\" Super AMOLED, 120Hz, HDR10+, 1080x2340",
-      "processor": "Samsung Exynos 1680 (4nm)",
-      "camera": "50 MP (OIS) + 12 MP + 5 MP",
-      "battery": "5000 mAh, 45W şarj",
-      "ram": "8 GB / 12 GB",
-      "storage": "128 GB, 256 GB",
-      "os": "Android 16, One UI 8.0"
-    },
-    "price": 36999,
-    "priceFormatted": "36.999 TL",
-    "releaseDate": "2026"
-  },
-  {
     "id": "tcl-tcl-nxtpaper-70-pro-51",
     "slug": "tcl-nxtpaper-70-pro",
     "name": "TCL NxtPaper 70 Pro",
@@ -22698,123 +22674,6 @@
         "updateYears": 5
       }
     }
-  },
-  {
-    "id": "samsung-galaxy-a37-5g",
-    "slug": "samsung-galaxy-a37-5g",
-    "name": "Samsung Galaxy A37 5G",
-    "brand": "Samsung",
-    "category": "phones",
-    "basePrice": 17999,
-    "currency": "TL",
-    "rating": 4.5,
-    "reviewCount": 170,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": false,
-    "highlights": [
-      "Samsung Galaxy A37 5G Orijinal Türkiye Garantili",
-      "6.6\" FHD+ 120Hz Super AMOLED (IP67)",
-      "8 GB RAM & 128 GB Depolama",
-      "5000 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/phones/samsung/samsung-galaxy-a37-5g.png",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-a37-5g.png"
-    ],
-    "storeOffers": [
-      {
-        "id": "st-hb-sam-124",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 17819,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 14500,
-        "url": "https://www.vatanbilgisayar.com/samsung-samsung-galaxy-a37-5g/"
-      },
-      {
-        "id": "st-ty-sam-124",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 17909,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 21000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-sam-124",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 17999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 18000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-sam-124",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 18179,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 19439,
-        "store": "Samsung TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 18719,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 18179,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 17999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "display": "6.6\" Super AMOLED, 120Hz, FHD+",
-      "processor": "Samsung Exynos 1580",
-      "camera": "50 MP + 8 MP + 5 MP",
-      "battery": "5000 mAh, 25W şarj",
-      "ram": "6 GB / 8 GB",
-      "storage": "128 GB, 256 GB",
-      "os": "Android 16, One UI 8.0"
-    },
-    "price": 29499,
-    "priceFormatted": "29.499 TL",
-    "releaseDate": "2026"
   },
   {
     "id": "tcl-tcl-k70-power-54",
@@ -28682,123 +28541,6 @@
     ]
   },
   {
-    "id": "samsung-galaxy-a17-5g",
-    "slug": "samsung-galaxy-a17-5g",
-    "name": "Samsung Galaxy A17 5G",
-    "brand": "Samsung",
-    "category": "phones",
-    "basePrice": 9999,
-    "currency": "TL",
-    "rating": 4.2,
-    "reviewCount": 9,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": false,
-    "highlights": [
-      "Samsung Galaxy A17 5G Orijinal Türkiye Garantili",
-      "6.7\" FHD+ 90Hz Super AMOLED (6 Yıl Güncelleme)",
-      "6 GB RAM & 128 GB Depolama",
-      "5000 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/phones/samsung/samsung-galaxy-a17-5g.png",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-a17-5g.png"
-    ],
-    "storeOffers": [
-      {
-        "id": "st-hb-sam-123",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 9899,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 14500,
-        "url": "https://www.vatanbilgisayar.com/samsung-samsung-galaxy-a17-5g/"
-      },
-      {
-        "id": "st-ty-sam-123",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 9949,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 21000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-sam-123",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 9999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 18000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-sam-123",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 10099,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 10799,
-        "store": "Samsung TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 10399,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 10099,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 9999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "display": "6.5\" Super AMOLED, 90Hz, FHD+",
-      "processor": "MediaTek Dimensity 6300 (6nm)",
-      "camera": "50 MP + 5 MP + 2 MP",
-      "battery": "5000 mAh, 25W şarj",
-      "ram": "4 GB / 6 GB / 8 GB",
-      "storage": "128 GB, 256 GB",
-      "os": "Android 16, One UI 8.0"
-    },
-    "price": 17499,
-    "priceFormatted": "17.499 TL",
-    "releaseDate": "2026"
-  },
-  {
     "id": "tecno-tecno-spark-go-3",
     "slug": "tecno-spark-go-3",
     "name": "Tecno Spark Go 3",
@@ -33865,167 +33607,6 @@
     }
   },
   {
-    "id": "samsung-samsung-galaxy-z-fold-7-112",
-    "slug": "samsung-galaxy-z-fold-7",
-    "name": "Samsung Galaxy Z Fold 7",
-    "brand": "Samsung",
-    "category": "smartphones",
-    "basePrice": 89999,
-    "currency": "TL",
-    "rating": 4.9,
-    "reviewCount": 237,
-    "releaseYear": 2025,
-    "isPopular": true,
-    "isFeatured": true,
-    "highlights": [
-      "Samsung Galaxy Z Fold 7 Orijinal Türkiye Garantili",
-      "8.0\" QXGA+ 120Hz Ultra Thin Glass Katlanabilir",
-      "16 GB RAM & 512 GB Depolama",
-      "4600 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/phones/samsung/samsung-galaxy-z-fold7.jpg",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-z-fold7.jpg"
-    ],
-    "storeOffers": [
-      {
-        "id": "st-hb-sam-111",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 89099,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 14500,
-        "url": "https://www.vatanbilgisayar.com/samsung-samsung-galaxy-z-fold-7/"
-      },
-      {
-        "id": "st-ty-sam-111",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 89549,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 21000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-sam-111",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 89999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 18000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-sam-111",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 90899,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 97199,
-        "store": "Samsung TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 93599,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 90899,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 89999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "8.0\"",
-        "type": "8.0\" QXGA+ 120Hz Ultra Thin Glass Katlanabilir",
-        "resolution": "3080 x 1440 px",
-        "refreshRate": 120,
-        "ppi": 500,
-        "brightnessNits": 2600
-      },
-      "processor": {
-        "chip": "Snapdragon 8 Elite for Galaxy",
-        "cores": "8 Çekirdek",
-        "process": "3nm",
-        "antutuScore": 1850000
-      },
-      "memory": {
-        "ramGb": 16,
-        "ramType": "LPDDR5X",
-        "storageGb": 512,
-        "storageOptions": [
-          512
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "200 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "50 MP (5x Optik Zoom)",
-        "selfieMp": "12 MP Dual Pixel",
-        "videoRes": "8K @ 30fps",
-        "dxomarkScore": 154
-      },
-      "battery": {
-        "capacitymAh": 4600,
-        "chargingWatts": 45,
-        "wirelessCharging": true,
-        "reverseWireless": true
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7",
-        "bluetooth": "5.3",
-        "hasNFC": true,
-        "hasesim": true
-      },
-      "build": {
-        "weightGrams": 219,
-        "thicknessMm": 7.9,
-        "waterResistance": "IP68 (1.5m 30dk)",
-        "frameMaterial": "Zırh Alüminyum"
-      },
-      "software": {
-        "osName": "Android 15 (One UI 7.0)",
-        "updateYears": 7
-      }
-    }
-  },
-  {
     "id": "huawei-huawei_mate_70_rs_ultimate-13520",
     "slug": "huawei_mate_70_rs_ultimate-13520",
     "name": "Huawei Mate 70 RS Ultimate",
@@ -35760,123 +35341,6 @@
         "updateYears": 6
       }
     }
-  },
-  {
-    "id": "samsung-galaxy-s25-ultra",
-    "slug": "samsung-galaxy-s25-ultra",
-    "name": "Samsung Galaxy S25 Ultra",
-    "brand": "Samsung",
-    "category": "phones",
-    "basePrice": 79999,
-    "currency": "TL",
-    "rating": 4.9,
-    "reviewCount": 26987,
-    "releaseYear": 2025,
-    "isPopular": true,
-    "isFeatured": true,
-    "highlights": [
-      "Samsung Galaxy S25 Ultra Orijinal Türkiye Garantili",
-      "6.9\" QHD+ 120Hz Titanyum Yuvarlatılmış Kasa (Galaxy AI)",
-      "16 GB RAM & 512 GB Depolama",
-      "5000 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/phones/samsung/samsung-galaxy-s25-ultra.png",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-s25-ultra.png"
-    ],
-    "storeOffers": [
-      {
-        "id": "st-hb-sam-108",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 79199,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 14500,
-        "url": "https://www.vatanbilgisayar.com/samsung-samsung-galaxy-s25-ultra/"
-      },
-      {
-        "id": "st-ty-sam-108",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 79599,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 21000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-sam-108",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 79999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 18000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-sam-108",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 80799,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 86399,
-        "store": "Samsung TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 83199,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 80799,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 79999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "display": "6.86\" Dynamic LTPO AMOLED 2X, 120Hz, 3120x1440, Titanyum Kasa",
-      "processor": "Qualcomm Snapdragon 8 Elite for Galaxy",
-      "camera": "200 MP + 50 MP (5x periskop) + 50 MP (3x) + 50 MP ultra-geniş",
-      "battery": "5000 mAh, 45W şarj",
-      "ram": "12 GB / 16 GB",
-      "storage": "256 GB, 512 GB, 1 TB",
-      "os": "Android 15, One UI 7.0"
-    },
-    "price": 111499,
-    "priceFormatted": "111.499 TL",
-    "releaseDate": "2025"
   },
   {
     "id": "sony-sony-xperia-1-vii-33",
@@ -39227,167 +38691,6 @@
     }
   },
   {
-    "id": "samsung-samsung-galaxy-z-flip-7-111",
-    "slug": "samsung-galaxy-z-flip-7",
-    "name": "Samsung Galaxy Z Flip 7",
-    "brand": "Samsung",
-    "category": "smartphones",
-    "basePrice": 59999,
-    "currency": "TL",
-    "rating": 4.8,
-    "reviewCount": 190,
-    "releaseYear": 2025,
-    "isPopular": true,
-    "isFeatured": true,
-    "highlights": [
-      "Samsung Galaxy Z Flip 7 Orijinal Türkiye Garantili",
-      "6.8\" Full Cover Flex Window Katlanabilir",
-      "12 GB RAM & 256 GB Depolama",
-      "4300 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/phones/samsung/samsung-galaxy-z-flip7.jpg",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-z-flip7.jpg"
-    ],
-    "storeOffers": [
-      {
-        "id": "st-hb-sam-110",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 59399,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 14500,
-        "url": "https://www.vatanbilgisayar.com/samsung-samsung-galaxy-z-flip-7/"
-      },
-      {
-        "id": "st-ty-sam-110",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 59699,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 21000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-sam-110",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 59999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 18000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-sam-110",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 60599,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 64799,
-        "store": "Samsung TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 62399,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 60599,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 59999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.8\"",
-        "type": "6.8\" Full Cover Flex Window Katlanabilir",
-        "resolution": "3080 x 1440 px",
-        "refreshRate": 120,
-        "ppi": 500,
-        "brightnessNits": 2600
-      },
-      "processor": {
-        "chip": "Snapdragon 8 Elite for Galaxy",
-        "cores": "8 Çekirdek",
-        "process": "3nm",
-        "antutuScore": 1850000
-      },
-      "memory": {
-        "ramGb": 12,
-        "ramType": "LPDDR5X",
-        "storageGb": 256,
-        "storageOptions": [
-          256
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "50 MP (5x Optik Zoom)",
-        "selfieMp": "12 MP Dual Pixel",
-        "videoRes": "8K @ 30fps",
-        "dxomarkScore": 154
-      },
-      "battery": {
-        "capacitymAh": 4300,
-        "chargingWatts": 45,
-        "wirelessCharging": true,
-        "reverseWireless": true
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7",
-        "bluetooth": "5.3",
-        "hasNFC": true,
-        "hasesim": true
-      },
-      "build": {
-        "weightGrams": 219,
-        "thicknessMm": 7.9,
-        "waterResistance": "IP68 (1.5m 30dk)",
-        "frameMaterial": "Zırh Alüminyum"
-      },
-      "software": {
-        "osName": "Android 15 (One UI 7.0)",
-        "updateYears": 7
-      }
-    }
-  },
-  {
     "id": "huawei-huawei_mate_70_air_5g-14283",
     "slug": "huawei_mate_70_air_5g-14283",
     "name": "Huawei Mate 70 Air",
@@ -40406,123 +39709,6 @@
         "updateYears": 6
       }
     }
-  },
-  {
-    "id": "samsung-galaxy-s25-plus",
-    "slug": "samsung-galaxy-s25-plus",
-    "name": "Samsung Galaxy S25+",
-    "brand": "Samsung",
-    "category": "phones",
-    "basePrice": 54999,
-    "currency": "TL",
-    "rating": 4.7,
-    "reviewCount": 2477,
-    "releaseYear": 2025,
-    "isPopular": true,
-    "isFeatured": true,
-    "highlights": [
-      "Samsung Galaxy S25+ Orijinal Türkiye Garantili",
-      "6.7\" QHD+ 1-120Hz Dynamic AMOLED 2X (Galaxy AI 2.0)",
-      "12 GB RAM & 256 GB Depolama",
-      "4900 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/phones/samsung/samsung-galaxy-s25-plus.png",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-s25-plus.png"
-    ],
-    "storeOffers": [
-      {
-        "id": "st-hb-sam-107",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 54449,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 14500,
-        "url": "https://www.vatanbilgisayar.com/samsung-samsung-galaxy-s25/"
-      },
-      {
-        "id": "st-ty-sam-107",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 54724,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 21000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-sam-107",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 54999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 18000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-sam-107",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 55549,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 59399,
-        "store": "Samsung TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 57199,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 55549,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 54999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "display": "6.7\" Dynamic LTPO AMOLED 2X, 120Hz, QHD+",
-      "processor": "Qualcomm Snapdragon 8 Elite for Galaxy",
-      "camera": "50 MP + 10 MP + 12 MP",
-      "battery": "4900 mAh, 45W şarj",
-      "ram": "12 GB",
-      "storage": "256 GB, 512 GB",
-      "os": "Android 15, One UI 7.0"
-    },
-    "price": 73499,
-    "priceFormatted": "73.499 TL",
-    "releaseDate": "2025"
   },
   {
     "id": "honor-honor-magic7-76",
@@ -42293,123 +41479,6 @@
         "updateYears": 6
       }
     }
-  },
-  {
-    "id": "samsung-galaxy-s25",
-    "slug": "samsung-galaxy-s25",
-    "name": "Samsung Galaxy S25",
-    "brand": "Samsung",
-    "category": "phones",
-    "basePrice": 46999,
-    "currency": "TL",
-    "rating": 4.7,
-    "reviewCount": 3120,
-    "releaseYear": 2025,
-    "isPopular": true,
-    "isFeatured": true,
-    "highlights": [
-      "Samsung Galaxy S25 Orijinal Türkiye Garantili",
-      "6.2\" QHD+ 1-120Hz Dynamic AMOLED 2X (Galaxy AI 2.0)",
-      "12 GB RAM & 128 GB Depolama",
-      "4000 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/phones/samsung/samsung-galaxy-s25-plus.png",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-s25-plus.png"
-    ],
-    "storeOffers": [
-      {
-        "id": "st-hb-sam-106",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 46529,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 14500,
-        "url": "https://www.vatanbilgisayar.com/samsung-samsung-galaxy-s25/"
-      },
-      {
-        "id": "st-ty-sam-106",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 46764,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 21000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-sam-106",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 46999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 18000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-sam-106",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 47469,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 50759,
-        "store": "Samsung TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 48879,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 47469,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 46999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "display": "6.2\" Dynamic LTPO AMOLED 2X, 120Hz, FHD+",
-      "processor": "Qualcomm Snapdragon 8 Elite for Galaxy",
-      "camera": "50 MP + 10 MP + 12 MP",
-      "battery": "4000 mAh, 25W şarj",
-      "ram": "12 GB",
-      "storage": "128 GB, 256 GB, 512 GB",
-      "os": "Android 15, One UI 7.0"
-    },
-    "price": 64999,
-    "priceFormatted": "64.999 TL",
-    "releaseDate": "2025"
   },
   {
     "id": "xiaomi-xiaomi-15t-pro-67",
@@ -44393,123 +43462,6 @@
         "updateYears": 3
       }
     }
-  },
-  {
-    "id": "samsung-galaxy-s25-fe",
-    "slug": "samsung-galaxy-s25-fe",
-    "name": "Samsung Galaxy S25 FE",
-    "brand": "Samsung",
-    "category": "phones",
-    "basePrice": 34999,
-    "currency": "TL",
-    "rating": 4.3,
-    "reviewCount": 36,
-    "releaseYear": 2025,
-    "isPopular": true,
-    "isFeatured": true,
-    "highlights": [
-      "Samsung Galaxy S25 FE Orijinal Türkiye Garantili",
-      "6.7\" FHD+ 120Hz Dynamic AMOLED 2X (Galaxy AI)",
-      "12 GB RAM & 256 GB Depolama",
-      "4800 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/phones/samsung/samsung-galaxy-s25-fe.png",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-s25-fe.png"
-    ],
-    "storeOffers": [
-      {
-        "id": "st-hb-sam-109",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 34649,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 14500,
-        "url": "https://www.vatanbilgisayar.com/samsung-samsung-galaxy-s25-fe/"
-      },
-      {
-        "id": "st-ty-sam-109",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 34824,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 21000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-sam-109",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 34999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 18000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-sam-109",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 35349,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 37799,
-        "store": "Samsung TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 36399,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 35349,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 34999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "display": "6.7\" Dynamic AMOLED 2X, 120Hz, FHD+",
-      "processor": "Samsung Exynos 2400e (4nm)",
-      "camera": "50 MP + 8 MP (3x) + 12 MP ultra-geniş",
-      "battery": "4700 mAh, 25W şarj",
-      "ram": "8 GB",
-      "storage": "128 GB, 256 GB, 512 GB",
-      "os": "Android 15, One UI 7.0"
-    },
-    "price": 46999,
-    "priceFormatted": "46.999 TL",
-    "releaseDate": "2025"
   },
   {
     "id": "poco-poco-f7-ultra-86",
@@ -49710,167 +48662,6 @@
     "images": [
       "/images/phones/honor/honor-magic6-pro.jpg"
     ]
-  },
-  {
-    "id": "samsung-samsung-galaxy-a56-5g-117",
-    "slug": "samsung-galaxy-a56-5g",
-    "name": "Samsung Galaxy A56 5G",
-    "brand": "Samsung",
-    "category": "smartphones",
-    "basePrice": 21999,
-    "currency": "TL",
-    "rating": 4.3,
-    "reviewCount": 472,
-    "releaseYear": 2025,
-    "isPopular": true,
-    "isFeatured": false,
-    "highlights": [
-      "Samsung Galaxy A56 5G Orijinal Türkiye Garantili",
-      "6.7\" FHD+ 120Hz Metal Çerçeve Super AMOLED",
-      "8 GB RAM & 256 GB Depolama",
-      "5000 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/phones/samsung/samsung-galaxy-a56-.jpg",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-a56-.jpg"
-    ],
-    "storeOffers": [
-      {
-        "id": "st-hb-sam-116",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 21779,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 14500,
-        "url": "https://www.vatanbilgisayar.com/samsung-samsung-galaxy-a56-5g/"
-      },
-      {
-        "id": "st-ty-sam-116",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 21889,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 21000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-sam-116",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 21999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 18000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-sam-116",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 22219,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 23759,
-        "store": "Samsung TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 22879,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 22219,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 21999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.7\"",
-        "type": "6.7\" FHD+ 120Hz Metal Çerçeve Super AMOLED",
-        "resolution": "2340 x 1080 px",
-        "refreshRate": 120,
-        "ppi": 390,
-        "brightnessNits": 1000
-      },
-      "processor": {
-        "chip": "Exynos 1580 (AMD RDNA3 GPU) 45W",
-        "cores": "8 Çekirdek",
-        "process": "3nm",
-        "antutuScore": 750000
-      },
-      "memory": {
-        "ramGb": 8,
-        "ramType": "LPDDR5X",
-        "storageGb": 256,
-        "storageOptions": [
-          256
-        ],
-        "expandableStorage": true
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "13 MP",
-        "videoRes": "4K @ 30fps",
-        "dxomarkScore": 118
-      },
-      "battery": {
-        "capacitymAh": 5000,
-        "chargingWatts": 25,
-        "wirelessCharging": false,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 6",
-        "bluetooth": "5.3",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 185,
-        "thicknessMm": 7.9,
-        "waterResistance": "IP67",
-        "frameMaterial": "Polikarbonat"
-      },
-      "software": {
-        "osName": "Android 15 (One UI 7.0)",
-        "updateYears": 7
-      }
-    }
   },
   {
     "id": "poco-poco-x7-pro-5g-90",
@@ -55421,167 +54212,6 @@
       "software": {
         "osName": "Xiaomi HyperOS 2.0 (Android 15)",
         "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "samsung-samsung-galaxy-a36-5g-116",
-    "slug": "samsung-galaxy-a36-5g",
-    "name": "Samsung Galaxy A36 5G",
-    "brand": "Samsung",
-    "category": "smartphones",
-    "basePrice": 15999,
-    "currency": "TL",
-    "rating": 4.2,
-    "reviewCount": 425,
-    "releaseYear": 2025,
-    "isPopular": true,
-    "isFeatured": false,
-    "highlights": [
-      "Samsung Galaxy A36 5G Orijinal Türkiye Garantili",
-      "6.6\" FHD+ 120Hz Super AMOLED (Punch Hole)",
-      "8 GB RAM & 128 GB Depolama",
-      "5000 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/phones/samsung/samsung-galaxy-a36.jpg",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-a36.jpg"
-    ],
-    "storeOffers": [
-      {
-        "id": "st-hb-sam-115",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 15839,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 14500,
-        "url": "https://www.vatanbilgisayar.com/samsung-samsung-galaxy-a36-5g/"
-      },
-      {
-        "id": "st-ty-sam-115",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 15919,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 21000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-sam-115",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 15999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 18000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-sam-115",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 16159,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 17279,
-        "store": "Samsung TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 16639,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 16159,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 15999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.6\"",
-        "type": "6.6\" FHD+ 120Hz Super AMOLED (Punch Hole)",
-        "resolution": "2340 x 1080 px",
-        "refreshRate": 120,
-        "ppi": 390,
-        "brightnessNits": 1000
-      },
-      "processor": {
-        "chip": "Snapdragon 6 Gen 3 5G",
-        "cores": "8 Çekirdek",
-        "process": "3nm",
-        "antutuScore": 750000
-      },
-      "memory": {
-        "ramGb": 8,
-        "ramType": "LPDDR5X",
-        "storageGb": 128,
-        "storageOptions": [
-          128
-        ],
-        "expandableStorage": true
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "13 MP",
-        "videoRes": "4K @ 30fps",
-        "dxomarkScore": 118
-      },
-      "battery": {
-        "capacitymAh": 5000,
-        "chargingWatts": 25,
-        "wirelessCharging": false,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 6",
-        "bluetooth": "5.3",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 185,
-        "thicknessMm": 7.9,
-        "waterResistance": "Yok",
-        "frameMaterial": "Polikarbonat"
-      },
-      "software": {
-        "osName": "Android 15 (One UI 7.0)",
-        "updateYears": 7
       }
     }
   },
@@ -66589,167 +65219,6 @@
     ]
   },
   {
-    "id": "samsung-samsung-galaxy-a26-5g-115",
-    "slug": "samsung-galaxy-a26-5g",
-    "name": "Samsung Galaxy A26 5G",
-    "brand": "Samsung",
-    "category": "smartphones",
-    "basePrice": 11999,
-    "currency": "TL",
-    "rating": 4.6,
-    "reviewCount": 378,
-    "releaseYear": 2025,
-    "isPopular": true,
-    "isFeatured": false,
-    "highlights": [
-      "Samsung Galaxy A26 5G Orijinal Türkiye Garantili",
-      "6.6\" FHD+ 120Hz Super AMOLED",
-      "6 GB RAM & 128 GB Depolama",
-      "5000 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/phones/samsung/samsung-galaxy-a26.jpg",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-a26.jpg"
-    ],
-    "storeOffers": [
-      {
-        "id": "st-hb-sam-114",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 11879,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 14500,
-        "url": "https://www.vatanbilgisayar.com/samsung-samsung-galaxy-a26-5g/"
-      },
-      {
-        "id": "st-ty-sam-114",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 11939,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 21000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-sam-114",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 11999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 18000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-sam-114",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 12119,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 12959,
-        "store": "Samsung TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 12479,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 12119,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 11999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.6\"",
-        "type": "6.6\" FHD+ 120Hz Super AMOLED",
-        "resolution": "2340 x 1080 px",
-        "refreshRate": 120,
-        "ppi": 390,
-        "brightnessNits": 1000
-      },
-      "processor": {
-        "chip": "Exynos 1280 5G",
-        "cores": "8 Çekirdek",
-        "process": "3nm",
-        "antutuScore": 750000
-      },
-      "memory": {
-        "ramGb": 6,
-        "ramType": "LPDDR5X",
-        "storageGb": 128,
-        "storageOptions": [
-          128
-        ],
-        "expandableStorage": true
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "13 MP",
-        "videoRes": "4K @ 30fps",
-        "dxomarkScore": 118
-      },
-      "battery": {
-        "capacitymAh": 5000,
-        "chargingWatts": 25,
-        "wirelessCharging": false,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 6",
-        "bluetooth": "5.3",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 185,
-        "thicknessMm": 7.9,
-        "waterResistance": "Yok",
-        "frameMaterial": "Polikarbonat"
-      },
-      "software": {
-        "osName": "Android 15 (One UI 7.0)",
-        "updateYears": 7
-      }
-    }
-  },
-  {
     "id": "xiaomi-xiaomi-redmi-note-14-5g-76",
     "slug": "xiaomi-redmi-note-14-5g",
     "name": "Xiaomi Redmi Note 14 5G",
@@ -68825,167 +67294,6 @@
     ]
   },
   {
-    "id": "samsung-samsung-galaxy-a16-5g-114",
-    "slug": "samsung-galaxy-a16-5g",
-    "name": "Samsung Galaxy A16 5G",
-    "brand": "Samsung",
-    "category": "smartphones",
-    "basePrice": 8999,
-    "currency": "TL",
-    "rating": 4.5,
-    "reviewCount": 331,
-    "releaseYear": 2025,
-    "isPopular": true,
-    "isFeatured": false,
-    "highlights": [
-      "Samsung Galaxy A16 5G Orijinal Türkiye Garantili",
-      "6.7\" FHD+ 90Hz Super AMOLED (6 Yıl Güncelleme)",
-      "6 GB RAM & 128 GB Depolama",
-      "5000 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/phones/samsung/samsung-galaxy-a16-5g.jpg",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-a16-5g.jpg"
-    ],
-    "storeOffers": [
-      {
-        "id": "st-hb-sam-113",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 8909,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 14500,
-        "url": "https://www.vatanbilgisayar.com/samsung-samsung-galaxy-a16-5g/"
-      },
-      {
-        "id": "st-ty-sam-113",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 8954,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 21000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-sam-113",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 8999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 18000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-sam-113",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 9089,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 9719,
-        "store": "Samsung TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 9359,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 9089,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 8999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.7\"",
-        "type": "6.7\" FHD+ 90Hz Super AMOLED (6 Yıl Güncelleme)",
-        "resolution": "2340 x 1080 px",
-        "refreshRate": 120,
-        "ppi": 390,
-        "brightnessNits": 1000
-      },
-      "processor": {
-        "chip": "Exynos 1330 / Dimensity 6300 5G",
-        "cores": "8 Çekirdek",
-        "process": "3nm",
-        "antutuScore": 750000
-      },
-      "memory": {
-        "ramGb": 6,
-        "ramType": "LPDDR5X",
-        "storageGb": 128,
-        "storageOptions": [
-          128
-        ],
-        "expandableStorage": true
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "13 MP",
-        "videoRes": "4K @ 30fps",
-        "dxomarkScore": 118
-      },
-      "battery": {
-        "capacitymAh": 5000,
-        "chargingWatts": 25,
-        "wirelessCharging": false,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 6",
-        "bluetooth": "5.3",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 185,
-        "thicknessMm": 7.9,
-        "waterResistance": "Yok",
-        "frameMaterial": "Polikarbonat"
-      },
-      "software": {
-        "osName": "Android 15 (One UI 7.0)",
-        "updateYears": 7
-      }
-    }
-  },
-  {
     "id": "xiaomi-xiaomi-redmi-14-5g-81",
     "slug": "xiaomi-redmi-14-5g",
     "name": "Xiaomi Redmi 14 5G",
@@ -70981,167 +69289,6 @@
         "store": "Hepsiburada"
       }
     ]
-  },
-  {
-    "id": "samsung-samsung-galaxy-a06-113",
-    "slug": "samsung-galaxy-a06",
-    "name": "Samsung Galaxy A06",
-    "brand": "Samsung",
-    "category": "smartphones",
-    "basePrice": 5999,
-    "currency": "TL",
-    "rating": 4.4,
-    "reviewCount": 284,
-    "releaseYear": 2025,
-    "isPopular": true,
-    "isFeatured": false,
-    "highlights": [
-      "Samsung Galaxy A06 Orijinal Türkiye Garantili",
-      "6.7\" HD+ 90Hz PLS LCD",
-      "4 GB RAM & 64 GB Depolama",
-      "5000 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/phones/samsung/samsung-galaxy-a06-1.jpg",
-    "images": [
-      "/images/phones/samsung/samsung-galaxy-a06-1.jpg"
-    ],
-    "storeOffers": [
-      {
-        "id": "st-hb-sam-112",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 5939,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 14500,
-        "url": "https://www.vatanbilgisayar.com/samsung-samsung-galaxy-a06/"
-      },
-      {
-        "id": "st-ty-sam-112",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 5969,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 21000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-sam-112",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 5999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 18000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-sam-112",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 6059,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 6479,
-        "store": "Samsung TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 6239,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 6059,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 5999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.7\"",
-        "type": "6.7\" HD+ 90Hz PLS LCD",
-        "resolution": "2340 x 1080 px",
-        "refreshRate": 120,
-        "ppi": 390,
-        "brightnessNits": 1000
-      },
-      "processor": {
-        "chip": "Helio G85",
-        "cores": "8 Çekirdek",
-        "process": "3nm",
-        "antutuScore": 750000
-      },
-      "memory": {
-        "ramGb": 4,
-        "ramType": "LPDDR5X",
-        "storageGb": 64,
-        "storageOptions": [
-          64
-        ],
-        "expandableStorage": true
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "12 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "13 MP",
-        "videoRes": "4K @ 30fps",
-        "dxomarkScore": 118
-      },
-      "battery": {
-        "capacitymAh": 5000,
-        "chargingWatts": 25,
-        "wirelessCharging": false,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": false,
-        "wifiStandard": "Wi-Fi 6",
-        "bluetooth": "5.3",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 185,
-        "thicknessMm": 7.9,
-        "waterResistance": "Yok",
-        "frameMaterial": "Polikarbonat"
-      },
-      "software": {
-        "osName": "Android 15 (One UI 7.0)",
-        "updateYears": 7
-      }
-    }
   },
   {
     "id": "tcl-tcl-605-50",
