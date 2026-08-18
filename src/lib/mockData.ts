@@ -81280,10 +81280,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a6x.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a6x-14322.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a6x.jpg",
-      "/images/products/smartphones/oppo-a6x-14322.jpg"
+      "/images/phones/oppo/oppo-oppo-a6x-14322.jpg"
     ],
     "storeOffers": [
       {
@@ -81442,10 +81441,9 @@ export const mockSmartphones: Smartphone[] = [
       "5600 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno15-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno15-pro-5g-14286.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno15-pro.jpg",
-      "/images/products/smartphones/oppo-reno15-pro-5g-14286.jpg"
+      "/images/phones/oppo/oppo-oppo-reno15-pro-5g-14286.jpg"
     ],
     "storeOffers": [
       {
@@ -81604,10 +81602,9 @@ export const mockSmartphones: Smartphone[] = [
       "5600 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno15.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno15-5g-14288.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno15.jpg",
-      "/images/products/smartphones/oppo-reno15-5g-14288.jpg"
+      "/images/phones/oppo/oppo-oppo-reno15-5g-14288.jpg"
     ],
     "storeOffers": [
       {
@@ -81766,10 +81763,9 @@ export const mockSmartphones: Smartphone[] = [
       "5910 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x9-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x9-pro-14094.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x9-pro.jpg",
-      "/images/products/smartphones/oppo-find-x9-pro-14094.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x9-pro-14094.jpg"
     ],
     "storeOffers": [
       {
@@ -81928,10 +81924,9 @@ export const mockSmartphones: Smartphone[] = [
       "5910 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x9.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x9-5g-14235.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x9.jpg",
-      "/images/products/smartphones/oppo-find-x9-5g-14235.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x9-5g-14235.jpg"
     ],
     "storeOffers": [
       {
@@ -82090,10 +82085,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a6-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a6-pro.jpg",
-      "/images/products/smartphones/oppo-a6-pro-5g-14171.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -82252,10 +82246,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a6-pro-4g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-14170.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a6-pro-4g.jpg",
-      "/images/products/smartphones/oppo-a6-pro-14170.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-14170.jpg"
     ],
     "storeOffers": [
       {
@@ -82414,10 +82407,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-f31-pro+-5g-14148.jpg"
+      "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg"
     ],
     "storeOffers": [
       {
@@ -82576,10 +82568,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f31-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-f31-pro.jpg",
-      "/images/products/smartphones/oppo-f31-pro-5g-14149.jpg"
+      "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg"
     ],
     "storeOffers": [
       {
@@ -82738,10 +82729,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-f31-5g-14248.jpg"
+      "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg"
     ],
     "storeOffers": [
       {
@@ -82900,10 +82890,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a6-gt.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a6-gt-5g-14135.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a6-gt.jpg",
-      "/images/products/smartphones/oppo-a6-gt-5g-14135.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-gt-5g-14135.jpg"
     ],
     "storeOffers": [
       {
@@ -83062,10 +83051,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a6-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-china.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a6-pro.jpg",
-      "/images/products/smartphones/oppo-a6-pro-5g-(china.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-china.jpg"
     ],
     "storeOffers": [
       {
@@ -83224,10 +83212,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a6-max-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a6-max-5g-14108.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a6-max-.jpg",
-      "/images/products/smartphones/oppo-a6-max-5g-14108.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-max-5g-14108.jpg"
     ],
     "storeOffers": [
       {
@@ -83386,10 +83373,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k13-turbo.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-k13-turbo-5g-14022.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-k13-turbo.jpg",
-      "/images/products/smartphones/oppo-k13-turbo-5g-14022.jpg"
+      "/images/phones/oppo/oppo-oppo-k13-turbo-5g-14022.jpg"
     ],
     "storeOffers": [
       {
@@ -83548,10 +83534,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k13-turbo-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-k13-turbo-pro-5g-14013.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-k13-turbo-pro.jpg",
-      "/images/products/smartphones/oppo-k13-turbo-pro-5g-14013.jpg"
+      "/images/phones/oppo/oppo-oppo-k13-turbo-pro-5g-14013.jpg"
     ],
     "storeOffers": [
       {
@@ -83710,10 +83695,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno14.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno14-f-5g-13977.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno14.jpg",
-      "/images/products/smartphones/oppo-reno14-f-5g-13977.jpg"
+      "/images/phones/oppo/oppo-oppo-reno14-f-5g-13977.jpg"
     ],
     "storeOffers": [
       {
@@ -83872,10 +83856,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k13x-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-k13x-5g-13978.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-k13x-5g.jpg",
-      "/images/products/smartphones/oppo-k13x-5g-13978.jpg"
+      "/images/phones/oppo/oppo-oppo-k13x-5g-13978.jpg"
     ],
     "storeOffers": [
       {
@@ -84034,10 +84017,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5x.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a5x-5g-13898.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5x.jpg",
-      "/images/products/smartphones/oppo-a5x-5g-13898.jpg"
+      "/images/phones/oppo/oppo-oppo-a5x-5g-13898.jpg"
     ],
     "storeOffers": [
       {
@@ -84196,10 +84178,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a5-5g-13872.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5.jpg",
-      "/images/products/smartphones/oppo-a5-5g-13872.jpg"
+      "/images/phones/oppo/oppo-oppo-a5-5g-13872.jpg"
     ],
     "storeOffers": [
       {
@@ -84358,10 +84339,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5-4g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a5-4g-13871.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5-4g.jpg",
-      "/images/products/smartphones/oppo-a5-4g-13871.jpg"
+      "/images/phones/oppo/oppo-oppo-a5-4g-13871.jpg"
     ],
     "storeOffers": [
       {
@@ -84520,10 +84500,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5x.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a5x-13873.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5x.jpg",
-      "/images/products/smartphones/oppo-a5x-13873.jpg"
+      "/images/phones/oppo/oppo-oppo-a5x-13873.jpg"
     ],
     "storeOffers": [
       {
@@ -84682,10 +84661,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno14-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno14-pro-5g-13865.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno14-pro.jpg",
-      "/images/products/smartphones/oppo-reno14-pro-5g-13865.jpg"
+      "/images/phones/oppo/oppo-oppo-reno14-pro-5g-13865.jpg"
     ],
     "storeOffers": [
       {
@@ -84844,10 +84822,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno14.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno14-5g-13866.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno14.jpg",
-      "/images/products/smartphones/oppo-reno14-5g-13866.jpg"
+      "/images/phones/oppo/oppo-oppo-reno14-5g-13866.jpg"
     ],
     "storeOffers": [
       {
@@ -85006,10 +84983,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k13-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-k13-5g-13789.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-k13-5g.jpg",
-      "/images/products/smartphones/oppo-k13-5g-13789.jpg"
+      "/images/phones/oppo/oppo-oppo-k13-5g-13789.jpg"
     ],
     "storeOffers": [
       {
@@ -85168,10 +85144,9 @@ export const mockSmartphones: Smartphone[] = [
       "5910 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x8-ultra.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x8-ultra-13753.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x8-ultra.jpg",
-      "/images/products/smartphones/oppo-find-x8-ultra-13753.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x8-ultra-13753.jpg"
     ],
     "storeOffers": [
       {
@@ -85330,10 +85305,9 @@ export const mockSmartphones: Smartphone[] = [
       "5910 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x8s-plus.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x8s-5g-13770.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x8s-plus.jpg",
-      "/images/products/smartphones/oppo-find-x8s+-5g-13770.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x8s-5g-13770.jpg"
     ],
     "storeOffers": [
       {
@@ -85492,10 +85466,9 @@ export const mockSmartphones: Smartphone[] = [
       "5910 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x8s.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x8s-5g-13769.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x8s.jpg",
-      "/images/products/smartphones/oppo-find-x8s-5g-13769.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x8s-5g-13769.jpg"
     ],
     "storeOffers": [
       {
@@ -85654,10 +85627,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f29-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-f29-pro-13720.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-f29-pro.jpg",
-      "/images/products/smartphones/oppo-f29-pro-13720.jpg"
+      "/images/phones/oppo/oppo-oppo-f29-pro-13720.jpg"
     ],
     "storeOffers": [
       {
@@ -85816,10 +85788,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f29.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-f29-13722.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-f29.jpg",
-      "/images/products/smartphones/oppo-f29-13722.jpg"
+      "/images/phones/oppo/oppo-oppo-f29-13722.jpg"
     ],
     "storeOffers": [
       {
@@ -85978,10 +85949,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a5-energy-13735.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5.jpg",
-      "/images/products/smartphones/oppo-a5-energy-13735.jpg"
+      "/images/phones/oppo/oppo-oppo-a5-energy-13735.jpg"
     ],
     "storeOffers": [
       {
@@ -86140,10 +86110,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a5-china.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5.jpg",
-      "/images/products/smartphones/oppo-a5-(china.jpg"
+      "/images/phones/oppo/oppo-oppo-a5-china.jpg"
     ],
     "storeOffers": [
       {
@@ -86302,10 +86271,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a5-pro-4g-13738.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5-pro.jpg",
-      "/images/products/smartphones/oppo-a5-pro-4g-13738.jpg"
+      "/images/phones/oppo/oppo-oppo-a5-pro-4g-13738.jpg"
     ],
     "storeOffers": [
       {
@@ -86464,10 +86432,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a5-pro-13675.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5-pro.jpg",
-      "/images/products/smartphones/oppo-a5-pro-13675.jpg"
+      "/images/phones/oppo/oppo-oppo-a5-pro-13675.jpg"
     ],
     "storeOffers": [
       {
@@ -86626,10 +86593,9 @@ export const mockSmartphones: Smartphone[] = [
       "5600 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony LYT-900 Hasselblad OIS + 50 MP Geniş + 64 MP Periskop"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n5.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-n5-13659.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n5.jpg",
-      "/images/products/smartphones/oppo-find-n5-13659.jpg"
+      "/images/phones/oppo/oppo-oppo-find-n5-13659.jpg"
     ],
     "storeOffers": [
       {
@@ -86788,10 +86754,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
+    "image": "/images/phones/oppo/oppo-oppo-reno13-f-13607.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
-      "/images/products/smartphones/oppo-reno13-f-13607.jpg"
+      "/images/phones/oppo/oppo-oppo-reno13-f-13607.jpg"
     ],
     "storeOffers": [
       {
@@ -86950,10 +86915,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
+    "image": "/images/phones/oppo/oppo-oppo-reno13-f-4g-13608.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
-      "/images/products/smartphones/oppo-reno13-f-4g-13608.jpg"
+      "/images/phones/oppo/oppo-oppo-reno13-f-4g-13608.jpg"
     ],
     "storeOffers": [
       {
@@ -87112,10 +87076,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a5-pro-china.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5-pro.jpg",
-      "/images/products/smartphones/oppo-a5-pro-(china.jpg"
+      "/images/phones/oppo/oppo-oppo-a5-pro-china.jpg"
     ],
     "storeOffers": [
       {
@@ -87274,10 +87237,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
+    "image": "/images/phones/oppo/oppo-oppo-reno13-pro-13514.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
-      "/images/products/smartphones/oppo-reno13-pro-13514.jpg"
+      "/images/phones/oppo/oppo-oppo-reno13-pro-13514.jpg"
     ],
     "storeOffers": [
       {
@@ -87436,10 +87398,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
+    "image": "/images/phones/oppo/oppo-oppo-reno13-13515.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
-      "/images/products/smartphones/oppo-reno13-13515.jpg"
+      "/images/phones/oppo/oppo-oppo-reno13-13515.jpg"
     ],
     "storeOffers": [
       {
@@ -87598,10 +87559,9 @@ export const mockSmartphones: Smartphone[] = [
       "5910 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x8-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x8-pro-13467.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x8-pro.jpg",
-      "/images/products/smartphones/oppo-find-x8-pro-13467.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x8-pro-13467.jpg"
     ],
     "storeOffers": [
       {
@@ -87760,10 +87720,9 @@ export const mockSmartphones: Smartphone[] = [
       "5910 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x8.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x8-13407.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x8.jpg",
-      "/images/products/smartphones/oppo-find-x8-13407.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x8-13407.jpg"
     ],
     "storeOffers": [
       {
@@ -87922,10 +87881,9 @@ export const mockSmartphones: Smartphone[] = [
       "4000 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a80.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a80-13292.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a80.jpg",
-      "/images/products/smartphones/oppo-a80-13292.jpg"
+      "/images/phones/oppo/oppo-oppo-a80-13292.jpg"
     ],
     "storeOffers": [
       {
@@ -88084,10 +88042,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f27.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-f27-13270.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-f27.jpg",
-      "/images/products/smartphones/oppo-f27-13270.jpg"
+      "/images/phones/oppo/oppo-oppo-f27-13270.jpg"
     ],
     "storeOffers": [
       {
@@ -88246,10 +88203,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a3-4g-13275.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3.jpg",
-      "/images/products/smartphones/oppo-a3-4g-13275.jpg"
+      "/images/phones/oppo/oppo-oppo-a3-4g-13275.jpg"
     ],
     "storeOffers": [
       {
@@ -88408,10 +88364,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3x.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a3x-4g-13261.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3x.jpg",
-      "/images/products/smartphones/oppo-a3x-4g-13261.jpg"
+      "/images/phones/oppo/oppo-oppo-a3x-4g-13261.jpg"
     ],
     "storeOffers": [
       {
@@ -88570,10 +88525,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a3-13269.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3.jpg",
-      "/images/products/smartphones/oppo-a3-13269.jpg"
+      "/images/phones/oppo/oppo-oppo-a3-13269.jpg"
     ],
     "storeOffers": [
       {
@@ -88732,10 +88686,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3x.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a3x-13257.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3x.jpg",
-      "/images/products/smartphones/oppo-a3x-13257.jpg"
+      "/images/phones/oppo/oppo-oppo-a3x-13257.jpg"
     ],
     "storeOffers": [
       {
@@ -88894,10 +88847,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3x.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a3x-china.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3x.jpg",
-      "/images/products/smartphones/oppo-a3x-(china.jpg"
+      "/images/phones/oppo/oppo-oppo-a3x-china.jpg"
     ],
     "storeOffers": [
       {
@@ -89056,10 +89008,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k12x.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-k12x-13237.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-k12x.jpg",
-      "/images/products/smartphones/oppo-k12x-13237.jpg"
+      "/images/phones/oppo/oppo-oppo-k12x-13237.jpg"
     ],
     "storeOffers": [
       {
@@ -89218,10 +89169,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-f-4g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno12-f-4g-13216.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-f-4g.jpg",
-      "/images/products/smartphones/oppo-reno12-f-4g-13216.jpg"
+      "/images/phones/oppo/oppo-oppo-reno12-f-4g-13216.jpg"
     ],
     "storeOffers": [
       {
@@ -89380,10 +89330,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a3-china.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3.jpg",
-      "/images/products/smartphones/oppo-a3-(china.jpg"
+      "/images/phones/oppo/oppo-oppo-a3-china.jpg"
     ],
     "storeOffers": [
       {
@@ -89542,10 +89491,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-f.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno12-f-13182.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-f.jpg",
-      "/images/products/smartphones/oppo-reno12-f-13182.jpg"
+      "/images/phones/oppo/oppo-oppo-reno12-f-13182.jpg"
     ],
     "storeOffers": [
       {
@@ -89704,10 +89652,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a3-pro-13160.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3-pro.jpg",
-      "/images/products/smartphones/oppo-a3-pro-13160.jpg"
+      "/images/phones/oppo/oppo-oppo-a3-pro-13160.jpg"
     ],
     "storeOffers": [
       {
@@ -89866,10 +89813,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno12-pro-13132.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12.jpg",
-      "/images/products/smartphones/oppo-reno12-pro-13132.jpg"
+      "/images/phones/oppo/oppo-oppo-reno12-pro-13132.jpg"
     ],
     "storeOffers": [
       {
@@ -90028,10 +89974,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno12-13133.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12.jpg",
-      "/images/products/smartphones/oppo-reno12-13133.jpg"
+      "/images/phones/oppo/oppo-oppo-reno12-13133.jpg"
     ],
     "storeOffers": [
       {
@@ -90190,10 +90135,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-f27-pro+-13126.jpg"
+      "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg"
     ],
     "storeOffers": [
       {
@@ -90352,10 +90296,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno12-pro-china.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12.jpg",
-      "/images/products/smartphones/oppo-reno12-pro-(china.jpg"
+      "/images/phones/oppo/oppo-oppo-reno12-pro-china.jpg"
     ],
     "storeOffers": [
       {
@@ -90514,10 +90457,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno12-china.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12.jpg",
-      "/images/products/smartphones/oppo-reno12-(china.jpg"
+      "/images/phones/oppo/oppo-oppo-reno12-china.jpg"
     ],
     "storeOffers": [
       {
@@ -90676,10 +90618,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k12x.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-k12x-china.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-k12x.jpg",
-      "/images/products/smartphones/oppo-k12x-(china.jpg"
+      "/images/phones/oppo/oppo-oppo-k12x-china.jpg"
     ],
     "storeOffers": [
       {
@@ -90838,10 +90779,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a60.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a60-12964.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a60.jpg",
-      "/images/products/smartphones/oppo-a60-12964.jpg"
+      "/images/phones/oppo/oppo-oppo-a60-12964.jpg"
     ],
     "storeOffers": [
       {
@@ -91000,10 +90940,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k12.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-k12-12949.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-k12.jpg",
-      "/images/products/smartphones/oppo-k12-12949.jpg"
+      "/images/phones/oppo/oppo-oppo-k12-12949.jpg"
     ],
     "storeOffers": [
       {
@@ -91162,10 +91101,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a3-pro-china.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3-pro.jpg",
-      "/images/products/smartphones/oppo-a3-pro-(china.jpg"
+      "/images/phones/oppo/oppo-oppo-a3-pro-china.jpg"
     ],
     "storeOffers": [
       {
@@ -91324,10 +91262,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f25-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-f25-pro-12854.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-f25-pro.jpg",
-      "/images/products/smartphones/oppo-f25-pro-12854.jpg"
+      "/images/phones/oppo/oppo-oppo-f25-pro-12854.jpg"
     ],
     "storeOffers": [
       {
@@ -91486,10 +91423,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno11-f-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno11-f-12797.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno11-f-5g.jpg",
-      "/images/products/smartphones/oppo-reno11-f-12797.jpg"
+      "/images/phones/oppo/oppo-oppo-reno11-f-12797.jpg"
     ],
     "storeOffers": [
       {
@@ -91648,10 +91584,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
+    "image": "/images/phones/oppo/oppo-oppo-reno11-pro-12790.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
-      "/images/products/smartphones/oppo-reno11-pro-12790.jpg"
+      "/images/phones/oppo/oppo-oppo-reno11-pro-12790.jpg"
     ],
     "storeOffers": [
       {
@@ -91810,10 +91745,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
+    "image": "/images/phones/oppo/oppo-oppo-reno11-12791.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
-      "/images/products/smartphones/oppo-reno11-12791.jpg"
+      "/images/phones/oppo/oppo-oppo-reno11-12791.jpg"
     ],
     "storeOffers": [
       {
@@ -91972,10 +91906,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x7-ultra.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x7-ultra-12752.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x7-ultra.jpg",
-      "/images/products/smartphones/oppo-find-x7-ultra-12752.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x7-ultra-12752.jpg"
     ],
     "storeOffers": [
       {
@@ -92134,10 +92067,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x7.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x7-12778.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x7.jpg",
-      "/images/products/smartphones/oppo-find-x7-12778.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x7-12778.jpg"
     ],
     "storeOffers": [
       {
@@ -92296,10 +92228,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a59.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a59-12754.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a59.jpg",
-      "/images/products/smartphones/oppo-a59-12754.jpg"
+      "/images/phones/oppo/oppo-oppo-a59-12754.jpg"
     ],
     "storeOffers": [
       {
@@ -92458,10 +92389,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
+    "image": "/images/phones/oppo/oppo-oppo-reno11-pro-china.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
-      "/images/products/smartphones/oppo-reno11-pro-(china.jpg"
+      "/images/phones/oppo/oppo-oppo-reno11-pro-china.jpg"
     ],
     "storeOffers": [
       {
@@ -92620,10 +92550,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
+    "image": "/images/phones/oppo/oppo-oppo-reno11-china.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
-      "/images/products/smartphones/oppo-reno11-(china.jpg"
+      "/images/phones/oppo/oppo-oppo-reno11-china.jpg"
     ],
     "storeOffers": [
       {
@@ -92782,10 +92711,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a2.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a2-12683.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a2.jpg",
-      "/images/products/smartphones/oppo-a2-12683.jpg"
+      "/images/phones/oppo/oppo-oppo-a2-12683.jpg"
     ],
     "storeOffers": [
       {
@@ -92944,10 +92872,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a79-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a79-12636.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a79-5g.jpg",
-      "/images/products/smartphones/oppo-a79-12636.jpg"
+      "/images/phones/oppo/oppo-oppo-a79-12636.jpg"
     ],
     "storeOffers": [
       {
@@ -93106,10 +93033,9 @@ export const mockSmartphones: Smartphone[] = [
       "4800 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony LYT-900 Hasselblad OIS + 50 MP Geniş + 64 MP Periskop"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n3.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-n3-12205.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n3.jpg",
-      "/images/products/smartphones/oppo-find-n3-12205.jpg"
+      "/images/phones/oppo/oppo-oppo-find-n3-12205.jpg"
     ],
     "storeOffers": [
       {
@@ -93268,10 +93194,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a2x.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a2x-12621.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a2x.jpg",
-      "/images/products/smartphones/oppo-a2x-12621.jpg"
+      "/images/phones/oppo/oppo-oppo-a2x-12621.jpg"
     ],
     "storeOffers": [
       {
@@ -93430,10 +93355,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-a18-12591.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -93592,10 +93516,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a2-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a2-pro-12551.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a2-pro.jpg",
-      "/images/products/smartphones/oppo-a2-pro-12551.jpg"
+      "/images/phones/oppo/oppo-oppo-a2-pro-12551.jpg"
     ],
     "storeOffers": [
       {
@@ -93754,10 +93677,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a38.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a38-12541.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a38.jpg",
-      "/images/products/smartphones/oppo-a38-12541.jpg"
+      "/images/phones/oppo/oppo-oppo-a38-12541.jpg"
     ],
     "storeOffers": [
       {
@@ -93916,10 +93838,9 @@ export const mockSmartphones: Smartphone[] = [
       "4800 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony LYT-900 Hasselblad OIS + 50 MP Geniş + 64 MP Periskop"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n3-flip.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-n3-flip-12531.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n3-flip.jpg",
-      "/images/products/smartphones/oppo-find-n3-flip-12531.jpg"
+      "/images/phones/oppo/oppo-oppo-find-n3-flip-12531.jpg"
     ],
     "storeOffers": [
       {
@@ -94078,10 +93999,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a58-4g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a58-4g-12436.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a58-4g.jpg",
-      "/images/products/smartphones/oppo-a58-4g-12436.jpg"
+      "/images/phones/oppo/oppo-oppo-a58-4g-12436.jpg"
     ],
     "storeOffers": [
       {
@@ -94240,10 +94160,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k11.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-k11-12390.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-k11.jpg",
-      "/images/products/smartphones/oppo-k11-12390.jpg"
+      "/images/phones/oppo/oppo-oppo-k11-12390.jpg"
     ],
     "storeOffers": [
       {
@@ -94402,10 +94321,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno10-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno10-pro-12413.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno10-pro.jpg",
-      "/images/products/smartphones/oppo-reno10-pro-12413.jpg"
+      "/images/phones/oppo/oppo-oppo-reno10-pro-12413.jpg"
     ],
     "storeOffers": [
       {
@@ -94564,10 +94482,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno10.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno10-12414.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno10.jpg",
-      "/images/products/smartphones/oppo-reno10-12414.jpg"
+      "/images/phones/oppo/oppo-oppo-reno10-12414.jpg"
     ],
     "storeOffers": [
       {
@@ -94726,10 +94643,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a78-4g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a78-4g-12387.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a78-4g.jpg",
-      "/images/products/smartphones/oppo-a78-4g-12387.jpg"
+      "/images/phones/oppo/oppo-oppo-a78-4g-12387.jpg"
     ],
     "storeOffers": [
       {
@@ -94888,10 +94804,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k11x.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-k11x-12295.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-k11x.jpg",
-      "/images/products/smartphones/oppo-k11x-12295.jpg"
+      "/images/phones/oppo/oppo-oppo-k11x-12295.jpg"
     ],
     "storeOffers": [
       {
@@ -95050,10 +94965,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno10-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno10-pro-china.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno10-pro.jpg",
-      "/images/products/smartphones/oppo-reno10-pro-(china.jpg"
+      "/images/phones/oppo/oppo-oppo-reno10-pro-china.jpg"
     ],
     "storeOffers": [
       {
@@ -95212,10 +95126,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno10.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno10-china.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno10.jpg",
-      "/images/products/smartphones/oppo-reno10-(china.jpg"
+      "/images/phones/oppo/oppo-oppo-reno10-china.jpg"
     ],
     "storeOffers": [
       {
@@ -95374,10 +95287,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f23-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-f23-12270.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-f23-5g.jpg",
-      "/images/products/smartphones/oppo-f23-12270.jpg"
+      "/images/phones/oppo/oppo-oppo-f23-12270.jpg"
     ],
     "storeOffers": [
       {
@@ -95536,10 +95448,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a98-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a98-11974.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a98-5g.jpg",
-      "/images/products/smartphones/oppo-a98-11974.jpg"
+      "/images/phones/oppo/oppo-oppo-a98-11974.jpg"
     ],
     "storeOffers": [
       {
@@ -95698,10 +95609,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a1.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a1-12213.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a1.jpg",
-      "/images/products/smartphones/oppo-a1-12213.jpg"
+      "/images/phones/oppo/oppo-oppo-a1-12213.jpg"
     ],
     "storeOffers": [
       {
@@ -95860,10 +95770,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a1x.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a1x-12208.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a1x.jpg",
-      "/images/products/smartphones/oppo-a1x-12208.jpg"
+      "/images/phones/oppo/oppo-oppo-a1x-12208.jpg"
     ],
     "storeOffers": [
       {
@@ -96022,10 +95931,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x6-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x6-pro-12105.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x6-pro.jpg",
-      "/images/products/smartphones/oppo-find-x6-pro-12105.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x6-pro-12105.jpg"
     ],
     "storeOffers": [
       {
@@ -96184,10 +96092,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x6.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x6-12106.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x6.jpg",
-      "/images/products/smartphones/oppo-find-x6-12106.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x6-12106.jpg"
     ],
     "storeOffers": [
       {
@@ -96346,10 +96253,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8-t.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno8-t-12109.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8-t.jpg",
-      "/images/products/smartphones/oppo-reno8-t-12109.jpg"
+      "/images/phones/oppo/oppo-oppo-reno8-t-12109.jpg"
     ],
     "storeOffers": [
       {
@@ -96508,10 +96414,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8-t.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno8-t-5g-12069.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8-t.jpg",
-      "/images/products/smartphones/oppo-reno8-t-5g-12069.jpg"
+      "/images/phones/oppo/oppo-oppo-reno8-t-5g-12069.jpg"
     ],
     "storeOffers": [
       {
@@ -96670,10 +96575,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a78-4g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a78-12073.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a78-4g.jpg",
-      "/images/products/smartphones/oppo-a78-12073.jpg"
+      "/images/phones/oppo/oppo-oppo-a78-12073.jpg"
     ],
     "storeOffers": [
       {
@@ -96832,10 +96736,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a56s.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a56s-12064.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a56s.jpg",
-      "/images/products/smartphones/oppo-a56s-12064.jpg"
+      "/images/phones/oppo/oppo-oppo-a56s-12064.jpg"
     ],
     "storeOffers": [
       {
@@ -96994,10 +96897,9 @@ export const mockSmartphones: Smartphone[] = [
       "4800 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony LYT-900 Hasselblad OIS + 50 MP Geniş + 64 MP Periskop"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n2-flip.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-n2-flip-12014.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n2-flip.jpg",
-      "/images/products/smartphones/oppo-find-n2-flip-12014.jpg"
+      "/images/phones/oppo/oppo-oppo-find-n2-flip-12014.jpg"
     ],
     "storeOffers": [
       {
@@ -97156,10 +97058,9 @@ export const mockSmartphones: Smartphone[] = [
       "4800 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony LYT-900 Hasselblad OIS + 50 MP Geniş + 64 MP Periskop"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n2.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-n2-12002.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n2.jpg",
-      "/images/products/smartphones/oppo-find-n2-12002.jpg"
+      "/images/phones/oppo/oppo-oppo-find-n2-12002.jpg"
     ],
     "storeOffers": [
       {
@@ -97318,10 +97219,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a58x.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a58x-12027.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a58x.jpg",
-      "/images/products/smartphones/oppo-a58x-12027.jpg"
+      "/images/phones/oppo/oppo-oppo-a58x-12027.jpg"
     ],
     "storeOffers": [
       {
@@ -97480,10 +97380,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno9-pro-plus.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno9-pro-11996.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno9-pro-plus.jpg",
-      "/images/products/smartphones/oppo-reno9-pro+-11996.jpg"
+      "/images/phones/oppo/oppo-oppo-reno9-pro-11996.jpg"
     ],
     "storeOffers": [
       {
@@ -97642,10 +97541,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno9-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno9-pro-11997.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno9-pro.jpg",
-      "/images/products/smartphones/oppo-reno9-pro-11997.jpg"
+      "/images/phones/oppo/oppo-oppo-reno9-pro-11997.jpg"
     ],
     "storeOffers": [
       {
@@ -97804,10 +97702,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno9.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno9-11998.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno9.jpg",
-      "/images/products/smartphones/oppo-reno9-11998.jpg"
+      "/images/phones/oppo/oppo-oppo-reno9-11998.jpg"
     ],
     "storeOffers": [
       {
@@ -97966,10 +97863,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a1-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a1-pro-11981.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a1-pro.jpg",
-      "/images/products/smartphones/oppo-a1-pro-11981.jpg"
+      "/images/phones/oppo/oppo-oppo-a1-pro-11981.jpg"
     ],
     "storeOffers": [
       {
@@ -98128,10 +98024,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a58.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a58-china.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a58.jpg",
-      "/images/products/smartphones/oppo-a58-(china.jpg"
+      "/images/phones/oppo/oppo-oppo-a58-china.jpg"
     ],
     "storeOffers": [
       {
@@ -98290,10 +98185,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a17k.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a17k-11936.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a17k.jpg",
-      "/images/products/smartphones/oppo-a17k-11936.jpg"
+      "/images/phones/oppo/oppo-oppo-a17k-11936.jpg"
     ],
     "storeOffers": [
       {
@@ -98452,10 +98346,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a77s.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a77s-11907.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a77s.jpg",
-      "/images/products/smartphones/oppo-a77s-11907.jpg"
+      "/images/phones/oppo/oppo-oppo-a77s-11907.jpg"
     ],
     "storeOffers": [
       {
@@ -98614,10 +98507,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a17.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a17-11902.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a17.jpg",
-      "/images/products/smartphones/oppo-a17-11902.jpg"
+      "/images/phones/oppo/oppo-oppo-a17-11902.jpg"
     ],
     "storeOffers": [
       {
@@ -98776,10 +98668,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k10x-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-k10x-11877.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-k10x-.jpg",
-      "/images/products/smartphones/oppo-k10x-11877.jpg"
+      "/images/phones/oppo/oppo-oppo-k10x-11877.jpg"
     ],
     "storeOffers": [
       {
@@ -98938,10 +98829,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a57.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a57e-11836.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a57.jpg",
-      "/images/products/smartphones/oppo-a57e-11836.jpg"
+      "/images/phones/oppo/oppo-oppo-a57e-11836.jpg"
     ],
     "storeOffers": [
       {
@@ -99100,10 +98990,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a57s.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a57s-11835.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a57s.jpg",
-      "/images/products/smartphones/oppo-a57s-11835.jpg"
+      "/images/phones/oppo/oppo-oppo-a57s-11835.jpg"
     ],
     "storeOffers": [
       {
@@ -99262,10 +99151,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8-4g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno8-4g-11743.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8-4g.jpg",
-      "/images/products/smartphones/oppo-reno8-4g-11743.jpg"
+      "/images/phones/oppo/oppo-oppo-reno8-4g-11743.jpg"
     ],
     "storeOffers": [
       {
@@ -99424,10 +99312,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8-z-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno8-z-11735.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8-z-5g.jpg",
-      "/images/products/smartphones/oppo-reno8-z-11735.jpg"
+      "/images/phones/oppo/oppo-oppo-reno8-z-11735.jpg"
     ],
     "storeOffers": [
       {
@@ -99586,10 +99473,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a77-4g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a77-4g-11734.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a77-4g.jpg",
-      "/images/products/smartphones/oppo-a77-4g-11734.jpg"
+      "/images/phones/oppo/oppo-oppo-a77-4g-11734.jpg"
     ],
     "storeOffers": [
       {
@@ -99748,10 +99634,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno8-pro-11683.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8-pro.jpg",
-      "/images/products/smartphones/oppo-reno8-pro-11683.jpg"
+      "/images/phones/oppo/oppo-oppo-reno8-pro-11683.jpg"
     ],
     "storeOffers": [
       {
@@ -99910,10 +99795,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno8-11684.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8.jpg",
-      "/images/products/smartphones/oppo-reno8-11684.jpg"
+      "/images/phones/oppo/oppo-oppo-reno8-11684.jpg"
     ],
     "storeOffers": [
       {
@@ -100072,10 +99956,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a97-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a97-11655.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a97-5g.jpg",
-      "/images/products/smartphones/oppo-a97-11655.jpg"
+      "/images/phones/oppo/oppo-oppo-a97-11655.jpg"
     ],
     "storeOffers": [
       {
@@ -100234,10 +100117,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno8-lite-11513.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8.jpg",
-      "/images/products/smartphones/oppo-reno8-lite-11513.jpg"
+      "/images/phones/oppo/oppo-oppo-reno8-lite-11513.jpg"
     ],
     "storeOffers": [
       {
@@ -100396,10 +100278,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k10-5g-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-k10-5g-11610.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-k10-5g-.jpg",
-      "/images/products/smartphones/oppo-k10-5g-11610.jpg"
+      "/images/phones/oppo/oppo-oppo-k10-5g-11610.jpg"
     ],
     "storeOffers": [
       {
@@ -100558,10 +100439,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a77-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a77-11599.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a77-.jpg",
-      "/images/products/smartphones/oppo-a77-11599.jpg"
+      "/images/phones/oppo/oppo-oppo-a77-11599.jpg"
     ],
     "storeOffers": [
       {
@@ -100720,10 +100600,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a57-4g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a57-4g-11565.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a57-4g.jpg",
-      "/images/products/smartphones/oppo-a57-4g-11565.jpg"
+      "/images/phones/oppo/oppo-oppo-a57-4g-11565.jpg"
     ],
     "storeOffers": [
       {
@@ -100882,10 +100761,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno8-pro-11543.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8.jpg",
-      "/images/products/smartphones/oppo-reno8-pro+-11543.jpg"
+      "/images/phones/oppo/oppo-oppo-reno8-pro-11543.jpg"
     ],
     "storeOffers": [
       {
@@ -101044,10 +100922,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno8-pro-china.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8-pro.jpg",
-      "/images/products/smartphones/oppo-reno8-pro-(china.jpg"
+      "/images/phones/oppo/oppo-oppo-reno8-pro-china.jpg"
     ],
     "storeOffers": [
       {
@@ -101206,10 +101083,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno8-china.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8.jpg",
-      "/images/products/smartphones/oppo-reno8-(china.jpg"
+      "/images/phones/oppo/oppo-oppo-reno8-china.jpg"
     ],
     "storeOffers": [
       {
@@ -101368,10 +101244,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k10-pro-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-k10-pro-11467.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-k10-pro-.jpg",
-      "/images/products/smartphones/oppo-k10-pro-11467.jpg"
+      "/images/phones/oppo/oppo-oppo-k10-pro-11467.jpg"
     ],
     "storeOffers": [
       {
@@ -101530,10 +101405,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k10-5g-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-k10-5g-china.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-k10-5g-.jpg",
-      "/images/products/smartphones/oppo-k10-5g-(china.jpg"
+      "/images/phones/oppo/oppo-oppo-k10-5g-china.jpg"
     ],
     "storeOffers": [
       {
@@ -101692,10 +101566,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a55s-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a55s-11482.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a55s-5g.jpg",
-      "/images/products/smartphones/oppo-a55s-11482.jpg"
+      "/images/phones/oppo/oppo-oppo-a55s-11482.jpg"
     ],
     "storeOffers": [
       {
@@ -101854,10 +101727,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a57.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a57-11476.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a57.jpg",
-      "/images/products/smartphones/oppo-a57-11476.jpg"
+      "/images/phones/oppo/oppo-oppo-a57-11476.jpg"
     ],
     "storeOffers": [
       {
@@ -102016,10 +101888,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno7-lite-11458.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7.jpg",
-      "/images/products/smartphones/oppo-reno7-lite-11458.jpg"
+      "/images/phones/oppo/oppo-oppo-reno7-lite-11458.jpg"
     ],
     "storeOffers": [
       {
@@ -102178,10 +102049,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-f21-pro-5g-11471.jpg"
+      "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg"
     ],
     "storeOffers": [
       {
@@ -102340,10 +102210,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-f21-pro-11450.jpg"
+      "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg"
     ],
     "storeOffers": [
       {
@@ -102502,10 +102371,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno7-11448.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7.jpg",
-      "/images/products/smartphones/oppo-reno7-11448.jpg"
+      "/images/phones/oppo/oppo-oppo-reno7-11448.jpg"
     ],
     "storeOffers": [
       {
@@ -102664,10 +102532,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k10.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-k10-11438.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-k10.jpg",
-      "/images/products/smartphones/oppo-k10-11438.jpg"
+      "/images/phones/oppo/oppo-oppo-k10-11438.jpg"
     ],
     "storeOffers": [
       {
@@ -102826,10 +102693,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a96.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a96-11434.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a96.jpg",
-      "/images/products/smartphones/oppo-a96-11434.jpg"
+      "/images/phones/oppo/oppo-oppo-a96-11434.jpg"
     ],
     "storeOffers": [
       {
@@ -102988,10 +102854,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a16.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a16e-11433.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a16.jpg",
-      "/images/products/smartphones/oppo-a16e-11433.jpg"
+      "/images/phones/oppo/oppo-oppo-a16e-11433.jpg"
     ],
     "storeOffers": [
       {
@@ -103150,10 +103015,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-z-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno7-z-5g-11397.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-z-5g.jpg",
-      "/images/products/smartphones/oppo-reno7-z-5g-11397.jpg"
+      "/images/phones/oppo/oppo-oppo-reno7-z-5g-11397.jpg"
     ],
     "storeOffers": [
       {
@@ -103312,10 +103176,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x5-pro-11236.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5-pro.jpg",
-      "/images/products/smartphones/oppo-find-x5-pro-11236.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x5-pro-11236.jpg"
     ],
     "storeOffers": [
       {
@@ -103474,10 +103337,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x5-11378.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5.jpg",
-      "/images/products/smartphones/oppo-find-x5-11378.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x5-11378.jpg"
     ],
     "storeOffers": [
       {
@@ -103636,10 +103498,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5-lite.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x5-lite-11323.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5-lite.jpg",
-      "/images/products/smartphones/oppo-find-x5-lite-11323.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x5-lite-11323.jpg"
     ],
     "storeOffers": [
       {
@@ -103798,10 +103659,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-a76-11367.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -103960,10 +103820,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno7-5g-11350.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7.jpg",
-      "/images/products/smartphones/oppo-reno7-5g-11350.jpg"
+      "/images/phones/oppo/oppo-oppo-reno7-5g-11350.jpg"
     ],
     "storeOffers": [
       {
@@ -104122,10 +103981,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-lite.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno6-lite-11196.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-lite.jpg",
-      "/images/products/smartphones/oppo-reno6-lite-11196.jpg"
+      "/images/phones/oppo/oppo-oppo-reno6-lite-11196.jpg"
     ],
     "storeOffers": [
       {
@@ -104284,10 +104142,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a96.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a96-china.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a96.jpg",
-      "/images/products/smartphones/oppo-a96-(china.jpg"
+      "/images/phones/oppo/oppo-oppo-a96-china.jpg"
     ],
     "storeOffers": [
       {
@@ -104446,10 +104303,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a36.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a36-11314.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a36.jpg",
-      "/images/products/smartphones/oppo-a36-11314.jpg"
+      "/images/phones/oppo/oppo-oppo-a36-11314.jpg"
     ],
     "storeOffers": [
       {
@@ -104608,10 +104464,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a11s.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a11s-11288.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a11s.jpg",
-      "/images/products/smartphones/oppo-a11s-11288.jpg"
+      "/images/phones/oppo/oppo-oppo-a11s-11288.jpg"
     ],
     "storeOffers": [
       {
@@ -104770,10 +104625,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k9x.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-k9x-11235.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-k9x.jpg",
-      "/images/products/smartphones/oppo-k9x-11235.jpg"
+      "/images/phones/oppo/oppo-oppo-k9x-11235.jpg"
     ],
     "storeOffers": [
       {
@@ -104932,10 +104786,9 @@ export const mockSmartphones: Smartphone[] = [
       "4800 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony LYT-900 Hasselblad OIS + 50 MP Geniş + 64 MP Periskop"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-n-11267.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n.jpg",
-      "/images/products/smartphones/oppo-find-n-11267.jpg"
+      "/images/phones/oppo/oppo-oppo-find-n-11267.jpg"
     ],
     "storeOffers": [
       {
@@ -105094,10 +104947,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno7-pro-5g-11190.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7.jpg",
-      "/images/products/smartphones/oppo-reno7-pro-5g-11190.jpg"
+      "/images/phones/oppo/oppo-oppo-reno7-pro-5g-11190.jpg"
     ],
     "storeOffers": [
       {
@@ -105256,10 +105108,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno7-5g-china.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7.jpg",
-      "/images/products/smartphones/oppo-reno7-5g-(china.jpg"
+      "/images/phones/oppo/oppo-oppo-reno7-5g-china.jpg"
     ],
     "storeOffers": [
       {
@@ -105418,10 +105269,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno7-se-5g-11191.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7.jpg",
-      "/images/products/smartphones/oppo-reno7-se-5g-11191.jpg"
+      "/images/phones/oppo/oppo-oppo-reno7-se-5g-11191.jpg"
     ],
     "storeOffers": [
       {
@@ -105580,10 +105430,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a95.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a95-11195.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a95.jpg",
-      "/images/products/smartphones/oppo-a95-11195.jpg"
+      "/images/phones/oppo/oppo-oppo-a95-11195.jpg"
     ],
     "storeOffers": [
       {
@@ -105742,10 +105591,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a16k.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a16k-11200.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a16k.jpg",
-      "/images/products/smartphones/oppo-a16k-11200.jpg"
+      "/images/phones/oppo/oppo-oppo-a16k-11200.jpg"
     ],
     "storeOffers": [
       {
@@ -105904,10 +105752,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a54.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a54s-11144.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a54.jpg",
-      "/images/products/smartphones/oppo-a54s-11144.jpg"
+      "/images/phones/oppo/oppo-oppo-a54s-11144.jpg"
     ],
     "storeOffers": [
       {
@@ -106066,10 +105913,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a56-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a56-5g-11172.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a56-5g.jpg",
-      "/images/products/smartphones/oppo-a56-5g-11172.jpg"
+      "/images/phones/oppo/oppo-oppo-a56-5g-11172.jpg"
     ],
     "storeOffers": [
       {
@@ -106228,10 +106074,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-k9s-11151.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -106390,10 +106235,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a55.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a55-11114.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a55.jpg",
-      "/images/products/smartphones/oppo-a55-11114.jpg"
+      "/images/phones/oppo/oppo-oppo-a55-11114.jpg"
     ],
     "storeOffers": [
       {
@@ -106552,10 +106396,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f19s.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-f19s-11108.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-f19s.jpg",
-      "/images/products/smartphones/oppo-f19s-11108.jpg"
+      "/images/phones/oppo/oppo-oppo-f19s-11108.jpg"
     ],
     "storeOffers": [
       {
@@ -106714,10 +106557,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k9-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-k9-pro-11111.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-k9-pro.jpg",
-      "/images/products/smartphones/oppo-k9-pro-11111.jpg"
+      "/images/phones/oppo/oppo-oppo-k9-pro-11111.jpg"
     ],
     "storeOffers": [
       {
@@ -106876,10 +106718,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-pro-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno6-pro-5g-snapdragon.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-pro-5g.jpg",
-      "/images/products/smartphones/oppo-reno6-pro-5g-(snapdragon.jpg"
+      "/images/phones/oppo/oppo-oppo-reno6-pro-5g-snapdragon.jpg"
     ],
     "storeOffers": [
       {
@@ -107038,10 +106879,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno6-11028.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-5g.jpg",
-      "/images/products/smartphones/oppo-reno6-11028.jpg"
+      "/images/phones/oppo/oppo-oppo-reno6-11028.jpg"
     ],
     "storeOffers": [
       {
@@ -107200,10 +107040,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
+    "image": "/images/phones/oppo/oppo-oppo-reno6-z-10978.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
-      "/images/products/smartphones/oppo-reno6-z-10978.jpg"
+      "/images/phones/oppo/oppo-oppo-reno6-z-10978.jpg"
     ],
     "storeOffers": [
       {
@@ -107362,10 +107201,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a16.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a16s-11295.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a16.jpg",
-      "/images/products/smartphones/oppo-a16s-11295.jpg"
+      "/images/phones/oppo/oppo-oppo-a16s-11295.jpg"
     ],
     "storeOffers": [
       {
@@ -107524,10 +107362,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a16.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a16-11021.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a16.jpg",
-      "/images/products/smartphones/oppo-a16-11021.jpg"
+      "/images/phones/oppo/oppo-oppo-a16-11021.jpg"
     ],
     "storeOffers": [
       {
@@ -107686,10 +107523,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-pro-plus.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno6-pro-5g-10905.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-pro-plus.jpg",
-      "/images/products/smartphones/oppo-reno6-pro+-5g-10905.jpg"
+      "/images/phones/oppo/oppo-oppo-reno6-pro-5g-10905.jpg"
     ],
     "storeOffers": [
       {
@@ -107848,10 +107684,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-pro-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno6-pro-5g-10904.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-pro-5g.jpg",
-      "/images/products/smartphones/oppo-reno6-pro-5g-10904.jpg"
+      "/images/phones/oppo/oppo-oppo-reno6-pro-5g-10904.jpg"
     ],
     "storeOffers": [
       {
@@ -108010,10 +107845,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno6-5g-10932.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-5g.jpg",
-      "/images/products/smartphones/oppo-reno6-5g-10932.jpg"
+      "/images/phones/oppo/oppo-oppo-reno6-5g-10932.jpg"
     ],
     "storeOffers": [
       {
@@ -108172,10 +108006,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k9.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-k9-10894.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-k9.jpg",
-      "/images/products/smartphones/oppo-k9-10894.jpg"
+      "/images/phones/oppo/oppo-oppo-k9-10894.jpg"
     ],
     "storeOffers": [
       {
@@ -108334,10 +108167,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a53s-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a53s-5g-10874.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a53s-5g.jpg",
-      "/images/products/smartphones/oppo-a53s-5g-10874.jpg"
+      "/images/phones/oppo/oppo-oppo-a53s-5g-10874.jpg"
     ],
     "storeOffers": [
       {
@@ -108496,10 +108328,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a95-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a95-5g-10834.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a95-5g.jpg",
-      "/images/products/smartphones/oppo-a95-5g-10834.jpg"
+      "/images/phones/oppo/oppo-oppo-a95-5g-10834.jpg"
     ],
     "storeOffers": [
       {
@@ -108658,10 +108489,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a94-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a94-5g-10799.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a94-5g.jpg",
-      "/images/products/smartphones/oppo-a94-5g-10799.jpg"
+      "/images/phones/oppo/oppo-oppo-a94-5g-10799.jpg"
     ],
     "storeOffers": [
       {
@@ -108820,10 +108650,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-a35-10852.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -108982,10 +108811,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
+    "image": "/images/phones/oppo/oppo-oppo-reno5-z-10760.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
-      "/images/products/smartphones/oppo-reno5-z-10760.jpg"
+      "/images/phones/oppo/oppo-oppo-reno5-z-10760.jpg"
     ],
     "storeOffers": [
       {
@@ -109144,10 +108972,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a54-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a54-5g-10866.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a54-5g.jpg",
-      "/images/products/smartphones/oppo-a54-5g-10866.jpg"
+      "/images/phones/oppo/oppo-oppo-a54-5g-10866.jpg"
     ],
     "storeOffers": [
       {
@@ -109306,10 +109133,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a74-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a74-5g-10830.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a74-5g.jpg",
-      "/images/products/smartphones/oppo-a74-5g-10830.jpg"
+      "/images/phones/oppo/oppo-oppo-a74-5g-10830.jpg"
     ],
     "storeOffers": [
       {
@@ -109468,10 +109294,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a74-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a74-10829.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a74-5g.jpg",
-      "/images/products/smartphones/oppo-a74-10829.jpg"
+      "/images/phones/oppo/oppo-oppo-a74-10829.jpg"
     ],
     "storeOffers": [
       {
@@ -109630,10 +109455,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f19.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-f19-10764.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-f19.jpg",
-      "/images/products/smartphones/oppo-f19-10764.jpg"
+      "/images/phones/oppo/oppo-oppo-f19-10764.jpg"
     ],
     "storeOffers": [
       {
@@ -109792,10 +109616,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a54.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a54-10818.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a54.jpg",
-      "/images/products/smartphones/oppo-a54-10818.jpg"
+      "/images/phones/oppo/oppo-oppo-a54-10818.jpg"
     ],
     "storeOffers": [
       {
@@ -109954,10 +109777,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x3-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x3-pro-10627.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x3-pro.jpg",
-      "/images/products/smartphones/oppo-find-x3-pro-10627.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x3-pro-10627.jpg"
     ],
     "storeOffers": [
       {
@@ -110116,10 +109938,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x3-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x3-10786.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x3-pro.jpg",
-      "/images/products/smartphones/oppo-find-x3-10786.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x3-10786.jpg"
     ],
     "storeOffers": [
       {
@@ -110278,10 +110099,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x3-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x3-neo-10787.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x3-pro.jpg",
-      "/images/products/smartphones/oppo-find-x3-neo-10787.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x3-neo-10787.jpg"
     ],
     "storeOffers": [
       {
@@ -110440,10 +110260,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x3-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x3-lite-10719.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x3-pro.jpg",
-      "/images/products/smartphones/oppo-find-x3-lite-10719.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x3-lite-10719.jpg"
     ],
     "storeOffers": [
       {
@@ -110602,10 +110421,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-f19-pro+-5g-10762.jpg"
+      "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg"
     ],
     "storeOffers": [
       {
@@ -110764,10 +110582,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-f19-pro-10761.jpg"
+      "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg"
     ],
     "storeOffers": [
       {
@@ -110926,10 +110743,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
+    "image": "/images/phones/oppo/oppo-oppo-reno5-lite-10716.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
-      "/images/products/smartphones/oppo-reno5-lite-10716.jpg"
+      "/images/phones/oppo/oppo-oppo-reno5-lite-10716.jpg"
     ],
     "storeOffers": [
       {
@@ -111088,10 +110904,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a94-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a94-10765.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a94-5g.jpg",
-      "/images/products/smartphones/oppo-a94-10765.jpg"
+      "/images/phones/oppo/oppo-oppo-a94-10765.jpg"
     ],
     "storeOffers": [
       {
@@ -111250,10 +111065,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
+    "image": "/images/phones/oppo/oppo-oppo-reno5-f-10763.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
-      "/images/products/smartphones/oppo-reno5-f-10763.jpg"
+      "/images/phones/oppo/oppo-oppo-reno5-f-10763.jpg"
     ],
     "storeOffers": [
       {
@@ -111412,10 +111226,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
+    "image": "/images/phones/oppo/oppo-oppo-reno5-k-10750.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
-      "/images/products/smartphones/oppo-reno5-k-10750.jpg"
+      "/images/phones/oppo/oppo-oppo-reno5-k-10750.jpg"
     ],
     "storeOffers": [
       {
@@ -111574,10 +111387,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a55-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a55-5g-10703.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a55-5g.jpg",
-      "/images/products/smartphones/oppo-a55-5g-10703.jpg"
+      "/images/phones/oppo/oppo-oppo-a55-5g-10703.jpg"
     ],
     "storeOffers": [
       {
@@ -111736,10 +111548,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a93s-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a93s-5g-10993.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a93s-5g.jpg",
-      "/images/products/smartphones/oppo-a93s-5g-10993.jpg"
+      "/images/phones/oppo/oppo-oppo-a93s-5g-10993.jpg"
     ],
     "storeOffers": [
       {
@@ -111898,10 +111709,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a93-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a93-5g-10683.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a93-5g.jpg",
-      "/images/products/smartphones/oppo-a93-5g-10683.jpg"
+      "/images/phones/oppo/oppo-oppo-a93-5g-10683.jpg"
     ],
     "storeOffers": [
       {
@@ -112060,10 +111870,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a15s.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a15s-10644.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a15s.jpg",
-      "/images/products/smartphones/oppo-a15s-10644.jpg"
+      "/images/phones/oppo/oppo-oppo-a15s-10644.jpg"
     ],
     "storeOffers": [
       {
@@ -112222,10 +112031,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
+    "image": "/images/phones/oppo/oppo-oppo-reno5-4g-10654.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
-      "/images/products/smartphones/oppo-reno5-4g-10654.jpg"
+      "/images/phones/oppo/oppo-oppo-reno5-4g-10654.jpg"
     ],
     "storeOffers": [
       {
@@ -112384,10 +112192,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno5-pro-plus-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno5-pro-5g-10632.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno5-pro-plus-5g.jpg",
-      "/images/products/smartphones/oppo-reno5-pro+-5g-10632.jpg"
+      "/images/phones/oppo/oppo-oppo-reno5-pro-5g-10632.jpg"
     ],
     "storeOffers": [
       {
@@ -112546,10 +112353,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a53-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a53-5g-10608.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a53-5g.jpg",
-      "/images/products/smartphones/oppo-a53-5g-10608.jpg"
+      "/images/phones/oppo/oppo-oppo-a53-5g-10608.jpg"
     ],
     "storeOffers": [
       {
@@ -112708,10 +112514,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno5-pro-5g-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno5-pro-5g-10606.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno5-pro-5g-.jpg",
-      "/images/products/smartphones/oppo-reno5-pro-5g-10606.jpg"
+      "/images/phones/oppo/oppo-oppo-reno5-pro-5g-10606.jpg"
     ],
     "storeOffers": [
       {
@@ -112870,10 +112675,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno5-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno5-5g-10589.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno5-5g.jpg",
-      "/images/products/smartphones/oppo-reno5-5g-10589.jpg"
+      "/images/phones/oppo/oppo-oppo-reno5-5g-10589.jpg"
     ],
     "storeOffers": [
       {
@@ -113032,10 +112836,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a73-5g-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a73-5g-10499.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a73-5g-.jpg",
-      "/images/products/smartphones/oppo-a73-5g-10499.jpg"
+      "/images/phones/oppo/oppo-oppo-a73-5g-10499.jpg"
     ],
     "storeOffers": [
       {
@@ -113194,10 +112997,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno4.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno4-f-10478.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno4.jpg",
-      "/images/products/smartphones/oppo-reno4-f-10478.jpg"
+      "/images/phones/oppo/oppo-oppo-reno4-f-10478.jpg"
     ],
     "storeOffers": [
       {
@@ -113356,10 +113158,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a15.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a15-10497.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a15.jpg",
-      "/images/products/smartphones/oppo-a15-10497.jpg"
+      "/images/phones/oppo/oppo-oppo-a15-10497.jpg"
     ],
     "storeOffers": [
       {
@@ -113518,10 +113319,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a53s-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a53s-10502.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a53s-5g.jpg",
-      "/images/products/smartphones/oppo-a53s-10502.jpg"
+      "/images/phones/oppo/oppo-oppo-a53s-10502.jpg"
     ],
     "storeOffers": [
       {
@@ -113680,10 +113480,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a73.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a73-10489.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a73.jpg",
-      "/images/products/smartphones/oppo-a73-10489.jpg"
+      "/images/phones/oppo/oppo-oppo-a73-10489.jpg"
     ],
     "storeOffers": [
       {
@@ -113842,10 +113641,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a93.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a93-10431.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a93.jpg",
-      "/images/products/smartphones/oppo-a93-10431.jpg"
+      "/images/phones/oppo/oppo-oppo-a93-10431.jpg"
     ],
     "storeOffers": [
       {
@@ -114004,10 +113802,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno4.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno4-z-5g-10375.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno4.jpg",
-      "/images/products/smartphones/oppo-reno4-z-5g-10375.jpg"
+      "/images/phones/oppo/oppo-oppo-reno4-z-5g-10375.jpg"
     ],
     "storeOffers": [
       {
@@ -114166,10 +113963,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno4-lite.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno4-lite-10465.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno4-lite.jpg",
-      "/images/products/smartphones/oppo-reno4-lite-10465.jpg"
+      "/images/phones/oppo/oppo-oppo-reno4-lite-10465.jpg"
     ],
     "storeOffers": [
       {
@@ -114328,10 +114124,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a33.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a33-2020.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a33.jpg",
-      "/images/products/smartphones/oppo-a33-(2020.jpg"
+      "/images/phones/oppo/oppo-oppo-a33-2020.jpg"
     ],
     "storeOffers": [
       {
@@ -114490,10 +114285,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno4-se-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno4-se-10433.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno4-se-.jpg",
-      "/images/products/smartphones/oppo-reno4-se-10433.jpg"
+      "/images/phones/oppo/oppo-oppo-reno4-se-10433.jpg"
     ],
     "storeOffers": [
       {
@@ -114652,10 +114446,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-f17-pro-10388.jpg"
+      "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg"
     ],
     "storeOffers": [
       {
@@ -114814,10 +114607,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f17.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-f17-10413.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-f17.jpg",
-      "/images/products/smartphones/oppo-f17-10413.jpg"
+      "/images/phones/oppo/oppo-oppo-f17-10413.jpg"
     ],
     "storeOffers": [
       {
@@ -114976,10 +114768,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a32.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a32-10454.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a32.jpg",
-      "/images/products/smartphones/oppo-a32-10454.jpg"
+      "/images/phones/oppo/oppo-oppo-a32-10454.jpg"
     ],
     "storeOffers": [
       {
@@ -115138,10 +114929,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a53.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a53-10376.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a53.jpg",
-      "/images/products/smartphones/oppo-a53-10376.jpg"
+      "/images/phones/oppo/oppo-oppo-a53-10376.jpg"
     ],
     "storeOffers": [
       {
@@ -115300,10 +115090,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k7x.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-k7x-10573.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-k7x.jpg",
-      "/images/products/smartphones/oppo-k7x-10573.jpg"
+      "/images/phones/oppo/oppo-oppo-k7x-10573.jpg"
     ],
     "storeOffers": [
       {
@@ -115462,10 +115251,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno4-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno4-pro-10327.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno4-pro.jpg",
-      "/images/products/smartphones/oppo-reno4-pro-10327.jpg"
+      "/images/phones/oppo/oppo-oppo-reno4-pro-10327.jpg"
     ],
     "storeOffers": [
       {
@@ -115624,10 +115412,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno4.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno4-10348.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno4.jpg",
-      "/images/products/smartphones/oppo-reno4-10348.jpg"
+      "/images/phones/oppo/oppo-oppo-reno4-10348.jpg"
     ],
     "storeOffers": [
       {
@@ -115786,10 +115573,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a72-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a72-5g-10332.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a72-5g.jpg",
-      "/images/products/smartphones/oppo-a72-5g-10332.jpg"
+      "/images/phones/oppo/oppo-oppo-a72-5g-10332.jpg"
     ],
     "storeOffers": [
       {
@@ -115948,10 +115734,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a12s.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a12s-10288.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a12s.jpg",
-      "/images/products/smartphones/oppo-a12s-10288.jpg"
+      "/images/phones/oppo/oppo-oppo-a12s-10288.jpg"
     ],
     "storeOffers": [
       {
@@ -116110,10 +115895,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno4-pro-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno4-pro-5g-10264.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno4-pro-5g.jpg",
-      "/images/products/smartphones/oppo-reno4-pro-5g-10264.jpg"
+      "/images/phones/oppo/oppo-oppo-reno4-pro-5g-10264.jpg"
     ],
     "storeOffers": [
       {
@@ -116272,10 +116056,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno4-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno4-5g-10265.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno4-5g.jpg",
-      "/images/products/smartphones/oppo-reno4-5g-10265.jpg"
+      "/images/phones/oppo/oppo-oppo-reno4-5g-10265.jpg"
     ],
     "storeOffers": [
       {
@@ -116434,10 +116217,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a92-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a92-10211.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a92-.jpg",
-      "/images/products/smartphones/oppo-a92-10211.jpg"
+      "/images/phones/oppo/oppo-oppo-a92-10211.jpg"
     ],
     "storeOffers": [
       {
@@ -116596,10 +116378,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x2-neo.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x2-neo-10195.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x2-neo.jpg",
-      "/images/products/smartphones/oppo-find-x2-neo-10195.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x2-neo-10195.jpg"
     ],
     "storeOffers": [
       {
@@ -116758,10 +116539,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a92s.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a92s-10184.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a92s.jpg",
-      "/images/products/smartphones/oppo-a92s-10184.jpg"
+      "/images/phones/oppo/oppo-oppo-a92s-10184.jpg"
     ],
     "storeOffers": [
       {
@@ -116920,10 +116700,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a72.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a72-10196.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a72.jpg",
-      "/images/products/smartphones/oppo-a72-10196.jpg"
+      "/images/phones/oppo/oppo-oppo-a72-10196.jpg"
     ],
     "storeOffers": [
       {
@@ -117082,10 +116861,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a52.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a52-10194.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a52.jpg",
-      "/images/products/smartphones/oppo-a52-10194.jpg"
+      "/images/phones/oppo/oppo-oppo-a52-10194.jpg"
     ],
     "storeOffers": [
       {
@@ -117244,10 +117022,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a11k.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a11k-10694.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a11k.jpg",
-      "/images/products/smartphones/oppo-a11k-10694.jpg"
+      "/images/phones/oppo/oppo-oppo-a11k-10694.jpg"
     ],
     "storeOffers": [
       {
@@ -117406,10 +117183,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a12.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a12-10171.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a12.jpg",
-      "/images/products/smartphones/oppo-a12-10171.jpg"
+      "/images/phones/oppo/oppo-oppo-a12-10171.jpg"
     ],
     "storeOffers": [
       {
@@ -117568,10 +117344,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k7-5g.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-k7-5g-10354.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-k7-5g.jpg",
-      "/images/products/smartphones/oppo-k7-5g-10354.jpg"
+      "/images/phones/oppo/oppo-oppo-k7-5g-10354.jpg"
     ],
     "storeOffers": [
       {
@@ -117730,10 +117505,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x2-lite.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x2-lite-10176.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x2-lite.jpg",
-      "/images/products/smartphones/oppo-find-x2-lite-10176.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x2-lite-10176.jpg"
     ],
     "storeOffers": [
       {
@@ -117892,10 +117666,9 @@ export const mockSmartphones: Smartphone[] = [
       "4200 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-ace2-10164.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -118054,10 +117827,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a12e.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a12e-10173.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a12e.jpg",
-      "/images/products/smartphones/oppo-a12e-10173.jpg"
+      "/images/phones/oppo/oppo-oppo-a12e-10173.jpg"
     ],
     "storeOffers": [
       {
@@ -118216,10 +117988,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno3-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno3-10125.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno3-.jpg",
-      "/images/products/smartphones/oppo-reno3-10125.jpg"
+      "/images/phones/oppo/oppo-oppo-reno3-10125.jpg"
     ],
     "storeOffers": [
       {
@@ -118378,10 +118149,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x2-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x2-pro-9529.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x2-pro.jpg",
-      "/images/products/smartphones/oppo-find-x2-pro-9529.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x2-pro-9529.jpg"
     ],
     "storeOffers": [
       {
@@ -118540,10 +118310,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x2.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x2-10048.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x2.jpg",
-      "/images/products/smartphones/oppo-find-x2-10048.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x2-10048.jpg"
     ],
     "storeOffers": [
       {
@@ -118702,10 +118471,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno3-pro-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno3-pro-10053.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno3-pro-.jpg",
-      "/images/products/smartphones/oppo-reno3-pro-10053.jpg"
+      "/images/phones/oppo/oppo-oppo-reno3-pro-10053.jpg"
     ],
     "storeOffers": [
       {
@@ -118864,10 +118632,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a31.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a31-10083.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a31.jpg",
-      "/images/products/smartphones/oppo-a31-10083.jpg"
+      "/images/phones/oppo/oppo-oppo-a31-10083.jpg"
     ],
     "storeOffers": [
       {
@@ -119026,10 +118793,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-f15-10009.jpg"
+      "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg"
     ],
     "storeOffers": [
       {
@@ -119188,10 +118954,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno3-pro-5g-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno3-pro-5g-9992.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno3-pro-5g-.jpg",
-      "/images/products/smartphones/oppo-reno3-pro-5g-9992.jpg"
+      "/images/phones/oppo/oppo-oppo-reno3-pro-5g-9992.jpg"
     ],
     "storeOffers": [
       {
@@ -119350,10 +119115,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
+    "image": "/images/phones/oppo/oppo-oppo-reno3-youth-10077.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/list-page/reno16-pro/480-600-black.png",
-      "/images/products/smartphones/oppo-reno3-youth-10077.jpg"
+      "/images/phones/oppo/oppo-oppo-reno3-youth-10077.jpg"
     ],
     "storeOffers": [
       {
@@ -119512,10 +119276,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno3-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno3-5g-9942.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno3-.jpg",
-      "/images/products/smartphones/oppo-reno3-5g-9942.jpg"
+      "/images/phones/oppo/oppo-oppo-reno3-5g-9942.jpg"
     ],
     "storeOffers": [
       {
@@ -119674,10 +119437,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a91.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a91-10000.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a91.jpg",
-      "/images/products/smartphones/oppo-a91-10000.jpg"
+      "/images/phones/oppo/oppo-oppo-a91-10000.jpg"
     ],
     "storeOffers": [
       {
@@ -119836,10 +119598,9 @@ export const mockSmartphones: Smartphone[] = [
       "4000 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a8-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a8-10002.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a8-.jpg",
-      "/images/products/smartphones/oppo-a8-10002.jpg"
+      "/images/phones/oppo/oppo-oppo-a8-10002.jpg"
     ],
     "storeOffers": [
       {
@@ -119998,10 +119759,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-a11-9901.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -120160,10 +119920,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k5.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-k5-9907.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-k5.jpg",
-      "/images/products/smartphones/oppo-k5-9907.jpg"
+      "/images/phones/oppo/oppo-oppo-k5-9907.jpg"
     ],
     "storeOffers": [
       {
@@ -120322,10 +120081,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno-ace.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno-ace-9894.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno-ace.jpg",
-      "/images/products/smartphones/oppo-reno-ace-9894.jpg"
+      "/images/phones/oppo/oppo-oppo-reno-ace-9894.jpg"
     ],
     "storeOffers": [
       {
@@ -120484,10 +120242,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno-a.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno-a-9808.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno-a.jpg",
-      "/images/products/smartphones/oppo-reno-a-9808.jpg"
+      "/images/phones/oppo/oppo-oppo-reno-a-9808.jpg"
     ],
     "storeOffers": [
       {
@@ -120646,10 +120403,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a5-2020.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5.jpg",
-      "/images/products/smartphones/oppo-a5-(2020.jpg"
+      "/images/phones/oppo/oppo-oppo-a5-2020.jpg"
     ],
     "storeOffers": [
       {
@@ -120808,10 +120564,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a9.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a9-2020.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a9.jpg",
-      "/images/products/smartphones/oppo-a9-(2020.jpg"
+      "/images/phones/oppo/oppo-oppo-a9-2020.jpg"
     ],
     "storeOffers": [
       {
@@ -120970,10 +120725,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno2.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno2-9798.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno2.jpg",
-      "/images/products/smartphones/oppo-reno2-9798.jpg"
+      "/images/phones/oppo/oppo-oppo-reno2-9798.jpg"
     ],
     "storeOffers": [
       {
@@ -121132,10 +120886,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno2.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno2-f-9810.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno2.jpg",
-      "/images/products/smartphones/oppo-reno2-f-9810.jpg"
+      "/images/phones/oppo/oppo-oppo-reno2-f-9810.jpg"
     ],
     "storeOffers": [
       {
@@ -121294,10 +121047,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno2.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno2-z-9809.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno2.jpg",
-      "/images/products/smartphones/oppo-reno2-z-9809.jpg"
+      "/images/phones/oppo/oppo-oppo-reno2-z-9809.jpg"
     ],
     "storeOffers": [
       {
@@ -121456,10 +121208,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno-z.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno-z-9702.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno-z.jpg",
-      "/images/products/smartphones/oppo-reno-z-9702.jpg"
+      "/images/phones/oppo/oppo-oppo-reno-z-9702.jpg"
     ],
     "storeOffers": [
       {
@@ -121618,10 +121369,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k3.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-k3-9699.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-k3.jpg",
-      "/images/products/smartphones/oppo-k3-9699.jpg"
+      "/images/phones/oppo/oppo-oppo-k3-9699.jpg"
     ],
     "storeOffers": [
       {
@@ -121780,10 +121530,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a9.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a9x-9706.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a9.jpg",
-      "/images/products/smartphones/oppo-a9x-9706.jpg"
+      "/images/phones/oppo/oppo-oppo-a9x-9706.jpg"
     ],
     "storeOffers": [
       {
@@ -121942,10 +121691,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a9.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a9-9677.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a9.jpg",
-      "/images/products/smartphones/oppo-a9-9677.jpg"
+      "/images/phones/oppo/oppo-oppo-a9-9677.jpg"
     ],
     "storeOffers": [
       {
@@ -122104,10 +121852,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno-5g-9676.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno.jpg",
-      "/images/products/smartphones/oppo-reno-5g-9676.jpg"
+      "/images/phones/oppo/oppo-oppo-reno-5g-9676.jpg"
     ],
     "storeOffers": [
       {
@@ -122266,10 +122013,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno-10x-zoom.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno-10x-zoom-9654.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno-10x-zoom.jpg",
-      "/images/products/smartphones/oppo-reno-10x-zoom-9654.jpg"
+      "/images/phones/oppo/oppo-oppo-reno-10x-zoom-9654.jpg"
     ],
     "storeOffers": [
       {
@@ -122428,10 +122174,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "50 MP Sony IMX890 OIS Portre + 8 MP Ultra Geniş + 32 MP/50 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-reno-9631.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno.jpg",
-      "/images/products/smartphones/oppo-reno-9631.jpg"
+      "/images/phones/oppo/oppo-oppo-reno-9631.jpg"
     ],
     "storeOffers": [
       {
@@ -122590,10 +122335,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a1k.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a1k-9673.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a1k.jpg",
-      "/images/products/smartphones/oppo-a1k-9673.jpg"
+      "/images/phones/oppo/oppo-oppo-a1k-9673.jpg"
     ],
     "storeOffers": [
       {
@@ -122752,10 +122496,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a7n.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a7n-9653.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a7n.jpg",
-      "/images/products/smartphones/oppo-a7n-9653.jpg"
+      "/images/phones/oppo/oppo-oppo-a7n-9653.jpg"
     ],
     "storeOffers": [
       {
@@ -122914,10 +122657,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a5s-ax5s.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5.jpg",
-      "/images/products/smartphones/oppo-a5s-(ax5s.jpg"
+      "/images/phones/oppo/oppo-oppo-a5s-ax5s.jpg"
     ],
     "storeOffers": [
       {
@@ -123076,10 +122818,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f11-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-f11-9617.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-f11-.jpg",
-      "/images/products/smartphones/oppo-f11-9617.jpg"
+      "/images/phones/oppo/oppo-oppo-f11-9617.jpg"
     ],
     "storeOffers": [
       {
@@ -123238,10 +122979,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f11-pro-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-f11-pro-9566.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-f11-pro-.jpg",
-      "/images/products/smartphones/oppo-f11-pro-9566.jpg"
+      "/images/phones/oppo/oppo-oppo-f11-pro-9566.jpg"
     ],
     "storeOffers": [
       {
@@ -123400,10 +123140,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a7.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a7-9394.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a7.jpg",
-      "/images/products/smartphones/oppo-a7-9394.jpg"
+      "/images/phones/oppo/oppo-oppo-a7-9394.jpg"
     ],
     "storeOffers": [
       {
@@ -123562,10 +123301,9 @@ export const mockSmartphones: Smartphone[] = [
       "3800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-r15x.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-r15x-9380.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-r15x.jpg",
-      "/images/products/smartphones/oppo-r15x-9380.jpg"
+      "/images/phones/oppo/oppo-oppo-r15x-9380.jpg"
     ],
     "storeOffers": [
       {
@@ -123724,10 +123462,9 @@ export const mockSmartphones: Smartphone[] = [
       "3800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-rx17-neo-9393.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -123886,10 +123623,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k1-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-k1-9361.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-k1-.jpg",
-      "/images/products/smartphones/oppo-k1-9361.jpg"
+      "/images/phones/oppo/oppo-oppo-k1-9361.jpg"
     ],
     "storeOffers": [
       {
@@ -124048,10 +123784,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a7x-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a7x-9317.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a7x-.jpg",
-      "/images/products/smartphones/oppo-a7x-9317.jpg"
+      "/images/phones/oppo/oppo-oppo-a7x-9317.jpg"
     ],
     "storeOffers": [
       {
@@ -124210,10 +123945,9 @@ export const mockSmartphones: Smartphone[] = [
       "3800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-rx17-pro-9288.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -124372,10 +124106,9 @@ export const mockSmartphones: Smartphone[] = [
       "3800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-r17-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-r17-9287.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-r17-.jpg",
-      "/images/products/smartphones/oppo-r17-9287.jpg"
+      "/images/phones/oppo/oppo-oppo-r17-9287.jpg"
     ],
     "storeOffers": [
       {
@@ -124534,10 +124267,9 @@ export const mockSmartphones: Smartphone[] = [
       "3800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-f9-(f9-pro.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -124696,10 +124428,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3s.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a3s-9269.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3s.jpg",
-      "/images/products/smartphones/oppo-a3s-9269.jpg"
+      "/images/phones/oppo/oppo-oppo-a3s-9269.jpg"
     ],
     "storeOffers": [
       {
@@ -124858,10 +124589,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a5-ax5.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a5.jpg",
-      "/images/products/smartphones/oppo-a5-(ax5.jpg"
+      "/images/phones/oppo/oppo-oppo-a5-ax5.jpg"
     ],
     "storeOffers": [
       {
@@ -125020,10 +124750,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-find-x8-pro-en/list-page/480-600-black.png",
+    "image": "/images/phones/oppo/oppo-oppo-find-x9-pro-14094.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-find-x8-pro-en/list-page/480-600-black.png",
-      "/images/products/smartphones/oppo-find-x-lamborghini-9248.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x9-pro-14094.jpg"
     ],
     "storeOffers": [
       {
@@ -125182,10 +124911,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x-7885.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x.jpg",
-      "/images/products/smartphones/oppo-find-x-7885.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x-7885.jpg"
     ],
     "storeOffers": [
       {
@@ -125344,10 +125072,9 @@ export const mockSmartphones: Smartphone[] = [
       "3800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-f7-youth-9208.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -125506,10 +125233,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a3-2018.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3.jpg",
-      "/images/products/smartphones/oppo-a3-(2018.jpg"
+      "/images/phones/oppo/oppo-oppo-a3-2018.jpg"
     ],
     "storeOffers": [
       {
@@ -125668,10 +125394,9 @@ export const mockSmartphones: Smartphone[] = [
       "3800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f7.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-f7-9121.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-f7.jpg",
-      "/images/products/smartphones/oppo-f7-9121.jpg"
+      "/images/phones/oppo/oppo-oppo-f7-9121.jpg"
     ],
     "storeOffers": [
       {
@@ -125830,10 +125555,9 @@ export const mockSmartphones: Smartphone[] = [
       "3800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-r15-pro-9118.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -125992,10 +125716,9 @@ export const mockSmartphones: Smartphone[] = [
       "3800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-r15-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-r15-9108.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-r15-.jpg",
-      "/images/products/smartphones/oppo-r15-9108.jpg"
+      "/images/phones/oppo/oppo-oppo-r15-9108.jpg"
     ],
     "storeOffers": [
       {
@@ -126154,10 +125877,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a1.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a1-2018.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a1.jpg",
-      "/images/products/smartphones/oppo-a1-(2018.jpg"
+      "/images/phones/oppo/oppo-oppo-a1-2018.jpg"
     ],
     "storeOffers": [
       {
@@ -126316,10 +126038,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a71-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a71-2018.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a71-.jpg",
-      "/images/products/smartphones/oppo-a71-(2018.jpg"
+      "/images/phones/oppo/oppo-oppo-a71-2018.jpg"
     ],
     "storeOffers": [
       {
@@ -126478,10 +126199,9 @@ export const mockSmartphones: Smartphone[] = [
       "4000 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a83.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a83-8957.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a83.jpg",
-      "/images/products/smartphones/oppo-a83-8957.jpg"
+      "/images/phones/oppo/oppo-oppo-a83-8957.jpg"
     ],
     "storeOffers": [
       {
@@ -126640,10 +126360,9 @@ export const mockSmartphones: Smartphone[] = [
       "3600 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-f5-youth-8909.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -126802,10 +126521,9 @@ export const mockSmartphones: Smartphone[] = [
       "3600 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-r11s-plus.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-r11s-plus-8927.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-r11s-plus.jpg",
-      "/images/products/smartphones/oppo-r11s-plus-8927.jpg"
+      "/images/phones/oppo/oppo-oppo-r11s-plus-8927.jpg"
     ],
     "storeOffers": [
       {
@@ -126964,10 +126682,9 @@ export const mockSmartphones: Smartphone[] = [
       "3600 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f5-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-f5-8889.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-f5-.jpg",
-      "/images/products/smartphones/oppo-f5-8889.jpg"
+      "/images/phones/oppo/oppo-oppo-f5-8889.jpg"
     ],
     "storeOffers": [
       {
@@ -127126,10 +126843,9 @@ export const mockSmartphones: Smartphone[] = [
       "3600 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-r11s-8911.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -127288,10 +127004,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a71-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a71-8849.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a71-.jpg",
-      "/images/products/smartphones/oppo-a71-8849.jpg"
+      "/images/phones/oppo/oppo-oppo-a71-8849.jpg"
     ],
     "storeOffers": [
       {
@@ -127450,10 +127165,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a77-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a77-2017.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a77-.jpg",
-      "/images/products/smartphones/oppo-a77-(2017.jpg"
+      "/images/phones/oppo/oppo-oppo-a77-2017.jpg"
     ],
     "storeOffers": [
       {
@@ -127612,10 +127326,9 @@ export const mockSmartphones: Smartphone[] = [
       "3600 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-r11-plus-8719.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -127774,10 +127487,9 @@ export const mockSmartphones: Smartphone[] = [
       "3600 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-r11.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-r11-8644.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-r11.jpg",
-      "/images/products/smartphones/oppo-r11-8644.jpg"
+      "/images/phones/oppo/oppo-oppo-r11-8644.jpg"
     ],
     "storeOffers": [
       {
@@ -127936,10 +127648,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a77-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a77-mediatek.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a77-.jpg",
-      "/images/products/smartphones/oppo-a77-(mediatek.jpg"
+      "/images/phones/oppo/oppo-oppo-a77-mediatek.jpg"
     ],
     "storeOffers": [
       {
@@ -128098,10 +127809,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a39.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a39-8890.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a39.jpg",
-      "/images/products/smartphones/oppo-a39-8890.jpg"
+      "/images/phones/oppo/oppo-oppo-a39-8890.jpg"
     ],
     "storeOffers": [
       {
@@ -128260,10 +127970,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-f3-8669.jpg"
+      "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg"
     ],
     "storeOffers": [
       {
@@ -128422,10 +128131,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f3-plus.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-f3-plus-8613.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-f3-plus.jpg",
-      "/images/products/smartphones/oppo-f3-plus-8613.jpg"
+      "/images/phones/oppo/oppo-oppo-f3-plus-8613.jpg"
     ],
     "storeOffers": [
       {
@@ -128584,10 +128292,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a57.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a57-2016.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a57.jpg",
-      "/images/products/smartphones/oppo-a57-(2016.jpg"
+      "/images/phones/oppo/oppo-oppo-a57-2016.jpg"
     ],
     "storeOffers": [
       {
@@ -128746,10 +128453,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f1s.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-f1s-8239.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-f1s.jpg",
-      "/images/products/smartphones/oppo-f1s-8239.jpg"
+      "/images/phones/oppo/oppo-oppo-f1s-8239.jpg"
     ],
     "storeOffers": [
       {
@@ -128908,10 +128614,9 @@ export const mockSmartphones: Smartphone[] = [
       "3400 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-r9s-plus-8394.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -129070,10 +128775,9 @@ export const mockSmartphones: Smartphone[] = [
       "3400 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-r9s-.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-r9s-8386.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-r9s-.jpg",
-      "/images/products/smartphones/oppo-r9s-8386.jpg"
+      "/images/phones/oppo/oppo-oppo-r9s-8386.jpg"
     ],
     "storeOffers": [
       {
@@ -129232,10 +128936,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (45W Hızlı Şarj)",
       "50 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a37.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a37-8162.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a37.jpg",
-      "/images/products/smartphones/oppo-a37-8162.jpg"
+      "/images/phones/oppo/oppo-oppo-a37-8162.jpg"
     ],
     "storeOffers": [
       {
@@ -129394,10 +129097,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a59.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a59-2016.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a59.jpg",
-      "/images/products/smartphones/oppo-a59-(2016.jpg"
+      "/images/phones/oppo/oppo-oppo-a59-2016.jpg"
     ],
     "storeOffers": [
       {
@@ -129556,10 +129258,9 @@ export const mockSmartphones: Smartphone[] = [
       "3400 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-r9-plus-7981.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -129718,10 +129419,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f1-plus.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-f1-plus-7967.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-f1-plus.jpg",
-      "/images/products/smartphones/oppo-f1-plus-7967.jpg"
+      "/images/phones/oppo/oppo-oppo-f1-plus-7967.jpg"
     ],
     "storeOffers": [
       {
@@ -129880,10 +129580,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f1.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-f1-7855.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-f1.jpg",
-      "/images/products/smartphones/oppo-f1-7855.jpg"
+      "/images/phones/oppo/oppo-oppo-f1-7855.jpg"
     ],
     "storeOffers": [
       {
@@ -130042,10 +129741,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a53.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a53-2015.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a53.jpg",
-      "/images/products/smartphones/oppo-a53-(2015.jpg"
+      "/images/phones/oppo/oppo-oppo-a53-2015.jpg"
     ],
     "storeOffers": [
       {
@@ -130204,10 +129902,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a33.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a33-2015.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a33.jpg",
-      "/images/products/smartphones/oppo-a33-(2015.jpg"
+      "/images/phones/oppo/oppo-oppo-a33-2015.jpg"
     ],
     "storeOffers": [
       {
@@ -130366,10 +130063,9 @@ export const mockSmartphones: Smartphone[] = [
       "3400 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-neo-7.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-neo-7-7707.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-neo-7.jpg",
-      "/images/products/smartphones/oppo-neo-7-7707.jpg"
+      "/images/phones/oppo/oppo-oppo-neo-7-7707.jpg"
     ],
     "storeOffers": [
       {
@@ -130528,10 +130224,9 @@ export const mockSmartphones: Smartphone[] = [
       "3200 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-r7s.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-r7s-7669.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-r7s.jpg",
-      "/images/products/smartphones/oppo-r7s-7669.jpg"
+      "/images/phones/oppo/oppo-oppo-r7s-7669.jpg"
     ],
     "storeOffers": [
       {
@@ -130690,10 +130385,9 @@ export const mockSmartphones: Smartphone[] = [
       "3200 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-r7-lite-7553.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -130852,10 +130546,9 @@ export const mockSmartphones: Smartphone[] = [
       "3200 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-r5s.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-r5s-7514.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-r5s.jpg",
-      "/images/products/smartphones/oppo-r5s-7514.jpg"
+      "/images/phones/oppo/oppo-oppo-r5s-7514.jpg"
     ],
     "storeOffers": [
       {
@@ -131014,10 +130707,9 @@ export const mockSmartphones: Smartphone[] = [
       "3200 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-mirror-5s.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-mirror-5s-7362.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-mirror-5s.jpg",
-      "/images/products/smartphones/oppo-mirror-5s-7362.jpg"
+      "/images/phones/oppo/oppo-oppo-mirror-5s-7362.jpg"
     ],
     "storeOffers": [
       {
@@ -131176,10 +130868,9 @@ export const mockSmartphones: Smartphone[] = [
       "3200 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-mirror-5-7427.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -131338,10 +131029,9 @@ export const mockSmartphones: Smartphone[] = [
       "3200 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-joy-3-7353.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -131500,10 +131190,9 @@ export const mockSmartphones: Smartphone[] = [
       "3200 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-r7-plus.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-r7-plus-7237.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-r7-plus.jpg",
-      "/images/products/smartphones/oppo-r7-plus-7237.jpg"
+      "/images/phones/oppo/oppo-oppo-r7-plus-7237.jpg"
     ],
     "storeOffers": [
       {
@@ -131662,10 +131351,9 @@ export const mockSmartphones: Smartphone[] = [
       "3200 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-r7.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-r7-7221.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-r7.jpg",
-      "/images/products/smartphones/oppo-r7-7221.jpg"
+      "/images/phones/oppo/oppo-oppo-r7-7221.jpg"
     ],
     "storeOffers": [
       {
@@ -131824,10 +131512,9 @@ export const mockSmartphones: Smartphone[] = [
       "3200 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-neo-5.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-neo-5-2015.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-neo-5.jpg",
-      "/images/products/smartphones/oppo-neo-5-(2015.jpg"
+      "/images/phones/oppo/oppo-oppo-neo-5-2015.jpg"
     ],
     "storeOffers": [
       {
@@ -131986,10 +131673,9 @@ export const mockSmartphones: Smartphone[] = [
       "3200 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-neo-5s.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-neo-5s-7248.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-neo-5s.jpg",
-      "/images/products/smartphones/oppo-neo-5s-7248.jpg"
+      "/images/phones/oppo/oppo-oppo-neo-5s-7248.jpg"
     ],
     "storeOffers": [
       {
@@ -132148,10 +131834,9 @@ export const mockSmartphones: Smartphone[] = [
       "3200 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-joy-plus.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-joy-plus-7208.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-joy-plus.jpg",
-      "/images/products/smartphones/oppo-joy-plus-7208.jpg"
+      "/images/phones/oppo/oppo-oppo-joy-plus-7208.jpg"
     ],
     "storeOffers": [
       {
@@ -132310,10 +131995,9 @@ export const mockSmartphones: Smartphone[] = [
       "3200 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-mirror-3.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-mirror-3-7193.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-mirror-3.jpg",
-      "/images/products/smartphones/oppo-mirror-3-7193.jpg"
+      "/images/phones/oppo/oppo-oppo-mirror-3-7193.jpg"
     ],
     "storeOffers": [
       {
@@ -132472,10 +132156,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (33W Hızlı Şarj)",
       "13 MP / 48 MP AI Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a31.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-a31-2015.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-a31.jpg",
-      "/images/products/smartphones/oppo-a31-(2015.jpg"
+      "/images/phones/oppo/oppo-oppo-a31-2015.jpg"
     ],
     "storeOffers": [
       {
@@ -132634,10 +132317,9 @@ export const mockSmartphones: Smartphone[] = [
       "3000 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-r1x-6945.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -132796,10 +132478,9 @@ export const mockSmartphones: Smartphone[] = [
       "2800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-u3.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-u3-6780.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-u3.jpg",
-      "/images/products/smartphones/oppo-u3-6780.jpg"
+      "/images/phones/oppo/oppo-oppo-u3-6780.jpg"
     ],
     "storeOffers": [
       {
@@ -132958,10 +132639,9 @@ export const mockSmartphones: Smartphone[] = [
       "3200 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-r5.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-r5-6753.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-r5.jpg",
-      "/images/products/smartphones/oppo-r5-6753.jpg"
+      "/images/phones/oppo/oppo-oppo-r5-6753.jpg"
     ],
     "storeOffers": [
       {
@@ -133120,10 +132800,9 @@ export const mockSmartphones: Smartphone[] = [
       "3000 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-n3.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-n3-6752.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-n3.jpg",
-      "/images/products/smartphones/oppo-n3-6752.jpg"
+      "/images/phones/oppo/oppo-oppo-n3-6752.jpg"
     ],
     "storeOffers": [
       {
@@ -133282,10 +132961,9 @@ export const mockSmartphones: Smartphone[] = [
       "3000 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-r1s.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-r1s-6329.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-r1s.jpg",
-      "/images/products/smartphones/oppo-r1s-6329.jpg"
+      "/images/phones/oppo/oppo-oppo-r1s-6329.jpg"
     ],
     "storeOffers": [
       {
@@ -133444,10 +133122,9 @@ export const mockSmartphones: Smartphone[] = [
       "3000 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-neo-3-6704.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -133606,10 +133283,9 @@ export const mockSmartphones: Smartphone[] = [
       "2800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-5-mini.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-5-mini-6819.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-5-mini.jpg",
-      "/images/products/smartphones/oppo-find-5-mini-6819.jpg"
+      "/images/phones/oppo/oppo-oppo-find-5-mini-6819.jpg"
     ],
     "storeOffers": [
       {
@@ -133768,10 +133444,9 @@ export const mockSmartphones: Smartphone[] = [
       "400 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-r2001-yoyo-6703.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -133930,10 +133605,9 @@ export const mockSmartphones: Smartphone[] = [
       "3200 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-r1001-joy-6702.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -134092,10 +133766,9 @@ export const mockSmartphones: Smartphone[] = [
       "3200 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-neo-5.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-neo-5-6594.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-neo-5.jpg",
-      "/images/products/smartphones/oppo-neo-5-6594.jpg"
+      "/images/phones/oppo/oppo-oppo-neo-5-6594.jpg"
     ],
     "storeOffers": [
       {
@@ -134254,10 +133927,9 @@ export const mockSmartphones: Smartphone[] = [
       "3000 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-r3.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-r3-6437.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-r3.jpg",
-      "/images/products/smartphones/oppo-r3-6437.jpg"
+      "/images/phones/oppo/oppo-oppo-r3-6437.jpg"
     ],
     "storeOffers": [
       {
@@ -134416,10 +134088,9 @@ export const mockSmartphones: Smartphone[] = [
       "3000 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-n1-mini.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-n1-mini-6425.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-n1-mini.jpg",
-      "/images/products/smartphones/oppo-n1-mini-6425.jpg"
+      "/images/phones/oppo/oppo-oppo-n1-mini-6425.jpg"
     ],
     "storeOffers": [
       {
@@ -134578,10 +134249,9 @@ export const mockSmartphones: Smartphone[] = [
       "3000 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-7.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-7-6214.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-7.jpg",
-      "/images/products/smartphones/oppo-find-7-6214.jpg"
+      "/images/phones/oppo/oppo-oppo-find-7-6214.jpg"
     ],
     "storeOffers": [
       {
@@ -134740,10 +134410,9 @@ export const mockSmartphones: Smartphone[] = [
       "3000 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-find-x9-pro-14094.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-find-7a-6215.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x9-pro-14094.jpg"
     ],
     "storeOffers": [
       {
@@ -134902,10 +134571,9 @@ export const mockSmartphones: Smartphone[] = [
       "2800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-neo.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-neo-5972.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-neo.jpg",
-      "/images/products/smartphones/oppo-neo-5972.jpg"
+      "/images/phones/oppo/oppo-oppo-neo-5972.jpg"
     ],
     "storeOffers": [
       {
@@ -135064,10 +134732,9 @@ export const mockSmartphones: Smartphone[] = [
       "3000 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-r1-r829t-5922.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -135226,10 +134893,9 @@ export const mockSmartphones: Smartphone[] = [
       "3000 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-n1.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-n1-5724.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-n1.jpg",
-      "/images/products/smartphones/oppo-n1-5724.jpg"
+      "/images/phones/oppo/oppo-oppo-n1-5724.jpg"
     ],
     "storeOffers": [
       {
@@ -135388,10 +135054,9 @@ export const mockSmartphones: Smartphone[] = [
       "2800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-r819.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-r819-5631.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-r819.jpg",
-      "/images/products/smartphones/oppo-r819-5631.jpg"
+      "/images/phones/oppo/oppo-oppo-r819-5631.jpg"
     ],
     "storeOffers": [
       {
@@ -135550,10 +135215,9 @@ export const mockSmartphones: Smartphone[] = [
       "2800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-5.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-5-5161.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-5.jpg",
-      "/images/products/smartphones/oppo-find-5-5161.jpg"
+      "/images/phones/oppo/oppo-oppo-find-5-5161.jpg"
     ],
     "storeOffers": [
       {
@@ -135712,10 +135376,9 @@ export const mockSmartphones: Smartphone[] = [
       "2800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-u705t-ulike-2-5166.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -135874,10 +135537,9 @@ export const mockSmartphones: Smartphone[] = [
       "2800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-r601.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-r601-5167.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-r601.jpg",
-      "/images/products/smartphones/oppo-r601-5167.jpg"
+      "/images/phones/oppo/oppo-oppo-r601-5167.jpg"
     ],
     "storeOffers": [
       {
@@ -136036,10 +135698,9 @@ export const mockSmartphones: Smartphone[] = [
       "2800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-find-x9-pro-14094.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-r821t-find-muse-5763.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x9-pro-14094.jpg"
     ],
     "storeOffers": [
       {
@@ -136198,10 +135859,9 @@ export const mockSmartphones: Smartphone[] = [
       "2800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-r811-real.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-r811-real-5168.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-r811-real.jpg",
-      "/images/products/smartphones/oppo-r811-real-5168.jpg"
+      "/images/phones/oppo/oppo-oppo-r811-real-5168.jpg"
     ],
     "storeOffers": [
       {
@@ -136360,10 +136020,9 @@ export const mockSmartphones: Smartphone[] = [
       "2800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-t29.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-t29-5169.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-t29.jpg",
-      "/images/products/smartphones/oppo-t29-5169.jpg"
+      "/images/phones/oppo/oppo-oppo-t29-5169.jpg"
     ],
     "storeOffers": [
       {
@@ -136522,10 +136181,9 @@ export const mockSmartphones: Smartphone[] = [
       "2800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-r817-real.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-r817-real-5170.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-r817-real.jpg",
-      "/images/products/smartphones/oppo-r817-real-5170.jpg"
+      "/images/phones/oppo/oppo-oppo-r817-real-5170.jpg"
     ],
     "storeOffers": [
       {
@@ -136684,10 +136342,9 @@ export const mockSmartphones: Smartphone[] = [
       "2800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-r815t-clover-5898.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -136846,10 +136503,9 @@ export const mockSmartphones: Smartphone[] = [
       "2800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-find-x9-pro-14094.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-find-5171.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x9-pro-14094.jpg"
     ],
     "storeOffers": [
       {
@@ -137008,10 +136664,9 @@ export const mockSmartphones: Smartphone[] = [
       "2800 mAh Batarya (18W Hızlı Şarj)",
       "13 MP / 8 MP Kamera"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-u701-ulike.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-u701-ulike-5172.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-u701-ulike.jpg",
-      "/images/products/smartphones/oppo-u701-ulike-5172.jpg"
+      "/images/phones/oppo/oppo-oppo-u701-ulike-5172.jpg"
     ],
     "storeOffers": [
       {
@@ -137170,10 +136825,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-k14-turbo-5g-14560.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -137332,10 +136986,9 @@ export const mockSmartphones: Smartphone[] = [
       "5500 mAh Batarya (80W Hızlı Şarj)",
       "50 MP Sony OIS + 8 MP Geniş"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-k14-turbo-pro-5g-14559.jpg"
+      "/images/phones/oppo/oppo-oppo-a6-pro-5g-14171.jpg"
     ],
     "storeOffers": [
       {
@@ -137494,10 +137147,9 @@ export const mockSmartphones: Smartphone[] = [
       "5910 mAh Batarya (80W Hızlı Şarj)",
       "50 MP 1-inç Sony LYT-808 Hasselblad OIS + 50 MP Geniş + 50 MP/200 MP Telefoto"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x9-pro.jpg",
+    "image": "/images/phones/oppo/oppo-oppo-find-x9-5g-14101.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x9-pro.jpg",
-      "/images/products/smartphones/oppo-find-x9+-5g-14101.jpg"
+      "/images/phones/oppo/oppo-oppo-find-x9-5g-14101.jpg"
     ],
     "storeOffers": [
       {
@@ -137656,10 +137308,9 @@ export const mockSmartphones: Smartphone[] = [
       "5000 mAh Batarya (67W Hızlı Şarj)",
       "64 MP / 50 MP OIS + 8 MP Geniş"
     ],
-    "image": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
+    "image": "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg",
     "images": [
-      "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a6-series-en/list-page/a6-pro-5g/480-600-blue.png",
-      "/images/products/smartphones/oppo-f27-pro-13101.jpg"
+      "/images/phones/oppo/oppo-oppo-f31-pro-5g-14149.jpg"
     ],
     "storeOffers": [
       {
