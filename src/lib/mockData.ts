@@ -42581,11 +42581,9 @@ export const mockSmartphones: Smartphone[] = [
       "Dövme Alüminyum Unibody Gövde & Ceramic Shield 2 Çizilmez Cam",
       "iOS 26 & Apple Intelligence (Canlı Çeviri, Visual Intelligence, Clean Up)"
     ],
-    "image": "https://de-gdpr-exstatic-vivofs.vivo.com/sFhAQhTYYDsNOJz1/1779780025838/3db8068eaabaf92aa0087ecf4a698de3.png",
+    "image": "/images/phones/apple/apple-iphone-16-pro.jpg",
     "images": [
-      "https://de-gdpr-exstatic-vivofs.vivo.com/sFhAQhTYYDsNOJz1/1779780025838/3db8068eaabaf92aa0087ecf4a698de3.png",
-      "https://de-gdpr-exstatic-vivofs.vivo.com/sFhAQhTYYDsNOJz1/1783335136354/3d9aee1b8fafd2986ac90a715b31f687.png",
-      "/images/products/smartphones/vivo-vivo-x300-ultra-col1.png"
+      "/images/phones/apple/apple-iphone-16-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -42745,9 +42743,9 @@ export const mockSmartphones: Smartphone[] = [
       "Dövme Alüminyum Unibody Gövde & Ceramic Shield 2 Çizilmez Cam",
       "iOS 26 & Apple Intelligence (Canlı Çeviri, Visual Intelligence, Clean Up)"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-17-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-17-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -42907,9 +42905,9 @@ export const mockSmartphones: Smartphone[] = [
       "Dövme Alüminyum Unibody Gövde & Ceramic Shield 2 Çizilmez Cam",
       "iOS 26 & Apple Intelligence (Canlı Çeviri, Visual Intelligence, Clean Up)"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-17-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-17-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -43069,9 +43067,9 @@ export const mockSmartphones: Smartphone[] = [
       "Dövme Alüminyum Unibody Gövde & Ceramic Shield 2 Çizilmez Cam",
       "iOS 26 & Apple Intelligence (Canlı Çeviri, Visual Intelligence, Clean Up)"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-17-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17-pro.jpg"
+      "/images/phones/apple/apple-iphone-17-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -43231,9 +43229,9 @@ export const mockSmartphones: Smartphone[] = [
       "Dövme Alüminyum Unibody Gövde & Ceramic Shield 2 Çizilmez Cam",
       "iOS 26 & Apple Intelligence (Canlı Çeviri, Visual Intelligence, Clean Up)"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-17-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-17-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -43393,9 +43391,9 @@ export const mockSmartphones: Smartphone[] = [
       "Dövme Alüminyum Unibody Gövde & Ceramic Shield 2 Çizilmez Cam",
       "iOS 26 & Apple Intelligence (Canlı Çeviri, Visual Intelligence, Clean Up)"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-17-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17-pro.jpg"
+      "/images/phones/apple/apple-iphone-17-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -43553,9 +43551,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 1 TB Depolama",
       "4685 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-16-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-16-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -43715,9 +43713,9 @@ export const mockSmartphones: Smartphone[] = [
       "Dövme Alüminyum Unibody Gövde & Ceramic Shield 2 Çizilmez Cam",
       "iOS 26 & Apple Intelligence (Canlı Çeviri, Visual Intelligence, Clean Up)"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-17-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17-pro.jpg"
+      "/images/phones/apple/apple-iphone-17-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -43875,9 +43873,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 512 GB Depolama",
       "4685 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-16-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-16-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -44035,9 +44033,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 1 TB Depolama",
       "3582 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-16-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro.jpg"
+      "/images/phones/apple/apple-iphone-16-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -44195,9 +44193,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 256 GB Depolama",
       "4685 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-16-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-16-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -44355,9 +44353,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 512 GB Depolama",
       "3582 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-16-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro.jpg"
+      "/images/phones/apple/apple-iphone-16-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -44515,9 +44513,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 256 GB Depolama",
       "3582 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-16-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro.jpg"
+      "/images/phones/apple/apple-iphone-16-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -44675,9 +44673,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 1 TB Depolama",
       "4441 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-15-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-15-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -44835,9 +44833,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 512 GB Depolama",
       "4441 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-15-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-15-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -44995,9 +44993,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 128 GB Depolama",
       "3582 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-16-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro.jpg"
+      "/images/phones/apple/apple-iphone-16-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -45157,9 +45155,9 @@ export const mockSmartphones: Smartphone[] = [
       "18 MP Center Stage Ön Kamera (Grup Selfieleri & Dual Capture Video)",
       "Seramik Kalkan 2 (Ceramic Shield 2) Ön ve Arka Cam Koruma"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-air.jpg",
+    "image": "/images/phones/apple/apple-iphone-17-air.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-air.jpg"
+      "/images/phones/apple/apple-iphone-17-air.jpg"
     ],
     "storeOffers": [
       {
@@ -45319,9 +45317,9 @@ export const mockSmartphones: Smartphone[] = [
       "Seramik Kalkan 2 (Ceramic Shield 2) - 3 Kat Çizilmeye Dayanıklı Cam",
       "iOS 26 & Apple Intelligence (Görsel Zeka, Canlı Çeviri & Clean Up)"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17.jpg",
+    "image": "/images/phones/apple/apple-iphone-17.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17.jpg"
+      "/images/phones/apple/apple-iphone-17.jpg"
     ],
     "storeOffers": [
       {
@@ -45479,9 +45477,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 256 GB Depolama",
       "4441 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-15-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-15-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -45641,9 +45639,9 @@ export const mockSmartphones: Smartphone[] = [
       "18 MP Center Stage Ön Kamera (Grup Selfieleri & Dual Capture Video)",
       "Seramik Kalkan 2 (Ceramic Shield 2) Ön ve Arka Cam Koruma"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-air.jpg",
+    "image": "/images/phones/apple/apple-iphone-17-air.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-air.jpg"
+      "/images/phones/apple/apple-iphone-17-air.jpg"
     ],
     "storeOffers": [
       {
@@ -45803,9 +45801,9 @@ export const mockSmartphones: Smartphone[] = [
       "Seramik Kalkan 2 (Ceramic Shield 2) - 3 Kat Çizilmeye Dayanıklı Cam",
       "iOS 26 & Apple Intelligence (Görsel Zeka, Canlı Çeviri & Clean Up)"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17.jpg",
+    "image": "/images/phones/apple/apple-iphone-17.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17.jpg"
+      "/images/phones/apple/apple-iphone-17.jpg"
     ],
     "storeOffers": [
       {
@@ -45963,9 +45961,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 512 GB Depolama",
       "3274 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-15-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro.jpg"
+      "/images/phones/apple/apple-iphone-15-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -46125,9 +46123,9 @@ export const mockSmartphones: Smartphone[] = [
       "18 MP Center Stage Ön Kamera (Grup Selfieleri & Dual Capture Video)",
       "Seramik Kalkan 2 (Ceramic Shield 2) Ön ve Arka Cam Koruma"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-air.jpg",
+    "image": "/images/phones/apple/apple-iphone-17-air.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-air.jpg"
+      "/images/phones/apple/apple-iphone-17-air.jpg"
     ],
     "storeOffers": [
       {
@@ -46285,9 +46283,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 1 TB Depolama",
       "4323 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-14-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-14-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -46445,9 +46443,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 256 GB Depolama",
       "3274 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-15-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro.jpg"
+      "/images/phones/apple/apple-iphone-15-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -46605,9 +46603,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 512 GB Depolama",
       "4674 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-plus.jpg",
+    "image": "/images/phones/apple/apple-iphone-16-plus.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-plus.jpg"
+      "/images/phones/apple/apple-iphone-16-plus.jpg"
     ],
     "storeOffers": [
       {
@@ -46765,9 +46763,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 512 GB Depolama",
       "4323 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-14-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-14-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -46925,9 +46923,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 256 GB Depolama",
       "4674 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-plus.jpg",
+    "image": "/images/phones/apple/apple-iphone-16-plus.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-plus.jpg"
+      "/images/phones/apple/apple-iphone-16-plus.jpg"
     ],
     "storeOffers": [
       {
@@ -47085,9 +47083,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 128 GB Depolama",
       "3274 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-15-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro.jpg"
+      "/images/phones/apple/apple-iphone-15-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -47245,9 +47243,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 256 GB Depolama",
       "4323 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-14-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-14-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -47407,9 +47405,9 @@ export const mockSmartphones: Smartphone[] = [
       "Seramik Kalkan 2 (Ceramic Shield 2) - 3 Kat Çizilmeye Dayanıklı Ön Cam",
       "iOS 26 & Apple Intelligence (Canlı Çeviri, Görsel Zeka, Clean Up)"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17e.jpg",
+    "image": "/images/phones/apple/apple-iphone-17e.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17e.jpg"
+      "/images/phones/apple/apple-iphone-17e.jpg"
     ],
     "storeOffers": [
       {
@@ -47567,9 +47565,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 512 GB Depolama",
       "3561 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16.jpg",
+    "image": "/images/phones/apple/apple-iphone-16.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16.jpg"
+      "/images/phones/apple/apple-iphone-16.jpg"
     ],
     "storeOffers": [
       {
@@ -47729,9 +47727,9 @@ export const mockSmartphones: Smartphone[] = [
       "Seramik Kalkan 2 (Ceramic Shield 2) - 3 Kat Çizilmeye Dayanıklı Ön Cam",
       "iOS 26 & Apple Intelligence (Canlı Çeviri, Görsel Zeka, Clean Up)"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17e.jpg",
+    "image": "/images/phones/apple/apple-iphone-17e.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17e.jpg"
+      "/images/phones/apple/apple-iphone-17e.jpg"
     ],
     "storeOffers": [
       {
@@ -47889,9 +47887,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 512 GB Depolama",
       "3200 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-14-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro.jpg"
+      "/images/phones/apple/apple-iphone-14-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -48049,9 +48047,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 128 GB Depolama",
       "4674 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-plus.jpg",
+    "image": "/images/phones/apple/apple-iphone-16-plus.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-plus.jpg"
+      "/images/phones/apple/apple-iphone-16-plus.jpg"
     ],
     "storeOffers": [
       {
@@ -48209,9 +48207,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 128 GB Depolama",
       "4323 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-14-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-14-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -48369,9 +48367,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 256 GB Depolama",
       "3200 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-14-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro.jpg"
+      "/images/phones/apple/apple-iphone-14-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -48529,9 +48527,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 1 TB Depolama",
       "4352 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-13-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-13-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -48689,9 +48687,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 512 GB Depolama",
       "4005 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16e.jpg",
+    "image": "/images/phones/apple/apple-iphone-16e.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16e.jpg"
+      "/images/phones/apple/apple-iphone-16e.jpg"
     ],
     "storeOffers": [
       {
@@ -48849,9 +48847,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 512 GB Depolama",
       "4352 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-13-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-13-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -49009,9 +49007,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 128 GB Depolama",
       "3561 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16.jpg",
+    "image": "/images/phones/apple/apple-iphone-16.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16.jpg"
+      "/images/phones/apple/apple-iphone-16.jpg"
     ],
     "storeOffers": [
       {
@@ -49169,9 +49167,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 128 GB Depolama",
       "3200 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-14-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro.jpg"
+      "/images/phones/apple/apple-iphone-14-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -49329,9 +49327,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 256 GB Depolama",
       "4005 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16e.jpg",
+    "image": "/images/phones/apple/apple-iphone-16e.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16e.jpg"
+      "/images/phones/apple/apple-iphone-16e.jpg"
     ],
     "storeOffers": [
       {
@@ -49489,9 +49487,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 512 GB Depolama",
       "4383 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-plus.jpg",
+    "image": "/images/phones/apple/apple-iphone-15-plus.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-plus.jpg"
+      "/images/phones/apple/apple-iphone-15-plus.jpg"
     ],
     "storeOffers": [
       {
@@ -49649,9 +49647,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 128 GB Depolama",
       "4005 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16e.jpg",
+    "image": "/images/phones/apple/apple-iphone-16e.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16e.jpg"
+      "/images/phones/apple/apple-iphone-16e.jpg"
     ],
     "storeOffers": [
       {
@@ -49809,9 +49807,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 512 GB Depolama",
       "3095 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-13-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro.jpg"
+      "/images/phones/apple/apple-iphone-13-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -49969,9 +49967,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 128 GB Depolama",
       "4352 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-13-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-13-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -50129,9 +50127,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 512 GB Depolama",
       "3349 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15.jpg",
+    "image": "/images/phones/apple/apple-iphone-15.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15.jpg"
+      "/images/phones/apple/apple-iphone-15.jpg"
     ],
     "storeOffers": [
       {
@@ -50289,9 +50287,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 256 GB Depolama",
       "4383 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-plus.jpg",
+    "image": "/images/phones/apple/apple-iphone-15-plus.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-plus.jpg"
+      "/images/phones/apple/apple-iphone-15-plus.jpg"
     ],
     "storeOffers": [
       {
@@ -50449,9 +50447,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 256 GB Depolama",
       "3095 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-13-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro.jpg"
+      "/images/phones/apple/apple-iphone-13-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -50609,9 +50607,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 256 GB Depolama",
       "3349 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15.jpg",
+    "image": "/images/phones/apple/apple-iphone-15.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15.jpg"
+      "/images/phones/apple/apple-iphone-15.jpg"
     ],
     "storeOffers": [
       {
@@ -50769,9 +50767,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 512 GB Depolama",
       "4325 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-plus.jpg",
+    "image": "/images/phones/apple/apple-iphone-14-plus.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-plus.jpg"
+      "/images/phones/apple/apple-iphone-14-plus.jpg"
     ],
     "storeOffers": [
       {
@@ -50929,9 +50927,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 128 GB Depolama",
       "3095 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-13-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro.jpg"
+      "/images/phones/apple/apple-iphone-13-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -51089,9 +51087,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 128 GB Depolama",
       "3349 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15.jpg",
+    "image": "/images/phones/apple/apple-iphone-15.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15.jpg"
+      "/images/phones/apple/apple-iphone-15.jpg"
     ],
     "storeOffers": [
       {
@@ -51249,9 +51247,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 512 GB Depolama",
       "3687 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-12-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-12-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -51409,9 +51407,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 512 GB Depolama",
       "3279 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14.jpg",
+    "image": "/images/phones/apple/apple-iphone-14.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14.jpg"
+      "/images/phones/apple/apple-iphone-14.jpg"
     ],
     "storeOffers": [
       {
@@ -51569,9 +51567,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 128 GB Depolama",
       "4325 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-plus.jpg",
+    "image": "/images/phones/apple/apple-iphone-14-plus.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-plus.jpg"
+      "/images/phones/apple/apple-iphone-14-plus.jpg"
     ],
     "storeOffers": [
       {
@@ -51729,9 +51727,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 256 GB Depolama",
       "3279 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14.jpg",
+    "image": "/images/phones/apple/apple-iphone-14.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14.jpg"
+      "/images/phones/apple/apple-iphone-14.jpg"
     ],
     "storeOffers": [
       {
@@ -51889,9 +51887,9 @@ export const mockSmartphones: Smartphone[] = [
       "4 GB RAM & 512 GB Depolama",
       "3227 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg",
+    "image": "/images/phones/apple/apple-iphone-13.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg"
+      "/images/phones/apple/apple-iphone-13.jpg"
     ],
     "storeOffers": [
       {
@@ -52049,9 +52047,9 @@ export const mockSmartphones: Smartphone[] = [
       "4 GB RAM & 256 GB Depolama",
       "3227 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg",
+    "image": "/images/phones/apple/apple-iphone-13.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg"
+      "/images/phones/apple/apple-iphone-13.jpg"
     ],
     "storeOffers": [
       {
@@ -52209,9 +52207,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 128 GB Depolama",
       "3279 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14.jpg",
+    "image": "/images/phones/apple/apple-iphone-14.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14.jpg"
+      "/images/phones/apple/apple-iphone-14.jpg"
     ],
     "storeOffers": [
       {
@@ -52369,9 +52367,9 @@ export const mockSmartphones: Smartphone[] = [
       "4 GB RAM & 128 GB Depolama",
       "3227 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg",
+    "image": "/images/phones/apple/apple-iphone-13.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg"
+      "/images/phones/apple/apple-iphone-13.jpg"
     ],
     "storeOffers": [
       {
@@ -52529,9 +52527,9 @@ export const mockSmartphones: Smartphone[] = [
       "4 GB RAM & 256 GB Depolama",
       "2815 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg",
+    "image": "/images/phones/apple/apple-iphone-12.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg"
+      "/images/phones/apple/apple-iphone-12.jpg"
     ],
     "storeOffers": [
       {
@@ -52689,9 +52687,9 @@ export const mockSmartphones: Smartphone[] = [
       "4 GB RAM & 128 GB Depolama",
       "2815 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg",
+    "image": "/images/phones/apple/apple-iphone-12.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg"
+      "/images/phones/apple/apple-iphone-12.jpg"
     ],
     "storeOffers": [
       {
@@ -52849,9 +52847,9 @@ export const mockSmartphones: Smartphone[] = [
       "4 GB RAM & 64 GB Depolama",
       "2815 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg",
+    "image": "/images/phones/apple/apple-iphone-12.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg"
+      "/images/phones/apple/apple-iphone-12.jpg"
     ],
     "storeOffers": [
       {
@@ -53009,9 +53007,9 @@ export const mockSmartphones: Smartphone[] = [
       "4 GB RAM & 64 GB Depolama",
       "2227 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-mini.jpg",
+    "image": "/images/phones/apple/apple-iphone-12-mini.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-mini.jpg"
+      "/images/phones/apple/apple-iphone-12-mini.jpg"
     ],
     "storeOffers": [
       {
@@ -53169,9 +53167,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 1 TB Depolama",
       "3274 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-15-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro.jpg"
+      "/images/phones/apple/apple-iphone-15-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -53329,9 +53327,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 1 TB Depolama",
       "3200 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-14-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro.jpg"
+      "/images/phones/apple/apple-iphone-14-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -53489,9 +53487,9 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 256 GB Depolama",
       "3561 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16.jpg",
+    "image": "/images/phones/apple/apple-iphone-16.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16.jpg"
+      "/images/phones/apple/apple-iphone-16.jpg"
     ],
     "storeOffers": [
       {
@@ -53649,9 +53647,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 256 GB Depolama",
       "4352 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-13-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-13-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -53809,9 +53807,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 1 TB Depolama",
       "3095 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-13-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro.jpg"
+      "/images/phones/apple/apple-iphone-13-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -53969,9 +53967,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 256 GB Depolama",
       "4383 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-plus.jpg",
+    "image": "/images/phones/apple/apple-iphone-15-plus.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-plus.jpg"
+      "/images/phones/apple/apple-iphone-15-plus.jpg"
     ],
     "storeOffers": [
       {
@@ -54129,9 +54127,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 256 GB Depolama",
       "4325 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-plus.jpg",
+    "image": "/images/phones/apple/apple-iphone-14-plus.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-plus.jpg"
+      "/images/phones/apple/apple-iphone-14-plus.jpg"
     ],
     "storeOffers": [
       {
@@ -54289,9 +54287,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 256 GB Depolama",
       "3687 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-12-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-12-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -54449,9 +54447,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 512 GB Depolama",
       "2815 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-12-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro.jpg"
+      "/images/phones/apple/apple-iphone-12-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -54609,9 +54607,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 128 GB Depolama",
       "3687 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-12-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-12-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -54769,9 +54767,9 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 256 GB Depolama",
       "2815 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-12-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro.jpg"
+      "/images/phones/apple/apple-iphone-12-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -54929,9 +54927,9 @@ export const mockSmartphones: Smartphone[] = [
       "4 GB RAM & 512 GB Depolama",
       "2425 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-mini.jpg",
+    "image": "/images/phones/apple/apple-iphone-13-mini.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-mini.jpg"
+      "/images/phones/apple/apple-iphone-13-mini.jpg"
     ],
     "storeOffers": [
       {
@@ -55089,9 +55087,9 @@ export const mockSmartphones: Smartphone[] = [
       "4 GB RAM & 128 GB Depolama",
       "2815 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-12-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro.jpg"
+      "/images/phones/apple/apple-iphone-12-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -55249,9 +55247,9 @@ export const mockSmartphones: Smartphone[] = [
       "4 GB RAM & 256 GB Depolama",
       "2425 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-mini.jpg",
+    "image": "/images/phones/apple/apple-iphone-13-mini.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-mini.jpg"
+      "/images/phones/apple/apple-iphone-13-mini.jpg"
     ],
     "storeOffers": [
       {
@@ -55409,9 +55407,9 @@ export const mockSmartphones: Smartphone[] = [
       "4 GB RAM & 128 GB Depolama",
       "2425 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-mini.jpg",
+    "image": "/images/phones/apple/apple-iphone-13-mini.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-mini.jpg"
+      "/images/phones/apple/apple-iphone-13-mini.jpg"
     ],
     "storeOffers": [
       {
@@ -55569,9 +55567,9 @@ export const mockSmartphones: Smartphone[] = [
       "4 GB RAM & 256 GB Depolama",
       "2227 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-mini.jpg",
+    "image": "/images/phones/apple/apple-iphone-12-mini.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-mini.jpg"
+      "/images/phones/apple/apple-iphone-12-mini.jpg"
     ],
     "storeOffers": [
       {
@@ -55729,9 +55727,9 @@ export const mockSmartphones: Smartphone[] = [
       "4 GB RAM & 128 GB Depolama",
       "2227 mAh Batarya Kapasitesi"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-mini.jpg",
+    "image": "/images/phones/apple/apple-iphone-12-mini.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-mini.jpg"
+      "/images/phones/apple/apple-iphone-12-mini.jpg"
     ],
     "storeOffers": [
       {
@@ -137469,9 +137467,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17e.jpg",
+    "image": "/images/phones/apple/apple-iphone-17e.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17e.jpg"
+      "/images/phones/apple/apple-iphone-17e.jpg"
     ],
     "storeOffers": [
       {
@@ -137632,9 +137630,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-17-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-17-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -137795,9 +137793,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-17-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17-pro.jpg"
+      "/images/phones/apple/apple-iphone-17-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -137958,9 +137956,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-air.jpg",
+    "image": "/images/phones/apple/apple-iphone-17-air.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-air.jpg"
+      "/images/phones/apple/apple-iphone-17-air.jpg"
     ],
     "storeOffers": [
       {
@@ -138121,9 +138119,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17.jpg",
+    "image": "/images/phones/apple/apple-iphone-17.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17.jpg"
+      "/images/phones/apple/apple-iphone-17.jpg"
     ],
     "storeOffers": [
       {
@@ -138284,9 +138282,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16e.jpg",
+    "image": "/images/phones/apple/apple-iphone-16e.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16e.jpg"
+      "/images/phones/apple/apple-iphone-16e.jpg"
     ],
     "storeOffers": [
       {
@@ -138447,9 +138445,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-16-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-16-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -138610,9 +138608,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-16-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro.jpg"
+      "/images/phones/apple/apple-iphone-16-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -138773,9 +138771,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-plus.jpg",
+    "image": "/images/phones/apple/apple-iphone-16-plus.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-plus.jpg"
+      "/images/phones/apple/apple-iphone-16-plus.jpg"
     ],
     "storeOffers": [
       {
@@ -138936,9 +138934,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16.jpg",
+    "image": "/images/phones/apple/apple-iphone-16.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16.jpg"
+      "/images/phones/apple/apple-iphone-16.jpg"
     ],
     "storeOffers": [
       {
@@ -139099,9 +139097,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-15-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-15-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -139262,9 +139260,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-15-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro.jpg"
+      "/images/phones/apple/apple-iphone-15-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -139425,9 +139423,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-plus-.jpg",
+    "image": "/images/phones/apple/apple-iphone-15-plus.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-plus-.jpg"
+      "/images/phones/apple/apple-iphone-15-plus.jpg"
     ],
     "storeOffers": [
       {
@@ -139588,9 +139586,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15.jpg",
+    "image": "/images/phones/apple/apple-iphone-15.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15.jpg"
+      "/images/phones/apple/apple-iphone-15.jpg"
     ],
     "storeOffers": [
       {
@@ -139751,9 +139749,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro-max-.jpg",
+    "image": "/images/phones/apple/apple-iphone-14-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro-max-.jpg"
+      "/images/phones/apple/apple-iphone-14-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -139914,9 +139912,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-14-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro.jpg"
+      "/images/phones/apple/apple-iphone-14-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -140077,9 +140075,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-plus.jpg",
+    "image": "/images/phones/apple/apple-iphone-14-plus.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-plus.jpg"
+      "/images/phones/apple/apple-iphone-14-plus.jpg"
     ],
     "storeOffers": [
       {
@@ -140240,9 +140238,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14.jpg",
+    "image": "/images/phones/apple/apple-iphone-14.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14.jpg"
+      "/images/phones/apple/apple-iphone-14.jpg"
     ],
     "storeOffers": [
       {
@@ -140403,9 +140401,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-3inch-deserttitanium?fmt=jpeg&qlt=95",
+    "image": "/images/phones/apple/apple-iphone-se-2022.jpg",
     "images": [
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-3inch-deserttitanium?fmt=jpeg&qlt=95"
+      "/images/phones/apple/apple-iphone-se-2022.jpg"
     ],
     "storeOffers": [
       {
@@ -140566,9 +140564,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-13-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-13-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -140729,9 +140727,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-13-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro.jpg"
+      "/images/phones/apple/apple-iphone-13-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -140892,9 +140890,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg",
+    "image": "/images/phones/apple/apple-iphone-13.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg"
+      "/images/phones/apple/apple-iphone-13.jpg"
     ],
     "storeOffers": [
       {
@@ -141055,9 +141053,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-mini.jpg",
+    "image": "/images/phones/apple/apple-iphone-13-mini.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-mini.jpg"
+      "/images/phones/apple/apple-iphone-13-mini.jpg"
     ],
     "storeOffers": [
       {
@@ -141218,9 +141216,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-12-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max.jpg"
+      "/images/phones/apple/apple-iphone-12-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -141381,9 +141379,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-12-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro.jpg"
+      "/images/phones/apple/apple-iphone-12-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -141544,9 +141542,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg",
+    "image": "/images/phones/apple/apple-iphone-12.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg"
+      "/images/phones/apple/apple-iphone-12.jpg"
     ],
     "storeOffers": [
       {
@@ -141707,9 +141705,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-mini.jpg",
+    "image": "/images/phones/apple/apple-iphone-12-mini.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-mini.jpg"
+      "/images/phones/apple/apple-iphone-12-mini.jpg"
     ],
     "storeOffers": [
       {
@@ -141870,9 +141868,9 @@ export const mockSmartphones: Smartphone[] = [
       "5G Ultra Hızlı Bağlantı & eSIM Desteği",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-3inch-deserttitanium?fmt=jpeg&qlt=95",
+    "image": "/images/phones/apple/apple-iphone-se-2020.jpg",
     "images": [
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-3inch-deserttitanium?fmt=jpeg&qlt=95"
+      "/images/phones/apple/apple-iphone-se-2020.jpg"
     ],
     "storeOffers": [
       {
@@ -142033,9 +142031,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11-pro-max-.jpg",
+    "image": "/images/phones/apple/apple-iphone-11-pro-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11-pro-max-.jpg"
+      "/images/phones/apple/apple-iphone-11-pro-max.jpg"
     ],
     "storeOffers": [
       {
@@ -142196,9 +142194,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11-pro.jpg",
+    "image": "/images/phones/apple/apple-iphone-11-pro.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11-pro.jpg"
+      "/images/phones/apple/apple-iphone-11-pro.jpg"
     ],
     "storeOffers": [
       {
@@ -142359,9 +142357,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11.jpg",
+    "image": "/images/phones/apple/apple-iphone-11.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11.jpg"
+      "/images/phones/apple/apple-iphone-11.jpg"
     ],
     "storeOffers": [
       {
@@ -142522,9 +142520,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xs-max.jpg",
+    "image": "/images/phones/apple/apple-iphone-xs-max.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xs-max.jpg"
+      "/images/phones/apple/apple-iphone-xs-max.jpg"
     ],
     "storeOffers": [
       {
@@ -142685,9 +142683,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xs.jpg",
+    "image": "/images/phones/apple/apple-iphone-xs.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xs.jpg"
+      "/images/phones/apple/apple-iphone-xs.jpg"
     ],
     "storeOffers": [
       {
@@ -142848,9 +142846,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xr.jpg",
+    "image": "/images/phones/apple/apple-iphone-xr.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xr.jpg"
+      "/images/phones/apple/apple-iphone-xr.jpg"
     ],
     "storeOffers": [
       {
@@ -143011,9 +143009,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-x.jpg",
+    "image": "/images/phones/apple/apple-iphone-x.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-x.jpg"
+      "/images/phones/apple/apple-iphone-x.jpg"
     ],
     "storeOffers": [
       {
@@ -143174,9 +143172,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-8-plus.jpg",
+    "image": "/images/phones/apple/apple-iphone-8-plus.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-8-plus.jpg"
+      "/images/phones/apple/apple-iphone-8-plus.jpg"
     ],
     "storeOffers": [
       {
@@ -143337,9 +143335,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-8.jpg",
+    "image": "/images/phones/apple/apple-iphone-8.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-8.jpg"
+      "/images/phones/apple/apple-iphone-8.jpg"
     ],
     "storeOffers": [
       {
@@ -143500,9 +143498,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-3inch-deserttitanium?fmt=jpeg&qlt=95",
+    "image": "/images/phones/apple/apple-iphone-7-plus.jpg",
     "images": [
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-3inch-deserttitanium?fmt=jpeg&qlt=95"
+      "/images/phones/apple/apple-iphone-7-plus.jpg"
     ],
     "storeOffers": [
       {
@@ -143663,9 +143661,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-3inch-deserttitanium?fmt=jpeg&qlt=95",
+    "image": "/images/phones/apple/apple-iphone-7.jpg",
     "images": [
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-3inch-deserttitanium?fmt=jpeg&qlt=95"
+      "/images/phones/apple/apple-iphone-7.jpg"
     ],
     "storeOffers": [
       {
@@ -143826,9 +143824,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-3inch-deserttitanium?fmt=jpeg&qlt=95",
+    "image": "/images/phones/apple/apple-iphone-se-2016.jpg",
     "images": [
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-3inch-deserttitanium?fmt=jpeg&qlt=95"
+      "/images/phones/apple/apple-iphone-se-2016.jpg"
     ],
     "storeOffers": [
       {
@@ -143989,9 +143987,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-6s-plus.jpg",
+    "image": "/images/phones/apple/apple-iphone-6s-plus.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-6s-plus.jpg"
+      "/images/phones/apple/apple-iphone-6s-plus.jpg"
     ],
     "storeOffers": [
       {
@@ -144152,9 +144150,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-6s.jpg",
+    "image": "/images/phones/apple/apple-iphone-6s.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-6s.jpg"
+      "/images/phones/apple/apple-iphone-6s.jpg"
     ],
     "storeOffers": [
       {
@@ -144315,9 +144313,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-6-plus.jpg",
+    "image": "/images/phones/apple/apple-iphone-6-plus.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-6-plus.jpg"
+      "/images/phones/apple/apple-iphone-6-plus.jpg"
     ],
     "storeOffers": [
       {
@@ -144478,9 +144476,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-3inch-deserttitanium?fmt=jpeg&qlt=95",
+    "image": "/images/phones/apple/apple-iphone-6.jpg",
     "images": [
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-3inch-deserttitanium?fmt=jpeg&qlt=95"
+      "/images/phones/apple/apple-iphone-6.jpg"
     ],
     "storeOffers": [
       {
@@ -144641,9 +144639,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-5s.jpg",
+    "image": "/images/phones/apple/apple-iphone-5s.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-5s.jpg"
+      "/images/phones/apple/apple-iphone-5s.jpg"
     ],
     "storeOffers": [
       {
@@ -144804,9 +144802,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-5c.jpg",
+    "image": "/images/phones/apple/apple-iphone-5c.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-5c.jpg"
+      "/images/phones/apple/apple-iphone-5c.jpg"
     ],
     "storeOffers": [
       {
@@ -144967,9 +144965,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-5.jpg",
+    "image": "/images/phones/apple/apple-iphone-5.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-5.jpg"
+      "/images/phones/apple/apple-iphone-5.jpg"
     ],
     "storeOffers": [
       {
@@ -145130,9 +145128,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-4s.jpg",
+    "image": "/images/phones/apple/apple-iphone-4s.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-4s.jpg"
+      "/images/phones/apple/apple-iphone-4s.jpg"
     ],
     "storeOffers": [
       {
@@ -145293,9 +145291,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-4.jpg",
+    "image": "/images/phones/apple/apple-iphone-4.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-4.jpg"
+      "/images/phones/apple/apple-iphone-4.jpg"
     ],
     "storeOffers": [
       {
@@ -145456,9 +145454,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-4.jpg",
+    "image": "/images/phones/apple/apple-iphone-4.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-4.jpg"
+      "/images/phones/apple/apple-iphone-4.jpg"
     ],
     "storeOffers": [
       {
@@ -145619,9 +145617,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-3gs.jpg",
+    "image": "/images/phones/apple/apple-iphone-3gs.jpg",
     "images": [
-      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-3gs.jpg"
+      "/images/phones/apple/apple-iphone-3gs.jpg"
     ],
     "storeOffers": [
       {
@@ -145782,9 +145780,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-3inch-deserttitanium?fmt=jpeg&qlt=95",
+    "image": "/images/phones/apple/apple-iphone-3g.jpg",
     "images": [
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-3inch-deserttitanium?fmt=jpeg&qlt=95"
+      "/images/phones/apple/apple-iphone-3g.jpg"
     ],
     "storeOffers": [
       {
@@ -145945,9 +145943,9 @@ export const mockSmartphones: Smartphone[] = [
       "4G LTE Gelişmiş Bağlantı",
       "MagSafe Kablosuz Şarj & iOS Entegrasyonu"
     ],
-    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-3inch-deserttitanium?fmt=jpeg&qlt=95",
+    "image": "/images/phones/apple/apple-iphone-2g.jpg",
     "images": [
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-3inch-deserttitanium?fmt=jpeg&qlt=95"
+      "/images/phones/apple/apple-iphone-2g.jpg"
     ],
     "storeOffers": [
       {
