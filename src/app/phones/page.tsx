@@ -30,7 +30,7 @@ function PhoneCatalogContent() {
     minRam: undefined,
     minStorage: undefined,
     only5G: false,
-    sortBy: 'rating'
+    sortBy: 'releaseYear'
   });
 
   useEffect(() => {
@@ -139,16 +139,16 @@ function PhoneCatalogContent() {
           <div className="relative group/sort flex items-center gap-2 bg-white/90 hover:bg-slate-50/90 border border-slate-200/90 hover:border-emerald-500/50 rounded-2xl px-4 py-2.5 shadow-xs transition-all duration-200 text-xs">
             <ArrowUpDown className="w-4 h-4 text-emerald-600 shrink-0" />
             <select
-              value={filters.sortBy || 'rating'}
+              value={filters.sortBy || 'releaseYear'}
               onChange={(e) => setFilters({ ...filters, sortBy: e.target.value as FilterOptions['sortBy'] })}
               className="bg-transparent text-slate-900 font-extrabold focus:outline-none cursor-pointer pr-1"
             >
-              <option value="rating">Puan Durumu (Önce En Yüksek)</option>
+              <option value="releaseYear">Çıkış Yılı (En Yeni Modeller)</option>
               <option value="popular">Öne Çıkanlar</option>
+              <option value="rating">Puan Durumu (Önce En Yüksek)</option>
               <option value="priceAsc">Fiyat (Önce En Düşük)</option>
               <option value="priceDesc">Fiyat (Önce En Yüksek)</option>
               <option value="antutu">AnTuTu Performansı</option>
-              <option value="releaseYear">En Yeni Modeller</option>
             </select>
           </div>
         </div>

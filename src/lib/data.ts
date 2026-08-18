@@ -237,16 +237,22 @@ export async function filterSmartphones(options: FilterOptions): Promise<Smartph
         phones.sort((a, b) => (b.specs?.processor?.antutuScore || 0) - (a.specs?.processor?.antutuScore || 0));
         break;
       case 'releaseYear':
-        phones.sort((a, b) => b.releaseYear - a.releaseYear);
-        break;
       case 'rating':
       case 'popular':
       default:
-        phones.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+        phones.sort((a, b) => {
+          const yearDiff = (b.releaseYear || 2024) - (a.releaseYear || 2024);
+          if (yearDiff !== 0) return yearDiff;
+          return (b.rating || 0) - (a.rating || 0);
+        });
         break;
     }
   } else {
-    phones.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+    phones.sort((a, b) => {
+      const yearDiff = (b.releaseYear || 2024) - (a.releaseYear || 2024);
+      if (yearDiff !== 0) return yearDiff;
+      return (b.rating || 0) - (a.rating || 0);
+    });
   }
 
   return phones;
