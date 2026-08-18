@@ -2,6 +2,942 @@ import { Product } from './types';
 
 export const mockSmartwatches: Product[] = [
   {
+    "id": "oneplus-oneplus-watch-4",
+    "slug": "oneplus-watch-4",
+    "name": "OnePlus Watch 4",
+    "brand": "OnePlus",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 302,
+    "basePrice": 8499,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-watch-4.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-watch-4.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "Akıllı Saat"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-watch-4",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Watch%204"
+      },
+      {
+        "id": "st-ty-oneplus-watch-4",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8329,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Watch%204"
+      },
+      {
+        "id": "st-vatan-oneplus-watch-4",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 8669,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Watch%204/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9009,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 8839,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 8669,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 8584,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "oneplus-oneplus-watch-lite",
+    "slug": "oneplus-watch-lite",
+    "name": "OnePlus Watch Lite",
+    "brand": "OnePlus",
+    "category": "smartwatches",
+    "rating": 4.5,
+    "reviewCount": 345,
+    "basePrice": 8499,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-watch-lite.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-watch-lite.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "Akıllı Saat"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-watch-lite",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Watch%20Lite"
+      },
+      {
+        "id": "st-ty-oneplus-watch-lite",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8329,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Watch%20Lite"
+      },
+      {
+        "id": "st-vatan-oneplus-watch-lite",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 8669,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Watch%20Lite/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9009,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 8839,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 8669,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 8584,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "oneplus-oneplus-watch-3-43mm",
+    "slug": "oneplus-watch-3-43mm",
+    "name": "OnePlus Watch 3 43mm",
+    "brand": "OnePlus",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 237,
+    "basePrice": 8499,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-watch-3-43mm.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-watch-3-43mm.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "Akıllı Saat"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-watch-3-43mm",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Watch%203%2043mm"
+      },
+      {
+        "id": "st-ty-oneplus-watch-3-43mm",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8329,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Watch%203%2043mm"
+      },
+      {
+        "id": "st-vatan-oneplus-watch-3-43mm",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 8669,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Watch%203%2043mm/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9009,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 8839,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 8669,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 8584,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "oneplus-oneplus-watch-3",
+    "slug": "oneplus-watch-3",
+    "name": "OnePlus Watch 3",
+    "brand": "OnePlus",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 248,
+    "basePrice": 8499,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-watch-3.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-watch-3.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "Akıllı Saat"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-watch-3",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Watch%203"
+      },
+      {
+        "id": "st-ty-oneplus-watch-3",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8329,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Watch%203"
+      },
+      {
+        "id": "st-vatan-oneplus-watch-3",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 8669,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Watch%203/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9009,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 8839,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 8669,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 8584,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "oneplus-oneplus-watch-2r",
+    "slug": "oneplus-watch-2r",
+    "name": "OnePlus Watch 2R",
+    "brand": "OnePlus",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 89,
+    "basePrice": 8499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-watch-2r.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-watch-2r.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "Akıllı Saat"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-watch-2r",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Watch%202R"
+      },
+      {
+        "id": "st-ty-oneplus-watch-2r",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8329,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Watch%202R"
+      },
+      {
+        "id": "st-vatan-oneplus-watch-2r",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 8669,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Watch%202R/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9009,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 8839,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 8669,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 8584,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "oneplus-oneplus-watch-2-esim",
+    "slug": "oneplus-watch-2-esim",
+    "name": "OnePlus Watch 2 (eSIM)",
+    "brand": "OnePlus",
+    "category": "smartwatches",
+    "rating": 4.6,
+    "reviewCount": 361,
+    "basePrice": 8499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-watch-2-esim.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-watch-2-esim.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "Akıllı Saat"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-watch-2-esim",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Watch%202%20(eSIM)"
+      },
+      {
+        "id": "st-ty-oneplus-watch-2-esim",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8329,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Watch%202%20(eSIM)"
+      },
+      {
+        "id": "st-vatan-oneplus-watch-2-esim",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 8669,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Watch%202%20(eSIM)/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9009,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 8839,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 8669,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 8584,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "oneplus-oneplus-watch-2",
+    "slug": "oneplus-watch-2",
+    "name": "OnePlus Watch 2",
+    "brand": "OnePlus",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 323,
+    "basePrice": 8499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-watch-2.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-watch-2.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "Akıllı Saat"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-watch-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Watch%202"
+      },
+      {
+        "id": "st-ty-oneplus-watch-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8329,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Watch%202"
+      },
+      {
+        "id": "st-vatan-oneplus-watch-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 8669,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Watch%202/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9009,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 8839,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 8669,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 8584,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "oneplus-oneplus-nord-watch",
+    "slug": "oneplus-nord-watch",
+    "name": "OnePlus Nord Watch",
+    "brand": "OnePlus",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 279,
+    "basePrice": 8499,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord-watch.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-watch.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "Akıllı Saat"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-watch",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%20Watch"
+      },
+      {
+        "id": "st-ty-oneplus-nord-watch",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8329,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%20Watch"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-watch",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 8669,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%20Watch/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9009,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 8839,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 8669,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 8584,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "oneplus-oneplus-watch",
+    "slug": "oneplus-watch",
+    "name": "OnePlus Watch",
+    "brand": "OnePlus",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 88,
+    "basePrice": 8499,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-watch.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-watch.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "Akıllı Saat"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-watch",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Watch"
+      },
+      {
+        "id": "st-ty-oneplus-watch",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8329,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Watch"
+      },
+      {
+        "id": "st-vatan-oneplus-watch",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 8669,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Watch/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9009,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 8839,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 8669,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 8584,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "apple-watch-ultra-2",
     "slug": "apple-watch-ultra-2-titanyum",
     "name": "APPLE Watch Ultra 2 Titanyum Kasa 49mm / GPS + Cellular / Siyah Titanyum / Ocean Kordon Akıllı Saat",

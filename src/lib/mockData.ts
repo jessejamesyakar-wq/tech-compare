@@ -2,6 +2,14809 @@ import { Smartphone } from './types';
 
 export const mockSmartphones: Smartphone[] = [
   {
+    "id": "oneplus-oneplus-n6x",
+    "slug": "oneplus-n6x",
+    "name": "OnePlus N6x",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.9,
+    "reviewCount": 229,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-n6x.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-n6x.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-n6x",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20N6x"
+      },
+      {
+        "id": "st-ty-oneplus-n6x",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 24499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20N6x"
+      },
+      {
+        "id": "st-vatan-oneplus-n6x",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 25499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20N6x/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 26499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 25999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 25499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 25249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 24999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 24999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-n6",
+    "slug": "oneplus-n6",
+    "name": "OnePlus N6",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 140,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-n6.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-n6.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-n6",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20N6"
+      },
+      {
+        "id": "st-ty-oneplus-n6",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 24499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20N6"
+      },
+      {
+        "id": "st-vatan-oneplus-n6",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 25499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20N6/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 26499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 25999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 25499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 25249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 24999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 24999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-turbo-6x-pro-5g",
+    "slug": "oneplus-turbo-6x-pro-5g",
+    "name": "OnePlus Turbo 6X Pro",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 91,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-turbo-6x-pro-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-turbo-6x-pro-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP Sony IMX OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "16 GB RAM + 512 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği",
+      "Amiral Gemisi"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-turbo-6x-pro-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Turbo%206X%20Pro"
+      },
+      {
+        "id": "st-ty-oneplus-turbo-6x-pro-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 24499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Turbo%206X%20Pro"
+      },
+      {
+        "id": "st-vatan-oneplus-turbo-6x-pro-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 25499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Turbo%206X%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 26499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 25999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 25499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 25249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 24999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 24999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 16,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Sony IMX OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-turbo-6x-5g",
+    "slug": "oneplus-turbo-6x-5g",
+    "name": "OnePlus Turbo 6X",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 92,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-turbo-6x-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-turbo-6x-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-turbo-6x-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Turbo%206X"
+      },
+      {
+        "id": "st-ty-oneplus-turbo-6x-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 24499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Turbo%206X"
+      },
+      {
+        "id": "st-vatan-oneplus-turbo-6x-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 25499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Turbo%206X/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 26499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 25999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 25499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 25249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 24999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 24999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-ce6-5g",
+    "slug": "oneplus-nord-ce6-5g",
+    "name": "OnePlus Nord CE6",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 291,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-nord-ce6-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-ce6-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-ce6-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%20CE6"
+      },
+      {
+        "id": "st-ty-oneplus-nord-ce6-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%20CE6"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-ce6-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%20CE6/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-ce6-lite-5g",
+    "slug": "oneplus-nord-ce6-lite-5g",
+    "name": "OnePlus Nord CE6 Lite",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 247,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-nord-ce6-lite-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-ce6-lite-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-ce6-lite-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%20CE6%20Lite"
+      },
+      {
+        "id": "st-ty-oneplus-nord-ce6-lite-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%20CE6%20Lite"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-ce6-lite-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%20CE6%20Lite/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-ace-6-ultra-5g",
+    "slug": "oneplus-ace-6-ultra-5g",
+    "name": "OnePlus Ace 6 Ultra",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 317,
+    "basePrice": 36999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-ace-6-ultra-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-ace-6-ultra-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP Sony IMX OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "16 GB RAM + 512 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği",
+      "Amiral Gemisi"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-ace-6-ultra-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 36999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Ace%206%20Ultra"
+      },
+      {
+        "id": "st-ty-oneplus-ace-6-ultra-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 36259,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Ace%206%20Ultra"
+      },
+      {
+        "id": "st-vatan-oneplus-ace-6-ultra-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 37739,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Ace%206%20Ultra/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 39219,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 38479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 37739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 37369,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 36999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 36999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 16,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Sony IMX OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-6-5g",
+    "slug": "oneplus-nord-6-5g",
+    "name": "OnePlus Nord 6",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 238,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-nord-6-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-6-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-6-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%206"
+      },
+      {
+        "id": "st-ty-oneplus-nord-6-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%206"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-6-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%206/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-15t-5g",
+    "slug": "oneplus-15t-5g",
+    "name": "OnePlus 15T",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 365,
+    "basePrice": 49999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-15t-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-15t-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-15t-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 49999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%2015T"
+      },
+      {
+        "id": "st-ty-oneplus-15t-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 48999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%2015T"
+      },
+      {
+        "id": "st-vatan-oneplus-15t-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 50999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%2015T/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 52999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 51999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 50999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 50499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 49999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 49999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 Elite / Gen 3",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-turbo-6-5g",
+    "slug": "oneplus-turbo-6-5g",
+    "name": "OnePlus Turbo 6",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 240,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-turbo-6-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-turbo-6-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-turbo-6-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Turbo%206"
+      },
+      {
+        "id": "st-ty-oneplus-turbo-6-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 24499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Turbo%206"
+      },
+      {
+        "id": "st-vatan-oneplus-turbo-6-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 25499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Turbo%206/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 26499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 25999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 25499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 25249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 24999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 24999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-turbo-6v-5g",
+    "slug": "oneplus-turbo-6v-5g",
+    "name": "OnePlus Turbo 6V",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.9,
+    "reviewCount": 84,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-turbo-6v-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-turbo-6v-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-turbo-6v-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Turbo%206V"
+      },
+      {
+        "id": "st-ty-oneplus-turbo-6v-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 24499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Turbo%206V"
+      },
+      {
+        "id": "st-vatan-oneplus-turbo-6v-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 25499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Turbo%206V/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 26499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 25999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 25499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 25249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 24999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 24999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-15r-5g",
+    "slug": "oneplus-15r-5g",
+    "name": "OnePlus 15R",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 338,
+    "basePrice": 49999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-15r-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-15r-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-15r-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 49999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%2015R"
+      },
+      {
+        "id": "st-ty-oneplus-15r-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 48999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%2015R"
+      },
+      {
+        "id": "st-vatan-oneplus-15r-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 50999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%2015R/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 52999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 51999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 50999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 50499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 49999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 49999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 Elite / Gen 3",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-ace-6t-5g",
+    "slug": "oneplus-ace-6t-5g",
+    "name": "OnePlus Ace 6T",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 295,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-ace-6t-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-ace-6t-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-ace-6t-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Ace%206T"
+      },
+      {
+        "id": "st-ty-oneplus-ace-6t-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 28419,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Ace%206T"
+      },
+      {
+        "id": "st-vatan-oneplus-ace-6t-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 29579,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Ace%206T/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 30739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 30159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 29579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 29289,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 28999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 28999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-15-5g",
+    "slug": "oneplus-15-5g",
+    "name": "OnePlus 15",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 186,
+    "basePrice": 49999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-15-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-15-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-15-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 49999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%2015"
+      },
+      {
+        "id": "st-ty-oneplus-15-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 48999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%2015"
+      },
+      {
+        "id": "st-vatan-oneplus-15-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 50999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%2015/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 52999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 51999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 50999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 50499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 49999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 49999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 Elite / Gen 3",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-ace-6-5g",
+    "slug": "oneplus-ace-6-5g",
+    "name": "OnePlus Ace 6",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.9,
+    "reviewCount": 239,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-ace-6-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-ace-6-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-ace-6-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Ace%206"
+      },
+      {
+        "id": "st-ty-oneplus-ace-6-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 28419,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Ace%206"
+      },
+      {
+        "id": "st-vatan-oneplus-ace-6-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 29579,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Ace%206/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 30739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 30159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 29579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 29289,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 28999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 28999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-5-5g",
+    "slug": "oneplus-nord-5-5g",
+    "name": "OnePlus Nord 5",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 272,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-nord-5-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-5-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-5-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%205"
+      },
+      {
+        "id": "st-ty-oneplus-nord-5-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%205"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-5-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%205/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-ce5-5g",
+    "slug": "oneplus-nord-ce5-5g",
+    "name": "OnePlus Nord CE5",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 372,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-nord-ce5-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-ce5-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-ce5-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%20CE5"
+      },
+      {
+        "id": "st-ty-oneplus-nord-ce5-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%20CE5"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-ce5-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%20CE5/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-13s-5g",
+    "slug": "oneplus-13s-5g",
+    "name": "OnePlus 13s",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 98,
+    "basePrice": 42999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-13s-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-13s-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-13s-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 42999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%2013s"
+      },
+      {
+        "id": "st-ty-oneplus-13s-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 42139,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%2013s"
+      },
+      {
+        "id": "st-vatan-oneplus-13s-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 43859,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%2013s/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 45579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 44719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 43859,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 43429,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 42999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 42999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 Elite / Gen 3",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-ace-5-ultra-5g",
+    "slug": "oneplus-ace-5-ultra-5g",
+    "name": "OnePlus Ace 5 Ultra",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 171,
+    "basePrice": 36999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-ace-5-ultra-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-ace-5-ultra-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP Sony IMX OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "16 GB RAM + 512 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği",
+      "Amiral Gemisi"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-ace-5-ultra-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 36999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Ace%205%20Ultra"
+      },
+      {
+        "id": "st-ty-oneplus-ace-5-ultra-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 36259,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Ace%205%20Ultra"
+      },
+      {
+        "id": "st-vatan-oneplus-ace-5-ultra-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 37739,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Ace%205%20Ultra/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 39219,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 38479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 37739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 37369,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 36999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 36999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 16,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Sony IMX OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-ace-5-racing-5g",
+    "slug": "oneplus-ace-5-racing-5g",
+    "name": "OnePlus Ace 5 Racing",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 172,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-ace-5-racing-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-ace-5-racing-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-ace-5-racing-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Ace%205%20Racing"
+      },
+      {
+        "id": "st-ty-oneplus-ace-5-racing-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 28419,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Ace%205%20Racing"
+      },
+      {
+        "id": "st-vatan-oneplus-ace-5-racing-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 29579,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Ace%205%20Racing/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 30739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 30159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 29579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 29289,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 28999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 28999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-13t-5g",
+    "slug": "oneplus-13t-5g",
+    "name": "OnePlus 13T",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 371,
+    "basePrice": 42999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-13t-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-13t-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-13t-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 42999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%2013T"
+      },
+      {
+        "id": "st-ty-oneplus-13t-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 42139,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%2013T"
+      },
+      {
+        "id": "st-vatan-oneplus-13t-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 43859,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%2013T/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 45579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 44719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 43859,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 43429,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 42999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 42999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 Elite / Gen 3",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-13r",
+    "slug": "oneplus-13r",
+    "name": "OnePlus 13R",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 128,
+    "basePrice": 42999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-13r.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-13r.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-13r",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 42999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%2013R"
+      },
+      {
+        "id": "st-ty-oneplus-13r",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 42139,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%2013R"
+      },
+      {
+        "id": "st-vatan-oneplus-13r",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 43859,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%2013R/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 45579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 44719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 43859,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 43429,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 42999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 42999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 Elite / Gen 3",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-ace-5-pro",
+    "slug": "oneplus-ace-5-pro",
+    "name": "OnePlus Ace 5 Pro",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 171,
+    "basePrice": 36999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-ace-5-pro.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-ace-5-pro.jpg"
+    ],
+    "highlights": [
+      "50 MP Sony IMX OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "16 GB RAM + 512 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği",
+      "Amiral Gemisi"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-ace-5-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 36999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Ace%205%20Pro"
+      },
+      {
+        "id": "st-ty-oneplus-ace-5-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 36259,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Ace%205%20Pro"
+      },
+      {
+        "id": "st-vatan-oneplus-ace-5-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 37739,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Ace%205%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 39219,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 38479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 37739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 37369,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 36999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 36999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 16,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Sony IMX OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-ace-5",
+    "slug": "oneplus-ace-5",
+    "name": "OnePlus Ace 5",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 172,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/oneplus/oneplus-ace-5.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-ace-5.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-ace-5",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Ace%205"
+      },
+      {
+        "id": "st-ty-oneplus-ace-5",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 28419,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Ace%205"
+      },
+      {
+        "id": "st-vatan-oneplus-ace-5",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 29579,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Ace%205/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 30739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 30159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 29579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 29289,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 28999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 28999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-13",
+    "slug": "oneplus-13",
+    "name": "OnePlus 13",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 357,
+    "basePrice": 42999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-13.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-13.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-13",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 42999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%2013"
+      },
+      {
+        "id": "st-ty-oneplus-13",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 42139,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%2013"
+      },
+      {
+        "id": "st-vatan-oneplus-13",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 43859,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%2013/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 45579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 44719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 43859,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 43429,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 42999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 42999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 Elite / Gen 3",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-4",
+    "slug": "oneplus-nord-4",
+    "name": "OnePlus Nord 4",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 80,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord-4.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-4.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-4",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%204"
+      },
+      {
+        "id": "st-ty-oneplus-nord-4",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%204"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-4",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%204/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-ace-3-pro",
+    "slug": "oneplus-ace-3-pro",
+    "name": "OnePlus Ace 3 Pro",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.9,
+    "reviewCount": 359,
+    "basePrice": 36999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-ace-3-pro.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-ace-3-pro.jpg"
+    ],
+    "highlights": [
+      "50 MP Sony IMX OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "16 GB RAM + 512 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği",
+      "Amiral Gemisi"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-ace-3-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 36999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Ace%203%20Pro"
+      },
+      {
+        "id": "st-ty-oneplus-ace-3-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 36259,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Ace%203%20Pro"
+      },
+      {
+        "id": "st-vatan-oneplus-ace-3-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 37739,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Ace%203%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 39219,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 38479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 37739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 37369,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 36999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 36999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 16,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Sony IMX OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-ce4-lite",
+    "slug": "oneplus-nord-ce4-lite",
+    "name": "OnePlus Nord CE4 Lite",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 346,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord-ce4-lite.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-ce4-lite.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-ce4-lite",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%20CE4%20Lite"
+      },
+      {
+        "id": "st-ty-oneplus-nord-ce4-lite",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%20CE4%20Lite"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-ce4-lite",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%20CE4%20Lite/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-ce4-lite-india",
+    "slug": "oneplus-nord-ce4-lite-india",
+    "name": "OnePlus Nord CE4 Lite (India)",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 335,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord-ce4-lite-india.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-ce4-lite-india.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-ce4-lite-india",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%20CE4%20Lite%20(India)"
+      },
+      {
+        "id": "st-ty-oneplus-nord-ce4-lite-india",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%20CE4%20Lite%20(India)"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-ce4-lite-india",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%20CE4%20Lite%20(India)/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-ace-3v",
+    "slug": "oneplus-ace-3v",
+    "name": "OnePlus Ace 3V",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.9,
+    "reviewCount": 369,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-ace-3v.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-ace-3v.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-ace-3v",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Ace%203V"
+      },
+      {
+        "id": "st-ty-oneplus-ace-3v",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 28419,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Ace%203V"
+      },
+      {
+        "id": "st-vatan-oneplus-ace-3v",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 29579,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Ace%203V/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 30739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 30159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 29579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 29289,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 28999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 28999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-ce4",
+    "slug": "oneplus-nord-ce4",
+    "name": "OnePlus Nord CE4",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 372,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord-ce4.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-ce4.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-ce4",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%20CE4"
+      },
+      {
+        "id": "st-ty-oneplus-nord-ce4",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%20CE4"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-ce4",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%20CE4/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-n30-se",
+    "slug": "oneplus-nord-n30-se",
+    "name": "OnePlus Nord N30 SE",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 291,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord-n30-se.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-n30-se.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-n30-se",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%20N30%20SE"
+      },
+      {
+        "id": "st-ty-oneplus-nord-n30-se",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%20N30%20SE"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-n30-se",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%20N30%20SE/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-12r",
+    "slug": "oneplus-12r",
+    "name": "OnePlus 12R",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 207,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-12r.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-12r.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-12r",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%2012R"
+      },
+      {
+        "id": "st-ty-oneplus-12r",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%2012R"
+      },
+      {
+        "id": "st-vatan-oneplus-12r",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 35699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%2012R/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 37099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 36399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 35699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 35349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-12",
+    "slug": "oneplus-12",
+    "name": "OnePlus 12",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 205,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-12.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-12.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-12",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%2012"
+      },
+      {
+        "id": "st-ty-oneplus-12",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%2012"
+      },
+      {
+        "id": "st-vatan-oneplus-12",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 35699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%2012/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 37099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 36399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 35699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 35349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-ace-3",
+    "slug": "oneplus-ace-3",
+    "name": "OnePlus Ace 3",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 255,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-ace-3.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-ace-3.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-ace-3",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Ace%203"
+      },
+      {
+        "id": "st-ty-oneplus-ace-3",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 28419,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Ace%203"
+      },
+      {
+        "id": "st-vatan-oneplus-ace-3",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 29579,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Ace%203/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 30739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 30159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 29579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 29289,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 28999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 28999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-open",
+    "slug": "oneplus-open",
+    "name": "OnePlus Open",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.9,
+    "reviewCount": 99,
+    "basePrice": 74999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-open.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-open.jpg"
+    ],
+    "highlights": [
+      "48 MP Hasselblad Üçlü Kamera Gelişmiş Kamera",
+      "4805 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "16 GB RAM + 512 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği",
+      "Katlanabilir Ekran"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-open",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 74999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Open"
+      },
+      {
+        "id": "st-ty-oneplus-open",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 73499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Open"
+      },
+      {
+        "id": "st-vatan-oneplus-open",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 76499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Open/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 79499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 77999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 76499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 75749,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 74999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 74999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "7.82 inç Katlanabilir 120Hz LTPO3 Flexi-fluid AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 16,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Hasselblad Üçlü Kamera",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 4805,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-ace-2-pro",
+    "slug": "oneplus-ace-2-pro",
+    "name": "OnePlus Ace 2 Pro",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 253,
+    "basePrice": 36999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-ace-2-pro.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-ace-2-pro.jpg"
+    ],
+    "highlights": [
+      "50 MP Sony IMX OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "16 GB RAM + 512 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği",
+      "Amiral Gemisi"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-ace-2-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 36999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Ace%202%20Pro"
+      },
+      {
+        "id": "st-ty-oneplus-ace-2-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 36259,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Ace%202%20Pro"
+      },
+      {
+        "id": "st-vatan-oneplus-ace-2-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 37739,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Ace%202%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 39219,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 38479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 37739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 37369,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 36999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 36999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 16,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Sony IMX OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-ce3",
+    "slug": "oneplus-nord-ce3",
+    "name": "OnePlus Nord CE3",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 357,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord-ce3.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-ce3.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-ce3",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%20CE3"
+      },
+      {
+        "id": "st-ty-oneplus-nord-ce3",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%20CE3"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-ce3",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%20CE3/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-3",
+    "slug": "oneplus-nord-3",
+    "name": "OnePlus Nord 3",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 215,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord-ce6.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-ce6.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-3",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%203"
+      },
+      {
+        "id": "st-ty-oneplus-nord-3",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%203"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-3",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%203/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-n30",
+    "slug": "oneplus-nord-n30",
+    "name": "OnePlus Nord N30",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 300,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord-n30.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-n30.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-n30",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%20N30"
+      },
+      {
+        "id": "st-ty-oneplus-nord-n30",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%20N30"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-n30",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%20N30/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-ce-3-lite",
+    "slug": "oneplus-nord-ce-3-lite",
+    "name": "OnePlus Nord CE 3 Lite",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 278,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord-ce6.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-ce6.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-ce-3-lite",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%20CE%203%20Lite"
+      },
+      {
+        "id": "st-ty-oneplus-nord-ce-3-lite",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%20CE%203%20Lite"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-ce-3-lite",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%20CE%203%20Lite/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-ace-2v",
+    "slug": "oneplus-ace-2v",
+    "name": "OnePlus Ace 2V",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 238,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-ace-2v.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-ace-2v.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-ace-2v",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Ace%202V"
+      },
+      {
+        "id": "st-ty-oneplus-ace-2v",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 28419,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Ace%202V"
+      },
+      {
+        "id": "st-vatan-oneplus-ace-2v",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 29579,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Ace%202V/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 30739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 30159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 29579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 29289,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 28999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 28999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-11r",
+    "slug": "oneplus-11r",
+    "name": "OnePlus 11R",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 295,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-15.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-11r",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%2011R"
+      },
+      {
+        "id": "st-ty-oneplus-11r",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%2011R"
+      },
+      {
+        "id": "st-vatan-oneplus-11r",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 35699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%2011R/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 37099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 36399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 35699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 35349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-ace-2",
+    "slug": "oneplus-ace-2",
+    "name": "OnePlus Ace 2",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 183,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-ace-2.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-ace-2.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-ace-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Ace%202"
+      },
+      {
+        "id": "st-ty-oneplus-ace-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 28419,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Ace%202"
+      },
+      {
+        "id": "st-vatan-oneplus-ace-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 29579,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Ace%202/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 30739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 30159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 29579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 29289,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 28999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 28999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-11",
+    "slug": "oneplus-11",
+    "name": "OnePlus 11",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 273,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-11.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-11.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-11",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%2011"
+      },
+      {
+        "id": "st-ty-oneplus-11",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%2011"
+      },
+      {
+        "id": "st-vatan-oneplus-11",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 35699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%2011/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 37099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 36399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 35699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 35349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-n300",
+    "slug": "oneplus-nord-n300",
+    "name": "OnePlus Nord N300",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.9,
+    "reviewCount": 329,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord-n300.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-n300.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-n300",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%20N300"
+      },
+      {
+        "id": "st-ty-oneplus-nord-n300",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%20N300"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-n300",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%20N300/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-ace-pro",
+    "slug": "oneplus-ace-pro",
+    "name": "OnePlus Ace Pro",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 125,
+    "basePrice": 36999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-ace-6t.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-ace-6t.jpg"
+    ],
+    "highlights": [
+      "50 MP Sony IMX OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "16 GB RAM + 512 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği",
+      "Amiral Gemisi"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-ace-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 36999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Ace%20Pro"
+      },
+      {
+        "id": "st-ty-oneplus-ace-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 36259,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Ace%20Pro"
+      },
+      {
+        "id": "st-vatan-oneplus-ace-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 37739,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Ace%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 39219,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 38479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 37739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 37369,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 36999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 36999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 16,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Sony IMX OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-n20-se",
+    "slug": "oneplus-nord-n20-se",
+    "name": "OnePlus Nord N20 SE",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 118,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord-n20-se.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-n20-se.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-n20-se",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%20N20%20SE"
+      },
+      {
+        "id": "st-ty-oneplus-nord-n20-se",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%20N20%20SE"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-n20-se",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%20N20%20SE/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-10t",
+    "slug": "oneplus-10t",
+    "name": "OnePlus 10T",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 302,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-10t.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-10t.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-10t",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%2010T"
+      },
+      {
+        "id": "st-ty-oneplus-10t",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%2010T"
+      },
+      {
+        "id": "st-vatan-oneplus-10t",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 35699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%2010T/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 37099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 36399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 35699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 35349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-2t",
+    "slug": "oneplus-nord-2t",
+    "name": "OnePlus Nord 2T",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 197,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord-2t.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-2t.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-2t",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%202T"
+      },
+      {
+        "id": "st-ty-oneplus-nord-2t",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%202T"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-2t",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%202T/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-ace-racing",
+    "slug": "oneplus-ace-racing",
+    "name": "OnePlus Ace Racing",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.9,
+    "reviewCount": 209,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-ace-6t.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-ace-6t.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-ace-racing",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Ace%20Racing"
+      },
+      {
+        "id": "st-ty-oneplus-ace-racing",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 28419,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Ace%20Racing"
+      },
+      {
+        "id": "st-vatan-oneplus-ace-racing",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 29579,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Ace%20Racing/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 30739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 30159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 29579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 29289,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 28999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 28999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-n20-5g",
+    "slug": "oneplus-nord-n20-5g",
+    "name": "OnePlus Nord N20 5G",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 198,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord-n20-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-n20-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-n20-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%20N20%205G"
+      },
+      {
+        "id": "st-ty-oneplus-nord-n20-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%20N20%205G"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-n20-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%20N20%205G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-10r-150w",
+    "slug": "oneplus-10r-150w",
+    "name": "OnePlus 10R 150W",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 278,
+    "basePrice": 49999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-15.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-10r-150w",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 49999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%2010R%20150W"
+      },
+      {
+        "id": "st-ty-oneplus-10r-150w",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 48999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%2010R%20150W"
+      },
+      {
+        "id": "st-vatan-oneplus-10r-150w",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 50999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%2010R%20150W/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 52999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 51999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 50999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 50499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 49999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 49999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 Elite / Gen 3",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-10r",
+    "slug": "oneplus-10r",
+    "name": "OnePlus 10R",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 125,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-10r.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-10r.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-10r",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%2010R"
+      },
+      {
+        "id": "st-ty-oneplus-10r",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%2010R"
+      },
+      {
+        "id": "st-vatan-oneplus-10r",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 35699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%2010R/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 37099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 36399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 35699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 35349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-ce-2-lite-5g",
+    "slug": "oneplus-nord-ce-2-lite-5g",
+    "name": "OnePlus Nord CE 2 Lite 5G",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.9,
+    "reviewCount": 324,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord-ce6.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-ce6.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-ce-2-lite-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%20CE%202%20Lite%205G"
+      },
+      {
+        "id": "st-ty-oneplus-nord-ce-2-lite-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%20CE%202%20Lite%205G"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-ce-2-lite-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%20CE%202%20Lite%205G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-ace",
+    "slug": "oneplus-ace",
+    "name": "OnePlus Ace",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 168,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-ace.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-ace.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-ace",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Ace"
+      },
+      {
+        "id": "st-ty-oneplus-ace",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 28419,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Ace"
+      },
+      {
+        "id": "st-vatan-oneplus-ace",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 29579,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Ace/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 30739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 30159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 29579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 29289,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 28999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 28999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-10-pro",
+    "slug": "oneplus-10-pro",
+    "name": "OnePlus 10 Pro",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.9,
+    "reviewCount": 214,
+    "basePrice": 58999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-10-pro.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-10-pro.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "16 GB RAM + 512 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği",
+      "Amiral Gemisi"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-10-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 58999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%2010%20Pro"
+      },
+      {
+        "id": "st-ty-oneplus-10-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 57819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%2010%20Pro"
+      },
+      {
+        "id": "st-vatan-oneplus-10-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 60179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%2010%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 62539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 61359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 60179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 59589,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 58999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 58999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 16,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-ce-2-5g",
+    "slug": "oneplus-nord-ce-2-5g",
+    "name": "OnePlus Nord CE 2 5G",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.9,
+    "reviewCount": 249,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord-ce-2-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-ce-2-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-ce-2-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%20CE%202%205G"
+      },
+      {
+        "id": "st-ty-oneplus-nord-ce-2-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%20CE%202%205G"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-ce-2-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%20CE%202%205G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-9rt-5g",
+    "slug": "oneplus-9rt-5g",
+    "name": "OnePlus 9RT 5G",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 128,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-15.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-9rt-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%209RT%205G"
+      },
+      {
+        "id": "st-ty-oneplus-9rt-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%209RT%205G"
+      },
+      {
+        "id": "st-vatan-oneplus-9rt-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 35699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%209RT%205G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 37099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 36399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 35699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 35349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-2-5g",
+    "slug": "oneplus-nord-2-5g",
+    "name": "OnePlus Nord 2 5G",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 240,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord-2-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-2-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-2-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%202%205G"
+      },
+      {
+        "id": "st-ty-oneplus-nord-2-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%202%205G"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-2-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%202%205G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-n200-5g",
+    "slug": "oneplus-nord-n200-5g",
+    "name": "OnePlus Nord N200 5G",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 241,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord-n200-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-n200-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-n200-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%20N200%205G"
+      },
+      {
+        "id": "st-ty-oneplus-nord-n200-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%20N200%205G"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-n200-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%20N200%205G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-ce-5g",
+    "slug": "oneplus-nord-ce-5g",
+    "name": "OnePlus Nord CE 5G",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.9,
+    "reviewCount": 224,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord-ce-5g.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-ce-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-ce-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%20CE%205G"
+      },
+      {
+        "id": "st-ty-oneplus-nord-ce-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%20CE%205G"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-ce-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%20CE%205G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-9-pro",
+    "slug": "oneplus-9-pro",
+    "name": "OnePlus 9 Pro",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 86,
+    "basePrice": 58999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-9-pro.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-9-pro.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "16 GB RAM + 512 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği",
+      "Amiral Gemisi"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-9-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 58999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%209%20Pro"
+      },
+      {
+        "id": "st-ty-oneplus-9-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 57819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%209%20Pro"
+      },
+      {
+        "id": "st-vatan-oneplus-9-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 60179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%209%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 62539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 61359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 60179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 59589,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 58999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 58999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 16,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-9",
+    "slug": "oneplus-9",
+    "name": "OnePlus 9",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 327,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-9.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-9.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-9",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%209"
+      },
+      {
+        "id": "st-ty-oneplus-9",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%209"
+      },
+      {
+        "id": "st-vatan-oneplus-9",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 35699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%209/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 37099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 36399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 35699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 35349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-9r",
+    "slug": "oneplus-9r",
+    "name": "OnePlus 9R",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 87,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-9r.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-9r.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-9r",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%209R"
+      },
+      {
+        "id": "st-ty-oneplus-9r",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%209R"
+      },
+      {
+        "id": "st-vatan-oneplus-9r",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 35699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%209R/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 37099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 36399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 35699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 35349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-n10-5g",
+    "slug": "oneplus-nord-n10-5g",
+    "name": "OnePlus Nord N10 5G",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 136,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord-ce6.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-ce6.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-n10-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%20N10%205G"
+      },
+      {
+        "id": "st-ty-oneplus-nord-n10-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%20N10%205G"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-n10-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%20N10%205G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-n100",
+    "slug": "oneplus-nord-n100",
+    "name": "OnePlus Nord N100",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 137,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord-ce6.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-ce6.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-n100",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%20N100"
+      },
+      {
+        "id": "st-ty-oneplus-nord-n100",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%20N100"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-n100",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%20N100/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-8t",
+    "slug": "oneplus-8t",
+    "name": "OnePlus 8T",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 300,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-8t.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-8t.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-8t",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%208T"
+      },
+      {
+        "id": "st-ty-oneplus-8t",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%208T"
+      },
+      {
+        "id": "st-vatan-oneplus-8t",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 35699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%208T/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 37099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 36399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 35699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 35349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-8t-5g",
+    "slug": "oneplus-8t-5g",
+    "name": "OnePlus 8T+ 5G",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 92,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-15.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-8t-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%208T%2B%205G"
+      },
+      {
+        "id": "st-ty-oneplus-8t-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%208T%2B%205G"
+      },
+      {
+        "id": "st-vatan-oneplus-8t-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 35699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%208T%2B%205G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 37099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 36399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 35699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 35349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord",
+    "slug": "oneplus-nord",
+    "name": "OnePlus Nord",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.9,
+    "reviewCount": 169,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord"
+      },
+      {
+        "id": "st-ty-oneplus-nord",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord"
+      },
+      {
+        "id": "st-vatan-oneplus-nord",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-8-pro",
+    "slug": "oneplus-8-pro",
+    "name": "OnePlus 8 Pro",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.9,
+    "reviewCount": 99,
+    "basePrice": 58999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-8-pro.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-8-pro.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "16 GB RAM + 512 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği",
+      "Amiral Gemisi"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-8-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 58999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%208%20Pro"
+      },
+      {
+        "id": "st-ty-oneplus-8-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 57819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%208%20Pro"
+      },
+      {
+        "id": "st-vatan-oneplus-8-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 60179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%208%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 62539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 61359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 60179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 59589,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 58999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 58999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 16,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-8",
+    "slug": "oneplus-8",
+    "name": "OnePlus 8",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 341,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-8.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-8.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-8",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%208"
+      },
+      {
+        "id": "st-ty-oneplus-8",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%208"
+      },
+      {
+        "id": "st-vatan-oneplus-8",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 35699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%208/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 37099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 36399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 35699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 35349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-8-5g-uw-verizon",
+    "slug": "oneplus-8-5g-uw-verizon",
+    "name": "OnePlus 8 5G UW (Verizon)",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 106,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-15.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-8-5g-uw-verizon",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%208%205G%20UW%20(Verizon)"
+      },
+      {
+        "id": "st-ty-oneplus-8-5g-uw-verizon",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%208%205G%20UW%20(Verizon)"
+      },
+      {
+        "id": "st-vatan-oneplus-8-5g-uw-verizon",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 35699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%208%205G%20UW%20(Verizon)/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 37099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 36399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 35699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 35349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-8-5g-t-mobile",
+    "slug": "oneplus-8-5g-t-mobile",
+    "name": "OnePlus 8 5G (T-Mobile)",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.9,
+    "reviewCount": 109,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-8-5g-t-mobile.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-8-5g-t-mobile.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-8-5g-t-mobile",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%208%205G%20(T-Mobile)"
+      },
+      {
+        "id": "st-ty-oneplus-8-5g-t-mobile",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%208%205G%20(T-Mobile)"
+      },
+      {
+        "id": "st-vatan-oneplus-8-5g-t-mobile",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 35699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%208%205G%20(T-Mobile)/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 37099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 36399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 35699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 35349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-7t-pro-5g-mclaren",
+    "slug": "oneplus-7t-pro-5g-mclaren",
+    "name": "OnePlus 7T Pro 5G McLaren",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 108,
+    "basePrice": 58999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-15.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "16 GB RAM + 512 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği",
+      "Amiral Gemisi"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-7t-pro-5g-mclaren",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 58999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%207T%20Pro%205G%20McLaren"
+      },
+      {
+        "id": "st-ty-oneplus-7t-pro-5g-mclaren",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 57819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%207T%20Pro%205G%20McLaren"
+      },
+      {
+        "id": "st-vatan-oneplus-7t-pro-5g-mclaren",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 60179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%207T%20Pro%205G%20McLaren/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 62539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 61359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 60179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 59589,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 58999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 58999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 16,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-7t-pro",
+    "slug": "oneplus-7t-pro",
+    "name": "OnePlus 7T Pro",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 352,
+    "basePrice": 58999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-7t-pro.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-7t-pro.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "16 GB RAM + 512 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği",
+      "Amiral Gemisi"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-7t-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 58999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%207T%20Pro"
+      },
+      {
+        "id": "st-ty-oneplus-7t-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 57819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%207T%20Pro"
+      },
+      {
+        "id": "st-vatan-oneplus-7t-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 60179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%207T%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 62539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 61359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 60179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 59589,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 58999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 58999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 16,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-7t",
+    "slug": "oneplus-7t",
+    "name": "OnePlus 7T",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 296,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-7t.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-7t.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-7t",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%207T"
+      },
+      {
+        "id": "st-ty-oneplus-7t",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%207T"
+      },
+      {
+        "id": "st-vatan-oneplus-7t",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 35699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%207T/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 37099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 36399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 35699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 35349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-7-pro-5g",
+    "slug": "oneplus-7-pro-5g",
+    "name": "OnePlus 7 Pro 5G",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.9,
+    "reviewCount": 184,
+    "basePrice": 58999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-15.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "16 GB RAM + 512 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği",
+      "Amiral Gemisi"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-7-pro-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 58999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%207%20Pro%205G"
+      },
+      {
+        "id": "st-ty-oneplus-7-pro-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 57819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%207%20Pro%205G"
+      },
+      {
+        "id": "st-vatan-oneplus-7-pro-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 60179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%207%20Pro%205G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 62539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 61359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 60179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 59589,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 58999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 58999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 16,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-7-pro",
+    "slug": "oneplus-7-pro",
+    "name": "OnePlus 7 Pro",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.9,
+    "reviewCount": 169,
+    "basePrice": 58999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-7-pro.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-7-pro.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "16 GB RAM + 512 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği",
+      "Amiral Gemisi"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-7-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 58999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%207%20Pro"
+      },
+      {
+        "id": "st-ty-oneplus-7-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 57819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%207%20Pro"
+      },
+      {
+        "id": "st-vatan-oneplus-7-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 60179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%207%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 62539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 61359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 60179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 59589,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 58999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 58999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 16,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-7",
+    "slug": "oneplus-7",
+    "name": "OnePlus 7",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 103,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-7.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-7.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-7",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%207"
+      },
+      {
+        "id": "st-ty-oneplus-7",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%207"
+      },
+      {
+        "id": "st-vatan-oneplus-7",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 35699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%207/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 37099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 36399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 35699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 35349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-6t-mclaren",
+    "slug": "oneplus-6t-mclaren",
+    "name": "OnePlus 6T McLaren",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.9,
+    "reviewCount": 249,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2018,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-15.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-6t-mclaren",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%206T%20McLaren"
+      },
+      {
+        "id": "st-ty-oneplus-6t-mclaren",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%206T%20McLaren"
+      },
+      {
+        "id": "st-vatan-oneplus-6t-mclaren",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 35699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%206T%20McLaren/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 37099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 36399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 35699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 35349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-6t",
+    "slug": "oneplus-6t",
+    "name": "OnePlus 6T",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 130,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2018,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-6t.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-6t.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-6t",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%206T"
+      },
+      {
+        "id": "st-ty-oneplus-6t",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%206T"
+      },
+      {
+        "id": "st-vatan-oneplus-6t",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 35699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%206T/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 37099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 36399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 35699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 35349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-6",
+    "slug": "oneplus-6",
+    "name": "OnePlus 6",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.9,
+    "reviewCount": 189,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2018,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-15.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-6",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%206"
+      },
+      {
+        "id": "st-ty-oneplus-6",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%206"
+      },
+      {
+        "id": "st-vatan-oneplus-6",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 35699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%206/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 37099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 36399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 35699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 35349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-5t",
+    "slug": "oneplus-5t",
+    "name": "OnePlus 5T",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 292,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2018,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-5t.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-5t.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-5t",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%205T"
+      },
+      {
+        "id": "st-ty-oneplus-5t",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%205T"
+      },
+      {
+        "id": "st-vatan-oneplus-5t",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 35699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%205T/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 37099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 36399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 35699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 35349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-5",
+    "slug": "oneplus-5",
+    "name": "OnePlus 5",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 327,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-5.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-5.jpg"
+    ],
+    "highlights": [
+      "50 MP Hasselblad OIS Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-5",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%205"
+      },
+      {
+        "id": "st-ty-oneplus-5",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 34299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%205"
+      },
+      {
+        "id": "st-vatan-oneplus-5",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 35699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%205/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 37099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 36399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 35699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 35349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP Hasselblad OIS",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-3t",
+    "slug": "oneplus-3t",
+    "name": "OnePlus 3T",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 96,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-15.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-3t",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%203T"
+      },
+      {
+        "id": "st-ty-oneplus-3t",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 24499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%203T"
+      },
+      {
+        "id": "st-vatan-oneplus-3t",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 25499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%203T/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 26499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 25999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 25499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 25249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 24999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 24999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-3",
+    "slug": "oneplus-3",
+    "name": "OnePlus 3",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 275,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-3.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-3.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-3",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%203"
+      },
+      {
+        "id": "st-ty-oneplus-3",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 24499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%203"
+      },
+      {
+        "id": "st-vatan-oneplus-3",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 25499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%203/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 26499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 25999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 25499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 25249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 24999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 24999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-x",
+    "slug": "oneplus-x",
+    "name": "OnePlus X",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 210,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-x.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-x.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-x",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20X"
+      },
+      {
+        "id": "st-ty-oneplus-x",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 24499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20X"
+      },
+      {
+        "id": "st-vatan-oneplus-x",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 25499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20X/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 26499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 25999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 25499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 25249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 24999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 24999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-2",
+    "slug": "oneplus-2",
+    "name": "OnePlus 2",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 82,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-2.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-2.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%202"
+      },
+      {
+        "id": "st-ty-oneplus-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 24499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%202"
+      },
+      {
+        "id": "st-vatan-oneplus-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 25499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%202/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 26499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 25999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 25499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 25249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 24999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 24999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-one",
+    "slug": "oneplus-one",
+    "name": "OnePlus One",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 107,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-one.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-one.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-one",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20One"
+      },
+      {
+        "id": "st-ty-oneplus-one",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 24499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20One"
+      },
+      {
+        "id": "st-vatan-oneplus-one",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 25499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20One/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 26499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 25999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 25499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 25249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 24999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 24999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-v-fold",
+    "slug": "oneplus-v-fold",
+    "name": "OnePlus V Fold",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 171,
+    "basePrice": 74999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-15.jpg"
+    ],
+    "highlights": [
+      "48 MP Hasselblad Üçlü Kamera Gelişmiş Kamera",
+      "4805 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "16 GB RAM + 512 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği",
+      "Katlanabilir Ekran"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-v-fold",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 74999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20V%20Fold"
+      },
+      {
+        "id": "st-ty-oneplus-v-fold",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 73499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20V%20Fold"
+      },
+      {
+        "id": "st-vatan-oneplus-v-fold",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 76499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20V%20Fold/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 79499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 77999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 76499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 75749,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 74999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 74999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 16,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Hasselblad Üçlü Kamera",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 4805,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-nord-2-lite",
+    "slug": "oneplus-nord-2-lite",
+    "name": "OnePlus Nord 2 Lite",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 210,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-nord-ce6.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-nord-ce6.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5500 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "8 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-nord-2-lite",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%20Nord%202%20Lite"
+      },
+      {
+        "id": "st-ty-oneplus-nord-2-lite",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%20Nord%202%20Lite"
+      },
+      {
+        "id": "st-vatan-oneplus-nord-2-lite",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%20Nord%202%20Lite/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5500,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
+    "id": "oneplus-oneplus-9e",
+    "slug": "oneplus-9e",
+    "name": "OnePlus 9E",
+    "brand": "OnePlus",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 326,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "images": [
+      "/images/phones/oneplus/oneplus-15.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Gelişmiş Kamera",
+      "5400 mAh Yüksek Kapasiteli Batarya & SUPERVOOC Şarj",
+      "12 GB RAM + 256 GB Depolama",
+      "OxygenOS Akıcı Kullanıcı Deneyimi"
+    ],
+    "tags": [
+      "OxygenOS",
+      "5G Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-oneplus-9e",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi OnePlus Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.hepsiburada.com/ara?q=OnePlus%209E"
+      },
+      {
+        "id": "st-ty-oneplus-9e",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 24499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com/sr?q=OnePlus%209E"
+      },
+      {
+        "id": "st-vatan-oneplus-9e",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 25499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.vatanbilgisayar.com/arama/OnePlus%209E/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 26499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 25999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 25499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 25249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 24999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 24999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç 1.5K 120Hz ProXDR AMOLED",
+        "type": "AMOLED",
+        "resolution": "2780 x 1264 px",
+        "refreshRate": 120,
+        "ppi": 450,
+        "brightnessNits": 2600
+      },
+      "processor": {
+        "chip": "Snapdragon 8 / MediaTek Dimensity Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "3nm / 4nm",
+        "antutuScore": 1850000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı",
+        "selfieMp": "32 MP AI Ön Kamera",
+        "videoRes": "4K @ 60fps Dolby Vision HDR",
+        "dxomarkScore": 145
+      },
+      "battery": {
+        "capacitymAh": 5400,
+        "chargingWatts": 100,
+        "wirelessCharging": true,
+        "reverseWireless": true
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 205,
+        "thicknessMm": 8.5,
+        "waterResistance": "IP68 / IP69 Suya ve Toza Dayanıklılık",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum Çerçeve & Mat Arka Cam"
+      },
+      "software": {
+        "osName": "OxygenOS 15 (Android 15)",
+        "updateYears": 4
+      }
+    }
+  },
+  {
     "id": "tecno-tecno-pova-curve-2-5g",
     "slug": "tecno-pova-curve-2-5g",
     "name": "Tecno Pova Curve 2 5G",
@@ -52973,3482 +67776,6 @@ export const mockSmartphones: Smartphone[] = [
       },
       "software": {
         "osName": "HarmonyOS NEXT (Saf Bağımsız OS)",
-        "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "oneplus-oneplus-13-43",
-    "slug": "oneplus-13",
-    "name": "OnePlus 13",
-    "brand": "OnePlus",
-    "category": "smartphones",
-    "basePrice": 59999,
-    "currency": "TL",
-    "rating": 4.9,
-    "reviewCount": 296,
-    "releaseYear": 2025,
-    "isPopular": true,
-    "isFeatured": true,
-    "highlights": [
-      "OnePlus 13 Orijinal Türkiye Garantili",
-      "6.82\" 2K 120Hz BOE X2 LTPO 4.5 AMOLED 100W & 50W Kablosuz",
-      "16 GB RAM & 512 GB Depolama",
-      "6000 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/products/smartphones/oneplus-oneplus-13-43.jpg",
-    "storeOffers": [
-      {
-        "id": "st-hb-op-42",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 59399,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 15600,
-        "url": "https://www.vatanbilgisayar.com/oneplus-oneplus-13/"
-      },
-      {
-        "id": "st-ty-op-42",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 59699,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 22400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-op-42",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 59999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 17100,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-op-42",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 60599,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 64799,
-        "store": "OnePlus TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 62399,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 60599,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 59999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.82\"",
-        "type": "6.82\" 2K 120Hz BOE X2 LTPO 4.5 AMOLED 100W & 50W Kablosuz",
-        "resolution": "3168 x 1440 px",
-        "refreshRate": 120,
-        "ppi": 510,
-        "brightnessNits": 4500
-      },
-      "processor": {
-        "chip": "Snapdragon 8 Elite (3nm / Hasselblad 4.0 / IP69)",
-        "cores": "8 Çekirdek",
-        "process": "3nm",
-        "antutuScore": 1920000
-      },
-      "memory": {
-        "ramGb": 16,
-        "ramType": "LPDDR5X",
-        "storageGb": 512,
-        "storageOptions": [
-          512
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "48 MP",
-        "telephotoMp": "64 MP Hasselblad Periskop OIS",
-        "selfieMp": "32 MP 4K",
-        "videoRes": "8K @ 24fps Hasselblad",
-        "dxomarkScore": 156
-      },
-      "battery": {
-        "capacitymAh": 6000,
-        "chargingWatts": 100,
-        "wirelessCharging": true,
-        "reverseWireless": true
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": true
-      },
-      "build": {
-        "weightGrams": 207,
-        "thicknessMm": 8.4,
-        "waterResistance": "IP68 (1.5m 30dk)",
-        "frameMaterial": "Alüminyum / Cam"
-      },
-      "software": {
-        "osName": "OxygenOS 14 (Android 14)",
-        "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "oneplus-oneplus-13r-44",
-    "slug": "oneplus-13r",
-    "name": "OnePlus 13R",
-    "brand": "OnePlus",
-    "category": "smartphones",
-    "basePrice": 34999,
-    "currency": "TL",
-    "rating": 5,
-    "reviewCount": 339,
-    "releaseYear": 2025,
-    "isPopular": true,
-    "isFeatured": true,
-    "highlights": [
-      "OnePlus 13R Orijinal Türkiye Garantili",
-      "6.78\" 1.5K 120Hz LTPO AMOLED",
-      "16 GB RAM & 512 GB Depolama",
-      "6000 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/products/smartphones/oneplus-oneplus-13r-44.jpg",
-    "storeOffers": [
-      {
-        "id": "st-hb-op-43",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 34649,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 15600,
-        "url": "https://www.vatanbilgisayar.com/oneplus-oneplus-13r/"
-      },
-      {
-        "id": "st-ty-op-43",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 34824,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 22400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-op-43",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 34999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 17100,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-op-43",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 35349,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 37799,
-        "store": "OnePlus TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 36399,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 35349,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 34999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.78\"",
-        "type": "6.78\" 1.5K 120Hz LTPO AMOLED",
-        "resolution": "3168 x 1440 px",
-        "refreshRate": 120,
-        "ppi": 510,
-        "brightnessNits": 4500
-      },
-      "processor": {
-        "chip": "Snapdragon 8 Gen 3 (6000 mAh Pil)",
-        "cores": "8 Çekirdek",
-        "process": "3nm",
-        "antutuScore": 1920000
-      },
-      "memory": {
-        "ramGb": 16,
-        "ramType": "LPDDR5X",
-        "storageGb": 512,
-        "storageOptions": [
-          512
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "48 MP",
-        "telephotoMp": "64 MP Hasselblad Periskop OIS",
-        "selfieMp": "32 MP 4K",
-        "videoRes": "8K @ 24fps Hasselblad",
-        "dxomarkScore": 156
-      },
-      "battery": {
-        "capacitymAh": 6000,
-        "chargingWatts": 80,
-        "wirelessCharging": true,
-        "reverseWireless": true
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": true
-      },
-      "build": {
-        "weightGrams": 207,
-        "thicknessMm": 8.4,
-        "waterResistance": "IP68 (1.5m 30dk)",
-        "frameMaterial": "Alüminyum / Cam"
-      },
-      "software": {
-        "osName": "OxygenOS 14 (Android 14)",
-        "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "oneplus-oneplus-13t-45",
-    "slug": "oneplus-13t",
-    "name": "OnePlus 13T",
-    "brand": "OnePlus",
-    "category": "smartphones",
-    "basePrice": 38999,
-    "currency": "TL",
-    "rating": 4.7,
-    "reviewCount": 382,
-    "releaseYear": 2025,
-    "isPopular": true,
-    "isFeatured": true,
-    "highlights": [
-      "OnePlus 13T Orijinal Türkiye Garantili",
-      "6.78\" 1.5K 144Hz AMOLED",
-      "16 GB RAM & 512 GB Depolama",
-      "6200 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/products/smartphones/oneplus-oneplus-13t-45.jpg",
-    "storeOffers": [
-      {
-        "id": "st-hb-op-44",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 38609,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 15600,
-        "url": "https://www.vatanbilgisayar.com/oneplus-oneplus-13t/"
-      },
-      {
-        "id": "st-ty-op-44",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 38804,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 22400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-op-44",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 38999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 17100,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-op-44",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 39389,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 42119,
-        "store": "OnePlus TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 40559,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 39389,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 38999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.78\"",
-        "type": "6.78\" 1.5K 144Hz AMOLED",
-        "resolution": "3168 x 1440 px",
-        "refreshRate": 144,
-        "ppi": 510,
-        "brightnessNits": 4500
-      },
-      "processor": {
-        "chip": "Snapdragon 8 Gen 3 (120W SuperVOOC)",
-        "cores": "8 Çekirdek",
-        "process": "3nm",
-        "antutuScore": 1920000
-      },
-      "memory": {
-        "ramGb": 16,
-        "ramType": "LPDDR5X",
-        "storageGb": 512,
-        "storageOptions": [
-          512
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "48 MP",
-        "telephotoMp": "64 MP Hasselblad Periskop OIS",
-        "selfieMp": "32 MP 4K",
-        "videoRes": "8K @ 24fps Hasselblad",
-        "dxomarkScore": 156
-      },
-      "battery": {
-        "capacitymAh": 6200,
-        "chargingWatts": 80,
-        "wirelessCharging": true,
-        "reverseWireless": true
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": true
-      },
-      "build": {
-        "weightGrams": 207,
-        "thicknessMm": 8.4,
-        "waterResistance": "IP68 (1.5m 30dk)",
-        "frameMaterial": "Alüminyum / Cam"
-      },
-      "software": {
-        "osName": "OxygenOS 14 (Android 14)",
-        "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "oneplus-oneplus-nord-5-46",
-    "slug": "oneplus-nord-5",
-    "name": "OnePlus Nord 5",
-    "brand": "OnePlus",
-    "category": "smartphones",
-    "basePrice": 27999,
-    "currency": "TL",
-    "rating": 4.3,
-    "reviewCount": 425,
-    "releaseYear": 2025,
-    "isPopular": true,
-    "isFeatured": false,
-    "highlights": [
-      "OnePlus Nord 5 Orijinal Türkiye Garantili",
-      "6.74\" 1.5K 144Hz Düz Fluid AMOLED",
-      "12 GB RAM & 512 GB Depolama",
-      "6000 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/products/smartphones/oneplus-oneplus-nord-5-46.jpg",
-    "storeOffers": [
-      {
-        "id": "st-hb-op-45",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 27719,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 15600,
-        "url": "https://www.vatanbilgisayar.com/oneplus-oneplus-nord-5/"
-      },
-      {
-        "id": "st-ty-op-45",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 27859,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 22400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-op-45",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 27999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 17100,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-op-45",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 28279,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 30239,
-        "store": "OnePlus TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 29119,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 28279,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 27999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.74\"",
-        "type": "6.74\" 1.5K 144Hz Düz Fluid AMOLED",
-        "resolution": "2400 x 1080 px",
-        "refreshRate": 144,
-        "ppi": 394,
-        "brightnessNits": 1300
-      },
-      "processor": {
-        "chip": "Snapdragon 7+ Gen 4 5G",
-        "cores": "8 Çekirdek",
-        "process": "3nm",
-        "antutuScore": 840000
-      },
-      "memory": {
-        "ramGb": 12,
-        "ramType": "LPDDR5X",
-        "storageGb": 512,
-        "storageOptions": [
-          512
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "48 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "16 MP",
-        "videoRes": "4K @ 60fps",
-        "dxomarkScore": 124
-      },
-      "battery": {
-        "capacitymAh": 6000,
-        "chargingWatts": 80,
-        "wirelessCharging": false,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 6",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 185,
-        "thicknessMm": 8.4,
-        "waterResistance": "IP54",
-        "frameMaterial": "Polikarbonat"
-      },
-      "software": {
-        "osName": "OxygenOS 14 (Android 14)",
-        "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "oneplus-oneplus-nord-ce5-47",
-    "slug": "oneplus-nord-ce5",
-    "name": "OnePlus Nord CE5",
-    "brand": "OnePlus",
-    "category": "smartphones",
-    "basePrice": 18999,
-    "currency": "TL",
-    "rating": 4.4,
-    "reviewCount": 468,
-    "releaseYear": 2025,
-    "isPopular": true,
-    "isFeatured": false,
-    "highlights": [
-      "OnePlus Nord CE5 Orijinal Türkiye Garantili",
-      "6.7\" FHD+ 120Hz AMOLED",
-      "8 GB RAM & 256 GB Depolama",
-      "5800 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/products/smartphones/oneplus-oneplus-nord-ce5-47.jpg",
-    "storeOffers": [
-      {
-        "id": "st-hb-op-46",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 18809,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 15600,
-        "url": "https://www.vatanbilgisayar.com/oneplus-oneplus-nord-ce5/"
-      },
-      {
-        "id": "st-ty-op-46",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 18904,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 22400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-op-46",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 18999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 17100,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-op-46",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 19189,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 20519,
-        "store": "OnePlus TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 19759,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 19189,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 18999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.7\"",
-        "type": "6.7\" FHD+ 120Hz AMOLED",
-        "resolution": "2400 x 1080 px",
-        "refreshRate": 120,
-        "ppi": 394,
-        "brightnessNits": 1300
-      },
-      "processor": {
-        "chip": "Snapdragon 7 Gen 4 5G",
-        "cores": "8 Çekirdek",
-        "process": "3nm",
-        "antutuScore": 840000
-      },
-      "memory": {
-        "ramGb": 8,
-        "ramType": "LPDDR5X",
-        "storageGb": 256,
-        "storageOptions": [
-          256
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "48 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "16 MP",
-        "videoRes": "4K @ 60fps",
-        "dxomarkScore": 124
-      },
-      "battery": {
-        "capacitymAh": 5800,
-        "chargingWatts": 80,
-        "wirelessCharging": false,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 6",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 185,
-        "thicknessMm": 8.4,
-        "waterResistance": "IP54",
-        "frameMaterial": "Polikarbonat"
-      },
-      "software": {
-        "osName": "OxygenOS 14 (Android 14)",
-        "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "oneplus-oneplus-ace-5-48",
-    "slug": "oneplus-ace-5",
-    "name": "OnePlus Ace 5",
-    "brand": "OnePlus",
-    "category": "smartphones",
-    "basePrice": 29999,
-    "currency": "TL",
-    "rating": 4.5,
-    "reviewCount": 511,
-    "releaseYear": 2025,
-    "isPopular": true,
-    "isFeatured": false,
-    "highlights": [
-      "OnePlus Ace 5 Orijinal Türkiye Garantili",
-      "6.78\" 1.5K 144Hz LTPO AMOLED",
-      "16 GB RAM & 512 GB Depolama",
-      "6300 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/products/smartphones/oneplus-oneplus-ace-5-48.jpg",
-    "storeOffers": [
-      {
-        "id": "st-hb-op-47",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 29699,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 15600,
-        "url": "https://www.vatanbilgisayar.com/oneplus-oneplus-ace-5/"
-      },
-      {
-        "id": "st-ty-op-47",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 29849,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 22400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-op-47",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 29999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 17100,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-op-47",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 30299,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 32399,
-        "store": "OnePlus TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 31199,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 30299,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 29999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.78\"",
-        "type": "6.78\" 1.5K 144Hz LTPO AMOLED",
-        "resolution": "2400 x 1080 px",
-        "refreshRate": 144,
-        "ppi": 394,
-        "brightnessNits": 1300
-      },
-      "processor": {
-        "chip": "Snapdragon 8 Gen 3 (6300 mAh Pil)",
-        "cores": "8 Çekirdek",
-        "process": "3nm",
-        "antutuScore": 840000
-      },
-      "memory": {
-        "ramGb": 16,
-        "ramType": "LPDDR5X",
-        "storageGb": 512,
-        "storageOptions": [
-          512
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "48 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "16 MP",
-        "videoRes": "4K @ 60fps",
-        "dxomarkScore": 124
-      },
-      "battery": {
-        "capacitymAh": 6300,
-        "chargingWatts": 80,
-        "wirelessCharging": false,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 6",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 185,
-        "thicknessMm": 8.4,
-        "waterResistance": "IP54",
-        "frameMaterial": "Polikarbonat"
-      },
-      "software": {
-        "osName": "OxygenOS 14 (Android 14)",
-        "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "oneplus-oneplus-ace-5-pro-49",
-    "slug": "oneplus-ace-5-pro",
-    "name": "OnePlus Ace 5 Pro",
-    "brand": "OnePlus",
-    "category": "smartphones",
-    "basePrice": 42999,
-    "currency": "TL",
-    "rating": 4.7,
-    "reviewCount": 554,
-    "releaseYear": 2025,
-    "isPopular": true,
-    "isFeatured": true,
-    "highlights": [
-      "OnePlus Ace 5 Pro Orijinal Türkiye Garantili",
-      "6.78\" 1.5K 144Hz LTPO AMOLED 120W",
-      "16 GB RAM & 512 GB Depolama",
-      "6500 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/products/smartphones/oneplus-oneplus-ace-5-pro-49.jpg",
-    "storeOffers": [
-      {
-        "id": "st-hb-op-48",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 42569,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 15600,
-        "url": "https://www.vatanbilgisayar.com/oneplus-oneplus-ace-5-pro/"
-      },
-      {
-        "id": "st-ty-op-48",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 42784,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 22400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-op-48",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 42999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 17100,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-op-48",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 43429,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 46439,
-        "store": "OnePlus TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 44719,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 43429,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 42999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.78\"",
-        "type": "6.78\" 1.5K 144Hz LTPO AMOLED 120W",
-        "resolution": "3168 x 1440 px",
-        "refreshRate": 144,
-        "ppi": 510,
-        "brightnessNits": 4500
-      },
-      "processor": {
-        "chip": "Snapdragon 8 Elite (Seramik & Serinlik Odaklı)",
-        "cores": "8 Çekirdek",
-        "process": "3nm",
-        "antutuScore": 1920000
-      },
-      "memory": {
-        "ramGb": 16,
-        "ramType": "LPDDR5X",
-        "storageGb": 512,
-        "storageOptions": [
-          512
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "48 MP",
-        "telephotoMp": "64 MP Hasselblad Periskop OIS",
-        "selfieMp": "32 MP 4K",
-        "videoRes": "8K @ 24fps Hasselblad",
-        "dxomarkScore": 156
-      },
-      "battery": {
-        "capacitymAh": 6500,
-        "chargingWatts": 80,
-        "wirelessCharging": true,
-        "reverseWireless": true
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": true
-      },
-      "build": {
-        "weightGrams": 207,
-        "thicknessMm": 8.4,
-        "waterResistance": "IP68 (1.5m 30dk)",
-        "frameMaterial": "Alüminyum / Cam"
-      },
-      "software": {
-        "osName": "OxygenOS 14 (Android 14)",
-        "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "oneplus-oneplus-ace-5-ultra-50",
-    "slug": "oneplus-ace-5-ultra",
-    "name": "OnePlus Ace 5 Ultra",
-    "brand": "OnePlus",
-    "category": "smartphones",
-    "basePrice": 49999,
-    "currency": "TL",
-    "rating": 4.8,
-    "reviewCount": 597,
-    "releaseYear": 2025,
-    "isPopular": true,
-    "isFeatured": true,
-    "highlights": [
-      "OnePlus Ace 5 Ultra Orijinal Türkiye Garantili",
-      "6.82\" 2K 144Hz LTPO AMOLED 120W",
-      "24 GB RAM & 1024 GB Depolama",
-      "6500 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/products/smartphones/oneplus-oneplus-ace-5-ultra-50.jpg",
-    "storeOffers": [
-      {
-        "id": "st-hb-op-49",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 49499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 15600,
-        "url": "https://www.vatanbilgisayar.com/oneplus-oneplus-ace-5-ultra/"
-      },
-      {
-        "id": "st-ty-op-49",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 49749,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 22400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-op-49",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 49999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 17100,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-op-49",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 50499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 53999,
-        "store": "OnePlus TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 51999,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 50499,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 49999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.82\"",
-        "type": "6.82\" 2K 144Hz LTPO AMOLED 120W",
-        "resolution": "3168 x 1440 px",
-        "refreshRate": 144,
-        "ppi": 510,
-        "brightnessNits": 4500
-      },
-      "processor": {
-        "chip": "Snapdragon 8 Elite (24GB RAM & 6500 mAh)",
-        "cores": "8 Çekirdek",
-        "process": "3nm",
-        "antutuScore": 1920000
-      },
-      "memory": {
-        "ramGb": 24,
-        "ramType": "LPDDR5X",
-        "storageGb": 1024,
-        "storageOptions": [
-          1024
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "48 MP",
-        "telephotoMp": "64 MP Hasselblad Periskop OIS",
-        "selfieMp": "32 MP 4K",
-        "videoRes": "8K @ 24fps Hasselblad",
-        "dxomarkScore": 156
-      },
-      "battery": {
-        "capacitymAh": 6500,
-        "chargingWatts": 80,
-        "wirelessCharging": true,
-        "reverseWireless": true
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": true
-      },
-      "build": {
-        "weightGrams": 207,
-        "thicknessMm": 8.4,
-        "waterResistance": "IP68 (1.5m 30dk)",
-        "frameMaterial": "Alüminyum / Cam"
-      },
-      "software": {
-        "osName": "OxygenOS 14 (Android 14)",
-        "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "oneplus-oneplus-15-51",
-    "slug": "oneplus-15",
-    "name": "OnePlus 15",
-    "brand": "OnePlus",
-    "category": "smartphones",
-    "basePrice": 69999,
-    "currency": "TL",
-    "rating": 4.9,
-    "reviewCount": 640,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": true,
-    "highlights": [
-      "OnePlus 15 Orijinal Türkiye Garantili",
-      "6.85\" 2K 144Hz LTPO 5.0 AMOLED 120W & 80W Kablosuz",
-      "16 GB RAM & 512 GB Depolama",
-      "6500 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/products/smartphones/oneplus-oneplus-15-51.jpg",
-    "storeOffers": [
-      {
-        "id": "st-hb-op-50",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 69299,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 15600,
-        "url": "https://www.vatanbilgisayar.com/oneplus-oneplus-15/"
-      },
-      {
-        "id": "st-ty-op-50",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 69649,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 22400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-op-50",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 69999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 17100,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-op-50",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 70699,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 75599,
-        "store": "OnePlus TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 72799,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 70699,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 69999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.85\"",
-        "type": "6.85\" 2K 144Hz LTPO 5.0 AMOLED 120W & 80W Kablosuz",
-        "resolution": "3168 x 1440 px",
-        "refreshRate": 144,
-        "ppi": 510,
-        "brightnessNits": 4500
-      },
-      "processor": {
-        "chip": "Snapdragon 8 Gen 5 (2nm / 6500 mAh / IP69)",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 1920000
-      },
-      "memory": {
-        "ramGb": 16,
-        "ramType": "LPDDR5X",
-        "storageGb": 512,
-        "storageOptions": [
-          512
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "48 MP",
-        "telephotoMp": "64 MP Hasselblad Periskop OIS",
-        "selfieMp": "32 MP 4K",
-        "videoRes": "8K @ 24fps Hasselblad",
-        "dxomarkScore": 156
-      },
-      "battery": {
-        "capacitymAh": 6500,
-        "chargingWatts": 80,
-        "wirelessCharging": true,
-        "reverseWireless": true
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": true
-      },
-      "build": {
-        "weightGrams": 207,
-        "thicknessMm": 8.4,
-        "waterResistance": "IP68 (1.5m 30dk)",
-        "frameMaterial": "Alüminyum / Cam"
-      },
-      "software": {
-        "osName": "OxygenOS 16 (Android 16)",
-        "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "oneplus-oneplus-15r-52",
-    "slug": "oneplus-15r",
-    "name": "OnePlus 15R",
-    "brand": "OnePlus",
-    "category": "smartphones",
-    "basePrice": 39999,
-    "currency": "TL",
-    "rating": 5,
-    "reviewCount": 683,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": true,
-    "highlights": [
-      "OnePlus 15R Orijinal Türkiye Garantili",
-      "6.78\" 1.5K 144Hz LTPO AMOLED",
-      "16 GB RAM & 512 GB Depolama",
-      "6500 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/products/smartphones/oneplus-oneplus-15r-52.jpg",
-    "storeOffers": [
-      {
-        "id": "st-hb-op-51",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 39599,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 15600,
-        "url": "https://www.vatanbilgisayar.com/oneplus-oneplus-15r/"
-      },
-      {
-        "id": "st-ty-op-51",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 39799,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 22400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-op-51",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 39999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 17100,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-op-51",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 40399,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 43199,
-        "store": "OnePlus TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 41599,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 40399,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 39999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.78\"",
-        "type": "6.78\" 1.5K 144Hz LTPO AMOLED",
-        "resolution": "3168 x 1440 px",
-        "refreshRate": 144,
-        "ppi": 510,
-        "brightnessNits": 4500
-      },
-      "processor": {
-        "chip": "Snapdragon 8 Elite (6500 mAh Pil / 120W)",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 1920000
-      },
-      "memory": {
-        "ramGb": 16,
-        "ramType": "LPDDR5X",
-        "storageGb": 512,
-        "storageOptions": [
-          512
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "48 MP",
-        "telephotoMp": "64 MP Hasselblad Periskop OIS",
-        "selfieMp": "32 MP 4K",
-        "videoRes": "8K @ 24fps Hasselblad",
-        "dxomarkScore": 156
-      },
-      "battery": {
-        "capacitymAh": 6500,
-        "chargingWatts": 80,
-        "wirelessCharging": true,
-        "reverseWireless": true
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": true
-      },
-      "build": {
-        "weightGrams": 207,
-        "thicknessMm": 8.4,
-        "waterResistance": "IP68 (1.5m 30dk)",
-        "frameMaterial": "Alüminyum / Cam"
-      },
-      "software": {
-        "osName": "OxygenOS 16 (Android 16)",
-        "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "oneplus-oneplus-15t-53",
-    "slug": "oneplus-15t",
-    "name": "OnePlus 15T",
-    "brand": "OnePlus",
-    "category": "smartphones",
-    "basePrice": 44999,
-    "currency": "TL",
-    "rating": 4.7,
-    "reviewCount": 726,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": true,
-    "highlights": [
-      "OnePlus 15T Orijinal Türkiye Garantili",
-      "6.78\" 1.5K 144Hz AMOLED",
-      "16 GB RAM & 512 GB Depolama",
-      "6600 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/products/smartphones/oneplus-oneplus-15t-53.jpg",
-    "storeOffers": [
-      {
-        "id": "st-hb-op-52",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 44549,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 15600,
-        "url": "https://www.vatanbilgisayar.com/oneplus-oneplus-15t/"
-      },
-      {
-        "id": "st-ty-op-52",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 44774,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 22400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-op-52",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 44999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 17100,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-op-52",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 45449,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 48599,
-        "store": "OnePlus TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 46799,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 45449,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 44999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.78\"",
-        "type": "6.78\" 1.5K 144Hz AMOLED",
-        "resolution": "3168 x 1440 px",
-        "refreshRate": 144,
-        "ppi": 510,
-        "brightnessNits": 4500
-      },
-      "processor": {
-        "chip": "Snapdragon 8 Elite (150W Şarj)",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 1920000
-      },
-      "memory": {
-        "ramGb": 16,
-        "ramType": "LPDDR5X",
-        "storageGb": 512,
-        "storageOptions": [
-          512
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "48 MP",
-        "telephotoMp": "64 MP Hasselblad Periskop OIS",
-        "selfieMp": "32 MP 4K",
-        "videoRes": "8K @ 24fps Hasselblad",
-        "dxomarkScore": 156
-      },
-      "battery": {
-        "capacitymAh": 6600,
-        "chargingWatts": 150,
-        "wirelessCharging": true,
-        "reverseWireless": true
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": true
-      },
-      "build": {
-        "weightGrams": 207,
-        "thicknessMm": 8.4,
-        "waterResistance": "IP68 (1.5m 30dk)",
-        "frameMaterial": "Alüminyum / Cam"
-      },
-      "software": {
-        "osName": "OxygenOS 16 (Android 16)",
-        "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "oneplus-oneplus-nord-6-54",
-    "slug": "oneplus-nord-6",
-    "name": "OnePlus Nord 6",
-    "brand": "OnePlus",
-    "category": "smartphones",
-    "basePrice": 32999,
-    "currency": "TL",
-    "rating": 4.6,
-    "reviewCount": 769,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": false,
-    "highlights": [
-      "OnePlus Nord 6 Orijinal Türkiye Garantili",
-      "6.74\" 1.5K 144Hz Fluid AMOLED",
-      "12 GB RAM & 512 GB Depolama",
-      "6200 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/products/smartphones/oneplus-oneplus-nord-6-54.jpg",
-    "storeOffers": [
-      {
-        "id": "st-hb-op-53",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 32669,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 15600,
-        "url": "https://www.vatanbilgisayar.com/oneplus-oneplus-nord-6/"
-      },
-      {
-        "id": "st-ty-op-53",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 32834,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 22400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-op-53",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 32999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 17100,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-op-53",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 33329,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 35639,
-        "store": "OnePlus TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 34319,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 33329,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 32999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.74\"",
-        "type": "6.74\" 1.5K 144Hz Fluid AMOLED",
-        "resolution": "2400 x 1080 px",
-        "refreshRate": 144,
-        "ppi": 394,
-        "brightnessNits": 1300
-      },
-      "processor": {
-        "chip": "Snapdragon 7+ Gen 5 5G",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 840000
-      },
-      "memory": {
-        "ramGb": 12,
-        "ramType": "LPDDR5X",
-        "storageGb": 512,
-        "storageOptions": [
-          512
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "48 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "16 MP",
-        "videoRes": "4K @ 60fps",
-        "dxomarkScore": 124
-      },
-      "battery": {
-        "capacitymAh": 6200,
-        "chargingWatts": 80,
-        "wirelessCharging": false,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 6",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 185,
-        "thicknessMm": 8.4,
-        "waterResistance": "IP54",
-        "frameMaterial": "Polikarbonat"
-      },
-      "software": {
-        "osName": "OxygenOS 16 (Android 16)",
-        "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "oneplus-oneplus-nord-ce6-55",
-    "slug": "oneplus-nord-ce6",
-    "name": "OnePlus Nord CE6",
-    "brand": "OnePlus",
-    "category": "smartphones",
-    "basePrice": 21999,
-    "currency": "TL",
-    "rating": 4.7,
-    "reviewCount": 812,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": false,
-    "highlights": [
-      "OnePlus Nord CE6 Orijinal Türkiye Garantili",
-      "6.7\" FHD+ 120Hz AMOLED",
-      "12 GB RAM & 256 GB Depolama",
-      "6000 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/products/smartphones/oneplus-oneplus-nord-ce6-55.jpg",
-    "storeOffers": [
-      {
-        "id": "st-hb-op-54",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 21779,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 15600,
-        "url": "https://www.vatanbilgisayar.com/oneplus-oneplus-nord-ce6/"
-      },
-      {
-        "id": "st-ty-op-54",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 21889,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 22400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-op-54",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 21999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 17100,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-op-54",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 22219,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 23759,
-        "store": "OnePlus TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 22879,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 22219,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 21999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.7\"",
-        "type": "6.7\" FHD+ 120Hz AMOLED",
-        "resolution": "2400 x 1080 px",
-        "refreshRate": 120,
-        "ppi": 394,
-        "brightnessNits": 1300
-      },
-      "processor": {
-        "chip": "Snapdragon 7 Gen 5 5G",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 840000
-      },
-      "memory": {
-        "ramGb": 12,
-        "ramType": "LPDDR5X",
-        "storageGb": 256,
-        "storageOptions": [
-          256
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "48 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "16 MP",
-        "videoRes": "4K @ 60fps",
-        "dxomarkScore": 124
-      },
-      "battery": {
-        "capacitymAh": 6000,
-        "chargingWatts": 80,
-        "wirelessCharging": false,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 6",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 185,
-        "thicknessMm": 8.4,
-        "waterResistance": "IP54",
-        "frameMaterial": "Polikarbonat"
-      },
-      "software": {
-        "osName": "OxygenOS 16 (Android 16)",
-        "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "oneplus-oneplus-nord-ce6-lite-56",
-    "slug": "oneplus-nord-ce6-lite",
-    "name": "OnePlus Nord CE6 Lite",
-    "brand": "OnePlus",
-    "category": "smartphones",
-    "basePrice": 15999,
-    "currency": "TL",
-    "rating": 4.3,
-    "reviewCount": 855,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": false,
-    "highlights": [
-      "OnePlus Nord CE6 Lite Orijinal Türkiye Garantili",
-      "6.67\" FHD+ 120Hz AMOLED",
-      "8 GB RAM & 256 GB Depolama",
-      "5500 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/products/smartphones/oneplus-oneplus-nord-ce6-lite-56.jpg",
-    "storeOffers": [
-      {
-        "id": "st-hb-op-55",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 15839,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 15600,
-        "url": "https://www.vatanbilgisayar.com/oneplus-oneplus-nord-ce6-lite/"
-      },
-      {
-        "id": "st-ty-op-55",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 15919,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 22400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-op-55",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 15999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 17100,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-op-55",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 16159,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 17279,
-        "store": "OnePlus TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 16639,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 16159,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 15999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.67\"",
-        "type": "6.67\" FHD+ 120Hz AMOLED",
-        "resolution": "2400 x 1080 px",
-        "refreshRate": 120,
-        "ppi": 394,
-        "brightnessNits": 1300
-      },
-      "processor": {
-        "chip": "Snapdragon 6s Gen 3 5G",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 840000
-      },
-      "memory": {
-        "ramGb": 8,
-        "ramType": "LPDDR5X",
-        "storageGb": 256,
-        "storageOptions": [
-          256
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "48 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "16 MP",
-        "videoRes": "4K @ 60fps",
-        "dxomarkScore": 124
-      },
-      "battery": {
-        "capacitymAh": 5500,
-        "chargingWatts": 80,
-        "wirelessCharging": false,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 6",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 185,
-        "thicknessMm": 8.4,
-        "waterResistance": "IP54",
-        "frameMaterial": "Polikarbonat"
-      },
-      "software": {
-        "osName": "OxygenOS 16 (Android 16)",
-        "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "oneplus-oneplus-ace-6-57",
-    "slug": "oneplus-ace-6",
-    "name": "OnePlus Ace 6",
-    "brand": "OnePlus",
-    "category": "smartphones",
-    "basePrice": 34999,
-    "currency": "TL",
-    "rating": 4.4,
-    "reviewCount": 898,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": false,
-    "highlights": [
-      "OnePlus Ace 6 Orijinal Türkiye Garantili",
-      "6.78\" 1.5K 144Hz LTPO AMOLED",
-      "16 GB RAM & 512 GB Depolama",
-      "6700 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/products/smartphones/oneplus-oneplus-ace-6-57.jpg",
-    "storeOffers": [
-      {
-        "id": "st-hb-op-56",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 34649,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 15600,
-        "url": "https://www.vatanbilgisayar.com/oneplus-oneplus-ace-6/"
-      },
-      {
-        "id": "st-ty-op-56",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 34824,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 22400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-op-56",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 34999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 17100,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-op-56",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 35349,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 37799,
-        "store": "OnePlus TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 36399,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 35349,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 34999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.78\"",
-        "type": "6.78\" 1.5K 144Hz LTPO AMOLED",
-        "resolution": "2400 x 1080 px",
-        "refreshRate": 144,
-        "ppi": 394,
-        "brightnessNits": 1300
-      },
-      "processor": {
-        "chip": "Snapdragon 8 Elite (6700 mAh Batarya)",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 840000
-      },
-      "memory": {
-        "ramGb": 16,
-        "ramType": "LPDDR5X",
-        "storageGb": 512,
-        "storageOptions": [
-          512
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "48 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "16 MP",
-        "videoRes": "4K @ 60fps",
-        "dxomarkScore": 124
-      },
-      "battery": {
-        "capacitymAh": 6700,
-        "chargingWatts": 80,
-        "wirelessCharging": false,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 6",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 185,
-        "thicknessMm": 8.4,
-        "waterResistance": "IP54",
-        "frameMaterial": "Polikarbonat"
-      },
-      "software": {
-        "osName": "OxygenOS 16 (Android 16)",
-        "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "oneplus-oneplus-ace-6t-58",
-    "slug": "oneplus-ace-6t",
-    "name": "OnePlus Ace 6T",
-    "brand": "OnePlus",
-    "category": "smartphones",
-    "basePrice": 39999,
-    "currency": "TL",
-    "rating": 4.5,
-    "reviewCount": 941,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": false,
-    "highlights": [
-      "OnePlus Ace 6T Orijinal Türkiye Garantili",
-      "6.78\" 1.5K 144Hz AMOLED",
-      "16 GB RAM & 512 GB Depolama",
-      "6700 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/products/smartphones/oneplus-oneplus-ace-6t-58.jpg",
-    "storeOffers": [
-      {
-        "id": "st-hb-op-57",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 39599,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 15600,
-        "url": "https://www.vatanbilgisayar.com/oneplus-oneplus-ace-6t/"
-      },
-      {
-        "id": "st-ty-op-57",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 39799,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 22400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-op-57",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 39999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 17100,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-op-57",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 40399,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 43199,
-        "store": "OnePlus TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 41599,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 40399,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 39999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.78\"",
-        "type": "6.78\" 1.5K 144Hz AMOLED",
-        "resolution": "2400 x 1080 px",
-        "refreshRate": 144,
-        "ppi": 394,
-        "brightnessNits": 1300
-      },
-      "processor": {
-        "chip": "Snapdragon 8 Elite (150W Şarj)",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 840000
-      },
-      "memory": {
-        "ramGb": 16,
-        "ramType": "LPDDR5X",
-        "storageGb": 512,
-        "storageOptions": [
-          512
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "48 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "16 MP",
-        "videoRes": "4K @ 60fps",
-        "dxomarkScore": 124
-      },
-      "battery": {
-        "capacitymAh": 6700,
-        "chargingWatts": 150,
-        "wirelessCharging": false,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 6",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 185,
-        "thicknessMm": 8.4,
-        "waterResistance": "IP54",
-        "frameMaterial": "Polikarbonat"
-      },
-      "software": {
-        "osName": "OxygenOS 16 (Android 16)",
-        "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "oneplus-oneplus-ace-6-ultra-59",
-    "slug": "oneplus-ace-6-ultra",
-    "name": "OnePlus Ace 6 Ultra",
-    "brand": "OnePlus",
-    "category": "smartphones",
-    "basePrice": 54999,
-    "currency": "TL",
-    "rating": 4.9,
-    "reviewCount": 164,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": true,
-    "highlights": [
-      "OnePlus Ace 6 Ultra Orijinal Türkiye Garantili",
-      "6.85\" 2K 144Hz LTPO AMOLED 150W",
-      "24 GB RAM & 1024 GB Depolama",
-      "7000 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/products/smartphones/oneplus-oneplus-ace-6-ultra-59.jpg",
-    "storeOffers": [
-      {
-        "id": "st-hb-op-58",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 54449,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 15600,
-        "url": "https://www.vatanbilgisayar.com/oneplus-oneplus-ace-6-ultra/"
-      },
-      {
-        "id": "st-ty-op-58",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 54724,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 22400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-op-58",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 54999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 17100,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-op-58",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 55549,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 59399,
-        "store": "OnePlus TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 57199,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 55549,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 54999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.85\"",
-        "type": "6.85\" 2K 144Hz LTPO AMOLED 150W",
-        "resolution": "3168 x 1440 px",
-        "refreshRate": 144,
-        "ppi": 510,
-        "brightnessNits": 4500
-      },
-      "processor": {
-        "chip": "Snapdragon 8 Gen 5 (2nm Zirve Oyuncu)",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 1920000
-      },
-      "memory": {
-        "ramGb": 24,
-        "ramType": "LPDDR5X",
-        "storageGb": 1024,
-        "storageOptions": [
-          1024
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "48 MP",
-        "telephotoMp": "64 MP Hasselblad Periskop OIS",
-        "selfieMp": "32 MP 4K",
-        "videoRes": "8K @ 24fps Hasselblad",
-        "dxomarkScore": 156
-      },
-      "battery": {
-        "capacitymAh": 7000,
-        "chargingWatts": 150,
-        "wirelessCharging": true,
-        "reverseWireless": true
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": true
-      },
-      "build": {
-        "weightGrams": 207,
-        "thicknessMm": 8.4,
-        "waterResistance": "IP68 (1.5m 30dk)",
-        "frameMaterial": "Alüminyum / Cam"
-      },
-      "software": {
-        "osName": "OxygenOS 16 (Android 16)",
-        "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "oneplus-oneplus-turbo-6-60",
-    "slug": "oneplus-turbo-6",
-    "name": "OnePlus Turbo 6",
-    "brand": "OnePlus",
-    "category": "smartphones",
-    "basePrice": 29999,
-    "currency": "TL",
-    "rating": 4.7,
-    "reviewCount": 207,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": false,
-    "highlights": [
-      "OnePlus Turbo 6 Orijinal Türkiye Garantili",
-      "6.78\" 1.5K 144Hz Oyun Ekranı",
-      "12 GB RAM & 512 GB Depolama",
-      "6500 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/products/smartphones/oneplus-oneplus-turbo-6-60.jpg",
-    "storeOffers": [
-      {
-        "id": "st-hb-op-59",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 29699,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 15600,
-        "url": "https://www.vatanbilgisayar.com/oneplus-oneplus-turbo-6/"
-      },
-      {
-        "id": "st-ty-op-59",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 29849,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 22400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-op-59",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 29999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 17100,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-op-59",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 30299,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 32399,
-        "store": "OnePlus TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 31199,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 30299,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 29999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.78\"",
-        "type": "6.78\" 1.5K 144Hz Oyun Ekranı",
-        "resolution": "2400 x 1080 px",
-        "refreshRate": 144,
-        "ppi": 394,
-        "brightnessNits": 1300
-      },
-      "processor": {
-        "chip": "Snapdragon 8s Gen 5 (Turbo Sıvı Soğutmalı)",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 840000
-      },
-      "memory": {
-        "ramGb": 12,
-        "ramType": "LPDDR5X",
-        "storageGb": 512,
-        "storageOptions": [
-          512
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "48 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "16 MP",
-        "videoRes": "4K @ 60fps",
-        "dxomarkScore": 124
-      },
-      "battery": {
-        "capacitymAh": 6500,
-        "chargingWatts": 80,
-        "wirelessCharging": false,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 6",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 185,
-        "thicknessMm": 8.4,
-        "waterResistance": "IP54",
-        "frameMaterial": "Polikarbonat"
-      },
-      "software": {
-        "osName": "OxygenOS 16 (Android 16)",
-        "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "oneplus-oneplus-turbo-6x-61",
-    "slug": "oneplus-turbo-6x",
-    "name": "OnePlus Turbo 6X",
-    "brand": "OnePlus",
-    "category": "smartphones",
-    "basePrice": 34999,
-    "currency": "TL",
-    "rating": 4.3,
-    "reviewCount": 250,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": false,
-    "highlights": [
-      "OnePlus Turbo 6X Orijinal Türkiye Garantili",
-      "6.78\" 1.5K 144Hz Oyun Ekranı",
-      "16 GB RAM & 512 GB Depolama",
-      "6700 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/products/smartphones/oneplus-oneplus-turbo-6x-61.jpg",
-    "storeOffers": [
-      {
-        "id": "st-hb-op-60",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 34649,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 15600,
-        "url": "https://www.vatanbilgisayar.com/oneplus-oneplus-turbo-6x/"
-      },
-      {
-        "id": "st-ty-op-60",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 34824,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 22400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-op-60",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 34999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 17100,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-op-60",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 35349,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 37799,
-        "store": "OnePlus TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 36399,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 35349,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 34999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.78\"",
-        "type": "6.78\" 1.5K 144Hz Oyun Ekranı",
-        "resolution": "2400 x 1080 px",
-        "refreshRate": 144,
-        "ppi": 394,
-        "brightnessNits": 1300
-      },
-      "processor": {
-        "chip": "Snapdragon 8 Gen 3 (Turbo Oyuncu)",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 840000
-      },
-      "memory": {
-        "ramGb": 16,
-        "ramType": "LPDDR5X",
-        "storageGb": 512,
-        "storageOptions": [
-          512
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "48 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "16 MP",
-        "videoRes": "4K @ 60fps",
-        "dxomarkScore": 124
-      },
-      "battery": {
-        "capacitymAh": 6700,
-        "chargingWatts": 80,
-        "wirelessCharging": false,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 6",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 185,
-        "thicknessMm": 8.4,
-        "waterResistance": "IP54",
-        "frameMaterial": "Polikarbonat"
-      },
-      "software": {
-        "osName": "OxygenOS 16 (Android 16)",
-        "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "oneplus-oneplus-turbo-6v-62",
-    "slug": "oneplus-turbo-6v",
-    "name": "OnePlus Turbo 6V",
-    "brand": "OnePlus",
-    "category": "smartphones",
-    "basePrice": 24999,
-    "currency": "TL",
-    "rating": 4.4,
-    "reviewCount": 293,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": false,
-    "highlights": [
-      "OnePlus Turbo 6V Orijinal Türkiye Garantili",
-      "6.7\" FHD+ 144Hz LCD",
-      "12 GB RAM & 256 GB Depolama",
-      "6300 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/products/smartphones/oneplus-oneplus-turbo-6v-62.jpg",
-    "storeOffers": [
-      {
-        "id": "st-hb-op-61",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 24749,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 15600,
-        "url": "https://www.vatanbilgisayar.com/oneplus-oneplus-turbo-6v/"
-      },
-      {
-        "id": "st-ty-op-61",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 24874,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 22400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-op-61",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 24999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 17100,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-op-61",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 25249,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 26999,
-        "store": "OnePlus TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 25999,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 25249,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 24999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.7\"",
-        "type": "6.7\" FHD+ 144Hz LCD",
-        "resolution": "2400 x 1080 px",
-        "refreshRate": 144,
-        "ppi": 394,
-        "brightnessNits": 1300
-      },
-      "processor": {
-        "chip": "Snapdragon 7+ Gen 3 5G",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 840000
-      },
-      "memory": {
-        "ramGb": 12,
-        "ramType": "LPDDR5X",
-        "storageGb": 256,
-        "storageOptions": [
-          256
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "48 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "16 MP",
-        "videoRes": "4K @ 60fps",
-        "dxomarkScore": 124
-      },
-      "battery": {
-        "capacitymAh": 6300,
-        "chargingWatts": 80,
-        "wirelessCharging": false,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 6",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 185,
-        "thicknessMm": 8.4,
-        "waterResistance": "IP54",
-        "frameMaterial": "Polikarbonat"
-      },
-      "software": {
-        "osName": "OxygenOS 16 (Android 16)",
-        "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "oneplus-oneplus-n6-5g-63",
-    "slug": "oneplus-n6-5g",
-    "name": "OnePlus N6 5G",
-    "brand": "OnePlus",
-    "category": "smartphones",
-    "basePrice": 13999,
-    "currency": "TL",
-    "rating": 4.5,
-    "reviewCount": 336,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": false,
-    "highlights": [
-      "OnePlus N6 5G Orijinal Türkiye Garantili",
-      "6.72\" FHD+ 120Hz LCD",
-      "8 GB RAM & 256 GB Depolama",
-      "5500 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/products/smartphones/oneplus-oneplus-n6-5g-63.jpg",
-    "storeOffers": [
-      {
-        "id": "st-hb-op-62",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 13859,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 15600,
-        "url": "https://www.vatanbilgisayar.com/oneplus-oneplus-n6-5g/"
-      },
-      {
-        "id": "st-ty-op-62",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 13929,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 22400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-op-62",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 13999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 17100,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-op-62",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 14139,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 15119,
-        "store": "OnePlus TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 14559,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 14139,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 13999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.72\"",
-        "type": "6.72\" FHD+ 120Hz LCD",
-        "resolution": "2400 x 1080 px",
-        "refreshRate": 120,
-        "ppi": 394,
-        "brightnessNits": 1300
-      },
-      "processor": {
-        "chip": "Snapdragon 4s Gen 2 5G",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 840000
-      },
-      "memory": {
-        "ramGb": 8,
-        "ramType": "LPDDR5X",
-        "storageGb": 256,
-        "storageOptions": [
-          256
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "48 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "16 MP",
-        "videoRes": "4K @ 60fps",
-        "dxomarkScore": 124
-      },
-      "battery": {
-        "capacitymAh": 5500,
-        "chargingWatts": 80,
-        "wirelessCharging": false,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 6",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 185,
-        "thicknessMm": 8.4,
-        "waterResistance": "IP54",
-        "frameMaterial": "Polikarbonat"
-      },
-      "software": {
-        "osName": "OxygenOS 16 (Android 16)",
-        "updateYears": 5
-      }
-    }
-  },
-  {
-    "id": "oneplus-oneplus-n6x-5g-64",
-    "slug": "oneplus-n6x-5g",
-    "name": "OnePlus N6x 5G",
-    "brand": "OnePlus",
-    "category": "smartphones",
-    "basePrice": 16999,
-    "currency": "TL",
-    "rating": 4.6,
-    "reviewCount": 379,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": false,
-    "highlights": [
-      "OnePlus N6x 5G Orijinal Türkiye Garantili",
-      "6.72\" FHD+ 120Hz LCD",
-      "8 GB RAM & 256 GB Depolama",
-      "6000 mAh Batarya Kapasitesi"
-    ],
-    "image": "/images/products/smartphones/oneplus-oneplus-n6x-5g-64.jpg",
-    "storeOffers": [
-      {
-        "id": "st-hb-op-63",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 16829,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 15600,
-        "url": "https://www.vatanbilgisayar.com/oneplus-oneplus-n6x-5g/"
-      },
-      {
-        "id": "st-ty-op-63",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 16914,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kuponlu Ürün"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 22400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-op-63",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 16999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 17100,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-op-63",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 17169,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9800,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 18359,
-        "store": "OnePlus TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 17679,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 17169,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 16999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.72\"",
-        "type": "6.72\" FHD+ 120Hz LCD",
-        "resolution": "2400 x 1080 px",
-        "refreshRate": 120,
-        "ppi": 394,
-        "brightnessNits": 1300
-      },
-      "processor": {
-        "chip": "Snapdragon 6 Gen 3 5G",
-        "cores": "8 Çekirdek",
-        "process": "2nm",
-        "antutuScore": 840000
-      },
-      "memory": {
-        "ramGb": 8,
-        "ramType": "LPDDR5X",
-        "storageGb": 256,
-        "storageOptions": [
-          256
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "50 MP",
-        "ultrawideMp": "48 MP",
-        "telephotoMp": "Yok",
-        "selfieMp": "16 MP",
-        "videoRes": "4K @ 60fps",
-        "dxomarkScore": 124
-      },
-      "battery": {
-        "capacitymAh": 6000,
-        "chargingWatts": 80,
-        "wirelessCharging": false,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 6",
-        "bluetooth": "5.4",
-        "hasNFC": true,
-        "hasesim": false
-      },
-      "build": {
-        "weightGrams": 185,
-        "thicknessMm": 8.4,
-        "waterResistance": "IP54",
-        "frameMaterial": "Polikarbonat"
-      },
-      "software": {
-        "osName": "OxygenOS 16 (Android 16)",
         "updateYears": 5
       }
     }
