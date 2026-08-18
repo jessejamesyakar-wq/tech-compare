@@ -2,6 +2,352 @@ import { Product } from './types';
 
 export const mockSmartwatches: Product[] = [
   {
+    "id": "samsung-galaxy-watch-ultra-47mm",
+    "slug": "samsung-galaxy-watch-ultra-47mm",
+    "name": "Samsung Galaxy Watch Ultra (47mm LTE)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "basePrice": 34999,
+    "currency": "TL",
+    "rating": 4.9,
+    "reviewCount": 420,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-l705fdaatur/gallery/tr-galaxy-watch-ultra-l705-sm-l705fdaatur-thumb-542385150?$Q90_330_330_F_PNG$",
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-l705fdaatur/gallery/tr-galaxy-watch-ultra-l705-sm-l705fdaatur-thumb-542385150?$Q90_330_330_F_PNG$"
+    ],
+    "highlights": [
+      "Titanyum Kasa & Safir Cam",
+      "100 Saat Pil Ömrü & Hızlı Şarj",
+      "Galaxy AI Sağlık Takibi",
+      "10 ATM & IP68 Su Geçirmezlik"
+    ],
+    "specs": {
+      "caseSizeMm": 47,
+      "displayType": "Super AMOLED, 3000 nit",
+      "displaySizeInches": 1.5,
+      "batteryLifeDays": 4,
+      "batteryCapacityMah": 590,
+      "waterResistanceAtm": 10,
+      "os": "Wear OS 5 Powered by Samsung (One UI 6 Watch)",
+      "compatibility": [
+        "Android 11 ve üzeri"
+      ],
+      "sensors": [
+        "BioActive Sensör (EKG, Tansiyon, Vücut Kompozisyonu)",
+        "Çift Frekanslı GPS",
+        "Sıcaklık Sensörü"
+      ],
+      "connectivity": [
+        "LTE 4G",
+        "Bluetooth 5.3",
+        "Wi-Fi",
+        "NFC"
+      ],
+      "weightGrams": 60.5,
+      "material": "Grade 4 Titanyum",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-watch-ultra-47mm-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1250,
+        "url": "https://www.samsung.com/tr/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 36499,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 35499,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 34999,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-watch-7-44mm",
+    "slug": "samsung-galaxy-watch-7-44mm",
+    "name": "Samsung Galaxy Watch 7 (44mm Bluetooth)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 650,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-l310nzaatur/gallery/tr-galaxy-watch7-l310-sm-l310nzaatur-thumb-542385108?$Q90_330_330_F_PNG$",
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-l310nzaatur/gallery/tr-galaxy-watch7-l310-sm-l310nzaatur-thumb-542385108?$Q90_330_330_F_PNG$"
+    ],
+    "highlights": [
+      "3nm Exynos W1000 İşlemci",
+      "Çift Frekanslı Hassas GPS",
+      "Galaxy AI Enerji Skoru",
+      "Super AMOLED Ekran"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "Super AMOLED, 2000 nit",
+      "displaySizeInches": 1.5,
+      "batteryLifeDays": 2,
+      "batteryCapacityMah": 425,
+      "waterResistanceAtm": 5,
+      "os": "Wear OS 5, One UI 6 Watch",
+      "compatibility": [
+        "Android 11 ve üzeri"
+      ],
+      "sensors": [
+        "BioActive Sensör",
+        "Uyku Apnesi Tespiti",
+        "EKG",
+        "Kalp Atış Hızı"
+      ],
+      "connectivity": [
+        "Bluetooth 5.3",
+        "Wi-Fi",
+        "NFC",
+        "GPS"
+      ],
+      "weightGrams": 33.8,
+      "material": "Zırhlı Alüminyum",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-watch-7-44mm-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1250,
+        "url": "https://www.samsung.com/tr/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 16499,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 15499,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 14999,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-watch-6-classic-47mm",
+    "slug": "samsung-galaxy-watch-6-classic-47mm",
+    "name": "Samsung Galaxy Watch 6 Classic (47mm Dönen Çerçeveli)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "basePrice": 11999,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 980,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-r960nzkatur/gallery/tr-galaxy-watch6-classic-r960-sm-r960nzkatur-thumb-537482404?$Q90_330_330_F_PNG$",
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-r960nzkatur/gallery/tr-galaxy-watch6-classic-r960-sm-r960nzkatur-thumb-537482404?$Q90_330_330_F_PNG$"
+    ],
+    "highlights": [
+      "Fiziksel Dönen Çerçeve",
+      "Paslanmaz Çelik Kasa",
+      "Gelişmiş Uyku ve EKG Koçluğu"
+    ],
+    "specs": {
+      "caseSizeMm": 47,
+      "displayType": "Super AMOLED",
+      "displaySizeInches": 1.5,
+      "batteryLifeDays": 2,
+      "batteryCapacityMah": 425,
+      "waterResistanceAtm": 5,
+      "os": "Wear OS 4, One UI 5 Watch",
+      "compatibility": [
+        "Android 10 ve üzeri"
+      ],
+      "sensors": [
+        "BioActive",
+        "EKG",
+        "Tansiyon",
+        "BIA"
+      ],
+      "connectivity": [
+        "Bluetooth 5.3",
+        "Wi-Fi",
+        "NFC",
+        "GPS"
+      ],
+      "weightGrams": 59,
+      "material": "Paslanmaz Çelik",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-watch-6-classic-47mm-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1250,
+        "url": "https://www.samsung.com/tr/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 13499,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 12499,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 11999,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-fit-3",
+    "slug": "samsung-galaxy-fit-3",
+    "name": "Samsung Galaxy Fit 3 Akıllı Bileklik",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 1420,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-r390nzaatur/gallery/tr-galaxy-fit3-r390-sm-r390nzaatur-thumb-539829462?$Q90_330_330_F_PNG$",
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-r390nzaatur/gallery/tr-galaxy-fit3-r390-sm-r390nzaatur-thumb-539829462?$Q90_330_330_F_PNG$"
+    ],
+    "highlights": [
+      "1.6\" Geniş AMOLED Ekran",
+      "13 Güne Kadar Pil Ömrü",
+      "Alüminyum Gövde & Düşme Algılama"
+    ],
+    "specs": {
+      "caseSizeMm": 40,
+      "displayType": "AMOLED",
+      "displaySizeInches": 1.6,
+      "batteryLifeDays": 13,
+      "batteryCapacityMah": 208,
+      "waterResistanceAtm": 5,
+      "os": "FreeRTOS",
+      "compatibility": [
+        "Android 10 ve üzeri"
+      ],
+      "sensors": [
+        "Kalp Atış Hızı",
+        "SpO2",
+        "İvmeölçer",
+        "Barometre"
+      ],
+      "connectivity": [
+        "Bluetooth 5.3"
+      ],
+      "weightGrams": 18.5,
+      "material": "Kumlama Alüminyum",
+      "hasMicrophone": false,
+      "hasSpeaker": false,
+      "hasGPS": false,
+      "hasNFC": false
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-fit-3-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1250,
+        "url": "https://www.samsung.com/tr/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3999,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 2999,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 2499,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
     "id": "huawei-huawei_watch_gt_7_pro-14872",
     "slug": "huawei_watch_gt_7_pro-14872",
     "name": "Huawei Watch GT 7 Pro",
@@ -3976,58 +4322,6 @@ export const mockSmartwatches: Product[] = [
         "name": "Gümüş",
         "hex": "#e2e8f0"
       }
-    ]
-  },
-  {
-    "id": "samsung-galaxy-watch-7-44mm",
-    "slug": "samsung-galaxy-watch-7-44mm",
-    "name": "SAMSUNG Galaxy Watch 7 44mm Hızlı Şarj / BioActive Sensör / Çift Frekanslı GPS Akıllı Saat",
-    "brand": "Samsung",
-    "category": "smartwatches",
-    "rating": 4.89,
-    "reviewCount": 720,
-    "basePrice": 9999,
-    "currency": "TL",
-    "releaseYear": 2024,
-    "isPopular": true,
-    "isFeatured": true,
-    "image": "/images/smartwatches/samsung/s10-case-unselect-gallery-1-202409fmtjpegqlt95",
-    "highlights": [
-      "3nm Exynos W1000 İşlemci",
-      "EKG, Tansiyon & BioActive Sensör",
-      "Galaxy AI Sağlık Asistanı",
-      "Safir Cam Ekran"
-    ],
-    "storeOffers": [
-      {
-        "id": "vatan",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 9999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "🔥 Fiyat Performans"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1800,
-        "url": "#"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2024-07",
-        "price": 8999,
-        "store": "Vatan"
-      },
-      {
-        "date": "2026-08",
-        "price": 9999,
-        "store": "Vatan"
-      }
-    ],
-    "images": [
-      "/images/smartwatches/samsung/s10-case-unselect-gallery-1-202409fmtjpegqlt95"
     ]
   },
   {
