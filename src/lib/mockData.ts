@@ -1,1220 +1,27759 @@
 import { Smartphone } from './types';
 
 export const mockSmartphones: Smartphone[] = [
-{
-  "id": "tecno-spark-50-pro-256gb",
-  "slug": "tecno-spark-50-pro",
-  "name": "Tecno Spark 50 Pro",
-  "brand": "Tecno",
-  "category": "smartphones",
-  "image": "/images/phones/tecno/spark-50-pro-orange.png",
-  "images": [
-    "/images/phones/tecno/spark-50-pro-orange.png",
-    "/images/phones/tecno/spark-50-pro-blue.png",
-    "/images/phones/tecno/spark-50-pro-grey.png",
-    "/images/phones/tecno/spark-50-pro-black.png"
-  ],
-  "rating": 4.6,
-  "reviewCount": 184,
-  "basePrice": 12999,
-  "currency": "TL",
-  "releaseYear": 2025,
-  "isPopular": true,
-  "isFeatured": true,
-  "highlights": [
-    "108MP Ultra Clear Ana Kamera",
-    "6.78 inç FHD+ 120Hz AMOLED Ekran",
-    "MediaTek Helio G100 Ultimate (6nm)",
-    "5000 mAh Batarya & 33W Hızlı Şarj"
-  ],
-  "tags": [
-    "108MP Kamera",
-    "120Hz AMOLED",
-    "Helio G100",
-    "33W Hızlı Şarj"
-  ],
-  "colorOptions": [
-    {
-      "name": "Gün Batımı Turuncusu",
-      "hex": "#da722e"
+  {
+    "id": "tecno-tecno-pova-curve-2-5g",
+    "slug": "tecno-pova-curve-2-5g",
+    "name": "Tecno Pova Curve 2 5G",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 174,
+    "basePrice": 16999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-pova-curve-2-5g.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova-curve-2-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2026 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
     },
-    {
-      "name": "Gece Mavisi",
-      "hex": "#14256f"
-    },
-    {
-      "name": "Titanyum Gri",
-      "hex": "#8f8f90"
-    },
-    {
-      "name": "Gece Siyahı",
-      "hex": "#444444"
-    }
-  ],
-  "specs": {
-    "screen": {
-      "size": "6.78 inç",
-      "type": "AMOLED",
-      "resolution": "2460 x 1080",
-      "refreshRate": 120,
-      "ppi": 396,
-      "brightnessNits": 1000
-    },
-    "processor": {
-      "chip": "MediaTek Helio G100 Ultimate",
-      "cores": "8 Çekirdek (2x 2.2 GHz + 6x 2.0 GHz)",
-      "process": "6nm",
-      "antutuScore": 435000
-    },
-    "memory": {
-      "ramGb": 8,
-      "ramType": "LPDDR4X",
-      "storageGb": 256,
-      "storageOptions": [
-        128,
-        256
-      ],
-      "expandableStorage": true
-    },
-    "camera": {
-      "mainMp": "108 MP (f/1.8, Geniş Açı, PDAF)",
-      "ultrawideMp": "2 MP (Derinlik) + AI Lens",
-      "selfieMp": "32 MP (f/2.2, Çift LED Flaşlı)",
-      "videoRes": "2K @ 30fps / 1080p @ 60fps",
-      "dxomarkScore": 110
-    },
-    "battery": {
-      "capacitymAh": 5000,
-      "chargingWatts": 33,
-      "wirelessCharging": false,
-      "reverseWireless": false
-    },
-    "connectivity": {
-      "has5G": false,
-      "wifiStandard": "Wi-Fi 5 (802.11ac)",
-      "bluetooth": "5.2",
-      "hasNFC": true,
-      "hasesim": false
-    },
-    "build": {
-      "weightGrams": 188,
-      "thicknessMm": 7.7,
-      "waterResistance": "IP54",
-      "frameMaterial": "Plastik Çerçeve & Mat Cam Görünümlü Arka Kapak"
-    },
-    "software": {
-      "osName": "Android 15 (HiOS 15)",
-      "updateYears": 2
-    }
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova-curve-2-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 16999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%20Curve%202%205G"
+      },
+      {
+        "id": "st-ty-tecno-pova-curve-2-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 16659,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%20Curve%202%205G"
+      },
+      {
+        "id": "st-vatan-tecno-pova-curve-2-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 17339,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%20Curve%202%205G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 18019,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 17679,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 17339,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 17169,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 16999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 16999,
+        "store": "Hepsiburada"
+      }
+    ]
   },
-  "storeOffers": [
-    {
-      "id": "st-hb-tecno-spark-50-pro",
-      "storeName": "Hepsiburada",
-      "storeLogoColor": "bg-orange-600",
-      "price": 12999,
-      "inStock": true,
-      "shippingDays": 1,
-      "badges": [
-        "Resmi Distribütör",
-        "Yarın Kapında"
-      ],
-      "sellerRating": 4.8,
-      "sellerReviews": 4500,
-      "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2050%20Pro"
+  {
+    "id": "tecno-tecno-spark-go-3",
+    "slug": "tecno-spark-go-3",
+    "name": "Tecno Spark Go 3",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 210,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-spark-go-3.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-go-3.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2026 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
     },
-    {
-      "id": "st-ty-tecno-spark-50-pro",
-      "storeName": "Trendyol",
-      "storeLogoColor": "bg-amber-600",
-      "price": 12739,
-      "inStock": true,
-      "shippingDays": 1,
-      "badges": [
-        "Fırsat Ürünü"
-      ],
-      "sellerRating": 4.7,
-      "sellerReviews": 8100,
-      "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2050%20Pro"
-    },
-    {
-      "id": "st-vatan-tecno-spark-50-pro",
-      "storeName": "Vatan Bilgisayar",
-      "storeLogoColor": "bg-blue-700",
-      "price": 13259,
-      "inStock": true,
-      "shippingDays": 2,
-      "badges": [
-        "Mağazadan Teslim"
-      ],
-      "sellerRating": 4.9,
-      "sellerReviews": 5600,
-      "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2050%20Pro/"
-    },
-    {
-      "id": "st-mm-tecno-spark-50-pro",
-      "storeName": "MediaMarkt",
-      "storeLogoColor": "bg-rose-600",
-      "price": 13389,
-      "inStock": true,
-      "shippingDays": 2,
-      "badges": [
-        "Orijinal Kutu"
-      ],
-      "sellerRating": 4.6,
-      "sellerReviews": 3300,
-      "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Tecno%20Spark%2050%20Pro"
-    }
-  ],
-  "priceHistory": [
-    {
-      "date": "2025-10",
-      "price": 14039,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2025-11",
-      "price": 13649,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2025-12",
-      "price": 13389,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2026-01",
-      "price": 13259,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2026-02",
-      "price": 12999,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2026-03",
-      "price": 12999,
-      "store": "Hepsiburada"
-    }
-  ]
-},
-{
-  "id": "tecno-camon-50-ultra-5g-512gb",
-  "slug": "tecno-camon-50-ultra-5g",
-  "name": "Tecno Camon 50 Ultra 5G",
-  "brand": "Tecno",
-  "category": "smartphones",
-  "image": "/images/phones/tecno/camon-50-ultra-lilac.png",
-  "images": [
-    "/images/phones/tecno/camon-50-ultra-lilac.png",
-    "/images/phones/tecno/camon-50-ultra-orange.png",
-    "/images/phones/tecno/camon-50-ultra-white.png",
-    "/images/phones/tecno/camon-50-ultra-green.png",
-    "/images/phones/tecno/camon-50-ultra-grey.png"
-  ],
-  "rating": 4.8,
-  "reviewCount": 312,
-  "basePrice": 24999,
-  "currency": "TL",
-  "releaseYear": 2025,
-  "isPopular": true,
-  "isFeatured": true,
-  "highlights": [
-    "50MP Sony LYT-800 OIS + 50MP 3x Periskop Telefoto",
-    "MediaTek Dimensity 8300 Ultra 5G (4nm)",
-    "6.78 inç 1.5K 144Hz LTPO Kavisli AMOLED",
-    "5500 mAh & 70W Ultra Şarj"
-  ],
-  "tags": [
-    "Amiral Gemisi",
-    "50MP Periskop",
-    "Dimensity 8300",
-    "144Hz AMOLED",
-    "70W Şarj"
-  ],
-  "colorOptions": [
-    {
-      "name": "Leylak",
-      "hex": "#bfbdd2"
-    },
-    {
-      "name": "Gün Batımı Turuncusu",
-      "hex": "#e47233"
-    },
-    {
-      "name": "İnci Beyazı",
-      "hex": "#d7d5d3"
-    },
-    {
-      "name": "Zümrüt Yeşili",
-      "hex": "#4d7469"
-    },
-    {
-      "name": "Grafit Gri",
-      "hex": "#505050"
-    }
-  ],
-  "specs": {
-    "screen": {
-      "size": "6.78 inç",
-      "type": "3D Kavisli LTPO AMOLED",
-      "resolution": "2780 x 1264",
-      "refreshRate": 144,
-      "ppi": 450,
-      "brightnessNits": 2500
-    },
-    "processor": {
-      "chip": "MediaTek Dimensity 8300 Ultra",
-      "cores": "8 Çekirdek (1x 3.35GHz + 3x 3.2GHz + 4x 2.2GHz)",
-      "process": "4nm",
-      "antutuScore": 1420000
-    },
-    "memory": {
-      "ramGb": 12,
-      "ramType": "LPDDR5X",
-      "storageGb": 512,
-      "storageOptions": [
-        256,
-        512
-      ],
-      "expandableStorage": false
-    },
-    "camera": {
-      "mainMp": "50 MP Sony LYT-800 (f/1.68, OIS, 1/1.56\")",
-      "ultrawideMp": "50 MP Ultra Geniş (114°)",
-      "telephotoMp": "50 MP Periskop Telefoto (3x Optik, 60x Hibrit, OIS)",
-      "selfieMp": "50 MP (Otomatik Odaklama, 4K 60fps)",
-      "videoRes": "4K @ 60fps HDR, 1080p @ 120fps Gyro-EIS",
-      "dxomarkScore": 138
-    },
-    "battery": {
-      "capacitymAh": 5500,
-      "chargingWatts": 70,
-      "wirelessCharging": true,
-      "reverseWireless": true
-    },
-    "connectivity": {
-      "has5G": true,
-      "wifiStandard": "Wi-Fi 6E (802.11ax)",
-      "bluetooth": "5.4",
-      "hasNFC": true,
-      "hasesim": true
-    },
-    "build": {
-      "weightGrams": 194,
-      "thicknessMm": 7.8,
-      "waterResistance": "IP68",
-      "frameMaterial": "Alüminyum Çerçeve & Seramik Dokulu Arka Yüzey"
-    },
-    "software": {
-      "osName": "Android 15 (HiOS 15)",
-      "updateYears": 3
-    }
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-go-3",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%20Go%203"
+      },
+      {
+        "id": "st-ty-tecno-spark-go-3",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%20Go%203"
+      },
+      {
+        "id": "st-vatan-tecno-spark-go-3",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%20Go%203/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
   },
-  "storeOffers": [
-    {
-      "id": "st-hb-tecno-camon-50-ultra-5g",
-      "storeName": "Hepsiburada",
-      "storeLogoColor": "bg-orange-600",
-      "price": 24999,
-      "inStock": true,
-      "shippingDays": 1,
-      "badges": [
-        "Resmi Distribütör",
-        "Yarın Kapında"
-      ],
-      "sellerRating": 4.8,
-      "sellerReviews": 4500,
-      "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2050%20Ultra%205G"
+  {
+    "id": "tecno-tecno-pova-slim-5g",
+    "slug": "tecno-pova-slim-5g",
+    "name": "Tecno Pova Slim",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 151,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-pova-slim-5g.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova-slim-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2026 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
     },
-    {
-      "id": "st-ty-tecno-camon-50-ultra-5g",
-      "storeName": "Trendyol",
-      "storeLogoColor": "bg-amber-600",
-      "price": 24499,
-      "inStock": true,
-      "shippingDays": 1,
-      "badges": [
-        "Fırsat Ürünü"
-      ],
-      "sellerRating": 4.7,
-      "sellerReviews": 8100,
-      "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2050%20Ultra%205G"
-    },
-    {
-      "id": "st-vatan-tecno-camon-50-ultra-5g",
-      "storeName": "Vatan Bilgisayar",
-      "storeLogoColor": "bg-blue-700",
-      "price": 25499,
-      "inStock": true,
-      "shippingDays": 2,
-      "badges": [
-        "Mağazadan Teslim"
-      ],
-      "sellerRating": 4.9,
-      "sellerReviews": 5600,
-      "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2050%20Ultra%205G/"
-    },
-    {
-      "id": "st-mm-tecno-camon-50-ultra-5g",
-      "storeName": "MediaMarkt",
-      "storeLogoColor": "bg-rose-600",
-      "price": 25749,
-      "inStock": true,
-      "shippingDays": 2,
-      "badges": [
-        "Orijinal Kutu"
-      ],
-      "sellerRating": 4.6,
-      "sellerReviews": 3300,
-      "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Tecno%20Camon%2050%20Ultra%205G"
-    }
-  ],
-  "priceHistory": [
-    {
-      "date": "2025-10",
-      "price": 26999,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2025-11",
-      "price": 26249,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2025-12",
-      "price": 25749,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2026-01",
-      "price": 25499,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2026-02",
-      "price": 24999,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2026-03",
-      "price": 24999,
-      "store": "Hepsiburada"
-    }
-  ]
-},
-{
-  "id": "tecno-camon-50-256gb",
-  "slug": "tecno-camon-50",
-  "name": "Tecno Camon 50",
-  "brand": "Tecno",
-  "category": "smartphones",
-  "image": "/images/phones/tecno/camon-50-olive.png",
-  "images": [
-    "/images/phones/tecno/camon-50-olive.png",
-    "/images/phones/tecno/camon-50-lavender.png",
-    "/images/phones/tecno/camon-50-forest.png",
-    "/images/phones/tecno/camon-50-white.png",
-    "/images/phones/tecno/camon-50-mint.png",
-    "/images/phones/tecno/camon-50-black.png"
-  ],
-  "rating": 4.7,
-  "reviewCount": 145,
-  "basePrice": 16999,
-  "currency": "TL",
-  "releaseYear": 2025,
-  "isPopular": true,
-  "isFeatured": true,
-  "highlights": [
-    "50MP OIS Sony Ana Kamera + 50MP Selfie",
-    "6.78 inç FHD+ 120Hz AMOLED Ekran",
-    "MediaTek Helio G100 (6nm) İşlemci",
-    "5000 mAh Batarya & 45W Hızlı Şarj"
-  ],
-  "tags": [
-    "50MP OIS Kamera",
-    "50MP Selfie",
-    "120Hz AMOLED",
-    "45W Şarj"
-  ],
-  "colorOptions": [
-    {
-      "name": "Zeytin Yeşili",
-      "hex": "#c0cea5"
-    },
-    {
-      "name": "Lavanta Moru",
-      "hex": "#b79ccd"
-    },
-    {
-      "name": "Orman Yeşili",
-      "hex": "#515c4d"
-    },
-    {
-      "name": "Gümüş Beyaz",
-      "hex": "#d6d4d0"
-    },
-    {
-      "name": "Nane Yeşili",
-      "hex": "#50c878"
-    },
-    {
-      "name": "Obsidiyen Siyah",
-      "hex": "#191a1a"
-    }
-  ],
-  "specs": {
-    "screen": {
-      "size": "6.78 inç",
-      "type": "AMOLED",
-      "resolution": "2436 x 1080",
-      "refreshRate": 120,
-      "ppi": 393,
-      "brightnessNits": 1300
-    },
-    "processor": {
-      "chip": "MediaTek Helio G100",
-      "cores": "8 Çekirdek (2x 2.2 GHz + 6x 2.0 GHz)",
-      "process": "6nm",
-      "antutuScore": 420000
-    },
-    "memory": {
-      "ramGb": 8,
-      "ramType": "LPDDR4X",
-      "storageGb": 256,
-      "storageOptions": [
-        256
-      ],
-      "expandableStorage": true
-    },
-    "camera": {
-      "mainMp": "50 MP (f/1.88, OIS, PDAF)",
-      "ultrawideMp": "2 MP (Derinlik) + AI Işık Sensörü",
-      "selfieMp": "50 MP (Otomatik Göz Takibi & Çift LED)",
-      "videoRes": "2K @ 30fps / 1080p @ 60fps",
-      "dxomarkScore": 122
-    },
-    "battery": {
-      "capacitymAh": 5000,
-      "chargingWatts": 45,
-      "wirelessCharging": false,
-      "reverseWireless": false
-    },
-    "connectivity": {
-      "has5G": false,
-      "wifiStandard": "Wi-Fi 5 (802.11ac)",
-      "bluetooth": "5.3",
-      "hasNFC": true,
-      "hasesim": false
-    },
-    "build": {
-      "weightGrams": 185,
-      "thicknessMm": 7.65,
-      "waterResistance": "IP54",
-      "frameMaterial": "Ultra İnce Tasarım & Çizilmeye Dayanıklı Arka Yüzey"
-    },
-    "software": {
-      "osName": "Android 15 (HiOS 15)",
-      "updateYears": 2
-    }
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova-slim-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%20Slim"
+      },
+      {
+        "id": "st-ty-tecno-pova-slim-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%20Slim"
+      },
+      {
+        "id": "st-vatan-tecno-pova-slim-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 12239,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%20Slim/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 12719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 12479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 12239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 12119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 11999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 11999,
+        "store": "Hepsiburada"
+      }
+    ]
   },
-  "storeOffers": [
-    {
-      "id": "st-hb-tecno-camon-50",
-      "storeName": "Hepsiburada",
-      "storeLogoColor": "bg-orange-600",
-      "price": 16999,
-      "inStock": true,
-      "shippingDays": 1,
-      "badges": [
-        "Resmi Distribütör",
-        "Yarın Kapında"
-      ],
-      "sellerRating": 4.8,
-      "sellerReviews": 4500,
-      "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2050"
+  {
+    "id": "tecno-tecno-spark-slim",
+    "slug": "tecno-spark-slim",
+    "name": "Tecno Spark Slim",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 152,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-spark-slim.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-slim.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2026 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
     },
-    {
-      "id": "st-ty-tecno-camon-50",
-      "storeName": "Trendyol",
-      "storeLogoColor": "bg-amber-600",
-      "price": 16659,
-      "inStock": true,
-      "shippingDays": 1,
-      "badges": [
-        "Fırsat Ürünü"
-      ],
-      "sellerRating": 4.7,
-      "sellerReviews": 8100,
-      "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2050"
-    },
-    {
-      "id": "st-vatan-tecno-camon-50",
-      "storeName": "Vatan Bilgisayar",
-      "storeLogoColor": "bg-blue-700",
-      "price": 17339,
-      "inStock": true,
-      "shippingDays": 2,
-      "badges": [
-        "Mağazadan Teslim"
-      ],
-      "sellerRating": 4.9,
-      "sellerReviews": 5600,
-      "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2050/"
-    },
-    {
-      "id": "st-mm-tecno-camon-50",
-      "storeName": "MediaMarkt",
-      "storeLogoColor": "bg-rose-600",
-      "price": 17509,
-      "inStock": true,
-      "shippingDays": 2,
-      "badges": [
-        "Orijinal Kutu"
-      ],
-      "sellerRating": 4.6,
-      "sellerReviews": 3300,
-      "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Tecno%20Camon%2050"
-    }
-  ],
-  "priceHistory": [
-    {
-      "date": "2025-10",
-      "price": 18359,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2025-11",
-      "price": 17849,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2025-12",
-      "price": 17509,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2026-01",
-      "price": 17339,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2026-02",
-      "price": 16999,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2026-03",
-      "price": 16999,
-      "store": "Hepsiburada"
-    }
-  ]
-},
-{
-  "id": "tecno-spark-50-5g-256gb",
-  "slug": "tecno-spark-50-5g",
-  "name": "Tecno Spark 50 5G",
-  "brand": "Tecno",
-  "category": "smartphones",
-  "image": "/images/phones/tecno/spark-50-5g-purple.png",
-  "images": [
-    "/images/phones/tecno/spark-50-5g-purple.png",
-    "/images/phones/tecno/spark-50-5g-mint.png",
-    "/images/phones/tecno/spark-50-5g-gold.png",
-    "/images/phones/tecno/spark-50-5g-grey.png",
-    "/images/phones/tecno/spark-50-5g-black.png"
-  ],
-  "rating": 4.5,
-  "reviewCount": 96,
-  "basePrice": 11499,
-  "currency": "TL",
-  "releaseYear": 2025,
-  "isPopular": false,
-  "isFeatured": false,
-  "highlights": [
-    "MediaTek Dimensity 6300 5G (6nm)",
-    "6.67 inç 120Hz Akıcı Ekran",
-    "50MP Ultra Clear AI Ana Kamera",
-    "5000 mAh Pil & 18W Hızlı Şarj"
-  ],
-  "tags": [
-    "Uygun Fiyatlı 5G",
-    "120Hz Ekran",
-    "Dimensity 6300",
-    "50MP AI Kamera"
-  ],
-  "colorOptions": [
-    {
-      "name": "Gece Moru",
-      "hex": "#72589c"
-    },
-    {
-      "name": "Gökyüzü Yeşili",
-      "hex": "#bbdfc1"
-    },
-    {
-      "name": "Çöl Sarısı",
-      "hex": "#b3af9f"
-    },
-    {
-      "name": "Metalik Gri",
-      "hex": "#82827c"
-    },
-    {
-      "name": "Yıldızlı Siyah",
-      "hex": "#343437"
-    }
-  ],
-  "specs": {
-    "screen": {
-      "size": "6.67 inç",
-      "type": "IPS LCD (Dynamic Port)",
-      "resolution": "1600 x 720",
-      "refreshRate": 120,
-      "ppi": 263,
-      "brightnessNits": 500
-    },
-    "processor": {
-      "chip": "MediaTek Dimensity 6300 5G",
-      "cores": "8 Çekirdek (2x 2.4 GHz + 6x 2.0 GHz)",
-      "process": "6nm",
-      "antutuScore": 410000
-    },
-    "memory": {
-      "ramGb": 8,
-      "ramType": "LPDDR4X",
-      "storageGb": 256,
-      "storageOptions": [
-        128,
-        256
-      ],
-      "expandableStorage": true
-    },
-    "camera": {
-      "mainMp": "50 MP (f/1.8, Geniş Açı, PDAF)",
-      "ultrawideMp": "AI Yardımcı Sensör",
-      "selfieMp": "8 MP (Çift Flaşlı Ön Kamera)",
-      "videoRes": "1080p @ 30fps",
-      "dxomarkScore": 98
-    },
-    "battery": {
-      "capacitymAh": 5000,
-      "chargingWatts": 18,
-      "wirelessCharging": false,
-      "reverseWireless": false
-    },
-    "connectivity": {
-      "has5G": true,
-      "wifiStandard": "Wi-Fi 5 (802.11ac)",
-      "bluetooth": "5.3",
-      "hasNFC": true,
-      "hasesim": false
-    },
-    "build": {
-      "weightGrams": 187,
-      "thicknessMm": 7.85,
-      "waterResistance": "IP54",
-      "frameMaterial": "Hafif Polikarbonat Kasa"
-    },
-    "software": {
-      "osName": "Android 15 (HiOS 15)",
-      "updateYears": 2
-    }
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-slim",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%20Slim"
+      },
+      {
+        "id": "st-ty-tecno-spark-slim",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%20Slim"
+      },
+      {
+        "id": "st-vatan-tecno-spark-slim",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%20Slim/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
   },
-  "storeOffers": [
-    {
-      "id": "st-hb-tecno-spark-50-5g",
-      "storeName": "Hepsiburada",
-      "storeLogoColor": "bg-orange-600",
-      "price": 11499,
-      "inStock": true,
-      "shippingDays": 1,
-      "badges": [
-        "Resmi Distribütör",
-        "Yarın Kapında"
-      ],
-      "sellerRating": 4.8,
-      "sellerReviews": 4500,
-      "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2050%205G"
+  {
+    "id": "tecno-tecno-spark-40-5g",
+    "slug": "tecno-spark-40-5g",
+    "name": "Tecno Spark 40",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 108,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-spark-40-5g.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-40-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2026 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
     },
-    {
-      "id": "st-ty-tecno-spark-50-5g",
-      "storeName": "Trendyol",
-      "storeLogoColor": "bg-amber-600",
-      "price": 11269,
-      "inStock": true,
-      "shippingDays": 1,
-      "badges": [
-        "Fırsat Ürünü"
-      ],
-      "sellerRating": 4.7,
-      "sellerReviews": 8100,
-      "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2050%205G"
-    },
-    {
-      "id": "st-vatan-tecno-spark-50-5g",
-      "storeName": "Vatan Bilgisayar",
-      "storeLogoColor": "bg-blue-700",
-      "price": 11729,
-      "inStock": true,
-      "shippingDays": 2,
-      "badges": [
-        "Mağazadan Teslim"
-      ],
-      "sellerRating": 4.9,
-      "sellerReviews": 5600,
-      "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2050%205G/"
-    },
-    {
-      "id": "st-mm-tecno-spark-50-5g",
-      "storeName": "MediaMarkt",
-      "storeLogoColor": "bg-rose-600",
-      "price": 11844,
-      "inStock": true,
-      "shippingDays": 2,
-      "badges": [
-        "Orijinal Kutu"
-      ],
-      "sellerRating": 4.6,
-      "sellerReviews": 3300,
-      "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Tecno%20Spark%2050%205G"
-    }
-  ],
-  "priceHistory": [
-    {
-      "date": "2025-10",
-      "price": 12419,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2025-11",
-      "price": 12074,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2025-12",
-      "price": 11844,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2026-01",
-      "price": 11729,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2026-02",
-      "price": 11499,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2026-03",
-      "price": 11499,
-      "store": "Hepsiburada"
-    }
-  ]
-},
-{
-  "id": "tecno-spark-50-128gb",
-  "slug": "tecno-spark-50",
-  "name": "Tecno Spark 50",
-  "brand": "Tecno",
-  "category": "smartphones",
-  "image": "/images/phones/tecno/spark-50-blue.png",
-  "images": [
-    "/images/phones/tecno/spark-50-blue.png",
-    "/images/phones/tecno/spark-50-white.png",
-    "/images/phones/tecno/spark-50-grey.png",
-    "/images/phones/tecno/spark-50-lilac.png",
-    "/images/phones/tecno/spark-50-coral.png",
-    "/images/phones/tecno/spark-50-orange.png"
-  ],
-  "rating": 4.4,
-  "reviewCount": 110,
-  "basePrice": 9499,
-  "currency": "TL",
-  "releaseYear": 2025,
-  "isPopular": false,
-  "isFeatured": false,
-  "highlights": [
-    "50MP Ultra Clear Ana Kamera",
-    "6.67 inç 120Hz IPS LCD Ekran",
-    "MediaTek Helio G81 Ultra İşlemci",
-    "5000 mAh Uzun Ömürlü Batarya"
-  ],
-  "tags": [
-    "Fiyat Performans",
-    "50MP Kamera",
-    "120Hz Ekran",
-    "Helio G81"
-  ],
-  "colorOptions": [
-    {
-      "name": "Okyanus Mavisi",
-      "hex": "#048ce3"
-    },
-    {
-      "name": "Buz Beyazı",
-      "hex": "#d8d9da"
-    },
-    {
-      "name": "Gölgeli Gri",
-      "hex": "#6c6c6c"
-    },
-    {
-      "name": "Leylak",
-      "hex": "#b0a1dd"
-    },
-    {
-      "name": "Mercan Pembesi",
-      "hex": "#e59ca9"
-    },
-    {
-      "name": "Gün Batımı Turuncusu",
-      "hex": "#e86c29"
-    }
-  ],
-  "specs": {
-    "screen": {
-      "size": "6.67 inç",
-      "type": "IPS LCD",
-      "resolution": "1600 x 720",
-      "refreshRate": 120,
-      "ppi": 263,
-      "brightnessNits": 480
-    },
-    "processor": {
-      "chip": "MediaTek Helio G81 Ultra",
-      "cores": "8 Çekirdek (2x 2.0 GHz + 6x 1.8 GHz)",
-      "process": "12nm",
-      "antutuScore": 280000
-    },
-    "memory": {
-      "ramGb": 6,
-      "ramType": "LPDDR4X",
-      "storageGb": 128,
-      "storageOptions": [
-        128,
-        256
-      ],
-      "expandableStorage": true
-    },
-    "camera": {
-      "mainMp": "50 MP (f/1.8, PDAF, HDR)",
-      "ultrawideMp": "AI Işık Sensörü",
-      "selfieMp": "8 MP (Ön LED Flaşlı)",
-      "videoRes": "1080p @ 30fps",
-      "dxomarkScore": 89
-    },
-    "battery": {
-      "capacitymAh": 5000,
-      "chargingWatts": 18,
-      "wirelessCharging": false,
-      "reverseWireless": false
-    },
-    "connectivity": {
-      "has5G": false,
-      "wifiStandard": "Wi-Fi 802.11 a/b/g/n/ac",
-      "bluetooth": "5.2",
-      "hasNFC": false,
-      "hasesim": false
-    },
-    "build": {
-      "weightGrams": 185,
-      "thicknessMm": 7.9,
-      "waterResistance": "IP54",
-      "frameMaterial": "Darbeye Dayanıklı Kompozit Gövde"
-    },
-    "software": {
-      "osName": "Android 15 (HiOS 15)",
-      "updateYears": 2
-    }
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-40-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2040"
+      },
+      {
+        "id": "st-ty-tecno-spark-40-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2040"
+      },
+      {
+        "id": "st-vatan-tecno-spark-40-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2040/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
   },
-  "storeOffers": [
-    {
-      "id": "st-hb-tecno-spark-50",
-      "storeName": "Hepsiburada",
-      "storeLogoColor": "bg-orange-600",
-      "price": 9499,
-      "inStock": true,
-      "shippingDays": 1,
-      "badges": [
-        "Resmi Distribütör",
-        "Yarın Kapında"
-      ],
-      "sellerRating": 4.8,
-      "sellerReviews": 4500,
-      "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2050"
+  {
+    "id": "tecno-tecno-spark-go-5g",
+    "slug": "tecno-spark-go-5g",
+    "name": "Tecno Spark Go",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 114,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-spark-go-5g.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-go-5g.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2026 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
     },
-    {
-      "id": "st-ty-tecno-spark-50",
-      "storeName": "Trendyol",
-      "storeLogoColor": "bg-amber-600",
-      "price": 9309,
-      "inStock": true,
-      "shippingDays": 1,
-      "badges": [
-        "Fırsat Ürünü"
-      ],
-      "sellerRating": 4.7,
-      "sellerReviews": 8100,
-      "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2050"
-    },
-    {
-      "id": "st-vatan-tecno-spark-50",
-      "storeName": "Vatan Bilgisayar",
-      "storeLogoColor": "bg-blue-700",
-      "price": 9689,
-      "inStock": true,
-      "shippingDays": 2,
-      "badges": [
-        "Mağazadan Teslim"
-      ],
-      "sellerRating": 4.9,
-      "sellerReviews": 5600,
-      "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2050/"
-    },
-    {
-      "id": "st-mm-tecno-spark-50",
-      "storeName": "MediaMarkt",
-      "storeLogoColor": "bg-rose-600",
-      "price": 9784,
-      "inStock": true,
-      "shippingDays": 2,
-      "badges": [
-        "Orijinal Kutu"
-      ],
-      "sellerRating": 4.6,
-      "sellerReviews": 3300,
-      "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Tecno%20Spark%2050"
-    }
-  ],
-  "priceHistory": [
-    {
-      "date": "2025-10",
-      "price": 10259,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2025-11",
-      "price": 9974,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2025-12",
-      "price": 9784,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2026-01",
-      "price": 9689,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2026-02",
-      "price": 9499,
-      "store": "Hepsiburada"
-    },
-    {
-      "date": "2026-03",
-      "price": 9499,
-      "store": "Hepsiburada"
-    }
-  ]
-},
-{
-  "id": "tecno-pova-curve-2-5g-256gb",
-  "slug": "tecno-pova-curve-2-5g",
-  "name": "Tecno Pova Curve 2 5G",
-  "brand": "Tecno",
-  "category": "smartphones",
-  "image": "/images/phones/tecno/pova-curve-2-silver.png",
-  "images": [
-    "/images/phones/tecno/pova-curve-2-silver.png",
-    "/images/phones/tecno/pova-curve-2-dark.png",
-    "/images/phones/tecno/pova-curve-2-violet.png"
-  ],
-  "rating": 4.8,
-  "reviewCount": 240,
-  "basePrice": 18999,
-  "currency": "TL",
-  "releaseYear": 2025,
-  "isPopular": true,
-  "isFeatured": true,
-  "highlights": [
-    "MediaTek Dimensity 7300 Ultimate 5G (4nm)",
-    "6.78 inç 3D Kavisli 144Hz AMOLED Ekran",
-    "6000 mAh Dev Batarya & 70W Ultra Şarj",
-    "108MP Ultra Net Ana Kamera"
-  ],
-  "tags": [
-    "Oyuncu Telefonu",
-    "6000mAh Batarya",
-    "144Hz Kavisli AMOLED",
-    "Dimensity 7300",
-    "70W Şarj"
-  ],
-  "colorOptions": [
-    {
-      "name": "Siber Gümüş",
-      "hex": "#a8abb3"
-    },
-    {
-      "name": "Mecha Koyu",
-      "hex": "#686868"
-    },
-    {
-      "name": "Neon Menekşe",
-      "hex": "#8e92c1"
-    }
-  ],
-  "specs": {
-    "screen": {
-      "size": "6.78 inç",
-      "type": "3D Kavisli AMOLED",
-      "resolution": "2436 x 1080",
-      "refreshRate": 144,
-      "ppi": 393,
-      "brightnessNits": 1300
-    },
-    "processor": {
-      "chip": "MediaTek Dimensity 7300 Ultimate",
-      "cores": "8 Çekirdek (4x 2.5 GHz + 4x 2.0 GHz)",
-      "process": "4nm",
-      "antutuScore": 730000
-    },
-    "memory": {
-      "ramGb": 12,
-      "ramType": "LPDDR5",
-      "storageGb": 256,
-      "storageOptions": [
-        256
-      ],
-      "expandableStorage": false
-    },
-    "camera": {
-      "mainMp": "108 MP (f/1.8, 1/1.52\", PDAF)",
-      "ultrawideMp": "2 MP (Derinlik) + AI Işık Sensörü",
-      "selfieMp": "32 MP (f/2.2, Çift Flaşlı Ön Kamera)",
-      "videoRes": "4K @ 30fps / 1080p @ 60fps EIS",
-      "dxomarkScore": 126
-    },
-    "battery": {
-      "capacitymAh": 6000,
-      "chargingWatts": 70,
-      "wirelessCharging": false,
-      "reverseWireless": true
-    },
-    "connectivity": {
-      "has5G": true,
-      "wifiStandard": "Wi-Fi 6 (802.11ax)",
-      "bluetooth": "5.4",
-      "hasNFC": true,
-      "hasesim": false
-    },
-    "build": {
-      "weightGrams": 198,
-      "thicknessMm": 8,
-      "waterResistance": "IP54",
-      "frameMaterial": "Mecha Cyber Tasarım & Buhar Odalı Sıvı Soğutma"
-    },
-    "software": {
-      "osName": "Android 15 (HiOS 15 & Game Space 3.0)",
-      "updateYears": 2
-    }
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-go-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%20Go"
+      },
+      {
+        "id": "st-ty-tecno-spark-go-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%20Go"
+      },
+      {
+        "id": "st-vatan-tecno-spark-go-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%20Go/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
   },
-  "storeOffers": [
-    {
-      "id": "st-hb-tecno-pova-curve-2-5g",
-      "storeName": "Hepsiburada",
-      "storeLogoColor": "bg-orange-600",
-      "price": 18999,
-      "inStock": true,
-      "shippingDays": 1,
-      "badges": [
-        "Resmi Distribütör",
-        "Yarın Kapında"
-      ],
-      "sellerRating": 4.8,
-      "sellerReviews": 4500,
-      "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%20Curve%202%205G"
+  {
+    "id": "tecno-tecno-spark-40c",
+    "slug": "tecno-spark-40c",
+    "name": "Tecno Spark 40C",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 92,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-spark-40c.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-40c.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2026 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
     },
-    {
-      "id": "st-ty-tecno-pova-curve-2-5g",
-      "storeName": "Trendyol",
-      "storeLogoColor": "bg-amber-600",
-      "price": 18619,
-      "inStock": true,
-      "shippingDays": 1,
-      "badges": [
-        "Fırsat Ürünü"
-      ],
-      "sellerRating": 4.7,
-      "sellerReviews": 8100,
-      "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%20Curve%202%205G"
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-40c",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2040C"
+      },
+      {
+        "id": "st-ty-tecno-spark-40c",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2040C"
+      },
+      {
+        "id": "st-vatan-tecno-spark-40c",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2040C/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pova-7-pro-5g",
+    "slug": "tecno-pova-7-pro-5g",
+    "name": "Tecno Pova 7 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 280,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-pova-7-pro-5g.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova-7-pro-5g.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
     },
-    {
-      "id": "st-vatan-tecno-pova-curve-2-5g",
-      "storeName": "Vatan Bilgisayar",
-      "storeLogoColor": "bg-blue-700",
-      "price": 19379,
-      "inStock": true,
-      "shippingDays": 2,
-      "badges": [
-        "Mağazadan Teslim"
-      ],
-      "sellerRating": 4.9,
-      "sellerReviews": 5600,
-      "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%20Curve%202%205G/"
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova-7-pro-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%207%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-pova-7-pro-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%207%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-pova-7-pro-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 12239,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%207%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 12719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 12479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 12239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 12119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 11999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 11999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pova-7-5g",
+    "slug": "tecno-pova-7-5g",
+    "name": "Tecno Pova 7",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 281,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-pova-7-5g.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova-7-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
     },
-    {
-      "id": "st-mm-tecno-pova-curve-2-5g",
-      "storeName": "MediaMarkt",
-      "storeLogoColor": "bg-rose-600",
-      "price": 19569,
-      "inStock": true,
-      "shippingDays": 2,
-      "badges": [
-        "Orijinal Kutu"
-      ],
-      "sellerRating": 4.6,
-      "sellerReviews": 3300,
-      "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Tecno%20Pova%20Curve%202%205G"
-    }
-  ],
-  "priceHistory": [
-    {
-      "date": "2025-10",
-      "price": 20519,
-      "store": "Hepsiburada"
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova-7-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%207"
+      },
+      {
+        "id": "st-ty-tecno-pova-7-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%207"
+      },
+      {
+        "id": "st-vatan-tecno-pova-7-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 12239,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%207/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 12719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 12479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 12239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 12119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 11999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 11999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-40-pro",
+    "slug": "tecno-spark-40-pro",
+    "name": "Tecno Spark 40 Pro+",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 276,
+    "basePrice": 12999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/spark-50-5g-black.png",
+    "images": [
+      "/images/phones/tecno/spark-50-5g-black.png"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
     },
-    {
-      "date": "2025-11",
-      "price": 19949,
-      "store": "Hepsiburada"
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-40-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2040%20Pro%2B"
+      },
+      {
+        "id": "st-ty-tecno-spark-40-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 12739,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2040%20Pro%2B"
+      },
+      {
+        "id": "st-vatan-tecno-spark-40-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13259,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2040%20Pro%2B/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 13779,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 13519,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 13259,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 13129,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 12999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 12999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-40-pro",
+    "slug": "tecno-spark-40-pro",
+    "name": "Tecno Spark 40 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.2,
+    "reviewCount": 275,
+    "basePrice": 12999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/spark-50-5g-black.png",
+    "images": [
+      "/images/phones/tecno/spark-50-5g-black.png"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
     },
-    {
-      "date": "2025-12",
-      "price": 19569,
-      "store": "Hepsiburada"
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-40-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2040%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-spark-40-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 12739,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2040%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-spark-40-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13259,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2040%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 13779,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 13519,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 13259,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 13129,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 12999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 12999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-40-4g",
+    "slug": "tecno-spark-40-4g",
+    "name": "Tecno Spark 40 4G",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 274,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/spark-50-5g-black.png",
+    "images": [
+      "/images/phones/tecno/spark-50-5g-black.png"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
     },
-    {
-      "date": "2026-01",
-      "price": 19379,
-      "store": "Hepsiburada"
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-40-4g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2040%204G"
+      },
+      {
+        "id": "st-ty-tecno-spark-40-4g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2040%204G"
+      },
+      {
+        "id": "st-vatan-tecno-spark-40-4g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2040%204G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pova-7-ultra-5g",
+    "slug": "tecno-pova-7-ultra-5g",
+    "name": "Tecno Pova 7 Ultra",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 266,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-pova-7-ultra-5g.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova-7-ultra-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP Ultra Clear OIS Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "12 GB RAM + 256 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP Ultra Clear OIS",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
     },
-    {
-      "date": "2026-02",
-      "price": 18999,
-      "store": "Hepsiburada"
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova-7-ultra-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%207%20Ultra"
+      },
+      {
+        "id": "st-ty-tecno-pova-7-ultra-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 24499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%207%20Ultra"
+      },
+      {
+        "id": "st-vatan-tecno-pova-7-ultra-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 25499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%207%20Ultra/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 26499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 25999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 25499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 25249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 24999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 24999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pova-7",
+    "slug": "tecno-pova-7",
+    "name": "Tecno Pova 7 4G",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 264,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-pova-7.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova-7.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
     },
-    {
-      "date": "2026-03",
-      "price": 18999,
-      "store": "Hepsiburada"
-    }
-  ]
-},
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova-7",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%207%204G"
+      },
+      {
+        "id": "st-ty-tecno-pova-7",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%207%204G"
+      },
+      {
+        "id": "st-vatan-tecno-pova-7",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 12239,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%207%204G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 12719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 12479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 12239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 12119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 11999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 11999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-go-2",
+    "slug": "tecno-spark-go-2",
+    "name": "Tecno Spark Go 2",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 265,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-spark-go-2.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-go-2.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-go-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%20Go%202"
+      },
+      {
+        "id": "st-ty-tecno-spark-go-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%20Go%202"
+      },
+      {
+        "id": "st-vatan-tecno-spark-go-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%20Go%202/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pova-curve-5g",
+    "slug": "tecno-pova-curve-5g",
+    "name": "Tecno Pova Curve",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.4,
+    "reviewCount": 205,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-pova-curve-5g.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova-curve-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova-curve-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%20Curve"
+      },
+      {
+        "id": "st-ty-tecno-pova-curve-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%20Curve"
+      },
+      {
+        "id": "st-vatan-tecno-pova-curve-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 12239,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%20Curve/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 12719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 12479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 12239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 12119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 11999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 11999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-40-premier",
+    "slug": "tecno-camon-40-premier",
+    "name": "Tecno Camon 40 Premier",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 234,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-camon-40-premier.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-40-premier.jpg"
+    ],
+    "highlights": [
+      "50 MP Ultra Clear OIS Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "12 GB RAM + 256 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP Ultra Clear OIS",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-40-premier",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2040%20Premier"
+      },
+      {
+        "id": "st-ty-tecno-camon-40-premier",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 24499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2040%20Premier"
+      },
+      {
+        "id": "st-vatan-tecno-camon-40-premier",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 25499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2040%20Premier/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 26499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 25999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 25499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 25249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 24999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 24999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-40-pro-5g",
+    "slug": "tecno-camon-40-pro-5g",
+    "name": "Tecno Camon 40 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 235,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-camon-40-pro-5g.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-40-pro-5g.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-40-pro-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2040%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-camon-40-pro-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2040%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-camon-40-pro-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2040%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-40-pro",
+    "slug": "tecno-camon-40-pro",
+    "name": "Tecno Camon 40 Pro 4G",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 236,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-camon-40-pro.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-40-pro.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-40-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2040%20Pro%204G"
+      },
+      {
+        "id": "st-ty-tecno-camon-40-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2040%20Pro%204G"
+      },
+      {
+        "id": "st-vatan-tecno-camon-40-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2040%20Pro%204G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-40",
+    "slug": "tecno-camon-40",
+    "name": "Tecno Camon 40",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.2,
+    "reviewCount": 237,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-camon-40.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-40.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-40",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2040"
+      },
+      {
+        "id": "st-ty-tecno-camon-40",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2040"
+      },
+      {
+        "id": "st-vatan-tecno-camon-40",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2040/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-go-1s",
+    "slug": "tecno-spark-go-1s",
+    "name": "Tecno Spark Go 1S",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 188,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/spark-50-5g-black.png",
+    "images": [
+      "/images/phones/tecno/spark-50-5g-black.png"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-go-1s",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%20Go%201S"
+      },
+      {
+        "id": "st-ty-tecno-spark-go-1s",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%20Go%201S"
+      },
+      {
+        "id": "st-vatan-tecno-spark-go-1s",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%20Go%201S/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pop-9-4g",
+    "slug": "tecno-pop-9-4g",
+    "name": "Tecno Pop 9 4G",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 49,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-pop-9-4g.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pop-9-4g.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pop-9-4g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pop%209%204G"
+      },
+      {
+        "id": "st-ty-tecno-pop-9-4g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pop%209%204G"
+      },
+      {
+        "id": "st-vatan-tecno-pop-9-4g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pop%209%204G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-30s",
+    "slug": "tecno-camon-30s",
+    "name": "Tecno Camon 30S",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 216,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-camon-30s.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-30s.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-30s",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2030S"
+      },
+      {
+        "id": "st-ty-tecno-camon-30s",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2030S"
+      },
+      {
+        "id": "st-vatan-tecno-camon-30s",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2030S/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-30c-5g",
+    "slug": "tecno-spark-30c-5g",
+    "name": "Tecno Spark 30C 5G",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.2,
+    "reviewCount": 175,
+    "basePrice": 11499,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-spark-30c-5g.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-30c-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-30c-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2030C%205G"
+      },
+      {
+        "id": "st-ty-tecno-spark-30c-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11269,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2030C%205G"
+      },
+      {
+        "id": "st-vatan-tecno-spark-30c-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 11729,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2030C%205G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 12189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 11959,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 11729,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 11614,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 11499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 11499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-30-5g",
+    "slug": "tecno-spark-30-5g",
+    "name": "Tecno Spark 30 5G",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 174,
+    "basePrice": 11499,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-spark-30-5g.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-30-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-30-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2030%205G"
+      },
+      {
+        "id": "st-ty-tecno-spark-30-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11269,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2030%205G"
+      },
+      {
+        "id": "st-vatan-tecno-spark-30-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 11729,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2030%205G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 12189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 11959,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 11729,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 11614,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 11499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 11499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pop-9",
+    "slug": "tecno-pop-9",
+    "name": "Tecno Pop 9",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 148,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-pop-2-plus.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pop-2-plus.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pop-9",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pop%209"
+      },
+      {
+        "id": "st-ty-tecno-pop-9",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pop%209"
+      },
+      {
+        "id": "st-vatan-tecno-pop-9",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pop%209/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-30-pro",
+    "slug": "tecno-spark-30-pro",
+    "name": "Tecno Spark 30 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 147,
+    "basePrice": 12999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-spark-30-pro.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-30-pro.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-30-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2030%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-spark-30-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 12739,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2030%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-spark-30-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13259,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2030%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 13779,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 13519,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 13259,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 13129,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 12999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 12999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-30",
+    "slug": "tecno-spark-30",
+    "name": "Tecno Spark 30",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 146,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-spark-30.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-30.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-30",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2030"
+      },
+      {
+        "id": "st-ty-tecno-spark-30",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2030"
+      },
+      {
+        "id": "st-vatan-tecno-spark-30",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2030/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-phantom-v-fold2",
+    "slug": "tecno-phantom-v-fold2",
+    "name": "Tecno Phantom V Fold2",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 124,
+    "basePrice": 48999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-phantom-9.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-phantom-9.jpg"
+    ],
+    "highlights": [
+      "50 MP Ultra Clear OIS Ana Kamera Sistemi",
+      "4750 mAh Uzun Ömürlü Batarya",
+      "12 GB RAM + 512 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Katlanabilir Ekran"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR4X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP Ultra Clear OIS",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 4750,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-phantom-v-fold2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 48999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Phantom%20V%20Fold2"
+      },
+      {
+        "id": "st-ty-tecno-phantom-v-fold2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 48019,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Phantom%20V%20Fold2"
+      },
+      {
+        "id": "st-vatan-tecno-phantom-v-fold2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 49979,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Phantom%20V%20Fold2/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 51939,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 50959,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 49979,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 49489,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 48999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 48999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-phantom-v-flip2",
+    "slug": "tecno-phantom-v-flip2",
+    "name": "Tecno Phantom V Flip2",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 125,
+    "basePrice": 48999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-phantom-9.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-phantom-9.jpg"
+    ],
+    "highlights": [
+      "50 MP Ultra Clear OIS Ana Kamera Sistemi",
+      "4750 mAh Uzun Ömürlü Batarya",
+      "12 GB RAM + 512 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Katlanabilir Ekran"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR4X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP Ultra Clear OIS",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 4750,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-phantom-v-flip2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 48999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Phantom%20V%20Flip2"
+      },
+      {
+        "id": "st-ty-tecno-phantom-v-flip2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 48019,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Phantom%20V%20Flip2"
+      },
+      {
+        "id": "st-vatan-tecno-phantom-v-flip2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 49979,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Phantom%20V%20Flip2/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 51939,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 50959,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 49979,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 49489,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 48999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 48999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pova-6-neo-5g",
+    "slug": "tecno-pova-6-neo-5g",
+    "name": "Tecno Pova 6 Neo 5G",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 116,
+    "basePrice": 16999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-pova-6-neo-5g.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova-6-neo-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova-6-neo-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 16999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%206%20Neo%205G"
+      },
+      {
+        "id": "st-ty-tecno-pova-6-neo-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 16659,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%206%20Neo%205G"
+      },
+      {
+        "id": "st-vatan-tecno-pova-6-neo-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 17339,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%206%20Neo%205G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 18019,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 17679,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 17339,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 17169,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 16999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 16999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-30c",
+    "slug": "tecno-spark-30c",
+    "name": "Tecno Spark 30C",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 100,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-spark-30c.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-30c.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-30c",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2030C"
+      },
+      {
+        "id": "st-ty-tecno-spark-30c",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2030C"
+      },
+      {
+        "id": "st-vatan-tecno-spark-30c",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2030C/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-go-1",
+    "slug": "tecno-spark-go-1",
+    "name": "Tecno Spark Go 1",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 64,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-go-1.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-go-1.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2024 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-go-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%20Go%201"
+      },
+      {
+        "id": "st-ty-tecno-spark-go-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%20Go%201"
+      },
+      {
+        "id": "st-vatan-tecno-spark-go-1",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%20Go%201/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-30s-pro",
+    "slug": "tecno-camon-30s-pro",
+    "name": "Tecno Camon 30S Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 282,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-30s-pro.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-30s-pro.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2024 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-30s-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2030S%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-camon-30s-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2030S%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-camon-30s-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2030S%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-20p",
+    "slug": "tecno-spark-20p",
+    "name": "Tecno Spark 20P",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 165,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-20p.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-20p.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2024 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-20p",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2020P"
+      },
+      {
+        "id": "st-ty-tecno-spark-20p",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2020P"
+      },
+      {
+        "id": "st-vatan-tecno-spark-20p",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2020P/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-20-pro-5g",
+    "slug": "tecno-spark-20-pro-5g",
+    "name": "Tecno Spark 20 Pro 5G",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 164,
+    "basePrice": 12999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-20-pro-5g.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-20-pro-5g.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2024 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-20-pro-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2020%20Pro%205G"
+      },
+      {
+        "id": "st-ty-tecno-spark-20-pro-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 12739,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2020%20Pro%205G"
+      },
+      {
+        "id": "st-vatan-tecno-spark-20-pro-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13259,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2020%20Pro%205G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 13779,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 13519,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 13259,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 13129,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 12999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 12999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pova-6-neo",
+    "slug": "tecno-pova-6-neo",
+    "name": "Tecno Pova 6 Neo",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 201,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pova-6-neo.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova-6-neo.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2024 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova-6-neo",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%206%20Neo"
+      },
+      {
+        "id": "st-ty-tecno-pova-6-neo",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%206%20Neo"
+      },
+      {
+        "id": "st-vatan-tecno-pova-6-neo",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 12239,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%206%20Neo/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 12719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 12479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 12239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 12119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 11999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 11999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pova-6",
+    "slug": "tecno-pova-6",
+    "name": "Tecno Pova 6",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 200,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pova-6.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova-6.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2024 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova-6",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%206"
+      },
+      {
+        "id": "st-ty-tecno-pova-6",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%206"
+      },
+      {
+        "id": "st-vatan-tecno-pova-6",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 12239,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%206/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 12719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 12479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 12239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 12119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 11999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 11999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-30-premier",
+    "slug": "tecno-camon-30-premier",
+    "name": "Tecno Camon 30 Premier",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 135,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-30-premier.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-30-premier.jpg"
+    ],
+    "highlights": [
+      "50 MP Ultra Clear OIS Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "12 GB RAM + 256 GB Depolama Alanı",
+      "2024 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP Ultra Clear OIS",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-30-premier",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2030%20Premier"
+      },
+      {
+        "id": "st-ty-tecno-camon-30-premier",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 24499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2030%20Premier"
+      },
+      {
+        "id": "st-vatan-tecno-camon-30-premier",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 25499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2030%20Premier/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 26499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 25999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 25499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 25249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 24999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 24999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-30-pro",
+    "slug": "tecno-camon-30-pro",
+    "name": "Tecno Camon 30 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 136,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-30-pro.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-30-pro.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2024 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-30-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2030%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-camon-30-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2030%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-camon-30-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2030%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-30-5g",
+    "slug": "tecno-camon-30-5g",
+    "name": "Tecno Camon 30 5G",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 137,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-30-5g.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-30-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2024 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-30-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2030%205G"
+      },
+      {
+        "id": "st-ty-tecno-camon-30-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2030%205G"
+      },
+      {
+        "id": "st-vatan-tecno-camon-30-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2030%205G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-30",
+    "slug": "tecno-camon-30",
+    "name": "Tecno Camon 30",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 138,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-30.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-30.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2024 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-30",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2030"
+      },
+      {
+        "id": "st-ty-tecno-camon-30",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2030"
+      },
+      {
+        "id": "st-vatan-tecno-camon-30",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2030/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pova-6-pro",
+    "slug": "tecno-pova-6-pro",
+    "name": "Tecno Pova 6 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 120,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/pova-curve-2-dark.png",
+    "images": [
+      "/images/phones/tecno/pova-curve-2-dark.png"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2024 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova-6-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%206%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-pova-6-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%206%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-pova-6-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 12239,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%206%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 12719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 12479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 12239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 12119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 11999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 11999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-20-pro",
+    "slug": "tecno-spark-20-pro",
+    "name": "Tecno Spark 20 Pro+",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 60,
+    "basePrice": 12999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-20-pro.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-20-pro.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2024 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-20-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2020%20Pro%2B"
+      },
+      {
+        "id": "st-ty-tecno-spark-20-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 12739,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2020%20Pro%2B"
+      },
+      {
+        "id": "st-vatan-tecno-spark-20-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13259,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2020%20Pro%2B/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 13779,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 13519,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 13259,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 13129,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 12999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 12999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-20-pro",
+    "slug": "tecno-spark-20-pro",
+    "name": "Tecno Spark 20 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.4,
+    "reviewCount": 287,
+    "basePrice": 12999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-20-pro.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-20-pro.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2024 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-20-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2020%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-spark-20-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 12739,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2020%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-spark-20-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13259,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2020%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 13779,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 13519,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 13259,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 13129,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 12999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 12999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-20",
+    "slug": "tecno-spark-20",
+    "name": "Tecno Spark 20",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 262,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-20.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-20.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2024 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-20",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2020"
+      },
+      {
+        "id": "st-ty-tecno-spark-20",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2020"
+      },
+      {
+        "id": "st-vatan-tecno-spark-20",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2020/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-20c",
+    "slug": "tecno-spark-20c",
+    "name": "Tecno Spark 20C",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 250,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-20c.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-20c.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2024 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-20c",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2020C"
+      },
+      {
+        "id": "st-ty-tecno-spark-20c",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2020C"
+      },
+      {
+        "id": "st-vatan-tecno-spark-20c",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2020C/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-go-2024",
+    "slug": "tecno-spark-go-2024",
+    "name": "Tecno Spark Go 2024",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 242,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-go-2024.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-go-2024.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2024 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-go-2024",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%20Go%202024"
+      },
+      {
+        "id": "st-ty-tecno-spark-go-2024",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%20Go%202024"
+      },
+      {
+        "id": "st-vatan-tecno-spark-go-2024",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%20Go%202024/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pop-8",
+    "slug": "tecno-pop-8",
+    "name": "Tecno Pop 8",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 184,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pop-8.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pop-8.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2024 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pop-8",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pop%208"
+      },
+      {
+        "id": "st-ty-tecno-pop-8",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pop%208"
+      },
+      {
+        "id": "st-vatan-tecno-pop-8",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pop%208/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-20s-pro-5g",
+    "slug": "tecno-camon-20s-pro-5g",
+    "name": "Tecno Camon 20s Pro 5G",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 223,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/camon-50-black.png",
+    "images": [
+      "/images/phones/tecno/camon-50-black.png"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2024 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-20s-pro-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2020s%20Pro%205G"
+      },
+      {
+        "id": "st-ty-tecno-camon-20s-pro-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2020s%20Pro%205G"
+      },
+      {
+        "id": "st-vatan-tecno-camon-20s-pro-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2020s%20Pro%205G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-phantom-v-flip",
+    "slug": "tecno-phantom-v-flip",
+    "name": "Tecno Phantom V Flip",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 120,
+    "basePrice": 48999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-phantom-v-flip.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-phantom-v-flip.jpg"
+    ],
+    "highlights": [
+      "50 MP Ultra Clear OIS Ana Kamera Sistemi",
+      "4750 mAh Uzun Ömürlü Batarya",
+      "12 GB RAM + 512 GB Depolama Alanı",
+      "2023 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Katlanabilir Ekran"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR4X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP Ultra Clear OIS",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 4750,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-phantom-v-flip",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 48999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Phantom%20V%20Flip"
+      },
+      {
+        "id": "st-ty-tecno-phantom-v-flip",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 48019,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Phantom%20V%20Flip"
+      },
+      {
+        "id": "st-vatan-tecno-phantom-v-flip",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 49979,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Phantom%20V%20Flip/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 51939,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 50959,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 49979,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 49489,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 48999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 48999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pova-5-pro",
+    "slug": "tecno-pova-5-pro",
+    "name": "Tecno Pova 5 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 238,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pova-5-pro.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova-5-pro.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2023 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova-5-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%205%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-pova-5-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%205%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-pova-5-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 12239,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%205%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 12719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 12479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 12239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 12119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 11999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 11999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pova-neo-3",
+    "slug": "tecno-pova-neo-3",
+    "name": "Tecno Pova Neo 3",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 184,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pova-neo-3.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova-neo-3.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2023 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova-neo-3",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%20Neo%203"
+      },
+      {
+        "id": "st-ty-tecno-pova-neo-3",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%20Neo%203"
+      },
+      {
+        "id": "st-vatan-tecno-pova-neo-3",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 12239,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%20Neo%203/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 12719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 12479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 12239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 12119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 11999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 11999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pova-5",
+    "slug": "tecno-pova-5",
+    "name": "Tecno Pova 5",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.2,
+    "reviewCount": 183,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pova-5.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova-5.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2023 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova-5",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%205"
+      },
+      {
+        "id": "st-ty-tecno-pova-5",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%205"
+      },
+      {
+        "id": "st-vatan-tecno-pova-5",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 12239,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%205/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 12719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 12479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 12239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 12119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 11999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 11999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-20-premier",
+    "slug": "tecno-camon-20-premier",
+    "name": "Tecno Camon 20 Premier",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 46,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/camon-50-black.png",
+    "images": [
+      "/images/phones/tecno/camon-50-black.png"
+    ],
+    "highlights": [
+      "50 MP Ultra Clear OIS Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "12 GB RAM + 256 GB Depolama Alanı",
+      "2023 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP Ultra Clear OIS",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-20-premier",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2020%20Premier"
+      },
+      {
+        "id": "st-ty-tecno-camon-20-premier",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 24499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2020%20Premier"
+      },
+      {
+        "id": "st-vatan-tecno-camon-20-premier",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 25499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2020%20Premier/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 26499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 25999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 25499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 25249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 24999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 24999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-20-pro-5g",
+    "slug": "tecno-camon-20-pro-5g",
+    "name": "Tecno Camon 20 Pro 5G",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 45,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-20-pro-5g.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-20-pro-5g.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2023 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-20-pro-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2020%20Pro%205G"
+      },
+      {
+        "id": "st-ty-tecno-camon-20-pro-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2020%20Pro%205G"
+      },
+      {
+        "id": "st-vatan-tecno-camon-20-pro-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2020%20Pro%205G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-20-pro",
+    "slug": "tecno-camon-20-pro",
+    "name": "Tecno Camon 20 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 44,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-20-pro.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-20-pro.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2023 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-20-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2020%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-camon-20-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2020%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-camon-20-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2020%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-20",
+    "slug": "tecno-camon-20",
+    "name": "Tecno Camon 20",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 43,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/camon-50-black.png",
+    "images": [
+      "/images/phones/tecno/camon-50-black.png"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2023 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-20",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2020"
+      },
+      {
+        "id": "st-ty-tecno-camon-20",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2020"
+      },
+      {
+        "id": "st-vatan-tecno-camon-20",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2020/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pop-7",
+    "slug": "tecno-pop-7",
+    "name": "Tecno Pop 7",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 242,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pop-7.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pop-7.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2023 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pop-7",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pop%207"
+      },
+      {
+        "id": "st-ty-tecno-pop-7",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pop%207"
+      },
+      {
+        "id": "st-vatan-tecno-pop-7",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pop%207/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-10-5g",
+    "slug": "tecno-spark-10-5g",
+    "name": "Tecno Spark 10 5G",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.4,
+    "reviewCount": 219,
+    "basePrice": 11499,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-10-5g.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-10-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2023 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-10-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2010%205G"
+      },
+      {
+        "id": "st-ty-tecno-spark-10-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11269,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2010%205G"
+      },
+      {
+        "id": "st-vatan-tecno-spark-10-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 11729,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2010%205G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 12189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 11959,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 11729,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 11614,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 11499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 11499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-10c",
+    "slug": "tecno-spark-10c",
+    "name": "Tecno Spark 10C",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 239,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-10c.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-10c.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2023 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-10c",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2010C"
+      },
+      {
+        "id": "st-ty-tecno-spark-10c",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2010C"
+      },
+      {
+        "id": "st-vatan-tecno-spark-10c",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2010C/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-10",
+    "slug": "tecno-spark-10",
+    "name": "Tecno Spark 10",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 218,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-10.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-10.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2023 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-10",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2010"
+      },
+      {
+        "id": "st-ty-tecno-spark-10",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2010"
+      },
+      {
+        "id": "st-vatan-tecno-spark-10",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2010/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-10-pro",
+    "slug": "tecno-spark-10-pro",
+    "name": "Tecno Spark 10 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 196,
+    "basePrice": 12999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/spark-50-5g-black.png",
+    "images": [
+      "/images/phones/tecno/spark-50-5g-black.png"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2023 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-10-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2010%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-spark-10-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 12739,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2010%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-spark-10-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13259,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2010%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 13779,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 13519,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 13259,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 13129,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 12999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 12999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-phantom-v-fold",
+    "slug": "tecno-phantom-v-fold",
+    "name": "Tecno Phantom V Fold",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 190,
+    "basePrice": 48999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-phantom-v-fold.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-phantom-v-fold.jpg"
+    ],
+    "highlights": [
+      "50 MP Ultra Clear OIS Ana Kamera Sistemi",
+      "4750 mAh Uzun Ömürlü Batarya",
+      "12 GB RAM + 512 GB Depolama Alanı",
+      "2023 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Katlanabilir Ekran"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR4X",
+        "storageGb": 512,
+        "storageOptions": [
+          512
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP Ultra Clear OIS",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 4750,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-phantom-v-fold",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 48999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Phantom%20V%20Fold"
+      },
+      {
+        "id": "st-ty-tecno-phantom-v-fold",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 48019,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Phantom%20V%20Fold"
+      },
+      {
+        "id": "st-vatan-tecno-phantom-v-fold",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 49979,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Phantom%20V%20Fold/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 51939,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 50959,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 49979,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 49489,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 48999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 48999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pop-7-pro",
+    "slug": "tecno-pop-7-pro",
+    "name": "Tecno Pop 7 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 148,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pop-2-plus.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pop-2-plus.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2023 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pop-7-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pop%207%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-pop-7-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pop%207%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-pop-7-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pop%207%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-go-2023",
+    "slug": "tecno-spark-go-2023",
+    "name": "Tecno Spark Go 2023",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 126,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-go-2023.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-go-2023.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2023 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-go-2023",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%20Go%202023"
+      },
+      {
+        "id": "st-ty-tecno-spark-go-2023",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%20Go%202023"
+      },
+      {
+        "id": "st-vatan-tecno-spark-go-2023",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%20Go%202023/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-phantom-x2-pro",
+    "slug": "tecno-phantom-x2-pro",
+    "name": "Tecno Phantom X2 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 50,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-phantom-x2-pro.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-phantom-x2-pro.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "12 GB RAM + 256 GB Depolama Alanı",
+      "2023 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-phantom-x2-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Phantom%20X2%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-phantom-x2-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 28419,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Phantom%20X2%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-phantom-x2-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 29579,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Phantom%20X2%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 30739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 30159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 29579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 29289,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 28999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 28999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-phantom-x2",
+    "slug": "tecno-phantom-x2",
+    "name": "Tecno Phantom X2",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.2,
+    "reviewCount": 49,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-phantom-x2.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-phantom-x2.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "12 GB RAM + 256 GB Depolama Alanı",
+      "2023 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-phantom-x2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Phantom%20X2"
+      },
+      {
+        "id": "st-ty-tecno-phantom-x2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 28419,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Phantom%20X2"
+      },
+      {
+        "id": "st-vatan-tecno-phantom-x2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 29579,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Phantom%20X2/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 30739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 30159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 29579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 29289,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 28999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 28999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pova-4",
+    "slug": "tecno-pova-4",
+    "name": "Tecno Pova 4",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 216,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pova-4.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova-4.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2023 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova-4",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%204"
+      },
+      {
+        "id": "st-ty-tecno-pova-4",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%204"
+      },
+      {
+        "id": "st-vatan-tecno-pova-4",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 12239,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%204/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 12719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 12479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 12239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 12119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 11999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 11999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pova-4-pro",
+    "slug": "tecno-pova-4-pro",
+    "name": "Tecno Pova 4 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 215,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pova-4-pro.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova-4-pro.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2023 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova-4-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%204%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-pova-4-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%204%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-pova-4-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 12239,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%204%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 12719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 12479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 12239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 12119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 11999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 11999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pova-neo-2",
+    "slug": "tecno-pova-neo-2",
+    "name": "Tecno Pova Neo 2",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 190,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pova-neo-2.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova-neo-2.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2023 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova-neo-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%20Neo%202"
+      },
+      {
+        "id": "st-ty-tecno-pova-neo-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%20Neo%202"
+      },
+      {
+        "id": "st-vatan-tecno-pova-neo-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 12239,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%20Neo%202/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 12719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 12479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 12239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 12119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 11999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 11999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pova-neo-5g",
+    "slug": "tecno-pova-neo-5g",
+    "name": "Tecno Pova Neo 5G",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 188,
+    "basePrice": 16999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pova-neo-5g.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova-neo-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova-neo-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 16999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%20Neo%205G"
+      },
+      {
+        "id": "st-ty-tecno-pova-neo-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 16659,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%20Neo%205G"
+      },
+      {
+        "id": "st-vatan-tecno-pova-neo-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 17339,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%20Neo%205G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 18019,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 17679,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 17339,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 17169,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 16999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 16999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pop-6-pro",
+    "slug": "tecno-pop-6-pro",
+    "name": "Tecno Pop 6 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 176,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pop-6-pro.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pop-6-pro.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pop-6-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pop%206%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-pop-6-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pop%206%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-pop-6-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pop%206%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-9t-india",
+    "slug": "tecno-spark-9t-india",
+    "name": "Tecno Spark 9T (India)",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 272,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-9t-india.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-9t-india.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-9t-india",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%209T%20(India)"
+      },
+      {
+        "id": "st-ty-tecno-spark-9t-india",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%209T%20(India)"
+      },
+      {
+        "id": "st-vatan-tecno-spark-9t-india",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%209T%20(India)/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-9",
+    "slug": "tecno-spark-9",
+    "name": "Tecno Spark 9",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 234,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/spark-50-5g-black.png",
+    "images": [
+      "/images/phones/tecno/spark-50-5g-black.png"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-9",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%209"
+      },
+      {
+        "id": "st-ty-tecno-spark-9",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%209"
+      },
+      {
+        "id": "st-vatan-tecno-spark-9",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%209/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-9t",
+    "slug": "tecno-spark-9t",
+    "name": "Tecno Spark 9T",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 171,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/spark-50-5g-black.png",
+    "images": [
+      "/images/phones/tecno/spark-50-5g-black.png"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-9t",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%209T"
+      },
+      {
+        "id": "st-ty-tecno-spark-9t",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%209T"
+      },
+      {
+        "id": "st-vatan-tecno-spark-9t",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%209T/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-19-pro-5g",
+    "slug": "tecno-camon-19-pro-5g",
+    "name": "Tecno Camon 19 Pro 5G",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.2,
+    "reviewCount": 165,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-19-pro-5g.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-19-pro-5g.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-19-pro-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2019%20Pro%205G"
+      },
+      {
+        "id": "st-ty-tecno-camon-19-pro-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2019%20Pro%205G"
+      },
+      {
+        "id": "st-vatan-tecno-camon-19-pro-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2019%20Pro%205G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-19-pro",
+    "slug": "tecno-camon-19-pro",
+    "name": "Tecno Camon 19 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 158,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/camon-50-black.png",
+    "images": [
+      "/images/phones/tecno/camon-50-black.png"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-19-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2019%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-camon-19-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2019%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-camon-19-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2019%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-19",
+    "slug": "tecno-camon-19",
+    "name": "Tecno Camon 19",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.2,
+    "reviewCount": 157,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-19.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-19.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-19",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2019"
+      },
+      {
+        "id": "st-ty-tecno-camon-19",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2019"
+      },
+      {
+        "id": "st-vatan-tecno-camon-19",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2019/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-19-neo",
+    "slug": "tecno-camon-19-neo",
+    "name": "Tecno Camon 19 Neo",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.4,
+    "reviewCount": 159,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/camon-50-black.png",
+    "images": [
+      "/images/phones/tecno/camon-50-black.png"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-19-neo",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2019%20Neo"
+      },
+      {
+        "id": "st-ty-tecno-camon-19-neo",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2019%20Neo"
+      },
+      {
+        "id": "st-vatan-tecno-camon-19-neo",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2019%20Neo/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pop-6",
+    "slug": "tecno-pop-6",
+    "name": "Tecno Pop 6",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 71,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pop-6.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pop-6.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pop-6",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pop%206"
+      },
+      {
+        "id": "st-ty-tecno-pop-6",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pop%206"
+      },
+      {
+        "id": "st-vatan-tecno-pop-6",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pop%206/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-9-pro",
+    "slug": "tecno-spark-9-pro",
+    "name": "Tecno Spark 9 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.4,
+    "reviewCount": 143,
+    "basePrice": 12999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-9-pro.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-9-pro.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-9-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%209%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-spark-9-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 12739,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%209%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-spark-9-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13259,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%209%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 13779,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 13519,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 13259,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 13129,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 12999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 12999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pova-3",
+    "slug": "tecno-pova-3",
+    "name": "Tecno Pova 3",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.2,
+    "reviewCount": 93,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pova-3.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova-3.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova-3",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%203"
+      },
+      {
+        "id": "st-ty-tecno-pova-3",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%203"
+      },
+      {
+        "id": "st-vatan-tecno-pova-3",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 12239,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%203/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 12719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 12479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 12239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 12119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 11999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 11999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pop-6-go",
+    "slug": "tecno-pop-6-go",
+    "name": "Tecno Pop 6 Go",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 72,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pop-6-go.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pop-6-go.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pop-6-go",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pop%206%20Go"
+      },
+      {
+        "id": "st-ty-tecno-pop-6-go",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pop%206%20Go"
+      },
+      {
+        "id": "st-vatan-tecno-pop-6-go",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pop%206%20Go/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pop-5s",
+    "slug": "tecno-pop-5s",
+    "name": "Tecno Pop 5S",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 142,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pop-5s.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pop-5s.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pop-5s",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pop%205S"
+      },
+      {
+        "id": "st-ty-tecno-pop-5s",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pop%205S"
+      },
+      {
+        "id": "st-vatan-tecno-pop-5s",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pop%205S/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-8c",
+    "slug": "tecno-spark-8c",
+    "name": "Tecno Spark 8C",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 130,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-8c.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-8c.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-8c",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%208C"
+      },
+      {
+        "id": "st-ty-tecno-spark-8c",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%208C"
+      },
+      {
+        "id": "st-vatan-tecno-spark-8c",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%208C/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pop-5x",
+    "slug": "tecno-pop-5x",
+    "name": "Tecno Pop 5X",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.2,
+    "reviewCount": 127,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pop-5x.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pop-5x.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pop-5x",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pop%205X"
+      },
+      {
+        "id": "st-ty-tecno-pop-5x",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pop%205X"
+      },
+      {
+        "id": "st-vatan-tecno-pop-5x",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pop%205X/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pop-5-pro",
+    "slug": "tecno-pop-5-pro",
+    "name": "Tecno Pop 5 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 116,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pop-5-pro.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pop-5-pro.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pop-5-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pop%205%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-pop-5-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pop%205%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-pop-5-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pop%205%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-8-pro",
+    "slug": "tecno-spark-8-pro",
+    "name": "Tecno Spark 8 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.2,
+    "reviewCount": 87,
+    "basePrice": 12999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-8-pro.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-8-pro.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-8-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%208%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-spark-8-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 12739,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%208%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-spark-8-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13259,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%208%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 13779,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 13519,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 13259,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 13129,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 12999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 12999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-8t",
+    "slug": "tecno-spark-8t",
+    "name": "Tecno Spark 8T",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 88,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-8t.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-8t.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-8t",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%208T"
+      },
+      {
+        "id": "st-ty-tecno-spark-8t",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%208T"
+      },
+      {
+        "id": "st-vatan-tecno-spark-8t",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%208T/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-go-2022",
+    "slug": "tecno-spark-go-2022",
+    "name": "Tecno Spark Go 2022",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.4,
+    "reviewCount": 89,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-go-2022.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-go-2022.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-go-2022",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%20Go%202022"
+      },
+      {
+        "id": "st-ty-tecno-spark-go-2022",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%20Go%202022"
+      },
+      {
+        "id": "st-vatan-tecno-spark-go-2022",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%20Go%202022/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pova-5g",
+    "slug": "tecno-pova-5g",
+    "name": "Tecno Pova 5G",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.2,
+    "reviewCount": 79,
+    "basePrice": 16999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pova-5g.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova-5g.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova-5g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 16999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%205G"
+      },
+      {
+        "id": "st-ty-tecno-pova-5g",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 16659,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%205G"
+      },
+      {
+        "id": "st-vatan-tecno-pova-5g",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 17339,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%205G/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 18019,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 17679,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 17339,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 17169,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 16999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 16999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pova-neo",
+    "slug": "tecno-pova-neo",
+    "name": "Tecno Pova Neo",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 50,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pova-neo.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova-neo.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova-neo",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%20Neo"
+      },
+      {
+        "id": "st-ty-tecno-pova-neo",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%20Neo"
+      },
+      {
+        "id": "st-vatan-tecno-pova-neo",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 12239,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%20Neo/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 12719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 12479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 12239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 12119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 11999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 11999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-18t",
+    "slug": "tecno-camon-18t",
+    "name": "Tecno Camon 18T",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 44,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-18t.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-18t.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-18t",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2018T"
+      },
+      {
+        "id": "st-ty-tecno-camon-18t",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2018T"
+      },
+      {
+        "id": "st-vatan-tecno-camon-18t",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2018T/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pop-5-lte",
+    "slug": "tecno-pop-5-lte",
+    "name": "Tecno Pop 5 LTE",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 86,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pop-5-lte.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pop-5-lte.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pop-5-lte",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pop%205%20LTE"
+      },
+      {
+        "id": "st-ty-tecno-pop-5-lte",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pop%205%20LTE"
+      },
+      {
+        "id": "st-vatan-tecno-pop-5-lte",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pop%205%20LTE/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pop-5c",
+    "slug": "tecno-pop-5c",
+    "name": "Tecno Pop 5c",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 252,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pop-5c.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pop-5c.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pop-5c",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pop%205c"
+      },
+      {
+        "id": "st-ty-tecno-pop-5c",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pop%205c"
+      },
+      {
+        "id": "st-vatan-tecno-pop-5c",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pop%205c/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-18i",
+    "slug": "tecno-camon-18i",
+    "name": "Tecno Camon 18i",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 232,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-18i.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-18i.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-18i",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2018i"
+      },
+      {
+        "id": "st-ty-tecno-camon-18i",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2018i"
+      },
+      {
+        "id": "st-vatan-tecno-camon-18i",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2018i/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-8p",
+    "slug": "tecno-spark-8p",
+    "name": "Tecno Spark 8P",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 40,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-8p.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-8p.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2022 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-8p",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%208P"
+      },
+      {
+        "id": "st-ty-tecno-spark-8p",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%208P"
+      },
+      {
+        "id": "st-vatan-tecno-spark-8p",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%208P/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-18-premier",
+    "slug": "tecno-camon-18-premier",
+    "name": "Tecno Camon 18 Premier",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 178,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-18-premier.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-18-premier.jpg"
+    ],
+    "highlights": [
+      "50 MP Ultra Clear OIS Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "12 GB RAM + 256 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP Ultra Clear OIS",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-18-premier",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2018%20Premier"
+      },
+      {
+        "id": "st-ty-tecno-camon-18-premier",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 24499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2018%20Premier"
+      },
+      {
+        "id": "st-vatan-tecno-camon-18-premier",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 25499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2018%20Premier/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 26499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 25999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 25499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 25249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 24999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 24999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-18-p",
+    "slug": "tecno-camon-18-p",
+    "name": "Tecno Camon 18 P",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.4,
+    "reviewCount": 179,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-18-p.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-18-p.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-18-p",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2018%20P"
+      },
+      {
+        "id": "st-ty-tecno-camon-18-p",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2018%20P"
+      },
+      {
+        "id": "st-vatan-tecno-camon-18-p",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2018%20P/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-18",
+    "slug": "tecno-camon-18",
+    "name": "Tecno Camon 18",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 180,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-18.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-18.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-18",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2018"
+      },
+      {
+        "id": "st-ty-tecno-camon-18",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2018"
+      },
+      {
+        "id": "st-vatan-tecno-camon-18",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2018/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-8",
+    "slug": "tecno-spark-8",
+    "name": "Tecno Spark 8",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 228,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-8.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-8.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-8",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%208"
+      },
+      {
+        "id": "st-ty-tecno-spark-8",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%208"
+      },
+      {
+        "id": "st-vatan-tecno-spark-8",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%208/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pop-5",
+    "slug": "tecno-pop-5",
+    "name": "Tecno Pop 5",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 72,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pop-5.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pop-5.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pop-5",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pop%205"
+      },
+      {
+        "id": "st-ty-tecno-pop-5",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pop%205"
+      },
+      {
+        "id": "st-vatan-tecno-pop-5",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pop%205/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-go-2021",
+    "slug": "tecno-spark-go-2021",
+    "name": "Tecno Spark Go 2021",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 273,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-go-2021.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-go-2021.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-go-2021",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%20Go%202021"
+      },
+      {
+        "id": "st-ty-tecno-spark-go-2021",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%20Go%202021"
+      },
+      {
+        "id": "st-vatan-tecno-spark-go-2021",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%20Go%202021/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-7t",
+    "slug": "tecno-spark-7t",
+    "name": "Tecno Spark 7T",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 274,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-7t.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-7t.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-7t",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%207T"
+      },
+      {
+        "id": "st-ty-tecno-spark-7t",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%207T"
+      },
+      {
+        "id": "st-vatan-tecno-spark-7t",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%207T/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-phantom-x",
+    "slug": "tecno-phantom-x",
+    "name": "Tecno Phantom X",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.4,
+    "reviewCount": 269,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-phantom-x.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-phantom-x.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "12 GB RAM + 256 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-phantom-x",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Phantom%20X"
+      },
+      {
+        "id": "st-ty-tecno-phantom-x",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 28419,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Phantom%20X"
+      },
+      {
+        "id": "st-vatan-tecno-phantom-x",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 29579,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Phantom%20X/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 30739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 30159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 29579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 29289,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 28999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 28999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pova-2",
+    "slug": "tecno-pova-2",
+    "name": "Tecno Pova 2",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.2,
+    "reviewCount": 235,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pova-2.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova-2.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%202"
+      },
+      {
+        "id": "st-ty-tecno-pova-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%202"
+      },
+      {
+        "id": "st-vatan-tecno-pova-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 12239,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%202/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 12719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 12479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 12239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 12119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 11999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 11999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-17-pro",
+    "slug": "tecno-camon-17-pro",
+    "name": "Tecno Camon 17 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 185,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-17-pro.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-17-pro.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-17-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2017%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-camon-17-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2017%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-camon-17-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2017%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-17p",
+    "slug": "tecno-camon-17p",
+    "name": "Tecno Camon 17P",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 186,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-17p.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-17p.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-17p",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2017P"
+      },
+      {
+        "id": "st-ty-tecno-camon-17p",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2017P"
+      },
+      {
+        "id": "st-vatan-tecno-camon-17p",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2017P/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-17",
+    "slug": "tecno-camon-17",
+    "name": "Tecno Camon 17",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.2,
+    "reviewCount": 187,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-17.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-17.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-17",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2017"
+      },
+      {
+        "id": "st-ty-tecno-camon-17",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2017"
+      },
+      {
+        "id": "st-vatan-tecno-camon-17",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2017/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-7-pro",
+    "slug": "tecno-spark-7-pro",
+    "name": "Tecno Spark 7 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 174,
+    "basePrice": 12999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-7-pro.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-7-pro.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-7-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%207%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-spark-7-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 12739,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%207%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-spark-7-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13259,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%207%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 13779,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 13519,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 13259,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 13129,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 12999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 12999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-7p",
+    "slug": "tecno-spark-7p",
+    "name": "Tecno Spark 7P",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.2,
+    "reviewCount": 139,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-7p.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-7p.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-7p",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%207P"
+      },
+      {
+        "id": "st-ty-tecno-spark-7p",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%207P"
+      },
+      {
+        "id": "st-vatan-tecno-spark-7p",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%207P/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-7",
+    "slug": "tecno-spark-7",
+    "name": "Tecno Spark 7",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 135,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-7.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-7.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-7",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%207"
+      },
+      {
+        "id": "st-ty-tecno-spark-7",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%207"
+      },
+      {
+        "id": "st-vatan-tecno-spark-7",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%207/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-16-pro",
+    "slug": "tecno-camon-16-pro",
+    "name": "Tecno Camon 16 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 174,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-16-pro.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-16-pro.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-16-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2016%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-camon-16-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2016%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-camon-16-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2016%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-16-s",
+    "slug": "tecno-camon-16-s",
+    "name": "Tecno Camon 16 S",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.4,
+    "reviewCount": 175,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/camon-50-black.png",
+    "images": [
+      "/images/phones/tecno/camon-50-black.png"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-16-s",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2016%20S"
+      },
+      {
+        "id": "st-ty-tecno-camon-16-s",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2016%20S"
+      },
+      {
+        "id": "st-vatan-tecno-camon-16-s",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2016%20S/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-6-go",
+    "slug": "tecno-spark-6-go",
+    "name": "Tecno Spark 6 Go",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 176,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-6-go.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-6-go.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-6-go",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%206%20Go"
+      },
+      {
+        "id": "st-ty-tecno-spark-6-go",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%206%20Go"
+      },
+      {
+        "id": "st-vatan-tecno-spark-6-go",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%206%20Go/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-go-2020",
+    "slug": "tecno-spark-go-2020",
+    "name": "Tecno Spark Go 2020",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 177,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-go-2020.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-go-2020.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-go-2020",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%20Go%202020"
+      },
+      {
+        "id": "st-ty-tecno-spark-go-2020",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%20Go%202020"
+      },
+      {
+        "id": "st-vatan-tecno-spark-go-2020",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%20Go%202020/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pova",
+    "slug": "tecno-pova",
+    "name": "Tecno Pova",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 89,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pova.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pova.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "6000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Dev Batarya"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 6000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pova",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova"
+      },
+      {
+        "id": "st-ty-tecno-pova",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pova"
+      },
+      {
+        "id": "st-vatan-tecno-pova",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 12239,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 12719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 12479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 12239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 12119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 11999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 11999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-16",
+    "slug": "tecno-camon-16",
+    "name": "Tecno Camon 16",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 43,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-16.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-16.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-16",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2016"
+      },
+      {
+        "id": "st-ty-tecno-camon-16",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2016"
+      },
+      {
+        "id": "st-vatan-tecno-camon-16",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2016/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-6-air",
+    "slug": "tecno-spark-6-air",
+    "name": "Tecno Spark 6 Air",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 88,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-6-air.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-6-air.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-6-air",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%206%20Air"
+      },
+      {
+        "id": "st-ty-tecno-spark-6-air",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%206%20Air"
+      },
+      {
+        "id": "st-vatan-tecno-spark-6-air",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%206%20Air/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-6",
+    "slug": "tecno-spark-6",
+    "name": "Tecno Spark 6",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 261,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-6.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-6.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-6",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%206"
+      },
+      {
+        "id": "st-ty-tecno-spark-6",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%206"
+      },
+      {
+        "id": "st-vatan-tecno-spark-6",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%206/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-16-premier",
+    "slug": "tecno-camon-16-premier",
+    "name": "Tecno Camon 16 Premier",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 211,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-16-premier.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-16-premier.jpg"
+    ],
+    "highlights": [
+      "50 MP Ultra Clear OIS Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "12 GB RAM + 256 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP Ultra Clear OIS",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-16-premier",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2016%20Premier"
+      },
+      {
+        "id": "st-ty-tecno-camon-16-premier",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 24499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2016%20Premier"
+      },
+      {
+        "id": "st-vatan-tecno-camon-16-premier",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 25499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2016%20Premier/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 26499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 25999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 25499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 25249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 24999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 24999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pouvoir-4-pro",
+    "slug": "tecno-pouvoir-4-pro",
+    "name": "Tecno Pouvoir 4 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.2,
+    "reviewCount": 135,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pouvoir-4-pro.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pouvoir-4-pro.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pouvoir-4-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pouvoir%204%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-pouvoir-4-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7839,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pouvoir%204%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-pouvoir-4-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 8159,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pouvoir%204%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 8479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 8319,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 8159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 8079,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 7999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pop-4",
+    "slug": "tecno-pop-4",
+    "name": "Tecno Pop 4",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 260,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pop-4.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pop-4.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pop-4",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pop%204"
+      },
+      {
+        "id": "st-ty-tecno-pop-4",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pop%204"
+      },
+      {
+        "id": "st-vatan-tecno-pop-4",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pop%204/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pouvoir-4",
+    "slug": "tecno-pouvoir-4",
+    "name": "Tecno Pouvoir 4",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 134,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pouvoir-4.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pouvoir-4.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pouvoir-4",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pouvoir%204"
+      },
+      {
+        "id": "st-ty-tecno-pouvoir-4",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7839,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pouvoir%204"
+      },
+      {
+        "id": "st-vatan-tecno-pouvoir-4",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 8159,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pouvoir%204/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 8479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 8319,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 8159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 8079,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 7999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-power-2",
+    "slug": "tecno-spark-power-2",
+    "name": "Tecno Spark Power 2",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 90,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-power-2.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-power-2.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-power-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%20Power%202"
+      },
+      {
+        "id": "st-ty-tecno-spark-power-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%20Power%202"
+      },
+      {
+        "id": "st-vatan-tecno-spark-power-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%20Power%202/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-5-air",
+    "slug": "tecno-spark-5-air",
+    "name": "Tecno Spark 5 Air",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.2,
+    "reviewCount": 265,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-5-air.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-5-air.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-5-air",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%205%20Air"
+      },
+      {
+        "id": "st-ty-tecno-spark-5-air",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%205%20Air"
+      },
+      {
+        "id": "st-vatan-tecno-spark-5-air",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%205%20Air/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-5-pro",
+    "slug": "tecno-spark-5-pro",
+    "name": "Tecno Spark 5 pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 114,
+    "basePrice": 12999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/spark-50-5g-black.png",
+    "images": [
+      "/images/phones/tecno/spark-50-5g-black.png"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-5-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%205%20pro"
+      },
+      {
+        "id": "st-ty-tecno-spark-5-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 12739,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%205%20pro"
+      },
+      {
+        "id": "st-vatan-tecno-spark-5-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13259,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%205%20pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 13779,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 13519,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 13259,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 13129,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 12999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 12999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-5",
+    "slug": "tecno-spark-5",
+    "name": "Tecno Spark 5",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 261,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-5.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-5.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-5",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%205"
+      },
+      {
+        "id": "st-ty-tecno-spark-5",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%205"
+      },
+      {
+        "id": "st-vatan-tecno-spark-5",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%205/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-15-premier",
+    "slug": "tecno-camon-15-premier",
+    "name": "Tecno Camon 15 Premier",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 230,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-15-premier.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-15-premier.jpg"
+    ],
+    "highlights": [
+      "50 MP Ultra Clear OIS Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "12 GB RAM + 256 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "5G Desteği",
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "AMOLED",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Dimensity 5G",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 550000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP Ultra Clear OIS",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-15-premier",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2015%20Premier"
+      },
+      {
+        "id": "st-ty-tecno-camon-15-premier",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 24499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2015%20Premier"
+      },
+      {
+        "id": "st-vatan-tecno-camon-15-premier",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 25499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2015%20Premier/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 26499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 25999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 25499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 25249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 24999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 24999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-15-air",
+    "slug": "tecno-camon-15-air",
+    "name": "Tecno Camon 15 Air",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 229,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/camon-50-black.png",
+    "images": [
+      "/images/phones/tecno/camon-50-black.png"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-15-air",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2015%20Air"
+      },
+      {
+        "id": "st-ty-tecno-camon-15-air",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2015%20Air"
+      },
+      {
+        "id": "st-vatan-tecno-camon-15-air",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2015%20Air/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-15-pro",
+    "slug": "tecno-camon-15-pro",
+    "name": "Tecno Camon 15 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 134,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-15-pro.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-15-pro.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-15-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2015%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-camon-15-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2015%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-camon-15-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2015%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-15",
+    "slug": "tecno-camon-15",
+    "name": "Tecno Camon 15",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 133,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-15.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-15.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-15",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2015"
+      },
+      {
+        "id": "st-ty-tecno-camon-15",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2015"
+      },
+      {
+        "id": "st-vatan-tecno-camon-15",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2015/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-12-air",
+    "slug": "tecno-camon-12-air",
+    "name": "Tecno Camon 12 Air",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 45,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-12-air.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-12-air.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-12-air",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2012%20Air"
+      },
+      {
+        "id": "st-ty-tecno-camon-12-air",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2012%20Air"
+      },
+      {
+        "id": "st-vatan-tecno-camon-12-air",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2012%20Air/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pop-3-plus",
+    "slug": "tecno-pop-3-plus",
+    "name": "Tecno Pop 3 Plus",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 46,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pop-3-plus.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pop-3-plus.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pop-3-plus",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pop%203%20Plus"
+      },
+      {
+        "id": "st-ty-tecno-pop-3-plus",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pop%203%20Plus"
+      },
+      {
+        "id": "st-vatan-tecno-pop-3-plus",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pop%203%20Plus/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-4-lite",
+    "slug": "tecno-spark-4-lite",
+    "name": "Tecno Spark 4 Lite",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 47,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-4-lite.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-4-lite.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-4-lite",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%204%20Lite"
+      },
+      {
+        "id": "st-ty-tecno-spark-4-lite",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%204%20Lite"
+      },
+      {
+        "id": "st-vatan-tecno-spark-4-lite",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%204%20Lite/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-4",
+    "slug": "tecno-spark-4",
+    "name": "Tecno Spark 4",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 235,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-4.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-4.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2021 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-4",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%204"
+      },
+      {
+        "id": "st-ty-tecno-spark-4",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%204"
+      },
+      {
+        "id": "st-vatan-tecno-spark-4",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%204/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-12-pro",
+    "slug": "tecno-camon-12-pro",
+    "name": "Tecno Camon 12 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.2,
+    "reviewCount": 155,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-12-pro.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-12-pro.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-12-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2012%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-camon-12-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2012%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-camon-12-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2012%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-12",
+    "slug": "tecno-camon-12",
+    "name": "Tecno Camon 12",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 154,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-12.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-12.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-12",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2012"
+      },
+      {
+        "id": "st-ty-tecno-camon-12",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2012"
+      },
+      {
+        "id": "st-vatan-tecno-camon-12",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2012/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pouvoir-3-air",
+    "slug": "tecno-pouvoir-3-air",
+    "name": "Tecno Pouvoir 3 Air",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 158,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pouvoir-3-air.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pouvoir-3-air.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pouvoir-3-air",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pouvoir%203%20Air"
+      },
+      {
+        "id": "st-ty-tecno-pouvoir-3-air",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7839,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pouvoir%203%20Air"
+      },
+      {
+        "id": "st-vatan-tecno-pouvoir-3-air",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 8159,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pouvoir%203%20Air/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 8479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 8319,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 8159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 8079,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 7999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pouvoir-3-plus",
+    "slug": "tecno-pouvoir-3-plus",
+    "name": "Tecno Pouvoir 3 Plus",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.4,
+    "reviewCount": 157,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pouvoir-3-plus.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pouvoir-3-plus.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pouvoir-3-plus",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pouvoir%203%20Plus"
+      },
+      {
+        "id": "st-ty-tecno-pouvoir-3-plus",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7839,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pouvoir%203%20Plus"
+      },
+      {
+        "id": "st-vatan-tecno-pouvoir-3-plus",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 8159,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pouvoir%203%20Plus/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 8479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 8319,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 8159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 8079,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 7999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pouvoir-3",
+    "slug": "tecno-pouvoir-3",
+    "name": "Tecno Pouvoir 3",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 156,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pouvoir-3.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pouvoir-3.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pouvoir-3",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pouvoir%203"
+      },
+      {
+        "id": "st-ty-tecno-pouvoir-3",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7839,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pouvoir%203"
+      },
+      {
+        "id": "st-vatan-tecno-pouvoir-3",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 8159,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pouvoir%203/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 8479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 8319,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 8159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 8079,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 7999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-3",
+    "slug": "tecno-spark-3",
+    "name": "Tecno Spark 3",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 159,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-3.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-3.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-3",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%203"
+      },
+      {
+        "id": "st-ty-tecno-spark-3",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%203"
+      },
+      {
+        "id": "st-vatan-tecno-spark-3",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%203/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-3-pro",
+    "slug": "tecno-spark-3-pro",
+    "name": "Tecno Spark 3 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 160,
+    "basePrice": 12999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/spark-50-5g-black.png",
+    "images": [
+      "/images/phones/tecno/spark-50-5g-black.png"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-3-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%203%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-spark-3-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 12739,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%203%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-spark-3-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13259,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%203%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 13779,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 13519,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 13259,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 13129,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 12999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 12999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-go",
+    "slug": "tecno-spark-go",
+    "name": "Tecno Spark Go (2019)",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 161,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-spark-go.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-spark-go.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-go",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%20Go%20(2019)"
+      },
+      {
+        "id": "st-ty-tecno-spark-go",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%20Go%20(2019)"
+      },
+      {
+        "id": "st-vatan-tecno-spark-go",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%20Go%20(2019)/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pop-2-f",
+    "slug": "tecno-pop-2-f",
+    "name": "Tecno Pop 2 F",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 164,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pop-2-plus.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pop-2-plus.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pop-2-f",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pop%202%20F"
+      },
+      {
+        "id": "st-ty-tecno-pop-2-f",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pop%202%20F"
+      },
+      {
+        "id": "st-vatan-tecno-pop-2-f",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pop%202%20F/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pop-2-plus",
+    "slug": "tecno-pop-2-plus",
+    "name": "Tecno Pop 2 Plus",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.4,
+    "reviewCount": 165,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pop-2-plus.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pop-2-plus.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2020 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pop-2-plus",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pop%202%20Plus"
+      },
+      {
+        "id": "st-ty-tecno-pop-2-plus",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pop%202%20Plus"
+      },
+      {
+        "id": "st-vatan-tecno-pop-2-plus",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pop%202%20Plus/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-phantom-9",
+    "slug": "tecno-phantom-9",
+    "name": "Tecno Phantom 9",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 57,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-phantom-9.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-phantom-9.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "12 GB RAM + 256 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-phantom-9",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Phantom%209"
+      },
+      {
+        "id": "st-ty-tecno-phantom-9",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 28419,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Phantom%209"
+      },
+      {
+        "id": "st-vatan-tecno-phantom-9",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 29579,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Phantom%209/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 30739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 30159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 29579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 29289,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 28999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 28999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-iace2x",
+    "slug": "tecno-camon-iace2x",
+    "name": "Tecno Camon iACE2X",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.2,
+    "reviewCount": 117,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-iace2x.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-iace2x.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-iace2x",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%20iACE2X"
+      },
+      {
+        "id": "st-ty-tecno-camon-iace2x",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%20iACE2X"
+      },
+      {
+        "id": "st-vatan-tecno-camon-iace2x",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%20iACE2X/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-i4",
+    "slug": "tecno-camon-i4",
+    "name": "Tecno Camon i4",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 249,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-i4.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-i4.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2023 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-i4",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%20i4"
+      },
+      {
+        "id": "st-ty-tecno-camon-i4",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%20i4"
+      },
+      {
+        "id": "st-vatan-tecno-camon-i4",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%20i4/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-iace2",
+    "slug": "tecno-camon-iace2",
+    "name": "Tecno Camon iACE2",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 118,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-camon-iace2.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-camon-iace2.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-iace2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%20iACE2"
+      },
+      {
+        "id": "st-ty-tecno-camon-iace2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%20iACE2"
+      },
+      {
+        "id": "st-vatan-tecno-camon-iace2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%20iACE2/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-11-pro",
+    "slug": "tecno-camon-11-pro",
+    "name": "Tecno Camon 11 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.2,
+    "reviewCount": 231,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/camon-50-black.png",
+    "images": [
+      "/images/phones/tecno/camon-50-black.png"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-11-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2011%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-camon-11-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2011%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-camon-11-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2011%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-11",
+    "slug": "tecno-camon-11",
+    "name": "Tecno Camon 11",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 232,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/camon-50-black.png",
+    "images": [
+      "/images/phones/tecno/camon-50-black.png"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-11",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2011"
+      },
+      {
+        "id": "st-ty-tecno-camon-11",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2011"
+      },
+      {
+        "id": "st-vatan-tecno-camon-11",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2011/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pop-1s",
+    "slug": "tecno-pop-1s",
+    "name": "Tecno Pop 1s",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.2,
+    "reviewCount": 255,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pop-2-plus.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pop-2-plus.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pop-1s",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pop%201s"
+      },
+      {
+        "id": "st-ty-tecno-pop-1s",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pop%201s"
+      },
+      {
+        "id": "st-vatan-tecno-pop-1s",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pop%201s/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pop-1-pro",
+    "slug": "tecno-pop-1-pro",
+    "name": "Tecno Pop 1 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 254,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pop-2-plus.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pop-2-plus.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pop-1-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pop%201%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-pop-1-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pop%201%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-pop-1-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pop%201%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pop-1",
+    "slug": "tecno-pop-1",
+    "name": "Tecno Pop 1",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 253,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pop-2-plus.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pop-2-plus.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pop-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pop%201"
+      },
+      {
+        "id": "st-ty-tecno-pop-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pop%201"
+      },
+      {
+        "id": "st-vatan-tecno-pop-1",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pop%201/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-f2-lte",
+    "slug": "tecno-f2-lte",
+    "name": "Tecno F2 LTE",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 251,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/spark-50-pro-orange.png",
+    "images": [
+      "/images/phones/tecno/spark-50-pro-orange.png"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-f2-lte",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20F2%20LTE"
+      },
+      {
+        "id": "st-ty-tecno-f2-lte",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20F2%20LTE"
+      },
+      {
+        "id": "st-vatan-tecno-f2-lte",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20F2%20LTE/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-f2",
+    "slug": "tecno-f2",
+    "name": "Tecno F2",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 250,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/spark-50-pro-orange.png",
+    "images": [
+      "/images/phones/tecno/spark-50-pro-orange.png"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-f2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20F2"
+      },
+      {
+        "id": "st-ty-tecno-f2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20F2"
+      },
+      {
+        "id": "st-vatan-tecno-f2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20F2/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pop-1-lite",
+    "slug": "tecno-pop-1-lite",
+    "name": "Tecno Pop 1 Lite",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.4,
+    "reviewCount": 249,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pop-2-plus.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pop-2-plus.jpg"
+    ],
+    "highlights": [
+      "13 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "4 GB RAM + 64 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR4X",
+        "storageGb": 64,
+        "storageOptions": [
+          64
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "13 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pop-1-lite",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pop%201%20Lite"
+      },
+      {
+        "id": "st-ty-tecno-pop-1-lite",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pop%201%20Lite"
+      },
+      {
+        "id": "st-vatan-tecno-pop-1-lite",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pop%201%20Lite/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 6359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 6239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 6059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pouvoir-2-pro",
+    "slug": "tecno-pouvoir-2-pro",
+    "name": "Tecno Pouvoir 2 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 248,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pouvoir-3-air.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pouvoir-3-air.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pouvoir-2-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pouvoir%202%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-pouvoir-2-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7839,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pouvoir%202%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-pouvoir-2-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 8159,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pouvoir%202%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 8479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 8319,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 8159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 8079,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 7999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pouvoir-2",
+    "slug": "tecno-pouvoir-2",
+    "name": "Tecno Pouvoir 2",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.2,
+    "reviewCount": 247,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pouvoir-3-air.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pouvoir-3-air.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pouvoir-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pouvoir%202"
+      },
+      {
+        "id": "st-ty-tecno-pouvoir-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7839,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pouvoir%202"
+      },
+      {
+        "id": "st-vatan-tecno-pouvoir-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 8159,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pouvoir%202/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 8479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 8319,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 8159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 8079,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 7999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-pouvoir-1",
+    "slug": "tecno-pouvoir-1",
+    "name": "Tecno Pouvoir 1",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 246,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-pouvoir-3-air.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-pouvoir-3-air.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-pouvoir-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pouvoir%201"
+      },
+      {
+        "id": "st-ty-tecno-pouvoir-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7839,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Pouvoir%201"
+      },
+      {
+        "id": "st-vatan-tecno-pouvoir-1",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 8159,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pouvoir%201/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 8479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 8319,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 8159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 8079,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 7999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-pro",
+    "slug": "tecno-spark-pro",
+    "name": "Tecno Spark Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 245,
+    "basePrice": 12999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/spark-50-5g-black.png",
+    "images": [
+      "/images/phones/tecno/spark-50-5g-black.png"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-spark-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 12739,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-spark-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 13259,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 13779,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 13519,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 13259,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 13129,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 12999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 12999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-plus",
+    "slug": "tecno-spark-plus",
+    "name": "Tecno Spark Plus",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 242,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/spark-50-5g-black.png",
+    "images": [
+      "/images/phones/tecno/spark-50-5g-black.png"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-plus",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%20Plus"
+      },
+      {
+        "id": "st-ty-tecno-spark-plus",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%20Plus"
+      },
+      {
+        "id": "st-vatan-tecno-spark-plus",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%20Plus/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-cm",
+    "slug": "tecno-spark-cm",
+    "name": "Tecno Spark CM",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.4,
+    "reviewCount": 241,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/spark-50-5g-black.png",
+    "images": [
+      "/images/phones/tecno/spark-50-5g-black.png"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-cm",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%20CM"
+      },
+      {
+        "id": "st-ty-tecno-spark-cm",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%20CM"
+      },
+      {
+        "id": "st-vatan-tecno-spark-cm",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%20CM/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark-2",
+    "slug": "tecno-spark-2",
+    "name": "Tecno Spark 2",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.3,
+    "reviewCount": 240,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/spark-50-5g-black.png",
+    "images": [
+      "/images/phones/tecno/spark-50-5g-black.png"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%202"
+      },
+      {
+        "id": "st-ty-tecno-spark-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%202"
+      },
+      {
+        "id": "st-vatan-tecno-spark-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%202/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-spark",
+    "slug": "tecno-spark",
+    "name": "Tecno Spark",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.2,
+    "reviewCount": 239,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/spark-50-5g-black.png",
+    "images": [
+      "/images/phones/tecno/spark-50-5g-black.png"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Fiyat Performans"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-spark",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark"
+      },
+      {
+        "id": "st-ty-tecno-spark",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Spark"
+      },
+      {
+        "id": "st-vatan-tecno-spark",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 9179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 9359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 9179,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 9089,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-x-pro",
+    "slug": "tecno-camon-x-pro",
+    "name": "Tecno Camon X Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 238,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/camon-50-black.png",
+    "images": [
+      "/images/phones/tecno/camon-50-black.png"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "108 MP",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-x-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%20X%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-camon-x-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%20X%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-camon-x-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%20X%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 20139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 19759,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 19189,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-x",
+    "slug": "tecno-camon-x",
+    "name": "Tecno Camon X",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 237,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/camon-50-black.png",
+    "images": [
+      "/images/phones/tecno/camon-50-black.png"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-x",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%20X"
+      },
+      {
+        "id": "st-ty-tecno-camon-x",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%20X"
+      },
+      {
+        "id": "st-vatan-tecno-camon-x",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%20X/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-cx-manchester-city-le",
+    "slug": "tecno-camon-cx-manchester-city-le",
+    "name": "Tecno Camon CX Manchester City LE",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 236,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/camon-50-black.png",
+    "images": [
+      "/images/phones/tecno/camon-50-black.png"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-cx-manchester-city-le",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%20CX%20Manchester%20City%20LE"
+      },
+      {
+        "id": "st-ty-tecno-camon-cx-manchester-city-le",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%20CX%20Manchester%20City%20LE"
+      },
+      {
+        "id": "st-vatan-tecno-camon-cx-manchester-city-le",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%20CX%20Manchester%20City%20LE/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-cx-air",
+    "slug": "tecno-camon-cx-air",
+    "name": "Tecno Camon CX Air",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.6,
+    "reviewCount": 235,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/camon-50-black.png",
+    "images": [
+      "/images/phones/tecno/camon-50-black.png"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-cx-air",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%20CX%20Air"
+      },
+      {
+        "id": "st-ty-tecno-camon-cx-air",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%20CX%20Air"
+      },
+      {
+        "id": "st-vatan-tecno-camon-cx-air",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%20CX%20Air/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-cx",
+    "slug": "tecno-camon-cx",
+    "name": "Tecno Camon CX",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.5,
+    "reviewCount": 234,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/camon-50-black.png",
+    "images": [
+      "/images/phones/tecno/camon-50-black.png"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-cx",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%20CX"
+      },
+      {
+        "id": "st-ty-tecno-camon-cx",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%20CX"
+      },
+      {
+        "id": "st-vatan-tecno-camon-cx",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%20CX/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-camon-cm",
+    "slug": "tecno-camon-cm",
+    "name": "Tecno Camon CM",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.4,
+    "reviewCount": 233,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/camon-50-black.png",
+    "images": [
+      "/images/phones/tecno/camon-50-black.png"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Profesyonel Portre"
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-camon-cm",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%20CM"
+      },
+      {
+        "id": "st-ty-tecno-camon-cm",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%20CM"
+      },
+      {
+        "id": "st-vatan-tecno-camon-cm",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%20CM/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 15899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 15149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-phantom-8",
+    "slug": "tecno-phantom-8",
+    "name": "Tecno Phantom 8",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.1,
+    "reviewCount": 230,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-phantom-9.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-phantom-9.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "12 GB RAM + 256 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-phantom-8",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Phantom%208"
+      },
+      {
+        "id": "st-ty-tecno-phantom-8",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 28419,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Phantom%208"
+      },
+      {
+        "id": "st-vatan-tecno-phantom-8",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 29579,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Phantom%208/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 30739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 30159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 29579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 29289,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 28999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 28999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-phantom-6-plus",
+    "slug": "tecno-phantom-6-plus",
+    "name": "Tecno Phantom 6 Plus",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.8,
+    "reviewCount": 229,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-phantom-9.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-phantom-9.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "12 GB RAM + 256 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-phantom-6-plus",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Phantom%206%20Plus"
+      },
+      {
+        "id": "st-ty-tecno-phantom-6-plus",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 28419,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Phantom%206%20Plus"
+      },
+      {
+        "id": "st-vatan-tecno-phantom-6-plus",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 29579,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Phantom%206%20Plus/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 30739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 30159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 29579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 29289,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 28999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 28999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-phantom-6",
+    "slug": "tecno-phantom-6",
+    "name": "Tecno Phantom 6",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "rating": 4.7,
+    "reviewCount": 228,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-phantom-9.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-phantom-9.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "5000 mAh Uzun Ömürlü Batarya",
+      "12 GB RAM + 256 GB Depolama Alanı",
+      "2019 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [],
+    "specs": {
+      "screen": {
+        "size": "6.78 inç",
+        "type": "IPS LCD",
+        "resolution": "2460 x 1080",
+        "refreshRate": 120,
+        "ppi": 396,
+        "brightnessNits": 800
+      },
+      "processor": {
+        "chip": "MediaTek Helio Octa-Core",
+        "cores": "8 Çekirdek",
+        "process": "6nm",
+        "antutuScore": 320000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR4X",
+        "storageGb": 256,
+        "storageOptions": [
+          256
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP AI",
+        "ultrawideMp": "2 MP Derinlik Sensörü",
+        "selfieMp": "16 MP AI Ön Kamera",
+        "videoRes": "1080p @ 60fps",
+        "dxomarkScore": 105
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 33,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.2",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 190,
+        "thicknessMm": 7.9,
+        "waterResistance": "IP54",
+        "frameMaterial": "Kompozit Gövde & Ergonomik Tasarım"
+      },
+      "software": {
+        "osName": "Android (HiOS)",
+        "updateYears": 2
+      }
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-phantom-6",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Phantom%206"
+      },
+      {
+        "id": "st-ty-tecno-phantom-6",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 28419,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Phantom%206"
+      },
+      {
+        "id": "st-vatan-tecno-phantom-6",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 29579,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Phantom%206/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 30739,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 30159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 29579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 29289,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 28999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 28999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
   {
     "id": "apple-iphone-17-pro-max-2tb-1",
     "slug": "vivo-x300-ultra",

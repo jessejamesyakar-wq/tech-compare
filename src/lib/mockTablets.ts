@@ -2,6 +2,418 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "tecno-tecno-megapad-se",
+    "slug": "tecno-megapad-se",
+    "name": "Tecno Megapad SE",
+    "brand": "Tecno",
+    "category": "tablets",
+    "rating": 4.1,
+    "reviewCount": 278,
+    "basePrice": 8499,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-megapad-se.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-megapad-se.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "7000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2026 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Geniş Ekran Tablet"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-megapad-se",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Megapad%20SE"
+      },
+      {
+        "id": "st-ty-tecno-megapad-se",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8329,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Megapad%20SE"
+      },
+      {
+        "id": "st-vatan-tecno-megapad-se",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 8669,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Megapad%20SE/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9009,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 8839,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 8669,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 8584,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-megapad-pro",
+    "slug": "tecno-megapad-pro",
+    "name": "Tecno Megapad Pro",
+    "brand": "Tecno",
+    "category": "tablets",
+    "rating": 4.5,
+    "reviewCount": 284,
+    "basePrice": 8499,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-megapad-pro.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-megapad-pro.jpg"
+    ],
+    "highlights": [
+      "108 MP Ana Kamera Sistemi",
+      "7000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 256 GB Depolama Alanı",
+      "2026 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Geniş Ekran Tablet"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-megapad-pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Megapad%20Pro"
+      },
+      {
+        "id": "st-ty-tecno-megapad-pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8329,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Megapad%20Pro"
+      },
+      {
+        "id": "st-vatan-tecno-megapad-pro",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 8669,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Megapad%20Pro/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9009,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 8839,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 8669,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 8584,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-megapad-11",
+    "slug": "tecno-megapad-11",
+    "name": "Tecno Megapad 11",
+    "brand": "Tecno",
+    "category": "tablets",
+    "rating": 4.3,
+    "reviewCount": 86,
+    "basePrice": 8499,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/phones/tecno/tecno-megapad-11.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-megapad-11.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "7000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2025 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Geniş Ekran Tablet"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-megapad-11",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Megapad%2011"
+      },
+      {
+        "id": "st-ty-tecno-megapad-11",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8329,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Megapad%2011"
+      },
+      {
+        "id": "st-vatan-tecno-megapad-11",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 8669,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Megapad%2011/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9009,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 8839,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 8669,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 8584,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tecno-tecno-megapad",
+    "slug": "tecno-megapad",
+    "name": "Tecno Megapad",
+    "brand": "Tecno",
+    "category": "tablets",
+    "rating": 4.5,
+    "reviewCount": 58,
+    "basePrice": 8499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/phones/tecno/tecno-megapad-11.jpg",
+    "images": [
+      "/images/phones/tecno/tecno-megapad-11.jpg"
+    ],
+    "highlights": [
+      "50 MP AI Ana Kamera Sistemi",
+      "7000 mAh Uzun Ömürlü Batarya",
+      "8 GB RAM + 128 GB Depolama Alanı",
+      "2024 Lansman & Android İşletim Sistemi"
+    ],
+    "tags": [
+      "Geniş Ekran Tablet"
+    ],
+    "storeOffers": [
+      {
+        "id": "st-hb-tecno-megapad",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Tecno%20Megapad"
+      },
+      {
+        "id": "st-ty-tecno-megapad",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8329,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 6400,
+        "url": "https://www.trendyol.com/sr?q=Tecno%20Megapad"
+      },
+      {
+        "id": "st-vatan-tecno-megapad",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 8669,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Megapad/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10",
+        "price": 9009,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-11",
+        "price": 8839,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-12",
+        "price": 8669,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-01",
+        "price": 8584,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-02",
+        "price": 8499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-03",
+        "price": 8499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "ipad-pro-13-m4-2024",
     "slug": "apple-ipad-pro-13-m4-2024",
     "name": "APPLE iPad Pro 13\" Ultra Retina Tandem OLED M4 Çip / 256GB / Wi-Fi Uzay Siyahı Tablet",
