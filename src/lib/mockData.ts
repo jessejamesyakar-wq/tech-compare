@@ -6063,9 +6063,9 @@ export const mockSmartphones: Smartphone[] = [
     "releaseYear": 2023,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/oneplus/oneplus-nord-ce6.jpg",
+    "image": "/images/phones/oneplus/oneplus-nord-3.jpg",
     "images": [
-      "/images/phones/oneplus/oneplus-nord-ce6.jpg"
+      "/images/phones/oneplus/oneplus-nord-3.jpg"
     ],
     "highlights": [
       "50 MP AI Gelişmiş Kamera",
@@ -6381,9 +6381,9 @@ export const mockSmartphones: Smartphone[] = [
     "releaseYear": 2023,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/oneplus/oneplus-nord-ce6.jpg",
+    "image": "/images/phones/oneplus/oneplus-nord-ce-3-lite.jpg",
     "images": [
-      "/images/phones/oneplus/oneplus-nord-ce6.jpg"
+      "/images/phones/oneplus/oneplus-nord-ce-3-lite.jpg"
     ],
     "highlights": [
       "50 MP AI Gelişmiş Kamera",
@@ -6699,9 +6699,9 @@ export const mockSmartphones: Smartphone[] = [
     "releaseYear": 2023,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "image": "/images/phones/oneplus/oneplus-11r.jpg",
     "images": [
-      "/images/phones/oneplus/oneplus-15.jpg"
+      "/images/phones/oneplus/oneplus-11r.jpg"
     ],
     "highlights": [
       "50 MP Hasselblad OIS Gelişmiş Kamera",
@@ -7335,9 +7335,9 @@ export const mockSmartphones: Smartphone[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/oneplus/oneplus-ace-6t.jpg",
+    "image": "/images/phones/oneplus/oneplus-ace-pro.jpg",
     "images": [
-      "/images/phones/oneplus/oneplus-ace-6t.jpg"
+      "/images/phones/oneplus/oneplus-ace-pro.jpg"
     ],
     "highlights": [
       "50 MP Sony IMX OIS Gelişmiş Kamera",
@@ -7972,9 +7972,9 @@ export const mockSmartphones: Smartphone[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/oneplus/oneplus-ace-6t.jpg",
+    "image": "/images/phones/oneplus/oneplus-ace-racing.jpg",
     "images": [
-      "/images/phones/oneplus/oneplus-ace-6t.jpg"
+      "/images/phones/oneplus/oneplus-ace-racing.jpg"
     ],
     "highlights": [
       "50 MP AI Gelişmiş Kamera",
@@ -8290,9 +8290,9 @@ export const mockSmartphones: Smartphone[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "image": "/images/phones/oneplus/oneplus-10r-150w.jpg",
     "images": [
-      "/images/phones/oneplus/oneplus-15.jpg"
+      "/images/phones/oneplus/oneplus-10r-150w.jpg"
     ],
     "highlights": [
       "50 MP Hasselblad OIS Gelişmiş Kamera",
@@ -8608,9 +8608,9 @@ export const mockSmartphones: Smartphone[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/oneplus/oneplus-nord-ce6.jpg",
+    "image": "/images/phones/oneplus/oneplus-nord-ce-2-lite-5g.jpg",
     "images": [
-      "/images/phones/oneplus/oneplus-nord-ce6.jpg"
+      "/images/phones/oneplus/oneplus-nord-ce-2-lite-5g.jpg"
     ],
     "highlights": [
       "50 MP AI Gelişmiş Kamera",
@@ -9245,9 +9245,9 @@ export const mockSmartphones: Smartphone[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "image": "/images/phones/oneplus/oneplus-9rt-5g.jpg",
     "images": [
-      "/images/phones/oneplus/oneplus-15.jpg"
+      "/images/phones/oneplus/oneplus-9rt-5g.jpg"
     ],
     "highlights": [
       "50 MP Hasselblad OIS Gelişmiş Kamera",
@@ -10359,9 +10359,9 @@ export const mockSmartphones: Smartphone[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/oneplus/oneplus-nord-ce6.jpg",
+    "image": "/images/phones/oneplus/oneplus-nord-n10-5g.jpg",
     "images": [
-      "/images/phones/oneplus/oneplus-nord-ce6.jpg"
+      "/images/phones/oneplus/oneplus-nord-n10-5g.jpg"
     ],
     "highlights": [
       "50 MP AI Gelişmiş Kamera",
@@ -10518,9 +10518,9 @@ export const mockSmartphones: Smartphone[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/oneplus/oneplus-nord-ce6.jpg",
+    "image": "/images/phones/oneplus/oneplus-nord-n100.jpg",
     "images": [
-      "/images/phones/oneplus/oneplus-nord-ce6.jpg"
+      "/images/phones/oneplus/oneplus-nord-n100.jpg"
     ],
     "highlights": [
       "50 MP AI Gelişmiş Kamera",
@@ -10836,9 +10836,9 @@ export const mockSmartphones: Smartphone[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "image": "/images/phones/oneplus/oneplus-8t-5g.jpg",
     "images": [
-      "/images/phones/oneplus/oneplus-15.jpg"
+      "/images/phones/oneplus/oneplus-8t-5g.jpg"
     ],
     "highlights": [
       "50 MP Hasselblad OIS Gelişmiş Kamera",
@@ -11473,9 +11473,9 @@ export const mockSmartphones: Smartphone[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "image": "/images/phones/oneplus/oneplus-8-5g-uw-verizon.jpg",
     "images": [
-      "/images/phones/oneplus/oneplus-15.jpg"
+      "/images/phones/oneplus/oneplus-8-5g-uw-verizon.jpg"
     ],
     "highlights": [
       "50 MP Hasselblad OIS Gelişmiş Kamera",
@@ -11791,9 +11791,9 @@ export const mockSmartphones: Smartphone[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "image": "/images/phones/oneplus/oneplus-7t-pro-5g-mclaren.jpg",
     "images": [
-      "/images/phones/oneplus/oneplus-15.jpg"
+      "/images/phones/oneplus/oneplus-7t-pro-5g-mclaren.jpg"
     ],
     "highlights": [
       "50 MP Hasselblad OIS Gelişmiş Kamera",
@@ -12270,9 +12270,9 @@ export const mockSmartphones: Smartphone[] = [
     "releaseYear": 2020,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "image": "/images/phones/oneplus/oneplus-7-pro-5g.jpg",
     "images": [
-      "/images/phones/oneplus/oneplus-15.jpg"
+      "/images/phones/oneplus/oneplus-7-pro-5g.jpg"
     ],
     "highlights": [
       "50 MP Hasselblad OIS Gelişmiş Kamera",
@@ -12749,9 +12749,9 @@ export const mockSmartphones: Smartphone[] = [
     "releaseYear": 2018,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "image": "/images/phones/oneplus/oneplus-6t-mclaren.jpg",
     "images": [
-      "/images/phones/oneplus/oneplus-15.jpg"
+      "/images/phones/oneplus/oneplus-6t-mclaren.jpg"
     ],
     "highlights": [
       "50 MP Hasselblad OIS Gelişmiş Kamera",
@@ -13067,9 +13067,9 @@ export const mockSmartphones: Smartphone[] = [
     "releaseYear": 2018,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "image": "/images/phones/oneplus/oneplus-6.jpg",
     "images": [
-      "/images/phones/oneplus/oneplus-15.jpg"
+      "/images/phones/oneplus/oneplus-6.jpg"
     ],
     "highlights": [
       "50 MP Hasselblad OIS Gelişmiş Kamera",
@@ -13544,9 +13544,9 @@ export const mockSmartphones: Smartphone[] = [
     "releaseYear": 2016,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "image": "/images/phones/oneplus/oneplus-3t.jpg",
     "images": [
-      "/images/phones/oneplus/oneplus-15.jpg"
+      "/images/phones/oneplus/oneplus-3t.jpg"
     ],
     "highlights": [
       "50 MP AI Gelişmiş Kamera",
@@ -14339,9 +14339,9 @@ export const mockSmartphones: Smartphone[] = [
     "releaseYear": 2023,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "image": "/images/phones/oneplus/oneplus-v-fold.jpg",
     "images": [
-      "/images/phones/oneplus/oneplus-15.jpg"
+      "/images/phones/oneplus/oneplus-v-fold.jpg"
     ],
     "highlights": [
       "48 MP Hasselblad Üçlü Kamera Gelişmiş Kamera",
@@ -14499,9 +14499,9 @@ export const mockSmartphones: Smartphone[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/oneplus/oneplus-nord-ce6.jpg",
+    "image": "/images/phones/oneplus/oneplus-nord-2-lite.jpg",
     "images": [
-      "/images/phones/oneplus/oneplus-nord-ce6.jpg"
+      "/images/phones/oneplus/oneplus-nord-2-lite.jpg"
     ],
     "highlights": [
       "50 MP AI Gelişmiş Kamera",
@@ -14658,9 +14658,9 @@ export const mockSmartphones: Smartphone[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/oneplus/oneplus-15.jpg",
+    "image": "/images/phones/oneplus/oneplus-9e.jpg",
     "images": [
-      "/images/phones/oneplus/oneplus-15.jpg"
+      "/images/phones/oneplus/oneplus-9e.jpg"
     ],
     "highlights": [
       "50 MP AI Gelişmiş Kamera",
