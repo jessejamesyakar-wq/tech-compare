@@ -1,0 +1,195 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f8fafc;
+  color: #0f172a;
+  overflow-x: clip;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11', 'ss01';
+  letter-spacing: -0.011em;
+}
+
+/* Tabular Numbers for Perfect Price & Spec Alignment */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum';
+}
+
+/* Editorial Headline Typography Styling */
+.editorial-title {
+  letter-spacing: -0.035em;
+  line-height: 1.08;
+}
+
+.editorial-sub {
+  letter-spacing: -0.015em;
+  line-height: 1.5;
+}
+
+/* Top Underline Indicator for Upper Category Bar (Vatan Style) */
+.nav-underline-active {
+  position: relative;
+}
+
+.nav-underline-active::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #10b981, #059669);
+  border-radius: 9999px;
+}
+
+/* Diagonal Ribbon Badge / Starburst Badge (Vatan Style) */
+.badge-starburst {
+  background: radial-gradient(circle at 30% 30%, #ef4444, #dc2626);
+  box-shadow: 0 4px 14px rgba(239, 68, 68, 0.4);
+}
+
+/* Handwritten / Expressive Script Accent Typography for Hero Banner */
+.script-accent {
+  font-family: 'Caveat', 'Dancing Script', 'Brush Script MT', cursive, sans-serif;
+  font-style: italic;
+  letter-spacing: 0.02em;
+}
+
+/* Custom Soft Scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Apple-style Glassmorphism Utility Classes */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.glass-nav {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.7);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.9);
+}
+
+/* Soft Glow & Shadows */
+.accent-glow-sm {
+  box-shadow: 0 4px 20px -2px rgba(16, 185, 129, 0.3);
+}
+
+.accent-glow {
+  box-shadow: 0 12px 36px -4px rgba(16, 185, 129, 0.25);
+}
+
+/* Difference Row Pulse in Comparison Desk */
+@keyframes diffPulse {
+  0% {
+    background-color: rgba(16, 185, 129, 0.18);
+  }
+  50% {
+    background-color: rgba(16, 185, 129, 0.08);
+  }
+  100% {
+    background-color: rgba(16, 185, 129, 0.12);
+  }
+}
+
+.diff-row-highlight {
+  animation: diffPulse 2s ease-in-out infinite alternate;
+  border-left: 4px solid #10b981 !important;
+}
+
+/* 4'lü Grid Yerleşimi ve Vatan Bilgisayar Ölçeklendirme Standardı */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Yan yana 4 ürün görünümü */
+  gap: 16px;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.product-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+/* Vatan Bilgisayar Ürün Görseli Ölçeği */
+.product-card img {
+  width: 100%;
+  height: 180px; /* Vatan'daki kompakt telefon görsel yüksekliği */
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/* Fiyat ve Buton Alanı */
+.product-price-area {
+  font-size: 20px;
+  font-weight: 700;
+  color: #003399; /* Vatan mavisi veya sitenizin ana rengi */
+}
+

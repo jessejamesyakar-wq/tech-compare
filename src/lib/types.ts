@@ -1,0 +1,251 @@
+export type Language = 'tr' | 'en' | 'de' | 'ru' | 'es' | 'it' | string;
+
+export interface PriceAlert {
+  id: string;
+  productId: string;
+  productName?: string;
+  productImage?: string;
+  currentPrice: number;
+  targetPrice: number;
+  email: string;
+  createdAt: string;
+  active?: boolean;
+}
+
+export interface BaseProduct {
+  id: string;
+  slug: string;
+  name: string;
+  brand: string;
+  category: 'smartphones' | 'tvs' | 'laptops' | 'tablets' | 'smartwatches' | 'headphones' | 'consoles' | 'appliances';
+  image: string;
+  images?: string[];
+  rating: number;
+  reviewCount: number;
+  basePrice: number;
+  currency: 'TL';
+  releaseYear: number;
+  isPopular?: boolean;
+  isFeatured?: boolean;
+  highlights: string[];
+  tags?: string[];
+  storeOffers: StoreOffer[];
+  priceHistory: PriceHistoryPoint[];
+}
+
+export interface ApplianceSpecs {
+  subCategory: 'robot_vacuum' | 'airfryer' | 'coffee_machine' | 'stick_vacuum' | 'blender' | 'iron' | 'tea_maker' | 'toaster' | string;
+  subCategoryLabel: string;
+  powerWatts: number;
+  capacity?: string;
+  suctionPowerPa?: number;
+  batteryRuntimeMin?: number;
+  noiseLevelDb?: number;
+  autoCleanDock?: boolean;
+  appControl?: boolean;
+  programsCount?: number;
+  pressureBar?: number;
+  steamOutputGpm?: number;
+  material?: string;
+  weightKg?: number;
+  warrantyYears?: number;
+  color?: string;
+}
+
+export interface ApplianceProduct extends BaseProduct {
+  category: 'appliances';
+  specs: ApplianceSpecs;
+  subCategory?: string;
+}
+
+export interface SmartphoneSpecs {
+  screen: {
+    size: string;
+    type: string;
+    resolution: string;
+    refreshRate: number;
+    ppi?: number;
+    brightnessNits?: number;
+  };
+  processor: {
+    chip: string;
+    cores: string;
+    process?: string;
+    antutuScore?: number;
+  };
+  memory: {
+    ramGb: number;
+    ramType?: string;
+    storageGb: number;
+    storageOptions?: number[];
+    expandableStorage?: boolean;
+  };
+  camera: {
+    mainMp: string;
+    ultrawideMp?: string;
+    telephotoMp?: string;
+    selfieMp: string;
+    videoRes: string;
+    dxomarkScore?: number;
+  };
+  battery: {
+    capacitymAh: number;
+    chargingWatts?: number;
+    wirelessCharging?: boolean;
+    reverseWireless?: boolean;
+  };
+  connectivity: {
+    has5G: boolean;
+    wifiStandard?: string;
+    bluetooth?: string;
+    hasNFC?: boolean;
+    hasesim?: boolean;
+  };
+  build: {
+    weightGrams?: number;
+    thicknessMm?: number;
+    waterResistance?: string;
+    frameMaterial?: string;
+  };
+  software: {
+    osName: string;
+    updateYears?: number;
+  };
+}
+
+export interface Smartphone extends BaseProduct {
+  category: 'smartphones';
+  specs: SmartphoneSpecs;
+}
+
+export interface TVSpecs {
+  screenSizeInches: number;
+  displayTech: 'OLED' | 'OLED+' | 'OLED EX' | 'OLED evo' | 'QD-OLED' | 'QLED' | 'Mini-LED' | 'QD-Mini LED' | 'LED' | 'Micro-LED' | 'Neo QLED' | 'Neo QLED 8K' | '8K QLED' | 'Curved QLED' | 'Curved UHD' | 'Crystal UHD' | 'UHD LCD' | 'Micro RGB' | string;
+  resolution: '4K Ultra HD' | '8K Ultra HD' | 'Full HD' | string;
+  refreshRateHz: number;
+  smartOs: 'Google TV' | 'webOS' | 'Tizen' | 'Android TV' | 'Vidaa' | 'Titan OS' | string;
+  audioPowerWatts: number;
+  hdrSupport: string[];
+  gamingFeatures: string[];
+  hdmiPorts: number;
+  usbPorts: number;
+  energyClass: string;
+  // Expanded exhaustive specifications
+  processorEngine?: string;
+  brightnessNits?: number;
+  contrastRatio?: string;
+  viewingAngle?: string;
+  colorGamut?: string;
+  localDimmingZones?: number;
+  inputLagMs?: number;
+  vrrSupport?: boolean;
+  allmSupport?: boolean;
+  hdmiVersion?: string;
+  audioChannels?: string;
+  dolbyAtmos?: boolean;
+  dtsX?: boolean;
+  voiceControl?: string;
+  wifiVersion?: string;
+  bluetoothVersion?: string;
+  appleAirplay?: boolean;
+  chromecastBuiltIn?: boolean;
+  dimensionsWithStand?: string;
+  weightKg?: number;
+  vesaMount?: string;
+  bezelStyle?: string;
+}
+
+export interface TVProduct extends BaseProduct {
+  category: 'tvs';
+  specs: TVSpecs;
+  ssIndexRatio?: number;
+  bundlePromotions?: string[];
+}
+
+export interface LaptopSpecs {
+  productType: string;
+  processor: string;
+  processorCores?: string;
+  npuTops?: number;
+  ramGb: number;
+  ramType?: string;
+  maxRamGb?: number;
+  storageGb: number;
+  storageType?: string;
+  storageSlots?: string;
+  gpu: string;
+  gpuTgpWatts?: number;
+  muxSwitch?: boolean;
+  screenSizeInches: number;
+  screenResolution?: string;
+  screenBrightnessNits?: number;
+  colorGamut?: string;
+  batteryCapacityWh?: number;
+  batteryLifeHours?: number;
+  chargerWatts?: number;
+  wifiStandard?: string;
+  bluetooth?: string;
+  ports?: string[];
+  weightKg?: number;
+  thicknessMm?: number;
+  bodyMaterial?: string;
+  keyboard?: string;
+  webcam?: string;
+  audio?: string;
+  os?: string;
+}
+
+export interface LaptopProduct extends BaseProduct {
+  category: 'laptops';
+  specs: LaptopSpecs;
+  productType: 'Laptop' | 'Gaming Laptop' | 'Masaüstü Bilgisayar' | 'Laptop+Çanta' | 'Tablet' | string;
+  isSponsored?: boolean;
+  isWebExclusive?: boolean;
+}
+
+export interface GenericProduct extends BaseProduct {
+  category: 'tablets' | 'smartwatches' | 'headphones' | 'consoles';
+  specs?: Record<string, unknown>;
+}
+
+export type Product = Smartphone | TVProduct | LaptopProduct | ApplianceProduct | GenericProduct;
+
+export interface StoreOffer {
+  id: string;
+  storeName: string;
+  storeLogoColor: string;
+  price: number;
+  subsidyPrice?: number;
+  bundlePromotion?: string;
+  inStock: boolean;
+  shippingDays: number;
+  badges: string[];
+  sellerRating: number;
+  sellerReviews: number;
+  url: string;
+}
+
+export interface PriceHistoryPoint {
+  date: string;
+  price: number;
+  store: string;
+}
+
+export interface FilterOptions {
+  category?: 'smartphones' | 'tvs';
+  brand?: string[];
+  brands?: string[];
+  minPrice?: number;
+  maxPrice?: number;
+  has5GOnly?: boolean;
+  only5G?: boolean;
+  minRamGb?: number;
+  minRam?: number;
+  minStorageGb?: number;
+  minStorage?: number;
+  minBattery?: number;
+  minBatteryMah?: number;
+  minAntutu?: number;
+  minAntutuScore?: number;
+  sortBy?: 'popular' | 'priceAsc' | 'priceDesc' | 'antutu' | 'rating' | 'releaseYear';
+}

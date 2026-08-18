@@ -1,0 +1,16 @@
+{
+  "name": "TechKıyas - Akıllı Telefon & TV Karşılaştırma",
+  "short_name": "TechKıyas",
+  "description": "Türkiye'nin %100 tarafsız akıllı telefon ve TV karşılaştırma, 8 mağaza canlı fiyat takip platformu.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#059669",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
