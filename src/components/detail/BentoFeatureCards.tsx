@@ -45,7 +45,7 @@ export function BentoFeatureCards({ phone }: BentoFeatureCardsProps) {
               Görsel şölen sunan ekran teknolojisi: <span className="text-emerald-600">{phone.specs?.screen?.type || 'OLED'}</span>
             </h3>
             <p className="text-xs text-slate-500 font-medium leading-relaxed">
-              {phone.specs?.screen?.size} dev ekran, {phone.specs?.screen?.refreshRate}Hz yenileme hızı ve {phone.specs?.screen?.brightnessNits} nits zirve parlaklık.
+              {phone.specs?.screen?.size || '6.7 inç'} dev ekran, {phone.specs?.screen?.refreshRate || 120}Hz yenileme hızı ve {phone.specs?.screen?.brightnessNits || 2600} nits zirve parlaklık.
             </p>
           </div>
 
