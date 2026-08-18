@@ -7,9 +7,12 @@ export const mockSmartphones: Smartphone[] = [
   "name": "Tecno Spark 50 Pro",
   "brand": "Tecno",
   "category": "smartphones",
-  "image": "/images/phones/tecno/tecno-spark-50-pro.png",
+  "image": "/images/phones/tecno/spark-50-pro-orange.png",
   "images": [
-    "/images/phones/tecno/tecno-spark-50-pro.png"
+    "/images/phones/tecno/spark-50-pro-orange.png",
+    "/images/phones/tecno/spark-50-pro-blue.png",
+    "/images/phones/tecno/spark-50-pro-grey.png",
+    "/images/phones/tecno/spark-50-pro-black.png"
   ],
   "rating": 4.6,
   "reviewCount": 184,
@@ -29,6 +32,24 @@ export const mockSmartphones: Smartphone[] = [
     "120Hz AMOLED",
     "Helio G100",
     "33W Hızlı Şarj"
+  ],
+  "colorOptions": [
+    {
+      "name": "Gün Batımı Turuncusu",
+      "hex": "#da722e"
+    },
+    {
+      "name": "Gece Mavisi",
+      "hex": "#14256f"
+    },
+    {
+      "name": "Titanyum Gri",
+      "hex": "#8f8f90"
+    },
+    {
+      "name": "Gece Siyahı",
+      "hex": "#444444"
+    }
   ],
   "specs": {
     "screen": {
@@ -88,7 +109,7 @@ export const mockSmartphones: Smartphone[] = [
   },
   "storeOffers": [
     {
-      "id": "st-hb-tecno-sp50pro",
+      "id": "st-hb-tecno-spark-50-pro",
       "storeName": "Hepsiburada",
       "storeLogoColor": "bg-orange-600",
       "price": 12999,
@@ -96,74 +117,74 @@ export const mockSmartphones: Smartphone[] = [
       "shippingDays": 1,
       "badges": [
         "Resmi Distribütör",
-        "Hızlı Teslimat"
+        "Yarın Kapında"
       ],
       "sellerRating": 4.8,
-      "sellerReviews": 4300,
-      "url": "https://www.hepsiburada.com/ara?q=Tecno+Spark+50+Pro"
+      "sellerReviews": 4500,
+      "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2050%20Pro"
     },
     {
-      "id": "st-ty-tecno-sp50pro",
+      "id": "st-ty-tecno-spark-50-pro",
       "storeName": "Trendyol",
       "storeLogoColor": "bg-amber-600",
-      "price": 12799,
+      "price": 12739,
       "inStock": true,
       "shippingDays": 1,
       "badges": [
         "Fırsat Ürünü"
       ],
       "sellerRating": 4.7,
-      "sellerReviews": 8900,
-      "url": "https://www.trendyol.com/sr?q=Tecno+Spark+50+Pro"
+      "sellerReviews": 8100,
+      "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2050%20Pro"
     },
     {
-      "id": "st-vatan-tecno-sp50pro",
+      "id": "st-vatan-tecno-spark-50-pro",
       "storeName": "Vatan Bilgisayar",
       "storeLogoColor": "bg-blue-700",
-      "price": 13299,
+      "price": 13259,
       "inStock": true,
       "shippingDays": 2,
       "badges": [
         "Mağazadan Teslim"
       ],
       "sellerRating": 4.9,
-      "sellerReviews": 6100,
+      "sellerReviews": 5600,
       "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2050%20Pro/"
     },
     {
-      "id": "st-mm-tecno-sp50pro",
+      "id": "st-mm-tecno-spark-50-pro",
       "storeName": "MediaMarkt",
       "storeLogoColor": "bg-rose-600",
-      "price": 13499,
+      "price": 13389,
       "inStock": true,
       "shippingDays": 2,
       "badges": [
-        "Uzatılmış Garanti"
+        "Orijinal Kutu"
       ],
       "sellerRating": 4.6,
-      "sellerReviews": 3200,
-      "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Tecno+Spark+50+Pro"
+      "sellerReviews": 3300,
+      "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Tecno%20Spark%2050%20Pro"
     }
   ],
   "priceHistory": [
     {
       "date": "2025-10",
-      "price": 13999,
+      "price": 14039,
       "store": "Hepsiburada"
     },
     {
       "date": "2025-11",
-      "price": 13699,
+      "price": 13649,
       "store": "Hepsiburada"
     },
     {
       "date": "2025-12",
-      "price": 13499,
+      "price": 13389,
       "store": "Hepsiburada"
     },
     {
       "date": "2026-01",
-      "price": 13199,
+      "price": 13259,
       "store": "Hepsiburada"
     },
     {
@@ -184,9 +205,13 @@ export const mockSmartphones: Smartphone[] = [
   "name": "Tecno Camon 50 Ultra 5G",
   "brand": "Tecno",
   "category": "smartphones",
-  "image": "/images/phones/tecno/tecno-camon-50-ultra-5g.png",
+  "image": "/images/phones/tecno/camon-50-ultra-lilac.png",
   "images": [
-    "/images/phones/tecno/tecno-camon-50-ultra-5g.png"
+    "/images/phones/tecno/camon-50-ultra-lilac.png",
+    "/images/phones/tecno/camon-50-ultra-orange.png",
+    "/images/phones/tecno/camon-50-ultra-white.png",
+    "/images/phones/tecno/camon-50-ultra-green.png",
+    "/images/phones/tecno/camon-50-ultra-grey.png"
   ],
   "rating": 4.8,
   "reviewCount": 312,
@@ -207,6 +232,28 @@ export const mockSmartphones: Smartphone[] = [
     "Dimensity 8300",
     "144Hz AMOLED",
     "70W Şarj"
+  ],
+  "colorOptions": [
+    {
+      "name": "Leylak",
+      "hex": "#bfbdd2"
+    },
+    {
+      "name": "Gün Batımı Turuncusu",
+      "hex": "#e47233"
+    },
+    {
+      "name": "İnci Beyazı",
+      "hex": "#d7d5d3"
+    },
+    {
+      "name": "Zümrüt Yeşili",
+      "hex": "#4d7469"
+    },
+    {
+      "name": "Grafit Gri",
+      "hex": "#505050"
+    }
   ],
   "specs": {
     "screen": {
@@ -267,7 +314,7 @@ export const mockSmartphones: Smartphone[] = [
   },
   "storeOffers": [
     {
-      "id": "st-hb-tecno-c50u",
+      "id": "st-hb-tecno-camon-50-ultra-5g",
       "storeName": "Hepsiburada",
       "storeLogoColor": "bg-orange-600",
       "price": 24999,
@@ -278,11 +325,11 @@ export const mockSmartphones: Smartphone[] = [
         "Yarın Kapında"
       ],
       "sellerRating": 4.8,
-      "sellerReviews": 5200,
-      "url": "https://www.hepsiburada.com/ara?q=Tecno+Camon+50+Ultra+5G"
+      "sellerReviews": 4500,
+      "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2050%20Ultra%205G"
     },
     {
-      "id": "st-ty-tecno-c50u",
+      "id": "st-ty-tecno-camon-50-ultra-5g",
       "storeName": "Trendyol",
       "storeLogoColor": "bg-amber-600",
       "price": 24499,
@@ -292,36 +339,36 @@ export const mockSmartphones: Smartphone[] = [
         "Fırsat Ürünü"
       ],
       "sellerRating": 4.7,
-      "sellerReviews": 9800,
-      "url": "https://www.trendyol.com/sr?q=Tecno+Camon+50+Ultra+5G"
+      "sellerReviews": 8100,
+      "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2050%20Ultra%205G"
     },
     {
-      "id": "st-vatan-tecno-c50u",
+      "id": "st-vatan-tecno-camon-50-ultra-5g",
       "storeName": "Vatan Bilgisayar",
       "storeLogoColor": "bg-blue-700",
       "price": 25499,
       "inStock": true,
       "shippingDays": 2,
       "badges": [
-        "Orijinal Garanti"
+        "Mağazadan Teslim"
       ],
       "sellerRating": 4.9,
-      "sellerReviews": 7300,
+      "sellerReviews": 5600,
       "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2050%20Ultra%205G/"
     },
     {
-      "id": "st-mm-tecno-c50u",
+      "id": "st-mm-tecno-camon-50-ultra-5g",
       "storeName": "MediaMarkt",
       "storeLogoColor": "bg-rose-600",
-      "price": 25999,
+      "price": 25749,
       "inStock": true,
       "shippingDays": 2,
       "badges": [
-        "Kulüp İndirimi"
+        "Orijinal Kutu"
       ],
       "sellerRating": 4.6,
-      "sellerReviews": 4100,
-      "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Tecno+Camon+50+Ultra+5G"
+      "sellerReviews": 3300,
+      "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Tecno%20Camon%2050%20Ultra%205G"
     }
   ],
   "priceHistory": [
@@ -332,17 +379,17 @@ export const mockSmartphones: Smartphone[] = [
     },
     {
       "date": "2025-11",
-      "price": 26299,
+      "price": 26249,
       "store": "Hepsiburada"
     },
     {
       "date": "2025-12",
-      "price": 25799,
+      "price": 25749,
       "store": "Hepsiburada"
     },
     {
       "date": "2026-01",
-      "price": 25299,
+      "price": 25499,
       "store": "Hepsiburada"
     },
     {
@@ -363,9 +410,14 @@ export const mockSmartphones: Smartphone[] = [
   "name": "Tecno Camon 50",
   "brand": "Tecno",
   "category": "smartphones",
-  "image": "/images/phones/tecno/tecno-camon-50.png",
+  "image": "/images/phones/tecno/camon-50-olive.png",
   "images": [
-    "/images/phones/tecno/tecno-camon-50.png"
+    "/images/phones/tecno/camon-50-olive.png",
+    "/images/phones/tecno/camon-50-lavender.png",
+    "/images/phones/tecno/camon-50-forest.png",
+    "/images/phones/tecno/camon-50-white.png",
+    "/images/phones/tecno/camon-50-mint.png",
+    "/images/phones/tecno/camon-50-black.png"
   ],
   "rating": 4.7,
   "reviewCount": 145,
@@ -385,6 +437,32 @@ export const mockSmartphones: Smartphone[] = [
     "50MP Selfie",
     "120Hz AMOLED",
     "45W Şarj"
+  ],
+  "colorOptions": [
+    {
+      "name": "Zeytin Yeşili",
+      "hex": "#c0cea5"
+    },
+    {
+      "name": "Lavanta Moru",
+      "hex": "#b79ccd"
+    },
+    {
+      "name": "Orman Yeşili",
+      "hex": "#515c4d"
+    },
+    {
+      "name": "Gümüş Beyaz",
+      "hex": "#d6d4d0"
+    },
+    {
+      "name": "Nane Yeşili",
+      "hex": "#50c878"
+    },
+    {
+      "name": "Obsidiyen Siyah",
+      "hex": "#191a1a"
+    }
   ],
   "specs": {
     "screen": {
@@ -443,81 +521,82 @@ export const mockSmartphones: Smartphone[] = [
   },
   "storeOffers": [
     {
-      "id": "st-hb-tecno-c50",
+      "id": "st-hb-tecno-camon-50",
       "storeName": "Hepsiburada",
       "storeLogoColor": "bg-orange-600",
       "price": 16999,
       "inStock": true,
       "shippingDays": 1,
       "badges": [
-        "Resmi Distribütör"
+        "Resmi Distribütör",
+        "Yarın Kapında"
       ],
       "sellerRating": 4.8,
-      "sellerReviews": 3100,
-      "url": "https://www.hepsiburada.com/ara?q=Tecno+Camon+50"
+      "sellerReviews": 4500,
+      "url": "https://www.hepsiburada.com/ara?q=Tecno%20Camon%2050"
     },
     {
-      "id": "st-ty-tecno-c50",
+      "id": "st-ty-tecno-camon-50",
       "storeName": "Trendyol",
       "storeLogoColor": "bg-amber-600",
-      "price": 16699,
+      "price": 16659,
       "inStock": true,
       "shippingDays": 1,
       "badges": [
-        "Süper Fiyat"
+        "Fırsat Ürünü"
       ],
       "sellerRating": 4.7,
-      "sellerReviews": 6400,
-      "url": "https://www.trendyol.com/sr?q=Tecno+Camon+50"
+      "sellerReviews": 8100,
+      "url": "https://www.trendyol.com/sr?q=Tecno%20Camon%2050"
     },
     {
-      "id": "st-vatan-tecno-c50",
+      "id": "st-vatan-tecno-camon-50",
       "storeName": "Vatan Bilgisayar",
       "storeLogoColor": "bg-blue-700",
-      "price": 17299,
+      "price": 17339,
       "inStock": true,
       "shippingDays": 2,
       "badges": [
         "Mağazadan Teslim"
       ],
       "sellerRating": 4.9,
-      "sellerReviews": 4800,
+      "sellerReviews": 5600,
       "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Camon%2050/"
     },
     {
-      "id": "st-mm-tecno-c50",
+      "id": "st-mm-tecno-camon-50",
       "storeName": "MediaMarkt",
       "storeLogoColor": "bg-rose-600",
-      "price": 17499,
+      "price": 17509,
       "inStock": true,
       "shippingDays": 2,
       "badges": [
         "Orijinal Kutu"
       ],
       "sellerRating": 4.6,
-      "sellerReviews": 2900,
-      "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Tecno+Camon+50"
+      "sellerReviews": 3300,
+      "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Tecno%20Camon%2050"
     }
   ],
   "priceHistory": [
     {
       "date": "2025-10",
-      "price": 18499,
+      "price": 18359,
       "store": "Hepsiburada"
     },
     {
       "date": "2025-11",
-      "price": 17999,
+      "price": 17849,
       "store": "Hepsiburada"
     },
     {
       "date": "2025-12",
-      "price": 17499,
+      "price": 17509,
       "store": "Hepsiburada"
     },
     {
       "date": "2026-01",
-      "price": 17199,
+      "price": 17339,
       "store": "Hepsiburada"
     },
     {
@@ -538,9 +617,13 @@ export const mockSmartphones: Smartphone[] = [
   "name": "Tecno Spark 50 5G",
   "brand": "Tecno",
   "category": "smartphones",
-  "image": "/images/phones/tecno/tecno-spark-50-5g.png",
+  "image": "/images/phones/tecno/spark-50-5g-purple.png",
   "images": [
-    "/images/phones/tecno/tecno-spark-50-5g.png"
+    "/images/phones/tecno/spark-50-5g-purple.png",
+    "/images/phones/tecno/spark-50-5g-mint.png",
+    "/images/phones/tecno/spark-50-5g-gold.png",
+    "/images/phones/tecno/spark-50-5g-grey.png",
+    "/images/phones/tecno/spark-50-5g-black.png"
   ],
   "rating": 4.5,
   "reviewCount": 96,
@@ -560,6 +643,28 @@ export const mockSmartphones: Smartphone[] = [
     "120Hz Ekran",
     "Dimensity 6300",
     "50MP AI Kamera"
+  ],
+  "colorOptions": [
+    {
+      "name": "Gece Moru",
+      "hex": "#72589c"
+    },
+    {
+      "name": "Gökyüzü Yeşili",
+      "hex": "#bbdfc1"
+    },
+    {
+      "name": "Çöl Sarısı",
+      "hex": "#b3af9f"
+    },
+    {
+      "name": "Metalik Gri",
+      "hex": "#82827c"
+    },
+    {
+      "name": "Yıldızlı Siyah",
+      "hex": "#343437"
+    }
   ],
   "specs": {
     "screen": {
@@ -619,81 +724,82 @@ export const mockSmartphones: Smartphone[] = [
   },
   "storeOffers": [
     {
-      "id": "st-hb-tecno-sp50-5g",
+      "id": "st-hb-tecno-spark-50-5g",
       "storeName": "Hepsiburada",
       "storeLogoColor": "bg-orange-600",
       "price": 11499,
       "inStock": true,
       "shippingDays": 1,
       "badges": [
-        "Resmi Distribütör"
+        "Resmi Distribütör",
+        "Yarın Kapında"
       ],
       "sellerRating": 4.8,
-      "sellerReviews": 2400,
-      "url": "https://www.hepsiburada.com/ara?q=Tecno+Spark+50+5G"
+      "sellerReviews": 4500,
+      "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2050%205G"
     },
     {
-      "id": "st-ty-tecno-sp50-5g",
+      "id": "st-ty-tecno-spark-50-5g",
       "storeName": "Trendyol",
       "storeLogoColor": "bg-amber-600",
-      "price": 11299,
+      "price": 11269,
       "inStock": true,
       "shippingDays": 1,
       "badges": [
-        "Süper Fiyat"
+        "Fırsat Ürünü"
       ],
       "sellerRating": 4.7,
-      "sellerReviews": 4800,
-      "url": "https://www.trendyol.com/sr?q=Tecno+Spark+50+5G"
+      "sellerReviews": 8100,
+      "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2050%205G"
     },
     {
-      "id": "st-vatan-tecno-sp50-5g",
+      "id": "st-vatan-tecno-spark-50-5g",
       "storeName": "Vatan Bilgisayar",
       "storeLogoColor": "bg-blue-700",
-      "price": 11699,
+      "price": 11729,
       "inStock": true,
       "shippingDays": 2,
       "badges": [
         "Mağazadan Teslim"
       ],
       "sellerRating": 4.9,
-      "sellerReviews": 3500,
+      "sellerReviews": 5600,
       "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2050%205G/"
     },
     {
-      "id": "st-mm-tecno-sp50-5g",
+      "id": "st-mm-tecno-spark-50-5g",
       "storeName": "MediaMarkt",
       "storeLogoColor": "bg-rose-600",
-      "price": 11899,
+      "price": 11844,
       "inStock": true,
       "shippingDays": 2,
       "badges": [
-        "Standart Teslimat"
+        "Orijinal Kutu"
       ],
       "sellerRating": 4.6,
-      "sellerReviews": 1900,
-      "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Tecno+Spark+50+5G"
+      "sellerReviews": 3300,
+      "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Tecno%20Spark%2050%205G"
     }
   ],
   "priceHistory": [
     {
       "date": "2025-10",
-      "price": 12499,
+      "price": 12419,
       "store": "Hepsiburada"
     },
     {
       "date": "2025-11",
-      "price": 12199,
+      "price": 12074,
       "store": "Hepsiburada"
     },
     {
       "date": "2025-12",
-      "price": 11899,
+      "price": 11844,
       "store": "Hepsiburada"
     },
     {
       "date": "2026-01",
-      "price": 11699,
+      "price": 11729,
       "store": "Hepsiburada"
     },
     {
@@ -714,9 +820,14 @@ export const mockSmartphones: Smartphone[] = [
   "name": "Tecno Spark 50",
   "brand": "Tecno",
   "category": "smartphones",
-  "image": "/images/phones/tecno/tecno-spark-50.png",
+  "image": "/images/phones/tecno/spark-50-blue.png",
   "images": [
-    "/images/phones/tecno/tecno-spark-50.png"
+    "/images/phones/tecno/spark-50-blue.png",
+    "/images/phones/tecno/spark-50-white.png",
+    "/images/phones/tecno/spark-50-grey.png",
+    "/images/phones/tecno/spark-50-lilac.png",
+    "/images/phones/tecno/spark-50-coral.png",
+    "/images/phones/tecno/spark-50-orange.png"
   ],
   "rating": 4.4,
   "reviewCount": 110,
@@ -736,6 +847,32 @@ export const mockSmartphones: Smartphone[] = [
     "50MP Kamera",
     "120Hz Ekran",
     "Helio G81"
+  ],
+  "colorOptions": [
+    {
+      "name": "Okyanus Mavisi",
+      "hex": "#048ce3"
+    },
+    {
+      "name": "Buz Beyazı",
+      "hex": "#d8d9da"
+    },
+    {
+      "name": "Gölgeli Gri",
+      "hex": "#6c6c6c"
+    },
+    {
+      "name": "Leylak",
+      "hex": "#b0a1dd"
+    },
+    {
+      "name": "Mercan Pembesi",
+      "hex": "#e59ca9"
+    },
+    {
+      "name": "Gün Batımı Turuncusu",
+      "hex": "#e86c29"
+    }
   ],
   "specs": {
     "screen": {
@@ -795,81 +932,82 @@ export const mockSmartphones: Smartphone[] = [
   },
   "storeOffers": [
     {
-      "id": "st-hb-tecno-sp50",
+      "id": "st-hb-tecno-spark-50",
       "storeName": "Hepsiburada",
       "storeLogoColor": "bg-orange-600",
       "price": 9499,
       "inStock": true,
       "shippingDays": 1,
       "badges": [
-        "Resmi Distribütör"
+        "Resmi Distribütör",
+        "Yarın Kapında"
       ],
       "sellerRating": 4.8,
-      "sellerReviews": 1800,
-      "url": "https://www.hepsiburada.com/ara?q=Tecno+Spark+50"
+      "sellerReviews": 4500,
+      "url": "https://www.hepsiburada.com/ara?q=Tecno%20Spark%2050"
     },
     {
-      "id": "st-ty-tecno-sp50",
+      "id": "st-ty-tecno-spark-50",
       "storeName": "Trendyol",
       "storeLogoColor": "bg-amber-600",
-      "price": 9299,
+      "price": 9309,
       "inStock": true,
       "shippingDays": 1,
       "badges": [
-        "Günün Teklifi"
+        "Fırsat Ürünü"
       ],
       "sellerRating": 4.7,
-      "sellerReviews": 3900,
-      "url": "https://www.trendyol.com/sr?q=Tecno+Spark+50"
+      "sellerReviews": 8100,
+      "url": "https://www.trendyol.com/sr?q=Tecno%20Spark%2050"
     },
     {
-      "id": "st-vatan-tecno-sp50",
+      "id": "st-vatan-tecno-spark-50",
       "storeName": "Vatan Bilgisayar",
       "storeLogoColor": "bg-blue-700",
-      "price": 9699,
+      "price": 9689,
       "inStock": true,
       "shippingDays": 2,
       "badges": [
-        "Hemen Teslim"
+        "Mağazadan Teslim"
       ],
       "sellerRating": 4.9,
-      "sellerReviews": 2700,
+      "sellerReviews": 5600,
       "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Spark%2050/"
     },
     {
-      "id": "st-mm-tecno-sp50",
+      "id": "st-mm-tecno-spark-50",
       "storeName": "MediaMarkt",
       "storeLogoColor": "bg-rose-600",
-      "price": 9899,
+      "price": 9784,
       "inStock": true,
       "shippingDays": 2,
       "badges": [
-        "Standart Teslimat"
+        "Orijinal Kutu"
       ],
       "sellerRating": 4.6,
-      "sellerReviews": 1400,
-      "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Tecno+Spark+50"
+      "sellerReviews": 3300,
+      "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Tecno%20Spark%2050"
     }
   ],
   "priceHistory": [
     {
       "date": "2025-10",
-      "price": 10499,
+      "price": 10259,
       "store": "Hepsiburada"
     },
     {
       "date": "2025-11",
-      "price": 10199,
+      "price": 9974,
       "store": "Hepsiburada"
     },
     {
       "date": "2025-12",
-      "price": 9899,
+      "price": 9784,
       "store": "Hepsiburada"
     },
     {
       "date": "2026-01",
-      "price": 9699,
+      "price": 9689,
       "store": "Hepsiburada"
     },
     {
@@ -890,9 +1028,11 @@ export const mockSmartphones: Smartphone[] = [
   "name": "Tecno Pova Curve 2 5G",
   "brand": "Tecno",
   "category": "smartphones",
-  "image": "/images/phones/tecno/tecno-pova-curve-2-5g.png",
+  "image": "/images/phones/tecno/pova-curve-2-silver.png",
   "images": [
-    "/images/phones/tecno/tecno-pova-curve-2-5g.png"
+    "/images/phones/tecno/pova-curve-2-silver.png",
+    "/images/phones/tecno/pova-curve-2-dark.png",
+    "/images/phones/tecno/pova-curve-2-violet.png"
   ],
   "rating": 4.8,
   "reviewCount": 240,
@@ -913,6 +1053,20 @@ export const mockSmartphones: Smartphone[] = [
     "144Hz Kavisli AMOLED",
     "Dimensity 7300",
     "70W Şarj"
+  ],
+  "colorOptions": [
+    {
+      "name": "Siber Gümüş",
+      "hex": "#a8abb3"
+    },
+    {
+      "name": "Mecha Koyu",
+      "hex": "#686868"
+    },
+    {
+      "name": "Neon Menekşe",
+      "hex": "#8e92c1"
+    }
   ],
   "specs": {
     "screen": {
@@ -971,7 +1125,7 @@ export const mockSmartphones: Smartphone[] = [
   },
   "storeOffers": [
     {
-      "id": "st-hb-tecno-pova2",
+      "id": "st-hb-tecno-pova-curve-2-5g",
       "storeName": "Hepsiburada",
       "storeLogoColor": "bg-orange-600",
       "price": 18999,
@@ -983,70 +1137,70 @@ export const mockSmartphones: Smartphone[] = [
       ],
       "sellerRating": 4.8,
       "sellerReviews": 4500,
-      "url": "https://www.hepsiburada.com/ara?q=Tecno+Pova+Curve+2+5G"
+      "url": "https://www.hepsiburada.com/ara?q=Tecno%20Pova%20Curve%202%205G"
     },
     {
-      "id": "st-ty-tecno-pova2",
+      "id": "st-ty-tecno-pova-curve-2-5g",
       "storeName": "Trendyol",
       "storeLogoColor": "bg-amber-600",
-      "price": 18599,
+      "price": 18619,
       "inStock": true,
       "shippingDays": 1,
       "badges": [
-        "Günün Fırsatı"
+        "Fırsat Ürünü"
       ],
       "sellerRating": 4.7,
       "sellerReviews": 8100,
-      "url": "https://www.trendyol.com/sr?q=Tecno+Pova+Curve+2+5G"
+      "url": "https://www.trendyol.com/sr?q=Tecno%20Pova%20Curve%202%205G"
     },
     {
-      "id": "st-vatan-tecno-pova2",
+      "id": "st-vatan-tecno-pova-curve-2-5g",
       "storeName": "Vatan Bilgisayar",
       "storeLogoColor": "bg-blue-700",
-      "price": 19299,
+      "price": 19379,
       "inStock": true,
       "shippingDays": 2,
       "badges": [
-        "Orijinal Garanti"
+        "Mağazadan Teslim"
       ],
       "sellerRating": 4.9,
       "sellerReviews": 5600,
       "url": "https://www.vatanbilgisayar.com/arama/Tecno%20Pova%20Curve%202%205G/"
     },
     {
-      "id": "st-mm-tecno-pova2",
+      "id": "st-mm-tecno-pova-curve-2-5g",
       "storeName": "MediaMarkt",
       "storeLogoColor": "bg-rose-600",
-      "price": 19599,
+      "price": 19569,
       "inStock": true,
       "shippingDays": 2,
       "badges": [
-        "Kulüp Avantajı"
+        "Orijinal Kutu"
       ],
       "sellerRating": 4.6,
       "sellerReviews": 3300,
-      "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Tecno+Pova+Curve+2+5G"
+      "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Tecno%20Pova%20Curve%202%205G"
     }
   ],
   "priceHistory": [
     {
       "date": "2025-10",
-      "price": 20499,
+      "price": 20519,
       "store": "Hepsiburada"
     },
     {
       "date": "2025-11",
-      "price": 19999,
+      "price": 19949,
       "store": "Hepsiburada"
     },
     {
       "date": "2025-12",
-      "price": 19499,
+      "price": 19569,
       "store": "Hepsiburada"
     },
     {
       "date": "2026-01",
-      "price": 19199,
+      "price": 19379,
       "store": "Hepsiburada"
     },
     {

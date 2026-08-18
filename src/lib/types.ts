@@ -31,6 +31,7 @@ export interface BaseProduct {
   tags?: string[];
   storeOffers: StoreOffer[];
   priceHistory: PriceHistoryPoint[];
+  colorOptions?: { name: string; hex: string }[];
 }
 
 export interface ApplianceSpecs {
