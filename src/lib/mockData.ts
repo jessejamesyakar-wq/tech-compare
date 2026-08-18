@@ -62269,7 +62269,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "5650 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/honor-honor-magic7-76.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hn-75",
@@ -62406,7 +62406,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "MagicOS 8.0 (Android 14)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg"
+    ]
   },
   {
     "id": "honor-honor-magic7-pro-77",
@@ -62427,7 +62430,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "5850 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/honor-honor-magic7-pro-77.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hn-76",
@@ -62564,7 +62567,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "MagicOS 8.0 (Android 14)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg"
+    ]
   },
   {
     "id": "honor-honor-magic7-rsr-porsche-design-78",
@@ -62585,7 +62591,7 @@ export const mockSmartphones: Smartphone[] = [
       "24 GB RAM & 1024 GB Depolama",
       "5850 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/honor-honor-magic7-rsr-porsche-design-78.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hn-77",
@@ -62722,7 +62728,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "MagicOS 8.0 (Android 14)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg"
+    ]
   },
   {
     "id": "honor-honor-400-79",
@@ -62743,7 +62752,7 @@ export const mockSmartphones: Smartphone[] = [
       "12 GB RAM & 512 GB Depolama",
       "5500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/honor-honor-400-79.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hn-78",
@@ -62880,7 +62889,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "MagicOS 8.0 (Android 14)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg"
+    ]
   },
   {
     "id": "honor-honor-400-pro-80",
@@ -62901,7 +62913,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "5600 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/honor-honor-400-pro-80.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hn-79",
@@ -63038,7 +63050,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "MagicOS 8.0 (Android 14)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg"
+    ]
   },
   {
     "id": "honor-honor-400-lite-81",
@@ -63059,7 +63074,7 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 256 GB Depolama",
       "5000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/honor-honor-400-lite-81.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hn-80",
@@ -63196,7 +63211,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "MagicOS 8.0 (Android 14)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg"
+    ]
   },
   {
     "id": "honor-honor-magic-v5-82",
@@ -63217,7 +63235,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "5300 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/honor-honor-magic-v5-82.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hn-81",
@@ -63354,7 +63372,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "MagicOS 8.0 (Android 14)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg"
+    ]
   },
   {
     "id": "honor-honor-win-83",
@@ -63375,7 +63396,7 @@ export const mockSmartphones: Smartphone[] = [
       "12 GB RAM & 256 GB Depolama",
       "6000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/honor-honor-win-83.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hn-82",
@@ -63512,7 +63533,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "MagicOS 8.0 (Android 14)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg"
+    ]
   },
   {
     "id": "honor-honor-magic8-84",
@@ -63533,7 +63557,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "6000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/honor-honor-magic8-84.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hn-83",
@@ -63670,7 +63694,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "MagicOS 10.0 (Android 16)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg"
+    ]
   },
   {
     "id": "honor-honor-magic8-pro-85",
@@ -63691,7 +63718,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "6200 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/honor-honor-magic8-pro-85.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hn-84",
@@ -63828,7 +63855,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "MagicOS 10.0 (Android 16)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg"
+    ]
   },
   {
     "id": "honor-honor-magic8-lite-86",
@@ -63849,7 +63879,7 @@ export const mockSmartphones: Smartphone[] = [
       "12 GB RAM & 256 GB Depolama",
       "6000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/honor-honor-magic8-lite-86.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hn-85",
@@ -63986,7 +64016,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "MagicOS 10.0 (Android 16)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg"
+    ]
   },
   {
     "id": "honor-honor-magic-v6-87",
@@ -64007,7 +64040,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "5500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/honor-honor-magic-v6-87.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hn-86",
@@ -64144,7 +64177,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "MagicOS 10.0 (Android 16)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg"
+    ]
   },
   {
     "id": "honor-honor-600-88",
@@ -64165,7 +64201,7 @@ export const mockSmartphones: Smartphone[] = [
       "12 GB RAM & 512 GB Depolama",
       "5800 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/honor-honor-600-88.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hn-87",
@@ -64302,7 +64338,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "MagicOS 10.0 (Android 16)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg"
+    ]
   },
   {
     "id": "honor-honor-600-pro-89",
@@ -64323,7 +64362,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "6000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/honor-honor-600-pro-89.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hn-88",
@@ -64460,7 +64499,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "MagicOS 10.0 (Android 16)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg"
+    ]
   },
   {
     "id": "honor-honor-600-lite-90",
@@ -64481,7 +64523,7 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 256 GB Depolama",
       "5500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/honor-honor-600-lite-90.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hn-89",
@@ -64618,7 +64660,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "MagicOS 10.0 (Android 16)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg"
+    ]
   },
   {
     "id": "honor-honor-win-win-turbo-91",
@@ -64639,7 +64684,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "6500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/honor-honor-win-win-turbo-91.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hn-90",
@@ -64776,7 +64821,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "MagicOS 10.0 (Android 16)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg"
+    ]
   },
   {
     "id": "tcl-tcl-60-45",
@@ -64797,7 +64845,7 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 256 GB Depolama",
       "5000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/tcl-tcl-60-45.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg",
     "storeOffers": [
       {
         "id": "st-hb-tcl-44",
@@ -64934,7 +64982,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "TCL UI 6.0 (Android 14)",
         "updateYears": 3
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg"
+    ]
   },
   {
     "id": "tcl-tcl-60-5g-46",
@@ -64955,7 +65006,7 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 256 GB Depolama",
       "5000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/tcl-tcl-60-5g-46.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg",
     "storeOffers": [
       {
         "id": "st-hb-tcl-45",
@@ -65092,7 +65143,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "TCL UI 6.0 (Android 14)",
         "updateYears": 3
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg"
+    ]
   },
   {
     "id": "tcl-tcl-60-nxtpaper-4g-47",
@@ -65113,7 +65167,7 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 256 GB Depolama",
       "5010 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/tcl-tcl-60-nxtpaper-4g-47.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg",
     "storeOffers": [
       {
         "id": "st-hb-tcl-46",
@@ -65250,7 +65304,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "TCL UI 6.0 (Android 14)",
         "updateYears": 3
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg"
+    ]
   },
   {
     "id": "tcl-tcl-60-se-nxtpaper-5g-48",
@@ -65271,7 +65328,7 @@ export const mockSmartphones: Smartphone[] = [
       "12 GB RAM & 512 GB Depolama",
       "5500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/tcl-tcl-60-se-nxtpaper-5g-48.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg",
     "storeOffers": [
       {
         "id": "st-hb-tcl-47",
@@ -65408,7 +65465,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "TCL UI 6.0 (Android 14)",
         "updateYears": 3
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg"
+    ]
   },
   {
     "id": "tcl-tcl-60-xe-nxtpaper-49",
@@ -65429,7 +65489,7 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 256 GB Depolama",
       "5000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/tcl-tcl-60-xe-nxtpaper-49.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg",
     "storeOffers": [
       {
         "id": "st-hb-tcl-48",
@@ -65566,7 +65626,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "TCL UI 6.0 (Android 14)",
         "updateYears": 3
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg"
+    ]
   },
   {
     "id": "tcl-tcl-605-50",
@@ -65587,7 +65650,7 @@ export const mockSmartphones: Smartphone[] = [
       "6 GB RAM & 128 GB Depolama",
       "5000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/tcl-tcl-605-50.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg",
     "storeOffers": [
       {
         "id": "st-hb-tcl-49",
@@ -65724,7 +65787,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "TCL UI 6.0 (Android 14)",
         "updateYears": 3
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg"
+    ]
   },
   {
     "id": "tcl-tcl-nxtpaper-70-pro-51",
@@ -65745,7 +65811,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "5800 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/tcl-tcl-nxtpaper-70-pro-51.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg",
     "storeOffers": [
       {
         "id": "st-hb-tcl-50",
@@ -65882,7 +65948,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "TCL UI 8.0 (Android 16)",
         "updateYears": 3
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg"
+    ]
   },
   {
     "id": "tcl-tcl-k70-5g-52",
@@ -65903,7 +65972,7 @@ export const mockSmartphones: Smartphone[] = [
       "12 GB RAM & 256 GB Depolama",
       "5500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/tcl-tcl-k70-5g-52.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg",
     "storeOffers": [
       {
         "id": "st-hb-tcl-51",
@@ -66040,7 +66109,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "TCL UI 8.0 (Android 16)",
         "updateYears": 3
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg"
+    ]
   },
   {
     "id": "tcl-tcl-k70-se-5g-53",
@@ -66061,7 +66133,7 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 256 GB Depolama",
       "5000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/tcl-tcl-k70-se-5g-53.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg",
     "storeOffers": [
       {
         "id": "st-hb-tcl-52",
@@ -66198,7 +66270,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "TCL UI 8.0 (Android 16)",
         "updateYears": 3
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg"
+    ]
   },
   {
     "id": "tcl-tcl-k70-power-54",
@@ -66219,7 +66294,7 @@ export const mockSmartphones: Smartphone[] = [
       "12 GB RAM & 256 GB Depolama",
       "7000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/tcl-tcl-k70-power-54.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg",
     "storeOffers": [
       {
         "id": "st-hb-tcl-53",
@@ -66356,7 +66431,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "TCL UI 8.0 (Android 16)",
         "updateYears": 3
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg"
+    ]
   },
   {
     "id": "tcl-tcl-k70-nxtpaper-55",
@@ -66377,7 +66455,7 @@ export const mockSmartphones: Smartphone[] = [
       "12 GB RAM & 512 GB Depolama",
       "6000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/tcl-tcl-k70-nxtpaper-55.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg",
     "storeOffers": [
       {
         "id": "st-hb-tcl-54",
@@ -66514,7 +66592,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "TCL UI 8.0 (Android 16)",
         "updateYears": 3
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg"
+    ]
   },
   {
     "id": "tcl-tcl-note-a1-nxtpaper-56",
@@ -66535,7 +66616,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 1024 GB Depolama",
       "6500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/tcl-tcl-note-a1-nxtpaper-56.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg",
     "storeOffers": [
       {
         "id": "st-hb-tcl-55",
@@ -66672,7 +66753,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "TCL UI 8.0 (Android 16)",
         "updateYears": 3
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-pro-nxtpaper-5g.jpg"
+    ]
   },
   {
     "id": "huawei-huawei-mate-x7-40",
@@ -66693,7 +66777,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "5300 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/huawei-huawei-mate-x7-40.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate60-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hw-39",
@@ -66830,7 +66914,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "HarmonyOS NEXT (Saf Bağımsız OS)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate60-pro.jpg"
+    ]
   },
   {
     "id": "huawei-huawei-mate-80-41",
@@ -66851,7 +66938,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "5600 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/huawei-huawei-mate-80-41.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate60-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hw-40",
@@ -66988,7 +67075,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "HarmonyOS NEXT (Saf Bağımsız OS)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate60-pro.jpg"
+    ]
   },
   {
     "id": "huawei-huawei-mate-80-pro-42",
@@ -67009,7 +67099,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 1024 GB Depolama",
       "5800 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/huawei-huawei-mate-80-pro-42.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate60-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hw-41",
@@ -67146,7 +67236,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "HarmonyOS NEXT (Saf Bağımsız OS)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate60-pro.jpg"
+    ]
   },
   {
     "id": "huawei-huawei-pura-80-ultra-43",
@@ -67167,7 +67260,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 1024 GB Depolama",
       "5900 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/huawei-huawei-pura-80-ultra-43.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate60-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hw-42",
@@ -67304,7 +67397,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "HarmonyOS NEXT (Saf Bağımsız OS)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate60-pro.jpg"
+    ]
   },
   {
     "id": "huawei-huawei-pura-90-44",
@@ -67325,7 +67421,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "6000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/huawei-huawei-pura-90-44.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate60-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hw-43",
@@ -67462,7 +67558,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "HarmonyOS NEXT (Saf Bağımsız OS)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate60-pro.jpg"
+    ]
   },
   {
     "id": "huawei-huawei-nova-14-pro-45",
@@ -67483,7 +67582,7 @@ export const mockSmartphones: Smartphone[] = [
       "12 GB RAM & 512 GB Depolama",
       "5500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/huawei-huawei-nova-14-pro-45.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate60-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hw-44",
@@ -67620,7 +67719,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "HarmonyOS NEXT (Saf Bağımsız OS)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate60-pro.jpg"
+    ]
   },
   {
     "id": "huawei-huawei-nova-15-ultra-46",
@@ -67641,7 +67743,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "5800 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/huawei-huawei-nova-15-ultra-46.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate60-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-hw-45",
@@ -67778,7 +67880,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "HarmonyOS NEXT (Saf Bağımsız OS)",
         "updateYears": 5
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate60-pro.jpg"
+    ]
   },
   {
     "id": "nothing-nothing-phone-3-6",
@@ -67799,7 +67904,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "5200 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/nothing-nothing-phone-3-6.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-2.jpg",
     "storeOffers": [
       {
         "id": "st-hb-nth-5",
@@ -67936,7 +68041,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Nothing OS 2.6 (Android 14)",
         "updateYears": 4
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-2.jpg"
+    ]
   },
   {
     "id": "nothing-cmf-phone-2-pro-7",
@@ -67957,7 +68065,7 @@ export const mockSmartphones: Smartphone[] = [
       "12 GB RAM & 256 GB Depolama",
       "5200 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/nothing-cmf-phone-2-pro-7.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-2.jpg",
     "storeOffers": [
       {
         "id": "st-hb-nth-6",
@@ -68094,7 +68202,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Nothing OS 2.6 (Android 14)",
         "updateYears": 4
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-2.jpg"
+    ]
   },
   {
     "id": "nothing-nothing-phone-3a-8",
@@ -68115,7 +68226,7 @@ export const mockSmartphones: Smartphone[] = [
       "12 GB RAM & 256 GB Depolama",
       "5300 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/nothing-nothing-phone-3a-8.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-2.jpg",
     "storeOffers": [
       {
         "id": "st-hb-nth-7",
@@ -68252,7 +68363,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Nothing OS 3.5 (Android 16)",
         "updateYears": 4
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-2.jpg"
+    ]
   },
   {
     "id": "nothing-nothing-phone-3a-pro-9",
@@ -68273,7 +68387,7 @@ export const mockSmartphones: Smartphone[] = [
       "12 GB RAM & 512 GB Depolama",
       "5400 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/nothing-nothing-phone-3a-pro-9.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-2.jpg",
     "storeOffers": [
       {
         "id": "st-hb-nth-8",
@@ -68410,7 +68524,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Nothing OS 3.5 (Android 16)",
         "updateYears": 4
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-2.jpg"
+    ]
   },
   {
     "id": "nothing-nothing-phone-3a-lite-10",
@@ -68431,7 +68548,7 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 256 GB Depolama",
       "5000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/nothing-nothing-phone-3a-lite-10.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-2.jpg",
     "storeOffers": [
       {
         "id": "st-hb-nth-9",
@@ -68568,7 +68685,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Nothing OS 3.5 (Android 16)",
         "updateYears": 4
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-2.jpg"
+    ]
   },
   {
     "id": "nothing-nothing-phone-4a-11",
@@ -68589,7 +68709,7 @@ export const mockSmartphones: Smartphone[] = [
       "12 GB RAM & 512 GB Depolama",
       "5500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/nothing-nothing-phone-4a-11.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-2.jpg",
     "storeOffers": [
       {
         "id": "st-hb-nth-10",
@@ -68726,7 +68846,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Nothing OS 3.5 (Android 16)",
         "updateYears": 4
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-2.jpg"
+    ]
   },
   {
     "id": "nothing-nothing-phone-4a-pro-12",
@@ -68747,7 +68870,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "5600 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/nothing-nothing-phone-4a-pro-12.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-2.jpg",
     "storeOffers": [
       {
         "id": "st-hb-nth-11",
@@ -68884,7 +69007,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Nothing OS 3.5 (Android 16)",
         "updateYears": 4
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-2.jpg"
+    ]
   },
   {
     "id": "nothing-nothing-phone-4b-13",
@@ -68905,7 +69031,7 @@ export const mockSmartphones: Smartphone[] = [
       "12 GB RAM & 256 GB Depolama",
       "5100 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/nothing-nothing-phone-4b-13.jpg",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-2.jpg",
     "storeOffers": [
       {
         "id": "st-hb-nth-12",
@@ -69042,7 +69168,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Nothing OS 3.5 (Android 16)",
         "updateYears": 4
       }
-    }
+    },
+    "images": [
+      "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-2.jpg"
+    ]
   },
   {
     "id": "realme-realme-gt-7-pro-53",
@@ -69063,7 +69192,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "6500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/realme-realme-gt-7-pro-53.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-rlm-52",
@@ -69200,7 +69329,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Realme UI 5.0 (Android 14)",
         "updateYears": 4
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "realme-realme-14-pro-54",
@@ -69221,7 +69353,7 @@ export const mockSmartphones: Smartphone[] = [
       "12 GB RAM & 256 GB Depolama",
       "5500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/realme-realme-14-pro-54.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-rlm-53",
@@ -69358,7 +69490,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Realme UI 5.0 (Android 14)",
         "updateYears": 4
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "realme-realme-14-pro-55",
@@ -69379,7 +69514,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "5800 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/realme-realme-14-pro-55.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-rlm-54",
@@ -69516,7 +69651,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Realme UI 5.0 (Android 14)",
         "updateYears": 4
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "realme-realme-narzo-70-56",
@@ -69537,7 +69675,7 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 128 GB Depolama",
       "5000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/realme-realme-narzo-70-56.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-rlm-55",
@@ -69674,7 +69812,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Realme UI 5.0 (Android 14)",
         "updateYears": 4
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "realme-realme-c73-57",
@@ -69695,7 +69836,7 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 256 GB Depolama",
       "5500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/realme-realme-c73-57.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-rlm-56",
@@ -69832,7 +69973,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Realme UI 5.0 (Android 14)",
         "updateYears": 4
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "realme-realme-gt-8-pro-58",
@@ -69853,7 +69997,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "7000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/realme-realme-gt-8-pro-58.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-rlm-57",
@@ -69990,7 +70134,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Realme UI 7.0 (Android 16)",
         "updateYears": 4
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "realme-realme-16-pro-59",
@@ -70011,7 +70158,7 @@ export const mockSmartphones: Smartphone[] = [
       "12 GB RAM & 512 GB Depolama",
       "6000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/realme-realme-16-pro-59.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-rlm-58",
@@ -70148,7 +70295,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Realme UI 7.0 (Android 16)",
         "updateYears": 4
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "realme-realme-16-pro-60",
@@ -70169,7 +70319,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "6200 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/realme-realme-16-pro-60.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-rlm-59",
@@ -70306,7 +70456,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Realme UI 7.0 (Android 16)",
         "updateYears": 4
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "realme-realme-p4-power-61",
@@ -70327,7 +70480,7 @@ export const mockSmartphones: Smartphone[] = [
       "12 GB RAM & 256 GB Depolama",
       "7000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/realme-realme-p4-power-61.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-rlm-60",
@@ -70464,7 +70617,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Realme UI 7.0 (Android 16)",
         "updateYears": 4
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "realme-realme-p4-pro-62",
@@ -70485,7 +70641,7 @@ export const mockSmartphones: Smartphone[] = [
       "12 GB RAM & 512 GB Depolama",
       "6000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/realme-realme-p4-pro-62.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-rlm-61",
@@ -70622,7 +70778,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Realme UI 7.0 (Android 16)",
         "updateYears": 4
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "realme-realme-c85-63",
@@ -70643,7 +70802,7 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 256 GB Depolama",
       "6000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/realme-realme-c85-63.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-rlm-62",
@@ -70780,7 +70939,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Realme UI 7.0 (Android 16)",
         "updateYears": 4
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "sony-sony-xperia-10-vii-32",
@@ -70801,7 +70963,7 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 256 GB Depolama",
       "5200 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/sony-sony-xperia-10-vii-32.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-sny-31",
@@ -70938,7 +71100,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Android 14",
         "updateYears": 4
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "sony-sony-xperia-1-vii-33",
@@ -70959,7 +71124,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "5300 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/sony-sony-xperia-1-vii-33.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-sny-32",
@@ -71096,7 +71261,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Android 14",
         "updateYears": 4
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "sony-sony-xperia-viii-34",
@@ -71117,7 +71285,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 1024 GB Depolama",
       "5500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/sony-sony-xperia-viii-34.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-sny-33",
@@ -71254,7 +71422,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Android 16 (CinemaPro & PhotographyPro)",
         "updateYears": 4
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "google-google-pixel-9a-25",
@@ -71275,7 +71446,7 @@ export const mockSmartphones: Smartphone[] = [
       "8 GB RAM & 256 GB Depolama",
       "4800 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/google-google-pixel-9a-25.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-ggl-24",
@@ -71412,7 +71583,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Android 15 (Gemini AI)",
         "updateYears": 7
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "google-google-pixel-10-26",
@@ -71433,7 +71607,7 @@ export const mockSmartphones: Smartphone[] = [
       "12 GB RAM & 256 GB Depolama",
       "4850 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/google-google-pixel-10-26.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-ggl-25",
@@ -71570,7 +71744,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Android 15 (Gemini AI)",
         "updateYears": 7
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "google-google-pixel-10-pro-27",
@@ -71591,7 +71768,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "4900 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/google-google-pixel-10-pro-27.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-ggl-26",
@@ -71728,7 +71905,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Android 15 (Gemini AI)",
         "updateYears": 7
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "google-google-pixel-10-pro-xl-28",
@@ -71749,7 +71929,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "5300 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/google-google-pixel-10-pro-xl-28.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-ggl-27",
@@ -71886,7 +72066,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Android 15 (Gemini AI)",
         "updateYears": 7
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "google-google-pixel-10-pro-fold-29",
@@ -71907,7 +72090,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "4800 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/google-google-pixel-10-pro-fold-29.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-ggl-28",
@@ -72044,7 +72227,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Android 15 (Gemini AI)",
         "updateYears": 7
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "google-google-pixel-10a-30",
@@ -72065,7 +72251,7 @@ export const mockSmartphones: Smartphone[] = [
       "12 GB RAM & 256 GB Depolama",
       "5000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/google-google-pixel-10a-30.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-ggl-29",
@@ -72202,7 +72388,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Android 16 (Gemini Nano 2.0)",
         "updateYears": 7
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "google-google-pixel-11-31",
@@ -72223,7 +72412,7 @@ export const mockSmartphones: Smartphone[] = [
       "12 GB RAM & 512 GB Depolama",
       "5100 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/google-google-pixel-11-31.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-ggl-30",
@@ -72360,7 +72549,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Android 16 (Gemini Nano 2.0)",
         "updateYears": 7
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "google-google-pixel-11-pro-32",
@@ -72381,7 +72573,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 512 GB Depolama",
       "5200 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/google-google-pixel-11-pro-32.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-ggl-31",
@@ -72518,7 +72710,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Android 16 (Gemini Nano 2.0)",
         "updateYears": 7
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "google-google-pixel-11-pro-xl-33",
@@ -72539,7 +72734,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 1024 GB Depolama",
       "5500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/google-google-pixel-11-pro-xl-33.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-ggl-32",
@@ -72676,7 +72871,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Android 16 (Gemini Nano 2.0)",
         "updateYears": 7
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "google-google-pixel-11-pro-fold-34",
@@ -72697,7 +72895,7 @@ export const mockSmartphones: Smartphone[] = [
       "16 GB RAM & 1024 GB Depolama",
       "5000 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/google-google-pixel-11-pro-fold-34.jpg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$",
     "storeOffers": [
       {
         "id": "st-hb-ggl-33",
@@ -72834,7 +73032,10 @@ export const mockSmartphones: Smartphone[] = [
         "osName": "Android 16 (Gemini Nano 2.0)",
         "updateYears": 7
       }
-    }
+    },
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855?$216_216_PNG$"
+    ]
   },
   {
     "id": "vivo-vivo-x300-ultra",
