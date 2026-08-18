@@ -210,54 +210,6 @@ const BRAND_CONFIGS: BrandConfig[] = [
       </div>
     )
   },
-  {
-    name: 'Tecno',
-    categoryTag: 'Mobil Ekosistem',
-    isMultiCategory: false,
-    searchFilter: 'Tecno',
-    href: '/phones?brand=Tecno',
-    renderDefaultLogo: () => (
-      <span className="text-xs font-black text-[#0052CC] dark:text-blue-400 tracking-wider">
-        TECNO
-      </span>
-    )
-  },
-  {
-    name: 'General Mobile',
-    categoryTag: 'Yerli Mobil Ekosistem',
-    isMultiCategory: false,
-    searchFilter: 'General Mobile',
-    href: '/phones?brand=General Mobile',
-    renderDefaultLogo: () => (
-      <span className="text-[11px] font-black text-[#E30613] tracking-wide uppercase">
-        GENERAL MOBILE
-      </span>
-    )
-  },
-  {
-    name: 'Reeder',
-    categoryTag: 'Yerli Mobil Ekosistem',
-    isMultiCategory: false,
-    searchFilter: 'Reeder',
-    href: '/phones?brand=Reeder',
-    renderDefaultLogo: () => (
-      <span className="text-xs font-extrabold text-slate-800 dark:text-slate-200 tracking-wide">
-        reeder
-      </span>
-    )
-  },
-  {
-    name: 'Casper',
-    categoryTag: 'Yerli Mobil Ekosistem',
-    isMultiCategory: false,
-    searchFilter: 'Casper',
-    href: '/phones?brand=Casper',
-    renderDefaultLogo: () => (
-      <span className="text-xs font-black text-[#009688] tracking-widest uppercase">
-        CASPER VIA
-      </span>
-    )
-  }
 ];
 
 export function BrandLogoBar({ onSelectBrand }: { onSelectBrand?: (brand: string) => void }) {
