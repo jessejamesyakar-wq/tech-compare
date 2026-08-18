@@ -1141,9 +1141,9 @@
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/phones/xiaomi/xiaomi-17-ultra.png",
+    "image": "/images/phones/xiaomi/xiaomi-17-ultra.jpg",
     "images": [
-      "/images/phones/xiaomi/xiaomi-17-ultra.png"
+      "/images/phones/xiaomi/xiaomi-17-ultra.jpg"
     ],
     "highlights": [
       "Leica 1-inç Ultra Kamera",
@@ -3371,9 +3371,9 @@
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/phones/xiaomi/xiaomi-17-pro.png",
+    "image": "/images/phones/xiaomi/xiaomi-17-pro.jpg",
     "images": [
-      "/images/phones/xiaomi/xiaomi-17-pro.png"
+      "/images/phones/xiaomi/xiaomi-17-pro.jpg"
     ],
     "highlights": [
       "Leica Summilux",
@@ -5854,9 +5854,9 @@
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/phones/xiaomi/xiaomi-17.png",
+    "image": "/images/phones/xiaomi/xiaomi-17.jpg",
     "images": [
-      "/images/phones/xiaomi/xiaomi-17.png"
+      "/images/phones/xiaomi/xiaomi-17.jpg"
     ],
     "highlights": [
       "Kompakt Amiral Gemisi",
@@ -7221,9 +7221,9 @@
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/phones/xiaomi/xiaomi-17t-pro.png",
+    "image": "/images/phones/xiaomi/xiaomi-17t-pro.jpg",
     "images": [
-      "/images/phones/xiaomi/xiaomi-17t-pro.png"
+      "/images/phones/xiaomi/xiaomi-17t-pro.jpg"
     ],
     "highlights": [
       "7000mAh Silikon Karbon",
@@ -12132,9 +12132,9 @@
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/phones/xiaomi/xiaomi-17t.png",
+    "image": "/images/phones/xiaomi/xiaomi-17t.jpg",
     "images": [
-      "/images/phones/xiaomi/xiaomi-17t.png"
+      "/images/phones/xiaomi/xiaomi-17t.jpg"
     ],
     "highlights": [
       "Dimensity 8500-Ultra",
@@ -12370,9 +12370,9 @@
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/phones/xiaomi/poco-f8-ultra.png",
+    "image": "/images/phones/xiaomi/poco-f8-ultra.jpg",
     "images": [
-      "/images/phones/xiaomi/poco-f8-ultra.png"
+      "/images/phones/xiaomi/poco-f8-ultra.jpg"
     ],
     "highlights": [
       "Snapdragon 8 Elite Oyun Canavarı",
@@ -14450,9 +14450,9 @@
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/phones/xiaomi/redmi-note-15-pro-plus-5g.png",
+    "image": "/images/phones/xiaomi/redmi-note-15-pro-plus-5g.jpg",
     "images": [
-      "/images/phones/xiaomi/redmi-note-15-pro-plus-5g.png"
+      "/images/phones/xiaomi/redmi-note-15-pro-plus-5g.jpg"
     ],
     "highlights": [
       "Titan Sağlamlık & 120W",
@@ -15009,9 +15009,9 @@
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/phones/xiaomi/poco-x8-pro-max.png",
+    "image": "/images/phones/xiaomi/poco-x8-pro-max.jpg",
     "images": [
-      "/images/phones/xiaomi/poco-x8-pro-max.png"
+      "/images/phones/xiaomi/poco-x8-pro-max.jpg"
     ],
     "highlights": [
       "8500mAh 100W HyperCharge",
@@ -15569,9 +15569,9 @@
     "releaseYear": 2026,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/xiaomi/redmi-note-15-pro-5g.png",
+    "image": "/images/phones/xiaomi/redmi-note-15-pro-5g.jpg",
     "images": [
-      "/images/phones/xiaomi/redmi-note-15-pro-5g.png"
+      "/images/phones/xiaomi/redmi-note-15-pro-5g.jpg"
     ],
     "highlights": [
       "200 MP Üstün Netlik",
@@ -16775,7 +16775,7 @@
       "16 GB RAM & 512 GB Depolama",
       "6500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/xiaomi-xiaomi-redmi-note-15-pro-5g-79.jpg",
+    "image": "/images/phones/xiaomi/xiaomi-redmi-note-15-pro-5g.jpg",
     "storeOffers": [
       {
         "id": "st-hb-xm-78",
@@ -16914,7 +16914,7 @@
       }
     },
     "images": [
-      "/images/products/smartphones/xiaomi-xiaomi-redmi-note-15-pro-5g-79.jpg"
+      "/images/phones/xiaomi/xiaomi-redmi-note-15-pro-5g.jpg"
     ]
   },
   {
@@ -18590,9 +18590,9 @@
     "releaseYear": 2026,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/xiaomi/poco-x8-pro.png",
+    "image": "/images/phones/xiaomi/poco-x8-pro.jpg",
     "images": [
-      "/images/phones/xiaomi/poco-x8-pro.png"
+      "/images/phones/xiaomi/poco-x8-pro.jpg"
     ],
     "highlights": [
       "Dimensity 8500-Ultra",
@@ -18828,9 +18828,9 @@
     "releaseYear": 2026,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/xiaomi/redmi-note-15-pro.png",
+    "image": "/images/phones/xiaomi/redmi-note-15-pro.jpg",
     "images": [
-      "/images/phones/xiaomi/redmi-note-15-pro.png"
+      "/images/phones/xiaomi/redmi-note-15-pro.jpg"
     ],
     "highlights": [
       "6.77 inç FHD+ AMOLED",
@@ -21309,9 +21309,9 @@
     "releaseYear": 2026,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/xiaomi/redmi-15-5g.png",
+    "image": "/images/phones/xiaomi/redmi-15-5g.jpg",
     "images": [
-      "/images/phones/xiaomi/redmi-15-5g.png"
+      "/images/phones/xiaomi/redmi-15-5g.jpg"
     ],
     "highlights": [
       "7000 mAh Devasa Batarya",
@@ -21547,9 +21547,9 @@
     "releaseYear": 2026,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/xiaomi/poco-m8-pro-5g.png",
+    "image": "/images/phones/xiaomi/poco-m8-pro-5g.jpg",
     "images": [
-      "/images/phones/xiaomi/poco-m8-pro-5g.png"
+      "/images/phones/xiaomi/poco-m8-pro-5g.jpg"
     ],
     "highlights": [
       "Ultra Güç Yükselişte",
@@ -22268,9 +22268,9 @@
     "releaseYear": 2026,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/xiaomi/redmi-15c-5g.png",
+    "image": "/images/phones/xiaomi/redmi-15c-5g.jpg",
     "images": [
-      "/images/phones/xiaomi/redmi-15c-5g.png"
+      "/images/phones/xiaomi/redmi-15c-5g.jpg"
     ],
     "highlights": [
       "6000 mAh Batarya",
@@ -22983,9 +22983,9 @@
     "releaseYear": 2026,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/xiaomi/redmi-note-15.png",
+    "image": "/images/phones/xiaomi/redmi-note-15.jpg",
     "images": [
-      "/images/phones/xiaomi/redmi-note-15.png"
+      "/images/phones/xiaomi/redmi-note-15.jpg"
     ],
     "highlights": [
       "MediaTek Helio G100",
@@ -25105,7 +25105,7 @@
       "8 GB RAM & 256 GB Depolama",
       "5500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/xiaomi-xiaomi-redmi-note-15-5g-78.jpg",
+    "image": "/images/phones/xiaomi/xiaomi-redmi-note-15-5g.jpg",
     "storeOffers": [
       {
         "id": "st-hb-xm-77",
@@ -25244,7 +25244,7 @@
       }
     },
     "images": [
-      "/images/products/smartphones/xiaomi-xiaomi-redmi-note-15-5g-78.jpg"
+      "/images/phones/xiaomi/xiaomi-redmi-note-15-5g.jpg"
     ]
   },
   {
@@ -29092,7 +29092,7 @@
       "8 GB RAM & 128 GB Depolama",
       "5500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/xiaomi-xiaomi-redmi-15-5g-82.jpg",
+    "image": "/images/phones/xiaomi/xiaomi-redmi-15-5g.jpg",
     "storeOffers": [
       {
         "id": "st-hb-xm-81",
@@ -29231,7 +29231,7 @@
       }
     },
     "images": [
-      "/images/products/smartphones/xiaomi-xiaomi-redmi-15-5g-82.jpg"
+      "/images/phones/xiaomi/xiaomi-redmi-15-5g.jpg"
     ]
   },
   {
@@ -43159,7 +43159,7 @@
       "12 GB RAM & 512 GB Depolama",
       "5500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/xiaomi-xiaomi-15t-pro-67.jpg",
+    "image": "/images/phones/xiaomi/xiaomi-15t-pro.jpg",
     "storeOffers": [
       {
         "id": "st-hb-xm-66",
@@ -43298,7 +43298,7 @@
       }
     },
     "images": [
-      "/images/products/smartphones/xiaomi-xiaomi-15t-pro-67.jpg"
+      "/images/phones/xiaomi/xiaomi-15t-pro.jpg"
     ]
   },
   {
@@ -45464,7 +45464,7 @@
       "12 GB RAM & 256 GB Depolama",
       "5500 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/xiaomi-xiaomi-15t-66.jpg",
+    "image": "/images/phones/xiaomi/xiaomi-15t.jpg",
     "storeOffers": [
       {
         "id": "st-hb-xm-65",
@@ -45603,7 +45603,7 @@
       }
     },
     "images": [
-      "/images/products/smartphones/xiaomi-xiaomi-15t-66.jpg"
+      "/images/phones/xiaomi/xiaomi-15t.jpg"
     ]
   },
   {
@@ -49696,7 +49696,7 @@
       "12 GB RAM & 512 GB Depolama",
       "6200 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/xiaomi-xiaomi-redmi-note-14-pro-5g-77.jpg",
+    "image": "/images/phones/xiaomi/xiaomi-redmi-note-14-pro-5g.jpg",
     "storeOffers": [
       {
         "id": "st-hb-xm-76",
@@ -49835,7 +49835,7 @@
       }
     },
     "images": [
-      "/images/products/smartphones/xiaomi-xiaomi-redmi-note-14-pro-5g-77.jpg"
+      "/images/phones/xiaomi/xiaomi-redmi-note-14-pro-5g.jpg"
     ]
   },
   {
@@ -55091,9 +55091,9 @@
     "releaseYear": 2025,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/xiaomi/redmi-15.png",
+    "image": "/images/phones/xiaomi/redmi-15.jpg",
     "images": [
-      "/images/phones/xiaomi/redmi-15.png"
+      "/images/phones/xiaomi/redmi-15.jpg"
     ],
     "highlights": [
       "Snapdragon 685",
@@ -58615,9 +58615,9 @@
     "releaseYear": 2025,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/phones/xiaomi/redmi-15c.png",
+    "image": "/images/phones/xiaomi/redmi-15c.jpg",
     "images": [
-      "/images/phones/xiaomi/redmi-15c.png"
+      "/images/phones/xiaomi/redmi-15c.jpg"
     ],
     "highlights": [
       "Sürükleyici 6.9 inç Ekran",
@@ -67541,7 +67541,7 @@
       "8 GB RAM & 256 GB Depolama",
       "5110 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/xiaomi-xiaomi-redmi-note-14-5g-76.jpg",
+    "image": "/images/phones/xiaomi/xiaomi-redmi-note-14-5g.jpg",
     "storeOffers": [
       {
         "id": "st-hb-xm-75",
@@ -67680,7 +67680,7 @@
       }
     },
     "images": [
-      "/images/products/smartphones/xiaomi-xiaomi-redmi-note-14-5g-76.jpg"
+      "/images/phones/xiaomi/xiaomi-redmi-note-14-5g.jpg"
     ]
   },
   {
@@ -69777,7 +69777,7 @@
       "6 GB RAM & 128 GB Depolama",
       "5160 mAh Batarya Kapasitesi"
     ],
-    "image": "/images/products/smartphones/xiaomi-xiaomi-redmi-14-5g-81.jpg",
+    "image": "/images/phones/xiaomi/xiaomi-redmi-14-5g.jpg",
     "storeOffers": [
       {
         "id": "st-hb-xm-80",
@@ -69916,7 +69916,7 @@
       }
     },
     "images": [
-      "/images/products/smartphones/xiaomi-xiaomi-redmi-14-5g-81.jpg"
+      "/images/phones/xiaomi/xiaomi-redmi-14-5g.jpg"
     ]
   },
   {

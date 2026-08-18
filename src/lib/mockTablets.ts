@@ -288,9 +288,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/tablets/xiaomi/xiaomi-pad-8-pro.png",
+    "image": "/images/tablets/xiaomi/xiaomi-pad-8-pro.jpg",
     "images": [
-      "/images/tablets/xiaomi/xiaomi-pad-8-pro.png"
+      "/images/tablets/xiaomi/xiaomi-pad-8-pro.jpg"
     ],
     "highlights": [
       "3,2K 144 Hz kristal netliğinde ekran & Snapdragon 8 Gen 3",
@@ -689,9 +689,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/tablets/xiaomi/xiaomi-pad-8.png",
+    "image": "/images/tablets/xiaomi/xiaomi-pad-8.jpg",
     "images": [
-      "/images/tablets/xiaomi/xiaomi-pad-8.png"
+      "/images/tablets/xiaomi/xiaomi-pad-8.jpg"
     ],
     "highlights": [
       "Dev 9200 mAh (tipik) pil, 45 W turbo şarj",
@@ -1780,9 +1780,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2026,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/tablets/xiaomi/redmi-pad-2-9-7.png",
+    "image": "/images/tablets/xiaomi/redmi-pad-2-9-7.jpg",
     "images": [
-      "/images/tablets/xiaomi/redmi-pad-2-9-7.png"
+      "/images/tablets/xiaomi/redmi-pad-2-9-7.jpg"
     ],
     "highlights": [
       "Snapdragon® 6s 4G Gen 2 Mobil Platformu",
@@ -3481,9 +3481,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/tablets/xiaomi/xiaomi-pad-7-pro.png",
+    "image": "/images/tablets/xiaomi/xiaomi-pad-7-pro.jpg",
     "images": [
-      "/images/tablets/xiaomi/xiaomi-pad-7-pro.png"
+      "/images/tablets/xiaomi/xiaomi-pad-7-pro.jpg"
     ],
     "highlights": [
       "3.2K 144 Hz kristal netliğinde ekran",
@@ -4678,9 +4678,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2025,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/tablets/xiaomi/xiaomi-pad-mini.png",
+    "image": "/images/tablets/xiaomi/xiaomi-pad-mini.jpg",
     "images": [
-      "/images/tablets/xiaomi/xiaomi-pad-mini.png"
+      "/images/tablets/xiaomi/xiaomi-pad-mini.jpg"
     ],
     "highlights": [
       "Küçük, akıllı, tam donanımlı kompakt tablet",
@@ -5170,9 +5170,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2025,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/tablets/xiaomi/xiaomi-pad-7.png",
+    "image": "/images/tablets/xiaomi/xiaomi-pad-7.jpg",
     "images": [
-      "/images/tablets/xiaomi/xiaomi-pad-7.png"
+      "/images/tablets/xiaomi/xiaomi-pad-7.jpg"
     ],
     "highlights": [
       "Etkileyici ses deneyimi için dörtlü hoparlör & Snapdragon 7+ Gen 3",
@@ -5350,9 +5350,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2025,
     "isPopular": true,
     "isFeatured": true,
-    "image": "/images/tablets/xiaomi/redmi-pad-2-pro.png",
+    "image": "/images/tablets/xiaomi/redmi-pad-2-pro.jpg",
     "images": [
-      "/images/tablets/xiaomi/redmi-pad-2-pro.png"
+      "/images/tablets/xiaomi/redmi-pad-2-pro.jpg"
     ],
     "highlights": [
       "Tam ekran, eğlence tavan & 10000 mAh Batarya",
@@ -5530,9 +5530,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2025,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/tablets/xiaomi/poco-pad-x1.png",
+    "image": "/images/tablets/xiaomi/poco-pad-x1.jpg",
     "images": [
-      "/images/tablets/xiaomi/poco-pad-x1.png"
+      "/images/tablets/xiaomi/poco-pad-x1.jpg"
     ],
     "highlights": [
       "Snapdragon® 7+ Gen 3 Mobil Platformu",
@@ -5868,9 +5868,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2025,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/tablets/xiaomi/poco-pad-m1.png",
+    "image": "/images/tablets/xiaomi/poco-pad-m1.jpg",
     "images": [
-      "/images/tablets/xiaomi/poco-pad-m1.png"
+      "/images/tablets/xiaomi/poco-pad-m1.jpg"
     ],
     "highlights": [
       "12000 mAh (tipik) devasa batarya & 33W Hızlı Şarj",
@@ -6048,9 +6048,9 @@ export const mockTablets: Product[] = [
     "releaseYear": 2025,
     "isPopular": false,
     "isFeatured": false,
-    "image": "/images/tablets/xiaomi/redmi-pad-2.png",
+    "image": "/images/tablets/xiaomi/redmi-pad-2.jpg",
     "images": [
-      "/images/tablets/xiaomi/redmi-pad-2.png"
+      "/images/tablets/xiaomi/redmi-pad-2.jpg"
     ],
     "highlights": [
       "11\" 2.5K kristal netlikte ekran",
