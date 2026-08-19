@@ -2,7 +2,16 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { getAllSmartphones, getAllTVs } from '@/lib/data';
+import {
+  getAllSmartphones,
+  getAllTVs,
+  getAllLaptops,
+  getAllAppliances,
+  getAllTablets,
+  getAllSmartwatches,
+  getAllHeadphones,
+  getAllConsoles,
+} from '@/lib/data';
 import { getStoredProducts } from '@/lib/adminData';
 import { saveBrandLogoToIDB, getAllBrandLogosFromIDB, deleteBrandLogoFromIDB } from '@/lib/idbBrandLogos';
 import { Sparkles, ArrowRight, Upload, Image as ImageIcon, RotateCcw, X, Edit3, Check, AlertCircle } from 'lucide-react';
@@ -233,19 +242,36 @@ export function BrandLogoBar({ onSelectBrand }: { onSelectBrand?: (brand: string
     // Load custom brand logos safely from IndexedDB
     getAllBrandLogosFromIDB().then(setCustomLogos).catch(console.warn);
 
-    Promise.all([getAllSmartphones(), getAllTVs()]).then(([phones, tvs]) => {
+    Promise.all([
+      getAllSmartphones(),
+      getAllTVs(),
+      getAllLaptops(),
+      getAllAppliances(),
+      getAllTablets(),
+      getAllSmartwatches(),
+      getAllHeadphones(),
+      getAllConsoles(),
+    ]).then(([phones, tvs, laptops, appliances, tablets, smartwatches, headphones, consoles]) => {
       const counts: { [b: string]: number } = {};
+      const allProducts = [
+        ...phones,
+        ...tvs,
+        ...laptops,
+        ...appliances,
+        ...tablets,
+        ...smartwatches,
+        ...headphones,
+        ...consoles,
+      ];
 
-      phones.forEach((p) => {
-        counts[p.brand] = (counts[p.brand] || 0) + 1;
-      });
-
-      tvs.forEach((t) => {
-        counts[t.brand] = (counts[t.brand] || 0) + 1;
+      allProducts.forEach((p) => {
+        if (p.brand) {
+          counts[p.brand] = (counts[p.brand] || 0) + 1;
+        }
       });
 
       setBrandCounts(counts);
-      setTotalCatalogCount(phones.length + tvs.length);
+      setTotalCatalogCount(allProducts.length);
     });
   }, []);
 
@@ -328,7 +354,7 @@ export function BrandLogoBar({ onSelectBrand }: { onSelectBrand?: (brand: string
             href="/phones"
             className="inline-flex items-center gap-2 text-xs font-black text-emerald-600 dark:text-emerald-400 hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors cursor-pointer group"
           >
-            <span>Tüm Kataloğu İncele ({totalCatalogCount > 0 ? totalCatalogCount : '1.050+'} Model)</span>
+            <span>Tüm Kataloğu İncele ({totalCatalogCount > 0 ? totalCatalogCount.toLocaleString('tr-TR') : '1.050+'} Model)</span>
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>
