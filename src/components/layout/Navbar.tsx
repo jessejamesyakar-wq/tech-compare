@@ -78,6 +78,14 @@ export function Navbar() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
+  const handleSearchSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (query.trim().length > 0) {
+      setIsFocused(false);
+      router.push(`/search?q=${encodeURIComponent(query.trim())}`);
+    }
+  };
+
   const handleSelectResult = (item: Product) => {
     setQuery('');
     setIsFocused(false);
@@ -85,14 +93,16 @@ export function Navbar() {
       router.push(`/tvs/${item.slug}`);
     } else if (item.category === 'laptops') {
       router.push(`/laptops/${item.slug}`);
+    } else if (item.category === 'appliances') {
+      router.push(`/appliances/${item.slug}`);
     } else if (item.category === 'tablets') {
-      router.push(`/tablets`);
+      router.push(`/tablets/${item.slug}`);
     } else if (item.category === 'smartwatches') {
-      router.push(`/smartwatches`);
+      router.push(`/smartwatches/${item.slug}`);
     } else if (item.category === 'headphones') {
-      router.push(`/headphones`);
+      router.push(`/headphones/${item.slug}`);
     } else if (item.category === 'consoles') {
-      router.push(`/consoles`);
+      router.push(`/consoles/${item.slug}`);
     } else {
       router.push(`/phones/${item.slug}`);
     }
@@ -108,51 +118,56 @@ export function Navbar() {
             <Logo />
           </Link>
 
-          {/* Center: Direct Inline Writing Search Bar (No Modal Overlay) */}
+          {/* Center: Direct Inline Writing Search Bar */}
           <div ref={searchContainerRef} className="flex-1 max-w-xl mx-2 sm:mx-6 lg:mx-8 relative">
-            <div
-              className={`w-full flex items-center justify-between bg-slate-100/90 dark:bg-slate-900/80 text-slate-900 dark:text-slate-100 text-xs px-4 py-2.5 rounded-full border transition-all shadow-2xs backdrop-blur-md ${
-                isFocused
-                  ? 'border-emerald-500 ring-2 ring-emerald-500/20 bg-white dark:bg-slate-900 shadow-md'
-                  : 'border-slate-200/90 dark:border-slate-800 hover:border-emerald-500/40 hover:bg-white dark:hover:bg-slate-900'
-              }`}
-            >
-              <div className="flex items-center gap-2.5 flex-1 min-w-0">
-                <Search className={`w-4 h-4 shrink-0 transition-colors ${isFocused ? 'text-emerald-600 dark:text-emerald-400' : 'text-slate-400'}`} />
-                
-                <input
-                  ref={searchInputRef}
-                  type="text"
-                  value={query}
-                  onChange={(e) => setQuery(e.target.value)}
-                  onFocus={() => setIsFocused(true)}
-                  placeholder={isFocused ? '' : 'Model, Marka veya Özellik Ara (ör. iPhone 17, 144Hz, OLED...)'}
-                  className="w-full bg-transparent text-slate-900 dark:text-white text-xs font-bold focus:outline-none placeholder:text-slate-400 dark:placeholder:text-slate-500"
-                />
-
-                {query && (
-                  <button
-                    onClick={() => {
-                      setQuery('');
-                      searchInputRef.current?.focus();
-                    }}
-                    className="p-1 rounded-full text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors shrink-0 cursor-pointer"
-                  >
-                    <X className="w-3.5 h-3.5" />
+            <form onSubmit={handleSearchSubmit}>
+              <div
+                className={`w-full flex items-center justify-between bg-slate-100/90 dark:bg-slate-900/80 text-slate-900 dark:text-slate-100 text-xs px-4 py-2.5 rounded-full border transition-all shadow-2xs backdrop-blur-md ${
+                  isFocused
+                    ? 'border-emerald-500 ring-2 ring-emerald-500/20 bg-white dark:bg-slate-900 shadow-md'
+                    : 'border-slate-200/90 dark:border-slate-800 hover:border-emerald-500/40 hover:bg-white dark:hover:bg-slate-900'
+                }`}
+              >
+                <div className="flex items-center gap-2.5 flex-1 min-w-0">
+                  <button type="submit" aria-label="Arama yap" className="cursor-pointer">
+                    <Search className={`w-4 h-4 shrink-0 transition-colors ${isFocused ? 'text-emerald-600 dark:text-emerald-400' : 'text-slate-400'}`} />
                   </button>
+                  
+                  <input
+                    ref={searchInputRef}
+                    type="text"
+                    value={query}
+                    onChange={(e) => setQuery(e.target.value)}
+                    onFocus={() => setIsFocused(true)}
+                    placeholder={isFocused ? '' : 'Model, Marka veya Özellik Ara (ör. iPhone 17, 144Hz, OLED...)'}
+                    className="w-full bg-transparent text-slate-900 dark:text-white text-xs font-bold focus:outline-none placeholder:text-slate-400 dark:placeholder:text-slate-500"
+                  />
+
+                  {query && (
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setQuery('');
+                        searchInputRef.current?.focus();
+                      }}
+                      className="p-1 rounded-full text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors shrink-0 cursor-pointer"
+                    >
+                      <X className="w-3.5 h-3.5" />
+                    </button>
+                  )}
+                </div>
+
+                {!isFocused && !query && (
+                  <div className="hidden sm:flex items-center gap-1.5 shrink-0 pl-2 pointer-events-none">
+                    <kbd className="bg-white dark:bg-slate-800 text-slate-500 dark:text-slate-400 text-[10px] px-2 py-0.5 rounded-full border border-slate-200 dark:border-slate-700 font-extrabold shadow-2xs">
+                      ⌘K / Hızlı Ara
+                    </kbd>
+                  </div>
                 )}
               </div>
+            </form>
 
-              {!isFocused && !query && (
-                <div className="hidden sm:flex items-center gap-1.5 shrink-0 pl-2 pointer-events-none">
-                  <kbd className="bg-white dark:bg-slate-800 text-slate-500 dark:text-slate-400 text-[10px] px-2 py-0.5 rounded-full border border-slate-200 dark:border-slate-700 font-extrabold shadow-2xs">
-                    ⌘K / Hızlı Ara
-                  </kbd>
-                </div>
-              )}
-            </div>
-
-            {/* Floating Instant Auto-Complete Dropdown (Under Inline Input) */}
+            {/* Floating Instant Auto-Complete Dropdown */}
             {isFocused && query.trim().length > 1 && (
               <div className="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-slate-900/95 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl p-2 z-50 animate-in fade-in zoom-in-95 backdrop-blur-xl max-h-96 overflow-y-auto">
                 {searchResults.length === 0 ? (
@@ -160,38 +175,49 @@ export function Navbar() {
                     {t.noResults}
                   </div>
                 ) : (
-                  searchResults.map((item) => (
+                  <>
+                    {searchResults.slice(0, 7).map((item) => (
+                      <div
+                        key={item.id}
+                        onClick={() => handleSelectResult(item)}
+                        className="flex items-center justify-between p-2.5 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800/80 transition-all cursor-pointer group"
+                      >
+                        <div className="flex items-center gap-3">
+                          <div className="w-10 h-10 rounded-lg bg-slate-50 dark:bg-slate-800 overflow-hidden flex items-center justify-center p-1 border border-slate-200 dark:border-slate-700">
+                            <img
+                              src={item.image}
+                              alt={item.name}
+                              className="w-full h-full object-contain group-hover:scale-105 transition-transform"
+                            />
+                          </div>
+                          <div>
+                            <h4 className="text-slate-900 dark:text-white text-xs font-black group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
+                              {item.name}
+                            </h4>
+                            <p className="text-[10px] text-slate-500 flex items-center gap-1.5 mt-0.5 font-medium">
+                              <span className="uppercase font-black text-[9px] text-emerald-600 bg-emerald-50 dark:bg-emerald-950/60 dark:text-emerald-400 px-1.5 py-0.5 rounded">{item.category}</span>
+                              <span>•</span>
+                              <span>{item.brand}</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div className="text-right">
+                          <span className="text-emerald-600 dark:text-emerald-400 text-xs font-black block">
+                            {item.basePrice.toLocaleString()} {item.currency}
+                          </span>
+                        </div>
+                      </div>
+                    ))}
+
                     <div
-                      key={item.id}
-                      onClick={() => handleSelectResult(item)}
-                      className="flex items-center justify-between p-2.5 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800/80 transition-all cursor-pointer group"
+                      onClick={(e) => handleSearchSubmit(e)}
+                      className="mt-1 pt-2 border-t border-slate-100 dark:border-slate-800 text-center"
                     >
-                      <div className="flex items-center gap-3">
-                        <div className="w-10 h-10 rounded-lg bg-slate-50 dark:bg-slate-800 overflow-hidden flex items-center justify-center p-1 border border-slate-200 dark:border-slate-700">
-                          <img
-                            src={item.image}
-                            alt={item.name}
-                            className="w-full h-full object-contain group-hover:scale-105 transition-transform"
-                          />
-                        </div>
-                        <div>
-                          <h4 className="text-slate-900 dark:text-white text-xs font-black group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
-                            {item.name}
-                          </h4>
-                          <p className="text-[10px] text-slate-500 flex items-center gap-1.5 mt-0.5 font-medium">
-                            <span className="uppercase font-black text-[9px] text-emerald-600 bg-emerald-50 dark:bg-emerald-950/60 dark:text-emerald-400 px-1.5 py-0.5 rounded">{item.category}</span>
-                            <span>•</span>
-                            <span>{item.brand}</span>
-                          </p>
-                        </div>
-                      </div>
-                      <div className="text-right">
-                        <span className="text-emerald-600 dark:text-emerald-400 text-xs font-black block">
-                          {item.basePrice.toLocaleString()} {item.currency}
-                        </span>
-                      </div>
+                      <button className="w-full py-2 bg-emerald-50 dark:bg-emerald-950/40 hover:bg-emerald-100 dark:hover:bg-emerald-900/60 text-emerald-600 dark:text-emerald-400 text-xs font-extrabold rounded-xl transition-colors flex items-center justify-center gap-1.5 cursor-pointer">
+                        <span>Tüm Sonuçları Gör ({searchResults.length} Ürün)</span>
+                      </button>
                     </div>
-                  ))
+                  </>
                 )}
               </div>
             )}

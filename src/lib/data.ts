@@ -287,13 +287,61 @@ export async function filterProducts(options: FilterOptions): Promise<Product[]>
 export async function searchProducts(query: string): Promise<Product[]> {
   const q = query.toLowerCase().trim();
   if (!q) return [];
+  
+  const tokens = q.split(/\s+/).filter(Boolean);
   const all = getStoredProducts();
-  return all.filter(
-    (p) =>
-      p.name.toLowerCase().includes(q) ||
-      p.brand.toLowerCase().includes(q) ||
-      p.highlights.some((h) => h.toLowerCase().includes(q))
-  );
+
+  const scoredResults = all.map((p) => {
+    let score = 0;
+    const nameLower = p.name.toLowerCase();
+    const brandLower = p.brand.toLowerCase();
+    const catLower = p.category.toLowerCase();
+    const slugLower = p.slug.toLowerCase();
+
+    // Direct exact name match
+    if (nameLower === q) score += 100;
+    else if (nameLower.startsWith(q)) score += 80;
+    else if (nameLower.includes(q)) score += 60;
+
+    // Check if ALL query tokens match somewhere in product properties
+    const specStr = p.specs ? JSON.stringify(p.specs).toLowerCase() : '';
+    const tagsStr = p.tags ? p.tags.join(' ').toLowerCase() : '';
+    const highlightsStr = p.highlights ? p.highlights.join(' ').toLowerCase() : '';
+
+    const allTokensMatch = tokens.every((token) => {
+      return (
+        nameLower.includes(token) ||
+        brandLower.includes(token) ||
+        catLower.includes(token) ||
+        slugLower.includes(token) ||
+        tagsStr.includes(token) ||
+        highlightsStr.includes(token) ||
+        specStr.includes(token)
+      );
+    });
+
+    if (!allTokensMatch) return { product: p, score: 0 };
+
+    // Increment score for matching individual fields
+    tokens.forEach((token) => {
+      if (nameLower.includes(token)) score += 20;
+      if (brandLower.includes(token)) score += 15;
+      if (catLower.includes(token)) score += 10;
+      if (tagsStr.includes(token)) score += 10;
+      if (specStr.includes(token)) score += 5;
+    });
+
+    // Popularity / Rating bonus
+    if (p.isPopular) score += 5;
+    if (p.rating) score += p.rating;
+
+    return { product: p, score };
+  });
+
+  return scoredResults
+    .filter((res) => res.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .map((res) => res.product);
 }
 
 export async function getAllTablets(): Promise<Product[]> {
