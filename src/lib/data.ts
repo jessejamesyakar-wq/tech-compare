@@ -296,14 +296,136 @@ export async function searchProducts(query: string): Promise<Product[]> {
   );
 }
 
-export async function searchSmartphones(query: string): Promise<Smartphone[]> {
-  const q = query.toLowerCase().trim();
-  if (!q) return [];
-  const smartphones = await getAllSmartphones();
-  return smartphones.filter(
-    (p) =>
-      p.name.toLowerCase().includes(q) ||
-      p.brand.toLowerCase().includes(q) ||
-      p.highlights.some((h) => h.toLowerCase().includes(q))
-  );
+export async function getAllTablets(): Promise<Product[]> {
+  const all = deduplicateProducts(getStoredProducts());
+  return all.filter((p) => p.category === 'tablets');
+}
+
+export async function getAllSmartwatches(): Promise<Product[]> {
+  const all = deduplicateProducts(getStoredProducts());
+  return all.filter((p) => p.category === 'smartwatches');
+}
+
+export async function getAllHeadphones(): Promise<Product[]> {
+  const all = deduplicateProducts(getStoredProducts());
+  return all.filter((p) => p.category === 'headphones');
+}
+
+export async function getAllConsoles(): Promise<Product[]> {
+  const all = deduplicateProducts(getStoredProducts());
+  return all.filter((p) => p.category === 'consoles');
+}
+
+export interface DynamicCategoryDistribution {
+  total: number;
+  items: Product[];
+  categoryBreakdown: {
+    smartphones: { count: number; ratio: number; items: Product[] };
+    tvs: { count: number; ratio: number; items: Product[] };
+    appliances: { count: number; ratio: number; items: Product[] };
+    tablets: { count: number; ratio: number; items: Product[] };
+    smartwatches: { count: number; ratio: number; items: Product[] };
+    headphones: { count: number; ratio: number; items: Product[] };
+  };
+}
+
+export async function getDynamicCategoryDistributionProducts(total: number = 20): Promise<DynamicCategoryDistribution> {
+  const phones = await getAllSmartphones();
+  const tvs = await getAllTVs();
+  const appliances = await getAllAppliances();
+  const tablets = await getAllTablets();
+  const smartwatches = await getAllSmartwatches();
+  const headphones = await getAllHeadphones();
+
+  // Helper score calculator for popularity sorting
+  const getPopularityScore = (p: Product) => {
+    let score = 0;
+    if (p.isPopular) score += 50;
+    if (p.isFeatured) score += 30;
+    score += (p.rating || 4.5) * 10;
+    score += Math.min(20, (p.reviewCount || 0) / 100);
+    return score;
+  };
+
+  const sortPopular = <T extends Product>(list: T[]): T[] => {
+    return [...list].sort((a, b) => getPopularityScore(b) - getPopularityScore(a));
+  };
+
+  // Exact Ratios Required:
+  // 40% Phones, 20% TVs, 10% Appliances, 10% Tablets, 10% Smartwatches, 10% Headphones
+  const phoneCount = Math.round(total * 0.40); // 8 for 20
+  const tvCount = Math.round(total * 0.20); // 4 for 20
+  const applianceCount = Math.round(total * 0.10); // 2 for 20
+  const tabletCount = Math.round(total * 0.10); // 2 for 20
+  const smartwatchCount = Math.round(total * 0.10); // 2 for 20
+  const headphoneCount = Math.round(total * 0.10); // 2 for 20
+
+  const topPhones = sortPopular(phones).slice(0, phoneCount);
+  const topTVs = sortPopular(tvs).slice(0, tvCount);
+  const topAppliances = sortPopular(appliances).slice(0, applianceCount);
+  const topTablets = sortPopular(tablets).slice(0, tabletCount);
+  const topSmartwatches = sortPopular(smartwatches).slice(0, smartwatchCount);
+  const topHeadphones = sortPopular(headphones).slice(0, headphoneCount);
+
+  // Fallbacks: if any list is empty, borrow from top products or provide safe defaults
+  const fallbackProduct = (cat: string, fallbackName: string): Product => ({
+    id: `fallback-${cat}`,
+    slug: `fallback-${cat}`,
+    name: fallbackName,
+    brand: 'Popüler Marka',
+    category: cat as any,
+    basePrice: 19999,
+    currency: 'TL',
+    rating: 4.8,
+    reviewCount: 500,
+    releaseYear: 2025,
+    isPopular: true,
+    image: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80',
+    highlights: ['Popüler Trend Ürün', 'Resmi Distribütör Garantili', 'Yüksek Performans'],
+    storeOffers: [],
+    priceHistory: []
+  });
+
+  const safePhones = topPhones.length > 0 ? topPhones : [fallbackProduct('smartphones', 'Samsung Galaxy S26 Ultra')];
+  const safeTVs = topTVs.length > 0 ? topTVs : [fallbackProduct('tvs', 'Samsung 65" Neo QLED 4K TV')];
+  const safeAppliances = topAppliances.length > 0 ? topAppliances : [fallbackProduct('appliances', 'Dyson Gen5detect Kablosuz Süpürge')];
+  const safeTablets = topTablets.length > 0 ? topTablets : [fallbackProduct('tablets', 'Apple iPad Pro M4 11"')];
+  const safeSmartwatches = topSmartwatches.length > 0 ? topSmartwatches : [fallbackProduct('smartwatches', 'Apple Watch Ultra 2')];
+  const safeHeadphones = topHeadphones.length > 0 ? topHeadphones : [fallbackProduct('headphones', 'Apple AirPods Pro 2 USB-C')];
+
+  // Interleave harmoniously: Phone, TV, Appliance, Phone, Tablet, Smartwatch, Phone, TV, Headphone, etc.
+  const interleaved: Product[] = [];
+  const pools = [
+    { list: [...safePhones], weight: 4 },
+    { list: [...safeTVs], weight: 2 },
+    { list: [...safeAppliances], weight: 1 },
+    { list: [...safeTablets], weight: 1 },
+    { list: [...safeSmartwatches], weight: 1 },
+    { list: [...safeHeadphones], weight: 1 }
+  ];
+
+  while (interleaved.length < total) {
+    let addedAny = false;
+    for (const pool of pools) {
+      if (pool.list.length > 0) {
+        interleaved.push(pool.list.shift()!);
+        addedAny = true;
+        if (interleaved.length >= total) break;
+      }
+    }
+    if (!addedAny) break;
+  }
+
+  return {
+    total: interleaved.length,
+    items: interleaved,
+    categoryBreakdown: {
+      smartphones: { count: safePhones.length, ratio: 0.40, items: safePhones },
+      tvs: { count: safeTVs.length, ratio: 0.20, items: safeTVs },
+      appliances: { count: safeAppliances.length, ratio: 0.10, items: safeAppliances },
+      tablets: { count: safeTablets.length, ratio: 0.10, items: safeTablets },
+      smartwatches: { count: safeSmartwatches.length, ratio: 0.10, items: safeSmartwatches },
+      headphones: { count: safeHeadphones.length, ratio: 0.10, items: safeHeadphones }
+    }
+  };
 }

@@ -20,7 +20,6 @@ import { CompactProductCard } from '@/components/catalog/CompactProductCard';
 import { CategoryBannerGrid } from '@/components/promo/CategoryBannerGrid';
 import { ProductCarousel } from '@/components/catalog/ProductCarousel';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
-import { DynamicCategoryShowcase } from '@/components/home/DynamicCategoryShowcase';
 
 const allProductsCache = getStoredProducts();
 const allMockSmartphonesCount = allProductsCache.filter((p) => p.category === 'smartphones').length;
@@ -247,11 +246,11 @@ export default function HomePage() {
   const mixedDiscountGrid = getMixedDiscountedProducts();
   const bestSellerCarouselList = getBestSellerCarouselProducts();
 
-  const currentProducts = getFilteredSubList().slice(0, 16);
+  const currentProducts = getFilteredSubList();
   const currentTVs = getFilteredTVs();
   const firstRowProducts = currentProducts.slice(0, 4);
   const secondRowProducts = currentProducts.slice(4, 8);
-  const remainingProducts = currentProducts.slice(8, 16);
+  const remainingProducts = currentProducts.slice(8);
 
   const dynamicHeroSlides = getDynamicHeroSlides();
   const heroThumbnails = dynamicHeroSlides.map((slide) => ({
@@ -273,8 +272,157 @@ export default function HomePage() {
       {/* 3. Sub-Hero Horizontal Thumbnail Strip */}
       <HeroThumbnailStrip items={heroThumbnails} activeIndex={heroIndex} onSelect={setHeroIndex} />
 
-      {/* 5. Dynamic Category Distribution Showcase (%40 Telefon, %20 TV, %10 Ev Aletleri, %10 Tablet, %10 Saat, %10 Kulaklık) */}
-      <DynamicCategoryShowcase />
+      {/* 5. Featured Products Grid (Vatan Style Layout) */}
+      <section className="space-y-6 pt-2">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-200/80 pb-3">
+          <div>
+            <h2 className="text-slate-900 text-xl sm:text-2xl font-black tracking-tight flex items-center gap-2">
+              <Sparkles className="w-5 h-5 text-emerald-600" />
+              <span>Öne Çıkan Ürünler</span>
+            </h2>
+            <p className="text-xs text-slate-500 font-medium mt-0.5">8 mağaza canlı fiyat takibi ve %100 tarafsız puanlamalar</p>
+          </div>
+
+          <div className="flex items-center gap-3">
+            {/* Filter Tabs */}
+            <div className="flex items-center gap-1.5 bg-slate-100 p-1.5 rounded-2xl border border-slate-200 overflow-x-auto">
+            <button
+              onClick={() => setActiveTab('2026')}
+              className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
+                activeTab === '2026'
+                  ? 'bg-gradient-to-r from-emerald-600 to-teal-600 text-white shadow-md font-extrabold ring-1 ring-emerald-400'
+                  : 'text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'
+              }`}
+            >
+              <Flame className="w-3.5 h-3.5 text-amber-300 animate-pulse" />
+              <span>🔥 2026 Yeni Nesil Seriler</span>
+            </button>
+
+            <button
+              onClick={() => setActiveTab('all')}
+              className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                activeTab === 'all'
+                  ? 'bg-emerald-600 text-white shadow-xs font-extrabold'
+                  : 'text-slate-600 hover:text-slate-900'
+              }`}
+            >
+              Tüm Modeller
+            </button>
+            <button
+              onClick={() => setActiveTab('flagship')}
+              className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-1 ${
+                activeTab === 'flagship'
+                  ? 'bg-emerald-600 text-white shadow-xs font-extrabold'
+                  : 'text-slate-600 hover:text-slate-900'
+              }`}
+            >
+              <Crown className="w-3.5 h-3.5" /> Amiral Gemisi
+            </button>
+            <button
+              onClick={() => setActiveTab('camera')}
+              className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-1 ${
+                activeTab === 'camera'
+                  ? 'bg-emerald-600 text-white shadow-xs font-extrabold'
+                  : 'text-slate-600 hover:text-slate-900'
+              }`}
+            >
+              <Camera className="w-3.5 h-3.5" /> Kamera Kralları
+            </button>
+            <button
+              onClick={() => setActiveTab('value')}
+              className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-1 ${
+                activeTab === 'value'
+                  ? 'bg-emerald-600 text-white shadow-xs font-extrabold'
+                  : 'text-slate-600 hover:text-slate-900'
+              }`}
+            >
+              <Award className="w-3.5 h-3.5" /> Fiyat/Performans
+            </button>
+          </div>
+        </div>
+      </div>
+
+        {/* First Row of Products (4 Cards) */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {firstRowProducts.map((phone, idx) => (
+            <PhoneCard key={phone.id} phone={phone} index={idx} />
+          ))}
+        </div>
+
+        {/* Section 4 — In-Page Product Promo Banner 1 (Internal Advertisement Placement) */}
+        <div className="bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-700 text-white p-8 rounded-3xl shadow-lg border border-emerald-500/30 flex flex-col sm:flex-row sm:items-center justify-between gap-6 my-8">
+          <div className="space-y-2">
+            <div className="inline-flex items-center gap-1.5 bg-white/20 text-white text-[11px] font-black px-3 py-1 rounded-full backdrop-blur-xs">
+              <TrendingDown className="w-3.5 h-3.5" />
+              <span>FIRSAT ALARMI</span>
+            </div>
+            <h3 className="text-xl sm:text-2xl font-black tracking-tight">
+              Haftanın En Çok Fiyatı Düşen Akıllı Telefonları
+            </h3>
+            <p className="text-xs text-emerald-100 font-medium">
+              4 mağaza arasında bu hafta sonu en büyük indirim oranına ulaşan modelleri inceleyin.
+            </p>
+          </div>
+
+          <Link href="/phones?sortBy=popular">
+            <button className="bg-white hover:bg-slate-100 text-slate-900 font-black text-xs px-6 py-3.5 rounded-full shadow-md transition-all flex items-center gap-2 cursor-pointer shrink-0">
+              <span>Fiyat Düşüşlerini Gör</span>
+              <ArrowRight className="w-4 h-4 text-emerald-600" />
+            </button>
+          </Link>
+        </div>
+
+        {/* Second Row of Products (4 Cards) */}
+        {secondRowProducts.length > 0 && (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {secondRowProducts.map((phone, idx) => (
+              <PhoneCard key={phone.id} phone={phone} index={idx + 4} />
+            ))}
+          </div>
+        )}
+
+        {/* Section 4 — In-Page Product Promo Banner 2 */}
+        <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-indigo-950 text-white p-8 rounded-3xl shadow-lg border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-6 my-8">
+          <div className="space-y-2">
+            <div className="inline-flex items-center gap-1.5 bg-indigo-500/20 text-indigo-300 text-[11px] font-black px-3 py-1 rounded-full border border-indigo-500/30">
+              <Award className="w-3.5 h-3.5 text-indigo-400" />
+              <span>FİYAT / PERFORMANS KRALLARI</span>
+            </div>
+            <h3 className="text-xl sm:text-2xl font-black tracking-tight">
+              35.000 TL Altı En Yüksek Puanlı Modeller
+            </h3>
+            <p className="text-xs text-slate-300 font-medium">
+              Bütçenizi en verimli şekilde kullanabileceğiniz test şampiyonu telefonlar.
+            </p>
+          </div>
+
+          <Link href="/phones?maxPrice=35000">
+            <button className="bg-emerald-600 hover:bg-emerald-500 text-white font-black text-xs px-6 py-3.5 rounded-full shadow-md transition-all flex items-center gap-2 cursor-pointer shrink-0">
+              <span>Modelleri İncele</span>
+              <ArrowRight className="w-4 h-4" />
+            </button>
+          </Link>
+        </div>
+
+        {/* Remaining Products */}
+        {remainingProducts.length > 0 && (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {remainingProducts.map((phone, idx) => (
+              <PhoneCard key={phone.id} phone={phone} index={idx + 8} />
+            ))}
+          </div>
+        )}
+
+        <div className="text-center pt-4">
+          <Link
+            href="/phones"
+            className="inline-flex items-center gap-2 bg-white hover:bg-slate-50 text-slate-900 font-extrabold text-xs px-8 py-4 rounded-full border border-slate-200 shadow-xs transition-all hover:border-emerald-400 cursor-pointer"
+          >
+            <span>Tüm Akıllı Telefon Kataloğunu İncele ({allPhones.length} Ürün)</span>
+            <ArrowRight className="w-4 h-4 text-emerald-600" />
+          </Link>
+        </div>
+      </section>
 
       {/* 📺 NEW SECTION: Top Rated TVs Showcase (100-Point Score Ranked - Premium Light Glassmorphism Edition) */}
       <section className="space-y-8 bg-gradient-to-br from-white via-emerald-50/30 to-white text-slate-900 p-6 sm:p-8 rounded-3xl border border-slate-200 shadow-xl relative overflow-hidden">
