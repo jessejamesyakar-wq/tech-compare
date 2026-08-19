@@ -394,11 +394,11 @@ export default function HomePage() {
 
                 <div>
                   {/* Image Stage */}
-                  <div className="w-full h-40 bg-slate-50 rounded-xl p-2 flex items-center justify-center border border-slate-100 relative mb-3 overflow-hidden group-hover:border-slate-200 transition-colors">
+                  <div className="w-full h-44 sm:h-48 bg-slate-50 rounded-xl p-3 sm:p-4 flex items-center justify-center border border-slate-100 relative mb-3 overflow-hidden group-hover:border-slate-200 transition-colors">
                     <img
                       src={tv.image}
                       alt={tv.name}
-                      className="h-full w-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-500"
+                      className="max-h-full max-w-full w-auto h-auto object-contain transition-transform duration-300 group-hover:scale-105 drop-shadow-xs"
                     />
 
                     <span className="absolute top-2 left-2 bg-slate-900/90 backdrop-blur-md text-white text-[9px] font-black px-2 py-0.5 rounded-full uppercase tracking-wider shadow-md">

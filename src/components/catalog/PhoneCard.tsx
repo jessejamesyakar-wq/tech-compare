@@ -146,12 +146,12 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
       <div>
         {/* Vatan Bilgisayar Ürün Görseli Ölçeği (Height: 180px, Object-Fit: Contain, Margin-Bottom: 10px) */}
         <Link href={`/phones/${phone.slug}`} className="block relative mb-2.5">
-          <div className="w-full h-[180px] rounded-lg bg-slate-50/80 border border-slate-100 p-2 flex items-center justify-center overflow-hidden relative group-hover:bg-slate-50 transition-all">
+          <div className="w-full h-44 sm:h-48 rounded-xl bg-slate-50/80 border border-slate-100 p-3 sm:p-4 flex items-center justify-center overflow-hidden relative group-hover:bg-slate-50 transition-all">
             <img
               src={phone.image || 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80'}
               alt={phone.name}
               loading="lazy"
-              className="w-full h-[180px] object-contain mb-[10px] group-hover:scale-105 transition-transform duration-200 ease-out drop-shadow-xs"
+              className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-200 ease-out drop-shadow-xs"
             />
 
             {/* Circular Score Badge Overlay */}

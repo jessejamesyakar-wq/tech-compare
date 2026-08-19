@@ -76,13 +76,13 @@ export function LaptopMediaMarktCard({ laptop, index = 0 }: LaptopMediaMarktCard
           </div>
         </div>
 
-        {/* Product Image Stage - Full Frame Gray & Larger Product Image */}
-        <Link href={`/laptops/${laptop.slug}`} className="w-full h-52 sm:h-56 bg-slate-100/90 rounded-2xl p-3 flex items-center justify-center relative overflow-hidden border border-slate-200/80 group-hover:bg-slate-100 group-hover:border-emerald-400 transition-all">
+        {/* Product Image Stage */}
+        <Link href={`/laptops/${laptop.slug}`} className="w-full h-44 sm:h-48 bg-slate-50 rounded-2xl p-3 sm:p-4 flex items-center justify-center relative overflow-hidden border border-slate-200/80 group-hover:bg-slate-100/80 group-hover:border-emerald-400 transition-all">
           <img
             src={laptop.image}
             alt={laptop.name}
             loading="lazy"
-            className="h-44 sm:h-48 w-auto max-w-[190px] object-contain group-hover:scale-108 transition-transform duration-300 ease-out drop-shadow-sm"
+            className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300 ease-out drop-shadow-xs"
           />
         </Link>
 

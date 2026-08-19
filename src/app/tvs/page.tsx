@@ -388,11 +388,11 @@ export default function TVCatalogPage() {
               >
                 <div>
                   {/* TV Image Stage */}
-                  <div className="w-full h-48 bg-slate-50 rounded-2xl p-4 flex items-center justify-center border border-slate-200 relative mb-4 overflow-hidden">
+                  <div className="w-full h-44 sm:h-48 bg-slate-50 rounded-2xl p-3 sm:p-4 flex items-center justify-center border border-slate-200 relative mb-4 overflow-hidden">
                     <img
                       src={tv.image}
                       alt={tv.name}
-                      className="h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                      className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300 drop-shadow-xs"
                     />
                     {(() => {
                       const nameInchMatch = tv.name.match(/\b(\d+(?:\.\d+)?)"/);

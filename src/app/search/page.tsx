@@ -238,12 +238,12 @@ function SearchContent() {
                 )}
 
                 <Link href={getProductHref(product)} className="flex flex-col items-center text-center w-full">
-                  {/* Product Image */}
-                  <div className="w-full h-32 bg-slate-50 rounded-xl p-2 flex items-center justify-center overflow-hidden mb-2.5 border border-slate-100 group-hover:bg-slate-100/70 transition-colors">
+                  {/* Product Image Stage */}
+                  <div className="w-full h-44 sm:h-48 bg-slate-50 rounded-xl p-3 sm:p-4 flex items-center justify-center overflow-hidden mb-2.5 border border-slate-100 group-hover:bg-slate-100/70 transition-colors">
                     <img
                       src={product.image}
                       alt={product.name}
-                      className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
+                      className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300 drop-shadow-xs"
                     />
                   </div>
 

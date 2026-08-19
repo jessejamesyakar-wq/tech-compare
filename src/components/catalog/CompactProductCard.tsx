@@ -64,14 +64,14 @@ export function CompactProductCard({
         </div>
       )}
 
-      {/* Product Image Box - Full Frame Gray & Larger Product Image */}
+      {/* Product Image Box */}
       <Link href={href} className="block relative my-1">
-        <div className="w-full h-40 sm:h-48 bg-slate-100/90 rounded-xl p-2.5 flex items-center justify-center overflow-hidden border border-slate-200/80 group-hover:bg-slate-100 group-hover:border-emerald-400 transition-all">
+        <div className="w-full h-44 sm:h-48 bg-slate-50 rounded-xl p-3 sm:p-4 flex items-center justify-center overflow-hidden border border-slate-200/80 group-hover:bg-slate-100/80 group-hover:border-emerald-400 transition-all">
           <img
             src={product.image}
             alt={product.name}
             loading="lazy"
-            className="h-32 sm:h-40 w-auto max-w-[150px] object-contain group-hover:scale-108 transition-transform duration-300 ease-out drop-shadow-sm"
+            className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300 ease-out drop-shadow-xs"
           />
         </div>
       </Link>

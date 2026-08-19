@@ -267,12 +267,12 @@ export function DynamicCategoryShowcase() {
                 <div>
                   {/* Product Image Stage */}
                   <Link href={href} className="block relative my-2">
-                    <div className="w-full h-44 sm:h-48 rounded-xl bg-slate-50 border border-slate-100 p-2.5 flex items-center justify-center overflow-hidden relative group-hover:bg-slate-100/80 transition-all">
+                    <div className="w-full h-44 sm:h-48 rounded-xl bg-slate-50 border border-slate-100 p-3 sm:p-4 flex items-center justify-center overflow-hidden relative group-hover:bg-slate-100/80 transition-all">
                       <img
                         src={product.image || 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80'}
                         alt={product.name}
                         loading="lazy"
-                        className="h-36 sm:h-40 w-auto max-w-[170px] object-contain group-hover:scale-105 transition-transform duration-300 drop-shadow-xs"
+                        className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300 drop-shadow-xs"
                       />
 
                       <span className="absolute bottom-2 left-2 bg-slate-900/90 backdrop-blur-md text-white text-[9px] font-black px-2 py-0.5 rounded-md flex items-center gap-1 shadow-md">
