@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { useI18n } from '@/lib/i18n/context';
 import { useCompare } from '@/context/CompareContext';
-import { getFeaturedSmartphones, getPopularComparisonsData, getAllSmartphones, getAllTVs } from '@/lib/data';
+import { getFeaturedSmartphones, getPopularComparisonsData, getAllSmartphones, getAllTVs, getAllProducts } from '@/lib/data';
 import { getStoredProducts } from '@/lib/adminData';
 import { popularComparisonsList } from '@/lib/mockData';
 import { Smartphone, TVProduct } from '@/lib/types';
@@ -152,6 +152,7 @@ export default function HomePage() {
 
   const [allPhones, setAllPhones] = useState<Smartphone[]>([]);
   const [allTVs, setAllTVs] = useState<TVProduct[]>([]);
+  const [totalCatalogCount, setTotalCatalogCount] = useState<number>(0);
   const [popularComparisons, setPopularComparisons] = useState<typeof popularComparisonsList>([]);
 
   const [activeTab, setActiveTab] = useState<string>('2026');
@@ -162,10 +163,12 @@ export default function HomePage() {
     async function loadData() {
       const phones = await getAllSmartphones();
       const tvs = await getAllTVs();
+      const products = await getAllProducts();
       const popComp = await getPopularComparisonsData();
 
       setAllPhones(phones);
       setAllTVs(tvs);
+      setTotalCatalogCount(products.length);
       setPopularComparisons(popComp);
     }
     loadData();
@@ -472,7 +475,7 @@ export default function HomePage() {
             href="/tvs"
             className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-black text-xs px-8 py-3.5 rounded-full shadow-lg transition-all cursor-pointer"
           >
-            <span>Tüm Televizyon Kataloğunu İncele ({allTVs.length} Ürün)</span>
+            <span>Tüm Televizyon Kataloğunu İncele ({allTVs.length > 0 ? allTVs.length.toLocaleString('tr-TR') : '120+'} Ürün)</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
@@ -517,7 +520,7 @@ export default function HomePage() {
             href="/phones"
             className="inline-flex items-center gap-2 bg-white hover:bg-slate-50 text-slate-900 font-extrabold text-xs px-8 py-3.5 rounded-full border border-slate-200 shadow-xs transition-all hover:border-emerald-500 cursor-pointer"
           >
-            <span>Tüm Fırsat Kataloğunu İncele ({(allPhones.length + allTVs.length).toLocaleString()} Ürün)</span>
+            <span>Tüm Fırsat Kataloğunu İncele ({totalCatalogCount > 0 ? totalCatalogCount.toLocaleString('tr-TR') : '1.050+'} Ürün)</span>
             <ArrowRight className="w-4 h-4 text-emerald-600" />
           </Link>
         </div>
