@@ -196,14 +196,21 @@ function PhoneCatalogContent() {
                 ))}
               </div>
 
-              {/* Load More Button for 60fps Performance */}
+              {/* Load More & Load All Buttons */}
               {visibleCount < phones.length && (
-                <div className="pt-4 text-center">
+                <div className="pt-4 flex flex-wrap items-center justify-center gap-3 text-center">
                   <button
                     onClick={() => setVisibleCount((prev) => prev + 24)}
-                    className="bg-slate-900 hover:bg-emerald-600 text-white font-black text-xs px-8 py-4 rounded-2xl transition-all duration-200 shadow-md hover:shadow-lg cursor-pointer inline-flex items-center gap-2"
+                    className="bg-slate-900 hover:bg-emerald-600 text-white font-black text-xs px-6 py-3.5 rounded-2xl transition-all duration-200 shadow-md hover:shadow-lg cursor-pointer inline-flex items-center gap-2"
                   >
-                    <span>Daha Fazla Telefon Göster ({displayedPhones.length} / {phones.length})</span>
+                    <span>Daha Fazla Göster ({displayedPhones.length} / {phones.length})</span>
+                  </button>
+
+                  <button
+                    onClick={() => setVisibleCount(phones.length)}
+                    className="bg-slate-100 hover:bg-slate-200 text-slate-800 font-extrabold text-xs px-6 py-3.5 rounded-2xl border border-slate-300 transition-all duration-200 shadow-xs cursor-pointer inline-flex items-center gap-2"
+                  >
+                    <span>Tümünü Göster ({phones.length} Telefon)</span>
                   </button>
                 </div>
               )}
