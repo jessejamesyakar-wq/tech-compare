@@ -25345,7 +25345,15 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/p/98p8l/id/98-1.png?t=1765963077569&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p1@2x.png",
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/it-resources/product/kv/p2@2x.png",
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p3@2x.png",
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/98-1.png",
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/1.png"
+    ]
   },
   {
     "id": "tv-tcl-85-85p8l-85-inc",
@@ -25530,7 +25538,15 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/85-1.png?t=1765963204902&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p1@2x.png",
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/it-resources/product/kv/p2@2x.png",
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p3@2x.png",
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/98-1.png",
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/1.png"
+    ]
   },
   {
     "id": "tv-tcl-75-75p8l-75-inc",
@@ -25715,7 +25731,15 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/75-1.png?t=1765963209238&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p1@2x.png",
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/it-resources/product/kv/p2@2x.png",
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p3@2x.png",
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/98-1.png",
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/1.png"
+    ]
   },
   {
     "id": "tv-tcl-65-65p8l-65-inc",
@@ -25900,7 +25924,15 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/65-1.png?t=1765963213090&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p1@2x.png",
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/it-resources/product/kv/p2@2x.png",
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p3@2x.png",
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/98-1.png",
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/1.png"
+    ]
   },
   {
     "id": "tv-tcl-55-55p8l-55-inc",
@@ -26085,7 +26117,15 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/55-1.png?t=1765963216710&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p1@2x.png",
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/it-resources/product/kv/p2@2x.png",
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p3@2x.png",
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/98-1.png",
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/1.png"
+    ]
   },
   {
     "id": "tv-tcl-85-85p7l-85-inc",
@@ -26270,7 +26310,11 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png"
+    ]
   },
   {
     "id": "tv-tcl-75-75p7l-75-inc",
@@ -26455,7 +26499,11 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png"
+    ]
   },
   {
     "id": "tv-tcl-65-65p7l-65-inc",
@@ -26640,7 +26688,11 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png"
+    ]
   },
   {
     "id": "tv-tcl-55-55p7l-55-inc",
@@ -26825,7 +26877,11 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png"
+    ]
   },
   {
     "id": "tv-tcl-50-50p7l-50-inc",
@@ -27010,7 +27066,11 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png"
+    ]
   },
   {
     "id": "tv-tcl-98-98c7l-98-inc",
@@ -27195,7 +27255,13 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/98-1.png?t=1772440044079&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/98-1.png",
+      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png",
+      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c7l/toolkits/98/card.jpg"
+    ]
   },
   {
     "id": "tv-tcl-85-85c7l-85-inc",
@@ -27380,7 +27446,13 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png?t=1772440038743&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/98-1.png",
+      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png",
+      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c7l/toolkits/98/card.jpg"
+    ]
   },
   {
     "id": "tv-tcl-75-75c7l-75-inc",
@@ -27565,7 +27637,13 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png?t=1772440038743&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/98-1.png",
+      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png",
+      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c7l/toolkits/98/card.jpg"
+    ]
   },
   {
     "id": "tv-tcl-65-65c7l-65-inc",
@@ -27750,7 +27828,13 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png?t=1772440038743&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/98-1.png",
+      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png",
+      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c7l/toolkits/98/card.jpg"
+    ]
   },
   {
     "id": "tv-tcl-98-98c8l-98-inc",
@@ -27935,7 +28019,13 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/98/1.png?t=1773125648894&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/98/1.png",
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png",
+      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c8l/toolkits/98/card.jpg"
+    ]
   },
   {
     "id": "tv-tcl-85-85c8l-85-inc",
@@ -28120,7 +28210,13 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png?t=1773125742711&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/98/1.png",
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png",
+      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c8l/toolkits/98/card.jpg"
+    ]
   },
   {
     "id": "tv-tcl-75-75c8l-75-inc",
@@ -28305,7 +28401,13 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png?t=1773125742711&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/98/1.png",
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png",
+      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c8l/toolkits/98/card.jpg"
+    ]
   },
   {
     "id": "tv-tcl-65-65c8l-65-inc",
@@ -28490,7 +28592,13 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png?t=1773125742711&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/98/1.png",
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png",
+      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c8l/toolkits/98/card.jpg"
+    ]
   },
   {
     "id": "tv-tcl-75-75q7dpro-75-inc",
@@ -28675,7 +28783,12 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png?t=1773648906095&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png",
+      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png"
+    ]
   },
   {
     "id": "tv-tcl-65-65q7dpro-65-inc",
@@ -28860,7 +28973,12 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png?t=1773648906095&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png",
+      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png"
+    ]
   },
   {
     "id": "tv-tcl-55-55q7dpro-55-inc",
@@ -29045,7 +29163,12 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png?t=1773648906095&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png",
+      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png"
+    ]
   },
   {
     "id": "tv-tcl-75-75p89k-75-inc",
@@ -29785,7 +29908,13 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/98c6k/id/1.png?t=1750760867775&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/98c6k/id/1.png",
+      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg",
+      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c6k/toolkits/product-card.png"
+    ]
   },
   {
     "id": "tv-tcl-75-75c6k-75-inc",
@@ -29970,7 +30099,13 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg?t=1737536432173&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/98c6k/id/1.png",
+      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg",
+      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c6k/toolkits/product-card.png"
+    ]
   },
   {
     "id": "tv-tcl-65-65c6k-65-inc",
@@ -30155,7 +30290,13 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg?t=1737536432173&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/98c6k/id/1.png",
+      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg",
+      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c6k/toolkits/product-card.png"
+    ]
   },
   {
     "id": "tv-tcl-55-55c6k-55-inc",
@@ -30340,7 +30481,13 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "images": [
+      "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg?t=1737536432173&w=800&webp=true&dpr=1&rendition=2400",
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/98c6k/id/1.png",
+      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg",
+      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c6k/toolkits/product-card.png"
+    ]
   },
   {
     "id": "tcl-115x955-max",
@@ -30435,7 +30582,11 @@ export const mockTVs: TVProduct[] = [
     ],
     "rating": 4.8,
     "reviewCount": 120,
-    "currency": "TL"
+    "currency": "TL",
+    "images": [
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/x/115x955/toolkits/product-card.png?t=1706147339629&w=800",
+      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/x/115x955/toolkits/product-card.png"
+    ]
   },
   {
     "id": "tcl-85c7k-qd-mini-led",
@@ -30601,6 +30752,12 @@ export const mockTVs: TVProduct[] = [
     ],
     "rating": 4.8,
     "reviewCount": 120,
-    "currency": "TL"
+    "currency": "TL",
+    "images": [
+      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/region/de/nav/quick-link-c6k.jpg?t=1767073426380&w=800",
+      "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/98c6k/id/1.png",
+      "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg",
+      "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c6k/toolkits/product-card.png"
+    ]
   }
 ];

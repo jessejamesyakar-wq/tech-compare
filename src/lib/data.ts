@@ -129,15 +129,26 @@ export async function getConsoleById(id: string): Promise<Product | undefined> {
 
 export async function getTVById(id: string): Promise<TVProduct | undefined> {
   const decoded = decodeURIComponent(id).toLowerCase().trim();
-  const all = getStoredProducts();
-  return all.find(
+  const all = getStoredProducts().filter((p) => p.category === 'tvs') as TVProduct[];
+
+  // 1. Exact match by id, slug, or name
+  const exact = all.find(
     (p) =>
-      (p.id.toLowerCase() === decoded ||
-        p.slug.toLowerCase() === decoded ||
-        p.slug.toLowerCase().replace(/_/g, '-') === decoded.replace(/_/g, '-') ||
-        p.name.toLowerCase() === decoded) &&
-      p.category === 'tvs'
-  ) as TVProduct | undefined;
+      p.id.toLowerCase() === decoded ||
+      p.slug.toLowerCase() === decoded ||
+      p.slug.toLowerCase().replace(/_/g, '-') === decoded.replace(/_/g, '-') ||
+      p.name.toLowerCase() === decoded
+  );
+  if (exact) return exact;
+
+  // 2. Fallback match for model code like '98p8l', '98c7l', '115x955', 'c8l'
+  const modelMatch = all.find(
+    (p) =>
+      p.slug.toLowerCase().includes(decoded) ||
+      p.id.toLowerCase().includes(decoded) ||
+      p.name.toLowerCase().includes(decoded)
+  );
+  return modelMatch;
 }
 
 export async function getLaptopById(id: string): Promise<LaptopProduct | undefined> {
