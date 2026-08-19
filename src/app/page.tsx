@@ -246,11 +246,11 @@ export default function HomePage() {
   const mixedDiscountGrid = getMixedDiscountedProducts();
   const bestSellerCarouselList = getBestSellerCarouselProducts();
 
-  const currentProducts = getFilteredSubList().slice(0, 20);
+  const currentProducts = getFilteredSubList().slice(0, 16);
   const currentTVs = getFilteredTVs();
   const firstRowProducts = currentProducts.slice(0, 4);
   const secondRowProducts = currentProducts.slice(4, 8);
-  const remainingProducts = currentProducts.slice(8, 20);
+  const remainingProducts = currentProducts.slice(8, 16);
 
   const dynamicHeroSlides = getDynamicHeroSlides();
   const heroThumbnails = dynamicHeroSlides.map((slide) => ({
