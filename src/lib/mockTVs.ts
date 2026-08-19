@@ -563,473 +563,449 @@ export const mockTVs: TVProduct[] = [
   },
   {
     "id": "lg-83-oled83c64la",
-    "slug": "lg-83-oled83c64la-83-inc",
-    "name": "LG OLED83C64LA OLED evo AI C6 4K 165Hz VRR Smart TV (2026)",
+    "slug": "lg-oled83c64la-83",
+    "name": "LG OLED83C64LA 83\" OLED evo C6 4K Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
-    "rating": 4.9,
-    "reviewCount": 5285,
-    "basePrice": 257399,
+    "image": "https://resim.epey.com/1062662/k_lg-oled77c64la-1.jpg",
+    "rating": 4.6,
+    "reviewCount": 1104,
+    "basePrice": 231659,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": false,
     "isFeatured": true,
     "highlights": [
-      "83\" 4K Ultra HD Ekran",
-      "webOS 26 Akıllı İşletim Sistemi",
-      "AI Sihirli Kumanda Desteği",
-      "Dolby Vision & Dolby Atmos"
+      "83\" OLED evo C6 Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "165Hz Yenileme Hızı",
+      "40W Ses Gücü",
+      "webOS 26 Akıllı İşletim Sistemi"
     ],
     "tags": [
-      "2026 Serisi",
-      "OLED evo",
-      "165Hz",
-      "webOS26"
+      "Flagship OLED",
+      "2026 Model"
     ],
     "specs": {
       "screenSizeInches": 83,
-      "displayTech": "OLED evo",
+      "displayTech": "OLED",
       "resolution": "4K Ultra HD",
       "refreshRateHz": 165,
       "smartOs": "webOS 26",
       "audioPowerWatts": 40,
       "hdrSupport": [
         "Dolby Vision",
-        "HDR10",
+        "HDR10 Pro",
         "HLG"
       ],
       "gamingFeatures": [
-        "ALLM",
-        "VRR",
+        "165Hz VRR",
+        "G-Sync",
         "FreeSync",
-        "G-Sync"
+        "ALLM",
+        "4x HDMI 2.1"
       ],
       "hdmiPorts": 4,
-      "usbPorts": 2,
-      "energyClass": "D",
-      "processorEngine": "α9 AI Processor 4K Gen7",
-      "voiceControl": "Var (AI Sihirli Kumanda)",
-      "dolbyAtmos": true,
-      "vrrSupport": true,
-      "allmSupport": true
+      "usbPorts": 3,
+      "energyClass": "F"
     },
     "storeOffers": [
       {
-        "id": "offer-lg-lg-83-oled83c64la-1",
-        "storeName": "LG Online Mağaza",
+        "id": "offer-lg-83-oled83c64la-lg",
+        "storeName": "LG Resmi Mağaza",
         "storeLogoColor": "#A50034",
-        "price": 257399,
+        "price": 231659,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Resmi Satıcı",
+          "Resmi Distribütör Garantili",
           "Ücretsiz Kurulum"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 5400,
-        "url": "https://www.lg.com/tr/tv-soundbar/lg-83-oled83c64la-83-inc/"
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
       },
       {
-        "id": "offer-lg-lg-83-oled83c64la-2",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#002B49",
-        "price": 258399,
+        "id": "offer-lg-83-oled83c64la-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 230501,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 3200,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "offer-lg-lg-83-oled83c64la-3",
-        "storeName": "Teknosa",
-        "storeLogoColor": "#FF6600",
-        "price": 258899,
-        "inStock": true,
-        "shippingDays": 2,
+        "shippingDays": 1,
         "badges": [
           "Hızlı Teslimat"
         ],
-        "sellerRating": 4.6,
-        "sellerReviews": 2900,
-        "url": "https://www.teknosa.com"
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-83-oled83c64la-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 232122,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 257399,
-        "store": "LG Online Mağaza"
+        "date": "2026-01-01",
+        "price": 243242,
+        "store": "LG Mağaza"
       },
       {
-        "date": "2026-07-01",
-        "price": 257399,
-        "store": "LG Online Mağaza"
+        "date": "2026-02-01",
+        "price": 231659,
+        "store": "LG Mağaza"
       }
     ]
   },
   {
     "id": "lg-77-oled77c64la",
-    "slug": "lg-77-oled77c64la-77-inc",
-    "name": "LG OLED77C64LA OLED evo AI C6 4K 165Hz VRR Smart TV (2026)",
+    "slug": "lg-oled77c64la-77",
+    "name": "LG OLED77C64LA 77\" OLED evo C6 4K Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
-    "rating": 4.9,
-    "reviewCount": 5285,
-    "basePrice": 199999,
+    "image": "https://resim.epey.com/1058546/k_lg-oled77c64la-1.jpg",
+    "rating": 4.5,
+    "reviewCount": 1080,
+    "basePrice": 166529,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": true,
     "highlights": [
-      "77\" 4K Ultra HD Ekran",
-      "webOS 26 Akıllı İşletim Sistemi",
-      "AI Sihirli Kumanda Desteği",
-      "Dolby Vision & Dolby Atmos"
+      "77\" OLED evo C6 Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "165Hz Yenileme Hızı",
+      "40W Ses Gücü",
+      "webOS 26 Akıllı İşletim Sistemi"
     ],
     "tags": [
-      "2026 Serisi",
-      "OLED evo",
-      "165Hz",
-      "webOS26"
+      "Flagship OLED",
+      "2026 Model"
     ],
     "specs": {
       "screenSizeInches": 77,
-      "displayTech": "OLED evo",
+      "displayTech": "OLED",
       "resolution": "4K Ultra HD",
       "refreshRateHz": 165,
       "smartOs": "webOS 26",
       "audioPowerWatts": 40,
       "hdrSupport": [
         "Dolby Vision",
-        "HDR10",
+        "HDR10 Pro",
         "HLG"
       ],
       "gamingFeatures": [
-        "ALLM",
-        "VRR",
+        "165Hz VRR",
+        "G-Sync",
         "FreeSync",
-        "G-Sync"
+        "ALLM",
+        "4x HDMI 2.1"
       ],
       "hdmiPorts": 4,
-      "usbPorts": 2,
-      "energyClass": "D",
-      "processorEngine": "α9 AI Processor 4K Gen7",
-      "voiceControl": "Var (AI Sihirli Kumanda)",
-      "dolbyAtmos": true,
-      "vrrSupport": true,
-      "allmSupport": true
+      "usbPorts": 3,
+      "energyClass": "F"
     },
     "storeOffers": [
       {
-        "id": "offer-lg-lg-77-oled77c64la-1",
-        "storeName": "LG Online Mağaza",
+        "id": "offer-lg-77-oled77c64la-lg",
+        "storeName": "LG Resmi Mağaza",
         "storeLogoColor": "#A50034",
-        "price": 199999,
+        "price": 166529,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Resmi Satıcı",
+          "Resmi Distribütör Garantili",
           "Ücretsiz Kurulum"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 5400,
-        "url": "https://www.lg.com/tr/tv-soundbar/lg-77-oled77c64la-77-inc/"
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
       },
       {
-        "id": "offer-lg-lg-77-oled77c64la-2",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#002B49",
-        "price": 200999,
+        "id": "offer-lg-77-oled77c64la-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 165696,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 3200,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "offer-lg-lg-77-oled77c64la-3",
-        "storeName": "Teknosa",
-        "storeLogoColor": "#FF6600",
-        "price": 201499,
-        "inStock": true,
-        "shippingDays": 2,
+        "shippingDays": 1,
         "badges": [
           "Hızlı Teslimat"
         ],
-        "sellerRating": 4.6,
-        "sellerReviews": 2900,
-        "url": "https://www.teknosa.com"
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-77-oled77c64la-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 166862,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 199999,
-        "store": "LG Online Mağaza"
+        "date": "2026-01-01",
+        "price": 174855,
+        "store": "LG Mağaza"
       },
       {
-        "date": "2026-07-01",
-        "price": 199999,
-        "store": "LG Online Mağaza"
+        "date": "2026-02-01",
+        "price": 166529,
+        "store": "LG Mağaza"
       }
     ]
   },
   {
     "id": "lg-65-oled65c64la",
-    "slug": "lg-65-oled65c64la-65-inc",
-    "name": "LG OLED65C64LA OLED evo AI C6 4K 165Hz VRR Smart TV (2026)",
+    "slug": "lg-oled65c64la-65",
+    "name": "LG OLED65C64LA 65\" OLED evo C6 4K Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
-    "rating": 4.9,
-    "reviewCount": 5285,
-    "basePrice": 139999,
+    "image": "https://resim.epey.com/1058549/k_lg-oled65c64la-1.jpg",
+    "rating": 4.3,
+    "reviewCount": 1044,
+    "basePrice": 111384,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": true,
     "highlights": [
-      "65\" 4K Ultra HD Ekran",
-      "webOS 26 Akıllı İşletim Sistemi",
-      "AI Sihirli Kumanda Desteği",
-      "Dolby Vision & Dolby Atmos"
+      "65\" OLED evo C6 Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "165Hz Yenileme Hızı",
+      "40W Ses Gücü",
+      "webOS 26 Akıllı İşletim Sistemi"
     ],
     "tags": [
-      "2026 Serisi",
-      "OLED evo",
-      "165Hz",
-      "webOS26"
+      "2026 Model"
     ],
     "specs": {
       "screenSizeInches": 65,
-      "displayTech": "OLED evo",
+      "displayTech": "OLED",
       "resolution": "4K Ultra HD",
       "refreshRateHz": 165,
       "smartOs": "webOS 26",
       "audioPowerWatts": 40,
       "hdrSupport": [
         "Dolby Vision",
-        "HDR10",
+        "HDR10 Pro",
         "HLG"
       ],
       "gamingFeatures": [
-        "ALLM",
-        "VRR",
+        "165Hz VRR",
+        "G-Sync",
         "FreeSync",
-        "G-Sync"
+        "ALLM",
+        "4x HDMI 2.1"
       ],
       "hdmiPorts": 4,
-      "usbPorts": 2,
-      "energyClass": "D",
-      "processorEngine": "α9 AI Processor 4K Gen7",
-      "voiceControl": "Var (AI Sihirli Kumanda)",
-      "dolbyAtmos": true,
-      "vrrSupport": true,
-      "allmSupport": true
+      "usbPorts": 3,
+      "energyClass": "F"
     },
     "storeOffers": [
       {
-        "id": "offer-lg-lg-65-oled65c64la-1",
-        "storeName": "LG Online Mağaza",
+        "id": "offer-lg-65-oled65c64la-lg",
+        "storeName": "LG Resmi Mağaza",
         "storeLogoColor": "#A50034",
-        "price": 139999,
+        "price": 111384,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Resmi Satıcı",
+          "Resmi Distribütör Garantili",
           "Ücretsiz Kurulum"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 5400,
-        "url": "https://www.lg.com/tr/tv-soundbar/lg-65-oled65c64la-65-inc/"
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
       },
       {
-        "id": "offer-lg-lg-65-oled65c64la-2",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#002B49",
-        "price": 140999,
+        "id": "offer-lg-65-oled65c64la-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 110827,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 3200,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "offer-lg-lg-65-oled65c64la-3",
-        "storeName": "Teknosa",
-        "storeLogoColor": "#FF6600",
-        "price": 141499,
-        "inStock": true,
-        "shippingDays": 2,
+        "shippingDays": 1,
         "badges": [
           "Hızlı Teslimat"
         ],
-        "sellerRating": 4.6,
-        "sellerReviews": 2900,
-        "url": "https://www.teknosa.com"
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-65-oled65c64la-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 111607,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 139999,
-        "store": "LG Online Mağaza"
+        "date": "2026-01-01",
+        "price": 116953,
+        "store": "LG Mağaza"
       },
       {
-        "date": "2026-07-01",
-        "price": 139999,
-        "store": "LG Online Mağaza"
+        "date": "2026-02-01",
+        "price": 111384,
+        "store": "LG Mağaza"
       }
     ]
   },
   {
     "id": "lg-55-oled55c64la",
-    "slug": "lg-55-oled55c64la-55-inc",
-    "name": "LG OLED55C64LA OLED evo AI C6 4K 165Hz VRR Smart TV (2026)",
+    "slug": "lg-oled55c64la-55",
+    "name": "LG OLED55C64LA 55\" OLED evo C6 4K Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
-    "rating": 4.9,
-    "reviewCount": 5285,
-    "basePrice": 94999,
+    "image": "https://resim.epey.com/1061777/k_lg-oled55c64la-1.jpg",
+    "rating": 4.3,
+    "reviewCount": 1020,
+    "basePrice": 80379,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": true,
     "highlights": [
-      "55\" 4K Ultra HD Ekran",
-      "webOS 26 Akıllı İşletim Sistemi",
-      "AI Sihirli Kumanda Desteği",
-      "Dolby Vision & Dolby Atmos"
+      "55\" OLED evo C6 Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "165Hz Yenileme Hızı",
+      "40W Ses Gücü",
+      "webOS 26 Akıllı İşletim Sistemi"
     ],
     "tags": [
-      "2026 Serisi",
-      "OLED evo",
-      "165Hz",
-      "webOS26"
+      "2026 Model"
     ],
     "specs": {
       "screenSizeInches": 55,
-      "displayTech": "OLED evo",
+      "displayTech": "OLED",
       "resolution": "4K Ultra HD",
       "refreshRateHz": 165,
       "smartOs": "webOS 26",
       "audioPowerWatts": 40,
       "hdrSupport": [
         "Dolby Vision",
-        "HDR10",
+        "HDR10 Pro",
         "HLG"
       ],
       "gamingFeatures": [
-        "ALLM",
-        "VRR",
+        "165Hz VRR",
+        "G-Sync",
         "FreeSync",
-        "G-Sync"
+        "ALLM",
+        "4x HDMI 2.1"
       ],
       "hdmiPorts": 4,
-      "usbPorts": 2,
-      "energyClass": "G",
-      "processorEngine": "α9 AI Processor 4K Gen7",
-      "voiceControl": "Var (AI Sihirli Kumanda)",
-      "dolbyAtmos": true,
-      "vrrSupport": true,
-      "allmSupport": true
+      "usbPorts": 3,
+      "energyClass": "F"
     },
     "storeOffers": [
       {
-        "id": "offer-lg-lg-55-oled55c64la-1",
-        "storeName": "LG Online Mağaza",
+        "id": "offer-lg-55-oled55c64la-lg",
+        "storeName": "LG Resmi Mağaza",
         "storeLogoColor": "#A50034",
-        "price": 94999,
+        "price": 80379,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Resmi Satıcı",
+          "Resmi Distribütör Garantili",
           "Ücretsiz Kurulum"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 5400,
-        "url": "https://www.lg.com/tr/tv-soundbar/lg-55-oled55c64la-55-inc/"
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
       },
       {
-        "id": "offer-lg-lg-55-oled55c64la-2",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#002B49",
-        "price": 95999,
+        "id": "offer-lg-55-oled55c64la-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 79977,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 3200,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "offer-lg-lg-55-oled55c64la-3",
-        "storeName": "Teknosa",
-        "storeLogoColor": "#FF6600",
-        "price": 96499,
-        "inStock": true,
-        "shippingDays": 2,
+        "shippingDays": 1,
         "badges": [
           "Hızlı Teslimat"
         ],
-        "sellerRating": 4.6,
-        "sellerReviews": 2900,
-        "url": "https://www.teknosa.com"
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-55-oled55c64la-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 80540,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 94999,
-        "store": "LG Online Mağaza"
+        "date": "2026-01-01",
+        "price": 84398,
+        "store": "LG Mağaza"
       },
       {
-        "date": "2026-07-01",
-        "price": 94999,
-        "store": "LG Online Mağaza"
+        "date": "2026-02-01",
+        "price": 80379,
+        "store": "LG Mağaza"
       }
     ]
   },
   {
     "id": "lg-77-oled77b65la",
-    "slug": "lg-77-oled77b65la-77-inc",
-    "name": "LG OLED77B65LA OLED AI B6 4K 120Hz VRR Smart TV (2026)",
+    "slug": "lg-oled77b65la-77",
+    "name": "LG OLED77B65LA 77\" OLED B6 4K Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled/b6/gp1/gallery/77-b6/gallery/450-77.jpg/jcr:content/renditions/thum-350x350.jpeg",
-    "rating": 4.8,
-    "reviewCount": 320,
-    "basePrice": 149999,
+    "image": "https://resim.epey.com/1062021/k_lg-oled77b65la-4.jpg",
+    "rating": 4.2,
+    "reviewCount": 1008,
+    "basePrice": 132300,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": true,
     "highlights": [
-      "77\" 4K Ultra HD Ekran",
-      "webOS 26 Akıllı İşletim Sistemi",
-      "AI Sihirli Kumanda Desteği",
-      "Dolby Vision & Dolby Atmos"
+      "77\" OLED B6 Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "120Hz Yenileme Hızı",
+      "20W Ses Gücü",
+      "webOS 26 Akıllı İşletim Sistemi"
     ],
     "tags": [
-      "2026 Serisi",
-      "OLED",
-      "120Hz",
-      "webOS26"
+      "2026 Model"
     ],
     "specs": {
       "screenSizeInches": 77,
@@ -1037,82 +1013,78 @@ export const mockTVs: TVProduct[] = [
       "resolution": "4K Ultra HD",
       "refreshRateHz": 120,
       "smartOs": "webOS 26",
-      "audioPowerWatts": 40,
+      "audioPowerWatts": 20,
       "hdrSupport": [
         "Dolby Vision",
-        "HDR10",
+        "HDR10 Pro",
         "HLG"
       ],
       "gamingFeatures": [
-        "ALLM",
-        "VRR",
+        "165Hz VRR",
+        "G-Sync",
         "FreeSync",
-        "G-Sync"
+        "ALLM",
+        "4x HDMI 2.1"
       ],
       "hdmiPorts": 4,
-      "usbPorts": 2,
-      "energyClass": "E",
-      "processorEngine": "α9 AI Processor 4K Gen7",
-      "voiceControl": "Var (AI Sihirli Kumanda)",
-      "dolbyAtmos": true,
-      "vrrSupport": true,
-      "allmSupport": true
+      "usbPorts": 3,
+      "energyClass": "F"
     },
     "storeOffers": [
       {
-        "id": "offer-lg-lg-77-oled77b65la-1",
-        "storeName": "LG Online Mağaza",
+        "id": "offer-lg-77-oled77b65la-lg",
+        "storeName": "LG Resmi Mağaza",
         "storeLogoColor": "#A50034",
-        "price": 149999,
+        "price": 132300,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Resmi Satıcı",
+          "Resmi Distribütör Garantili",
           "Ücretsiz Kurulum"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 5400,
-        "url": "https://www.lg.com/tr/tv-soundbar/lg-77-oled77b65la-77-inc/"
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
       },
       {
-        "id": "offer-lg-lg-77-oled77b65la-2",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#002B49",
-        "price": 150999,
+        "id": "offer-lg-77-oled77b65la-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 131639,
         "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 3200,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "offer-lg-lg-77-oled77b65la-3",
-        "storeName": "Teknosa",
-        "storeLogoColor": "#FF6600",
-        "price": 151499,
-        "inStock": true,
-        "shippingDays": 2,
+        "shippingDays": 1,
         "badges": [
           "Hızlı Teslimat"
         ],
-        "sellerRating": 4.6,
-        "sellerReviews": 2900,
-        "url": "https://www.teknosa.com"
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-77-oled77b65la-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 132565,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-06-01",
-        "price": 149999,
-        "store": "LG Online Mağaza"
+        "date": "2026-01-01",
+        "price": 138915,
+        "store": "LG Mağaza"
       },
       {
-        "date": "2026-07-01",
-        "price": 149999,
-        "store": "LG Online Mağaza"
+        "date": "2026-02-01",
+        "price": 132300,
+        "store": "LG Mağaza"
       }
     ]
   },
@@ -16345,6 +16317,1973 @@ export const mockTVs: TVProduct[] = [
         "date": "Mart 2026",
         "price": 3095,
         "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "lg-97-oled97g64lw",
+    "name": "LG OLED97G64LW 97\" OLED evo G6 4K Smart TV (2026)",
+    "brand": "LG",
+    "slug": "lg-oled97g64lw-97",
+    "category": "tvs",
+    "basePrice": 899999,
+    "rating": 4.9,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1058564/k_lg-oled97g64lw-1.jpg",
+    "highlights": [
+      "97\" OLED evo G6 Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "165Hz Yenileme Hızı",
+      "60W Ses Gücü",
+      "webOS 26 Akıllı İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 97,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 165,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "165Hz VRR",
+        "G-Sync",
+        "FreeSync",
+        "ALLM",
+        "4x HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-97-oled97g64lw-lg",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 899999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
+      },
+      {
+        "id": "offer-lg-97-oled97g64lw-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 895499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-97-oled97g64lw-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 901799,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
+      }
+    ],
+    "tags": [
+      "Flagship OLED",
+      "2026 Model"
+    ],
+    "currency": "TL",
+    "reviewCount": 1176,
+    "priceHistory": [
+      {
+        "date": "2026-01-01",
+        "price": 944999,
+        "store": "LG Mağaza"
+      },
+      {
+        "date": "2026-02-01",
+        "price": 899999,
+        "store": "LG Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-97-oled97g54lw",
+    "name": "LG OLED97G54LW 97\" OLED evo G5 4K Smart TV (2025)",
+    "brand": "LG",
+    "slug": "lg-oled97g54lw-97",
+    "category": "tvs",
+    "basePrice": 688039,
+    "rating": 4.8,
+    "releaseYear": 2025,
+    "image": "https://resim.epey.com/1039970/k_lg-oled97g54lw-1.jpg",
+    "highlights": [
+      "97\" OLED evo G5 Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "120Hz Yenileme Hızı",
+      "60W Ses Gücü",
+      "webOS 25 Akıllı İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 97,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "165Hz VRR",
+        "G-Sync",
+        "FreeSync",
+        "ALLM",
+        "4x HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-97-oled97g54lw-lg",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 688039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
+      },
+      {
+        "id": "offer-lg-97-oled97g54lw-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 684599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-97-oled97g54lw-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 689415,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
+      }
+    ],
+    "tags": [
+      "Flagship OLED",
+      "2025 Model"
+    ],
+    "currency": "TL",
+    "reviewCount": 1164,
+    "priceHistory": [
+      {
+        "date": "2026-01-01",
+        "price": 722441,
+        "store": "LG Mağaza"
+      },
+      {
+        "date": "2026-02-01",
+        "price": 688039,
+        "store": "LG Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-83-oled83g64lw",
+    "name": "LG OLED83G64LW 83\" OLED evo G6 4K Smart TV (2026)",
+    "brand": "LG",
+    "slug": "lg-oled83g64lw-83",
+    "category": "tvs",
+    "basePrice": 324664,
+    "rating": 4.7,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1062724/k_lg-oled83g64lw-8806096749159-1.jpg",
+    "highlights": [
+      "83\" OLED evo G6 Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "165Hz Yenileme Hızı",
+      "60W Ses Gücü",
+      "webOS 26 Akıllı İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 83,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 165,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "165Hz VRR",
+        "G-Sync",
+        "FreeSync",
+        "ALLM",
+        "4x HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-83-oled83g64lw-lg",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 324664,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
+      },
+      {
+        "id": "offer-lg-83-oled83g64lw-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 323041,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-83-oled83g64lw-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 325313,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
+      }
+    ],
+    "tags": [
+      "Flagship OLED",
+      "2026 Model"
+    ],
+    "currency": "TL",
+    "reviewCount": 1128,
+    "priceHistory": [
+      {
+        "date": "2026-01-01",
+        "price": 340897,
+        "store": "LG Mağaza"
+      },
+      {
+        "date": "2026-02-01",
+        "price": 324664,
+        "store": "LG Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-83-oled83g55lw",
+    "name": "LG OLED83G55LW 83\" OLED evo G5 4K Smart TV (2025)",
+    "brand": "LG",
+    "slug": "lg-oled83g55lw-83",
+    "category": "tvs",
+    "basePrice": 304949,
+    "rating": 4.7,
+    "releaseYear": 2025,
+    "image": "https://resim.epey.com/1012562/k_lg-oled83g55lw-4.jpg",
+    "highlights": [
+      "83\" OLED evo G5 Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "120Hz Yenileme Hızı",
+      "60W Ses Gücü",
+      "webOS 25 Akıllı İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 83,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "165Hz VRR",
+        "G-Sync",
+        "FreeSync",
+        "ALLM",
+        "4x HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-83-oled83g55lw-lg",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 304949,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
+      },
+      {
+        "id": "offer-lg-83-oled83g55lw-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 303424,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-83-oled83g55lw-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 305559,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
+      }
+    ],
+    "tags": [
+      "Flagship OLED",
+      "2025 Model"
+    ],
+    "currency": "TL",
+    "reviewCount": 1128,
+    "priceHistory": [
+      {
+        "date": "2026-01-01",
+        "price": 320196,
+        "store": "LG Mağaza"
+      },
+      {
+        "date": "2026-02-01",
+        "price": 304949,
+        "store": "LG Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-83-oled83m59la",
+    "name": "LG OLED83M59LA 83\" OLED evo M5 4K Smart TV (2025)",
+    "brand": "LG",
+    "slug": "lg-oled83m59la-83",
+    "category": "tvs",
+    "basePrice": 303999,
+    "rating": 4.7,
+    "releaseYear": 2025,
+    "image": "https://resim.epey.com/1030997/k_lg-oled83m59la-8806096467930-1.jpg",
+    "highlights": [
+      "83\" OLED evo M5 Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "120Hz Yenileme Hızı",
+      "60W Ses Gücü",
+      "webOS 25 Akıllı İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 83,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "165Hz VRR",
+        "G-Sync",
+        "FreeSync",
+        "ALLM",
+        "4x HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-83-oled83m59la-lg",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 303999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
+      },
+      {
+        "id": "offer-lg-83-oled83m59la-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 302479,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-83-oled83m59la-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 304607,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
+      }
+    ],
+    "tags": [
+      "Flagship OLED",
+      "2025 Model"
+    ],
+    "currency": "TL",
+    "reviewCount": 1116,
+    "priceHistory": [
+      {
+        "date": "2026-01-01",
+        "price": 319199,
+        "store": "LG Mağaza"
+      },
+      {
+        "date": "2026-02-01",
+        "price": 303999,
+        "store": "LG Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-77-oled77w69la",
+    "name": "LG OLED77W69LA 77\" OLED evo W6 4K Smart TV (2026)",
+    "brand": "LG",
+    "slug": "lg-oled77w69la-77",
+    "category": "tvs",
+    "basePrice": 269999,
+    "rating": 4.7,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1066898/k_lg-oled77w69la-8806096851005-8.jpg",
+    "highlights": [
+      "77\" OLED evo W6 Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "165Hz Yenileme Hızı",
+      "60W Ses Gücü",
+      "webOS 26 Akıllı İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 77,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 165,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "165Hz VRR",
+        "G-Sync",
+        "FreeSync",
+        "ALLM",
+        "4x HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-77-oled77w69la-lg",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 269999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
+      },
+      {
+        "id": "offer-lg-77-oled77w69la-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 268649,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-77-oled77w69la-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 270539,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
+      }
+    ],
+    "tags": [
+      "Flagship OLED",
+      "2026 Model"
+    ],
+    "currency": "TL",
+    "reviewCount": 1116,
+    "priceHistory": [
+      {
+        "date": "2026-01-01",
+        "price": 283499,
+        "store": "LG Mağaza"
+      },
+      {
+        "date": "2026-02-01",
+        "price": 269999,
+        "store": "LG Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-77-oled77g64lw",
+    "name": "LG OLED77G64LW 77\" OLED evo G6 4K Smart TV (2026)",
+    "brand": "LG",
+    "slug": "lg-oled77g64lw-77",
+    "category": "tvs",
+    "basePrice": 229759,
+    "rating": 4.6,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1061935/k_lg-oled97g64lw-1.jpg",
+    "highlights": [
+      "77\" OLED evo G6 Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "165Hz Yenileme Hızı",
+      "60W Ses Gücü",
+      "webOS 26 Akıllı İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 77,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 165,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "165Hz VRR",
+        "G-Sync",
+        "FreeSync",
+        "ALLM",
+        "4x HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-77-oled77g64lw-lg",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 229759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
+      },
+      {
+        "id": "offer-lg-77-oled77g64lw-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 228610,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-77-oled77g64lw-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 230219,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
+      }
+    ],
+    "tags": [
+      "Flagship OLED",
+      "2026 Model"
+    ],
+    "currency": "TL",
+    "reviewCount": 1104,
+    "priceHistory": [
+      {
+        "date": "2026-01-01",
+        "price": 241247,
+        "store": "LG Mağaza"
+      },
+      {
+        "date": "2026-02-01",
+        "price": 229759,
+        "store": "LG Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-77-oled77g55lw",
+    "name": "LG OLED77G55LW 77\" OLED evo G5 4K Smart TV (2025)",
+    "brand": "LG",
+    "slug": "lg-oled77g55lw-77",
+    "category": "tvs",
+    "basePrice": 218295,
+    "rating": 4.6,
+    "releaseYear": 2025,
+    "image": "https://resim.epey.com/1012508/k_lg-oled77g55lw-3.jpg",
+    "highlights": [
+      "77\" OLED evo G5 Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "120Hz Yenileme Hızı",
+      "60W Ses Gücü",
+      "webOS 25 Akıllı İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 77,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "165Hz VRR",
+        "G-Sync",
+        "FreeSync",
+        "ALLM",
+        "4x HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-77-oled77g55lw-lg",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 218295,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
+      },
+      {
+        "id": "offer-lg-77-oled77g55lw-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 217204,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-77-oled77g55lw-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 218732,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
+      }
+    ],
+    "tags": [
+      "Flagship OLED",
+      "2025 Model"
+    ],
+    "currency": "TL",
+    "reviewCount": 1104,
+    "priceHistory": [
+      {
+        "date": "2026-01-01",
+        "price": 229210,
+        "store": "LG Mağaza"
+      },
+      {
+        "date": "2026-02-01",
+        "price": 218295,
+        "store": "LG Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-77-oled77m59la",
+    "name": "LG OLED77M59LA 77\" OLED evo M5 4K Smart TV (2025)",
+    "brand": "LG",
+    "slug": "lg-oled77m59la-77",
+    "category": "tvs",
+    "basePrice": 179955,
+    "rating": 4.6,
+    "releaseYear": 2025,
+    "image": "https://resim.epey.com/1030998/k_lg-oled77m59la-12.jpg",
+    "highlights": [
+      "77\" OLED evo M5 Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "120Hz Yenileme Hızı",
+      "60W Ses Gücü",
+      "webOS 25 Akıllı İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 77,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "165Hz VRR",
+        "G-Sync",
+        "FreeSync",
+        "ALLM",
+        "4x HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-77-oled77m59la-lg",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 179955,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
+      },
+      {
+        "id": "offer-lg-77-oled77m59la-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 179055,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-77-oled77m59la-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 180315,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
+      }
+    ],
+    "tags": [
+      "Flagship OLED",
+      "2025 Model"
+    ],
+    "currency": "TL",
+    "reviewCount": 1104,
+    "priceHistory": [
+      {
+        "date": "2026-01-01",
+        "price": 188953,
+        "store": "LG Mağaza"
+      },
+      {
+        "date": "2026-02-01",
+        "price": 179955,
+        "store": "LG Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-83-oled83c54la",
+    "name": "LG OLED83C54LA 83\" OLED evo C5 4K Smart TV (2025)",
+    "brand": "LG",
+    "slug": "lg-oled83c54la-83",
+    "category": "tvs",
+    "basePrice": 226374,
+    "rating": 4.5,
+    "releaseYear": 2025,
+    "image": "https://resim.epey.com/1013878/k_lg-oled83c54la-9.jpg",
+    "highlights": [
+      "83\" OLED evo C5 Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "120Hz Yenileme Hızı",
+      "40W Ses Gücü",
+      "webOS 25 Akıllı İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 83,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "165Hz VRR",
+        "G-Sync",
+        "FreeSync",
+        "ALLM",
+        "4x HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-83-oled83c54la-lg",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 226374,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
+      },
+      {
+        "id": "offer-lg-83-oled83c54la-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 225242,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-83-oled83c54la-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 226827,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
+      }
+    ],
+    "tags": [
+      "Flagship OLED",
+      "2025 Model"
+    ],
+    "currency": "TL",
+    "reviewCount": 1092,
+    "priceHistory": [
+      {
+        "date": "2026-01-01",
+        "price": 237693,
+        "store": "LG Mağaza"
+      },
+      {
+        "date": "2026-02-01",
+        "price": 226374,
+        "store": "LG Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-65-oled65g64lw",
+    "name": "LG OLED65G64LW 65\" OLED evo G6 4K Smart TV (2026)",
+    "brand": "LG",
+    "slug": "lg-oled65g64lw-65",
+    "category": "tvs",
+    "basePrice": 149940,
+    "rating": 4.5,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1062112/k_lg-oled97g64lw-1.jpg",
+    "highlights": [
+      "65\" OLED evo G6 Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "165Hz Yenileme Hızı",
+      "60W Ses Gücü",
+      "webOS 26 Akıllı İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 165,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "165Hz VRR",
+        "G-Sync",
+        "FreeSync",
+        "ALLM",
+        "4x HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-65-oled65g64lw-lg",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 149940,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
+      },
+      {
+        "id": "offer-lg-65-oled65g64lw-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 149190,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-65-oled65g64lw-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 150240,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
+      }
+    ],
+    "tags": [
+      "2026 Model"
+    ],
+    "currency": "TL",
+    "reviewCount": 1068,
+    "priceHistory": [
+      {
+        "date": "2026-01-01",
+        "price": 157437,
+        "store": "LG Mağaza"
+      },
+      {
+        "date": "2026-02-01",
+        "price": 149940,
+        "store": "LG Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-77-oled77c54la",
+    "name": "LG OLED77C54LA 77\" OLED evo C5 4K Smart TV (2025)",
+    "brand": "LG",
+    "slug": "lg-oled77c54la-77",
+    "category": "tvs",
+    "basePrice": 168150,
+    "rating": 4.5,
+    "releaseYear": 2025,
+    "image": "https://resim.epey.com/1013138/k_lg-oled77c54-oled77c54la-8806096431740-9.jpg",
+    "highlights": [
+      "77\" OLED evo C5 Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "120Hz Yenileme Hızı",
+      "40W Ses Gücü",
+      "webOS 25 Akıllı İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 77,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "165Hz VRR",
+        "G-Sync",
+        "FreeSync",
+        "ALLM",
+        "4x HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-77-oled77c54la-lg",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 168150,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
+      },
+      {
+        "id": "offer-lg-77-oled77c54la-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 167309,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-77-oled77c54la-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 168486,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
+      }
+    ],
+    "tags": [
+      "2025 Model"
+    ],
+    "currency": "TL",
+    "reviewCount": 1068,
+    "priceHistory": [
+      {
+        "date": "2026-01-01",
+        "price": 176558,
+        "store": "LG Mağaza"
+      },
+      {
+        "date": "2026-02-01",
+        "price": 168150,
+        "store": "LG Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-65-oled65g55lw",
+    "name": "LG OLED65G55LW 65\" OLED evo G5 4K Smart TV (2025)",
+    "brand": "LG",
+    "slug": "lg-oled65g55lw-65",
+    "category": "tvs",
+    "basePrice": 154839,
+    "rating": 4.5,
+    "releaseYear": 2025,
+    "image": "https://resim.epey.com/1012561/k_lg-oled65g55lw-1.png",
+    "highlights": [
+      "65\" OLED evo G5 Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "120Hz Yenileme Hızı",
+      "60W Ses Gücü",
+      "webOS 25 Akıllı İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "165Hz VRR",
+        "G-Sync",
+        "FreeSync",
+        "ALLM",
+        "4x HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-65-oled65g55lw-lg",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 154839,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
+      },
+      {
+        "id": "offer-lg-65-oled65g55lw-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 154065,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-65-oled65g55lw-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 155149,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
+      }
+    ],
+    "tags": [
+      "2025 Model"
+    ],
+    "currency": "TL",
+    "reviewCount": 1068,
+    "priceHistory": [
+      {
+        "date": "2026-01-01",
+        "price": 162581,
+        "store": "LG Mağaza"
+      },
+      {
+        "date": "2026-02-01",
+        "price": 154839,
+        "store": "LG Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-100-100qned87b6",
+    "name": "LG 100QNED87B6 100\" QNED MiniLED 4K Smart TV (2026)",
+    "brand": "LG",
+    "slug": "lg-100qned87b6-100",
+    "category": "tvs",
+    "basePrice": 211409,
+    "rating": 4.3,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1066169/k_lg-100qned87b6-8806096851012-1.jpg",
+    "highlights": [
+      "100\" QNED MiniLED Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "120Hz Yenileme Hızı",
+      "40W Ses Gücü",
+      "webOS 26 Akıllı İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 100,
+      "displayTech": "QNED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "165Hz VRR",
+        "G-Sync",
+        "FreeSync",
+        "ALLM",
+        "4x HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-100-100qned87b6-lg",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 211409,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
+      },
+      {
+        "id": "offer-lg-100-100qned87b6-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 210352,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-100-100qned87b6-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 211832,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
+      }
+    ],
+    "tags": [
+      "2026 Model"
+    ],
+    "currency": "TL",
+    "reviewCount": 1044,
+    "priceHistory": [
+      {
+        "date": "2026-01-01",
+        "price": 221979,
+        "store": "LG Mağaza"
+      },
+      {
+        "date": "2026-02-01",
+        "price": 211409,
+        "store": "LG Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-65-oled65c54la",
+    "name": "LG OLED65C54LA 65\" OLED evo C5 4K Smart TV (2025)",
+    "brand": "LG",
+    "slug": "lg-oled65c54la-65",
+    "category": "tvs",
+    "basePrice": 104500,
+    "rating": 4.3,
+    "releaseYear": 2025,
+    "image": "https://resim.epey.com/1011765/k_lg-oled65c54la-1.jpg",
+    "highlights": [
+      "65\" OLED evo C5 Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "120Hz Yenileme Hızı",
+      "40W Ses Gücü",
+      "webOS 25 Akıllı İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "165Hz VRR",
+        "G-Sync",
+        "FreeSync",
+        "ALLM",
+        "4x HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-65-oled65c54la-lg",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 104500,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
+      },
+      {
+        "id": "offer-lg-65-oled65c54la-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 103978,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-65-oled65c54la-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 104709,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
+      }
+    ],
+    "tags": [
+      "2025 Model"
+    ],
+    "currency": "TL",
+    "reviewCount": 1032,
+    "priceHistory": [
+      {
+        "date": "2026-01-01",
+        "price": 109725,
+        "store": "LG Mağaza"
+      },
+      {
+        "date": "2026-02-01",
+        "price": 104500,
+        "store": "LG Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-55-oled55c54la",
+    "name": "LG OLED55C54LA 55\" OLED evo C5 4K Smart TV (2025)",
+    "brand": "LG",
+    "slug": "lg-oled55c54la-55",
+    "category": "tvs",
+    "basePrice": 79135,
+    "rating": 4.2,
+    "releaseYear": 2025,
+    "image": "https://resim.epey.com/1020253/k_lg-oled55c54la-8806096460078-1.jpg",
+    "highlights": [
+      "55\" OLED evo C5 Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "120Hz Yenileme Hızı",
+      "40W Ses Gücü",
+      "webOS 25 Akıllı İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "165Hz VRR",
+        "G-Sync",
+        "FreeSync",
+        "ALLM",
+        "4x HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-55-oled55c54la-lg",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 79135,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
+      },
+      {
+        "id": "offer-lg-55-oled55c54la-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 78739,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-55-oled55c54la-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 79293,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
+      }
+    ],
+    "tags": [
+      "2025 Model"
+    ],
+    "currency": "TL",
+    "reviewCount": 996,
+    "priceHistory": [
+      {
+        "date": "2026-01-01",
+        "price": 83092,
+        "store": "LG Mağaza"
+      },
+      {
+        "date": "2026-02-01",
+        "price": 79135,
+        "store": "LG Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-100-100qned86a6",
+    "name": "LG 100QNED86A6 100\" QNED MiniLED 4K Smart TV (2025)",
+    "brand": "LG",
+    "slug": "lg-100qned86a6-100",
+    "category": "tvs",
+    "basePrice": 242499,
+    "rating": 4.2,
+    "releaseYear": 2025,
+    "image": "https://resim.epey.com/1013012/k_lg-100qned86a6-3.jpg",
+    "highlights": [
+      "100\" QNED MiniLED Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "120Hz Yenileme Hızı",
+      "20W Ses Gücü",
+      "webOS 25 Akıllı İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 100,
+      "displayTech": "QNED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "165Hz VRR",
+        "G-Sync",
+        "FreeSync",
+        "ALLM",
+        "4x HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-100-100qned86a6-lg",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 242499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
+      },
+      {
+        "id": "offer-lg-100-100qned86a6-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 241287,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-100-100qned86a6-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 242984,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
+      }
+    ],
+    "tags": [
+      "2025 Model"
+    ],
+    "currency": "TL",
+    "reviewCount": 996,
+    "priceHistory": [
+      {
+        "date": "2026-01-01",
+        "price": 254624,
+        "store": "LG Mağaza"
+      },
+      {
+        "date": "2026-02-01",
+        "price": 242499,
+        "store": "LG Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-83-oled83b56la",
+    "name": "LG OLED83B56LA 83\" OLED B5 4K Smart TV (2025)",
+    "brand": "LG",
+    "slug": "lg-oled83b56la-83",
+    "category": "tvs",
+    "basePrice": 166953,
+    "rating": 4.2,
+    "releaseYear": 2025,
+    "image": "https://resim.epey.com/1013855/k_lg-oled83b56la-10.jpg",
+    "highlights": [
+      "83\" OLED B5 Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "120Hz Yenileme Hızı",
+      "20W Ses Gücü",
+      "webOS 25 Akıllı İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 83,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "165Hz VRR",
+        "G-Sync",
+        "FreeSync",
+        "ALLM",
+        "4x HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-83-oled83b56la-lg",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 166953,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
+      },
+      {
+        "id": "offer-lg-83-oled83b56la-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 166118,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-83-oled83b56la-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 167287,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
+      }
+    ],
+    "tags": [
+      "2025 Model"
+    ],
+    "currency": "TL",
+    "reviewCount": 996,
+    "priceHistory": [
+      {
+        "date": "2026-01-01",
+        "price": 175301,
+        "store": "LG Mağaza"
+      },
+      {
+        "date": "2026-02-01",
+        "price": 166953,
+        "store": "LG Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-77-oled77b56la",
+    "name": "LG OLED77B56LA 77\" OLED B5 4K Smart TV (2025)",
+    "brand": "LG",
+    "slug": "lg-oled77b56la-77",
+    "category": "tvs",
+    "basePrice": 127380,
+    "rating": 4.1,
+    "releaseYear": 2025,
+    "image": "https://resim.epey.com/1013139/k_lg-oled77b56-oled77b56la-8806096431733-1.jpg",
+    "highlights": [
+      "77\" OLED B5 Ekran",
+      "4K Ultra HD (4K Ultra HD)",
+      "120Hz Yenileme Hızı",
+      "20W Ses Gücü",
+      "webOS 25 Akıllı İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 77,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "165Hz VRR",
+        "G-Sync",
+        "FreeSync",
+        "ALLM",
+        "4x HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-77-oled77b56la-lg",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 127380,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1240,
+        "url": "https://www.lg.com/tr/"
+      },
+      {
+        "id": "offer-lg-77-oled77b56la-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 126743,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/"
+      },
+      {
+        "id": "offer-lg-77-oled77b56la-mm",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 127635,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Magazadan Teslim Al"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.mediamarkt.com.tr/"
+      }
+    ],
+    "tags": [
+      "2025 Model"
+    ],
+    "currency": "TL",
+    "reviewCount": 984,
+    "priceHistory": [
+      {
+        "date": "2026-01-01",
+        "price": 133749,
+        "store": "LG Mağaza"
+      },
+      {
+        "date": "2026-02-01",
+        "price": 127380,
+        "store": "LG Mağaza"
       }
     ]
   }
