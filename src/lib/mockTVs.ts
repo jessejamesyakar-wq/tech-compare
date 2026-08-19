@@ -25156,5 +25156,5185 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     }
+  },
+  {
+    "id": "tv-tcl-98-98p8l-98-inc",
+    "name": "TCL 98P8L P8L Premium QD-Mini LED TV",
+    "slug": "tcl-98-98p8l-98-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 159999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "rating": 4.9,
+    "reviewCount": 633,
+    "image": "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/p/98p8l/id/98-1.png?t=1765963077569&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "512 Bölgeye Kadar Hassas Karartma Serisi",
+      "Yüksek HDR Parlaklığı",
+      "ONKYO 2.1 Hi-Fi Ses Sistemi"
+    ],
+    "tags": [
+      "TCL",
+      "QD-Mini LED",
+      "98 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-98-98p8l-98-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 160319,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-98-98p8l-98-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 159999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-98-98p8l-98-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 160639,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-98-98p8l-98-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 161279,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-98-98p8l-98-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 159519,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-98-98p8l-98-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 159039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-98-98p8l-98-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 158399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-98-98p8l-98-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 160479,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 172799,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 166399,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 159999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 98,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-85-85p8l-85-inc",
+    "name": "TCL 85P8L P8L QD-Mini LED Dimming TV",
+    "slug": "tcl-85-85p8l-85-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 94999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "rating": 4.9,
+    "reviewCount": 555,
+    "image": "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/85-1.png?t=1765963204902&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "Tam Arkadan Aydınlatmalı Yerel Karartma",
+      "ONKYO 2.1 Hi-Fi System",
+      "144Hz Doğal Yenileme Hızı"
+    ],
+    "tags": [
+      "TCL",
+      "QD-Mini LED",
+      "85 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-85-85p8l-85-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 95189,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-85-85p8l-85-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 94999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-85-85p8l-85-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 95379,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-85-85p8l-85-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 95759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-85-85p8l-85-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 94714,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-85-85p8l-85-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 94429,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-85-85p8l-85-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 94049,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-85-85p8l-85-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 95284,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 102599,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 98799,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 94999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-75-75p8l-75-inc",
+    "name": "TCL 75P8L P8L QD-Mini LED Dimming TV",
+    "slug": "tcl-75-75p8l-75-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 64999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "rating": 4.9,
+    "reviewCount": 495,
+    "image": "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/75-1.png?t=1765963209238&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "Tam Arkadan Aydınlatmalı Yerel Karartma",
+      "ONKYO 2.1 Hi-Fi System",
+      "144Hz Doğal Yenileme Hızı"
+    ],
+    "tags": [
+      "TCL",
+      "QD-Mini LED",
+      "75 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-75-75p8l-75-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 65129,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-75-75p8l-75-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 64999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-75-75p8l-75-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 65259,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-75-75p8l-75-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 65519,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-75-75p8l-75-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 64804,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-75-75p8l-75-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 64609,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-75-75p8l-75-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 64349,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-75-75p8l-75-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 65194,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 70199,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 67599,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 64999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-65-65p8l-65-inc",
+    "name": "TCL 65P8L P8L QD-Mini LED Dimming TV",
+    "slug": "tcl-65-65p8l-65-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 44999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "rating": 4.7,
+    "reviewCount": 435,
+    "image": "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/65-1.png?t=1765963213090&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "Tam Arkadan Aydınlatmalı Yerel Karartma",
+      "ONKYO 2.1 Hi-Fi System",
+      "144Hz Doğal Yenileme Hızı"
+    ],
+    "tags": [
+      "TCL",
+      "QD-Mini LED",
+      "65 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-65-65p8l-65-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 45089,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-65-65p8l-65-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 44999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-65-65p8l-65-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 45179,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-65-65p8l-65-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 45359,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-65-65p8l-65-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 44864,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-65-65p8l-65-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 44729,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-65-65p8l-65-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 44549,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-65-65p8l-65-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 45134,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 48599,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 46799,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 44999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-55-55p8l-55-inc",
+    "name": "TCL 55P8L P8L QD-Mini LED Dimming TV",
+    "slug": "tcl-55-55p8l-55-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "rating": 4.7,
+    "reviewCount": 375,
+    "image": "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/55-1.png?t=1765963216710&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "Tam Arkadan Aydınlatmalı Yerel Karartma",
+      "144Hz Doğal Yenileme Hızı",
+      "QLED"
+    ],
+    "tags": [
+      "TCL",
+      "QD-Mini LED",
+      "55 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-55-55p8l-55-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 35069,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-55-55p8l-55-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-55-55p8l-55-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 35139,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-55-55p8l-55-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 35279,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-55-55p8l-55-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 34894,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-55-55p8l-55-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 34789,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-55-55p8l-55-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 34649,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-55-55p8l-55-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 35104,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 37799,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 36399,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 34999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-85-85p7l-85-inc",
+    "name": "TCL 85P7L P7L Premium QLED TV",
+    "slug": "tcl-85-85p7l-85-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 74999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "rating": 4.9,
+    "reviewCount": 555,
+    "image": "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "QLED",
+      "ONKYO 2.1 Hi-Fi Sistem*",
+      "İnce ve Yekpare (Tek Parça) Gövde"
+    ],
+    "tags": [
+      "TCL",
+      "QLED",
+      "85 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-85-85p7l-85-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 75149,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-85-85p7l-85-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 74999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-85-85p7l-85-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 75299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-85-85p7l-85-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 75599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-85-85p7l-85-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 74774,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-85-85p7l-85-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 74549,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-85-85p7l-85-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 74249,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-85-85p7l-85-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 75224,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 80999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 77999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 74999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-75-75p7l-75-inc",
+    "name": "TCL 75P7L P7L Premium QLED TV",
+    "slug": "tcl-75-75p7l-75-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 49999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "rating": 4.9,
+    "reviewCount": 495,
+    "image": "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "QLED",
+      "İnce ve Yekpare (Tek Parça) Gövde",
+      "AiPQ İşlemci"
+    ],
+    "tags": [
+      "TCL",
+      "QLED",
+      "75 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-75-75p7l-75-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 50099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-75-75p7l-75-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 49999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-75-75p7l-75-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 50199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-75-75p7l-75-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 50399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-75-75p7l-75-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 49849,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-75-75p7l-75-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 49699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-75-75p7l-75-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 49499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-75-75p7l-75-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 50149,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 53999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 51999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 49999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-65-65p7l-65-inc",
+    "name": "TCL 65P7L P7L Premium QLED TV",
+    "slug": "tcl-65-65p7l-65-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "rating": 4.7,
+    "reviewCount": 435,
+    "image": "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "QLED",
+      "İnce ve Yekpare (Tek Parça) Gövde",
+      "AiPQ İşlemci"
+    ],
+    "tags": [
+      "TCL",
+      "QLED",
+      "65 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-65-65p7l-65-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 35069,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-65-65p7l-65-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-65-65p7l-65-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 35139,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-65-65p7l-65-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 35279,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-65-65p7l-65-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 34894,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-65-65p7l-65-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 34789,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-65-65p7l-65-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 34649,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-65-65p7l-65-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 35104,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 37799,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 36399,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 34999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-55-55p7l-55-inc",
+    "name": "TCL 55P7L P7L Premium QLED TV",
+    "slug": "tcl-55-55p7l-55-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 26999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "rating": 4.7,
+    "reviewCount": 375,
+    "image": "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "QLED",
+      "İnce ve Yekpare (Tek Parça) Gövde",
+      "AiPQ İşlemci"
+    ],
+    "tags": [
+      "TCL",
+      "QLED",
+      "55 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-55-55p7l-55-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 27053,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-55-55p7l-55-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 26999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-55-55p7l-55-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 27107,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-55-55p7l-55-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 27215,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-55-55p7l-55-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 26918,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-55-55p7l-55-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 26837,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-55-55p7l-55-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 26729,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-55-55p7l-55-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 27080,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 29159,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 28079,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 26999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-50-50p7l-50-inc",
+    "name": "TCL 50P7L P7L Premium QLED TV",
+    "slug": "tcl-50-50p7l-50-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 22999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "rating": 4.7,
+    "reviewCount": 345,
+    "image": "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "QLED",
+      "İnce ve Yekpare (Tek Parça) Gövde",
+      "AiPQ İşlemci"
+    ],
+    "tags": [
+      "TCL",
+      "QLED",
+      "50 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-50-50p7l-50-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 23045,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-50-50p7l-50-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 22999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-50-50p7l-50-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 23091,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-50-50p7l-50-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 23183,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-50-50p7l-50-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 22930,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-50-50p7l-50-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 22861,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-50-50p7l-50-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 22769,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-50-50p7l-50-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 23068,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 24839,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 23919,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 22999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-98-98c7l-98-inc",
+    "name": "TCL 98C7L SQD-Mini LED TV için Erişilebilir Premium Deneyim | TCL C7L SQD-Mini LED TV",
+    "slug": "tcl-98-98c7l-98-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 169999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "rating": 4.9,
+    "reviewCount": 633,
+    "image": "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/98-1.png?t=1772440044079&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "Tüm Sahnelerde %100’e Varan BT.2020 Geniş Renk Yelpazes",
+      "2.176 Hassas Yerel Karartma Bölgesi",
+      "3.000 Nit'e Varan HDR Parlaklık"
+    ],
+    "tags": [
+      "TCL",
+      "QD-Mini LED",
+      "98 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-98-98c7l-98-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 170339,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-98-98c7l-98-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 169999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-98-98c7l-98-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 170679,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-98-98c7l-98-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 171359,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-98-98c7l-98-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 169489,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-98-98c7l-98-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 168979,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-98-98c7l-98-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 168299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-98-98c7l-98-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 170509,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 183599,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 176799,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 169999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 98,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-85-85c7l-85-inc",
+    "name": "TCL 85C7L SQD-Mini LED TV için Erişilebilir Premium Deneyim | TCL C7L SQD-Mini LED TV",
+    "slug": "tcl-85-85c7l-85-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 104999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "rating": 4.9,
+    "reviewCount": 555,
+    "image": "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png?t=1772440038743&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "Tüm Sahnelerde %100’e Varan BT.2020 Geniş Renk Yelpazes",
+      "1.624 Hassas Yerel Karartma Bölgesi",
+      "3.000 Nit'e Varan HDR Parlaklık"
+    ],
+    "tags": [
+      "TCL",
+      "QD-Mini LED",
+      "85 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-85-85c7l-85-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 105209,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-85-85c7l-85-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 104999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-85-85c7l-85-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 105419,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-85-85c7l-85-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 105839,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-85-85c7l-85-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 104684,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-85-85c7l-85-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 104369,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-85-85c7l-85-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 103949,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-85-85c7l-85-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 105314,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 113399,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 109199,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 104999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-75-75c7l-75-inc",
+    "name": "TCL 75C7L SQD-Mini LED TV için Erişilebilir Premium Deneyim | TCL C7L SQD-Mini LED TV",
+    "slug": "tcl-75-75c7l-75-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 69999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "rating": 4.9,
+    "reviewCount": 495,
+    "image": "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png?t=1772440038743&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "Tüm Sahnelerde %100’e Varan BT.2020 Geniş Renk Yelpazes",
+      "1.352 Hassas Yerel Karartma Bölgesi",
+      "3.000 Nit'e Varan HDR Parlaklık"
+    ],
+    "tags": [
+      "TCL",
+      "QD-Mini LED",
+      "75 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-75-75c7l-75-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 70139,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-75-75c7l-75-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 69999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-75-75c7l-75-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 70279,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-75-75c7l-75-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 70559,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-75-75c7l-75-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 69789,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-75-75c7l-75-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 69579,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-75-75c7l-75-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 69299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-75-75c7l-75-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 70209,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 75599,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 72799,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 69999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-65-65c7l-65-inc",
+    "name": "TCL 65C7L SQD-Mini LED TV için Erişilebilir Premium Deneyim | TCL C7L SQD-Mini LED TV",
+    "slug": "tcl-65-65c7l-65-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 47999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "rating": 4.7,
+    "reviewCount": 435,
+    "image": "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png?t=1772440038743&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "Tüm Sahnelerde %100’e Varan BT.2020 Geniş Renk Yelpazes",
+      "1.152 Hassas Yerel Karartma Bölgesi",
+      "3.000 Nit'e Varan HDR Parlaklık"
+    ],
+    "tags": [
+      "TCL",
+      "QD-Mini LED",
+      "65 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-65-65c7l-65-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 48095,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-65-65c7l-65-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 47999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-65-65c7l-65-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 48191,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-65-65c7l-65-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 48383,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-65-65c7l-65-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 47855,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-65-65c7l-65-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 47711,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-65-65c7l-65-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 47519,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-65-65c7l-65-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 48143,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 51839,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 49919,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 47999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-98-98c8l-98-inc",
+    "name": "TCL 98C8L SQD-Mini LED TV'de Yeni ve Nihai Seçim | TCL C8L SQD-Mini LED TV",
+    "slug": "tcl-98-98c8l-98-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 189999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "rating": 4.9,
+    "reviewCount": 633,
+    "image": "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/98/1.png?t=1773125648894&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "Tüm Sahnelerde %100'e Varan BT.2020 Geniş Renk Gamı",
+      "4.032 Hassas Karartma Bölgesi",
+      "6.000 Nit'e Varan HDR Parlaklık"
+    ],
+    "tags": [
+      "TCL",
+      "QD-Mini LED",
+      "98 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-98-98c8l-98-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 190379,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-98-98c8l-98-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 189999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-98-98c8l-98-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 190759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-98-98c8l-98-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 191519,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-98-98c8l-98-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 189429,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-98-98c8l-98-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 188859,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-98-98c8l-98-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 188099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-98-98c8l-98-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 190569,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 205199,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 197599,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 189999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 98,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-85-85c8l-85-inc",
+    "name": "TCL 85C8L SQD-Mini LED TV'de Yeni ve Nihai Seçim | TCL C8L SQD-Mini LED TV",
+    "slug": "tcl-85-85c8l-85-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 119999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "rating": 4.9,
+    "reviewCount": 555,
+    "image": "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png?t=1773125742711&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "Tüm Sahnelerde %100'e Varan BT.2020 Geniş Renk Gamı",
+      "3.200 Hassas Karartma Bölgesi",
+      "6.000 Nit'e Varan HDR Parlaklık"
+    ],
+    "tags": [
+      "TCL",
+      "QD-Mini LED",
+      "85 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-85-85c8l-85-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 120239,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-85-85c8l-85-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 119999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-85-85c8l-85-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 120479,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-85-85c8l-85-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 120959,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-85-85c8l-85-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 119639,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-85-85c8l-85-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 119279,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-85-85c8l-85-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 118799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-85-85c8l-85-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 120359,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 129599,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 124799,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 119999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-75-75c8l-75-inc",
+    "name": "TCL 75C8L SQD-Mini LED TV'de Yeni ve Nihai Seçim | TCL C8L SQD-Mini LED TV",
+    "slug": "tcl-75-75c8l-75-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 79999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "rating": 4.9,
+    "reviewCount": 495,
+    "image": "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png?t=1773125742711&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "Tüm Sahnelerde %100'e Varan BT.2020 Geniş Renk Gamı",
+      "2.584 Hassas Karartma Bölgesi",
+      "5.500 Nit'e Varan HDR Parlaklık"
+    ],
+    "tags": [
+      "TCL",
+      "QD-Mini LED",
+      "75 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-75-75c8l-75-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 80159,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-75-75c8l-75-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 79999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-75-75c8l-75-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 80319,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-75-75c8l-75-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 80639,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-75-75c8l-75-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 79759,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-75-75c8l-75-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 79519,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-75-75c8l-75-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 79199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-75-75c8l-75-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 80239,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 86399,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 83199,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 79999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-65-65c8l-65-inc",
+    "name": "TCL 65C8L SQD-Mini LED TV'de Yeni ve Nihai Seçim | TCL C8L SQD-Mini LED TV",
+    "slug": "tcl-65-65c8l-65-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 54999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "rating": 4.7,
+    "reviewCount": 435,
+    "image": "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png?t=1773125742711&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "Tüm Sahnelerde %100'e Varan BT.2020 Geniş Renk Gamı",
+      "2.040 Hassas Karartma Bölgesi",
+      "5.000 Nit'e Varan HDR Parlaklık"
+    ],
+    "tags": [
+      "TCL",
+      "QD-Mini LED",
+      "65 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-65-65c8l-65-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 55109,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-65-65c8l-65-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 54999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-65-65c8l-65-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 55219,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-65-65c8l-65-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 55439,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-65-65c8l-65-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 54834,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-65-65c8l-65-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 54669,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-65-65c8l-65-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 54449,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-65-65c8l-65-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 55164,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 59399,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 57199,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 54999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-75-75q7dpro-75-inc",
+    "name": "TCL 75 Q7D Pro SQD-Mini LED TV için Akıllı Seçim | TCL Q7D Pro SQD-Mini LED TV",
+    "slug": "tcl-75-75q7dpro-75-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 59999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "rating": 4.9,
+    "reviewCount": 495,
+    "image": "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png?t=1773648906095&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "%100'e Varan BT.2020 Tüm Sahnelerde Geniş Renk Gamı",
+      "760 Hassas Karartma Bölgesi",
+      "2.000 nite Varan HDR Parlaklığı"
+    ],
+    "tags": [
+      "TCL",
+      "QD-Mini LED",
+      "75 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-75-75q7dpro-75-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 60119,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-75-75q7dpro-75-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 59999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-75-75q7dpro-75-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 60239,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-75-75q7dpro-75-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 60479,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-75-75q7dpro-75-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 59819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-75-75q7dpro-75-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 59639,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-75-75q7dpro-75-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 59399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-75-75q7dpro-75-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 60179,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 64799,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 62399,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 59999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-65-65q7dpro-65-inc",
+    "name": "TCL 65 Q7D Pro SQD-Mini LED TV için Akıllı Seçim | TCL Q7D Pro SQD-Mini LED TV",
+    "slug": "tcl-65-65q7dpro-65-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 41999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "rating": 4.7,
+    "reviewCount": 435,
+    "image": "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png?t=1773648906095&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "%100'e Varan BT.2020 Tüm Sahnelerde Geniş Renk Gamı",
+      "646 Hassas Karartma Bölgesi",
+      "2.000 nite Varan HDR Parlaklığı"
+    ],
+    "tags": [
+      "TCL",
+      "QD-Mini LED",
+      "65 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-65-65q7dpro-65-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 42083,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-65-65q7dpro-65-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 41999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-65-65q7dpro-65-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 42167,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-65-65q7dpro-65-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 42335,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-65-65q7dpro-65-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 41873,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-65-65q7dpro-65-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 41747,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-65-65q7dpro-65-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 41579,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-65-65q7dpro-65-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 42125,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 45359,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 43679,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 41999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-55-55q7dpro-55-inc",
+    "name": "TCL 55 Q7D Pro SQD-Mini LED TV için Akıllı Seçim | TCL Q7D Pro SQD-Mini LED TV",
+    "slug": "tcl-55-55q7dpro-55-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 31999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "rating": 4.7,
+    "reviewCount": 375,
+    "image": "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png?t=1773648906095&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "%100'e Varan BT.2020 Tüm Sahnelerde Geniş Renk Gamı",
+      "480 Hassas Karartma Bölgesi",
+      "2.000 nite Varan HDR Parlaklığı"
+    ],
+    "tags": [
+      "TCL",
+      "QD-Mini LED",
+      "55 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-55-55q7dpro-55-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 32063,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-55-55q7dpro-55-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 31999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-55-55q7dpro-55-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 32127,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-55-55q7dpro-55-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 32255,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-55-55q7dpro-55-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 31903,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-55-55q7dpro-55-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 31807,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-55-55q7dpro-55-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 31679,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-55-55q7dpro-55-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 32095,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 34559,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 33279,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 31999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-75-75p89k-75-inc",
+    "name": "TCL 75P89K P89K QLED TV",
+    "slug": "tcl-75-75p89k-75-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 54999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "rating": 4.9,
+    "reviewCount": 495,
+    "image": "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8k/id/75-1.png?t=1741760077328&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "QLED",
+      "144Hz Gerçek Yenileme Hızı",
+      "ONKYO 2.1 Hi-Fi Ses Sistemi"
+    ],
+    "tags": [
+      "TCL",
+      "QLED",
+      "75 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-75-75p89k-75-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 55109,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-75-75p89k-75-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 54999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-75-75p89k-75-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 55219,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-75-75p89k-75-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 55439,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-75-75p89k-75-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 54834,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-75-75p89k-75-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 54669,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-75-75p89k-75-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 54449,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-75-75p89k-75-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 55164,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 59399,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 57199,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 54999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-65-65p89k-65-inc",
+    "name": "TCL 65P89K P89K QLED TV",
+    "slug": "tcl-65-65p89k-65-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 38999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "rating": 4.7,
+    "reviewCount": 435,
+    "image": "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/p/p8k/id/65-55-1.png?t=1741760071014&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "QLED",
+      "144Hz Gerçek Yenileme Hızı",
+      "ONKYO 2.1 Hi-Fi Ses Sistemi"
+    ],
+    "tags": [
+      "TCL",
+      "QLED",
+      "65 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-65-65p89k-65-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 39077,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-65-65p89k-65-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 38999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-65-65p89k-65-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 39155,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-65-65p89k-65-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 39311,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-65-65p89k-65-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 38882,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-65-65p89k-65-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 38765,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-65-65p89k-65-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 38609,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-65-65p89k-65-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 39116,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 42119,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 40559,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 38999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-55-55p89k-55-inc",
+    "name": "TCL 55P89K P89K QLED TV",
+    "slug": "tcl-55-55p89k-55-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "rating": 4.7,
+    "reviewCount": 375,
+    "image": "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/p/p8k/id/65-55-1.png?t=1741760071014&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "QLED",
+      "144Hz Gerçek Yenileme Hızı",
+      "ONKYO 2.1 Hi-Fi Ses Sistemi"
+    ],
+    "tags": [
+      "TCL",
+      "QLED",
+      "55 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-55-55p89k-55-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 29057,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-55-55p89k-55-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-55-55p89k-55-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 29115,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-55-55p89k-55-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 29231,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-55-55p89k-55-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 28912,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-55-55p89k-55-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 28825,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-55-55p89k-55-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 28709,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-55-55p89k-55-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 29086,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 31319,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 30159,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 28999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-98-98c6k-98-inc",
+    "name": "TCL 98C6K TV C6K Premium QD-MiniLED TV",
+    "slug": "tcl-98-98c6k-98-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 149999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "rating": 4.9,
+    "reviewCount": 633,
+    "image": "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/98c6k/id/1.png?t=1750760867775&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "512 Bölgeye Kadar Hassas Karartma Serisi",
+      "Yüksek HDR Parlaklık",
+      "QLED"
+    ],
+    "tags": [
+      "TCL",
+      "QD-Mini LED",
+      "98 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-98-98c6k-98-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 150299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-98-98c6k-98-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 149999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-98-98c6k-98-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 150599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-98-98c6k-98-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 151199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-98-98c6k-98-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 149549,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-98-98c6k-98-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 149099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-98-98c6k-98-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 148499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-98-98c6k-98-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 150449,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 161999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 155999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 149999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 98,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-75-75c6k-75-inc",
+    "name": "TCL 75C6K TV C6K Premium QD-MiniLED TV",
+    "slug": "tcl-75-75c6k-75-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 64599,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "rating": 4.9,
+    "reviewCount": 495,
+    "image": "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg?t=1737536432173&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "512 Bölgeye Kadar Hassas Karartma Serisi",
+      "Yüksek HDR Parlaklık",
+      "QLED"
+    ],
+    "tags": [
+      "TCL",
+      "QD-Mini LED",
+      "75 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-75-75c6k-75-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 64728,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-75-75c6k-75-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 64599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-75-75c6k-75-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 64857,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-75-75c6k-75-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 65116,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-75-75c6k-75-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 64405,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-75-75c6k-75-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 64211,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-75-75c6k-75-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 63953,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-75-75c6k-75-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 64793,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 69767,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 67183,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 64599,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-65-65c6k-65-inc",
+    "name": "TCL 65C6K TV C6K Premium QD-MiniLED TV",
+    "slug": "tcl-65-65c6k-65-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 52784,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "rating": 4.7,
+    "reviewCount": 435,
+    "image": "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg?t=1737536432173&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "512 Bölgeye Kadar Hassas Karartma Serisi",
+      "Yüksek HDR Parlaklık",
+      "QLED"
+    ],
+    "tags": [
+      "TCL",
+      "QD-Mini LED",
+      "65 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-65-65c6k-65-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 52890,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-65-65c6k-65-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 52784,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-65-65c6k-65-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 52995,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-65-65c6k-65-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 53206,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-65-65c6k-65-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 52626,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-65-65c6k-65-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 52467,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-65-65c6k-65-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 52256,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-65-65c6k-65-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 52942,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 57007,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 54895,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 52784,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-tcl-55-55c6k-55-inc",
+    "name": "TCL 55C6K TV C6K Premium QD-MiniLED TV",
+    "slug": "tcl-55-55c6k-55-inc",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 36999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "rating": 4.7,
+    "reviewCount": 375,
+    "image": "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg?t=1737536432173&w=800&webp=true&dpr=1&rendition=2400",
+    "highlights": [
+      "512 Bölgeye Kadar Hassas Karartma Serisi",
+      "Yüksek HDR Parlaklık",
+      "QLED"
+    ],
+    "tags": [
+      "TCL",
+      "QD-Mini LED",
+      "55 İnç",
+      "Google TV",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-tcl-55-55c6k-55-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 37073,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-tcl-55-55c6k-55-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 36999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-tcl-55-55c6k-55-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 37147,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-tcl-55-55c6k-55-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 37295,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-tcl-55-55c6k-55-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 36888,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-tcl-55-55c6k-55-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 36777,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-tcl-55-55c6k-55-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 36629,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 910,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-tcl-55-55c6k-55-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 37110,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 160,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 39959,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 38479,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 36999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Master 2.0",
+        "FreeSync Premium Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
   }
 ];
