@@ -126,11 +126,12 @@ export interface TVSpecs {
   refreshRateHz: number;
   smartOs: 'Google TV' | 'webOS' | 'Tizen' | 'Android TV' | 'Vidaa' | 'Titan OS' | string;
   audioPowerWatts: number;
-  hdrSupport: string[];
-  gamingFeatures: string[];
-  hdmiPorts: number;
-  usbPorts: number;
-  energyClass: string;
+  hdrSupport?: string[];
+  hdrFormats?: string[];
+  gamingFeatures?: string[];
+  hdmiPorts?: number;
+  usbPorts?: number;
+  energyClass?: string;
   // Expanded exhaustive specifications
   processorEngine?: string;
   brightnessNits?: number;

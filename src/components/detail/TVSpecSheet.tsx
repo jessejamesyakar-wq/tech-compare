@@ -141,7 +141,7 @@ export function TVSpecSheet({ specs }: TVSpecSheetProps) {
               <div className="bg-slate-50 p-3 rounded-2xl border border-slate-200">
                 <span className="text-[10px] text-slate-500 font-bold uppercase block">HDR Formatları</span>
                 <div className="flex flex-wrap gap-1 mt-1">
-                  {specs.hdrSupport.map((hdr, idx) => (
+                  {(specs.hdrSupport || specs.hdrFormats || []).map((hdr, idx) => (
                     <span key={idx} className="bg-indigo-100 text-indigo-900 text-[10px] font-black px-2 py-0.5 rounded">
                       {hdr}
                     </span>

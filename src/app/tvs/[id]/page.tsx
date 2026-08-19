@@ -198,7 +198,7 @@ export default function TVDetailPage() {
             {tv.specs.screenSizeInches} inç {tv.specs.displayTech} paneli, {tv.specs.resolution} çözünürlük ve {tv.specs.refreshRateHz}Hz yenileme hızı.
           </p>
           <div className="flex flex-wrap gap-1.5 pt-2">
-            {tv.specs.hdrSupport.map((hdr, idx) => (
+            {(tv.specs.hdrSupport || tv.specs.hdrFormats || []).map((hdr, idx) => (
               <span key={idx} className="bg-slate-100 text-slate-800 text-[10px] font-bold px-2 py-0.5 rounded">
                 {hdr}
               </span>
@@ -212,10 +212,10 @@ export default function TVDetailPage() {
           </div>
           <h3 className="text-base font-extrabold text-slate-900">Oyun & HDMI 2.1 Performansı</h3>
           <p className="text-xs text-slate-500 leading-relaxed">
-            {tv.specs.hdmiPorts} adet HDMI girişi ile PlayStation 5 / Xbox Series X konsolları için mükemmel oyun desteği.
+            {tv.specs.hdmiPorts || 4} adet HDMI girişi ile PlayStation 5 / Xbox Series X konsolları için mükemmel oyun desteği.
           </p>
           <div className="flex flex-wrap gap-1.5 pt-2">
-            {tv.specs.gamingFeatures.map((gf, idx) => (
+            {(tv.specs.gamingFeatures || []).map((gf, idx) => (
               <span key={idx} className="bg-slate-100 text-slate-800 text-[10px] font-bold px-2 py-0.5 rounded">
                 {gf}
               </span>

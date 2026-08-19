@@ -18286,5 +18286,1392 @@ export const mockTVs: TVProduct[] = [
         "store": "LG Mağaza"
       }
     ]
+  },
+  {
+    "id": "lg-75qned93a6a",
+    "name": "LG 75QNED93A6A 75\" 190 Ekran 4K QNED MiniLED 144Hz webOS AI Smart TV (2026)",
+    "brand": "LG",
+    "slug": "lg-75qned93a6a",
+    "category": "tvs",
+    "basePrice": 128699,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 34,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1025406/k_lg-65qned93a6a-4.jpg",
+    "highlights": [
+      "75 İnç Dev Ekran",
+      "MiniLED & QNED Renk",
+      "40W RMS Güçlü Ses",
+      "Alpha 8 AI İşlemci Gen 2",
+      "webOS 26"
+    ],
+    "tags": [
+      "LG",
+      "75 inç",
+      "4K",
+      "MiniLED",
+      "QNED",
+      "144Hz",
+      "webOS",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QNED MiniLED",
+      "refreshRateHz": 144,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "audioPowerWatts": 40,
+      "audioChannels": "2.2 Kanal",
+      "smartOs": "webOS 26",
+      "energyClass": "E"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-75qned93a6a-1",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 128699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.lg.com/tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-01",
+        "price": 134999,
+        "store": "LG Resmi Mağaza"
+      },
+      {
+        "date": "2026-02",
+        "price": 128699,
+        "store": "LG Resmi Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-oled65b65la",
+    "name": "LG OLED65B65LA 65\" 165 Ekran 4K OLED evo 120Hz webOS Smart TV (2026)",
+    "brand": "LG",
+    "slug": "lg-oled65b65la",
+    "category": "tvs",
+    "basePrice": 89999,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 42,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1058551/k_lg-oled65b65la-1.jpg",
+    "highlights": [
+      "65 İnç OLED evo",
+      "Sonsuz Kontrast & Saf Siyah",
+      "120Hz Oyun Modu",
+      "webOS 26 Smart"
+    ],
+    "tags": [
+      "LG",
+      "65 inç",
+      "OLED",
+      "OLED evo",
+      "120Hz",
+      "webOS",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "OLED evo",
+      "refreshRateHz": 120,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "audioPowerWatts": 20,
+      "audioChannels": "2.0 Kanal",
+      "smartOs": "webOS 26",
+      "energyClass": "F"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-oled65b65la-1",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 89999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-oled65b65la-2",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 91499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-01",
+        "price": 94999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-02",
+        "price": 89999,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-86qned87b6a",
+    "name": "LG 86QNED87B6A 86\" 218 Ekran 4K QNED MiniLED 120Hz webOS TV (2026)",
+    "brand": "LG",
+    "slug": "lg-86qned87b6a",
+    "category": "tvs",
+    "basePrice": 143459,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 19,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1062664/k_lg-86qned87b6a-8806096749074-1.jpg",
+    "highlights": [
+      "Devasa 86 İnç Sinema Ekranı",
+      "QNED MiniLED",
+      "120Hz Hz",
+      "webOS 26"
+    ],
+    "tags": [
+      "LG",
+      "86 inç",
+      "4K",
+      "QNED",
+      "MiniLED",
+      "120Hz",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 86,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QNED MiniLED",
+      "refreshRateHz": 120,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10 Pro"
+      ],
+      "audioPowerWatts": 20,
+      "audioChannels": "2.0 Kanal",
+      "smartOs": "webOS 26",
+      "energyClass": "G"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-86qned87b6a-1",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 143459,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 143459,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "lg-86qned86a6a",
+    "name": "LG 86QNED86A6A 86\" 218 Ekran 4K QNED MiniLED 120Hz webOS TV (2026)",
+    "brand": "LG",
+    "slug": "lg-86qned86a6a",
+    "category": "tvs",
+    "basePrice": 138599,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 15,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1012463/k_lg-86qned86a6a-8806096435021-1.jpg",
+    "highlights": [
+      "86 İnç Sinema Ekranı",
+      "MiniLED QNED",
+      "webOS 26 AI"
+    ],
+    "tags": [
+      "LG",
+      "86 inç",
+      "4K",
+      "QNED",
+      "MiniLED",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 86,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QNED MiniLED",
+      "refreshRateHz": 120,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10 Pro"
+      ],
+      "audioPowerWatts": 20,
+      "smartOs": "webOS 26"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-86qned86a6a-1",
+        "storeName": "LG Store",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 138599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.lg.com/tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 138599,
+        "store": "LG Store"
+      }
+    ]
+  },
+  {
+    "id": "lg-65qned93a6a",
+    "name": "LG 65QNED93A6A 65\" 165 Ekran 4K QNED MiniLED 144Hz 40W webOS TV (2026)",
+    "brand": "LG",
+    "slug": "lg-65qned93a6a",
+    "category": "tvs",
+    "basePrice": 66497,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 28,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1029676/k_lg-65qned93a6a-4.jpg",
+    "highlights": [
+      "65 İnç MiniLED QNED",
+      "40W Güçlü Ses",
+      "144Hz Yenileme Hızı"
+    ],
+    "tags": [
+      "LG",
+      "65 inç",
+      "QNED",
+      "MiniLED",
+      "144Hz",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QNED MiniLED",
+      "refreshRateHz": 144,
+      "audioPowerWatts": 40,
+      "smartOs": "webOS 26"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-65qned93a6a-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 66497,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 66497,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-oled55b65la",
+    "name": "LG OLED55B65LA 55\" 139 Ekran 4K OLED evo 120Hz webOS Smart TV (2026)",
+    "brand": "LG",
+    "slug": "lg-oled55b65la",
+    "category": "tvs",
+    "basePrice": 72163,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 38,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1061938/k_lg-oled55b65la-8806096774304-2.jpg",
+    "highlights": [
+      "55 İnç OLED evo",
+      "Gerçek Siyah & Sınırsız Kontrast",
+      "120Hz Oyun"
+    ],
+    "tags": [
+      "LG",
+      "55 inç",
+      "OLED",
+      "120Hz",
+      "webOS",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "OLED evo",
+      "refreshRateHz": 120,
+      "audioPowerWatts": 20,
+      "smartOs": "webOS 26"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-oled55b65la-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 72163,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 72163,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-75qned87b6a",
+    "name": "LG 75QNED87B6A 75\" 190 Ekran 4K QNED MiniLED 120Hz webOS TV (2026)",
+    "brand": "LG",
+    "slug": "lg-75qned87b6a",
+    "category": "tvs",
+    "basePrice": 89219,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 22,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1058550/k_lg-75qned87b6a-7.jpg",
+    "highlights": [
+      "75 İnç Geniş Ekran",
+      "QNED MiniLED",
+      "120Hz webOS 26"
+    ],
+    "tags": [
+      "LG",
+      "75 inç",
+      "QNED",
+      "120Hz",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QNED MiniLED",
+      "refreshRateHz": 120,
+      "audioPowerWatts": 20,
+      "smartOs": "webOS 26"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-75qned87b6a-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 89219,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 89219,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "lg-75qned86a6a",
+    "name": "LG 75QNED86A6A 75\" 190 Ekran 4K QNED MiniLED 120Hz webOS TV (2026)",
+    "brand": "LG",
+    "slug": "lg-75qned86a6a",
+    "category": "tvs",
+    "basePrice": 81809,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 17,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1012464/k_lg-75qned86a6a-8806096431665-4.jpg",
+    "highlights": [
+      "75 İnç QNED",
+      "120Hz Yenileme Hızı",
+      "webOS 26"
+    ],
+    "tags": [
+      "LG",
+      "75 inç",
+      "QNED",
+      "120Hz",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QNED MiniLED",
+      "refreshRateHz": 120,
+      "audioPowerWatts": 20,
+      "smartOs": "webOS 26"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-75qned86a6a-1",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 81809,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 81809,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "lg-oled55b56la",
+    "name": "LG OLED55B56LA 55\" 139 Ekran 4K OLED 120Hz webOS Smart TV (2025)",
+    "brand": "LG",
+    "slug": "lg-oled55b56la",
+    "category": "tvs",
+    "basePrice": 76399,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 45,
+    "releaseYear": 2025,
+    "image": "https://resim.epey.com/1011769/k_lg-oled55b56la-8806096431672-1.jpg",
+    "highlights": [
+      "55 İnç Saf OLED",
+      "120Hz Akıcı Oyun",
+      "webOS 25"
+    ],
+    "tags": [
+      "LG",
+      "55 inç",
+      "OLED",
+      "120Hz",
+      "2025"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "OLED",
+      "refreshRateHz": 120,
+      "audioPowerWatts": 20,
+      "smartOs": "webOS 25"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-oled55b56la-1",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 76399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 76399,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-65qned9ma6b",
+    "name": "LG 65QNED9MA6B 65\" 165 Ekran 4K QNED MiniLED 120Hz Smart TV (2026)",
+    "brand": "LG",
+    "slug": "lg-65qned9ma6b",
+    "category": "tvs",
+    "basePrice": 71249,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 20,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1020364/k_lg-65qned9ma6b-6.jpg",
+    "highlights": [
+      "65 İnç QNED MiniLED",
+      "Alpha 8 AI İşlemci",
+      "webOS 26"
+    ],
+    "tags": [
+      "LG",
+      "65 inç",
+      "QNED",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QNED MiniLED",
+      "refreshRateHz": 120,
+      "audioPowerWatts": 20,
+      "smartOs": "webOS 26"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-65qned9ma6b-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 71249,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 71249,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "lg-65qned87b6a",
+    "name": "LG 65QNED87B6A 65\" 165 Ekran 4K QNED MiniLED 120Hz webOS TV (2026)",
+    "brand": "LG",
+    "slug": "lg-65qned87b6a",
+    "category": "tvs",
+    "basePrice": 69766,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 31,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1058491/k_lg-65qned87b6a-1.jpg",
+    "highlights": [
+      "65 İnç MiniLED QNED",
+      "120Hz Tazeleme",
+      "webOS 26"
+    ],
+    "tags": [
+      "LG",
+      "65 inç",
+      "QNED",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QNED MiniLED",
+      "refreshRateHz": 120,
+      "audioPowerWatts": 20,
+      "smartOs": "webOS 26"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-65qned87b6a-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 69766,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 69766,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-65qned86a6a",
+    "name": "LG 65QNED86A6A 65\" 165 Ekran 4K QNED MiniLED 120Hz webOS TV (2026)",
+    "brand": "LG",
+    "slug": "lg-65qned86a6a",
+    "category": "tvs",
+    "basePrice": 69111,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 16,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1012465/k_lg-65qned86a6a-8806096431627-1.jpg",
+    "highlights": [
+      "65 İnç QNED",
+      "120Hz Oyun Desteği",
+      "webOS 26"
+    ],
+    "tags": [
+      "LG",
+      "65 inç",
+      "QNED",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QNED MiniLED",
+      "refreshRateHz": 120,
+      "audioPowerWatts": 20,
+      "smartOs": "webOS 26"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-65qned86a6a-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 69111,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 69111,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-85qned81b6a",
+    "name": "LG 85QNED81B6A 85\" 215 Ekran 4K QNED MiniLED 120Hz Smart TV (2026)",
+    "brand": "LG",
+    "slug": "lg-85qned81b6a",
+    "category": "tvs",
+    "basePrice": 109349,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 14,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1062665/k_lg-85qned81b6a-1.jpg",
+    "highlights": [
+      "85 İnç Dev QNED",
+      "120Hz Yenileme",
+      "webOS 26"
+    ],
+    "tags": [
+      "LG",
+      "85 inç",
+      "QNED",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QNED MiniLED",
+      "refreshRateHz": 120,
+      "audioPowerWatts": 20,
+      "smartOs": "webOS 26"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-85qned81b6a-1",
+        "storeName": "LG Store",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 109349,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.lg.com/tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 109349,
+        "store": "LG Store"
+      }
+    ]
+  },
+  {
+    "id": "lg-85qned70b6a",
+    "name": "LG 85QNED70B6A 85\" 215 Ekran 4K QNED 60Hz webOS Smart TV (2026)",
+    "brand": "LG",
+    "slug": "lg-85qned70b6a",
+    "category": "tvs",
+    "basePrice": 79199,
+    "currency": "TL",
+    "rating": 4.4,
+    "reviewCount": 18,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1058487/k_lg-85qned70b6a-7.jpg",
+    "highlights": [
+      "85 İnç Dev Ekran",
+      "QNED Canlı Renkler",
+      "webOS 26"
+    ],
+    "tags": [
+      "LG",
+      "85 inç",
+      "QNED",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QNED",
+      "refreshRateHz": 60,
+      "audioPowerWatts": 20,
+      "smartOs": "webOS 26"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-85qned70b6a-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 79199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 79199,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "lg-55qned87b6a",
+    "name": "LG 55QNED87B6A 55\" 139 Ekran 4K QNED MiniLED 120Hz webOS TV (2026)",
+    "brand": "LG",
+    "slug": "lg-55qned87b6a",
+    "category": "tvs",
+    "basePrice": 54999,
+    "currency": "TL",
+    "rating": 4.4,
+    "reviewCount": 26,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1058532/k_lg-55qned87b6a-1.jpg",
+    "highlights": [
+      "55 İnç MiniLED QNED",
+      "120Hz Oyun",
+      "webOS 26"
+    ],
+    "tags": [
+      "LG",
+      "55 inç",
+      "QNED",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QNED MiniLED",
+      "refreshRateHz": 120,
+      "audioPowerWatts": 20,
+      "smartOs": "webOS 26"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-55qned87b6a-1",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 54999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 54999,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "lg-75qned81b6a",
+    "name": "LG 75QNED81B6A 75\" 190 Ekran 4K QNED MiniLED 120Hz TV (2026)",
+    "brand": "LG",
+    "slug": "lg-75qned81b6a",
+    "category": "tvs",
+    "basePrice": 62999,
+    "currency": "TL",
+    "rating": 4.3,
+    "reviewCount": 21,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1062935/k_lg-75qned81b6a-1.jpg",
+    "highlights": [
+      "75 İnç QNED",
+      "120Hz",
+      "webOS 26"
+    ],
+    "tags": [
+      "LG",
+      "75 inç",
+      "QNED",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QNED MiniLED",
+      "refreshRateHz": 120,
+      "audioPowerWatts": 20,
+      "smartOs": "webOS 26"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-75qned81b6a-1",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 62999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 62999,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-75qned7eb3a",
+    "name": "LG 75QNED7EB3A 75\" 190 Ekran 4K QNED 60Hz webOS Smart TV (2026)",
+    "brand": "LG",
+    "slug": "lg-75qned7eb3a",
+    "category": "tvs",
+    "basePrice": 63599,
+    "currency": "TL",
+    "rating": 4.3,
+    "reviewCount": 15,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1058489/k_lg-75qned7eb3a-1.jpg",
+    "highlights": [
+      "75 İnç QNED Ekran",
+      "webOS 26 AI"
+    ],
+    "tags": [
+      "LG",
+      "75 inç",
+      "QNED",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QNED",
+      "refreshRateHz": 60,
+      "audioPowerWatts": 20,
+      "smartOs": "webOS 26"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-75qned7eb3a-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 63599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 63599,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "lg-75qned70b6a",
+    "name": "LG 75QNED70B6A 75\" 190 Ekran 4K QNED 60Hz webOS TV (2026)",
+    "brand": "LG",
+    "slug": "lg-75qned70b6a",
+    "category": "tvs",
+    "basePrice": 59129,
+    "currency": "TL",
+    "rating": 4.3,
+    "reviewCount": 23,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1058486/k_lg-75qned70b6a-7.jpg",
+    "highlights": [
+      "75 İnç QNED",
+      "webOS 26"
+    ],
+    "tags": [
+      "LG",
+      "75 inç",
+      "QNED",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QNED",
+      "refreshRateHz": 60,
+      "audioPowerWatts": 20,
+      "smartOs": "webOS 26"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-75qned70b6a-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 59129,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 59129,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-55qned86a6a",
+    "name": "LG 55QNED86A6A 55\" 139 Ekran 4K QNED MiniLED 120Hz webOS TV (2026)",
+    "brand": "LG",
+    "slug": "lg-55qned86a6a",
+    "category": "tvs",
+    "basePrice": 47046,
+    "currency": "TL",
+    "rating": 4.2,
+    "reviewCount": 19,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1012982/k_lg-55qned86a6a-5.jpg",
+    "highlights": [
+      "55 İnç QNED MiniLED",
+      "120Hz",
+      "webOS 26"
+    ],
+    "tags": [
+      "LG",
+      "55 inç",
+      "QNED",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QNED MiniLED",
+      "refreshRateHz": 120,
+      "audioPowerWatts": 20,
+      "smartOs": "webOS 26"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-55qned86a6a-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 47046,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.amazon.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 47046,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-86qned82a6b",
+    "name": "LG 86QNED82A6B 86\" 218 Ekran 4K QNED 120Hz Smart TV (2026)",
+    "brand": "LG",
+    "slug": "lg-86qned82a6b",
+    "category": "tvs",
+    "basePrice": 93099,
+    "currency": "TL",
+    "rating": 4.2,
+    "reviewCount": 12,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1032648/k_lg-75qned82a6b-1.jpg",
+    "highlights": [
+      "86 İnç Sinema Ekranı",
+      "120Hz",
+      "webOS 26"
+    ],
+    "tags": [
+      "LG",
+      "86 inç",
+      "QNED",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 86,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QNED",
+      "refreshRateHz": 120,
+      "audioPowerWatts": 20,
+      "smartOs": "webOS 26"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-86qned82a6b-1",
+        "storeName": "LG Store",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 93099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.lg.com/tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 93099,
+        "store": "LG Store"
+      }
+    ]
+  },
+  {
+    "id": "lg-65qned81b6a",
+    "name": "LG 65QNED81B6A 65\" 165 Ekran 4K QNED MiniLED 120Hz webOS TV (2026)",
+    "brand": "LG",
+    "slug": "lg-65qned81b6a",
+    "category": "tvs",
+    "basePrice": 51649,
+    "currency": "TL",
+    "rating": 4.1,
+    "reviewCount": 25,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1058534/k_lg-65qned81b6a-1.jpg",
+    "highlights": [
+      "65 İnç QNED",
+      "120Hz",
+      "webOS 26"
+    ],
+    "tags": [
+      "LG",
+      "65 inç",
+      "QNED",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QNED MiniLED",
+      "refreshRateHz": 120,
+      "audioPowerWatts": 20,
+      "smartOs": "webOS 26"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-65qned81b6a-1",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 51649,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 51649,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-65qned7eb3c",
+    "name": "LG 65QNED7EB3C 65\" 165 Ekran 4K QNED 60Hz Smart TV (2026)",
+    "brand": "LG",
+    "slug": "lg-65qned7eb3c",
+    "category": "tvs",
+    "basePrice": 50715,
+    "currency": "TL",
+    "rating": 4.1,
+    "reviewCount": 14,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1064327/k_lg-65qned7eb3c-1.jpg",
+    "highlights": [
+      "65 İnç QNED",
+      "webOS 26 AI"
+    ],
+    "tags": [
+      "LG",
+      "65 inç",
+      "QNED",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QNED",
+      "refreshRateHz": 60,
+      "audioPowerWatts": 20,
+      "smartOs": "webOS 26"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-65qned7eb3c-1",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 50715,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 50715,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "lg-65qned70b6c",
+    "name": "LG 65QNED70B6C 65\" 165 Ekran 4K QNED 60Hz Smart TV (2026)",
+    "brand": "LG",
+    "slug": "lg-65qned70b6c",
+    "category": "tvs",
+    "basePrice": 47818,
+    "currency": "TL",
+    "rating": 4.1,
+    "reviewCount": 30,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1058479/k_lg-65qned70b6c-8.jpg",
+    "highlights": [
+      "65 İnç QNED",
+      "webOS 26"
+    ],
+    "tags": [
+      "LG",
+      "65 inç",
+      "QNED",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QNED",
+      "refreshRateHz": 60,
+      "audioPowerWatts": 20,
+      "smartOs": "webOS 26"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-65qned70b6c-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 47818,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 47818,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "lg-85nu900b6la",
+    "name": "LG 85NU900B6LA 85\" 215 Ekran 4K Nanocell 60Hz webOS TV (2026)",
+    "brand": "LG",
+    "slug": "lg-85nu900b6la",
+    "category": "tvs",
+    "basePrice": 70560,
+    "currency": "TL",
+    "rating": 4,
+    "reviewCount": 22,
+    "releaseYear": 2026,
+    "image": "https://resim.epey.com/1058399/k_lg-85nu900b6la-7.jpg",
+    "highlights": [
+      "85 İnç NanoCell Ekran",
+      "webOS 26 AI"
+    ],
+    "tags": [
+      "LG",
+      "85 inç",
+      "4K",
+      "NanoCell",
+      "2026"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "LED NanoCell",
+      "refreshRateHz": 60,
+      "audioPowerWatts": 20,
+      "smartOs": "webOS 26"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-85nu900b6la-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "bg-emerald-600",
+        "price": 70560,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 100,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 70560,
+        "store": "Teknosa"
+      }
+    ]
   }
 ];
