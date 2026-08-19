@@ -247,6 +247,29 @@ export default function HomePage() {
     return mixed.slice(0, 20);
   };
 
+  const allDiscountedProducts = React.useMemo(() => {
+    const all = [...allPhones, ...allTVs];
+    return all.filter((p) => {
+      if (p.priceHistory && p.priceHistory.length > 1) {
+        const last = p.priceHistory[p.priceHistory.length - 1].price;
+        const first = p.priceHistory[0].price;
+        if (last < first) return true;
+      }
+      if (
+        p.storeOffers &&
+        p.storeOffers.some(
+          (o) =>
+            o.subsidyPrice ||
+            o.bundlePromotion ||
+            (o.badges && o.badges.some((b) => b.toLowerCase().includes('fırsat') || b.toLowerCase().includes('indirim')))
+        )
+      ) {
+        return true;
+      }
+      return Boolean(p.isPopular || p.isFeatured || (p.rating && p.rating >= 4.5));
+    });
+  }, [allPhones, allTVs]);
+
   const mixedDiscountGrid = getMixedDiscountedProducts();
   const bestSellerCarouselList = getBestSellerCarouselProducts();
 
@@ -520,7 +543,7 @@ export default function HomePage() {
             href="/phones"
             className="inline-flex items-center gap-2 bg-white hover:bg-slate-50 text-slate-900 font-extrabold text-xs px-8 py-3.5 rounded-full border border-slate-200 shadow-xs transition-all hover:border-emerald-500 cursor-pointer"
           >
-            <span>Tüm Fırsat Kataloğunu İncele ({totalCatalogCount > 0 ? totalCatalogCount.toLocaleString('tr-TR') : '1.050+'} Ürün)</span>
+            <span>Tüm Fırsat Kataloğunu İncele ({allDiscountedProducts.length > 0 ? allDiscountedProducts.length.toLocaleString('tr-TR') : mixedDiscountGrid.length} Ürün)</span>
             <ArrowRight className="w-4 h-4 text-emerald-600" />
           </Link>
         </div>
