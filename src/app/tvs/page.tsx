@@ -278,17 +278,15 @@ export default function TVCatalogPage() {
                 inchDisplay = `${inchesNum}" (${cmVal} cm)`;
               }
 
-              let nameWithoutBrand = tv.name;
-              if (nameWithoutBrand.toLowerCase().startsWith(tv.brand.toLowerCase())) {
-                nameWithoutBrand = nameWithoutBrand.substring(tv.brand.length).trim();
+              modelCode = tv.name;
+              if (modelCode.toLowerCase().startsWith(tv.brand.toLowerCase())) {
+                modelCode = modelCode.substring(tv.brand.length).trim();
               }
-
-              const inchIndex = nameWithoutBrand.search(/\b\d+(?:\.\d+)?"/);
-              if (inchIndex > 0) {
-                modelCode = nameWithoutBrand.substring(0, inchIndex).trim();
-              } else {
-                modelCode = nameWithoutBrand.split(' ')[0] || tv.name;
-              }
+              // Remove leading inch prefix if present e.g. 83" or 83 inç
+              modelCode = modelCode.replace(/^\d+(?:\.\d+)?(?:["\s]|inç|ekran)+\s*/i, '');
+              // Clean duplicate brand tokens
+              modelCode = modelCode.replace(new RegExp(`\\b${tv.brand}\\b`, 'gi'), '').replace(/\s+/g, ' ').trim();
+              if (!modelCode) modelCode = tv.name;
 
               return (
                 <div
@@ -339,10 +337,10 @@ export default function TVCatalogPage() {
                       {inchDisplay}
                     </div>
 
-                    {/* Model Code Single Line */}
+                    {/* Model Code & Series Line */}
                     <div
-                      className="text-slate-900 font-black text-[11px] truncate w-full px-1 tracking-tighter leading-tight"
-                      title={modelCode}
+                      className="text-slate-900 font-bold text-[11px] line-clamp-2 w-full px-1 tracking-tight leading-snug my-0.5 min-h-[28px] flex items-center justify-center text-center"
+                      title={tv.name}
                     >
                       {modelCode}
                     </div>

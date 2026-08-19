@@ -4,7 +4,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-83-oled83c6elb",
     "slug": "lg-83-oled83c6elb-83-inc",
-    "name": "83\" LG OLED83C6ELB LG OLED evo AI C6E 4K 165Hz VRR Smart TV (2026)",
+    "name": "LG OLED83C6ELB OLED evo AI C6E 4K 165Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -116,7 +116,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-77-oled77c6elb",
     "slug": "lg-77-oled77c6elb-77-inc",
-    "name": "77\" LG OLED77C6ELB LG OLED evo AI C6E 4K 165Hz VRR Smart TV (2026)",
+    "name": "LG OLED77C6ELB OLED evo AI C6E 4K 165Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -228,7 +228,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-65-oled65c6elb",
     "slug": "lg-65-oled65c6elb-65-inc",
-    "name": "65\" LG OLED65C6ELB LG OLED evo AI C6E 4K 165Hz VRR Smart TV (2026)",
+    "name": "LG OLED65C6ELB OLED evo AI C6E 4K 165Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -340,7 +340,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-55-oled55c6elb",
     "slug": "lg-55-oled55c6elb-55-inc",
-    "name": "55\" LG OLED55C6ELB LG OLED evo AI C6E 4K 165Hz VRR Smart TV (2026)",
+    "name": "LG OLED55C6ELB OLED evo AI C6E 4K 165Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -452,7 +452,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-48-oled48c6elb",
     "slug": "lg-48-oled48c6elb-48-inc",
-    "name": "48\" LG OLED48C6ELB LG OLED evo AI C6E 4K 165Hz VRR Smart TV (2026)",
+    "name": "LG OLED48C6ELB OLED evo AI C6E 4K 165Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -564,7 +564,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-83-oled83c64la",
     "slug": "lg-83-oled83c64la-83-inc",
-    "name": "83\" LG OLED83C64LA LG OLED evo AI C6 4K 165Hz VRR Smart TV (2026)",
+    "name": "LG OLED83C64LA OLED evo AI C6 4K 165Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -675,7 +675,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-77-oled77c64la",
     "slug": "lg-77-oled77c64la-77-inc",
-    "name": "77\" LG OLED77C64LA LG OLED evo AI C6 4K 165Hz VRR Smart TV (2026)",
+    "name": "LG OLED77C64LA OLED evo AI C6 4K 165Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -786,7 +786,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-65-oled65c64la",
     "slug": "lg-65-oled65c64la-65-inc",
-    "name": "65\" LG OLED65C64LA LG OLED evo AI C6 4K 165Hz VRR Smart TV (2026)",
+    "name": "LG OLED65C64LA OLED evo AI C6 4K 165Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -897,7 +897,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-55-oled55c64la",
     "slug": "lg-55-oled55c64la-55-inc",
-    "name": "55\" LG OLED55C64LA LG OLED evo AI C6 4K 165Hz VRR Smart TV (2026)",
+    "name": "LG OLED55C64LA OLED evo AI C6 4K 165Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -1008,7 +1008,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-77-oled77b65la",
     "slug": "lg-77-oled77b65la-77-inc",
-    "name": "77\" LG OLED77B65LA LG OLED AI B6 4K 120Hz VRR Smart TV (2026)",
+    "name": "LG OLED77B65LA OLED AI B6 4K 120Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled/b6/gp1/gallery/77-b6/gallery/450-77.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -1119,7 +1119,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-65-oled65b65la",
     "slug": "lg-65-oled65b65la-65-inc",
-    "name": "65\" LG OLED65B65LA LG OLED AI B6 4K 120Hz VRR Smart TV (2026)",
+    "name": "LG OLED65B65LA OLED AI B6 4K 120Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled/b6/gp1/gallery/77-b6/gallery/450-77.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -1230,7 +1230,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-55-oled55b65la",
     "slug": "lg-55-oled55b65la-55-inc",
-    "name": "55\" LG OLED55B65LA LG OLED AI B6 4K 120Hz VRR Smart TV (2026)",
+    "name": "LG OLED55B65LA OLED AI B6 4K 120Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled/b6/gp1/gallery/77-b6/gallery/450-77.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -1341,7 +1341,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-85-85qned81b6a",
     "slug": "lg-85-85qned81b6a-85-inc",
-    "name": "85\" LG 85QNED81B6A LG QNED evo AI QNED81B MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 85QNED81B6A QNED evo AI QNED81B MiniLED 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1-v1-00/gp1/gallery/65-qned80/gallery/lg-qned-evo-qned81_8eb-2026-65-basic-01-product-front-usp.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -1452,7 +1452,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-75-75qned81b6a",
     "slug": "lg-75-75qned81b6a-75-inc",
-    "name": "75\" LG 75QNED81B6A LG QNED evo AI QNED81B MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 75QNED81B6A QNED evo AI QNED81B MiniLED 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1-v1-00/gp1/gallery/65-qned80/gallery/lg-qned-evo-qned81_8eb-2026-65-basic-01-product-front-usp.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -1563,7 +1563,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-65-65qned81b6a",
     "slug": "lg-65-65qned81b6a-65-inc",
-    "name": "65\" LG 65QNED81B6A LG QNED evo AI QNED81B MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 65QNED81B6A QNED evo AI QNED81B MiniLED 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1-v1-00/gp1/gallery/65-qned80/gallery/lg-qned-evo-qned81_8eb-2026-65-basic-01-product-front-usp.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -1674,7 +1674,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-55-55qned81b6a",
     "slug": "lg-55-55qned81b6a-55-inc",
-    "name": "55\" LG 55QNED81B6A LG QNED evo AI QNED81B MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 55QNED81B6A QNED evo AI QNED81B MiniLED 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1-v1-00/gp1/gallery/65-qned80/gallery/lg-qned-evo-qned81_8eb-2026-65-basic-01-product-front-usp.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -1785,7 +1785,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-85-85qned8eb3a",
     "slug": "lg-85-85qned8eb3a-85-inc",
-    "name": "85\" LG 85QNED8EB3A LG QNED AI QNED8E MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 85QNED8EB3A QNED AI QNED8E MiniLED 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1/gallery/85-qned80/gallery/lg-qned-evo-qned81_8eb-2026-85-basic-01-product-front-usp.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -1896,7 +1896,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-75-75qned8eb3a",
     "slug": "lg-75-75qned8eb3a-75-inc",
-    "name": "75\" LG 75QNED8EB3A LG QNED AI QNED8E MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 75QNED8EB3A QNED AI QNED8E MiniLED 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1/gallery/85-qned80/gallery/lg-qned-evo-qned81_8eb-2026-85-basic-01-product-front-usp.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -2007,7 +2007,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-65-65qned8eb3b",
     "slug": "lg-65-65qned8eb3b-65-inc",
-    "name": "65\" LG 65QNED8EB3B LG QNED AI QNED8E MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 65QNED8EB3B QNED AI QNED8E MiniLED 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1/gallery/85-qned80/gallery/lg-qned-evo-qned81_8eb-2026-85-basic-01-product-front-usp.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -2118,7 +2118,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-55-55qned8eb3b",
     "slug": "lg-55-55qned8eb3b-55-inc",
-    "name": "55\" LG 55QNED8EB3B LG QNED AI QNED8E MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 55QNED8EB3B QNED AI QNED8E MiniLED 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1/gallery/85-qned80/gallery/lg-qned-evo-qned81_8eb-2026-85-basic-01-product-front-usp.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -2229,7 +2229,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-85-85nu900b6la",
     "slug": "lg-85-85nu900b6la-85-inc",
-    "name": "85\" LG 85NU900B6LA LG NANO UHD AI NU90 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 85NU900B6LA NANO UHD AI NU90 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/85-nu85/basic/lg-nano-4k-uhd-nu85-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -2339,7 +2339,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-75-75nu900b6la",
     "slug": "lg-75-75nu900b6la-75-inc",
-    "name": "75\" LG 75NU900B6LA LG NANO UHD AI NU90 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 75NU900B6LA NANO UHD AI NU90 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/85-nu85/basic/lg-nano-4k-uhd-nu85-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -2449,7 +2449,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-65-65nu900b6la",
     "slug": "lg-65-65nu900b6la-65-inc",
-    "name": "65\" LG 65NU900B6LA LG NANO UHD AI NU90 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 65NU900B6LA NANO UHD AI NU90 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/85-nu85/basic/lg-nano-4k-uhd-nu85-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -2559,7 +2559,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-55-55nu900b6la",
     "slug": "lg-55-55nu900b6la-55-inc",
-    "name": "55\" LG 55NU900B6LA LG NANO UHD AI NU90 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 55NU900B6LA NANO UHD AI NU90 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/85-nu85/basic/lg-nano-4k-uhd-nu85-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -2669,7 +2669,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-50-50nu900b6la",
     "slug": "lg-50-50nu900b6la-50-inc",
-    "name": "50\" LG 50NU900B6LA LG NANO UHD AI NU90 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 50NU900B6LA NANO UHD AI NU90 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/85-nu85/basic/lg-nano-4k-uhd-nu85-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -2779,7 +2779,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-85-85qned70b6a",
     "slug": "lg-85-85qned70b6a-85-inc",
-    "name": "85\" LG 85QNED70B6A LG QNED AI QNED70B MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 85QNED70B6A QNED AI QNED70B MiniLED 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned/qned70/gp1/gallery/85-qned70/basic/lg-qned-qned70-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -2889,7 +2889,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-75-75qned70b6a",
     "slug": "lg-75-75qned70b6a-75-inc",
-    "name": "75\" LG 75QNED70B6A LG QNED AI QNED70B MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 75QNED70B6A QNED AI QNED70B MiniLED 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned/qned70/gp1/gallery/85-qned70/basic/lg-qned-qned70-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -2999,7 +2999,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-65-65qned7eb3c",
     "slug": "lg-65-65qned7eb3c-65-inc",
-    "name": "65\" LG 65QNED7EB3C LG QNED AI QNED70B MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 65QNED7EB3C QNED AI QNED70B MiniLED 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned/qned70/gp1/gallery/85-qned70/basic/lg-qned-qned70-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -3109,7 +3109,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-55-55qned7eb3c",
     "slug": "lg-55-55qned7eb3c-55-inc",
-    "name": "55\" LG 55QNED7EB3C LG QNED AI QNED70B MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 55QNED7EB3C QNED AI QNED70B MiniLED 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned/qned70/gp1/gallery/85-qned70/basic/lg-qned-qned70-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -3219,7 +3219,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-50-50qned70b6c",
     "slug": "lg-50-50qned70b6c-50-inc",
-    "name": "50\" LG 50QNED70B6C LG QNED AI QNED70B MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 50QNED70B6C QNED AI QNED70B MiniLED 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned/qned70/gp1/gallery/85-qned70/basic/lg-qned-qned70-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -3329,7 +3329,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-85-85nu8e0b3la",
     "slug": "lg-85-85nu8e0b3la-85-inc",
-    "name": "85\" LG 85NU8E0B3LA LG NANO UHD AI NU8E 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 85NU8E0B3LA NANO UHD AI NU8E 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/50-nu85/basic/lg-nano-4k-uhd-nu85-2026-50-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -3439,7 +3439,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-75-75nu8e0b3la",
     "slug": "lg-75-75nu8e0b3la-75-inc",
-    "name": "75\" LG 75NU8E0B3LA LG NANO UHD AI NU8E 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 75NU8E0B3LA NANO UHD AI NU8E 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/50-nu85/basic/lg-nano-4k-uhd-nu85-2026-50-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -3549,7 +3549,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-65-65nu8e0b3la",
     "slug": "lg-65-65nu8e0b3la-65-inc",
-    "name": "65\" LG 65NU8E0B3LA LG NANO UHD AI NU8E 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 65NU8E0B3LA NANO UHD AI NU8E 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/50-nu85/basic/lg-nano-4k-uhd-nu85-2026-50-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -3659,7 +3659,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-55-55nu8e0b3la",
     "slug": "lg-55-55nu8e0b3la-55-inc",
-    "name": "55\" LG 55NU8E0B3LA LG NANO UHD AI NU8E 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 55NU8E0B3LA NANO UHD AI NU8E 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/50-nu85/basic/lg-nano-4k-uhd-nu85-2026-50-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
@@ -3769,7 +3769,7 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-50-50nu8e0b3la",
     "slug": "lg-50-50nu8e0b3la-50-inc",
-    "name": "50\" LG 50NU8E0B3LA LG NANO UHD AI NU8E 4K 60Hz VRR Smart TV (2026)",
+    "name": "LG 50NU8E0B3LA NANO UHD AI NU8E 4K 60Hz VRR Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/50-nu85/basic/lg-nano-4k-uhd-nu85-2026-50-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
