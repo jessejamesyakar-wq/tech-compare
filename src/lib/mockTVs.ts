@@ -25171,9 +25171,12 @@ export const mockTVs: TVProduct[] = [
     "reviewCount": 633,
     "image": "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/p/98p8l/id/98-1.png?t=1765963077569&w=800&webp=true&dpr=1&rendition=2400",
     "highlights": [
-      "512 Bölgeye Kadar Hassas Karartma Serisi",
-      "Yüksek HDR Parlaklığı",
-      "ONKYO 2.1 Hi-Fi Ses Sistemi"
+      "22-bit Arkadan Aydınlatma",
+      "AI Sanat Galerisi",
+      "AI Oyun Asistanı",
+      "144Hz VRR",
+      "Dolby Atmos",
+      "ONKYO 2.1 Sound"
     ],
     "tags": [
       "TCL",
@@ -25324,7 +25327,8 @@ export const mockTVs: TVProduct[] = [
       "hdrSupport": [
         "Dolby Vision IQ",
         "HDR10+",
-        "HLG"
+        "HLG",
+        "Dolby Atmos"
       ],
       "hdrFormats": [
         "Dolby Vision IQ",
@@ -25334,8 +25338,9 @@ export const mockTVs: TVProduct[] = [
       "gamingFeatures": [
         "144Hz VRR",
         "ALLM",
-        "Game Master 2.0",
-        "FreeSync Premium Pro"
+        "AI Gaming Agent",
+        "Game Master Pro 3.0",
+        "HDMI 2.1"
       ],
       "hdmiPorts": 4,
       "usbPorts": 2,
@@ -30336,5 +30341,266 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "G"
     }
+  },
+  {
+    "id": "tcl-115x955-max",
+    "name": "TCL 115X955 Max 115\" 4K QD-Mini LED TV",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 499999,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "image": "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/x/115x955/toolkits/product-card.png?t=1706147339629&w=800",
+    "slug": "tcl-115x955-max-115-inch-qd-mini-led-tv",
+    "specs": {
+      "screenSizeInches": 115,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 120,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "Game Bar",
+        "AMD FreeSync Premium Pro",
+        "HDMI 2.1 x4"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "text-blue-600",
+        "price": 499999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum",
+          "Resmi Distribütör Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 320,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "text-red-600",
+        "price": 504999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 290,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 519999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 499999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "highlights": [
+      "115 inç Dev Ekran",
+      "20.000+ Hassas Karartma Bölgesi",
+      "5.000 Nit HDR Parlaklık",
+      "ONKYO 6.2.2 Hi-Fi Ses",
+      "144Hz VRR"
+    ],
+    "tags": [
+      "115 inç",
+      "QD-Mini LED",
+      "Amiral Gemisi",
+      "144Hz",
+      "ONKYO 6.2.2",
+      "2026"
+    ],
+    "rating": 4.8,
+    "reviewCount": 120,
+    "currency": "TL"
+  },
+  {
+    "id": "tcl-85c7k-qd-mini-led",
+    "name": "TCL 85C7K 85\" 4K QD-Mini LED TV",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 89999,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "image": "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/region/de/nav/quick-link-c7k.jpg?t=1767073426155&w=800",
+    "slug": "tcl-85c7k-85-inch-qd-mini-led-tv",
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "text-blue-600",
+        "price": 89999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 180,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "text-orange-500",
+        "price": 90999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 150,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 94999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 89999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "highlights": [
+      "QD-Mini LED",
+      "All Round TV",
+      "Excellent Visual and Audio",
+      "144Hz VRR",
+      "Google TV"
+    ],
+    "tags": [
+      "85 inç",
+      "QD-Mini LED",
+      "C7K",
+      "144Hz",
+      "2026"
+    ],
+    "rating": 4.8,
+    "reviewCount": 120,
+    "currency": "TL"
+  },
+  {
+    "id": "tcl-65c6ks-qd-mini-led-slim",
+    "name": "TCL 65C6KS 65\" Ultra Slim QD-Mini LED TV",
+    "brand": "TCL",
+    "category": "tvs",
+    "basePrice": 46999,
+    "releaseYear": 2026,
+    "isPopular": false,
+    "image": "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/region/de/nav/quick-link-c6k.jpg?t=1767073426380&w=800",
+    "slug": "tcl-65c6ks-65-inch-slim-qd-mini-led-tv",
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QD-Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10+"
+      ],
+      "gamingFeatures": [
+        "120Hz VRR",
+        "ALLM",
+        "HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "text-blue-600",
+        "price": 46999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 120,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-15",
+        "price": 48999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 46999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "highlights": [
+      "Ultra Slim İnce Gövde",
+      "QD-Mini LED",
+      "Google TV",
+      "Dolby Vision",
+      "AiPQ Processor"
+    ],
+    "tags": [
+      "65 inç",
+      "QD-Mini LED",
+      "Slim",
+      "C6KS",
+      "2026"
+    ],
+    "rating": 4.8,
+    "reviewCount": 120,
+    "currency": "TL"
   }
 ];
