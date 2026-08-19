@@ -63,49 +63,49 @@ export function CategoryIconStrip() {
       name: 'Akıllı Telefonlar',
       href: '/phones',
       icon: Smartphone,
-      count: counts.smartphones > 0 ? `${counts.smartphones} Model` : 'Çok Yakında'
+      count: counts.smartphones > 0 ? `${counts.smartphones} Model` : ''
     },
     {
       name: 'Bilgisayar & Laptop',
       href: '/laptops',
       icon: Laptop,
-      count: counts.laptops > 0 ? `${counts.laptops} Model` : 'Çok Yakında'
+      count: counts.laptops > 0 ? `${counts.laptops} Model` : ''
     },
     {
       name: 'Televizyonlar',
       href: '/tvs',
       icon: Tv,
-      count: counts.tvs > 0 ? `${counts.tvs} Model` : 'Çok Yakında'
+      count: counts.tvs > 0 ? `${counts.tvs} Model` : ''
     },
     {
       name: 'Küçük Ev Aletleri',
       href: '/appliances',
       icon: PlugZap,
-      count: counts.appliances > 0 ? `${counts.appliances} Model` : 'Çok Yakında'
+      count: counts.appliances > 0 ? `${counts.appliances} Model` : ''
     },
     {
       name: 'Tabletler',
       href: '/tablets',
       icon: Tablet,
-      count: counts.tablets > 0 ? `${counts.tablets} Model` : 'Çok Yakında'
+      count: counts.tablets > 0 ? `${counts.tablets} Model` : ''
     },
     {
       name: 'Akıllı Saatler',
       href: '/smartwatches',
       icon: Watch,
-      count: counts.smartwatches > 0 ? `${counts.smartwatches} Model` : 'Çok Yakında'
+      count: counts.smartwatches > 0 ? `${counts.smartwatches} Model` : ''
     },
     {
       name: 'Ses & Kulaklık',
       href: '/headphones',
       icon: Headphones,
-      count: counts.headphones > 0 ? `${counts.headphones} Model` : 'Çok Yakında'
+      count: counts.headphones > 0 ? `${counts.headphones} Model` : ''
     },
     {
       name: 'Oyun Konsolları',
       href: '/consoles',
       icon: Gamepad2,
-      count: counts.consoles > 0 ? `${counts.consoles} Model` : 'Çok Yakında'
+      count: counts.consoles > 0 ? `${counts.consoles} Model` : ''
     },
     {
       name: 'Karşılaştırma',
@@ -143,9 +143,11 @@ export function CategoryIconStrip() {
               <span className="text-xs font-bold text-slate-800 group-hover:text-emerald-700 transition-colors block line-clamp-1">
                 {cat.name}
               </span>
-              <span className="text-[9px] font-semibold text-slate-400 block tabular-nums">
-                {cat.count}
-              </span>
+              {cat.count ? (
+                <span className="text-[9px] font-semibold text-slate-400 block tabular-nums">
+                  {cat.count}
+                </span>
+              ) : null}
             </Link>
           );
         })}
