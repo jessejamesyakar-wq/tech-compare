@@ -24156,5 +24156,2595 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "E"
     }
+  },
+  {
+    "id": "tv-lg-lg-55-55ua84006lb-55-inc",
+    "name": "LG 55UA84006LB",
+    "slug": "lg-55-55ua84006lb-55-inc",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 28210,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "rating": 2.9,
+    "reviewCount": 243,
+    "image": "https://resim.epey.com/1037858/k_lg-55ua84006lb-880609650169-1.jpg",
+    "highlights": [
+      "55\" LED Ultra HD (4K) Ekran",
+      "webOS Akıllı TV İşletim Sistemi",
+      "Dolby Vision & Dolby Atmos Desteği",
+      "AI Sound Pro & Akıllı İşlemci"
+    ],
+    "tags": [
+      "LG",
+      "LED",
+      "55 İnç",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-lg-55-55ua84006lb-55-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 28266,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 480,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-lg-55-55ua84006lb-55-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 28210,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-lg-55-55ua84006lb-55-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 28351,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 290,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-lg-55-55ua84006lb-55-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 28492,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 180,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-lg-55-55ua84006lb-55-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 28154,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 210,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-lg-55-55ua84006lb-55-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 28069,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-lg-55-55ua84006lb-55-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 27928,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 850,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-lg-55-55ua84006lb-55-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 28295,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 140,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 30749,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 29621,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 28210,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "Ultra HD (4K)",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "120Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
+  },
+  {
+    "id": "tv-lg-lg-55-55ua85006la-55-inc",
+    "name": "LG 55UA85006LA",
+    "slug": "lg-55-55ua85006la-55-inc",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 34852,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "rating": 2.9,
+    "reviewCount": 243,
+    "image": "https://resim.epey.com/1011809/k_lg-50ua85006la-8806096431535-6.jpg",
+    "highlights": [
+      "55\" LED Ultra HD (4K) Ekran",
+      "webOS Akıllı TV İşletim Sistemi",
+      "Dolby Vision & Dolby Atmos Desteği",
+      "AI Sound Pro & Akıllı İşlemci"
+    ],
+    "tags": [
+      "LG",
+      "LED",
+      "55 İnç",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-lg-55-55ua85006la-55-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 34922,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 480,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-lg-55-55ua85006la-55-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 34852,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-lg-55-55ua85006la-55-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 35026,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 290,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-lg-55-55ua85006la-55-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 35201,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 180,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-lg-55-55ua85006la-55-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 34782,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 210,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-lg-55-55ua85006la-55-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 34678,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-lg-55-55ua85006la-55-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 34503,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 850,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-lg-55-55ua85006la-55-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 34957,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 140,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 37989,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 36595,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 34852,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "Ultra HD (4K)",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "120Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
+  },
+  {
+    "id": "tv-lg-lg-50-50ua85006la-50-inc",
+    "name": "LG 50UA85006LA",
+    "slug": "lg-50-50ua85006la-50-inc",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 30559,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "rating": 2.8,
+    "reviewCount": 235,
+    "image": "https://resim.epey.com/1011813/k_lg-50ua85006la-8806096431535-6.jpg",
+    "highlights": [
+      "50\" LED Ultra HD (4K) Ekran",
+      "webOS Akıllı TV İşletim Sistemi",
+      "Dolby Vision & Dolby Atmos Desteği",
+      "AI Sound Pro & Akıllı İşlemci"
+    ],
+    "tags": [
+      "LG",
+      "LED",
+      "50 İnç",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-lg-50-50ua85006la-50-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 30620,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 480,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-lg-50-50ua85006la-50-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 30559,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-lg-50-50ua85006la-50-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 30712,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 290,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-lg-50-50ua85006la-50-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 30865,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 180,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-lg-50-50ua85006la-50-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 30498,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 210,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-lg-50-50ua85006la-50-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 30406,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-lg-50-50ua85006la-50-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 30253,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 850,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-lg-50-50ua85006la-50-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 30651,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 140,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 33309,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 32087,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 30559,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "LED",
+      "resolution": "Ultra HD (4K)",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "120Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
+  },
+  {
+    "id": "tv-lg-lg-stanbyme-2-27lx6tdga-27-inc",
+    "name": "LG StanbyME 2 27LX6TDGA",
+    "slug": "lg-stanbyme-2-27lx6tdga-27-inc",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 44364,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "rating": 2,
+    "reviewCount": 172,
+    "image": "https://resim.epey.com/1023066/k_lg-stanbyme-27lx6tdga-20.jpg",
+    "highlights": [
+      "27\" LED QHD (2K) Ekran",
+      "webOS Akıllı TV İşletim Sistemi",
+      "Dolby Vision & Dolby Atmos Desteği",
+      "AI Sound Pro & Akıllı İşlemci"
+    ],
+    "tags": [
+      "LG",
+      "LED",
+      "27 İnç",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-lg-stanbyme-2-27lx6tdga-27-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 44453,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 480,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-lg-stanbyme-2-27lx6tdga-27-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 44364,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-lg-stanbyme-2-27lx6tdga-27-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 44586,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 290,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-lg-stanbyme-2-27lx6tdga-27-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 44808,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 180,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-lg-stanbyme-2-27lx6tdga-27-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 44275,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 210,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-lg-stanbyme-2-27lx6tdga-27-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 44142,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-lg-stanbyme-2-27lx6tdga-27-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 43920,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 850,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-lg-stanbyme-2-27lx6tdga-27-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 44497,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 140,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 48357,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 46582,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 44364,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "displayTech": "LED",
+      "resolution": "QHD (2K)",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 10,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "120Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
+  },
+  {
+    "id": "tv-lg-lg-55-oled55g64lw-55-inc",
+    "name": "LG OLED55G64LW",
+    "slug": "lg-55-oled55g64lw-55-inc",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 89999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "rating": 4.3,
+    "reviewCount": 365,
+    "image": "https://resim.epey.com/1062121/k_lg-oled97g64lw-1.jpg",
+    "highlights": [
+      "55\" OLED evo Ultra HD (4K) Ekran",
+      "webOS Akıllı TV İşletim Sistemi",
+      "Dolby Vision & Dolby Atmos Desteği",
+      "AI Sound Pro & Akıllı İşlemci"
+    ],
+    "tags": [
+      "LG",
+      "OLED evo",
+      "55 İnç",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-lg-55-oled55g64lw-55-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 90179,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 480,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-lg-55-oled55g64lw-55-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 89999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-lg-55-oled55g64lw-55-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 90449,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 290,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-lg-55-oled55g64lw-55-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 90899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 180,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-lg-55-oled55g64lw-55-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 89819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 210,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-lg-55-oled55g64lw-55-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 89549,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-lg-55-oled55g64lw-55-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 89099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 850,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-lg-55-oled55g64lw-55-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 90269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 140,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 98099,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 94499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 89999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "OLED evo",
+      "resolution": "Ultra HD (4K)",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "120Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-lg-lg-85-85qned93a6a-85-inc",
+    "name": "LG 85QNED93A6A",
+    "slug": "lg-85-85qned93a6a-85-inc",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 94999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "rating": 4.2,
+    "reviewCount": 352,
+    "image": "https://resim.epey.com/1025405/k_lg-85qned93a6a-8806096417096-7.jpg",
+    "highlights": [
+      "85\" QNED Mini-LED Ultra HD (4K) Ekran",
+      "webOS Akıllı TV İşletim Sistemi",
+      "Dolby Vision & Dolby Atmos Desteği",
+      "AI Sound Pro & Akıllı İşlemci"
+    ],
+    "tags": [
+      "LG",
+      "QNED Mini-LED",
+      "85 İnç",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-lg-85-85qned93a6a-85-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 95189,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 480,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-lg-85-85qned93a6a-85-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 94999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-lg-85-85qned93a6a-85-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 95474,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 290,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-lg-85-85qned93a6a-85-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 95949,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 180,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-lg-85-85qned93a6a-85-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 94809,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 210,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-lg-85-85qned93a6a-85-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 94524,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-lg-85-85qned93a6a-85-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 94049,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 850,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-lg-85-85qned93a6a-85-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 95284,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 140,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 103549,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 99749,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 94999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "QNED Mini-LED",
+      "resolution": "Ultra HD (4K)",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "120Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
+  },
+  {
+    "id": "tv-lg-lg-48-oled48c64la-48-inc",
+    "name": "LG OLED48C64LA",
+    "slug": "lg-48-oled48c64la-48-inc",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 54999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "rating": 4.2,
+    "reviewCount": 348,
+    "image": "https://resim.epey.com/1061772/k_lg-oled48c64la-1.jpg",
+    "highlights": [
+      "48\" OLED evo Ultra HD (4K) Ekran",
+      "webOS Akıllı TV İşletim Sistemi",
+      "Dolby Vision & Dolby Atmos Desteği",
+      "AI Sound Pro & Akıllı İşlemci"
+    ],
+    "tags": [
+      "LG",
+      "OLED evo",
+      "48 İnç",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-lg-48-oled48c64la-48-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 55109,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 480,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-lg-48-oled48c64la-48-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 54999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-lg-48-oled48c64la-48-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 55274,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 290,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-lg-48-oled48c64la-48-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 55549,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 180,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-lg-48-oled48c64la-48-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 54889,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 210,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-lg-48-oled48c64la-48-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 54724,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-lg-48-oled48c64la-48-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 54449,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 850,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-lg-48-oled48c64la-48-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 55164,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 140,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 59949,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 57749,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 54999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 48,
+      "displayTech": "OLED evo",
+      "resolution": "Ultra HD (4K)",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "120Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-lg-lg-48-oled48c54la-48-inc",
+    "name": "LG OLED48C54LA",
+    "slug": "lg-48-oled48c54la-48-inc",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 49999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "rating": 4,
+    "reviewCount": 340,
+    "image": "https://resim.epey.com/1036450/k_lg-oled48c54la-8806096601655-6.jpg",
+    "highlights": [
+      "48\" OLED evo Ultra HD (4K) Ekran",
+      "webOS Akıllı TV İşletim Sistemi",
+      "Dolby Vision & Dolby Atmos Desteği",
+      "AI Sound Pro & Akıllı İşlemci"
+    ],
+    "tags": [
+      "LG",
+      "OLED evo",
+      "48 İnç",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-lg-48-oled48c54la-48-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 50099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 480,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-lg-48-oled48c54la-48-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 49999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-lg-48-oled48c54la-48-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 50249,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 290,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-lg-48-oled48c54la-48-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 50499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 180,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-lg-48-oled48c54la-48-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 49899,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 210,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-lg-48-oled48c54la-48-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 49749,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-lg-48-oled48c54la-48-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 49499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 850,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-lg-48-oled48c54la-48-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 50149,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 140,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 54499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 52499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 49999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 48,
+      "displayTech": "OLED evo",
+      "resolution": "Ultra HD (4K)",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "120Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-lg-lg-65-oled65b56la-65-inc",
+    "name": "LG OLED65B56LA",
+    "slug": "lg-65-oled65b56la-65-inc",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 68999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "rating": 3.9,
+    "reviewCount": 327,
+    "image": "https://resim.epey.com/1011766/k_lg-oled65b56la-8806096431696-9.jpg",
+    "highlights": [
+      "65\" OLED Ultra HD (4K) Ekran",
+      "webOS Akıllı TV İşletim Sistemi",
+      "Dolby Vision & Dolby Atmos Desteği",
+      "AI Sound Pro & Akıllı İşlemci"
+    ],
+    "tags": [
+      "LG",
+      "OLED",
+      "65 İnç",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-lg-65-oled65b56la-65-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 69137,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 480,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-lg-65-oled65b56la-65-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 68999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-lg-65-oled65b56la-65-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 69344,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 290,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-lg-65-oled65b56la-65-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 69689,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 180,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-lg-65-oled65b56la-65-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 68861,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 210,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-lg-65-oled65b56la-65-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 68654,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-lg-65-oled65b56la-65-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 68309,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 850,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-lg-65-oled65b56la-65-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 69206,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 140,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 75209,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 72449,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 68999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "OLED",
+      "resolution": "Ultra HD (4K)",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "120Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "tv-lg-lg-75-75qned9ma6b-75-inc",
+    "name": "LG 75QNED9MA6B",
+    "slug": "lg-75-75qned9ma6b-75-inc",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 64999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "rating": 3.9,
+    "reviewCount": 327,
+    "image": "https://resim.epey.com/1020252/k_lg-75qned9ma6b-1.jpg",
+    "highlights": [
+      "75\" QNED Ultra HD (4K) Ekran",
+      "webOS Akıllı TV İşletim Sistemi",
+      "Dolby Vision & Dolby Atmos Desteği",
+      "AI Sound Pro & Akıllı İşlemci"
+    ],
+    "tags": [
+      "LG",
+      "QNED",
+      "75 İnç",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-lg-75-75qned9ma6b-75-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 65129,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 480,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-lg-75-75qned9ma6b-75-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 64999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-lg-75-75qned9ma6b-75-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 65324,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 290,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-lg-75-75qned9ma6b-75-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 65649,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 180,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-lg-75-75qned9ma6b-75-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 64869,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 210,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-lg-75-75qned9ma6b-75-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 64674,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-lg-75-75qned9ma6b-75-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 64349,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 850,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-lg-75-75qned9ma6b-75-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 65194,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 140,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 70849,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 68249,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 64999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QNED",
+      "resolution": "Ultra HD (4K)",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "120Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
+  },
+  {
+    "id": "tv-lg-lg-86-86qned70a6a-86-inc",
+    "name": "LG 86QNED70A6A",
+    "slug": "lg-86-86qned70a6a-86-inc",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 79999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "rating": 3.5,
+    "reviewCount": 289,
+    "image": "https://resim.epey.com/1033687/k_lg-86qned70a-86qned70a6a-8806096678305-1.jpg",
+    "highlights": [
+      "86\" QNED Ultra HD (4K) Ekran",
+      "webOS Akıllı TV İşletim Sistemi",
+      "Dolby Vision & Dolby Atmos Desteği",
+      "AI Sound Pro & Akıllı İşlemci"
+    ],
+    "tags": [
+      "LG",
+      "QNED",
+      "86 İnç",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-lg-86-86qned70a6a-86-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 80159,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 480,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-lg-86-86qned70a6a-86-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 79999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-lg-86-86qned70a6a-86-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 80399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 290,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-lg-86-86qned70a6a-86-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 80799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 180,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-lg-86-86qned70a6a-86-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 79839,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 210,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-lg-86-86qned70a6a-86-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 79599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-lg-86-86qned70a6a-86-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 79199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 850,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-lg-86-86qned70a6a-86-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 80239,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 140,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 87199,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 83999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 79999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 86,
+      "displayTech": "QNED",
+      "resolution": "Ultra HD (4K)",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "120Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
+  },
+  {
+    "id": "tv-lg-lg-65-65qned80a6a-65-inc",
+    "name": "LG 65QNED80A6A",
+    "slug": "lg-65-65qned80a6a-65-inc",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 46999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "rating": 3.1,
+    "reviewCount": 264,
+    "image": "https://resim.epey.com/1012466/k_lg-65qned80a6a-5.jpg",
+    "highlights": [
+      "65\" QNED Ultra HD (4K) Ekran",
+      "webOS Akıllı TV İşletim Sistemi",
+      "Dolby Vision & Dolby Atmos Desteği",
+      "AI Sound Pro & Akıllı İşlemci"
+    ],
+    "tags": [
+      "LG",
+      "QNED",
+      "65 İnç",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-lg-65-65qned80a6a-65-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 47093,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 480,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-lg-65-65qned80a6a-65-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 46999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-lg-65-65qned80a6a-65-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 47234,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 290,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-lg-65-65qned80a6a-65-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 47469,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 180,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-lg-65-65qned80a6a-65-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 46905,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 210,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-lg-65-65qned80a6a-65-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 46764,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-lg-65-65qned80a6a-65-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 46529,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 850,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-lg-65-65qned80a6a-65-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 47140,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 140,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 51229,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 49349,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 46999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QNED",
+      "resolution": "Ultra HD (4K)",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "120Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
+  },
+  {
+    "id": "tv-lg-lg-55-55nano90a6b-55-inc",
+    "name": "LG 55NANO90A6B",
+    "slug": "lg-55-55nano90a6b-55-inc",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 36999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "rating": 2.9,
+    "reviewCount": 243,
+    "image": "https://resim.epey.com/1019683/k_lg-55nano90a6b-3.jpg",
+    "highlights": [
+      "55\" NanoCell Ultra HD (4K) Ekran",
+      "webOS Akıllı TV İşletim Sistemi",
+      "Dolby Vision & Dolby Atmos Desteği",
+      "AI Sound Pro & Akıllı İşlemci"
+    ],
+    "tags": [
+      "LG",
+      "NanoCell",
+      "55 İnç",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-lg-55-55nano90a6b-55-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 37073,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 480,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-lg-55-55nano90a6b-55-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 36999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-lg-55-55nano90a6b-55-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 37184,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 290,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-lg-55-55nano90a6b-55-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 37369,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 180,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-lg-55-55nano90a6b-55-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 36925,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 210,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-lg-55-55nano90a6b-55-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 36814,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-lg-55-55nano90a6b-55-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 36629,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 850,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-lg-55-55nano90a6b-55-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 37110,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 140,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 40329,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 38849,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 36999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "NanoCell",
+      "resolution": "Ultra HD (4K)",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "120Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
+  },
+  {
+    "id": "tv-lg-lg-55-55nano846qa-55-inc",
+    "name": "LG 55NANO846QA",
+    "slug": "lg-55-55nano846qa-55-inc",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 33999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "rating": 2.9,
+    "reviewCount": 239,
+    "image": "https://resim.epey.com/1012393/k_lg-55nano846qa-8806096435687-1.jpg",
+    "highlights": [
+      "55\" NanoCell Ultra HD (4K) Ekran",
+      "webOS Akıllı TV İşletim Sistemi",
+      "Dolby Vision & Dolby Atmos Desteği",
+      "AI Sound Pro & Akıllı İşlemci"
+    ],
+    "tags": [
+      "LG",
+      "NanoCell",
+      "55 İnç",
+      "4K",
+      "Smart TV"
+    ],
+    "storeOffers": [
+      {
+        "id": "hb-lg-55-55nano846qa-55-inc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 34067,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 480,
+        "url": "https://hepsiburada.com"
+      },
+      {
+        "id": "vatan-lg-55-55nano846qa-55-inc",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "blue",
+        "price": 33999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://vatanbilgisayar.com"
+      },
+      {
+        "id": "mediamarkt-lg-55-55nano846qa-55-inc",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 34169,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 290,
+        "url": "https://mediamarkt.com.tr"
+      },
+      {
+        "id": "teknosa-lg-55-55nano846qa-55-inc",
+        "storeName": "Teknosa",
+        "storeLogoColor": "orange",
+        "price": 34339,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta Var"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 180,
+        "url": "https://teknosa.com"
+      },
+      {
+        "id": "n11-lg-55-55nano846qa-55-inc",
+        "storeName": "n11",
+        "storeLogoColor": "purple",
+        "price": 33931,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 210,
+        "url": "https://n11.com"
+      },
+      {
+        "id": "trendyol-lg-55-55nano846qa-55-inc",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 33829,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://trendyol.com"
+      },
+      {
+        "id": "amazon-lg-55-55nano846qa-55-inc",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "slate",
+        "price": 33659,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 850,
+        "url": "https://amazon.com.tr"
+      },
+      {
+        "id": "pazarama-lg-55-55nano846qa-55-inc",
+        "storeName": "Pazarama",
+        "storeLogoColor": "blue",
+        "price": 34101,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bonus Fırsatı"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 140,
+        "url": "https://pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-02",
+        "price": 37059,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-05",
+        "price": 35699,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08",
+        "price": 33999,
+        "store": "Vatan Bilgisayar"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "NanoCell",
+      "resolution": "Ultra HD (4K)",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 25",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "120Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
   }
 ];
