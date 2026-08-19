@@ -1,6 +1,3881 @@
 import { TVProduct } from './types';
 
-const tvData: unknown[] = [
+export const mockTVs: TVProduct[] = [
+  {
+    "id": "lg-83-oled83c6elb",
+    "slug": "lg-83-oled83c6elb-83-inc",
+    "name": "83\" LG OLED83C6ELB LG OLED evo AI C6E 4K 165Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.9,
+    "reviewCount": 5761,
+    "basePrice": 257399,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "83\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "OLED evo",
+      "165Hz",
+      "AI Sihirli Kumanda",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 83,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 165,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "D",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-83-oled83c6elb-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 212999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-83-oled83c6elb-83-inc/"
+      },
+      {
+        "id": "offer-lg-lg-83-oled83c6elb-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 213999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-83-oled83c6elb-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 214499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 257399,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 212999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-77-oled77c6elb",
+    "slug": "lg-77-oled77c6elb-77-inc",
+    "name": "77\" LG OLED77C6ELB LG OLED evo AI C6E 4K 165Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.9,
+    "reviewCount": 5761,
+    "basePrice": 219999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "77\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "OLED evo",
+      "165Hz",
+      "AI Sihirli Kumanda",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 77,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 165,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "D",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-77-oled77c6elb-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 184999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-77-oled77c6elb-77-inc/"
+      },
+      {
+        "id": "offer-lg-lg-77-oled77c6elb-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 185999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-77-oled77c6elb-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 186499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 219999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 184999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-65-oled65c6elb",
+    "slug": "lg-65-oled65c6elb-65-inc",
+    "name": "65\" LG OLED65C6ELB LG OLED evo AI C6E 4K 165Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.9,
+    "reviewCount": 5761,
+    "basePrice": 149999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "65\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "OLED evo",
+      "165Hz",
+      "AI Sihirli Kumanda",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 165,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "D",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-65-oled65c6elb-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 129999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-65-oled65c6elb-65-inc/"
+      },
+      {
+        "id": "offer-lg-lg-65-oled65c6elb-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 130999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-65-oled65c6elb-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 131499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 149999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 129999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-55-oled55c6elb",
+    "slug": "lg-55-oled55c6elb-55-inc",
+    "name": "55\" LG OLED55C6ELB LG OLED evo AI C6E 4K 165Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.9,
+    "reviewCount": 5761,
+    "basePrice": 104999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "55\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "OLED evo",
+      "165Hz",
+      "AI Sihirli Kumanda",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 165,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-55-oled55c6elb-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 89999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-55-oled55c6elb-55-inc/"
+      },
+      {
+        "id": "offer-lg-lg-55-oled55c6elb-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 90999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-55-oled55c6elb-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 91499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 104999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 89999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-48-oled48c6elb",
+    "slug": "lg-48-oled48c6elb-48-inc",
+    "name": "48\" LG OLED48C6ELB LG OLED evo AI C6E 4K 165Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.9,
+    "reviewCount": 5761,
+    "basePrice": 74999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "48\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "OLED evo",
+      "165Hz",
+      "AI Sihirli Kumanda",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 48,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 165,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-48-oled48c6elb-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 64999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-48-oled48c6elb-48-inc/"
+      },
+      {
+        "id": "offer-lg-lg-48-oled48c6elb-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 65999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-48-oled48c6elb-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 66499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 74999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 64999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-83-oled83c64la",
+    "slug": "lg-83-oled83c64la-83-inc",
+    "name": "83\" LG OLED83C64LA LG OLED evo AI C6 4K 165Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.9,
+    "reviewCount": 5285,
+    "basePrice": 257399,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "83\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "OLED evo",
+      "165Hz",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 83,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 165,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "D",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-83-oled83c64la-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 257399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-83-oled83c64la-83-inc/"
+      },
+      {
+        "id": "offer-lg-lg-83-oled83c64la-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 258399,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-83-oled83c64la-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 258899,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 257399,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 257399,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-77-oled77c64la",
+    "slug": "lg-77-oled77c64la-77-inc",
+    "name": "77\" LG OLED77C64LA LG OLED evo AI C6 4K 165Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.9,
+    "reviewCount": 5285,
+    "basePrice": 199999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "77\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "OLED evo",
+      "165Hz",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 77,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 165,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "D",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-77-oled77c64la-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 199999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-77-oled77c64la-77-inc/"
+      },
+      {
+        "id": "offer-lg-lg-77-oled77c64la-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 200999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-77-oled77c64la-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 201499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 199999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 199999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-65-oled65c64la",
+    "slug": "lg-65-oled65c64la-65-inc",
+    "name": "65\" LG OLED65C64LA LG OLED evo AI C6 4K 165Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.9,
+    "reviewCount": 5285,
+    "basePrice": 139999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "65\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "OLED evo",
+      "165Hz",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 165,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "D",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-65-oled65c64la-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 139999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-65-oled65c64la-65-inc/"
+      },
+      {
+        "id": "offer-lg-lg-65-oled65c64la-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 140999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-65-oled65c64la-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 141499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 139999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 139999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-55-oled55c64la",
+    "slug": "lg-55-oled55c64la-55-inc",
+    "name": "55\" LG OLED55C64LA LG OLED evo AI C6 4K 165Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.9,
+    "reviewCount": 5285,
+    "basePrice": 94999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "55\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "OLED evo",
+      "165Hz",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 165,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-55-oled55c64la-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 94999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-55-oled55c64la-55-inc/"
+      },
+      {
+        "id": "offer-lg-lg-55-oled55c64la-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 95999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-55-oled55c64la-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 96499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 94999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 94999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-77-oled77b65la",
+    "slug": "lg-77-oled77b65la-77-inc",
+    "name": "77\" LG OLED77B65LA LG OLED AI B6 4K 120Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled/b6/gp1/gallery/77-b6/gallery/450-77.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.8,
+    "reviewCount": 320,
+    "basePrice": 149999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "77\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "OLED",
+      "120Hz",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 77,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-77-oled77b65la-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 149999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-77-oled77b65la-77-inc/"
+      },
+      {
+        "id": "offer-lg-lg-77-oled77b65la-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 150999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-77-oled77b65la-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 151499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 149999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 149999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-65-oled65b65la",
+    "slug": "lg-65-oled65b65la-65-inc",
+    "name": "65\" LG OLED65B65LA LG OLED AI B6 4K 120Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled/b6/gp1/gallery/77-b6/gallery/450-77.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.8,
+    "reviewCount": 320,
+    "basePrice": 109999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "65\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "OLED",
+      "120Hz",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-65-oled65b65la-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 109999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-65-oled65b65la-65-inc/"
+      },
+      {
+        "id": "offer-lg-lg-65-oled65b65la-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 110999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-65-oled65b65la-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 111499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 109999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 109999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-55-oled55b65la",
+    "slug": "lg-55-oled55b65la-55-inc",
+    "name": "55\" LG OLED55B65LA LG OLED AI B6 4K 120Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled/b6/gp1/gallery/77-b6/gallery/450-77.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.8,
+    "reviewCount": 320,
+    "basePrice": 74999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "55\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "OLED",
+      "120Hz",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-55-oled55b65la-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 74999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-55-oled55b65la-55-inc/"
+      },
+      {
+        "id": "offer-lg-lg-55-oled55b65la-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 75999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-55-oled55b65la-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 76499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 74999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 74999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-85-85qned81b6a",
+    "slug": "lg-85-85qned81b6a-85-inc",
+    "name": "85\" LG 85QNED81B6A LG QNED evo AI QNED81B MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1-v1-00/gp1/gallery/65-qned80/gallery/lg-qned-evo-qned81_8eb-2026-65-basic-01-product-front-usp.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.8,
+    "reviewCount": 1479,
+    "basePrice": 121499,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "85\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "QNED evo",
+      "MiniLED",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "QNED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-85-85qned81b6a-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 121499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-85-85qned81b6a-85-inc/"
+      },
+      {
+        "id": "offer-lg-lg-85-85qned81b6a-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 122499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-85-85qned81b6a-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 122999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 121499,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 121499,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-75-75qned81b6a",
+    "slug": "lg-75-75qned81b6a-75-inc",
+    "name": "75\" LG 75QNED81B6A LG QNED evo AI QNED81B MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1-v1-00/gp1/gallery/65-qned80/gallery/lg-qned-evo-qned81_8eb-2026-65-basic-01-product-front-usp.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.8,
+    "reviewCount": 1479,
+    "basePrice": 89999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "75\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "QNED evo",
+      "MiniLED",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QNED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-75-75qned81b6a-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 89999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-75-75qned81b6a-75-inc/"
+      },
+      {
+        "id": "offer-lg-lg-75-75qned81b6a-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 90999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-75-75qned81b6a-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 91499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 89999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 89999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-65-65qned81b6a",
+    "slug": "lg-65-65qned81b6a-65-inc",
+    "name": "65\" LG 65QNED81B6A LG QNED evo AI QNED81B MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1-v1-00/gp1/gallery/65-qned80/gallery/lg-qned-evo-qned81_8eb-2026-65-basic-01-product-front-usp.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.8,
+    "reviewCount": 1479,
+    "basePrice": 67999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "65\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "QNED evo",
+      "MiniLED",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QNED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-65-65qned81b6a-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 67999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-65-65qned81b6a-65-inc/"
+      },
+      {
+        "id": "offer-lg-lg-65-65qned81b6a-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 68999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-65-65qned81b6a-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 69499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 67999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 67999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-55-55qned81b6a",
+    "slug": "lg-55-55qned81b6a-55-inc",
+    "name": "55\" LG 55QNED81B6A LG QNED evo AI QNED81B MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1-v1-00/gp1/gallery/65-qned80/gallery/lg-qned-evo-qned81_8eb-2026-65-basic-01-product-front-usp.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.8,
+    "reviewCount": 1479,
+    "basePrice": 47999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "55\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "QNED evo",
+      "MiniLED",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "QNED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-55-55qned81b6a-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 47999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-55-55qned81b6a-55-inc/"
+      },
+      {
+        "id": "offer-lg-lg-55-55qned81b6a-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 48999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-55-55qned81b6a-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 49499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 47999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 47999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-85-85qned8eb3a",
+    "slug": "lg-85-85qned8eb3a-85-inc",
+    "name": "85\" LG 85QNED8EB3A LG QNED AI QNED8E MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1/gallery/85-qned80/gallery/lg-qned-evo-qned81_8eb-2026-85-basic-01-product-front-usp.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.8,
+    "reviewCount": 450,
+    "basePrice": 117999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "85\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "QNED MiniLED",
+      "Online Özel",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "QNED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-85-85qned8eb3a-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 109999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-85-85qned8eb3a-85-inc/"
+      },
+      {
+        "id": "offer-lg-lg-85-85qned8eb3a-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 110999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-85-85qned8eb3a-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 111499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 117999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 109999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-75-75qned8eb3a",
+    "slug": "lg-75-75qned8eb3a-75-inc",
+    "name": "75\" LG 75QNED8EB3A LG QNED AI QNED8E MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1/gallery/85-qned80/gallery/lg-qned-evo-qned81_8eb-2026-85-basic-01-product-front-usp.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.8,
+    "reviewCount": 450,
+    "basePrice": 89999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "75\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "QNED MiniLED",
+      "Online Özel",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QNED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-75-75qned8eb3a-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 82999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-75-75qned8eb3a-75-inc/"
+      },
+      {
+        "id": "offer-lg-lg-75-75qned8eb3a-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 83999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-75-75qned8eb3a-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 84499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 89999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 82999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-65-65qned8eb3b",
+    "slug": "lg-65-65qned8eb3b-65-inc",
+    "name": "65\" LG 65QNED8EB3B LG QNED AI QNED8E MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1/gallery/85-qned80/gallery/lg-qned-evo-qned81_8eb-2026-85-basic-01-product-front-usp.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.8,
+    "reviewCount": 450,
+    "basePrice": 66999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "65\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "QNED MiniLED",
+      "Online Özel",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QNED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-65-65qned8eb3b-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 61999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-65-65qned8eb3b-65-inc/"
+      },
+      {
+        "id": "offer-lg-lg-65-65qned8eb3b-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 62999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-65-65qned8eb3b-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 63499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 66999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 61999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-55-55qned8eb3b",
+    "slug": "lg-55-55qned8eb3b-55-inc",
+    "name": "55\" LG 55QNED8EB3B LG QNED AI QNED8E MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1/gallery/85-qned80/gallery/lg-qned-evo-qned81_8eb-2026-85-basic-01-product-front-usp.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.8,
+    "reviewCount": 450,
+    "basePrice": 47999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "55\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "QNED MiniLED",
+      "Online Özel",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "QNED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-55-55qned8eb3b-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 43999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-55-55qned8eb3b-55-inc/"
+      },
+      {
+        "id": "offer-lg-lg-55-55qned8eb3b-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 44999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-55-55qned8eb3b-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 45499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 47999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 43999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-85-85nu900b6la",
+    "slug": "lg-85-85nu900b6la-85-inc",
+    "name": "85\" LG 85NU900B6LA LG NANO UHD AI NU90 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/85-nu85/basic/lg-nano-4k-uhd-nu85-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.9,
+    "reviewCount": 4394,
+    "basePrice": 79999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "85\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "NANO UHD",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "NANO UHD",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-85-85nu900b6la-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 79999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-85-85nu900b6la-85-inc/"
+      },
+      {
+        "id": "offer-lg-lg-85-85nu900b6la-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 80999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-85-85nu900b6la-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 81499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 79999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 79999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-75-75nu900b6la",
+    "slug": "lg-75-75nu900b6la-75-inc",
+    "name": "75\" LG 75NU900B6LA LG NANO UHD AI NU90 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/85-nu85/basic/lg-nano-4k-uhd-nu85-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.9,
+    "reviewCount": 4394,
+    "basePrice": 59999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "75\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "NANO UHD",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "NANO UHD",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-75-75nu900b6la-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 59999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-75-75nu900b6la-75-inc/"
+      },
+      {
+        "id": "offer-lg-lg-75-75nu900b6la-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 60999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-75-75nu900b6la-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 61499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 59999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 59999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-65-65nu900b6la",
+    "slug": "lg-65-65nu900b6la-65-inc",
+    "name": "65\" LG 65NU900B6LA LG NANO UHD AI NU90 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/85-nu85/basic/lg-nano-4k-uhd-nu85-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.9,
+    "reviewCount": 4394,
+    "basePrice": 42999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "65\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "NANO UHD",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "NANO UHD",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-65-65nu900b6la-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 42999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-65-65nu900b6la-65-inc/"
+      },
+      {
+        "id": "offer-lg-lg-65-65nu900b6la-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 43999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-65-65nu900b6la-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 44499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 42999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 42999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-55-55nu900b6la",
+    "slug": "lg-55-55nu900b6la-55-inc",
+    "name": "55\" LG 55NU900B6LA LG NANO UHD AI NU90 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/85-nu85/basic/lg-nano-4k-uhd-nu85-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.9,
+    "reviewCount": 4394,
+    "basePrice": 31999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "55\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "NANO UHD",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "NANO UHD",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-55-55nu900b6la-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 31999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-55-55nu900b6la-55-inc/"
+      },
+      {
+        "id": "offer-lg-lg-55-55nu900b6la-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 32999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-55-55nu900b6la-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 33499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 31999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 31999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-50-50nu900b6la",
+    "slug": "lg-50-50nu900b6la-50-inc",
+    "name": "50\" LG 50NU900B6LA LG NANO UHD AI NU90 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/85-nu85/basic/lg-nano-4k-uhd-nu85-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.9,
+    "reviewCount": 4394,
+    "basePrice": 26999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "50\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "NANO UHD",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "NANO UHD",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-50-50nu900b6la-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 26999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-50-50nu900b6la-50-inc/"
+      },
+      {
+        "id": "offer-lg-lg-50-50nu900b6la-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 27999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-50-50nu900b6la-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 28499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 26999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 26999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-85-85qned70b6a",
+    "slug": "lg-85-85qned70b6a-85-inc",
+    "name": "85\" LG 85QNED70B6A LG QNED AI QNED70B MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned/qned70/gp1/gallery/85-qned70/basic/lg-qned-qned70-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.6,
+    "reviewCount": 356,
+    "basePrice": 87999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "85\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "QNED MiniLED",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "QNED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-85-85qned70b6a-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 87999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-85-85qned70b6a-85-inc/"
+      },
+      {
+        "id": "offer-lg-lg-85-85qned70b6a-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 88999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-85-85qned70b6a-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 89499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 87999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 87999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-75-75qned70b6a",
+    "slug": "lg-75-75qned70b6a-75-inc",
+    "name": "75\" LG 75QNED70B6A LG QNED AI QNED70B MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned/qned70/gp1/gallery/85-qned70/basic/lg-qned-qned70-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.6,
+    "reviewCount": 356,
+    "basePrice": 64999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "75\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "QNED MiniLED",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QNED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-75-75qned70b6a-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 64999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-75-75qned70b6a-75-inc/"
+      },
+      {
+        "id": "offer-lg-lg-75-75qned70b6a-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 65999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-75-75qned70b6a-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 66499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 64999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 64999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-65-65qned7eb3c",
+    "slug": "lg-65-65qned7eb3c-65-inc",
+    "name": "65\" LG 65QNED7EB3C LG QNED AI QNED70B MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned/qned70/gp1/gallery/85-qned70/basic/lg-qned-qned70-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.6,
+    "reviewCount": 356,
+    "basePrice": 49999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "65\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "QNED MiniLED",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QNED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-65-65qned7eb3c-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 49999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-65-65qned7eb3c-65-inc/"
+      },
+      {
+        "id": "offer-lg-lg-65-65qned7eb3c-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 50999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-65-65qned7eb3c-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 51499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 49999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 49999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-55-55qned7eb3c",
+    "slug": "lg-55-55qned7eb3c-55-inc",
+    "name": "55\" LG 55QNED7EB3C LG QNED AI QNED70B MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned/qned70/gp1/gallery/85-qned70/basic/lg-qned-qned70-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.6,
+    "reviewCount": 356,
+    "basePrice": 40899,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "55\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "QNED MiniLED",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "QNED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-55-55qned7eb3c-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 40899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-55-55qned7eb3c-55-inc/"
+      },
+      {
+        "id": "offer-lg-lg-55-55qned7eb3c-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 41899,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-55-55qned7eb3c-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 42399,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 40899,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 40899,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-50-50qned70b6c",
+    "slug": "lg-50-50qned70b6c-50-inc",
+    "name": "50\" LG 50QNED70B6C LG QNED AI QNED70B MiniLED 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/qned/qned70/gp1/gallery/85-qned70/basic/lg-qned-qned70-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.6,
+    "reviewCount": 356,
+    "basePrice": 33999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "50\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "QNED MiniLED",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "QNED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-50-50qned70b6c-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 33999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-50-50qned70b6c-50-inc/"
+      },
+      {
+        "id": "offer-lg-lg-50-50qned70b6c-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-50-50qned70b6c-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 35499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 33999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 33999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-85-85nu8e0b3la",
+    "slug": "lg-85-85nu8e0b3la-85-inc",
+    "name": "85\" LG 85NU8E0B3LA LG NANO UHD AI NU8E 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/50-nu85/basic/lg-nano-4k-uhd-nu85-2026-50-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.4,
+    "reviewCount": 180,
+    "basePrice": 74999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "85\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "NANO UHD",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "NANO UHD",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-85-85nu8e0b3la-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 74999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-85-85nu8e0b3la-85-inc/"
+      },
+      {
+        "id": "offer-lg-lg-85-85nu8e0b3la-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 75999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-85-85nu8e0b3la-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 76499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 74999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 74999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-75-75nu8e0b3la",
+    "slug": "lg-75-75nu8e0b3la-75-inc",
+    "name": "75\" LG 75NU8E0B3LA LG NANO UHD AI NU8E 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/50-nu85/basic/lg-nano-4k-uhd-nu85-2026-50-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.4,
+    "reviewCount": 180,
+    "basePrice": 54999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "75\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "NANO UHD",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "NANO UHD",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-75-75nu8e0b3la-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 54999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-75-75nu8e0b3la-75-inc/"
+      },
+      {
+        "id": "offer-lg-lg-75-75nu8e0b3la-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 55999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-75-75nu8e0b3la-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 56499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 54999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 54999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-65-65nu8e0b3la",
+    "slug": "lg-65-65nu8e0b3la-65-inc",
+    "name": "65\" LG 65NU8E0B3LA LG NANO UHD AI NU8E 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/50-nu85/basic/lg-nano-4k-uhd-nu85-2026-50-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.4,
+    "reviewCount": 180,
+    "basePrice": 39999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "65\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "NANO UHD",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "NANO UHD",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-65-65nu8e0b3la-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 39999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-65-65nu8e0b3la-65-inc/"
+      },
+      {
+        "id": "offer-lg-lg-65-65nu8e0b3la-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 40999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-65-65nu8e0b3la-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 41499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 39999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 39999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-55-55nu8e0b3la",
+    "slug": "lg-55-55nu8e0b3la-55-inc",
+    "name": "55\" LG 55NU8E0B3LA LG NANO UHD AI NU8E 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/50-nu85/basic/lg-nano-4k-uhd-nu85-2026-50-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.4,
+    "reviewCount": 180,
+    "basePrice": 29999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "55\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "NANO UHD",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "NANO UHD",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-55-55nu8e0b3la-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 29999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-55-55nu8e0b3la-55-inc/"
+      },
+      {
+        "id": "offer-lg-lg-55-55nu8e0b3la-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 30999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-55-55nu8e0b3la-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 31499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 29999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 29999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "lg-50-50nu8e0b3la",
+    "slug": "lg-50-50nu8e0b3la-50-inc",
+    "name": "50\" LG 50NU8E0B3LA LG NANO UHD AI NU8E 4K 60Hz VRR Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/50-nu85/basic/lg-nano-4k-uhd-nu85-2026-50-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "rating": 4.4,
+    "reviewCount": 180,
+    "basePrice": 32999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "50\" 4K Ultra HD Ekran",
+      "webOS 26 Akıllı İşletim Sistemi",
+      "AI Sihirli Kumanda Desteği",
+      "Dolby Vision & Dolby Atmos"
+    ],
+    "tags": [
+      "2026 Serisi",
+      "NANO UHD",
+      "webOS26"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "NANO UHD",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync",
+        "G-Sync"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α9 AI Processor 4K Gen7",
+      "voiceControl": "Var (AI Sihirli Kumanda)",
+      "dolbyAtmos": true,
+      "vrrSupport": true,
+      "allmSupport": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-lg-50-50nu8e0b3la-1",
+        "storeName": "LG Online Mağaza",
+        "storeLogoColor": "#A50034",
+        "price": 32999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.lg.com/tr/tv-soundbar/lg-50-50nu8e0b3la-50-inc/"
+      },
+      {
+        "id": "offer-lg-lg-50-50nu8e0b3la-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 33999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3200,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "offer-lg-lg-50-50nu8e0b3la-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 34499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2900,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 32999,
+        "store": "LG Online Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 32999,
+        "store": "LG Online Mağaza"
+      }
+    ]
+  },
   {
     "id": "philips-75pus8909-12",
     "slug": "philips-75pus8909-12",
@@ -2904,1610 +6779,6 @@ const tvData: unknown[] = [
       {
         "date": "Mart 2026",
         "price": 13999,
-        "store": "MediaMarkt"
-      }
-    ]
-  },
-  {
-    "id": "lg-tv-lg-77b3-77-196-ekran-oled-webos-120hz-4k-smart-tv-2023-180",
-    "slug": "lg-77b3-77-196-ekran-oled-webos-120hz-4k-smart-tv-2023",
-    "name": "LG 77B3 77\" 196 Ekran OLED webOS 120Hz 4K Smart TV (2023)",
-    "brand": "LG",
-    "category": "tvs",
-    "image": "/images/tvs/lg_oled_c4.jpg",
-    "basePrice": 53999,
-    "currency": "TL",
-    "rating": 4.9,
-    "reviewCount": 869,
-    "releaseYear": 2023,
-    "isPopular": true,
-    "isFeatured": false,
-    "tags": [
-      "2023 Serisi",
-      "77\" Ekran",
-      "OLED",
-      "4K Ultra HD",
-      "120Hz Gaming"
-    ],
-    "ssIndexRatio": 98,
-    "highlights": [
-      "77\" 196 cm OLED Panel (2023)",
-      "120Hz Yenileme Hızı & HDMI 2.1 VRR",
-      "α7 Gen 6 AI Processor 4K Yapay Zeka İşlemcisi",
-      "webOS Smart TV & Sihirli Kumanda (Magic Remote)"
-    ],
-    "specs": {
-      "screenSizeInches": 77,
-      "displayTech": "OLED",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 120,
-      "smartOs": "webOS",
-      "audioPowerWatts": 60,
-      "processorEngine": "α7 Gen 6 AI Processor 4K",
-      "hdrSupport": [
-        "Dolby Vision IQ",
-        "HDR10 Pro"
-      ],
-      "gamingFeatures": [
-        "4K @ 120Hz VRR",
-        "NVIDIA G-Sync Compatible",
-        "AMD FreeSync Premium",
-        "Game Optimizer & Dashboard"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    },
-    "storeOffers": [
-      {
-        "id": "st-msh-lgtv-181",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 53459,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi LG Distribütörü",
-          "Ücretsiz Montaj"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 21400,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-lgtv-181",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 53999,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "LG Türkiye Garanti",
-          "Vatan Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 17800,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-lgtv-181",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 53729,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Kupon Fırsatı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 28900,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-lgtv-181",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 53891,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 33400,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 58319,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 56159,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 54539,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 53999,
-        "store": "MediaMarkt"
-      }
-    ]
-  },
-  {
-    "id": "lg-tv-lg-77c2-77-196-ekran-oled-evo-webos-120hz-4k-smart-tv-2022-154",
-    "slug": "lg-77c2-77-196-ekran-oled-evo-webos-120hz-4k-smart-tv-2022",
-    "name": "LG 77C2 77\" 196 Ekran OLED evo webOS 120Hz 4K Smart TV (2022)",
-    "brand": "LG",
-    "category": "tvs",
-    "image": "/images/tvs/lg_oled_c4.jpg",
-    "basePrice": 58049,
-    "currency": "TL",
-    "rating": 5,
-    "reviewCount": 865,
-    "releaseYear": 2022,
-    "isPopular": true,
-    "isFeatured": false,
-    "tags": [
-      "2022 Serisi",
-      "77\" Ekran",
-      "OLED evo",
-      "4K Ultra HD",
-      "120Hz Gaming"
-    ],
-    "ssIndexRatio": 98,
-    "highlights": [
-      "77\" 196 cm OLED evo Panel (2022)",
-      "120Hz Yenileme Hızı & HDMI 2.1 VRR",
-      "α9 Gen 5 AI Processor 4K Yapay Zeka İşlemcisi",
-      "webOS Smart TV & Sihirli Kumanda (Magic Remote)"
-    ],
-    "specs": {
-      "screenSizeInches": 77,
-      "displayTech": "OLED evo",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 120,
-      "smartOs": "webOS",
-      "audioPowerWatts": 60,
-      "processorEngine": "α9 Gen 5 AI Processor 4K",
-      "hdrSupport": [
-        "Dolby Vision IQ",
-        "HDR10 Pro"
-      ],
-      "gamingFeatures": [
-        "4K @ 120Hz VRR",
-        "NVIDIA G-Sync Compatible",
-        "AMD FreeSync Premium",
-        "Game Optimizer & Dashboard"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    },
-    "storeOffers": [
-      {
-        "id": "st-msh-lgtv-155",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 57469,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi LG Distribütörü",
-          "Ücretsiz Montaj"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 21400,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-lgtv-155",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 58049,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "LG Türkiye Garanti",
-          "Vatan Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 17800,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-lgtv-155",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 57759,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Kupon Fırsatı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 28900,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-lgtv-155",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 57933,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 33400,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 62693,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 60371,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 58629,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 58049,
-        "store": "MediaMarkt"
-      }
-    ]
-  },
-  {
-    "id": "lg-tv-lg-88z1-88-224-ekran-oled-8k-webos-120hz-8k-smart-tv-2021-128",
-    "slug": "lg-88z1-88-224-ekran-oled-8k-webos-120hz-8k-smart-tv-2021",
-    "name": "LG 88Z1 88\" 224 Ekran OLED 8K webOS 120Hz 8K Smart TV (2021)",
-    "brand": "LG",
-    "category": "tvs",
-    "image": "/images/tvs/lg_uhd.jpg",
-    "basePrice": 288998,
-    "currency": "TL",
-    "rating": 4.8,
-    "reviewCount": 861,
-    "releaseYear": 2021,
-    "isPopular": true,
-    "isFeatured": false,
-    "tags": [
-      "2021 Serisi",
-      "88\" Ekran",
-      "OLED 8K",
-      "8K Ultra HD",
-      "120Hz Gaming"
-    ],
-    "ssIndexRatio": 98,
-    "highlights": [
-      "88\" 224 cm OLED 8K Panel (2021)",
-      "120Hz Yenileme Hızı & HDMI 2.1 VRR",
-      "α9 Gen 4 AI Processor 8K Yapay Zeka İşlemcisi",
-      "webOS Smart TV & Sihirli Kumanda (Magic Remote)"
-    ],
-    "specs": {
-      "screenSizeInches": 88,
-      "displayTech": "OLED 8K",
-      "resolution": "8K Ultra HD",
-      "refreshRateHz": 120,
-      "smartOs": "webOS",
-      "audioPowerWatts": 60,
-      "processorEngine": "α9 Gen 4 AI Processor 8K",
-      "hdrSupport": [
-        "Dolby Vision IQ",
-        "HDR10 Pro"
-      ],
-      "gamingFeatures": [
-        "4K @ 120Hz VRR",
-        "NVIDIA G-Sync Compatible",
-        "AMD FreeSync Premium",
-        "Game Optimizer & Dashboard"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    },
-    "storeOffers": [
-      {
-        "id": "st-msh-lgtv-129",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 286108,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi LG Distribütörü",
-          "Ücretsiz Montaj"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 21400,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-lgtv-129",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 288998,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "LG Türkiye Garanti",
-          "Vatan Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 17800,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-lgtv-129",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 287553,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Kupon Fırsatı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 28900,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-lgtv-129",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 288420,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 33400,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 312118,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 300558,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 291888,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 288998,
-        "store": "MediaMarkt"
-      }
-    ]
-  },
-  {
-    "id": "lg-tv-lg-50un7300-50-127-ekran-uhd-led-webos-60hz-4k-smart-tv-2020-102",
-    "slug": "lg-50un7300-50-127-ekran-uhd-led-webos-60hz-4k-smart-tv-2020",
-    "name": "LG 50UN7300 50\" 127 Ekran UHD LED webOS 60Hz 4K Smart TV (2020)",
-    "brand": "LG",
-    "category": "tvs",
-    "image": "/images/tvs/lg_uhd.jpg",
-    "basePrice": 9774,
-    "currency": "TL",
-    "rating": 4.8,
-    "reviewCount": 857,
-    "releaseYear": 2020,
-    "isPopular": false,
-    "isFeatured": false,
-    "tags": [
-      "2020 Serisi",
-      "50\" Ekran",
-      "UHD LED",
-      "4K Ultra HD",
-      "60Hz Gaming"
-    ],
-    "ssIndexRatio": 88,
-    "highlights": [
-      "50\" 127 cm UHD LED Panel (2020)",
-      "60Hz Yenileme Hızı & HDMI 2.1 VRR",
-      "Quad Core Processor 4K Yapay Zeka İşlemcisi",
-      "webOS Smart TV & Sihirli Kumanda (Magic Remote)"
-    ],
-    "specs": {
-      "screenSizeInches": 50,
-      "displayTech": "UHD LED",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 60,
-      "smartOs": "webOS",
-      "audioPowerWatts": 20,
-      "processorEngine": "Quad Core Processor 4K",
-      "hdrSupport": [
-        "HDR10 Pro"
-      ],
-      "gamingFeatures": [
-        "4K @ 60Hz VRR",
-        "NVIDIA G-Sync Compatible",
-        "AMD FreeSync Premium",
-        "Game Optimizer & Dashboard"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    },
-    "storeOffers": [
-      {
-        "id": "st-msh-lgtv-103",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 9676,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi LG Distribütörü",
-          "Ücretsiz Montaj"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 21400,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-lgtv-103",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 9774,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "LG Türkiye Garanti",
-          "Vatan Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 17800,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-lgtv-103",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 9725,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Kupon Fırsatı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 28900,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-lgtv-103",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 9754,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 33400,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 10556,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 10165,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 9872,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 9774,
-        "store": "MediaMarkt"
-      }
-    ]
-  },
-  {
-    "id": "lg-tv-lg-65g6-65-165-ekran-oled-evo-mla-gen-4-3500-nits-webos-165hz-4k-smart-tv-2026-283",
-    "slug": "lg-65g6-65-165-ekran-oled-evo-mla-gen-4-3500-nits-webos-165hz-4k-smart-tv-2026",
-    "name": "LG 65G6 65\" 165 Ekran OLED evo MLA Gen 4 3500 Nits webOS 165Hz 4K Smart TV (2026)",
-    "brand": "LG",
-    "category": "tvs",
-    "image": "/images/tvs/lg_oled_c4.jpg",
-    "basePrice": 137999,
-    "currency": "TL",
-    "rating": 5,
-    "reviewCount": 856,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": true,
-    "tags": [
-      "2026 Serisi",
-      "65\" Ekran",
-      "OLED evo MLA Gen 4 3500 Nits",
-      "4K Ultra HD",
-      "165Hz Gaming"
-    ],
-    "ssIndexRatio": 98,
-    "highlights": [
-      "65\" 165 cm OLED evo MLA Gen 4 3500 Nits Panel (2026)",
-      "165Hz Yenileme Hızı & HDMI 2.1 VRR",
-      "α14 AI Super Neural Matrix Yapay Zeka İşlemcisi",
-      "webOS Smart TV & Sihirli Kumanda (Magic Remote)"
-    ],
-    "specs": {
-      "screenSizeInches": 65,
-      "displayTech": "OLED evo MLA Gen 4 3500 Nits",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 165,
-      "smartOs": "webOS",
-      "audioPowerWatts": 60,
-      "processorEngine": "α14 AI Super Neural Matrix",
-      "hdrSupport": [
-        "Dolby Vision IQ Max",
-        "HDR10 Pro"
-      ],
-      "gamingFeatures": [
-        "4K @ 165Hz VRR",
-        "NVIDIA G-Sync Compatible",
-        "AMD FreeSync Premium",
-        "Game Optimizer & Dashboard"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    },
-    "storeOffers": [
-      {
-        "id": "st-msh-lgtv-284",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 136619,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi LG Distribütörü",
-          "Ücretsiz Montaj"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 21400,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-lgtv-284",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 137999,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "LG Türkiye Garanti",
-          "Vatan Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 17800,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-lgtv-284",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 137309,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Kupon Fırsatı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 28900,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-lgtv-284",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 137723,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 33400,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 149039,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 143519,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 139379,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 137999,
-        "store": "MediaMarkt"
-      }
-    ]
-  },
-  {
-    "id": "lg-tv-lg-65gx-65-165-ekran-gallery-oled-webos-120hz-4k-smart-tv-2020-76",
-    "slug": "lg-65gx-65-165-ekran-gallery-oled-webos-120hz-4k-smart-tv-2020",
-    "name": "LG 65GX 65\" 165 Ekran Gallery OLED webOS 120Hz 4K Smart TV (2020)",
-    "brand": "LG",
-    "category": "tvs",
-    "image": "/images/tvs/lg_uhd.jpg",
-    "basePrice": 51749,
-    "currency": "TL",
-    "rating": 5,
-    "reviewCount": 853,
-    "releaseYear": 2020,
-    "isPopular": true,
-    "isFeatured": false,
-    "tags": [
-      "2020 Serisi",
-      "65\" Ekran",
-      "Gallery OLED",
-      "4K Ultra HD",
-      "120Hz Gaming"
-    ],
-    "ssIndexRatio": 98,
-    "highlights": [
-      "65\" 165 cm Gallery OLED Panel (2020)",
-      "120Hz Yenileme Hızı & HDMI 2.1 VRR",
-      "α9 Gen 3 AI Processor 4K Yapay Zeka İşlemcisi",
-      "webOS Smart TV & Sihirli Kumanda (Magic Remote)"
-    ],
-    "specs": {
-      "screenSizeInches": 65,
-      "displayTech": "Gallery OLED",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 120,
-      "smartOs": "webOS",
-      "audioPowerWatts": 60,
-      "processorEngine": "α9 Gen 3 AI Processor 4K",
-      "hdrSupport": [
-        "Dolby Vision IQ",
-        "HDR10 Pro"
-      ],
-      "gamingFeatures": [
-        "4K @ 120Hz VRR",
-        "NVIDIA G-Sync Compatible",
-        "AMD FreeSync Premium",
-        "Game Optimizer & Dashboard"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    },
-    "storeOffers": [
-      {
-        "id": "st-msh-lgtv-77",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 51232,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi LG Distribütörü",
-          "Ücretsiz Montaj"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 21400,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-lgtv-77",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 51749,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "LG Türkiye Garanti",
-          "Vatan Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 17800,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-lgtv-77",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 51490,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Kupon Fırsatı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 28900,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-lgtv-77",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 51646,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 33400,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 55889,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 53819,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 52266,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 51749,
-        "store": "MediaMarkt"
-      }
-    ]
-  },
-  {
-    "id": "lg-tv-lg-97m5-97-246-ekran-zero-connect-wireless-oled-webos-165hz-4k-smart-tv-2025-257",
-    "slug": "lg-97m5-97-246-ekran-zero-connect-wireless-oled-webos-165hz-4k-smart-tv-2025",
-    "name": "LG 97M5 97\" 246 Ekran Zero Connect Wireless OLED webOS 165Hz 4K Smart TV (2025)",
-    "brand": "LG",
-    "category": "tvs",
-    "image": "/images/tvs/lg_uhd.jpg",
-    "basePrice": 337997,
-    "currency": "TL",
-    "rating": 4.8,
-    "reviewCount": 852,
-    "releaseYear": 2025,
-    "isPopular": true,
-    "isFeatured": true,
-    "tags": [
-      "2025 Serisi",
-      "97\" Ekran",
-      "Zero Connect Wireless OLED",
-      "4K Ultra HD",
-      "165Hz Gaming"
-    ],
-    "ssIndexRatio": 98,
-    "highlights": [
-      "97\" 246 cm Zero Connect Wireless OLED Panel (2025)",
-      "165Hz Yenileme Hızı & HDMI 2.1 VRR",
-      "α12 AI Neural Matrix 4K Yapay Zeka İşlemcisi",
-      "webOS Smart TV & Sihirli Kumanda (Magic Remote)"
-    ],
-    "specs": {
-      "screenSizeInches": 97,
-      "displayTech": "Zero Connect Wireless OLED",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 165,
-      "smartOs": "webOS",
-      "audioPowerWatts": 60,
-      "processorEngine": "α12 AI Neural Matrix 4K",
-      "hdrSupport": [
-        "Dolby Vision IQ",
-        "HDR10 Pro"
-      ],
-      "gamingFeatures": [
-        "4K @ 165Hz VRR",
-        "NVIDIA G-Sync Compatible",
-        "AMD FreeSync Premium",
-        "Game Optimizer & Dashboard"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    },
-    "storeOffers": [
-      {
-        "id": "st-msh-lgtv-258",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 334617,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi LG Distribütörü",
-          "Ücretsiz Montaj"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 21400,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-lgtv-258",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 337997,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "LG Türkiye Garanti",
-          "Vatan Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 17800,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-lgtv-258",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 336307,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Kupon Fırsatı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 28900,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-lgtv-258",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 337321,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 33400,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 365037,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 351517,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 341377,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 337997,
-        "store": "MediaMarkt"
-      }
-    ]
-  },
-  {
-    "id": "lg-tv-lg-65sm8600-65-165-ekran-nanocell-led-webos-120hz-4k-smart-tv-2019-50",
-    "slug": "lg-65sm8600-65-165-ekran-nanocell-led-webos-120hz-4k-smart-tv-2019",
-    "name": "LG 65SM8600 65\" 165 Ekran NanoCell LED webOS 120Hz 4K Smart TV (2019)",
-    "brand": "LG",
-    "category": "tvs",
-    "image": "/images/tvs/lg_uhd.jpg",
-    "basePrice": 18399,
-    "currency": "TL",
-    "rating": 4.8,
-    "reviewCount": 849,
-    "releaseYear": 2019,
-    "isPopular": false,
-    "isFeatured": false,
-    "tags": [
-      "2019 Serisi",
-      "65\" Ekran",
-      "NanoCell LED",
-      "4K Ultra HD",
-      "120Hz Gaming"
-    ],
-    "ssIndexRatio": 88,
-    "highlights": [
-      "65\" 165 cm NanoCell LED Panel (2019)",
-      "120Hz Yenileme Hızı & HDMI 2.1 VRR",
-      "α7 Gen 2 AI Yapay Zeka İşlemcisi",
-      "webOS Smart TV & Sihirli Kumanda (Magic Remote)"
-    ],
-    "specs": {
-      "screenSizeInches": 65,
-      "displayTech": "NanoCell LED",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 120,
-      "smartOs": "webOS",
-      "audioPowerWatts": 20,
-      "processorEngine": "α7 Gen 2 AI",
-      "hdrSupport": [
-        "Dolby Vision",
-        "HDR10"
-      ],
-      "gamingFeatures": [
-        "4K @ 120Hz VRR",
-        "NVIDIA G-Sync Compatible",
-        "AMD FreeSync Premium",
-        "Game Optimizer & Dashboard"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    },
-    "storeOffers": [
-      {
-        "id": "st-msh-lgtv-51",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 18215,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi LG Distribütörü",
-          "Ücretsiz Montaj"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 21400,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-lgtv-51",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 18399,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "LG Türkiye Garanti",
-          "Vatan Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 17800,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-lgtv-51",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 18307,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Kupon Fırsatı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 28900,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-lgtv-51",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 18362,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 33400,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 19871,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 19135,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 18583,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 18399,
-        "store": "MediaMarkt"
-      }
-    ]
-  },
-  {
-    "id": "lg-tv-lg-86qned85t-86-218-ekran-qned-led-120hz-webos-120hz-4k-smart-tv-2024-231",
-    "slug": "lg-86qned85t-86-218-ekran-qned-led-120hz-webos-120hz-4k-smart-tv-2024",
-    "name": "LG 86QNED85T 86\" 218 Ekran QNED LED 120Hz webOS 120Hz 4K Smart TV (2024)",
-    "brand": "LG",
-    "category": "tvs",
-    "image": "/images/tvs/lg_qned.jpg",
-    "basePrice": 59498,
-    "currency": "TL",
-    "rating": 4.5,
-    "reviewCount": 848,
-    "releaseYear": 2024,
-    "isPopular": true,
-    "isFeatured": false,
-    "tags": [
-      "2024 Serisi",
-      "86\" Ekran",
-      "QNED LED 120Hz",
-      "4K Ultra HD",
-      "120Hz Gaming"
-    ],
-    "ssIndexRatio": 88,
-    "highlights": [
-      "86\" 218 cm QNED LED 120Hz Panel (2024)",
-      "120Hz Yenileme Hızı & HDMI 2.1 VRR",
-      "α8 AI Processor 4K Yapay Zeka İşlemcisi",
-      "webOS Smart TV & Sihirli Kumanda (Magic Remote)"
-    ],
-    "specs": {
-      "screenSizeInches": 86,
-      "displayTech": "QNED LED 120Hz",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 120,
-      "smartOs": "webOS",
-      "audioPowerWatts": 20,
-      "processorEngine": "α8 AI Processor 4K",
-      "hdrSupport": [
-        "HDR10 Pro"
-      ],
-      "gamingFeatures": [
-        "4K @ 120Hz VRR",
-        "NVIDIA G-Sync Compatible",
-        "AMD FreeSync Premium",
-        "Game Optimizer & Dashboard"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    },
-    "storeOffers": [
-      {
-        "id": "st-msh-lgtv-232",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 58903,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi LG Distribütörü",
-          "Ücretsiz Montaj"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 21400,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-lgtv-232",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 59498,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "LG Türkiye Garanti",
-          "Vatan Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 17800,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-lgtv-232",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 59201,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Kupon Fırsatı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 28900,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-lgtv-232",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 59379,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 33400,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 64258,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 61878,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 60093,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 59498,
-        "store": "MediaMarkt"
-      }
-    ]
-  },
-  {
-    "id": "lg-tv-lg-55uk6500-55-140-ekran-uhd-led-webos-60hz-4k-smart-tv-2018-24",
-    "slug": "lg-55uk6500-55-140-ekran-uhd-led-webos-60hz-4k-smart-tv-2018",
-    "name": "LG 55UK6500 55\" 140 Ekran UHD LED webOS 60Hz 4K Smart TV (2018)",
-    "brand": "LG",
-    "category": "tvs",
-    "image": "/images/tvs/lg_uhd.jpg",
-    "basePrice": 9999,
-    "currency": "TL",
-    "rating": 4.6,
-    "reviewCount": 845,
-    "releaseYear": 2018,
-    "isPopular": false,
-    "isFeatured": false,
-    "tags": [
-      "2018 Serisi",
-      "55\" Ekran",
-      "UHD LED",
-      "4K Ultra HD",
-      "60Hz Gaming"
-    ],
-    "ssIndexRatio": 88,
-    "highlights": [
-      "55\" 140 cm UHD LED Panel (2018)",
-      "60Hz Yenileme Hızı & HDMI 2.1 VRR",
-      "Quad Core Processor Yapay Zeka İşlemcisi",
-      "webOS Smart TV & Sihirli Kumanda (Magic Remote)"
-    ],
-    "specs": {
-      "screenSizeInches": 55,
-      "displayTech": "UHD LED",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 60,
-      "smartOs": "webOS",
-      "audioPowerWatts": 20,
-      "processorEngine": "Quad Core Processor",
-      "hdrSupport": [
-        "HDR10 Pro"
-      ],
-      "gamingFeatures": [
-        "4K @ 60Hz VRR",
-        "NVIDIA G-Sync Compatible",
-        "AMD FreeSync Premium",
-        "Game Optimizer & Dashboard"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    },
-    "storeOffers": [
-      {
-        "id": "st-msh-lgtv-25",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 9899,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi LG Distribütörü",
-          "Ücretsiz Montaj"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 21400,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-lgtv-25",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 9999,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "LG Türkiye Garanti",
-          "Vatan Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 17800,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-lgtv-25",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 9949,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Kupon Fırsatı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 28900,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-lgtv-25",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 9979,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 33400,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 10799,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 10399,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 10099,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 9999,
-        "store": "MediaMarkt"
-      }
-    ]
-  },
-  {
-    "id": "lg-tv-lg-65qned75-65-165-ekran-qned-led-webos-60hz-4k-smart-tv-2023-205",
-    "slug": "lg-65qned75-65-165-ekran-qned-led-webos-60hz-4k-smart-tv-2023",
-    "name": "LG 65QNED75 65\" 165 Ekran QNED LED webOS 60Hz 4K Smart TV (2023)",
-    "brand": "LG",
-    "category": "tvs",
-    "image": "/images/tvs/lg_qned.jpg",
-    "basePrice": 25299,
-    "currency": "TL",
-    "rating": 4.7,
-    "reviewCount": 844,
-    "releaseYear": 2023,
-    "isPopular": true,
-    "isFeatured": false,
-    "tags": [
-      "2023 Serisi",
-      "65\" Ekran",
-      "QNED LED",
-      "4K Ultra HD",
-      "60Hz Gaming"
-    ],
-    "ssIndexRatio": 88,
-    "highlights": [
-      "65\" 165 cm QNED LED Panel (2023)",
-      "60Hz Yenileme Hızı & HDMI 2.1 VRR",
-      "α5 Gen 6 AI Processor 4K Yapay Zeka İşlemcisi",
-      "webOS Smart TV & Sihirli Kumanda (Magic Remote)"
-    ],
-    "specs": {
-      "screenSizeInches": 65,
-      "displayTech": "QNED LED",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 60,
-      "smartOs": "webOS",
-      "audioPowerWatts": 20,
-      "processorEngine": "α5 Gen 6 AI Processor 4K",
-      "hdrSupport": [
-        "HDR10 Pro"
-      ],
-      "gamingFeatures": [
-        "4K @ 60Hz VRR",
-        "NVIDIA G-Sync Compatible",
-        "AMD FreeSync Premium",
-        "Game Optimizer & Dashboard"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    },
-    "storeOffers": [
-      {
-        "id": "st-msh-lgtv-206",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 25046,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi LG Distribütörü",
-          "Ücretsiz Montaj"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 21400,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-lgtv-206",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 25299,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "LG Türkiye Garanti",
-          "Vatan Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 17800,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-lgtv-206",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 25173,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Kupon Fırsatı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 28900,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-lgtv-206",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 25248,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 33400,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 27323,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 26311,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 25552,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 25299,
-        "store": "MediaMarkt"
-      }
-    ]
-  },
-  {
-    "id": "lg-tv-lg-65b3-65-165-ekran-oled-webos-120hz-4k-smart-tv-2023-179",
-    "slug": "lg-65b3-65-165-ekran-oled-webos-120hz-4k-smart-tv-2023",
-    "name": "LG 65B3 65\" 165 Ekran OLED webOS 120Hz 4K Smart TV (2023)",
-    "brand": "LG",
-    "category": "tvs",
-    "image": "/images/tvs/lg_oled_c4.jpg",
-    "basePrice": 45999,
-    "currency": "TL",
-    "rating": 4.8,
-    "reviewCount": 840,
-    "releaseYear": 2023,
-    "isPopular": true,
-    "isFeatured": false,
-    "tags": [
-      "2023 Serisi",
-      "65\" Ekran",
-      "OLED",
-      "4K Ultra HD",
-      "120Hz Gaming"
-    ],
-    "ssIndexRatio": 98,
-    "highlights": [
-      "65\" 165 cm OLED Panel (2023)",
-      "120Hz Yenileme Hızı & HDMI 2.1 VRR",
-      "α7 Gen 6 AI Processor 4K Yapay Zeka İşlemcisi",
-      "webOS Smart TV & Sihirli Kumanda (Magic Remote)"
-    ],
-    "specs": {
-      "screenSizeInches": 65,
-      "displayTech": "OLED",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 120,
-      "smartOs": "webOS",
-      "audioPowerWatts": 60,
-      "processorEngine": "α7 Gen 6 AI Processor 4K",
-      "hdrSupport": [
-        "Dolby Vision IQ",
-        "HDR10 Pro"
-      ],
-      "gamingFeatures": [
-        "4K @ 120Hz VRR",
-        "NVIDIA G-Sync Compatible",
-        "AMD FreeSync Premium",
-        "Game Optimizer & Dashboard"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    },
-    "storeOffers": [
-      {
-        "id": "st-msh-lgtv-180",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 45539,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi LG Distribütörü",
-          "Ücretsiz Montaj"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 21400,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-lgtv-180",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 45999,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "LG Türkiye Garanti",
-          "Vatan Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 17800,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-lgtv-180",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 45769,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat",
-          "Kupon Fırsatı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 28900,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-lgtv-180",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 45907,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Peşin Fiyatına Taksit"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 33400,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 49679,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 47839,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 46459,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 45999,
         "store": "MediaMarkt"
       }
     ]
@@ -14078,5 +16349,3 @@ const tvData: unknown[] = [
     ]
   }
 ];
-
-export const mockTVs: TVProduct[] = tvData as TVProduct[];
