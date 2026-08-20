@@ -6740,1596 +6740,6 @@ export const mockTVs: TVProduct[] = [
     }
   },
   {
-    "id": "hisense-tv-hisense-75u6s-75-191-ekran-mini-led-qled-165hz-smart-tv-2026-112",
-    "name": "Hisense 75U6S 75\" 191 Ekran Mini-LED QLED 165Hz Smart TV (2026)",
-    "slug": "hisense-75u6s-75-191-ekran-mini-led-qled-165hz-smart-tv-2026",
-    "brand": "Hisense",
-    "category": "tvs",
-    "basePrice": 67499,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "rating": 5,
-    "reviewCount": 120,
-    "currency": "TL",
-    "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
-    ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "/images/products/tvs/st-msh-hisensetv-10.jpg",
-    "storeOffers": [
-      {
-        "id": "st-msh-hisensetv-113",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 66824,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi Hisense Türkiye Distribütörü",
-          "Ücretsiz Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-hisensetv-113",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 67499,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Hisense Yetkili Bayi",
-          "Vatan Güvencesi"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-hisensetv-113",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 67162,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Kargo",
-          "Puan Kazan"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-hisensetv-113",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 67364,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Taksit Avantajı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 72899,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 70199,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 68174,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 67499,
-        "store": "MediaMarkt"
-      }
-    ],
-    "specs": {
-      "screenSizeInches": 75,
-      "displayTech": "Mini-LED QLED 165Hz",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 165,
-      "smartOs": "VIDAA / Google TV",
-      "audioPowerWatts": 60,
-      "hdrSupport": [
-        "Dolby Vision IQ",
-        "HDR10+ Gaming"
-      ],
-      "hdrFormats": [
-        "Dolby Vision IQ",
-        "HDR10+ Gaming"
-      ],
-      "gamingFeatures": [
-        "4K @ 165Hz VRR",
-        "AMD FreeSync Premium Pro",
-        "Game Bar 3.0",
-        "ALLM (Auto Low Latency Mode)"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    }
-  },
-  {
-    "id": "hisense-tv-hisense-75u8qf-75-191-ekran-uled-mini-led-1500-nits-smart-tv-2020-27",
-    "name": "Hisense 75U8QF 75\" 191 Ekran ULED Mini-LED (1500 Nits) Smart TV (2020)",
-    "slug": "hisense-75u8qf-75-191-ekran-uled-mini-led-1500-nits-smart-tv-2020",
-    "brand": "Hisense",
-    "category": "tvs",
-    "basePrice": 33749,
-    "releaseYear": 2020,
-    "isPopular": true,
-    "rating": 4.9,
-    "reviewCount": 120,
-    "currency": "TL",
-    "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
-    ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "/images/products/tvs/st-msh-hisensetv-10.jpg",
-    "storeOffers": [
-      {
-        "id": "st-msh-hisensetv-28",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 33412,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi Hisense Türkiye Distribütörü",
-          "Ücretsiz Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-hisensetv-28",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 33749,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Hisense Yetkili Bayi",
-          "Vatan Güvencesi"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-hisensetv-28",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 33580,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Kargo",
-          "Puan Kazan"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-hisensetv-28",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 33682,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Taksit Avantajı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 36449,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 35099,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 34086,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 33749,
-        "store": "MediaMarkt"
-      }
-    ],
-    "specs": {
-      "screenSizeInches": 75,
-      "displayTech": "ULED Mini-LED (1500 Nits)",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 120,
-      "smartOs": "VIDAA OS",
-      "audioPowerWatts": 60,
-      "hdrSupport": [
-        "Dolby Vision Atmos",
-        "HDR10+"
-      ],
-      "hdrFormats": [
-        "Dolby Vision Atmos",
-        "HDR10+"
-      ],
-      "gamingFeatures": [
-        "4K @ 120Hz VRR",
-        "AMD FreeSync Premium Pro",
-        "Game Bar 3.0",
-        "ALLM (Auto Low Latency Mode)"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    }
-  },
-  {
-    "id": "hisense-tv-hisense-65a6k-65-165-ekran-smart-uhd-led-smart-tv-2023-55",
-    "name": "Hisense 65A6K 65\" 165 Ekran Smart UHD LED Smart TV (2023)",
-    "slug": "hisense-65a6k-65-165-ekran-smart-uhd-led-smart-tv-2023",
-    "brand": "Hisense",
-    "category": "tvs",
-    "basePrice": 17249,
-    "releaseYear": 2023,
-    "isPopular": true,
-    "rating": 4.5,
-    "reviewCount": 120,
-    "currency": "TL",
-    "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
-    ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "/images/products/tvs/st-msh-hisensetv-10.jpg",
-    "storeOffers": [
-      {
-        "id": "st-msh-hisensetv-56",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 17077,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi Hisense Türkiye Distribütörü",
-          "Ücretsiz Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-hisensetv-56",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 17249,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Hisense Yetkili Bayi",
-          "Vatan Güvencesi"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-hisensetv-56",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 17163,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Kargo",
-          "Puan Kazan"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-hisensetv-56",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 17215,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Taksit Avantajı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 18629,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 17939,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 17421,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 17249,
-        "store": "MediaMarkt"
-      }
-    ],
-    "specs": {
-      "screenSizeInches": 65,
-      "displayTech": "Smart UHD LED",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 60,
-      "smartOs": "VIDAA / Google TV",
-      "audioPowerWatts": 20,
-      "hdrSupport": [
-        "HDR10"
-      ],
-      "hdrFormats": [
-        "HDR10"
-      ],
-      "gamingFeatures": [
-        "4K @ 60Hz VRR",
-        "AMD FreeSync Premium Pro",
-        "Game Bar 3.0",
-        "ALLM (Auto Low Latency Mode)"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    }
-  },
-  {
-    "id": "hisense-tv-hisense-85u8n-85-216-ekran-mini-led-pro-3000-nits-144hz-smart-tv-2024-83",
-    "name": "Hisense 85U8N 85\" 216 Ekran Mini-LED PRO 3000 Nits 144Hz Smart TV (2024)",
-    "slug": "hisense-85u8n-85-216-ekran-mini-led-pro-3000-nits-144hz-smart-tv-2024",
-    "brand": "Hisense",
-    "category": "tvs",
-    "basePrice": 100798,
-    "releaseYear": 2024,
-    "isPopular": true,
-    "rating": 4.8,
-    "reviewCount": 120,
-    "currency": "TL",
-    "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
-    ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "/images/products/tvs/st-msh-hisensetv-10.jpg",
-    "storeOffers": [
-      {
-        "id": "st-msh-hisensetv-84",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 99790,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi Hisense Türkiye Distribütörü",
-          "Ücretsiz Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-hisensetv-84",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 100798,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Hisense Yetkili Bayi",
-          "Vatan Güvencesi"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-hisensetv-84",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 100294,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Kargo",
-          "Puan Kazan"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-hisensetv-84",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 100596,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Taksit Avantajı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 108862,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 104830,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 101806,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 100798,
-        "store": "MediaMarkt"
-      }
-    ],
-    "specs": {
-      "screenSizeInches": 85,
-      "displayTech": "Mini-LED PRO 3000 Nits 144Hz",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 144,
-      "smartOs": "VIDAA / Google TV",
-      "audioPowerWatts": 60,
-      "hdrSupport": [
-        "Dolby Vision IQ",
-        "HDR10+ Gaming"
-      ],
-      "hdrFormats": [
-        "Dolby Vision IQ",
-        "HDR10+ Gaming"
-      ],
-      "gamingFeatures": [
-        "4K @ 144Hz VRR",
-        "AMD FreeSync Premium Pro",
-        "Game Bar 3.0",
-        "ALLM (Auto Low Latency Mode)"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    }
-  },
-  {
-    "id": "hisense-tv-hisense-65u6s-65-165-ekran-mini-led-qled-165hz-smart-tv-2026-111",
-    "name": "Hisense 65U6S 65\" 165 Ekran Mini-LED QLED 165Hz Smart TV (2026)",
-    "slug": "hisense-65u6s-65-165-ekran-mini-led-qled-165hz-smart-tv-2026",
-    "brand": "Hisense",
-    "category": "tvs",
-    "basePrice": 57499,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "rating": 4.9,
-    "reviewCount": 120,
-    "currency": "TL",
-    "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
-    ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "/images/products/tvs/st-msh-hisensetv-10.jpg",
-    "storeOffers": [
-      {
-        "id": "st-msh-hisensetv-112",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 56924,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi Hisense Türkiye Distribütörü",
-          "Ücretsiz Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-hisensetv-112",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 57499,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Hisense Yetkili Bayi",
-          "Vatan Güvencesi"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-hisensetv-112",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 57212,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Kargo",
-          "Puan Kazan"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-hisensetv-112",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 57384,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Taksit Avantajı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 62099,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 59799,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 58074,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 57499,
-        "store": "MediaMarkt"
-      }
-    ],
-    "specs": {
-      "screenSizeInches": 65,
-      "displayTech": "Mini-LED QLED 165Hz",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 165,
-      "smartOs": "VIDAA / Google TV",
-      "audioPowerWatts": 60,
-      "hdrSupport": [
-        "Dolby Vision IQ",
-        "HDR10+ Gaming"
-      ],
-      "hdrFormats": [
-        "Dolby Vision IQ",
-        "HDR10+ Gaming"
-      ],
-      "gamingFeatures": [
-        "4K @ 165Hz VRR",
-        "AMD FreeSync Premium Pro",
-        "Game Bar 3.0",
-        "ALLM (Auto Low Latency Mode)"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    }
-  },
-  {
-    "id": "hisense-tv-hisense-65u8qf-65-165-ekran-uled-mini-led-1500-nits-smart-tv-2020-26",
-    "name": "Hisense 65U8QF 65\" 165 Ekran ULED Mini-LED (1500 Nits) Smart TV (2020)",
-    "slug": "hisense-65u8qf-65-165-ekran-uled-mini-led-1500-nits-smart-tv-2020",
-    "brand": "Hisense",
-    "category": "tvs",
-    "basePrice": 28749,
-    "releaseYear": 2020,
-    "isPopular": true,
-    "rating": 4.8,
-    "reviewCount": 120,
-    "currency": "TL",
-    "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
-    ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "/images/products/tvs/st-msh-hisensetv-10.jpg",
-    "storeOffers": [
-      {
-        "id": "st-msh-hisensetv-27",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 28462,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi Hisense Türkiye Distribütörü",
-          "Ücretsiz Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-hisensetv-27",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 28749,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Hisense Yetkili Bayi",
-          "Vatan Güvencesi"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-hisensetv-27",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 28605,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Kargo",
-          "Puan Kazan"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-hisensetv-27",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 28692,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Taksit Avantajı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 31049,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 29899,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 29036,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 28749,
-        "store": "MediaMarkt"
-      }
-    ],
-    "specs": {
-      "screenSizeInches": 65,
-      "displayTech": "ULED Mini-LED (1500 Nits)",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 120,
-      "smartOs": "VIDAA OS",
-      "audioPowerWatts": 60,
-      "hdrSupport": [
-        "Dolby Vision Atmos",
-        "HDR10+"
-      ],
-      "hdrFormats": [
-        "Dolby Vision Atmos",
-        "HDR10+"
-      ],
-      "gamingFeatures": [
-        "4K @ 120Hz VRR",
-        "AMD FreeSync Premium Pro",
-        "Game Bar 3.0",
-        "ALLM (Auto Low Latency Mode)"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    }
-  },
-  {
-    "id": "hisense-tv-hisense-55a6k-55-140-ekran-smart-uhd-led-smart-tv-2023-54",
-    "name": "Hisense 55A6K 55\" 140 Ekran Smart UHD LED Smart TV (2023)",
-    "slug": "hisense-55a6k-55-140-ekran-smart-uhd-led-smart-tv-2023",
-    "brand": "Hisense",
-    "category": "tvs",
-    "basePrice": 14999,
-    "releaseYear": 2023,
-    "isPopular": true,
-    "rating": 4.8,
-    "reviewCount": 120,
-    "currency": "TL",
-    "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
-    ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "/images/products/tvs/st-msh-hisensetv-10.jpg",
-    "storeOffers": [
-      {
-        "id": "st-msh-hisensetv-55",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 14849,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi Hisense Türkiye Distribütörü",
-          "Ücretsiz Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-hisensetv-55",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 14999,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Hisense Yetkili Bayi",
-          "Vatan Güvencesi"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-hisensetv-55",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 14924,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Kargo",
-          "Puan Kazan"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-hisensetv-55",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 14969,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Taksit Avantajı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 16199,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 15599,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 15149,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 14999,
-        "store": "MediaMarkt"
-      }
-    ],
-    "specs": {
-      "screenSizeInches": 55,
-      "displayTech": "Smart UHD LED",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 60,
-      "smartOs": "VIDAA / Google TV",
-      "audioPowerWatts": 20,
-      "hdrSupport": [
-        "HDR10"
-      ],
-      "hdrFormats": [
-        "HDR10"
-      ],
-      "gamingFeatures": [
-        "4K @ 60Hz VRR",
-        "AMD FreeSync Premium Pro",
-        "Game Bar 3.0",
-        "ALLM (Auto Low Latency Mode)"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    }
-  },
-  {
-    "id": "hisense-tv-hisense-75u8n-75-191-ekran-mini-led-pro-3000-nits-144hz-smart-tv-2024-82",
-    "name": "Hisense 75U8N 75\" 191 Ekran Mini-LED PRO 3000 Nits 144Hz Smart TV (2024)",
-    "slug": "hisense-75u8n-75-191-ekran-mini-led-pro-3000-nits-144hz-smart-tv-2024",
-    "brand": "Hisense",
-    "category": "tvs",
-    "basePrice": 85049,
-    "releaseYear": 2024,
-    "isPopular": true,
-    "rating": 5,
-    "reviewCount": 120,
-    "currency": "TL",
-    "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
-    ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "/images/products/tvs/st-msh-hisensetv-10.jpg",
-    "storeOffers": [
-      {
-        "id": "st-msh-hisensetv-83",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 84199,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi Hisense Türkiye Distribütörü",
-          "Ücretsiz Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-hisensetv-83",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 85049,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Hisense Yetkili Bayi",
-          "Vatan Güvencesi"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-hisensetv-83",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 84624,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Kargo",
-          "Puan Kazan"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-hisensetv-83",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 84879,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Taksit Avantajı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 91853,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 88451,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 85899,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 85049,
-        "store": "MediaMarkt"
-      }
-    ],
-    "specs": {
-      "screenSizeInches": 75,
-      "displayTech": "Mini-LED PRO 3000 Nits 144Hz",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 144,
-      "smartOs": "VIDAA / Google TV",
-      "audioPowerWatts": 60,
-      "hdrSupport": [
-        "Dolby Vision IQ",
-        "HDR10+ Gaming"
-      ],
-      "hdrFormats": [
-        "Dolby Vision IQ",
-        "HDR10+ Gaming"
-      ],
-      "gamingFeatures": [
-        "4K @ 144Hz VRR",
-        "AMD FreeSync Premium Pro",
-        "Game Bar 3.0",
-        "ALLM (Auto Low Latency Mode)"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    }
-  },
-  {
-    "id": "hisense-tv-hisense-55u6s-55-140-ekran-mini-led-qled-165hz-smart-tv-2026-110",
-    "name": "Hisense 55U6S 55\" 140 Ekran Mini-LED QLED 165Hz Smart TV (2026)",
-    "slug": "hisense-55u6s-55-140-ekran-mini-led-qled-165hz-smart-tv-2026",
-    "brand": "Hisense",
-    "category": "tvs",
-    "basePrice": 49999,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "rating": 4.8,
-    "reviewCount": 120,
-    "currency": "TL",
-    "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
-    ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "/images/products/tvs/st-msh-hisensetv-10.jpg",
-    "storeOffers": [
-      {
-        "id": "st-msh-hisensetv-111",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 49499,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi Hisense Türkiye Distribütörü",
-          "Ücretsiz Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-hisensetv-111",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 49999,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Hisense Yetkili Bayi",
-          "Vatan Güvencesi"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-hisensetv-111",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 49749,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Kargo",
-          "Puan Kazan"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-hisensetv-111",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 49899,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Taksit Avantajı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 53999,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 51999,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 50499,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 49999,
-        "store": "MediaMarkt"
-      }
-    ],
-    "specs": {
-      "screenSizeInches": 55,
-      "displayTech": "Mini-LED QLED 165Hz",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 165,
-      "smartOs": "VIDAA / Google TV",
-      "audioPowerWatts": 60,
-      "hdrSupport": [
-        "Dolby Vision IQ",
-        "HDR10+ Gaming"
-      ],
-      "hdrFormats": [
-        "Dolby Vision IQ",
-        "HDR10+ Gaming"
-      ],
-      "gamingFeatures": [
-        "4K @ 165Hz VRR",
-        "AMD FreeSync Premium Pro",
-        "Game Bar 3.0",
-        "ALLM (Auto Low Latency Mode)"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    }
-  },
-  {
-    "id": "hisense-tv-hisense-55u8qf-55-140-ekran-uled-mini-led-1500-nits-smart-tv-2020-25",
-    "name": "Hisense 55U8QF 55\" 140 Ekran ULED Mini-LED (1500 Nits) Smart TV (2020)",
-    "slug": "hisense-55u8qf-55-140-ekran-uled-mini-led-1500-nits-smart-tv-2020",
-    "brand": "Hisense",
-    "category": "tvs",
-    "basePrice": 24999,
-    "releaseYear": 2020,
-    "isPopular": true,
-    "rating": 5,
-    "reviewCount": 120,
-    "currency": "TL",
-    "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
-    ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "/images/products/tvs/st-msh-hisensetv-10.jpg",
-    "storeOffers": [
-      {
-        "id": "st-msh-hisensetv-26",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 24749,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi Hisense Türkiye Distribütörü",
-          "Ücretsiz Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-hisensetv-26",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 24999,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Hisense Yetkili Bayi",
-          "Vatan Güvencesi"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-hisensetv-26",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 24874,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Kargo",
-          "Puan Kazan"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-hisensetv-26",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 24949,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Taksit Avantajı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 26999,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 25999,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 25249,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 24999,
-        "store": "MediaMarkt"
-      }
-    ],
-    "specs": {
-      "screenSizeInches": 55,
-      "displayTech": "ULED Mini-LED (1500 Nits)",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 120,
-      "smartOs": "VIDAA OS",
-      "audioPowerWatts": 60,
-      "hdrSupport": [
-        "Dolby Vision Atmos",
-        "HDR10+"
-      ],
-      "hdrFormats": [
-        "Dolby Vision Atmos",
-        "HDR10+"
-      ],
-      "gamingFeatures": [
-        "4K @ 120Hz VRR",
-        "AMD FreeSync Premium Pro",
-        "Game Bar 3.0",
-        "ALLM (Auto Low Latency Mode)"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    }
-  },
-  {
-    "id": "hisense-tv-hisense-50a6k-50-127-ekran-smart-uhd-led-smart-tv-2023-53",
-    "name": "Hisense 50A6K 50\" 127 Ekran Smart UHD LED Smart TV (2023)",
-    "slug": "hisense-50a6k-50-127-ekran-smart-uhd-led-smart-tv-2023",
-    "brand": "Hisense",
-    "category": "tvs",
-    "basePrice": 12749,
-    "releaseYear": 2023,
-    "isPopular": true,
-    "rating": 4.7,
-    "reviewCount": 120,
-    "currency": "TL",
-    "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
-    ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "/images/products/tvs/st-msh-hisensetv-10.jpg",
-    "storeOffers": [
-      {
-        "id": "st-msh-hisensetv-54",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 12622,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi Hisense Türkiye Distribütörü",
-          "Ücretsiz Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-hisensetv-54",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 12749,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Hisense Yetkili Bayi",
-          "Vatan Güvencesi"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-hisensetv-54",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 12685,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Kargo",
-          "Puan Kazan"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-hisensetv-54",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 12724,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Taksit Avantajı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 13769,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 13259,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 12876,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 12749,
-        "store": "MediaMarkt"
-      }
-    ],
-    "specs": {
-      "screenSizeInches": 50,
-      "displayTech": "Smart UHD LED",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 60,
-      "smartOs": "VIDAA / Google TV",
-      "audioPowerWatts": 20,
-      "hdrSupport": [
-        "HDR10"
-      ],
-      "hdrFormats": [
-        "HDR10"
-      ],
-      "gamingFeatures": [
-        "4K @ 60Hz VRR",
-        "AMD FreeSync Premium Pro",
-        "Game Bar 3.0",
-        "ALLM (Auto Low Latency Mode)"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    }
-  },
-  {
-    "id": "hisense-tv-hisense-65u8n-65-165-ekran-mini-led-pro-3000-nits-144hz-smart-tv-2024-81",
-    "name": "Hisense 65U8N 65\" 165 Ekran Mini-LED PRO 3000 Nits 144Hz Smart TV (2024)",
-    "slug": "hisense-65u8n-65-165-ekran-mini-led-pro-3000-nits-144hz-smart-tv-2024",
-    "brand": "Hisense",
-    "category": "tvs",
-    "basePrice": 72449,
-    "releaseYear": 2024,
-    "isPopular": true,
-    "rating": 4.9,
-    "reviewCount": 120,
-    "currency": "TL",
-    "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
-    ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "/images/products/tvs/st-msh-hisensetv-10.jpg",
-    "storeOffers": [
-      {
-        "id": "st-msh-hisensetv-82",
-        "storeName": "MediaMarkt (MSH)",
-        "storeLogoColor": "bg-red-600 text-white",
-        "price": 71725,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Resmi Hisense Türkiye Distribütörü",
-          "Ücretsiz Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.mediamarkt.com.tr"
-      },
-      {
-        "id": "st-vat-hisensetv-82",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800 text-white",
-        "price": 72449,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Hisense Yetkili Bayi",
-          "Vatan Güvencesi"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "st-hb-hisensetv-82",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600 text-white",
-        "price": 72087,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Kargo",
-          "Puan Kazan"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "st-ty-hisensetv-82",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600 text-white",
-        "price": 72304,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Taksit Avantajı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 78245,
-        "store": "MediaMarkt"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 75347,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 73173,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 72449,
-        "store": "MediaMarkt"
-      }
-    ],
-    "specs": {
-      "screenSizeInches": 65,
-      "displayTech": "Mini-LED PRO 3000 Nits 144Hz",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 144,
-      "smartOs": "VIDAA / Google TV",
-      "audioPowerWatts": 60,
-      "hdrSupport": [
-        "Dolby Vision IQ",
-        "HDR10+ Gaming"
-      ],
-      "hdrFormats": [
-        "Dolby Vision IQ",
-        "HDR10+ Gaming"
-      ],
-      "gamingFeatures": [
-        "4K @ 144Hz VRR",
-        "AMD FreeSync Premium Pro",
-        "Game Bar 3.0",
-        "ALLM (Auto Low Latency Mode)"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "G"
-    }
-  },
-  {
     "id": "vestel-tv-vestel-65o9900-65-165-ekran-oled-4k-120hz-smart-tv-2022-30",
     "name": "Vestel 65O9900 65\" 165 Ekran OLED 4K (120Hz) Smart TV (2022)",
     "slug": "vestel-65o9900-65-165-ekran-oled-4k-120hz-smart-tv-2022",
@@ -30759,5 +29169,1367 @@ export const mockTVs: TVProduct[] = [
       "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg",
       "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c6k/toolkits/product-card.png"
     ]
+  },
+  {
+    "id": "hisense-55e7s",
+    "name": "Hisense 55E7S 55\" Hi-QLED Smart TV 4K 60 Hz",
+    "slug": "hisense-55e7s-55-inc-hi-qled-4k-smart-tv",
+    "brand": "Hisense",
+    "category": "tvs",
+    "basePrice": 23999,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "rating": 4.7,
+    "reviewCount": 94,
+    "currency": "TL",
+    "highlights": [
+      "55 inc 4K Ultra HD Hi-QLED Ekran",
+      "VIDAA Smart TV ve Sesli Kontrol",
+      "Dolby Atmos & Dolby Vision Desteği",
+      "ALLM ve VRR Desteği"
+    ],
+    "tags": [
+      "Hisense",
+      "Hi-QLED",
+      "4K",
+      "Smart TV",
+      "VIDAA",
+      "55 inç"
+    ],
+    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-e-e-ee1501f36be31073cc7d69455452733d-326922-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3MzA3fGltYWdlL2pwZWd8YURBMkwyZ3dOeTh4TlRjeU1UUXhPREUyTWpJd05pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZaUzlsTDJWbE1UVXdNV1l6Tm1KbE16RXdOek5qWXpka05qazBOVFUwTlRJM016TmtYek15TmpreU1sOHhMbXB3Wnd8YTVkNGExMzQzZjBjNzBmZTQxNGY5YzU0N2MzYzdiMjI1YWNhNjUzMjAwZDQzZmY2NGYwOGNmOGY0OTA3Zjk1MA",
+    "images": [
+      "https://hisense.hgecdn.net/medias/uled-lineup-3840x1400-cropped-notext.webp?context=bWFzdGVyfGltYWdlc3wxODcwMDh8aW1hZ2Uvd2VicHxhRFZqTDJoaU5TOHhOVEV3T1RFM01ESXpNek03TkM5MWJHVmtMV3hwYm1WMWNDMHpPRFR3ZURFME1EQXRZM0p2Y0hCbFpDMXViM1JsZUhRdWQyVmljQXwxZDAxYTJmYjRhN2VjMzJmODM0YWViOGViNTY1YTcxMmQ0NDM4Y2QyM2M4M2JjMGZlMTQ1MmJhZTNlNjMxODBm"
+    ],
+    "storeOffers": [
+      {
+        "id": "off-hsn-55e7s-1",
+        "storeName": "Hisense Türkiye Resmi Mağaza",
+        "storeLogoColor": "#00AAAA",
+        "price": 23999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 320,
+        "url": "https://hisense.com.tr"
+      },
+      {
+        "id": "off-hsn-55e7s-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 24299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 210,
+        "url": "https://www.vatanbilgisayar.com"
+      },
+      {
+        "id": "off-hsn-55e7s-3",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 24499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 185,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 25999,
+        "store": "Hisense Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 23999,
+        "store": "Hisense Türkiye"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "Hi-QLED TV",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "VIDAA U7",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
+  },
+  {
+    "id": "hisense-65e7s",
+    "name": "Hisense 65E7S 65\" Hi-QLED Smart TV 4K 60 Hz",
+    "slug": "hisense-65e7s-65-inc-hi-qled-4k-smart-tv",
+    "brand": "Hisense",
+    "category": "tvs",
+    "basePrice": 32999,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "rating": 4.8,
+    "reviewCount": 112,
+    "currency": "TL",
+    "highlights": [
+      "65 inc Dev 4K Hi-QLED Ekran",
+      "Dolby Vision ve Dolby Atmos Ses",
+      "VIDAA Smart İntelligent OS",
+      "AirPlay 2 ve Sesli Asistan"
+    ],
+    "tags": [
+      "Hisense",
+      "Hi-QLED",
+      "4K",
+      "Smart TV",
+      "65 inç"
+    ],
+    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-e-e-ee1501f36be31073cc7d69455452733d-326922-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3MzA3fGltYWdlL2pwZWd8YURBMkwyZ3dOeTh4TlRjeU1UUXhPREUyTWpJd05pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZaUzlsTDJWbE1UVXdNV1l6Tm1KbE16RXdOek5qWXpka05qazBOVFUwTlRJM016TmtYek15TmpreU1sOHhMbXB3Wnd8YTVkNGExMzQzZjBjNzBmZTQxNGY5YzU0N2MzYzdiMjI1YWNhNjUzMjAwZDQzZmY2NGYwOGNmOGY0OTA3Zjk1MA",
+    "images": [
+      "https://hisense.hgecdn.net/medias/uled-lineup-3840x1400-cropped-notext.webp?context=bWFzdGVyfGltYWdlc3wxODcwMDh8aW1hZ2Uvd2VicHxhRFZqTDJoaU5TOHhOVEV3T1RFM01ESXpNek03TkM5MWJHVmtMV3hwYm1WMWNDMHpPRFR3ZURFME1EQXRZM0p2Y0hCbFpDMXViM1JsZUhRdWQyVmljQXwxZDAxYTJmYjRhN2VjMzJmODM0YWViOGViNTY1YTcxMmQ0NDM4Y2QyM2M4M2JjMGZlMTQ1MmJhZTNlNjMxODBm"
+    ],
+    "storeOffers": [
+      {
+        "id": "off-hsn-65e7s-1",
+        "storeName": "Hisense Türkiye Resmi Mağaza",
+        "storeLogoColor": "#00AAAA",
+        "price": 32999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 320,
+        "url": "https://hisense.com.tr"
+      },
+      {
+        "id": "off-hsn-65e7s-2",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 33499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 35999,
+        "store": "Hisense Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 32999,
+        "store": "Hisense Türkiye"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "Hi-QLED TV",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "VIDAA U7",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
+  },
+  {
+    "id": "hisense-75e7s",
+    "name": "Hisense 75E7S 75\" Hi-QLED Smart TV 4K 60 Hz",
+    "slug": "hisense-75e7s-75-inc-hi-qled-4k-smart-tv",
+    "brand": "Hisense",
+    "category": "tvs",
+    "basePrice": 44999,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "rating": 4.9,
+    "reviewCount": 88,
+    "currency": "TL",
+    "highlights": [
+      "75 inc 191 Ekran Dev Hi-QLED Sinema Deneyimi",
+      "Dolby Vision & Dolby Atmos",
+      "AirPlay 2 & Akıllı Sesli Komut",
+      "İnce Çerçeveli Premium Tasarım"
+    ],
+    "tags": [
+      "Hisense",
+      "Hi-QLED",
+      "4K",
+      "Smart TV",
+      "75 inç"
+    ],
+    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-e-e-ee1501f36be31073cc7d69455452733d-326922-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3MzA3fGltYWdlL2pwZWd8YURBMkwyZ3dOeTh4TlRjeU1UUXhPREUyTWpJd05pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZaUzlsTDJWbE1UVXdNV1l6Tm1KbE16RXdOek5qWXpka05qazBOVFUwTlRJM016TmtYek15TmpreU1sOHhMbXB3Wnd8YTVkNGExMzQzZjBjNzBmZTQxNGY5YzU0N2MzYzdiMjI1YWNhNjUzMjAwZDQzZmY2NGYwOGNmOGY0OTA3Zjk1MA",
+    "images": [
+      "https://hisense.hgecdn.net/medias/uled-lineup-3840x1400-cropped-notext.webp?context=bWFzdGVyfGltYWdlc3wxODcwMDh8aW1hZ2Uvd2VicHxhRFZqTDJoaU5TOHhOVEV3T1RFM01ESXpNek03TkM5MWJHVmtMV3hwYm1WMWNDMHpPRFR3ZURFME1EQXRZM0p2Y0hCbFpDMXViM1JsZUhRdWQyVmljQXwxZDAxYTJmYjRhN2VjMzJmODM0YWViOGViNTY1YTcxMmQ0NDM4Y2QyM2M4M2JjMGZlMTQ1MmJhZTNlNjMxODBm"
+    ],
+    "storeOffers": [
+      {
+        "id": "off-hsn-75e7s-1",
+        "storeName": "Hisense Türkiye Resmi Mağaza",
+        "storeLogoColor": "#00AAAA",
+        "price": 44999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 320,
+        "url": "https://hisense.com.tr"
+      },
+      {
+        "id": "off-hsn-75e7s-2",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 45499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 185,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 47999,
+        "store": "Hisense Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 44999,
+        "store": "Hisense Türkiye"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "Hi-QLED TV",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "VIDAA U7",
+      "audioPowerWatts": 30,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
+  },
+  {
+    "id": "hisense-55e7s-pro",
+    "name": "Hisense 55E7S PRO 55\" Hi-QLED Smart TV 4K 144 Hz Gaming",
+    "slug": "hisense-55e7s-pro-55-inc-hi-qled-4k-144hz-gaming-tv",
+    "brand": "Hisense",
+    "category": "tvs",
+    "basePrice": 28999,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "rating": 4.9,
+    "reviewCount": 140,
+    "currency": "TL",
+    "highlights": [
+      "144 Hz Game Mode PRO Oyuncu Ekranı",
+      "Full HDMI 2.1 VRR & ALLM",
+      "AMD FreeSync Premium PRO",
+      "Dolby Atmos & IMAX Enhanced Deneyimi"
+    ],
+    "tags": [
+      "Hisense",
+      "Hi-QLED PRO",
+      "144Hz",
+      "Gaming TV",
+      "4K",
+      "55 inç"
+    ],
+    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-b-0-b0ebc8ea4947bdb66d8936f0861e9925-327610-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDMzMjkwfGltYWdlL2pwZWd8YURBekwyZ3dZUzh4TlRjeU1UUXhPREl5TnpjME1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZZaTh3TDJJd1pXSmpPR1ZoTkRrME4ySmtZalkyWkRnNU16Wm1NRGcyTVdVNU9USTFYek15TnpZeE1GOHhMbXB3Wnd8OTgwOTQxYWVlNTA3NmMxMzg5MWUxNmViNWNkY2Y2MmYwZWIxOWFhODA4NTk4OWIwNzM2OWY0MTcxZThiYjg3Mg",
+    "images": [
+      "https://hisense.hgecdn.net/medias/uled-lineup-3840x1400-cropped-notext.webp?context=bWFzdGVyfGltYWdlc3wxODcwMDh8aW1hZ2Uvd2VicHxhRFZqTDJoaU5TOHhOVEV3T1RFM01ESXpNek03TkM5MWJHVmtMV3hwYm1WMWNDMHpPRFR3ZURFME1EQXRZM0p2Y0hCbFpDMXViM1JsZUhRdWQyVmljQXwxZDAxYTJmYjRhN2VjMzJmODM0YWViOGViNTY1YTcxMmQ0NDM4Y2QyM2M4M2JjMGZlMTQ1MmJhZTNlNjMxODBm"
+    ],
+    "storeOffers": [
+      {
+        "id": "off-hsn-55e7spro-1",
+        "storeName": "Hisense Türkiye Resmi Mağaza",
+        "storeLogoColor": "#00AAAA",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 320,
+        "url": "https://hisense.com.tr"
+      },
+      {
+        "id": "off-hsn-55e7spro-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 29299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 210,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 30999,
+        "store": "Hisense Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 28999,
+        "store": "Hisense Türkiye"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "Hi-QLED TV",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "VIDAA U7",
+      "audioPowerWatts": 30,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+ Adaptive",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
+  },
+  {
+    "id": "hisense-65e7s-pro",
+    "name": "Hisense 65E7S PRO 65\" Hi-QLED Smart TV 4K 144 Hz Gaming",
+    "slug": "hisense-65e7s-pro-65-inc-hi-qled-4k-144hz-gaming-tv",
+    "brand": "Hisense",
+    "category": "tvs",
+    "basePrice": 38999,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "rating": 4.9,
+    "reviewCount": 165,
+    "currency": "TL",
+    "highlights": [
+      "65 inc 144 Hz PRO Oyuncu Paneli",
+      "Full HDMI 2.1 4K 144Hz Girdi",
+      "AMD FreeSync Premium",
+      "Dolby Atmos Surround Ses"
+    ],
+    "tags": [
+      "Hisense",
+      "Hi-QLED PRO",
+      "144Hz",
+      "Gaming TV",
+      "4K",
+      "65 inç"
+    ],
+    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-b-0-b0ebc8ea4947bdb66d8936f0861e9925-327610-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDMzMjkwfGltYWdlL2pwZWd8YURBekwyZ3dZUzh4TlRjeU1UUXhPREl5TnpjME1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZZaTh3TDJJd1pXSmpPR1ZoTkRrME4ySmtZalkyWkRnNU16Wm1NRGcyTVdVNU9USTFYek15TnpZeE1GOHhMbXB3Wnd8OTgwOTQxYWVlNTA3NmMxMzg5MWUxNmViNWNkY2Y2MmYwZWIxOWFhODA4NTk4OWIwNzM2OWY0MTcxZThiYjg3Mg",
+    "images": [
+      "https://hisense.hgecdn.net/medias/uled-lineup-3840x1400-cropped-notext.webp?context=bWFzdGVyfGltYWdlc3wxODcwMDh8aW1hZ2Uvd2VicHxhRFZqTDJoaU5TOHhOVEV3T1RFM01ESXpNek03TkM5MWJHVmtMV3hwYm1WMWNDMHpPRFR3ZURFME1EQXRZM0p2Y0hCbFpDMXViM1JsZUhRdWQyVmljQXwxZDAxYTJmYjRhN2VjMzJmODM0YWViOGViNTY1YTcxMmQ0NDM4Y2QyM2M4M2JjMGZlMTQ1MmJhZTNlNjMxODBm"
+    ],
+    "storeOffers": [
+      {
+        "id": "off-hsn-65e7spro-1",
+        "storeName": "Hisense Türkiye Resmi Mağaza",
+        "storeLogoColor": "#00AAAA",
+        "price": 38999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 320,
+        "url": "https://hisense.com.tr"
+      },
+      {
+        "id": "off-hsn-65e7spro-2",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 39499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 41999,
+        "store": "Hisense Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 38999,
+        "store": "Hisense Türkiye"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "Hi-QLED TV",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "VIDAA U7",
+      "audioPowerWatts": 30,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+ Adaptive",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
+  },
+  {
+    "id": "hisense-75e7s-pro",
+    "name": "Hisense 75E7S PRO 75\" Hi-QLED Smart TV 4K 144 Hz Gaming",
+    "slug": "hisense-75e7s-pro-75-inc-hi-qled-4k-144hz-gaming-tv",
+    "brand": "Hisense",
+    "category": "tvs",
+    "basePrice": 52999,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "rating": 5,
+    "reviewCount": 98,
+    "currency": "TL",
+    "highlights": [
+      "75 inc Dev Oyuncu ve Sinema Ekranı",
+      "144 Hz Yüksek Yenileme Hızı",
+      "Full HDMI 2.1 & AMD FreeSync",
+      "IMAX Enhanced & Dolby Atmos"
+    ],
+    "tags": [
+      "Hisense",
+      "Hi-QLED PRO",
+      "144Hz",
+      "Gaming TV",
+      "4K",
+      "75 inç"
+    ],
+    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-b-0-b0ebc8ea4947bdb66d8936f0861e9925-327610-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDMzMjkwfGltYWdlL2pwZWd8YURBekwyZ3dZUzh4TlRjeU1UUXhPREl5TnpjME1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZZaTh3TDJJd1pXSmpPR1ZoTkRrME4ySmtZalkyWkRnNU16Wm1NRGcyTVdVNU9USTFYek15TnpZeE1GOHhMbXB3Wnd8OTgwOTQxYWVlNTA3NmMxMzg5MWUxNmViNWNkY2Y2MmYwZWIxOWFhODA4NTk4OWIwNzM2OWY0MTcxZThiYjg3Mg",
+    "images": [
+      "https://hisense.hgecdn.net/medias/uled-lineup-3840x1400-cropped-notext.webp?context=bWFzdGVyfGltYWdlc3wxODcwMDh8aW1hZ2Uvd2VicHxhRFZqTDJoaU5TOHhOVEV3T1RFM01ESXpNek03TkM5MWJHVmtMV3hwYm1WMWNDMHpPRFR3ZURFME1EQXRZM0p2Y0hCbFpDMXViM1JsZUhRdWQyVmljQXwxZDAxYTJmYjRhN2VjMzJmODM0YWViOGViNTY1YTcxMmQ0NDM4Y2QyM2M4M2JjMGZlMTQ1MmJhZTNlNjMxODBm"
+    ],
+    "storeOffers": [
+      {
+        "id": "off-hsn-75e7spro-1",
+        "storeName": "Hisense Türkiye Resmi Mağaza",
+        "storeLogoColor": "#00AAAA",
+        "price": 52999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "VIP Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 320,
+        "url": "https://hisense.com.tr"
+      },
+      {
+        "id": "off-hsn-75e7spro-2",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 53499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 185,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 55999,
+        "store": "Hisense Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 52999,
+        "store": "Hisense Türkiye"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "Hi-QLED TV",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "VIDAA U7",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+ Adaptive",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
+  },
+  {
+    "id": "hisense-55e8s",
+    "name": "Hisense 55E8S 55\" ULED MiniLED Smart TV 4K 144 Hz",
+    "slug": "hisense-55e8s-55-inc-uled-miniled-4k-smart-tv",
+    "brand": "Hisense",
+    "category": "tvs",
+    "basePrice": 34999,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "rating": 4.9,
+    "reviewCount": 156,
+    "currency": "TL",
+    "highlights": [
+      "ULED MiniLED Üstün Parlaklık ve Siyah Seviyesi",
+      "144 Hz Yüksek Yenileme Hızı",
+      "Dolby Vision IQ & Dolby Atmos",
+      "IMAX Enhanced Sertifikalı Görüntü"
+    ],
+    "tags": [
+      "Hisense",
+      "ULED MiniLED",
+      "4K",
+      "144Hz",
+      "Smart TV",
+      "55 inç"
+    ],
+    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-2-6-268b73cdbe106f6e46c0fbd64587bff7-327693-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI6NjgxfGltYWdlL2pwZWd8YURKakwyZzNZaTh4TlRjeU1UUXhPVFEzTWpreU5pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNaTgyTHpJMk9HSTNNMk5rWW1VeE1EWm1ObVUwTm1Nd1ptSmtNalExT0RkaVptWTNYek15TnpZNU0xOHhMbXB3Wnd8OWFhOWJlYTk4YzQ3MmI3NDVmMzM3ZjAwY2E3ZjY0MzNjZTFmZDVmYjc1MDc1OGE4YWQ2ZDU3MjMxZmI2NWMzZg",
+    "images": [
+      "https://hisense.hgecdn.net/medias/uled-lineup-3840x1400-cropped-notext.webp?context=bWFzdGVyfGltYWdlc3wxODcwMDh8aW1hZ2Uvd2VicHxhRFZqTDJoaU5TOHhOVEV3T1RFM01ESXpNek03TkM5MWJHVmtMV3hwYm1WMWNDMHpPRFR3ZURFME1EQXRZM0p2Y0hCbFpDMXViM1JsZUhRdWQyVmljQXwxZDAxYTJmYjRhN2VjMzJmODM0YWViOGViNTY1YTcxMmQ0NDM4Y2QyM2M4M2JjMGZlMTQ1MmJhZTNlNjMxODBm"
+    ],
+    "storeOffers": [
+      {
+        "id": "off-hsn-55e8s-1",
+        "storeName": "Hisense Türkiye Resmi Mağaza",
+        "storeLogoColor": "#00AAAA",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 320,
+        "url": "https://hisense.com.tr"
+      },
+      {
+        "id": "off-hsn-55e8s-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 35499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 210,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 37999,
+        "store": "Hisense Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 34999,
+        "store": "Hisense Türkiye"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "ULED MiniLED TV",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "VIDAA U7",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+ Adaptive",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
+  },
+  {
+    "id": "hisense-65e8s",
+    "name": "Hisense 65E8S 65\" ULED MiniLED Smart TV 4K 144 Hz",
+    "slug": "hisense-65e8s-65-inc-uled-miniled-4k-smart-tv",
+    "brand": "Hisense",
+    "category": "tvs",
+    "basePrice": 46999,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "rating": 5,
+    "reviewCount": 180,
+    "currency": "TL",
+    "highlights": [
+      "65 inc ULED MiniLED İnanılmaz Kontrast",
+      "144 Hz Akıcı Oyun ve Spor Yayını",
+      "IMAX Enhanced & Dolby Atmos",
+      "Full HDMI 2.1 Desteği"
+    ],
+    "tags": [
+      "Hisense",
+      "ULED MiniLED",
+      "4K",
+      "144Hz",
+      "Smart TV",
+      "65 inç"
+    ],
+    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-2-6-268b73cdbe106f6e46c0fbd64587bff7-327693-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI6NjgxfGltYWdlL2pwZWd8YURKakwyZzNZaTh4TlRjeU1UUXhPVFEzTWpreU5pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNaTgyTHpJMk9HSTNNMk5rWW1VeE1EWm1ObVUwTm1Nd1ptSmtNalExT0RkaVptWTNYek15TnpZNU0xOHhMbXB3Wnd8OWFhOWJlYTk4YzQ3MmI3NDVmMzM3ZjAwY2E3ZjY0MzNjZTFmZDVmYjc1MDc1OGE4YWQ2ZDU3MjMxZmI2NWMzZg",
+    "images": [
+      "https://hisense.hgecdn.net/medias/uled-lineup-3840x1400-cropped-notext.webp?context=bWFzdGVyfGltYWdlc3wxODcwMDh8aW1hZ2Uvd2VicHxhRFZqTDJoaU5TOHhOVEV3T1RFM01ESXpNek03TkM5MWJHVmtMV3hwYm1WMWNDMHpPRFR3ZURFME1EQXRZM0p2Y0hCbFpDMXViM1JsZUhRdWQyVmljQXwxZDAxYTJmYjRhN2VjMzJmODM0YWViOGViNTY1YTcxMmQ0NDM4Y2QyM2M4M2JjMGZlMTQ1MmJhZTNlNjMxODBm"
+    ],
+    "storeOffers": [
+      {
+        "id": "off-hsn-65e8s-1",
+        "storeName": "Hisense Türkiye Resmi Mağaza",
+        "storeLogoColor": "#00AAAA",
+        "price": 46999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 320,
+        "url": "https://hisense.com.tr"
+      },
+      {
+        "id": "off-hsn-65e8s-2",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 47499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 49999,
+        "store": "Hisense Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 46999,
+        "store": "Hisense Türkiye"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "ULED MiniLED TV",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "VIDAA U7",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+ Adaptive",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
+  },
+  {
+    "id": "hisense-75e8s",
+    "name": "Hisense 75E8S 75\" ULED MiniLED Smart TV 4K 144 Hz",
+    "slug": "hisense-75e8s-75-inc-uled-miniled-4k-smart-tv",
+    "brand": "Hisense",
+    "category": "tvs",
+    "basePrice": 64999,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "rating": 5,
+    "reviewCount": 110,
+    "currency": "TL",
+    "highlights": [
+      "75 inc Dev ULED MiniLED Amiral Gemisi Ekran",
+      "144 Hz VRR & ALLM Oyun Özellikleri",
+      "Dolby Vision IQ & Dolby Atmos 2.1.2 Ses",
+      "IMAX Enhanced Sinema Modu"
+    ],
+    "tags": [
+      "Hisense",
+      "ULED MiniLED",
+      "4K",
+      "144Hz",
+      "Smart TV",
+      "75 inç"
+    ],
+    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-2-6-268b73cdbe106f6e46c0fbd64587bff7-327693-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI6NjgxfGltYWdlL2pwZWd8YURKakwyZzNZaTh4TlRjeU1UUXhPVFEzTWpreU5pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNaTgyTHpJMk9HSTNNMk5rWW1VeE1EWm1ObVUwTm1Nd1ptSmtNalExT0RkaVptWTNYek15TnpZNU0xOHhMbXB3Wnd8OWFhOWJlYTk4YzQ3MmI3NDVmMzM3ZjAwY2E3ZjY0MzNjZTFmZDVmYjc1MDc1OGE4YWQ2ZDU3MjMxZmI2NWMzZg",
+    "images": [
+      "https://hisense.hgecdn.net/medias/uled-lineup-3840x1400-cropped-notext.webp?context=bWFzdGVyfGltYWdlc3wxODcwMDh8aW1hZ2Uvd2VicHxhRFZqTDJoaU5TOHhOVEV3T1RFM01ESXpNek03TkM5MWJHVmtMV3hwYm1WMWNDMHpPRFR3ZURFME1EQXRZM0p2Y0hCbFpDMXViM1JsZUhRdWQyVmljQXwxZDAxYTJmYjRhN2VjMzJmODM0YWViOGViNTY1YTcxMmQ0NDM4Y2QyM2M4M2JjMGZlMTQ1MmJhZTNlNjMxODBm"
+    ],
+    "storeOffers": [
+      {
+        "id": "off-hsn-75e8s-1",
+        "storeName": "Hisense Türkiye Resmi Mağaza",
+        "storeLogoColor": "#00AAAA",
+        "price": 64999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "VIP Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 320,
+        "url": "https://hisense.com.tr"
+      },
+      {
+        "id": "off-hsn-75e8s-2",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 65499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 185,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 68999,
+        "store": "Hisense Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 64999,
+        "store": "Hisense Türkiye"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "ULED MiniLED TV",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "VIDAA U7",
+      "audioPowerWatts": 50,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+ Adaptive",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
+  },
+  {
+    "id": "hisense-55u7se",
+    "name": "Hisense 55U7SE 55\" ULED MiniLED Smart TV 4K 144 Hz",
+    "slug": "hisense-55u7se-55-inc-uled-miniled-4k-smart-tv",
+    "brand": "Hisense",
+    "category": "tvs",
+    "basePrice": 36999,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "rating": 4.9,
+    "reviewCount": 132,
+    "currency": "TL",
+    "highlights": [
+      "55 inc ULED MiniLED Hassas Bölgesel Karartma",
+      "144 Hz Yüksek Yenileme Hızı",
+      "Dolby Vision IQ & Dolby Atmos",
+      "Full HDMI 2.1 VRR & ALLM"
+    ],
+    "tags": [
+      "Hisense",
+      "ULED MiniLED",
+      "4K",
+      "144Hz",
+      "Smart TV",
+      "55 inç"
+    ],
+    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-1-0-101872c9bdc6fb51869b9a244a15735f-327735-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3NjkzfGltYWdlL2pwZWd8YUdGa0wyZzNNeTh4TlRjeU1UUXhPVEl4TURjNE1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNUzh3THpFd01UZzNNbU01WW1Sak5tWmlOVEU0TmpsaU9XRXlORFJoTVRVM016Vm1Yek15Tnpjek5WOHhMbXB3Wnd8ZTg4YTk3YzdmNGRiYWQ1NjNmNDQ5NjBmNzlkNjFhNDU5MGRjZTljYzNmYWNjOWJiZTViOGEyOTc3NmNiMDk4Yg",
+    "images": [
+      "https://hisense.hgecdn.net/medias/uled-lineup-3840x1400-cropped-notext.webp?context=bWFzdGVyfGltYWdlc3wxODcwMDh8aW1hZ2Uvd2VicHxhRFZqTDJoaU5TOHhOVEV3T1RFM01ESXpNek03TkM5MWJHVmtMV3hwYm1WMWNDMHpPRFR3ZURFME1EQXRZM0p2Y0hCbFpDMXViM1JsZUhRdWQyVmljQXwxZDAxYTJmYjRhN2VjMzJmODM0YWViOGViNTY1YTcxMmQ0NDM4Y2QyM2M4M2JjMGZlMTQ1MmJhZTNlNjMxODBm"
+    ],
+    "storeOffers": [
+      {
+        "id": "off-hsn-55u7se-1",
+        "storeName": "Hisense Türkiye Resmi Mağaza",
+        "storeLogoColor": "#00AAAA",
+        "price": 36999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 320,
+        "url": "https://hisense.com.tr"
+      },
+      {
+        "id": "off-hsn-55u7se-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 37499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 210,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 39999,
+        "store": "Hisense Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 36999,
+        "store": "Hisense Türkiye"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "ULED MiniLED TV",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "VIDAA U7",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+ Adaptive",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
+  },
+  {
+    "id": "hisense-65u7se",
+    "name": "Hisense 65U7SE 65\" ULED MiniLED Smart TV 4K 144 Hz",
+    "slug": "hisense-65u7se-65-inc-uled-miniled-4k-smart-tv",
+    "brand": "Hisense",
+    "category": "tvs",
+    "basePrice": 49999,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "rating": 4.9,
+    "reviewCount": 145,
+    "currency": "TL",
+    "highlights": [
+      "65 inc ULED MiniLED Yüksek Ekran Parlaklığı",
+      "144 Hz Oyun Modu ve AMD FreeSync",
+      "Dolby Vision IQ & Dolby Atmos",
+      "Full HDMI 2.1 Bağlantıları"
+    ],
+    "tags": [
+      "Hisense",
+      "ULED MiniLED",
+      "4K",
+      "144Hz",
+      "Smart TV",
+      "65 inç"
+    ],
+    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-1-0-101872c9bdc6fb51869b9a244a15735f-327735-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI3NjkzfGltYWdlL2pwZWd8YUdGa0wyZzNNeTh4TlRjeU1UUXhPVEl4TURjNE1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNUzh3THpFd01UZzNNbU01WW1Sak5tWmlOVEU0TmpsaU9XRXlORFJoTVRVM016Vm1Yek15Tnpjek5WOHhMbXB3Wnd8ZTg4YTk3YzdmNGRiYWQ1NjNmNDQ5NjBmNzlkNjFhNDU5MGRjZTljYzNmYWNjOWJiZTViOGEyOTc3NmNiMDk4Yg",
+    "images": [
+      "https://hisense.hgecdn.net/medias/uled-lineup-3840x1400-cropped-notext.webp?context=bWFzdGVyfGltYWdlc3wxODcwMDh8aW1hZ2Uvd2VicHxhRFZqTDJoaUNSZXhOVEV3T1RFM01ESXpNek03TkM5MWJHVmtMV3hwYm1WMWNDMHpPRFR3ZURFME1EQXRZM0p2Y0hCbFpDMXViM1JsZUhRdWQyVmljQXwxZDAxYTJmYjRhN2VjMzJmODM0YWViOGViNTY1YTcxMmQ0NDM4Y2QyM2M4M2JjMGZlMTQ1MmJhZTNlNjMxODBm"
+    ],
+    "storeOffers": [
+      {
+        "id": "off-hsn-65u7se-1",
+        "storeName": "Hisense Türkiye Resmi Mağaza",
+        "storeLogoColor": "#00AAAA",
+        "price": 49999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 320,
+        "url": "https://hisense.com.tr"
+      },
+      {
+        "id": "off-hsn-65u7se-2",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 50499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 52999,
+        "store": "Hisense Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 49999,
+        "store": "Hisense Türkiye"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "ULED MiniLED TV",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "VIDAA U7",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+ Adaptive",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
+  },
+  {
+    "id": "hisense-75u7se",
+    "name": "Hisense 75U7SE 75\" ULED MiniLED Smart TV 4K 144 Hz",
+    "slug": "hisense-75u7se-75-inc-uled-miniled-4k-smart-tv",
+    "brand": "Hisense",
+    "category": "tvs",
+    "basePrice": 69999,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "rating": 5,
+    "reviewCount": 92,
+    "currency": "TL",
+    "highlights": [
+      "75 inc Dev ULED MiniLED Görüntü Kalitesi",
+      "144 Hz VRR & ALLM Oyuncu Özellikleri",
+      "Dolby Vision IQ & Dolby Atmos Ses",
+      "D Enerji Sınıfı Üstün Verimlilik"
+    ],
+    "tags": [
+      "Hisense",
+      "ULED MiniLED",
+      "4K",
+      "144Hz",
+      "Smart TV",
+      "75 inç"
+    ],
+    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-1-0-101872c9bdc6fb51869b9a244a15735f-327735-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI7NjkzfGltYWdlL2pwZWd8YUdGa0wyZzNNeTh4TlRjeU1UUXhPVEl4TURjNE1pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNUzh3THpFd01UZzNNbU01WW1Sak5tWmlOVEU0TmpsaU9XRXlORFJoTVRVM016Vm1Yek15Tnpjek5WOHhMbXB3Wnd8ZTg4YTk3YzdmNGRiYWQ1NjNmNDQ5NjBmNzlkNjFhNDU5MGRjZTljYzNmYWNjOWJiZTViOGEyOTc3NmNiMDk4Yg",
+    "images": [
+      "https://hisense.hgecdn.net/medias/uled-lineup-3840x1400-cropped-notext.webp?context=bWFzdGVyfGltYWdlc3wxODcwMDh8aW1hZ2Uvd2VicHxhRFZqTDJoaU5TOHhOVEV3T1RFM01ESXpNek03TkM5MWJHVmtMV3hwYm1WMWNDMHpPRFR3ZURFME1EQXRZM0p2Y0hCbFpDMXViM1JsZUhRdWQyVmljQXwxZDAxYTJmYjRhN2VjMzJmODM0YWViOGViNTY1YTcxMmQ0NDM4Y2QyM2M4M2JjMGZlMTQ1MmJhZTNlNjMxODBm"
+    ],
+    "storeOffers": [
+      {
+        "id": "off-hsn-75u7se-1",
+        "storeName": "Hisense Türkiye Resmi Mağaza",
+        "storeLogoColor": "#00AAAA",
+        "price": 69999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "VIP Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 320,
+        "url": "https://hisense.com.tr"
+      },
+      {
+        "id": "off-hsn-75u7se-2",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 70499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 185,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 74999,
+        "store": "Hisense Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 69999,
+        "store": "Hisense Türkiye"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "ULED MiniLED TV",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "VIDAA U7",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+ Adaptive",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "D"
+    }
+  },
+  {
+    "id": "hisense-65u8n",
+    "name": "Hisense 65U8N 65\" Mini-LED PRO 3000 Nits 144Hz Smart TV",
+    "slug": "hisense-65u8n-65-inc-mini-led-pro-3000-nits-144hz-smart-tv",
+    "brand": "Hisense",
+    "category": "tvs",
+    "basePrice": 59999,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "rating": 5,
+    "reviewCount": 210,
+    "currency": "TL",
+    "highlights": [
+      "Mini-LED PRO 3000 Nits Tepe Parlaklık",
+      "144 Hz VRR & Full HDMI 2.1",
+      "Hi-View Engine PRO Yapay Zeka İşlemci",
+      "Subwoofer Dahil 2.1.2 Kanallı Dolby Atmos Ses"
+    ],
+    "tags": [
+      "Hisense",
+      "Mini-LED PRO",
+      "3000 Nits",
+      "4K",
+      "144Hz",
+      "65 inç"
+    ],
+    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-2-6-268b73cdbe106f6e46c0fbd64587bff7-327693-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI6NjgxfGltYWdlL2pwZWd8YURKakwyZzNZaTh4TlRjeU1UUXhPVFEzTWpreU5pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNaTgyTHpJMk9HSTNNMk5rWW1VeE1EWm1ObVUwTm1Nd1ptSmtNalExT0RkaVptWTNYek15TnpZNU0xOHhMbXB3Wnd8OWFhOWJlYTk4YzQ3MmI3NDVmMzM3ZjAwY2E3ZjY0MzNjZTFmZDVmYjc1MDc1OGE4YWQ2ZDU3MjMxZmI2NWMzZg",
+    "images": [
+      "https://hisense.hgecdn.net/medias/uled-lineup-3840x1400-cropped-notext.webp?context=bWFzdGVyfGltYWdlc3wxODcwMDh8aW1hZ2Uvd2VicHxhRFZqTDJoaU5TOHhOVEV3T1RFM01ESXpNek03TkM5MWJHVmtMV3hwYm1WMWNDMHpPRFR3ZURFME1EQXRZM0p2Y0hCbFpDMXViM1JsZUhRdWQyVmljQXwxZDAxYTJmYjRhN2VjMzJmODM0YWViOGViNTY1YTcxMmQ0NDM4Y2QyM2M4M2JjMGZlMTQ1MmJhZTNlNjMxODBm"
+    ],
+    "storeOffers": [
+      {
+        "id": "off-hsn-65u8n-1",
+        "storeName": "Hisense Türkiye Resmi Mağaza",
+        "storeLogoColor": "#00AAAA",
+        "price": 59999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz VIP Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 320,
+        "url": "https://hisense.com.tr"
+      },
+      {
+        "id": "off-hsn-65u8n-2",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 60499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 64999,
+        "store": "Hisense Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 59999,
+        "store": "Hisense Türkiye"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "Mini-LED PRO",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "VIDAA U7",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+ Adaptive",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
+  },
+  {
+    "id": "hisense-75u8n",
+    "name": "Hisense 75U8N 75\" Mini-LED PRO 3000 Nits 144Hz Smart TV",
+    "slug": "hisense-75u8n-75-inc-mini-led-pro-3000-nits-144hz-smart-tv",
+    "brand": "Hisense",
+    "category": "tvs",
+    "basePrice": 79999,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "rating": 5,
+    "reviewCount": 175,
+    "currency": "TL",
+    "highlights": [
+      "75 inc Mini-LED PRO 3000 Nits Parlaklık",
+      "Hi-View Engine PRO AI İşlemci",
+      "144 Hz Oyuncu Paneli & AMD FreeSync",
+      "2.1.2 Kanal Dahili Subwoofer'lı Ses"
+    ],
+    "tags": [
+      "Hisense",
+      "Mini-LED PRO",
+      "3000 Nits",
+      "4K",
+      "144Hz",
+      "75 inç"
+    ],
+    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-2-6-268b73cdbe106f6e46c0fbd64587bff7-327693-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI6NjgxfGltYWdlL2pwZWd8YURKakwyZzNZaTh4TlRjeU1UUXhPVFEzTWpreU5pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNaTgyTHpJMk9HSTNNMk5rWW1VeE1EWm1ObVUwTm1Nd1ptSmtNalExT0RkaVptWTNYek15TnpZNU0xOHhMbXB3Wnd8OWFhOWJlYTk4YzQ3MmI3NDVmMzM3ZjAwY2E3ZjY0MzNjZTFmZDVmYjc1MDc1OGE4YWQ2ZDU3MjMxZmI2NWMzZg",
+    "images": [
+      "https://hisense.hgecdn.net/medias/uled-lineup-3840x1400-cropped-notext.webp?context=bWFzdGVyfGltYWdlc3wxODcwMDh8aW1hZ2Uvd2VicHxhRFZqTDJoaU5TOHhOVEV3T1RFM01ESXpNek03TkM5MWJHVmtMV3hwYm1WMWNDMHpPRFR3ZURFME1EQXRZM0p2Y0hCbFpDMXViM1JsZUhRdWQyVmljQXwxZDAxYTJmYjRhN2VjMzJmODM0YWViOGViNTY1YTcxMmQ0NDM4Y2QyM2M4M2JjMGZlMTQ1MmJhZTNlNjMxODBm"
+    ],
+    "storeOffers": [
+      {
+        "id": "off-hsn-75u8n-1",
+        "storeName": "Hisense Türkiye Resmi Mağaza",
+        "storeLogoColor": "#00AAAA",
+        "price": 79999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz VIP Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 320,
+        "url": "https://hisense.com.tr"
+      },
+      {
+        "id": "off-hsn-75u8n-2",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002B49",
+        "price": 80999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 210,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 84999,
+        "store": "Hisense Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 79999,
+        "store": "Hisense Türkiye"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "Mini-LED PRO",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "VIDAA U7",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+ Adaptive",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
+  },
+  {
+    "id": "hisense-85u8n",
+    "name": "Hisense 85U8N 85\" Mini-LED PRO 3000 Nits 144Hz Smart TV",
+    "slug": "hisense-85u8n-85-inc-mini-led-pro-3000-nits-144hz-smart-tv",
+    "brand": "Hisense",
+    "category": "tvs",
+    "basePrice": 99999,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "rating": 5,
+    "reviewCount": 142,
+    "currency": "TL",
+    "highlights": [
+      "85 inc Dev Sinema Çapında Mini-LED PRO Ekran",
+      "3000 Nits Tepe Parlaklık & Binlerce Karartma Bölgesi",
+      "144 Hz Oyuncu Paneli & VRR 4K",
+      "Dahili Subwoofer ile Sinematik Dolby Atmos"
+    ],
+    "tags": [
+      "Hisense",
+      "Mini-LED PRO",
+      "3000 Nits",
+      "4K",
+      "144Hz",
+      "85 inç"
+    ],
+    "image": "https://hisense.hgecdn.net/medias/MABAGOR-300Wx300H-mabagor-imagelib-full-trim-2-6-268b73cdbe106f6e46c0fbd64587bff7-327693-1.jpg?context=bWFzdGVyfG1hYmFnb3Jwcm9kdWN0aW1hZ2VzfDI6NjgxfGltYWdlL2pwZWd8YURKakwyZzNZaTh4TlRjeU1UUXhPVFEzTWpreU5pOU5RVUpCUjA5U0xUTXdNRmQ0TXpBd1NGOHZiV0ZpWVdkdmNpOXBiV0ZuWld4cFlpOW1kV3hzTFhSeWFXMHZNaTgyTHpJMk9HSTNNMk5rWW1VeE1EWm1ObVUwTm1Nd1ptSmtNalExT0RkaVptWTNYek15TnpZNU0xOHhMbXB3Wnd8OWFhOWJlYTk4YzQ3MmI3NDVmMzM3ZjAwY2E3ZjY0MzNjZTFmZDVmYjc1MDc1OGE4YWQ2ZDU3MjMxZmI2NWMzZg",
+    "images": [
+      "https://hisense.hgecdn.net/medias/uled-lineup-3840x1400-cropped-notext.webp?context=bWFzdGVyfGltYWdlc3wxODcwMDh8aW1hZ2Uvd2VicHxhRFZqTDJoaU5TOHhOVEV3T1RFM01ESXpNek03TkM5MWJHVmtMV3hwYm1WMWNDMHpPRFR3ZURFME1EQXRZM0p2Y0hCbFpDMXViM1JsZUhRdWQyVmljQXwxZDAxYTJmYjRhN2VjMzJmODM0YWViOGViNTY1YTcxMmQ0NDM4Y2QyM2M4M2JjMGZlMTQ1MmJhZTNlNjMxODBm"
+    ],
+    "storeOffers": [
+      {
+        "id": "off-hsn-85u8n-1",
+        "storeName": "Hisense Türkiye Resmi Mağaza",
+        "storeLogoColor": "#00AAAA",
+        "price": 99999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz VIP Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 320,
+        "url": "https://hisense.com.tr"
+      },
+      {
+        "id": "off-hsn-85u8n-2",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 100999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 185,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 104999,
+        "store": "Hisense Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 99999,
+        "store": "Hisense Türkiye"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "Mini-LED PRO",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "VIDAA U7",
+      "audioPowerWatts": 70,
+      "hdrSupport": [
+        "Dolby Vision IQ",
+        "HDR10+ Adaptive",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E"
+    }
   }
 ];
