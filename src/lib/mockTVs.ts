@@ -2,6 +2,833 @@ import { TVProduct } from './types';
 
 export const mockTVs: TVProduct[] = [
   {
+    "id": "lg-oled55c64la",
+    "slug": "lg-oled55c64la",
+    "name": "LG OLED55C64LA 55\" 139 Ekran 4K OLED evo 144Hz webOS Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.8,
+    "reviewCount": 560,
+    "basePrice": 80371.2,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "highlights": [
+      "55 inç OLED evo C6",
+      "α9 AI Processor Gen7",
+      "144 Hz 0.1ms Gaming",
+      "40W Dolby Atmos"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "webOS",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "G",
+      "processorEngine": "α9 AI Processor Gen7"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-55c6",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 80371.2,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 84999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 80371.2,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-100qned87b6",
+    "slug": "lg-100qned87b6",
+    "name": "LG 100QNED87B6 100\" 254 Ekran 4K QNED MiniLED 120Hz webOS TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.8,
+    "reviewCount": 160,
+    "basePrice": 211409.1,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "highlights": [
+      "100 inç Dev QNED MiniLED",
+      "Quantum Dot + NanoCell",
+      "120 Hz Yenileme Hızı",
+      "40W Dolby Atmos"
+    ],
+    "specs": {
+      "screenSizeInches": 100,
+      "displayTech": "Mini-LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "α8 AI Processor 4K"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-100qned",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 211409.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 219999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 211409.1,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-oled65c64la",
+    "slug": "lg-oled65c64la",
+    "name": "LG OLED65C64LA 65\" 165 Ekran 4K OLED evo 144Hz webOS Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.8,
+    "reviewCount": 520,
+    "basePrice": 111289.36,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "highlights": [
+      "65 inç OLED evo C6",
+      "α9 AI Processor Gen7",
+      "144 Hz Oyuncu Modu",
+      "40W Dolby Atmos"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "webOS",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F",
+      "processorEngine": "α9 AI Processor Gen7"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-65c6",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 111289.36,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çok Satan"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2400,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 116999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 111289.36,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-oled65g64lw",
+    "slug": "lg-oled65g64lw",
+    "name": "LG OLED65G64LW 65\" 165 Ekran 4K OLED evo 144Hz webOS Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.9,
+    "reviewCount": 480,
+    "basePrice": 149940,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "highlights": [
+      "65 inç OLED evo G6",
+      "Brightness Booster Max",
+      "144 Hz VRR G-Sync",
+      "60W 4.2Ch Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "webOS",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision IQ"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F",
+      "processorEngine": "α11 AI Processor 4K"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-65g6",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 149940,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 154999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 149940,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-oled77c64la",
+    "slug": "lg-oled77c64la",
+    "name": "LG OLED77C64LA 77\" 196 Ekran 4K OLED evo 144Hz webOS Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.8,
+    "reviewCount": 420,
+    "basePrice": 166484.5,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "highlights": [
+      "77 inç OLED evo C6",
+      "α9 AI Processor 4K Gen7",
+      "144 Hz 0.1ms Tepki",
+      "40W Dolby Atmos"
+    ],
+    "specs": {
+      "screenSizeInches": 77,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "webOS",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F",
+      "processorEngine": "α9 AI Processor 4K Gen7"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-77c6",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 166484.5,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Popüler"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1800,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 172999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 166484.5,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-oled77g64lw",
+    "slug": "lg-oled77g64lw",
+    "name": "LG OLED77G64LW 77\" 196 Ekran 4K OLED evo 144Hz webOS Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.9,
+    "reviewCount": 350,
+    "basePrice": 229729.5,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "highlights": [
+      "77 inç OLED evo G6",
+      "Brightness Booster Max",
+      "144 Hz G-Sync / FreeSync",
+      "60W Dolby Atmos"
+    ],
+    "specs": {
+      "screenSizeInches": 77,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "webOS",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F",
+      "processorEngine": "α11 AI Processor 4K"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-77g6",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 229729.5,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1500,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 239999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 229729.5,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-oled77w69la",
+    "slug": "lg-oled77w69la",
+    "name": "LG OLED77W69LA 77\" 196 Ekran Wall-Paper 4K OLED 144Hz webOS TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.9,
+    "reviewCount": 210,
+    "basePrice": 269999.1,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "highlights": [
+      "Wall-Paper Tasarım",
+      "77 inç Ultra-Thin OLED",
+      "144 Hz Pro Gaming",
+      "60W Dahili Soundbar"
+    ],
+    "specs": {
+      "screenSizeInches": 77,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "webOS",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision IQ"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F",
+      "processorEngine": "α11 AI Processor 4K"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-77w6",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 269999.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 279999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 269999.1,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-oled83m59la",
+    "slug": "lg-oled83m59la",
+    "name": "LG OLED83M59LA 83\" 210 Ekran Kablosuz 4K OLED 144Hz webOS Smart TV (2025)",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.9,
+    "reviewCount": 195,
+    "basePrice": 303999.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "Zero Connect Kutusu ile %100 Kablosuz Görüntü",
+      "83 inç OLED",
+      "144 Hz 4K Transmit",
+      "60W Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 83,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "webOS",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F",
+      "processorEngine": "α11 AI Processor 4K"
+    },
+    "storeOffers": [
+      {
+        "id": "teknosa-lg-83m5",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#FF6600",
+        "price": 303999.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Özel Ürün"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 650,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 312999,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 303999.05,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "lg-oled83g55lw",
+    "slug": "lg-oled83g55lw",
+    "name": "LG OLED83G55LW 83\" 210 Ekran 4K OLED evo 144Hz webOS Smart TV (2025)",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.8,
+    "reviewCount": 260,
+    "basePrice": 304949.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "83 inç OLED evo G5",
+      "Giga Brightness",
+      "144 Hz VRR",
+      "60W Dolby Atmos"
+    ],
+    "specs": {
+      "screenSizeInches": 83,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "webOS",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F",
+      "processorEngine": "α11 AI Processor 4K"
+    },
+    "storeOffers": [
+      {
+        "id": "mm-lg-83g5",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 304949.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 314999,
+        "store": "MediaMarkt"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 304949.05,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "lg-oled83g64lw",
+    "slug": "lg-oled83g64lw",
+    "name": "LG OLED83G64LW 83\" 210 Ekran 4K OLED evo 144Hz webOS Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.8,
+    "reviewCount": 290,
+    "basePrice": 324664.2,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "highlights": [
+      "83 inç OLED evo G6",
+      "Brightness Booster Max",
+      "144 Hz Oyuncu Ekranı",
+      "60W Dolby Atmos"
+    ],
+    "specs": {
+      "screenSizeInches": 83,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "webOS",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F",
+      "processorEngine": "α11 AI Processor 4K"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-83g6",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 324664.2,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En İyi Fiyat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1100,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 334999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 324664.2,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-oled97g54lw",
+    "slug": "lg-oled97g54lw",
+    "name": "LG OLED97G54LW 97\" 246 Ekran 4K OLED evo 144Hz webOS Smart TV (2025)",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.9,
+    "reviewCount": 380,
+    "basePrice": 688039,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "97 inç OLED evo Ekran",
+      "144 Hz Yenileme Hızı",
+      "α11 AI İşlemci",
+      "60W Dahili Woofers"
+    ],
+    "specs": {
+      "screenSizeInches": 97,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "webOS",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F",
+      "processorEngine": "α11 AI Processor 4K"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-97g5",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 688039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 699999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 688039,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-oled97g64lw",
+    "slug": "lg-oled97g64lw",
+    "name": "LG OLED97G64LW 97\" 246 Ekran 4K OLED evo 144Hz webOS Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.9,
+    "reviewCount": 412,
+    "basePrice": 899999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "highlights": [
+      "97 inç Dev 4K OLED evo",
+      "144 Hz Yenileme Hızı",
+      "α11 AI Processor 4K",
+      "60W 4.2 Kanal Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 97,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "webOS",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "F",
+      "processorEngine": "α11 AI Processor 4K"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-97g6",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 899999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "#"
+      },
+      {
+        "id": "mm-lg-97g6",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 909999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 919999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 899999,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
     "id": "lg-83-oled83c6elb",
     "name": "LG OLED83C6ELB OLED evo AI C6E 4K 165Hz VRR Smart TV (2026)",
     "slug": "lg-83-oled83c6elb-83-inc",
