@@ -417,7 +417,7 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/941366/k_lg-75ut81-75ut81006la-2.jpg",
     "images": [
       "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80"
     ],
@@ -485,7 +485,7 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/937409/k_lg-86qned80t-1.jpg",
     "images": [
       "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80"
     ],
@@ -689,7 +689,7 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/937407/k_lg-86qned80t-1.jpg",
     "images": [
       "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80"
     ],
@@ -825,7 +825,7 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/941365/k_lg-oled55b46la-1.jpg",
     "images": [
       "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
     ],
@@ -893,7 +893,7 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/958585/k_lg-98qned89t6a-5.jpg",
     "images": [
       "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80"
     ],
@@ -36014,6 +36014,1338 @@ export const mockTVs: TVProduct[] = [
         "sellerRating": 4.9,
         "sellerReviews": 640,
         "url": "https://www.mediamarkt.com.tr"
+      }
+    ]
+  },
+  {
+    "id": "tv-lg-oled83g45lw",
+    "slug": "lg-oled83g45lw",
+    "name": "LG OLED83G45LW 83\" 4K Ultra HD OLED evo Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://resim.epey.com/937066/k_lg-oled83g45lw-7.jpg",
+    "images": [
+      "https://resim.epey.com/937066/k_lg-oled83g45lw-7.jpg"
+    ],
+    "rating": 9.3,
+    "reviewCount": 35,
+    "basePrice": 256500,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "OLED evo Gallery Edition",
+      "Brightness Booster Max",
+      "α11 AI İşlemci 4K",
+      "Dolby Vision & Atmos",
+      "144Hz VRR Oyun"
+    ],
+    "tags": [
+      "LG",
+      "83 Inch",
+      "OLED evo",
+      "4K",
+      "webOS"
+    ],
+    "specs": {
+      "screenSizeInches": 83,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "webOS",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "HDR10",
+        "HLG",
+        "Dolby Vision"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "144Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "dolbyAtmos": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tv-lg-oled83g45lw-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 256500,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1250,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-tv-lg-oled83g45lw-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#F27A1A",
+        "price": 261630,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-tv-lg-oled83g45lw-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 264195,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 530,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 277020,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 269325,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 261630,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 256500,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tv-lg-oled65g45lw",
+    "slug": "lg-oled65g45lw",
+    "name": "LG OLED65G45LW 65\" 4K Ultra HD OLED evo Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://resim.epey.com/936360/k_lg-oled65g45lw-7.jpg",
+    "images": [
+      "https://resim.epey.com/936360/k_lg-oled65g45lw-7.jpg"
+    ],
+    "rating": 8.8,
+    "reviewCount": 35,
+    "basePrice": 119999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "OLED evo Brightness Booster Max",
+      "α11 AI İşlemci 4K",
+      "Gallery Design",
+      "Dolby Vision IQ",
+      "144Hz"
+    ],
+    "tags": [
+      "LG",
+      "65 Inch",
+      "OLED evo",
+      "4K",
+      "webOS"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "webOS",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "HDR10",
+        "HLG",
+        "Dolby Vision"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "144Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "dolbyAtmos": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tv-lg-oled65g45lw-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 119999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1250,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-tv-lg-oled65g45lw-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#F27A1A",
+        "price": 122399,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-tv-lg-oled65g45lw-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 123599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 530,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 129599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 125999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 122399,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 119999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tv-lg-oled97m49la",
+    "slug": "lg-oled97m49la",
+    "name": "LG OLED97M49LA 97\" 4K Ultra HD OLED evo Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://resim.epey.com/974146/k_lg-oled97m49la-1.jpg",
+    "images": [
+      "https://resim.epey.com/974146/k_lg-oled97m49la-1.jpg"
+    ],
+    "rating": 9.5,
+    "reviewCount": 35,
+    "basePrice": 599999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "97 inç Kablosuz Zero Connect OLED",
+      "α11 AI İşlemci 4K",
+      "Gallery Design",
+      "Dolby Atmos"
+    ],
+    "tags": [
+      "LG",
+      "97 Inch",
+      "OLED evo",
+      "4K",
+      "webOS"
+    ],
+    "specs": {
+      "screenSizeInches": 97,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "webOS",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "HDR10",
+        "HLG",
+        "Dolby Vision"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "144Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "dolbyAtmos": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tv-lg-oled97m49la-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 599999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1250,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-tv-lg-oled97m49la-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#F27A1A",
+        "price": 611999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-tv-lg-oled97m49la-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 617999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 530,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 647999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 629999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 611999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 599999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tv-lg-oled83m49la",
+    "slug": "lg-oled83m49la",
+    "name": "LG OLED83M49LA 83\" 4K Ultra HD OLED evo Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://resim.epey.com/974132/k_lg-oled83m49la-1.jpg",
+    "images": [
+      "https://resim.epey.com/974132/k_lg-oled83m49la-1.jpg"
+    ],
+    "rating": 9.3,
+    "reviewCount": 35,
+    "basePrice": 289999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "83 inç Kablosuz 4K 144Hz İletim",
+      "Zero Connect Box",
+      "α11 AI İşlemci",
+      "OLED evo"
+    ],
+    "tags": [
+      "LG",
+      "83 Inch",
+      "OLED evo",
+      "4K",
+      "webOS"
+    ],
+    "specs": {
+      "screenSizeInches": 83,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "webOS",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "HDR10",
+        "HLG",
+        "Dolby Vision"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "144Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "dolbyAtmos": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tv-lg-oled83m49la-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 289999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1250,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-tv-lg-oled83m49la-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#F27A1A",
+        "price": 295799,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-tv-lg-oled83m49la-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 298699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 530,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 313199,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 304499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 295799,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 289999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tv-lg-oled77m49la",
+    "slug": "lg-oled77m49la",
+    "name": "LG OLED77M49LA 77\" 4K Ultra HD OLED evo Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://resim.epey.com/973808/k_lg-oled77m49la-1.jpg",
+    "images": [
+      "https://resim.epey.com/973808/k_lg-oled77m49la-1.jpg"
+    ],
+    "rating": 9.2,
+    "reviewCount": 35,
+    "basePrice": 174999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "77 inç Kablosuz OLED evo",
+      "Zero Connect Kutusu",
+      "α11 AI 4K",
+      "144Hz VRR"
+    ],
+    "tags": [
+      "LG",
+      "77 Inch",
+      "OLED evo",
+      "4K",
+      "webOS"
+    ],
+    "specs": {
+      "screenSizeInches": 77,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "webOS",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "HDR10",
+        "HLG",
+        "Dolby Vision"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "144Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "dolbyAtmos": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tv-lg-oled77m49la-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 174999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1250,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-tv-lg-oled77m49la-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#F27A1A",
+        "price": 178499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-tv-lg-oled77m49la-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 180249,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 530,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 188999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 183749,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 178499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 174999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tv-lg-oled77g45lw",
+    "slug": "lg-oled77g45lw",
+    "name": "LG OLED77G45LW 77\" 4K Ultra HD OLED evo Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://resim.epey.com/937064/k_lg-oled77g45lw-7.jpg",
+    "images": [
+      "https://resim.epey.com/937064/k_lg-oled77g45lw-7.jpg"
+    ],
+    "rating": 9.1,
+    "reviewCount": 35,
+    "basePrice": 199999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "77 inç OLED evo Gallery Design",
+      "Brightness Booster Max",
+      "α11 AI 4K",
+      "144Hz"
+    ],
+    "tags": [
+      "LG",
+      "77 Inch",
+      "OLED evo",
+      "4K",
+      "webOS"
+    ],
+    "specs": {
+      "screenSizeInches": 77,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "webOS",
+      "audioPowerWatts": 60,
+      "hdrSupport": [
+        "HDR10",
+        "HLG",
+        "Dolby Vision"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "144Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "dolbyAtmos": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tv-lg-oled77g45lw-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 199999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1250,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-tv-lg-oled77g45lw-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#F27A1A",
+        "price": 203999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-tv-lg-oled77g45lw-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 205999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 530,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 215999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 209999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 203999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 199999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tv-lg-oled83c46la",
+    "slug": "lg-oled83c46la",
+    "name": "LG OLED83C46LA 83\" 4K Ultra HD OLED evo Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://resim.epey.com/937405/k_lg-oled83c46la-1.jpg",
+    "images": [
+      "https://resim.epey.com/937405/k_lg-oled83c46la-1.jpg"
+    ],
+    "rating": 9,
+    "reviewCount": 35,
+    "basePrice": 198000,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "83 inç OLED evo C4 Serisi",
+      "α9 AI 4K Gen7",
+      "Brightness Booster",
+      "Dolby Vision & Atmos"
+    ],
+    "tags": [
+      "LG",
+      "83 Inch",
+      "OLED evo",
+      "4K",
+      "webOS"
+    ],
+    "specs": {
+      "screenSizeInches": 83,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "webOS",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "HDR10",
+        "HLG",
+        "Dolby Vision"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "144Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "dolbyAtmos": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tv-lg-oled83c46la-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 198000,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1250,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-tv-lg-oled83c46la-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#F27A1A",
+        "price": 201960,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-tv-lg-oled83c46la-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 203940,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 530,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 213840,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 207900,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 201960,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 198000,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tv-lg-oled77c46la",
+    "slug": "lg-oled77c46la",
+    "name": "LG OLED77C46LA 77\" 4K Ultra HD OLED evo Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://resim.epey.com/942704/k_lg-oled77c46la-1.jpg",
+    "images": [
+      "https://resim.epey.com/942704/k_lg-oled77c46la-1.jpg"
+    ],
+    "rating": 8.9,
+    "reviewCount": 35,
+    "basePrice": 149999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "77 inç OLED evo Panel",
+      "α9 AI İşlemci 4K",
+      "Brightness Booster",
+      "144Hz VRR"
+    ],
+    "tags": [
+      "LG",
+      "77 Inch",
+      "OLED evo",
+      "4K",
+      "webOS"
+    ],
+    "specs": {
+      "screenSizeInches": 77,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "webOS",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "HDR10",
+        "HLG",
+        "Dolby Vision"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "144Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "dolbyAtmos": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tv-lg-oled77c46la-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 149999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1250,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-tv-lg-oled77c46la-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#F27A1A",
+        "price": 152999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-tv-lg-oled77c46la-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 154499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 530,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 161999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 157499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 152999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 149999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tv-lg-oled65c46la",
+    "slug": "lg-oled65c46la",
+    "name": "LG OLED65C46LA 65\" 4K Ultra HD OLED evo Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://resim.epey.com/941240/k_lg-oled65c46la-1.jpg",
+    "images": [
+      "https://resim.epey.com/941240/k_lg-oled65c46la-1.jpg"
+    ],
+    "rating": 8.6,
+    "reviewCount": 35,
+    "basePrice": 94999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "65 inç OLED evo C4",
+      "α9 AI Gen7 İşlemci",
+      "Dolby Vision & Atmos",
+      "144Hz VRR"
+    ],
+    "tags": [
+      "LG",
+      "65 Inch",
+      "OLED evo",
+      "4K",
+      "webOS"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "webOS",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "HDR10",
+        "HLG",
+        "Dolby Vision"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "144Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "dolbyAtmos": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tv-lg-oled65c46la-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 94999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1250,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-tv-lg-oled65c46la-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#F27A1A",
+        "price": 96899,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-tv-lg-oled65c46la-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 97849,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 530,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 102599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 99749,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 96899,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 94999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tv-lg-oled55c46la",
+    "slug": "lg-oled55c46la",
+    "name": "LG OLED55C46LA 55\" 4K Ultra HD OLED evo Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://resim.epey.com/941217/k_lg-oled55c46la-11.jpg",
+    "images": [
+      "https://resim.epey.com/941217/k_lg-oled55c46la-11.jpg"
+    ],
+    "rating": 8.3,
+    "reviewCount": 35,
+    "basePrice": 59999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "55 inç OLED evo C4",
+      "α9 AI İşlemci",
+      "Brightness Booster",
+      "Game Optimizer 144Hz"
+    ],
+    "tags": [
+      "LG",
+      "55 Inch",
+      "OLED evo",
+      "4K",
+      "webOS"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "OLED evo",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "webOS",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "HDR10",
+        "HLG",
+        "Dolby Vision"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "144Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "dolbyAtmos": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tv-lg-oled55c46la-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 59999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1250,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-tv-lg-oled55c46la-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#F27A1A",
+        "price": 61199,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-tv-lg-oled55c46la-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 61799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 530,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 64799,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 62999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 61199,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 59999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tv-lg-86qned91t6a",
+    "slug": "lg-86qned91t6a",
+    "name": "LG 86QNED91T6A 86\" 4K Ultra HD QNED MiniLED Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://resim.epey.com/948321/k_lg-75qned91t6a-6.jpg",
+    "images": [
+      "https://resim.epey.com/948321/k_lg-75qned91t6a-6.jpg"
+    ],
+    "rating": 8.2,
+    "reviewCount": 35,
+    "basePrice": 124999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "86 inç Precision Dimming MiniLED",
+      "Quantum Dot & NanoCell",
+      "α8 AI İşlemci 4K"
+    ],
+    "tags": [
+      "LG",
+      "86 Inch",
+      "QNED MiniLED",
+      "4K",
+      "webOS"
+    ],
+    "specs": {
+      "screenSizeInches": 86,
+      "displayTech": "QNED MiniLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "HDR10",
+        "HLG",
+        "Dolby Vision"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "Game Optimizer",
+        "144Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "dolbyAtmos": true
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tv-lg-86qned91t6a-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 124999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1250,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-tv-lg-86qned91t6a-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#F27A1A",
+        "price": 127499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-tv-lg-86qned91t6a-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 128749,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 530,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 134999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 131249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 127499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 124999,
+        "store": "Hepsiburada"
       }
     ]
   }
