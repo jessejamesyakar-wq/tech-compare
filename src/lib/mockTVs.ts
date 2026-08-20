@@ -502,7 +502,7 @@ export const mockTVs: TVProduct[] = [
     ],
     "specs": {
       "screenSizeInches": 75,
-      "displayTech": "QLED",
+      "displayTech": "QNED",
       "resolution": "4K Ultra HD",
       "refreshRateHz": 120,
       "smartOs": "webOS",
@@ -621,13 +621,13 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/869085/k_lg-75qned816re-1.jpg",
     "images": [
       "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "reviewCount": 190,
-    "basePrice": 126058.9,
+    "basePrice": 126058,
     "currency": "TL",
     "releaseYear": 2023,
     "highlights": [
@@ -638,7 +638,7 @@ export const mockTVs: TVProduct[] = [
     ],
     "specs": {
       "screenSizeInches": 75,
-      "displayTech": "QLED",
+      "displayTech": "QNED",
       "resolution": "4K Ultra HD",
       "refreshRateHz": 120,
       "smartOs": "webOS",
@@ -706,7 +706,7 @@ export const mockTVs: TVProduct[] = [
     ],
     "specs": {
       "screenSizeInches": 86,
-      "displayTech": "QLED",
+      "displayTech": "QNED",
       "resolution": "4K Ultra HD",
       "refreshRateHz": 120,
       "smartOs": "webOS",
@@ -757,13 +757,13 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/711807/k_lg-55a16-oled55a16la-9.jpg",
     "images": [
       "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "reviewCount": 310,
-    "basePrice": 94999.05,
+    "basePrice": 94999,
     "currency": "TL",
     "releaseYear": 2021,
     "highlights": [
@@ -910,7 +910,7 @@ export const mockTVs: TVProduct[] = [
     ],
     "specs": {
       "screenSizeInches": 98,
-      "displayTech": "QLED",
+      "displayTech": "QNED",
       "resolution": "4K Ultra HD",
       "refreshRateHz": 120,
       "smartOs": "webOS",
@@ -961,7 +961,7 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/868531/k_lg-oled55c34la-1.jpg",
     "images": [
       "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80"
     ],
@@ -978,7 +978,7 @@ export const mockTVs: TVProduct[] = [
     ],
     "specs": {
       "screenSizeInches": 55,
-      "displayTech": "OLED evo",
+      "displayTech": "OLED",
       "resolution": "4K Ultra HD",
       "refreshRateHz": 120,
       "smartOs": "webOS",
@@ -1029,7 +1029,7 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/873763/k_lg-oled55cs3va-1.jpg",
     "images": [
       "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
     ],
@@ -32829,7 +32829,7 @@ export const mockTVs: TVProduct[] = [
     ],
     "specs": {
       "screenSizeInches": 55,
-      "displayTech": "Mini-LED",
+      "displayTech": "Mini LED",
       "resolution": "4K Ultra HD",
       "refreshRateHz": 120,
       "smartOs": "webOS",
@@ -32849,7 +32849,7 @@ export const mockTVs: TVProduct[] = [
     "slug": "lg-65-65qned80t6a",
     "brand": "LG",
     "category": "tvs",
-    "basePrice": 52630,
+    "basePrice": 52629,
     "releaseYear": 2024,
     "isPopular": true,
     "rating": 4.3,
@@ -32941,7 +32941,7 @@ export const mockTVs: TVProduct[] = [
     ],
     "specs": {
       "screenSizeInches": 65,
-      "displayTech": "Mini-LED",
+      "displayTech": "QNED",
       "resolution": "4K Ultra HD",
       "refreshRateHz": 120,
       "smartOs": "webOS",
@@ -33553,7 +33553,7 @@ export const mockTVs: TVProduct[] = [
     ],
     "specs": {
       "screenSizeInches": 55,
-      "displayTech": "Mini-LED",
+      "displayTech": "QNED",
       "resolution": "4K Ultra HD",
       "refreshRateHz": 120,
       "smartOs": "webOS",
@@ -33665,7 +33665,7 @@ export const mockTVs: TVProduct[] = [
     ],
     "specs": {
       "screenSizeInches": 65,
-      "displayTech": "LED",
+      "displayTech": "NanoCell",
       "resolution": "4K Ultra HD",
       "refreshRateHz": 60,
       "smartOs": "webOS",
@@ -36050,9 +36050,9 @@ export const mockTVs: TVProduct[] = [
     ],
     "specs": {
       "screenSizeInches": 83,
-      "displayTech": "OLED evo",
+      "displayTech": "OLED",
       "resolution": "4K Ultra HD",
-      "refreshRateHz": 144,
+      "refreshRateHz": 120,
       "smartOs": "webOS",
       "audioPowerWatts": 60,
       "hdrSupport": [
@@ -36172,9 +36172,9 @@ export const mockTVs: TVProduct[] = [
     ],
     "specs": {
       "screenSizeInches": 65,
-      "displayTech": "OLED evo",
+      "displayTech": "OLED",
       "resolution": "4K Ultra HD",
-      "refreshRateHz": 144,
+      "refreshRateHz": 120,
       "smartOs": "webOS",
       "audioPowerWatts": 60,
       "hdrSupport": [
@@ -37345,6 +37345,531 @@ export const mockTVs: TVProduct[] = [
       {
         "date": "2026-08-01",
         "price": 124999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-oled77c34la",
+    "slug": "lg-oled77c34la",
+    "name": "LG OLED77C34LA 77\" 4K Ultra HD OLED evo Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://resim.epey.com/868528/k_lg-oled65c34la-1.jpg",
+    "images": [
+      "https://resim.epey.com/868528/k_lg-oled65c34la-1.jpg"
+    ],
+    "rating": 4.9,
+    "reviewCount": 89,
+    "basePrice": 170999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "highlights": [
+      "77\" 4K OLED Ekran",
+      "webOS 23 Akıllı İşletim Sistemi",
+      "120 Hz Yenileme Hızı",
+      "AI Sound Pro & 40W Ses Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 77,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 23",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-oled77c34la-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 170999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1250,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lg-oled77c34la-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 174419,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-lg-oled77c34la-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 176129,
+        "inStock": true,
+        "shippingDays": 3,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 188099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 179549,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 174419,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 170999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-oled65g36la",
+    "slug": "lg-oled65g36la",
+    "name": "LG OLED65G36LA 65\" 4K Ultra HD Gallery OLED evo Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://resim.epey.com/865159/k_lg-oled65g36la-1.jpg",
+    "images": [
+      "https://resim.epey.com/865159/k_lg-oled65g36la-1.jpg"
+    ],
+    "rating": 4.9,
+    "reviewCount": 145,
+    "basePrice": 244530,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "highlights": [
+      "65\" 4K OLED Ekran",
+      "webOS 23 Akıllı İşletim Sistemi",
+      "120 Hz Yenileme Hızı",
+      "AI Sound Pro & 60W Ses Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 23",
+      "audioPowerWatts": 60,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-oled65g36la-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 244530,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1250,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lg-oled65g36la-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 249421,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-lg-oled65g36la-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 251866,
+        "inStock": true,
+        "shippingDays": 3,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 268983,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 256757,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 249421,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 244530,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-75qned916pa",
+    "slug": "lg-75qned916pa",
+    "name": "LG 75QNED916PA 75\" 4K Ultra HD MiniLED QNED Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://resim.epey.com/719318/k_lg-86qned91-1.jpg",
+    "images": [
+      "https://resim.epey.com/719318/k_lg-86qned91-1.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 52,
+    "basePrice": 91680,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "highlights": [
+      "75\" 4K Mini LED Ekran",
+      "webOS 6.0 Akıllı İşletim Sistemi",
+      "120 Hz Yenileme Hızı",
+      "AI Sound Pro & 40W Ses Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 6.0",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-75qned916pa-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 91680,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1250,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lg-75qned916pa-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 93514,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-lg-75qned916pa-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 94430,
+        "inStock": true,
+        "shippingDays": 3,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 100848,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 96264,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 93514,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 91680,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-65qned916pa",
+    "slug": "lg-65qned916pa",
+    "name": "LG 65QNED916PA 65\" 4K Ultra HD MiniLED QNED Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://resim.epey.com/719317/k_lg-86qned91-1.jpg",
+    "images": [
+      "https://resim.epey.com/719317/k_lg-86qned91-1.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 79,
+    "basePrice": 49659,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "highlights": [
+      "65\" 4K Mini LED Ekran",
+      "webOS 6.0 Akıllı İşletim Sistemi",
+      "120 Hz Yenileme Hızı",
+      "AI Sound Pro & 40W Ses Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 6.0",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-65qned916pa-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 49659,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1250,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lg-65qned916pa-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 50652,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-lg-65qned916pa-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 51149,
+        "inStock": true,
+        "shippingDays": 3,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 54625,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 52142,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 50652,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 49659,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-86qned816re",
+    "slug": "lg-86qned816re",
+    "name": "LG 86QNED816RE 86\" 4K Ultra HD QNED Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://resim.epey.com/869088/k_lg-86qned816re-1.jpg",
+    "images": [
+      "https://resim.epey.com/869088/k_lg-86qned816re-1.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 65,
+    "basePrice": 133700,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "highlights": [
+      "86\" 4K QNED Ekran",
+      "webOS 23 Akıllı İşletim Sistemi",
+      "120 Hz Yenileme Hızı",
+      "AI Sound Pro & 40W Ses Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 86,
+      "displayTech": "QNED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 23",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-86qned816re-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 133700,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1250,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lg-86qned816re-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 136374,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-lg-86qned816re-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 137711,
+        "inStock": true,
+        "shippingDays": 3,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 147070,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 140385,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 136374,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 133700,
         "store": "Hepsiburada"
       }
     ]
