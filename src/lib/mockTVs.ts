@@ -37873,5 +37873,135 @@ export const mockTVs: TVProduct[] = [
         "store": "Hepsiburada"
       }
     ]
+  },
+  {
+    "id": "lg-stanbyme-go-27lx5qkna",
+    "slug": "lg-stanbyme-go-27lx5qkna",
+    "name": "LG StanbyME Go 27LX5QKNA 27\" Dokunmatik Taşınabilir Akıllı Ekran & TV (webOS)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "https://resim.epey.com/921450/z_lg-stanbyme-go-27-27lx5qkna-1.jpg",
+    "images": [
+      "https://resim.epey.com/921450/z_lg-stanbyme-go-27-27lx5qkna-1.jpg",
+      "https://resim.epey.com/921450/m_lg-stanbyme-go-27-27lx5qkna-9.jpg",
+      "https://resim.epey.com/921450/m_lg-stanbyme-go-27-27lx5qkna-10.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 43,
+    "basePrice": 57299,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isFeatured": true,
+    "highlights": [
+      "27\" Dokunmatik FHD IPS Panel (1920x1080)",
+      "Çanta Tipi Taşınabilir Tasarım & Dahili 3 Saatlik Pil",
+      "MIL-STD-810H Askeri Dayanıklılık Standardı",
+      "Dolby Vision & Dolby Atmos 4.0 Kanal 20W Ses",
+      "webOS 22 Akıllı Ekran & AirPlay 2 / ThinQ Desteği",
+      "90° Dikey (Pivot) & 180 mm Yükseklik Ayarlı Entegre Stant"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "displayTech": "LED",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 22",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "HGIG Mode"
+      ],
+      "hdmiPorts": 1,
+      "usbPorts": 1,
+      "energyClass": "E",
+      "processorEngine": "LG α7 AI Processor Gen5",
+      "audioChannels": "4.0 Kanal",
+      "dolbyAtmos": true,
+      "voiceControl": "LG ThinQ Sesli Komut",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": true,
+      "dimensionsWithStand": "670 x 597 x 560 mm",
+      "weightKg": 12.7,
+      "bezelStyle": "İnce Çerçeve / Bej Valiz Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lg-stanbyme-go-1",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "#c40046",
+        "price": 57299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Resmi LG Garantili",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 450,
+        "url": "https://www.lg.com/tr"
+      },
+      {
+        "id": "offer-lg-stanbyme-go-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 58499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat",
+          "Peşin Fiyatına Taksit"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1840,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lg-stanbyme-go-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 59999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2900,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-04-27",
+        "price": 57299,
+        "store": "LG Resmi Mağaza"
+      },
+      {
+        "date": "2026-05-15",
+        "price": 58499,
+        "store": "LG Resmi Mağaza"
+      },
+      {
+        "date": "2026-06-20",
+        "price": 57999,
+        "store": "LG Resmi Mağaza"
+      },
+      {
+        "date": "2026-07-10",
+        "price": 56999,
+        "store": "LG Resmi Mağaza"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 57299,
+        "store": "LG Resmi Mağaza"
+      }
+    ]
   }
 ];
