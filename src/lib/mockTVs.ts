@@ -4505,7 +4505,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/85-nu85/basic/lg-nano-4k-uhd-nu85-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "https://resim.epey.com/1058392/k_lg-75nu900b6la-7.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-75-75nu900b6la-1",
@@ -4614,7 +4614,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/85-nu85/basic/lg-nano-4k-uhd-nu85-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "https://resim.epey.com/1058404/k_lg-65nu900b6la-7.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-lg-65-65nu900b6la-1",
@@ -19871,7 +19871,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1058485/k_lg-55qned70b6c-7.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-55-55qned70b6c-0",
@@ -20043,7 +20043,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "https://resim.epey.com/1058392/k_lg-75nu900b6la-7.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-75-75nu900b6la-1-0",
@@ -20212,7 +20212,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1027214/k_lg-65qned82a6b-10.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65qned82a6b-0",
@@ -20381,7 +20381,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "https://resim.epey.com/1019788/k_lg-75nano90a6b-1.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-75-75nano90a6b-0",
@@ -20550,7 +20550,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1020255/k_lg-65qned70a6a-8806096434611-1.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65qned70a6a-0",
@@ -20719,7 +20719,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "https://resim.epey.com/1012271/k_lg-75nano80a6b-1.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-75-75nano80a6b-0",
@@ -20888,7 +20888,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1028154/k_lg-75ua85006-8806096520888-1.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-75-75ua85006la-0",
@@ -21057,7 +21057,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "https://resim.epey.com/1058404/k_lg-65nu900b6la-7.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65nu900b6la-1-0",
@@ -21226,7 +21226,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1012978/k_lg-55qned80a6a-1.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-55-55qned80a6a-0",
@@ -21395,7 +21395,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "https://resim.epey.com/1025408/k_lg-55qned82a6b-8806096512067-9.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-55-55qned82a6b-0",
@@ -21564,7 +21564,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1020256/k_lg-55qned70-55qned70a6a-8806096434598-1.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-55-55qned70a6a-0",
@@ -21733,7 +21733,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "https://resim.epey.com/1018011/k_lg-65nano90a6b-1.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65nano90a6b-0",
@@ -21902,7 +21902,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1045153/k_lg-65nano81a6a-8.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65nano81a6a-0",
@@ -32630,6 +32630,1154 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
+    }
+  },
+  {
+    "id": "lg-65nano866na",
+    "name": "LG 65NANO866NA 65\" 165 Ekran 4K LED webOS Smart TV",
+    "slug": "lg-65-65nano866na",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 38677,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "rating": 4.7,
+    "reviewCount": 202,
+    "currency": "TL",
+    "highlights": [
+      "65\" LED Ekran Teknolojisi",
+      "4K Ultra HD 120Hz Akıcı Panel",
+      "webOS Akıllı TV ve Yapay Zeka Desteği"
+    ],
+    "tags": [
+      "LG",
+      "4K",
+      "Smart TV",
+      "LED"
+    ],
+    "image": "https://resim.epey.com/576115/k_lg-65nano866na-2.jpg",
+    "images": [
+      "https://resim.epey.com/576115/k_lg-65nano866na-2.jpg"
+    ],
+    "storeOffers": [
+      {
+        "id": "offer-lg-65nano866na-0",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 39538,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En Düşük Fiyat"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 1849,
+        "url": "https://www.epey.com/televizyon/lg-65nano866na.html"
+      },
+      {
+        "id": "offer-lg-65nano866na-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 38379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [],
+        "sellerRating": 4.8,
+        "sellerReviews": 2477,
+        "url": "https://www.epey.com/televizyon/lg-65nano866na.html"
+      },
+      {
+        "id": "offer-lg-65nano866na-2",
+        "storeName": "Amazon",
+        "storeLogoColor": "blue",
+        "price": 38569,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [],
+        "sellerRating": 4.7,
+        "sellerReviews": 3384,
+        "url": "https://www.epey.com/televizyon/lg-65nano866na.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 40611,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 39451,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08",
+        "price": 38677,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "lg-55qned86t6a",
+    "name": "LG 55QNED86T6A 55\" 140 Ekran 4K Mini-LED webOS Smart TV",
+    "slug": "lg-55-55qned86t6a",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 56119,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "rating": 4.4,
+    "reviewCount": 132,
+    "currency": "TL",
+    "highlights": [
+      "55\" Mini-LED Ekran Teknolojisi",
+      "4K Ultra HD 120Hz Akıcı Panel",
+      "webOS Akıllı TV ve Yapay Zeka Desteği"
+    ],
+    "tags": [
+      "LG",
+      "4K",
+      "Smart TV",
+      "Mini-LED"
+    ],
+    "image": "https://resim.epey.com/941392/k_lg-55qned86t6a-1.jpg",
+    "images": [
+      "https://resim.epey.com/941392/k_lg-55qned86t6a-1.jpg"
+    ],
+    "storeOffers": [
+      {
+        "id": "offer-lg-55qned86t6a-0",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 58639,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En Düşük Fiyat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2775,
+        "url": "https://www.epey.com/televizyon/lg-55qned86t6a.html"
+      },
+      {
+        "id": "offer-lg-55qned86t6a-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 54752,
+        "inStock": true,
+        "shippingDays": 3,
+        "badges": [],
+        "sellerRating": 4.6,
+        "sellerReviews": 603,
+        "url": "https://www.epey.com/televizyon/lg-55qned86t6a.html"
+      },
+      {
+        "id": "offer-lg-55qned86t6a-2",
+        "storeName": "Amazon",
+        "storeLogoColor": "blue",
+        "price": 55589,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [],
+        "sellerRating": 4.6,
+        "sellerReviews": 3197,
+        "url": "https://www.epey.com/televizyon/lg-55qned86t6a.html"
+      },
+      {
+        "id": "offer-lg-55qned86t6a-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 53427,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [],
+        "sellerRating": 4.6,
+        "sellerReviews": 3050,
+        "url": "https://www.epey.com/televizyon/lg-55qned86t6a.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 58925,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 57241,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08",
+        "price": 56119,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "Mini-LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "lg-65qned80t6a",
+    "name": "LG 65QNED80T6A 65\" 165 Ekran 4K Mini-LED webOS Smart TV",
+    "slug": "lg-65-65qned80t6a",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 52630,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "rating": 4.3,
+    "reviewCount": 225,
+    "currency": "TL",
+    "highlights": [
+      "65\" Mini-LED Ekran Teknolojisi",
+      "4K Ultra HD 120Hz Akıcı Panel",
+      "webOS Akıllı TV ve Yapay Zeka Desteği"
+    ],
+    "tags": [
+      "LG",
+      "4K",
+      "Smart TV",
+      "Mini-LED"
+    ],
+    "image": "https://resim.epey.com/937715/k_lg-65qned80t6a-1.jpg",
+    "images": [
+      "https://resim.epey.com/937715/k_lg-65qned80t6a-1.jpg"
+    ],
+    "storeOffers": [
+      {
+        "id": "offer-lg-65qned80t6a-0",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 51843,
+        "inStock": true,
+        "shippingDays": 3,
+        "badges": [
+          "En Düşük Fiyat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2127,
+        "url": "https://www.epey.com/televizyon/lg-65qned80t6a.html"
+      },
+      {
+        "id": "offer-lg-65qned80t6a-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 52865,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [],
+        "sellerRating": 4.5,
+        "sellerReviews": 3122,
+        "url": "https://www.epey.com/televizyon/lg-65qned80t6a.html"
+      },
+      {
+        "id": "offer-lg-65qned80t6a-2",
+        "storeName": "Amazon",
+        "storeLogoColor": "blue",
+        "price": 50509,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [],
+        "sellerRating": 4.7,
+        "sellerReviews": 2546,
+        "url": "https://www.epey.com/televizyon/lg-65qned80t6a.html"
+      },
+      {
+        "id": "offer-lg-65qned80t6a-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 54698,
+        "inStock": true,
+        "shippingDays": 3,
+        "badges": [],
+        "sellerRating": 4.7,
+        "sellerReviews": 3411,
+        "url": "https://www.epey.com/televizyon/lg-65qned80t6a.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 55262,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 53683,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08",
+        "price": 52630,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "Mini-LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "lg-75ut91006la",
+    "name": "LG 75UT91006LA 75\" 191 Ekran 4K LED webOS Smart TV",
+    "slug": "lg-75-75ut91006la",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 97000,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "rating": 4.3,
+    "reviewCount": 249,
+    "currency": "TL",
+    "highlights": [
+      "75\" LED Ekran Teknolojisi",
+      "4K Ultra HD 60Hz Akıcı Panel",
+      "webOS Akıllı TV ve Yapay Zeka Desteği"
+    ],
+    "tags": [
+      "LG",
+      "4K",
+      "Smart TV",
+      "LED"
+    ],
+    "image": "https://resim.epey.com/941387/k_lg-75ut91-75ut91006la-5.jpg",
+    "images": [
+      "https://resim.epey.com/941387/k_lg-75ut91-75ut91006la-5.jpg"
+    ],
+    "storeOffers": [
+      {
+        "id": "offer-lg-75ut91006la-0",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 97290,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En Düşük Fiyat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2945,
+        "url": "https://www.epey.com/televizyon/lg-75ut91006la.html"
+      },
+      {
+        "id": "offer-lg-75ut91006la-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 99662,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [],
+        "sellerRating": 4.7,
+        "sellerReviews": 3153,
+        "url": "https://www.epey.com/televizyon/lg-75ut91006la.html"
+      },
+      {
+        "id": "offer-lg-75ut91006la-2",
+        "storeName": "Amazon",
+        "storeLogoColor": "blue",
+        "price": 101335,
+        "inStock": true,
+        "shippingDays": 3,
+        "badges": [],
+        "sellerRating": 4.7,
+        "sellerReviews": 551,
+        "url": "https://www.epey.com/televizyon/lg-75ut91006la.html"
+      },
+      {
+        "id": "offer-lg-75ut91006la-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 93918,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [],
+        "sellerRating": 4.4,
+        "sellerReviews": 3442,
+        "url": "https://www.epey.com/televizyon/lg-75ut91006la.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 101850,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 98940,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08",
+        "price": 97000,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "lg-75nano766qa",
+    "name": "LG 75NANO766QA 75\" 191 Ekran 4K LED webOS Smart TV",
+    "slug": "lg-75-75nano766qa",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 51840,
+    "releaseYear": 2022,
+    "isPopular": true,
+    "rating": 4.4,
+    "reviewCount": 54,
+    "currency": "TL",
+    "highlights": [
+      "75\" LED Ekran Teknolojisi",
+      "4K Ultra HD 60Hz Akıcı Panel",
+      "webOS Akıllı TV ve Yapay Zeka Desteği"
+    ],
+    "tags": [
+      "LG",
+      "4K",
+      "Smart TV",
+      "LED"
+    ],
+    "image": "https://resim.epey.com/787888/k_lg-75nano766qa-1.jpg",
+    "images": [
+      "https://resim.epey.com/787888/k_lg-75nano766qa-1.jpg"
+    ],
+    "storeOffers": [
+      {
+        "id": "offer-lg-75nano766qa-0",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 49646,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "En Düşük Fiyat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2806,
+        "url": "https://www.epey.com/televizyon/lg-75nano766qa.html"
+      },
+      {
+        "id": "offer-lg-75nano766qa-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 49780,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [],
+        "sellerRating": 4.8,
+        "sellerReviews": 2667,
+        "url": "https://www.epey.com/televizyon/lg-75nano766qa.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 54432,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 52877,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08",
+        "price": 51840,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "lg-75ur81006lj",
+    "name": "LG 75UR81006LJ 75\" 191 Ekran 4K LED webOS Smart TV",
+    "slug": "lg-75-75ur81006lj",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 76399,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "rating": 4.6,
+    "reviewCount": 226,
+    "currency": "TL",
+    "highlights": [
+      "75\" LED Ekran Teknolojisi",
+      "4K Ultra HD 60Hz Akıcı Panel",
+      "webOS Akıllı TV ve Yapay Zeka Desteği"
+    ],
+    "tags": [
+      "LG",
+      "4K",
+      "Smart TV",
+      "LED"
+    ],
+    "image": "https://resim.epey.com/868534/k_lg-75ur81006-75ur81006lj-1.jpg",
+    "images": [
+      "https://resim.epey.com/868534/k_lg-75ur81006-75ur81006lj-1.jpg"
+    ],
+    "storeOffers": [
+      {
+        "id": "offer-lg-75ur81006lj-0",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 72970,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "En Düşük Fiyat"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 3460,
+        "url": "https://www.epey.com/televizyon/lg-75ur81006lj.html"
+      },
+      {
+        "id": "offer-lg-75ur81006lj-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 76392,
+        "inStock": true,
+        "shippingDays": 3,
+        "badges": [],
+        "sellerRating": 4.8,
+        "sellerReviews": 2759,
+        "url": "https://www.epey.com/televizyon/lg-75ur81006lj.html"
+      },
+      {
+        "id": "offer-lg-75ur81006lj-2",
+        "storeName": "Amazon",
+        "storeLogoColor": "blue",
+        "price": 78365,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [],
+        "sellerRating": 4.4,
+        "sellerReviews": 2967,
+        "url": "https://www.epey.com/televizyon/lg-75ur81006lj.html"
+      },
+      {
+        "id": "offer-lg-75ur81006lj-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 72908,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [],
+        "sellerRating": 4.6,
+        "sellerReviews": 746,
+        "url": "https://www.epey.com/televizyon/lg-75ur81006lj.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 80219,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 77927,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08",
+        "price": 76399,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "lg-75nano796nf",
+    "name": "LG 75NANO796NF 75\" 191 Ekran 4K LED webOS Smart TV",
+    "slug": "lg-75-75nano796nf",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 56345,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "rating": 4.3,
+    "reviewCount": 88,
+    "currency": "TL",
+    "highlights": [
+      "75\" LED Ekran Teknolojisi",
+      "4K Ultra HD 60Hz Akıcı Panel",
+      "webOS Akıllı TV ve Yapay Zeka Desteği"
+    ],
+    "tags": [
+      "LG",
+      "4K",
+      "Smart TV",
+      "LED"
+    ],
+    "image": "https://resim.epey.com/620942/k_lg-75nano796nf-1.jpg",
+    "images": [
+      "https://resim.epey.com/620942/k_lg-75nano796nf-1.jpg"
+    ],
+    "storeOffers": [
+      {
+        "id": "offer-lg-75nano796nf-0",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 58412,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En Düşük Fiyat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3447,
+        "url": "https://www.epey.com/televizyon/lg-75nano796nf.html"
+      },
+      {
+        "id": "offer-lg-75nano796nf-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 56729,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [],
+        "sellerRating": 4.8,
+        "sellerReviews": 1135,
+        "url": "https://www.epey.com/televizyon/lg-75nano796nf.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 59162,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 57472,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08",
+        "price": 56345,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "lg-55sm8600pla",
+    "name": "LG 55SM8600PLA 55\" 140 Ekran 4K LED webOS Smart TV",
+    "slug": "lg-55-55sm8600pla",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 32469,
+    "releaseYear": 2019,
+    "isPopular": true,
+    "rating": 4.8,
+    "reviewCount": 208,
+    "currency": "TL",
+    "highlights": [
+      "55\" LED Ekran Teknolojisi",
+      "4K Ultra HD 60Hz Akıcı Panel",
+      "webOS Akıllı TV ve Yapay Zeka Desteği"
+    ],
+    "tags": [
+      "LG",
+      "4K",
+      "Smart TV",
+      "LED"
+    ],
+    "image": "https://resim.epey.com/197570/k_lg-55sm8600pla-1.jpg",
+    "images": [
+      "https://resim.epey.com/197570/k_lg-55sm8600pla-1.jpg"
+    ],
+    "storeOffers": [
+      {
+        "id": "offer-lg-55sm8600pla-0",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 32211,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "En Düşük Fiyat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 2939,
+        "url": "https://www.epey.com/televizyon/lg-55sm8600pla.html"
+      },
+      {
+        "id": "offer-lg-55sm8600pla-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 32812,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [],
+        "sellerRating": 4.4,
+        "sellerReviews": 3497,
+        "url": "https://www.epey.com/televizyon/lg-55sm8600pla.html"
+      },
+      {
+        "id": "offer-lg-55sm8600pla-2",
+        "storeName": "Amazon",
+        "storeLogoColor": "blue",
+        "price": 33513,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [],
+        "sellerRating": 4.6,
+        "sellerReviews": 1623,
+        "url": "https://www.epey.com/televizyon/lg-55sm8600pla.html"
+      },
+      {
+        "id": "offer-lg-55sm8600pla-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 32668,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [],
+        "sellerRating": 4.4,
+        "sellerReviews": 2919,
+        "url": "https://www.epey.com/televizyon/lg-55sm8600pla.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 34092,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 33118,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08",
+        "price": 32469,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "lg-55qned80t6a",
+    "name": "LG 55QNED80T6A 55\" 140 Ekran 4K Mini-LED webOS Smart TV",
+    "slug": "lg-55-55qned80t6a",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 44159,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "rating": 4.5,
+    "reviewCount": 66,
+    "currency": "TL",
+    "highlights": [
+      "55\" Mini-LED Ekran Teknolojisi",
+      "4K Ultra HD 120Hz Akıcı Panel",
+      "webOS Akıllı TV ve Yapay Zeka Desteği"
+    ],
+    "tags": [
+      "LG",
+      "4K",
+      "Smart TV",
+      "Mini-LED"
+    ],
+    "image": "https://resim.epey.com/937720/k_lg-55qned80t6a-1.jpg",
+    "images": [
+      "https://resim.epey.com/937720/k_lg-55qned80t6a-1.jpg"
+    ],
+    "storeOffers": [
+      {
+        "id": "offer-lg-55qned80t6a-0",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 45029,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En Düşük Fiyat"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 1868,
+        "url": "https://www.epey.com/televizyon/lg-55qned80t6a.html"
+      },
+      {
+        "id": "offer-lg-55qned80t6a-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 45735,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [],
+        "sellerRating": 4.5,
+        "sellerReviews": 2138,
+        "url": "https://www.epey.com/televizyon/lg-55qned80t6a.html"
+      },
+      {
+        "id": "offer-lg-55qned80t6a-2",
+        "storeName": "Amazon",
+        "storeLogoColor": "blue",
+        "price": 45903,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [],
+        "sellerRating": 4.9,
+        "sellerReviews": 3377,
+        "url": "https://www.epey.com/televizyon/lg-55qned80t6a.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 46367,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 45042,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08",
+        "price": 44159,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "Mini-LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "lg-65nano81t6a",
+    "name": "LG 65NANO81T6A 65\" 165 Ekran 4K LED webOS Smart TV",
+    "slug": "lg-65-65nano81t6a",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 43498,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "rating": 4.6,
+    "reviewCount": 55,
+    "currency": "TL",
+    "highlights": [
+      "65\" LED Ekran Teknolojisi",
+      "4K Ultra HD 60Hz Akıcı Panel",
+      "webOS Akıllı TV ve Yapay Zeka Desteği"
+    ],
+    "tags": [
+      "LG",
+      "4K",
+      "Smart TV",
+      "LED"
+    ],
+    "image": "https://resim.epey.com/942769/k_lg-55nano81t-55nano81t6a-6.jpg",
+    "images": [
+      "https://resim.epey.com/942769/k_lg-55nano81t-55nano81t6a-6.jpg"
+    ],
+    "storeOffers": [
+      {
+        "id": "offer-lg-65nano81t6a-0",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 43982,
+        "inStock": true,
+        "shippingDays": 3,
+        "badges": [
+          "En Düşük Fiyat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 581,
+        "url": "https://www.epey.com/televizyon/lg-65nano81t6a.html"
+      },
+      {
+        "id": "offer-lg-65nano81t6a-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 44915,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [],
+        "sellerRating": 4.3,
+        "sellerReviews": 2509,
+        "url": "https://www.epey.com/televizyon/lg-65nano81t6a.html"
+      },
+      {
+        "id": "offer-lg-65nano81t6a-2",
+        "storeName": "Amazon",
+        "storeLogoColor": "blue",
+        "price": 43452,
+        "inStock": true,
+        "shippingDays": 3,
+        "badges": [],
+        "sellerRating": 4.5,
+        "sellerReviews": 3416,
+        "url": "https://www.epey.com/televizyon/lg-65nano81t6a.html"
+      },
+      {
+        "id": "offer-lg-65nano81t6a-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "red",
+        "price": 44030,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [],
+        "sellerRating": 4.6,
+        "sellerReviews": 3316,
+        "url": "https://www.epey.com/televizyon/lg-65nano81t6a.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 45673,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 44368,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08",
+        "price": 43498,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G"
+    }
+  },
+  {
+    "id": "lg-70up81006la",
+    "name": "LG 70UP81006LA 70\" 178 Ekran 4K LED webOS Smart TV",
+    "slug": "lg-70-70up81006la",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 43929,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "rating": 4.5,
+    "reviewCount": 169,
+    "currency": "TL",
+    "highlights": [
+      "70\" LED Ekran Teknolojisi",
+      "4K Ultra HD 60Hz Akıcı Panel",
+      "webOS Akıllı TV ve Yapay Zeka Desteği"
+    ],
+    "tags": [
+      "LG",
+      "4K",
+      "Smart TV",
+      "LED"
+    ],
+    "image": "https://resim.epey.com/698717/k_lg-70up81006la-tr-1.jpg",
+    "images": [
+      "https://resim.epey.com/698717/k_lg-70up81006la-tr-1.jpg"
+    ],
+    "storeOffers": [
+      {
+        "id": "offer-lg-70up81006la-0",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "orange",
+        "price": 44203,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En Düşük Fiyat"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 502,
+        "url": "https://www.epey.com/televizyon/lg-70up81006la.html"
+      },
+      {
+        "id": "offer-lg-70up81006la-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "orange",
+        "price": 43814,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [],
+        "sellerRating": 4.6,
+        "sellerReviews": 564,
+        "url": "https://www.epey.com/televizyon/lg-70up81006la.html"
+      },
+      {
+        "id": "offer-lg-70up81006la-2",
+        "storeName": "Amazon",
+        "storeLogoColor": "blue",
+        "price": 45911,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [],
+        "sellerRating": 4.8,
+        "sellerReviews": 1540,
+        "url": "https://www.epey.com/televizyon/lg-70up81006la.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 46125,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 44808,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08",
+        "price": 43929,
+        "store": "Hepsiburada"
+      }
+    ],
+    "specs": {
+      "screenSizeInches": 70,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G"
     }
   }
 ];
