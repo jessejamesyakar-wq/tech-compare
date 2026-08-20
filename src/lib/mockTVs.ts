@@ -2,6 +2,822 @@ import { TVProduct } from './types';
 
 export const mockTVs: TVProduct[] = [
   {
+    "id": "lg-55qned81b6a",
+    "slug": "lg-55qned81b6a",
+    "name": "LG 55QNED81B6A 55\" 139 Ekran 4K QNED webOS Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.6,
+    "reviewCount": 370,
+    "basePrice": 44053.1,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "55 inç QNED Ekran",
+      "120Hz Yenileme Hızı",
+      "webOS 24",
+      "20W Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "α8 AI Processor 4K"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-55qned81",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 44053.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1700,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 46999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 44053.1,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-86ua85006la",
+    "slug": "lg-86ua85006la",
+    "name": "LG 86UA85006LA 86\" 218 Ekran 4K UHD LED webOS Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.6,
+    "reviewCount": 190,
+    "basePrice": 84599.06,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "86 inç Dev Ekran",
+      "webOS 24",
+      "4K Ultra HD",
+      "20W Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 86,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α5 AI Processor 4K Gen7"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-86ua8500",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 84599.06,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dev Ekran"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 900,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 89999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 84599.06,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-75qned70a6a",
+    "slug": "lg-75qned70a6a",
+    "name": "LG 75QNED70A6A 75\" 189 Ekran 4K QNED webOS Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.6,
+    "reviewCount": 260,
+    "basePrice": 57899.03,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "75 inç QNED Ekran",
+      "webOS 24",
+      "4K Ultra HD",
+      "20W Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α5 AI Processor 4K Gen7"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-75qned70a",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 57899.03,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Popüler"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 61999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 57899.03,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-55sk8500pla",
+    "slug": "lg-55sk8500pla",
+    "name": "LG 55SK8500PLA 55\" 139 Ekran 4K Super UHD LED webOS Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.5,
+    "reviewCount": 420,
+    "basePrice": 31514.1,
+    "currency": "TL",
+    "releaseYear": 2018,
+    "highlights": [
+      "55 inç Super UHD LED",
+      "40W Dolby Atmos Ses",
+      "α7 AI Processor",
+      "Nano Cell Teknolojisi"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS",
+      "audioPowerWatts": 40,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "A",
+      "processorEngine": "α7 Intelligent Processor"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-55sk8500",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 31514.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 33999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 31514.1,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-75qned80a6a",
+    "slug": "lg-75qned80a6a",
+    "name": "LG 75QNED80A6A 75\" 189 Ekran 4K QNED webOS Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.5,
+    "reviewCount": 180,
+    "basePrice": 71610,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "75 inç QNED Panel",
+      "webOS 24",
+      "4K Ultra HD",
+      "20W Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α5 AI Processor 4K Gen7"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-75qned80a",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 71610,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 75999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 71610,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-75qned82a6b",
+    "slug": "lg-75qned82a6b",
+    "name": "LG 75QNED82A6B 75\" 189 Ekran 4K QNED webOS Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.6,
+    "reviewCount": 210,
+    "basePrice": 59499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "75 inç QNED Ekran",
+      "webOS 24",
+      "4K Ultra HD",
+      "20W Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α5 AI Processor 4K Gen7"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-75qned82",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 59499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 950,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 62999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 59499,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-86ut81006la",
+    "slug": "lg-86ut81006la",
+    "name": "LG 86UT81006LA 86\" 218 Ekran 4K UHD LED webOS Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.6,
+    "reviewCount": 200,
+    "basePrice": 98800,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "86 inç Dev LED Ekran",
+      "webOS 24",
+      "4K Ultra HD",
+      "20W Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 86,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10 Pro",
+        "HLG"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α5 AI Processor 4K Gen7"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-86ut81",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 98800,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dev Ekran"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 950,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 104999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 98800,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-75qned80t6a",
+    "slug": "lg-75qned80t6a",
+    "name": "LG 75QNED80T6A 75\" 189 Ekran 4K QNED 120Hz webOS Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.6,
+    "reviewCount": 160,
+    "basePrice": 114600,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "75 inç QNED Ekran",
+      "120Hz Yenileme Hızı",
+      "webOS 24",
+      "20W Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "α8 AI Processor 4K"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-75qned80t",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 114600,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 119999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 114600,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-65qned816qa",
+    "slug": "lg-65qned816qa",
+    "name": "LG 65QNED816QA 65\" 165 Ekran 4K QNED 120Hz webOS Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.5,
+    "reviewCount": 380,
+    "basePrice": 43929.1,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "highlights": [
+      "65 inç QNED Ekran",
+      "120Hz Yenileme Hızı",
+      "α7 AI Processor Gen5",
+      "20W Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "α7 AI Processor Gen5"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-65qned816",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 43929.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "İndirim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1800,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 46999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 43929.1,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-75qned816re",
+    "slug": "lg-75qned816re",
+    "name": "LG 75QNED816RE 75\" 189 Ekran 4K QNED 120Hz webOS Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.6,
+    "reviewCount": 190,
+    "basePrice": 126058.9,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "highlights": [
+      "75 inç QNED Panel",
+      "120Hz Yenileme Hızı",
+      "α7 AI Processor Gen6",
+      "20W Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α7 AI Processor Gen6"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-75qned816",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 126058.9,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 850,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 129999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 126058.9,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-86qned80t6a",
+    "slug": "lg-86qned80t6a",
+    "name": "LG 86QNED80T6A 86\" 218 Ekran 4K QNED 120Hz webOS Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.7,
+    "reviewCount": 220,
+    "basePrice": 75445,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "86 inç QNED Dev Ekran",
+      "120Hz Yenileme Hızı",
+      "webOS 24",
+      "20W Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 86,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "α8 AI Processor 4K"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-86qned80",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 75445,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1000,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 79999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 75445,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "lg-oled48a16la",
+    "slug": "lg-oled48a16la",
+    "name": "LG OLED48A16LA 48\" 121 Ekran 4K OLED webOS Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.6,
+    "reviewCount": 310,
+    "basePrice": 94999.05,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "highlights": [
+      "48 inç OLED Panel",
+      "webOS Smart TV",
+      "Dolby Vision & Atmos",
+      "20W Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 48,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "α7 AI Processor Gen4"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-48a1",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 94999.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Nadir Stok"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1500,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 98999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 94999.05,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
     "id": "lg-oled65b46la",
     "slug": "lg-oled65b46la",
     "name": "LG OLED65B46LA 65\" 165 Ekran 4K OLED 120Hz webOS Smart TV (2024)",
@@ -17358,879 +18174,819 @@ export const mockTVs: TVProduct[] = [
   },
   {
     "id": "lg-85qned81b6a",
-    "name": "LG 85QNED81B6A 85\" 215 Ekran 4K QNED MiniLED 120Hz Smart TV (2026)",
     "slug": "lg-85qned81b6a",
+    "name": "LG 85QNED81B6A 85\" 215 Ekran 4K QNED webOS Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "basePrice": 109349,
-    "releaseYear": 2026,
-    "isPopular": false,
-    "rating": 4.5,
-    "reviewCount": 120,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.7,
+    "reviewCount": 180,
+    "basePrice": 109349.1,
     "currency": "TL",
+    "releaseYear": 2025,
     "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
+      "85 inç QNED Ekran",
+      "webOS Smart TV",
+      "α8 AI Processor 4K",
+      "20W Ses"
     ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "α8 AI Processor 4K"
+    },
     "storeOffers": [
       {
-        "id": "offer-lg-85qned81b6a-1",
-        "storeName": "LG Store",
-        "storeLogoColor": "bg-emerald-600",
-        "price": 109349,
+        "id": "vatan-lg-85qned81",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 109349.1,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Ücretsiz Kargo"
+          "Stokta"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.lg.com/tr"
+        "sellerReviews": 950,
+        "url": "#"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-02",
-        "price": 109349,
-        "store": "LG Store"
+        "date": "2026-08-01",
+        "price": 114999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 109349.1,
+        "store": "Vatan Bilgisayar"
       }
-    ],
-    "specs": {
-      "screenSizeInches": 85,
-      "displayTech": "QNED MiniLED",
-      "resolution": "3840x2160 (Ultra HD 4K)",
-      "refreshRateHz": 120,
-      "smartOs": "webOS 26",
-      "audioPowerWatts": 20,
-      "hdrSupport": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "hdrFormats": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "gamingFeatures": [
-        "VRR",
-        "ALLM"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 2,
-      "energyClass": "E"
-    }
+    ]
   },
   {
     "id": "lg-85qned70b6a",
-    "name": "LG 85QNED70B6A 85\" 215 Ekran 4K QNED 60Hz webOS Smart TV (2026)",
     "slug": "lg-85qned70b6a",
+    "name": "LG 85QNED70B6A 85\" 215 Ekran 4K QNED webOS Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "basePrice": 79199,
-    "releaseYear": 2026,
-    "isPopular": false,
-    "rating": 4.4,
-    "reviewCount": 120,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.6,
+    "reviewCount": 150,
+    "basePrice": 79199.1,
     "currency": "TL",
+    "releaseYear": 2025,
     "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
+      "85 inç QNED Panel",
+      "webOS 24",
+      "4K Ultra HD",
+      "20W Ses"
     ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α5 AI Processor 4K Gen7"
+    },
     "storeOffers": [
       {
-        "id": "offer-lg-85qned70b6a-1",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-emerald-600",
-        "price": 79199,
+        "id": "vatan-lg-85qned70",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 79199.1,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Ücretsiz Kargo"
+          "Fırsat"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.trendyol.com"
+        "sellerReviews": 800,
+        "url": "#"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-02",
-        "price": 79199,
-        "store": "Trendyol"
+        "date": "2026-08-01",
+        "price": 83999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 79199.1,
+        "store": "Vatan Bilgisayar"
       }
-    ],
-    "specs": {
-      "screenSizeInches": 85,
-      "displayTech": "QNED",
-      "resolution": "3840x2160 (Ultra HD 4K)",
-      "refreshRateHz": 60,
-      "smartOs": "webOS 26",
-      "audioPowerWatts": 20,
-      "hdrSupport": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "hdrFormats": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "gamingFeatures": [
-        "VRR",
-        "ALLM"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 2,
-      "energyClass": "E"
-    }
+    ]
   },
   {
     "id": "lg-55qned87b6a",
-    "name": "LG 55QNED87B6A 55\" 139 Ekran 4K QNED MiniLED 120Hz webOS TV (2026)",
     "slug": "lg-55qned87b6a",
+    "name": "LG 55QNED87B6A 55\" 139 Ekran 4K QNED MiniLED webOS TV",
     "brand": "LG",
     "category": "tvs",
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.7,
+    "reviewCount": 290,
     "basePrice": 54999,
-    "releaseYear": 2026,
-    "isPopular": false,
-    "rating": 4.4,
-    "reviewCount": 120,
     "currency": "TL",
+    "releaseYear": 2025,
     "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
+      "55 inç MiniLED QNED",
+      "120Hz Yenileme Hızı",
+      "webOS 24",
+      "20W Ses"
     ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "Mini-LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "Dolby Vision",
+        "HDR10 Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "α8 AI Processor 4K"
+    },
     "storeOffers": [
       {
-        "id": "offer-lg-55qned87b6a-1",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-emerald-600",
+        "id": "vatan-lg-55qned87",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
         "price": 54999,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Ücretsiz Kargo"
+          "Stokta"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.mediamarkt.com.tr"
+        "sellerReviews": 1200,
+        "url": "#"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-02",
+        "date": "2026-08-01",
+        "price": 57999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
         "price": 54999,
-        "store": "MediaMarkt"
+        "store": "Vatan Bilgisayar"
       }
-    ],
-    "specs": {
-      "screenSizeInches": 55,
-      "displayTech": "QNED MiniLED",
-      "resolution": "3840x2160 (Ultra HD 4K)",
-      "refreshRateHz": 120,
-      "smartOs": "webOS 26",
-      "audioPowerWatts": 20,
-      "hdrSupport": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "hdrFormats": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "gamingFeatures": [
-        "VRR",
-        "ALLM"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 2,
-      "energyClass": "E"
-    }
+    ]
   },
   {
     "id": "lg-75qned81b6a",
-    "name": "LG 75QNED81B6A 75\" 190 Ekran 4K QNED MiniLED 120Hz TV (2026)",
     "slug": "lg-75qned81b6a",
+    "name": "LG 75QNED81B6A 75\" 189 Ekran 4K QNED webOS Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "basePrice": 62999,
-    "releaseYear": 2026,
-    "isPopular": false,
-    "rating": 4.3,
-    "reviewCount": 120,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.7,
+    "reviewCount": 260,
+    "basePrice": 62999.1,
     "currency": "TL",
+    "releaseYear": 2025,
     "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
+      "75 inç QNED Ekran",
+      "120Hz Yenileme Hızı",
+      "webOS 24",
+      "20W Ses"
     ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "α8 AI Processor 4K"
+    },
     "storeOffers": [
       {
-        "id": "offer-lg-75qned81b6a-1",
+        "id": "vatan-lg-75qned81",
         "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-emerald-600",
-        "price": 62999,
+        "storeLogoColor": "#E30613",
+        "price": 62999.1,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Ücretsiz Kargo"
+          "Stokta"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.vatanbilgisayar.com"
+        "sellerReviews": 1100,
+        "url": "#"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-02",
-        "price": 62999,
+        "date": "2026-08-01",
+        "price": 65999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 62999.1,
         "store": "Vatan Bilgisayar"
       }
-    ],
-    "specs": {
-      "screenSizeInches": 75,
-      "displayTech": "QNED MiniLED",
-      "resolution": "3840x2160 (Ultra HD 4K)",
-      "refreshRateHz": 120,
-      "smartOs": "webOS 26",
-      "audioPowerWatts": 20,
-      "hdrSupport": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "hdrFormats": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "gamingFeatures": [
-        "VRR",
-        "ALLM"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 2,
-      "energyClass": "E"
-    }
+    ]
   },
   {
     "id": "lg-75qned7eb3a",
-    "name": "LG 75QNED7EB3A 75\" 190 Ekran 4K QNED 60Hz webOS Smart TV (2026)",
     "slug": "lg-75qned7eb3a",
+    "name": "LG 75QNED7EB3A 75\" 189 Ekran 4K QNED webOS Smart TV",
     "brand": "LG",
     "category": "tvs",
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.6,
+    "reviewCount": 210,
     "basePrice": 63599,
-    "releaseYear": 2026,
-    "isPopular": false,
-    "rating": 4.3,
-    "reviewCount": 120,
     "currency": "TL",
+    "releaseYear": 2025,
     "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
+      "75 inç QNED Panel",
+      "webOS 24",
+      "4K Ultra HD",
+      "20W Ses"
     ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α5 AI Processor 4K Gen7"
+    },
     "storeOffers": [
       {
-        "id": "offer-lg-75qned7eb3a-1",
-        "storeName": "Teknosa",
-        "storeLogoColor": "bg-emerald-600",
+        "id": "vatan-lg-75qned7e",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
         "price": 63599,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Ücretsiz Kargo"
+          "Stokta"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.teknosa.com"
+        "sellerReviews": 900,
+        "url": "#"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-02",
+        "date": "2026-08-01",
+        "price": 66999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
         "price": 63599,
-        "store": "Teknosa"
+        "store": "Vatan Bilgisayar"
       }
-    ],
-    "specs": {
-      "screenSizeInches": 75,
-      "displayTech": "QNED",
-      "resolution": "3840x2160 (Ultra HD 4K)",
-      "refreshRateHz": 60,
-      "smartOs": "webOS 26",
-      "audioPowerWatts": 20,
-      "hdrSupport": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "hdrFormats": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "gamingFeatures": [
-        "VRR",
-        "ALLM"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 2,
-      "energyClass": "E"
-    }
+    ]
   },
   {
     "id": "lg-75qned70b6a",
-    "name": "LG 75QNED70B6A 75\" 190 Ekran 4K QNED 60Hz webOS TV (2026)",
     "slug": "lg-75qned70b6a",
+    "name": "LG 75QNED70B6A 75\" 189 Ekran 4K QNED webOS Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "basePrice": 59129,
-    "releaseYear": 2026,
-    "isPopular": false,
-    "rating": 4.3,
-    "reviewCount": 120,
-    "currency": "TL",
-    "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
-    ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
+    "isPopular": true,
+    "isFeatured": false,
     "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
-    "storeOffers": [
-      {
-        "id": "offer-lg-75qned70b6a-1",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-emerald-600",
-        "price": 59129,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.hepsiburada.com"
-      }
+    "images": [
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80"
     ],
-    "priceHistory": [
-      {
-        "date": "2026-02",
-        "price": 59129,
-        "store": "Hepsiburada"
-      }
+    "rating": 4.6,
+    "reviewCount": 230,
+    "basePrice": 60434.8,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "75 inç QNED Ekran",
+      "webOS 24",
+      "4K Ultra HD",
+      "20W Ses"
     ],
     "specs": {
       "screenSizeInches": 75,
-      "displayTech": "QNED",
-      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
       "refreshRateHz": 60,
-      "smartOs": "webOS 26",
+      "smartOs": "webOS",
       "audioPowerWatts": 20,
       "hdrSupport": [
-        "Dolby Vision",
         "HDR10",
         "HLG"
       ],
-      "hdrFormats": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "gamingFeatures": [
-        "VRR",
-        "ALLM"
-      ],
-      "hdmiPorts": 4,
+      "hdmiPorts": 3,
       "usbPorts": 2,
-      "energyClass": "E"
-    }
+      "energyClass": "F",
+      "processorEngine": "α5 AI Processor 4K Gen7"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-75qned70",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 60434.8,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1000,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 63999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 60434.8,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
   },
   {
     "id": "lg-55qned86a6a",
-    "name": "LG 55QNED86A6A 55\" 139 Ekran 4K QNED MiniLED 120Hz webOS TV (2026)",
     "slug": "lg-55qned86a6a",
+    "name": "LG 55QNED86A6A 55\" 139 Ekran 4K QNED MiniLED webOS TV",
     "brand": "LG",
     "category": "tvs",
-    "basePrice": 47046,
-    "releaseYear": 2026,
-    "isPopular": false,
-    "rating": 4.2,
-    "reviewCount": 120,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.7,
+    "reviewCount": 320,
+    "basePrice": 47774.09,
     "currency": "TL",
+    "releaseYear": 2025,
     "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
-    ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
-    "storeOffers": [
-      {
-        "id": "offer-lg-55qned86a6a-1",
-        "storeName": "Amazon TR",
-        "storeLogoColor": "bg-emerald-600",
-        "price": 47046,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.amazon.com.tr"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-02",
-        "price": 47046,
-        "store": "Amazon TR"
-      }
+      "55 inç QNED MiniLED",
+      "120Hz Yenileme Hızı",
+      "α8 AI Processor 4K",
+      "20W Ses"
     ],
     "specs": {
       "screenSizeInches": 55,
-      "displayTech": "QNED MiniLED",
-      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "Mini-LED",
+      "resolution": "4K Ultra HD",
       "refreshRateHz": 120,
-      "smartOs": "webOS 26",
+      "smartOs": "webOS",
       "audioPowerWatts": 20,
       "hdrSupport": [
         "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "hdrFormats": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "gamingFeatures": [
-        "VRR",
-        "ALLM"
+        "HDR10 Pro"
       ],
       "hdmiPorts": 4,
       "usbPorts": 2,
-      "energyClass": "E"
-    }
+      "energyClass": "E",
+      "processorEngine": "α8 AI Processor 4K"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-55qned86",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 47774.09,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1400,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 49999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 47774.09,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
   },
   {
     "id": "lg-86qned82a6b",
-    "name": "LG 86QNED82A6B 86\" 218 Ekran 4K QNED 120Hz Smart TV (2026)",
     "slug": "lg-86qned82a6b",
+    "name": "LG 86QNED82A6B 86\" 218 Ekran 4K QNED webOS Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "basePrice": 93099,
-    "releaseYear": 2026,
-    "isPopular": false,
-    "rating": 4.2,
-    "reviewCount": 120,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.6,
+    "reviewCount": 170,
+    "basePrice": 93099.07,
     "currency": "TL",
+    "releaseYear": 2024,
     "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
-    ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
-    "storeOffers": [
-      {
-        "id": "offer-lg-86qned82a6b-1",
-        "storeName": "LG Store",
-        "storeLogoColor": "bg-emerald-600",
-        "price": 93099,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.lg.com/tr"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-02",
-        "price": 93099,
-        "store": "LG Store"
-      }
+      "86 inç Dev QNED Ekran",
+      "webOS 24",
+      "α8 AI Processor 4K",
+      "20W Ses"
     ],
     "specs": {
       "screenSizeInches": 86,
-      "displayTech": "QNED",
-      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
       "refreshRateHz": 120,
-      "smartOs": "webOS 26",
+      "smartOs": "webOS",
       "audioPowerWatts": 20,
       "hdrSupport": [
-        "Dolby Vision",
         "HDR10",
         "HLG"
-      ],
-      "hdrFormats": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "gamingFeatures": [
-        "VRR",
-        "ALLM"
       ],
       "hdmiPorts": 4,
       "usbPorts": 2,
-      "energyClass": "E"
-    }
+      "energyClass": "E",
+      "processorEngine": "α8 AI Processor 4K"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-86qned82",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 93099.07,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 750,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 97999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 93099.07,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
   },
   {
     "id": "lg-65qned81b6a",
-    "name": "LG 65QNED81B6A 65\" 165 Ekran 4K QNED MiniLED 120Hz webOS TV (2026)",
     "slug": "lg-65qned81b6a",
+    "name": "LG 65QNED81B6A 65\" 165 Ekran 4K QNED webOS Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "basePrice": 51649,
-    "releaseYear": 2026,
-    "isPopular": false,
-    "rating": 4.1,
-    "reviewCount": 120,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.7,
+    "reviewCount": 340,
+    "basePrice": 51687.09,
     "currency": "TL",
+    "releaseYear": 2025,
     "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
+      "65 inç QNED Ekran",
+      "120Hz Yenileme Hızı",
+      "webOS 24",
+      "20W Ses"
     ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "α8 AI Processor 4K"
+    },
     "storeOffers": [
       {
-        "id": "offer-lg-65qned81b6a-1",
+        "id": "vatan-lg-65qned81",
         "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-emerald-600",
-        "price": 51649,
+        "storeLogoColor": "#E30613",
+        "price": 51687.09,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Ücretsiz Kargo"
+          "Fırsat"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.vatanbilgisayar.com"
+        "sellerReviews": 1600,
+        "url": "#"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-02",
-        "price": 51649,
+        "date": "2026-08-01",
+        "price": 54999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 51687.09,
         "store": "Vatan Bilgisayar"
       }
-    ],
-    "specs": {
-      "screenSizeInches": 65,
-      "displayTech": "QNED MiniLED",
-      "resolution": "3840x2160 (Ultra HD 4K)",
-      "refreshRateHz": 120,
-      "smartOs": "webOS 26",
-      "audioPowerWatts": 20,
-      "hdrSupport": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "hdrFormats": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "gamingFeatures": [
-        "VRR",
-        "ALLM"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 2,
-      "energyClass": "E"
-    }
+    ]
   },
   {
     "id": "lg-65qned7eb3c",
-    "name": "LG 65QNED7EB3C 65\" 165 Ekran 4K QNED 60Hz Smart TV (2026)",
     "slug": "lg-65qned7eb3c",
+    "name": "LG 65QNED7EB3C 65\" 165 Ekran 4K QNED webOS Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "basePrice": 50715,
-    "releaseYear": 2026,
-    "isPopular": false,
-    "rating": 4.1,
-    "reviewCount": 120,
-    "currency": "TL",
-    "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
-    ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
+    "isPopular": true,
+    "isFeatured": false,
     "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.6,
+    "reviewCount": 220,
+    "basePrice": 49940.8,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "65 inç QNED Ekran",
+      "webOS 24",
+      "4K Ultra HD",
+      "20W Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "webOS",
+      "audioPowerWatts": 20,
+      "hdrSupport": [
+        "HDR10",
+        "HLG"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "α5 AI Processor 4K Gen7"
+    },
     "storeOffers": [
       {
-        "id": "offer-lg-65qned7eb3c-1",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-emerald-600",
-        "price": 50715,
+        "id": "vatan-lg-65qned7eb",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 49940.8,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Ücretsiz Kargo"
+          "Stokta"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.mediamarkt.com.tr"
+        "sellerReviews": 1100,
+        "url": "#"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-02",
-        "price": 50715,
-        "store": "MediaMarkt"
+        "date": "2026-08-01",
+        "price": 52999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 49940.8,
+        "store": "Vatan Bilgisayar"
       }
-    ],
-    "specs": {
-      "screenSizeInches": 65,
-      "displayTech": "QNED",
-      "resolution": "3840x2160 (Ultra HD 4K)",
-      "refreshRateHz": 60,
-      "smartOs": "webOS 26",
-      "audioPowerWatts": 20,
-      "hdrSupport": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "hdrFormats": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "gamingFeatures": [
-        "VRR",
-        "ALLM"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 2,
-      "energyClass": "E"
-    }
+    ]
   },
   {
     "id": "lg-65qned70b6c",
-    "name": "LG 65QNED70B6C 65\" 165 Ekran 4K QNED 60Hz Smart TV (2026)",
     "slug": "lg-65qned70b6c",
+    "name": "LG 65QNED70B6C 65\" 165 Ekran 4K QNED webOS Smart TV",
     "brand": "LG",
     "category": "tvs",
-    "basePrice": 47818,
-    "releaseYear": 2026,
-    "isPopular": false,
-    "rating": 4.1,
-    "reviewCount": 120,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.6,
+    "reviewCount": 290,
+    "basePrice": 47439,
     "currency": "TL",
+    "releaseYear": 2025,
     "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
-    ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
-    "storeOffers": [
-      {
-        "id": "offer-lg-65qned70b6c-1",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-emerald-600",
-        "price": 47818,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.trendyol.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-02",
-        "price": 47818,
-        "store": "Trendyol"
-      }
+      "65 inç QNED Panel",
+      "webOS 24",
+      "4K Ultra HD",
+      "20W Ses"
     ],
     "specs": {
       "screenSizeInches": 65,
-      "displayTech": "QNED",
-      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
       "refreshRateHz": 60,
-      "smartOs": "webOS 26",
+      "smartOs": "webOS",
       "audioPowerWatts": 20,
       "hdrSupport": [
-        "Dolby Vision",
         "HDR10",
         "HLG"
       ],
-      "hdrFormats": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "gamingFeatures": [
-        "VRR",
-        "ALLM"
-      ],
-      "hdmiPorts": 4,
+      "hdmiPorts": 3,
       "usbPorts": 2,
-      "energyClass": "E"
-    }
-  },
-  {
-    "id": "lg-85nu900b6la",
-    "name": "LG 85NU900B6LA 85\" 215 Ekran 4K Nanocell 60Hz webOS TV (2026)",
-    "slug": "lg-85nu900b6la",
-    "brand": "LG",
-    "category": "tvs",
-    "basePrice": 70560,
-    "releaseYear": 2026,
-    "isPopular": false,
-    "rating": 4,
-    "reviewCount": 120,
-    "currency": "TL",
-    "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
-    ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+      "energyClass": "F",
+      "processorEngine": "α5 AI Processor 4K Gen7"
+    },
     "storeOffers": [
       {
-        "id": "offer-lg-85nu900b6la-1",
-        "storeName": "Teknosa",
-        "storeLogoColor": "bg-emerald-600",
-        "price": 70560,
+        "id": "vatan-lg-65qned70b",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 47439,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Ücretsiz Kargo"
+          "Popüler"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.teknosa.com"
+        "sellerReviews": 1350,
+        "url": "#"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-02",
-        "price": 70560,
-        "store": "Teknosa"
+        "date": "2026-08-01",
+        "price": 49999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 47439,
+        "store": "Vatan Bilgisayar"
       }
+    ]
+  },
+  {
+    "id": "lg-85nu900b6la",
+    "slug": "lg-85nu900b6la",
+    "name": "LG 85NU900B6LA 85\" 215 Ekran 4K LED webOS Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80"
+    ],
+    "rating": 4.6,
+    "reviewCount": 310,
+    "basePrice": 70560,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "85 inç LED Ekran",
+      "webOS 24",
+      "4K Ultra HD",
+      "20W Ses"
     ],
     "specs": {
       "screenSizeInches": 85,
-      "displayTech": "LED NanoCell",
-      "resolution": "3840x2160 (Ultra HD 4K)",
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
       "refreshRateHz": 60,
-      "smartOs": "webOS 26",
+      "smartOs": "webOS",
       "audioPowerWatts": 20,
       "hdrSupport": [
-        "Dolby Vision",
         "HDR10",
         "HLG"
       ],
-      "hdrFormats": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "gamingFeatures": [
-        "VRR",
-        "ALLM"
-      ],
-      "hdmiPorts": 4,
+      "hdmiPorts": 3,
       "usbPorts": 2,
-      "energyClass": "E"
-    }
+      "energyClass": "F",
+      "processorEngine": "α5 AI Processor 4K Gen7"
+    },
+    "storeOffers": [
+      {
+        "id": "vatan-lg-85nu900",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#E30613",
+        "price": 70560,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1400,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 74999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-20",
+        "price": 70560,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
   },
   {
     "id": "lg-75-75qned82a6b",
