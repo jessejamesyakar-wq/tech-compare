@@ -281,7 +281,7 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1018010/k_lg-75qned80a6a-8806096446911-8.jpg",
     "images": [
       "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
     ],
@@ -349,7 +349,7 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1025407/k_lg-75qned82a6b-1.jpg",
     "images": [
       "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80"
     ],
@@ -1097,7 +1097,7 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1013139/k_lg-oled77b56-oled77b56la-8806096431733-1.jpg",
     "images": [
       "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80"
     ],
@@ -1165,7 +1165,7 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1013855/k_lg-oled83b56la-10.jpg",
     "images": [
       "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80"
     ],
@@ -1233,7 +1233,7 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1013012/k_lg-100qned86a6-3.jpg",
     "images": [
       "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80"
     ],
@@ -1301,7 +1301,7 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1020253/k_lg-oled55c54la-8806096460078-1.jpg",
     "images": [
       "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
     ],
@@ -1842,7 +1842,7 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1030997/k_lg-oled83m59la-8806096467930-1.jpg",
     "images": [
       "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
     ],
@@ -1909,7 +1909,7 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1012562/k_lg-oled83g55lw-4.jpg",
     "images": [
       "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80"
     ],
@@ -2044,7 +2044,7 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1039970/k_lg-oled97g54lw-1.jpg",
     "images": [
       "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80"
     ],
@@ -15360,7 +15360,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "https://resim.epey.com/1039970/k_lg-oled97g54lw-1.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-97-oled97g54lw-lg",
@@ -15580,7 +15580,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "https://resim.epey.com/1012562/k_lg-oled83g55lw-4.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-83-oled83g55lw-lg",
@@ -15690,7 +15690,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1030997/k_lg-oled83m59la-8806096467930-1.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-83-oled83m59la-lg",
@@ -16020,7 +16020,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "https://resim.epey.com/1012508/k_lg-oled77g55lw-3.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77g55lw-lg",
@@ -16130,7 +16130,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1030998/k_lg-oled77m59la-12.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77m59la-lg",
@@ -16240,7 +16240,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "https://resim.epey.com/1013878/k_lg-oled83c54la-9.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-83-oled83c54la-lg",
@@ -16460,7 +16460,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "https://resim.epey.com/1013138/k_lg-oled77c54-oled77c54la-8806096431740-9.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77c54la-lg",
@@ -16570,7 +16570,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1012561/k_lg-oled65g55lw-1.png",
     "storeOffers": [
       {
         "id": "offer-lg-65-oled65g55lw-lg",
@@ -16790,7 +16790,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1011765/k_lg-oled65c54la-1.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65-oled65c54la-lg",
@@ -16900,7 +16900,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "https://resim.epey.com/1020253/k_lg-oled55c54la-8806096460078-1.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-55-oled55c54la-lg",
@@ -17010,7 +17010,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1013012/k_lg-100qned86a6-3.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-100-100qned86a6-lg",
@@ -17120,7 +17120,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "https://resim.epey.com/1013855/k_lg-oled83b56la-10.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-83-oled83b56la-lg",
@@ -17230,7 +17230,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1013139/k_lg-oled77b56-oled77b56la-8806096431733-1.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77b56la-lg",
@@ -17325,7 +17325,7 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1025406/k_lg-65qned93a6a-4.jpg",
     "images": [
       "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80"
     ],
@@ -17544,7 +17544,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1012463/k_lg-86qned86a6a-8806096435021-1.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-86qned86a6a-1",
@@ -17615,7 +17615,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "https://resim.epey.com/1029676/k_lg-65qned93a6a-4.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65qned93a6a-1",
@@ -17829,7 +17829,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1012464/k_lg-75qned86a6a-8806096431665-4.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-75qned86a6a-1",
@@ -17902,7 +17902,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "https://resim.epey.com/1011769/k_lg-oled55b56la-8806096431672-1.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-oled55b56la-1",
@@ -17975,7 +17975,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1020364/k_lg-65qned9ma6b-6.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65qned9ma6b-1",
@@ -18121,7 +18121,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1012465/k_lg-65qned86a6a-8806096431627-1.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-65qned86a6a-1",
@@ -18587,7 +18587,7 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1012982/k_lg-55qned86a6a-5.jpg",
     "images": [
       "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80"
     ],
@@ -18655,7 +18655,7 @@ export const mockTVs: TVProduct[] = [
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1032648/k_lg-75qned82a6b-1.jpg",
     "images": [
       "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80"
     ],
@@ -19010,7 +19010,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+    "image": "https://resim.epey.com/1025407/k_lg-75qned82a6b-1.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-75-75qned82a6b-0",
@@ -19182,7 +19182,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://resim.epey.com/1018010/k_lg-75qned80a6a-8806096446911-8.jpg",
     "storeOffers": [
       {
         "id": "offer-lg-75-75qned80a6a-0",
@@ -30422,7 +30422,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.9,
     "reviewCount": 495,
-    "image": "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg?t=1737536432173&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "https://resim.epey.com/1012378/k_tcl-75c6k-6921732849962-5.jpg",
     "highlights": [
       "512 Bölgeye Kadar Hassas Karartma Serisi",
       "Yüksek HDR Parlaklık",
@@ -30613,7 +30613,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.7,
     "reviewCount": 435,
-    "image": "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg?t=1737536432173&w=800&webp=true&dpr=1&rendition=2400",
+    "image": "https://resim.epey.com/1011770/k_tcl-65c6k-6921732849962-5.jpg",
     "highlights": [
       "512 Bölgeye Kadar Hassas Karartma Serisi",
       "Yüksek HDR Parlaklık",
@@ -31180,7 +31180,7 @@ export const mockTVs: TVProduct[] = [
     "basePrice": 46999,
     "releaseYear": 2026,
     "isPopular": false,
-    "image": "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/region/de/nav/quick-link-c6k.jpg?t=1767073426380&w=800",
+    "image": "https://resim.epey.com/1011770/k_tcl-65c6k-6921732849962-5.jpg",
     "slug": "tcl-65c6ks-65-inch-slim-qd-mini-led-tv",
     "specs": {
       "screenSizeInches": 65,
@@ -35302,5 +35302,719 @@ export const mockTVs: TVProduct[] = [
       "usbPorts": 2,
       "energyClass": "G"
     }
+  },
+  {
+    "id": "tv-samsung-65q7f5",
+    "name": "Samsung 65Q7F5 65\" 4K QLED Smart TV",
+    "brand": "Samsung",
+    "category": "tvs",
+    "rating": 8.5,
+    "image": "https://resim.epey.com/1011369/k_samsung-65q7f5-5.jpg",
+    "specs": {
+      "resolution": "4K Ultra HD (3840x2160)",
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "screenSizeInches": 65,
+      "displayTech": "QLED",
+      "refreshRateHz": 120,
+      "hdrSupport": [
+        "HDR10",
+        "HLG",
+        "Dolby Vision"
+      ],
+      "smartOs": "Tizen",
+      "audioPowerWatts": 20
+    },
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 46169,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 44886,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 43604,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 42749,
+        "store": "Hepsiburada"
+      }
+    ],
+    "basePrice": 42749,
+    "slug": "tv-samsung-65q7f5",
+    "reviewCount": 89,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "65\" QLED Ekran",
+      "4K Ultra HD (3840x2160) Çözünürlük",
+      "Tizen İşletim Sistemi",
+      "Dolby Audio & HDR Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "offer-tv-samsung-65q7f5-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 42749,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-tv-samsung-65q7f5-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#F27A1A",
+        "price": 43604,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-tv-samsung-65q7f5-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 44031,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 640,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ]
+  },
+  {
+    "id": "tv-iffalcon-55u95a",
+    "name": "iFFALCON 55U95A 55\" 4K QLED Smart TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "rating": 8.1,
+    "image": "https://resim.epey.com/1041957/k_iffalcon-55u95a-1.jpg",
+    "specs": {
+      "resolution": "4K Ultra HD (3840x2160)",
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "screenSizeInches": 55,
+      "displayTech": "QLED",
+      "refreshRateHz": 120,
+      "hdrSupport": [
+        "HDR10",
+        "HLG",
+        "Dolby Vision"
+      ],
+      "smartOs": "Google TV",
+      "audioPowerWatts": 24
+    },
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 41039,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 39899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 38759,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 37999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "basePrice": 37999,
+    "slug": "tv-iffalcon-55u95a",
+    "reviewCount": 99,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "55\" QLED Ekran",
+      "4K Ultra HD (3840x2160) Çözünürlük",
+      "Google TV İşletim Sistemi",
+      "Dolby Audio & HDR Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "offer-tv-iffalcon-55u95a-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 37999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-tv-iffalcon-55u95a-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#F27A1A",
+        "price": 38759,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-tv-iffalcon-55u95a-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 39139,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 640,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ]
+  },
+  {
+    "id": "tv-philips-65oled810",
+    "name": "Philips 65OLED810 65\" 4K OLED Smart TV",
+    "brand": "Philips",
+    "category": "tvs",
+    "rating": 9,
+    "image": "https://resim.epey.com/1017038/k_philips-65oled810-12-4.jpg",
+    "specs": {
+      "resolution": "4K Ultra HD (3840x2160)",
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "screenSizeInches": 65,
+      "displayTech": "OLED",
+      "refreshRateHz": 120,
+      "hdrSupport": [
+        "HDR10",
+        "HLG",
+        "Dolby Vision"
+      ],
+      "smartOs": "Google TV",
+      "audioPowerWatts": 70
+    },
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 91799,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 89249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 86699,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 84999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "basePrice": 84999,
+    "slug": "tv-philips-65oled810",
+    "reviewCount": 50,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "65\" OLED Ekran",
+      "4K Ultra HD (3840x2160) Çözünürlük",
+      "Google TV İşletim Sistemi",
+      "Dolby Audio & HDR Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "offer-tv-philips-65oled810-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 84999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-tv-philips-65oled810-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#F27A1A",
+        "price": 86699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-tv-philips-65oled810-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 87549,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 640,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ]
+  },
+  {
+    "id": "tv-samsung-65qn70f",
+    "name": "Samsung 65QN70F 65\" 4K Neo QLED Smart TV",
+    "brand": "Samsung",
+    "category": "tvs",
+    "rating": 8.7,
+    "image": "https://resim.epey.com/1009398/k_samsung-55qn70f-8806095980508-1.jpg",
+    "specs": {
+      "resolution": "4K Ultra HD (3840x2160)",
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "screenSizeInches": 65,
+      "displayTech": "Neo QLED",
+      "refreshRateHz": 120,
+      "hdrSupport": [
+        "HDR10",
+        "HLG",
+        "Dolby Vision"
+      ],
+      "smartOs": "Tizen",
+      "audioPowerWatts": 20
+    },
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 63249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 61492,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 59735,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 58564,
+        "store": "Hepsiburada"
+      }
+    ],
+    "basePrice": 58564,
+    "slug": "tv-samsung-65qn70f",
+    "reviewCount": 59,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "65\" Neo QLED Ekran",
+      "4K Ultra HD (3840x2160) Çözünürlük",
+      "Tizen İşletim Sistemi",
+      "Dolby Audio & HDR Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "offer-tv-samsung-65qn70f-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 58564,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-tv-samsung-65qn70f-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#F27A1A",
+        "price": 59735,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-tv-samsung-65qn70f-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 60321,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 640,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ]
+  },
+  {
+    "id": "tv-arçelik-a75-d-895-a",
+    "name": "Arçelik A75 D 895 A 75\" 4K LED Smart TV",
+    "brand": "Arçelik",
+    "category": "tvs",
+    "rating": 7.8,
+    "image": "https://resim.epey.com/851918/k_arcelik-a75-d-895-a-9.jpg",
+    "specs": {
+      "resolution": "4K Ultra HD (3840x2160)",
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "screenSizeInches": 75,
+      "displayTech": "LED",
+      "refreshRateHz": 60,
+      "hdrSupport": [
+        "HDR10",
+        "HLG",
+        "Dolby Vision"
+      ],
+      "smartOs": "Google TV",
+      "audioPowerWatts": 20
+    },
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 45705,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 44435,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 43165,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 42319,
+        "store": "Hepsiburada"
+      }
+    ],
+    "basePrice": 42319,
+    "slug": "tv-arçelik-a75-d-895-a",
+    "reviewCount": 28,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "75\" LED Ekran",
+      "4K Ultra HD (3840x2160) Çözünürlük",
+      "Google TV İşletim Sistemi",
+      "Dolby Audio & HDR Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "offer-tv-arçelik-a75-d-895-a-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 42319,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-tv-arçelik-a75-d-895-a-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#F27A1A",
+        "price": 43165,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-tv-arçelik-a75-d-895-a-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 43589,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 640,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ]
+  },
+  {
+    "id": "tv-tcl-55c655-pro",
+    "name": "TCL 55C655 Pro 55\" 4K QLED Smart TV",
+    "brand": "TCL",
+    "category": "tvs",
+    "rating": 8.4,
+    "image": "https://resim.epey.com/949572/k_tcl-55c655-pro-1.jpg",
+    "specs": {
+      "resolution": "4K Ultra HD (3840x2160)",
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "screenSizeInches": 55,
+      "displayTech": "QLED",
+      "refreshRateHz": 120,
+      "hdrSupport": [
+        "HDR10",
+        "HLG",
+        "Dolby Vision"
+      ],
+      "smartOs": "Google TV",
+      "audioPowerWatts": 35
+    },
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 35067,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 34092,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 33118,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 32469,
+        "store": "Hepsiburada"
+      }
+    ],
+    "basePrice": 32469,
+    "slug": "tv-tcl-55c655-pro",
+    "reviewCount": 99,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "55\" QLED Ekran",
+      "4K Ultra HD (3840x2160) Çözünürlük",
+      "Google TV İşletim Sistemi",
+      "Dolby Audio & HDR Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "offer-tv-tcl-55c655-pro-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 32469,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-tv-tcl-55c655-pro-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#F27A1A",
+        "price": 33118,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-tv-tcl-55c655-pro-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 33443,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 640,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ]
+  },
+  {
+    "id": "tv-philips-43pus7800",
+    "name": "Philips 43PUS7800 43\" 4K LED Smart TV",
+    "brand": "Philips",
+    "category": "tvs",
+    "rating": 7.6,
+    "image": "https://resim.epey.com/1019578/k_philips-65pus7800-4.jpg",
+    "specs": {
+      "resolution": "4K Ultra HD (3840x2160)",
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "refreshRateHz": 60,
+      "hdrSupport": [
+        "HDR10",
+        "HLG",
+        "Dolby Vision"
+      ],
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 20
+    },
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 23722,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 23063,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 22404,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21965,
+        "store": "Hepsiburada"
+      }
+    ],
+    "basePrice": 21965,
+    "slug": "tv-philips-43pus7800",
+    "reviewCount": 97,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "highlights": [
+      "43\" LED Ekran",
+      "4K Ultra HD (3840x2160) Çözünürlük",
+      "Titan OS İşletim Sistemi",
+      "Dolby Audio & HDR Desteği"
+    ],
+    "storeOffers": [
+      {
+        "id": "offer-tv-philips-43pus7800-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#FF6000",
+        "price": 21965,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-tv-philips-43pus7800-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#F27A1A",
+        "price": 22404,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-tv-philips-43pus7800-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#DF0000",
+        "price": 22624,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 640,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ]
   }
 ];
