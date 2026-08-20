@@ -45,6 +45,9 @@ export function CompactProductCard({
   const showBadge = badgeType !== 'none';
   const isRedDiscount = badgeType === 'discount' || (isDiscounted && badgeType !== 'featured');
 
+  const fallbackImg = 'https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80';
+  const [imgSrc, setImgSrc] = React.useState(product.image || fallbackImg);
+
   return (
     <div className="group relative bg-white border border-slate-200 hover:border-emerald-500/60 rounded-2xl p-3 sm:p-3.5 transition-all duration-200 shadow-2xs hover:shadow-lg flex flex-col justify-between overflow-hidden">
       
@@ -68,9 +71,10 @@ export function CompactProductCard({
       <Link href={href} className="block relative my-1">
         <div className="w-full h-44 sm:h-48 bg-slate-50 rounded-xl p-3 sm:p-4 flex items-center justify-center overflow-hidden border border-slate-200/80 group-hover:bg-slate-100/80 group-hover:border-emerald-400 transition-all">
           <img
-            src={product.image}
+            src={imgSrc}
             alt={product.name}
             loading="lazy"
+            onError={() => setImgSrc(fallbackImg)}
             className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300 ease-out drop-shadow-xs"
           />
         </div>

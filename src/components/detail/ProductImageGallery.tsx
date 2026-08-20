@@ -89,6 +89,9 @@ export function ProductImageGallery({ product }: ProductImageGalleryProps) {
             exit={{ opacity: 0, scale: 0.96 }}
             transition={{ duration: 0.2, ease: 'easeOut' }}
             src={activeImage}
+            onError={(e) => {
+              (e.target as HTMLImageElement).src = defaultImage;
+            }}
             alt={`${product.name} Görsel ${activeIndex + 1}`}
             className="h-72 w-auto max-w-full object-contain filter drop-shadow-xs group-hover:scale-105 transition-transform duration-300"
           />

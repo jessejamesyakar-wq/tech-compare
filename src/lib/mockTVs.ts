@@ -569,7 +569,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1062662/k_lg-oled77c64la-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-83-oled83c64la-lg",
@@ -679,7 +679,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058546/k_lg-oled77c64la-1.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77c64la-lg",
@@ -789,7 +789,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058549/k_lg-oled65c64la-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-65-oled65c64la-lg",
@@ -899,7 +899,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1061777/k_lg-oled55c64la-1.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-55-oled55c64la-lg",
@@ -1009,7 +1009,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1062021/k_lg-oled77b65la-4.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77b65la-lg",
@@ -13064,7 +13064,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058564/k_lg-oled97g64lw-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-97-oled97g64lw-lg",
@@ -13174,7 +13174,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1039970/k_lg-oled97g54lw-1.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-97-oled97g54lw-lg",
@@ -13284,7 +13284,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1062724/k_lg-oled83g64lw-8806096749159-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-83-oled83g64lw-lg",
@@ -13394,7 +13394,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1012562/k_lg-oled83g55lw-4.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-83-oled83g55lw-lg",
@@ -13504,7 +13504,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1030997/k_lg-oled83m59la-8806096467930-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-83-oled83m59la-lg",
@@ -13614,7 +13614,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1066898/k_lg-oled77w69la-8806096851005-8.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77w69la-lg",
@@ -13724,7 +13724,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1061935/k_lg-oled97g64lw-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77g64lw-lg",
@@ -13834,7 +13834,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1012508/k_lg-oled77g55lw-3.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77g55lw-lg",
@@ -13944,7 +13944,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1030998/k_lg-oled77m59la-12.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77m59la-lg",
@@ -14054,7 +14054,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1013878/k_lg-oled83c54la-9.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-83-oled83c54la-lg",
@@ -14164,7 +14164,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1062112/k_lg-oled97g64lw-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-65-oled65g64lw-lg",
@@ -14274,7 +14274,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1013138/k_lg-oled77c54-oled77c54la-8806096431740-9.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77c54la-lg",
@@ -14384,7 +14384,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1012561/k_lg-oled65g55lw-1.png",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-65-oled65g55lw-lg",
@@ -14494,7 +14494,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1066169/k_lg-100qned87b6-8806096851012-1.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-100-100qned87b6-lg",
@@ -14604,7 +14604,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1011765/k_lg-oled65c54la-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-65-oled65c54la-lg",
@@ -14714,7 +14714,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1020253/k_lg-oled55c54la-8806096460078-1.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-55-oled55c54la-lg",
@@ -14824,7 +14824,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1013012/k_lg-100qned86a6-3.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-100-100qned86a6-lg",
@@ -14934,7 +14934,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1013855/k_lg-oled83b56la-10.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-83-oled83b56la-lg",
@@ -15044,7 +15044,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1013139/k_lg-oled77b56-oled77b56la-8806096431733-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-77-oled77b56la-lg",
@@ -15154,7 +15154,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1025406/k_lg-65qned93a6a-4.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-75qned93a6a-1",
@@ -15232,7 +15232,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058551/k_lg-oled65b65la-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-oled65b65la-1",
@@ -15324,7 +15324,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1062664/k_lg-86qned87b6a-8806096749074-1.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-86qned87b6a-1",
@@ -15395,7 +15395,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1012463/k_lg-86qned86a6a-8806096435021-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-86qned86a6a-1",
@@ -15466,7 +15466,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1029676/k_lg-65qned93a6a-4.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-65qned93a6a-1",
@@ -15539,7 +15539,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1061938/k_lg-oled55b65la-8806096774304-2.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-oled55b65la-1",
@@ -15612,7 +15612,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058550/k_lg-75qned87b6a-7.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-75qned87b6a-1",
@@ -15685,7 +15685,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1012464/k_lg-75qned86a6a-8806096431665-4.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-75qned86a6a-1",
@@ -15758,7 +15758,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1011769/k_lg-oled55b56la-8806096431672-1.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-oled55b56la-1",
@@ -15831,7 +15831,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1020364/k_lg-65qned9ma6b-6.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-65qned9ma6b-1",
@@ -15904,7 +15904,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058491/k_lg-65qned87b6a-1.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-65qned87b6a-1",
@@ -15977,7 +15977,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1012465/k_lg-65qned86a6a-8806096431627-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-65qned86a6a-1",
@@ -16050,7 +16050,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1062665/k_lg-85qned81b6a-1.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-85qned81b6a-1",
@@ -16123,7 +16123,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058487/k_lg-85qned70b6a-7.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-85qned70b6a-1",
@@ -16196,7 +16196,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058532/k_lg-55qned87b6a-1.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-55qned87b6a-1",
@@ -16269,7 +16269,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1062935/k_lg-75qned81b6a-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-75qned81b6a-1",
@@ -16342,7 +16342,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058489/k_lg-75qned7eb3a-1.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-75qned7eb3a-1",
@@ -16415,7 +16415,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058486/k_lg-75qned70b6a-7.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-75qned70b6a-1",
@@ -16488,7 +16488,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1012982/k_lg-55qned86a6a-5.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-55qned86a6a-1",
@@ -16561,7 +16561,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1032648/k_lg-75qned82a6b-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-86qned82a6b-1",
@@ -16634,7 +16634,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058534/k_lg-65qned81b6a-1.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-65qned81b6a-1",
@@ -16707,7 +16707,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1064327/k_lg-65qned7eb3c-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-65qned7eb3c-1",
@@ -16780,7 +16780,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058479/k_lg-65qned70b6c-8.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-65qned70b6c-1",
@@ -16853,7 +16853,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058399/k_lg-85nu900b6la-7.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-85nu900b6la-1",
@@ -16926,7 +16926,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1025407/k_lg-75qned82a6b-1.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-75-75qned82a6b-0",
@@ -17098,7 +17098,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1018010/k_lg-75qned80a6a-8806096446911-8.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-75-75qned80a6a-0",
@@ -17270,7 +17270,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1032649/k_lg-75qned70a6a-8806096678282-5.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-75-75qned70a6a-0",
@@ -17442,7 +17442,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1012229/k_lg-86ua85006la-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-86-86ua85006la-0",
@@ -17614,7 +17614,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1059869/k_lg-55qned81b6a-1.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-55-55qned81b6a-1-0",
@@ -17786,7 +17786,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058485/k_lg-55qned70b6c-7.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-55-55qned70b6c-0",
@@ -17958,7 +17958,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058392/k_lg-75nu900b6la-7.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-75-75nu900b6la-1-0",
@@ -18127,7 +18127,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1027214/k_lg-65qned82a6b-10.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-65-65qned82a6b-0",
@@ -18296,7 +18296,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1019788/k_lg-75nano90a6b-1.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-75-75nano90a6b-0",
@@ -18465,7 +18465,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1020255/k_lg-65qned70a6a-8806096434611-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-65-65qned70a6a-0",
@@ -18634,7 +18634,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1012271/k_lg-75nano80a6b-1.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-75-75nano80a6b-0",
@@ -18803,7 +18803,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1028154/k_lg-75ua85006-8806096520888-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-75-75ua85006la-0",
@@ -18972,7 +18972,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058404/k_lg-65nu900b6la-7.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65nu900b6la-1-0",
@@ -19141,7 +19141,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1012978/k_lg-55qned80a6a-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-55-55qned80a6a-0",
@@ -19310,7 +19310,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1025408/k_lg-55qned82a6b-8806096512067-9.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-55-55qned82a6b-0",
@@ -19479,7 +19479,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1020256/k_lg-55qned70-55qned70a6a-8806096434598-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-55-55qned70a6a-0",
@@ -19648,7 +19648,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1018011/k_lg-65nano90a6b-1.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65nano90a6b-0",
@@ -19817,7 +19817,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1045153/k_lg-65nano81a6a-8.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-65-65nano81a6a-0",
@@ -19986,7 +19986,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1012270/k_lg-65nano80a6b-1.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65nano80a6b-0",
@@ -20155,7 +20155,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1034948/k_lg-65ua84006-65ua84006lb-8806096540176-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-65-65ua84006lb-0",
@@ -20324,7 +20324,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1011807/k_lg-50ua85006la-8806096431535-6.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-65-65ua85006la-0",
@@ -20493,7 +20493,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1017499/k_lg-55nano846qa-8806096435687-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-65-65nano846qa-0",
@@ -20662,7 +20662,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1058414/k_lg-55nu900b6la-7.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "storeOffers": [
       {
         "id": "offer-lg-55-55nu900b6la-1-0",
@@ -20831,7 +20831,7 @@ export const mockTVs: TVProduct[] = [
       "Smart TV",
       "OLED"
     ],
-    "image": "https://resim.epey.com/1011810/k_lg-55nano80a6b-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "storeOffers": [
       {
         "id": "offer-lg-55-55nano80a6b-0",
@@ -20989,7 +20989,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 2.9,
     "reviewCount": 243,
-    "image": "https://resim.epey.com/1037858/k_lg-55ua84006lb-880609650169-1.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "highlights": [
       "55\" LED Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
@@ -21174,7 +21174,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 2.9,
     "reviewCount": 243,
-    "image": "https://resim.epey.com/1011809/k_lg-50ua85006la-8806096431535-6.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "highlights": [
       "55\" LED Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
@@ -21359,7 +21359,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 2.8,
     "reviewCount": 235,
-    "image": "https://resim.epey.com/1011813/k_lg-50ua85006la-8806096431535-6.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "highlights": [
       "50\" LED Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
@@ -21544,7 +21544,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 2,
     "reviewCount": 172,
-    "image": "https://resim.epey.com/1023066/k_lg-stanbyme-27lx6tdga-20.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "highlights": [
       "27\" LED QHD (2K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
@@ -21729,7 +21729,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.3,
     "reviewCount": 365,
-    "image": "https://resim.epey.com/1062121/k_lg-oled97g64lw-1.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "highlights": [
       "55\" OLED evo Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
@@ -21914,7 +21914,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.2,
     "reviewCount": 352,
-    "image": "https://resim.epey.com/1025405/k_lg-85qned93a6a-8806096417096-7.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "highlights": [
       "85\" QNED Mini-LED Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
@@ -22099,7 +22099,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4.2,
     "reviewCount": 348,
-    "image": "https://resim.epey.com/1061772/k_lg-oled48c64la-1.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "highlights": [
       "48\" OLED evo Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
@@ -22284,7 +22284,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": true,
     "rating": 4,
     "reviewCount": 340,
-    "image": "https://resim.epey.com/1036450/k_lg-oled48c54la-8806096601655-6.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "highlights": [
       "48\" OLED evo Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
@@ -22469,7 +22469,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 3.9,
     "reviewCount": 327,
-    "image": "https://resim.epey.com/1011766/k_lg-oled65b56la-8806096431696-9.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "highlights": [
       "65\" OLED Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
@@ -22654,7 +22654,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 3.9,
     "reviewCount": 327,
-    "image": "https://resim.epey.com/1020252/k_lg-75qned9ma6b-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "highlights": [
       "75\" QNED Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
@@ -22839,7 +22839,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 3.5,
     "reviewCount": 289,
-    "image": "https://resim.epey.com/1033687/k_lg-86qned70a-86qned70a6a-8806096678305-1.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "highlights": [
       "86\" QNED Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
@@ -23024,7 +23024,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 3.1,
     "reviewCount": 264,
-    "image": "https://resim.epey.com/1012466/k_lg-65qned80a6a-5.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "highlights": [
       "65\" QNED Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
@@ -23209,7 +23209,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 2.9,
     "reviewCount": 243,
-    "image": "https://resim.epey.com/1019683/k_lg-55nano90a6b-3.jpg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
     "highlights": [
       "55\" NanoCell Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",
@@ -23394,7 +23394,7 @@ export const mockTVs: TVProduct[] = [
     "isPopular": false,
     "rating": 2.9,
     "reviewCount": 239,
-    "image": "https://resim.epey.com/1012393/k_lg-55nano846qa-8806096435687-1.jpg",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "highlights": [
       "55\" NanoCell Ultra HD (4K) Ekran",
       "webOS Akıllı TV İşletim Sistemi",

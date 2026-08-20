@@ -115,27 +115,40 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
   ];
 
   const lowestPrice = Math.min(...storeList.map((s) => s.price));
+  const fallbackImg = 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80';
+  const [imgSrc, setImgSrc] = React.useState(phone.image || fallbackImg);
 
   return (
-    <div
-      style={{ contentVisibility: 'auto', containIntrinsicSize: '0 440px' }}
-      className="product-card group relative bg-white border border-[#e0e0e0] hover:border-blue-600/60 rounded-xl p-3 sm:p-3.5 transition-all duration-200 shadow-2xs hover:shadow-lg flex flex-col justify-between overflow-hidden"
+    <motion.div
+      layout
+      initial={{ opacity: 0, scale: 0.96 }}
+      animate={{ opacity: 1, scale: 1 }}
+      exit={{ opacity: 0, scale: 0.96 }}
+      transition={{ duration: 0.25, delay: Math.min(index * 0.02, 0.2) }}
+      className="group relative bg-white border border-slate-200/90 hover:border-emerald-500/60 rounded-2xl p-3.5 transition-all duration-200 shadow-2xs hover:shadow-lg flex flex-col justify-between overflow-hidden cursor-pointer"
     >
-      {/* Popular Tag Badge */}
-      {phone.isPopular && (
-        <div className="absolute top-2.5 left-2.5 z-10 bg-blue-50 text-blue-700 text-[9.5px] font-extrabold px-2 py-0.5 rounded-full border border-blue-200 flex items-center gap-1 shadow-2xs">
-          <Zap className="w-3 h-3 fill-blue-600 text-blue-600" />
-          <span>Popüler</span>
-        </div>
-      )}
+      {/* Vatan Bilgisayar Tarzı Sol Üst Köşe Badgeleri */}
+      <div className="absolute top-2.5 left-2.5 z-10 flex flex-col gap-1 items-start">
+        {phone.isPopular && (
+          <span className="bg-emerald-50 text-emerald-800 text-[8.5px] font-black uppercase px-2 py-0.5 rounded-md border border-emerald-200 shadow-2xs flex items-center gap-1">
+            <Zap className="w-2.5 h-2.5 text-emerald-600 fill-emerald-600" />
+            <span>Popüler</span>
+          </span>
+        )}
+        {phone.releaseYear === 2026 && (
+          <span className="bg-slate-900 text-white text-[8.5px] font-black uppercase px-2 py-0.5 rounded-md shadow-2xs">
+            2026 Seri
+          </span>
+        )}
+      </div>
 
-      {/* Compare Quick Action Toggle */}
+      {/* Sağ Üst Kıyaslama Butonu (Vatan Stil) */}
       <button
-        onClick={handleCompareClick}
-        className={`absolute top-2.5 right-2.5 z-10 p-1.5 rounded-full border text-xs font-semibold flex items-center gap-1 transition-all cursor-pointer ${
+        onClick={() => (inCompare ? removeFromCompare(phone.id) : addToCompare(phone))}
+        className={`absolute top-2.5 right-2.5 z-10 p-1.5 rounded-lg border text-xs font-bold transition-all shadow-2xs flex items-center gap-1 cursor-pointer ${
           inCompare
-            ? 'bg-blue-700 text-white border-blue-600 shadow-xs font-extrabold'
-            : 'bg-white/95 text-slate-700 border-slate-200 hover:border-slate-300 shadow-2xs'
+            ? 'bg-emerald-600 text-white border-emerald-500 shadow-emerald-500/20'
+            : 'bg-white/90 text-slate-600 border-slate-200 hover:bg-slate-50 hover:text-slate-900'
         }`}
         title={t.addToCompare}
       >
@@ -148,9 +161,10 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
         <Link href={`/phones/${phone.slug}`} className="block relative mb-2.5">
           <div className="w-full h-44 sm:h-48 rounded-xl bg-slate-50/80 border border-slate-100 p-3 sm:p-4 flex items-center justify-center overflow-hidden relative group-hover:bg-slate-50 transition-all">
             <img
-              src={phone.image || 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80'}
+              src={imgSrc}
               alt={phone.name}
               loading="lazy"
+              onError={() => setImgSrc(fallbackImg)}
               className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-200 ease-out drop-shadow-xs"
             />
 
@@ -249,6 +263,6 @@ export function PhoneCard({ phone, index = 0 }: PhoneCardProps) {
           </motion.button>
         </Link>
       </div>
-    </div>
+    </motion.div>
   );
 }

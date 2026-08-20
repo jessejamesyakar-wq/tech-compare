@@ -82,6 +82,9 @@ export function LaptopMediaMarktCard({ laptop, index = 0 }: LaptopMediaMarktCard
             src={laptop.image}
             alt={laptop.name}
             loading="lazy"
+            onError={(e) => {
+              (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80';
+            }}
             className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300 ease-out drop-shadow-xs"
           />
         </Link>
