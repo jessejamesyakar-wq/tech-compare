@@ -37880,11 +37880,12 @@ export const mockTVs: TVProduct[] = [
     "name": "LG StanbyME Go 27LX5QKNA 27\" Dokunmatik Taşınabilir Akıllı Ekran & TV (webOS)",
     "brand": "LG",
     "category": "tvs",
-    "image": "https://resim.epey.com/921450/z_lg-stanbyme-go-27-27lx5qkna-1.jpg",
+    "image": "/images/products/tvs/lg-stanbyme-go-27lx5qkna-1.jpg",
     "images": [
-      "https://resim.epey.com/921450/z_lg-stanbyme-go-27-27lx5qkna-1.jpg",
-      "https://resim.epey.com/921450/m_lg-stanbyme-go-27-27lx5qkna-9.jpg",
-      "https://resim.epey.com/921450/m_lg-stanbyme-go-27-27lx5qkna-10.jpg"
+      "/images/products/tvs/lg-stanbyme-go-27lx5qkna-1.jpg",
+      "/images/products/tvs/lg-stanbyme-go-27lx5qkna-2.jpg",
+      "/images/products/tvs/lg-stanbyme-go-27lx5qkna-3.jpg",
+      "https://resim.epey.com/921450/z_lg-stanbyme-go-27-27lx5qkna-1.jpg"
     ],
     "rating": 4.8,
     "reviewCount": 43,
