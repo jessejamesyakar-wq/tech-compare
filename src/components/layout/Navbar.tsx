@@ -6,7 +6,6 @@ import { usePathname, useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useI18n } from '@/lib/i18n/context';
 import { useCompare } from '@/context/CompareContext';
-import { useLogo } from '@/context/LogoContext';
 import { Language } from '@/lib/types';
 import { searchProducts } from '@/lib/data';
 import { Product } from '@/lib/types';
@@ -21,14 +20,12 @@ import {
   Apple,
   Sparkles,
   SlidersHorizontal,
-  Globe,
-  Upload
+  Globe
 } from 'lucide-react';
 
 export function Navbar() {
   const { t, language, setLanguage, languageNames } = useI18n();
   const { compareList } = useCompare();
-  const { setIsModalOpen } = useLogo();
   const pathname = usePathname();
   const router = useRouter();
 
@@ -269,16 +266,7 @@ export function Navbar() {
 
             {/* Profile & Settings Icon Menu */}
             <div className="flex items-center gap-1.5">
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                onClick={() => setIsModalOpen(true)}
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 text-xs font-black border border-emerald-500/20 shadow-2xs transition-all cursor-pointer"
-                title="Sitenin Amblemini Değiştir"
-              >
-                <Upload className="w-3.5 h-3.5" />
-                <span className="hidden sm:inline">Amblem Değiştir</span>
-              </motion.button>
+
 
 
             </div>
