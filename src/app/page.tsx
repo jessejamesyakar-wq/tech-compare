@@ -21,6 +21,7 @@ import { CategoryBannerGrid } from '@/components/promo/CategoryBannerGrid';
 import { ProductCarousel } from '@/components/catalog/ProductCarousel';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
 import { DynamicCategoryShowcase } from '@/components/home/DynamicCategoryShowcase';
+import PenguinMascot from '@/components/PenguinMascot';
 
 const allProductsCache = getStoredProducts();
 const allMockSmartphonesCount = allProductsCache.filter((p) => p.category === 'smartphones').length;
@@ -275,6 +276,44 @@ export default function HomePage() {
 
       {/* 3. Sub-Hero Horizontal Thumbnail Strip */}
       <HeroThumbnailStrip items={heroThumbnails} activeIndex={heroIndex} onSelect={setHeroIndex} />
+
+      {/* 🐧 TechKıyas Akıllı Asistan Maskot Vitrini */}
+      <section className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-emerald-600/10 via-teal-500/5 to-cyan-500/10 border border-emerald-500/20 p-6 sm:p-8 backdrop-blur-xs">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+          <div className="space-y-3 max-w-xl text-center md:text-left">
+            <div className="inline-flex items-center gap-1.5 bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 text-xs font-black px-3.5 py-1 rounded-full border border-emerald-500/30">
+              <Sparkles className="w-3.5 h-3.5" />
+              <span>AKILLI ASİSTANIN TECHKIYAS PENGUEN</span>
+            </div>
+            <h2 className="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white tracking-tight">
+              En Doğru Kararı Vermen İçin Buradayım!
+            </h2>
+            <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-medium">
+              Binlerce teknolojik ürünün teknik verilerini, fiyat geçmişini ve kullanıcı deneyimlerini analiz ederek senin için en uygun cihazı buluyorum.
+            </p>
+            <div className="pt-2 flex flex-wrap gap-3 justify-center md:justify-start">
+              <Link
+                href="/compare"
+                className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-black text-xs px-5 py-2.5 rounded-2xl shadow-md transition-all hover:scale-105"
+              >
+                <Scale className="w-4 h-4" />
+                <span>Hemen Karşılaştır</span>
+              </Link>
+              <Link
+                href="/phones"
+                className="inline-flex items-center gap-2 bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-100 font-black text-xs px-5 py-2.5 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-xs transition-all hover:scale-105"
+              >
+                <Search className="w-4 h-4" />
+                <span>Kataloğu Keşfet</span>
+              </Link>
+            </div>
+          </div>
+
+          <div className="shrink-0 flex items-center justify-center">
+            <PenguinMascot />
+          </div>
+        </div>
+      </section>
 
       {/* 5. Dynamic Category Distribution Showcase (%40 Telefon, %20 TV, %10 Ev Aletleri, %10 Tablet, %10 Saat, %10 Kulaklık) */}
       <DynamicCategoryShowcase />
