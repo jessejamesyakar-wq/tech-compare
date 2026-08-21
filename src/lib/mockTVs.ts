@@ -161,74 +161,6 @@ export const mockTVs: TVProduct[] = [
     ]
   },
   {
-    "id": "lg-75qned70a6a",
-    "slug": "lg-75qned70a6a",
-    "name": "LG 75QNED70A6A 75\" 189 Ekran 4K QNED webOS Smart TV",
-    "brand": "LG",
-    "category": "tvs",
-    "isPopular": true,
-    "isFeatured": false,
-    "image": "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80"
-    ],
-    "rating": 4.6,
-    "reviewCount": 260,
-    "basePrice": 57899.03,
-    "currency": "TL",
-    "releaseYear": 2024,
-    "highlights": [
-      "75 inç QNED Ekran",
-      "webOS 24",
-      "4K Ultra HD",
-      "20W Ses"
-    ],
-    "specs": {
-      "screenSizeInches": 75,
-      "displayTech": "QLED",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 60,
-      "smartOs": "webOS",
-      "audioPowerWatts": 20,
-      "hdrSupport": [
-        "HDR10",
-        "HLG"
-      ],
-      "hdmiPorts": 3,
-      "usbPorts": 2,
-      "energyClass": "F",
-      "processorEngine": "α5 AI Processor 4K Gen7"
-    },
-    "storeOffers": [
-      {
-        "id": "vatan-lg-75qned70a",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#E30613",
-        "price": 57899.03,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Popüler"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 1200,
-        "url": "#"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-08-01",
-        "price": 61999,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "2026-08-20",
-        "price": 57899.03,
-        "store": "Vatan Bilgisayar"
-      }
-    ]
-  },
-  {
     "id": "lg-75qned80a6a",
     "slug": "lg-75qned80a6a",
     "name": "LG 75QNED80A6A 75\" 189 Ekran 4K QNED webOS Smart TV",
@@ -5021,115 +4953,6 @@ export const mockTVs: TVProduct[] = [
     ],
     "specs": {
       "screenSizeInches": 85,
-      "displayTech": "QNED",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 60,
-      "smartOs": "webOS 26",
-      "audioPowerWatts": 40,
-      "hdrSupport": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "hdrFormats": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "gamingFeatures": [
-        "ALLM",
-        "VRR",
-        "FreeSync",
-        "G-Sync"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 2,
-      "energyClass": "E"
-    }
-  },
-  {
-    "id": "lg-75-75qned70b6a",
-    "name": "LG 75QNED70B6A QNED AI QNED70B MiniLED 4K 60Hz VRR Smart TV (2026)",
-    "slug": "lg-75-75qned70b6a-75-inc",
-    "brand": "LG",
-    "category": "tvs",
-    "basePrice": 64999,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "rating": 4.6,
-    "reviewCount": 120,
-    "currency": "TL",
-    "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
-    ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "https://resim.epey.com/1058486/k_lg-75qned70b6a-7.jpg",
-    "storeOffers": [
-      {
-        "id": "offer-lg-lg-75-75qned70b6a-1",
-        "storeName": "LG Online Mağaza",
-        "storeLogoColor": "#A50034",
-        "price": 64999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.lg.com/tr/tv-soundbar/lg-75-75qned70b6a-75-inc/"
-      },
-      {
-        "id": "offer-lg-lg-75-75qned70b6a-2",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#002B49",
-        "price": 65999,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "offer-lg-lg-75-75qned70b6a-3",
-        "storeName": "Teknosa",
-        "storeLogoColor": "#FF6600",
-        "price": 66499,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.teknosa.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-06-01",
-        "price": 64999,
-        "store": "LG Online Mağaza"
-      },
-      {
-        "date": "2026-07-01",
-        "price": 64999,
-        "store": "LG Online Mağaza"
-      }
-    ],
-    "specs": {
-      "screenSizeInches": 75,
       "displayTech": "QNED",
       "resolution": "4K Ultra HD",
       "refreshRateHz": 60,
@@ -18533,74 +18356,6 @@ export const mockTVs: TVProduct[] = [
     ]
   },
   {
-    "id": "lg-75qned70b6a",
-    "slug": "lg-75qned70b6a",
-    "name": "LG 75QNED70B6A 75\" 189 Ekran 4K QNED webOS Smart TV",
-    "brand": "LG",
-    "category": "tvs",
-    "isPopular": true,
-    "isFeatured": false,
-    "image": "https://resim.epey.com/1058486/k_lg-75qned70b6a-7.jpg",
-    "images": [
-      "https://resim.epey.com/1058486/k_lg-75qned70b6a-7.jpg"
-    ],
-    "rating": 4.6,
-    "reviewCount": 230,
-    "basePrice": 60434.8,
-    "currency": "TL",
-    "releaseYear": 2025,
-    "highlights": [
-      "75 inç QNED Ekran",
-      "webOS 24",
-      "4K Ultra HD",
-      "20W Ses"
-    ],
-    "specs": {
-      "screenSizeInches": 75,
-      "displayTech": "QLED",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 60,
-      "smartOs": "webOS",
-      "audioPowerWatts": 20,
-      "hdrSupport": [
-        "HDR10",
-        "HLG"
-      ],
-      "hdmiPorts": 3,
-      "usbPorts": 2,
-      "energyClass": "F",
-      "processorEngine": "α5 AI Processor 4K Gen7"
-    },
-    "storeOffers": [
-      {
-        "id": "vatan-lg-75qned70",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#E30613",
-        "price": 60434.8,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Stokta"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 1000,
-        "url": "#"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-08-01",
-        "price": 63999,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "2026-08-20",
-        "price": 60434.8,
-        "store": "Vatan Bilgisayar"
-      }
-    ]
-  },
-  {
     "id": "lg-55qned86a6a",
     "slug": "lg-55qned86a6a",
     "name": "LG 55QNED86A6A 55\" 139 Ekran 4K QNED MiniLED webOS TV",
@@ -19414,178 +19169,6 @@ export const mockTVs: TVProduct[] = [
       {
         "date": "2026-08",
         "price": 71610,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screenSizeInches": 75,
-      "displayTech": "QNED",
-      "resolution": "3840x2160 (4K)",
-      "refreshRateHz": 120,
-      "smartOs": "webOS 25",
-      "audioPowerWatts": 20,
-      "hdrSupport": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "hdrFormats": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "gamingFeatures": [
-        "VRR",
-        "ALLM",
-        "Game Dashboard",
-        "FreeSync"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 2,
-      "energyClass": "E"
-    }
-  },
-  {
-    "id": "lg-75-75qned70a6a",
-    "name": "LG 75\" 75QNED70A6A 4K Smart TV (2025)",
-    "slug": "lg-75-75qned70a6a-75-inc",
-    "brand": "LG",
-    "category": "tvs",
-    "basePrice": 57899,
-    "releaseYear": 2025,
-    "isPopular": true,
-    "rating": 4.7,
-    "reviewCount": 120,
-    "currency": "TL",
-    "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
-    ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/oled-evo/c6/gp1/gallery/newadd/450.jpg/jcr:content/renditions/thum-350x350.jpeg",
-    "storeOffers": [
-      {
-        "id": "offer-lg-75-75qned70a6a-0",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "blue",
-        "price": 58015,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://hepsiburada.com"
-      },
-      {
-        "id": "offer-lg-75-75qned70a6a-1",
-        "storeName": "Trendyol",
-        "storeLogoColor": "blue",
-        "price": 58362,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://trendyol.com"
-      },
-      {
-        "id": "offer-lg-75-75qned70a6a-2",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "blue",
-        "price": 57899,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://vatanbilgisayar.com"
-      },
-      {
-        "id": "offer-lg-75-75qned70a6a-3",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "blue",
-        "price": 58478,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://mediamarkt.com.tr"
-      },
-      {
-        "id": "offer-lg-75-75qned70a6a-4",
-        "storeName": "Teknosa",
-        "storeLogoColor": "blue",
-        "price": 58594,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://teknosa.com"
-      },
-      {
-        "id": "offer-lg-75-75qned70a6a-5",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "blue",
-        "price": 58131,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://amazon.com.tr"
-      },
-      {
-        "id": "offer-lg-75-75qned70a6a-6",
-        "storeName": "n11",
-        "storeLogoColor": "blue",
-        "price": 57783,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://n11.com"
-      },
-      {
-        "id": "offer-lg-75-75qned70a6a-7",
-        "storeName": "PttAVM",
-        "storeLogoColor": "blue",
-        "price": 57667,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://pttavm.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-02",
-        "price": 62531,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "2026-04",
-        "price": 60215,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "2026-06",
-        "price": 59057,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "2026-08",
-        "price": 57899,
         "store": "Vatan Bilgisayar"
       }
     ],
@@ -25257,191 +24840,6 @@ export const mockTVs: TVProduct[] = [
       {
         "date": "2026-08",
         "price": 36999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screenSizeInches": 55,
-      "displayTech": "NanoCell",
-      "resolution": "Ultra HD (4K)",
-      "refreshRateHz": 60,
-      "smartOs": "webOS 25",
-      "audioPowerWatts": 20,
-      "hdrSupport": [
-        "Dolby Vision",
-        "HDR10 Pro",
-        "HLG"
-      ],
-      "hdrFormats": [
-        "Dolby Vision",
-        "HDR10 Pro",
-        "HLG"
-      ],
-      "gamingFeatures": [
-        "VRR",
-        "ALLM",
-        "Game Optimizer",
-        "120Hz"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 2,
-      "energyClass": "E"
-    }
-  },
-  {
-    "id": "tv-lg-lg-55-55nano846qa-55-inc",
-    "name": "LG 55NANO846QA",
-    "slug": "lg-55-55nano846qa-55-inc",
-    "brand": "LG",
-    "category": "tvs",
-    "basePrice": 33999,
-    "currency": "TL",
-    "releaseYear": 2025,
-    "isPopular": false,
-    "rating": 2.9,
-    "reviewCount": 239,
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
-    "highlights": [
-      "55\" NanoCell Ultra HD (4K) Ekran",
-      "webOS Akıllı TV İşletim Sistemi",
-      "Dolby Vision & Dolby Atmos Desteği",
-      "AI Sound Pro & Akıllı İşlemci"
-    ],
-    "tags": [
-      "LG",
-      "NanoCell",
-      "55 İnç",
-      "4K",
-      "Smart TV"
-    ],
-    "storeOffers": [
-      {
-        "id": "hb-lg-55-55nano846qa-55-inc",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "orange",
-        "price": 34067,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kargo Bedava"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 480,
-        "url": "https://hepsiburada.com"
-      },
-      {
-        "id": "vatan-lg-55-55nano846qa-55-inc",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "blue",
-        "price": 33999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 320,
-        "url": "https://vatanbilgisayar.com"
-      },
-      {
-        "id": "mediamarkt-lg-55-55nano846qa-55-inc",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "red",
-        "price": 34169,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Ücretsiz Kurulum"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 290,
-        "url": "https://mediamarkt.com.tr"
-      },
-      {
-        "id": "teknosa-lg-55-55nano846qa-55-inc",
-        "storeName": "Teknosa",
-        "storeLogoColor": "orange",
-        "price": 34339,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Stokta Var"
-        ],
-        "sellerRating": 4.6,
-        "sellerReviews": 180,
-        "url": "https://teknosa.com"
-      },
-      {
-        "id": "n11-lg-55-55nano846qa-55-inc",
-        "storeName": "n11",
-        "storeLogoColor": "purple",
-        "price": 33931,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Kupon Fırsatı"
-        ],
-        "sellerRating": 4.5,
-        "sellerReviews": 210,
-        "url": "https://n11.com"
-      },
-      {
-        "id": "trendyol-lg-55-55nano846qa-55-inc",
-        "storeName": "Trendyol",
-        "storeLogoColor": "orange",
-        "price": 33829,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 610,
-        "url": "https://trendyol.com"
-      },
-      {
-        "id": "amazon-lg-55-55nano846qa-55-inc",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "slate",
-        "price": 33659,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 850,
-        "url": "https://amazon.com.tr"
-      },
-      {
-        "id": "pazarama-lg-55-55nano846qa-55-inc",
-        "storeName": "Pazarama",
-        "storeLogoColor": "blue",
-        "price": 34101,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Bonus Fırsatı"
-        ],
-        "sellerRating": 4.5,
-        "sellerReviews": 140,
-        "url": "https://pazarama.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-02",
-        "price": 37059,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "2026-05",
-        "price": 35699,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "2026-08",
-        "price": 33999,
         "store": "Vatan Bilgisayar"
       }
     ],
@@ -38104,6 +37502,271 @@ export const mockTVs: TVProduct[] = [
         "date": "2026-08-01",
         "price": 31514.1,
         "store": "PTT AVM"
+      }
+    ]
+  },
+  {
+    "id": "lg-75qned70b6a",
+    "slug": "lg-75qned70b6a",
+    "name": "LG 75QNED70B6A 75\" 4K Ultra HD QNED MiniLED webOS 26 Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "/images/products/tvs/lg-75qned70b6a-1.jpg",
+    "images": [
+      "/images/products/tvs/lg-75qned70b6a-1.jpg",
+      "/images/products/tvs/lg-75qned70b6a-2.jpg",
+      "/images/products/tvs/lg-75qned70b6a-3.jpg",
+      "https://resim.epey.com/1058486/z_lg-75qned70b6a-7.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 18,
+    "basePrice": 60434.8,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Dev 75\" (189 cm) 4K Ultra HD Quantum Dot & NanoCell Mini LED Panel",
+      "Yeni Nesil α7 (Alpha7) Gen9 AI Processor 4K İşlemci",
+      "webOS 26 Akıllı Platform (5 Yıl Boyunca 4 Büyük Güncelleme Garantisi)",
+      "Dynamic Tone Mapping & HDR10 / HLG Gelişmiş Kontrast",
+      "60Hz VRR (Variable Refresh Rate) & ALLM Oyun Optimizasyonu",
+      "20W AI Sound Pro, Clear Voice Pro & apt-X Kodek Ses Sistemi",
+      "Google Cast / Chromecast, AirPlay 2, Google Home & Matter Uyumu",
+      "Wi-Fi 5, Bluetooth 5.3, 3x HDMI 2.0 (eARC) & Şık İkili V Ayak Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QNED Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG",
+        "Dynamic Tone Mapping"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "HGIG Mode",
+        "Game Optimizer"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 1,
+      "energyClass": "E",
+      "processorEngine": "α7 Gen9 AI Processor 4K",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "LG ThinQ AI & Magic Remote Uyumu",
+      "wifiVersion": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+      "bluetoothVersion": "Bluetooth 5.3",
+      "appleAirplay": true,
+      "dimensionsWithStand": "1669 x 1026 x 361 mm",
+      "weightKg": 22.5,
+      "bezelStyle": "Standart / İkili Stant V Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-75qned70b6a-n11",
+        "storeName": "n11",
+        "storeLogoColor": "#5c3ebc",
+        "price": 60434.8,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "galateknoloji",
+          "En Uygun Fiyat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 640,
+        "url": "https://www.n11.com/urun/lg-75qned70b6a-75-4k-ultra-hd-190-ekran-uydu-alicili-4k-ai-sihirli-kumanda-60hz-vrr-webos26-ai-qned-miniled-tv-134156403?magaza=galateknoloji"
+      },
+      {
+        "id": "offer-75qned70b6a-idefix",
+        "storeName": "Idefix",
+        "storeLogoColor": "#0055ff",
+        "price": 60443.08,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Teknomix"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://www.idefix.com/lg-75qned70b6a-4k-ultra-hd-75-190-ekran-uydu-alicili-webos-smart-qned-mini-led-tv-p-28049138?vendorId=14410"
+      },
+      {
+        "id": "offer-75qned70b6a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 62699.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Tuna DTM"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com/lg-75qned70b6a-75-inc-190-ekran-uydu-alicili-smart-4k-ai-sihirli-p-HBCV0000G0N4YV?magaza=Tuna+DTM"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-25",
+        "price": 65999,
+        "store": "n11"
+      },
+      {
+        "date": "2026-06-24",
+        "price": 63499,
+        "store": "n11"
+      },
+      {
+        "date": "2026-07-20",
+        "price": 61999,
+        "store": "n11"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 60434.8,
+        "store": "n11"
+      }
+    ]
+  },
+  {
+    "id": "lg-55nano846qa",
+    "slug": "lg-55nano846qa",
+    "name": "LG 55NANO846QA 55\" 4K Ultra HD NanoCell webOS Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "/images/products/tvs/lg-55nano846qa-1.jpg",
+    "images": [
+      "/images/products/tvs/lg-55nano846qa-1.jpg",
+      "/images/products/tvs/lg-55nano846qa-2.jpg",
+      "/images/products/tvs/lg-55nano846qa-3.jpg",
+      "https://resim.epey.com/1012393/z_lg-55nano846qa-8806096435687-1.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 34,
+    "basePrice": 26999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (139 cm) 4K Ultra HD Saf Renkler sunan NanoCell Ekran",
+      "α5 Gen5 AI Processor 4K ile Akıllı Görüntü ve Ses Ölçekleme",
+      "webOS 22 Akıllı Platform, Sihirli Kumanda Dahili & Sesli Komut",
+      "Active HDR, HDR10 Pro, HLG & Dynamic Tone Mapping",
+      "20W 2.0 Kanal AI Sound Pro (Virtual 5.1.2 Up-mix) Ses Deneyimi",
+      "Oyun Optimizasyonu, ALLM & HGiG Oyun Modu Desteği",
+      "Apple AirPlay 2, HomeKit & Dahili Wi-Fi / Bluetooth 5.0",
+      "Zarif Hilal (Yarım Ay) Merkez Stand Ayak Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "NanoCell LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 22",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Active HDR",
+        "HDR10 Pro",
+        "HLG",
+        "Dynamic Tone Mapping"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "HGIG Mode",
+        "Game Optimizer"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "α5 Gen5 AI Processor 4K",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "LG ThinQ AI & Sihirli Kumanda Dahili",
+      "wifiVersion": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": true,
+      "dimensionsWithStand": "1235 x 788 x 260 mm",
+      "weightKg": 16,
+      "bezelStyle": "Slim / Hilal (Yarım Ay) Merkez Stand"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-55nano846qa-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 26999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Yetkili Satıcı",
+          "En Uygun Fiyat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-55nano846qa-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 27499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1120,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-55nano846qa-mediamarkt",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 27999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Mağazadan Teslim",
+          "MediaMarkt Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2400,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-10",
+        "price": 29999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-15",
+        "price": 28499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-20",
+        "price": 27499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 26999,
+        "store": "Hepsiburada"
       }
     ]
   }
