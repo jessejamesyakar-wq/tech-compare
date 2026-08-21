@@ -163,68 +163,148 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-86ua85006la",
     "slug": "lg-86ua85006la",
-    "name": "LG 86UA85006LA 86\" 218 Ekran 4K UHD LED webOS Smart TV",
+    "name": "LG 86UA85006LA 86\" 4K Ultra HD Smart webOS TV (2025)",
     "brand": "LG",
     "category": "tvs",
     "isPopular": true,
-    "isFeatured": true,
-    "image": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80",
+    "isFeatured": false,
+    "image": "/images/products/tvs/lg-86ua85006la-1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-86ua85006la-1.jpg",
+      "/images/products/tvs/lg-86ua85006la-2.jpg",
+      "/images/products/tvs/lg-86ua85006la-3.jpg",
+      "https://resim.epey.com/1012229/z_lg-86ua85006la-1.jpg"
     ],
     "rating": 4.6,
-    "reviewCount": 190,
+    "reviewCount": 24,
     "basePrice": 84599.06,
     "currency": "TL",
-    "releaseYear": 2024,
+    "releaseYear": 2025,
     "highlights": [
-      "86 inç Dev Ekran",
-      "webOS 24",
-      "4K Ultra HD",
-      "20W Ses"
+      "Dev 86\" (218 cm) 4K Ultra HD (3840x2160) LED Ekran",
+      "α7 Gen8 AI Processor 4K & Dynamic Tone Mapping",
+      "HDR10 Pro & HLG Destekli Canlı ve Doğal Renkler",
+      "webOS 25 Akıllı Platform (5 Yıl Boyunca 4 Büyük Güncelleme Garantisi)",
+      "20W AI Sound Pro, AI Acoustic Tuning, Clear Voice Pro & apt-X Kodek",
+      "60Hz VRR, ALLM, HGIG Oyun Modu & Sihirli Kumanda Uyumu",
+      "Dahili Wi-Fi 5, Bluetooth 5.0, Apple AirPlay 2, Google Home & Matter Uyumu",
+      "Slim Çerçeveli Şık Tasarım & İkili Stant V Ayaklar"
     ],
     "specs": {
       "screenSizeInches": 86,
       "displayTech": "LED",
-      "resolution": "4K Ultra HD",
+      "resolution": "4K Ultra HD (3840x2160)",
       "refreshRateHz": 60,
-      "smartOs": "webOS",
+      "smartOs": "webOS 25",
       "audioPowerWatts": 20,
-      "hdrSupport": [
-        "HDR10 Pro",
+      "hdrFormats": [
+        "HDR10",
+        "HDR 10 Pro",
         "HLG"
       ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "HGIG Mode",
+        "Game Optimizer"
+      ],
       "hdmiPorts": 3,
-      "usbPorts": 2,
-      "energyClass": "F",
-      "processorEngine": "α5 AI Processor 4K Gen7"
+      "usbPorts": 1,
+      "energyClass": "G",
+      "processorEngine": "α7 Gen8 AI Processor 4K",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "LG ThinQ AI Sesli Komut & Magic Remote",
+      "wifiVersion": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": true,
+      "dimensionsWithStand": "1927 x 1164 x 362 mm",
+      "weightKg": 45.2,
+      "bezelStyle": "Slim / İkili Stant V Ayak"
     },
     "storeOffers": [
       {
-        "id": "vatan-lg-86ua8500",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#E30613",
+        "id": "offer-86ua85006la-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
         "price": 84599.06,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Dev Ekran"
+          "Ücretsiz Kargo",
+          "ymt ev aletleri",
+          "En Uygun Fiyat"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 900,
-        "url": "#"
+        "sellerReviews": 256,
+        "url": "https://www.hepsiburada.com/lg-86ua85006la-86-218-ekran-uydu-alicili-4k-ultra-hd-smart-webos-tv-p-HBCV0000AD6AA3?magaza=ymt+ev+aletleri"
+      },
+      {
+        "id": "offer-86ua85006la-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 85999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 940,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-86ua85006la-mediamarkt",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 87999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "id": "offer-86ua85006la-teknosa",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#ff6600",
+        "price": 88499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Teknosa Güvencesi",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1850,
+        "url": "https://www.teknosa.com"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-08-01",
+        "date": "2026-05-15",
         "price": 89999,
-        "store": "Vatan Bilgisayar"
+        "store": "Hepsiburada"
       },
       {
-        "date": "2026-08-20",
+        "date": "2026-06-20",
+        "price": 87499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-25",
+        "price": 85999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
         "price": 84599.06,
-        "store": "Vatan Bilgisayar"
+        "store": "Hepsiburada"
       }
     ]
   },
