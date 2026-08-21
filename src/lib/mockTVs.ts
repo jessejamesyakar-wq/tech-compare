@@ -24357,23 +24357,25 @@ export const mockTVs: TVProduct[] = [
     }
   },
   {
-    "id": "tv-lg-lg-48-oled48c54la-48-inc",
-    "name": "LG OLED48C54LA",
-    "slug": "lg-48-oled48c54la-48-inc",
+    "id": "lg-oled48c54la",
+    "name": "LG OLED48C54LA 48\" 4K Ultra HD OLED evo Smart TV (2025)",
+    "slug": "lg-oled48c54la",
     "brand": "LG",
     "category": "tvs",
-    "basePrice": 49999,
+    "basePrice": 62999,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
-    "rating": 4,
-    "reviewCount": 340,
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.9,
+    "reviewCount": 56,
+    "image": "/images/products/tvs/lg-oled48c54la-1.jpg",
     "highlights": [
-      "48\" OLED evo Ultra HD (4K) Ekran",
-      "webOS Akıllı TV İşletim Sistemi",
-      "Dolby Vision & Dolby Atmos Desteği",
-      "AI Sound Pro & Akıllı İşlemci"
+      "48\" 4K OLED evo Ekran & α9 (Alpha9) Gen8 AI Processor 4K",
+      "100/120/144 Hz Gerçek Yenileme Hızı & VRR / G-Sync / FreeSync Premium",
+      "Dolby Vision, HDR10, HLG & Perfect Color Mükemmel Siyahlar",
+      "webOS 25 Akıllı İşletim Sistemi (5 Yıl Boyunca 4 Güncelleme Garantili)",
+      "40W 2.2 Kanal Ses Sistemi & Dahili Subwoofer & Dolby Atmos",
+      "Wi-Fi 6, Bluetooth 5.3 & 4x HDMI 2.1 (4K @ 144Hz, eARC, QMS, ALLM)"
     ],
     "tags": [
       "LG",
@@ -24384,162 +24386,114 @@ export const mockTVs: TVProduct[] = [
     ],
     "storeOffers": [
       {
-        "id": "hb-lg-48-oled48c54la-48-inc",
+        "id": "offer-oled48c54la-1",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "#c40046",
+        "price": 62999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Resmi LG Garantili",
+          "2025 Seri"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "https://www.lg.com/tr"
+      },
+      {
+        "id": "offer-oled48c54la-2",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "orange",
-        "price": 50099,
+        "storeLogoColor": "#ff6000",
+        "price": 63799,
         "inStock": true,
-        "shippingDays": 1,
+        "shippingDays": 2,
         "badges": [
-          "Kargo Bedava"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 480,
-        "url": "https://hepsiburada.com"
-      },
-      {
-        "id": "vatan-lg-48-oled48c54la-48-inc",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "blue",
-        "price": 49999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı"
+          "Hızlı Teslimat",
+          "Peşin Fiyatına Taksit"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 320,
-        "url": "https://vatanbilgisayar.com"
+        "sellerReviews": 2450,
+        "url": "https://www.hepsiburada.com"
       },
       {
-        "id": "mediamarkt-lg-48-oled48c54la-48-inc",
+        "id": "offer-oled48c54la-3",
         "storeName": "MediaMarkt",
-        "storeLogoColor": "red",
-        "price": 50249,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Ücretsiz Kurulum"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 290,
-        "url": "https://mediamarkt.com.tr"
-      },
-      {
-        "id": "teknosa-lg-48-oled48c54la-48-inc",
-        "storeName": "Teknosa",
-        "storeLogoColor": "orange",
-        "price": 50499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Stokta Var"
-        ],
-        "sellerRating": 4.6,
-        "sellerReviews": 180,
-        "url": "https://teknosa.com"
-      },
-      {
-        "id": "n11-lg-48-oled48c54la-48-inc",
-        "storeName": "n11",
-        "storeLogoColor": "purple",
-        "price": 49899,
+        "storeLogoColor": "#df0000",
+        "price": 64999,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
-          "Kupon Fırsatı"
-        ],
-        "sellerRating": 4.5,
-        "sellerReviews": 210,
-        "url": "https://n11.com"
-      },
-      {
-        "id": "trendyol-lg-48-oled48c54la-48-inc",
-        "storeName": "Trendyol",
-        "storeLogoColor": "orange",
-        "price": 49749,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 610,
-        "url": "https://trendyol.com"
-      },
-      {
-        "id": "amazon-lg-48-oled48c54la-48-inc",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "slate",
-        "price": 49499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime Kargo"
+          "Mağazadan Teslim"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 850,
-        "url": "https://amazon.com.tr"
-      },
-      {
-        "id": "pazarama-lg-48-oled48c54la-48-inc",
-        "storeName": "Pazarama",
-        "storeLogoColor": "blue",
-        "price": 50149,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Bonus Fırsatı"
-        ],
-        "sellerRating": 4.5,
-        "sellerReviews": 140,
-        "url": "https://pazarama.com"
+        "sellerReviews": 3200,
+        "url": "https://www.mediamarkt.com.tr"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-02",
-        "price": 54499,
-        "store": "Vatan Bilgisayar"
+        "date": "2026-05-01",
+        "price": 65999,
+        "store": "LG Resmi Mağaza"
       },
       {
-        "date": "2026-05",
-        "price": 52499,
-        "store": "Vatan Bilgisayar"
+        "date": "2026-06-01",
+        "price": 64999,
+        "store": "LG Resmi Mağaza"
       },
       {
-        "date": "2026-08",
-        "price": 49999,
-        "store": "Vatan Bilgisayar"
+        "date": "2026-07-01",
+        "price": 63999,
+        "store": "LG Resmi Mağaza"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 62999,
+        "store": "LG Resmi Mağaza"
       }
     ],
     "specs": {
       "screenSizeInches": 48,
       "displayTech": "OLED evo",
-      "resolution": "Ultra HD (4K)",
-      "refreshRateHz": 120,
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
       "smartOs": "webOS 25",
       "audioPowerWatts": 40,
-      "hdrSupport": [
-        "Dolby Vision",
-        "HDR10 Pro",
-        "HLG"
-      ],
       "hdrFormats": [
         "Dolby Vision",
-        "HDR10 Pro",
+        "HDR10",
         "HLG"
       ],
       "gamingFeatures": [
-        "VRR",
+        "4K @ 144Hz VRR",
         "ALLM",
-        "Game Optimizer",
-        "120Hz"
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "HGIG Mode",
+        "Game Optimizer"
       ],
       "hdmiPorts": 4,
-      "usbPorts": 2,
-      "energyClass": "G"
-    }
+      "usbPorts": 3,
+      "energyClass": "G",
+      "processorEngine": "α9 Gen8 AI Processor 4K",
+      "audioChannels": "2.2 Kanal",
+      "dolbyAtmos": true,
+      "voiceControl": "LG ThinQ Sesli Kontrol & Akıllı Kumanda (Magic Remote)",
+      "wifiVersion": "Wi-Fi 6 (802.11 ax)",
+      "bluetoothVersion": "Bluetooth 5.3",
+      "appleAirplay": true,
+      "dimensionsWithStand": "1071 x 675 x 230 mm",
+      "weightKg": 16.8,
+      "bezelStyle": "Süper İnce Çerçeve & Kare Metal Ayak Stand"
+    },
+    "images": [
+      "/images/products/tvs/lg-oled48c54la-1.jpg",
+      "/images/products/tvs/lg-oled48c54la-2.jpg",
+      "/images/products/tvs/lg-oled48c54la-3.jpg",
+      "https://resim.epey.com/1036450/z_lg-oled48c54la-8806096601655-6.jpg"
+    ],
+    "isFeatured": true
   },
   {
     "id": "tv-lg-lg-65-oled65b56la-65-inc",
