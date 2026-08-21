@@ -229,74 +229,6 @@ export const mockTVs: TVProduct[] = [
     ]
   },
   {
-    "id": "lg-55sk8500pla",
-    "slug": "lg-55sk8500pla",
-    "name": "LG 55SK8500PLA 55\" 139 Ekran 4K Super UHD LED webOS Smart TV",
-    "brand": "LG",
-    "category": "tvs",
-    "isPopular": false,
-    "isFeatured": false,
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80"
-    ],
-    "rating": 4.5,
-    "reviewCount": 420,
-    "basePrice": 31514.1,
-    "currency": "TL",
-    "releaseYear": 2018,
-    "highlights": [
-      "55 inç Super UHD LED",
-      "40W Dolby Atmos Ses",
-      "α7 AI Processor",
-      "Nano Cell Teknolojisi"
-    ],
-    "specs": {
-      "screenSizeInches": 55,
-      "displayTech": "LED",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 120,
-      "smartOs": "webOS",
-      "audioPowerWatts": 40,
-      "hdrSupport": [
-        "Dolby Vision",
-        "HDR10"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 3,
-      "energyClass": "A",
-      "processorEngine": "α7 Intelligent Processor"
-    },
-    "storeOffers": [
-      {
-        "id": "vatan-lg-55sk8500",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#E30613",
-        "price": 31514.1,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Fırsat"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 2100,
-        "url": "#"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-08-01",
-        "price": 33999,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "2026-08-20",
-        "price": 31514.1,
-        "store": "Vatan Bilgisayar"
-      }
-    ]
-  },
-  {
     "id": "lg-75qned80a6a",
     "slug": "lg-75qned80a6a",
     "name": "LG 75QNED80A6A 75\" 189 Ekran 4K QNED webOS Smart TV",
@@ -38040,6 +37972,138 @@ export const mockTVs: TVProduct[] = [
         "date": "2026-08-01",
         "price": 84599.06,
         "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-55sk8500pla",
+    "slug": "lg-55sk8500pla",
+    "name": "LG 55SK8500PLA 55\" 100/120Hz 4K Ultra HD NanoCell Super UHD Smart TV",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "/images/products/tvs/lg-55sk8500pla-1.jpg",
+    "images": [
+      "/images/products/tvs/lg-55sk8500pla-1.jpg",
+      "/images/products/tvs/lg-55sk8500pla-2.jpg",
+      "/images/products/tvs/lg-55sk8500pla-3.jpg",
+      "https://resim.epey.com/110431/z_lg-55sk8500-10.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 56,
+    "basePrice": 31514.1,
+    "currency": "TL",
+    "releaseYear": 2018,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (139 cm) 4K Ultra HD Nano Cell Display & IPS Panel Teknolojisi",
+      "100/120 Hz Gerçek Yenileme Hızı (PMI 3400) ile Akıcı Görüntüler",
+      "Full Array Local Dimming (FALD) & Direct LED Aydınlatma",
+      "α7 (Alpha7) Intelligent Processor & 4K Cinema HDR",
+      "Dolby Vision, Advanced HDR by Technicolor, HDR10 & HLG",
+      "40W 2.2 Kanal Güçlü Ses Sistemi & Dahili Çift Subwoofer (2x 10W)",
+      "Dolby Atmos, DTS, ULTRA Surround & Magic Sound Tuning",
+      "webOS 4.0 Akıllı Platform, Sihirli Kumanda & Sesli Komut",
+      "Yay (C Tipi) Metalik Şık Ayak Standı & 4x HDMI, 3x USB Bağlantıları"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "NanoCell LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "webOS 4.0",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG",
+        "Advanced HDR by Technicolor"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "Real Cinema 24p"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "A+",
+      "processorEngine": "α7 (Alpha7) Intelligent Processor",
+      "audioChannels": "2.2 Kanal",
+      "dolbyAtmos": true,
+      "voiceControl": "LG ThinQ AI & Sihirli Kumanda (Magic Remote)",
+      "wifiVersion": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+      "bluetoothVersion": "Bluetooth 4.2",
+      "appleAirplay": false,
+      "dimensionsWithStand": "1232 x 778 x 248 mm",
+      "weightKg": 18.7,
+      "bezelStyle": "Slim / Yay (C Tipi) Stand Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-55sk8500pla-pttavm",
+        "storeName": "PTT AVM",
+        "storeLogoColor": "#ffcc00",
+        "price": 31514.1,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "RÜZGAR DAYANIKLI TÜKETİM",
+          "En Uygun Fiyat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 430,
+        "url": "https://www.pttavm.com/lg-55sk8500-55-140-cm-4k-uhd-webos-smart-tv-p-1295590870"
+      },
+      {
+        "id": "offer-55sk8500pla-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 32499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-55sk8500pla-n11",
+        "storeName": "n11",
+        "storeLogoColor": "#5c3ebc",
+        "price": 32890,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "n11 Güvencesi"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 760,
+        "url": "https://www.n11.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 34999,
+        "store": "PTT AVM"
+      },
+      {
+        "date": "2026-06-10",
+        "price": 33499,
+        "store": "PTT AVM"
+      },
+      {
+        "date": "2026-07-15",
+        "price": 32200,
+        "store": "PTT AVM"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 31514.1,
+        "store": "PTT AVM"
       }
     ]
   }
