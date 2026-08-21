@@ -639,68 +639,134 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-65qned816qa",
     "slug": "lg-65qned816qa",
-    "name": "LG 65QNED816QA 65\" 165 Ekran 4K QNED 120Hz webOS Smart TV",
+    "name": "LG 65QNED816QA 65\" 4K Ultra HD QNED Smart TV (2022)",
     "brand": "LG",
     "category": "tvs",
-    "isPopular": false,
+    "isPopular": true,
     "isFeatured": false,
-    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/products/tvs/lg-65qned816qa-1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-65qned816qa-1.jpg",
+      "/images/products/tvs/lg-65qned816qa-2.jpg",
+      "/images/products/tvs/lg-65qned816qa-3.jpg",
+      "https://resim.epey.com/776596/z_lg-65qned816qa-6.jpg"
     ],
     "rating": 4.5,
-    "reviewCount": 380,
+    "reviewCount": 38,
     "basePrice": 43929.1,
     "currency": "TL",
     "releaseYear": 2022,
     "highlights": [
-      "65 inç QNED Ekran",
-      "120Hz Yenileme Hızı",
-      "α7 AI Processor Gen5",
-      "20W Ses"
+      "65\" (164 cm) 4K Ultra HD Quantum Dot & NanoCell (QNED) Ekran",
+      "100/120 Hz Gerçek Panel Hızı (3840x2160p @ 120Hz Destekli)",
+      "α7 Gen5 AI Processor 4K & AI Picture Pro Görüntü Geliştirme",
+      "FreeSync Premium, VRR, ALLM & GeForce Now Bulut Oyun Desteği",
+      "Dolby Atmos Çözücü, 20W AI Sound & Clear Voice Pro",
+      "webOS 22 Akıllı Platform & Sihirli Kumanda (Magic Remote) Uyumu",
+      "Şık Ultra Slim Kasa ve Yay (C Tipi) Metal Orta Stant Ayak"
     ],
     "specs": {
       "screenSizeInches": 65,
-      "displayTech": "QLED",
-      "resolution": "4K Ultra HD",
+      "displayTech": "QNED",
+      "resolution": "4K Ultra HD (3840x2160)",
       "refreshRateHz": 120,
-      "smartOs": "webOS",
+      "smartOs": "webOS 22",
       "audioPowerWatts": 20,
-      "hdrSupport": [
-        "HDR10",
+      "hdrFormats": [
+        "HDR10 Pro",
+        "Active HDR",
         "HLG"
+      ],
+      "gamingFeatures": [
+        "4K @ 120Hz VRR",
+        "ALLM",
+        "FreeSync Premium",
+        "HGIG Mode",
+        "Game Optimizer",
+        "GeForce Now"
       ],
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G",
-      "processorEngine": "α7 AI Processor Gen5"
+      "processorEngine": "α7 Gen5 AI Processor 4K",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": true,
+      "voiceControl": "LG ThinQ Sesli Komut & Magic Remote",
+      "wifiVersion": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+      "bluetoothVersion": "Bluetooth 5.0 (BLE)",
+      "appleAirplay": true,
+      "dimensionsWithStand": "1452 x 911 x 336 mm",
+      "weightKg": 26.2,
+      "bezelStyle": "Ultra Slim / Yay (C Tipi) Orta Stant Ayak"
     },
     "storeOffers": [
       {
-        "id": "vatan-lg-65qned816",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#E30613",
+        "id": "offer-65qned816qa-pttavm",
+        "storeName": "PTT AVM",
+        "storeLogoColor": "#ffcc00",
         "price": 43929.1,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "RÜZGAR DAYANIKLI TÜKETİM",
+          "En Ucuz"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 890,
+        "url": "https://www.pttavm.com/lg-65qned816qa-4k-ultra-hd-65-165-ekran-uydu-alicili-webos-smart-qned-tv-p-1409753348"
+      },
+      {
+        "id": "offer-65qned816qa-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 44499,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "İndirim"
+          "Hızlı Kargo",
+          "Orijinal Ürün"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1800,
-        "url": "#"
+        "sellerReviews": 1250,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-65qned816qa-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 44890,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Yetkili Satıcı",
+          "Taksit Seçenekleri"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1840,
+        "url": "https://www.trendyol.com"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-08-01",
-        "price": 46999,
-        "store": "Vatan Bilgisayar"
+        "date": "2026-05-01",
+        "price": 47999,
+        "store": "PTT AVM"
       },
       {
-        "date": "2026-08-20",
+        "date": "2026-06-15",
+        "price": 45999,
+        "store": "PTT AVM"
+      },
+      {
+        "date": "2026-07-20",
+        "price": 44990,
+        "store": "PTT AVM"
+      },
+      {
+        "date": "2026-08-01",
         "price": 43929.1,
-        "store": "Vatan Bilgisayar"
+        "store": "PTT AVM"
       }
     ]
   },
