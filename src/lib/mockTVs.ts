@@ -42793,5 +42793,237 @@ export const mockTVs: TVProduct[] = [
         "store": "Vestel"
       }
     ]
+  },
+  {
+    "id": "vestel-32h8750",
+    "slug": "vestel-32h8750",
+    "name": "Vestel 32H8750 (20300384) 32\" HD LED TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-32h8750-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-32h8750-1.jpg",
+      "https://resim.epey.com/1025416/k_vestel-32h8750-8698902008839-1.jpg"
+    ],
+    "rating": 3.9,
+    "reviewCount": 7,
+    "basePrice": 9899,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "32\" (80 cm) HD Ready (1366x768) LED Ekran",
+      "Dahili HD Uydu Alıcısı (DVB-S2/T2)",
+      "8W Stereo Ses Çıkışı & Sade Kullanıcı Arayüzü",
+      "2x HDMI, 1x USB & Kompakt Boyut"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "HD Ready (1366x768)",
+      "refreshRateHz": 60,
+      "smartOs": "Yok",
+      "audioPowerWatts": 8,
+      "hdrFormats": [],
+      "gamingFeatures": [],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "E",
+      "processorEngine": "Vestel Standart Video Engine",
+      "brightnessNits": 260,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "75% NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Yok",
+      "wifiVersion": "Yok",
+      "bluetoothVersion": "Yok",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "728 x 475 x 180 mm",
+      "weightKg": 4.2,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-32h8750-vestel",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 9899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Vestel Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 450,
+        "url": "https://www.vestel.com.tr"
+      },
+      {
+        "id": "offer-vestel-32h8750-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 9999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-32h8750-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 10199,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 210,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 10999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 10499,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9899,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-24h8750",
+    "slug": "vestel-24h8750",
+    "name": "Vestel 24H8750 (20300385) 24\" HD LED TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-24h8750-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-24h8750-1.jpg",
+      "https://resim.epey.com/1019032/k_vestel-24h8750-1.jpg"
+    ],
+    "rating": 3.8,
+    "reviewCount": 5,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "24\" (60 cm) HD Ready (1366x768) LED Ekran",
+      "Dahili HD Karasal & Uydu Alıcısı (DVB-S2/T2)",
+      "5W Stereo Ses Çıkışı & USB Medya Oynatıcı",
+      "Mutfak, Karavan ve Küçük Alanlar İçin Kompakt"
+    ],
+    "specs": {
+      "screenSizeInches": 24,
+      "displayTech": "LED",
+      "resolution": "HD Ready (1366x768)",
+      "refreshRateHz": 60,
+      "smartOs": "Yok",
+      "audioPowerWatts": 5,
+      "hdrFormats": [],
+      "gamingFeatures": [],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "E",
+      "processorEngine": "Vestel Standart Video Engine",
+      "brightnessNits": 250,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "75% NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Yok",
+      "wifiVersion": "Yok",
+      "bluetoothVersion": "Yok",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "553 x 365 x 135 mm",
+      "weightKg": 3.1,
+      "vesaMount": "75x75 mm",
+      "bezelStyle": "Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-24h8750-vestel",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Vestel Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 280,
+        "url": "https://www.vestel.com.tr"
+      },
+      {
+        "id": "offer-vestel-24h8750-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 8199,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 190,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-24h8750-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 8299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 140,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 8999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 8499,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Vestel"
+      }
+    ]
   }
 ];
