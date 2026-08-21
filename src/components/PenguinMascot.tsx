@@ -1,30 +1,39 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 
 /**
  * TechKıyas Maskot — Penguen
  *
- * Mouse pozisyonuna göre tüm karakter hafifçe döner/eğilir (spring fizik).
- * Fare hareket etmediğinde karakter yavaşça "nefes alır" (idle animasyonu).
+ * Mouse pozisyonu SAYFANIN HERHANGİ BİR YERİNDE olsa da karakter
+ * ona göre hafifçe döner/eğilir (spring fizik). Fare hareket etmediğinde
+ * karakter yavaşça "nefes alır" (idle animasyonu).
+ *
+ * Kurulum:
+ *   npm install framer-motion
+ *
+ * Kullanım:
+ *   import PenguinMascot from "@/components/PenguinMascot";
+ *   <PenguinMascot />
+ *
+ * public/penguin-mascot.png dosyasını projenizin public klasörüne koyun.
  */
 
 const MAX_ROTATE = 14; // derece
 const MAX_TRANSLATE = 14; // px
 const MAX_LEAN = 8; // derece
+const IDLE_DELAY_MS = 2000; // fare bu kadar süre durursa idle animasyonu başlar
 
 export default function PenguinMascot() {
   const stageRef = useRef<HTMLDivElement>(null);
   const [hovering, setHovering] = useState(false);
   const [greeting, setGreeting] = useState("Merhaba! Ben TechKıyas asistanınım 👋");
 
-  // Ham hedef değerler (mouse konumuna göre -1..1 arası)
   const rawX = useMotionValue(0);
   const rawY = useMotionValue(0);
 
-  // Spring ile yumuşatılmış değerler (Framer Motion yay fiziği)
   const springConfig = { stiffness: 140, damping: 14, mass: 1 };
   const smoothX = useSpring(rawX, springConfig);
   const smoothY = useSpring(rawY, springConfig);
@@ -34,24 +43,73 @@ export default function PenguinMascot() {
   const translateX = useTransform(smoothX, [-1, 1], [-MAX_TRANSLATE, MAX_TRANSLATE]);
   const translateY = useTransform(smoothY, [-1, 1], [-MAX_TRANSLATE * 0.5, MAX_TRANSLATE * 0.5]);
   const lean = useTransform(smoothX, [-1, 1], [-MAX_LEAN * 0.4, MAX_LEAN * 0.4]);
-  const shadowScaleX = useTransform(smoothX, [-1, 1], [0.85, 0.85]);
   const shadowOpacity = useTransform(smoothX, (v) => 1 - Math.abs(v) * 0.4);
 
   const scale = useSpring(1, { stiffness: 180, damping: 18 });
 
-  function handleMouseMove(e: React.MouseEvent<HTMLDivElement>) {
-    const rect = stageRef.current?.getBoundingClientRect();
-    if (!rect) return;
+  // --- DÜZELTME: mousemove artık tüm pencereyi (window) dinliyor,
+  // sadece maskotun kendi kutusunu değil. Böylece fare sayfanın
+  // herhangi bir yerinde olsa da karakter tepki verir. ---
+  useEffect(() => {
+    let idleTimer: ReturnType<typeof setTimeout>;
+    let idleRAF: number;
+    let idleAngle = 0;
+    let isIdle = false;
 
-    const cx = rect.left + rect.width / 2;
-    const cy = rect.top + rect.height * 0.4;
+    function stopIdle() {
+      isIdle = false;
+      cancelAnimationFrame(idleRAF);
+    }
 
-    const dx = (e.clientX - cx) / (window.innerWidth / 2);
-    const dy = (e.clientY - cy) / (window.innerHeight / 2);
+    function startIdleLoop() {
+      isIdle = true;
+      const loop = () => {
+        if (!isIdle) return;
+        idleAngle += 0.045;
+        rawX.set(Math.sin(idleAngle) * 0.35);
+        rawY.set(Math.cos(idleAngle * 0.6) * 0.18);
+        idleRAF = requestAnimationFrame(loop);
+      };
+      loop();
+    }
 
-    rawX.set(Math.max(-1, Math.min(1, dx)));
-    rawY.set(Math.max(-1, Math.min(1, dy)));
-  }
+    function handleMouseMove(e: MouseEvent) {
+      stopIdle();
+      clearTimeout(idleTimer);
+
+      const rect = stageRef.current?.getBoundingClientRect();
+      if (!rect) return;
+
+      const cx = rect.left + rect.width / 2;
+      const cy = rect.top + rect.height * 0.4;
+
+      const dx = (e.clientX - cx) / (window.innerWidth / 2);
+      const dy = (e.clientY - cy) / (window.innerHeight / 2);
+
+      rawX.set(Math.max(-1, Math.min(1, dx)));
+      rawY.set(Math.max(-1, Math.min(1, dy)));
+
+      idleTimer = setTimeout(startIdleLoop, IDLE_DELAY_MS);
+    }
+
+    function handleTouchMove(e: TouchEvent) {
+      const touch = e.touches[0];
+      if (!touch) return;
+      handleMouseMove({ clientX: touch.clientX, clientY: touch.clientY } as MouseEvent);
+    }
+
+    window.addEventListener("mousemove", handleMouseMove);
+    window.addEventListener("touchmove", handleTouchMove, { passive: true });
+    idleTimer = setTimeout(startIdleLoop, IDLE_DELAY_MS);
+
+    return () => {
+      window.removeEventListener("mousemove", handleMouseMove);
+      window.removeEventListener("touchmove", handleTouchMove);
+      clearTimeout(idleTimer);
+      stopIdle();
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   function handleEnter() {
     setHovering(true);
@@ -61,8 +119,6 @@ export default function PenguinMascot() {
   function handleLeave() {
     setHovering(false);
     scale.set(1);
-    rawX.set(0);
-    rawY.set(0);
   }
 
   function handleClick() {
@@ -72,16 +128,13 @@ export default function PenguinMascot() {
   }
 
   return (
-    <div
-      className="relative flex flex-col items-center gap-4 select-none"
-      onMouseMove={handleMouseMove}
-      onMouseEnter={handleEnter}
-      onMouseLeave={handleLeave}
-    >
+    <div className="relative flex flex-col items-center gap-4 select-none">
       <div
         ref={stageRef}
+        onMouseEnter={handleEnter}
+        onMouseLeave={handleLeave}
         onClick={handleClick}
-        className="relative w-[180px] sm:w-[220px] md:w-[260px] cursor-pointer group"
+        className="relative w-[180px] sm:w-[220px] md:w-[260px] cursor-pointer"
         style={{ perspective: 1200 }}
       >
         {/* Gölge */}
@@ -90,7 +143,6 @@ export default function PenguinMascot() {
           style={{
             background:
               "radial-gradient(ellipse at center, rgba(15,23,42,0.24) 0%, rgba(15,23,42,0) 72%)",
-            scaleX: shadowScaleX,
             opacity: shadowOpacity,
           }}
         />
@@ -106,7 +158,7 @@ export default function PenguinMascot() {
             scale,
             transformStyle: "preserve-3d",
           }}
-          className="relative z-10 drop-shadow-[0_16px_24px_rgba(15,23,42,0.18)]"
+          className="relative z-10 drop-shadow-[0_16px_22px_rgba(15,23,42,0.14)]"
         >
           <Image
             src="/penguin-mascot.png"
@@ -115,7 +167,7 @@ export default function PenguinMascot() {
             height={1219}
             priority
             draggable={false}
-            className="w-full h-auto drop-shadow-md"
+            className="w-full h-auto"
           />
         </motion.div>
       </div>
@@ -129,13 +181,13 @@ export default function PenguinMascot() {
             : { opacity: 0, y: 8, scale: 0.96 }
         }
         transition={{ type: "spring", stiffness: 260, damping: 20 }}
-        className="rounded-full border border-emerald-500/30 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md px-4 py-2 text-xs sm:text-sm font-semibold text-slate-800 dark:text-slate-100 shadow-lg shadow-emerald-500/10 transition-all pointer-events-none"
+        className="rounded-full border border-emerald-500/30 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md px-4 py-2 text-xs sm:text-sm font-semibold text-slate-900 dark:text-slate-100 shadow-md transition-all pointer-events-none"
       >
         {greeting}
       </motion.div>
 
       <p className="text-[11px] tracking-wide text-slate-400 dark:text-slate-500 font-medium">
-        Fareni gezdirerek maskotla etkileşime geçebilirsin ✨
+        Fareni ekranda gezdir — karakter seni takip edecek ✨
       </p>
     </div>
   );
