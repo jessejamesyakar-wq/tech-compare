@@ -37763,5 +37763,2075 @@ export const mockTVs: TVProduct[] = [
         "store": "Idefix"
       }
     ]
+  },
+  {
+    "id": "vestel-75ug9750",
+    "slug": "vestel-75ug9750",
+    "name": "Vestel 75UG9750 75\" 4K Ultra HD Android Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-75ug9750-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-75ug9750-1.jpg",
+      "https://resim.epey.com/1016960/k_vestel-75ug9750-1.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 18,
+    "basePrice": 56999.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Dev 75\" (190 cm) 4K Ultra HD Direct LED Ekran",
+      "Android TV & Google Play Store ile Binlerce Uygulama",
+      "24W Güçlü Ses Çıkışı, Dolby Audio & DTS Virtual:X",
+      "HDR10, Dolby Vision & MEMC Akıcı Hareket Desteği",
+      "Dahili Wi-Fi, Bluetooth 5.0 & Dahili HD Uydu Alıcı (DVB-S2)"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 24,
+      "hdrFormats": [
+        "HDR10",
+        "Dolby Vision",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "Game Mode"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "4 Çekirdekli Akıllı İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "Google Asistan & Sesli Komut",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": false,
+      "dimensionsWithStand": "1675 x 1030 x 340 mm",
+      "weightKg": 28.5,
+      "bezelStyle": "Siyah / İkili Stant V Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-75ug9750-vestel",
+        "storeName": "Vestel Yetkili Satıcı",
+        "storeLogoColor": "#df0000",
+        "price": 56999.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum",
+          "Vestel Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1240,
+        "url": "https://www.vestel.com.tr"
+      },
+      {
+        "id": "offer-75ug9750-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 57499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 61999,
+        "store": "Vestel"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 58999,
+        "store": "Vestel"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 56999.05,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-55qg9950",
+    "slug": "vestel-55qg9950",
+    "name": "Vestel 55QG9950 55\" 4K Ultra HD QLED Android Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-55qg9950-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-55qg9950-1.jpg",
+      "https://resim.epey.com/1017500/k_vestel-55qg9950-8698902008969-1.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 24,
+    "basePrice": 51300,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (140 cm) Quantum Dot QLED Canlı Renk Teknolojisi",
+      "Android TV 11 & Google Play Store",
+      "Dolby Vision HDR & HDR10+ Geniş Dinamik Aralık",
+      "20W Ses Çıkışı, Dolby Atmos & DTS Virtual:X",
+      "3x HDMI, 2x USB, Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HDR10+",
+        "Dolby Vision",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "Game Mode"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "4 Çekirdekli QLED İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": false,
+      "dimensionsWithStand": "1233 x 769 x 245 mm",
+      "weightKg": 14.8,
+      "bezelStyle": "Siyah Metalik / Orta Döner Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-55qg9950-vestel",
+        "storeName": "Vestel",
+        "storeLogoColor": "#df0000",
+        "price": 51300,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kurulum",
+          "Vestel Türkiye"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2100,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 54999,
+        "store": "Vestel"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 51300,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-65ug9750",
+    "slug": "vestel-65ug9750",
+    "name": "Vestel 65UG9750 65\" 4K Ultra HD Android Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-65ug9750-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-65ug9750-1.jpg",
+      "https://resim.epey.com/1014137/k_vestel-65ug9750-8698902009089-1.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 31,
+    "basePrice": 31692.63,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (165 cm) 4K Ultra HD Geniş Ekran",
+      "Android TV Deneyimi & Dahili Chromecast",
+      "24W Hoparlör Gücü, Dolby Audio & DTS-HD",
+      "Dolby Vision & HDR10 Görüntü Kalitesi",
+      "3x HDMI, 2x USB, Dahili Wi-Fi & HD Uydu Alıcı"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 24,
+      "hdrFormats": [
+        "HDR10",
+        "Dolby Vision",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "Game Mode"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "4 Çekirdekli Akıllı İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": false,
+      "dimensionsWithStand": "1453 x 892 x 275 mm",
+      "weightKg": 19.5,
+      "bezelStyle": "Siyah / İkili Stant Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-65ug9750-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 31692.63,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "En Uygun Fiyat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1890,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-65ug9750-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 32499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 31692.63,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "vestel-75uv9750",
+    "slug": "vestel-75uv9750",
+    "name": "Vestel 75UV9750 75\" 4K Ultra HD TiVo Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-75uv9750-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-75uv9750-1.jpg",
+      "https://resim.epey.com/1016992/k_vestel-75uv9750-8698902009140-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 14,
+    "basePrice": 44203.5,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Dev 75\" 4K Ultra HD Ekran ile Sinema Keyfi",
+      "Yeni Nesil TiVo OS Akıllı Televizyon Platformu",
+      "24W Stereo Ses Sistemi, Dolby Audio",
+      "HDR10 & Dolby Vision Canlı Renkler",
+      "Sesli Arama & Kişiselleştirilmiş İçerik Önerileri"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo OS",
+      "audioPowerWatts": 24,
+      "hdrFormats": [
+        "HDR10",
+        "Dolby Vision",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "4 Çekirdekli TiVo İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "TiVo Voice",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": false,
+      "dimensionsWithStand": "1675 x 1030 x 340 mm",
+      "weightKg": 28.2,
+      "bezelStyle": "Siyah Çerçeve / İkili Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-75uv9750-vestel",
+        "storeName": "Vestel",
+        "storeLogoColor": "#df0000",
+        "price": 44203.5,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Montaj"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 950,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 47999,
+        "store": "Vestel"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 44203.5,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-65qt9850",
+    "slug": "vestel-65qt9850",
+    "name": "Vestel 65QT9850 65\" 4K Ultra HD QLED TiVo Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-65qt9850-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-65qt9850-1.jpg",
+      "https://resim.epey.com/1014136/k_vestel-65qt9850-8698902009072-1.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 22,
+    "basePrice": 38637.24,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "65\" Quantum Dot QLED Panel ile 1 Milyar Renk",
+      "TiVo Akıllı Arayüz & Kişisel Tavsiye Motoru",
+      "24W Dolby Atmos & DTS Virtual:X Ses",
+      "Dolby Vision, HDR10+ ve MEMC Desteği",
+      "Şık Metalik Tasarım & İnce Çerçeve"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo OS",
+      "audioPowerWatts": 24,
+      "hdrFormats": [
+        "HDR10",
+        "HDR10+",
+        "Dolby Vision",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "Game Mode"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "4 Çekirdekli QLED İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": true,
+      "voiceControl": "TiVo Voice",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": false,
+      "dimensionsWithStand": "1453 x 895 x 280 mm",
+      "weightKg": 19.8,
+      "bezelStyle": "Koyu Gri Metal / İkili Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-65qt9850-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 38637.24,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "En İyi Fiyat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-65qt9850-pazarama",
+        "storeName": "Pazarama",
+        "storeLogoColor": "#00b4d8",
+        "price": 39100,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 320,
+        "url": "https://www.pazarama.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 42999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 38637.24,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "vestel-55ug9750",
+    "slug": "vestel-55ug9750",
+    "name": "Vestel 55UG9750 55\" 4K Ultra HD Android Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-55ug9750-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-55ug9750-1.jpg",
+      "https://resim.epey.com/1014140/k_vestel-55ug9750-8698902008983-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 29,
+    "basePrice": 32009.03,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (140 cm) 4K Ultra HD LED Ekran",
+      "Android TV İşletim Sistemi & Dahili Chromecast",
+      "20W Dolby Audio Ses Sistemi",
+      "Dolby Vision & HDR10 Görüntü İyileştirme",
+      "3x HDMI, 2x USB, Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "Dolby Vision",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "Game Mode"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "4 Çekirdekli Akıllı İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": false,
+      "dimensionsWithStand": "1233 x 769 x 245 mm",
+      "weightKg": 14.5,
+      "bezelStyle": "Siyah / İkili Stant V Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-55ug9750-vestel",
+        "storeName": "Vestel",
+        "storeLogoColor": "#df0000",
+        "price": 32009.03,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Montaj"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2400,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 34999,
+        "store": "Vestel"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 32009.03,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-65ut9850",
+    "slug": "vestel-65ut9850",
+    "name": "Vestel 65UT9850 65\" 4K Ultra HD TiVo Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-65ut9850-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-65ut9850-1.jpg",
+      "https://resim.epey.com/1014138/k_vestel-65ut9850-8698902009102-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 16,
+    "basePrice": 40479.08,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "65\" 4K Ultra HD Net Görüntü Performansı",
+      "TiVo Akıllı TV Platformu & Sesli Kontrol",
+      "24W Hoparlör & Dolby Audio Ses",
+      "HDR10 & Dolby Vision Desteği",
+      "Geniş Bağlantı Seçenekleri (3x HDMI, 2x USB)"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo OS",
+      "audioPowerWatts": 24,
+      "hdrFormats": [
+        "HDR10",
+        "Dolby Vision",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "TiVo Voice",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": false,
+      "dimensionsWithStand": "1453 x 892 x 275 mm",
+      "weightKg": 19.4,
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-65ut9850-vestel",
+        "storeName": "Vestel",
+        "storeLogoColor": "#df0000",
+        "price": 40479.08,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Montaj"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 43999,
+        "store": "Vestel"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 40479.08,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-65uv9750",
+    "slug": "vestel-65uv9750",
+    "name": "Vestel 65UV9750 65\" 4K Ultra HD TiVo Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-65uv9750-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-65uv9750-1.jpg",
+      "https://resim.epey.com/1013145/k_vestel-65uv9750-8698902009119-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 20,
+    "basePrice": 32130,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "65\" 4K Ultra HD LED Ekran",
+      "TiVo Akıllı İşletim Sistemi & Hızlı Uygulama Erişimi",
+      "24W Hoparlör, Dolby Audio & DTS-HD",
+      "HDR10 & Dolby Vision Görüntü",
+      "Dahili Wi-Fi, Bluetooth & Uydu Alıcı"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo OS",
+      "audioPowerWatts": 24,
+      "hdrFormats": [
+        "HDR10",
+        "Dolby Vision",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "4 Çekirdekli TiVo İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "TiVo Voice",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": false,
+      "dimensionsWithStand": "1453 x 892 x 275 mm",
+      "weightKg": 19.3,
+      "bezelStyle": "Siyah / İkili Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-65uv9750-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 32130,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1100,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 32130,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "vestel-65ut9760",
+    "slug": "vestel-65ut9760",
+    "name": "Vestel 65UT9760 65\" 4K Ultra HD TiVo Smart TV (2026)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-65ut9760-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-65ut9760-1.jpg",
+      "https://resim.epey.com/1061918/k_vestel-65ut9760-1.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 12,
+    "basePrice": 47195.08,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2026 Yeni Seri 65\" 4K Ultra HD LED Panel",
+      "Geliştirilmiş TiVo OS Akıllı Platform",
+      "20W Dolby Audio Ses Çıkışı",
+      "HDR10, Dolby Vision & Gelişmiş Renk Doğruluğu",
+      "Yeni Nesil İnce Çerçeveli Modern Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "Dolby Vision",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "Game Mode"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "2026 4 Çekirdekli TiVo Motoru",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "TiVo Voice",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": false,
+      "dimensionsWithStand": "1453 x 895 x 270 mm",
+      "weightKg": 19,
+      "bezelStyle": "Siyah / Modern İkili Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-65ut9760-vestel",
+        "storeName": "Vestel",
+        "storeLogoColor": "#df0000",
+        "price": 47195.08,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Montaj",
+          "2026 Yeni Seri"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 620,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 49999,
+        "store": "Vestel"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 47195.08,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-55qt9850",
+    "slug": "vestel-55qt9850",
+    "name": "Vestel 55QT9850 55\" 4K Ultra HD QLED TiVo Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-55qt9850-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-55qt9850-1.jpg",
+      "https://resim.epey.com/1014139/k_vestel-55qt9850-8698902008976-1.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 35,
+    "basePrice": 29210.92,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (140 cm) Quantum Dot QLED Canlı Ekran",
+      "TiVo Akıllı Platform & Geniş Uygulama Desteği",
+      "20W Dolby Atmos & DTS Virtual:X",
+      "Dolby Vision, HDR10+ ve MEMC Akıcı Görüntü",
+      "Fiyat/Performans Odaklı Premium QLED Deneyimi"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HDR10+",
+        "Dolby Vision",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "Game Mode"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "4 Çekirdekli QLED İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": true,
+      "voiceControl": "TiVo Voice",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": false,
+      "dimensionsWithStand": "1233 x 769 x 245 mm",
+      "weightKg": 14.6,
+      "bezelStyle": "Koyu Gri Metal Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-55qt9850-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 29210.92,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "En Popüler QLED"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2450,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-55qt9850-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 29899,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 32999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 29210.92,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "vestel-50ug9750",
+    "slug": "vestel-50ug9750",
+    "name": "Vestel 50UG9750 50\" 4K Ultra HD Android Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-50ug9750-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-50ug9750-1.jpg",
+      "https://resim.epey.com/1016953/k_vestel-50ug9750-4.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 22,
+    "basePrice": 21886.8,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "50\" (127 cm) 4K Ultra HD LED Panel",
+      "Android TV & Google Asistan Sesli Kontrol",
+      "20W Dolby Audio Ses Çıkışı",
+      "Dolby Vision & HDR10 Görüntü",
+      "Dahili Wi-Fi & Bluetooth 5.0"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "Dolby Vision",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "4 Çekirdekli Akıllı İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": false,
+      "dimensionsWithStand": "1120 x 705 x 235 mm",
+      "weightKg": 11.8,
+      "bezelStyle": "Siyah / İkili Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-50ug9750-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 21886.8,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "En Uygun Fiyat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 23999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21886.8,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "vestel-50qt9850",
+    "slug": "vestel-50qt9850",
+    "name": "Vestel 50QT9850 50\" 4K Ultra HD QLED TiVo Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-50qt9850-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-50qt9850-1.jpg",
+      "https://resim.epey.com/1016999/k_vestel-50qt9850-8698902008907-1.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 15,
+    "basePrice": 31350,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "50\" Quantum Dot QLED Canlı Panel Teknolojisi",
+      "TiVo Akıllı Arayüz & İçerik Keşfi",
+      "20W Dolby Atmos Ses & DTS Virtual:X",
+      "Dolby Vision & HDR10+ Desteği",
+      "İnce ve Zarif Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HDR10+",
+        "Dolby Vision",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "4 Çekirdekli QLED İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": true,
+      "voiceControl": "TiVo Voice",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": false,
+      "dimensionsWithStand": "1120 x 705 x 235 mm",
+      "weightKg": 12,
+      "bezelStyle": "Koyu Gri Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-50qt9850-vestel",
+        "storeName": "Vestel",
+        "storeLogoColor": "#df0000",
+        "price": 31350,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Montaj"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 760,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 33999,
+        "store": "Vestel"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 31350,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-58ut9850",
+    "slug": "vestel-58ut9850",
+    "name": "Vestel 58UT9850 58\" 4K Ultra HD TiVo Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-58ut9850-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-58ut9850-1.jpg",
+      "https://resim.epey.com/1016998/k_vestel-58ut9850-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 19,
+    "basePrice": 36799.08,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "58\" (146 cm) İdeal Ara Boyut 4K Ultra HD LED Panel",
+      "TiVo Akıllı Platform ile Rahat Kullanım",
+      "20W Dolby Audio Ses Çıkışı",
+      "Dolby Vision & HDR10 Görüntü",
+      "Dahili Uydu Alıcı, Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 58,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "Dolby Vision",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "TiVo Voice",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": false,
+      "dimensionsWithStand": "1298 x 805 x 250 mm",
+      "weightKg": 16.2,
+      "bezelStyle": "Siyah / İkili Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-58ut9850-vestel",
+        "storeName": "Vestel",
+        "storeLogoColor": "#df0000",
+        "price": 36799.08,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Montaj"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 810,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 39999,
+        "store": "Vestel"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 36799.08,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-55ut9760",
+    "slug": "vestel-55ut9760",
+    "name": "Vestel 55UT9760 55\" 4K Ultra HD TiVo Smart TV (2026)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-55ut9760-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-55ut9760-1.jpg",
+      "https://resim.epey.com/1061666/k_vestel-55ut9760-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 14,
+    "basePrice": 24749,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2026 Model 55\" 4K Ultra HD LED Panel",
+      "TiVo OS Akıllı Televizyon Deneyimi",
+      "20W Dolby Audio Ses Çıkışı",
+      "Dolby Vision & HDR10 Desteği",
+      "3x HDMI, 2x USB, Wi-Fi & Bluetooth 5.0"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "Dolby Vision",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "Game Mode"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "2026 TiVo İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "TiVo Voice",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": false,
+      "dimensionsWithStand": "1233 x 769 x 245 mm",
+      "weightKg": 14.3,
+      "bezelStyle": "Siyah / İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-55ut9760-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 24749,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "2026 Yeni"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 920,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 26999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 24749,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "vestel-55uv9750",
+    "slug": "vestel-55uv9750",
+    "name": "Vestel 55UV9750 55\" 4K Ultra HD TiVo Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-55uv9750-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-55uv9750-1.jpg",
+      "https://resim.epey.com/1013146/k_vestel-55uv9750-8698902009010-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 20,
+    "basePrice": 25765.52,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "55\" 4K Ultra HD Net LED Ekran",
+      "TiVo Akıllı Arayüz & Kişisel Tavsiyeler",
+      "20W Stereo Ses, Dolby Audio",
+      "HDR10 & Dolby Vision Görüntü",
+      "Dahili Uydu Alıcı & Zengin Girişler"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "Dolby Vision",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "TiVo Voice",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": false,
+      "dimensionsWithStand": "1233 x 769 x 245 mm",
+      "weightKg": 14.2,
+      "bezelStyle": "Siyah / İkili Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-55uv9750-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 25765.52,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1050,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 27999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 25765.52,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "vestel-43ug9750",
+    "slug": "vestel-43ug9750",
+    "name": "Vestel 43UG9750 43\" 4K Ultra HD Android Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-43ug9750-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-43ug9750-1.jpg",
+      "https://resim.epey.com/1014144/k_vestel-43ug9750-8698902008884-1.jpg"
+    ],
+    "rating": 4.4,
+    "reviewCount": 18,
+    "basePrice": 24749,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "43\" (108 cm) Kompakt 4K Ultra HD LED Ekran",
+      "Android TV Platformu & Google Asistan",
+      "20W Dolby Audio Ses Sistemi",
+      "Dolby Vision & HDR10 Desteği",
+      "Dahili Chromecast & HD Uydu Alıcı"
+    ],
+    "specs": {
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "Dolby Vision",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "4 Çekirdekli Akıllı İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": false,
+      "dimensionsWithStand": "965 x 610 x 220 mm",
+      "weightKg": 8.9,
+      "bezelStyle": "Siyah / İkili Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-43ug9750-vestel",
+        "storeName": "Vestel",
+        "storeLogoColor": "#df0000",
+        "price": 24749,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Montaj"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1300,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 26999,
+        "store": "Vestel"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 24749,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-50ut9760",
+    "slug": "vestel-50ut9760",
+    "name": "Vestel 50UT9760 50\" 4K Ultra HD TiVo Smart TV (2026)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-50ut9760-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-50ut9760-1.jpg",
+      "https://resim.epey.com/1061928/k_vestel-50ut9760-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 11,
+    "basePrice": 21754.05,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2026 Model 50\" 4K Ultra HD LED Panel",
+      "TiVo Akıllı Televizyon Deneyimi",
+      "20W Dolby Audio Ses Çıkışı",
+      "HDR10 & Dolby Vision Görüntü",
+      "İnce Çerçeveli Şık Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "Dolby Vision",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "2026 TiVo İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "TiVo Voice",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": false,
+      "dimensionsWithStand": "1120 x 705 x 235 mm",
+      "weightKg": 11.6,
+      "bezelStyle": "Siyah / Modern İkili Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-50ut9760-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 21754.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "2026 Yeni"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 640,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 23999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21754.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "vestel-50ut9850",
+    "slug": "vestel-50ut9850",
+    "name": "Vestel 50UT9850 50\" 4K Ultra HD TiVo Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-50ut9850-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-50ut9850-1.jpg",
+      "https://resim.epey.com/1017001/k_vestel-50ut9850-8698902008921-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 17,
+    "basePrice": 24700,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "50\" 4K Ultra HD Net Görüntü Kalitesi",
+      "TiVo Akıllı OS & Kolay İçerik Arama",
+      "20W Dolby Audio Ses",
+      "Dolby Vision & HDR10",
+      "Dahili HD Uydu Alıcı & Wi-Fi"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "Dolby Vision",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "TiVo Voice",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": false,
+      "dimensionsWithStand": "1120 x 705 x 235 mm",
+      "weightKg": 11.7,
+      "bezelStyle": "Siyah / İkili Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-50ut9850-vestel",
+        "storeName": "Vestel",
+        "storeLogoColor": "#df0000",
+        "price": 24700,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Montaj"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 26999,
+        "store": "Vestel"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 24700,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-50uv9750",
+    "slug": "vestel-50uv9750",
+    "name": "Vestel 50UV9750 50\" 4K Ultra HD TiVo Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-50uv9750-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-50uv9750-1.jpg",
+      "https://resim.epey.com/1013151/k_vestel-50uv9750-8698902008938-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 19,
+    "basePrice": 22794.03,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "50\" 4K Ultra HD LED Ekran",
+      "TiVo OS Akıllı Televizyon Platformu",
+      "20W Stereo Ses & Dolby Audio",
+      "HDR10 & Dolby Vision Görüntü İyileştirme",
+      "3x HDMI, 2x USB, Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "Dolby Vision",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "TiVo Voice",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": false,
+      "dimensionsWithStand": "1120 x 705 x 235 mm",
+      "weightKg": 11.5,
+      "bezelStyle": "Siyah / İkili Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-50uv9750-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 22794.03,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 970,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 24999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 22794.03,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "vestel-43uv9750",
+    "slug": "vestel-43uv9750",
+    "name": "Vestel 43UV9750 43\" 4K Ultra HD TiVo Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-43uv9750-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-43uv9750-1.jpg",
+      "https://resim.epey.com/1013153/k_vestel-43uv9750-1.jpg"
+    ],
+    "rating": 4.4,
+    "reviewCount": 16,
+    "basePrice": 22539.08,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "43\" (108 cm) 4K Ultra HD Net Ekran",
+      "TiVo Akıllı İşletim Sistemi",
+      "20W Dolby Audio Ses Çıkışı",
+      "HDR10 & Dolby Vision Görüntü",
+      "Dahili Wi-Fi & HD Uydu Alıcı"
+    ],
+    "specs": {
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "Dolby Vision",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "TiVo Voice",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": false,
+      "dimensionsWithStand": "965 x 610 x 220 mm",
+      "weightKg": 8.8,
+      "bezelStyle": "Siyah / İkili Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-43uv9750-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 22539.08,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 810,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 24500,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 22539.08,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "vestel-43ut9760",
+    "slug": "vestel-43ut9760",
+    "name": "Vestel 43UT9760 43\" 4K Ultra HD TiVo Smart TV (2026)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-43ut9760-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-43ut9760-1.jpg",
+      "https://resim.epey.com/1061930/k_vestel-43ut9760-4.jpg"
+    ],
+    "rating": 4.4,
+    "reviewCount": 9,
+    "basePrice": 25849,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2026 Seri 43\" 4K Ultra HD LED Panel",
+      "TiVo Akıllı Platform Deneyimi",
+      "16W Dolby Audio Ses Çıkışı",
+      "HDR10 & Dolby Vision Desteği",
+      "Modern İnce Çerçeveli Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo OS",
+      "audioPowerWatts": 16,
+      "hdrFormats": [
+        "HDR10",
+        "Dolby Vision",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "2026 TiVo İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "TiVo Voice",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": false,
+      "dimensionsWithStand": "965 x 610 x 220 mm",
+      "weightKg": 8.7,
+      "bezelStyle": "Siyah / İkili Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-43ut9760-vestel",
+        "storeName": "Vestel",
+        "storeLogoColor": "#df0000",
+        "price": 25849,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Montaj",
+          "2026 Yeni"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 530,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 27999,
+        "store": "Vestel"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 25849,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-43ft9751",
+    "slug": "vestel-43ft9751",
+    "name": "Vestel 43FT9751 43\" Full HD TiVo Smart TV (2026)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-43ft9751-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-43ft9751-1.jpg",
+      "https://resim.epey.com/1064988/k_vestel-43ft9751-7.jpg"
+    ],
+    "rating": 4.3,
+    "reviewCount": 11,
+    "basePrice": 18524.05,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "43\" (108 cm) Full HD (1920x1080) Net Ekran",
+      "TiVo Akıllı Platform & Netflix, YouTube, Prime",
+      "16W Dolby Audio Ses Çıkışı",
+      "Dahili Wi-Fi & HD Uydu Alıcı (DVB-S2)",
+      "Ekonomik ve Akıllı TV Çözümü"
+    ],
+    "specs": {
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo OS",
+      "audioPowerWatts": 16,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Game Mode"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "E",
+      "processorEngine": "2026 Çift Çekirdekli İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "TiVo Voice",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Bluetooth 5.0",
+      "appleAirplay": false,
+      "dimensionsWithStand": "965 x 610 x 220 mm",
+      "weightKg": 8.5,
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-43ft9751-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 18524.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "En Uygun FHD"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 840,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 19999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18524.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "vestel-43fv9750",
+    "slug": "vestel-43fv9750",
+    "name": "Vestel 43FV9750 43\" Full HD VIDAA Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-43fv9750-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-43fv9750-1.jpg",
+      "https://resim.epey.com/1014154/k_vestel-43fv9750-8698902008877-1.jpg"
+    ],
+    "rating": 4.3,
+    "reviewCount": 14,
+    "basePrice": 19595.08,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "43\" Full HD Canlı LED Panel",
+      "VIDAA OS Hızlı ve Kolay Smart Arayüzü",
+      "16W Dolby Audio Ses Çıkışı",
+      "Dahili Wi-Fi & Dahili HD Uydu Alıcı",
+      "2x HDMI, 1x USB Girişi"
+    ],
+    "specs": {
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 60,
+      "smartOs": "VIDAA",
+      "audioPowerWatts": 16,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Game Mode"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "E",
+      "processorEngine": "Çift Çekirdekli İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Yok",
+      "appleAirplay": false,
+      "dimensionsWithStand": "965 x 610 x 220 mm",
+      "weightKg": 8.4,
+      "bezelStyle": "Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-43fv9750-vestel",
+        "storeName": "Vestel",
+        "storeLogoColor": "#df0000",
+        "price": 19595.08,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Montaj"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 670,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 20999,
+        "store": "Vestel"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19595.08,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-40fv9750",
+    "slug": "vestel-40fv9750",
+    "name": "Vestel 40FV9750 40\" Full HD VIDAA Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-40fv9750-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-40fv9750-1.jpg",
+      "https://resim.epey.com/1014149/k_vestel-43fv9750-8698902008877-1.jpg"
+    ],
+    "rating": 4.3,
+    "reviewCount": 16,
+    "basePrice": 20500,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "40\" (100 cm) Full HD Kompakt Ekran",
+      "VIDAA Akıllı İşletim Sistemi",
+      "16W Dolby Audio Ses Çıkışı",
+      "Mutfak, Yatak Odası ve Ofisler için İdeal Boyut",
+      "Dahili Wi-Fi & Dahili HD Uydu Alıcı"
+    ],
+    "specs": {
+      "screenSizeInches": 40,
+      "displayTech": "LED",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 60,
+      "smartOs": "VIDAA",
+      "audioPowerWatts": 16,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Game Mode"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "E",
+      "processorEngine": "Çift Çekirdekli İşlemci",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "wifiVersion": "Dahili Wi-Fi",
+      "bluetoothVersion": "Yok",
+      "appleAirplay": false,
+      "dimensionsWithStand": "905 x 575 x 210 mm",
+      "weightKg": 7.6,
+      "bezelStyle": "Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-40fv9750-vestel",
+        "storeName": "Vestel",
+        "storeLogoColor": "#df0000",
+        "price": 20500,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Montaj"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 920,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 21999,
+        "store": "Vestel"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 20500,
+        "store": "Vestel"
+      }
+    ]
   }
 ];
