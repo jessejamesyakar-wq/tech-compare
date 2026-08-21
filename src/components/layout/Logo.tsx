@@ -76,11 +76,11 @@ export function Logo({ variant = 'light', size = 'md', showEditBadge = true }: L
         className="relative shrink-0"
       >
         {logoConfig.type === 'image' && logoConfig.imageUrl ? (
-          <div className="w-10 h-10 rounded-2xl bg-white dark:bg-slate-800 p-1 border border-slate-200 dark:border-slate-700 shadow-md flex items-center justify-center overflow-hidden">
+          <div className="w-11 h-11 rounded-full bg-white dark:bg-slate-800 p-0.5 border-2 border-emerald-500/40 shadow-md shadow-emerald-500/10 flex items-center justify-center overflow-hidden ring-2 ring-emerald-400/20">
             <img
               src={logoConfig.imageUrl}
-              alt="Site Amblemi"
-              className="w-full h-full object-contain rounded-xl"
+              alt="TechKıyas Penguen Maskotu"
+              className="w-full h-full object-cover rounded-full"
             />
           </div>
         ) : (
