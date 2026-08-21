@@ -4326,115 +4326,6 @@ export const mockTVs: TVProduct[] = [
     }
   },
   {
-    "id": "lg-85-85nu900b6la",
-    "name": "LG 85NU900B6LA NANO UHD AI NU90 4K 60Hz VRR Smart TV (2026)",
-    "slug": "lg-85-85nu900b6la-85-inc",
-    "brand": "LG",
-    "category": "tvs",
-    "basePrice": 79999,
-    "releaseYear": 2026,
-    "isPopular": false,
-    "rating": 4.9,
-    "reviewCount": 120,
-    "currency": "TL",
-    "highlights": [
-      "4K Ultra HD Canlı Ekran Teknolojisi",
-      "Akıllı webOS İşletim Sistemi",
-      "Yüksek Performanslı Oyun ve Sinema Modu"
-    ],
-    "tags": [
-      "LG",
-      "4K",
-      "Smart TV",
-      "OLED"
-    ],
-    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tr/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/85-nu85/basic/lg-nano-4k-uhd-nu85-2026-85-gallery-basic.jpg/jcr:content/renditions/thum-350x350.jpeg",
-    "storeOffers": [
-      {
-        "id": "offer-lg-lg-85-85nu900b6la-1",
-        "storeName": "LG Online Mağaza",
-        "storeLogoColor": "#A50034",
-        "price": 79999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı",
-          "Ücretsiz Kurulum"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.lg.com/tr/tv-soundbar/lg-85-85nu900b6la-85-inc/"
-      },
-      {
-        "id": "offer-lg-lg-85-85nu900b6la-2",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#002B49",
-        "price": 80999,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "offer-lg-lg-85-85nu900b6la-3",
-        "storeName": "Teknosa",
-        "storeLogoColor": "#FF6600",
-        "price": 81499,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 120,
-        "url": "https://www.teknosa.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-06-01",
-        "price": 79999,
-        "store": "LG Online Mağaza"
-      },
-      {
-        "date": "2026-07-01",
-        "price": 79999,
-        "store": "LG Online Mağaza"
-      }
-    ],
-    "specs": {
-      "screenSizeInches": 85,
-      "displayTech": "NANO UHD",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 60,
-      "smartOs": "webOS 26",
-      "audioPowerWatts": 40,
-      "hdrSupport": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "hdrFormats": [
-        "Dolby Vision",
-        "HDR10",
-        "HLG"
-      ],
-      "gamingFeatures": [
-        "ALLM",
-        "VRR",
-        "FreeSync",
-        "G-Sync"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 2,
-      "energyClass": "F"
-    }
-  },
-  {
     "id": "lg-75-75nu900b6la",
     "name": "LG 75NU900B6LA NANO UHD AI NU90 4K 60Hz VRR Smart TV (2026)",
     "slug": "lg-75-75nu900b6la-75-inc",
@@ -18785,74 +18676,6 @@ export const mockTVs: TVProduct[] = [
         "date": "2026-08-01",
         "price": 47439,
         "store": "Idefix"
-      }
-    ]
-  },
-  {
-    "id": "lg-85nu900b6la",
-    "slug": "lg-85nu900b6la",
-    "name": "LG 85NU900B6LA 85\" 215 Ekran 4K LED webOS Smart TV",
-    "brand": "LG",
-    "category": "tvs",
-    "isPopular": true,
-    "isFeatured": false,
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80"
-    ],
-    "rating": 4.6,
-    "reviewCount": 310,
-    "basePrice": 70560,
-    "currency": "TL",
-    "releaseYear": 2024,
-    "highlights": [
-      "85 inç LED Ekran",
-      "webOS 24",
-      "4K Ultra HD",
-      "20W Ses"
-    ],
-    "specs": {
-      "screenSizeInches": 85,
-      "displayTech": "LED",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 60,
-      "smartOs": "webOS",
-      "audioPowerWatts": 20,
-      "hdrSupport": [
-        "HDR10",
-        "HLG"
-      ],
-      "hdmiPorts": 3,
-      "usbPorts": 2,
-      "energyClass": "F",
-      "processorEngine": "α5 AI Processor 4K Gen7"
-    },
-    "storeOffers": [
-      {
-        "id": "vatan-lg-85nu900",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#E30613",
-        "price": 70560,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Stokta"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 1400,
-        "url": "#"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-08-01",
-        "price": 74999,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "2026-08-20",
-        "price": 70560,
-        "store": "Vatan Bilgisayar"
       }
     ]
   },
@@ -37759,6 +37582,185 @@ export const mockTVs: TVProduct[] = [
         "date": "2026-08-01",
         "price": 42999,
         "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "lg-85nu900b6la",
+    "slug": "lg-85nu900b6la",
+    "name": "LG 85NU900B6LA 85\" 4K Ultra HD Nano UHD webOS 26 Smart TV (2026)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "/images/products/tvs/lg-85nu900b6la-1.jpg",
+    "images": [
+      "/images/products/tvs/lg-85nu900b6la-1.jpg",
+      "/images/products/tvs/lg-85nu900b6la-2.jpg",
+      "/images/products/tvs/lg-85nu900b6la-3.jpg",
+      "https://resim.epey.com/1058399/z_lg-85nu900b6la-7.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 22,
+    "basePrice": 71889.09,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Dev 85\" (216 cm) 4K Ultra HD Nano Cell Display Panel",
+      "Yeni Nesil 4 Çekirdekli α7 Gen9 AI Processor 4K İşlemci",
+      "webOS 26 Akıllı Platform (5 Yıl Boyunca 4 Büyük Güncelleme Garantisi)",
+      "Dynamic Tone Mapping & HDR 10 Pro / HLG Gelişmiş Renk Doğruluğu",
+      "60Hz VRR (Variable Refresh Rate) & ALLM Akıcı Oyun Desteği",
+      "20W AI Sound Pro, AI Acoustic Tuning, apt-X Kodek & Clear Voice Pro",
+      "Google Cast / Chromecast, Apple AirPlay 2, Google Home & Matter Entegrasyonu",
+      "Wi-Fi 5, Bluetooth 5.3, 3x HDMI 2.0 (eARC) & Şık İkili V Ayak Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "Nano Cell LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HDR 10 Pro",
+        "HLG",
+        "Dynamic Tone Mapping"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "HGIG Mode",
+        "Game Optimizer"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 1,
+      "energyClass": "F",
+      "processorEngine": "α7 Gen9 AI Processor 4K",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "LG ThinQ AI & Magic Remote Uyumu",
+      "wifiVersion": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+      "bluetoothVersion": "Bluetooth 5.3",
+      "appleAirplay": true,
+      "dimensionsWithStand": "1890 x 1148 x 362 mm",
+      "weightKg": 30.3,
+      "bezelStyle": "Siyah / İkili Stant V Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-85nu900b6la-idefix",
+        "storeName": "Idefix",
+        "storeLogoColor": "#0055ff",
+        "price": 71889.09,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Gala Teknoloji",
+          "En Uygun Fiyat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 920,
+        "url": "https://www.idefix.com/lg85nu900-85-215-ekran-uydu-alicili-4k-ultra-hd-smart-webos-led-tv-p-26230925?vendorId=1470"
+      },
+      {
+        "id": "offer-85nu900b6la-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 74487.6,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Gala İletişim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1840,
+        "url": "https://www.hepsiburada.com/lg-85nu900b6la-85-215-ekran-uydu-alicili-4k-ultra-hd-smart-webos-led-tv-p-HBCV0000EZCQ1Q?magaza=Gala+%C4%B0leti%C5%9Fim"
+      },
+      {
+        "id": "offer-85nu900b6la-n11",
+        "storeName": "n11",
+        "storeLogoColor": "#5c3ebc",
+        "price": 77600,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "MediaMarkt"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "https://www.n11.com/urun/lg-85nu900b6la-85-ultra-hd-4k-mini-led-tv-130561212?magaza=mediamarkt"
+      },
+      {
+        "id": "offer-85nu900b6la-pttavm",
+        "storeName": "PTT AVM",
+        "storeLogoColor": "#ffcc00",
+        "price": 77737.1,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "SmartEvim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 430,
+        "url": "https://www.pttavm.com/lg-85nu900b6la-85-215-ekran-uydu-alicili-4k-ultra-hd-smart-webos-led-tv-p-1537787318"
+      },
+      {
+        "id": "offer-85nu900b6la-pazarama",
+        "storeName": "Pazarama",
+        "storeLogoColor": "#00b4d8",
+        "price": 78399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Smartevim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 510,
+        "url": "https://www.pazarama.com/lg-85nu900b6la-85-inc-4k-uhd-smart-televizyon-siyah-8806096715772-p-8806096715772?magaza=smartevim"
+      },
+      {
+        "id": "offer-85nu900b6la-mediamarkt",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 79999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Mağazadan Teslim",
+          "MediaMarkt Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.mediamarkt.com.tr/tr/product/_lg-85nu900b6la-85-inc-215-ekran-uydu-alicili-smart-4k-uhd-qned-mini-led-tv-1254879.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-25",
+        "price": 82999,
+        "store": "Idefix"
+      },
+      {
+        "date": "2026-06-20",
+        "price": 78999,
+        "store": "Idefix"
+      },
+      {
+        "date": "2026-07-15",
+        "price": 74999,
+        "store": "Idefix"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 71889.09,
+        "store": "Idefix"
       }
     ]
   }
