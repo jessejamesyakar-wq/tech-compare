@@ -1,4 +1,4 @@
-import { TVProduct } from './types';
+import { TVProduct } from "./types";
 
 export const mockTVs: TVProduct[] = [
   {
@@ -39830,6 +39830,2966 @@ export const mockTVs: TVProduct[] = [
       {
         "date": "2026-08-01",
         "price": 20500,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-40ft9760",
+    "slug": "vestel-40ft9760",
+    "name": "Vestel 40FT9760 40\" Full HD TiVo Smart TV (2026)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-40ft9760-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-40ft9760-1.jpg",
+      "https://resim.epey.com/1054327/k_vestel-40ft9760-8698902019378-1.jpg"
+    ],
+    "rating": 4.4,
+    "reviewCount": 14,
+    "basePrice": 16149.05,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "40\" (100 cm) Full HD (1920x1080) LED Ekran",
+      "Yeni Nesil Akıllı TiVo OS İşletim Sistemi",
+      "12W Stereo Hoparlör, Dolby Audio & DTS Virtual:X",
+      "Dahili Wi-Fi & HD Karasal / Uydu Alıcı (DVB-S2/T2)",
+      "2x HDMI, 1x USB & Kompakt Modern Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 40,
+      "displayTech": "LED",
+      "resolution": "Full HD",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo OS",
+      "audioPowerWatts": 12,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Game Mode",
+        "ALLM"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "E",
+      "processorEngine": "Vestel Quad Core AI Picture Engine",
+      "brightnessNits": 300,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "85% NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "TiVo Voice Remote",
+      "wifiVersion": "Wi-Fi 5 (802.11ac)",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "904 x 567 x 205 mm",
+      "weightKg": 6.8,
+      "vesaMount": "200x100 mm",
+      "bezelStyle": "İnce Çerçeve (Siyah)"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-40ft9760-0",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 16149.05,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-40ft9760-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 16399,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-vestel-40ft9760-2",
+        "storeName": "Pazarama",
+        "storeLogoColor": "#00a3e0",
+        "price": 16650,
+        "inStock": true,
+        "shippingDays": 3,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.pazarama.com"
+      },
+      {
+        "id": "offer-vestel-40ft9760-3",
+        "storeName": "N11",
+        "storeLogoColor": "#5e239d",
+        "price": 16799,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.n11.com"
+      },
+      {
+        "id": "offer-vestel-40ft9760-4",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 17199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 17499,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 16899,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16149.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "vestel-32fa9950l",
+    "slug": "vestel-32fa9950l",
+    "name": "Vestel 32FA9950L 32\" Full HD Android Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-32fa9950l-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-32fa9950l-1.jpg",
+      "https://resim.epey.com/1014146/k_vestel-32fa9950l-8698902787703-1.jpg"
+    ],
+    "rating": 4.3,
+    "reviewCount": 9,
+    "basePrice": 18049.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "32\" (80 cm) Full HD (1920x1080) LED Ekran",
+      "Android TV ile Google Play & YouTube, Netflix",
+      "12W Stereo Ses & Dolby Audio Desteği",
+      "Dahili Wi-Fi, Bluetooth & Dahili Uydu Alıcı",
+      "Kompakt Boyut & Mutfak/Yatak Odası İçin İdeal"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "Full HD",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 12,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Game Mode"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "F",
+      "processorEngine": "Vestel Quad Core Processor",
+      "brightnessNits": 280,
+      "contrastRatio": "3500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "80% NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Assistant",
+      "wifiVersion": "Wi-Fi 5 (802.11ac)",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "728 x 475 x 180 mm",
+      "weightKg": 4.5,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-32fa9950l-0",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 18049.05,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-32fa9950l-1",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 18499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 18999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 18499,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18049.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "vestel-32fa9950b",
+    "slug": "vestel-32fa9950b",
+    "name": "Vestel 32FA9950B 32\" Full HD Beyaz Android Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-32fa9950b-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-32fa9950b-1.jpg",
+      "https://resim.epey.com/1014147/k_vestel-32fa9950b-8698902787680-1.jpg"
+    ],
+    "rating": 4.3,
+    "reviewCount": 11,
+    "basePrice": 19474.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Özel Şık Beyaz Çerçeve & Ayak Tasarımı",
+      "32\" (80 cm) Full HD (1920x1080) LED Ekran",
+      "Android TV Akıllı İşletim Sistemi",
+      "12W Ses Çıkışı & Dolby Audio",
+      "Dahili Wi-Fi & HD Uydu Alıcısı"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "Full HD",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 12,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Game Mode"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "F",
+      "processorEngine": "Vestel Quad Core Processor",
+      "brightnessNits": 280,
+      "contrastRatio": "3500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "80% NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Assistant",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "728 x 475 x 180 mm",
+      "weightKg": 4.5,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Beyaz Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-32fa9950b-0",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 19474.05,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-vestel-32fa9950b-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 19799,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-32fa9950b-2",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 19999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 20499,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 19899,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19474.05,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "vestel-32fa9950y",
+    "slug": "vestel-32fa9950y",
+    "name": "Vestel 32FA9950Y 32\" Full HD Android Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-32fa9950y-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-32fa9950y-1.jpg",
+      "https://resim.epey.com/1014148/k_vestel-32fa9950y-8698902787697-1.jpg"
+    ],
+    "rating": 4.3,
+    "reviewCount": 7,
+    "basePrice": 17859.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "32\" (80 cm) Net Full HD (1920x1080) LED Panel",
+      "Android TV & Google Play Desteği",
+      "12W Dolby Audio Ses Sistemi",
+      "Dahili Wi-Fi & HD Karasal / Uydu Alıcı"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "Full HD",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 12,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Game Mode"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "F",
+      "processorEngine": "Vestel Quad Core Processor",
+      "brightnessNits": 280,
+      "contrastRatio": "3500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "80% NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Assistant",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "728 x 475 x 180 mm",
+      "weightKg": 4.5,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Antrasit Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-32fa9950y-0",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 17859.05,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-32fa9950y-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 18199,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-vestel-32fa9950y-2",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 18499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 18799,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 18299,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 17859.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "vestel-32fv9750",
+    "slug": "vestel-32fv9750",
+    "name": "Vestel 32FV9750 32\" Full HD VIDAA Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-32fv9750-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-32fv9750-1.jpg",
+      "https://resim.epey.com/1014156/k_vestel-32fv9750-8698902008822-1.jpg"
+    ],
+    "rating": 4.2,
+    "reviewCount": 8,
+    "basePrice": 16150,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "32\" (80 cm) Full HD (1920x1080) LED Ekran",
+      "Hızlı & Akıcı VIDAA OS İşletim Sistemi",
+      "12W Dolby Audio & DTS Virtual:X",
+      "Dahili Wi-Fi, Netflix, Prime Video, YouTube"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "Full HD",
+      "refreshRateHz": 60,
+      "smartOs": "Vidaa",
+      "audioPowerWatts": 12,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Game Mode"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "E",
+      "processorEngine": "Vestel Dual Core Processor",
+      "brightnessNits": 280,
+      "contrastRatio": "3500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "80% NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "VIDAA Voice",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "728 x 475 x 180 mm",
+      "weightKg": 4.4,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-32fv9750-0",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 16150,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-32fv9750-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 16399,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-vestel-32fv9750-2",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 16699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 16999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 16499,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16150,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "vestel-24ha9950m",
+    "slug": "vestel-24ha9950m",
+    "name": "Vestel 24HA9950M 24\" HD Android Smart TV Mavi (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-24ha9950m-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-24ha9950m-1.jpg",
+      "https://resim.epey.com/1016917/k_vestel-24ha9950m-1.jpg"
+    ],
+    "rating": 4.1,
+    "reviewCount": 6,
+    "basePrice": 16835.08,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "24\" (60 cm) HD Ready LED Ekran & Pastel Mavi Çerçeve",
+      "Android TV ile Akıllı Eğlence",
+      "5W Dolby Audio Ses Çıkışı",
+      "Karavan, Mutfak ve Çocuk Odası İçin İdeal Boyut"
+    ],
+    "specs": {
+      "screenSizeInches": 24,
+      "displayTech": "LED",
+      "resolution": "HD Ready (1366x768)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 5,
+      "hdrFormats": [],
+      "gamingFeatures": [],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "F",
+      "processorEngine": "Vestel Quad Core Processor",
+      "brightnessNits": 250,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "75% NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Assistant",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "553 x 365 x 135 mm",
+      "weightKg": 3.2,
+      "vesaMount": "75x75 mm",
+      "bezelStyle": "Pastel Mavi Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-24ha9950m-0",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 16835.08,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-vestel-24ha9950m-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 16999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-24ha9950m-2",
+        "storeName": "N11",
+        "storeLogoColor": "#5e239d",
+        "price": 17150,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.n11.com"
+      },
+      {
+        "id": "offer-vestel-24ha9950m-3",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 17499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 17500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 17100,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16835.08,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "vestel-24ha9950y",
+    "slug": "vestel-24ha9950y",
+    "name": "Vestel 24HA9950Y 24\" HD Android Smart TV Yeşil (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-24ha9950y-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-24ha9950y-1.jpg",
+      "https://resim.epey.com/1014150/k_vestel-24ha9950y-8698902008815-1.jpg"
+    ],
+    "rating": 4.1,
+    "reviewCount": 5,
+    "basePrice": 16910,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "24\" (60 cm) HD Ready LED Ekran & Pastel Yeşil Çerçeve",
+      "Android TV & Dahili Wi-Fi / Bluetooth",
+      "5W Dolby Audio Ses Sistemi",
+      "Dahili HD Uydu Alıcısı"
+    ],
+    "specs": {
+      "screenSizeInches": 24,
+      "displayTech": "LED",
+      "resolution": "HD Ready (1366x768)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 5,
+      "hdrFormats": [],
+      "gamingFeatures": [],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "F",
+      "processorEngine": "Vestel Quad Core Processor",
+      "brightnessNits": 250,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "75% NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Assistant",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "553 x 365 x 135 mm",
+      "weightKg": 3.2,
+      "vesaMount": "75x75 mm",
+      "bezelStyle": "Pastel Yeşil Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-24ha9950y-0",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 16910,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-24ha9950y-1",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 17299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 17600,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 17150,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16910,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "vestel-24ha9950s",
+    "slug": "vestel-24ha9950s",
+    "name": "Vestel 24HA9950S 24\" HD Android Smart TV Sarı (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-24ha9950s-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-24ha9950s-1.jpg",
+      "https://resim.epey.com/1014151/k_vestel-24ha9950s-8698902008808-2.jpg"
+    ],
+    "rating": 4.1,
+    "reviewCount": 4,
+    "basePrice": 16835.08,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "24\" (60 cm) HD LED Panel & Enerjik Sarı Çerçeve",
+      "Android TV ile Tüm Dijital Platformlar",
+      "5W Dolby Audio Ses Çıkışı",
+      "Dahili Wi-Fi & Dahili HD Uydu Alıcı"
+    ],
+    "specs": {
+      "screenSizeInches": 24,
+      "displayTech": "LED",
+      "resolution": "HD Ready (1366x768)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 5,
+      "hdrFormats": [],
+      "gamingFeatures": [],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "F",
+      "processorEngine": "Vestel Quad Core Processor",
+      "brightnessNits": 250,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "75% NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Assistant",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "553 x 365 x 135 mm",
+      "weightKg": 3.2,
+      "vesaMount": "75x75 mm",
+      "bezelStyle": "Pastel Sarı Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-24ha9950s-0",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 16835.08,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-vestel-24ha9950s-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 16999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-24ha9950s-2",
+        "storeName": "N11",
+        "storeLogoColor": "#5e239d",
+        "price": 17100,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.n11.com"
+      },
+      {
+        "id": "offer-vestel-24ha9950s-3",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 17499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 17500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 17100,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16835.08,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "vestel-32hv9750",
+    "slug": "vestel-32hv9750",
+    "name": "Vestel 32HV9750 32\" HD VIDAA Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-32hv9750-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-32hv9750-1.jpg",
+      "https://resim.epey.com/1014173/k_vestel-32hv9750-1.jpg"
+    ],
+    "rating": 4.1,
+    "reviewCount": 8,
+    "basePrice": 12349.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "32\" (80 cm) HD Ready (1366x768) LED Ekran",
+      "VIDAA OS Akıllı Televizyon Platformu",
+      "12W Stereo Hoparlör, Dolby Audio & DTS Virtual:X",
+      "Dahili Wi-Fi & Dahili HD Uydu Alıcı"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "HD Ready (1366x768)",
+      "refreshRateHz": 60,
+      "smartOs": "Vidaa",
+      "audioPowerWatts": 12,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Game Mode"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "E",
+      "processorEngine": "Vestel Dual Core Processor",
+      "brightnessNits": 280,
+      "contrastRatio": "3500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "80% NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "VIDAA Voice",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "728 x 475 x 180 mm",
+      "weightKg": 4.4,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-32hv9750-0",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 12349.05,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-32hv9750-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 12599,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-vestel-32hv9750-2",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 12899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 13199,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 12799,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12349.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "vestel-32ht9760",
+    "slug": "vestel-32ht9760",
+    "name": "Vestel 32HT9760 32\" HD TiVo Smart TV (2026)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-32ht9760-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-32ht9760-1.jpg",
+      "https://resim.epey.com/1054329/k_vestel-32ht9760-1.jpg"
+    ],
+    "rating": 4,
+    "reviewCount": 6,
+    "basePrice": 12419.08,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "32\" (80 cm) HD LED Ekran",
+      "Yeni Nesil TiVo OS Akıllı Platform",
+      "12W Güçlü Ses & DTS Virtual:X",
+      "Dahili Wi-Fi & HD Karasal / Uydu Alıcısı"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "HD Ready (1366x768)",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo OS",
+      "audioPowerWatts": 12,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Game Mode"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "E",
+      "processorEngine": "Vestel Quad Core Engine",
+      "brightnessNits": 280,
+      "contrastRatio": "3500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "80% NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "TiVo Voice Remote",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "728 x 475 x 180 mm",
+      "weightKg": 4.4,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-32ht9760-0",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 12419.08,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-vestel-32ht9760-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 12599,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-32ht9760-2",
+        "storeName": "Pazarama",
+        "storeLogoColor": "#00a3e0",
+        "price": 12750,
+        "inStock": true,
+        "shippingDays": 3,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.pazarama.com"
+      },
+      {
+        "id": "offer-vestel-32ht9760-3",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 13499,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 12899,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12419.08,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "vestel-32ht9150",
+    "slug": "vestel-32ht9150",
+    "name": "Vestel 32HT9150 32\" HD TiVo Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-32ht9150-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-32ht9150-1.jpg",
+      "https://resim.epey.com/1031749/k_vestel-32ht9150-8698902012362-1.jpg"
+    ],
+    "rating": 4,
+    "reviewCount": 15,
+    "basePrice": 10505,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Bütçe Dostu 32\" (80 cm) HD LED Smart TV",
+      "TiVo OS Akıllı Arayüz & Uygulamalar",
+      "12W Dolby Audio Ses Çıkışı",
+      "Dahili Wi-Fi & Dahili HD Uydu Alıcı"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "HD Ready (1366x768)",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo OS",
+      "audioPowerWatts": 12,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Game Mode"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "E",
+      "processorEngine": "Vestel Quad Core Processor",
+      "brightnessNits": 260,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "75% NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "TiVo Voice",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "728 x 475 x 180 mm",
+      "weightKg": 4.3,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-32ht9150-0",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 10505,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-32ht9150-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 10699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-vestel-32ht9150-2",
+        "storeName": "Pazarama",
+        "storeLogoColor": "#00a3e0",
+        "price": 10850,
+        "inStock": true,
+        "shippingDays": 3,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.pazarama.com"
+      },
+      {
+        "id": "offer-vestel-32ht9150-3",
+        "storeName": "N11",
+        "storeLogoColor": "#5e239d",
+        "price": 10999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.n11.com"
+      },
+      {
+        "id": "offer-vestel-32ht9150-4",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 11299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 11499,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 10999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 10505,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "vestel-40f8750",
+    "slug": "vestel-40f8750",
+    "name": "Vestel 40F8750 40\" Full HD LED TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-40f8750-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-40f8750-1.jpg",
+      "https://resim.epey.com/1027381/k_vestel-40f8750-8698902008853-1.jpg"
+    ],
+    "rating": 3.8,
+    "reviewCount": 12,
+    "basePrice": 13984,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "40\" (100 cm) Full HD (1920x1080) LED Ekran",
+      "Kullanımı Kolay & Sade TV Deneyimi (Non-Smart)",
+      "Dahili HD Karasal & Uydu Alıcısı (DVB-S2/T2)",
+      "8W Stereo Ses Çıkışı & USB Medya Oynatıcı"
+    ],
+    "specs": {
+      "screenSizeInches": 40,
+      "displayTech": "LED",
+      "resolution": "Full HD",
+      "refreshRateHz": 60,
+      "smartOs": "Yok",
+      "audioPowerWatts": 8,
+      "hdrFormats": [],
+      "gamingFeatures": [],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "E",
+      "processorEngine": "Vestel Standart Video Engine",
+      "brightnessNits": 280,
+      "contrastRatio": "3500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "75% NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Yok",
+      "wifiVersion": "Yok",
+      "bluetoothVersion": "Yok",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "904 x 567 x 205 mm",
+      "weightKg": 6.5,
+      "vesaMount": "200x100 mm",
+      "bezelStyle": "Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-40f8750-0",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 13984,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-40f8750-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 14250,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-vestel-40f8750-2",
+        "storeName": "Pazarama",
+        "storeLogoColor": "#00a3e0",
+        "price": 14499,
+        "inStock": true,
+        "shippingDays": 3,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.pazarama.com"
+      },
+      {
+        "id": "offer-vestel-40f8750-3",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 14799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 14999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 14499,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13984,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "vestel-65og9950",
+    "slug": "vestel-65og9950",
+    "name": "Vestel 65OG9950 65\" 4K Ultra HD 120Hz OLED Android TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-65og9950-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-65og9950-1.jpg",
+      "https://resim.epey.com/1050992/k_vestel-65og9950-1.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 22,
+    "basePrice": 84999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Kusursuz Siyah & Sonsuz Kontrast Sağlayan 65\" 4K OLED Panel",
+      "100/120 Hz Gerçek Yenileme Hızı & VRR, ALLM, HDMI 2.1",
+      "24W Subwooferlı Ses Sistemi, Dolby Atmos & DTS:X",
+      "Dolby Vision IQ, HDR10+ & Filmmaker Mode",
+      "Android TV & Dahili Google Asistan ile Akıllı Ev Entegrasyonu"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 24,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "VRR (Variable Refresh Rate)",
+        "ALLM (Auto Low Latency Mode)",
+        "HDMI 2.1 4K@120Hz",
+        "Game Bar"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "Vestel OLED Pro AI Picture Engine",
+      "brightnessNits": 850,
+      "contrastRatio": "Sonsuz (OLED)",
+      "viewingAngle": "178/178 (Kusursuz)",
+      "colorGamut": "99% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan Sesli Kumanda",
+      "wifiVersion": "Wi-Fi 6 (802.11ax)",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1449 x 892 x 280 mm",
+      "weightKg": 24.5,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "Ultra İnce Çerçevesiz Metalik Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-65og9950-0",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 84999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      },
+      {
+        "id": "offer-vestel-65og9950-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 85999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-65og9950-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 86499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 89999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 86999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 84999,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-55og9950",
+    "slug": "vestel-55og9950",
+    "name": "Vestel 55OG9950 55\" 4K Ultra HD 120Hz OLED Android TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-55og9950-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-55og9950-1.jpg",
+      "https://resim.epey.com/1051026/k_vestel-55og9950-1.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 19,
+    "basePrice": 64999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (139 cm) 4K Kendinden Aydınlatmalı OLED Panel",
+      "100/120 Hz Akıcı Ekran & VRR/ALLM Oyun Desteği",
+      "24W Dahili Subwooferlı Dolby Atmos & DTS:X Ses",
+      "Dolby Vision & HDR10+ ile Sinematik Görüntü",
+      "Android TV & Google Cast"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 24,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "HDMI 2.1 4K@120Hz",
+        "Game Mode"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "Vestel OLED Pro AI Picture Engine",
+      "brightnessNits": 800,
+      "contrastRatio": "Sonsuz (OLED)",
+      "viewingAngle": "178/178",
+      "colorGamut": "98% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1228 x 768 x 250 mm",
+      "weightKg": 19.2,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "Ultra İnce Çerçevesiz Metalik"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-55og9950-0",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 64999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      },
+      {
+        "id": "offer-vestel-55og9950-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 65999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-55og9950-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 66499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 69999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 66999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 64999,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-65qmg9950",
+    "slug": "vestel-65qmg9950",
+    "name": "Vestel 65QMG9950 65\" 4K Mini LED Android TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-65qmg9950-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-65qmg9950-1.jpg",
+      "https://resim.epey.com/1016982/k_vestel-65qmg9950-1.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 16,
+    "basePrice": 52999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "65\" 4K Quantum Mini LED Panel ile Üstün Parlaklık ve Karartma Bölgeleri",
+      "100/120 Hz Yenileme Hızı & VRR, ALLM Desteği",
+      "30W Güçlü Entegre Subwooferlı Ses Sistemi",
+      "Dolby Vision & Dolby Atmos Sinema Deneyimi",
+      "Android TV & Google Play Store"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "Mini-LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "HDMI 2.1 4K@120Hz"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Vestel Quantum AI Picture Engine",
+      "brightnessNits": 1000,
+      "contrastRatio": "10000:1 (Local Dimming)",
+      "viewingAngle": "178/178",
+      "colorGamut": "95% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1453 x 898 x 275 mm",
+      "weightKg": 22.8,
+      "vesaMount": "400x200 mm",
+      "bezelStyle": "İnce Metalik Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-65qmg9950-0",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 52999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      },
+      {
+        "id": "offer-vestel-65qmg9950-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 53999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-65qmg9950-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 54499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 56999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 54499,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 52999,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-65qg9960",
+    "slug": "vestel-65qg9960",
+    "name": "Vestel 65QG9960 65\" 4K QLED Android TV (2026)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-65qg9960-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-65qg9960-1.jpg",
+      "https://resim.epey.com/1065851/k_vestel-65qg9960-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 14,
+    "basePrice": 43999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "65\" 4K Quantum Dot (QLED) Canlı Renk Teknolojisi",
+      "36W Güçlü Subwooferlı Ses Sistemi, Dolby Atmos & DTS:X",
+      "Dolby Vision & HDR10 Görüntü Kalitesi",
+      "Android TV & Dahili Google Asistan"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 36,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "Game Mode"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "Vestel Quantum AI Processor",
+      "brightnessNits": 450,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "94% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1453 x 892 x 260 mm",
+      "weightKg": 20.5,
+      "vesaMount": "400x200 mm",
+      "bezelStyle": "İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-65qg9960-0",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 43999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      },
+      {
+        "id": "offer-vestel-65qg9960-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 44499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-65qg9960-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 44999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 46999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 44999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 43999,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-65qg9950",
+    "slug": "vestel-65qg9950",
+    "name": "Vestel 65QG9950 65\" 4K QLED Android TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-65qg9950-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-65qg9950-1.jpg",
+      "https://resim.epey.com/1016990/k_vestel-65qg9950-8698902009058-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 15,
+    "basePrice": 40999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "65\" 4K Quantum Dot (QLED) Canlı Renkler",
+      "24W Stereo Ses, Dolby Atmos & DTS Virtual:X",
+      "Dolby Vision & HDR10 Desteği",
+      "Android TV & Google Play Store"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 24,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "Game Mode"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "Vestel Quantum AI Processor",
+      "brightnessNits": 400,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "92% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1453 x 892 x 260 mm",
+      "weightKg": 20,
+      "vesaMount": "400x200 mm",
+      "bezelStyle": "İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-65qg9950-0",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 40999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      },
+      {
+        "id": "offer-vestel-65qg9950-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 41499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-65qg9950-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 41999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 43999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 41999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 40999,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-55qg9960",
+    "slug": "vestel-55qg9960",
+    "name": "Vestel 55QG9960 55\" 4K QLED Android TV (2026)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-55qg9960-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-55qg9960-1.jpg",
+      "https://resim.epey.com/1065874/k_vestel-55qg9960-1.jpg"
+    ],
+    "rating": 4.4,
+    "reviewCount": 12,
+    "basePrice": 33999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "55\" 4K Quantum Dot (QLED) Geniş Renk Gamutu",
+      "32W Subwoofer Entegre Güçlü Ses Sistemi",
+      "Dolby Vision & Dolby Atmos",
+      "Android TV & Google Asistan"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 32,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "Game Mode"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "Vestel Quantum AI Processor",
+      "brightnessNits": 420,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "94% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1233 x 765 x 240 mm",
+      "weightKg": 15.5,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-55qg9960-0",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 33999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      },
+      {
+        "id": "offer-vestel-55qg9960-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 34499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-55qg9960-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 36999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 34999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 33999,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-75qt9850",
+    "slug": "vestel-75qt9850",
+    "name": "Vestel 75QT9850 75\" 4K QLED TiVo Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-75qt9850-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-75qt9850-1.jpg",
+      "https://resim.epey.com/1014135/k_vestel-75qt9850-8698902009126-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 16,
+    "basePrice": 53999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Dev 75\" (190 cm) 4K Quantum Dot (QLED) Ekran",
+      "Akıllı TiVo OS İşletim Sistemi",
+      "24W Dolby Atmos & DTS Virtual:X Ses",
+      "Dolby Vision, HDR10 & MEMC Akıcı Hareket"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo OS",
+      "audioPowerWatts": 24,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "Game Mode"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "Vestel Quantum Picture Engine",
+      "brightnessNits": 450,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "93% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "TiVo Voice Remote",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1675 x 1018 x 330 mm",
+      "weightKg": 28.5,
+      "vesaMount": "400x400 mm",
+      "bezelStyle": "İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-75qt9850-0",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 53999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      },
+      {
+        "id": "offer-vestel-75qt9850-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 54499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-75qt9850-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 54999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 57999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 55499,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 53999,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-65ug9760",
+    "slug": "vestel-65ug9760",
+    "name": "Vestel 65UG9760 65\" 4K Android Smart TV (2026)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-65ug9760-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-65ug9760-1.jpg",
+      "https://resim.epey.com/1065839/k_vestel-65ug9760-1.jpg"
+    ],
+    "rating": 4.3,
+    "reviewCount": 10,
+    "basePrice": 32999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (165 cm) 4K Ultra HD LED Ekran",
+      "Android TV & Google Play Uygulamaları",
+      "20W Dolby Audio & DTS Virtual:X",
+      "HDR10, Dolby Vision & Dahili Uydu Alıcı"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "Dolby Vision"
+      ],
+      "gamingFeatures": [
+        "Game Mode"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "Vestel Quad Core Engine",
+      "brightnessNits": 350,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "85% NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1453 x 892 x 260 mm",
+      "weightKg": 19.5,
+      "vesaMount": "400x200 mm",
+      "bezelStyle": "İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-65ug9760-0",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 32999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      },
+      {
+        "id": "offer-vestel-65ug9760-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 33499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-65ug9760-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 33999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 35999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 33999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 32999,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-55ug9760",
+    "slug": "vestel-55ug9760",
+    "name": "Vestel 55UG9760 55\" 4K Android Smart TV (2026)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-55ug9760-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-55ug9760-1.jpg",
+      "https://resim.epey.com/1065844/k_vestel-55ug9760-1.jpg"
+    ],
+    "rating": 4.3,
+    "reviewCount": 9,
+    "basePrice": 25999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (139 cm) 4K Ultra HD LED Panel",
+      "Android TV & Google Asistan",
+      "20W Dolby Audio & DTS Virtual:X",
+      "HDR10 & Dolby Vision Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "Dolby Vision"
+      ],
+      "gamingFeatures": [
+        "Game Mode"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "Vestel Quad Core Engine",
+      "brightnessNits": 350,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "85% NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1233 x 765 x 240 mm",
+      "weightKg": 14.8,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-55ug9760-0",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 25999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      },
+      {
+        "id": "offer-vestel-55ug9760-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 26499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-55ug9760-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 26999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 28999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 26999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 25999,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-50ug9760",
+    "slug": "vestel-50ug9760",
+    "name": "Vestel 50UG9760 50\" 4K Android Smart TV (2026)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-50ug9760-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-50ug9760-1.jpg",
+      "https://resim.epey.com/1065846/k_vestel-50ug9760-1.jpg"
+    ],
+    "rating": 4.2,
+    "reviewCount": 11,
+    "basePrice": 22499,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "50\" (126 cm) 4K Ultra HD Net Görüntü",
+      "Android TV & Google Play Store",
+      "20W Stereo Ses, Dolby Audio & DTS Virtual:X",
+      "Dahili Wi-Fi, Bluetooth & HD Uydu Alıcı"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "Dolby Vision"
+      ],
+      "gamingFeatures": [
+        "Game Mode"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "Vestel Quad Core Engine",
+      "brightnessNits": 330,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "85% NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1119 x 701 x 235 mm",
+      "weightKg": 11.2,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-50ug9760-0",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 22499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      },
+      {
+        "id": "offer-vestel-50ug9760-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 22899,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-50ug9760-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 23299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 24999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 23499,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 22499,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-55ut9850",
+    "slug": "vestel-55ut9850",
+    "name": "Vestel 55UT9850 55\" 4K TiVo Smart TV (2025)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-55ut9850-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-55ut9850-1.jpg",
+      "https://resim.epey.com/1014141/k_vestel-55ut9850-8698902009003-1.jpg"
+    ],
+    "rating": 4.2,
+    "reviewCount": 14,
+    "basePrice": 27999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (139 cm) 4K Ultra HD LED Ekran",
+      "Akıllı TiVo OS İşletim Sistemi",
+      "20W Dolby Audio & DTS Virtual:X",
+      "HDR10 & Dolby Vision Görüntü Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "Dolby Vision"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "Game Mode"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "Vestel Quad Core Engine",
+      "brightnessNits": 350,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "85% NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "TiVo Voice Remote",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1233 x 765 x 240 mm",
+      "weightKg": 14.5,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-55ut9850-0",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 27999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      },
+      {
+        "id": "offer-vestel-55ut9850-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 28499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-55ut9850-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 30999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 28999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 27999,
+        "store": "Vestel"
+      }
+    ]
+  },
+  {
+    "id": "vestel-43ug9760",
+    "slug": "vestel-43ug9760",
+    "name": "Vestel 43UG9760 43\" 4K Android Smart TV (2026)",
+    "brand": "Vestel",
+    "category": "tvs",
+    "image": "/images/products/tvs/vestel-43ug9760-1.jpg",
+    "images": [
+      "/images/products/tvs/vestel-43ug9760-1.jpg",
+      "https://resim.epey.com/1065848/k_vestel-43ug9760-1.jpg"
+    ],
+    "rating": 4.2,
+    "reviewCount": 8,
+    "basePrice": 19999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "43\" (108 cm) 4K Ultra HD Ekran Kalitesi",
+      "Android TV & Google Play Uygulamaları",
+      "16W Dolby Audio & DTS Virtual:X",
+      "HDR10 & Dolby Vision Görüntü Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 16,
+      "hdrFormats": [
+        "HDR10",
+        "Dolby Vision"
+      ],
+      "gamingFeatures": [
+        "Game Mode"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "Vestel Quad Core Engine",
+      "brightnessNits": 320,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "85% NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "965 x 610 x 220 mm",
+      "weightKg": 8.5,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-vestel-43ug9760-0",
+        "storeName": "Vestel Yetkili Mağaza",
+        "storeLogoColor": "#df0000",
+        "price": 19999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.vestel.com.tr"
+      },
+      {
+        "id": "offer-vestel-43ug9760-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 20499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-vestel-43ug9760-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 20899,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 21999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 20799,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19999,
         "store": "Vestel"
       }
     ]
