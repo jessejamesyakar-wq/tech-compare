@@ -24885,23 +24885,27 @@ export const mockTVs: TVProduct[] = [
     }
   },
   {
-    "id": "tv-lg-lg-75-75qned9ma6b-75-inc",
-    "name": "LG 75QNED9MA6B",
-    "slug": "lg-75-75qned9ma6b-75-inc",
+    "id": "lg-75qned9ma6b",
+    "name": "LG 75QNED9MA6B 75\" 144Hz 4K Ultra HD QNED Mini LED Smart TV (2025)",
+    "slug": "lg-75qned9ma6b",
     "brand": "LG",
     "category": "tvs",
-    "basePrice": 64999,
+    "basePrice": 84999,
     "currency": "TL",
     "releaseYear": 2025,
-    "isPopular": false,
-    "rating": 3.9,
-    "reviewCount": 327,
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "isPopular": true,
+    "rating": 4.8,
+    "reviewCount": 18,
+    "image": "/images/products/tvs/lg-75qned9ma6b-1.jpg",
     "highlights": [
-      "75\" QNED Ultra HD (4K) Ekran",
-      "webOS Akıllı TV İşletim Sistemi",
-      "Dolby Vision & Dolby Atmos Desteği",
-      "AI Sound Pro & Akıllı İşlemci"
+      "75\" (189 cm) 4K Ultra HD Quantum Mini LED (QD-MiniLED) & Quantum Dot Display",
+      "144Hz Gerçek Yenileme Hızı & HDMI 2.1 ile 3840x2160p @ 144Hz Oyun Desteği",
+      "α9 Gen8 AI Processor 4K & 4K AI Upscaling & AI Picture Pro",
+      "Dolby Vision, HDR Dynamic Tone Mapping Pro, HFR 4K/2K, HGIG Mode",
+      "20W Dolby Atmos, AI Sound Pro, AI Acoustic Tuning, Clear Voice Pro & WiSA",
+      "webOS 25 Akıllı Platform (5 Yıl Boyunca 4 Büyük Güncelleme Garantili)",
+      "Wi-Fi 6, Bluetooth 5.3, Apple AirPlay 2, Google Cast, Matter & LG Zero Connect Desteği",
+      "Ultra Slim Şık Tasarım & Kare Merkez Ayak Standı"
     ],
     "tags": [
       "LG",
@@ -24912,162 +24916,130 @@ export const mockTVs: TVProduct[] = [
     ],
     "storeOffers": [
       {
-        "id": "hb-lg-75-75qned9ma6b-75-inc",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "orange",
-        "price": 65129,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kargo Bedava"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 480,
-        "url": "https://hepsiburada.com"
-      },
-      {
-        "id": "vatan-lg-75-75qned9ma6b-75-inc",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "blue",
-        "price": 64999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 320,
-        "url": "https://vatanbilgisayar.com"
-      },
-      {
-        "id": "mediamarkt-lg-75-75qned9ma6b-75-inc",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "red",
-        "price": 65324,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Ücretsiz Kurulum"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 290,
-        "url": "https://mediamarkt.com.tr"
-      },
-      {
-        "id": "teknosa-lg-75-75qned9ma6b-75-inc",
-        "storeName": "Teknosa",
-        "storeLogoColor": "orange",
-        "price": 65649,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Stokta Var"
-        ],
-        "sellerRating": 4.6,
-        "sellerReviews": 180,
-        "url": "https://teknosa.com"
-      },
-      {
-        "id": "n11-lg-75-75qned9ma6b-75-inc",
-        "storeName": "n11",
-        "storeLogoColor": "purple",
-        "price": 64869,
+        "id": "offer-75qned9ma6b-lg",
+        "storeName": "LG Online Store",
+        "storeLogoColor": "#a50034",
+        "price": 84999,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
-          "Kupon Fırsatı"
+          "Resmi Satıcı",
+          "Ücretsiz Montaj & Kargo",
+          "LG Türkiye Garantili"
         ],
-        "sellerRating": 4.5,
-        "sellerReviews": 210,
-        "url": "https://n11.com"
+        "sellerRating": 4.9,
+        "sellerReviews": 1250,
+        "url": "https://www.lg.com/tr/tvs/lg-75qned9ma6b"
       },
       {
-        "id": "trendyol-lg-75-75qned9ma6b-75-inc",
-        "storeName": "Trendyol",
-        "storeLogoColor": "orange",
-        "price": 64674,
+        "id": "offer-75qned9ma6b-mediamarkt",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 86499,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
+          "Ücretsiz Kargo",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3800,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "id": "offer-75qned9ma6b-teknosa",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#ff6600",
+        "price": 86999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Teknosa Güvencesi"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2400,
+        "url": "https://www.teknosa.com"
+      },
+      {
+        "id": "offer-75qned9ma6b-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 87499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
           "Hızlı Teslimat"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 610,
-        "url": "https://trendyol.com"
-      },
-      {
-        "id": "amazon-lg-75-75qned9ma6b-75-inc",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "slate",
-        "price": 64349,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 850,
-        "url": "https://amazon.com.tr"
-      },
-      {
-        "id": "pazarama-lg-75-75qned9ma6b-75-inc",
-        "storeName": "Pazarama",
-        "storeLogoColor": "blue",
-        "price": 65194,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Bonus Fırsatı"
-        ],
-        "sellerRating": 4.5,
-        "sellerReviews": 140,
-        "url": "https://pazarama.com"
+        "sellerReviews": 4100,
+        "url": "https://www.hepsiburada.com"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-02",
-        "price": 70849,
-        "store": "Vatan Bilgisayar"
+        "date": "2026-05-01",
+        "price": 92999,
+        "store": "LG Online Store"
       },
       {
-        "date": "2026-05",
-        "price": 68249,
-        "store": "Vatan Bilgisayar"
+        "date": "2026-06-15",
+        "price": 88999,
+        "store": "LG Online Store"
       },
       {
-        "date": "2026-08",
-        "price": 64999,
-        "store": "Vatan Bilgisayar"
+        "date": "2026-07-20",
+        "price": 86499,
+        "store": "LG Online Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 84999,
+        "store": "LG Online Store"
       }
     ],
     "specs": {
       "screenSizeInches": 75,
-      "displayTech": "QNED",
-      "resolution": "Ultra HD (4K)",
-      "refreshRateHz": 120,
+      "displayTech": "QNED Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
       "smartOs": "webOS 25",
       "audioPowerWatts": 20,
-      "hdrSupport": [
-        "Dolby Vision",
-        "HDR10 Pro",
-        "HLG"
-      ],
       "hdrFormats": [
         "Dolby Vision",
-        "HDR10 Pro",
+        "HDR10",
         "HLG"
       ],
       "gamingFeatures": [
-        "VRR",
+        "144Hz VRR",
         "ALLM",
+        "FreeSync Premium",
+        "HGIG Mode",
         "Game Optimizer",
-        "120Hz"
+        "QMS"
       ],
-      "hdmiPorts": 4,
+      "hdmiPorts": 3,
       "usbPorts": 2,
-      "energyClass": "E"
-    }
+      "energyClass": "G",
+      "processorEngine": "α9 (Alpha9) Gen8 AI Processor 4K",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": true,
+      "voiceControl": "LG ThinQ AI Sesli Komut & Magic Remote",
+      "wifiVersion": "Wi-Fi 6 (802.11 a/b/g/n/ac/ax)",
+      "bluetoothVersion": "Bluetooth 5.3",
+      "appleAirplay": true,
+      "dimensionsWithStand": "1677 x 1071 x 415 mm",
+      "weightKg": 38,
+      "bezelStyle": "Ultra Slim / Kare Merkez Ayak Standı"
+    },
+    "images": [
+      "/images/products/tvs/lg-75qned9ma6b-1.jpg",
+      "/images/products/tvs/lg-75qned9ma6b-2.jpg",
+      "/images/products/tvs/lg-75qned9ma6b-3.jpg",
+      "https://resim.epey.com/1020252/z_lg-75qned9ma6b-1.jpg"
+    ],
+    "isFeatured": true
   },
   {
     "id": "tv-lg-lg-86-86qned70a6a-86-inc",
