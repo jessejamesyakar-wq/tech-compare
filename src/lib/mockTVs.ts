@@ -19011,68 +19011,161 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-65qned70b6c",
     "slug": "lg-65qned70b6c",
-    "name": "LG 65QNED70B6C 65\" 165 Ekran 4K QNED webOS Smart TV",
+    "name": "LG 65QNED70B6C 65\" 4K Ultra HD QNED Mini LED Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://images.unsplash.com/photo-1571415060716-baff5f7179e6?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/products/tvs/lg-65qned70b6c-1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-65qned70b6c-1.jpg",
+      "/images/products/tvs/lg-65qned70b6c-2.jpg",
+      "/images/products/tvs/lg-65qned70b6c-3.jpg",
+      "https://resim.epey.com/1058479/z_lg-65qned70b6c-8.jpg"
     ],
     "rating": 4.6,
-    "reviewCount": 290,
+    "reviewCount": 32,
     "basePrice": 47439,
     "currency": "TL",
-    "releaseYear": 2025,
+    "releaseYear": 2026,
     "highlights": [
-      "65 inç QNED Panel",
-      "webOS 24",
-      "4K Ultra HD",
-      "20W Ses"
+      "65\" (164 cm) 4K Ultra HD Quantum Dot & NanoCell (QNED) Mini LED Ekran",
+      "α7 Gen9 AI Processor 4K & Resolution Upscaler (4K)",
+      "webOS 26 Akıllı Platform (5 Yıl Boyunca 4 Büyük Güncelleme Garantili)",
+      "20W AI Sound Pro, Clear Voice Pro, apt-X & LG Sound Sync",
+      "60Hz VRR, ALLM, HGIG Mode & Sihirli Kumanda (Magic Remote) Uyumu",
+      "Dahili Wi-Fi 5, Bluetooth 5.3, Apple AirPlay 2, Google Cast & Matter Uyumu",
+      "İkili Stant (V Ayaklı) Tasarım & SDR E Enerji Verimliliği"
     ],
     "specs": {
       "screenSizeInches": 65,
-      "displayTech": "QLED",
-      "resolution": "4K Ultra HD",
+      "displayTech": "QNED Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
       "refreshRateHz": 60,
-      "smartOs": "webOS",
+      "smartOs": "webOS 26",
       "audioPowerWatts": 20,
-      "hdrSupport": [
+      "hdrFormats": [
         "HDR10",
         "HLG"
       ],
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "HGIG Mode",
+        "Game Optimizer"
+      ],
       "hdmiPorts": 3,
-      "usbPorts": 2,
-      "energyClass": "F",
-      "processorEngine": "α5 AI Processor 4K Gen7"
+      "usbPorts": 1,
+      "energyClass": "E",
+      "processorEngine": "α7 Gen9 AI Processor 4K",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "LG ThinQ AI Sesli Komut & Magic Remote",
+      "wifiVersion": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+      "bluetoothVersion": "Bluetooth 5.3",
+      "appleAirplay": true,
+      "dimensionsWithStand": "1447 x 899 x 255 mm",
+      "weightKg": 14.1,
+      "bezelStyle": "Standart / İkili Stant V Ayak"
     },
     "storeOffers": [
       {
-        "id": "vatan-lg-65qned70b",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#E30613",
+        "id": "offer-65qned70b6c-idefix",
+        "storeName": "Idefix",
+        "storeLogoColor": "#0066cc",
         "price": 47439,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Popüler"
+          "Ücretsiz Kargo",
+          "marketkolik",
+          "En Uygun Fiyat"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1350,
-        "url": "#"
+        "sellerReviews": 920,
+        "url": "https://www.idefix.com/lg-65qned70b6c-65-inc-165-ekran-uydu-alicili-smart-4k-ai-sihirli-kumanda-60hz-vrr-webos26-ai-qned-mi-p-26036542?vendorId=3528"
+      },
+      {
+        "id": "offer-65qned70b6c-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 47819.2,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "indirimyağmuru"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1420,
+        "url": "https://www.hepsiburada.com/lg-65qned70b6c-65-165-ekran-uydu-alicili-4k-ultra-hd-smart-webos-miniled-tv-p-HBCV0000F1372G"
+      },
+      {
+        "id": "offer-65qned70b6c-a101",
+        "storeName": "A101 Online",
+        "storeLogoColor": "#00a0dc",
+        "price": 47999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 3200,
+        "url": "https://www.a101.com.tr/elektronik/lg-65qned70b6c-apez-65-4k-ultra-hd-qned-smart-tv-_p-26076413"
+      },
+      {
+        "id": "offer-65qned70b6c-pttavm",
+        "storeName": "PTT AVM",
+        "storeLogoColor": "#ffcc00",
+        "price": 48245.1,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "SmartEvim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 610,
+        "url": "https://www.pttavm.com/lg-65qned70b6c-65-165-ekran-uydu-alicili-4k-ultra-hd-smart-webos-miniled-tv-p-1491015808"
+      },
+      {
+        "id": "offer-65qned70b6c-mediamarkt",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 50899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.mediamarkt.com.tr"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-08-01",
-        "price": 49999,
-        "store": "Vatan Bilgisayar"
+        "date": "2026-06-01",
+        "price": 50999,
+        "store": "Idefix"
       },
       {
-        "date": "2026-08-20",
+        "date": "2026-07-01",
+        "price": 49499,
+        "store": "Idefix"
+      },
+      {
+        "date": "2026-07-25",
+        "price": 48299,
+        "store": "Idefix"
+      },
+      {
+        "date": "2026-08-01",
         "price": 47439,
-        "store": "Vatan Bilgisayar"
+        "store": "Idefix"
       }
     ]
   },
