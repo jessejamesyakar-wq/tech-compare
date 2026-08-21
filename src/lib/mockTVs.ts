@@ -24078,23 +24078,25 @@ export const mockTVs: TVProduct[] = [
     }
   },
   {
-    "id": "tv-lg-lg-85-85qned93a6a-85-inc",
-    "name": "LG 85QNED93A6A",
-    "slug": "lg-85-85qned93a6a-85-inc",
+    "id": "lg-85qned93a6a",
+    "name": "LG 85QNED93A6A 85\" 4K Ultra HD QNED Mini LED Smart TV (2025)",
+    "slug": "lg-85qned93a6a",
     "brand": "LG",
     "category": "tvs",
-    "basePrice": 94999,
+    "basePrice": 169999,
     "currency": "TL",
     "releaseYear": 2025,
     "isPopular": true,
-    "rating": 4.2,
-    "reviewCount": 352,
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.9,
+    "reviewCount": 45,
+    "image": "/images/products/tvs/lg-85qned93a6a-1.jpg",
     "highlights": [
-      "85\" QNED Mini-LED Ultra HD (4K) Ekran",
-      "webOS Akıllı TV İşletim Sistemi",
-      "Dolby Vision & Dolby Atmos Desteği",
-      "AI Sound Pro & Akıllı İşlemci"
+      "Dev 85\" (216 cm) 4K QNED Mini LED & Precision Dimming Pro",
+      "100/120/144 Hz Gerçek Panel Hızı (3840x2160p @ 144Hz Destekli)",
+      "α8 (Alpha8) Gen2 AI Processor 4K & Dynamic Tone Mapping Pro",
+      "Dolby Vision & Dolby Atmos 40W 2.2 Kanal Ses + 20W Dahili Subwoofer",
+      "webOS 25 Akıllı Sistem (5 Yıl Boyunca 4 Güncelleme Garantili)",
+      "4x HDMI 2.1 (4K @ 144Hz, eARC, QMS, ALLM), Wi-Fi 6, Bluetooth 5.3 & Zero Connect"
     ],
     "tags": [
       "LG",
@@ -24105,162 +24107,114 @@ export const mockTVs: TVProduct[] = [
     ],
     "storeOffers": [
       {
-        "id": "hb-lg-85-85qned93a6a-85-inc",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "orange",
-        "price": 95189,
+        "id": "offer-85qned93a6a-lg",
+        "storeName": "LG Resmi Mağaza",
+        "storeLogoColor": "#c40046",
+        "price": 169999,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Kargo Bedava"
+          "Ücretsiz Montaj & Kargo",
+          "Resmi LG Garantili",
+          "2025 Seri"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 480,
-        "url": "https://hepsiburada.com"
+        "sellerReviews": 950,
+        "url": "https://www.lg.com/tr"
       },
       {
-        "id": "vatan-lg-85-85qned93a6a-85-inc",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "blue",
-        "price": 94999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 320,
-        "url": "https://vatanbilgisayar.com"
-      },
-      {
-        "id": "mediamarkt-lg-85-85qned93a6a-85-inc",
+        "id": "offer-85qned93a6a-mediamarkt",
         "storeName": "MediaMarkt",
-        "storeLogoColor": "red",
-        "price": 95474,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Ücretsiz Kurulum"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 290,
-        "url": "https://mediamarkt.com.tr"
-      },
-      {
-        "id": "teknosa-lg-85-85qned93a6a-85-inc",
-        "storeName": "Teknosa",
-        "storeLogoColor": "orange",
-        "price": 95949,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Stokta Var"
-        ],
-        "sellerRating": 4.6,
-        "sellerReviews": 180,
-        "url": "https://teknosa.com"
-      },
-      {
-        "id": "n11-lg-85-85qned93a6a-85-inc",
-        "storeName": "n11",
-        "storeLogoColor": "purple",
-        "price": 94809,
+        "storeLogoColor": "#df0000",
+        "price": 172499,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
-          "Kupon Fırsatı"
+          "Mağazadan Teslim",
+          "Peşin Fiyatına Taksit"
         ],
-        "sellerRating": 4.5,
-        "sellerReviews": 210,
-        "url": "https://n11.com"
+        "sellerRating": 4.8,
+        "sellerReviews": 3400,
+        "url": "https://www.mediamarkt.com.tr"
       },
       {
-        "id": "trendyol-lg-85-85qned93a6a-85-inc",
-        "storeName": "Trendyol",
-        "storeLogoColor": "orange",
-        "price": 94524,
+        "id": "offer-85qned93a6a-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 174999,
         "inStock": true,
-        "shippingDays": 1,
+        "shippingDays": 2,
         "badges": [
+          "Distribütör Garantili",
           "Hızlı Teslimat"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 610,
-        "url": "https://trendyol.com"
-      },
-      {
-        "id": "amazon-lg-85-85qned93a6a-85-inc",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "slate",
-        "price": 94049,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 850,
-        "url": "https://amazon.com.tr"
-      },
-      {
-        "id": "pazarama-lg-85-85qned93a6a-85-inc",
-        "storeName": "Pazarama",
-        "storeLogoColor": "blue",
-        "price": 95284,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Bonus Fırsatı"
-        ],
-        "sellerRating": 4.5,
-        "sellerReviews": 140,
-        "url": "https://pazarama.com"
+        "sellerReviews": 2100,
+        "url": "https://www.vatanbilgisayar.com"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-02",
-        "price": 103549,
-        "store": "Vatan Bilgisayar"
+        "date": "2026-05-01",
+        "price": 179999,
+        "store": "LG Resmi Mağaza"
       },
       {
-        "date": "2026-05",
-        "price": 99749,
-        "store": "Vatan Bilgisayar"
+        "date": "2026-06-15",
+        "price": 174999,
+        "store": "LG Resmi Mağaza"
       },
       {
-        "date": "2026-08",
-        "price": 94999,
-        "store": "Vatan Bilgisayar"
+        "date": "2026-07-20",
+        "price": 172999,
+        "store": "LG Resmi Mağaza"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 169999,
+        "store": "LG Resmi Mağaza"
       }
     ],
     "specs": {
       "screenSizeInches": 85,
-      "displayTech": "QNED Mini-LED",
-      "resolution": "Ultra HD (4K)",
-      "refreshRateHz": 120,
+      "displayTech": "QNED Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
       "smartOs": "webOS 25",
       "audioPowerWatts": 40,
-      "hdrSupport": [
-        "Dolby Vision",
-        "HDR10 Pro",
-        "HLG"
-      ],
       "hdrFormats": [
         "Dolby Vision",
-        "HDR10 Pro",
+        "HDR10",
         "HLG"
       ],
       "gamingFeatures": [
-        "VRR",
+        "4K @ 144Hz VRR",
         "ALLM",
-        "Game Optimizer",
-        "120Hz"
+        "FreeSync Premium",
+        "HGIG Mode",
+        "Game Optimizer"
       ],
       "hdmiPorts": 4,
       "usbPorts": 2,
-      "energyClass": "E"
-    }
+      "energyClass": "G",
+      "processorEngine": "α8 Gen2 AI Processor 4K",
+      "audioChannels": "2.2 Kanal",
+      "dolbyAtmos": true,
+      "voiceControl": "LG ThinQ Sesli Komut & Magic Remote Uyumu",
+      "wifiVersion": "Wi-Fi 6 (802.11 ax)",
+      "bluetoothVersion": "Bluetooth 5.3",
+      "appleAirplay": true,
+      "dimensionsWithStand": "1890 x 1180 x 460 mm",
+      "weightKg": 36.9,
+      "bezelStyle": "Ultra Slim / Kare Metal Stant Ayak"
+    },
+    "images": [
+      "/images/products/tvs/lg-85qned93a6a-1.jpg",
+      "/images/products/tvs/lg-85qned93a6a-2.jpg",
+      "/images/products/tvs/lg-85qned93a6a-3.jpg",
+      "https://resim.epey.com/1025405/z_lg-85qned93a6a-8806096417096-7.jpg"
+    ],
+    "isFeatured": true
   },
   {
     "id": "tv-lg-lg-48-oled48c64la-48-inc",
