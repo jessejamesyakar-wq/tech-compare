@@ -4,68 +4,159 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "lg-55qned81b6a",
     "slug": "lg-55qned81b6a",
-    "name": "LG 55QNED81B6A 55\" 139 Ekran 4K QNED webOS Smart TV",
+    "name": "LG 55QNED81B6A 55\" 4K Ultra HD QNED Mini LED Smart TV (2026)",
     "brand": "LG",
     "category": "tvs",
     "isPopular": true,
-    "isFeatured": true,
-    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
+    "isFeatured": false,
+    "image": "/images/products/tvs/lg-55qned81b6a-1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tvs/lg-55qned81b6a-1.jpg",
+      "/images/products/tvs/lg-55qned81b6a-2.jpg",
+      "https://resim.epey.com/1059869/z_lg-55qned81b6a-1.jpg"
     ],
     "rating": 4.6,
-    "reviewCount": 370,
-    "basePrice": 44053.1,
+    "reviewCount": 38,
+    "basePrice": 44053,
     "currency": "TL",
-    "releaseYear": 2025,
+    "releaseYear": 2026,
     "highlights": [
-      "55 inç QNED Ekran",
-      "120Hz Yenileme Hızı",
-      "webOS 24",
-      "20W Ses"
+      "55\" 4K QNED Mini LED Ekran (Quantum Dot + NanoCell)",
+      "α7 Gen9 AI Processor 4K & 4K AI Upscaling",
+      "Dynamic QNED Color Pro & Precision / Local Dimming",
+      "webOS 26 Akıllı TV Sistemi (5 Yıl Boyunca 4 Büyük Güncelleme)",
+      "20W 2.0 Kanal AI Sound & Clear Voice & LG Sound Sync",
+      "Wi-Fi 5, Bluetooth 5.3 & Auracast & 3x HDMI 2.0 (eARC, VRR, ALLM)"
     ],
     "specs": {
       "screenSizeInches": 55,
-      "displayTech": "QLED",
-      "resolution": "4K Ultra HD",
-      "refreshRateHz": 120,
-      "smartOs": "webOS",
+      "displayTech": "QNED Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 26",
       "audioPowerWatts": 20,
-      "hdrSupport": [
+      "hdrFormats": [
         "HDR10",
         "HLG"
       ],
-      "hdmiPorts": 4,
-      "usbPorts": 2,
-      "energyClass": "E",
-      "processorEngine": "α8 AI Processor 4K"
+      "gamingFeatures": [
+        "VRR",
+        "ALLM",
+        "HGIG Mode",
+        "Game Optimizer"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 1,
+      "energyClass": "F",
+      "processorEngine": "α7 Gen9 AI Processor 4K",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": false,
+      "voiceControl": "LG ThinQ Sesli Komut & Magic Remote Uyumu",
+      "wifiVersion": "Wi-Fi 5 (802.11 ac)",
+      "bluetoothVersion": "Bluetooth 5.3",
+      "appleAirplay": true,
+      "dimensionsWithStand": "1236 x 797 x 302 mm",
+      "weightKg": 18.5,
+      "bezelStyle": "İnce Çerçeve / İkili V Stant Ayak"
     },
     "storeOffers": [
       {
-        "id": "vatan-lg-55qned81",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "#E30613",
-        "price": 44053.1,
+        "id": "offer-55qned81b6a-idefix",
+        "storeName": "Idefix",
+        "storeLogoColor": "#0055ff",
+        "price": 44053,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Stokta"
+          "Ücretsiz Kargo",
+          "En Ucuz Fiyat",
+          "2026 Seri"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1700,
-        "url": "#"
+        "sellerReviews": 1240,
+        "url": "https://www.idefix.com"
+      },
+      {
+        "id": "offer-55qned81b6a-n11",
+        "storeName": "n11",
+        "storeLogoColor": "#5a228b",
+        "price": 44712,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.n11.com"
+      },
+      {
+        "id": "offer-55qned81b6a-a101",
+        "storeName": "A101",
+        "storeLogoColor": "#00a3e0",
+        "price": 45999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 3100,
+        "url": "https://www.a101.com.tr"
+      },
+      {
+        "id": "offer-55qned81b6a-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 46999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat",
+          "Peşin Fiyatına Taksit"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4520,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-55qned81b6a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 47989,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yarın Kapında",
+          "Orijinal Ürün"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2800,
+        "url": "https://www.hepsiburada.com"
       }
     ],
     "priceHistory": [
       {
-        "date": "2026-08-01",
-        "price": 46999,
-        "store": "Vatan Bilgisayar"
+        "date": "2026-06-10",
+        "price": 47999,
+        "store": "Idefix"
       },
       {
-        "date": "2026-08-20",
-        "price": 44053.1,
-        "store": "Vatan Bilgisayar"
+        "date": "2026-07-01",
+        "price": 46499,
+        "store": "Idefix"
+      },
+      {
+        "date": "2026-07-25",
+        "price": 45200,
+        "store": "Idefix"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 44053,
+        "store": "Idefix"
       }
     ]
   },
