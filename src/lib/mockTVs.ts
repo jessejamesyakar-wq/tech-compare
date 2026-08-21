@@ -23142,191 +23142,6 @@ export const mockTVs: TVProduct[] = [
     }
   },
   {
-    "id": "tv-lg-lg-stanbyme-2-27lx6tdga-27-inc",
-    "name": "LG StanbyME 2 27LX6TDGA",
-    "slug": "lg-stanbyme-2-27lx6tdga-27-inc",
-    "brand": "LG",
-    "category": "tvs",
-    "basePrice": 44364,
-    "currency": "TL",
-    "releaseYear": 2025,
-    "isPopular": false,
-    "rating": 2,
-    "reviewCount": 172,
-    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
-    "highlights": [
-      "27\" LED QHD (2K) Ekran",
-      "webOS Akıllı TV İşletim Sistemi",
-      "Dolby Vision & Dolby Atmos Desteği",
-      "AI Sound Pro & Akıllı İşlemci"
-    ],
-    "tags": [
-      "LG",
-      "LED",
-      "27 İnç",
-      "4K",
-      "Smart TV"
-    ],
-    "storeOffers": [
-      {
-        "id": "hb-lg-stanbyme-2-27lx6tdga-27-inc",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "orange",
-        "price": 44453,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Kargo Bedava"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 480,
-        "url": "https://hepsiburada.com"
-      },
-      {
-        "id": "vatan-lg-stanbyme-2-27lx6tdga-27-inc",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "blue",
-        "price": 44364,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Satıcı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 320,
-        "url": "https://vatanbilgisayar.com"
-      },
-      {
-        "id": "mediamarkt-lg-stanbyme-2-27lx6tdga-27-inc",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "red",
-        "price": 44586,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Ücretsiz Kurulum"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 290,
-        "url": "https://mediamarkt.com.tr"
-      },
-      {
-        "id": "teknosa-lg-stanbyme-2-27lx6tdga-27-inc",
-        "storeName": "Teknosa",
-        "storeLogoColor": "orange",
-        "price": 44808,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Stokta Var"
-        ],
-        "sellerRating": 4.6,
-        "sellerReviews": 180,
-        "url": "https://teknosa.com"
-      },
-      {
-        "id": "n11-lg-stanbyme-2-27lx6tdga-27-inc",
-        "storeName": "n11",
-        "storeLogoColor": "purple",
-        "price": 44275,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Kupon Fırsatı"
-        ],
-        "sellerRating": 4.5,
-        "sellerReviews": 210,
-        "url": "https://n11.com"
-      },
-      {
-        "id": "trendyol-lg-stanbyme-2-27lx6tdga-27-inc",
-        "storeName": "Trendyol",
-        "storeLogoColor": "orange",
-        "price": 44142,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 610,
-        "url": "https://trendyol.com"
-      },
-      {
-        "id": "amazon-lg-stanbyme-2-27lx6tdga-27-inc",
-        "storeName": "Amazon.com.tr",
-        "storeLogoColor": "slate",
-        "price": 43920,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime Kargo"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 850,
-        "url": "https://amazon.com.tr"
-      },
-      {
-        "id": "pazarama-lg-stanbyme-2-27lx6tdga-27-inc",
-        "storeName": "Pazarama",
-        "storeLogoColor": "blue",
-        "price": 44497,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Bonus Fırsatı"
-        ],
-        "sellerRating": 4.5,
-        "sellerReviews": 140,
-        "url": "https://pazarama.com"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "2026-02",
-        "price": 48357,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "2026-05",
-        "price": 46582,
-        "store": "Vatan Bilgisayar"
-      },
-      {
-        "date": "2026-08",
-        "price": 44364,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screenSizeInches": 27,
-      "displayTech": "LED",
-      "resolution": "QHD (2K)",
-      "refreshRateHz": 60,
-      "smartOs": "webOS 25",
-      "audioPowerWatts": 10,
-      "hdrSupport": [
-        "Dolby Vision",
-        "HDR10 Pro",
-        "HLG"
-      ],
-      "hdrFormats": [
-        "Dolby Vision",
-        "HDR10 Pro",
-        "HLG"
-      ],
-      "gamingFeatures": [
-        "VRR",
-        "ALLM",
-        "Game Optimizer",
-        "120Hz"
-      ],
-      "hdmiPorts": 4,
-      "usbPorts": 2,
-      "energyClass": "E"
-    }
-  },
-  {
     "id": "tv-lg-lg-55-oled55g64lw-55-inc",
     "name": "LG OLED55G64LW",
     "slug": "lg-55-oled55g64lw-55-inc",
@@ -37767,6 +37582,183 @@ export const mockTVs: TVProduct[] = [
         "date": "2026-08-01",
         "price": 26999,
         "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-stanbyme-2-27lx6tdga",
+    "slug": "lg-stanbyme-2-27lx6tdga",
+    "name": "LG StanbyME 2 27LX6TDGA 27\" QHD (2K) Dokunmatik Taşınabilir webOS Smart Ekran (2025)",
+    "brand": "LG",
+    "category": "tvs",
+    "image": "/images/products/tvs/lg-stanbyme-2-27lx6tdga-1.jpg",
+    "images": [
+      "/images/products/tvs/lg-stanbyme-2-27lx6tdga-1.jpg",
+      "/images/products/tvs/lg-stanbyme-2-27lx6tdga-2.jpg",
+      "/images/products/tvs/lg-stanbyme-2-27lx6tdga-3.jpg",
+      "https://resim.epey.com/1023066/z_lg-stanbyme-27lx6tdga-20.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 42,
+    "basePrice": 42999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "27\" (68.6 cm) QHD (2K - 2560x1440) Yüksek Çözünürlüklü Dokunmatik Ekran",
+      "Dahili Şarj Edilebilir Batarya ile 4 Saate Kadar Kablosuz Kullanım",
+      "Tekerlekli ve Ayarlanabilir Ayaklı Stand (Yükseklik 180 mm, Pivot, Tilt & Swivel)",
+      "α8 (Alpha8) AI Processor & HDR Dynamic Tone Mapping Pro",
+      "Dolby Vision, HDR10 & HLG Format Desteği",
+      "10W 2.0 Kanal AI Sound, AI Acoustic Tuning & Dolby Atmos",
+      "webOS 24 Akıllı Platform (5 Yıl Boyunca 4 Büyük Güncelleme Garantisi)",
+      "Apple AirPlay 2, Apple HomeKit, Google Cast, NFC & Bluetooth 5.1"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "displayTech": "Dokunmatik QHD LED",
+      "resolution": "QHD 2K (2560x1440)",
+      "refreshRateHz": 60,
+      "smartOs": "webOS 24",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG",
+        "HDR Dynamic Tone Mapping Pro"
+      ],
+      "gamingFeatures": [
+        "Resolution Upscaler",
+        "Touch Screen"
+      ],
+      "hdmiPorts": 1,
+      "usbPorts": 3,
+      "energyClass": "F",
+      "processorEngine": "α8 (Alpha8) AI Processor",
+      "audioChannels": "2.0 Kanal",
+      "dolbyAtmos": true,
+      "voiceControl": "LG ThinQ AI & Sesli TV Kontrolü",
+      "wifiVersion": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+      "bluetoothVersion": "Bluetooth 5.1",
+      "appleAirplay": true,
+      "dimensionsWithStand": "623 x 1265 x 398 mm",
+      "weightKg": 15.2,
+      "bezelStyle": "Altın-Bej / Tekerlekli & Yükseklik/Pivot Ayarlı Stand"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-27lx6tdga-mediamarkt",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 42999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Yetkili Satıcı",
+          "En Uygun Fiyat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.mediamarkt.com.tr/tr/product/_lg-27lx6tdga-stanbyme-2-27-inc-68-ekran-smart-dokunmatik-tasinabilir-webos-qhd-lcd-ekran-1248777.html"
+      },
+      {
+        "id": "offer-27lx6tdga-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 42999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Vatan Bilgisayar"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1950,
+        "url": "https://www.trendyol.com/lg/stanbyme-2-27-inc-dokunmatik-dondurulebilir-tekerlekli-tasinabilir-ekran-4-saat-pil-omru-p-980809085?merchantId=624588&v=tek-ebat"
+      },
+      {
+        "id": "offer-27lx6tdga-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002b80",
+        "price": 42999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Mağazadan Teslim",
+          "Vatan Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 870,
+        "url": "https://www.vatanbilgisayar.com/lg-27lx6tdga-27-inc-69-cm-4k-led-evo-smart-tv-ai-sihirli-kumanda-webos25.html"
+      },
+      {
+        "id": "offer-27lx6tdga-pttavm",
+        "storeName": "PTT AVM",
+        "storeLogoColor": "#ffcc00",
+        "price": 47999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "LG BRANDSHOP"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 540,
+        "url": "https://www.pttavm.com/lg-stanbyme-2-27lx6tdga-27-70-ekran-webos-smart-dokunmatik-tasinabilir-led-tv-p-1492420113"
+      },
+      {
+        "id": "offer-27lx6tdga-n11",
+        "storeName": "n11",
+        "storeLogoColor": "#5c3ebc",
+        "price": 50599.08,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "yenidepoo"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 410,
+        "url": "https://www.n11.com/urun/lg-stanbyme-2-27lx6tdga-27-full-hd-webos-smart-standli-dokunmatik-led-tv-101724326?magaza=yenidepoo"
+      },
+      {
+        "id": "offer-27lx6tdga-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 51109.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo",
+          "gureller"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1250,
+        "url": "https://www.hepsiburada.com/lg-stanbyme-2-27lx6tdga-27-70-ekran-webos-smart-dokunmatik-tasinabilir-led-tv-p-HBCV00009VTD4W?magaza=gureller"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-08-06",
+        "price": 49999,
+        "store": "MediaMarkt"
+      },
+      {
+        "date": "2025-10-04",
+        "price": 46999,
+        "store": "MediaMarkt"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 44999,
+        "store": "MediaMarkt"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 42999,
+        "store": "MediaMarkt"
       }
     ]
   }
