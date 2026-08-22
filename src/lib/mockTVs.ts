@@ -83444,5 +83444,2232 @@ export const mockTVs: TVProduct[] = [
         "store": "Trendyol"
       }
     ]
+  },
+  {
+    "id": "onvo-50vq80f2fa",
+    "slug": "onvo-50vq80f2fa",
+    "name": "Onvo 50VQ80F2FA 50\" Full HD Smart LED TV (whaleOS)",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-50vq80f2fa-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-50vq80f2fa-1.jpg",
+      "https://resim.epey.com/1053003/z_onvo-50vq80f2fa-8682655704278-1.jpg"
+    ],
+    "rating": 4.4,
+    "reviewCount": 20,
+    "basePrice": 15240,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "50\" (126 cm) Full HD Canlı LED Panel",
+      "14W RMS Net Ses Çıkışı",
+      "whaleOS Akıllı İşletim Sistemi",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "LED",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 60,
+      "smartOs": "whaleOS",
+      "audioPowerWatts": 14,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 300,
+      "contrastRatio": "3500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%80 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Yok",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1120 x 705 x 240 mm",
+      "weightKg": 11.5,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-50vq80f2fa-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 15240,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 180,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-onvo-50vq80f2fa-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 15699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 140,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 16900,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 15900,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 15240,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-43vq80f2fa",
+    "slug": "onvo-43vq80f2fa",
+    "name": "Onvo 43VQ80F2FA 43\" Full HD Smart LED TV (whaleOS)",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-43vq80f2fa-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-43vq80f2fa-1.jpg",
+      "https://resim.epey.com/1028139/z_onvo-43vq80f2fa-1.jpg"
+    ],
+    "rating": 4.4,
+    "reviewCount": 24,
+    "basePrice": 11799,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "43\" (108 cm) Full HD Ekran",
+      "16W RMS Net Ses Çıkışı",
+      "whaleOS Akıllı İşletim Sistemi",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 60,
+      "smartOs": "whaleOS",
+      "audioPowerWatts": 16,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 300,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%80 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Yok",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "965 x 610 x 200 mm",
+      "weightKg": 7.5,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-43vq80f2fa-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 11799,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 210,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 13200,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 12400,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11799,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-40vq80f3fa",
+    "slug": "onvo-40vq80f3fa",
+    "name": "Onvo 40VQ80F3FA 40\" Full HD Smart LED TV (whaleOS)",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-40vq80f3fa-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-40vq80f3fa-1.jpg",
+      "https://resim.epey.com/1065580/z_onvo-40vq80f3fa-1.jpg"
+    ],
+    "rating": 4.4,
+    "reviewCount": 18,
+    "basePrice": 10099,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "40\" (102 cm) Full HD Canlı LED Panel",
+      "14W RMS Net Ses Çıkışı",
+      "whaleOS Akıllı İşletim Sistemi",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 40,
+      "displayTech": "LED",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 60,
+      "smartOs": "whaleOS",
+      "audioPowerWatts": 14,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 280,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%80 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Yok",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "900 x 570 x 190 mm",
+      "weightKg": 6.8,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-40vq80f3fa-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 10099,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 160,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 11500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 10800,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 10099,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-40vq80f2fa",
+    "slug": "onvo-40vq80f2fa",
+    "name": "Onvo 40VQ80F2FA 40\" Full HD Smart LED TV (whaleOS)",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-40vq80f2fa-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-40vq80f2fa-1.jpg",
+      "https://resim.epey.com/1034342/z_onvo-40vq80f2fa-1.jpg"
+    ],
+    "rating": 4.4,
+    "reviewCount": 22,
+    "basePrice": 9858.7,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "40\" (102 cm) Full HD Ekran",
+      "14W RMS Net Ses",
+      "whaleOS Akıllı TV Platformu",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 40,
+      "displayTech": "LED",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 60,
+      "smartOs": "whaleOS",
+      "audioPowerWatts": 14,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 280,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%80 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Yok",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "900 x 570 x 190 mm",
+      "weightKg": 6.8,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-40vq80f2fa-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 9858.7,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 11000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 10400,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9858,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-32vq80f2ha",
+    "slug": "onvo-32vq80f2ha",
+    "name": "Onvo 32VQ80F2HA 32\" HD Ready Smart LED TV (whaleOS)",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-32vq80f2ha-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-32vq80f2ha-1.jpg",
+      "https://resim.epey.com/1042219/z_onvo-32vq80f2ha-8682655704124-1.jpg"
+    ],
+    "rating": 4.3,
+    "reviewCount": 35,
+    "basePrice": 7299,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "32\" (80 cm) HD Ready Canlı LED Panel",
+      "14W RMS Net Ses Çıkışı",
+      "whaleOS Akıllı İşletim Sistemi",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "HD Ready (1366x768)",
+      "refreshRateHz": 60,
+      "smartOs": "whaleOS",
+      "audioPowerWatts": 14,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 250,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%75 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Yok",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "730 x 475 x 180 mm",
+      "weightKg": 4.5,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-32vq80f2ha-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 7299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 420,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-onvo-32vq80f2ha-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 7599,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 310,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 8200,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7800,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7299,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-32vq80f3ha",
+    "slug": "onvo-32vq80f3ha",
+    "name": "Onvo 32VQ80F3HA 32\" HD Ready Smart LED TV (whaleOS)",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-32vq80f3ha-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-32vq80f3ha-1.jpg",
+      "https://resim.epey.com/1064990/z_onvo-32vq80f3ha-2.jpg"
+    ],
+    "rating": 4.3,
+    "reviewCount": 20,
+    "basePrice": 8299,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "32\" (80 cm) HD Ready LED Ekran",
+      "14W RMS Net Ses Çıkışı",
+      "whaleOS Akıllı İşletim Sistemi",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "HD Ready (1366x768)",
+      "refreshRateHz": 60,
+      "smartOs": "whaleOS",
+      "audioPowerWatts": 14,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 250,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%75 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Yok",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "730 x 475 x 180 mm",
+      "weightKg": 4.5,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-32vq80f3ha-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 8299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 170,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 9200,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 8700,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8299,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-43vl80f3fa",
+    "slug": "onvo-43vl80f3fa",
+    "name": "Onvo 43VL80F3FA 43\" Full HD Smart LED TV (whaleOS)",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-43vl80f3fa-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-43vl80f3fa-1.jpg",
+      "https://resim.epey.com/1030122/z_onvo-43vl80f3fa-1.jpg"
+    ],
+    "rating": 4.3,
+    "reviewCount": 16,
+    "basePrice": 11799,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "43\" (108 cm) Full HD Ekran",
+      "14W RMS Net Ses Çıkışı",
+      "whaleOS Akıllı TV Deneyimi",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 60,
+      "smartOs": "whaleOS",
+      "audioPowerWatts": 14,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 280,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%80 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Yok",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "965 x 610 x 200 mm",
+      "weightKg": 7.5,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-43vl80f3fa-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 11799,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Türkiye Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 120,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 13000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 12400,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11799,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "onvo-40vl80f2fa",
+    "slug": "onvo-40vl80f2fa",
+    "name": "Onvo 40VL80F2FA 40\" Full HD Smart LED TV (whaleOS)",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-40vl80f2fa-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-40vl80f2fa-1.jpg",
+      "https://resim.epey.com/1028140/z_onvo-40vl80f2fa-8682655703776-1.jpg"
+    ],
+    "rating": 4.3,
+    "reviewCount": 19,
+    "basePrice": 9834.3,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "40\" (102 cm) Full HD Canlı LED Panel",
+      "14W RMS Net Ses Çıkışı",
+      "whaleOS Akıllı İşletim Sistemi",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 40,
+      "displayTech": "LED",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 60,
+      "smartOs": "whaleOS",
+      "audioPowerWatts": 14,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 280,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%80 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Yok",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "900 x 570 x 190 mm",
+      "weightKg": 6.8,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-40vl80f2fa-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 9834.3,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 180,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 11000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 10400,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9834,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-32ovprohf9000h",
+    "slug": "onvo-32ovprohf9000h",
+    "name": "Onvo 32OVPROHF9000H 32\" HD Ready Smart Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-32ovprohf9000h-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-32ovprohf9000h-1.jpg",
+      "https://resim.epey.com/1017042/z_onvo-32ovprohf9000h-8682655703288-1.jpg"
+    ],
+    "rating": 4.4,
+    "reviewCount": 14,
+    "basePrice": 23999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "32\" (80 cm) Taşınabilir Pro Smart TV",
+      "20W RMS Güçlü Ses Çıkışı & Dolby Audio",
+      "Android TV Platformu & Google Asistan",
+      "Dahili Wi-Fi & Bluetooth & Dokunmatik / Stand Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "HD Ready (1366x768)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 300,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%80 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "730 x 480 x 200 mm",
+      "weightKg": 8.5,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Beyaz/Gri Özel Stand Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-32ovprohf9000h-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 23999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Türkiye Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 90,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 26000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 24900,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 23999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "onvo-40ovf4000af",
+    "slug": "onvo-40ovf4000af",
+    "name": "Onvo 40OVF4000AF 40\" Full HD Smart Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-40ovf4000af-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-40ovf4000af-1.jpg",
+      "https://resim.epey.com/1007582/z_onvo-40ovf4000af-1.jpg"
+    ],
+    "rating": 4.3,
+    "reviewCount": 17,
+    "basePrice": 12777.5,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "40\" (102 cm) Full HD Ekran",
+      "16W RMS Net Ses Çıkışı",
+      "Android TV Platformu & Google Asistan",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 40,
+      "displayTech": "LED",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 16,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 280,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%80 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "900 x 570 x 190 mm",
+      "weightKg": 6.8,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-40ovf4000af-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 12777.5,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 130,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 14000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 13200,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12777,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-32vl80f2ha",
+    "slug": "onvo-32vl80f2ha",
+    "name": "Onvo 32VL80F2HA 32\" HD Ready Smart LED TV (whaleOS)",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-32vl80f2ha-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-32vl80f2ha-1.jpg",
+      "https://resim.epey.com/1028142/z_onvo-32vl80f2ha-1.jpg"
+    ],
+    "rating": 4.3,
+    "reviewCount": 22,
+    "basePrice": 7916.7,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "32\" (80 cm) HD Ready LED Ekran",
+      "16W RMS Net Ses Çıkışı",
+      "whaleOS Akıllı İşletim Sistemi",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "HD Ready (1366x768)",
+      "refreshRateHz": 60,
+      "smartOs": "whaleOS",
+      "audioPowerWatts": 16,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 250,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%75 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Yok",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "730 x 475 x 180 mm",
+      "weightKg": 4.5,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-32vl80f2ha-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 7916.7,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 190,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 8900,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 8300,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7916,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-40ovf6000f",
+    "slug": "onvo-40ovf6000f",
+    "name": "Onvo 40OVF6000F 40\" Full HD Smart Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-40ovf6000f-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-40ovf6000f-1.jpg",
+      "https://resim.epey.com/1023090/z_onvo-40ovf6000f-8682655704001-1.jpg"
+    ],
+    "rating": 4.3,
+    "reviewCount": 15,
+    "basePrice": 10399,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "40\" (102 cm) Full HD Ekran",
+      "14W RMS Net Ses Çıkışı",
+      "Android TV Platformu & Google Asistan",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 40,
+      "displayTech": "LED",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 14,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 280,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%80 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "900 x 570 x 190 mm",
+      "weightKg": 6.8,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-40ovf6000f-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 10399,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Türkiye Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 110,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 11800,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 10900,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 10399,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "onvo-32vl80f3ha",
+    "slug": "onvo-32vl80f3ha",
+    "name": "Onvo 32VL80F3HA 32\" HD Ready Smart LED TV (whaleOS)",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-32vl80f3ha-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-32vl80f3ha-1.jpg",
+      "https://resim.epey.com/1034343/z_onvo-32vl80f3ha-8682655703813-2.jpg"
+    ],
+    "rating": 4.3,
+    "reviewCount": 16,
+    "basePrice": 8899,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "32\" (80 cm) HD Ready LED Ekran",
+      "16W RMS Net Ses Çıkışı",
+      "whaleOS Akıllı İşletim Sistemi",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "HD Ready (1366x768)",
+      "refreshRateHz": 60,
+      "smartOs": "whaleOS",
+      "audioPowerWatts": 16,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 250,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%75 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Yok",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "730 x 475 x 180 mm",
+      "weightKg": 4.5,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-32vl80f3ha-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 8899,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Türkiye Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 130,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 9900,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 9300,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8899,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "onvo-32ov6001h",
+    "slug": "onvo-32ov6001h",
+    "name": "Onvo 32OV6001H 32\" HD Ready Smart Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-32ov6001h-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-32ov6001h-1.jpg",
+      "https://resim.epey.com/965031/z_onvo-32ov6001h-1.jpg"
+    ],
+    "rating": 4.3,
+    "reviewCount": 25,
+    "basePrice": 11500,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "32\" (80 cm) HD Ready LED Ekran",
+      "20W RMS Ses & Dolby Audio",
+      "Android TV Platformu",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "HD Ready (1366x768)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 260,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%75 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "730 x 475 x 180 mm",
+      "weightKg": 4.5,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-32ov6001h-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 11500,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 210,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 12900,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 12100,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11500,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-24vl80f2ha",
+    "slug": "onvo-24vl80f2ha",
+    "name": "Onvo 24VL80F2HA 24\" HD Ready Smart LED TV (whaleOS)",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-24vl80f2ha-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-24vl80f2ha-1.jpg",
+      "https://resim.epey.com/1057750/z_onvo-24vl80f2ha-1.jpg"
+    ],
+    "rating": 4.2,
+    "reviewCount": 18,
+    "basePrice": 7175.27,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "24\" (60 cm) Kompakt HD Ready LED Ekran",
+      "10W RMS Net Ses Çıkışı",
+      "whaleOS Akıllı TV Platformu",
+      "Mutfak ve Karavan İçin İdeal Boyut"
+    ],
+    "specs": {
+      "screenSizeInches": 24,
+      "displayTech": "LED",
+      "resolution": "HD Ready (1366x768)",
+      "refreshRateHz": 60,
+      "smartOs": "whaleOS",
+      "audioPowerWatts": 10,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "E",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 220,
+      "contrastRatio": "2500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%70 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Yok",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "550 x 365 x 150 mm",
+      "weightKg": 3.2,
+      "vesaMount": "75x75 mm",
+      "bezelStyle": "Siyah Kompakt Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-24vl80f2ha-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 7175.27,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 150,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 8100,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7600,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7175,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-24ovf6001h",
+    "slug": "onvo-24ovf6001h",
+    "name": "Onvo 24OVF6001H 24\" HD Ready Smart Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-24ovf6001h-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-24ovf6001h-1.jpg",
+      "https://resim.epey.com/1010276/z_onvo-24ovf6001h-8682655703691-1.jpg"
+    ],
+    "rating": 4.2,
+    "reviewCount": 20,
+    "basePrice": 7003,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "24\" (60 cm) HD Ready LED Ekran",
+      "10W RMS Net Ses Çıkışı",
+      "Android TV Platformu",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 24,
+      "displayTech": "LED",
+      "resolution": "HD Ready (1366x768)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 10,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "E",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 220,
+      "contrastRatio": "2500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%70 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "550 x 365 x 150 mm",
+      "weightKg": 3.2,
+      "vesaMount": "75x75 mm",
+      "bezelStyle": "Siyah Kompakt Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-24ovf6001h-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 7003,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 180,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 7900,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7400,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7003,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-32ovm6500x",
+    "slug": "onvo-32ovm6500x",
+    "name": "Onvo 32OVM6500X 32\" Full HD Smart Android Taşınabilir Stand TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-32ovm6500x-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-32ovm6500x-1.jpg",
+      "https://resim.epey.com/1045849/z_onvo-32ovm6500x-1.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 30,
+    "basePrice": 25999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "32\" (80 cm) Full HD Taşınabilir Mobil Stand TV",
+      "Tekerlekli ve Yüksekliği Ayarlanabilir Özel Stand",
+      "Dokunmatik Ekran & Dahili Batarya",
+      "Android TV Platformu & Kablosuz Özgürlük"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 300,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 sRGB",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "735 x 1200 x 400 mm",
+      "weightKg": 14,
+      "vesaMount": "Özel Stand",
+      "bezelStyle": "Beyaz Modern Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-32ovm6500x-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 25999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-onvo-32ovm6500x-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 26499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 28900,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 27200,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 25999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-32ovf4000ah",
+    "slug": "onvo-32ovf4000ah",
+    "name": "Onvo 32OVF4000AH 32\" HD Ready Smart Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-32ovf4000ah-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-32ovf4000ah-1.jpg",
+      "https://resim.epey.com/1009405/z_onvo-32ovf4000ah-1.jpg"
+    ],
+    "rating": 4.2,
+    "reviewCount": 16,
+    "basePrice": 8690.5,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "32\" (80 cm) HD Ready LED Panel",
+      "12W RMS Net Ses Çıkışı",
+      "Android TV Platformu",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "HD Ready (1366x768)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 12,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 250,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%75 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "730 x 475 x 180 mm",
+      "weightKg": 4.5,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-32ovf4000ah-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 8690.5,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 120,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 9700,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 9100,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8690,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-100ovf9001uq",
+    "slug": "onvo-100ovf9001uq",
+    "name": "Onvo 100OVF9001UQ 100\" 4K Ultra HD Smart Frameless LED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-100ovf9001uq-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-100ovf9001uq-1.jpg",
+      "https://resim.epey.com/1005549/z_onvo-100ovf9001uq-2.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 15,
+    "basePrice": 79999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "100\" (254 cm) Devasa 4K Ultra HD LED Panel",
+      "20W RMS Güçlü Ses & Dolby Audio",
+      "HDR10 & HLG & Android TV Platformu",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 100,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 420,
+      "contrastRatio": "4500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "2230 x 1340 x 430 mm",
+      "weightKg": 60,
+      "vesaMount": "800x400 mm",
+      "bezelStyle": "Frameless Çerçevesiz"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-100ovf9001uq-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 79999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Türkiye Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 85,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 88000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 84000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 79999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "onvo-100ovf9000uq",
+    "slug": "onvo-100ovf9000uq",
+    "name": "Onvo 100OVF9000UQ 100\" 4K Ultra HD Smart Frameless LED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-100ovf9000uq-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-100ovf9000uq-1.jpg",
+      "https://resim.epey.com/966305/z_onvo-100ovf9000-8682655702878-1.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 12,
+    "basePrice": 78999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "100\" (254 cm) Dev 4K Ultra HD Panel",
+      "20W RMS Güçlü Ses & Dolby Audio",
+      "Android TV Platformu & Google Asistan",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 100,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 420,
+      "contrastRatio": "4500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "2230 x 1340 x 430 mm",
+      "weightKg": 60,
+      "vesaMount": "800x400 mm",
+      "bezelStyle": "Frameless Çerçevesiz"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-100ovf9000uq-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 78999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Türkiye Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 70,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 87000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 83000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 78999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "onvo-85ovf9001uq",
+    "slug": "onvo-85ovf9001uq",
+    "name": "Onvo 85OVF9001UQ 85\" 4K Ultra HD Smart Frameless LED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-85ovf9001uq-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-85ovf9001uq-1.jpg",
+      "https://resim.epey.com/1024707/z_onvo-85ovf9001uq-1.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 22,
+    "basePrice": 46999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "85\" (216 cm) Dev 4K Ultra HD Panel",
+      "16W RMS Net Ses Çıkışı",
+      "HDR10 & HLG & Android TV Platformu",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 16,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1895 x 1150 x 380 mm",
+      "weightKg": 37,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "Frameless Çerçevesiz"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-85ovf9001uq-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 46999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Türkiye Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 130,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 51000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 48500,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 46999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "onvo-85ovf9000uq",
+    "slug": "onvo-85ovf9000uq",
+    "name": "Onvo 85OVF9000UQ 85\" 4K Ultra HD Smart Frameless LED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-85ovf9000uq-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-85ovf9000uq-1.jpg",
+      "https://resim.epey.com/992045/z_onvo-85ovf9000uq-8682655703257-1.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 20,
+    "basePrice": 45999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "85\" (216 cm) Dev 4K Ultra HD Ekran",
+      "16W RMS Net Ses Çıkışı",
+      "Android TV Platformu & Google Asistan",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 16,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1895 x 1150 x 380 mm",
+      "weightKg": 37,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "Frameless Çerçevesiz"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-85ovf9000uq-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 45999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Türkiye Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 120,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 50000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 47500,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 45999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "onvo-85ovf9000u",
+    "slug": "onvo-85ovf9000u",
+    "name": "Onvo 85OVF9000U 85\" 4K Ultra HD Smart LED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-85ovf9000u-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-85ovf9000u-1.jpg",
+      "https://resim.epey.com/937804/z_onvo-85ovf9000u-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 18,
+    "basePrice": 44999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "85\" (216 cm) Dev 4K Ultra HD Ekran",
+      "20W RMS Güçlü Ses & Dolby Audio",
+      "Android TV Platformu",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1895 x 1150 x 380 mm",
+      "weightKg": 37,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-85ovf9000u-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 44999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Türkiye Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 110,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 49000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 46500,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 44999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "onvo-55vl90n4ua",
+    "slug": "onvo-55vl90n4ua",
+    "name": "Onvo 55VL90N4UA 55\" 4K Ultra HD Smart LED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-55vl90n4ua-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-55vl90n4ua-1.jpg",
+      "https://resim.epey.com/1048880/z_onvo-55vl90n4ua-8682655704087-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 22,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (139 cm) 4K Ultra HD LED Panel",
+      "20W RMS Net Ses & Dolby Audio",
+      "Android TV Platformu",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1230 x 775 x 260 mm",
+      "weightKg": 14.5,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-55vl90n4ua-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Türkiye Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 140,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 21000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 19800,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
   }
 ];
