@@ -48515,5 +48515,1960 @@ export const mockLaptops: LaptopProduct[] = [
         "store": "Hepsiburada"
       }
     ]
+  },
+  {
+    "id": "hp-omen-gaming-16-ap00014nta56-c12cjeaa56",
+    "slug": "hp-omen-gaming-16-ap00014nta56-c12cjeaa56",
+    "name": "HP OMEN Gaming 16-ap00014nta56 (C12CJEAA56)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Premium Oyuncu & Performans Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta56-c12cjeaa56-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-16-ap00014nta56-c12cjeaa56-1.jpg",
+      "https://resim.epey.com/1042868/z_hp-omen-gaming-16-ap00014nta56-c12cjeaa56-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 34,
+    "basePrice": 164349.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "AMD Ryzen 9 8940HX Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "64GB RAM & 2TB NVMe SSD",
+      "HP OMEN Tempest Cooling Gelişmiş Sıvı Metal Soğutma Sistemi"
+    ],
+    "specs": {
+      "productType": "Premium Oyuncu & Performans Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek (Zen 4 5.3 GHz)",
+      "npuTops": 16,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 6,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD 100W)",
+        "2x USB 3.2 Gen 1 Type-A (HP Uyku ve Şarj)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.37,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Alaşımlı Kasa (Shadow Black)",
+      "keyboard": "OMEN 4 Bölgeli / RGB Bağımsız Tuş Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Sıralı Mikrofon",
+      "audio": "HyperX / Bang & Olufsen Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta56-c12cjeaa56-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 164349.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 6100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta56-c12cjeaa56-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 165993,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 172567,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 167636,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 164349.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-16-ap00014nta60-c12cjeaa60",
+    "slug": "hp-omen-gaming-16-ap00014nta60-c12cjeaa60",
+    "name": "HP OMEN Gaming 16-ap00014nta60 (C12CJEAA60)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Premium Oyuncu & Performans Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta60-c12cjeaa60-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-16-ap00014nta60-c12cjeaa60-1.jpg",
+      "https://resim.epey.com/1042881/z_hp-omen-gaming-16-ap00014nta60-c12cjeaa60-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 19,
+    "basePrice": 161046,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "AMD Ryzen 9 8940HX Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "64GB RAM & 2TB NVMe SSD",
+      "HP OMEN Tempest Cooling Gelişmiş Sıvı Metal Soğutma Sistemi"
+    ],
+    "specs": {
+      "productType": "Premium Oyuncu & Performans Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek (Zen 4 5.3 GHz)",
+      "npuTops": 16,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 6,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD 100W)",
+        "2x USB 3.2 Gen 1 Type-A (HP Uyku ve Şarj)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.37,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Alaşımlı Kasa (Shadow Black)",
+      "keyboard": "OMEN 4 Bölgeli / RGB Bağımsız Tuş Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Sıralı Mikrofon",
+      "audio": "HyperX / Bang & Olufsen Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta60-c12cjeaa60-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 161046,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 6100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta60-c12cjeaa60-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 162656,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 169098,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 164267,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 161046,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-16-ap00014nta36-c12cjeaa36",
+    "slug": "hp-omen-gaming-16-ap00014nta36-c12cjeaa36",
+    "name": "HP OMEN Gaming 16-ap00014nta36 (C12CJEAA36)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Premium Oyuncu & Performans Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta36-c12cjeaa36-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-16-ap00014nta36-c12cjeaa36-1.jpg",
+      "https://resim.epey.com/1042848/z_hp-omen-gaming-16-ap00014nta36-c12cjeaa36-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 86,
+    "reviewCount": 18,
+    "basePrice": 151049.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "AMD Ryzen 9 8940HX Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "64GB RAM & 2TB NVMe SSD",
+      "HP OMEN Tempest Cooling Gelişmiş Sıvı Metal Soğutma Sistemi"
+    ],
+    "specs": {
+      "productType": "Premium Oyuncu & Performans Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek (Zen 4 5.3 GHz)",
+      "npuTops": 16,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 6,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD 100W)",
+        "2x USB 3.2 Gen 1 Type-A (HP Uyku ve Şarj)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.37,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Alaşımlı Kasa (Shadow Black)",
+      "keyboard": "OMEN 4 Bölgeli / RGB Bağımsız Tuş Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Sıralı Mikrofon",
+      "audio": "HyperX / Bang & Olufsen Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta36-c12cjeaa36-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 151049.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 6100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta36-c12cjeaa36-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 152560,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 158602,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 154070,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 151049.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-16-ap00014nta40-c12cjeaa40",
+    "slug": "hp-omen-gaming-16-ap00014nta40-c12cjeaa40",
+    "name": "HP OMEN Gaming 16-ap00014nta40 (C12CJEAA40)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Premium Oyuncu & Performans Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta40-c12cjeaa40-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-16-ap00014nta40-c12cjeaa40-1.jpg",
+      "https://resim.epey.com/1045760/z_hp-omen-gaming-16-ap00014nta40-c12cjeaa40-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 85,
+    "reviewCount": 31,
+    "basePrice": 145978,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "AMD Ryzen 9 8940HX Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "64GB RAM & 2TB NVMe SSD",
+      "HP OMEN Tempest Cooling Gelişmiş Sıvı Metal Soğutma Sistemi"
+    ],
+    "specs": {
+      "productType": "Premium Oyuncu & Performans Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek (Zen 4 5.3 GHz)",
+      "npuTops": 16,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 6,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD 100W)",
+        "2x USB 3.2 Gen 1 Type-A (HP Uyku ve Şarj)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.37,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Alaşımlı Kasa (Shadow Black)",
+      "keyboard": "OMEN 4 Bölgeli / RGB Bağımsız Tuş Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Sıralı Mikrofon",
+      "audio": "HyperX / Bang & Olufsen Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta40-c12cjeaa40-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 145978,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 6100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta40-c12cjeaa40-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 147438,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 153277,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 148898,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 145978,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-16-ap00014nta16-c12cjeaa16",
+    "slug": "hp-omen-gaming-16-ap00014nta16-c12cjeaa16",
+    "name": "HP OMEN Gaming 16-ap00014nta16 (C12CJEAA16)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Premium Oyuncu & Performans Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta16-c12cjeaa16-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-16-ap00014nta16-c12cjeaa16-1.jpg",
+      "https://resim.epey.com/1042804/z_hp-omen-gaming-16-ap00014nta16-c12cjeaa16-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 85,
+    "reviewCount": 39,
+    "basePrice": 144094,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "AMD Ryzen 9 8940HX Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "64GB RAM & 2TB NVMe SSD",
+      "HP OMEN Tempest Cooling Gelişmiş Sıvı Metal Soğutma Sistemi"
+    ],
+    "specs": {
+      "productType": "Premium Oyuncu & Performans Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek (Zen 4 5.3 GHz)",
+      "npuTops": 16,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 6,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD 100W)",
+        "2x USB 3.2 Gen 1 Type-A (HP Uyku ve Şarj)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.37,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Alaşımlı Kasa (Shadow Black)",
+      "keyboard": "OMEN 4 Bölgeli / RGB Bağımsız Tuş Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Sıralı Mikrofon",
+      "audio": "HyperX / Bang & Olufsen Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta16-c12cjeaa16-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 144094,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 6100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta16-c12cjeaa16-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 145535,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 151299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 146976,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 144094,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-16-ap00014nta55-c12cjeaa55",
+    "slug": "hp-omen-gaming-16-ap00014nta55-c12cjeaa55",
+    "name": "HP OMEN Gaming 16-ap00014nta55 (C12CJEAA55)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Premium Oyuncu & Performans Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta55-c12cjeaa55-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-16-ap00014nta55-c12cjeaa55-1.jpg",
+      "https://resim.epey.com/1045763/z_hp-omen-gaming-16-ap00014nta55-c12cjeaa55-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 85,
+    "reviewCount": 29,
+    "basePrice": 135618,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "AMD Ryzen 9 8940HX Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "32GB RAM & 1TB NVMe SSD",
+      "HP OMEN Tempest Cooling Gelişmiş Sıvı Metal Soğutma Sistemi"
+    ],
+    "specs": {
+      "productType": "Premium Oyuncu & Performans Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek (Zen 4 5.3 GHz)",
+      "npuTops": 16,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 6,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD 100W)",
+        "2x USB 3.2 Gen 1 Type-A (HP Uyku ve Şarj)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.37,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Alaşımlı Kasa (Shadow Black)",
+      "keyboard": "OMEN 4 Bölgeli / RGB Bağımsız Tuş Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Sıralı Mikrofon",
+      "audio": "HyperX / Bang & Olufsen Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta55-c12cjeaa55-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 135618,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 6100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta55-c12cjeaa55-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 136974,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 142399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 138330,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 135618,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-max-gaming-16-ah0022nt-b88f2ea",
+    "slug": "hp-omen-max-gaming-16-ah0022nt-b88f2ea",
+    "name": "HP OMEN MAX Gaming 16-ah0022nt (B88F2EA)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Ultra Flagship Amiral Gemisi Oyuncu Laptopu",
+    "image": "/images/products/laptops/hp-omen-max-gaming-16-ah0022nt-b88f2ea-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-max-gaming-16-ah0022nt-b88f2ea-1.jpg",
+      "https://resim.epey.com/1005006/z_hp-omen-max-gaming-16-ah0022nt-b88f2ea-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 85,
+    "reviewCount": 25,
+    "basePrice": 263223.7,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 400 Nit G-Sync IPS)",
+      "Intel Core Ultra 9 275HX Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 4090 Laptop (16GB GDDR6 - 175W)",
+      "32GB RAM & 2TB NVMe SSD",
+      "HP OMEN Tempest Cooling Gelişmiş Sıvı Metal Soğutma Sistemi"
+    ],
+    "specs": {
+      "productType": "Ultra Flagship Amiral Gemisi Oyuncu Laptopu",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 24 İzlek)",
+      "npuTops": 13,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4090 Laptop (16GB GDDR6 - 175W)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 400 Nit G-Sync IPS)",
+      "screenBrightnessNits": 400,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 6,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD 100W)",
+        "2x USB 3.2 Gen 1 Type-A (HP Uyku ve Şarj)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 24.9,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Alaşımlı Kasa (Shadow Black)",
+      "keyboard": "OMEN 4 Bölgeli / RGB Bağımsız Tuş Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Sıralı Mikrofon",
+      "audio": "HyperX / Bang & Olufsen Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-max-gaming-16-ah0022nt-b88f2ea-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 263223.7,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 6100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-max-gaming-16-ah0022nt-b88f2ea-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 265856,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 276385,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 268488,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 263223.7,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-16-ap00014nta76-c12cjeaa76",
+    "slug": "hp-omen-gaming-16-ap00014nta76-c12cjeaa76",
+    "name": "HP OMEN Gaming 16-ap00014nta76 (C12CJEAA76)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Premium Oyuncu & Performans Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta76-c12cjeaa76-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-16-ap00014nta76-c12cjeaa76-1.jpg",
+      "https://resim.epey.com/1042883/z_hp-omen-gaming-16-ap00014nta73-c12cjeaa76-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 85,
+    "reviewCount": 38,
+    "basePrice": 141549.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "AMD Ryzen 9 8940HX Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "64GB RAM & 2TB NVMe SSD",
+      "HP OMEN Tempest Cooling Gelişmiş Sıvı Metal Soğutma Sistemi"
+    ],
+    "specs": {
+      "productType": "Premium Oyuncu & Performans Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek (Zen 4 5.3 GHz)",
+      "npuTops": 16,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 6,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD 100W)",
+        "2x USB 3.2 Gen 1 Type-A (HP Uyku ve Şarj)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.37,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Alaşımlı Kasa (Shadow Black)",
+      "keyboard": "OMEN 4 Bölgeli / RGB Bağımsız Tuş Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Sıralı Mikrofon",
+      "audio": "HyperX / Bang & Olufsen Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta76-c12cjeaa76-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 141549.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 6100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta76-c12cjeaa76-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 142965,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 148627,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 144380,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 141549.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-16-ap00014nta20-c12cjeaa20",
+    "slug": "hp-omen-gaming-16-ap00014nta20-c12cjeaa20",
+    "name": "HP OMEN Gaming 16-ap00014nta20 (C12CJEAA20)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Premium Oyuncu & Performans Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta20-c12cjeaa20-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-16-ap00014nta20-c12cjeaa20-1.jpg",
+      "https://resim.epey.com/1042832/z_hp-omen-gaming-16-ap00014nta20-c12cjeaa20-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 84,
+    "reviewCount": 42,
+    "basePrice": 143449.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "AMD Ryzen 9 8940HX Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "64GB RAM & 2TB NVMe SSD",
+      "HP OMEN Tempest Cooling Gelişmiş Sıvı Metal Soğutma Sistemi"
+    ],
+    "specs": {
+      "productType": "Premium Oyuncu & Performans Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek (Zen 4 5.3 GHz)",
+      "npuTops": 16,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 6,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD 100W)",
+        "2x USB 3.2 Gen 1 Type-A (HP Uyku ve Şarj)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.37,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Alaşımlı Kasa (Shadow Black)",
+      "keyboard": "OMEN 4 Bölgeli / RGB Bağımsız Tuş Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Sıralı Mikrofon",
+      "audio": "HyperX / Bang & Olufsen Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta20-c12cjeaa20-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 143449.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 6100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta20-c12cjeaa20-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 144884,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 150622,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 146318,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 143449.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-16-ap00014nta59-c12cjeaa59",
+    "slug": "hp-omen-gaming-16-ap00014nta59-c12cjeaa59",
+    "name": "HP OMEN Gaming 16-ap00014nta59 (C12CJEAA59)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Premium Oyuncu & Performans Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta59-c12cjeaa59-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-16-ap00014nta59-c12cjeaa59-1.jpg",
+      "https://resim.epey.com/1042878/z_hp-omen-gaming-16-ap00014nta59-c12cjeaa59-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 84,
+    "reviewCount": 42,
+    "basePrice": 134899.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "AMD Ryzen 9 8940HX Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "32GB RAM & 1TB NVMe SSD",
+      "HP OMEN Tempest Cooling Gelişmiş Sıvı Metal Soğutma Sistemi"
+    ],
+    "specs": {
+      "productType": "Premium Oyuncu & Performans Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek (Zen 4 5.3 GHz)",
+      "npuTops": 16,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 6,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD 100W)",
+        "2x USB 3.2 Gen 1 Type-A (HP Uyku ve Şarj)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.37,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Alaşımlı Kasa (Shadow Black)",
+      "keyboard": "OMEN 4 Bölgeli / RGB Bağımsız Tuş Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Sıralı Mikrofon",
+      "audio": "HyperX / Bang & Olufsen Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta59-c12cjeaa59-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 134899.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 6100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta59-c12cjeaa59-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 136248,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 141644,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 137597,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 134899.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-16-ap00014nta80-c12cjeaa80",
+    "slug": "hp-omen-gaming-16-ap00014nta80-c12cjeaa80",
+    "name": "HP OMEN Gaming 16-ap00014nta80 (C12CJEAA80)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Premium Oyuncu & Performans Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta80-c12cjeaa80-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-16-ap00014nta80-c12cjeaa80-1.jpg",
+      "https://resim.epey.com/1043025/z_hp-omen-gaming-16-ap00014nta73-c12cjeaa76-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 84,
+    "reviewCount": 41,
+    "basePrice": 137749.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "AMD Ryzen 9 8940HX Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "64GB RAM & 2TB NVMe SSD",
+      "HP OMEN Tempest Cooling Gelişmiş Sıvı Metal Soğutma Sistemi"
+    ],
+    "specs": {
+      "productType": "Premium Oyuncu & Performans Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek (Zen 4 5.3 GHz)",
+      "npuTops": 16,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 6,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD 100W)",
+        "2x USB 3.2 Gen 1 Type-A (HP Uyku ve Şarj)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.37,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Alaşımlı Kasa (Shadow Black)",
+      "keyboard": "OMEN 4 Bölgeli / RGB Bağımsız Tuş Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Sıralı Mikrofon",
+      "audio": "HyperX / Bang & Olufsen Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta80-c12cjeaa80-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 137749.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 6100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta80-c12cjeaa80-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 139127,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 144637,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 140504,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 137749.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-zbook-fury-g1i-16-5f9t8es",
+    "slug": "hp-zbook-fury-g1i-16-5f9t8es",
+    "name": "HP ZBook Fury G1i 16",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Ultra Profesyonel Mobil İş İstasyonu (Workstation)",
+    "image": "/images/products/laptops/hp-zbook-fury-g1i-16-5f9t8es-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-zbook-fury-g1i-16-5f9t8es-1.jpg",
+      "https://resim.epey.com/1053098/z_hp-zbook-fury-g1i-16-5f9t8es-2.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 84,
+    "reviewCount": 28,
+    "basePrice": 414558.81,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 3840 x 2400 (4K UHD+ DreamColor 16:10 120Hz %100 DCI-P3 500 Nit HDR 500 OLED/IPS)",
+      "Intel Core Ultra 9 285HX Üst Düzey İşlemci",
+      "NVIDIA RTX 5000 Ada Generation Laptop (16GB GDDR6 ECC - 175W Workstation)",
+      "64GB RAM & 2TB NVMe SSD",
+      "HP Vaporforce Termal Soğutma & ISV Sertifikalı Mimari"
+    ],
+    "specs": {
+      "productType": "Ultra Profesyonel Mobil İş İstasyonu (Workstation)",
+      "processor": "Intel Core Ultra 9 285HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 24 İzlek)",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz ECC / Non-ECC",
+      "maxRamGb": 128,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "4x M.2 NVMe SSD Yuvası (16TB Azami)",
+      "gpu": "NVIDIA RTX 5000 Ada Generation Laptop (16GB GDDR6 ECC - 175W Workstation)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3840 x 2400 (4K UHD+ DreamColor 16:10 120Hz %100 DCI-P3 500 Nit HDR 500 OLED/IPS)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 95,
+      "batteryLifeHours": 8,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD 100W)",
+        "2x USB 3.2 Gen 1 Type-A (HP Uyku ve Şarj)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.4,
+      "thicknessMm": 27.7,
+      "bodyMaterial": "Tamamen CNC İşlenmiş Magnezyum-Alüminyum Kasa (Z-Silver)",
+      "keyboard": "HP Premium Sessiz Sıvı Dökülmesine Dayanıklı Arkadan Aydınlatmalı Klavye",
+      "webcam": "5MP IR Gizlilik Deklanşörlü Windows Hello Kamera",
+      "audio": "HP Audio Boost & Çift Stereo Hoparlör (Poly Studio Destekli)",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-zbook-fury-g1i-16-5f9t8es-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 414558.81,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 6100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-zbook-fury-g1i-16-5f9t8es-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 418704,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 435287,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 422850,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 414558.81,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-16-ap00014nta54-c12cjeaa54",
+    "slug": "hp-omen-gaming-16-ap00014nta54-c12cjeaa54",
+    "name": "HP OMEN Gaming 16-ap00014nta54 (C12CJEAA54)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Premium Oyuncu & Performans Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta54-c12cjeaa54-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-16-ap00014nta54-c12cjeaa54-1.jpg",
+      "https://resim.epey.com/1045762/z_hp-omen-gaming-16-ap00014nta54-c12cjeaa54-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 83,
+    "reviewCount": 21,
+    "basePrice": 125399.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "AMD Ryzen 9 8940HX Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W)",
+      "16GB RAM & 1TB NVMe SSD",
+      "HP OMEN Tempest Cooling Gelişmiş Sıvı Metal Soğutma Sistemi"
+    ],
+    "specs": {
+      "productType": "Premium Oyuncu & Performans Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek (Zen 4 5.3 GHz)",
+      "npuTops": 16,
+      "ramGb": 16,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 6,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD 100W)",
+        "2x USB 3.2 Gen 1 Type-A (HP Uyku ve Şarj)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.37,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Alaşımlı Kasa (Shadow Black)",
+      "keyboard": "OMEN 4 Bölgeli / RGB Bağımsız Tuş Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Sıralı Mikrofon",
+      "audio": "HyperX / Bang & Olufsen Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta54-c12cjeaa54-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 125399.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 6100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta54-c12cjeaa54-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 126653,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 131669,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 127907,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 125399.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-16-ap00014nta35-c12cjeaa35",
+    "slug": "hp-omen-gaming-16-ap00014nta35-c12cjeaa35",
+    "name": "HP OMEN Gaming 16-ap00014nta35 (C12CJEAA35)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Premium Oyuncu & Performans Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta35-c12cjeaa35-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-16-ap00014nta35-c12cjeaa35-1.jpg",
+      "https://resim.epey.com/1045758/z_hp-omen-gaming-16-ap00014nta35-c12cjeaa35-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 82,
+    "reviewCount": 33,
+    "basePrice": 122549.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "AMD Ryzen 9 8940HX Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W)",
+      "32GB RAM & 1TB NVMe SSD",
+      "HP OMEN Tempest Cooling Gelişmiş Sıvı Metal Soğutma Sistemi"
+    ],
+    "specs": {
+      "productType": "Premium Oyuncu & Performans Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek (Zen 4 5.3 GHz)",
+      "npuTops": 16,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 6,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD 100W)",
+        "2x USB 3.2 Gen 1 Type-A (HP Uyku ve Şarj)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.37,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Alaşımlı Kasa (Shadow Black)",
+      "keyboard": "OMEN 4 Bölgeli / RGB Bağımsız Tuş Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Sıralı Mikrofon",
+      "audio": "HyperX / Bang & Olufsen Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta35-c12cjeaa35-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 122549.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 6100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta35-c12cjeaa35-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 123775,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 128677,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 125000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 122549.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-16-ap00014nta58-c12cjeaa58",
+    "slug": "hp-omen-gaming-16-ap00014nta58-c12cjeaa58",
+    "name": "HP OMEN Gaming 16-ap00014nta58 (C12CJEAA58)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Premium Oyuncu & Performans Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta58-c12cjeaa58-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-16-ap00014nta58-c12cjeaa58-1.jpg",
+      "https://resim.epey.com/1045765/z_hp-omen-gaming-16-ap00014nta58-c12cjeaa58-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 82,
+    "reviewCount": 41,
+    "basePrice": 123499.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "AMD Ryzen 9 8940HX Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W)",
+      "16GB RAM & 1TB NVMe SSD",
+      "HP OMEN Tempest Cooling Gelişmiş Sıvı Metal Soğutma Sistemi"
+    ],
+    "specs": {
+      "productType": "Premium Oyuncu & Performans Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek (Zen 4 5.3 GHz)",
+      "npuTops": 16,
+      "ramGb": 16,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 6,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD 100W)",
+        "2x USB 3.2 Gen 1 Type-A (HP Uyku ve Şarj)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.37,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Alaşımlı Kasa (Shadow Black)",
+      "keyboard": "OMEN 4 Bölgeli / RGB Bağımsız Tuş Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Sıralı Mikrofon",
+      "audio": "HyperX / Bang & Olufsen Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta58-c12cjeaa58-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 123499.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 6100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta58-c12cjeaa58-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 124734,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 129674,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 125969,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 123499.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-16-ap00014nta53-c12cjeaa53",
+    "slug": "hp-omen-gaming-16-ap00014nta53-c12cjeaa53",
+    "name": "HP OMEN Gaming 16-ap00014nta53 (C12CJEAA53)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Premium Oyuncu & Performans Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta53-c12cjeaa53-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-16-ap00014nta53-c12cjeaa53-1.jpg",
+      "https://resim.epey.com/1045761/z_hp-omen-gaming-16-ap00014nta53-c12cjeaa53-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 82,
+    "reviewCount": 35,
+    "basePrice": 121599.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "AMD Ryzen 9 8940HX Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W)",
+      "8GB RAM & 1TB NVMe SSD",
+      "HP OMEN Tempest Cooling Gelişmiş Sıvı Metal Soğutma Sistemi"
+    ],
+    "specs": {
+      "productType": "Premium Oyuncu & Performans Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek (Zen 4 5.3 GHz)",
+      "npuTops": 16,
+      "ramGb": 8,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 6,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD 100W)",
+        "2x USB 3.2 Gen 1 Type-A (HP Uyku ve Şarj)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.37,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Alaşımlı Kasa (Shadow Black)",
+      "keyboard": "OMEN 4 Bölgeli / RGB Bağımsız Tuş Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Sıralı Mikrofon",
+      "audio": "HyperX / Bang & Olufsen Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta53-c12cjeaa53-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 121599.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 6100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta53-c12cjeaa53-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 122815,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 127679,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 124031,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 121599.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-16-ap00014nta39-c12cjeaa39",
+    "slug": "hp-omen-gaming-16-ap00014nta39-c12cjeaa39",
+    "name": "HP OMEN Gaming 16-ap00014nta39 (C12CJEAA39)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Premium Oyuncu & Performans Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-16-ap00014nta39-c12cjeaa39-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-16-ap00014nta39-c12cjeaa39-1.jpg",
+      "https://resim.epey.com/1042865/z_hp-omen-gaming-16-ap00014nta39-c12cjeaa39-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 85,
+    "reviewCount": 22,
+    "basePrice": 116849.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "AMD Ryzen 9 8940HX Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W)",
+      "32GB RAM & 1TB NVMe SSD",
+      "HP OMEN Tempest Cooling Gelişmiş Sıvı Metal Soğutma Sistemi"
+    ],
+    "specs": {
+      "productType": "Premium Oyuncu & Performans Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek (Zen 4 5.3 GHz)",
+      "npuTops": 16,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit Low Blue Light IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 6,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD 100W)",
+        "2x USB 3.2 Gen 1 Type-A (HP Uyku ve Şarj)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.37,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Alaşımlı Kasa (Shadow Black)",
+      "keyboard": "OMEN 4 Bölgeli / RGB Bağımsız Tuş Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Sıralı Mikrofon",
+      "audio": "HyperX / Bang & Olufsen Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta39-c12cjeaa39-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 116849.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 6100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-16-ap00014nta39-c12cjeaa39-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 118018,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 122692,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 119186,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 116849.05,
+        "store": "Hepsiburada"
+      }
+    ]
   }
 ];
