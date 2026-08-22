@@ -25159,109 +25159,6 @@ export const mockTVs: TVProduct[] = [
     "epeyScore": 57
   },
   {
-    "id": "tv-iffalcon-55u95a",
-    "name": "iFFALCON 55U95A 55\" 4K QLED Smart TV",
-    "brand": "iFFALCON",
-    "category": "tvs",
-    "rating": 8.1,
-    "image": "https://resim.epey.com/1041957/k_iffalcon-55u95a-1.jpg",
-    "specs": {
-      "resolution": "4K Ultra HD (3840x2160)",
-      "hdmiPorts": 4,
-      "usbPorts": 2,
-      "energyClass": "G",
-      "screenSizeInches": 55,
-      "displayTech": "QLED",
-      "refreshRateHz": 120,
-      "hdrSupport": [
-        "HDR10",
-        "HLG",
-        "Dolby Vision"
-      ],
-      "smartOs": "Google TV",
-      "audioPowerWatts": 24
-    },
-    "priceHistory": [
-      {
-        "date": "2026-05-01",
-        "price": 41039,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "2026-06-01",
-        "price": 39899,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "2026-07-01",
-        "price": 38759,
-        "store": "Trendyol"
-      },
-      {
-        "date": "2026-08-01",
-        "price": 37999,
-        "store": "Hepsiburada"
-      }
-    ],
-    "basePrice": 37999,
-    "slug": "tv-iffalcon-55u95a",
-    "reviewCount": 99,
-    "currency": "TL",
-    "releaseYear": 2025,
-    "highlights": [
-      "55\" QLED Ekran",
-      "4K Ultra HD (3840x2160) Çözünürlük",
-      "Google TV İşletim Sistemi",
-      "Dolby Audio & HDR Desteği"
-    ],
-    "storeOffers": [
-      {
-        "id": "offer-tv-iffalcon-55u95a-1",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "#FF6000",
-        "price": 37999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Ücretsiz Kargo",
-          "Hızlı Teslimat"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 1420,
-        "url": "https://www.hepsiburada.com"
-      },
-      {
-        "id": "offer-tv-iffalcon-55u95a-2",
-        "storeName": "Trendyol",
-        "storeLogoColor": "#F27A1A",
-        "price": 38759,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Ücretsiz Kargo"
-        ],
-        "sellerRating": 4.7,
-        "sellerReviews": 980,
-        "url": "https://www.trendyol.com"
-      },
-      {
-        "id": "offer-tv-iffalcon-55u95a-3",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "#DF0000",
-        "price": 39139,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 640,
-        "url": "https://www.mediamarkt.com.tr"
-      }
-    ],
-    "epeyScore": 77
-  },
-  {
     "id": "tv-arçelik-a75-d-895-a",
     "name": "Arçelik A75 D 895 A 75\" 4K LED Smart TV",
     "brand": "Arçelik",
@@ -89034,6 +88931,2325 @@ export const mockTVs: TVProduct[] = [
         "date": "2026-08-01",
         "price": 26999,
         "store": "Mi Store"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-98u95a",
+    "slug": "iffalcon-98u95a",
+    "name": "iFFALCON 98U95A 98\" 144Hz 4K Ultra HD QLED Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-98u95a-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-98u95a-1.jpg",
+      "https://resim.epey.com/1041949/z_iffalcon-98u95a-1.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 88,
+    "reviewCount": 45,
+    "basePrice": 128249,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "98\" (248 cm) Dev QLED 4K Panel",
+      "144 Hz Yerel Yenileme Hızı & Game Master Pro",
+      "40W RMS 2.1 Kanal Onkyo Ses Sistemi & Dahili Subwoofer",
+      "Google TV, Dolby Vision IQ & IMAX Enhanced"
+    ],
+    "specs": {
+      "screenSizeInches": 98,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG",
+        "IMAX Enhanced"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "AMD FreeSync Premium Pro",
+        "HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ Pro İşlemci",
+      "brightnessNits": 800,
+      "contrastRatio": "6000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%95 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan Dahili",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "2179 x 1289 x 420 mm",
+      "weightKg": 58,
+      "vesaMount": "850x400 mm",
+      "bezelStyle": "Ultra İnce Çerçevesiz Metalik Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-98u95a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 128249,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 420,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-iffalcon-98u95a-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 129999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Gönderi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 310,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 135000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 131999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 128249,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-85u95a",
+    "slug": "iffalcon-85u95a",
+    "name": "iFFALCON 85U95A 85\" 144Hz 4K Ultra HD QLED Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-85u95a-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-85u95a-1.jpg",
+      "https://resim.epey.com/1041951/z_iffalcon-85u95a-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 84,
+    "reviewCount": 38,
+    "basePrice": 95999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "85\" (215 cm) QLED 4K Geniş Ekran",
+      "144 Hz Akıcı Panel Hızı & HDMI 2.1",
+      "40W RMS 2.1 Onkyo Ses Sistemi & Dahili Subwoofer",
+      "Dolby Vision IQ, IMAX Enhanced & Google TV"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG",
+        "IMAX Enhanced"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "AMD FreeSync Premium",
+        "HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ Pro İşlemci",
+      "brightnessNits": 600,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%94 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan Dahili",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1890 x 1155 x 374 mm",
+      "weightKg": 42,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "Metalik Çerçevesiz Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-85u95a-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 95999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 380,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 99999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 97499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 95999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-85u85a",
+    "slug": "iffalcon-85u85a",
+    "name": "iFFALCON 85U85A 85\" 144Hz 4K Ultra HD QLED Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-85u85a-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-85u85a-1.jpg",
+      "https://resim.epey.com/1055455/z_iffalcon-85u85a-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 84,
+    "reviewCount": 29,
+    "basePrice": 85499,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "85\" (215 cm) QLED 4K Ekran",
+      "144 Hz Yenileme Hızı & VRR",
+      "40W RMS Dolby Atmos Ses",
+      "Dolby Vision & Google TV"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ İşlemci",
+      "brightnessNits": 550,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%93 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1890 x 1155 x 374 mm",
+      "weightKg": 40.5,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-85u85a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 85499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 290,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 89999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 87499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 85499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-75u95a",
+    "slug": "iffalcon-75u95a",
+    "name": "iFFALCON 75U95A 75\" 144Hz 4K Ultra HD QLED Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-75u95a-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-75u95a-1.jpg",
+      "https://resim.epey.com/1041955/z_iffalcon-75u95a-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 82,
+    "reviewCount": 62,
+    "basePrice": 66999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "75\" (189 cm) 144Hz QLED 4K Panel",
+      "40W RMS 2.1 Onkyo Ses Sistemi & Dahili Subwoofer",
+      "Dolby Vision IQ, IMAX Enhanced & HDR10+",
+      "Google TV & 144Hz Game Master"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG",
+        "IMAX Enhanced"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium",
+        "HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ Pro İşlemci",
+      "brightnessNits": 600,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%94 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1668 x 1030 x 368 mm",
+      "weightKg": 30.5,
+      "vesaMount": "400x400 mm",
+      "bezelStyle": "Metalik Çerçevesiz Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-75u95a-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 66999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 540,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 71999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 68999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 66999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-85u75a",
+    "slug": "iffalcon-85u75a",
+    "name": "iFFALCON 85U75A 85\" 4K Ultra HD Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-85u75a-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-85u75a-1.jpg",
+      "https://resim.epey.com/1042024/z_iffalcon-85u75a-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 79,
+    "reviewCount": 31,
+    "basePrice": 64499,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "85\" (215 cm) Geniş 4K Ultra HD Panel",
+      "40W Dolby Atmos Güçlü Ses",
+      "120Hz DLG Oyun Modu",
+      "Google TV & Sesli Arama"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz DLG",
+        "ALLM",
+        "MEMC"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "AiPQ İşlemci",
+      "brightnessNits": 450,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%90 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1890 x 1155 x 374 mm",
+      "weightKg": 39.8,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-85u75a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 64499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 310,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 68999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 66499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 64499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-65u95a",
+    "slug": "iffalcon-65u95a",
+    "name": "iFFALCON 65U95A 65\" 144Hz 4K Ultra HD QLED Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-65u95a-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-65u95a-1.jpg",
+      "https://resim.epey.com/1041956/z_iffalcon-65u95a-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 79,
+    "reviewCount": 77,
+    "basePrice": 53999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "65\" (164 cm) 144Hz QLED 4K Ekran",
+      "40W RMS 2.1 Onkyo Ses & Dahili Subwoofer",
+      "Dolby Vision IQ, IMAX Enhanced & HDR10+",
+      "Google TV & 144Hz VRR Oyun Deneyimi"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG",
+        "IMAX Enhanced"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium",
+        "HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ Pro İşlemci",
+      "brightnessNits": 600,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%94 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1446 x 892 x 313 mm",
+      "weightKg": 20.2,
+      "vesaMount": "300x300 mm",
+      "bezelStyle": "Metalik Çerçevesiz Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-65u95a-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 53999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Satıcı",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 680,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 57999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 55499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 53999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-75u85a",
+    "slug": "iffalcon-75u85a",
+    "name": "iFFALCON 75U85A 75\" 144Hz 4K Ultra HD QLED Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-75u85a-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-75u85a-1.jpg",
+      "https://resim.epey.com/1055456/z_iffalcon-75u85a-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 78,
+    "reviewCount": 44,
+    "basePrice": 61749,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "75\" (189 cm) 144Hz QLED 4K Panel",
+      "30W RMS Dolby Atmos Ses",
+      "Google TV & 144Hz VRR / ALLM",
+      "Dolby Vision & HDR10+"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ İşlemci",
+      "brightnessNits": 500,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%93 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1668 x 1030 x 368 mm",
+      "weightKg": 28.5,
+      "vesaMount": "400x400 mm",
+      "bezelStyle": "Modern İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-75u85a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 61749,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 340,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 65999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 63499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 61749,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-55u95a",
+    "slug": "iffalcon-55u95a",
+    "name": "iFFALCON 55U95A 55\" 144Hz 4K Ultra HD QLED Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-55u95a-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-55u95a-1.jpg",
+      "https://resim.epey.com/1041957/z_iffalcon-55u95a-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 145,
+    "basePrice": 37999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "55\" (139 cm) 144Hz QLED 4K Panel",
+      "40W RMS 2.1 Onkyo Ses & Dahili Subwoofer",
+      "Dolby Vision IQ, IMAX Enhanced & HDR10+",
+      "Google TV & 144Hz FreeSync Premium Oyun Modu"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG",
+        "IMAX Enhanced"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium",
+        "HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ Pro İşlemci",
+      "brightnessNits": 600,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%94 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1226 x 768 x 280 mm",
+      "weightKg": 14.8,
+      "vesaMount": "300x300 mm",
+      "bezelStyle": "Metalik Çerçevesiz Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-55u95a-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 37999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çok Satan",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1420,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-iffalcon-55u95a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 38499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 920,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 41999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 39499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 37999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-65u85a",
+    "slug": "iffalcon-65u85a",
+    "name": "iFFALCON 65U85A 65\" 144Hz 4K Ultra HD QLED Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-65u85a-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-65u85a-1.jpg",
+      "https://resim.epey.com/1055457/z_iffalcon-65u85a-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 76,
+    "reviewCount": 52,
+    "basePrice": 47499,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 144Hz QLED 4K Panel",
+      "30W RMS Dolby Atmos Ses",
+      "Google TV & 144Hz VRR / ALLM",
+      "Dolby Vision & HDR10+"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ İşlemci",
+      "brightnessNits": 500,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%93 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1446 x 892 x 313 mm",
+      "weightKg": 18.5,
+      "vesaMount": "300x300 mm",
+      "bezelStyle": "İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-65u85a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 47499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 410,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 50999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 48999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 47499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-75u75a",
+    "slug": "iffalcon-75u75a",
+    "name": "iFFALCON 75U75A 75\" 4K Ultra HD Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-75u75a-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-75u75a-1.jpg",
+      "https://resim.epey.com/1042034/z_iffalcon-75u75a-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 74,
+    "reviewCount": 48,
+    "basePrice": 49999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "75\" (189 cm) 4K Ultra HD LED Panel",
+      "30W Dolby Atmos Ses & Google TV",
+      "120Hz DLG Oyun Modu & ALLM",
+      "Dolby Vision & HDR10"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz DLG",
+        "ALLM",
+        "MEMC"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "AiPQ İşlemci",
+      "brightnessNits": 400,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%90 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1668 x 1030 x 368 mm",
+      "weightKg": 27.8,
+      "vesaMount": "400x400 mm",
+      "bezelStyle": "İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-75u75a-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 49999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 390,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 53999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 51499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 49999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-55u85a",
+    "slug": "iffalcon-55u85a",
+    "name": "iFFALCON 55U85A 55\" 144Hz 4K Ultra HD QLED Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-55u85a-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-55u85a-1.jpg",
+      "https://resim.epey.com/1055458/z_iffalcon-55u85a-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 73,
+    "reviewCount": 71,
+    "basePrice": 35149,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (139 cm) 144Hz QLED 4K Panel",
+      "30W RMS Dolby Atmos Ses",
+      "Google TV & 144Hz VRR / ALLM",
+      "Dolby Vision & HDR10+"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ İşlemci",
+      "brightnessNits": 500,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%93 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1226 x 768 x 280 mm",
+      "weightKg": 13.5,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Modern İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-55u85a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 35149,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 530,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 37999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 36499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 35149,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-50u95a",
+    "slug": "iffalcon-50u95a",
+    "name": "iFFALCON 50U95A 50\" 144Hz 4K Ultra HD QLED Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-50u95a-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-50u95a-1.jpg",
+      "https://resim.epey.com/1041958/z_iffalcon-50u95a-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 72,
+    "reviewCount": 39,
+    "basePrice": 30399,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "50\" (127 cm) 144Hz QLED 4K Ekran",
+      "30W RMS 2.1 Onkyo Ses & Dahili Subwoofer",
+      "Dolby Vision IQ, IMAX Enhanced & HDR10+",
+      "Google TV & 144Hz Game Master"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG",
+        "IMAX Enhanced"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium",
+        "HDMI 2.1"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ Pro İşlemci",
+      "brightnessNits": 550,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%94 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1112 x 701 x 265 mm",
+      "weightKg": 12,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Metalik Çerçevesiz Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-50u95a-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 30399,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 33499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 31999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 30399,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-65u75a",
+    "slug": "iffalcon-65u75a",
+    "name": "iFFALCON 65U75A 65\" 4K Ultra HD Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-65u75a-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-65u75a-1.jpg",
+      "https://resim.epey.com/1042040/z_iffalcon-65u75a-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 71,
+    "reviewCount": 58,
+    "basePrice": 40999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD Panel",
+      "20W Dolby Atmos Ses & Google TV",
+      "120Hz DLG Oyun Modu & ALLM",
+      "Dolby Vision & HDR10"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz DLG",
+        "ALLM",
+        "MEMC"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "AiPQ İşlemci",
+      "brightnessNits": 350,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%90 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1446 x 892 x 313 mm",
+      "weightKg": 16.5,
+      "vesaMount": "300x300 mm",
+      "bezelStyle": "İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-65u75a-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 40999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 450,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 44499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 42499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 40999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-55u75a",
+    "slug": "iffalcon-55u75a",
+    "name": "iFFALCON 55U75A 55\" 4K Ultra HD Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-55u75a-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-55u75a-1.jpg",
+      "https://resim.epey.com/1042042/z_iffalcon-55u75a-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 68,
+    "reviewCount": 65,
+    "basePrice": 29999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (139 cm) 4K Ultra HD Ekran",
+      "20W Dolby Atmos Ses & Google TV",
+      "120Hz DLG Oyun Modu & ALLM",
+      "Dolby Vision & HDR10"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz DLG",
+        "ALLM",
+        "MEMC"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "AiPQ İşlemci",
+      "brightnessNits": 350,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%90 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1226 x 768 x 280 mm",
+      "weightKg": 11.8,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-55u75a-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 29999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 510,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 32999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 31499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 29999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-75u65",
+    "slug": "iffalcon-75u65",
+    "name": "iFFALCON 75U65 75\" 4K Ultra HD Smart Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-75u65-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-75u65-1.jpg",
+      "https://resim.epey.com/1042044/z_iffalcon-75u65-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 65,
+    "reviewCount": 78,
+    "basePrice": 39999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "75\" (189 cm) Uygun Fiyatlı Dev 4K Ekran",
+      "30W RMS Dolby Audio & DTS-HD Ses",
+      "Google TV & Dahili Wi-Fi / Bluetooth",
+      "HDR10 & Metalik İnce Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "MEMC",
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Dört Çekirdekli İşlemci",
+      "brightnessNits": 350,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1668 x 1030 x 368 mm",
+      "weightKg": 26.5,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Modern İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-75u65-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 39999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat Ürünü",
+          "Ücretsiz Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 44999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 41999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 39999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-65u65a",
+    "slug": "iffalcon-65u65a",
+    "name": "iFFALCON 65U65A 65\" 4K Ultra HD Smart Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-65u65a-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-65u65a-1.jpg",
+      "https://resim.epey.com/1061212/z_iffalcon-65u65a-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 61,
+    "reviewCount": 42,
+    "basePrice": 30999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD LED Panel",
+      "20W Dolby Audio & DTS-HD",
+      "Google TV & Dahili Chromecast",
+      "HDR10 & Çerçevesiz Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "MEMC"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Dört Çekirdekli İşlemci",
+      "brightnessNits": 320,
+      "contrastRatio": "4500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1446 x 892 x 313 mm",
+      "weightKg": 15.2,
+      "vesaMount": "300x300 mm",
+      "bezelStyle": "Metalik İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-65u65a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 30999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 33999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 31999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 30999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-65u65",
+    "slug": "iffalcon-65u65",
+    "name": "iFFALCON 65U65 65\" 4K Ultra HD Smart Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-65u65-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-65u65-1.jpg",
+      "https://resim.epey.com/1042052/z_iffalcon-65u65-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 61,
+    "reviewCount": 89,
+    "basePrice": 31019,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD LED Ekran",
+      "20W Dolby Audio & DTS-HD",
+      "Google TV & Akıllı Sesli Komut",
+      "HDR10 & Mikro Karartma"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "MEMC"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Dört Çekirdekli İşlemci",
+      "brightnessNits": 320,
+      "contrastRatio": "4500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1446 x 892 x 313 mm",
+      "weightKg": 15.4,
+      "vesaMount": "300x300 mm",
+      "bezelStyle": "Modern İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-65u65-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 31019,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Çok Satan"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 870,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 34499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 32499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 31019,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-55u65a",
+    "slug": "iffalcon-55u65a",
+    "name": "iFFALCON 55U65A 55\" 4K Ultra HD Smart Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-55u65a-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-55u65a-1.jpg",
+      "https://resim.epey.com/1052180/z_iffalcon-55u65a-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 59,
+    "reviewCount": 92,
+    "basePrice": 19999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "55\" (139 cm) 4K Ultra HD LED Panel",
+      "20W Dolby Audio & DTS-HD",
+      "Google TV & Binlerce Uygulama",
+      "Fiyat / Performans Lideri"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "MEMC"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Dört Çekirdekli İşlemci",
+      "brightnessNits": 300,
+      "contrastRatio": "4500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1226 x 768 x 280 mm",
+      "weightKg": 10.6,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Modern İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-55u65a-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 19999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 22499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 20999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-55u65",
+    "slug": "iffalcon-55u65",
+    "name": "iFFALCON 55U65 55\" 4K Ultra HD Smart Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-55u65-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-55u65-1.jpg",
+      "https://resim.epey.com/1042055/z_iffalcon-55u65-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 59,
+    "reviewCount": 115,
+    "basePrice": 20699,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (139 cm) 4K Ultra HD LED Panel",
+      "20W Dolby Audio & DTS-HD",
+      "Google TV & Dahili Chromecast",
+      "HDR10 & Mikro Karartma"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "MEMC"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Dört Çekirdekli İşlemci",
+      "brightnessNits": 300,
+      "contrastRatio": "4500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1226 x 768 x 280 mm",
+      "weightKg": 10.8,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Modern İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-55u65-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 20699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Çok Satan"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 23499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 21999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 20699,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-50u65",
+    "slug": "iffalcon-50u65",
+    "name": "iFFALCON 50U65 50\" 4K Ultra HD Smart Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-50u65-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-50u65-1.jpg",
+      "https://resim.epey.com/1042062/z_iffalcon-50u65-1.jpg"
+    ],
+    "rating": 4.5,
+    "epeyScore": 57,
+    "reviewCount": 64,
+    "basePrice": 18049,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "50\" (127 cm) 4K Ultra HD LED Panel",
+      "20W Dolby Audio & DTS-HD",
+      "Google TV & Sesli Komut",
+      "HDR10 & Çerçevesiz Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "MEMC"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Dört Çekirdekli İşlemci",
+      "brightnessNits": 280,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1112 x 701 x 265 mm",
+      "weightKg": 9.8,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Modern İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-50u65-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 18049,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 410,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 19999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 18999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18049,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-43u65",
+    "slug": "iffalcon-43u65",
+    "name": "iFFALCON 43U65 43\" 4K Ultra HD Smart Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-43u65-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-43u65-1.jpg",
+      "https://resim.epey.com/1042065/z_iffalcon-43u65-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 56,
+    "reviewCount": 135,
+    "basePrice": 16149,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "43\" (108 cm) 4K Ultra HD Kompakt Ekran",
+      "20W Dolby Audio & DTS-HD",
+      "Google TV & Dahili Chromecast",
+      "Fırsat Ürünü En Uygun 4K Google TV"
+    ],
+    "specs": {
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "MEMC"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Dört Çekirdekli İşlemci",
+      "brightnessNits": 280,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "957 x 603 x 185 mm",
+      "weightKg": 6.8,
+      "vesaMount": "200x100 mm",
+      "bezelStyle": "Modern İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-43u65-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 16149,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1540,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 18499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 17199,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16149,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-50s55a",
+    "slug": "iffalcon-50s55a",
+    "name": "iFFALCON 50S55A 50\" Full HD Smart Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-50s55a-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-50s55a-1.jpg",
+      "https://resim.epey.com/1053402/z_iffalcon-50s55a-5.jpg"
+    ],
+    "rating": 4.5,
+    "epeyScore": 50,
+    "reviewCount": 41,
+    "basePrice": 16559,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "50\" (127 cm) Full HD Geniş Ekran",
+      "20W Dolby Audio Net Ses",
+      "Google TV & Binlerce Uygulama",
+      "Dahili Wi-Fi & HD Uydu Alıcısı"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "LED",
+      "resolution": "Full HD",
+      "refreshRateHz": 60,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "F",
+      "processorEngine": "Dört Çekirdekli İşlemci",
+      "brightnessNits": 260,
+      "contrastRatio": "3500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%75 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1112 x 701 x 265 mm",
+      "weightKg": 9.2,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-50s55a-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 16559,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 18499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 17499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16559,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-43s55a",
+    "slug": "iffalcon-43s55a",
+    "name": "iFFALCON 43S55A 43\" Full HD Smart Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-43s55a-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-43s55a-1.jpg",
+      "https://resim.epey.com/1053005/z_iffalcon-43s55a-6937574808104-1.jpg"
+    ],
+    "rating": 4.5,
+    "epeyScore": 49,
+    "reviewCount": 68,
+    "basePrice": 12879,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "43\" (108 cm) Full HD Ekran",
+      "20W Dolby Audio Ses",
+      "Google TV & Dahili Chromecast",
+      "İnce Çerçeveli Kompakt Kasa"
+    ],
+    "specs": {
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "resolution": "Full HD",
+      "refreshRateHz": 60,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "F",
+      "processorEngine": "Dört Çekirdekli İşlemci",
+      "brightnessNits": 250,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%75 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "957 x 603 x 185 mm",
+      "weightKg": 6.5,
+      "vesaMount": "200x100 mm",
+      "bezelStyle": "Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-43s55a-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 12879,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 480,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 14499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 13699,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12879,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-43s55",
+    "slug": "iffalcon-43s55",
+    "name": "iFFALCON 43S55 43\" Full HD Smart Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-43s55-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-43s55-1.jpg",
+      "https://resim.epey.com/1042076/z_iffalcon-43s55-2.jpg"
+    ],
+    "rating": 4.5,
+    "epeyScore": 48,
+    "reviewCount": 82,
+    "basePrice": 13439,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "43\" (108 cm) Full HD LED Ekran",
+      "20W Dolby Audio Ses Sistemi",
+      "Google TV ile Akıllı Deneyim",
+      "Dahili Wi-Fi & HD Uydu Alıcısı"
+    ],
+    "specs": {
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "resolution": "Full HD",
+      "refreshRateHz": 60,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "F",
+      "processorEngine": "Dört Çekirdekli İşlemci",
+      "brightnessNits": 250,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%75 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "957 x 603 x 185 mm",
+      "weightKg": 6.5,
+      "vesaMount": "200x100 mm",
+      "bezelStyle": "Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-43s55-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 13439,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 14999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 13999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13439,
+        "store": "Trendyol"
       }
     ]
   }
