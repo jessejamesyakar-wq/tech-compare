@@ -9439,5 +9439,1960 @@ export const mockLaptops: LaptopProduct[] = [
         "store": "Apple Store TR"
       }
     ]
+  },
+  {
+    "id": "asus-rog-strix-scar-18-g835lxg-tq378w",
+    "slug": "asus-rog-strix-scar-18-g835lxg-tq378w",
+    "name": "Asus ROG Strix Scar 18 G835LXG-TQ378W",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lxg-tq378w-1.png",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-scar-18-g835lxg-tq378w-1.png",
+      "https://resim.epey.com/1064689/z_asus-rog-strix-scar-18-g835lxg-tq378w-8.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 55,
+    "basePrice": 512449,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18\" 2.5K (2560x1600) ROG Nebula HDR Mini-LED 240Hz Ekran",
+      "Intel Core Ultra 9 290HX Plus (24 Çekirdek) Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 5090 Mobile 16GB (175W TGP) & MUX Switch + Advanced Optimus",
+      "64GB DDR5-5600 RAM & 4TB PCIe 4.0 SSD",
+      "Tri-Fan Sıvı Metal Soğutma & Per-Key RGB Mekanik Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core Ultra 9 290HX Plus",
+      "processorCores": "24 Çekirdek (8P + 16E)",
+      "npuTops": 45,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 96,
+      "storageGb": 4096,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe (RAID 0 Desteği)",
+      "gpu": "NVIDIA GeForce RTX 5090 Mobile 16GB",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 ROG Nebula HDR Mini-LED)",
+      "screenBrightnessNits": 1100,
+      "colorGamut": "%100 DCI-P3 (Pantone Onaylı)",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 8,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort & G-Sync)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x 2.5G LAN (RJ45)",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 3.1,
+      "thicknessMm": 30.8,
+      "bodyMaterial": "Alüminyum Kapak & Yarı Saydam Gövde",
+      "keyboard": "Her Tuşa Özel (Per-Key) RGB Aydınlatmalı ROG Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp 4 Hoparlör",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lxg-tq378w-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 512449,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4320,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lxg-tq378w-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 517573,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3120,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 532947,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 522698,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 512449,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-scar-18-g835lw-sa127-a8-96gb-8tb-w11p",
+    "slug": "asus-rog-strix-scar-18-g835lw-sa127-a8-96gb-8tb-w11p",
+    "name": "Asus ROG Strix Scar 18 G835LW-SA127-A8 (96GB/8TB/W11P)",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a8-96gb-8tb-w11p-1.png",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a8-96gb-8tb-w11p-1.png",
+      "https://resim.epey.com/1063701/z_asus-rog-strix-scar-18-g835lw-sa127-a8-96gb-8tb-w11p-8.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 58,
+    "basePrice": 474746.66,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18\" 2.5K (2560x1600) ROG Nebula HDR Mini-LED 240Hz Ekran",
+      "Intel Core Ultra 9 275HX (24 Çekirdek) Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 5080 Mobile 16GB (175W TGP) & MUX Switch + Advanced Optimus",
+      "96GB DDR5-5600 RAM & 8TB PCIe 4.0 SSD",
+      "Tri-Fan Sıvı Metal Soğutma & Per-Key RGB Mekanik Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E)",
+      "npuTops": 45,
+      "ramGb": 96,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 96,
+      "storageGb": 8192,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe (RAID 0 Desteği)",
+      "gpu": "NVIDIA GeForce RTX 5080 Mobile 16GB",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 ROG Nebula HDR Mini-LED)",
+      "screenBrightnessNits": 1100,
+      "colorGamut": "%100 DCI-P3 (Pantone Onaylı)",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 8,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort & G-Sync)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x 2.5G LAN (RJ45)",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 3.1,
+      "thicknessMm": 30.8,
+      "bodyMaterial": "Alüminyum Kapak & Yarı Saydam Gövde",
+      "keyboard": "Her Tuşa Özel (Per-Key) RGB Aydınlatmalı ROG Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp 4 Hoparlör",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lw-sa127-a8-96gb-8tb-w11p-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 474746.66,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4320,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lw-sa127-a8-96gb-8tb-w11p-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 479494,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3120,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 493737,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 484242,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 474746.66,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-scar-18-g835lw-sa127-a8",
+    "slug": "asus-rog-strix-scar-18-g835lw-sa127-a8",
+    "name": "Asus ROG Strix Scar 18 G835LW-SA127-A8",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a8-1.png",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a8-1.png",
+      "https://resim.epey.com/1063638/z_asus-rog-strix-scar-18-g835lw-sa127-a8-8.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 45,
+    "basePrice": 469957,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18\" 2.5K (2560x1600) ROG Nebula HDR Mini-LED 240Hz Ekran",
+      "Intel Core Ultra 9 275HX (24 Çekirdek) Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 5080 Mobile 16GB (175W TGP) & MUX Switch + Advanced Optimus",
+      "96GB DDR5-5600 RAM & 2TB PCIe 4.0 SSD",
+      "Tri-Fan Sıvı Metal Soğutma & Per-Key RGB Mekanik Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E)",
+      "npuTops": 45,
+      "ramGb": 96,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 96,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe (RAID 0 Desteği)",
+      "gpu": "NVIDIA GeForce RTX 5080 Mobile 16GB",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 ROG Nebula HDR Mini-LED)",
+      "screenBrightnessNits": 1100,
+      "colorGamut": "%100 DCI-P3 (Pantone Onaylı)",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 8,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort & G-Sync)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x 2.5G LAN (RJ45)",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 3.1,
+      "thicknessMm": 30.8,
+      "bodyMaterial": "Alüminyum Kapak & Yarı Saydam Gövde",
+      "keyboard": "Her Tuşa Özel (Per-Key) RGB Aydınlatmalı ROG Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp 4 Hoparlör",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lw-sa127-a8-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 469957,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4320,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lw-sa127-a8-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 474657,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3120,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 488755,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 479356,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 469957,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-scar-18-g835lw-sa127-a7-96gb-4tb-w11p",
+    "slug": "asus-rog-strix-scar-18-g835lw-sa127-a7-96gb-4tb-w11p",
+    "name": "Asus ROG Strix Scar 18 G835LW-SA127-A7 (96GB/4TB/W11P)",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a7-96gb-4tb-w11p-1.png",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a7-96gb-4tb-w11p-1.png",
+      "https://resim.epey.com/1063694/z_asus-rog-strix-scar-18-g835lw-sa127-a7-96gb-4tb-w11p-8.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 21,
+    "basePrice": 458637.46,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18\" 2.5K (2560x1600) ROG Nebula HDR Mini-LED 240Hz Ekran",
+      "Intel Core Ultra 9 275HX (24 Çekirdek) Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 5080 Mobile 16GB (175W TGP) & MUX Switch + Advanced Optimus",
+      "96GB DDR5-5600 RAM & 4TB PCIe 4.0 SSD",
+      "Tri-Fan Sıvı Metal Soğutma & Per-Key RGB Mekanik Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E)",
+      "npuTops": 45,
+      "ramGb": 96,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 96,
+      "storageGb": 4096,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe (RAID 0 Desteği)",
+      "gpu": "NVIDIA GeForce RTX 5080 Mobile 16GB",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 ROG Nebula HDR Mini-LED)",
+      "screenBrightnessNits": 1100,
+      "colorGamut": "%100 DCI-P3 (Pantone Onaylı)",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 8,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort & G-Sync)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x 2.5G LAN (RJ45)",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 3.1,
+      "thicknessMm": 30.8,
+      "bodyMaterial": "Alüminyum Kapak & Yarı Saydam Gövde",
+      "keyboard": "Her Tuşa Özel (Per-Key) RGB Aydınlatmalı ROG Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp 4 Hoparlör",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lw-sa127-a7-96gb-4tb-w11p-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 458637.46,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4320,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lw-sa127-a7-96gb-4tb-w11p-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 463224,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3120,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 476983,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 467810,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 458637.46,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-scar-18-g835lx-sa156",
+    "slug": "asus-rog-strix-scar-18-g835lx-sa156",
+    "name": "Asus ROG Strix Scar 18 G835LX-SA156",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lx-sa156-1.png",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-scar-18-g835lx-sa156-1.png",
+      "https://resim.epey.com/1033498/z_asus-rog-strix-scar-18-g835lx-sa156-8.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 47,
+    "basePrice": 547933.01,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18\" 2.5K (2560x1600) ROG Nebula HDR Mini-LED 240Hz Ekran",
+      "Intel Core Ultra 9 275HX (24 Çekirdek) Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 5090 Mobile 16GB (175W TGP) & MUX Switch + Advanced Optimus",
+      "64GB DDR5-5600 RAM & 4TB PCIe 4.0 SSD",
+      "Tri-Fan Sıvı Metal Soğutma & Per-Key RGB Mekanik Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E)",
+      "npuTops": 45,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 96,
+      "storageGb": 4096,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe (RAID 0 Desteği)",
+      "gpu": "NVIDIA GeForce RTX 5090 Mobile 16GB",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 ROG Nebula HDR Mini-LED)",
+      "screenBrightnessNits": 1100,
+      "colorGamut": "%100 DCI-P3 (Pantone Onaylı)",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 8,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort & G-Sync)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x 2.5G LAN (RJ45)",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 3.1,
+      "thicknessMm": 30.8,
+      "bodyMaterial": "Alüminyum Kapak & Yarı Saydam Gövde",
+      "keyboard": "Her Tuşa Özel (Per-Key) RGB Aydınlatmalı ROG Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp 4 Hoparlör",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lx-sa156-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 547933.01,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4320,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lx-sa156-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 553412,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3120,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 569850,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 558892,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 547933.01,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-scar-18-g835lxg-tq548",
+    "slug": "asus-rog-strix-scar-18-g835lxg-tq548",
+    "name": "Asus ROG Strix Scar 18 G835LXG-TQ548",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lxg-tq548-1.png",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-scar-18-g835lxg-tq548-1.png",
+      "https://resim.epey.com/1063703/z_asus-rog-strix-scar-18-g835lxg-tq548-8.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 59,
+    "basePrice": 430999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18\" 2.5K (2560x1600) ROG Nebula HDR Mini-LED 240Hz Ekran",
+      "Intel Core Ultra 9 290HX Plus (24 Çekirdek) Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 5090 Mobile 16GB (175W TGP) & MUX Switch + Advanced Optimus",
+      "64GB DDR5-5600 RAM & 2TB PCIe 4.0 SSD",
+      "Tri-Fan Sıvı Metal Soğutma & Per-Key RGB Mekanik Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core Ultra 9 290HX Plus",
+      "processorCores": "24 Çekirdek (8P + 16E)",
+      "npuTops": 45,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 96,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe (RAID 0 Desteği)",
+      "gpu": "NVIDIA GeForce RTX 5090 Mobile 16GB",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 ROG Nebula HDR Mini-LED)",
+      "screenBrightnessNits": 1100,
+      "colorGamut": "%100 DCI-P3 (Pantone Onaylı)",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 8,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort & G-Sync)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x 2.5G LAN (RJ45)",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 3.1,
+      "thicknessMm": 30.8,
+      "bodyMaterial": "Alüminyum Kapak & Yarı Saydam Gövde",
+      "keyboard": "Her Tuşa Özel (Per-Key) RGB Aydınlatmalı ROG Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp 4 Hoparlör",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lxg-tq548-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 430999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4320,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lxg-tq548-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 435309,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3120,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 448239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 439619,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 430999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-scar-18-g835lxg-tq547",
+    "slug": "asus-rog-strix-scar-18-g835lxg-tq547",
+    "name": "Asus ROG Strix Scar 18 G835LXG-TQ547",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lxg-tq547-1.png",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-scar-18-g835lxg-tq547-1.png",
+      "https://resim.epey.com/1063702/z_asus-rog-strix-scar-18-g835lxg-tq547-8.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 28,
+    "basePrice": 421998.99,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18\" 2.5K (2560x1600) ROG Nebula HDR Mini-LED 240Hz Ekran",
+      "Intel Core Ultra 9 290HX Plus (24 Çekirdek) Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 5090 Mobile 16GB (175W TGP) & MUX Switch + Advanced Optimus",
+      "64GB DDR5-5600 RAM & 2TB PCIe 4.0 SSD",
+      "Tri-Fan Sıvı Metal Soğutma & Per-Key RGB Mekanik Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core Ultra 9 290HX Plus",
+      "processorCores": "24 Çekirdek (8P + 16E)",
+      "npuTops": 45,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 96,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe (RAID 0 Desteği)",
+      "gpu": "NVIDIA GeForce RTX 5090 Mobile 16GB",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 ROG Nebula HDR Mini-LED)",
+      "screenBrightnessNits": 1100,
+      "colorGamut": "%100 DCI-P3 (Pantone Onaylı)",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 8,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort & G-Sync)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x 2.5G LAN (RJ45)",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 3.1,
+      "thicknessMm": 30.8,
+      "bodyMaterial": "Alüminyum Kapak & Yarı Saydam Gövde",
+      "keyboard": "Her Tuşa Özel (Per-Key) RGB Aydınlatmalı ROG Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp 4 Hoparlör",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lxg-tq547-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 421998.99,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4320,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lxg-tq547-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 426219,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3120,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 438879,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 430439,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 421998.99,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-scar-18-g835lxg-tq549",
+    "slug": "asus-rog-strix-scar-18-g835lxg-tq549",
+    "name": "Asus ROG Strix Scar 18 G835LXG-TQ549",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lxg-tq549-1.png",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-scar-18-g835lxg-tq549-1.png",
+      "https://resim.epey.com/1061913/z_asus-rog-strix-scar-18-g835lxg-tq549-8.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 23,
+    "basePrice": 429999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18\" 2.5K (2560x1600) ROG Nebula HDR Mini-LED 240Hz Ekran",
+      "Intel Core Ultra 9 290HX Plus (24 Çekirdek) Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 5090 Mobile 16GB (175W TGP) & MUX Switch + Advanced Optimus",
+      "64GB DDR5-5600 RAM & 2TB PCIe 4.0 SSD",
+      "Tri-Fan Sıvı Metal Soğutma & Per-Key RGB Mekanik Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core Ultra 9 290HX Plus",
+      "processorCores": "24 Çekirdek (8P + 16E)",
+      "npuTops": 45,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 96,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe (RAID 0 Desteği)",
+      "gpu": "NVIDIA GeForce RTX 5090 Mobile 16GB",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 ROG Nebula HDR Mini-LED)",
+      "screenBrightnessNits": 1100,
+      "colorGamut": "%100 DCI-P3 (Pantone Onaylı)",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 8,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort & G-Sync)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x 2.5G LAN (RJ45)",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 3.1,
+      "thicknessMm": 30.8,
+      "bodyMaterial": "Alüminyum Kapak & Yarı Saydam Gövde",
+      "keyboard": "Her Tuşa Özel (Per-Key) RGB Aydınlatmalı ROG Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp 4 Hoparlör",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lxg-tq549-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 429999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4320,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lxg-tq549-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 434299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3120,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 447199,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 438599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 429999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-scar-18-g835lw-sa127-a2-64gb-4tb-w11p",
+    "slug": "asus-rog-strix-scar-18-g835lw-sa127-a2-64gb-4tb-w11p",
+    "name": "Asus ROG Strix Scar 18 G835LW-SA127-A2 (64GB/4TB/W11P)",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a2-64gb-4tb-w11p-1.png",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a2-64gb-4tb-w11p-1.png",
+      "https://resim.epey.com/1063658/z_asus-rog-strix-scar-18-g835lw-sa127-a2-64gb-4tb-w11p-8.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 41,
+    "basePrice": 428314.26,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18\" 2.5K (2560x1600) ROG Nebula HDR Mini-LED 240Hz Ekran",
+      "Intel Core Ultra 9 275HX (24 Çekirdek) Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 5080 Mobile 16GB (175W TGP) & MUX Switch + Advanced Optimus",
+      "64GB DDR5-5600 RAM & 4TB PCIe 4.0 SSD",
+      "Tri-Fan Sıvı Metal Soğutma & Per-Key RGB Mekanik Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E)",
+      "npuTops": 45,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 96,
+      "storageGb": 4096,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe (RAID 0 Desteği)",
+      "gpu": "NVIDIA GeForce RTX 5080 Mobile 16GB",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 ROG Nebula HDR Mini-LED)",
+      "screenBrightnessNits": 1100,
+      "colorGamut": "%100 DCI-P3 (Pantone Onaylı)",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 8,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort & G-Sync)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x 2.5G LAN (RJ45)",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 3.1,
+      "thicknessMm": 30.8,
+      "bodyMaterial": "Alüminyum Kapak & Yarı Saydam Gövde",
+      "keyboard": "Her Tuşa Özel (Per-Key) RGB Aydınlatmalı ROG Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp 4 Hoparlör",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lw-sa127-a2-64gb-4tb-w11p-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 428314.26,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4320,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lw-sa127-a2-64gb-4tb-w11p-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 432597,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3120,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 445447,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 436881,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 428314.26,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-scar-18-g835lw-sa127-a7",
+    "slug": "asus-rog-strix-scar-18-g835lw-sa127-a7",
+    "name": "Asus ROG Strix Scar 18 G835LW-SA127-A7",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a7-1.png",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a7-1.png",
+      "https://resim.epey.com/1063636/z_asus-rog-strix-scar-18-g835lw-sa127-a7-8.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 26,
+    "basePrice": 456742.26,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18\" 2.5K (2560x1600) ROG Nebula HDR Mini-LED 240Hz Ekran",
+      "Intel Core Ultra 9 275HX (24 Çekirdek) Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 5080 Mobile 16GB (175W TGP) & MUX Switch + Advanced Optimus",
+      "96GB DDR5-5600 RAM & 2TB PCIe 4.0 SSD",
+      "Tri-Fan Sıvı Metal Soğutma & Per-Key RGB Mekanik Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E)",
+      "npuTops": 45,
+      "ramGb": 96,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 96,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe (RAID 0 Desteği)",
+      "gpu": "NVIDIA GeForce RTX 5080 Mobile 16GB",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 ROG Nebula HDR Mini-LED)",
+      "screenBrightnessNits": 1100,
+      "colorGamut": "%100 DCI-P3 (Pantone Onaylı)",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 8,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort & G-Sync)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x 2.5G LAN (RJ45)",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 3.1,
+      "thicknessMm": 30.8,
+      "bodyMaterial": "Alüminyum Kapak & Yarı Saydam Gövde",
+      "keyboard": "Her Tuşa Özel (Per-Key) RGB Aydınlatmalı ROG Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp 4 Hoparlör",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lw-sa127-a7-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 456742.26,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4320,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lw-sa127-a7-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 461310,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3120,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 475012,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 465877,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 456742.26,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-scar-16-wrwf14540",
+    "slug": "asus-rog-strix-scar-16-wrwf14540",
+    "name": "Asus ROG Strix SCAR 16 WRWF14540",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-scar-16-wrwf14540-1.jpg",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-scar-16-wrwf14540-1.jpg",
+      "https://resim.epey.com/1057845/z_asus-rog-strix-scar-16-wrwf14540-9.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 92,
+    "reviewCount": 49,
+    "basePrice": 460532.66,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 2.5K (2560x1600) ROG Nebula HDR Mini-LED 240Hz Ekran",
+      "Intel Core Ultra 9 275HX (24 Çekirdek) Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 5090 Mobile 16GB (175W TGP) & MUX Switch + Advanced Optimus",
+      "96GB DDR5-5600 RAM & 2TB PCIe 4.0 SSD",
+      "Tri-Fan Sıvı Metal Soğutma & Per-Key RGB Mekanik Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E)",
+      "npuTops": 45,
+      "ramGb": 96,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 96,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe (RAID 0 Desteği)",
+      "gpu": "NVIDIA GeForce RTX 5090 Mobile 16GB",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 ROG Nebula HDR Mini-LED)",
+      "screenBrightnessNits": 1100,
+      "colorGamut": "%100 DCI-P3 (Pantone Onaylı)",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 8,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort & G-Sync)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x 2.5G LAN (RJ45)",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 2.65,
+      "thicknessMm": 26.5,
+      "bodyMaterial": "Alüminyum Kapak & Yarı Saydam Gövde",
+      "keyboard": "Her Tuşa Özel (Per-Key) RGB Aydınlatmalı ROG Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp 4 Hoparlör",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-scar-16-wrwf14540-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 460532.66,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4320,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-scar-16-wrwf14540-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 465138,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3120,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 478954,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 469743,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 460532.66,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-scar-18-g835lw-sa127-a2",
+    "slug": "asus-rog-strix-scar-18-g835lw-sa127-a2",
+    "name": "Asus ROG Strix Scar 18 G835LW-SA127-A2",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a2-1.png",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a2-1.png",
+      "https://resim.epey.com/1063630/z_asus-rog-strix-scar-18-g835lw-sa127-a2-8.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 92,
+    "reviewCount": 52,
+    "basePrice": 423809,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "18\" 2.5K (2560x1600) ROG Nebula HDR Mini-LED 240Hz Ekran",
+      "Intel Core Ultra 9 275HX (24 Çekirdek) Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 5080 Mobile 16GB (175W TGP) & MUX Switch + Advanced Optimus",
+      "64GB DDR5-5600 RAM & 2TB PCIe 4.0 SSD",
+      "Tri-Fan Sıvı Metal Soğutma & Per-Key RGB Mekanik Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E)",
+      "npuTops": 45,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 96,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe (RAID 0 Desteği)",
+      "gpu": "NVIDIA GeForce RTX 5080 Mobile 16GB",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 ROG Nebula HDR Mini-LED)",
+      "screenBrightnessNits": 1100,
+      "colorGamut": "%100 DCI-P3 (Pantone Onaylı)",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 8,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort & G-Sync)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x 2.5G LAN (RJ45)",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 3.1,
+      "thicknessMm": 30.8,
+      "bodyMaterial": "Alüminyum Kapak & Yarı Saydam Gövde",
+      "keyboard": "Her Tuşa Özel (Per-Key) RGB Aydınlatmalı ROG Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp 4 Hoparlör",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lw-sa127-a2-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 423809,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4320,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lw-sa127-a2-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 428047,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3120,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 440761,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 432285,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 423809,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-scar-18-g835lw-sa127-a6-96gb-2tb-w11p",
+    "slug": "asus-rog-strix-scar-18-g835lw-sa127-a6-96gb-2tb-w11p",
+    "name": "Asus ROG Strix Scar 18 G835LW-SA127-A6 (96GB/2TB/W11P)",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a6-96gb-2tb-w11p-1.png",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a6-96gb-2tb-w11p-1.png",
+      "https://resim.epey.com/1063693/z_asus-rog-strix-scar-18-g835lw-sa127-a6-96gb-2tb-w11p-8.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 91,
+    "reviewCount": 38,
+    "basePrice": 442528.26,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "18\" 2.5K (2560x1600) ROG Nebula HDR Mini-LED 240Hz Ekran",
+      "Intel Core Ultra 9 275HX (24 Çekirdek) Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 5080 Mobile 16GB (175W TGP) & MUX Switch + Advanced Optimus",
+      "96GB DDR5-5600 RAM & 2TB PCIe 4.0 SSD",
+      "Tri-Fan Sıvı Metal Soğutma & Per-Key RGB Mekanik Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E)",
+      "npuTops": 45,
+      "ramGb": 96,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 96,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe (RAID 0 Desteği)",
+      "gpu": "NVIDIA GeForce RTX 5080 Mobile 16GB",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 ROG Nebula HDR Mini-LED)",
+      "screenBrightnessNits": 1100,
+      "colorGamut": "%100 DCI-P3 (Pantone Onaylı)",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 8,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort & G-Sync)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x 2.5G LAN (RJ45)",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 3.1,
+      "thicknessMm": 30.8,
+      "bodyMaterial": "Alüminyum Kapak & Yarı Saydam Gövde",
+      "keyboard": "Her Tuşa Özel (Per-Key) RGB Aydınlatmalı ROG Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp 4 Hoparlör",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lw-sa127-a6-96gb-2tb-w11p-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 442528.26,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4320,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lw-sa127-a6-96gb-2tb-w11p-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 446954,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3120,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 460229,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 451379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 442528.26,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-scar-18-g835lw-sa127-a3-64gb-2tb-w11p",
+    "slug": "asus-rog-strix-scar-18-g835lw-sa127-a3-64gb-2tb-w11p",
+    "name": "Asus ROG Strix Scar 18 G835LW-SA127-A3 (64GB/2TB/W11P)",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a3-64gb-2tb-w11p-1.png",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a3-64gb-2tb-w11p-1.png",
+      "https://resim.epey.com/1063662/z_asus-rog-strix-scar-18-g835lw-sa127-a3-64gb-2tb-w11p-8.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 91,
+    "reviewCount": 59,
+    "basePrice": 446318.66,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "18\" 2.5K (2560x1600) ROG Nebula HDR Mini-LED 240Hz Ekran",
+      "Intel Core Ultra 9 275HX (24 Çekirdek) Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 5080 Mobile 16GB (175W TGP) & MUX Switch + Advanced Optimus",
+      "64GB DDR5-5600 RAM & 2TB PCIe 4.0 SSD",
+      "Tri-Fan Sıvı Metal Soğutma & Per-Key RGB Mekanik Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E)",
+      "npuTops": 45,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 96,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe (RAID 0 Desteği)",
+      "gpu": "NVIDIA GeForce RTX 5080 Mobile 16GB",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 ROG Nebula HDR Mini-LED)",
+      "screenBrightnessNits": 1100,
+      "colorGamut": "%100 DCI-P3 (Pantone Onaylı)",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 8,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort & G-Sync)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x 2.5G LAN (RJ45)",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 3.1,
+      "thicknessMm": 30.8,
+      "bodyMaterial": "Alüminyum Kapak & Yarı Saydam Gövde",
+      "keyboard": "Her Tuşa Özel (Per-Key) RGB Aydınlatmalı ROG Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp 4 Hoparlör",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lw-sa127-a3-64gb-2tb-w11p-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 446318.66,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4320,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lw-sa127-a3-64gb-2tb-w11p-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 450782,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3120,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 464171,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 455245,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 446318.66,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-scar-18-g835lw-sa127-a1",
+    "slug": "asus-rog-strix-scar-18-g835lw-sa127-a1",
+    "name": "Asus ROG Strix Scar 18 G835LW-SA127-A1",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a1-1.png",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a1-1.png",
+      "https://resim.epey.com/1063651/z_asus-rog-strix-scar-18-g835lw-sa127-a1-8.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 91,
+    "reviewCount": 45,
+    "basePrice": 407549.05,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "18\" 2.5K (2560x1600) ROG Nebula HDR Mini-LED 240Hz Ekran",
+      "Intel Core Ultra 9 275HX (24 Çekirdek) Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 5080 Mobile 16GB (175W TGP) & MUX Switch + Advanced Optimus",
+      "64GB DDR5-5600 RAM & 2TB PCIe 4.0 SSD",
+      "Tri-Fan Sıvı Metal Soğutma & Per-Key RGB Mekanik Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E)",
+      "npuTops": 45,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 96,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe (RAID 0 Desteği)",
+      "gpu": "NVIDIA GeForce RTX 5080 Mobile 16GB",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 ROG Nebula HDR Mini-LED)",
+      "screenBrightnessNits": 1100,
+      "colorGamut": "%100 DCI-P3 (Pantone Onaylı)",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 8,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort & G-Sync)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x 2.5G LAN (RJ45)",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 3.1,
+      "thicknessMm": 30.8,
+      "bodyMaterial": "Alüminyum Kapak & Yarı Saydam Gövde",
+      "keyboard": "Her Tuşa Özel (Per-Key) RGB Aydınlatmalı ROG Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp 4 Hoparlör",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lw-sa127-a1-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 407549.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4320,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lw-sa127-a1-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 411625,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3120,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 423851,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 415700,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 407549.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-scar-18-g835lw-sa127-a6",
+    "slug": "asus-rog-strix-scar-18-g835lw-sa127-a6",
+    "name": "Asus ROG Strix Scar 18 G835LW-SA127-A6",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a6-1.png",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a6-1.png",
+      "https://resim.epey.com/1063635/z_asus-rog-strix-scar-18-g835lw-sa127-a6-8.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 90,
+    "reviewCount": 21,
+    "basePrice": 440633.06,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "18\" 2.5K (2560x1600) ROG Nebula HDR Mini-LED 240Hz Ekran",
+      "Intel Core Ultra 9 275HX (24 Çekirdek) Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 5080 Mobile 16GB (175W TGP) & MUX Switch + Advanced Optimus",
+      "96GB DDR5-5600 RAM & 2TB PCIe 4.0 SSD",
+      "Tri-Fan Sıvı Metal Soğutma & Per-Key RGB Mekanik Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E)",
+      "npuTops": 45,
+      "ramGb": 96,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 96,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe (RAID 0 Desteği)",
+      "gpu": "NVIDIA GeForce RTX 5080 Mobile 16GB",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 ROG Nebula HDR Mini-LED)",
+      "screenBrightnessNits": 1100,
+      "colorGamut": "%100 DCI-P3 (Pantone Onaylı)",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 8,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort & G-Sync)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x 2.5G LAN (RJ45)",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 3.1,
+      "thicknessMm": 30.8,
+      "bodyMaterial": "Alüminyum Kapak & Yarı Saydam Gövde",
+      "keyboard": "Her Tuşa Özel (Per-Key) RGB Aydınlatmalı ROG Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp 4 Hoparlör",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lw-sa127-a6-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 440633.06,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4320,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lw-sa127-a6-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 445039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3120,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 458258,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 449446,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 440633.06,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-scar-18-g835lw-sa127-a5-96gb-1tb-w11p",
+    "slug": "asus-rog-strix-scar-18-g835lw-sa127-a5-96gb-1tb-w11p",
+    "name": "Asus ROG Strix Scar 18 G835LW-SA127-A5 (96GB/1TB/W11P)",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a5-96gb-1tb-w11p-1.png",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-scar-18-g835lw-sa127-a5-96gb-1tb-w11p-1.png",
+      "https://resim.epey.com/1063692/z_asus-rog-strix-scar-18-g835lw-sa127-a5-96gb-1tb-w11p-8.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 90,
+    "reviewCount": 37,
+    "basePrice": 438737.86,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "18\" 2.5K (2560x1600) ROG Nebula HDR Mini-LED 240Hz Ekran",
+      "Intel Core Ultra 9 275HX (24 Çekirdek) Üst Düzey İşlemci",
+      "NVIDIA GeForce RTX 5080 Mobile 16GB (175W TGP) & MUX Switch + Advanced Optimus",
+      "96GB DDR5-5600 RAM & 1TB PCIe 4.0 SSD",
+      "Tri-Fan Sıvı Metal Soğutma & Per-Key RGB Mekanik Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E)",
+      "npuTops": 45,
+      "ramGb": 96,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 96,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe (RAID 0 Desteği)",
+      "gpu": "NVIDIA GeForce RTX 5080 Mobile 16GB",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 ROG Nebula HDR Mini-LED)",
+      "screenBrightnessNits": 1100,
+      "colorGamut": "%100 DCI-P3 (Pantone Onaylı)",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 8,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort & G-Sync)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x 2.5G LAN (RJ45)",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 3.1,
+      "thicknessMm": 30.8,
+      "bodyMaterial": "Alüminyum Kapak & Yarı Saydam Gövde",
+      "keyboard": "Her Tuşa Özel (Per-Key) RGB Aydınlatmalı ROG Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp 4 Hoparlör",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lw-sa127-a5-96gb-1tb-w11p-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 438737.86,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4320,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-scar-18-g835lw-sa127-a5-96gb-1tb-w11p-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 443125,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3120,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 456287,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 447513,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 438737.86,
+        "store": "Hepsiburada"
+      }
+    ]
   }
 ];
