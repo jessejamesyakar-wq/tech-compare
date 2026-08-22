@@ -26673,86 +26673,93 @@ export const mockTVs: TVProduct[] = [
   },
   {
     "id": "tcl-115x955-max",
-    "name": "TCL 115X955 Max 115\" 4K QD-Mini LED TV",
+    "name": "TCL 115X955 Max 115\" 4K QD-Mini LED Google TV (2024)",
     "brand": "TCL",
     "category": "tvs",
-    "basePrice": 499999,
-    "releaseYear": 2026,
+    "basePrice": 999999,
+    "releaseYear": 2024,
     "isPopular": true,
-    "image": "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/x/115x955/toolkits/product-card.png?t=1706147339629&w=800",
-    "slug": "tcl-115x955-max-115-inch-qd-mini-led-tv",
+    "image": "/images/products/tvs/tcl-115x955-max-1.jpg",
+    "slug": "tcl-115x955-max",
     "specs": {
       "screenSizeInches": 115,
-      "displayTech": "QD-Mini LED",
+      "displayTech": "Mini LED",
       "resolution": "4K Ultra HD (3840x2160)",
       "refreshRateHz": 144,
       "smartOs": "Google TV",
       "audioPowerWatts": 120,
-      "hdrSupport": [
+      "hdrFormats": [
         "Dolby Vision IQ",
-        "HDR10+",
+        "HDR10+ Adaptive",
+        "HDR10",
         "HLG"
       ],
       "gamingFeatures": [
         "144Hz VRR",
         "ALLM",
-        "Game Bar",
         "AMD FreeSync Premium Pro",
-        "HDMI 2.1 x4"
+        "Game Master Pro 3.0",
+        "HDMI 2.1"
       ],
       "hdmiPorts": 4,
       "usbPorts": 2,
-      "energyClass": "G"
+      "energyClass": "G",
+      "processorEngine": "AiPQ Processor Pro",
+      "brightnessNits": 5000,
+      "contrastRatio": "50.000.000:1 (Dinamik)",
+      "viewingAngle": "178/178",
+      "colorGamut": "98% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Assistant & Hands-free",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "2566 x 1508 x 450 mm",
+      "weightKg": 99.8,
+      "vesaMount": "800x600 mm",
+      "bezelStyle": "Ultra İnce Fırçalanmış Metal Kasa"
     },
     "storeOffers": [
       {
-        "id": "vatan",
+        "id": "offer-tcl-115x955-vatan",
         "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "text-blue-600",
-        "price": 499999,
+        "storeLogoColor": "#002f6c",
+        "price": 999999,
         "inStock": true,
-        "shippingDays": 1,
+        "shippingDays": 3,
         "badges": [
-          "Ücretsiz Kurulum",
-          "Resmi Distribütör Garantili"
+          "VIP Kurulum",
+          "Özel Mühendislik Montajı"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 320,
+        "sellerReviews": 120,
         "url": "https://www.vatanbilgisayar.com"
-      },
-      {
-        "id": "mediamarkt",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "text-red-600",
-        "price": 504999,
-        "inStock": true,
-        "shippingDays": 2,
-        "badges": [
-          "Aynı Gün Kargo"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 290,
-        "url": "https://www.mediamarkt.com.tr"
       }
     ],
     "priceHistory": [
       {
         "date": "2026-06-01",
-        "price": 519999,
-        "store": "Vatan Bilgisayar"
+        "price": 1050000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 1020000,
+        "store": "Ortalama"
       },
       {
         "date": "2026-08-01",
-        "price": 499999,
-        "store": "Vatan Bilgisayar"
+        "price": 999999,
+        "store": "Vatan"
       }
     ],
     "highlights": [
-      "115 inç Dev Ekran",
-      "20.000+ Hassas Karartma Bölgesi",
-      "5.000 Nit HDR Parlaklık",
-      "ONKYO 6.2.2 Hi-Fi Ses",
-      "144Hz VRR"
+      "115\" (292 cm) Dünyanın En Büyük 4K QD-Mini LED Ekranı",
+      "20.000+ Yerel Karartma Bölgesi & 5000 nit Tepe Parlaklık",
+      "144Hz VRR & AiPQ Pro İşlemci",
+      "120W 6.2.2 Kanal Onkyo Hi-Fi Ses Sistemi & Dolby Atmos"
     ],
     "tags": [
       "115 inç",
@@ -26762,13 +26769,14 @@ export const mockTVs: TVProduct[] = [
       "ONKYO 6.2.2",
       "2026"
     ],
-    "rating": 4.8,
-    "reviewCount": 120,
+    "rating": 5,
+    "reviewCount": 16,
     "currency": "TL",
     "images": [
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/x/115x955/toolkits/product-card.png?t=1706147339629&w=800",
-      "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/x/115x955/toolkits/product-card.png"
-    ]
+      "/images/products/tvs/tcl-115x955-max-1.jpg",
+      "https://resim.epey.com/955587/k_tcl-115x955-max-8.jpg"
+    ],
+    "isFeatured": true
   },
   {
     "id": "tcl-85c7k-qd-mini-led",
@@ -57183,6 +57191,2261 @@ export const mockTVs: TVProduct[] = [
         "date": "2026-08-01",
         "price": 289999,
         "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "tcl-115c7k",
+    "slug": "tcl-115c7k",
+    "name": "TCL 115C7K (115C7KGTV) 115\" 4K QD-Mini LED Google TV (2025)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tvs/tcl-115c7k-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-115c7k-1.jpg",
+      "https://resim.epey.com/1027300/k_tcl-115c7k-115c7kgtv-6921732889531-1.jpg"
+    ],
+    "rating": 4.9,
+    "reviewCount": 18,
+    "basePrice": 874000,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "115\" (292 cm) Dev QD-Mini LED 4K Ekran",
+      "100W 4.2.2 Kanal Onkyo Ses Sistemi & Dolby Atmos",
+      "144Hz VRR & AiPQ Pro İşlemci",
+      "Premium Çerçevesiz Metalik Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 115,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 100,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium Pro",
+        "Game Master Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ Processor Pro",
+      "brightnessNits": 3500,
+      "contrastRatio": "30.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "97% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Assistant & Hands-free",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "2566 x 1500 x 440 mm",
+      "weightKg": 95,
+      "vesaMount": "800x600 mm",
+      "bezelStyle": "Çerçevesiz Metalik Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-115c7k-mediamarkt",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 874000,
+        "inStock": true,
+        "shippingDays": 3,
+        "badges": [
+          "VIP Kurulum"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 180,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 920000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 890000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 874000,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "tcl-85c7k",
+    "slug": "tcl-85c7k",
+    "name": "TCL 85C7K (85C7KGTV) 85\" 4K QD-Mini LED Google TV (2025)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tvs/tcl-85c7k-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-85c7k-1.jpg",
+      "https://resim.epey.com/1017427/k_tcl-85c7k-9.jpg"
+    ],
+    "rating": 4.9,
+    "reviewCount": 28,
+    "basePrice": 144999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "85\" (215 cm) 4K QD-Mini LED Panel",
+      "60W 2.1.2 Onkyo Ses & Dahili Subwoofer",
+      "144Hz VRR & AiPQ Pro İşlemci",
+      "Dolby Vision IQ & HDR10+ Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium Pro",
+        "Game Bar"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ Processor Pro",
+      "brightnessNits": 2600,
+      "contrastRatio": "15.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "97% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Assistant",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1890 x 1155 x 385 mm",
+      "weightKg": 43.5,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "İnce Metalik Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-85c7k-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 144999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "TCL Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 210,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 155000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 149000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 144999,
+        "store": "Vatan"
+      }
+    ]
+  },
+  {
+    "id": "tcl-98c755",
+    "slug": "tcl-98c755",
+    "name": "TCL 98C755 98\" 4K QD-Mini LED Google TV (2024)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tvs/tcl-98c755-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-98c755-1.jpg",
+      "https://resim.epey.com/933983/k_tcl-98c755-1.jpg"
+    ],
+    "rating": 4.9,
+    "reviewCount": 32,
+    "basePrice": 189050,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "98\" (248 cm) Dev Ekran QD-Mini LED Panel",
+      "40W Onkyo 2.1 Ses Sistemi & Dahili Subwoofer",
+      "144Hz VRR & AiPQ 3.0 İşlemci",
+      "IMAX Enhanced & Dolby Vision IQ"
+    ],
+    "specs": {
+      "screenSizeInches": 98,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HDR10",
+        "HLG",
+        "IMAX Enhanced"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium Pro",
+        "Game Master Pro 2.0"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ Processor 3.0",
+      "brightnessNits": 2000,
+      "contrastRatio": "10.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "96% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Assistant & Hands-free",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "2179 x 1289 x 420 mm",
+      "weightKg": 59,
+      "vesaMount": "600x500 mm",
+      "bezelStyle": "Metalik Çerçevesiz Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-98c755-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 189050,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 205000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 195000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 189050,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tcl-98p8l",
+    "slug": "tcl-98p8l",
+    "name": "TCL 98P8L (98P8LGTV) 98\" 4K QLED Google TV (2026)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tvs/tcl-98p8l-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-98p8l-1.jpg",
+      "https://resim.epey.com/1057571/k_tcl-98p8l-6937574833588-1.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 30,
+    "basePrice": 159999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "98\" (248 cm) 4K Quantum Dot QLED Dev Ekran",
+      "40W Onkyo Ses Sistemi & Dolby Atmos",
+      "144Hz VRR & AiPQ Pro İşlemci",
+      "Full Array Local Dimming & Google TV"
+    ],
+    "specs": {
+      "screenSizeInches": 98,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium",
+        "Game Master"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ Processor Pro",
+      "brightnessNits": 1500,
+      "contrastRatio": "8.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "95% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Google Assistant",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "2179 x 1289 x 420 mm",
+      "weightKg": 58,
+      "vesaMount": "600x500 mm",
+      "bezelStyle": "İnce Çerçeve Metal Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-98p8l-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 159999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "TCL Türkiye Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 290,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 172000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 165000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 159999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "tcl-98c6k",
+    "slug": "tcl-98c6k",
+    "name": "TCL 98C6K (98C6KGTV) 98\" 4K QD-Mini LED Google TV (2025)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tvs/tcl-98c6k-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-98c6k-1.jpg",
+      "https://resim.epey.com/1012394/k_tcl-98c6k-6921732849962-5.jpg"
+    ],
+    "rating": 4.9,
+    "reviewCount": 34,
+    "basePrice": 166499,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "98\" (248 cm) 4K QD-Mini LED Ekran",
+      "40W Onkyo 2.1 Ses Sistemi & Dolby Atmos",
+      "144Hz VRR & AiPQ Pro İşlemci",
+      "Full Array Local Dimming & Google TV"
+    ],
+    "specs": {
+      "screenSizeInches": 98,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium Pro",
+        "Game Master Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ Processor Pro",
+      "brightnessNits": 1800,
+      "contrastRatio": "10.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "96% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Assistant",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "2179 x 1289 x 420 mm",
+      "weightKg": 58.5,
+      "vesaMount": "600x500 mm",
+      "bezelStyle": "Modern Metalik Çerçevesiz"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-98c6k-mediamarkt",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 166499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 260,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 180000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 172000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 166499,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "tcl-85c855",
+    "slug": "tcl-85c855",
+    "name": "TCL 85C855 85\" 4K QD-Mini LED Google TV (2024)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tvs/tcl-85c855-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-85c855-1.jpg",
+      "https://resim.epey.com/960240/k_tcl-85c855-1.jpg"
+    ],
+    "rating": 4.9,
+    "reviewCount": 36,
+    "basePrice": 176199,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "85\" (215 cm) Premium 4K QD-Mini LED Panel",
+      "60W 2.1.2 Kanal Onkyo Hi-Fi Ses Sistemi & Dolby Atmos",
+      "144Hz VRR & AiPQ Pro İşlemci",
+      "3500 nit Tepe Parlaklık & 2000+ Karartma Bölgesi"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HDR10",
+        "HLG",
+        "IMAX Enhanced"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium Pro",
+        "Game Master Pro 3.0"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ Processor Pro",
+      "brightnessNits": 3500,
+      "contrastRatio": "35.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "98% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Assistant & Hands-free",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1890 x 1155 x 385 mm",
+      "weightKg": 44,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "Ultra Slim Fırçalanmış Titanyum Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-85c855-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 176199,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 310,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 190000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 182000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 176199,
+        "store": "Vatan"
+      }
+    ]
+  },
+  {
+    "id": "tcl-75c8l",
+    "slug": "tcl-75c8l",
+    "name": "TCL 75C8L (75C8LGTV) 75\" 4K QD-Mini LED Google TV (2026)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tvs/tcl-75c8l-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-75c8l-1.jpg",
+      "https://resim.epey.com/1057570/k_tcl-65c8l-6.jpg"
+    ],
+    "rating": 4.9,
+    "reviewCount": 38,
+    "basePrice": 158110,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "75\" (189 cm) Yeni Nesil 4K QD-Mini LED Ekran",
+      "200W Ultra Güçlü Onkyo Çok Kanallı Ses Sistemi",
+      "144Hz VRR & AiPQ Pro AI Görüntü Motoru",
+      "Dolby Vision IQ & IMAX Enhanced"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 200,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HDR10",
+        "HLG",
+        "IMAX Enhanced"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium Pro",
+        "Game Bar"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ Processor Pro",
+      "brightnessNits": 3000,
+      "contrastRatio": "25.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "98% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Assistant & Hands-free",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1667 x 1025 x 340 mm",
+      "weightKg": 36.5,
+      "vesaMount": "400x400 mm",
+      "bezelStyle": "ZeroFrame Metalik Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-75c8l-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 158110,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "TCL Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 340,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 170000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 163000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 158110,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "tcl-75c8k",
+    "slug": "tcl-75c8k",
+    "name": "TCL 75C8K 75\" 4K QD-Mini LED Google TV (2025)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tvs/tcl-75c8k-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-75c8k-1.jpg",
+      "https://resim.epey.com/1023488/k_tcl-65c8k-1.jpg"
+    ],
+    "rating": 4.9,
+    "reviewCount": 35,
+    "basePrice": 164349.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "75\" (189 cm) 4K QD-Mini LED Ekran",
+      "90W Onkyo 2.1.2 Ses Sistemi & Dolby Atmos",
+      "144Hz VRR & AiPQ Pro İşlemci",
+      "Dolby Vision IQ & IMAX Enhanced Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 90,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HDR10",
+        "HLG",
+        "IMAX Enhanced"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium Pro",
+        "Game Master Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ Processor Pro",
+      "brightnessNits": 2800,
+      "contrastRatio": "20.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "97% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Assistant",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1667 x 1025 x 340 mm",
+      "weightKg": 35.8,
+      "vesaMount": "400x400 mm",
+      "bezelStyle": "Fırçalanmış Alüminyum Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-75c8k-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 164349.05,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 270,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 178000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 170000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 164349.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tcl-75c7k",
+    "slug": "tcl-75c7k",
+    "name": "TCL 75C7K 75\" 4K QD-Mini LED Google TV (2025)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tvs/tcl-75c7k-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-75c7k-1.jpg",
+      "https://resim.epey.com/1017425/k_tcl-75c7k-9.jpg"
+    ],
+    "rating": 4.9,
+    "reviewCount": 39,
+    "basePrice": 163200,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "75\" (189 cm) 4K QD-Mini LED Panel",
+      "60W 2.1 Onkyo Ses Sistemi & Dahili Subwoofer",
+      "144Hz VRR & AiPQ Pro İşlemci",
+      "Dolby Vision IQ & Full Array Karartma"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium Pro",
+        "Game Master"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ Processor Pro",
+      "brightnessNits": 2400,
+      "contrastRatio": "15.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "97% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Assistant",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1667 x 1025 x 340 mm",
+      "weightKg": 34,
+      "vesaMount": "400x400 mm",
+      "bezelStyle": "İnce Metalik Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-75c7k-mediamarkt",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 163200,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 310,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 175000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 168000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 163200,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "tcl-85p8l",
+    "slug": "tcl-85p8l",
+    "name": "TCL 85P8L (85P8LGTV) 85\" 4K QLED Google TV (2026)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tvs/tcl-85p8l-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-85p8l-1.jpg",
+      "https://resim.epey.com/1057576/k_tcl-85p8l-1.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 37,
+    "basePrice": 103500,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "85\" (215 cm) 4K Quantum Dot QLED Ekran",
+      "40W Onkyo Ses Sistemi & Dolby Atmos",
+      "144Hz VRR & AiPQ Pro İşlemci",
+      "Google TV & Geniş Renk Gamı"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium",
+        "Game Master"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "AiPQ Processor Pro",
+      "brightnessNits": 1200,
+      "contrastRatio": "7.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "95% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Google Assistant",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1890 x 1155 x 385 mm",
+      "weightKg": 41.5,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "İnce Çerçeve Metal Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-85p8l-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 103500,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "TCL Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 330,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 115000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 108000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 103500,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "tcl-75c7l",
+    "slug": "tcl-75c7l",
+    "name": "TCL 75C7L (75C7LGTV) 75\" 4K QD-Mini LED Google TV (2026)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tvs/tcl-75c7l-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-75c7l-1.jpg",
+      "https://resim.epey.com/1057573/k_tcl-65c7l-7.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 33,
+    "basePrice": 114491.06,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "75\" (189 cm) 4K QD-Mini LED Panel",
+      "60W Onkyo 2.1 Ses & Dahili Subwoofer",
+      "144Hz VRR & AiPQ Pro İşlemci",
+      "Dolby Vision IQ & Full Array Yerel Karartma"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium Pro",
+        "Game Master"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ Processor Pro",
+      "brightnessNits": 2200,
+      "contrastRatio": "15.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "97% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Assistant",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1667 x 1025 x 340 mm",
+      "weightKg": 33.5,
+      "vesaMount": "400x400 mm",
+      "bezelStyle": "Modern Metalik Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-75c7l-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 114491.06,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 270,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 125000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 119000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 114491.06,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tcl-85c6k",
+    "slug": "tcl-85c6k",
+    "name": "TCL 85C6K 85\" 4K QD-Mini LED Google TV (2025)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tvs/tcl-85c6k-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-85c6k-1.jpg",
+      "https://resim.epey.com/1026550/k_tcl-75c6k-6921732849962-5.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 35,
+    "basePrice": 121500,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "85\" (215 cm) 4K QD-Mini LED Panel",
+      "40W Onkyo 2.1 Ses Sistemi & Dolby Atmos",
+      "144Hz VRR & AiPQ Pro İşlemci",
+      "Full Array Yerel Karartma & Google TV"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium Pro",
+        "Game Master"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "AiPQ Processor Pro",
+      "brightnessNits": 1600,
+      "contrastRatio": "10.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "96% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Assistant",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1890 x 1155 x 385 mm",
+      "weightKg": 42,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "İnce Çerçevesiz Metalik Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-85c6k-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 121500,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "TCL Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 310,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 133000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 126000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 121500,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "tcl-75c855",
+    "slug": "tcl-75c855",
+    "name": "TCL 75C855 (75C855GTV) 75\" 4K QD-Mini LED Google TV (2024)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tvs/tcl-75c855-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-75c855-1.jpg",
+      "https://resim.epey.com/959713/k_tcl-65c855gtv-6921732827625-1.jpg"
+    ],
+    "rating": 4.9,
+    "reviewCount": 41,
+    "basePrice": 105600,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "75\" (189 cm) 4K QD-Mini LED Amiral Gemisi Panel",
+      "60W 2.1.2 Onkyo Hi-Fi Ses & Dahili Subwoofer",
+      "144Hz VRR & AiPQ Pro İşlemci",
+      "3300 nit Tepe Parlaklık & IMAX Enhanced"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HDR10",
+        "HLG",
+        "IMAX Enhanced"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium Pro",
+        "Game Master Pro 3.0"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ Processor Pro",
+      "brightnessNits": 3300,
+      "contrastRatio": "30.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "98% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Assistant & Hands-free",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1667 x 1025 x 340 mm",
+      "weightKg": 35,
+      "vesaMount": "400x400 mm",
+      "bezelStyle": "Ultra İnce Alüminyum Titanyum Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-75c855-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 105600,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "TCL Türkiye"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 360,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 118000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 110000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 105600,
+        "store": "Vatan"
+      }
+    ]
+  },
+  {
+    "id": "tcl-65c8l",
+    "slug": "tcl-65c8l",
+    "name": "TCL 65C8L (65C8LGTV) 65\" 4K QD-Mini LED Google TV (2026)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tcl-65c8l-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-65c8l-1.jpg",
+      "https://resim.epey.com/1057572/k_tcl-65c8l-6.jpg"
+    ],
+    "rating": 4.9,
+    "reviewCount": 39,
+    "basePrice": 125685,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "65\" (164 cm) 4K QD-Mini LED Ekran",
+      "200W Onkyo Çok Kanallı Ses Sistemi & Dolby Atmos",
+      "144Hz VRR & AiPQ Pro İşlemci",
+      "Dolby Vision IQ & IMAX Enhanced"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 200,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HDR10",
+        "HLG",
+        "IMAX Enhanced"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium Pro",
+        "Game Master"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ Processor Pro",
+      "brightnessNits": 2800,
+      "contrastRatio": "20.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "98% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Assistant & Hands-free",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1446 x 895 x 298 mm",
+      "weightKg": 26.5,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "ZeroFrame Metalik Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-65c8l-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 125685,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "TCL Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 360,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 138000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 130000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 125685,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "tcl-65c8k",
+    "slug": "tcl-65c8k",
+    "name": "TCL 65C8K 65\" 4K QD-Mini LED Google TV (2025)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tvs/tcl-65c8k-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-65c8k-1.jpg",
+      "https://resim.epey.com/1023489/k_tcl-65c8k-1.jpg"
+    ],
+    "rating": 4.9,
+    "reviewCount": 38,
+    "basePrice": 105799.08,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "65\" (164 cm) 4K QD-Mini LED Panel",
+      "90W Onkyo 2.1.2 Ses & Dolby Atmos",
+      "144Hz VRR & AiPQ Pro İşlemci",
+      "Dolby Vision IQ & IMAX Enhanced"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 90,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HDR10",
+        "HLG",
+        "IMAX Enhanced"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium Pro",
+        "Game Master Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ Processor Pro",
+      "brightnessNits": 2600,
+      "contrastRatio": "18.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "97% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Assistant",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1446 x 895 x 298 mm",
+      "weightKg": 26,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Fırçalanmış Metalik Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-65c8k-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 105799.08,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 290,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 118000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 110000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 105799.08,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tcl-98p8k",
+    "slug": "tcl-98p8k",
+    "name": "TCL 98P8K (98P8KGTV) 98\" 4K QLED Google TV (2025)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tvs/tcl-98p8k-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-98p8k-1.jpg",
+      "https://resim.epey.com/1030107/k_tcl-98p8k-1.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 31,
+    "basePrice": 120060,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "98\" (248 cm) Dev Boyut 4K QLED Panel",
+      "40W Onkyo Stereo Ses Sistemi & Dolby Atmos",
+      "144Hz VRR & AiPQ Pro İşlemci",
+      "Game Master & Google TV"
+    ],
+    "specs": {
+      "screenSizeInches": 98,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium",
+        "Game Master"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "AiPQ Processor Pro",
+      "brightnessNits": 1000,
+      "contrastRatio": "6.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "94% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Google Assistant",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "2179 x 1289 x 420 mm",
+      "weightKg": 57,
+      "vesaMount": "600x500 mm",
+      "bezelStyle": "Modern İnce Metal Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-98p8k-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 120060,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "TCL Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 260,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 132000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 125000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 120060,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "tcl-65c7k",
+    "slug": "tcl-65c7k",
+    "name": "TCL 65C7K 65\" 4K QD-Mini LED Google TV (2025)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tvs/tcl-65c7k-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-65c7k-1.jpg",
+      "https://resim.epey.com/1017424/k_tcl-65c7k-9.jpg"
+    ],
+    "rating": 4.9,
+    "reviewCount": 42,
+    "basePrice": 91079.01,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "65\" (164 cm) 4K QD-Mini LED Panel",
+      "60W 2.1 Onkyo Ses & Dahili Subwoofer",
+      "144Hz VRR & AiPQ Pro İşlemci",
+      "Dolby Vision IQ & Yerel Karartma"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium Pro",
+        "Game Master"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ Processor Pro",
+      "brightnessNits": 2200,
+      "contrastRatio": "15.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "97% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Assistant",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1446 x 895 x 298 mm",
+      "weightKg": 25.5,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "İnce Metalik Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-65c7k-mediamarkt",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 91079.01,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "TCL Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 360,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 102000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 95000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 91079.01,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "tcl-75q7d-pro",
+    "slug": "tcl-75q7d-pro",
+    "name": "TCL 75Q7D Pro 75\" 4K QD-Mini LED Google TV (2026)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tvs/tcl-75q7d-pro-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-75q7d-pro-1.jpg",
+      "https://resim.epey.com/1058668/k_tcl-65q7d-pro-1.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 39,
+    "basePrice": 112149,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "75\" (189 cm) 4K SQD-Mini LED Panel",
+      "40W Onkyo Ses Sistemi & Dolby Atmos",
+      "144Hz VRR & AiPQ Pro İşlemci",
+      "Dolby Vision & IMAX Enhanced Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HDR10",
+        "HLG",
+        "IMAX Enhanced"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium Pro",
+        "Game Bar"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "AiPQ Processor Pro",
+      "brightnessNits": 2000,
+      "contrastRatio": "12.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "96% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Assistant",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1667 x 1025 x 340 mm",
+      "weightKg": 33,
+      "vesaMount": "400x400 mm",
+      "bezelStyle": "Modern Metalik Çerçevesiz"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-75q7d-pro-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 112149,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "TCL Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 380,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 122000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 116000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 112149,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "tcl-85c755",
+    "slug": "tcl-85c755",
+    "name": "TCL 85C755 85\" 4K QD-Mini LED Google TV (2024)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tvs/tcl-85c755-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-85c755-1.jpg",
+      "https://resim.epey.com/933981/k_tcl-55c755-8.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 37,
+    "basePrice": 113645,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "85\" (215 cm) 4K QD-Mini LED Panel",
+      "30W 2.1 Onkyo Ses Sistemi & Dahili Subwoofer",
+      "144Hz VRR & AiPQ 3.0 İşlemci",
+      "IMAX Enhanced & Dolby Vision IQ"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HDR10",
+        "HLG",
+        "IMAX Enhanced"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium Pro",
+        "Game Master Pro 2.0"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ Processor 3.0",
+      "brightnessNits": 1500,
+      "contrastRatio": "8.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "96% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Assistant",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1890 x 1155 x 385 mm",
+      "weightKg": 42.5,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "İnce Alüminyum Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-85c755-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 113645,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 280,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 126000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 119000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 113645,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tcl-75q6c",
+    "slug": "tcl-75q6c",
+    "name": "TCL 75Q6C (75Q6CGTV) 75\" 4K QLED Google TV (2025)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tvs/tcl-75q6c-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-75q6c-1.jpg",
+      "https://resim.epey.com/1019432/k_tcl-75q6c-6921732890919-1.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 38,
+    "basePrice": 70524.09,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "75\" (189 cm) 4K Quantum Dot QLED Ekran",
+      "40W Onkyo Ses Sistemi & Dolby Atmos",
+      "120Hz/144Hz VRR & AiPQ İşlemci",
+      "Dolby Vision & Google TV Deneyimi"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "Game Master",
+        "FreeSync"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "AiPQ Processor",
+      "brightnessNits": 800,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "93% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Google Assistant",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1667 x 1025 x 340 mm",
+      "weightKg": 30.5,
+      "vesaMount": "400x400 mm",
+      "bezelStyle": "İnce Çerçeveli Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-75q6c-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 70524.09,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "TCL Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 78000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 73500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 70524.09,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "tcl-75c6k",
+    "slug": "tcl-75c6k",
+    "name": "TCL 75C6K (75C6KGTV) 75\" 4K QD-Mini LED Google TV (2025)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tvs/tcl-75c6k-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-75c6k-1.jpg",
+      "https://resim.epey.com/1012378/k_tcl-75c6k-6921732849962-5.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 45,
+    "basePrice": 74249.01,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "75\" (189 cm) 4K QD-Mini LED Ekran",
+      "40W Onkyo 2.1 Ses Sistemi & Dolby Atmos",
+      "144Hz VRR & AiPQ Pro İşlemci",
+      "Full Array Yerel Karartma & Google TV"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium Pro",
+        "Game Master Pro"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "AiPQ Processor Pro",
+      "brightnessNits": 1400,
+      "contrastRatio": "8.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "95% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Assistant",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1667 x 1025 x 340 mm",
+      "weightKg": 31,
+      "vesaMount": "400x400 mm",
+      "bezelStyle": "Modern Metalik Çerçevesiz"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-75c6k-mediamarkt",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 74249.01,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "TCL Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 410,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 82000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 77500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 74249.01,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "tcl-65c855",
+    "slug": "tcl-65c855",
+    "name": "TCL 65C855 (65C855GTV) 65\" 4K QD-Mini LED Google TV (2024)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tvs/tcl-65c855-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-65c855-1.jpg",
+      "https://resim.epey.com/959714/k_tcl-65c855gtv-6921732827625-1.jpg"
+    ],
+    "rating": 4.9,
+    "reviewCount": 42,
+    "basePrice": 115200,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "65\" (164 cm) 4K QD-Mini LED Panel",
+      "60W 2.1.2 Onkyo Hi-Fi Ses Sistemi & Dolby Atmos",
+      "144Hz VRR & AiPQ Pro İşlemci",
+      "3000 nit Tepe Parlaklık & IMAX Enhanced"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 60,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HDR10",
+        "HLG",
+        "IMAX Enhanced"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium Pro",
+        "Game Master Pro 3.0"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "AiPQ Processor Pro",
+      "brightnessNits": 3000,
+      "contrastRatio": "25.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "98% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Assistant & Hands-free",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1446 x 895 x 298 mm",
+      "weightKg": 25.8,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Ultra İnce Titanyum Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-65c855-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 115200,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "TCL Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 380,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 126000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 119500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 115200,
+        "store": "Vatan"
+      }
+    ]
+  },
+  {
+    "id": "tcl-75p8l",
+    "slug": "tcl-75p8l",
+    "name": "TCL 75P8L (75P8LGTV) 75\" 4K QLED Google TV (2026)",
+    "brand": "TCL",
+    "category": "tvs",
+    "image": "/images/products/tvs/tcl-75p8l-1.jpg",
+    "images": [
+      "/images/products/tvs/tcl-75p8l-1.jpg",
+      "https://resim.epey.com/1057111/k_tcl-75p8l-6937574839160-6.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 36,
+    "basePrice": 69750,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "75\" (189 cm) 4K Quantum Dot QLED Ekran",
+      "35W Stereo Onkyo Ses Sistemi & Dolby Atmos",
+      "144Hz VRR & AiPQ Pro İşlemci",
+      "Google TV & Game Master"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 35,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium",
+        "Game Master"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "AiPQ Processor Pro",
+      "brightnessNits": 1000,
+      "contrastRatio": "6.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "94% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Google Assistant",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1667 x 1025 x 340 mm",
+      "weightKg": 29.8,
+      "vesaMount": "400x400 mm",
+      "bezelStyle": "İnce Çerçeveli Metalik Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-tcl-75p8l-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 69750,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "TCL Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 310,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 77000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 72500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 69750,
+        "store": "Trendyol"
       }
     ]
   }
