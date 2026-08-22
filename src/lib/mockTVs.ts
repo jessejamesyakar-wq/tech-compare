@@ -56933,36 +56933,40 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "tcl-65c8l",
     "slug": "tcl-65c8l",
-    "name": "TCL 65C8L (65C8LGTV) 65\" 4K QD-Mini LED Google TV (2026)",
+    "name": "TCL 65C8L (65C8LGTV) 65\" 4K SQD-Mini LED Google TV (2026)",
     "brand": "TCL",
     "category": "tvs",
-    "image": "/images/products/tcl-65c8l-1.jpg",
+    "image": "/images/products/tvs/tcl-65c8l-1.jpg",
     "images": [
       "/images/products/tvs/tcl-65c8l-1.jpg",
-      "https://resim.epey.com/1057572/k_tcl-65c8l-6.jpg"
+      "https://resim.epey.com/1057572/z_tcl-65c8l-6.jpg",
+      "https://resim.epey.com/1057572/m_tcl-65c8l-7.jpg",
+      "https://resim.epey.com/1057572/m_tcl-65c8l-2.jpg"
     ],
-    "rating": 4.9,
-    "reviewCount": 39,
+    "rating": 4.4,
+    "reviewCount": 6,
     "basePrice": 125685,
     "currency": "TL",
     "releaseYear": 2026,
     "isPopular": true,
     "isFeatured": true,
     "highlights": [
-      "65\" (164 cm) 4K QD-Mini LED Ekran",
-      "200W Onkyo Çok Kanallı Ses Sistemi & Dolby Atmos",
-      "144Hz VRR & AiPQ Pro İşlemci",
-      "Dolby Vision IQ & IMAX Enhanced"
+      "65\" (164 cm) 4K SQD-Mini LED Panel (5000 Nits Zirve Parlaklık)",
+      "200W RMS 2.2 Bang & Olufsen Ses Sistemi & Dahili Subwoofer",
+      "144Hz VRR & 1080p @ 288Hz Ultra Yüksek Hızlı Oyun Desteği",
+      "2040 Yerel Karartma Bölgesi & 100% BT.2020 Renk Gamı (TSR AiPQ İşlemci)"
     ],
     "specs": {
       "screenSizeInches": 65,
       "displayTech": "Mini LED",
       "resolution": "4K Ultra HD (3840x2160)",
       "refreshRateHz": 144,
-      "smartOs": "Google TV",
+      "smartOs": "Android TV",
       "audioPowerWatts": 200,
       "hdrFormats": [
+        "Dolby Vision 2",
         "Dolby Vision IQ",
+        "Dolby Vision",
         "HDR10+",
         "HDR10",
         "HLG",
@@ -56970,36 +56974,83 @@ export const mockTVs: TVProduct[] = [
       ],
       "gamingFeatures": [
         "144Hz VRR",
+        "288Hz DLG (1080p)",
         "ALLM",
         "FreeSync Premium Pro",
-        "Game Master"
+        "Game Master",
+        "T-Link"
       ],
       "hdmiPorts": 4,
-      "usbPorts": 2,
-      "energyClass": "G",
-      "processorEngine": "AiPQ Processor Pro",
-      "brightnessNits": 2800,
-      "contrastRatio": "20.000.000:1",
-      "viewingAngle": "178/178",
-      "colorGamut": "98% DCI-P3",
+      "usbPorts": 1,
+      "energyClass": "D",
+      "processorEngine": "TSR AiPQ Processor (4 Çekirdek)",
+      "brightnessNits": 5000,
+      "contrastRatio": "5.000:1 (Statik) / 2040 Dimming Zones",
+      "viewingAngle": "178/178 (Anti-Glare VA Panel)",
+      "colorGamut": "100% BT.2020 (REC.2020) & QLED",
       "dolbyAtmos": true,
       "dtsX": true,
-      "voiceControl": "Google Assistant & Hands-free",
+      "voiceControl": "Google Assistant (Dahili Mikrofon)",
       "wifiVersion": "Wi-Fi 6",
-      "bluetoothVersion": "5.2",
+      "bluetoothVersion": "5.4",
       "appleAirplay": true,
       "chromecastBuiltIn": true,
-      "dimensionsWithStand": "1446 x 895 x 298 mm",
-      "weightKg": 26.5,
-      "vesaMount": "400x300 mm",
-      "bezelStyle": "ZeroFrame Metalik Gövde"
+      "dimensionsWithStand": "1434 x 824 x 368 mm",
+      "weightKg": 23.1,
+      "vesaMount": "300x300 mm",
+      "bezelStyle": "Slim Siyah Çerçeve & Kare Metal Stand"
     },
     "storeOffers": [
       {
-        "id": "offer-tcl-65c8l-trendyol",
-        "storeName": "Trendyol",
-        "storeLogoColor": "#f27a1a",
+        "id": "offer-tcl-65c8l-pttavm",
+        "storeName": "PTT AVM",
+        "storeLogoColor": "#ffcc00",
         "price": 125685,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "ASG Teknoloji"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 120,
+        "url": "https://www.pttavm.com"
+      },
+      {
+        "id": "offer-tcl-65c8l-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 128380,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "ASG Teknoloji"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 310,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-tcl-65c8l-n11",
+        "storeName": "n11",
+        "storeLogoColor": "#5c3bfe",
+        "price": 130950,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "MediaMarkt Satıcılı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 450,
+        "url": "https://www.n11.com"
+      },
+      {
+        "id": "offer-tcl-65c8l-mediamarkt",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 134999,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
@@ -57007,25 +57058,55 @@ export const mockTVs: TVProduct[] = [
           "TCL Garantili"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 360,
+        "sellerReviews": 580,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "id": "offer-tcl-65c8l-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 134999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Vatan Bilgisayar"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 390,
         "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-tcl-65c8l-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 134999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "TCL Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 290,
+        "url": "https://www.vatanbilgisayar.com"
       }
     ],
     "priceHistory": [
       {
         "date": "2026-06-01",
-        "price": 138000,
+        "price": 149000,
         "store": "Ortalama"
       },
       {
         "date": "2026-07-01",
-        "price": 130000,
-        "store": "Ortalama"
+        "price": 134999,
+        "store": "MediaMarkt"
       },
       {
         "date": "2026-08-01",
         "price": 125685,
-        "store": "Trendyol"
+        "store": "PTT AVM"
       }
     ]
   },
