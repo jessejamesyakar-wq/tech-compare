@@ -81110,5 +81110,2339 @@ export const mockTVs: TVProduct[] = [
         "store": "Hepsiburada"
       }
     ]
+  },
+  {
+    "id": "onvo-100vq90f3ub",
+    "slug": "onvo-100vq90f3ub",
+    "name": "Onvo 100VQ90F3UB 100\" 4K Ultra HD Smart QLED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-100vq90f3ub-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-100vq90f3ub-1.jpg",
+      "https://resim.epey.com/1050092/z_onvo-100vq90f3-1.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 14,
+    "basePrice": 89999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "100\" (254 cm) Devasa Sinematik 4K QLED Ekran",
+      "16W RMS Net Ses & Dolby Audio",
+      "HDR10 & HLG Destekli Android TV",
+      "Dahili Wi-Fi & Bluetooth & Google Play"
+    ],
+    "specs": {
+      "screenSizeInches": 100,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 16,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 450,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%90 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "2230 x 1340 x 430 mm",
+      "weightKg": 62,
+      "vesaMount": "800x400 mm",
+      "bezelStyle": "Çerçevesiz Metalik Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-100vq90f3ub-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 89999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Türkiye Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 95,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-onvo-100vq90f3ub-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 92499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 80,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 98000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 94000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 89999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "onvo-85vq90f2ua",
+    "slug": "onvo-85vq90f2ua",
+    "name": "Onvo 85VQ90F2UA 85\" 4K Ultra HD Smart QLED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-85vq90f2ua-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-85vq90f2ua-1.jpg",
+      "https://resim.epey.com/1054322/z_onvo-85vq90f2ua-1.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 22,
+    "basePrice": 49236.23,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "85\" (216 cm) Dev 4K Quantum Dot QLED Ekran",
+      "16W RMS Net Ses Çıkışı & Dolby Audio",
+      "HDR10 & HLG & Android TV Platformu",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 16,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 400,
+      "contrastRatio": "4500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%88 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1895 x 1150 x 380 mm",
+      "weightKg": 38.5,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-85vq90f2ua-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 49236.23,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 180,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-onvo-85vq90f2ua-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 49999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Türkiye Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 150,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 54000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 51500,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 49236,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-85vq90f3ua",
+    "slug": "onvo-85vq90f3ua",
+    "name": "Onvo 85VQ90F3UA 85\" 4K Ultra HD Smart QLED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-85vq90f3ua-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-85vq90f3ua-1.jpg",
+      "https://resim.epey.com/1043710/z_onvo-85vq90f3ua-1.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 20,
+    "basePrice": 49999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "85\" (216 cm) 4K Ultra HD QLED Ekran",
+      "16W RMS Net Ses Çıkışı",
+      "HDR10 & HLG Destekli Android TV",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 16,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 400,
+      "contrastRatio": "4500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%88 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1895 x 1150 x 380 mm",
+      "weightKg": 38.5,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-85vq90f3ua-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 49999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Türkiye Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 140,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 54900,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 52000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 49999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "onvo-75ovf9001uq",
+    "slug": "onvo-75ovf9001uq",
+    "name": "Onvo 75OVF9001UQ 75\" 4K Ultra HD Smart Frameless LED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-75ovf9001uq-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-75ovf9001uq-1.jpg",
+      "https://resim.epey.com/1020254/z_onvo-75ovf9001uq-1.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 30,
+    "basePrice": 39344.1,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "75\" (189 cm) Çerçevesiz 4K UHD LED Ekran",
+      "24W RMS Güçlü Ses & Dolby Audio",
+      "HDR10 & HLG & Android TV Platformu",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 24,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1672 x 1025 x 340 mm",
+      "weightKg": 27.5,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Frameless Çerçevesiz"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-75ovf9001uq-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 39344.1,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-onvo-75ovf9001uq-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 39999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 43500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 41200,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 39344,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-75ovf9000uq",
+    "slug": "onvo-75ovf9000uq",
+    "name": "Onvo 75OVF9000UQ 75\" 4K Ultra HD Smart Frameless LED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-75ovf9000uq-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-75ovf9000uq-1.jpg",
+      "https://resim.epey.com/972435/z_onvo-75ovf9000uq-1.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 28,
+    "basePrice": 39170.3,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "75\" (189 cm) 4K Ultra HD LED Ekran",
+      "24W RMS Güçlü Ses & Dolby Audio",
+      "Android TV Platformu & Google Asistan",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 24,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1672 x 1025 x 340 mm",
+      "weightKg": 27.5,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Frameless Çerçevesiz"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-75ovf9000uq-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 39170.3,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 290,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 43000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 41000,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 39170,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-75vq90f2ua",
+    "slug": "onvo-75vq90f2ua",
+    "name": "Onvo 75VQ90F2UA 75\" 4K Ultra HD Smart QLED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-75vq90f2ua-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-75vq90f2ua-1.jpg",
+      "https://resim.epey.com/1054324/z_onvo-75vq90f2ua-8682655704285-1.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 20,
+    "basePrice": 37891.7,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "75\" (189 cm) Quantum Dot QLED Ekran",
+      "16W RMS Net Ses Çıkışı & Dolby Audio",
+      "HDR10 & HLG & Android TV Platformu",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 16,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%88 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1672 x 1025 x 340 mm",
+      "weightKg": 27,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-75vq90f2ua-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 37891.7,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 160,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 41500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 39500,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 37891,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-75vq90f3ua",
+    "slug": "onvo-75vq90f3ua",
+    "name": "Onvo 75VQ90F3UA 75\" 4K Ultra HD Smart QLED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-75vq90f3ua-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-75vq90f3ua-1.jpg",
+      "https://resim.epey.com/1043362/z_onvo-75vq90f3ua-3.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 35,
+    "basePrice": 34591.08,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "75\" (189 cm) 4K Ultra HD QLED Ekran",
+      "16W RMS Net Ses Çıkışı",
+      "HDR10 & HLG & Android TV Platformu",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 16,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%88 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1672 x 1025 x 340 mm",
+      "weightKg": 27,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-75vq90f3ua-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 34591.08,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-onvo-75vq90f3ua-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 35499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 290,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 38000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 36200,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 34591,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-70ovf9000uq",
+    "slug": "onvo-70ovf9000uq",
+    "name": "Onvo 70OVF9000UQ 70\" 4K Ultra HD Smart Frameless LED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-70ovf9000uq-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-70ovf9000uq-1.jpg",
+      "https://resim.epey.com/977568/z_onvo-70ovf9000uq-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 22,
+    "basePrice": 38377,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "70\" (178 cm) Geniş 4K Ultra HD LED Panel",
+      "24W RMS Güçlü Ses & Dolby Audio",
+      "HDR10 & HLG & Android TV Platformu",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 70,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 24,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1560 x 960 x 310 mm",
+      "weightKg": 23.5,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Frameless Çerçevesiz"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-70ovf9000uq-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 38377,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Türkiye Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 170,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 42000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 40000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 38377,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "onvo-70ovf9001uq",
+    "slug": "onvo-70ovf9001uq",
+    "name": "Onvo 70OVF9001UQ 70\" 4K Ultra HD Smart LED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-70ovf9001uq-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-70ovf9001uq-1.jpg",
+      "https://resim.epey.com/1018012/z_onvo-70ovf9001uq-8682655703516-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 18,
+    "basePrice": 37562.8,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "70\" (178 cm) 4K Ultra HD Canlı LED Panel",
+      "16W RMS Net Ses Çıkışı",
+      "HDR10 & HLG & Android TV Platformu",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 70,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 16,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1560 x 960 x 310 mm",
+      "weightKg": 23.5,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-70ovf9001uq-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 37562.8,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 140,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 41000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 39200,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 37562,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-65vq90f3ua",
+    "slug": "onvo-65vq90f3ua",
+    "name": "Onvo 65VQ90F3UA 65\" 4K Ultra HD Smart QLED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-65vq90f3ua-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-65vq90f3ua-1.jpg",
+      "https://resim.epey.com/1037841/z_onvo-65vq90f3ua-4.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 42,
+    "basePrice": 26679.08,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "65\" (164 cm) Quantum Dot QLED 4K Panel",
+      "24W RMS Güçlü Ses & Dolby Audio",
+      "HDR10 & HLG Destekli Android TV",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 24,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%88 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1450 x 895 x 280 mm",
+      "weightKg": 19.5,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-65vq90f3ua-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 26679.08,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 480,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-onvo-65vq90f3ua-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 27499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 29500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 27900,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 26679,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-65ovf9250uq",
+    "slug": "onvo-65ovf9250uq",
+    "name": "Onvo 65OVF9250UQ 65\" 4K Ultra HD Smart Frameless LED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-65ovf9250uq-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-65ovf9250uq-1.jpg",
+      "https://resim.epey.com/1019522/z_onvo-65ovf9250uq-8682655703806-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 26,
+    "basePrice": 27394.8,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) Çerçevesiz 4K Ultra HD LED Ekran",
+      "24W RMS Güçlü Ses & Dolby Audio",
+      "HDR10 & HLG & Android TV",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 24,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1450 x 895 x 280 mm",
+      "weightKg": 19.5,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "Frameless Çerçevesiz"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-65ovf9250uq-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 27394.8,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Türkiye Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 210,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 30000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 28500,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 27394,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "onvo-65ovf9000uq",
+    "slug": "onvo-65ovf9000uq",
+    "name": "Onvo 65OVF9000UQ 65\" 4K Ultra HD Smart Frameless LED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-65ovf9000uq-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-65ovf9000uq-1.jpg",
+      "https://resim.epey.com/951877/z_onvo-65ovf9000uq-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 30,
+    "basePrice": 27448,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD LED Ekran",
+      "24W RMS Güçlü Ses & Dolby Audio",
+      "Android TV Platformu & Google Asistan",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 24,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1450 x 895 x 280 mm",
+      "weightKg": 19.5,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "Frameless Çerçevesiz"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-65ovf9000uq-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 27448,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 260,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 30000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 28500,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 27448,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-65ovf9001uq",
+    "slug": "onvo-65ovf9001uq",
+    "name": "Onvo 65OVF9001UQ 65\" 4K Ultra HD Smart Frameless LED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-65ovf9001uq-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-65ovf9001uq-1.jpg",
+      "https://resim.epey.com/992090/z_onvo-65ovf9001uq-8682655702946-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 28,
+    "basePrice": 27448,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD Çerçevesiz LED TV",
+      "20W RMS Net Ses & Dolby Audio",
+      "HDR10 & HLG & Android TV",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1450 x 895 x 280 mm",
+      "weightKg": 19.5,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "Frameless Çerçevesiz"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-65ovf9001uq-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 27448,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Türkiye Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 30000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 28500,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 27448,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "onvo-65ovf5000aq",
+    "slug": "onvo-65ovf5000aq",
+    "name": "Onvo 65OVF5000AQ 65\" 4K Ultra HD Smart LED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-65ovf5000aq-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-65ovf5000aq-1.jpg",
+      "https://resim.epey.com/1009402/z_onvo-65ovf5000aq-1.jpg"
+    ],
+    "rating": 4.4,
+    "reviewCount": 16,
+    "basePrice": 28059.08,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD LED Panel",
+      "20W RMS Net Ses Çıkışı",
+      "Android TV Platformu & Google Asistan",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1450 x 895 x 280 mm",
+      "weightKg": 19.5,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-65ovf5000aq-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 28059.08,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 110,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 31000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 29500,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 28059,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-65ov9000u",
+    "slug": "onvo-65ov9000u",
+    "name": "Onvo 65OV9000U 65\" 4K Ultra HD Smart LED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-65ov9000u-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-65ov9000u-1.jpg",
+      "https://resim.epey.com/945294/z_onvo-65ov9000u-1.jpg"
+    ],
+    "rating": 4.4,
+    "reviewCount": 22,
+    "basePrice": 27448,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD LED Ekran",
+      "24W RMS Güçlü Ses & Dolby Audio",
+      "Android TV Platformu & Google Play Store",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 24,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1450 x 895 x 280 mm",
+      "weightKg": 19.5,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-65ov9000u-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 27448,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Türkiye Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 180,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 30000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 28500,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 27448,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "onvo-55vq90f3ua",
+    "slug": "onvo-55vq90f3ua",
+    "name": "Onvo 55VQ90F3UA 55\" 4K Ultra HD Smart QLED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-55vq90f3ua-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-55vq90f3ua-1.jpg",
+      "https://resim.epey.com/1037845/z_onvo-55vq90f3ua-4.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 45,
+    "basePrice": 18499,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "55\" (139 cm) Quantum Dot QLED 4K Panel",
+      "20W RMS Net Ses & Dolby Audio",
+      "HDR10 & HLG & Android TV Platformu",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%88 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1230 x 775 x 260 mm",
+      "weightKg": 14.5,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-55vq90f3ua-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 18499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-onvo-55vq90f3ua-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 390,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 21000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 19500,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-55ovf9250uq",
+    "slug": "onvo-55ovf9250uq",
+    "name": "Onvo 55OVF9250UQ 55\" 4K Ultra HD Smart Frameless LED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-55ovf9250uq-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-55ovf9250uq-1.jpg",
+      "https://resim.epey.com/1017044/z_onvo-55ovf9250uq-8682655703508-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 30,
+    "basePrice": 20761.8,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (139 cm) Çerçevesiz 4K Ultra HD LED Ekran",
+      "20W RMS Net Ses Çıkışı",
+      "HDR10 & HLG & Android TV Platformu",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1230 x 775 x 260 mm",
+      "weightKg": 14.5,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Frameless Çerçevesiz"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-55ovf9250uq-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 20761.8,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Türkiye Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 23000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 21800,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 20761,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "onvo-55ovf9001uq",
+    "slug": "onvo-55ovf9001uq",
+    "name": "Onvo 55OVF9001UQ 55\" 4K Ultra HD Smart Frameless LED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-55ovf9001uq-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-55ovf9001uq-1.jpg",
+      "https://resim.epey.com/986453/z_onvo-55ovf9001uq-8682655702861-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 28,
+    "basePrice": 20616.8,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (139 cm) 4K Ultra HD LED Ekran",
+      "20W RMS Ses Çıkışı & Dolby Audio",
+      "Android TV Platformu & Google Asistan",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1230 x 775 x 260 mm",
+      "weightKg": 14.5,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Frameless Çerçevesiz"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-55ovf9001uq-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 20616.8,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 220,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 23000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 21500,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 20616,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-55ovf9000uq",
+    "slug": "onvo-55ovf9000uq",
+    "name": "Onvo 55OVF9000UQ 55\" 4K Ultra HD Smart Frameless LED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-55ovf9000uq-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-55ovf9000uq-1.jpg",
+      "https://resim.epey.com/955589/z_onvo-55ovf9000-8682655702649-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 32,
+    "basePrice": 20360.64,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (139 cm) 4K Ultra HD LED Panel",
+      "20W RMS Ses Çıkışı & Dolby Audio",
+      "HDR10 & HLG & Android TV Platformu",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1230 x 775 x 260 mm",
+      "weightKg": 14.5,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Frameless Çerçevesiz"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-55ovf9000uq-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 20360.64,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Türkiye Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 280,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 22800,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 21400,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 20360,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "onvo-55ovf5000aq",
+    "slug": "onvo-55ovf5000aq",
+    "name": "Onvo 55OVF5000AQ 55\" 4K Ultra HD Smart LED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-55ovf5000aq-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-55ovf5000aq-1.jpg",
+      "https://resim.epey.com/1006553/z_onvo-55ovf5000aq-1.jpg"
+    ],
+    "rating": 4.4,
+    "reviewCount": 18,
+    "basePrice": 22999.08,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (139 cm) 4K Ultra HD LED Panel",
+      "20W RMS Net Ses Çıkışı",
+      "Android TV Platformu & Google Asistan",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1230 x 775 x 260 mm",
+      "weightKg": 14.5,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-55ovf5000aq-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 22999.08,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 120,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 25000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 23800,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 22999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-50vq90f3ua",
+    "slug": "onvo-50vq90f3ua",
+    "name": "Onvo 50VQ90F3UA 50\" 4K Ultra HD Smart QLED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-50vq90f3ua-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-50vq90f3ua-1.jpg",
+      "https://resim.epey.com/1040104/z_onvo-50vq90f3ua-2.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 40,
+    "basePrice": 15999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "50\" (126 cm) 4K Ultra HD QLED Ekran",
+      "20W RMS Net Ses & Dolby Audio",
+      "HDR10 & HLG Destekli Android TV",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%88 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1120 x 710 x 240 mm",
+      "weightKg": 12,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-50vq90f3ua-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 15999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 460,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-onvo-50vq90f3ua-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 16499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 17900,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 16800,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 15999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-50ovf9001uq",
+    "slug": "onvo-50ovf9001uq",
+    "name": "Onvo 50OVF9001UQ 50\" 4K Ultra HD Smart Frameless LED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-50ovf9001uq-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-50ovf9001uq-1.jpg",
+      "https://resim.epey.com/1006554/z_onvo-50ovf9001uq-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 34,
+    "basePrice": 16690,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "50\" (126 cm) Çerçevesiz 4K UHD LED Panel",
+      "20W RMS Ses & Dolby Audio Desteği",
+      "HDR10 & HLG & Android TV Platformu",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1120 x 710 x 240 mm",
+      "weightKg": 12,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Frameless Çerçevesiz"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-50ovf9001uq-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 16690,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Onvo Türkiye Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 290,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 18500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 17400,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16690,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "onvo-50ovf9000uq",
+    "slug": "onvo-50ovf9000uq",
+    "name": "Onvo 50OVF9000UQ 50\" 4K Ultra HD Smart Frameless LED Android TV",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-50ovf9000uq-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-50ovf9000uq-1.jpg",
+      "https://resim.epey.com/951889/z_onvo-50ovf9000uq-1.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 30,
+    "basePrice": 16765.84,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "50\" (126 cm) 4K Ultra HD LED Panel",
+      "20W RMS Ses Çıkışı & Dolby Audio",
+      "Android TV Platformu & Google Asistan",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1120 x 710 x 240 mm",
+      "weightKg": 12,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Frameless Çerçevesiz"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-50ovf9000uq-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 16765.84,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 250,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 18500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 17500,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16765,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "onvo-43vq80f3fa",
+    "slug": "onvo-43vq80f3fa",
+    "name": "Onvo 43VQ80F3FA 43\" Full HD Smart LED TV (whaleOS)",
+    "brand": "Onvo",
+    "category": "tvs",
+    "image": "/images/products/tvs/onvo-43vq80f3fa-1.jpg",
+    "images": [
+      "/images/products/tvs/onvo-43vq80f3fa-1.jpg",
+      "https://resim.epey.com/1059978/z_onvo-43vq80f3fa-8682655704551-1.jpg"
+    ],
+    "rating": 4.4,
+    "reviewCount": 19,
+    "basePrice": 11499,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "43\" (108 cm) Full HD Canlı LED Panel",
+      "14W RMS Net Ses Çıkışı",
+      "whaleOS Akıllı İşletim Sistemi & Hızlı Arayüz",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 60,
+      "smartOs": "whaleOS",
+      "audioPowerWatts": 14,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli İşlemci",
+      "brightnessNits": 300,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%80 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Yok",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "965 x 610 x 200 mm",
+      "weightKg": 7.5,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-onvo-43vq80f3fa-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 11499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 190,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 12900,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 12100,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11499,
+        "store": "Trendyol"
+      }
+    ]
   }
 ];
