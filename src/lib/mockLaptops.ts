@@ -65521,5 +65521,1977 @@ export const mockLaptops: LaptopProduct[] = [
         "store": "Hepsiburada"
       }
     ]
+  },
+  {
+    "id": "msi-raider-18-hx-a2wh-1094xtrp376",
+    "slug": "msi-raider-18-hx-a2wh-1094xtrp376",
+    "name": "MSI Raider 18 HX  A2WH-1094XTRP376 (Windows 11 Home)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
+    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp376-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp376-1.jpg",
+      "https://resim.epey.com/1067836/z_msi-raider-18-hx-a2wh-1094xtrp376-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 83,
+    "reviewCount": 24,
+    "basePrice": 259304.98,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18\" 3840 x 2400 (4K+ UHD+ MiniLED 16:10 120Hz %100 DCI-P3 1000 Nit VESA DisplayHDR 1000)",
+      "Intel Core Ultra 9 275HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 5080 / 4090 Laptop (16GB GDDR7 - 175W Max TGP)",
+      "24GB DDR5 RAM & 2TB PCIe 4.0 NVMe SSD",
+      "Mystic Light Matris RGB & Cooler Boost 5 Soğutma"
+    ],
+    "specs": {
+      "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.4 GHz)",
+      "npuTops": 13,
+      "ramGb": 24,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 192,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 5080 / 4090 Laptop (16GB GDDR7 - 175W Max TGP)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "3840 x 2400 (4K+ UHD+ MiniLED 16:10 120Hz %100 DCI-P3 1000 Nit VESA DisplayHDR 1000)",
+      "screenBrightnessNits": 1000,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 3.6,
+      "thicknessMm": 32,
+      "bodyMaterial": "Kozmik Siyah Fırçalanmış Metal Kasa",
+      "keyboard": "SteelSeries Per-Key RGB Arkadan Aydınlatmalı Türkçe Q Klavye",
+      "webcam": "HD (720p / 1080p) Gizlilik Deklanşörlü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio Ready",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-raider-18-hx-a2wh-1094xtrp376-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 259304.98,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8300,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-raider-18-hx-a2wh-1094xtrp376-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 261898,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6500,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 274863,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 267084,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 259304.98,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-raider-18-hx-a2wh-1094xtrp441",
+    "slug": "msi-raider-18-hx-a2wh-1094xtrp441",
+    "name": "MSI Raider 18 HX  A2WH-1094XTRP441 (Windows 11 Pro)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
+    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp441-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp441-1.jpg",
+      "https://resim.epey.com/1067789/z_msi-raider-18-hx-a2wh-1094xtrp441-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 83,
+    "reviewCount": 17,
+    "basePrice": 263339.07,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18\" 3840 x 2400 (4K+ UHD+ MiniLED 16:10 120Hz %100 DCI-P3 1000 Nit VESA DisplayHDR 1000)",
+      "Intel Core Ultra 9 275HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 5080 / 4090 Laptop (16GB GDDR7 - 175W Max TGP)",
+      "32GB DDR5 RAM & 2TB PCIe 4.0 NVMe SSD",
+      "Mystic Light Matris RGB & Cooler Boost 5 Soğutma"
+    ],
+    "specs": {
+      "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.4 GHz)",
+      "npuTops": 13,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 192,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 5080 / 4090 Laptop (16GB GDDR7 - 175W Max TGP)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "3840 x 2400 (4K+ UHD+ MiniLED 16:10 120Hz %100 DCI-P3 1000 Nit VESA DisplayHDR 1000)",
+      "screenBrightnessNits": 1000,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 3.6,
+      "thicknessMm": 32,
+      "bodyMaterial": "Kozmik Siyah Fırçalanmış Metal Kasa",
+      "keyboard": "SteelSeries Per-Key RGB Arkadan Aydınlatmalı Türkçe Q Klavye",
+      "webcam": "HD (720p / 1080p) Gizlilik Deklanşörlü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio Ready",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-raider-18-hx-a2wh-1094xtrp441-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 263339.07,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8300,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-raider-18-hx-a2wh-1094xtrp441-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 265972,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6500,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 279139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 271239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 263339.07,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-vector-16-hx-ai-a2xwig-089tr",
+    "slug": "msi-vector-16-hx-ai-a2xwig-089tr",
+    "name": "MSI Vector 16 HX AI A2XWIG-089TR (Windows 11 Home)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Mühendislik & Üst Seviye Performans Laptopu (Vector HX Series)",
+    "image": "/images/products/laptops/msi-vector-16-hx-ai-a2xwig-089tr-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-vector-16-hx-ai-a2xwig-089tr-1.jpg",
+      "https://resim.epey.com/999531/z_msi-vector-16-hx-ai-a2xwig-089tr-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 83,
+    "reviewCount": 30,
+    "basePrice": 195774.1,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ 16:10 240Hz %100 DCI-P3 500 Nit IPS Seviyesi)",
+      "Intel Core Ultra 9 275HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W Max TGP)",
+      "32GB DDR5 RAM & 1TB PCIe 4.0 NVMe SSD",
+      "Cooler Boost 5 Çift Fan 6 Isı Borusu & Vector Güç Mimarisi"
+    ],
+    "specs": {
+      "productType": "Mühendislik & Üst Seviye Performans Laptopu (Vector HX Series)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.4 GHz)",
+      "npuTops": 13,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 1024,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W Max TGP)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 240Hz %100 DCI-P3 500 Nit IPS Seviyesi)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 75,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.5,
+      "thicknessMm": 26.9,
+      "bodyMaterial": "Koyu Gri Mat Alüminyum & Güçlendirilmiş Gövde",
+      "keyboard": "4 Bölgeli RGB Aydınlatmalı Türkçe Q Klavye",
+      "webcam": "HD (720p / 1080p) Gizlilik Deklanşörlü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio Ready",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-vector-16-hx-ai-a2xwig-089tr-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 195774.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8300,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-vector-16-hx-ai-a2xwig-089tr-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 197732,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6500,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 207521,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 201647,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 195774.1,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-katana-17-hx-b14wgk-048xtr-fr38",
+    "slug": "msi-katana-17-hx-b14wgk-048xtr-fr38",
+    "name": "MSI Katana 17 HX B14WGK-048XTR FR38 (Windows 11 Pro)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr38-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr38-1.jpg",
+      "https://resim.epey.com/1041345/z_msi-katana-17-hx-b14wgk-048xtr-fr48-10.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 82,
+    "reviewCount": 27,
+    "basePrice": 158174.05,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "17.3\" 2560 x 1440 (QHD 16:9 240Hz %100 DCI-P3 IPS Seviyesi Mat Ekran)",
+      "Intel Core i9-14900HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4080 / 5070 Ti Laptop (12GB GDDR6 - 140W)",
+      "64GB DDR5 RAM & 2TB PCIe 4.0 NVMe SSD",
+      "4 Bölgeli RGB Klavye & 0.17mm İnce Fan Bıçakları"
+    ],
+    "specs": {
+      "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.8 GHz)",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4080 / 5070 Ti Laptop (12GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 17.3,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz %100 DCI-P3 IPS Seviyesi Mat Ekran)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.8,
+      "thicknessMm": 27.2,
+      "bodyMaterial": "Mat Siyah Özel Dokulu Gövde",
+      "keyboard": "4 Bölgeli RGB Aydınlatmalı Türkçe Q Klavye",
+      "webcam": "HD (720p / 1080p) Gizlilik Deklanşörlü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio Ready",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-katana-17-hx-b14wgk-048xtr-fr38-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 158174.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8300,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-katana-17-hx-b14wgk-048xtr-fr38-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 159756,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6500,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 167664,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 162919,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 158174.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-raider-18-hx-a2wh-1094xtrp434",
+    "slug": "msi-raider-18-hx-a2wh-1094xtrp434",
+    "name": "MSI Raider 18 HX  A2WH-1094XTRP434 (Windows 11 Pro)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
+    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp434-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp434-1.jpg",
+      "https://resim.epey.com/1067809/z_msi-raider-18-hx-a2wh-1094xtrp434-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 81,
+    "reviewCount": 34,
+    "basePrice": 257393.04,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18\" 3840 x 2400 (4K+ UHD+ MiniLED 16:10 120Hz %100 DCI-P3 1000 Nit VESA DisplayHDR 1000)",
+      "Intel Core Ultra 9 275HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 5080 / 4090 Laptop (16GB GDDR7 - 175W Max TGP)",
+      "24GB DDR5 RAM & 2TB PCIe 4.0 NVMe SSD",
+      "Mystic Light Matris RGB & Cooler Boost 5 Soğutma"
+    ],
+    "specs": {
+      "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.4 GHz)",
+      "npuTops": 13,
+      "ramGb": 24,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 192,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 5080 / 4090 Laptop (16GB GDDR7 - 175W Max TGP)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "3840 x 2400 (4K+ UHD+ MiniLED 16:10 120Hz %100 DCI-P3 1000 Nit VESA DisplayHDR 1000)",
+      "screenBrightnessNits": 1000,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 3.6,
+      "thicknessMm": 32,
+      "bodyMaterial": "Kozmik Siyah Fırçalanmış Metal Kasa",
+      "keyboard": "SteelSeries Per-Key RGB Arkadan Aydınlatmalı Türkçe Q Klavye",
+      "webcam": "HD (720p / 1080p) Gizlilik Deklanşörlü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio Ready",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-raider-18-hx-a2wh-1094xtrp434-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 257393.04,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8300,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-raider-18-hx-a2wh-1094xtrp434-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 259967,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6500,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 272837,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 265115,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 257393.04,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-katana-17-hx-b14wgk-048xtr-fr43",
+    "slug": "msi-katana-17-hx-b14wgk-048xtr-fr43",
+    "name": "MSI Katana 17 HX B14WGK-048XTR FR43 (FreeDOS)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr43-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr43-1.jpg",
+      "https://resim.epey.com/1050579/z_msi-katana-17-hx-b14wgk-048xtr-fr43-10.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 81,
+    "reviewCount": 15,
+    "basePrice": 156511.55,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "17.3\" 2560 x 1440 (QHD 16:9 240Hz %100 DCI-P3 IPS Seviyesi Mat Ekran)",
+      "Intel Core i9-14900HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4080 / 5070 Ti Laptop (12GB GDDR6 - 140W)",
+      "64GB DDR5 RAM & 2TB PCIe 4.0 NVMe SSD",
+      "4 Bölgeli RGB Klavye & 0.17mm İnce Fan Bıçakları"
+    ],
+    "specs": {
+      "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.8 GHz)",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4080 / 5070 Ti Laptop (12GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 17.3,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz %100 DCI-P3 IPS Seviyesi Mat Ekran)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.8,
+      "thicknessMm": 27.2,
+      "bodyMaterial": "Mat Siyah Özel Dokulu Gövde",
+      "keyboard": "4 Bölgeli RGB Aydınlatmalı Türkçe Q Klavye",
+      "webcam": "HD (720p / 1080p) Gizlilik Deklanşörlü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio Ready",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-katana-17-hx-b14wgk-048xtr-fr43-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 156511.55,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8300,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-katana-17-hx-b14wgk-048xtr-fr43-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 158077,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6500,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 165902,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 161207,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 156511.55,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-raider-18-hx-a2wh-1094xtrp433",
+    "slug": "msi-raider-18-hx-a2wh-1094xtrp433",
+    "name": "MSI Raider 18 HX  A2WH-1094XTRP433 (Windows 11 Pro)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
+    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp433-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp433-1.jpg",
+      "https://resim.epey.com/1067777/z_msi-raider-18-hx-a2wh-1094xtrp433-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 81,
+    "reviewCount": 16,
+    "basePrice": 257393.04,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18\" 3840 x 2400 (4K+ UHD+ MiniLED 16:10 120Hz %100 DCI-P3 1000 Nit VESA DisplayHDR 1000)",
+      "Intel Core Ultra 9 275HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 5080 / 4090 Laptop (16GB GDDR7 - 175W Max TGP)",
+      "24GB DDR5 RAM & 2TB PCIe 4.0 NVMe SSD",
+      "Mystic Light Matris RGB & Cooler Boost 5 Soğutma"
+    ],
+    "specs": {
+      "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.4 GHz)",
+      "npuTops": 13,
+      "ramGb": 24,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 192,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 5080 / 4090 Laptop (16GB GDDR7 - 175W Max TGP)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "3840 x 2400 (4K+ UHD+ MiniLED 16:10 120Hz %100 DCI-P3 1000 Nit VESA DisplayHDR 1000)",
+      "screenBrightnessNits": 1000,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 3.6,
+      "thicknessMm": 32,
+      "bodyMaterial": "Kozmik Siyah Fırçalanmış Metal Kasa",
+      "keyboard": "SteelSeries Per-Key RGB Arkadan Aydınlatmalı Türkçe Q Klavye",
+      "webcam": "HD (720p / 1080p) Gizlilik Deklanşörlü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio Ready",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-raider-18-hx-a2wh-1094xtrp433-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 257393.04,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8300,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-raider-18-hx-a2wh-1094xtrp433-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 259967,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6500,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 272837,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 265115,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 257393.04,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-raider-18-hx-a2wh-1094xtrp429",
+    "slug": "msi-raider-18-hx-a2wh-1094xtrp429",
+    "name": "MSI Raider 18 HX  A2WH-1094XTRP429 (Windows 11 Pro)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
+    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp429-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp429-1.jpg",
+      "https://resim.epey.com/1067781/z_msi-raider-18-hx-a2wh-1094xtrp429-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 81,
+    "reviewCount": 20,
+    "basePrice": 259771.45,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18\" 3840 x 2400 (4K+ UHD+ MiniLED 16:10 120Hz %100 DCI-P3 1000 Nit VESA DisplayHDR 1000)",
+      "Intel Core Ultra 9 275HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 5080 / 4090 Laptop (16GB GDDR7 - 175W Max TGP)",
+      "16GB DDR5 RAM & 2TB PCIe 4.0 NVMe SSD",
+      "Mystic Light Matris RGB & Cooler Boost 5 Soğutma"
+    ],
+    "specs": {
+      "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.4 GHz)",
+      "npuTops": 13,
+      "ramGb": 16,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 192,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 5080 / 4090 Laptop (16GB GDDR7 - 175W Max TGP)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "3840 x 2400 (4K+ UHD+ MiniLED 16:10 120Hz %100 DCI-P3 1000 Nit VESA DisplayHDR 1000)",
+      "screenBrightnessNits": 1000,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 3.6,
+      "thicknessMm": 32,
+      "bodyMaterial": "Kozmik Siyah Fırçalanmış Metal Kasa",
+      "keyboard": "SteelSeries Per-Key RGB Arkadan Aydınlatmalı Türkçe Q Klavye",
+      "webcam": "HD (720p / 1080p) Gizlilik Deklanşörlü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio Ready",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-raider-18-hx-a2wh-1094xtrp429-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 259771.45,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8300,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-raider-18-hx-a2wh-1094xtrp429-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 262369,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6500,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 275358,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 267565,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 259771.45,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-raider-16-hx-b2wgx-018tr",
+    "slug": "msi-raider-16-hx-b2wgx-018tr",
+    "name": "MSI Raider 16 HX B2WGX-018TR (Windows 11 Home)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
+    "image": "/images/products/laptops/msi-raider-16-hx-b2wgx-018tr-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-raider-16-hx-b2wgx-018tr-1.jpg",
+      "https://resim.epey.com/1058497/z_msi-raider-16-hx-b2wgx-018tr-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 81,
+    "reviewCount": 30,
+    "basePrice": 187561.02,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18\" 3840 x 2400 (4K+ UHD+ MiniLED 16:10 120Hz %100 DCI-P3 1000 Nit VESA DisplayHDR 1000)",
+      "Intel Core Ultra 9 275HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4080 / 5070 Ti Laptop (12GB GDDR6 - 140W)",
+      "32GB DDR5 RAM & 1TB PCIe 4.0 NVMe SSD",
+      "Mystic Light Matris RGB & Cooler Boost 5 Soğutma"
+    ],
+    "specs": {
+      "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.4 GHz)",
+      "npuTops": 13,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 192,
+      "storageGb": 1024,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4080 / 5070 Ti Laptop (12GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "3840 x 2400 (4K+ UHD+ MiniLED 16:10 120Hz %100 DCI-P3 1000 Nit VESA DisplayHDR 1000)",
+      "screenBrightnessNits": 1000,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 3.6,
+      "thicknessMm": 32,
+      "bodyMaterial": "Kozmik Siyah Fırçalanmış Metal Kasa",
+      "keyboard": "SteelSeries Per-Key RGB Arkadan Aydınlatmalı Türkçe Q Klavye",
+      "webcam": "HD (720p / 1080p) Gizlilik Deklanşörlü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio Ready",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-raider-16-hx-b2wgx-018tr-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 187561.02,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8300,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-raider-16-hx-b2wgx-018tr-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 189437,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6500,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 198815,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 193188,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 187561.02,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-crosshair-a17-hx-d8wgkg-044xtr012",
+    "slug": "msi-crosshair-a17-hx-d8wgkg-044xtr012",
+    "name": "MSI Crosshair A17 HX D8WGKG-044XTR012 (FreeDOS)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Modern Tasarımlı Güçlü Oyuncu Laptopu (Crosshair Series)",
+    "image": "/images/products/laptops/msi-crosshair-a17-hx-d8wgkg-044xtr012-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-crosshair-a17-hx-d8wgkg-044xtr012-1.jpg",
+      "https://resim.epey.com/1049826/z_msi-crosshair-a17-hx-d8wgkg-044xtr012-5.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 81,
+    "reviewCount": 11,
+    "basePrice": 171899.1,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "17\" 2560 x 1600 (QHD+ 16:10 240Hz %100 DCI-P3 500 Nit IPS Seviyesi)",
+      "AMD Ryzen 7 8840HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "64GB DDR5 RAM & 2TB PCIe 4.0 NVMe SSD",
+      "24 Bölgeli RGB Klavye & Optimize Edilmiş Hava Akışı"
+    ],
+    "specs": {
+      "productType": "Modern Tasarımlı Güçlü Oyuncu Laptopu (Crosshair Series)",
+      "processor": "AMD Ryzen 7 8840HX",
+      "processorCores": "8 Çekirdek / 16 İzlek 5.1 GHz",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 17,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 240Hz %100 DCI-P3 500 Nit IPS Seviyesi)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.8,
+      "thicknessMm": 27.2,
+      "bodyMaterial": "Mat Siyah Özel Dokulu Gövde",
+      "keyboard": "24 Bölgeli RGB Aydınlatmalı Klavye",
+      "webcam": "HD (720p / 1080p) Gizlilik Deklanşörlü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio Ready",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-crosshair-a17-hx-d8wgkg-044xtr012-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 171899.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8300,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-crosshair-a17-hx-d8wgkg-044xtr012-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 173618,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6500,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 182213,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 177056,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 171899.1,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-crosshair-16-max-hx-e2wgxk-043tr",
+    "slug": "msi-crosshair-16-max-hx-e2wgxk-043tr",
+    "name": "MSI Crosshair 16 Max HX E2WGXK-043TR (Windows 11 Home)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Modern Tasarımlı Güçlü Oyuncu Laptopu (Crosshair Series)",
+    "image": "/images/products/laptops/msi-crosshair-16-max-hx-e2wgxk-043tr-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-crosshair-16-max-hx-e2wgxk-043tr-1.jpg",
+      "https://resim.epey.com/1065483/z_msi-crosshair-16-max-hx-e2wgxk-043tr-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 81,
+    "reviewCount": 23,
+    "basePrice": 169225.04,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ 16:10 240Hz %100 DCI-P3 500 Nit IPS Seviyesi)",
+      "Intel Core Ultra 9 275HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4080 / 5070 Ti Laptop (12GB GDDR6 - 140W)",
+      "32GB DDR5 RAM & 1TB PCIe 4.0 NVMe SSD",
+      "24 Bölgeli RGB Klavye & Optimize Edilmiş Hava Akışı"
+    ],
+    "specs": {
+      "productType": "Modern Tasarımlı Güçlü Oyuncu Laptopu (Crosshair Series)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.4 GHz)",
+      "npuTops": 13,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 1024,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4080 / 5070 Ti Laptop (12GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 240Hz %100 DCI-P3 500 Nit IPS Seviyesi)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 75,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.5,
+      "thicknessMm": 26.9,
+      "bodyMaterial": "Mat Siyah Özel Dokulu Gövde",
+      "keyboard": "24 Bölgeli RGB Aydınlatmalı Klavye",
+      "webcam": "HD (720p / 1080p) Gizlilik Deklanşörlü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio Ready",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-crosshair-16-max-hx-e2wgxk-043tr-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 169225.04,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8300,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-crosshair-16-max-hx-e2wgxk-043tr-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 170917,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6500,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 179379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 174302,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 169225.04,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-raider-18-hx-a2wh-1094xtrp428",
+    "slug": "msi-raider-18-hx-a2wh-1094xtrp428",
+    "name": "MSI Raider 18 HX  A2WH-1094XTRP428 (Windows 11 Pro)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
+    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp428-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp428-1.jpg",
+      "https://resim.epey.com/1067780/z_msi-raider-18-hx-a2wh-1094xtrp428-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 80,
+    "reviewCount": 19,
+    "basePrice": 255411.03,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18\" 3840 x 2400 (4K+ UHD+ MiniLED 16:10 120Hz %100 DCI-P3 1000 Nit VESA DisplayHDR 1000)",
+      "Intel Core Ultra 9 275HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 5080 / 4090 Laptop (16GB GDDR7 - 175W Max TGP)",
+      "16GB DDR5 RAM & 2TB PCIe 4.0 NVMe SSD",
+      "Mystic Light Matris RGB & Cooler Boost 5 Soğutma"
+    ],
+    "specs": {
+      "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.4 GHz)",
+      "npuTops": 13,
+      "ramGb": 16,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 192,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 5080 / 4090 Laptop (16GB GDDR7 - 175W Max TGP)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "3840 x 2400 (4K+ UHD+ MiniLED 16:10 120Hz %100 DCI-P3 1000 Nit VESA DisplayHDR 1000)",
+      "screenBrightnessNits": 1000,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 3.6,
+      "thicknessMm": 32,
+      "bodyMaterial": "Kozmik Siyah Fırçalanmış Metal Kasa",
+      "keyboard": "SteelSeries Per-Key RGB Arkadan Aydınlatmalı Türkçe Q Klavye",
+      "webcam": "HD (720p / 1080p) Gizlilik Deklanşörlü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio Ready",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-raider-18-hx-a2wh-1094xtrp428-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 255411.03,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8300,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-raider-18-hx-a2wh-1094xtrp428-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 257965,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6500,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 270736,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 263073,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 255411.03,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-katana-17-hx-b14wgk-048xtr-fr39",
+    "slug": "msi-katana-17-hx-b14wgk-048xtr-fr39",
+    "name": "MSI Katana 17 HX B14WGK-048XTR FR39 (Windows 11 Pro)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr39-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr39-1.jpg",
+      "https://resim.epey.com/1047615/z_msi-katana-17-hx-b14wgk-048xtr-fr39-10.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 80,
+    "reviewCount": 13,
+    "basePrice": 152474.05,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "17.3\" 2560 x 1440 (QHD 16:9 240Hz %100 DCI-P3 IPS Seviyesi Mat Ekran)",
+      "Intel Core i9-14900HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4080 / 5070 Ti Laptop (12GB GDDR6 - 140W)",
+      "48GB DDR5 RAM & 1TB PCIe 4.0 NVMe SSD",
+      "4 Bölgeli RGB Klavye & 0.17mm İnce Fan Bıçakları"
+    ],
+    "specs": {
+      "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.8 GHz)",
+      "npuTops": 13,
+      "ramGb": 48,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 1024,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4080 / 5070 Ti Laptop (12GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 17.3,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz %100 DCI-P3 IPS Seviyesi Mat Ekran)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.8,
+      "thicknessMm": 27.2,
+      "bodyMaterial": "Mat Siyah Özel Dokulu Gövde",
+      "keyboard": "4 Bölgeli RGB Aydınlatmalı Türkçe Q Klavye",
+      "webcam": "HD (720p / 1080p) Gizlilik Deklanşörlü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio Ready",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-katana-17-hx-b14wgk-048xtr-fr39-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 152474.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8300,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-katana-17-hx-b14wgk-048xtr-fr39-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 153999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6500,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 161622,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 157048,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 152474.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-katana-17-hx-b14wfkrnp32",
+    "slug": "msi-katana-17-hx-b14wfkrnp32",
+    "name": "MSI Katana 17 HX B14WFKRNP32 (Windows 11 Pro)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+    "image": "/images/products/laptops/msi-katana-17-hx-b14wfkrnp32-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-katana-17-hx-b14wfkrnp32-1.jpg",
+      "https://resim.epey.com/1060438/z_msi-katana-17-hx-b14wfkrnp32-10.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 80,
+    "reviewCount": 33,
+    "basePrice": 214499,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "17.3\" 2560 x 1440 (QHD 16:9 240Hz %100 DCI-P3 IPS Seviyesi Mat Ekran)",
+      "Intel Core i7-14650HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "96GB DDR5 RAM & 2TB PCIe 4.0 NVMe SSD",
+      "4 Bölgeli RGB Klavye & 0.17mm İnce Fan Bıçakları"
+    ],
+    "specs": {
+      "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+      "processor": "Intel Core i7-14650HX",
+      "processorCores": "16 Çekirdek (8P + 8E / 24 İzlek 5.2 GHz)",
+      "npuTops": 13,
+      "ramGb": 96,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 17.3,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz %100 DCI-P3 IPS Seviyesi Mat Ekran)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.8,
+      "thicknessMm": 27.2,
+      "bodyMaterial": "Mat Siyah Özel Dokulu Gövde",
+      "keyboard": "4 Bölgeli RGB Aydınlatmalı Türkçe Q Klavye",
+      "webcam": "HD (720p / 1080p) Gizlilik Deklanşörlü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio Ready",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-katana-17-hx-b14wfkrnp32-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 214499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8300,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-katana-17-hx-b14wfkrnp32-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 216644,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6500,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 227369,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 220934,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 214499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-raider-18-hx-a2wh-1094xtrp363",
+    "slug": "msi-raider-18-hx-a2wh-1094xtrp363",
+    "name": "MSI Raider 18 HX  A2WH-1094XTRP363 (Windows 11 Home)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
+    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp363-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp363-1.jpg",
+      "https://resim.epey.com/1067807/z_msi-raider-18-hx-a2wh-1094xtrp363-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 80,
+    "reviewCount": 13,
+    "basePrice": 242867.21,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18\" 3840 x 2400 (4K+ UHD+ MiniLED 16:10 120Hz %100 DCI-P3 1000 Nit VESA DisplayHDR 1000)",
+      "Intel Core Ultra 9 275HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 5080 / 4090 Laptop (16GB GDDR7 - 175W Max TGP)",
+      "8GB DDR5 RAM & 2TB PCIe 4.0 NVMe SSD",
+      "Mystic Light Matris RGB & Cooler Boost 5 Soğutma"
+    ],
+    "specs": {
+      "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.4 GHz)",
+      "npuTops": 13,
+      "ramGb": 8,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 192,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 5080 / 4090 Laptop (16GB GDDR7 - 175W Max TGP)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "3840 x 2400 (4K+ UHD+ MiniLED 16:10 120Hz %100 DCI-P3 1000 Nit VESA DisplayHDR 1000)",
+      "screenBrightnessNits": 1000,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 3.6,
+      "thicknessMm": 32,
+      "bodyMaterial": "Kozmik Siyah Fırçalanmış Metal Kasa",
+      "keyboard": "SteelSeries Per-Key RGB Arkadan Aydınlatmalı Türkçe Q Klavye",
+      "webcam": "HD (720p / 1080p) Gizlilik Deklanşörlü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio Ready",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-raider-18-hx-a2wh-1094xtrp363-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 242867.21,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8300,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-raider-18-hx-a2wh-1094xtrp363-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 245296,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6500,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 257439,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 250153,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 242867.21,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-raider-18-hx-a2wh-1094xtrp423",
+    "slug": "msi-raider-18-hx-a2wh-1094xtrp423",
+    "name": "MSI Raider 18 HX  A2WH-1094XTRP423 (Windows 11 Pro)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
+    "image": "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp423-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-raider-18-hx-a2wh-1094xtrp423-1.jpg",
+      "https://resim.epey.com/1067787/z_msi-raider-18-hx-a2wh-1094xtrp423-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 80,
+    "reviewCount": 11,
+    "basePrice": 251843.41,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18\" 3840 x 2400 (4K+ UHD+ MiniLED 16:10 120Hz %100 DCI-P3 1000 Nit VESA DisplayHDR 1000)",
+      "Intel Core Ultra 9 275HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 5080 / 4090 Laptop (16GB GDDR7 - 175W Max TGP)",
+      "8GB DDR5 RAM & 2TB PCIe 4.0 NVMe SSD",
+      "Mystic Light Matris RGB & Cooler Boost 5 Soğutma"
+    ],
+    "specs": {
+      "productType": "Maksimum Performanslı Flagship RGB Oyuncu Laptopu (Raider Series)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.4 GHz)",
+      "npuTops": 13,
+      "ramGb": 8,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 192,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 5080 / 4090 Laptop (16GB GDDR7 - 175W Max TGP)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "3840 x 2400 (4K+ UHD+ MiniLED 16:10 120Hz %100 DCI-P3 1000 Nit VESA DisplayHDR 1000)",
+      "screenBrightnessNits": 1000,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 3.6,
+      "thicknessMm": 32,
+      "bodyMaterial": "Kozmik Siyah Fırçalanmış Metal Kasa",
+      "keyboard": "SteelSeries Per-Key RGB Arkadan Aydınlatmalı Türkçe Q Klavye",
+      "webcam": "HD (720p / 1080p) Gizlilik Deklanşörlü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio Ready",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-raider-18-hx-a2wh-1094xtrp423-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 251843.41,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8300,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-raider-18-hx-a2wh-1094xtrp423-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 254362,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6500,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 266954,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 259399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 251843.41,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-crosshair-17-hx-ai-d2xwgkg-017tr",
+    "slug": "msi-crosshair-17-hx-ai-d2xwgkg-017tr",
+    "name": "MSI Crosshair 17 HX AI D2XWGKG-017TR (Windows 11 Home)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Modern Tasarımlı Güçlü Oyuncu Laptopu (Crosshair Series)",
+    "image": "/images/products/laptops/msi-crosshair-17-hx-ai-d2xwgkg-017tr-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-crosshair-17-hx-ai-d2xwgkg-017tr-1.jpg",
+      "https://resim.epey.com/1011572/z_msi-crosshair-17-hx-ai-d2xwgkg-017tr-5.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 80,
+    "reviewCount": 20,
+    "basePrice": 172057.35,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "17\" 2560 x 1600 (QHD+ 16:10 240Hz %100 DCI-P3 500 Nit IPS Seviyesi)",
+      "Intel Core Ultra 9 275HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4080 / 5070 Ti Laptop (12GB GDDR6 - 140W)",
+      "32GB DDR5 RAM & 1TB PCIe 4.0 NVMe SSD",
+      "24 Bölgeli RGB Klavye & Optimize Edilmiş Hava Akışı"
+    ],
+    "specs": {
+      "productType": "Modern Tasarımlı Güçlü Oyuncu Laptopu (Crosshair Series)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.4 GHz)",
+      "npuTops": 13,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 1024,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4080 / 5070 Ti Laptop (12GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 17,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 240Hz %100 DCI-P3 500 Nit IPS Seviyesi)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB-C (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.8,
+      "thicknessMm": 27.2,
+      "bodyMaterial": "Mat Siyah Özel Dokulu Gövde",
+      "keyboard": "24 Bölgeli RGB Aydınlatmalı Klavye",
+      "webcam": "HD (720p / 1080p) Gizlilik Deklanşörlü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio Ready",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-crosshair-17-hx-ai-d2xwgkg-017tr-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 172057.35,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8300,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-crosshair-17-hx-ai-d2xwgkg-017tr-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 173778,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6500,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 182381,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 177219,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 172057.35,
+        "store": "Hepsiburada"
+      }
+    ]
   }
 ];
