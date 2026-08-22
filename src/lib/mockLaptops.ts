@@ -23754,5 +23754,2305 @@ export const mockLaptops: LaptopProduct[] = [
         "store": "Hepsiburada"
       }
     ]
+  },
+  {
+    "id": "dell-pro-max-18-plus-u7265hx-32gbram-2tbssd-w11p",
+    "slug": "dell-pro-max-18-plus-u7265hx-32gbram-2tbssd-w11p",
+    "name": "Dell Pro Max 18 Plus (U7265HX/32GBRAM/2TBSSD/W11P)",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-18-plus-u7265hx-32gbram-2tbssd-w11p-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-18-plus-u7265hx-32gbram-2tbssd-w11p-1.jpg",
+      "https://resim.epey.com/1066701/z_dell-pro-max-18-plus-u7265hx-32gbram-2tbssd-w11p-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 78,
+    "reviewCount": 31,
+    "basePrice": 286642.29,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18\" 3840 x 2400 (4K UHD+ 120Hz IPS %100 DCI-P3 500 Nit HDR400)",
+      "Intel Core Ultra 7 265HX Yüksek Performanslı İşlemci",
+      "NVIDIA RTX 2000 Ada Generation Mobile 8GB (90W) Grafik Mimarisi",
+      "32GB RAM & 2TB Hızlı SSD",
+      "Dell Precision Pro Termal Tasarımı & Kurumsal Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 265HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 20 İzlek)",
+      "npuTops": 45,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 128,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "4x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 2000 Ada Generation Mobile 8GB",
+      "gpuTgpWatts": 90,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "3840 x 2400 (4K UHD+ 120Hz IPS %100 DCI-P3 500 Nit HDR400)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 & PremierColor / DisplayHDR",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 8,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 Type-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1 (PowerShare)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet (2.5G Killer)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 3.1,
+      "thicknessMm": 24.5,
+      "bodyMaterial": "Havacılık Sınıfı CNC Alüminyum & Karbon Fiber Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Profesyonel Hassas Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello + Gizlilik Deklanşörü",
+      "audio": "Waves MaxxAudio Pro Destekli Quad-Hoparlör Sistemi",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-18-plus-u7265hx-32gbram-2tbssd-w11p-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 286642.29,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3890,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-18-plus-u7265hx-32gbram-2tbssd-w11p-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 289509,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 300974,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 292375,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 286642.29,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-16-plus-mb16250p435",
+    "slug": "dell-pro-max-16-plus-mb16250p435",
+    "name": "Dell Pro Max 16 Plus MB16250P435",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p435-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-16-plus-mb16250p435-1.jpg",
+      "https://resim.epey.com/1066812/z_dell-pro-max-16-plus-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 78,
+    "reviewCount": 54,
+    "basePrice": 460313.89,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "Intel Core Ultra 7 265HX Yüksek Performanslı İşlemci",
+      "NVIDIA RTX 4000 Ada Generation Mobile 12GB (130W) Grafik Mimarisi",
+      "128GB RAM & 2TB Hızlı SSD",
+      "Dell Precision Pro Termal Tasarımı & Kurumsal Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 265HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 20 İzlek)",
+      "npuTops": 45,
+      "ramGb": 128,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 128,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 4000 Ada Generation Mobile 12GB",
+      "gpuTgpWatts": 130,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 & PremierColor / DisplayHDR",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 8,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 Type-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1 (PowerShare)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet (2.5G Killer)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Havacılık Sınıfı CNC Alüminyum & Karbon Fiber Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Profesyonel Hassas Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello + Gizlilik Deklanşörü",
+      "audio": "Waves MaxxAudio Pro Destekli Quad-Hoparlör Sistemi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p435-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 460313.89,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3890,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p435-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 464917,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 483330,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 469520,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 460313.89,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-16-plus-mb16250p434",
+    "slug": "dell-pro-max-16-plus-mb16250p434",
+    "name": "Dell Pro Max 16 Plus MB16250P434",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p434-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-16-plus-mb16250p434-1.jpg",
+      "https://resim.epey.com/1066767/z_dell-pro-max-16-plus-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 78,
+    "reviewCount": 27,
+    "basePrice": 458019.86,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "Intel Core Ultra 7 265HX Yüksek Performanslı İşlemci",
+      "NVIDIA RTX 4000 Ada Generation Mobile 12GB (130W) Grafik Mimarisi",
+      "128GB RAM & 2TB Hızlı SSD",
+      "Dell Precision Pro Termal Tasarımı & Kurumsal Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 265HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 20 İzlek)",
+      "npuTops": 45,
+      "ramGb": 128,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 128,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 4000 Ada Generation Mobile 12GB",
+      "gpuTgpWatts": 130,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 & PremierColor / DisplayHDR",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 8,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 Type-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1 (PowerShare)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet (2.5G Killer)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Havacılık Sınıfı CNC Alüminyum & Karbon Fiber Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Profesyonel Hassas Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello + Gizlilik Deklanşörü",
+      "audio": "Waves MaxxAudio Pro Destekli Quad-Hoparlör Sistemi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p434-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 458019.86,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3890,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p434-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 462600,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 480921,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 467180,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 458019.86,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-16-plus-mb16250p390",
+    "slug": "dell-pro-max-16-plus-mb16250p390",
+    "name": "Dell Pro Max 16 Plus MB16250P390",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p390-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-16-plus-mb16250p390-1.jpg",
+      "https://resim.epey.com/1066831/z_dell-pro-max-16-plus-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 37,
+    "basePrice": 431802.4,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "Intel Core Ultra 7 265HX Yüksek Performanslı İşlemci",
+      "NVIDIA RTX 3500 Ada Generation Mobile 12GB (115W) Grafik Mimarisi",
+      "24GB RAM & 2TB Hızlı SSD",
+      "Dell Precision Pro Termal Tasarımı & Kurumsal Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 265HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 20 İzlek)",
+      "npuTops": 45,
+      "ramGb": 24,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 128,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 3500 Ada Generation Mobile 12GB",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 & PremierColor / DisplayHDR",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 8,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 Type-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1 (PowerShare)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet (2.5G Killer)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Havacılık Sınıfı CNC Alüminyum & Karbon Fiber Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Profesyonel Hassas Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello + Gizlilik Deklanşörü",
+      "audio": "Waves MaxxAudio Pro Destekli Quad-Hoparlör Sistemi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p390-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 431802.4,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3890,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p390-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 436120,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 453393,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 440438,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 431802.4,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-18-plus-mb18250263h01",
+    "slug": "dell-pro-max-18-plus-mb18250263h01",
+    "name": "Dell Pro Max 18 Plus MB18250263H01",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-18-plus-mb18250263h01-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-18-plus-mb18250263h01-1.jpg",
+      "https://resim.epey.com/1068948/z_dell-pro-max-18-plus-mb18250263h01-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 50,
+    "basePrice": 365107.79,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "18\" 3840 x 2400 (4K UHD+ 120Hz IPS %100 DCI-P3 500 Nit HDR400)",
+      "Intel Core Ultra 7 265HX Yüksek Performanslı İşlemci",
+      "NVIDIA RTX 3500 Ada Generation Mobile 12GB (115W) Grafik Mimarisi",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Dell Precision Pro Termal Tasarımı & Kurumsal Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 265HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 20 İzlek)",
+      "npuTops": 45,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 128,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "4x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 3500 Ada Generation Mobile 12GB",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 18,
+      "screenResolution": "3840 x 2400 (4K UHD+ 120Hz IPS %100 DCI-P3 500 Nit HDR400)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 & PremierColor / DisplayHDR",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 8,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 Type-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1 (PowerShare)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet (2.5G Killer)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 3.1,
+      "thicknessMm": 24.5,
+      "bodyMaterial": "Havacılık Sınıfı CNC Alüminyum & Karbon Fiber Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Profesyonel Hassas Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello + Gizlilik Deklanşörü",
+      "audio": "Waves MaxxAudio Pro Destekli Quad-Hoparlör Sistemi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-18-plus-mb18250263h01-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 365107.79,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3890,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-18-plus-mb18250263h01-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 368759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 383363,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 372410,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 365107.79,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-16-plus-mb16250p497",
+    "slug": "dell-pro-max-16-plus-mb16250p497",
+    "name": "Dell Pro Max 16 Plus MB16250P497",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p497-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-16-plus-mb16250p497-1.jpg",
+      "https://resim.epey.com/1066763/z_dell-pro-max-16-plus-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 54,
+    "basePrice": 426110.14,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "Intel Core Ultra 7 265HX Yüksek Performanslı İşlemci",
+      "NVIDIA RTX 3500 Ada Generation Mobile 12GB (115W) Grafik Mimarisi",
+      "96GB RAM & 2TB Hızlı SSD",
+      "Dell Precision Pro Termal Tasarımı & Kurumsal Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 265HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 20 İzlek)",
+      "npuTops": 45,
+      "ramGb": 96,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 128,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 3500 Ada Generation Mobile 12GB",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 & PremierColor / DisplayHDR",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 8,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 Type-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1 (PowerShare)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet (2.5G Killer)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Havacılık Sınıfı CNC Alüminyum & Karbon Fiber Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Profesyonel Hassas Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello + Gizlilik Deklanşörü",
+      "audio": "Waves MaxxAudio Pro Destekli Quad-Hoparlör Sistemi",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p497-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 426110.14,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3890,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p497-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 430371,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 447416,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 434632,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 426110.14,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-16-plus-mb16250p420",
+    "slug": "dell-pro-max-16-plus-mb16250p420",
+    "name": "Dell Pro Max 16 Plus MB16250P420",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p420-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-16-plus-mb16250p420-1.jpg",
+      "https://resim.epey.com/1066756/z_dell-pro-max-16-plus-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 46,
+    "basePrice": 392803.93,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "Intel Core Ultra 7 265HX Yüksek Performanslı İşlemci",
+      "NVIDIA RTX 3500 Ada Generation Mobile 12GB (115W) Grafik Mimarisi",
+      "80GB RAM & 1TB Hızlı SSD",
+      "Dell Precision Pro Termal Tasarımı & Kurumsal Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 265HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 20 İzlek)",
+      "npuTops": 45,
+      "ramGb": 80,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 128,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 3500 Ada Generation Mobile 12GB",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 & PremierColor / DisplayHDR",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 8,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 Type-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1 (PowerShare)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet (2.5G Killer)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Havacılık Sınıfı CNC Alüminyum & Karbon Fiber Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Profesyonel Hassas Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello + Gizlilik Deklanşörü",
+      "audio": "Waves MaxxAudio Pro Destekli Quad-Hoparlör Sistemi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p420-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 392803.93,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3890,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p420-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 396732,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 412444,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 400660,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 392803.93,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-16-plus-mb16250p447",
+    "slug": "dell-pro-max-16-plus-mb16250p447",
+    "name": "Dell Pro Max 16 Plus MB16250P447",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p447-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-16-plus-mb16250p447-1.jpg",
+      "https://resim.epey.com/1066814/z_dell-pro-max-16-plus-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 43,
+    "basePrice": 482016.63,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "Intel Core Ultra 7 265HX Yüksek Performanslı İşlemci",
+      "NVIDIA RTX 4000 Ada Generation Mobile 12GB (130W) Grafik Mimarisi",
+      "8GB RAM & 2TB Hızlı SSD",
+      "Dell Precision Pro Termal Tasarımı & Kurumsal Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 265HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 20 İzlek)",
+      "npuTops": 45,
+      "ramGb": 8,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 128,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 4000 Ada Generation Mobile 12GB",
+      "gpuTgpWatts": 130,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 & PremierColor / DisplayHDR",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 8,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 Type-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1 (PowerShare)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet (2.5G Killer)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Havacılık Sınıfı CNC Alüminyum & Karbon Fiber Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Profesyonel Hassas Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello + Gizlilik Deklanşörü",
+      "audio": "Waves MaxxAudio Pro Destekli Quad-Hoparlör Sistemi",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p447-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 482016.63,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3890,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p447-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 486837,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 506117,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 491657,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 482016.63,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-16-plus-mb16250p409",
+    "slug": "dell-pro-max-16-plus-mb16250p409",
+    "name": "Dell Pro Max 16 Plus MB16250P409",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p409-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-16-plus-mb16250p409-1.jpg",
+      "https://resim.epey.com/1066867/z_dell-pro-max-16-plus-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 76,
+    "reviewCount": 50,
+    "basePrice": 373796.28,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "Intel Core Ultra 7 265HX Yüksek Performanslı İşlemci",
+      "NVIDIA RTX 3500 Ada Generation Mobile 12GB (115W) Grafik Mimarisi",
+      "48GB RAM & 1TB Hızlı SSD",
+      "Dell Precision Pro Termal Tasarımı & Kurumsal Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 265HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 20 İzlek)",
+      "npuTops": 45,
+      "ramGb": 48,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 128,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 3500 Ada Generation Mobile 12GB",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 & PremierColor / DisplayHDR",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 8,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 Type-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1 (PowerShare)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet (2.5G Killer)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Havacılık Sınıfı CNC Alüminyum & Karbon Fiber Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Profesyonel Hassas Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello + Gizlilik Deklanşörü",
+      "audio": "Waves MaxxAudio Pro Destekli Quad-Hoparlör Sistemi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p409-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 373796.28,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3890,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p409-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 377534,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 392486,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 381272,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 373796.28,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-16-plus-mb16250p446",
+    "slug": "dell-pro-max-16-plus-mb16250p446",
+    "name": "Dell Pro Max 16 Plus MB16250P446",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p446-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-16-plus-mb16250p446-1.jpg",
+      "https://resim.epey.com/1066827/z_dell-pro-max-16-plus-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 43,
+    "basePrice": 437969.09,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "Intel Core Ultra 7 265HX Yüksek Performanslı İşlemci",
+      "NVIDIA RTX 3500 Ada Generation Mobile 12GB (115W) Grafik Mimarisi",
+      "8GB RAM & 2TB Hızlı SSD",
+      "Dell Precision Pro Termal Tasarımı & Kurumsal Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 265HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 20 İzlek)",
+      "npuTops": 45,
+      "ramGb": 8,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 128,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 3500 Ada Generation Mobile 12GB",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 & PremierColor / DisplayHDR",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 8,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 Type-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1 (PowerShare)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet (2.5G Killer)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Havacılık Sınıfı CNC Alüminyum & Karbon Fiber Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Profesyonel Hassas Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello + Gizlilik Deklanşörü",
+      "audio": "Waves MaxxAudio Pro Destekli Quad-Hoparlör Sistemi",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p446-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 437969.09,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3890,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p446-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 442349,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 459868,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 446728,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 437969.09,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-16-plus-mb16250p465",
+    "slug": "dell-pro-max-16-plus-mb16250p465",
+    "name": "Dell Pro Max 16 Plus MB16250P465",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p465-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-16-plus-mb16250p465-1.jpg",
+      "https://resim.epey.com/1066815/z_dell-pro-max-16-plus-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 74,
+    "reviewCount": 22,
+    "basePrice": 374608.4,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "Intel Core Ultra 7 265HX Yüksek Performanslı İşlemci",
+      "NVIDIA RTX 3500 Ada Generation Mobile 12GB (115W) Grafik Mimarisi",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Dell Precision Pro Termal Tasarımı & Kurumsal Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 265HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 20 İzlek)",
+      "npuTops": 45,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 128,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 3500 Ada Generation Mobile 12GB",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 & PremierColor / DisplayHDR",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 8,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 Type-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1 (PowerShare)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet (2.5G Killer)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Havacılık Sınıfı CNC Alüminyum & Karbon Fiber Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Profesyonel Hassas Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello + Gizlilik Deklanşörü",
+      "audio": "Waves MaxxAudio Pro Destekli Quad-Hoparlör Sistemi",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p465-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 374608.4,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3890,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p465-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 378354,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 393339,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 382101,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 374608.4,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-16-plus-mb16250p395",
+    "slug": "dell-pro-max-16-plus-mb16250p395",
+    "name": "Dell Pro Max 16 Plus MB16250P395",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p395-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-16-plus-mb16250p395-1.jpg",
+      "https://resim.epey.com/1066819/z_dell-pro-max-16-plus-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 74,
+    "reviewCount": 29,
+    "basePrice": 362326.16,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "Intel Core Ultra 7 265HX Yüksek Performanslı İşlemci",
+      "NVIDIA RTX 3500 Ada Generation Mobile 12GB (115W) Grafik Mimarisi",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Dell Precision Pro Termal Tasarımı & Kurumsal Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 265HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 20 İzlek)",
+      "npuTops": 45,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 128,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 3500 Ada Generation Mobile 12GB",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 & PremierColor / DisplayHDR",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 8,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 Type-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1 (PowerShare)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet (2.5G Killer)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Havacılık Sınıfı CNC Alüminyum & Karbon Fiber Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Profesyonel Hassas Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello + Gizlilik Deklanşörü",
+      "audio": "Waves MaxxAudio Pro Destekli Quad-Hoparlör Sistemi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p395-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 362326.16,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3890,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p395-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 365949,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 380442,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 369573,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 362326.16,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-alienware-16x-aurora-ac16251-u9275hx-16gbram-1tb-w11h",
+    "slug": "dell-alienware-16x-aurora-ac16251-u9275hx-16gbram-1tb-w11h",
+    "name": "Dell Alienware 16X Aurora AC16251 (U9275HX/16GBRAM/1TB/W11H)",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Üst Düzey Oyuncu Laptopu",
+    "image": "/images/products/laptops/dell-alienware-16x-aurora-ac16251-u9275hx-16gbram-1tb-w11h-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-alienware-16x-aurora-ac16251-u9275hx-16gbram-1tb-w11h-1.jpg",
+      "https://resim.epey.com/1035620/z_dell-alienware-16x-aurora-ac16251-u9275hx-16gbram-1tb-w11h-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 74,
+    "reviewCount": 37,
+    "basePrice": 96030,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ 240Hz 3ms %100 DCI-P3 G-Sync & ComfortView Plus)",
+      "Intel Core Ultra 9 275HX Yüksek Performanslı İşlemci",
+      "NVIDIA GeForce RTX 4080 Mobile 12GB (175W) Grafik Mimarisi",
+      "16GB RAM & 1TB Hızlı SSD",
+      "Alienware Cryo-tech™ Gelişmiş Soğutma & AlienFX RGB Aydınlatma"
+    ],
+    "specs": {
+      "productType": "Üst Düzey Oyuncu Laptopu",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 24 İzlek)",
+      "npuTops": 0,
+      "ramGb": 16,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4080 Mobile 12GB",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ 240Hz 3ms %100 DCI-P3 G-Sync & ComfortView Plus)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 & PremierColor / DisplayHDR",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 6,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 7 (Killer BE1750)",
+      "bluetooth": "5.4",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 Type-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1 (PowerShare)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet (2.5G Killer)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 2.65,
+      "thicknessMm": 22.9,
+      "bodyMaterial": "Eloksallı Alüminyum & Magnezyum Alaşımlı Kasa",
+      "keyboard": "Alienware CherryMX Ultra Düşük Profil Mekanik RGB Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello + Gizlilik Deklanşörü",
+      "audio": "Dolby Atmos® Destekli Stereo Hoparlörler",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-alienware-16x-aurora-ac16251-u9275hx-16gbram-1tb-w11h-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 96030,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3890,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-alienware-16x-aurora-ac16251-u9275hx-16gbram-1tb-w11h-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 96990,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 100832,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 97951,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 96030,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-16-plus-mb16250p470",
+    "slug": "dell-pro-max-16-plus-mb16250p470",
+    "name": "Dell Pro Max 16 Plus MB16250P470",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p470-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-16-plus-mb16250p470-1.jpg",
+      "https://resim.epey.com/1066811/z_dell-pro-max-16-plus-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 74,
+    "reviewCount": 29,
+    "basePrice": 369525.98,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "Intel Core Ultra 7 265HX Yüksek Performanslı İşlemci",
+      "NVIDIA RTX 3500 Ada Generation Mobile 12GB (115W) Grafik Mimarisi",
+      "40GB RAM & 1TB Hızlı SSD",
+      "Dell Precision Pro Termal Tasarımı & Kurumsal Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 265HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 20 İzlek)",
+      "npuTops": 45,
+      "ramGb": 40,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 128,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 3500 Ada Generation Mobile 12GB",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 & PremierColor / DisplayHDR",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 8,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 Type-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1 (PowerShare)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet (2.5G Killer)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Havacılık Sınıfı CNC Alüminyum & Karbon Fiber Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Profesyonel Hassas Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello + Gizlilik Deklanşörü",
+      "audio": "Waves MaxxAudio Pro Destekli Quad-Hoparlör Sistemi",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p470-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 369525.98,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3890,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p470-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 373221,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 388002,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 376916,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 369525.98,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-16-plus-mb16250p464",
+    "slug": "dell-pro-max-16-plus-mb16250p464",
+    "name": "Dell Pro Max 16 Plus MB16250P464",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p464-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-16-plus-mb16250p464-1.jpg",
+      "https://resim.epey.com/1066850/z_dell-pro-max-16-plus-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 73,
+    "reviewCount": 46,
+    "basePrice": 368509.5,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "Intel Core Ultra 7 265HX Yüksek Performanslı İşlemci",
+      "NVIDIA RTX 3500 Ada Generation Mobile 12GB (115W) Grafik Mimarisi",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Dell Precision Pro Termal Tasarımı & Kurumsal Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 265HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 20 İzlek)",
+      "npuTops": 45,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 128,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 3500 Ada Generation Mobile 12GB",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 & PremierColor / DisplayHDR",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 8,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 Type-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1 (PowerShare)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet (2.5G Killer)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Havacılık Sınıfı CNC Alüminyum & Karbon Fiber Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Profesyonel Hassas Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello + Gizlilik Deklanşörü",
+      "audio": "Waves MaxxAudio Pro Destekli Quad-Hoparlör Sistemi",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p464-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 368509.5,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3890,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p464-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 372195,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 386935,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 375880,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 368509.5,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-16-plus-mb16250p450",
+    "slug": "dell-pro-max-16-plus-mb16250p450",
+    "name": "Dell Pro Max 16 Plus MB16250P450",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p450-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-16-plus-mb16250p450-1.jpg",
+      "https://resim.epey.com/1066813/z_dell-pro-max-16-plus-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 71,
+    "reviewCount": 47,
+    "basePrice": 365460.06,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "Intel Core Ultra 7 265HX Yüksek Performanslı İşlemci",
+      "NVIDIA RTX 3500 Ada Generation Mobile 12GB (115W) Grafik Mimarisi",
+      "16GB RAM & 1TB Hızlı SSD",
+      "Dell Precision Pro Termal Tasarımı & Kurumsal Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 265HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 20 İzlek)",
+      "npuTops": 45,
+      "ramGb": 16,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 128,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 3500 Ada Generation Mobile 12GB",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 & PremierColor / DisplayHDR",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 8,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 Type-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1 (PowerShare)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet (2.5G Killer)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Havacılık Sınıfı CNC Alüminyum & Karbon Fiber Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Profesyonel Hassas Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello + Gizlilik Deklanşörü",
+      "audio": "Waves MaxxAudio Pro Destekli Quad-Hoparlör Sistemi",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p450-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 365460.06,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3890,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p450-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 369115,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 383733,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 372769,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 365460.06,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-16-plus-mb16250p379",
+    "slug": "dell-pro-max-16-plus-mb16250p379",
+    "name": "Dell Pro Max 16 Plus MB16250P379",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p379-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-16-plus-mb16250p379-1.jpg",
+      "https://resim.epey.com/1066859/z_dell-pro-max-16-plus-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 71,
+    "reviewCount": 15,
+    "basePrice": 349545.13,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "Intel Core Ultra 7 265HX Yüksek Performanslı İşlemci",
+      "NVIDIA RTX 2000 Ada Generation Mobile 8GB (90W) Grafik Mimarisi",
+      "16GB RAM & 1TB Hızlı SSD",
+      "Dell Precision Pro Termal Tasarımı & Kurumsal Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 265HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 20 İzlek)",
+      "npuTops": 45,
+      "ramGb": 16,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 128,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 2000 Ada Generation Mobile 8GB",
+      "gpuTgpWatts": 90,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 & PremierColor / DisplayHDR",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 8,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 Type-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1 (PowerShare)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet (2.5G Killer)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Havacılık Sınıfı CNC Alüminyum & Karbon Fiber Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Profesyonel Hassas Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello + Gizlilik Deklanşörü",
+      "audio": "Waves MaxxAudio Pro Destekli Quad-Hoparlör Sistemi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p379-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 349545.13,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3890,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p379-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 353041,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 367022,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 356536,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 349545.13,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-precision-m7680-xctop7680emea-vp2-32-gb-512-gb-w11p",
+    "slug": "dell-precision-m7680-xctop7680emea-vp2-32-gb-512-gb-w11p",
+    "name": "Dell Precision M7680 XCTOP7680EMEA-VP2 32 GB 512 GB W11P",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Kurumsal Mobil İş İstasyonu",
+    "image": "/images/products/laptops/dell-precision-m7680-xctop7680emea-vp2-32-gb-512-gb-w11p-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-precision-m7680-xctop7680emea-vp2-32-gb-512-gb-w11p-1.jpg",
+      "https://resim.epey.com/910955/z_dell-precision-m7680-xctop7680emea-vp2a6-741035590455-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 70,
+    "reviewCount": 31,
+    "basePrice": 286335.73,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 16:10 IPS 500 Nit %100 DCI-P3 PremierColor)",
+      "Intel Core i9-13950HX Yüksek Performanslı İşlemci",
+      "NVIDIA RTX 3500 Ada Generation Mobile 12GB (115W) Grafik Mimarisi",
+      "32GB RAM & 512GB Hızlı SSD",
+      "Dell Precision Pro Termal Tasarımı & Kurumsal Güvenlik"
+    ],
+    "specs": {
+      "productType": "Kurumsal Mobil İş İstasyonu",
+      "processor": "Intel Core i9-13950HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek)",
+      "npuTops": 0,
+      "ramGb": 32,
+      "ramType": "DDR5 5200 MHz CAMM / SODIMM",
+      "maxRamGb": 128,
+      "storageGb": 512,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 3500 Ada Generation Mobile 12GB",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 16:10 IPS 500 Nit %100 DCI-P3 PremierColor)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 & PremierColor / DisplayHDR",
+      "batteryCapacityWh": 93,
+      "batteryLifeHours": 7,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 Type-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1 (PowerShare)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet (2.5G Killer)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 2.6,
+      "thicknessMm": 25.9,
+      "bodyMaterial": "Havacılık Sınıfı CNC Alüminyum & Karbon Fiber Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Profesyonel Hassas Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello + Gizlilik Deklanşörü",
+      "audio": "Waves MaxxAudio Pro Destekli Quad-Hoparlör Sistemi",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-precision-m7680-xctop7680emea-vp2-32-gb-512-gb-w11p-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 286335.73,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3890,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-precision-m7680-xctop7680emea-vp2-32-gb-512-gb-w11p-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 289199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 300653,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 292062,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 286335.73,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-16-plus-mb16250p372",
+    "slug": "dell-pro-max-16-plus-mb16250p372",
+    "name": "Dell Pro Max 16 Plus MB16250P372",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-16-plus-mb16250p372-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-16-plus-mb16250p372-1.jpg",
+      "https://resim.epey.com/1066810/z_dell-pro-max-16-plus-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 70,
+    "reviewCount": 39,
+    "basePrice": 342990.77,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "Intel Core Ultra 7 265HX Yüksek Performanslı İşlemci",
+      "NVIDIA RTX 2000 Ada Generation Mobile 8GB (90W) Grafik Mimarisi",
+      "8GB RAM & 1TB Hızlı SSD",
+      "Dell Precision Pro Termal Tasarımı & Kurumsal Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 265HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 20 İzlek)",
+      "npuTops": 45,
+      "ramGb": 8,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 128,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 2000 Ada Generation Mobile 8GB",
+      "gpuTgpWatts": 90,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 & PremierColor / DisplayHDR",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 8,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 Type-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1 (PowerShare)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet (2.5G Killer)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Havacılık Sınıfı CNC Alüminyum & Karbon Fiber Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Profesyonel Hassas Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello + Gizlilik Deklanşörü",
+      "audio": "Waves MaxxAudio Pro Destekli Quad-Hoparlör Sistemi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p372-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 342990.77,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3890,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-16-plus-mb16250p372-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 346421,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 360140,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 349851,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 342990.77,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-16-64gbram-2tbssd-w11p",
+    "slug": "dell-pro-max-16-64gbram-2tbssd-w11p",
+    "name": "Dell Pro Max 16 (64GBRAM/2TBSSD/W11P)",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-16-64gbram-2tbssd-w11p-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-16-64gbram-2tbssd-w11p-1.jpg",
+      "https://resim.epey.com/1066894/z_dell-pro-max-16-mc16250-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 70,
+    "reviewCount": 45,
+    "basePrice": 256044.09,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "Intel Core Ultra 9 285H Yüksek Performanslı İşlemci",
+      "NVIDIA RTX 2000 Ada Generation Mobile 8GB (90W) Grafik Mimarisi",
+      "64GB RAM & 2TB Hızlı SSD",
+      "Dell Precision Pro Termal Tasarımı & Kurumsal Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 9 285H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE)",
+      "npuTops": 45,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 128,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 2000 Ada Generation Mobile 8GB",
+      "gpuTgpWatts": 90,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3840 x 2400 (4K UHD+ OLED 120Hz %100 DCI-P3 500 Nit Touch)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 & PremierColor / DisplayHDR",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 8,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 Type-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1 (PowerShare)",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet (2.5G Killer)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Havacılık Sınıfı CNC Alüminyum & Karbon Fiber Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Profesyonel Hassas Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello + Gizlilik Deklanşörü",
+      "audio": "Waves MaxxAudio Pro Destekli Quad-Hoparlör Sistemi",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-16-64gbram-2tbssd-w11p-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 256044.09,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3890,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-16-64gbram-2tbssd-w11p-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 258605,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 268846,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 261165,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 256044.09,
+        "store": "Hepsiburada"
+      }
+    ]
   }
 ];
