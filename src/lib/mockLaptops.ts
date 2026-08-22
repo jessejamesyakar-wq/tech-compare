@@ -13464,5 +13464,1960 @@ export const mockLaptops: LaptopProduct[] = [
         "store": "Hepsiburada"
       }
     ]
+  },
+  {
+    "id": "asus-rog-zephyrus-g16-gu605cr-qr177w",
+    "slug": "asus-rog-zephyrus-g16-gu605cr-qr177w",
+    "name": "Asus ROG Zephyrus G16 GU605CR-QR177W",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "İnce & Hafif Oyuncu Laptopu",
+    "image": "/images/products/laptops/asus-rog-zephyrus-g16-gu605cr-qr177w-1.jpg",
+    "images": [
+      "/images/products/laptops/asus-rog-zephyrus-g16-gu605cr-qr177w-1.jpg",
+      "https://resim.epey.com/1011800/z_asus-rog-zephyrus-g16-gu605cr-qr200w-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 73,
+    "basePrice": 174999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (2.5K OLED 240Hz 0.2ms %100 DCI-P3 ROG Nebula)",
+      "Intel Core Ultra 9 285H Yüksek Performanslı İşlemci",
+      "NVIDIA GeForce RTX 4080 Mobile 12GB (Max-Q) (115W TGP) & MUX Switch + Advanced Optimus",
+      "32GB RAM & 1TB NVMe SSD",
+      "ROG Zephyrus Gelişmiş Soğutma Mimarisi & RGB Klavye"
+    ],
+    "specs": {
+      "productType": "İnce & Hafif Oyuncu Laptopu",
+      "processor": "Intel Core Ultra 9 285H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE)",
+      "npuTops": 45,
+      "ramGb": 32,
+      "ramType": "LPDDR5X 7467 MHz",
+      "maxRamGb": 32,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe",
+      "gpu": "NVIDIA GeForce RTX 4080 Mobile 12GB (Max-Q)",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (2.5K OLED 240Hz 0.2ms %100 DCI-P3 ROG Nebula)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 (DisplayHDR True Black 500)",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 10,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB4 (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x RJ45 Gigabit LAN",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 1.85,
+      "thicknessMm": 16.4,
+      "bodyMaterial": "CNC Alüminyum Gövde",
+      "keyboard": "RGB Aydınlatmalı Oyuncu Klavyesi",
+      "webcam": "720p / 1080p IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp Hoparlörler",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-zephyrus-g16-gu605cr-qr177w-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 174999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5120,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-zephyrus-g16-gu605cr-qr177w-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 176749,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3890,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 181999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 178499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 174999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-g16-g614jvr-n3243-fr41",
+    "slug": "asus-rog-strix-g16-g614jvr-n3243-fr41",
+    "name": "Asus ROG Strix G16 G614JVR-N3243 FR41",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr41-1.jpg",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr41-1.jpg",
+      "https://resim.epey.com/1051108/z_asus-rog-strix-g16-g614jvr-n3243-fr41-7.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 78,
+    "basePrice": 173801.55,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "Intel Core i9-14900HX Yüksek Performanslı İşlemci",
+      "NVIDIA GeForce RTX 4060 Mobile 8GB (140W TGP) & MUX Switch + Advanced Optimus",
+      "48GB RAM & 1TB NVMe SSD",
+      "ROG Strix Gelişmiş Soğutma Mimarisi & RGB Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E)",
+      "npuTops": 13,
+      "ramGb": 48,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe",
+      "gpu": "NVIDIA GeForce RTX 4060 Mobile 8GB",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 7,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB4 (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x RJ45 Gigabit LAN",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 2.5,
+      "thicknessMm": 22.8,
+      "bodyMaterial": "Alüminyum Kapak & Güçlendirilmiş Gövde",
+      "keyboard": "RGB Aydınlatmalı Oyuncu Klavyesi",
+      "webcam": "720p / 1080p IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp Hoparlörler",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-g16-g614jvr-n3243-fr41-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 173801.55,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5120,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-g16-g614jvr-n3243-fr41-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 175540,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3890,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 180754,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 177278,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 173801.55,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-g16-g614jvr-n3243-c41",
+    "slug": "asus-rog-strix-g16-g614jvr-n3243-c41",
+    "name": "Asus ROG Strix G16 G614JVR-N3243 C41",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c41-1.jpg",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c41-1.jpg",
+      "https://resim.epey.com/1051049/z_asus-rog-strix-g16-g614jvr-n3243-c41-7.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 73,
+    "basePrice": 174846.55,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "Intel Core i9-14900HX Yüksek Performanslı İşlemci",
+      "NVIDIA GeForce RTX 4060 Mobile 8GB (140W TGP) & MUX Switch + Advanced Optimus",
+      "48GB RAM & 1TB NVMe SSD",
+      "ROG Strix Gelişmiş Soğutma Mimarisi & RGB Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E)",
+      "npuTops": 13,
+      "ramGb": 48,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe",
+      "gpu": "NVIDIA GeForce RTX 4060 Mobile 8GB",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 7,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB4 (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x RJ45 Gigabit LAN",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 2.5,
+      "thicknessMm": 22.8,
+      "bodyMaterial": "Alüminyum Kapak & Güçlendirilmiş Gövde",
+      "keyboard": "RGB Aydınlatmalı Oyuncu Klavyesi",
+      "webcam": "720p / 1080p IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp Hoparlörler",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-g16-g614jvr-n3243-c41-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 174846.55,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5120,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-g16-g614jvr-n3243-c41-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 176595,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3890,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 181840,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 178343,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 174846.55,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-g16-g614pw-rv035",
+    "slug": "asus-rog-strix-g16-g614pw-rv035",
+    "name": "Asus ROG Strix G16 G614PW-RV035",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-g16-g614pw-rv035-1.jpg",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-g16-g614pw-rv035-1.jpg",
+      "https://resim.epey.com/1067258/z_asus-rog-strix-g16-g614pw-rv035-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 63,
+    "basePrice": 221060.25,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "AMD Ryzen 9 8940HX Yüksek Performanslı İşlemci",
+      "NVIDIA GeForce RTX 4080 Mobile 12GB (175W TGP) & MUX Switch + Advanced Optimus",
+      "32GB RAM & 2TB NVMe SSD",
+      "ROG Strix Gelişmiş Soğutma Mimarisi & RGB Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek (32 İzlek)",
+      "npuTops": 50,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe",
+      "gpu": "NVIDIA GeForce RTX 4080 Mobile 12GB",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 7,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB4 (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x RJ45 Gigabit LAN",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 2.5,
+      "thicknessMm": 22.8,
+      "bodyMaterial": "Alüminyum Kapak & Güçlendirilmiş Gövde",
+      "keyboard": "RGB Aydınlatmalı Oyuncu Klavyesi",
+      "webcam": "720p / 1080p IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp Hoparlörler",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-g16-g614pw-rv035-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 221060.25,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5120,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-g16-g614pw-rv035-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 223271,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3890,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 229903,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 225481,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 221060.25,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-g16-g614pw-rv036",
+    "slug": "asus-rog-strix-g16-g614pw-rv036",
+    "name": "Asus ROG Strix G16 G614PW-RV036",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-g16-g614pw-rv036-1.jpg",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-g16-g614pw-rv036-1.jpg",
+      "https://resim.epey.com/1067257/z_asus-rog-strix-g16-g614pw-rv036-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 75,
+    "basePrice": 209999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "AMD Ryzen 9 8940HX Yüksek Performanslı İşlemci",
+      "NVIDIA GeForce RTX 4080 Mobile 12GB (175W TGP) & MUX Switch + Advanced Optimus",
+      "32GB RAM & 2TB NVMe SSD",
+      "ROG Strix Gelişmiş Soğutma Mimarisi & RGB Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek (32 İzlek)",
+      "npuTops": 50,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe",
+      "gpu": "NVIDIA GeForce RTX 4080 Mobile 12GB",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 7,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB4 (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x RJ45 Gigabit LAN",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 2.5,
+      "thicknessMm": 22.8,
+      "bodyMaterial": "Alüminyum Kapak & Güçlendirilmiş Gövde",
+      "keyboard": "RGB Aydınlatmalı Oyuncu Klavyesi",
+      "webcam": "720p / 1080p IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp Hoparlörler",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-g16-g614pw-rv036-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 209999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5120,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-g16-g614pw-rv036-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 212099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3890,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 218399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 214199,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 209999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-g16-g614pp-rv218",
+    "slug": "asus-rog-strix-g16-g614pp-rv218",
+    "name": "Asus ROG Strix G16 G614PP-RV218",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-g16-g614pp-rv218-1.jpg",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-g16-g614pp-rv218-1.jpg",
+      "https://resim.epey.com/1064672/z_asus-rog-strix-g16-g614pp-rv218-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 87,
+    "basePrice": 152999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "AMD Ryzen 9 8940HX Yüksek Performanslı İşlemci",
+      "NVIDIA GeForce RTX 4070 Mobile 8GB (140W TGP) & MUX Switch + Advanced Optimus",
+      "16GB RAM & 1TB NVMe SSD",
+      "ROG Strix Gelişmiş Soğutma Mimarisi & RGB Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek (32 İzlek)",
+      "npuTops": 50,
+      "ramGb": 16,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe",
+      "gpu": "NVIDIA GeForce RTX 4070 Mobile 8GB",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 7,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB4 (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x RJ45 Gigabit LAN",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 2.5,
+      "thicknessMm": 22.8,
+      "bodyMaterial": "Alüminyum Kapak & Güçlendirilmiş Gövde",
+      "keyboard": "RGB Aydınlatmalı Oyuncu Klavyesi",
+      "webcam": "720p / 1080p IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp Hoparlörler",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-g16-g614pp-rv218-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 152999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5120,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-g16-g614pp-rv218-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 154529,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3890,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 159119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 156059,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 152999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-g16-g614pm-s5062hmf14",
+    "slug": "asus-rog-strix-g16-g614pm-s5062hmf14",
+    "name": "Asus ROG Strix G16 G614PM-S5062HMF14",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf14-1.jpg",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf14-1.jpg",
+      "https://resim.epey.com/1066950/z_asus-rog-strix-g16-g614pm-s5062hmf14-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 63,
+    "basePrice": 159599.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "AMD Ryzen 9 8940HX Yüksek Performanslı İşlemci",
+      "NVIDIA GeForce RTX 4060 Mobile 8GB (140W TGP) & MUX Switch + Advanced Optimus",
+      "48GB RAM & 1TB NVMe SSD",
+      "ROG Strix Gelişmiş Soğutma Mimarisi & RGB Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek (32 İzlek)",
+      "npuTops": 50,
+      "ramGb": 48,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe",
+      "gpu": "NVIDIA GeForce RTX 4060 Mobile 8GB",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 7,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB4 (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x RJ45 Gigabit LAN",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 2.5,
+      "thicknessMm": 22.8,
+      "bodyMaterial": "Alüminyum Kapak & Güçlendirilmiş Gövde",
+      "keyboard": "RGB Aydınlatmalı Oyuncu Klavyesi",
+      "webcam": "720p / 1080p IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp Hoparlörler",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-g16-g614pm-s5062hmf14-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 159599.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5120,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-g16-g614pm-s5062hmf14-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 161195,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3890,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 165983,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 162791,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 159599.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-g16-g614pm-s5062hmf30",
+    "slug": "asus-rog-strix-g16-g614pm-s5062hmf30",
+    "name": "Asus ROG Strix G16 G614PM-S5062HMF30",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf30-1.jpg",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf30-1.jpg",
+      "https://resim.epey.com/1066987/z_asus-rog-strix-g16-g614pm-s5062hmf30-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 52,
+    "basePrice": 159599.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "AMD Ryzen 9 8940HX Yüksek Performanslı İşlemci",
+      "NVIDIA GeForce RTX 4060 Mobile 8GB (140W TGP) & MUX Switch + Advanced Optimus",
+      "40GB RAM & 1TB NVMe SSD",
+      "ROG Strix Gelişmiş Soğutma Mimarisi & RGB Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek (32 İzlek)",
+      "npuTops": 50,
+      "ramGb": 40,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe",
+      "gpu": "NVIDIA GeForce RTX 4060 Mobile 8GB",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 7,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB4 (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x RJ45 Gigabit LAN",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 2.5,
+      "thicknessMm": 22.8,
+      "bodyMaterial": "Alüminyum Kapak & Güçlendirilmiş Gövde",
+      "keyboard": "RGB Aydınlatmalı Oyuncu Klavyesi",
+      "webcam": "720p / 1080p IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-g16-g614pm-s5062hmf30-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 159599.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5120,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-g16-g614pm-s5062hmf30-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 161195,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3890,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 165983,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 162791,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 159599.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-tuf-gaming-f16-fx608jmr-rv067ep11",
+    "slug": "asus-tuf-gaming-f16-fx608jmr-rv067ep11",
+    "name": "Asus TUF Gaming F16 FX608JMR-RV067EP11",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-tuf-gaming-f16-fx608jmr-rv067ep11-1.jpg",
+    "images": [
+      "/images/products/laptops/asus-tuf-gaming-f16-fx608jmr-rv067ep11-1.jpg",
+      "https://resim.epey.com/1054245/z_asus-tuf-gaming-f16-fx608jmr-rv067ep11-6.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 38,
+    "basePrice": 146298.95,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "Intel Core i7-14650HX Yüksek Performanslı İşlemci",
+      "NVIDIA GeForce RTX 4060 Mobile 8GB (140W TGP) & MUX Switch + Advanced Optimus",
+      "64GB RAM & 1TB NVMe SSD",
+      "TUF Gaming Gelişmiş Soğutma Mimarisi & RGB Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core i7-14650HX",
+      "processorCores": "14 Çekirdek (6P + 8E)",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe",
+      "gpu": "NVIDIA GeForce RTX 4060 Mobile 8GB",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 7,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB4 (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x RJ45 Gigabit LAN",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 2.25,
+      "thicknessMm": 22.1,
+      "bodyMaterial": "Alüminyum Kapak & Güçlendirilmiş Gövde",
+      "keyboard": "RGB Aydınlatmalı Oyuncu Klavyesi",
+      "webcam": "720p / 1080p IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-tuf-gaming-f16-fx608jmr-rv067ep11-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 146298.95,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5120,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-tuf-gaming-f16-fx608jmr-rv067ep11-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 147762,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3890,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 152151,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 149225,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 146298.95,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-tuf-gaming-f16-fx608jmr-rv024-ep11",
+    "slug": "asus-tuf-gaming-f16-fx608jmr-rv024-ep11",
+    "name": "Asus TUF Gaming F16 FX608JMR-RV024-EP11",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-tuf-gaming-f16-fx608jmr-rv024-ep11-1.jpg",
+    "images": [
+      "/images/products/laptops/asus-tuf-gaming-f16-fx608jmr-rv024-ep11-1.jpg",
+      "https://resim.epey.com/1054159/z_asus-tuf-gaming-f16-fx608jmr-rv024-ep11-6.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 88,
+    "basePrice": 140028.95,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "Intel Core i7-14650HX Yüksek Performanslı İşlemci",
+      "NVIDIA GeForce RTX 4060 Mobile 8GB (140W TGP) & MUX Switch + Advanced Optimus",
+      "64GB RAM & 1TB NVMe SSD",
+      "TUF Gaming Gelişmiş Soğutma Mimarisi & RGB Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core i7-14650HX",
+      "processorCores": "14 Çekirdek (6P + 8E)",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe",
+      "gpu": "NVIDIA GeForce RTX 4060 Mobile 8GB",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 7,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB4 (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x RJ45 Gigabit LAN",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 2.25,
+      "thicknessMm": 22.1,
+      "bodyMaterial": "Alüminyum Kapak & Güçlendirilmiş Gövde",
+      "keyboard": "RGB Aydınlatmalı Oyuncu Klavyesi",
+      "webcam": "720p / 1080p IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-tuf-gaming-f16-fx608jmr-rv024-ep11-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 140028.95,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5120,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-tuf-gaming-f16-fx608jmr-rv024-ep11-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 141429,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3890,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 145630,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 142830,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 140028.95,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-g16-g614jvr-n3243-c21",
+    "slug": "asus-rog-strix-g16-g614jvr-n3243-c21",
+    "name": "Asus ROG Strix G16 G614JVR-N3243 C21",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c21-1.jpg",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-c21-1.jpg",
+      "https://resim.epey.com/1051093/z_asus-rog-strix-g16-g614jvr-n3243-c21-7.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 30,
+    "basePrice": 165394.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "Intel Core i9-14900HX Yüksek Performanslı İşlemci",
+      "NVIDIA GeForce RTX 4060 Mobile 8GB (140W TGP) & MUX Switch + Advanced Optimus",
+      "64GB RAM & 1TB NVMe SSD",
+      "ROG Strix Gelişmiş Soğutma Mimarisi & RGB Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E)",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe",
+      "gpu": "NVIDIA GeForce RTX 4060 Mobile 8GB",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 7,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB4 (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x RJ45 Gigabit LAN",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 2.5,
+      "thicknessMm": 22.8,
+      "bodyMaterial": "Alüminyum Kapak & Güçlendirilmiş Gövde",
+      "keyboard": "RGB Aydınlatmalı Oyuncu Klavyesi",
+      "webcam": "720p / 1080p IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp Hoparlörler",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-g16-g614jvr-n3243-c21-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 165394.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5120,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-g16-g614jvr-n3243-c21-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 167048,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3890,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 172010,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 168702,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 165394.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-g16-g614jvr-n3243-fr21",
+    "slug": "asus-rog-strix-g16-g614jvr-n3243-fr21",
+    "name": "Asus ROG Strix G16 G614JVR-N3243 FR21",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr21-1.jpg",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-g16-g614jvr-n3243-fr21-1.jpg",
+      "https://resim.epey.com/1050835/z_asus-rog-strix-g16-g614jvr-n3243-fr21-7.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 40,
+    "basePrice": 164349.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "Intel Core i9-14900HX Yüksek Performanslı İşlemci",
+      "NVIDIA GeForce RTX 4060 Mobile 8GB (140W TGP) & MUX Switch + Advanced Optimus",
+      "64GB RAM & 1TB NVMe SSD",
+      "ROG Strix Gelişmiş Soğutma Mimarisi & RGB Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E)",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe",
+      "gpu": "NVIDIA GeForce RTX 4060 Mobile 8GB",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 7,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB4 (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x RJ45 Gigabit LAN",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 2.5,
+      "thicknessMm": 22.8,
+      "bodyMaterial": "Alüminyum Kapak & Güçlendirilmiş Gövde",
+      "keyboard": "RGB Aydınlatmalı Oyuncu Klavyesi",
+      "webcam": "720p / 1080p IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp Hoparlörler",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-g16-g614jvr-n3243-fr21-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 164349.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5120,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-g16-g614jvr-n3243-fr21-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 165993,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3890,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 170923,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 167636,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 164349.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-g16-g614ph-rv036ep4",
+    "slug": "asus-rog-strix-g16-g614ph-rv036ep4",
+    "name": "Asus ROG Strix G16 G614PH-RV036EP4",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-g16-g614ph-rv036ep4-1.jpg",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-g16-g614ph-rv036ep4-1.jpg",
+      "https://resim.epey.com/1033196/z_asus-rog-strix-g16-g614ph-rv036ep4-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 61,
+    "basePrice": 90913.95,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "AMD Ryzen 9 8940HX Yüksek Performanslı İşlemci",
+      "NVIDIA GeForce RTX 4060 Mobile 8GB (140W TGP) & MUX Switch + Advanced Optimus",
+      "32GB RAM & 1TB NVMe SSD",
+      "ROG Strix Gelişmiş Soğutma Mimarisi & RGB Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek (32 İzlek)",
+      "npuTops": 50,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe",
+      "gpu": "NVIDIA GeForce RTX 4060 Mobile 8GB",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 7,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB4 (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x RJ45 Gigabit LAN",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 2.5,
+      "thicknessMm": 22.8,
+      "bodyMaterial": "Alüminyum Kapak & Güçlendirilmiş Gövde",
+      "keyboard": "RGB Aydınlatmalı Oyuncu Klavyesi",
+      "webcam": "720p / 1080p IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-g16-g614ph-rv036ep4-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 90913.95,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5120,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-g16-g614ph-rv036ep4-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 91823,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3890,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 94551,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 92732,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 90913.95,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-g16-g614pm-s5074-64gb-2tb-dos",
+    "slug": "asus-rog-strix-g16-g614pm-s5074-64gb-2tb-dos",
+    "name": "Asus ROG Strix G16 G614PM-S5074 (64GB/2TB/DOS)",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5074-64gb-2tb-dos-1.jpg",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5074-64gb-2tb-dos-1.jpg",
+      "https://resim.epey.com/1067206/z_asus-rog-strix-g16-g614pm-s5074-64gb-2tb-dos-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 43,
+    "basePrice": 222685.06,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "AMD Ryzen 9 8940HX Yüksek Performanslı İşlemci",
+      "NVIDIA GeForce RTX 4060 Mobile 8GB (140W TGP) & MUX Switch + Advanced Optimus",
+      "64GB RAM & 2TB NVMe SSD",
+      "ROG Strix Gelişmiş Soğutma Mimarisi & RGB Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek (32 İzlek)",
+      "npuTops": 50,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe",
+      "gpu": "NVIDIA GeForce RTX 4060 Mobile 8GB",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 7,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB4 (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x RJ45 Gigabit LAN",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 2.5,
+      "thicknessMm": 22.8,
+      "bodyMaterial": "Alüminyum Kapak & Güçlendirilmiş Gövde",
+      "keyboard": "RGB Aydınlatmalı Oyuncu Klavyesi",
+      "webcam": "720p / 1080p IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp Hoparlörler",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-g16-g614pm-s5074-64gb-2tb-dos-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 222685.06,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5120,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-g16-g614pm-s5074-64gb-2tb-dos-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 224912,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3890,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 231592,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 227139,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 222685.06,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-g16-g614pm-s5062hmf8",
+    "slug": "asus-rog-strix-g16-g614pm-s5062hmf8",
+    "name": "Asus ROG Strix G16 G614PM-S5062HMF8",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf8-1.jpg",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-g16-g614pm-s5062hmf8-1.jpg",
+      "https://resim.epey.com/1066973/z_asus-rog-strix-g16-g614pm-s5062hmf8-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 77,
+    "basePrice": 155799.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "AMD Ryzen 9 8940HX Yüksek Performanslı İşlemci",
+      "NVIDIA GeForce RTX 4060 Mobile 8GB (140W TGP) & MUX Switch + Advanced Optimus",
+      "64GB RAM & 1TB NVMe SSD",
+      "ROG Strix Gelişmiş Soğutma Mimarisi & RGB Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek (32 İzlek)",
+      "npuTops": 50,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe",
+      "gpu": "NVIDIA GeForce RTX 4060 Mobile 8GB",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 7,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB4 (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x RJ45 Gigabit LAN",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 2.5,
+      "thicknessMm": 22.8,
+      "bodyMaterial": "Alüminyum Kapak & Güçlendirilmiş Gövde",
+      "keyboard": "RGB Aydınlatmalı Oyuncu Klavyesi",
+      "webcam": "720p / 1080p IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp Hoparlörler",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-g16-g614pm-s5062hmf8-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 155799.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5120,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-g16-g614pm-s5062hmf8-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 157357,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3890,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 162031,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 158915,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 155799.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-g16-g614ph-rv036ep6",
+    "slug": "asus-rog-strix-g16-g614ph-rv036ep6",
+    "name": "Asus ROG Strix G16 G614PH-RV036EP6",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-rog-strix-g16-g614ph-rv036ep6-1.jpg",
+    "images": [
+      "/images/products/laptops/asus-rog-strix-g16-g614ph-rv036ep6-1.jpg",
+      "https://resim.epey.com/1033171/z_asus-rog-strix-g16-g614ph-rv036ep6-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 87,
+    "basePrice": 99273.95,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "AMD Ryzen 9 8940HX Yüksek Performanslı İşlemci",
+      "NVIDIA GeForce RTX 4060 Mobile 8GB (140W TGP) & MUX Switch + Advanced Optimus",
+      "16GB RAM & 1TB NVMe SSD",
+      "ROG Strix Gelişmiş Soğutma Mimarisi & RGB Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek (32 İzlek)",
+      "npuTops": 50,
+      "ramGb": 16,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe",
+      "gpu": "NVIDIA GeForce RTX 4060 Mobile 8GB",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 7,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB4 (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x RJ45 Gigabit LAN",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 2.5,
+      "thicknessMm": 22.8,
+      "bodyMaterial": "Alüminyum Kapak & Güçlendirilmiş Gövde",
+      "keyboard": "RGB Aydınlatmalı Oyuncu Klavyesi",
+      "webcam": "720p / 1080p IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-rog-strix-g16-g614ph-rv036ep6-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 99273.95,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5120,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-rog-strix-g16-g614ph-rv036ep6-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 100267,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3890,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 103245,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 101259,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 99273.95,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-tuf-gaming-f16-fx608jpr-qt069ep2",
+    "slug": "asus-tuf-gaming-f16-fx608jpr-qt069ep2",
+    "name": "Asus TUF Gaming F16 FX608JPR-QT069EP2",
+    "brand": "ASUS",
+    "category": "laptops",
+    "productType": "Oyuncu Laptopu (Gaming)",
+    "image": "/images/products/laptops/asus-tuf-gaming-f16-fx608jpr-qt069ep2-1.jpg",
+    "images": [
+      "/images/products/laptops/asus-tuf-gaming-f16-fx608jpr-qt069ep2-1.jpg",
+      "https://resim.epey.com/1065493/z_asus-tuf-gaming-f16-fx608jpr-qt069ep2-6.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 77,
+    "reviewCount": 45,
+    "basePrice": 164586.45,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "Intel Core i7-14650HX Yüksek Performanslı İşlemci",
+      "NVIDIA GeForce RTX 4070 Mobile 8GB (140W TGP) & MUX Switch + Advanced Optimus",
+      "64GB RAM & 1TB NVMe SSD",
+      "TUF Gaming Gelişmiş Soğutma Mimarisi & RGB Klavye"
+    ],
+    "specs": {
+      "productType": "Oyuncu Laptopu (Gaming)",
+      "processor": "Intel Core i7-14650HX",
+      "processorCores": "14 Çekirdek (6P + 8E)",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe",
+      "gpu": "NVIDIA GeForce RTX 4070 Mobile 8GB",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ 165Hz IPS %100 sRGB G-Sync)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 7,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x Thunderbolt 4 / USB4 (DisplayPort & 100W PD)",
+        "1x USB-C 3.2 Gen 2 (DisplayPort)",
+        "2x USB-A 3.2 Gen 2",
+        "1x HDMI 2.1 FRL",
+        "1x RJ45 Gigabit LAN",
+        "1x 3.5mm Kombo Ses Jack"
+      ],
+      "weightKg": 2.25,
+      "thicknessMm": 22.1,
+      "bodyMaterial": "Alüminyum Kapak & Güçlendirilmiş Gövde",
+      "keyboard": "RGB Aydınlatmalı Oyuncu Klavyesi",
+      "webcam": "720p / 1080p IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos Desteği & Smart Amp Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-asus-tuf-gaming-f16-fx608jpr-qt069ep2-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 164586.45,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Asus Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5120,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-asus-tuf-gaming-f16-fx608jpr-qt069ep2-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 166232,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3890,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 171170,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 167878,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 164586.45,
+        "store": "Hepsiburada"
+      }
+    ]
   }
 ];
