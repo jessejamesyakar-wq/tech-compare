@@ -71773,5 +71773,2306 @@ export const mockTVs: TVProduct[] = [
         "store": "MediaMarkt"
       }
     ]
+  },
+  {
+    "id": "philips-75pus9000",
+    "slug": "philips-75pus9000",
+    "name": "Philips 75PUS9000 (75PUS9000/12) 75\" 4K \"The One\" LED Smart TV (2025)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-75pus9000-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-75pus9000-1.jpg",
+      "https://resim.epey.com/1016989/k_philips-75pus9000-12-8718863046425-3.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 36,
+    "basePrice": 78900,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "75\" (189 cm) 4K \"The One\" Ultra HD Ekran",
+      "3 Taraflı Büyüleyici Ambilight Aydınlatma",
+      "50W 2.1 Güçlü Ses Sistemi & Subwoofer",
+      "144Hz VRR & P5 Perfect Picture Engine"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 50,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium",
+        "Game Bar"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "P5 Perfect Picture Engine",
+      "brightnessNits": 600,
+      "contrastRatio": "6000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "93% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Alexa Built-in",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1671 x 1030 x 350 mm",
+      "weightKg": 32.5,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Döner Metalik Ayak ve İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-75pus9000-mediamarkt",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 78900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "Philips Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 290,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 86000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 82000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 78900,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "philips-55oled759",
+    "slug": "philips-55oled759",
+    "name": "Philips 55OLED759 (55OLED759/12) 55\" 4K OLED Smart TV (2024)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-55oled759-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-55oled759-1.jpg",
+      "https://resim.epey.com/942722/k_philips-65oled759-4.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 41,
+    "basePrice": 53900,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (139 cm) 4K OLED Kusursuz Siyah Panel",
+      "3 Taraflı Ambilight Aydınlatma",
+      "120Hz/144Hz VRR & P5 Engine",
+      "Titan OS Smart TV Platformu"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz VRR",
+        "ALLM",
+        "FreeSync Premium"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "P5 Perfect Picture Engine (7. Nesil)",
+      "brightnessNits": 900,
+      "contrastRatio": "Sonsuz (Infinite)",
+      "viewingAngle": "178/178",
+      "colorGamut": "97% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Alexa Built-in",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1225 x 768 x 260 mm",
+      "weightKg": 17.5,
+      "vesaMount": "300x300 mm",
+      "bezelStyle": "Modern Metalik İnce Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-55oled759-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 53900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "Philips Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 59000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 56000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 53900,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-65pml9009",
+    "slug": "philips-65pml9009",
+    "name": "Philips 65PML9009 (65PML9009/12) 65\" 4K \"The Xtra\" Mini LED Smart TV (2024)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-65pml9009-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-65pml9009-1.jpg",
+      "https://resim.epey.com/954532/k_philips-55pml9009-1.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 37,
+    "basePrice": 59900,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "65\" (164 cm) 4K Quantum Mini LED Panel",
+      "3 Taraflı Ambilight & 1000 Nits Parlaklık",
+      "40W Ses Sistemi & Dolby Atmos",
+      "144Hz VRR & P5 Engine"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "P5 Perfect Picture Engine (7. Nesil)",
+      "brightnessNits": 1000,
+      "contrastRatio": "8.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "98% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Alexa Built-in",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1451 x 892 x 300 mm",
+      "weightKg": 25.5,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Fırçalanmış Antrasit Metal Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-65pml9009-mediamarkt",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 59900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "Philips Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 310,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 66000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 62500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 59900,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "philips-48oled760",
+    "slug": "philips-48oled760",
+    "name": "Philips 48OLED760 (48OLED760/12) 48\" 4K OLED Smart TV (2025)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-48oled760-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-48oled760-1.jpg",
+      "https://resim.epey.com/1017235/k_philips-48oled760-5.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 35,
+    "basePrice": 47900,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "48\" (121 cm) 4K OLED Panel ile Sonsuz Kontrast",
+      "3 Taraflı Büyüleyici Ambilight",
+      "120Hz/144Hz VRR & P5 Engine",
+      "Titan OS Akıllı TV Platformu"
+    ],
+    "specs": {
+      "screenSizeInches": 48,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz VRR",
+        "ALLM",
+        "FreeSync Premium"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "P5 Perfect Picture Engine",
+      "brightnessNits": 900,
+      "contrastRatio": "Sonsuz (Infinite)",
+      "viewingAngle": "178/178",
+      "colorGamut": "97% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Alexa Built-in",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1070 x 680 x 240 mm",
+      "weightKg": 13.8,
+      "vesaMount": "300x300 mm",
+      "bezelStyle": "Modern Metalik Şık Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-48oled760-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 47900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "Philips Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 260,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 53000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 50000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 47900,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-48oled759",
+    "slug": "philips-48oled759",
+    "name": "Philips 48OLED759 (48OLED759/12) 48\" 4K OLED Smart TV (2024)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-48oled759-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-48oled759-1.jpg",
+      "https://resim.epey.com/942987/k_philips-65oled759-4.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 33,
+    "basePrice": 44900,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "48\" (121 cm) 4K OLED Kusursuz Panel",
+      "3 Taraflı Ambilight Aydınlatma",
+      "120Hz/144Hz VRR & P5 Engine",
+      "Titan OS Smart TV Platformu"
+    ],
+    "specs": {
+      "screenSizeInches": 48,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz VRR",
+        "ALLM",
+        "FreeSync Premium"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "P5 Perfect Picture Engine (7. Nesil)",
+      "brightnessNits": 900,
+      "contrastRatio": "Sonsuz (Infinite)",
+      "viewingAngle": "178/178",
+      "colorGamut": "97% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Alexa Built-in",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1070 x 680 x 240 mm",
+      "weightKg": 13.5,
+      "vesaMount": "300x300 mm",
+      "bezelStyle": "Modern Metalik İnce Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-48oled759-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 44900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 49500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 47000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 44900,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-75pus8909",
+    "slug": "philips-75pus8909",
+    "name": "Philips 75PUS8909 (75PUS8909/12) 75\" 4K \"The One\" LED Smart TV (2024)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-75pus8909-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-75pus8909-1.jpg",
+      "https://resim.epey.com/942771/k_philips-75pus8909-1.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 38,
+    "basePrice": 67900,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "75\" (189 cm) 4K \"The One\" Ultra HD Ekran",
+      "3 Taraflı Ambilight Aydınlatma",
+      "50W 2.1 Güçlü Ses & Subwoofer",
+      "144Hz VRR & P5 Engine"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 50,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "P5 Perfect Picture Engine (7. Nesil)",
+      "brightnessNits": 550,
+      "contrastRatio": "5500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "92% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Alexa Built-in",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1671 x 1030 x 350 mm",
+      "weightKg": 31.5,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Modern Metalik Döner Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-75pus8909-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 67900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 280,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 74000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 70500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 67900,
+        "store": "Vatan"
+      }
+    ]
+  },
+  {
+    "id": "philips-55mled910",
+    "slug": "philips-55mled910",
+    "name": "Philips 55MLED910 (55MLED910/12) 55\" 4K Mini LED Smart TV (2025)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-55mled910-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-55mled910-1.jpg",
+      "https://resim.epey.com/1040163/k_philips-55mled910-12-8718863048337-3.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 34,
+    "basePrice": 51900,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "55\" (139 cm) 4K Quantum Mini LED Ekran",
+      "3 Taraflı Büyüleyici Ambilight",
+      "40W Ses Sistemi & Dolby Atmos",
+      "120Hz/144Hz VRR & P5 Engine"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz VRR",
+        "ALLM",
+        "FreeSync Premium"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "P5 Perfect Picture Engine",
+      "brightnessNits": 1000,
+      "contrastRatio": "8.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "95% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Alexa Built-in",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1225 x 768 x 260 mm",
+      "weightKg": 18,
+      "vesaMount": "300x300 mm",
+      "bezelStyle": "Modern Metalik Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-55mled910-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 51900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "Philips Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 290,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 57000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 54000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 51900,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-85pus8500",
+    "slug": "philips-85pus8500",
+    "name": "Philips 85PUS8500 (85PUS8500/12) 85\" 4K LED Smart TV (2025)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-85pus8500-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-85pus8500-1.jpg",
+      "https://resim.epey.com/1011772/k_philips-50pus8500-62-8718863046395-5.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 30,
+    "basePrice": 79900,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "85\" (215 cm) Devasa 4K Ultra HD LED Panel",
+      "3 Taraflı Ambilight Aydınlatma",
+      "Pixel Precise Ultra HD & Dolby Atmos",
+      "Titan OS Akıllı TV Platformu"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Pixel Precise Ultra HD",
+      "brightnessNits": 450,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "90% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Alexa Built-in",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1890 x 1150 x 380 mm",
+      "weightKg": 41.5,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "Modern İnce Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-85pus8500-mediamarkt",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 79900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "Philips Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 250,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 88000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 83500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 79900,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "philips-65pus8949",
+    "slug": "philips-65pus8949",
+    "name": "Philips 65PUS8949 (65PUS8949/62) 65\" 4K \"The One\" LED Smart TV (2024)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-65pus8949-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-65pus8949-1.jpg",
+      "https://resim.epey.com/942084/k_philips-65pus8949-2.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 39,
+    "basePrice": 46999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "65\" (164 cm) 4K \"The One\" LED Ekran",
+      "3 Taraflı Ambilight Aydınlatma",
+      "40W 2.1 Güçlü Ses Sistemi",
+      "144Hz VRR & P5 Engine"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "P5 Perfect Picture Engine (7. Nesil)",
+      "brightnessNits": 500,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "92% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Alexa Built-in",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1451 x 892 x 300 mm",
+      "weightKg": 24,
+      "vesaMount": "300x300 mm",
+      "bezelStyle": "Modern Metalik Döner Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-65pus8949-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 46999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "Philips Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 52000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 49000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 46999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-65pml8709",
+    "slug": "philips-65pml8709",
+    "name": "Philips 65PML8709 (65PML8709/12) 65\" 4K Mini LED Android TV (2024)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-65pml8709-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-65pml8709-1.jpg",
+      "https://resim.epey.com/995371/k_philips-65pml8709-1.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 36,
+    "basePrice": 51900,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 4K Mini LED Yüksek Parlaklık",
+      "3 Taraflı Ambilight Aydınlatma",
+      "Android TV Akıllı Platformu",
+      "120Hz/144Hz VRR & Dolby Vision"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz VRR",
+        "ALLM",
+        "FreeSync Premium"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Pixel Precise Ultra HD",
+      "brightnessNits": 800,
+      "contrastRatio": "6.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "94% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1451 x 892 x 300 mm",
+      "weightKg": 24.5,
+      "vesaMount": "300x300 mm",
+      "bezelStyle": "Modern Metalik Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-65pml8709-mediamarkt",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 51900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 270,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 57000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 54000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 51900,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "philips-75pus8500",
+    "slug": "philips-75pus8500",
+    "name": "Philips 75PUS8500 (75PUS8500/12) 75\" 4K LED Smart TV (2025)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-75pus8500-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-75pus8500-1.jpg",
+      "https://resim.epey.com/1011805/k_philips-50pus8500-62-8718863046395-5.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 31,
+    "basePrice": 59900,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "75\" (189 cm) 4K Ultra HD Canlı Ekran",
+      "3 Taraflı Büyüleyici Ambilight",
+      "Pixel Precise Ultra HD & Dolby Atmos",
+      "Titan OS Akıllı TV Platformu"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Pixel Precise Ultra HD",
+      "brightnessNits": 450,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "90% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Alexa Built-in",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1671 x 1030 x 350 mm",
+      "weightKg": 30.5,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Modern İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-75pus8500-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 59900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "Philips Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 260,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 66000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 62500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 59900,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-55pus8949",
+    "slug": "philips-55pus8949",
+    "name": "Philips 55PUS8949 (55PUS8949/62) 55\" 4K \"The One\" LED Smart TV (2024)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-55pus8949-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-55pus8949-1.jpg",
+      "https://resim.epey.com/941390/k_philips-55pus8949-2.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 44,
+    "basePrice": 38999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "55\" (139 cm) 4K \"The One\" LED Ekran",
+      "3 Taraflı Ambilight Aydınlatma",
+      "40W 2.1 Güçlü Ses Sistemi",
+      "144Hz VRR & P5 Engine"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "P5 Perfect Picture Engine (7. Nesil)",
+      "brightnessNits": 500,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "92% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Alexa Built-in",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1225 x 768 x 260 mm",
+      "weightKg": 17.5,
+      "vesaMount": "300x300 mm",
+      "bezelStyle": "Döner Metalik Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-55pus8949-mediamarkt",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 38999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "Philips Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 410,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 43000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 40500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 38999,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "philips-55pml8709",
+    "slug": "philips-55pml8709",
+    "name": "Philips 55PML8709 (55PML8709/12) 55\" 4K Mini LED Android TV (2024)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-55pml8709-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-55pml8709-1.jpg",
+      "https://resim.epey.com/995372/k_philips-65pml8709-1.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 38,
+    "basePrice": 42900,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (139 cm) 4K Mini LED Yüksek Parlaklık",
+      "3 Taraflı Ambilight Aydınlatma",
+      "Android TV Platformu & Google Asistan",
+      "120Hz/144Hz VRR & Dolby Vision"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz VRR",
+        "ALLM",
+        "FreeSync Premium"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Pixel Precise Ultra HD",
+      "brightnessNits": 800,
+      "contrastRatio": "6.000.000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "94% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1225 x 768 x 260 mm",
+      "weightKg": 18,
+      "vesaMount": "300x300 mm",
+      "bezelStyle": "Modern Metalik Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-55pml8709-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 42900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 290,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 47000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 44500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 42900,
+        "store": "Vatan"
+      }
+    ]
+  },
+  {
+    "id": "philips-50pus8909",
+    "slug": "philips-50pus8909",
+    "name": "Philips 50PUS8909 (50PUS8909/62) 50\" 4K \"The One\" LED Smart TV (2024)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-50pus8909-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-50pus8909-1.jpg",
+      "https://resim.epey.com/937535/k_philips-50pus8909-5.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 42,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "50\" (126 cm) 4K \"The One\" LED Ekran",
+      "3 Taraflı Ambilight Aydınlatma",
+      "40W 2.1 Ses Sistemi & Dahili Subwoofer",
+      "144Hz VRR & P5 Engine"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "P5 Perfect Picture Engine (7. Nesil)",
+      "brightnessNits": 500,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "92% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Alexa Built-in",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1116 x 705 x 240 mm",
+      "weightKg": 14.5,
+      "vesaMount": "200x300 mm",
+      "bezelStyle": "Modern Metalik Döner Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-50pus8909-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "Philips Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 360,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 38500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 36500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 34999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-43pus8909",
+    "slug": "philips-43pus8909",
+    "name": "Philips 43PUS8909 (43PUS8909/12) 43\" 4K \"The One\" LED Smart TV (2024)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-43pus8909-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-43pus8909-1.jpg",
+      "https://resim.epey.com/942792/k_philips-43pus8909-5.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 39,
+    "basePrice": 29999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "43\" (108 cm) 4K \"The One\" LED Ekran",
+      "3 Taraflı Ambilight Aydınlatma",
+      "144Hz VRR & P5 Engine",
+      "Titan OS Akıllı TV Platformu"
+    ],
+    "specs": {
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "FreeSync Premium"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "P5 Perfect Picture Engine (7. Nesil)",
+      "brightnessNits": 500,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "92% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Alexa Built-in",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "963 x 620 x 220 mm",
+      "weightKg": 10.2,
+      "vesaMount": "100x200 mm",
+      "bezelStyle": "Modern Şık Döner Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-43pus8909-mediamarkt",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 29999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "Philips Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 340,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 33000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 31200,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 29999,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "philips-65pus8349",
+    "slug": "philips-65pus8349",
+    "name": "Philips 65PUS8349 (65PUS8349/62) 65\" 4K LED Smart TV (2024)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-65pus8349-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-65pus8349-1.jpg",
+      "https://resim.epey.com/940712/k_philips-65pus8349-62-3.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 36,
+    "basePrice": 39900,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD Canlı Ekran",
+      "3 Taraflı Ambilight Aydınlatma",
+      "Pixel Precise Ultra HD & Dolby Atmos",
+      "Titan OS Akıllı TV Platformu"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Pixel Precise Ultra HD",
+      "brightnessNits": 400,
+      "contrastRatio": "4500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "90% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Alexa Built-in",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1451 x 892 x 300 mm",
+      "weightKg": 21.5,
+      "vesaMount": "300x300 mm",
+      "bezelStyle": "Modern İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-65pus8349-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 39900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "Philips Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 290,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 44000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 41500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 39900,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-65pus8309",
+    "slug": "philips-65pus8309",
+    "name": "Philips 65PUS8309 (65PUS8309/62) 65\" 4K LED Smart TV (2024)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-65pus8309-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-65pus8309-1.jpg",
+      "https://resim.epey.com/937536/k_philips-65pus8309-1.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 37,
+    "basePrice": 38900,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD Ekran",
+      "3 Taraflı Ambilight Deneyimi",
+      "Pixel Precise Ultra HD Görüntü Motoru",
+      "Titan OS Akıllı TV Platformu"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Pixel Precise Ultra HD",
+      "brightnessNits": 400,
+      "contrastRatio": "4500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "90% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Alexa Built-in",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1451 x 892 x 300 mm",
+      "weightKg": 21,
+      "vesaMount": "300x300 mm",
+      "bezelStyle": "Modern Antrasit Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-65pus8309-mediamarkt",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 38900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 310,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 43000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 40500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 38900,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "philips-65pus8009",
+    "slug": "philips-65pus8009",
+    "name": "Philips 65PUS8009 (65PUS8009/62) 65\" 4K LED Smart TV (2024)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-65pus8009-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-65pus8009-1.jpg",
+      "https://resim.epey.com/970048/k_philips-65pus8009-62-8718863044803-2.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 35,
+    "basePrice": 36900,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD Geniş Ekran",
+      "3 Taraflı Ambilight Aydınlatma",
+      "Dolby Audio & Dolby Atmos",
+      "Titan OS Akıllı TV Platformu"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Pixel Precise Ultra HD",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "88% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Alexa Built-in",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1451 x 892 x 300 mm",
+      "weightKg": 20.5,
+      "vesaMount": "300x300 mm",
+      "bezelStyle": "Modern İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-65pus8009-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 36900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 280,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 41000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 38500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 36900,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-50pus8349",
+    "slug": "philips-50pus8349",
+    "name": "Philips 50PUS8349 (50PUS8349/62) 50\" 4K LED Smart TV (2024)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-50pus8349-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-50pus8349-1.jpg",
+      "https://resim.epey.com/940696/k_philips-50pus8349-62-3.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 38,
+    "basePrice": 28900,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "50\" (126 cm) 4K Ultra HD Canlı Ekran",
+      "3 Taraflı Büyüleyici Ambilight",
+      "Pixel Precise Ultra HD & Dolby Atmos",
+      "Titan OS Akıllı TV Platformu"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Pixel Precise Ultra HD",
+      "brightnessNits": 400,
+      "contrastRatio": "4500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "90% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Alexa Built-in",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1116 x 705 x 240 mm",
+      "weightKg": 12.8,
+      "vesaMount": "200x300 mm",
+      "bezelStyle": "Modern İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-50pus8349-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 28900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "Philips Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 32000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 30200,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 28900,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-50pus8309",
+    "slug": "philips-50pus8309",
+    "name": "Philips 50PUS8309 (50PUS8309/62) 50\" 4K LED Smart TV (2024)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-50pus8309-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-50pus8309-1.jpg",
+      "https://resim.epey.com/937538/k_philips-50pus8309-1.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 39,
+    "basePrice": 27900,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "50\" (126 cm) 4K Ultra HD Canlı Panel",
+      "3 Taraflı Ambilight Aydınlatma",
+      "Pixel Precise Ultra HD & Dolby Atmos",
+      "Titan OS Akıllı TV Platformu"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Pixel Precise Ultra HD",
+      "brightnessNits": 400,
+      "contrastRatio": "4500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "90% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Alexa Built-in",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1116 x 705 x 240 mm",
+      "weightKg": 12.5,
+      "vesaMount": "200x300 mm",
+      "bezelStyle": "Modern Şık Ayak"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-50pus8309-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 27900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "Philips Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 330,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 31000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 29500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 27900,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-50pus7009",
+    "slug": "philips-50pus7009",
+    "name": "Philips 50PUS7009 (50PUS7009/62) 50\" 4K LED Smart TV (2024)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-50pus7009-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-50pus7009-1.jpg",
+      "https://resim.epey.com/952824/k_philips-55pus7009-4.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 36,
+    "basePrice": 24900,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "50\" (126 cm) 4K Ultra HD Canlı Ekran",
+      "Pixel Precise Ultra HD Görüntü Motoru",
+      "Titan OS Akıllı TV Platformu",
+      "Dolby Audio & Dahili Uydu Alıcı"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Pixel Precise Ultra HD",
+      "brightnessNits": 350,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "85% DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Alexa Built-in",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1116 x 695 x 240 mm",
+      "weightKg": 12,
+      "vesaMount": "200x300 mm",
+      "bezelStyle": "Modern İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-50pus7009-mediamarkt",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 24900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 280,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 27500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 26000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 24900,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "philips-43pus8009",
+    "slug": "philips-43pus8009",
+    "name": "Philips 43PUS8009 (43PUS8009/62) 43\" 4K LED Smart TV (2024)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-43pus8009-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-43pus8009-1.jpg",
+      "https://resim.epey.com/969845/k_philips-65pus8009-62-8718863044803-2.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 38,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "43\" (108 cm) 4K Ultra HD Kompakt Ekran",
+      "3 Taraflı Büyüleyici Ambilight",
+      "Dolby Audio & Dolby Atmos",
+      "Titan OS Akıllı TV Platformu"
+    ],
+    "specs": {
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Pixel Precise Ultra HD",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "88% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Alexa Built-in",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "963 x 605 x 220 mm",
+      "weightKg": 8.8,
+      "vesaMount": "100x200 mm",
+      "bezelStyle": "Modern İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-43pus8009-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Philips Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 310,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 27500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 26000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 24999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-43pus7009",
+    "slug": "philips-43pus7009",
+    "name": "Philips 43PUS7009 (43PUS7009/62) 43\" 4K LED Smart TV (2024)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-43pus7009-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-43pus7009-1.jpg",
+      "https://resim.epey.com/956082/k_philips-55pus7009-4.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 39,
+    "basePrice": 20999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "43\" (108 cm) 4K Ultra HD Canlı Ekran",
+      "Pixel Precise Ultra HD Görüntü Motoru",
+      "Titan OS Akıllı TV Platformu",
+      "20W Dolby Audio & Uydu Alıcı"
+    ],
+    "specs": {
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Pixel Precise Ultra HD",
+      "brightnessNits": 350,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "85% DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Alexa Built-in",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "963 x 595 x 220 mm",
+      "weightKg": 8.5,
+      "vesaMount": "100x200 mm",
+      "bezelStyle": "Modern Şık İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-43pus7009-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 20999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Philips Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 370,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 23500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 22000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 20999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-43pus7000",
+    "slug": "philips-43pus7000",
+    "name": "Philips 43PUS7000 (43PUS7000/62) 43\" 4K LED Smart TV (2025)",
+    "brand": "Philips",
+    "category": "tvs",
+    "image": "/images/products/tvs/philips-43pus7000-1.jpg",
+    "images": [
+      "/images/products/tvs/philips-43pus7000-1.jpg",
+      "https://resim.epey.com/1026038/k_philips-65pus7000-1.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 35,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "43\" (108 cm) 4K Ultra HD Modern Panel",
+      "Pixel Precise Ultra HD Görüntü Motoru",
+      "Titan OS Akıllı TV Platformu",
+      "20W Dolby Audio Ses Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Titan OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Pixel Precise Ultra HD",
+      "brightnessNits": 350,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "85% DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Alexa Built-in",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "963 x 595 x 220 mm",
+      "weightKg": 8.5,
+      "vesaMount": "100x200 mm",
+      "bezelStyle": "Kompakt Mat Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-philips-43pus7000-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Philips Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 290,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 24500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 23000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21999,
+        "store": "Trendyol"
+      }
+    ]
   }
 ];
