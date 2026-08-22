@@ -112,6 +112,7 @@ export default function TVsClient({ initialTVs }: { initialTVs: TVProduct[] }) {
               { label: 'Onvo', val: 'onvo' },
               { label: 'Vestel', val: 'vestel' },
               { label: 'Xiaomi', val: 'xiaomi' },
+              { label: 'iFFALCON', val: 'iffalcon' },
               { label: 'Seg', val: 'seg' }
             ].map((b) => (
               <button
