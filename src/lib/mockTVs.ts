@@ -91252,5 +91252,388 @@ export const mockTVs: TVProduct[] = [
         "store": "Trendyol"
       }
     ]
+  },
+  {
+    "id": "iffalcon-32s55",
+    "slug": "iffalcon-32s55",
+    "name": "iFFALCON 32S55 32\" HD Ready Smart Android TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-32s55-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-32s55-1.jpg",
+      "https://resim.epey.com/1042097/z_iffalcon-32s55-2.jpg"
+    ],
+    "rating": 4.4,
+    "epeyScore": 44,
+    "reviewCount": 95,
+    "basePrice": 9199,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "32\" (80 cm) HD Ready Kompakt Ekran",
+      "16W Dolby Audio Ses Çıkışı",
+      "Android TV & Dahili Wi-Fi / Bluetooth",
+      "Mutfak ve Küçük Odalar İçin İdeal Akıllı TV"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "HD Ready",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 16,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "F",
+      "processorEngine": "Dört Çekirdekli İşlemci",
+      "brightnessNits": 220,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%70 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "725 x 475 x 180 mm",
+      "weightKg": 3.8,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-32s55-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 9199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çok Satan",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 950,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-iffalcon-32s55-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 9299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 10499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 9799,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9199,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-32s55a",
+    "slug": "iffalcon-32s55a",
+    "name": "iFFALCON 32S55A 32\" Full HD Smart Google TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-32s55a-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-32s55a-1.jpg",
+      "https://resim.epey.com/1052191/z_iffalcon-32s55a-1.jpg"
+    ],
+    "rating": 4.5,
+    "epeyScore": 46,
+    "reviewCount": 54,
+    "basePrice": 9499,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "32\" (80 cm) Full HD (1080p) Keskin Panel",
+      "16W Dolby Audio Net Ses",
+      "Google TV & Dahili Chromecast",
+      "Yüksek Çözünürlüklü Kompakt TV"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "Full HD",
+      "refreshRateHz": 60,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 16,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "F",
+      "processorEngine": "Dört Çekirdekli İşlemci",
+      "brightnessNits": 250,
+      "contrastRatio": "3500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%75 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "725 x 475 x 180 mm",
+      "weightKg": 3.9,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Modern İnce Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-32s55a-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 9499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 10999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 9999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-50s55",
+    "slug": "iffalcon-50s55",
+    "name": "iFFALCON 50S55 50\" Full HD Smart Android TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-50s55-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-50s55-1.jpg",
+      "https://resim.epey.com/1042194/z_iffalcon-43s55-2.jpg"
+    ],
+    "rating": 4.5,
+    "epeyScore": 50,
+    "reviewCount": 62,
+    "basePrice": 15999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "50\" (127 cm) Full HD Ekran",
+      "20W Dolby Audio Ses Sistemi",
+      "Android TV & Dahili Wi-Fi / Bluetooth",
+      "Dahili HD Uydu Alıcısı"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "LED",
+      "resolution": "Full HD",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "F",
+      "processorEngine": "Dört Çekirdekli İşlemci",
+      "brightnessNits": 260,
+      "contrastRatio": "3500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%75 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1112 x 701 x 265 mm",
+      "weightKg": 9.3,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-50s55-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 15999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 420,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 17499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 16499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 15999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "iffalcon-40s55",
+    "slug": "iffalcon-40s55",
+    "name": "iFFALCON 40S55 40\" Full HD Smart Android TV",
+    "brand": "iFFALCON",
+    "category": "tvs",
+    "image": "/images/products/tvs/iffalcon-40s55-1.jpg",
+    "images": [
+      "/images/products/tvs/iffalcon-40s55-1.jpg",
+      "https://resim.epey.com/1042094/z_iffalcon-40s55-2.jpg"
+    ],
+    "rating": 4.5,
+    "epeyScore": 48,
+    "reviewCount": 73,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "40\" (100 cm) Full HD Ekran",
+      "20W Dolby Audio Ses Sistemi",
+      "Android TV & Dahili Google Play Store",
+      "İnce Çerçeve ve Şık Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 40,
+      "displayTech": "LED",
+      "resolution": "Full HD",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "F",
+      "processorEngine": "Dört Çekirdekli İşlemci",
+      "brightnessNits": 250,
+      "contrastRatio": "3500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%75 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "900 x 570 x 180 mm",
+      "weightKg": 5.8,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-iffalcon-40s55-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 530,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 13499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 12499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11999,
+        "store": "Trendyol"
+      }
+    ]
   }
 ];
