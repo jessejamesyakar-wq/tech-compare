@@ -73409,5 +73409,1977 @@ export const mockLaptops: LaptopProduct[] = [
         "store": "Hepsiburada"
       }
     ]
+  },
+  {
+    "id": "msi-katana-17-hx-b14wfk-216xtrat102",
+    "slug": "msi-katana-17-hx-b14wfk-216xtrat102",
+    "name": "MSI Katana 17 HX B14WFK-216XTRAT102 (Windows 11 Pro)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat102-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat102-1.jpg",
+      "https://resim.epey.com/1059145/z_msi-katana-17-hx-b14wfk-216xtrat102-10.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 31,
+    "basePrice": 122179.5,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "17.3\" 2560 x 1600 (QHD+ 16:10 240Hz %100 DCI-P3 500 Nit IPS Seviyesi)",
+      "Intel Core i7-14650HX Yüksek Hızlı İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "48GB DDR5 RAM & 1TB PCIe 4.0 NVMe SSD",
+      "4 Bölgeli RGB Klavye & Cooler Boost 5 Çift Fan"
+    ],
+    "specs": {
+      "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+      "processor": "Intel Core i7-14650HX",
+      "processorCores": "16 Çekirdek (8P + 8E / 24 İzlek 5.2 GHz)",
+      "npuTops": 16,
+      "ramGb": 48,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 1024,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 17.3,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 240Hz %100 DCI-P3 500 Nit IPS Seviyesi)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x USB-C / Thunderbolt 4 (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.8,
+      "thicknessMm": 27.2,
+      "bodyMaterial": "Mat Siyah Güçlendirilmiş Dokulu Kasa",
+      "keyboard": "4 Bölgeli RGB Aydınlatmalı Klavye",
+      "webcam": "FHD 1080p IR Windows Hello & Gizlilik Deklanşörü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-katana-17-hx-b14wfk-216xtrat102-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 122179.5,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-katana-17-hx-b14wfk-216xtrat102-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 123401,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 128288,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 124623,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 122179.5,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-katana-17-hx-b14wfk-252xtrat101",
+    "slug": "msi-katana-17-hx-b14wfk-252xtrat101",
+    "name": "MSI Katana 17 HX B14WFK-252XTRAT101 (Windows 11 Home)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-252xtrat101-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-katana-17-hx-b14wfk-252xtrat101-1.jpg",
+      "https://resim.epey.com/1059150/z_msi-katana-17-hx-b14wfk-252xtrat101-10.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 25,
+    "basePrice": 120541.7,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "17.3\" 2560 x 1440 (QHD 16:9 240Hz %100 DCI-P3 IPS Seviyesi)",
+      "Intel Core i7-14650HX Yüksek Hızlı İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "48GB DDR5 RAM & 1TB PCIe 4.0 NVMe SSD",
+      "4 Bölgeli RGB Klavye & Cooler Boost 5 Çift Fan"
+    ],
+    "specs": {
+      "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+      "processor": "Intel Core i7-14650HX",
+      "processorCores": "16 Çekirdek (8P + 8E / 24 İzlek 5.2 GHz)",
+      "npuTops": 16,
+      "ramGb": 48,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 1024,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 17.3,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz %100 DCI-P3 IPS Seviyesi)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x USB-C / Thunderbolt 4 (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.8,
+      "thicknessMm": 27.2,
+      "bodyMaterial": "Mat Siyah Güçlendirilmiş Dokulu Kasa",
+      "keyboard": "4 Bölgeli RGB Aydınlatmalı Klavye",
+      "webcam": "FHD 1080p IR Windows Hello & Gizlilik Deklanşörü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-katana-17-hx-b14wfk-252xtrat101-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 120541.7,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-katana-17-hx-b14wfk-252xtrat101-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 121747,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 126569,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 122953,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 120541.7,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-katana-17-hx-b14wgk-048xtr-fr27",
+    "slug": "msi-katana-17-hx-b14wgk-048xtr-fr27",
+    "name": "MSI Katana 17 HX B14WGK-048XTR FR27 (FreeDOS)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr27-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr27-1.jpg",
+      "https://resim.epey.com/1050543/z_msi-katana-17-hx-b14wgk-048xtr-fr27-10.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 18,
+    "basePrice": 120649.05,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "17.3\" 2560 x 1440 (QHD 16:9 240Hz %100 DCI-P3 IPS Seviyesi)",
+      "Intel Core i9-14900HX Yüksek Hızlı İşlemci",
+      "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "32GB DDR5 RAM & 1TB PCIe 4.0 NVMe SSD",
+      "4 Bölgeli RGB Klavye & Cooler Boost 5 Çift Fan"
+    ],
+    "specs": {
+      "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.8 GHz)",
+      "npuTops": 16,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 1024,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 17.3,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz %100 DCI-P3 IPS Seviyesi)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x USB-C / Thunderbolt 4 (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.8,
+      "thicknessMm": 27.2,
+      "bodyMaterial": "Mat Siyah Güçlendirilmiş Dokulu Kasa",
+      "keyboard": "4 Bölgeli RGB Aydınlatmalı Klavye",
+      "webcam": "FHD 1080p IR Windows Hello & Gizlilik Deklanşörü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-katana-17-hx-b14wgk-048xtr-fr27-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 120649.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-katana-17-hx-b14wgk-048xtr-fr27-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 121856,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 126682,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 123062,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 120649.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-katana-15-hx-b14wgk-068xtrhmf69",
+    "slug": "msi-katana-15-hx-b14wgk-068xtrhmf69",
+    "name": "MSI Katana 15 HX B14WGK-068XTRHMF69 (Windows 10 Home)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+    "image": "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtrhmf69-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtrhmf69-1.jpg",
+      "https://resim.epey.com/1041115/z_msi-katana-15-hx-b14wgk-068xtrhmf69-5.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 28,
+    "basePrice": 128011.55,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "15.6\" 2560 x 1440 (QHD 16:9 165Hz %100 DCI-P3 IPS Seviyesi Mat Ekran)",
+      "Intel Core i7-14650HX Yüksek Hızlı İşlemci",
+      "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "48GB DDR5 RAM & 1TB PCIe 4.0 NVMe SSD",
+      "4 Bölgeli RGB Klavye & Cooler Boost 5 Çift Fan"
+    ],
+    "specs": {
+      "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+      "processor": "Intel Core i7-14650HX",
+      "processorCores": "16 Çekirdek (8P + 8E / 24 İzlek 5.2 GHz)",
+      "npuTops": 16,
+      "ramGb": 48,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 1024,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 15.6,
+      "screenResolution": "2560 x 1440 (QHD 16:9 165Hz %100 DCI-P3 IPS Seviyesi Mat Ekran)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 70,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x USB-C / Thunderbolt 4 (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.25,
+      "thicknessMm": 24.9,
+      "bodyMaterial": "Mat Siyah Güçlendirilmiş Dokulu Kasa",
+      "keyboard": "4 Bölgeli RGB Aydınlatmalı Klavye",
+      "webcam": "FHD 1080p IR Windows Hello & Gizlilik Deklanşörü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio",
+      "os": "Windows 10 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-katana-15-hx-b14wgk-068xtrhmf69-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 128011.55,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-katana-15-hx-b14wgk-068xtrhmf69-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 129292,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 134412,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 130572,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 128011.55,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-katana-17-hx-b14wfk-216xtrat108",
+    "slug": "msi-katana-17-hx-b14wfk-216xtrat108",
+    "name": "MSI Katana 17 HX B14WFK-216XTRAT108 (Windows 11 Pro)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat108-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat108-1.jpg",
+      "https://resim.epey.com/1058622/z_msi-katana-17-hx-b14wfk-216xtrat108-10.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 10,
+    "basePrice": 128469.45,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "17.3\" 2560 x 1600 (QHD+ 16:10 240Hz %100 DCI-P3 500 Nit IPS Seviyesi)",
+      "Intel Core i7-14650HX Yüksek Hızlı İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "64GB DDR5 RAM & 2TB PCIe 4.0 NVMe SSD",
+      "4 Bölgeli RGB Klavye & Cooler Boost 5 Çift Fan"
+    ],
+    "specs": {
+      "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+      "processor": "Intel Core i7-14650HX",
+      "processorCores": "16 Çekirdek (8P + 8E / 24 İzlek 5.2 GHz)",
+      "npuTops": 16,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 17.3,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 240Hz %100 DCI-P3 500 Nit IPS Seviyesi)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x USB-C / Thunderbolt 4 (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.8,
+      "thicknessMm": 27.2,
+      "bodyMaterial": "Mat Siyah Güçlendirilmiş Dokulu Kasa",
+      "keyboard": "4 Bölgeli RGB Aydınlatmalı Klavye",
+      "webcam": "FHD 1080p IR Windows Hello & Gizlilik Deklanşörü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-katana-17-hx-b14wfk-216xtrat108-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 128469.45,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-katana-17-hx-b14wfk-216xtrat108-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 129754,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 134893,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 131039,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 128469.45,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-katana-17-hx-b14wfk-216xtrat107",
+    "slug": "msi-katana-17-hx-b14wfk-216xtrat107",
+    "name": "MSI Katana 17 HX B14WFK-216XTRAT107 (Windows 11 Home)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat107-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat107-1.jpg",
+      "https://resim.epey.com/1058609/z_msi-katana-17-hx-b14wfk-216xtrat107-10.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 21,
+    "basePrice": 127813.95,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "17.3\" 2560 x 1600 (QHD+ 16:10 240Hz %100 DCI-P3 500 Nit IPS Seviyesi)",
+      "Intel Core i7-14650HX Yüksek Hızlı İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "64GB DDR5 RAM & 2TB PCIe 4.0 NVMe SSD",
+      "4 Bölgeli RGB Klavye & Cooler Boost 5 Çift Fan"
+    ],
+    "specs": {
+      "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+      "processor": "Intel Core i7-14650HX",
+      "processorCores": "16 Çekirdek (8P + 8E / 24 İzlek 5.2 GHz)",
+      "npuTops": 16,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 17.3,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 240Hz %100 DCI-P3 500 Nit IPS Seviyesi)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x USB-C / Thunderbolt 4 (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.8,
+      "thicknessMm": 27.2,
+      "bodyMaterial": "Mat Siyah Güçlendirilmiş Dokulu Kasa",
+      "keyboard": "4 Bölgeli RGB Aydınlatmalı Klavye",
+      "webcam": "FHD 1080p IR Windows Hello & Gizlilik Deklanşörü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-katana-17-hx-b14wfk-216xtrat107-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 127813.95,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-katana-17-hx-b14wfk-216xtrat107-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 129092,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 134205,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 130370,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 127813.95,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-katana-17-hx-b14wfk-257xtr-fr17",
+    "slug": "msi-katana-17-hx-b14wfk-257xtr-fr17",
+    "name": "MSI Katana 17 HX B14WFK-257XTR FR17 (FreeDOS)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-257xtr-fr17-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-katana-17-hx-b14wfk-257xtr-fr17-1.jpg",
+      "https://resim.epey.com/1066595/z_msi-katana-17-hx-b14wfk-257xtr-fr17-10.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 25,
+    "basePrice": 118749.05,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "17.3\" 2560 x 1440 (QHD 16:9 240Hz %100 DCI-P3 IPS Seviyesi)",
+      "Intel Core i7-14650HX Yüksek Hızlı İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "64GB DDR5 RAM & 2TB PCIe 4.0 NVMe SSD",
+      "4 Bölgeli RGB Klavye & Cooler Boost 5 Çift Fan"
+    ],
+    "specs": {
+      "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+      "processor": "Intel Core i7-14650HX",
+      "processorCores": "16 Çekirdek (8P + 8E / 24 İzlek 5.2 GHz)",
+      "npuTops": 16,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 17.3,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz %100 DCI-P3 IPS Seviyesi)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x USB-C / Thunderbolt 4 (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.8,
+      "thicknessMm": 27.2,
+      "bodyMaterial": "Mat Siyah Güçlendirilmiş Dokulu Kasa",
+      "keyboard": "4 Bölgeli RGB Aydınlatmalı Klavye",
+      "webcam": "FHD 1080p IR Windows Hello & Gizlilik Deklanşörü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-katana-17-hx-b14wfk-257xtr-fr17-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 118749.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-katana-17-hx-b14wfk-257xtr-fr17-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 119937,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 124687,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 121124,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 118749.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-katana-17-hx-b14wfk-216xtrat112",
+    "slug": "msi-katana-17-hx-b14wfk-216xtrat112",
+    "name": "MSI Katana 17 HX B14WFK-216XTRAT112 (FreeDOS)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat112-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat112-1.jpg",
+      "https://resim.epey.com/1058646/z_msi-katana-17-hx-b14wfk-216xtrat112-10.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 32,
+    "basePrice": 127487.15,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "17.3\" 2560 x 1600 (QHD+ 16:10 240Hz %100 DCI-P3 500 Nit IPS Seviyesi)",
+      "Intel Core i7-14650HX Yüksek Hızlı İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "64GB DDR5 RAM & 2TB PCIe 4.0 NVMe SSD",
+      "4 Bölgeli RGB Klavye & Cooler Boost 5 Çift Fan"
+    ],
+    "specs": {
+      "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+      "processor": "Intel Core i7-14650HX",
+      "processorCores": "16 Çekirdek (8P + 8E / 24 İzlek 5.2 GHz)",
+      "npuTops": 16,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 17.3,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 240Hz %100 DCI-P3 500 Nit IPS Seviyesi)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x USB-C / Thunderbolt 4 (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.8,
+      "thicknessMm": 27.2,
+      "bodyMaterial": "Mat Siyah Güçlendirilmiş Dokulu Kasa",
+      "keyboard": "4 Bölgeli RGB Aydınlatmalı Klavye",
+      "webcam": "FHD 1080p IR Windows Hello & Gizlilik Deklanşörü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-katana-17-hx-b14wfk-216xtrat112-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 127487.15,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-katana-17-hx-b14wfk-216xtrat112-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 128762,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 133862,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 130037,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 127487.15,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-katana-17-hx-b14wgk-048xtr-fr15",
+    "slug": "msi-katana-17-hx-b14wgk-048xtr-fr15",
+    "name": "MSI Katana 17 HX B14WGK-048XTR FR15 (FreeDOS)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr15-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr15-1.jpg",
+      "https://resim.epey.com/1049817/z_msi-katana-17-hx-b14wgk-048xtr-fr15-10.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 19,
+    "basePrice": 119984.05,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "17.3\" 2560 x 1440 (QHD 16:9 165Hz %100 DCI-P3 IPS Seviyesi Mat Ekran)",
+      "Intel Core i9-14900HX Yüksek Hızlı İşlemci",
+      "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "40GB DDR5 RAM & 1TB PCIe 4.0 NVMe SSD",
+      "4 Bölgeli RGB Klavye & Cooler Boost 5 Çift Fan"
+    ],
+    "specs": {
+      "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.8 GHz)",
+      "npuTops": 16,
+      "ramGb": 40,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 1024,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 17.3,
+      "screenResolution": "2560 x 1440 (QHD 16:9 165Hz %100 DCI-P3 IPS Seviyesi Mat Ekran)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x USB-C / Thunderbolt 4 (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.8,
+      "thicknessMm": 27.2,
+      "bodyMaterial": "Mat Siyah Güçlendirilmiş Dokulu Kasa",
+      "keyboard": "4 Bölgeli RGB Aydınlatmalı Klavye",
+      "webcam": "FHD 1080p IR Windows Hello & Gizlilik Deklanşörü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-katana-17-hx-b14wgk-048xtr-fr15-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 119984.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-katana-17-hx-b14wgk-048xtr-fr15-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 121184,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 125983,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 122384,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 119984.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-katana-17-hx-b14wgk-048xtr-fr7",
+    "slug": "msi-katana-17-hx-b14wgk-048xtr-fr7",
+    "name": "MSI Katana 17 HX B14WGK-048XTR FR7 (Windows 11 Pro)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+    "image": "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr7-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-katana-17-hx-b14wgk-048xtr-fr7-1.jpg",
+      "https://resim.epey.com/1050580/z_msi-katana-17-hx-b14wgk-048xtr-fr7-10.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 12,
+    "basePrice": 117039.05,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "17.3\" 2560 x 1440 (QHD 16:9 240Hz %100 DCI-P3 IPS Seviyesi)",
+      "Intel Core i9-14900HX Yüksek Hızlı İşlemci",
+      "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "32GB DDR5 RAM & 1TB PCIe 4.0 NVMe SSD",
+      "4 Bölgeli RGB Klavye & Cooler Boost 5 Çift Fan"
+    ],
+    "specs": {
+      "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.8 GHz)",
+      "npuTops": 16,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 1024,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 17.3,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz %100 DCI-P3 IPS Seviyesi)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x USB-C / Thunderbolt 4 (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.8,
+      "thicknessMm": 27.2,
+      "bodyMaterial": "Mat Siyah Güçlendirilmiş Dokulu Kasa",
+      "keyboard": "4 Bölgeli RGB Aydınlatmalı Klavye",
+      "webcam": "FHD 1080p IR Windows Hello & Gizlilik Deklanşörü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-katana-17-hx-b14wgk-048xtr-fr7-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 117039.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-katana-17-hx-b14wgk-048xtr-fr7-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 118209,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 122891,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 119380,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 117039.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-katana-15-hx-b14wgk-068xtr-fr15",
+    "slug": "msi-katana-15-hx-b14wgk-068xtr-fr15",
+    "name": "MSI Katana 15 HX B14WGK-068XTR FR15 (FreeDOS)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+    "image": "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr15-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-katana-15-hx-b14wgk-068xtr-fr15-1.jpg",
+      "https://resim.epey.com/1047448/z_msi-katana-15-hx-b14wgk-068xtr-fr15-5.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 25,
+    "basePrice": 125104.1,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "15.6\" 2560 x 1440 (QHD 16:9 165Hz %100 DCI-P3 IPS Seviyesi Mat Ekran)",
+      "Intel Core i7-14650HX Yüksek Hızlı İşlemci",
+      "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "64GB DDR5 RAM & 2TB PCIe 4.0 NVMe SSD",
+      "4 Bölgeli RGB Klavye & Cooler Boost 5 Çift Fan"
+    ],
+    "specs": {
+      "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+      "processor": "Intel Core i7-14650HX",
+      "processorCores": "16 Çekirdek (8P + 8E / 24 İzlek 5.2 GHz)",
+      "npuTops": 16,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 15.6,
+      "screenResolution": "2560 x 1440 (QHD 16:9 165Hz %100 DCI-P3 IPS Seviyesi Mat Ekran)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 70,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x USB-C / Thunderbolt 4 (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.25,
+      "thicknessMm": 24.9,
+      "bodyMaterial": "Mat Siyah Güçlendirilmiş Dokulu Kasa",
+      "keyboard": "4 Bölgeli RGB Aydınlatmalı Klavye",
+      "webcam": "FHD 1080p IR Windows Hello & Gizlilik Deklanşörü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-katana-15-hx-b14wgk-068xtr-fr15-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 125104.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-katana-15-hx-b14wgk-068xtr-fr15-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 126355,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 131359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 127606,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 125104.1,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-katana-15-hx-b14wfk-450xtr-fr54",
+    "slug": "msi-katana-15-hx-b14wfk-450xtr-fr54",
+    "name": "MSI Katana 15 HX B14WFK-450XTR FR54 (Windows 11 Pro)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+    "image": "/images/products/laptops/msi-katana-15-hx-b14wfk-450xtr-fr54-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-katana-15-hx-b14wfk-450xtr-fr54-1.jpg",
+      "https://resim.epey.com/1055951/z_msi-katana-15-hx-b14wfk-450xtr-fr54-5.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 14,
+    "basePrice": 120696.55,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "15.6\" 2560 x 1440 (QHD 16:9 165Hz %100 DCI-P3 IPS Seviyesi Mat Ekran)",
+      "Intel Core i9-14900HX Yüksek Hızlı İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "48GB DDR5 RAM & 1TB PCIe 4.0 NVMe SSD",
+      "4 Bölgeli RGB Klavye & Cooler Boost 5 Çift Fan"
+    ],
+    "specs": {
+      "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.8 GHz)",
+      "npuTops": 16,
+      "ramGb": 48,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 1024,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 15.6,
+      "screenResolution": "2560 x 1440 (QHD 16:9 165Hz %100 DCI-P3 IPS Seviyesi Mat Ekran)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 70,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x USB-C / Thunderbolt 4 (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.25,
+      "thicknessMm": 24.9,
+      "bodyMaterial": "Mat Siyah Güçlendirilmiş Dokulu Kasa",
+      "keyboard": "4 Bölgeli RGB Aydınlatmalı Klavye",
+      "webcam": "FHD 1080p IR Windows Hello & Gizlilik Deklanşörü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-katana-15-hx-b14wfk-450xtr-fr54-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 120696.55,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-katana-15-hx-b14wfk-450xtr-fr54-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 121904,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 126731,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 123110,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 120696.55,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-raider-a16-hx-b8wh-011tr",
+    "slug": "msi-raider-a16-hx-b8wh-011tr",
+    "name": "MSI Raider A16 HX B8WH-011TR (Windows 11 Home)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Ultra Performanslı RGB Işıklı Amiral Gemisi Laptop (Raider Series)",
+    "image": "/images/products/laptops/msi-raider-a16-hx-b8wh-011tr-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-raider-a16-hx-b8wh-011tr-1.jpg",
+      "https://resim.epey.com/1058511/z_msi-raider-a16-hx-b8wh-011tr-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 31,
+    "basePrice": 176366.22,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ 16:10 240Hz %100 DCI-P3 500 Nit IPS Seviyesi)",
+      "AMD Ryzen 9 8940HX Yüksek Hızlı İşlemci",
+      "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "16GB DDR5 RAM & 2TB PCIe 4.0 NVMe SSD",
+      "Mystic Light Matrix Işık Çubuğu & SteelSeries Per-Key RGB Klavye"
+    ],
+    "specs": {
+      "productType": "Ultra Performanslı RGB Işıklı Amiral Gemisi Laptop (Raider Series)",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek (16 Zen 4 / 32 İzlek 5.2 GHz)",
+      "npuTops": 16,
+      "ramGb": 16,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 240Hz %100 DCI-P3 500 Nit IPS Seviyesi)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 6.5,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x USB-C / Thunderbolt 4 (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.7,
+      "thicknessMm": 26.9,
+      "bodyMaterial": "Koyu Titanyum Gri Alüminyum Gövde",
+      "keyboard": "SteelSeries Tuş Başına RGB Aydınlatmalı Klavye",
+      "webcam": "FHD 1080p IR Windows Hello & Gizlilik Deklanşörü Kamera",
+      "audio": "Dynaudio 4x Hoparlör + 2x Woofer Nahimic 3D",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-raider-a16-hx-b8wh-011tr-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 176366.22,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-raider-a16-hx-b8wh-011tr-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 178130,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 185185,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 179894,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 176366.22,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-katana-15-hx-b14wfk-450xtr-fr82",
+    "slug": "msi-katana-15-hx-b14wfk-450xtr-fr82",
+    "name": "MSI Katana 15 HX B14WFK-450XTR FR82 (Windows 11 Pro)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+    "image": "/images/products/laptops/msi-katana-15-hx-b14wfk-450xtr-fr82-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-katana-15-hx-b14wfk-450xtr-fr82-1.jpg",
+      "https://resim.epey.com/1055932/z_msi-katana-15-hx-b14wfk-450xtr-fr82-5.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 13,
+    "basePrice": 117751.55,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "15.6\" 2560 x 1440 (QHD 16:9 165Hz %100 DCI-P3 IPS Seviyesi Mat Ekran)",
+      "Intel Core i9-14900HX Yüksek Hızlı İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "32GB DDR5 RAM & 1TB PCIe 4.0 NVMe SSD",
+      "4 Bölgeli RGB Klavye & Cooler Boost 5 Çift Fan"
+    ],
+    "specs": {
+      "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.8 GHz)",
+      "npuTops": 16,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 1024,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 15.6,
+      "screenResolution": "2560 x 1440 (QHD 16:9 165Hz %100 DCI-P3 IPS Seviyesi Mat Ekran)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 70,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x USB-C / Thunderbolt 4 (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.25,
+      "thicknessMm": 24.9,
+      "bodyMaterial": "Mat Siyah Güçlendirilmiş Dokulu Kasa",
+      "keyboard": "4 Bölgeli RGB Aydınlatmalı Klavye",
+      "webcam": "FHD 1080p IR Windows Hello & Gizlilik Deklanşörü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-katana-15-hx-b14wfk-450xtr-fr82-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 117751.55,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-katana-15-hx-b14wfk-450xtr-fr82-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 118929,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 123639,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 120107,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 117751.55,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-katana-17-hx-b14wfk-217trat27",
+    "slug": "msi-katana-17-hx-b14wfk-217trat27",
+    "name": "MSI Katana 17 HX B14WFK-217TRAT27 (Windows 11 Home)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-217trat27-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-katana-17-hx-b14wfk-217trat27-1.jpg",
+      "https://resim.epey.com/1059128/z_msi-katana-17-hx-b14wfk-217trat27-10.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 23,
+    "basePrice": 109620.5,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "17.3\" 2560 x 1440 (QHD 16:9 240Hz %100 DCI-P3 IPS Seviyesi)",
+      "Intel Core i9-14900HX Yüksek Hızlı İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "40GB DDR5 RAM & 1TB PCIe 4.0 NVMe SSD",
+      "4 Bölgeli RGB Klavye & Cooler Boost 5 Çift Fan"
+    ],
+    "specs": {
+      "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.8 GHz)",
+      "npuTops": 16,
+      "ramGb": 40,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 1024,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 17.3,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz %100 DCI-P3 IPS Seviyesi)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x USB-C / Thunderbolt 4 (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.8,
+      "thicknessMm": 27.2,
+      "bodyMaterial": "Mat Siyah Güçlendirilmiş Dokulu Kasa",
+      "keyboard": "4 Bölgeli RGB Aydınlatmalı Klavye",
+      "webcam": "FHD 1080p IR Windows Hello & Gizlilik Deklanşörü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-katana-17-hx-b14wfk-217trat27-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 109620.5,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-katana-17-hx-b14wfk-217trat27-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 110717,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 115102,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 111813,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 109620.5,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-katana-17-hx-b14wfk-216xtrat73",
+    "slug": "msi-katana-17-hx-b14wfk-216xtrat73",
+    "name": "MSI Katana 17 HX B14WFK-216XTRAT73 (FreeDOS)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+    "image": "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat73-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-katana-17-hx-b14wfk-216xtrat73-1.jpg",
+      "https://resim.epey.com/1058667/z_msi-katana-17-hx-b14wfk-216xtrat73-10.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 12,
+    "basePrice": 132400.55,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "17.3\" 2560 x 1600 (QHD+ 16:10 240Hz %100 DCI-P3 500 Nit IPS Seviyesi)",
+      "Intel Core i7-14650HX Yüksek Hızlı İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "32GB DDR5 RAM & 1TB PCIe 4.0 NVMe SSD",
+      "4 Bölgeli RGB Klavye & Cooler Boost 5 Çift Fan"
+    ],
+    "specs": {
+      "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+      "processor": "Intel Core i7-14650HX",
+      "processorCores": "16 Çekirdek (8P + 8E / 24 İzlek 5.2 GHz)",
+      "npuTops": 16,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 1024,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 17.3,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 240Hz %100 DCI-P3 500 Nit IPS Seviyesi)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x USB-C / Thunderbolt 4 (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.8,
+      "thicknessMm": 27.2,
+      "bodyMaterial": "Mat Siyah Güçlendirilmiş Dokulu Kasa",
+      "keyboard": "4 Bölgeli RGB Aydınlatmalı Klavye",
+      "webcam": "FHD 1080p IR Windows Hello & Gizlilik Deklanşörü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-katana-17-hx-b14wfk-216xtrat73-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 132400.55,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-katana-17-hx-b14wfk-216xtrat73-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 133725,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 139021,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 135049,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 132400.55,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "msi-katana-17-hx-b14wfkrnp08",
+    "slug": "msi-katana-17-hx-b14wfkrnp08",
+    "name": "MSI Katana 17 HX B14WFKRNP08 (Windows 11 Pro)",
+    "brand": "MSI",
+    "category": "laptops",
+    "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+    "image": "/images/products/laptops/msi-katana-17-hx-b14wfkrnp08-1.jpg",
+    "images": [
+      "/images/products/laptops/msi-katana-17-hx-b14wfkrnp08-1.jpg",
+      "https://resim.epey.com/1060422/z_msi-katana-17-hx-b14wfkrnp08-10.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 25,
+    "basePrice": 131999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "17.3\" 2560 x 1440 (QHD 16:9 240Hz %100 DCI-P3 IPS Seviyesi)",
+      "Intel Core i7-14650HX Yüksek Hızlı İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "24GB DDR5 RAM & 1TB PCIe 4.0 NVMe SSD",
+      "4 Bölgeli RGB Klavye & Cooler Boost 5 Çift Fan"
+    ],
+    "specs": {
+      "productType": "Keskin Performanslı Hibrit Oyuncu Laptopu (Katana Series)",
+      "processor": "Intel Core i7-14650HX",
+      "processorCores": "16 Çekirdek (8P + 8E / 24 İzlek 5.2 GHz)",
+      "npuTops": 16,
+      "ramGb": 24,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 96GB Destekli)",
+      "maxRamGb": 96,
+      "storageGb": 1024,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (1x PCIe 5.0 + 1x PCIe 4.0)",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 17.3,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz %100 DCI-P3 IPS Seviyesi)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E / Wi-Fi 7 Gig+",
+      "bluetooth": "5.3",
+      "ports": [
+        "1x USB-C / Thunderbolt 4 (DisplayPort & PD)",
+        "1x USB 3.2 Gen 2 Type-C (DisplayPort)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.8,
+      "thicknessMm": 27.2,
+      "bodyMaterial": "Mat Siyah Güçlendirilmiş Dokulu Kasa",
+      "keyboard": "4 Bölgeli RGB Aydınlatmalı Klavye",
+      "webcam": "FHD 1080p IR Windows Hello & Gizlilik Deklanşörü Kamera",
+      "audio": "2x 2W Hoparlör Nahimic 3 3D Audio & Hi-Res Audio",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-msi-katana-17-hx-b14wfkrnp08-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 131999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "MSI Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8100,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-msi-katana-17-hx-b14wfkrnp08-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 133319,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6200,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 138599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 134639,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 131999,
+        "store": "Hepsiburada"
+      }
+    ]
   }
 ];
