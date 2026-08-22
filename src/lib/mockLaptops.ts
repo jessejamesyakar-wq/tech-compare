@@ -8179,5 +8179,1551 @@ export const mockLaptops: LaptopProduct[] = [
         "store": "Apple Store TR"
       }
     ]
+  },
+  {
+    "id": "apple-macbook-air-13-6-m4-mc6t4tu-a",
+    "slug": "apple-macbook-air-13-6-m4-mc6t4tu-a",
+    "name": "Apple MacBook Air 13.6\" M4 (MC6T4TU/A) Açık Mavi",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-air-13-6-m4-mc6t4tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-air-13-6-m4-mc6t4tu-a-1.jpg",
+      "https://resim.epey.com/998694/z_apple-macbook-air-13-6-m4-mc6t4tu-a-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 46,
+    "reviewCount": 48,
+    "basePrice": 61439.04,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "13.6\" Liquid Retina Ekran",
+      "Apple M4 (10CPU/8GPU) Verimli Apple Silikon",
+      "16GB Birleşik Bellek & 512GB Hızlı SSD",
+      "Fansız Sessiz Tasarım & Gün Boyu Pil Ömrü"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M4 (10CPU/8GPU)",
+      "processorCores": "10 Çekirdek",
+      "npuTops": 38,
+      "ramGb": 16,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 16,
+      "storageGb": 512,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M4 8-Core GPU",
+      "gpuTgpWatts": 20,
+      "muxSwitch": false,
+      "screenSizeInches": 13.6,
+      "screenResolution": "2560 x 1664 (Liquid Retina)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 / sRGB",
+      "batteryCapacityWh": 52.6,
+      "batteryLifeHours": 18,
+      "chargerWatts": 30,
+      "wifiStandard": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt / USB 4",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.24,
+      "thicknessMm": 11.3,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "Stereo / 4 Hoparlörlü Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-air-13-6-m4-mc6t4tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 61439.04,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-air-13-6-m4-mc6t4tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 60825,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 64511,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 62668,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 61439.04,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-air-13-3-m1-mgn63tu-a",
+    "slug": "apple-macbook-air-13-3-m1-mgn63tu-a",
+    "name": "Apple MacBook Air 13.3\" M1 (MGN63TU/A) Gri",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-air-13-3-m1-mgn63tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-air-13-3-m1-mgn63tu-a-1.jpg",
+      "https://resim.epey.com/624875/z_apple-macbook-air-13-3-m1-mgn63tu-a-3.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 44,
+    "reviewCount": 23,
+    "basePrice": 45599.05,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "13.3\" Liquid Retina Ekran",
+      "Apple M1 (7 Çekirdek GPU) Verimli Apple Silikon",
+      "8GB Birleşik Bellek & 256GB Hızlı SSD",
+      "Fansız Sessiz Tasarım & Gün Boyu Pil Ömrü"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M1 (7 Çekirdek GPU)",
+      "processorCores": "8 Çekirdek",
+      "npuTops": 11,
+      "ramGb": 8,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 8,
+      "storageGb": 256,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M1 7-Core GPU",
+      "gpuTgpWatts": 20,
+      "muxSwitch": false,
+      "screenSizeInches": 13.3,
+      "screenResolution": "2560 x 1600 (Retina Ekran)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 / sRGB",
+      "batteryCapacityWh": 52.6,
+      "batteryLifeHours": 18,
+      "chargerWatts": 30,
+      "wifiStandard": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt / USB 4",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.29,
+      "thicknessMm": 16.1,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "Stereo / 4 Hoparlörlü Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-air-13-3-m1-mgn63tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 45599.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-air-13-3-m1-mgn63tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 45143,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 47879,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 46511,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 45599.05,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-air-13-6-m2-mc7w4tu-a",
+    "slug": "apple-macbook-air-13-6-m2-mc7w4tu-a",
+    "name": "Apple MacBook Air 13.6\" M2 (MC7W4TU/A) Gri",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-air-13-6-m2-mc7w4tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-air-13-6-m2-mc7w4tu-a-1.jpg",
+      "https://resim.epey.com/972297/z_apple-macbook-air-13-6-m2-8gb-256ssd-gri-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 44,
+    "reviewCount": 35,
+    "basePrice": 47599,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "13.6\" Liquid Retina Ekran",
+      "Apple M2 (8CPU/8GPU) Verimli Apple Silikon",
+      "16GB Birleşik Bellek & 256GB Hızlı SSD",
+      "Fansız Sessiz Tasarım & Gün Boyu Pil Ömrü"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M2 (8CPU/8GPU)",
+      "processorCores": "8 Çekirdek",
+      "npuTops": 15.8,
+      "ramGb": 16,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 16,
+      "storageGb": 256,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M2 8-Core GPU",
+      "gpuTgpWatts": 20,
+      "muxSwitch": false,
+      "screenSizeInches": 13.6,
+      "screenResolution": "2560 x 1664 (Liquid Retina)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 / sRGB",
+      "batteryCapacityWh": 52.6,
+      "batteryLifeHours": 18,
+      "chargerWatts": 30,
+      "wifiStandard": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt / USB 4",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.24,
+      "thicknessMm": 11.3,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "Stereo / 4 Hoparlörlü Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-air-13-6-m2-mc7w4tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 47599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-air-13-6-m2-mc7w4tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 47123,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 49979,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 48551,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 47599,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-air-m2-15-3-inc-mqkp3tu-a",
+    "slug": "apple-macbook-air-m2-15-3-inc-mqkp3tu-a",
+    "name": "Apple MacBook Air M2 15.3 İnç (MQKP3TU/A) Gri",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-air-m2-15-3-inc-mqkp3tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-air-m2-15-3-inc-mqkp3tu-a-1.jpg",
+      "https://resim.epey.com/874275/z_apple-macbook-air-m2-15-3-inc-mqkp3tu-a-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 42,
+    "reviewCount": 29,
+    "basePrice": 58425,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "15.3\" Liquid Retina Ekran",
+      "Apple M2 (8CPU/10GPU) Verimli Apple Silikon",
+      "8GB Birleşik Bellek & 512GB Hızlı SSD",
+      "Fansız Sessiz Tasarım & Gün Boyu Pil Ömrü"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M2 (8CPU/10GPU)",
+      "processorCores": "8 Çekirdek",
+      "npuTops": 15.8,
+      "ramGb": 8,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 8,
+      "storageGb": 512,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M2 10-Core GPU",
+      "gpuTgpWatts": 20,
+      "muxSwitch": false,
+      "screenSizeInches": 15.3,
+      "screenResolution": "2880 x 1864 (Liquid Retina)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 / sRGB",
+      "batteryCapacityWh": 66.5,
+      "batteryLifeHours": 18,
+      "chargerWatts": 30,
+      "wifiStandard": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt / USB 4",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.51,
+      "thicknessMm": 11.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "Stereo / 4 Hoparlörlü Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-air-m2-15-3-inc-mqkp3tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 58425,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-air-m2-15-3-inc-mqkp3tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 57841,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 61346,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 59594,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 58425,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-13-3-m2-z16rm216256-tq6",
+    "slug": "apple-macbook-pro-13-3-m2-z16rm216256-tq6",
+    "name": "Apple MacBook Pro 13.3\" M2 (Z16RM216256-TQ6) Gri",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Laptop",
+    "image": "/images/products/laptops/apple-macbook-pro-13-3-m2-z16rm216256-tq6-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-13-3-m2-z16rm216256-tq6-1.jpg",
+      "https://resim.epey.com/803455/z_apple-macbook-pro-13-3-m2-8gb-512ssd-2.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 42,
+    "reviewCount": 33,
+    "basePrice": 69299.01,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "13.3\" Liquid Retina Ekran",
+      "Apple M2 (8CPU/10GPU) Verimli Apple Silikon",
+      "16GB Birleşik Bellek & 512GB Hızlı SSD",
+      "Fansız Sessiz Tasarım & Gün Boyu Pil Ömrü"
+    ],
+    "specs": {
+      "productType": "Laptop",
+      "processor": "Apple M2 (8CPU/10GPU)",
+      "processorCores": "8 Çekirdek",
+      "npuTops": 15.8,
+      "ramGb": 16,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 16,
+      "storageGb": 512,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M2 10-Core GPU",
+      "gpuTgpWatts": 20,
+      "muxSwitch": false,
+      "screenSizeInches": 13.3,
+      "screenResolution": "2560 x 1600 (Retina Ekran - Touch Bar)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 / sRGB",
+      "batteryCapacityWh": 52.6,
+      "batteryLifeHours": 18,
+      "chargerWatts": 30,
+      "wifiStandard": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt / USB 4",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.4,
+      "thicknessMm": 15.6,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "Stereo / 4 Hoparlörlü Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-13-3-m2-z16rm216256-tq6-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 69299.01,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-13-3-m2-z16rm216256-tq6-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 68606,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 72764,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 70685,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 69299.01,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-13-3-m2-mnej3tu-a",
+    "slug": "apple-macbook-pro-13-3-m2-mnej3tu-a",
+    "name": "Apple MacBook Pro 13.3\" M2 (MNEJ3TU/A) Gri",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Laptop",
+    "image": "/images/products/laptops/apple-macbook-pro-13-3-m2-mnej3tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-13-3-m2-mnej3tu-a-1.jpg",
+      "https://resim.epey.com/787581/z_apple-macbook-pro-13-3-m2-8gb-512ssd-2.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 41,
+    "reviewCount": 18,
+    "basePrice": 67999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "13.3\" Liquid Retina Ekran",
+      "Apple M2 (8CPU/10GPU) Verimli Apple Silikon",
+      "8GB Birleşik Bellek & 512GB Hızlı SSD",
+      "Fansız Sessiz Tasarım & Gün Boyu Pil Ömrü"
+    ],
+    "specs": {
+      "productType": "Laptop",
+      "processor": "Apple M2 (8CPU/10GPU)",
+      "processorCores": "8 Çekirdek",
+      "npuTops": 15.8,
+      "ramGb": 8,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 8,
+      "storageGb": 512,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M2 10-Core GPU",
+      "gpuTgpWatts": 20,
+      "muxSwitch": false,
+      "screenSizeInches": 13.3,
+      "screenResolution": "2560 x 1600 (Retina Ekran - Touch Bar)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 / sRGB",
+      "batteryCapacityWh": 52.6,
+      "batteryLifeHours": 18,
+      "chargerWatts": 30,
+      "wifiStandard": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt / USB 4",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.4,
+      "thicknessMm": 15.6,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "Stereo / 4 Hoparlörlü Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-13-3-m2-mnej3tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 67999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-13-3-m2-mnej3tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 67319,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 71399,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 69359,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 67999,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-neo-mhfj4tu-a",
+    "slug": "apple-macbook-neo-mhfj4tu-a",
+    "name": "Apple MacBook Neo (MHFJ4TU/A) Pembe",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-neo-mhfj4tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-neo-mhfj4tu-a-1.jpg",
+      "https://resim.epey.com/1048514/z_apple-macbook-neo-mhfj4tu-a-5.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 40,
+    "reviewCount": 28,
+    "basePrice": 42920.31,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "13\" Canlı Renkli Retina Ekran",
+      "Apple A18 Pro Verimli Apple Silikon",
+      "8GB Birleşik Bellek & 256GB Hızlı SSD",
+      "Fansız Sessiz Tasarım & Gün Boyu Pil Ömrü"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple A18 Pro",
+      "processorCores": "6 Çekirdek",
+      "npuTops": 35,
+      "ramGb": 8,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 8,
+      "storageGb": 256,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple A18 Pro 6-Core GPU",
+      "gpuTgpWatts": 15,
+      "muxSwitch": false,
+      "screenSizeInches": 13,
+      "screenResolution": "2400 x 1500 (Retina Ekran)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 / sRGB",
+      "batteryCapacityWh": 45,
+      "batteryLifeHours": 16,
+      "chargerWatts": 30,
+      "wifiStandard": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x USB-C (USB 3.2)",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.1,
+      "thicknessMm": 10.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "Stereo / 4 Hoparlörlü Ses Sistemi",
+      "os": "macOS Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-neo-mhfj4tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 42920.31,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-neo-mhfj4tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 42491,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 45066,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 43779,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 42920.31,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-neo-mhfh4tu-a",
+    "slug": "apple-macbook-neo-mhfh4tu-a",
+    "name": "Apple MacBook Neo (MHFH4TU/A) Pembe",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-neo-mhfh4tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-neo-mhfh4tu-a-1.jpg",
+      "https://resim.epey.com/1048513/z_apple-macbook-neo-mhfh4tu-a-5.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 40,
+    "reviewCount": 39,
+    "basePrice": 38399.04,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "13\" Canlı Renkli Retina Ekran",
+      "Apple A18 Pro Verimli Apple Silikon",
+      "8GB Birleşik Bellek & 256GB Hızlı SSD",
+      "Fansız Sessiz Tasarım & Gün Boyu Pil Ömrü"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple A18 Pro",
+      "processorCores": "6 Çekirdek",
+      "npuTops": 35,
+      "ramGb": 8,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 8,
+      "storageGb": 256,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple A18 Pro 6-Core GPU",
+      "gpuTgpWatts": 15,
+      "muxSwitch": false,
+      "screenSizeInches": 13,
+      "screenResolution": "2400 x 1500 (Retina Ekran)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 / sRGB",
+      "batteryCapacityWh": 45,
+      "batteryLifeHours": 16,
+      "chargerWatts": 30,
+      "wifiStandard": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x USB-C (USB 3.2)",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.1,
+      "thicknessMm": 10.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "Stereo / 4 Hoparlörlü Ses Sistemi",
+      "os": "macOS Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-neo-mhfh4tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 38399.04,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-neo-mhfh4tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 38015,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 40319,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 39167,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 38399.04,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-neo-mhfc4tu-a",
+    "slug": "apple-macbook-neo-mhfc4tu-a",
+    "name": "Apple MacBook Neo (MHFC4TU/A) Gümüş",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-neo-mhfc4tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-neo-mhfc4tu-a-1.jpg",
+      "https://resim.epey.com/1048511/z_apple-macbook-neo-mhfc4tu-a-5.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 40,
+    "reviewCount": 26,
+    "basePrice": 35999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "13\" Canlı Renkli Retina Ekran",
+      "Apple A18 Pro Verimli Apple Silikon",
+      "8GB Birleşik Bellek & 256GB Hızlı SSD",
+      "Fansız Sessiz Tasarım & Gün Boyu Pil Ömrü"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple A18 Pro",
+      "processorCores": "6 Çekirdek",
+      "npuTops": 35,
+      "ramGb": 8,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 8,
+      "storageGb": 256,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple A18 Pro 6-Core GPU",
+      "gpuTgpWatts": 15,
+      "muxSwitch": false,
+      "screenSizeInches": 13,
+      "screenResolution": "2400 x 1500 (Retina Ekran)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 / sRGB",
+      "batteryCapacityWh": 45,
+      "batteryLifeHours": 16,
+      "chargerWatts": 30,
+      "wifiStandard": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x USB-C (USB 3.2)",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.1,
+      "thicknessMm": 10.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "Stereo / 4 Hoparlörlü Ses Sistemi",
+      "os": "macOS Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-neo-mhfc4tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 35999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-neo-mhfc4tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 35639,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 37799,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 36719,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 35999,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-neo-mhfa4tu-a",
+    "slug": "apple-macbook-neo-mhfa4tu-a",
+    "name": "Apple MacBook Neo (MHFA4TU/A) Gümüş",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-neo-mhfa4tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-neo-mhfa4tu-a-1.jpg",
+      "https://resim.epey.com/1048508/z_apple-macbook-neo-mhfa4tu-a-5.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 40,
+    "reviewCount": 34,
+    "basePrice": 36383.04,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "13\" Canlı Renkli Retina Ekran",
+      "Apple A18 Pro Verimli Apple Silikon",
+      "8GB Birleşik Bellek & 256GB Hızlı SSD",
+      "Fansız Sessiz Tasarım & Gün Boyu Pil Ömrü"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple A18 Pro",
+      "processorCores": "6 Çekirdek",
+      "npuTops": 35,
+      "ramGb": 8,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 8,
+      "storageGb": 256,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple A18 Pro 6-Core GPU",
+      "gpuTgpWatts": 15,
+      "muxSwitch": false,
+      "screenSizeInches": 13,
+      "screenResolution": "2400 x 1500 (Retina Ekran)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 / sRGB",
+      "batteryCapacityWh": 45,
+      "batteryLifeHours": 16,
+      "chargerWatts": 30,
+      "wifiStandard": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x USB-C (USB 3.2)",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.1,
+      "thicknessMm": 10.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "Stereo / 4 Hoparlörlü Ses Sistemi",
+      "os": "macOS Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-neo-mhfa4tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 36383.04,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-neo-mhfa4tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 36019,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 38202,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 37111,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 36383.04,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-neo-mhfg4tu-a",
+    "slug": "apple-macbook-neo-mhfg4tu-a",
+    "name": "Apple MacBook Neo (MHFG4TU/A) Lacivert",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-neo-mhfg4tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-neo-mhfg4tu-a-1.jpg",
+      "https://resim.epey.com/1048507/z_apple-macbook-neo-mhfg4tu-a-5.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 40,
+    "reviewCount": 17,
+    "basePrice": 39998,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "13\" Canlı Renkli Retina Ekran",
+      "Apple A18 Pro Verimli Apple Silikon",
+      "8GB Birleşik Bellek & 256GB Hızlı SSD",
+      "Fansız Sessiz Tasarım & Gün Boyu Pil Ömrü"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple A18 Pro",
+      "processorCores": "6 Çekirdek",
+      "npuTops": 35,
+      "ramGb": 8,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 8,
+      "storageGb": 256,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple A18 Pro 6-Core GPU",
+      "gpuTgpWatts": 15,
+      "muxSwitch": false,
+      "screenSizeInches": 13,
+      "screenResolution": "2400 x 1500 (Retina Ekran)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 / sRGB",
+      "batteryCapacityWh": 45,
+      "batteryLifeHours": 16,
+      "chargerWatts": 30,
+      "wifiStandard": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x USB-C (USB 3.2)",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.1,
+      "thicknessMm": 10.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "Stereo / 4 Hoparlörlü Ses Sistemi",
+      "os": "macOS Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-neo-mhfg4tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 39998,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-neo-mhfg4tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 39598,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 41998,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 40798,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 39998,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-neo-mhff4tu-a",
+    "slug": "apple-macbook-neo-mhff4tu-a",
+    "name": "Apple MacBook Neo (MHFF4TU/A) Lacivert",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-neo-mhff4tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-neo-mhff4tu-a-1.jpg",
+      "https://resim.epey.com/1048505/z_apple-macbook-neo-mhff4tu-a-5.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 40,
+    "reviewCount": 35,
+    "basePrice": 34799,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "13\" Canlı Renkli Retina Ekran",
+      "Apple A18 Pro Verimli Apple Silikon",
+      "8GB Birleşik Bellek & 256GB Hızlı SSD",
+      "Fansız Sessiz Tasarım & Gün Boyu Pil Ömrü"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple A18 Pro",
+      "processorCores": "6 Çekirdek",
+      "npuTops": 35,
+      "ramGb": 8,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 8,
+      "storageGb": 256,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple A18 Pro 6-Core GPU",
+      "gpuTgpWatts": 15,
+      "muxSwitch": false,
+      "screenSizeInches": 13,
+      "screenResolution": "2400 x 1500 (Retina Ekran)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 / sRGB",
+      "batteryCapacityWh": 45,
+      "batteryLifeHours": 16,
+      "chargerWatts": 30,
+      "wifiStandard": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x USB-C (USB 3.2)",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.1,
+      "thicknessMm": 10.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "Stereo / 4 Hoparlörlü Ses Sistemi",
+      "os": "macOS Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-neo-mhff4tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 34799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-neo-mhff4tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 34451,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 36539,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 35495,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 34799,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-neo-mhfe4tu-a",
+    "slug": "apple-macbook-neo-mhfe4tu-a",
+    "name": "Apple MacBook Neo (MHFE4TU/A) Sarı",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-neo-mhfe4tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-neo-mhfe4tu-a-1.jpg",
+      "https://resim.epey.com/1048503/z_apple-macbook-neo-mhfe4tu-a-5.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 40,
+    "reviewCount": 17,
+    "basePrice": 43499,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "13\" Canlı Renkli Retina Ekran",
+      "Apple A18 Pro Verimli Apple Silikon",
+      "8GB Birleşik Bellek & 256GB Hızlı SSD",
+      "Fansız Sessiz Tasarım & Gün Boyu Pil Ömrü"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple A18 Pro",
+      "processorCores": "6 Çekirdek",
+      "npuTops": 35,
+      "ramGb": 8,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 8,
+      "storageGb": 256,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple A18 Pro 6-Core GPU",
+      "gpuTgpWatts": 15,
+      "muxSwitch": false,
+      "screenSizeInches": 13,
+      "screenResolution": "2400 x 1500 (Retina Ekran)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 / sRGB",
+      "batteryCapacityWh": 45,
+      "batteryLifeHours": 16,
+      "chargerWatts": 30,
+      "wifiStandard": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x USB-C (USB 3.2)",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.1,
+      "thicknessMm": 10.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "Stereo / 4 Hoparlörlü Ses Sistemi",
+      "os": "macOS Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-neo-mhfe4tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 43499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-neo-mhfe4tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 43064,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 45674,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 44369,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 43499,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-neo-mhfd4tu-a",
+    "slug": "apple-macbook-neo-mhfd4tu-a",
+    "name": "Apple MacBook Neo (MHFD4TU/A) Sarı",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-neo-mhfd4tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-neo-mhfd4tu-a-1.jpg",
+      "https://resim.epey.com/1048466/z_apple-macbook-neo-mhfd4tu-a-5.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 40,
+    "reviewCount": 15,
+    "basePrice": 36574.05,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "13\" Canlı Renkli Retina Ekran",
+      "Apple A18 Pro Verimli Apple Silikon",
+      "8GB Birleşik Bellek & 256GB Hızlı SSD",
+      "Fansız Sessiz Tasarım & Gün Boyu Pil Ömrü"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple A18 Pro",
+      "processorCores": "6 Çekirdek",
+      "npuTops": 35,
+      "ramGb": 8,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 8,
+      "storageGb": 256,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple A18 Pro 6-Core GPU",
+      "gpuTgpWatts": 15,
+      "muxSwitch": false,
+      "screenSizeInches": 13,
+      "screenResolution": "2400 x 1500 (Retina Ekran)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 / sRGB",
+      "batteryCapacityWh": 45,
+      "batteryLifeHours": 16,
+      "chargerWatts": 30,
+      "wifiStandard": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x USB-C (USB 3.2)",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.1,
+      "thicknessMm": 10.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "Stereo / 4 Hoparlörlü Ses Sistemi",
+      "os": "macOS Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-neo-mhfd4tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 36574.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-neo-mhfd4tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 36208,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 38403,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 37306,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 36574.05,
+        "store": "Apple Store TR"
+      }
+    ]
   }
 ];
