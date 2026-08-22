@@ -87657,5 +87657,1384 @@ export const mockTVs: TVProduct[] = [
         "store": "Trendyol"
       }
     ]
+  },
+  {
+    "id": "xiaomi-tv-max-100-2025",
+    "slug": "xiaomi-tv-max-100-2025",
+    "name": "Xiaomi TV Max 100 2025 (L100MA-MAXME) 100\" 144Hz 4K Ultra HD Google TV",
+    "brand": "Xiaomi",
+    "category": "tvs",
+    "image": "/images/products/tvs/xiaomi-tv-max-100-2025-1.jpg",
+    "images": [
+      "/images/products/tvs/xiaomi-tv-max-100-2025-1.jpg",
+      "https://resim.epey.com/1034180/z_xiaomi-tv-max-100-2025-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 78,
+    "reviewCount": 34,
+    "basePrice": 139999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "100\" (254 cm) Dev QLED 4K Panel",
+      "144 Hz Yerel Yenileme Hızı & VRR / FreeSync Premium",
+      "Google TV & Dolby Vision IQ & HDR10+",
+      "30W RMS Dolby Atmos & DTS:X Ses Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 100,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "AMD FreeSync Premium",
+        "HDMI 2.1"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "Dört Çekirdekli Cortex-A73",
+      "brightnessNits": 800,
+      "contrastRatio": "6000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%94 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan Dahili",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "2229 x 1342 x 473 mm",
+      "weightKg": 59.5,
+      "vesaMount": "1000x400 mm",
+      "bezelStyle": "Ultra İnce Metalik Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-xiaomi-tv-max-100-2025-mi",
+        "storeName": "Mi Store",
+        "storeLogoColor": "#ff6900",
+        "price": 139999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kurulum"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 850,
+        "url": "https://www.mi.com/tr/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 149999,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 144999,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 139999,
+        "store": "Mi Store"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-tv-s-pro-mini-led-75-2026",
+    "slug": "xiaomi-tv-s-pro-mini-led-75-2026",
+    "name": "Xiaomi TV S Pro Mini LED 75 (2026) (L75MB-SME) 75\" 144Hz 4K Google TV",
+    "brand": "Xiaomi",
+    "category": "tvs",
+    "image": "/images/products/tvs/xiaomi-tv-s-pro-mini-led-75-2026-1.jpg",
+    "images": [
+      "/images/products/tvs/xiaomi-tv-s-pro-mini-led-75-2026-1.jpg",
+      "https://resim.epey.com/1034149/z_xiaomi-tv-s-pro-mini-led-75-2026-3.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 76,
+    "reviewCount": 42,
+    "basePrice": 79999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "75\" (189 cm) Mini LED 4K Panel (Binlerce Yerel Karartma)",
+      "144 Hz (Game Boost 240Hz) & IMAX Enhanced",
+      "30W RMS Güçlü Dolby Atmos Ses",
+      "Google TV & 4GB RAM + 64GB Depolama"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "Mini-LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "IMAX Enhanced"
+      ],
+      "gamingFeatures": [
+        "240Hz Game Mode",
+        "VRR",
+        "ALLM",
+        "FreeSync Premium"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "Dört Çekirdekli Cortex-A73 + Mali G52",
+      "brightnessNits": 2200,
+      "contrastRatio": "1000000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%95 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1668 x 1030 x 368 mm",
+      "weightKg": 31.2,
+      "vesaMount": "400x400 mm",
+      "bezelStyle": "Premium Metalik Çerçevesiz"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-xiaomi-tv-s-pro-mini-led-75-2026-mi",
+        "storeName": "Mi Store",
+        "storeLogoColor": "#ff6900",
+        "price": 79999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 920,
+        "url": "https://www.mi.com/tr/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 84999,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 82499,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 79999,
+        "store": "Mi Store"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-tv-max-85-2025",
+    "slug": "xiaomi-tv-max-85-2025",
+    "name": "Xiaomi TV Max 85 2025 (L85MA-MAXME) 85\" 144Hz 4K Ultra HD Google TV",
+    "brand": "Xiaomi",
+    "category": "tvs",
+    "image": "/images/products/tvs/xiaomi-tv-max-85-2025-1.jpg",
+    "images": [
+      "/images/products/tvs/xiaomi-tv-max-85-2025-1.jpg",
+      "https://resim.epey.com/1034176/z_xiaomi-tv-max-85-2025-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 74,
+    "reviewCount": 29,
+    "basePrice": 84998,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "85\" (215 cm) QLED 4K Geniş Ekran",
+      "144 Hz Akıcı Panel Hızı & HDMI 2.1",
+      "Dolby Vision, HDR10+ ve Dolby Atmos",
+      "Google TV & 3GB RAM / 32GB Depolama"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 144,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "144Hz VRR",
+        "ALLM",
+        "HDMI 2.1"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "Dört Çekirdekli Cortex-A73",
+      "brightnessNits": 600,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%94 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1890 x 1162 x 441 mm",
+      "weightKg": 42.8,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "İnce Alüminyum Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-xiaomi-tv-max-85-2025-mi",
+        "storeName": "Mi Store",
+        "storeLogoColor": "#ff6900",
+        "price": 84998,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Montaj"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 810,
+        "url": "https://www.mi.com/tr/"
+      },
+      {
+        "id": "offer-xiaomi-tv-max-85-2025-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 85999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 540,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 89999,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 87499,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 84998,
+        "store": "Mi Store"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-tv-a-pro-75-2026",
+    "slug": "xiaomi-tv-a-pro-75-2026",
+    "name": "Xiaomi TV A Pro 75 2026 (L75MB-APTR) 75\" 4K Ultra HD QLED Google TV",
+    "brand": "Xiaomi",
+    "category": "tvs",
+    "image": "/images/products/tvs/xiaomi-tv-a-pro-75-2026-1.jpg",
+    "images": [
+      "/images/products/tvs/xiaomi-tv-a-pro-75-2026-1.jpg",
+      "https://resim.epey.com/1034120/z_xiaomi-tv-a-pro-75-2026-2.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 65,
+    "reviewCount": 51,
+    "basePrice": 54999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "75\" (189 cm) 4K Ultra HD QLED Canlı Renkler",
+      "Dolby Vision & MEMC Akıcı Hareket Teknolojisi",
+      "20W RMS Dolby Audio & DTS Virtual:X",
+      "Google TV & Dahili Chromecast"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "MEMC Game Mode"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Dört Çekirdekli Cortex-A55",
+      "brightnessNits": 400,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%92 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1668 x 1028 x 359 mm",
+      "weightKg": 26.5,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Yekpare Metal Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-xiaomi-tv-a-pro-75-2026-mi",
+        "storeName": "Mi Store",
+        "storeLogoColor": "#ff6900",
+        "price": 54999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 610,
+        "url": "https://www.mi.com/tr/"
+      },
+      {
+        "id": "offer-xiaomi-tv-a-pro-75-2026-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 55499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Gönderi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 430,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 58999,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 56999,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 54999,
+        "store": "Mi Store"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-tv-a-pro-65-2026",
+    "slug": "xiaomi-tv-a-pro-65-2026",
+    "name": "Xiaomi TV A Pro 65 2026 (L65MB-APTR) 65\" 4K Ultra HD QLED Google TV",
+    "brand": "Xiaomi",
+    "category": "tvs",
+    "image": "/images/products/tvs/xiaomi-tv-a-pro-65-2026-1.jpg",
+    "images": [
+      "/images/products/tvs/xiaomi-tv-a-pro-65-2026-1.jpg",
+      "https://resim.epey.com/1034117/z_xiaomi-tv-a-pro-65-2026-2.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 62,
+    "reviewCount": 68,
+    "basePrice": 38999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD QLED Panel",
+      "Dolby Vision & MEMC Hareket İyileştirme",
+      "20W Dolby Audio & DTS Virtual:X",
+      "Google TV & Metalik Çerçevesiz Kasa"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "MEMC"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Dört Çekirdekli Cortex-A55",
+      "brightnessNits": 350,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%92 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1446 x 892 x 313 mm",
+      "weightKg": 16.2,
+      "vesaMount": "300x300 mm",
+      "bezelStyle": "Yekpare Metalik Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-xiaomi-tv-a-pro-65-2026-mi",
+        "storeName": "Mi Store",
+        "storeLogoColor": "#ff6900",
+        "price": 38999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "https://www.mi.com/tr/"
+      },
+      {
+        "id": "offer-xiaomi-tv-a-pro-65-2026-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 39499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hepsiburada Satıcılı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 760,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 41999,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 39999,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 38999,
+        "store": "Mi Store"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-tv-a-pro-55-2026",
+    "slug": "xiaomi-tv-a-pro-55-2026",
+    "name": "Xiaomi TV A Pro 55 2026 (L55MB-APTR) 55\" 4K Ultra HD QLED Google TV",
+    "brand": "Xiaomi",
+    "category": "tvs",
+    "image": "/images/products/tvs/xiaomi-tv-a-pro-55-2026-1.jpg",
+    "images": [
+      "/images/products/tvs/xiaomi-tv-a-pro-55-2026-1.jpg",
+      "https://resim.epey.com/1034103/z_xiaomi-tv-a-pro-55-2026-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 60,
+    "reviewCount": 95,
+    "basePrice": 30999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "55\" (139 cm) 4K QLED Canlı Ekran",
+      "Dolby Vision & Dolby Audio / DTS Virtual:X",
+      "Google TV ile Binlerce Uygulama & Sesli Komut",
+      "Şık Metal Gövde ve Çerçevesiz Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "MEMC"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Dört Çekirdekli Cortex-A55",
+      "brightnessNits": 350,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%92 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1226 x 768 x 280 mm",
+      "weightKg": 11.2,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Yekpare Metalik Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-xiaomi-tv-a-pro-55-2026-mi",
+        "storeName": "Mi Store",
+        "storeLogoColor": "#ff6900",
+        "price": 30999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1250,
+        "url": "https://www.mi.com/tr/"
+      },
+      {
+        "id": "offer-xiaomi-tv-a-pro-55-2026-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 31499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 580,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 33499,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 31999,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 30999,
+        "store": "Mi Store"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-tv-a-65-2026",
+    "slug": "xiaomi-tv-a-65-2026",
+    "name": "Xiaomi TV A 65 2026 (L65MB-ATR) 65\" 4K Ultra HD Smart Google TV",
+    "brand": "Xiaomi",
+    "category": "tvs",
+    "image": "/images/products/tvs/xiaomi-tv-a-65-2026-1.jpg",
+    "images": [
+      "/images/products/tvs/xiaomi-tv-a-65-2026-1.jpg",
+      "https://resim.epey.com/1034101/z_xiaomi-tv-a-65-2026-3.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 59,
+    "reviewCount": 38,
+    "basePrice": 33999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD Geniş LED Ekran",
+      "HDR10, HLG & MEMC Akıcı Geçişler",
+      "20W RMS Güçlü Dolby Audio & DTS-HD",
+      "Google TV & Dahili Wi-Fi 5"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "MEMC"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Dört Çekirdekli Cortex-A55",
+      "brightnessNits": 320,
+      "contrastRatio": "4500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%88 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1446 x 892 x 313 mm",
+      "weightKg": 15.8,
+      "vesaMount": "300x300 mm",
+      "bezelStyle": "Modern İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-xiaomi-tv-a-65-2026-mi",
+        "storeName": "Mi Store",
+        "storeLogoColor": "#ff6900",
+        "price": 33999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 450,
+        "url": "https://www.mi.com/tr/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 36999,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 34999,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 33999,
+        "store": "Mi Store"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-tv-max-86",
+    "slug": "xiaomi-tv-max-86",
+    "name": "Xiaomi TV Max 86\" (L86M7-ESMI) 120Hz 4K Ultra HD Android Smart TV",
+    "brand": "Xiaomi",
+    "category": "tvs",
+    "image": "/images/products/tvs/xiaomi-tv-max-86-1.jpg",
+    "images": [
+      "/images/products/tvs/xiaomi-tv-max-86-1.jpg",
+      "https://resim.epey.com/984714/z_xiaomi-tv-max-86-6971408156535-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 72,
+    "reviewCount": 56,
+    "basePrice": 72999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "86\" (217 cm) Dev Tam Dizi Yerel Karartmalı LED Panel",
+      "120 Hz Ekran Yenileme Hızı & HDMI 2.1",
+      "Dolby Vision IQ & Dolby Atmos 30W Ses",
+      "Android TV 11 & Wi-Fi 6"
+    ],
+    "specs": {
+      "screenSizeInches": 86,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision IQ",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz MEMC",
+        "ALLM",
+        "HDMI 2.1"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "Dört Çekirdekli Cortex-A73",
+      "brightnessNits": 500,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%90 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 6",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1924 x 1181 x 441 mm",
+      "weightKg": 44.5,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "Alüminyum Alaşımlı Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-xiaomi-tv-max-86-mi",
+        "storeName": "Mi Store",
+        "storeLogoColor": "#ff6900",
+        "price": 72999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 720,
+        "url": "https://www.mi.com/tr/"
+      },
+      {
+        "id": "offer-xiaomi-tv-max-86-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 74999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 480,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 77999,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 74999,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 72999,
+        "store": "Mi Store"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-mi-tv-q1-75",
+    "slug": "xiaomi-mi-tv-q1-75",
+    "name": "Xiaomi Mi TV Q1 75\" (L75M6-ESG) 120Hz 4K QLED Android Smart TV",
+    "brand": "Xiaomi",
+    "category": "tvs",
+    "image": "/images/products/tvs/xiaomi-mi-tv-q1-75-1.jpg",
+    "images": [
+      "/images/products/tvs/xiaomi-mi-tv-q1-75-1.jpg",
+      "https://resim.epey.com/723260/z_xiaomi-mi-tv-q1-75-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 69,
+    "reviewCount": 88,
+    "basePrice": 69999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "75\" (189 cm) 120Hz QLED 192 Bölgeli Tam Dizi Karartma",
+      "Dolby Vision, HDR10+ ve 1000 Nit Tepe Parlaklık",
+      "30W RMS 6 Hoparlörlü Dolby Audio & DTS-HD Ses",
+      "Android TV 10 & Dahili Eller Serbest Google Asistan"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 120,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz MEMC",
+        "ALLM",
+        "HDMI 2.1 (eARC)"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "MediaTek MT9611 Dört Çekirdekli",
+      "brightnessNits": 1000,
+      "contrastRatio": "10000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%95 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Dahili Mikrofonlu Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1673 x 1029 x 368 mm",
+      "weightKg": 33.3,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Birinci Sınıf Alüminyum Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-xiaomi-mi-tv-q1-75-mi",
+        "storeName": "Mi Store",
+        "storeLogoColor": "#ff6900",
+        "price": 69999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "https://www.mi.com/tr/"
+      },
+      {
+        "id": "offer-xiaomi-mi-tv-q1-75-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 71499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Gönderi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 620,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 74999,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 71999,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 69999,
+        "store": "Mi Store"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-tv-p1e-65",
+    "slug": "xiaomi-tv-p1e-65",
+    "name": "Xiaomi TV P1E 65\" (L65M7-7AEU) 65\" 4K Ultra HD Android Smart LED TV",
+    "brand": "Xiaomi",
+    "category": "tvs",
+    "image": "/images/products/tvs/xiaomi-tv-p1e-65-1.jpg",
+    "images": [
+      "/images/products/tvs/xiaomi-tv-p1e-65-1.jpg",
+      "https://resim.epey.com/836719/z_xiaomi-tv-p1e-65-2.jpg"
+    ],
+    "rating": 4.5,
+    "epeyScore": 59,
+    "reviewCount": 74,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD LED Panel",
+      "HDR10 & MEMC Hareket Pürüzsüzleştirme",
+      "20W RMS Dolby Audio & DTS-HD Ses",
+      "Android TV 10 & 2GB RAM / 16GB Hafıza"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "MEMC"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "Dört Çekirdekli Cortex-A53",
+      "brightnessNits": 300,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%78 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1458 x 909 x 354 mm",
+      "weightKg": 18.4,
+      "vesaMount": "300x250 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-xiaomi-tv-p1e-65-mi",
+        "storeName": "Mi Store",
+        "storeLogoColor": "#ff6900",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 540,
+        "url": "https://www.mi.com/tr/"
+      },
+      {
+        "id": "offer-xiaomi-tv-p1e-65-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 29999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 31999,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 29999,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 28999,
+        "store": "Mi Store"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-mi-tv-p1-55",
+    "slug": "xiaomi-mi-tv-p1-55",
+    "name": "Xiaomi Mi TV P1 55\" (L55M6-6AEU) 55\" 4K Ultra HD Android Smart LED TV",
+    "brand": "Xiaomi",
+    "category": "tvs",
+    "image": "/images/products/tvs/xiaomi-mi-tv-p1-55-1.jpg",
+    "images": [
+      "/images/products/tvs/xiaomi-mi-tv-p1-55-1.jpg",
+      "https://resim.epey.com/904101/z_xiaomi-mi-tv-p1-55-3.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 58,
+    "reviewCount": 112,
+    "basePrice": 23499,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (139 cm) Çerçevesiz 4K Ultra HD LED Ekran",
+      "Dolby Vision, HDR10+ ve MEMC Desteği",
+      "20W Dolby Audio & DTS-HD Hoparlörler",
+      "Eller Serbest Google Asistan & Android TV"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "MEMC",
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "MediaTek MT9611",
+      "brightnessNits": 300,
+      "contrastRatio": "4500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%94 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Dahili Mikrofonlu Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1234 x 782 x 285 mm",
+      "weightKg": 11.9,
+      "vesaMount": "300x300 mm",
+      "bezelStyle": "Üç Taraflı Çerçevesiz Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-xiaomi-mi-tv-p1-55-mi",
+        "storeName": "Mi Store",
+        "storeLogoColor": "#ff6900",
+        "price": 23499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 980,
+        "url": "https://www.mi.com/tr/"
+      },
+      {
+        "id": "offer-xiaomi-mi-tv-p1-55-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 24299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 760,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 25999,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 24499,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 23499,
+        "store": "Mi Store"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-tv-p1e-55",
+    "slug": "xiaomi-tv-p1e-55",
+    "name": "Xiaomi TV P1E 55\" (L55M7-7AEU) 55\" 4K Ultra HD Android Smart LED TV",
+    "brand": "Xiaomi",
+    "category": "tvs",
+    "image": "/images/products/tvs/xiaomi-tv-p1e-55-1.jpg",
+    "images": [
+      "/images/products/tvs/xiaomi-tv-p1e-55-1.jpg",
+      "https://resim.epey.com/913914/z_xiaomi-tv-p1e-65-2.jpg"
+    ],
+    "rating": 4.5,
+    "epeyScore": 56,
+    "reviewCount": 65,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (139 cm) 4K Ultra HD LED Panel",
+      "HDR10 & MEMC Akıcı Görüntü",
+      "20W RMS Dolby Audio & DTS-HD Ses",
+      "Android TV & Dahili Wi-Fi"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "MEMC"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "Dört Çekirdekli Cortex-A53",
+      "brightnessNits": 280,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%78 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1236 x 771 x 266 mm",
+      "weightKg": 11.2,
+      "vesaMount": "300x300 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-xiaomi-tv-p1e-55-mi",
+        "storeName": "Mi Store",
+        "storeLogoColor": "#ff6900",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 490,
+        "url": "https://www.mi.com/tr/"
+      },
+      {
+        "id": "offer-xiaomi-tv-p1e-55-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 22499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 310,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 23999,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 22999,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21999,
+        "store": "Mi Store"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-tv-a-55-2026",
+    "slug": "xiaomi-tv-a-55-2026",
+    "name": "Xiaomi TV A 55 2026 (L55MB-ATR) 55\" 4K Ultra HD Smart Google TV",
+    "brand": "Xiaomi",
+    "category": "tvs",
+    "image": "/images/products/tvs/xiaomi-tv-a-55-2026-1.jpg",
+    "images": [
+      "/images/products/tvs/xiaomi-tv-a-55-2026-1.jpg",
+      "https://resim.epey.com/1034054/z_xiaomi-tv-a-55-2026-3.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 56,
+    "reviewCount": 47,
+    "basePrice": 26999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (139 cm) 4K Ultra HD LED Panel",
+      "HDR10, HLG & MEMC Hareket Teknolojisi",
+      "20W Dolby Audio & DTS-HD Ses",
+      "Google TV & Metalik Çerçevesiz Kasa"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Google TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "MEMC"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Dört Çekirdekli Cortex-A55",
+      "brightnessNits": 300,
+      "contrastRatio": "4500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%88 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1226 x 768 x 280 mm",
+      "weightKg": 10.8,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Yekpare Metalik Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-xiaomi-tv-a-55-2026-mi",
+        "storeName": "Mi Store",
+        "storeLogoColor": "#ff6900",
+        "price": 26999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 530,
+        "url": "https://www.mi.com/tr/"
+      },
+      {
+        "id": "offer-xiaomi-tv-a-55-2026-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 27499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Gönderi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 390,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 29499,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 27999,
+        "store": "Mi Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 26999,
+        "store": "Mi Store"
+      }
+    ]
   }
 ];
