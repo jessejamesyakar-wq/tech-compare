@@ -86460,5 +86460,1202 @@ export const mockTVs: TVProduct[] = [
       }
     ],
     "epeyScore": 56
+  },
+  {
+    "id": "seg-55sua740",
+    "slug": "seg-55sua740",
+    "name": "SEG 55SUA740 (20278080) 55\" 4K Ultra HD Smart LED Android TV",
+    "brand": "SEG",
+    "category": "tvs",
+    "image": "/images/products/tvs/seg-55sua740-1.jpg",
+    "images": [
+      "/images/products/tvs/seg-55sua740-1.jpg",
+      "https://resim.epey.com/935437/z_seg-55sua740-1.jpg"
+    ],
+    "rating": 4.4,
+    "epeyScore": 56,
+    "reviewCount": 32,
+    "basePrice": 25175,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "55\" (139 cm) 4K Ultra HD (3840x2160) LED Panel",
+      "20W RMS Ses Çıkışı & Dolby Audio",
+      "Android TV Platformu & Google Play Store",
+      "Dahili Wi-Fi, Bluetooth & HD Uydu Alıcısı (DVB-S2)"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "4 Çekirdekli Vestel Üretim İşlemci",
+      "brightnessNits": 300,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 sRGB",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1243 x 775 x 240 mm",
+      "weightKg": 13.5,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-seg-55sua740-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 25175,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Vestel Servis Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 27900,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 26500,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 25175,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "seg-32sbh550",
+    "slug": "seg-32sbh550",
+    "name": "SEG 32SBH550 (20278321) 32\" HD Ready LED TV (Dahili Uydu Alıcılı)",
+    "brand": "SEG",
+    "category": "tvs",
+    "image": "/images/products/tvs/seg-32sbh550-1.jpg",
+    "images": [
+      "/images/products/tvs/seg-32sbh550-1.jpg",
+      "https://resim.epey.com/943807/z_seg-32sbh550-1.jpg"
+    ],
+    "rating": 4.1,
+    "epeyScore": 24,
+    "reviewCount": 28,
+    "basePrice": 8923.08,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "32\" (80 cm) HD Ready (1366x768) LED Panel",
+      "12W RMS Net Ses Çıkışı",
+      "Dahili HD Uydu Alıcısı (DVB-S2)",
+      "Mutfak, Yazlık ve Küçük Odalar İçin İdeal Kompakt Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "HD Ready",
+      "refreshRateHz": 60,
+      "smartOs": "Yok",
+      "audioPowerWatts": 12,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "F",
+      "processorEngine": "Standart Vestel Görüntü Motoru",
+      "brightnessNits": 220,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%75 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Yok",
+      "wifiVersion": "Yok",
+      "bluetoothVersion": "Yok",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "732 x 478 x 184 mm",
+      "weightKg": 4.8,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Siyah Kompakt Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-seg-32sbh550-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 8923.08,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 190,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 9800,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 9300,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8923.08,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "seg-65sua740",
+    "slug": "seg-65sua740",
+    "name": "SEG 65SUA740 (20278081) 65\" 4K Ultra HD Smart LED Android TV",
+    "brand": "SEG",
+    "category": "tvs",
+    "image": "/images/products/tvs/seg-65sua740-1.jpg",
+    "images": [
+      "/images/products/tvs/seg-65sua740-1.jpg",
+      "https://resim.epey.com/933765/z_seg-65sua740-1.jpg"
+    ],
+    "rating": 4.5,
+    "epeyScore": 59,
+    "reviewCount": 36,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "65\" (164 cm) Dev 4K Ultra HD LED Ekran",
+      "24W RMS Güçlü Ses Çıkışı & Dolby Audio",
+      "Android TV Platformu & Google Asistan",
+      "Dahili Wi-Fi, Bluetooth & Chromecast"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 24,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "4 Çekirdekli Vestel İşlemci",
+      "brightnessNits": 320,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 sRGB",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1456 x 895 x 275 mm",
+      "weightKg": 18.2,
+      "vesaMount": "400x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-seg-65sua740-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Vestel Yetkili Servis"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 310,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 38500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 36200,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 34999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "seg-50sua740",
+    "slug": "seg-50sua740",
+    "name": "SEG 50SUA740 50\" 4K Ultra HD Smart LED Android TV",
+    "brand": "SEG",
+    "category": "tvs",
+    "image": "/images/products/tvs/seg-50sua740-1.jpg",
+    "images": [
+      "/images/products/tvs/seg-50sua740-1.jpg",
+      "https://resim.epey.com/935440/z_seg-50sua740-1.jpg"
+    ],
+    "rating": 4.4,
+    "epeyScore": 55,
+    "reviewCount": 26,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "50\" (126 cm) 4K Ultra HD LED Panel",
+      "20W RMS Ses Çıkışı",
+      "Android TV Akıllı İşletim Sistemi",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "4 Çekirdekli Vestel İşlemci",
+      "brightnessNits": 280,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 sRGB",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1125 x 710 x 230 mm",
+      "weightKg": 11.2,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-seg-50sua740-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Vestel Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 180,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 24500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 22900,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "seg-58sbu730",
+    "slug": "seg-58sbu730",
+    "name": "SEG 58SBU730 (20276460) 58\" 4K Ultra HD LED TV (Dahili Uydu Alıcılı)",
+    "brand": "SEG",
+    "category": "tvs",
+    "image": "/images/products/tvs/seg-58sbu730-1.jpg",
+    "images": [
+      "/images/products/tvs/seg-58sbu730-1.jpg",
+      "https://resim.epey.com/938970/z_seg-58sbu725-1.jpg"
+    ],
+    "rating": 4.3,
+    "epeyScore": 53,
+    "reviewCount": 22,
+    "basePrice": 26999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "58\" (146 cm) Büyük 4K Ultra HD LED Panel",
+      "20W RMS Ses & Dolby Audio",
+      "Dahili 4K HD Uydu Alıcısı (DVB-S2)",
+      "Geniş Salonlar İçin Sade ve Yüksek Çözünürlüklü Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 58,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "Yok",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 1,
+      "energyClass": "G",
+      "processorEngine": "Standart Vestel 4K Görüntü Motoru",
+      "brightnessNits": 300,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 sRGB",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Yok",
+      "wifiVersion": "Yok",
+      "bluetoothVersion": "Yok",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1300 x 810 x 250 mm",
+      "weightKg": 14.5,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-seg-58sbu730-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 26999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 160,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 29500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 27900,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 26999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "seg-55srb900",
+    "slug": "seg-55srb900",
+    "name": "SEG 55SRB900 (20300624) 55\" 4K Ultra HD Smart LED TV (TiVo OS)",
+    "brand": "SEG",
+    "category": "tvs",
+    "image": "/images/products/tvs/seg-55srb900-1.jpg",
+    "images": [
+      "/images/products/tvs/seg-55srb900-1.jpg",
+      "https://resim.epey.com/1026556/z_seg-55srb900-8698902011709-1.jpg"
+    ],
+    "rating": 4.3,
+    "epeyScore": 51,
+    "reviewCount": 20,
+    "basePrice": 23999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (139 cm) 4K Ultra HD LED Panel",
+      "12W RMS Net Ses Çıkışı",
+      "Yeni Nesil TiVo Akıllı İşletim Sistemi",
+      "Dahili Wi-Fi & Popüler Yayın Uygulamaları (Netflix, YouTube, Prime)"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo",
+      "audioPowerWatts": 12,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "4 Çekirdekli TiVo İşlemci",
+      "brightnessNits": 280,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%80 sRGB",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Var",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1243 x 775 x 240 mm",
+      "weightKg": 13,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah Modern Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-seg-55srb900-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 23999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Vestel Servis Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 140,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 26500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 24900,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 23999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "seg-50srb900",
+    "slug": "seg-50srb900",
+    "name": "SEG 50SRB900 (20300702) 50\" 4K Ultra HD Smart LED TV (TiVo OS)",
+    "brand": "SEG",
+    "category": "tvs",
+    "image": "/images/products/tvs/seg-50srb900-1.jpg",
+    "images": [
+      "/images/products/tvs/seg-50srb900-1.jpg",
+      "https://resim.epey.com/1028138/z_seg-50srb900-8698902013598-1.jpg"
+    ],
+    "rating": 4.3,
+    "epeyScore": 49,
+    "reviewCount": 18,
+    "basePrice": 20499,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "50\" (126 cm) 4K Ultra HD LED Panel",
+      "12W RMS Net Ses Çıkışı",
+      "Yeni Nesil TiVo Akıllı İşletim Sistemi",
+      "Dahili Wi-Fi & HD Uydu Alıcısı"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo",
+      "audioPowerWatts": 12,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "4 Çekirdekli TiVo İşlemci",
+      "brightnessNits": 280,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%80 sRGB",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Var",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1125 x 710 x 230 mm",
+      "weightKg": 10.8,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah Modern Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-seg-50srb900-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 20499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 120,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 22800,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 21300,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 20499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "seg-43sfa750",
+    "slug": "seg-43sfa750",
+    "name": "SEG 43SFA750 (20278325) 43\" Full HD Smart LED Android TV",
+    "brand": "SEG",
+    "category": "tvs",
+    "image": "/images/products/tvs/seg-43sfa750-1.jpg",
+    "images": [
+      "/images/products/tvs/seg-43sfa750-1.jpg",
+      "https://resim.epey.com/925105/z_seg-43sfa750-1.jpg"
+    ],
+    "rating": 4.3,
+    "epeyScore": 48,
+    "reviewCount": 25,
+    "basePrice": 14499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "43\" (108 cm) Full HD (1920x1080) LED Panel",
+      "16W RMS Ses Çıkışı",
+      "Android TV Akıllı İşletim Sistemi",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "resolution": "Full HD",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 16,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli Vestel İşlemci",
+      "brightnessNits": 260,
+      "contrastRatio": "3500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%80 sRGB",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "965 x 610 x 205 mm",
+      "weightKg": 7.8,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-seg-43sfa750-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 14499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Vestel Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 170,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 16200,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 15100,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "seg-40sfa750",
+    "slug": "seg-40sfa750",
+    "name": "SEG 40SFA750 (20278594) 40\" Full HD Smart LED Android TV",
+    "brand": "SEG",
+    "category": "tvs",
+    "image": "/images/products/tvs/seg-40sfa750-1.jpg",
+    "images": [
+      "/images/products/tvs/seg-40sfa750-1.jpg",
+      "https://resim.epey.com/956501/z_seg-40sfa750-8698902785945-3.jpg"
+    ],
+    "rating": 4.3,
+    "epeyScore": 47,
+    "reviewCount": 22,
+    "basePrice": 13499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "40\" (100 cm) Full HD (1920x1080) LED Panel",
+      "16W RMS Net Ses Çıkışı",
+      "Android TV Akıllı Platform",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 40,
+      "displayTech": "LED",
+      "resolution": "Full HD",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 16,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli Vestel İşlemci",
+      "brightnessNits": 250,
+      "contrastRatio": "3500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%78 sRGB",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "905 x 575 x 195 mm",
+      "weightKg": 6.9,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-seg-40sfa750-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 13499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 150,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 14900,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 13900,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "seg-43srb900",
+    "slug": "seg-43srb900",
+    "name": "SEG 43SRB900 (20300701) 43\" 4K Ultra HD Smart LED TV (TiVo OS)",
+    "brand": "SEG",
+    "category": "tvs",
+    "image": "/images/products/tvs/seg-43srb900-1.jpg",
+    "images": [
+      "/images/products/tvs/seg-43srb900-1.jpg",
+      "https://resim.epey.com/1026557/z_seg-43srb900-8698902013581-1.jpg"
+    ],
+    "rating": 4.2,
+    "epeyScore": 47,
+    "reviewCount": 16,
+    "basePrice": 15999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "43\" (108 cm) 4K Ultra HD LED Panel",
+      "8W RMS Net Ses Çıkışı",
+      "TiVo Akıllı TV Platformu",
+      "Dahili Wi-Fi & HD Uydu Alıcısı"
+    ],
+    "specs": {
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo",
+      "audioPowerWatts": 8,
+      "hdrFormats": [
+        "HDR10"
+      ],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "4 Çekirdekli TiVo İşlemci",
+      "brightnessNits": 260,
+      "contrastRatio": "3500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%80 sRGB",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Var",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "965 x 610 x 205 mm",
+      "weightKg": 7.5,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Siyah Modern Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-seg-43srb900-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 15999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Vestel Servis Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 110,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 17800,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 16700,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 15999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "seg-40srb900",
+    "slug": "seg-40srb900",
+    "name": "SEG 40SRB900 (20279384) 40\" Full HD Smart LED TV (TiVo OS)",
+    "brand": "SEG",
+    "category": "tvs",
+    "image": "/images/products/tvs/seg-40srb900-1.jpg",
+    "images": [
+      "/images/products/tvs/seg-40srb900-1.jpg",
+      "https://resim.epey.com/992097/z_seg-40srb900-1.jpg"
+    ],
+    "rating": 4.2,
+    "epeyScore": 43,
+    "reviewCount": 18,
+    "basePrice": 12999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "40\" (100 cm) Full HD LED Panel",
+      "8W RMS Net Ses Çıkışı",
+      "TiVo Akıllı İşletim Sistemi",
+      "Dahili Wi-Fi & HD Uydu Alıcısı"
+    ],
+    "specs": {
+      "screenSizeInches": 40,
+      "displayTech": "LED",
+      "resolution": "Full HD",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo",
+      "audioPowerWatts": 8,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli TiVo İşlemci",
+      "brightnessNits": 240,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%75 sRGB",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Var",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "905 x 575 x 195 mm",
+      "weightKg": 6.8,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Siyah Modern Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-seg-40srb900-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 130,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 14200,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 13400,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "seg-32sba750",
+    "slug": "seg-32sba750",
+    "name": "SEG 32SBA750 (20278323) 32\" HD Ready Smart LED Android TV",
+    "brand": "SEG",
+    "category": "tvs",
+    "image": "/images/products/tvs/seg-32sba750-1.jpg",
+    "images": [
+      "/images/products/tvs/seg-32sba750-1.jpg",
+      "https://resim.epey.com/943806/z_seg-32sbh550-1.jpg"
+    ],
+    "rating": 4.2,
+    "epeyScore": 43,
+    "reviewCount": 22,
+    "basePrice": 10499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "32\" (80 cm) HD Ready (1366x768) LED Panel",
+      "12W RMS Net Ses Çıkışı",
+      "Android TV Akıllı İşletim Sistemi",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "HD Ready",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 12,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli Vestel İşlemci",
+      "brightnessNits": 220,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%75 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "732 x 478 x 184 mm",
+      "weightKg": 4.9,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Siyah Kompakt Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-seg-32sba750-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 10499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Vestel Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 160,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 11800,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 11000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 10499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "seg-32srb900",
+    "slug": "seg-32srb900",
+    "name": "SEG 32SRB900 (20279382) 32\" HD Ready Smart LED TV (TiVo OS)",
+    "brand": "SEG",
+    "category": "tvs",
+    "image": "/images/products/tvs/seg-32srb900-1.jpg",
+    "images": [
+      "/images/products/tvs/seg-32srb900-1.jpg",
+      "https://resim.epey.com/969850/z_seg-32srb900-8698902793827-1.jpg"
+    ],
+    "rating": 4.1,
+    "epeyScore": 39,
+    "reviewCount": 20,
+    "basePrice": 9499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "32\" (80 cm) HD Ready LED Panel",
+      "8W RMS Net Ses Çıkışı",
+      "TiVo Akıllı İşletim Sistemi",
+      "Dahili Wi-Fi & HD Uydu Alıcısı"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "HD Ready",
+      "refreshRateHz": 60,
+      "smartOs": "TiVo",
+      "audioPowerWatts": 8,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "4 Çekirdekli TiVo İşlemci",
+      "brightnessNits": 220,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%75 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Var",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "732 x 478 x 184 mm",
+      "weightKg": 4.8,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Siyah Kompakt Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-seg-32srb900-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 9499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 140,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 10600,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 9900,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9499,
+        "store": "Trendyol"
+      }
+    ]
   }
 ];
