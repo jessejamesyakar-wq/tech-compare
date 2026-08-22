@@ -44538,5 +44538,2503 @@ export const mockTVs: TVProduct[] = [
         "store": "Samsung"
       }
     ]
+  },
+  {
+    "id": "samsung-75qn800d",
+    "slug": "samsung-75qn800d",
+    "name": "Samsung 75QN800D (QE75QN800DTXTK) 75\" 8K Neo QLED Smart TV (2024)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-75qn800d-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-75qn800d-1.jpg",
+      "https://resim.epey.com/938471/k_samsung-75qn800d-6.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 16,
+    "basePrice": 158400,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "75\" (189 cm) Gerçek 8K Ultra HD (7680x4320) Quantum Mini LED Panel",
+      "70W 4.2.2 Kanal Ses Sistemi & Dolby Atmos",
+      "165Hz / 144Hz Yenileme Hızı & NQ8 AI Gen2 İşlemci",
+      "Infinity One Tasarım & One Connect Bağlantı Kutusu"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "Mini LED",
+      "resolution": "8K Ultra HD (7680x4320)",
+      "refreshRateHz": 165,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 70,
+      "hdrFormats": [
+        "Neo Quantum HDR 8K+",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium Pro",
+        "Motion Xcelerator 165Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "G",
+      "processorEngine": "NQ8 AI Gen2 Processor",
+      "brightnessNits": 2000,
+      "contrastRatio": "1500000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "100% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 6E",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1668 x 1024 x 286 mm",
+      "weightKg": 41.5,
+      "vesaMount": "400x400 mm",
+      "bezelStyle": "Infinity One Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-75qn800d-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 158400,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 120,
+        "url": "https://www.samsung.com/tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 169000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 162000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 158400,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-75qn900f",
+    "slug": "samsung-75qn900f",
+    "name": "Samsung 75QN900F (QE75QN900FTXTK) 75\" 8K Neo QLED Smart TV (2025)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-75qn900f-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-75qn900f-1.jpg",
+      "https://resim.epey.com/1012056/k_samsung-75qn900f-qe85qn900ftxtk-8806097006336-5.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 14,
+    "basePrice": 158395.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "75\" (189 cm) 8K Ultra HD (7680x4320) Quantum Mini LED Panel",
+      "70W 4.2.2 Kanal Ses & Dolby Atmos",
+      "144Hz Yenileme Hızı & NQ8 AI Gen2 İşlemci",
+      "Infinity One Tasarım & Yansıma Önleyici Mat Panel"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "Mini LED",
+      "resolution": "8K Ultra HD (7680x4320)",
+      "refreshRateHz": 144,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 70,
+      "hdrFormats": [
+        "Neo Quantum HDR 8K+",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium Pro",
+        "Motion Xcelerator 144Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "G",
+      "processorEngine": "NQ8 AI Gen2 Processor",
+      "brightnessNits": 2000,
+      "contrastRatio": "1500000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "100% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 6E",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1668 x 1024 x 286 mm",
+      "weightKg": 41,
+      "vesaMount": "400x400 mm",
+      "bezelStyle": "Infinity One Çerçevesiz"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-75qn900f-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 158395.05,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 140,
+        "url": "https://www.samsung.com/tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 169000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 162000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 158395.05,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-65s90h",
+    "slug": "samsung-65s90h",
+    "name": "Samsung 65S90H (QE65S90HAEXTK) 65\" 4K OLED Smart TV (2026)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-65s90h-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-65s90h-1.jpg",
+      "https://resim.epey.com/1061434/k_samsung-48s90h-5.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 29,
+    "basePrice": 125763.08,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD OLED Panel Teknolojisi",
+      "40W 2.1 Kanal Ses Sistemi & Dolby Atmos",
+      "144Hz Yenileme Hızı & NQ4 AI Gen3 İşlemci",
+      "LaserSlim Tasarım & Pantone Renk Doğrulaması"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "OLED HDR+",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium",
+        "Motion Xcelerator 144Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "NQ4 AI Gen3 Processor",
+      "brightnessNits": 1200,
+      "contrastRatio": "Sonsuz Kontrast",
+      "viewingAngle": "178/178",
+      "colorGamut": "99% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1444 x 896 x 265 mm",
+      "weightKg": 23.5,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "LaserSlim Çerçevesiz Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-65s90h-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 125763.08,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Samsung Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 280,
+        "url": "https://www.samsung.com/tr"
+      },
+      {
+        "id": "offer-samsung-65s90h-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 126999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 190,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 135000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 129000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 125763.08,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-83s85h",
+    "slug": "samsung-83s85h",
+    "name": "Samsung 83S85H (QE83S85HAEXTK) 83\" 4K OLED Smart TV (2026)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-83s85h-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-83s85h-1.jpg",
+      "https://resim.epey.com/1061361/k_samsung-65s85h-5.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 11,
+    "basePrice": 199999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "83\" (210 cm) 4K Ultra HD OLED Panel",
+      "20W Stereo Ses & Dolby Atmos Desteği",
+      "120Hz Yenileme Hızı & NQ4 AI Gen3 İşlemci",
+      "Gerçek Derinlik Artırıcı & 4K AI Upscaling"
+    ],
+    "specs": {
+      "screenSizeInches": 83,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "OLED HDR",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium",
+        "Game Bar"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "NQ4 AI Gen3 Processor",
+      "brightnessNits": 1000,
+      "contrastRatio": "Sonsuz Kontrast",
+      "viewingAngle": "178/178",
+      "colorGamut": "98% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1850 x 1115 x 310 mm",
+      "weightKg": 38,
+      "vesaMount": "400x400 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-83s85h-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 199999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 95,
+        "url": "https://www.samsung.com/tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 210000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 204000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 199999,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-65s90f",
+    "slug": "samsung-65s90f",
+    "name": "Samsung 65S90F (QE65S90FATXTK) 65\" 4K OLED Smart TV (2025)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-65s90f-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-65s90f-1.jpg",
+      "https://resim.epey.com/1011764/k_samsung-55s90f-8806097077114-5.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 38,
+    "basePrice": 110399.08,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD OLED Panel Teknolojisi",
+      "40W 2.1 Kanal Ses Sistemi & Dolby Atmos",
+      "144Hz Yenileme Hızı & NQ4 AI Gen2 İşlemci",
+      "LaserSlim Tasarım & Pantone Renk Doğrulaması"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "OLED HDR+",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium",
+        "Motion Xcelerator 144Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "NQ4 AI Gen2 Processor",
+      "brightnessNits": 1100,
+      "contrastRatio": "Sonsuz Kontrast",
+      "viewingAngle": "178/178",
+      "colorGamut": "99% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1444 x 896 x 265 mm",
+      "weightKg": 23.1,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "LaserSlim Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-65s90f-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 110399.08,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Samsung Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 290,
+        "url": "https://www.samsung.com/tr"
+      },
+      {
+        "id": "offer-samsung-65s90f-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 111999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 210,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 119000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 114000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 110399.08,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-65r95h",
+    "slug": "samsung-65r95h",
+    "name": "Samsung 65R95H (MRE65R95HATXTK) 65\" 4K The Frame Pro Smart TV (2026)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-65r95h-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-65r95h-1.jpg",
+      "https://resim.epey.com/1060251/k_samsung-65r95h-5.jpg"
+    ],
+    "rating": 4.9,
+    "reviewCount": 22,
+    "basePrice": 170327.1,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD The Frame Pro Tablo Televizyon",
+      "70W Çok Kanallı Ses Sistemi & Dolby Atmos",
+      "Parlama Önleyici Mat Ekran & Değiştirilebilir Çerçeve Tasarımı",
+      "Samsung Art Store & Sanat Modu (Art Mode)"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 70,
+      "hdrFormats": [
+        "Quantum HDR+",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium Pro",
+        "Game Bar"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "NQ4 AI Gen3 Processor",
+      "brightnessNits": 1000,
+      "contrastRatio": "Dual LED / 5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "100% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 6E",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1456 x 875 x 260 mm",
+      "weightKg": 22.8,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Tablo Çerçeve Tasarımı"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-65r95h-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 170327.1,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Samsung Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 160,
+        "url": "https://www.samsung.com/tr"
+      },
+      {
+        "id": "offer-samsung-65r95h-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 172999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 95,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 179000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 174000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 170327.1,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-85qn85f",
+    "slug": "samsung-85qn85f",
+    "name": "Samsung 85QN85F (QE85QN85FAUXTK) 85\" 4K Neo QLED Smart TV (2025)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-85qn85f-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-85qn85f-1.jpg",
+      "https://resim.epey.com/1013140/k_samsung-55qn85f-5.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 19,
+    "basePrice": 119999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "85\" (214 cm) 4K Ultra HD Quantum Matrix Mini LED Ekran",
+      "40W 2.2 Kanal Ses Sistemi & Dolby Atmos",
+      "120Hz Yenileme Hızı & NQ4 AI Gen2 İşlemci",
+      "NeoSlim Tasarım & Geniş İzleme Açısı"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Neo Quantum HDR",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium Pro",
+        "Motion Xcelerator 120Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "NQ4 AI Gen2 Processor",
+      "brightnessNits": 1500,
+      "contrastRatio": "1000000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "100% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1893 x 1145 x 305 mm",
+      "weightKg": 44.5,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "NeoSlim Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-85qn85f-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 119999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "Samsung Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 180,
+        "url": "https://www.samsung.com/tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 128000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 123000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 119999,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-65qn800d",
+    "slug": "samsung-65qn800d",
+    "name": "Samsung 65QN800D (QE65QN800DTXTK) 65\" 8K Neo QLED Smart TV (2024)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-65qn800d-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-65qn800d-1.jpg",
+      "https://resim.epey.com/938480/k_samsung-65qn800d-6.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 15,
+    "basePrice": 161352.75,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) Gerçek 8K Ultra HD (7680x4320) Quantum Mini LED Panel",
+      "70W 4.2.2 Kanal Ses Sistemi & Dolby Atmos",
+      "165Hz / 144Hz Yenileme Hızı & NQ8 AI Gen2 İşlemci",
+      "Infinity One Tasarım & One Connect Bağlantı Kutusu"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "Mini LED",
+      "resolution": "8K Ultra HD (7680x4320)",
+      "refreshRateHz": 165,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 70,
+      "hdrFormats": [
+        "Neo Quantum HDR 8K+",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium Pro",
+        "Motion Xcelerator 165Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "G",
+      "processorEngine": "NQ8 AI Gen2 Processor",
+      "brightnessNits": 2000,
+      "contrastRatio": "1500000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "100% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 6E",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1443 x 892 x 267 mm",
+      "weightKg": 31,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Infinity One Çerçevesiz"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-65qn800d-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 161352.75,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 110,
+        "url": "https://www.samsung.com/tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 172000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 166000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 161352.75,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-65qn900f",
+    "slug": "samsung-65qn900f",
+    "name": "Samsung 65QN900F (QE65QN900FTXTK) 65\" 8K Neo QLED Smart TV (2025)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-65qn900f-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-65qn900f-1.jpg",
+      "https://resim.epey.com/1010257/k_samsung-75qn900f-qe85qn900ftxtk-8806097006336-5.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 16,
+    "basePrice": 134043.1,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 8K Ultra HD (7680x4320) Quantum Mini LED Panel",
+      "70W 4.2.2 Kanal Ses & Dolby Atmos",
+      "144Hz Yenileme Hızı & NQ8 AI Gen2 İşlemci",
+      "Infinity One Tasarım & Yansıma Önleyici Mat Panel"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "Mini LED",
+      "resolution": "8K Ultra HD (7680x4320)",
+      "refreshRateHz": 144,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 70,
+      "hdrFormats": [
+        "Neo Quantum HDR 8K+",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium Pro",
+        "Motion Xcelerator 144Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 3,
+      "energyClass": "G",
+      "processorEngine": "NQ8 AI Gen2 Processor",
+      "brightnessNits": 2000,
+      "contrastRatio": "1500000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "100% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 6E",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1443 x 892 x 267 mm",
+      "weightKg": 30.5,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Infinity One Titanyum Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-65qn900f-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 134043.1,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 120,
+        "url": "https://www.samsung.com/tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 145000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 139000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 134043.1,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-65s90d",
+    "slug": "samsung-65s90d",
+    "name": "Samsung 65S90D (QE65S90DATXTK) 65\" 4K OLED Smart TV (2024)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-65s90d-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-65s90d-1.jpg",
+      "https://resim.epey.com/938659/k_samsung-65s90d-5.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 45,
+    "basePrice": 99999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD OLED Panel Teknolojisi",
+      "40W 2.1 Kanal Ses Sistemi & Dolby Atmos / OTS Lite",
+      "144Hz Yenileme Hızı & NQ4 AI Gen2 İşlemci",
+      "LaserSlim Tasarım & Pantone Onaylı Renk Paleti"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "OLED HDR+",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium",
+        "Motion Xcelerator 144Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "NQ4 AI Gen2 Processor",
+      "brightnessNits": 1100,
+      "contrastRatio": "Sonsuz Kontrast",
+      "viewingAngle": "178/178",
+      "colorGamut": "99% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1444 x 896 x 265 mm",
+      "weightKg": 23,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "LaserSlim Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-65s90d-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 99999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Samsung Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 350,
+        "url": "https://www.samsung.com/tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 108000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 104000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 99999,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-55s90h",
+    "slug": "samsung-55s90h",
+    "name": "Samsung 55S90H (QE55S90HAEXTK) 55\" 4K OLED Smart TV (2026)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-55s90h-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-55s90h-1.jpg",
+      "https://resim.epey.com/1061208/k_samsung-48s90h-5.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 32,
+    "basePrice": 92790,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "55\" (140 cm) 4K Ultra HD OLED Panel Teknolojisi",
+      "40W 2.1 Kanal Ses Sistemi & Dolby Atmos",
+      "144Hz Yenileme Hızı & NQ4 AI Gen3 Yeni Nesil İşlemci",
+      "LaserSlim Ultra İnce Tasarım & Pantone Renk Onayı"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "OLED HDR+",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium",
+        "Motion Xcelerator 144Hz",
+        "Game Bar"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "NQ4 AI Gen3 Processor",
+      "brightnessNits": 1200,
+      "contrastRatio": "Sonsuz Kontrast",
+      "viewingAngle": "178/178",
+      "colorGamut": "99% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1225 x 774 x 265 mm",
+      "weightKg": 18.2,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "LaserSlim Çerçevesiz Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-55s90h-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 92790,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Samsung Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 320,
+        "url": "https://www.samsung.com/tr"
+      },
+      {
+        "id": "offer-samsung-55s90h-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 93999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 99000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 95000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 92790,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-75qn90d",
+    "slug": "samsung-75qn90d",
+    "name": "Samsung 75QN90D (QE75QN90DATXTK) 75\" 4K Neo QLED Smart TV (2024)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-75qn90d-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-75qn90d-1.jpg",
+      "https://resim.epey.com/938174/k_samsung-75qn90d-5.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 25,
+    "basePrice": 141750,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "75\" (189 cm) 4K Ultra HD Quantum Matrix Mini LED Ekran",
+      "60W 4.2.2 Kanal Ses Sistemi & Dolby Atmos",
+      "144Hz Yenileme Hızı & NQ4 AI Gen2 İşlemci",
+      "NeoSlim Tasarım & Parlama Önleyici Panel"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 60,
+      "hdrFormats": [
+        "Neo Quantum HDR+",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium Pro",
+        "Motion Xcelerator 144Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "NQ4 AI Gen2 Processor",
+      "brightnessNits": 2000,
+      "contrastRatio": "1000000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "100% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1670 x 1018 x 300 mm",
+      "weightKg": 39.5,
+      "vesaMount": "400x400 mm",
+      "bezelStyle": "NeoSlim Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-75qn90d-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 141750,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 180,
+        "url": "https://www.samsung.com/tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 152000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 146000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 141750,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-83s85f",
+    "slug": "samsung-83s85f",
+    "name": "Samsung 83S85F (QE83S85FAEXTK) 83\" 4K OLED Smart TV (2025)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-83s85f-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-83s85f-1.jpg",
+      "https://resim.epey.com/1010255/k_samsung-65s85f-qe65s85faextk-8806095999746-4.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 15,
+    "basePrice": 159159.08,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "83\" (210 cm) 4K Ultra HD OLED Panel",
+      "20W Stereo Ses & Dolby Atmos Desteği",
+      "120Hz Yenileme Hızı & NQ4 AI Gen2 İşlemci",
+      "Gerçek Derinlik Artırıcı & 4K AI Upscaling"
+    ],
+    "specs": {
+      "screenSizeInches": 83,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "OLED HDR",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium",
+        "Game Bar"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "NQ4 AI Gen2 Processor",
+      "brightnessNits": 1000,
+      "contrastRatio": "Sonsuz Kontrast",
+      "viewingAngle": "178/178",
+      "colorGamut": "98% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1850 x 1115 x 310 mm",
+      "weightKg": 38,
+      "vesaMount": "400x400 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-83s85f-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 159159.08,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 110,
+        "url": "https://www.samsung.com/tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 169000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 163000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 159159.08,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-77s85h",
+    "slug": "samsung-77s85h",
+    "name": "Samsung 77S85H (QE77S85HAEXTK) 77\" 4K OLED Smart TV (2026)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-77s85h-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-77s85h-1.jpg",
+      "https://resim.epey.com/1061206/k_samsung-65s85h-5.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 18,
+    "basePrice": 133999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "77\" (195 cm) 4K Ultra HD OLED Panel",
+      "20W Stereo Ses & Dolby Atmos",
+      "120Hz Yenileme Hızı & NQ4 AI Gen3 İşlemci",
+      "LaserSlim Tasarım & Pantone Onaylı Renkler"
+    ],
+    "specs": {
+      "screenSizeInches": 77,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "OLED HDR",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium",
+        "Motion Xcelerator 120Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "NQ4 AI Gen3 Processor",
+      "brightnessNits": 1000,
+      "contrastRatio": "Sonsuz Kontrast",
+      "viewingAngle": "178/178",
+      "colorGamut": "98% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1716 x 1035 x 310 mm",
+      "weightKg": 33.5,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-77s85h-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 133999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 150,
+        "url": "https://www.samsung.com/tr"
+      },
+      {
+        "id": "offer-samsung-77s85h-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 135499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 95,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 142000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 137000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 133999,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-65qn90f",
+    "slug": "samsung-65qn90f",
+    "name": "Samsung 65QN90F (QE65QN90FATXTK) 65\" 4K Neo QLED Smart TV (2025)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-65qn90f-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-65qn90f-1.jpg",
+      "https://resim.epey.com/1010252/k_samsung-85qn90f-qe85qn90fatxtk-8806095979861-5.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 34,
+    "basePrice": 93590,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD Quantum Matrix Mini LED Ekran",
+      "60W 4.2.2 Kanal Ses Sistemi & Dolby Atmos",
+      "144Hz Yenileme Hızı & NQ4 AI Gen2 İşlemci",
+      "NeoSlim Tasarım & Parlama Önleyici Panel"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 60,
+      "hdrFormats": [
+        "Neo Quantum HDR+",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium Pro",
+        "Motion Xcelerator 144Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "NQ4 AI Gen2 Processor",
+      "brightnessNits": 2000,
+      "contrastRatio": "1000000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "100% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1446 x 891 x 270 mm",
+      "weightKg": 27.5,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "NeoSlim Titanyum Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-65qn90f-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 93590,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Samsung Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 290,
+        "url": "https://www.samsung.com/tr"
+      },
+      {
+        "id": "offer-samsung-65qn90f-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 94499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 180,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 99000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 96000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 93590,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-85r85h",
+    "slug": "samsung-85r85h",
+    "name": "Samsung 85R85H (MRE85R85HAUXTK) 85\" 4K The Frame Smart TV (2026)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-85r85h-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-85r85h-1.jpg",
+      "https://resim.epey.com/1059952/k_samsung-85r85h-5.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 17,
+    "basePrice": 168986.09,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "85\" (214 cm) 4K Ultra HD The Frame Sanat Televizyonu",
+      "30W Stereo Ses & Dolby Atmos",
+      "Mat Ekran (Parlama Önleyici) & Kişiselleştirilebilir Çerçeve",
+      "Art Store & NQ4 AI Gen3 İşlemci"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Quantum HDR",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium",
+        "Game Bar"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "NQ4 AI Gen3 Processor",
+      "brightnessNits": 800,
+      "contrastRatio": "Dual LED / 4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "100% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1904 x 1125 x 345 mm",
+      "weightKg": 44,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "Modern Tablo Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-85r85h-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 168986.09,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 130,
+        "url": "https://www.samsung.com/tr"
+      },
+      {
+        "id": "offer-samsung-85r85h-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 170999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 85,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 179000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 173000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 168986.09,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-85qn85d",
+    "slug": "samsung-85qn85d",
+    "name": "Samsung 85QN85D (QE85QN85DBTXTK) 85\" 4K Neo QLED Smart TV (2024)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-85qn85d-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-85qn85d-1.jpg",
+      "https://resim.epey.com/938539/k_samsung-85qn85d-5.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 20,
+    "basePrice": 161352.75,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "85\" (214 cm) 4K Ultra HD Quantum Matrix Mini LED Ekran",
+      "40W 2.2 Kanal Ses Sistemi & Dolby Atmos",
+      "120Hz Yenileme Hızı & NQ4 AI Gen2 İşlemci",
+      "NeoSlim Tasarım & Geniş İzleme Açısı"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Neo Quantum HDR",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium Pro",
+        "Motion Xcelerator 120Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "NQ4 AI Gen2 Processor",
+      "brightnessNits": 1500,
+      "contrastRatio": "1000000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "100% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1893 x 1145 x 305 mm",
+      "weightKg": 44,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "NeoSlim Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-85qn85d-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 161352.75,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 140,
+        "url": "https://www.samsung.com/tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 172000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 166000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 161352.75,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-48s90h",
+    "slug": "samsung-48s90h",
+    "name": "Samsung 48S90H (QE48S90HAEXTK) 48\" 4K OLED Smart TV (2026)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-48s90h-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-48s90h-1.jpg",
+      "https://resim.epey.com/1061209/k_samsung-48s90h-5.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 26,
+    "basePrice": 71460,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "48\" (121 cm) 4K Ultra HD OLED Panel (Kompakt Amiral Gemisi)",
+      "40W 2.1 Kanal Ses Sistemi & Dolby Atmos",
+      "144Hz Yenileme Hızı & NQ4 AI Gen3 İşlemci",
+      "Konsol & PC Oyuncuları İçin İdeal Kompakt Boyut"
+    ],
+    "specs": {
+      "screenSizeInches": 48,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "OLED HDR+",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium",
+        "Motion Xcelerator 144Hz",
+        "Game Bar"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "NQ4 AI Gen3 Processor",
+      "brightnessNits": 1100,
+      "contrastRatio": "Sonsuz Kontrast",
+      "viewingAngle": "178/178",
+      "colorGamut": "99% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1070 x 685 x 240 mm",
+      "weightKg": 15.2,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "LaserSlim Çerçevesiz Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-48s90h-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 71460,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Samsung Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 260,
+        "url": "https://www.samsung.com/tr"
+      },
+      {
+        "id": "offer-samsung-48s90h-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 72499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 180,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 77000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 73500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 71460,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-55s90f",
+    "slug": "samsung-55s90f",
+    "name": "Samsung 55S90F (QE55S90FAEXTK) 55\" 4K OLED Smart TV (2025)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-55s90f-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-55s90f-1.jpg",
+      "https://resim.epey.com/1010260/k_samsung-55s90f-8806097077114-5.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 35,
+    "basePrice": 82753.11,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "55\" (140 cm) 4K Ultra HD OLED Panel Teknolojisi",
+      "40W 2.1 Kanal Ses Sistemi & Dolby Atmos",
+      "144Hz Yenileme Hızı & NQ4 AI Gen2 İşlemci",
+      "LaserSlim Tasarım & Pantone Renk Doğrulaması"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "OLED HDR+",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium",
+        "Motion Xcelerator 144Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "NQ4 AI Gen2 Processor",
+      "brightnessNits": 1100,
+      "contrastRatio": "Sonsuz Kontrast",
+      "viewingAngle": "178/178",
+      "colorGamut": "99% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1225 x 774 x 265 mm",
+      "weightKg": 18,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "LaserSlim Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-55s90f-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 82753.11,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Samsung Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 310,
+        "url": "https://www.samsung.com/tr"
+      },
+      {
+        "id": "offer-samsung-55s90f-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 83999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 220,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 89000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 85000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 82753.11,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-77s85f",
+    "slug": "samsung-77s85f",
+    "name": "Samsung 77S85F (QE77S85FAEXTK) 77\" 4K OLED Smart TV (2025)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-77s85f-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-77s85f-1.jpg",
+      "https://resim.epey.com/1010258/k_samsung-65s85f-qe65s85faextk-8806095999746-4.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 21,
+    "basePrice": 125580,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "77\" (195 cm) 4K Ultra HD OLED Panel",
+      "20W Stereo Ses & Dolby Atmos",
+      "120Hz Yenileme Hızı & NQ4 AI Gen2 İşlemci",
+      "Gerçek Derinlik Artırıcı & 4K AI Upscaling"
+    ],
+    "specs": {
+      "screenSizeInches": 77,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "OLED HDR",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium",
+        "Motion Xcelerator 120Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "NQ4 AI Gen2 Processor",
+      "brightnessNits": 1000,
+      "contrastRatio": "Sonsuz Kontrast",
+      "viewingAngle": "178/178",
+      "colorGamut": "98% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1716 x 1035 x 310 mm",
+      "weightKg": 33,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-77s85f-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 125580,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 160,
+        "url": "https://www.samsung.com/tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 134000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 129000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 125580,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-75qn85f",
+    "slug": "samsung-75qn85f",
+    "name": "Samsung 75QN85F (QE75QN85FAUXTK) 75\" 4K Neo QLED Smart TV (2025)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-75qn85f-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-75qn85f-1.jpg",
+      "https://resim.epey.com/1013577/k_samsung-55qn85f-5.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 22,
+    "basePrice": 114499,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "75\" (189 cm) 4K Ultra HD Quantum Matrix Mini LED Ekran",
+      "40W 2.2 Kanal Ses Sistemi & Dolby Atmos",
+      "120Hz Yenileme Hızı & NQ4 AI Gen2 İşlemci",
+      "NeoSlim Tasarım & Geniş İzleme Açısı"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Neo Quantum HDR",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium Pro",
+        "Motion Xcelerator 120Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "NQ4 AI Gen2 Processor",
+      "brightnessNits": 1500,
+      "contrastRatio": "1000000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "100% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1670 x 1018 x 300 mm",
+      "weightKg": 38.5,
+      "vesaMount": "400x400 mm",
+      "bezelStyle": "NeoSlim Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-75qn85f-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 114499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "Samsung Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 170,
+        "url": "https://www.samsung.com/tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 122000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 117000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 114499,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-85qn80h",
+    "slug": "samsung-85qn80h",
+    "name": "Samsung 85QN80H (QE85QN80HAUXTK) 85\" 4K Neo QLED Smart TV (2026)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-85qn80h-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-85qn80h-1.jpg",
+      "https://resim.epey.com/1061660/k_samsung-55qn80h-5.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 20,
+    "basePrice": 128855.09,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "85\" (214 cm) 4K Ultra HD Quantum Mini LED Ekran",
+      "30W Stereo Ses Sistemi & Dolby Atmos",
+      "144Hz / 120Hz Yenileme Hızı & NQ4 AI Gen3 İşlemci",
+      "Supersize Picture Enhancer AI & NeoSlim Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "Mini LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Quantum HDR+",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium Pro",
+        "Motion Xcelerator 144Hz",
+        "Game Bar"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "NQ4 AI Gen3 Processor",
+      "brightnessNits": 1600,
+      "contrastRatio": "1000000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "100% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1893 x 1145 x 305 mm",
+      "weightKg": 43.5,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "NeoSlim Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-85qn80h-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 128855.09,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "Samsung Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 180,
+        "url": "https://www.samsung.com/tr"
+      },
+      {
+        "id": "offer-samsung-85qn80h-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 129999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 130,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 138000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 132000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 128855.09,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-55s90d",
+    "slug": "samsung-55s90d",
+    "name": "Samsung 55S90D (QE55S90DAEXTK) 55\" 4K OLED Smart TV (2024)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-55s90d-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-55s90d-1.jpg",
+      "https://resim.epey.com/951120/k_samsung-55s90d-5.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 48,
+    "basePrice": 66150,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (140 cm) 4K Ultra HD OLED Panel Teknolojisi",
+      "40W 2.1 Kanal Ses Sistemi & Dolby Atmos",
+      "144Hz Yenileme Hızı & NQ4 AI Gen2 İşlemci",
+      "LaserSlim Tasarım & Pantone Renk Doğrulaması"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "OLED HDR+",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium",
+        "Motion Xcelerator 144Hz"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "NQ4 AI Gen2 Processor",
+      "brightnessNits": 1100,
+      "contrastRatio": "Sonsuz Kontrast",
+      "viewingAngle": "178/178",
+      "colorGamut": "99% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "1225 x 774 x 265 mm",
+      "weightKg": 17.8,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "LaserSlim Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-55s90d-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 66150,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Samsung Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 380,
+        "url": "https://www.samsung.com/tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 72000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 68500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 66150,
+        "store": "Samsung"
+      }
+    ]
+  },
+  {
+    "id": "samsung-98ls03he",
+    "slug": "samsung-98ls03he",
+    "name": "Samsung 98LS03HE (QE98LS03HEUXTK) 98\" 4K The Frame Smart TV (2026)",
+    "brand": "Samsung",
+    "category": "tvs",
+    "image": "/images/products/tvs/samsung-98ls03he-1.jpg",
+    "images": [
+      "/images/products/tvs/samsung-98ls03he-1.jpg",
+      "https://resim.epey.com/1063174/k_samsung-98ls03he-13.jpg"
+    ],
+    "rating": 4.9,
+    "reviewCount": 14,
+    "basePrice": 277799,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "98\" (248 cm) Devasa 4K Ultra HD The Frame Sanat Televizyonu",
+      "40W 2.2 Kanal Ses Sistemi & Dolby Atmos",
+      "Parlama Önleyici Mat Ekran (Anti-Reflection) & Tablo Tasarımı",
+      "Samsung Art Store & Sanat Modu (Art Mode)"
+    ],
+    "specs": {
+      "screenSizeInches": 98,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Tizen OS",
+      "audioPowerWatts": 40,
+      "hdrFormats": [
+        "Quantum HDR+",
+        "HDR10+ Gaming",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "VRR",
+        "FreeSync Premium Pro",
+        "Game Bar"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "NQ4 AI Gen3 Processor",
+      "brightnessNits": 1000,
+      "contrastRatio": "Dual LED / 5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "100% DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Bixby & Alexa",
+      "wifiVersion": "Wi-Fi 6E",
+      "bluetoothVersion": "5.2",
+      "appleAirplay": true,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "2195 x 1290 x 380 mm",
+      "weightKg": 58,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "Modern Tablo Çerçeve Tasarımı"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-samsung-98ls03he-samsung",
+        "storeName": "Samsung Online Mağaza",
+        "storeLogoColor": "#1428a0",
+        "price": 277799,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "Samsung Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 95,
+        "url": "https://www.samsung.com/tr"
+      },
+      {
+        "id": "offer-samsung-98ls03he-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 279999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 60,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 295000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 285000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 277799,
+        "store": "Samsung"
+      }
+    ]
   }
 ];
