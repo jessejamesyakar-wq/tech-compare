@@ -33054,5 +33054,1861 @@ export const mockLaptops: LaptopProduct[] = [
         "store": "Hepsiburada"
       }
     ]
+  },
+  {
+    "id": "lenovo-thinkbook-16p-g6-iax-21r0001jtxat60",
+    "slug": "lenovo-thinkbook-16p-g6-iax-21r0001jtxat60",
+    "name": "Lenovo ThinkBook 16p G6 IAX 21R0001JTXAT60",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxat60-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxat60-1.jpg",
+      "https://resim.epey.com/1048996/z_lenovo-thinkbook-16p-g6-iax-21r0001jtxat60-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 24,
+    "basePrice": 186213.3,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "Intel Core Ultra 9 275HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "64GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront / Vapor Chamber Soğutma Mimarisi"
+    ],
+    "specs": {
+      "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 24 İzlek)",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "screenBrightnessNits": 430,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 85,
+      "batteryLifeHours": 8,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "2x USB 3.2 Gen 2 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.15,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Storm Grey)",
+      "keyboard": "TrueStrike / ThinkPad Ergonomik Aydınlatmalı Klavye",
+      "webcam": "1080p FHD RGB + IR Hibrit Kamera (Gizlilik Deklanşörü)",
+      "audio": "Harman Kardon / Dolby Atmos® Destekli 4x Hoparlör Sistemi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-iax-21r0001jtxat60-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 186213.3,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4800,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-iax-21r0001jtxat60-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 188075,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 197386,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 191800,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 186213.3,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-thinkbook-16p-g6-iax-21r0001jtxat30",
+    "slug": "lenovo-thinkbook-16p-g6-iax-21r0001jtxat30",
+    "name": "Lenovo ThinkBook 16p G6 IAX 21R0001JTXAT30",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxat30-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxat30-1.jpg",
+      "https://resim.epey.com/1048995/z_lenovo-thinkbook-16p-g6-iax-21r0001jtxat30-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 91,
+    "reviewCount": 34,
+    "basePrice": 189748.8,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "Intel Core Ultra 9 275HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "64GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront / Vapor Chamber Soğutma Mimarisi"
+    ],
+    "specs": {
+      "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 24 İzlek)",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "screenBrightnessNits": 430,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 85,
+      "batteryLifeHours": 8,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "2x USB 3.2 Gen 2 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.15,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Storm Grey)",
+      "keyboard": "TrueStrike / ThinkPad Ergonomik Aydınlatmalı Klavye",
+      "webcam": "1080p FHD RGB + IR Hibrit Kamera (Gizlilik Deklanşörü)",
+      "audio": "Harman Kardon / Dolby Atmos® Destekli 4x Hoparlör Sistemi",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-iax-21r0001jtxat30-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 189748.8,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4800,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-iax-21r0001jtxat30-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 191646,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 201134,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 195441,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 189748.8,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-legion-5-pro-83lt005rtrf40",
+    "slug": "lenovo-legion-5-pro-83lt005rtrf40",
+    "name": "Lenovo Legion 5 Pro 83LT005RTRF40",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+    "image": "/images/products/laptops/lenovo-legion-5-pro-83lt005rtrf40-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-legion-5-pro-83lt005rtrf40-1.jpg",
+      "https://resim.epey.com/1057242/z_lenovo-legion-5-pro-83lt005rtrf40-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 21,
+    "basePrice": 302639.98,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 500 Nit HDR 400 G-Sync IPS)",
+      "AMD Ryzen 9 8940HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "128GB DDR5 RAM & 4TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront / Vapor Chamber Soğutma Mimarisi"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek",
+      "npuTops": 13,
+      "ramGb": 128,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 128,
+      "storageGb": 4096,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 500 Nit HDR 400 G-Sync IPS)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 80,
+      "batteryLifeHours": 8,
+      "chargerWatts": 300,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "2x USB 3.2 Gen 2 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.5,
+      "thicknessMm": 22,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Storm Grey)",
+      "keyboard": "TrueStrike / ThinkPad Ergonomik Aydınlatmalı Klavye",
+      "webcam": "1080p FHD RGB + IR Hibrit Kamera (Gizlilik Deklanşörü)",
+      "audio": "Harman Kardon / Dolby Atmos® Destekli 4x Hoparlör Sistemi",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-legion-5-pro-83lt005rtrf40-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 302639.98,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4800,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-legion-5-pro-83lt005rtrf40-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 305666,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 320798,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 311719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 302639.98,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-thinkbook-16p-g6-21u00013tx-atl17",
+    "slug": "lenovo-thinkbook-16p-g6-21u00013tx-atl17",
+    "name": "Lenovo ThinkBook 16p G6 21U00013TX ATL17",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl17-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl17-1.jpg",
+      "https://resim.epey.com/1041932/z_lenovo-thinkbook-16p-g6-21u00013tx-atl17-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 23,
+    "basePrice": 122239,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "AMD Ryzen 9 8940HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (140W)",
+      "64GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront / Vapor Chamber Soğutma Mimarisi"
+    ],
+    "specs": {
+      "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "screenBrightnessNits": 430,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 85,
+      "batteryLifeHours": 8,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "2x USB 3.2 Gen 2 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.15,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Storm Grey)",
+      "keyboard": "TrueStrike / ThinkPad Ergonomik Aydınlatmalı Klavye",
+      "webcam": "1080p FHD RGB + IR Hibrit Kamera (Gizlilik Deklanşörü)",
+      "audio": "Harman Kardon / Dolby Atmos® Destekli 4x Hoparlör Sistemi",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-21u00013tx-atl17-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 122239,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4800,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-21u00013tx-atl17-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 123461,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 129573,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 125906,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 122239,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-thinkpad-p16-g3-21rq000jtx",
+    "slug": "lenovo-thinkpad-p16-g3-21rq000jtx",
+    "name": "Lenovo ThinkPad P16 G3 21RQ000JTX",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Mobil Kurumsal İş İstasyonu (Workstation)",
+    "image": "/images/products/laptops/lenovo-thinkpad-p16-g3-21rq000jtx-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-thinkpad-p16-g3-21rq000jtx-1.jpg",
+      "https://resim.epey.com/1057798/z_lenovo-thinkpad-p16-g3-21rq000jtx-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 13,
+    "basePrice": 278599,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 3840 x 2400 (WQUXGA OLED 16:10 %100 DCI-P3 400 Nit HDR 500 True Black)",
+      "Intel Core Ultra 9 275HX Canavar İşlemci",
+      "NVIDIA RTX 4000 Ada Generation (12GB GDDR6 ECC - 130W)",
+      "64GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront / Vapor Chamber Soğutma Mimarisi"
+    ],
+    "specs": {
+      "productType": "Mobil Kurumsal İş İstasyonu (Workstation)",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 24 İzlek)",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 192,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 4000 Ada Generation (12GB GDDR6 ECC - 130W)",
+      "gpuTgpWatts": 130,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3840 x 2400 (WQUXGA OLED 16:10 %100 DCI-P3 400 Nit HDR 500 True Black)",
+      "screenBrightnessNits": 400,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 94,
+      "batteryLifeHours": 8,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "2x USB 3.2 Gen 2 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.95,
+      "thicknessMm": 30.2,
+      "bodyMaterial": "Karbon Fiber & Alüminyum-Magnezyum Kasa",
+      "keyboard": "TrueStrike / ThinkPad Ergonomik Aydınlatmalı Klavye",
+      "webcam": "1080p FHD RGB + IR Hibrit Kamera (Gizlilik Deklanşörü)",
+      "audio": "Harman Kardon / Dolby Atmos® Destekli 4x Hoparlör Sistemi",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-thinkpad-p16-g3-21rq000jtx-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 278599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4800,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-thinkpad-p16-g3-21rq000jtx-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 281385,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 295315,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 286957,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 278599,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-thinkbook-16p-g6-iax-21r0001jtxf27",
+    "slug": "lenovo-thinkbook-16p-g6-iax-21r0001jtxf27",
+    "name": "Lenovo ThinkBook 16p G6 IAX 21R0001JTXF27",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxf27-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxf27-1.jpg",
+      "https://resim.epey.com/1056522/z_lenovo-thinkbook-16p-g6-iax-21r0001jtxf27-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 15,
+    "basePrice": 226009.79,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "Intel Core Ultra 9 275HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "40GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront / Vapor Chamber Soğutma Mimarisi"
+    ],
+    "specs": {
+      "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 24 İzlek)",
+      "npuTops": 13,
+      "ramGb": 40,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "screenBrightnessNits": 430,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 85,
+      "batteryLifeHours": 8,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "2x USB 3.2 Gen 2 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.15,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Storm Grey)",
+      "keyboard": "TrueStrike / ThinkPad Ergonomik Aydınlatmalı Klavye",
+      "webcam": "1080p FHD RGB + IR Hibrit Kamera (Gizlilik Deklanşörü)",
+      "audio": "Harman Kardon / Dolby Atmos® Destekli 4x Hoparlör Sistemi",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-iax-21r0001jtxf27-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 226009.79,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4800,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-iax-21r0001jtxf27-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 228270,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 239570,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 232790,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 226009.79,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-thinkbook-16p-g6-iax-21r0001jtxat58",
+    "slug": "lenovo-thinkbook-16p-g6-iax-21r0001jtxat58",
+    "name": "Lenovo ThinkBook 16p G6 IAX 21R0001JTXAT58",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxat58-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxat58-1.jpg",
+      "https://resim.epey.com/1048999/z_lenovo-thinkbook-16p-g6-iax-21r0001jtxat58-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 28,
+    "basePrice": 156220.8,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "Intel Core Ultra 9 275HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (140W)",
+      "64GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront / Vapor Chamber Soğutma Mimarisi"
+    ],
+    "specs": {
+      "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 24 İzlek)",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "screenBrightnessNits": 430,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 85,
+      "batteryLifeHours": 8,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "2x USB 3.2 Gen 2 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.15,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Storm Grey)",
+      "keyboard": "TrueStrike / ThinkPad Ergonomik Aydınlatmalı Klavye",
+      "webcam": "1080p FHD RGB + IR Hibrit Kamera (Gizlilik Deklanşörü)",
+      "audio": "Harman Kardon / Dolby Atmos® Destekli 4x Hoparlör Sistemi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-iax-21r0001jtxat58-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 156220.8,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4800,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-iax-21r0001jtxat58-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 157783,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 165594,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 160907,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 156220.8,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-thinkbook-16p-g6-21u00013tx-atl8",
+    "slug": "lenovo-thinkbook-16p-g6-21u00013tx-atl8",
+    "name": "Lenovo ThinkBook 16p G6 21U00013TX ATL8",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl8-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl8-1.jpg",
+      "https://resim.epey.com/1034015/z_lenovo-thinkbook-16p-g6-21u00013tx-atl8-8.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 36,
+    "basePrice": 129879.1,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "AMD Ryzen 9 8940HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (140W)",
+      "64GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront / Vapor Chamber Soğutma Mimarisi"
+    ],
+    "specs": {
+      "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "screenBrightnessNits": 430,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 85,
+      "batteryLifeHours": 8,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "2x USB 3.2 Gen 2 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.15,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Storm Grey)",
+      "keyboard": "TrueStrike / ThinkPad Ergonomik Aydınlatmalı Klavye",
+      "webcam": "1080p FHD RGB + IR Hibrit Kamera (Gizlilik Deklanşörü)",
+      "audio": "Harman Kardon / Dolby Atmos® Destekli 4x Hoparlör Sistemi",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-21u00013tx-atl8-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 129879.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4800,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-21u00013tx-atl8-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 131178,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 137672,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 133775,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 129879.1,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-thinkbook-16p-g6-21u00013tx-atl16",
+    "slug": "lenovo-thinkbook-16p-g6-21u00013tx-atl16",
+    "name": "Lenovo ThinkBook 16p G6 21U00013TX ATL16",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl16-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl16-1.jpg",
+      "https://resim.epey.com/1041928/z_lenovo-thinkbook-16p-g6-21u00013tx-atl16-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 33,
+    "basePrice": 114837.8,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "AMD Ryzen 9 8940HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 115W)",
+      "64GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront / Vapor Chamber Soğutma Mimarisi"
+    ],
+    "specs": {
+      "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 115W)",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "screenBrightnessNits": 430,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 85,
+      "batteryLifeHours": 8,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "2x USB 3.2 Gen 2 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.15,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Storm Grey)",
+      "keyboard": "TrueStrike / ThinkPad Ergonomik Aydınlatmalı Klavye",
+      "webcam": "1080p FHD RGB + IR Hibrit Kamera (Gizlilik Deklanşörü)",
+      "audio": "Harman Kardon / Dolby Atmos® Destekli 4x Hoparlör Sistemi",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-21u00013tx-atl16-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 114837.8,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4800,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-21u00013tx-atl16-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 115986,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 121728,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 118283,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 114837.8,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-thinkbook-16p-g6-21u00013tx-atl15",
+    "slug": "lenovo-thinkbook-16p-g6-21u00013tx-atl15",
+    "name": "Lenovo ThinkBook 16p G6 21U00013TX ATL15",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl15-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl15-1.jpg",
+      "https://resim.epey.com/1041965/z_lenovo-thinkbook-16p-g6-21u00013tx-atl15-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 87,
+    "reviewCount": 23,
+    "basePrice": 126059,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "AMD Ryzen 9 8940HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (140W)",
+      "64GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront / Vapor Chamber Soğutma Mimarisi"
+    ],
+    "specs": {
+      "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "screenBrightnessNits": 430,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 85,
+      "batteryLifeHours": 8,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "2x USB 3.2 Gen 2 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.15,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Storm Grey)",
+      "keyboard": "TrueStrike / ThinkPad Ergonomik Aydınlatmalı Klavye",
+      "webcam": "1080p FHD RGB + IR Hibrit Kamera (Gizlilik Deklanşörü)",
+      "audio": "Harman Kardon / Dolby Atmos® Destekli 4x Hoparlör Sistemi",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-21u00013tx-atl15-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 126059,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4800,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-21u00013tx-atl15-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 127320,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 133623,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 129841,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 126059,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-thinkbook-16p-g6-21u00013tx-atl6",
+    "slug": "lenovo-thinkbook-16p-g6-21u00013tx-atl6",
+    "name": "Lenovo ThinkBook 16p G6 21U00013TX ATL6",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl6-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl6-1.jpg",
+      "https://resim.epey.com/1034016/z_lenovo-thinkbook-16p-g6-21u00013tx-atl6-8.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 87,
+    "reviewCount": 14,
+    "basePrice": 109585.3,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "AMD Ryzen 9 8940HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 115W)",
+      "64GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront / Vapor Chamber Soğutma Mimarisi"
+    ],
+    "specs": {
+      "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 115W)",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "screenBrightnessNits": 430,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 85,
+      "batteryLifeHours": 8,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "2x USB 3.2 Gen 2 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.15,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Storm Grey)",
+      "keyboard": "TrueStrike / ThinkPad Ergonomik Aydınlatmalı Klavye",
+      "webcam": "1080p FHD RGB + IR Hibrit Kamera (Gizlilik Deklanşörü)",
+      "audio": "Harman Kardon / Dolby Atmos® Destekli 4x Hoparlör Sistemi",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-21u00013tx-atl6-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 109585.3,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4800,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-21u00013tx-atl6-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 110681,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 116160,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 112873,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 109585.3,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-legion-5-pro-83lt005rtrf38",
+    "slug": "lenovo-legion-5-pro-83lt005rtrf38",
+    "name": "Lenovo Legion 5 Pro 83LT005RTRF38",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+    "image": "/images/products/laptops/lenovo-legion-5-pro-83lt005rtrf38-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-legion-5-pro-83lt005rtrf38-1.jpg",
+      "https://resim.epey.com/1057229/z_lenovo-legion-5-pro-83lt005rtrf38-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 86,
+    "reviewCount": 20,
+    "basePrice": 247499.98,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 500 Nit HDR 400 G-Sync IPS)",
+      "AMD Ryzen 9 8940HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "128GB DDR5 RAM & 4TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront / Vapor Chamber Soğutma Mimarisi"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek",
+      "npuTops": 13,
+      "ramGb": 128,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 128,
+      "storageGb": 4096,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 500 Nit HDR 400 G-Sync IPS)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 80,
+      "batteryLifeHours": 8,
+      "chargerWatts": 300,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "2x USB 3.2 Gen 2 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.5,
+      "thicknessMm": 22,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Storm Grey)",
+      "keyboard": "TrueStrike / ThinkPad Ergonomik Aydınlatmalı Klavye",
+      "webcam": "1080p FHD RGB + IR Hibrit Kamera (Gizlilik Deklanşörü)",
+      "audio": "Harman Kardon / Dolby Atmos® Destekli 4x Hoparlör Sistemi",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-legion-5-pro-83lt005rtrf38-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 247499.98,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4800,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-legion-5-pro-83lt005rtrf38-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 249975,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 262350,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 254925,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 247499.98,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-thinkbook-16p-g6-iax-21r0001jtxat82",
+    "slug": "lenovo-thinkbook-16p-g6-iax-21r0001jtxat82",
+    "name": "Lenovo ThinkBook 16p G6 IAX 21R0001JTXAT82",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxat82-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxat82-1.jpg",
+      "https://resim.epey.com/1049001/z_lenovo-thinkbook-16p-g6-iax-21r0001jtxat82-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 86,
+    "reviewCount": 33,
+    "basePrice": 134632.1,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "Intel Core Ultra 9 275HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (140W)",
+      "48GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront / Vapor Chamber Soğutma Mimarisi"
+    ],
+    "specs": {
+      "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 24 İzlek)",
+      "npuTops": 13,
+      "ramGb": 48,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "screenBrightnessNits": 430,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 85,
+      "batteryLifeHours": 8,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "2x USB 3.2 Gen 2 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.15,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Storm Grey)",
+      "keyboard": "TrueStrike / ThinkPad Ergonomik Aydınlatmalı Klavye",
+      "webcam": "1080p FHD RGB + IR Hibrit Kamera (Gizlilik Deklanşörü)",
+      "audio": "Harman Kardon / Dolby Atmos® Destekli 4x Hoparlör Sistemi",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-iax-21r0001jtxat82-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 134632.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4800,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-iax-21r0001jtxat82-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 135978,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 142710,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 138671,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 134632.1,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-thinkbook-16p-g6-iax-21r0001jtxat44",
+    "slug": "lenovo-thinkbook-16p-g6-iax-21r0001jtxat44",
+    "name": "Lenovo ThinkBook 16p G6 IAX 21R0001JTXAT44",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxat44-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-thinkbook-16p-g6-iax-21r0001jtxat44-1.jpg",
+      "https://resim.epey.com/1048994/z_lenovo-thinkbook-16p-g6-iax-21r0001jtxat44-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 86,
+    "reviewCount": 22,
+    "basePrice": 128871.3,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "Intel Core Ultra 9 275HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (140W)",
+      "32GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront / Vapor Chamber Soğutma Mimarisi"
+    ],
+    "specs": {
+      "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+      "processor": "Intel Core Ultra 9 275HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 24 İzlek)",
+      "npuTops": 13,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "screenBrightnessNits": 430,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 85,
+      "batteryLifeHours": 8,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "2x USB 3.2 Gen 2 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.15,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Storm Grey)",
+      "keyboard": "TrueStrike / ThinkPad Ergonomik Aydınlatmalı Klavye",
+      "webcam": "1080p FHD RGB + IR Hibrit Kamera (Gizlilik Deklanşörü)",
+      "audio": "Harman Kardon / Dolby Atmos® Destekli 4x Hoparlör Sistemi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-iax-21r0001jtxat44-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 128871.3,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4800,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-iax-21r0001jtxat44-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 130160,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 136604,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 132737,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 128871.3,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-legion-5-pro-83lt005rtrp330",
+    "slug": "lenovo-legion-5-pro-83lt005rtrp330",
+    "name": "Lenovo Legion 5 Pro 83LT005RTRP330",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+    "image": "/images/products/laptops/lenovo-legion-5-pro-83lt005rtrp330-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-legion-5-pro-83lt005rtrp330-1.jpg",
+      "https://resim.epey.com/1060923/z_lenovo-legion-5-pro-83lt005rtrp330-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 86,
+    "reviewCount": 27,
+    "basePrice": 219186.47,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 500 Nit HDR 400 G-Sync IPS)",
+      "AMD Ryzen 9 8940HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (140W)",
+      "40GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront / Vapor Chamber Soğutma Mimarisi"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek",
+      "npuTops": 13,
+      "ramGb": 40,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 128,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 500 Nit HDR 400 G-Sync IPS)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 80,
+      "batteryLifeHours": 8,
+      "chargerWatts": 300,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "2x USB 3.2 Gen 2 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.5,
+      "thicknessMm": 22,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Storm Grey)",
+      "keyboard": "TrueStrike / ThinkPad Ergonomik Aydınlatmalı Klavye",
+      "webcam": "1080p FHD RGB + IR Hibrit Kamera (Gizlilik Deklanşörü)",
+      "audio": "Harman Kardon / Dolby Atmos® Destekli 4x Hoparlör Sistemi",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-legion-5-pro-83lt005rtrp330-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 219186.47,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4800,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-legion-5-pro-83lt005rtrp330-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 221378,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 232338,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 225762,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 219186.47,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-thinkbook-16p-g6-21u00013tx-atl14",
+    "slug": "lenovo-thinkbook-16p-g6-21u00013tx-atl14",
+    "name": "Lenovo ThinkBook 16p G6 21U00013TX ATL14",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl14-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl14-1.jpg",
+      "https://resim.epey.com/1041904/z_lenovo-thinkbook-16p-g6-21u00013tx-atl14-8.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 85,
+    "reviewCount": 23,
+    "basePrice": 111131,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "AMD Ryzen 9 8940HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 115W)",
+      "32GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront / Vapor Chamber Soğutma Mimarisi"
+    ],
+    "specs": {
+      "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek",
+      "npuTops": 13,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 115W)",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "screenBrightnessNits": 430,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 85,
+      "batteryLifeHours": 8,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "2x USB 3.2 Gen 2 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x SD Express 7.0 Kart Okuyucu",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.15,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Storm Grey)",
+      "keyboard": "TrueStrike / ThinkPad Ergonomik Aydınlatmalı Klavye",
+      "webcam": "1080p FHD RGB + IR Hibrit Kamera (Gizlilik Deklanşörü)",
+      "audio": "Harman Kardon / Dolby Atmos® Destekli 4x Hoparlör Sistemi",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-21u00013tx-atl14-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 111131,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4800,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-21u00013tx-atl14-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 112242,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 117799,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 114465,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 111131,
+        "store": "Hepsiburada"
+      }
+    ]
   }
 ];
