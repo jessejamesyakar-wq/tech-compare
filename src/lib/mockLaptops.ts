@@ -26054,5 +26054,2301 @@ export const mockLaptops: LaptopProduct[] = [
         "store": "Hepsiburada"
       }
     ]
+  },
+  {
+    "id": "dell-alienware-16x-aurora-ac16251",
+    "slug": "dell-alienware-16x-aurora-ac16251",
+    "name": "Dell Alienware 16X Aurora AC16251",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Üst Düzey Oyuncu Laptopu",
+    "image": "/images/products/laptops/dell-alienware-16x-aurora-ac16251-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-alienware-16x-aurora-ac16251-1.jpg",
+      "https://resim.epey.com/1031203/z_dell-alienware-16x-aurora-ac16251-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 64,
+    "reviewCount": 22,
+    "basePrice": 79731.99,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ 240Hz 3ms %100 DCI-P3 G-Sync & ComfortView Plus)",
+      "Intel Core Ultra 7 255HX Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4070 Mobile 8GB Grafik Birimi",
+      "16GB RAM & 1TB Hızlı SSD",
+      "Alienware Cryo-tech™ Gelişmiş Soğutma & AlienFX RGB"
+    ],
+    "specs": {
+      "productType": "Üst Düzey Oyuncu Laptopu",
+      "processor": "Intel Core Ultra 7 255HX",
+      "processorCores": "20 Çekirdek (8P + 12E)",
+      "npuTops": 34,
+      "ramGb": 16,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Mobile 8GB",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ 240Hz 3ms %100 DCI-P3 G-Sync & ComfortView Plus)",
+      "screenBrightnessNits": 400,
+      "colorGamut": "%100 sRGB & %100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet",
+        "1x SD Kart Okuyucu",
+        "1x 3.5mm Universal Ses Girişi"
+      ],
+      "weightKg": 2.65,
+      "thicknessMm": 22.9,
+      "bodyMaterial": "Magnezyum & Eloksallı Alüminyum Gövde",
+      "keyboard": "Alienware M-Serisi Arkadan Aydınlatmalı RGB Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos® Stereo Hoparlörler",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-alienware-16x-aurora-ac16251-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 79731.99,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2950,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-alienware-16x-aurora-ac16251-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 80529,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1840,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 83719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 81327,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 79731.99,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-precision-3591-xctop3591emea-vp1h516",
+    "slug": "dell-precision-3591-xctop3591emea-vp1h516",
+    "name": "Dell Precision 3591 XCTOP3591EMEA-VP1H516",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Kurumsal Mobil İş İstasyonu",
+    "image": "/images/products/laptops/dell-precision-3591-xctop3591emea-vp1h516-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-precision-3591-xctop3591emea-vp1h516-1.jpg",
+      "https://resim.epey.com/1068848/z_dell-precision-3591-xctop3591emea-vp1h516-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 63,
+    "reviewCount": 27,
+    "basePrice": 162734.1,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "15.6\" 1920 x 1200 (FHD+ IPS 300 Nit %100 sRGB)",
+      "Intel Core Ultra 7 155H Güçlü İşlemci",
+      "NVIDIA RTX 500 Ada Generation Mobile 4GB Grafik Birimi",
+      "64GB RAM & 2TB Hızlı SSD",
+      "Dell Kurumsal Dayanıklılık & Güvenlik"
+    ],
+    "specs": {
+      "productType": "Kurumsal Mobil İş İstasyonu",
+      "processor": "Intel Core Ultra 7 155H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE)",
+      "npuTops": 34,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 500 Ada Generation Mobile 4GB",
+      "gpuTgpWatts": 50,
+      "muxSwitch": false,
+      "screenSizeInches": 15.6,
+      "screenResolution": "1920 x 1200 (FHD+ IPS 300 Nit %100 sRGB)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 72,
+      "batteryLifeHours": 8,
+      "chargerWatts": 130,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet",
+        "1x SD Kart Okuyucu",
+        "1x 3.5mm Universal Ses Girişi"
+      ],
+      "weightKg": 1.79,
+      "thicknessMm": 22.7,
+      "bodyMaterial": "Güçlendirilmiş Polimer & Alüminyum Kasa",
+      "keyboard": "Arkadan Aydınlatmalı Sıvı Dökülmesine Dayanıklı Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Waves MaxxAudio Pro Destekli Stereo Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-precision-3591-xctop3591emea-vp1h516-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 162734.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2950,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-precision-3591-xctop3591emea-vp1h516-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 164361,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1840,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 170871,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 165989,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 162734.1,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-16-u7255h-32gbram-2tbssd-w11p",
+    "slug": "dell-pro-max-16-u7255h-32gbram-2tbssd-w11p",
+    "name": "Dell Pro Max 16 (U7255H/32GBRAM/2TBSSD/W11P)",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-16-u7255h-32gbram-2tbssd-w11p-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-16-u7255h-32gbram-2tbssd-w11p-1.jpg",
+      "https://resim.epey.com/1066918/z_dell-pro-max-16-mc16250-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 63,
+    "reviewCount": 36,
+    "basePrice": 191295.09,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ 165Hz IPS %100 sRGB 400 Nit)",
+      "Intel Core Ultra 7 255H Güçlü İşlemci",
+      "NVIDIA RTX 1000 Ada Generation Mobile 6GB Grafik Birimi",
+      "32GB RAM & 2TB Hızlı SSD",
+      "Dell Kurumsal Dayanıklılık & Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 255H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE)",
+      "npuTops": 34,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 1000 Ada Generation Mobile 6GB",
+      "gpuTgpWatts": 60,
+      "muxSwitch": false,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ 165Hz IPS %100 sRGB 400 Nit)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 72,
+      "batteryLifeHours": 8,
+      "chargerWatts": 130,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet",
+        "1x SD Kart Okuyucu",
+        "1x 3.5mm Universal Ses Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Güçlendirilmiş Polimer & Alüminyum Kasa",
+      "keyboard": "Arkadan Aydınlatmalı Sıvı Dökülmesine Dayanıklı Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Waves MaxxAudio Pro Destekli Stereo Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-16-u7255h-32gbram-2tbssd-w11p-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 191295.09,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2950,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-16-u7255h-32gbram-2tbssd-w11p-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 193208,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1840,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 200860,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 195121,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 191295.09,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-alienware-16-aurora-ac16250-c71615u56n007",
+    "slug": "dell-alienware-16-aurora-ac16250-c71615u56n007",
+    "name": "Dell Alienware 16 Aurora AC16250-C71615U56N007",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Üst Düzey Oyuncu Laptopu",
+    "image": "/images/products/laptops/dell-alienware-16-aurora-ac16250-c71615u56n007-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-alienware-16-aurora-ac16250-c71615u56n007-1.jpg",
+      "https://resim.epey.com/1047124/z_dell-alienware-16-aurora-ac16250-c71615u56n007-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 63,
+    "reviewCount": 20,
+    "basePrice": 89141.5,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ 240Hz 3ms %100 DCI-P3 G-Sync & ComfortView Plus)",
+      "Intel Core 7 240H Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4060 Mobile 8GB Grafik Birimi",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Alienware Cryo-tech™ Gelişmiş Soğutma & AlienFX RGB"
+    ],
+    "specs": {
+      "productType": "Üst Düzey Oyuncu Laptopu",
+      "processor": "Intel Core 7 240H",
+      "processorCores": "10 Çekirdek (6P + 4E)",
+      "npuTops": 0,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4060 Mobile 8GB",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ 240Hz 3ms %100 DCI-P3 G-Sync & ComfortView Plus)",
+      "screenBrightnessNits": 400,
+      "colorGamut": "%100 sRGB & %100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet",
+        "1x SD Kart Okuyucu",
+        "1x 3.5mm Universal Ses Girişi"
+      ],
+      "weightKg": 2.65,
+      "thicknessMm": 22.9,
+      "bodyMaterial": "Magnezyum & Eloksallı Alüminyum Gövde",
+      "keyboard": "Alienware M-Serisi Arkadan Aydınlatmalı RGB Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos® Stereo Hoparlörler",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-alienware-16-aurora-ac16250-c71615u56n007-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 89141.5,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2950,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-alienware-16-aurora-ac16250-c71615u56n007-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 90033,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1840,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 93599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 90924,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 89141.5,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-alienware-16-aurora-ac16250-c71615u56n018",
+    "slug": "dell-alienware-16-aurora-ac16250-c71615u56n018",
+    "name": "Dell Alienware 16 Aurora AC16250-C71615U56N018",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Üst Düzey Oyuncu Laptopu",
+    "image": "/images/products/laptops/dell-alienware-16-aurora-ac16250-c71615u56n018-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-alienware-16-aurora-ac16250-c71615u56n018-1.jpg",
+      "https://resim.epey.com/1047533/z_dell-alienware-16-aurora-ac16250-c71615u56n018-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 63,
+    "reviewCount": 33,
+    "basePrice": 82340.2,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ 240Hz 3ms %100 DCI-P3 G-Sync & ComfortView Plus)",
+      "Intel Core 7 240H Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4060 Mobile 8GB Grafik Birimi",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Alienware Cryo-tech™ Gelişmiş Soğutma & AlienFX RGB"
+    ],
+    "specs": {
+      "productType": "Üst Düzey Oyuncu Laptopu",
+      "processor": "Intel Core 7 240H",
+      "processorCores": "10 Çekirdek (6P + 4E)",
+      "npuTops": 0,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4060 Mobile 8GB",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ 240Hz 3ms %100 DCI-P3 G-Sync & ComfortView Plus)",
+      "screenBrightnessNits": 400,
+      "colorGamut": "%100 sRGB & %100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet",
+        "1x SD Kart Okuyucu",
+        "1x 3.5mm Universal Ses Girişi"
+      ],
+      "weightKg": 2.65,
+      "thicknessMm": 22.9,
+      "bodyMaterial": "Magnezyum & Eloksallı Alüminyum Gövde",
+      "keyboard": "Alienware M-Serisi Arkadan Aydınlatmalı RGB Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos® Stereo Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-alienware-16-aurora-ac16250-c71615u56n018-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 82340.2,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2950,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-alienware-16-aurora-ac16250-c71615u56n018-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 83164,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1840,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 86457,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 83987,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 82340.2,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-alienware-16-aurora-ac16250-c7321u56n",
+    "slug": "dell-alienware-16-aurora-ac16250-c7321u56n",
+    "name": "Dell Alienware 16 Aurora AC16250-C7321U56N",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Üst Düzey Oyuncu Laptopu",
+    "image": "/images/products/laptops/dell-alienware-16-aurora-ac16250-c7321u56n-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-alienware-16-aurora-ac16250-c7321u56n-1.jpg",
+      "https://resim.epey.com/1044344/z_dell-alienware-16-aurora-ac16250-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 62,
+    "reviewCount": 23,
+    "basePrice": 78483.23,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ 240Hz 3ms %100 DCI-P3 G-Sync & ComfortView Plus)",
+      "Intel Core 7 240H Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4060 Mobile 8GB Grafik Birimi",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Alienware Cryo-tech™ Gelişmiş Soğutma & AlienFX RGB"
+    ],
+    "specs": {
+      "productType": "Üst Düzey Oyuncu Laptopu",
+      "processor": "Intel Core 7 240H",
+      "processorCores": "10 Çekirdek (6P + 4E)",
+      "npuTops": 0,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4060 Mobile 8GB",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ 240Hz 3ms %100 DCI-P3 G-Sync & ComfortView Plus)",
+      "screenBrightnessNits": 400,
+      "colorGamut": "%100 sRGB & %100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet",
+        "1x SD Kart Okuyucu",
+        "1x 3.5mm Universal Ses Girişi"
+      ],
+      "weightKg": 2.65,
+      "thicknessMm": 22.9,
+      "bodyMaterial": "Magnezyum & Eloksallı Alüminyum Gövde",
+      "keyboard": "Alienware M-Serisi Arkadan Aydınlatmalı RGB Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos® Stereo Hoparlörler",
+      "os": "Ubuntu Linux"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-alienware-16-aurora-ac16250-c7321u56n-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 78483.23,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2950,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-alienware-16-aurora-ac16250-c7321u56n-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 79268,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1840,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 82407,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 80053,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 78483.23,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-precision-m5690-xctop5690emea-vp-1",
+    "slug": "dell-precision-m5690-xctop5690emea-vp-1",
+    "name": "Dell Precision M5690 XCTOP5690EMEA_VP-1",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Kurumsal Mobil İş İstasyonu",
+    "image": "/images/products/laptops/dell-precision-m5690-xctop5690emea-vp-1-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-precision-m5690-xctop5690emea-vp-1-1.jpg",
+      "https://resim.epey.com/1066991/z_dell-precision-m5690-xctop5690emea-vp-1-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 62,
+    "reviewCount": 46,
+    "basePrice": 127969.1,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ IPS 300 Nit %100 sRGB)",
+      "Intel Core Ultra 7 155H Güçlü İşlemci",
+      "NVIDIA RTX 1000 Ada Generation Mobile 6GB Grafik Birimi",
+      "16GB RAM & 1TB Hızlı SSD",
+      "Dell Kurumsal Dayanıklılık & Güvenlik"
+    ],
+    "specs": {
+      "productType": "Kurumsal Mobil İş İstasyonu",
+      "processor": "Intel Core Ultra 7 155H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE)",
+      "npuTops": 34,
+      "ramGb": 16,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 1000 Ada Generation Mobile 6GB",
+      "gpuTgpWatts": 60,
+      "muxSwitch": false,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ IPS 300 Nit %100 sRGB)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 72,
+      "batteryLifeHours": 8,
+      "chargerWatts": 130,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet",
+        "1x SD Kart Okuyucu",
+        "1x 3.5mm Universal Ses Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Güçlendirilmiş Polimer & Alüminyum Kasa",
+      "keyboard": "Arkadan Aydınlatmalı Sıvı Dökülmesine Dayanıklı Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Waves MaxxAudio Pro Destekli Stereo Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-precision-m5690-xctop5690emea-vp-1-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 127969.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2950,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-precision-m5690-xctop5690emea-vp-1-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 129249,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1840,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 134368,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 130528,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 127969.1,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-16-mc16250a013",
+    "slug": "dell-pro-max-16-mc16250a013",
+    "name": "Dell Pro Max 16 MC16250A013",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-16-mc16250a013-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-16-mc16250a013-1.jpg",
+      "https://resim.epey.com/1043805/z_dell-pro-max-16-mc16250-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 62,
+    "reviewCount": 45,
+    "basePrice": 229999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ 165Hz IPS %100 sRGB 400 Nit)",
+      "Intel Core Ultra 7 255H Güçlü İşlemci",
+      "NVIDIA RTX 2000 Ada Generation Mobile 8GB Grafik Birimi",
+      "32GB RAM & 2TB Hızlı SSD",
+      "Dell Kurumsal Dayanıklılık & Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 255H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE)",
+      "npuTops": 34,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 2000 Ada Generation Mobile 8GB",
+      "gpuTgpWatts": 80,
+      "muxSwitch": false,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ 165Hz IPS %100 sRGB 400 Nit)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 72,
+      "batteryLifeHours": 8,
+      "chargerWatts": 130,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet",
+        "1x SD Kart Okuyucu",
+        "1x 3.5mm Universal Ses Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Güçlendirilmiş Polimer & Alüminyum Kasa",
+      "keyboard": "Arkadan Aydınlatmalı Sıvı Dökülmesine Dayanıklı Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Waves MaxxAudio Pro Destekli Stereo Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-16-mc16250a013-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 229999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2950,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-16-mc16250a013-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 232299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1840,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 241499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 234599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 229999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-16-mc16250p406",
+    "slug": "dell-pro-max-16-mc16250p406",
+    "name": "Dell Pro Max 16 MC16250P406",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-16-mc16250p406-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-16-mc16250p406-1.jpg",
+      "https://resim.epey.com/1067091/z_dell-pro-max-16-mc16250-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 61,
+    "reviewCount": 43,
+    "basePrice": 228407.63,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ 165Hz IPS %100 sRGB 400 Nit)",
+      "Intel Core Ultra 7 255H Güçlü İşlemci",
+      "NVIDIA RTX 2000 Ada Generation Mobile 8GB Grafik Birimi",
+      "80GB RAM & 2TB Hızlı SSD",
+      "Dell Kurumsal Dayanıklılık & Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 255H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE)",
+      "npuTops": 34,
+      "ramGb": 80,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 2000 Ada Generation Mobile 8GB",
+      "gpuTgpWatts": 80,
+      "muxSwitch": false,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ 165Hz IPS %100 sRGB 400 Nit)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 72,
+      "batteryLifeHours": 8,
+      "chargerWatts": 130,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet",
+        "1x SD Kart Okuyucu",
+        "1x 3.5mm Universal Ses Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Güçlendirilmiş Polimer & Alüminyum Kasa",
+      "keyboard": "Arkadan Aydınlatmalı Sıvı Dökülmesine Dayanıklı Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Waves MaxxAudio Pro Destekli Stereo Hoparlörler",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-16-mc16250p406-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 228407.63,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2950,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-16-mc16250p406-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 230692,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1840,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 239828,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 232976,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 228407.63,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-alienware-16-aurora-ac16250-c71615u56n004",
+    "slug": "dell-alienware-16-aurora-ac16250-c71615u56n004",
+    "name": "Dell Alienware 16 Aurora AC16250-C71615U56N004",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Üst Düzey Oyuncu Laptopu",
+    "image": "/images/products/laptops/dell-alienware-16-aurora-ac16250-c71615u56n004-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-alienware-16-aurora-ac16250-c71615u56n004-1.jpg",
+      "https://resim.epey.com/1047146/z_dell-alienware-16-aurora-ac16250-c71615u56n004-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 61,
+    "reviewCount": 40,
+    "basePrice": 80979.4,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ 240Hz 3ms %100 DCI-P3 G-Sync & ComfortView Plus)",
+      "Intel Core 7 240H Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4060 Mobile 8GB Grafik Birimi",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Alienware Cryo-tech™ Gelişmiş Soğutma & AlienFX RGB"
+    ],
+    "specs": {
+      "productType": "Üst Düzey Oyuncu Laptopu",
+      "processor": "Intel Core 7 240H",
+      "processorCores": "10 Çekirdek (6P + 4E)",
+      "npuTops": 0,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4060 Mobile 8GB",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ 240Hz 3ms %100 DCI-P3 G-Sync & ComfortView Plus)",
+      "screenBrightnessNits": 400,
+      "colorGamut": "%100 sRGB & %100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet",
+        "1x SD Kart Okuyucu",
+        "1x 3.5mm Universal Ses Girişi"
+      ],
+      "weightKg": 2.65,
+      "thicknessMm": 22.9,
+      "bodyMaterial": "Magnezyum & Eloksallı Alüminyum Gövde",
+      "keyboard": "Alienware M-Serisi Arkadan Aydınlatmalı RGB Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos® Stereo Hoparlörler",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-alienware-16-aurora-ac16250-c71615u56n004-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 80979.4,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2950,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-alienware-16-aurora-ac16250-c71615u56n004-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 81789,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1840,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 85028,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 82599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 80979.4,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-16-mc16250p400",
+    "slug": "dell-pro-max-16-mc16250p400",
+    "name": "Dell Pro Max 16 MC16250P400",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-16-mc16250p400-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-16-mc16250p400-1.jpg",
+      "https://resim.epey.com/1067090/z_dell-pro-max-16-mc16250-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 61,
+    "reviewCount": 40,
+    "basePrice": 209727.71,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ 165Hz IPS %100 sRGB 400 Nit)",
+      "Intel Core Ultra 7 255H Güçlü İşlemci",
+      "NVIDIA RTX 2000 Ada Generation Mobile 8GB Grafik Birimi",
+      "64GB RAM & 2TB Hızlı SSD",
+      "Dell Kurumsal Dayanıklılık & Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 255H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE)",
+      "npuTops": 34,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 2000 Ada Generation Mobile 8GB",
+      "gpuTgpWatts": 80,
+      "muxSwitch": false,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ 165Hz IPS %100 sRGB 400 Nit)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 72,
+      "batteryLifeHours": 8,
+      "chargerWatts": 130,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet",
+        "1x SD Kart Okuyucu",
+        "1x 3.5mm Universal Ses Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Güçlendirilmiş Polimer & Alüminyum Kasa",
+      "keyboard": "Arkadan Aydınlatmalı Sıvı Dökülmesine Dayanıklı Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Waves MaxxAudio Pro Destekli Stereo Hoparlörler",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-16-mc16250p400-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 209727.71,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2950,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-16-mc16250p400-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 211825,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1840,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 220214,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 213922,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 209727.71,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-alienware-16-aurora-ac16250-c716156w",
+    "slug": "dell-alienware-16-aurora-ac16250-c716156w",
+    "name": "Dell Alienware 16 Aurora AC16250-C716156W",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Üst Düzey Oyuncu Laptopu",
+    "image": "/images/products/laptops/dell-alienware-16-aurora-ac16250-c716156w-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-alienware-16-aurora-ac16250-c716156w-1.jpg",
+      "https://resim.epey.com/1024824/z_dell-alienware-16-aurora-ac16250-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 61,
+    "reviewCount": 25,
+    "basePrice": 72681.84,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ 240Hz 3ms %100 DCI-P3 G-Sync & ComfortView Plus)",
+      "Intel Core 7 240H Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4060 Mobile 8GB Grafik Birimi",
+      "16GB RAM & 1TB Hızlı SSD",
+      "Alienware Cryo-tech™ Gelişmiş Soğutma & AlienFX RGB"
+    ],
+    "specs": {
+      "productType": "Üst Düzey Oyuncu Laptopu",
+      "processor": "Intel Core 7 240H",
+      "processorCores": "10 Çekirdek (6P + 4E)",
+      "npuTops": 0,
+      "ramGb": 16,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4060 Mobile 8GB",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ 240Hz 3ms %100 DCI-P3 G-Sync & ComfortView Plus)",
+      "screenBrightnessNits": 400,
+      "colorGamut": "%100 sRGB & %100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet",
+        "1x SD Kart Okuyucu",
+        "1x 3.5mm Universal Ses Girişi"
+      ],
+      "weightKg": 2.65,
+      "thicknessMm": 22.9,
+      "bodyMaterial": "Magnezyum & Eloksallı Alüminyum Gövde",
+      "keyboard": "Alienware M-Serisi Arkadan Aydınlatmalı RGB Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos® Stereo Hoparlörler",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-alienware-16-aurora-ac16250-c716156w-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 72681.84,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2950,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-alienware-16-aurora-ac16250-c716156w-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 73409,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1840,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 76316,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 74135,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 72681.84,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-alienware-16-aurora-ac16250-c71615u56n",
+    "slug": "dell-alienware-16-aurora-ac16250-c71615u56n",
+    "name": "Dell Alienware 16 Aurora AC16250-C71615U56N",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Üst Düzey Oyuncu Laptopu",
+    "image": "/images/products/laptops/dell-alienware-16-aurora-ac16250-c71615u56n-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-alienware-16-aurora-ac16250-c71615u56n-1.jpg",
+      "https://resim.epey.com/1035394/z_dell-alienware-16-aurora-ac16250-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 61,
+    "reviewCount": 13,
+    "basePrice": 69194.77,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ 240Hz 3ms %100 DCI-P3 G-Sync & ComfortView Plus)",
+      "Intel Core 7 240H Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4060 Mobile 8GB Grafik Birimi",
+      "16GB RAM & 1TB Hızlı SSD",
+      "Alienware Cryo-tech™ Gelişmiş Soğutma & AlienFX RGB"
+    ],
+    "specs": {
+      "productType": "Üst Düzey Oyuncu Laptopu",
+      "processor": "Intel Core 7 240H",
+      "processorCores": "10 Çekirdek (6P + 4E)",
+      "npuTops": 0,
+      "ramGb": 16,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4060 Mobile 8GB",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ 240Hz 3ms %100 DCI-P3 G-Sync & ComfortView Plus)",
+      "screenBrightnessNits": 400,
+      "colorGamut": "%100 sRGB & %100 DCI-P3",
+      "batteryCapacityWh": 90,
+      "batteryLifeHours": 5,
+      "chargerWatts": 240,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet",
+        "1x SD Kart Okuyucu",
+        "1x 3.5mm Universal Ses Girişi"
+      ],
+      "weightKg": 2.65,
+      "thicknessMm": 22.9,
+      "bodyMaterial": "Magnezyum & Eloksallı Alüminyum Gövde",
+      "keyboard": "Alienware M-Serisi Arkadan Aydınlatmalı RGB Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Dolby Atmos® Stereo Hoparlörler",
+      "os": "Ubuntu Linux"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-alienware-16-aurora-ac16250-c71615u56n-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 69194.77,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2950,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-alienware-16-aurora-ac16250-c71615u56n-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 69887,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1840,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 72655,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 70579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 69194.77,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-16-mc16250p433",
+    "slug": "dell-pro-max-16-mc16250p433",
+    "name": "Dell Pro Max 16 MC16250P433",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-16-mc16250p433-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-16-mc16250p433-1.jpg",
+      "https://resim.epey.com/1067072/z_dell-pro-max-16-mc16250-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 60,
+    "reviewCount": 34,
+    "basePrice": 186496.78,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ 165Hz IPS %100 sRGB 400 Nit)",
+      "Intel Core Ultra 7 255H Güçlü İşlemci",
+      "NVIDIA RTX 1000 Ada Generation Mobile 6GB Grafik Birimi",
+      "24GB RAM & 2TB Hızlı SSD",
+      "Dell Kurumsal Dayanıklılık & Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 255H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE)",
+      "npuTops": 34,
+      "ramGb": 24,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 1000 Ada Generation Mobile 6GB",
+      "gpuTgpWatts": 60,
+      "muxSwitch": false,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ 165Hz IPS %100 sRGB 400 Nit)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 72,
+      "batteryLifeHours": 8,
+      "chargerWatts": 130,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet",
+        "1x SD Kart Okuyucu",
+        "1x 3.5mm Universal Ses Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Güçlendirilmiş Polimer & Alüminyum Kasa",
+      "keyboard": "Arkadan Aydınlatmalı Sıvı Dökülmesine Dayanıklı Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Waves MaxxAudio Pro Destekli Stereo Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-16-mc16250p433-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 186496.78,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2950,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-16-mc16250p433-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 188362,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1840,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 195822,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 190227,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 186496.78,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-precision-7780-xctop7780emea-vp1",
+    "slug": "dell-precision-7780-xctop7780emea-vp1",
+    "name": "Dell Precision 7780 XCTOP7780EMEA_VP1",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Kurumsal Mobil İş İstasyonu",
+    "image": "/images/products/laptops/dell-precision-7780-xctop7780emea-vp1-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-precision-7780-xctop7780emea-vp1-1.jpg",
+      "https://resim.epey.com/910949/z_dell-precision-m7780-xctop7780emea-vp-1-3.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 60,
+    "reviewCount": 19,
+    "basePrice": 152960,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "17.3\" 1920 x 1080 (FHD 500 Nit %99 DCIP-3 PremierColor)",
+      "Intel Core i7-13850HX Güçlü İşlemci",
+      "NVIDIA RTX 3500 Ada Generation Mobile 12GB Grafik Birimi",
+      "32GB RAM & 2TB Hızlı SSD",
+      "Dell Kurumsal Dayanıklılık & Güvenlik"
+    ],
+    "specs": {
+      "productType": "Kurumsal Mobil İş İstasyonu",
+      "processor": "Intel Core i7-13850HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 28 İzlek)",
+      "npuTops": 0,
+      "ramGb": 32,
+      "ramType": "DDR5 5200 MHz",
+      "maxRamGb": 128,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "4x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 3500 Ada Generation Mobile 12GB",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 17.3,
+      "screenResolution": "1920 x 1080 (FHD 500 Nit %99 DCIP-3 PremierColor)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 93,
+      "batteryLifeHours": 8,
+      "chargerWatts": 130,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet",
+        "1x SD Kart Okuyucu",
+        "1x 3.5mm Universal Ses Girişi"
+      ],
+      "weightKg": 3.02,
+      "thicknessMm": 28.5,
+      "bodyMaterial": "Güçlendirilmiş Polimer & Alüminyum Kasa",
+      "keyboard": "Arkadan Aydınlatmalı Sıvı Dökülmesine Dayanıklı Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Waves MaxxAudio Pro Destekli Stereo Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-precision-7780-xctop7780emea-vp1-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 152960,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2950,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-precision-7780-xctop7780emea-vp1-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 154490,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1840,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 160608,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 156019,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 152960,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-13-premium",
+    "slug": "dell-pro-13-premium",
+    "name": "Dell Pro 13 Premium",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Ultra Taşınabilir Premium Laptop",
+    "image": "/images/products/laptops/dell-pro-13-premium-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-13-premium-1.jpg",
+      "https://resim.epey.com/1041283/z_dell-pro-13-premium-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 59,
+    "reviewCount": 36,
+    "basePrice": 94181.14,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "13.3\" 2560 x 1600 (QHD+ 16:10 100% sRGB 500 Nit Parlama Önleyici IPS)",
+      "Intel Core Ultra 7 268V Güçlü İşlemci",
+      "Intel Arc Graphics 140V (Lunar Lake Yeni Nesil Entegre) Grafik Birimi",
+      "32GB RAM & 1TB Hızlı SSD",
+      "1.19 kg Ultra Hafif Tasarım & Tüm Gün Pil Ömrü"
+    ],
+    "specs": {
+      "productType": "Ultra Taşınabilir Premium Laptop",
+      "processor": "Intel Core Ultra 7 268V",
+      "processorCores": "8 Çekirdek (4P + 4LPE)",
+      "npuTops": 48,
+      "ramGb": 32,
+      "ramType": "LPDDR5x 8533 MHz Tümleşik",
+      "maxRamGb": 32,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "1x M.2 NVMe SSD Yuvası",
+      "gpu": "Intel Arc Graphics 140V (Lunar Lake Yeni Nesil Entegre)",
+      "gpuTgpWatts": 37,
+      "muxSwitch": false,
+      "screenSizeInches": 13.3,
+      "screenResolution": "2560 x 1600 (QHD+ 16:10 100% sRGB 500 Nit Parlama Önleyici IPS)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB & %100 DCI-P3",
+      "batteryCapacityWh": 60,
+      "batteryLifeHours": 14,
+      "chargerWatts": 65,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 Type-C (Power Delivery & DP)",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 1.19,
+      "thicknessMm": 14.9,
+      "bodyMaterial": "CNC İşlenmiş Havacılık Alüminyumu & Karbon Fiber",
+      "keyboard": "Arkadan Aydınlatmalı Sıvı Dökülmesine Dayanıklı Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Waves MaxxAudio Pro Destekli Stereo Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-13-premium-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 94181.14,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2950,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-13-premium-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 95123,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1840,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 98890,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 96065,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 94181.14,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-max-16-mc16250-16gbram-512ssd-fdos",
+    "slug": "dell-pro-max-16-mc16250-16gbram-512ssd-fdos",
+    "name": "Dell Pro Max 16 MC16250 (16GBRAM/512SSD/FDOS)",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Mobil İş İstasyonu & Performans Laptopu",
+    "image": "/images/products/laptops/dell-pro-max-16-mc16250-16gbram-512ssd-fdos-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-max-16-mc16250-16gbram-512ssd-fdos-1.jpg",
+      "https://resim.epey.com/1045904/z_dell-pro-max-16-mc16250-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 58,
+    "reviewCount": 18,
+    "basePrice": 189519.06,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ 165Hz IPS %100 sRGB 400 Nit)",
+      "Intel Core Ultra 7 255H Güçlü İşlemci",
+      "NVIDIA RTX 1000 Ada Generation Mobile 6GB Grafik Birimi",
+      "16GB RAM & 512GB Hızlı SSD",
+      "Dell Kurumsal Dayanıklılık & Güvenlik"
+    ],
+    "specs": {
+      "productType": "Mobil İş İstasyonu & Performans Laptopu",
+      "processor": "Intel Core Ultra 7 255H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE)",
+      "npuTops": 34,
+      "ramGb": 16,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 512,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 1000 Ada Generation Mobile 6GB",
+      "gpuTgpWatts": 60,
+      "muxSwitch": false,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ 165Hz IPS %100 sRGB 400 Nit)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 72,
+      "batteryLifeHours": 8,
+      "chargerWatts": 130,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet",
+        "1x SD Kart Okuyucu",
+        "1x 3.5mm Universal Ses Girişi"
+      ],
+      "weightKg": 2.45,
+      "thicknessMm": 21.8,
+      "bodyMaterial": "Güçlendirilmiş Polimer & Alüminyum Kasa",
+      "keyboard": "Arkadan Aydınlatmalı Sıvı Dökülmesine Dayanıklı Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Waves MaxxAudio Pro Destekli Stereo Hoparlörler",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-max-16-mc16250-16gbram-512ssd-fdos-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 189519.06,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2950,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-max-16-mc16250-16gbram-512ssd-fdos-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 191414,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1840,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 198995,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 193309,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 189519.06,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-precision-3591-xctop3591emea-vp1h510",
+    "slug": "dell-precision-3591-xctop3591emea-vp1h510",
+    "name": "Dell Precision 3591 XCTOP3591EMEA-VP1H510",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Kurumsal Mobil İş İstasyonu",
+    "image": "/images/products/laptops/dell-precision-3591-xctop3591emea-vp1h510-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-precision-3591-xctop3591emea-vp1h510-1.jpg",
+      "https://resim.epey.com/1068845/z_dell-precision-3591-xctop3591emea-vp1h510-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 58,
+    "reviewCount": 34,
+    "basePrice": 140029.1,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "15.6\" 1920 x 1200 (FHD+ IPS 300 Nit %100 sRGB)",
+      "Intel Core Ultra 7 155H Güçlü İşlemci",
+      "NVIDIA RTX 500 Ada Generation Mobile 4GB Grafik Birimi",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Dell Kurumsal Dayanıklılık & Güvenlik"
+    ],
+    "specs": {
+      "productType": "Kurumsal Mobil İş İstasyonu",
+      "processor": "Intel Core Ultra 7 155H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE)",
+      "npuTops": 34,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 500 Ada Generation Mobile 4GB",
+      "gpuTgpWatts": 50,
+      "muxSwitch": false,
+      "screenSizeInches": 15.6,
+      "screenResolution": "1920 x 1200 (FHD+ IPS 300 Nit %100 sRGB)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 72,
+      "batteryLifeHours": 8,
+      "chargerWatts": 130,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet",
+        "1x SD Kart Okuyucu",
+        "1x 3.5mm Universal Ses Girişi"
+      ],
+      "weightKg": 1.79,
+      "thicknessMm": 22.7,
+      "bodyMaterial": "Güçlendirilmiş Polimer & Alüminyum Kasa",
+      "keyboard": "Arkadan Aydınlatmalı Sıvı Dökülmesine Dayanıklı Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Waves MaxxAudio Pro Destekli Stereo Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-precision-3591-xctop3591emea-vp1h510-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 140029.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2950,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-precision-3591-xctop3591emea-vp1h510-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 141429,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1840,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 147031,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 142830,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 140029.1,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-precision-3591-32gbram-1tbssd-rtxa500",
+    "slug": "dell-precision-3591-32gbram-1tbssd-rtxa500",
+    "name": "Dell Precision 3591 (32GBRAM/1TBSSD/RTXA500)",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Kurumsal Mobil İş İstasyonu",
+    "image": "/images/products/laptops/dell-precision-3591-32gbram-1tbssd-rtxa500-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-precision-3591-32gbram-1tbssd-rtxa500-1.jpg",
+      "https://resim.epey.com/1031219/z_dell-precision-3591-32gbram-1tbssd-rtx500-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 58,
+    "reviewCount": 45,
+    "basePrice": 121378.04,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "15.6\" 1920 x 1200 (FHD+ IPS 300 Nit %100 sRGB)",
+      "Intel Core Ultra 7 155H Güçlü İşlemci",
+      "NVIDIA RTX 500 Ada Generation Mobile 4GB Grafik Birimi",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Dell Kurumsal Dayanıklılık & Güvenlik"
+    ],
+    "specs": {
+      "productType": "Kurumsal Mobil İş İstasyonu",
+      "processor": "Intel Core Ultra 7 155H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE)",
+      "npuTops": 34,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA RTX 500 Ada Generation Mobile 4GB",
+      "gpuTgpWatts": 50,
+      "muxSwitch": false,
+      "screenSizeInches": 15.6,
+      "screenResolution": "1920 x 1200 (FHD+ IPS 300 Nit %100 sRGB)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 72,
+      "batteryLifeHours": 8,
+      "chargerWatts": 130,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet",
+        "1x SD Kart Okuyucu",
+        "1x 3.5mm Universal Ses Girişi"
+      ],
+      "weightKg": 1.79,
+      "thicknessMm": 22.7,
+      "bodyMaterial": "Güçlendirilmiş Polimer & Alüminyum Kasa",
+      "keyboard": "Arkadan Aydınlatmalı Sıvı Dökülmesine Dayanıklı Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Waves MaxxAudio Pro Destekli Stereo Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-precision-3591-32gbram-1tbssd-rtxa500-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 121378.04,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2950,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-precision-3591-32gbram-1tbssd-rtxa500-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 122592,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1840,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 127447,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 123806,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 121378.04,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-latitude-3450-n010l345014up380",
+    "slug": "dell-latitude-3450-n010l345014up380",
+    "name": "Dell Latitude 3450 N010L345014UP380",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Kurumsal & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/dell-latitude-3450-n010l345014up380-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-latitude-3450-n010l345014up380-1.jpg",
+      "https://resim.epey.com/1010560/z_dell-latitude-3450-n010l345014up380-1.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 58,
+    "reviewCount": 26,
+    "basePrice": 176473.26,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "14\" 1920 x 1200 (FHD+ IPS 300 Nit %100 sRGB)",
+      "Intel Core i7-1355U Güçlü İşlemci",
+      "Intel Arc Graphics (Entegre Grafik) Grafik Birimi",
+      "96GB RAM & 2TB Hızlı SSD",
+      "Dell Kurumsal Dayanıklılık & Güvenlik"
+    ],
+    "specs": {
+      "productType": "Kurumsal & İş Dünyası Laptopu",
+      "processor": "Intel Core i7-1355U",
+      "processorCores": "10 Çekirdek (2P + 8E)",
+      "npuTops": 0,
+      "ramGb": 96,
+      "ramType": "DDR5 5200 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "Intel Arc Graphics (Entegre Grafik)",
+      "gpuTgpWatts": 45,
+      "muxSwitch": false,
+      "screenSizeInches": 14,
+      "screenResolution": "1920 x 1200 (FHD+ IPS 300 Nit %100 sRGB)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 72,
+      "batteryLifeHours": 8,
+      "chargerWatts": 130,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB-C (Power Delivery & DP)",
+        "2x USB-A 3.2 Gen 1",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet",
+        "1x SD Kart Okuyucu",
+        "1x 3.5mm Universal Ses Girişi"
+      ],
+      "weightKg": 1.48,
+      "thicknessMm": 19.3,
+      "bodyMaterial": "Güçlendirilmiş Polimer & Alüminyum Kasa",
+      "keyboard": "Arkadan Aydınlatmalı Sıvı Dökülmesine Dayanıklı Klavye",
+      "webcam": "1080p FHD IR Kamera & Windows Hello",
+      "audio": "Waves MaxxAudio Pro Destekli Stereo Hoparlörler",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-latitude-3450-n010l345014up380-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 176473.26,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2950,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-latitude-3450-n010l345014up380-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 178238,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1840,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 185297,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 180003,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 176473.26,
+        "store": "Hepsiburada"
+      }
+    ]
   }
 ];
