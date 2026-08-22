@@ -81577,5 +81577,1110 @@ export const mockTVs: TVProduct[] = [
         "store": "Trendyol"
       }
     ]
+  },
+  {
+    "id": "grundig-55-gju-8000",
+    "slug": "grundig-55-gju-8000",
+    "name": "Grundig 55 GJU 8000 55\" 4K Ultra HD Smart LED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-55-gju-8000-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-55-gju-8000-1.jpg",
+      "https://resim.epey.com/990522/z_grundig-50-gju-8000-8690842758591-8.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 16,
+    "basePrice": 25999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (139 cm) 4K Ultra HD LED Panel",
+      "20W RMS Net Ses Çıkışı & Dolby Audio",
+      "HDR10 & HLG & Android TV Platformu",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1230 x 775 x 260 mm",
+      "weightKg": 15,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-55-gju-8000-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 25999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 140,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 28900,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 27200,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 25999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "grundig-50-gju-7000-b",
+    "slug": "grundig-50-gju-7000-b",
+    "name": "Grundig 50 GJU 7000 B 50\" 4K Ultra HD Smart LED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-50-gju-7000-b-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-50-gju-7000-b-1.jpg",
+      "https://resim.epey.com/990528/z_grundig-50-gju-7000-b-8690842762918-9.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 20,
+    "basePrice": 22999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "50\" (126 cm) 4K Ultra HD LED Ekran",
+      "20W RMS Ses Çıkışı & Dolby Audio",
+      "HDR10 & HLG Destekli Android TV",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1120 x 710 x 240 mm",
+      "weightKg": 12,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-50-gju-7000-b-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 22999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Grundig Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 180,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 25500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 24000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 22999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "grundig-50-gju-8000",
+    "slug": "grundig-50-gju-8000",
+    "name": "Grundig 50 GJU 8000 50\" 4K Ultra HD Smart LED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-50-gju-8000-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-50-gju-8000-1.jpg",
+      "https://resim.epey.com/990526/z_grundig-50-gju-8000-8690842758591-8.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 18,
+    "basePrice": 23499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "50\" (126 cm) 4K Ultra HD LED Ekran",
+      "20W RMS Ses & Dolby Audio Desteği",
+      "Android TV Platformu & Google Asistan",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 50,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 380,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1120 x 710 x 240 mm",
+      "weightKg": 12.2,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-50-gju-8000-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 23499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 150,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 26000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 24500,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 23499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "grundig-43-gju-7000-b",
+    "slug": "grundig-43-gju-7000-b",
+    "name": "Grundig 43 GJU 7000 B 43\" 4K Ultra HD Smart LED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-43-gju-7000-b-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-43-gju-7000-b-1.jpg",
+      "https://resim.epey.com/995330/z_grundig-50-gju-7000-b-8690842762918-9.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 25,
+    "basePrice": 18499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "43\" (108 cm) 4K Ultra HD Net LED Panel",
+      "20W RMS Ses Çıkışı & Dolby Audio",
+      "Android TV Platformu & Google Asistan",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 350,
+      "contrastRatio": "3500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%80 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "965 x 610 x 220 mm",
+      "weightKg": 8.9,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-43-gju-7000-b-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 18499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Grundig Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 220,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 20500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 19200,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "grundig-43-gju-7500-b",
+    "slug": "grundig-43-gju-7500-b",
+    "name": "Grundig 43 GJU 7500 B 43\" 4K Ultra HD Smart LED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-43-gju-7500-b-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-43-gju-7500-b-1.jpg",
+      "https://resim.epey.com/998803/z_grundig-43-gju-7500-b-8690842762970-10.jpg"
+    ],
+    "rating": 4.5,
+    "reviewCount": 22,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "43\" (108 cm) 4K Ultra HD LED Panel",
+      "20W RMS Güçlü Ses & Dolby Audio",
+      "HDR10 & HLG & Android TV Platformu",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 350,
+      "contrastRatio": "3500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%80 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "965 x 610 x 220 mm",
+      "weightKg": 8.9,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-43-gju-7500-b-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 190,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 21000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 19800,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "grundig-43-gjf-6000-b",
+    "slug": "grundig-43-gjf-6000-b",
+    "name": "Grundig 43 GJF 6000 B 43\" Full HD Smart LED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-43-gjf-6000-b-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-43-gjf-6000-b-1.jpg",
+      "https://resim.epey.com/1004784/z_grundig-43-gjf-6000-b-8690842708534-2.jpg"
+    ],
+    "rating": 4.4,
+    "reviewCount": 20,
+    "basePrice": 16999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "43\" (108 cm) Full HD Canlı LED Panel",
+      "16W RMS Net Ses Çıkışı & Magic Fidelity",
+      "Android TV Platformu & Google Asistan",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 16,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "F",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 300,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%80 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "965 x 610 x 200 mm",
+      "weightKg": 7.8,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-43-gjf-6000-b-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 16999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Grundig Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 160,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 18900,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 17800,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "grundig-43-gjf-6500-b",
+    "slug": "grundig-43-gjf-6500-b",
+    "name": "Grundig 43 GJF 6500 B 43\" Full HD Smart LED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-43-gjf-6500-b-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-43-gjf-6500-b-1.jpg",
+      "https://resim.epey.com/995331/z_grundig-43-gjf-6500-b-1.jpg"
+    ],
+    "rating": 4.4,
+    "reviewCount": 18,
+    "basePrice": 17299,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "43\" (108 cm) Full HD Akıllı LED TV",
+      "16W RMS Net Ses & Magic Fidelity",
+      "Android TV Platformu & Google Asistan",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 43,
+      "displayTech": "LED",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 16,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "F",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 300,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%80 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "965 x 610 x 200 mm",
+      "weightKg": 7.8,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-43-gjf-6500-b-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 17299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 140,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 19200,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 18100,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 17299,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "grundig-40-gjf-6500-b",
+    "slug": "grundig-40-gjf-6500-b",
+    "name": "Grundig 40 GJF 6500 B 40\" Full HD Smart LED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-40-gjf-6500-b-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-40-gjf-6500-b-1.jpg",
+      "https://resim.epey.com/1001318/z_grundig-40-gjf-6500-b-8690842708558-4.jpg"
+    ],
+    "rating": 4.4,
+    "reviewCount": 22,
+    "basePrice": 15999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "40\" (100 cm) Full HD Canlı LED Panel",
+      "16W RMS Net Ses & Magic Fidelity",
+      "Android TV Platformu & Google Asistan",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 40,
+      "displayTech": "LED",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 16,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "F",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 300,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%80 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "895 x 560 x 200 mm",
+      "weightKg": 6.8,
+      "vesaMount": "200x200 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-40-gjf-6500-b-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 15999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Grundig Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 170,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 17800,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 16700,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 15999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "grundig-32-gjh-6000b",
+    "slug": "grundig-32-gjh-6000b",
+    "name": "Grundig 32 GJH 6000 B 32\" HD Ready Smart LED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-32-gjh-6000b-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-32-gjh-6000b-1.jpg",
+      "https://resim.epey.com/1047594/z_grundig-32-gjh-6000b-5.jpg"
+    ],
+    "rating": 4.3,
+    "reviewCount": 19,
+    "basePrice": 12299,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "32\" (80 cm) HD Ready Akıllı LED TV",
+      "16W RMS Net Ses Çıkışı",
+      "Android TV Platformu & Google Asistan",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "HD Ready (1366x768)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 16,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "F",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 250,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%75 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 4",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "725 x 465 x 180 mm",
+      "weightKg": 4.5,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-32-gjh-6000b-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 12299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 130,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 13800,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 12900,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12299,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "grundig-hamburg-32-gih-5500",
+    "slug": "grundig-hamburg-32-gih-5500",
+    "name": "Grundig Hamburg 32 GIH 5500 32\" HD Ready LED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-hamburg-32-gih-5500-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-hamburg-32-gih-5500-1.jpg",
+      "https://resim.epey.com/973813/z_grundig-hamburg-32-gih-5500-7.jpg"
+    ],
+    "rating": 4.2,
+    "reviewCount": 15,
+    "basePrice": 11499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "32\" (80 cm) HD Ready LED TV",
+      "16W RMS Net Ses Çıkışı",
+      "Dahili HD Uydu Alıcısı",
+      "USB Medya Oynatıcı & HDMI Girişleri"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "LED",
+      "resolution": "HD Ready (1366x768)",
+      "refreshRateHz": 60,
+      "smartOs": "Yok",
+      "audioPowerWatts": 16,
+      "hdrFormats": [],
+      "gamingFeatures": [
+        "Standart"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 1,
+      "energyClass": "F",
+      "processorEngine": "Standart Video Motoru",
+      "brightnessNits": 250,
+      "contrastRatio": "3000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%75 NTSC",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Yok",
+      "wifiVersion": "Yok",
+      "bluetoothVersion": "Yok",
+      "appleAirplay": false,
+      "chromecastBuiltIn": false,
+      "dimensionsWithStand": "725 x 465 x 180 mm",
+      "weightKg": 4.4,
+      "vesaMount": "100x100 mm",
+      "bezelStyle": "Hamburg Özel Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-hamburg-32-gih-5500-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 11499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Grundig Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 120,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 12900,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 11999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "grundig-85-ghu-9001",
+    "slug": "grundig-85-ghu-9001",
+    "name": "Grundig 85 GHU 9001 85\" 4K Ultra HD Smart LED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-85-ghu-9001-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-85-ghu-9001-1.jpg",
+      "https://resim.epey.com/943797/z_grundig-85ghu9001-9.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 14,
+    "basePrice": 69999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "85\" (215 cm) Dev Sinematik 4K Ultra HD LED Ekran",
+      "20W RMS Net Ses Çıkışı & Dolby Audio",
+      "HDR10 & HLG Destekli Android TV Platformu",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 400,
+      "contrastRatio": "4500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1895 x 1150 x 380 mm",
+      "weightKg": 39.5,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-85-ghu-9001-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 69999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 95,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 76000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 72500,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 69999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "grundig-98-ghq-9501",
+    "slug": "grundig-98-ghq-9501",
+    "name": "Grundig 98 GHQ 9501 98\" 4K Ultra HD Smart QLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-98-ghq-9501-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-98-ghq-9501-1.jpg",
+      "https://resim.epey.com/936337/z_grundig-98-ghq-9501-9.jpg"
+    ],
+    "rating": 4.9,
+    "reviewCount": 16,
+    "basePrice": 142500,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "98\" (248 cm) Devasa Quantum Dot QLED Panel",
+      "120Hz Panel Yenileme Hızı & Dolby Vision",
+      "60W RMS Subwoofer'lı Dolby Atmos Ses Sistemi",
+      "Android TV Akıllı Platformu & Metalik Şık Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 98,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 60,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz VRR",
+        "ALLM",
+        "eARC"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "Quad Core Video Motoru",
+      "brightnessNits": 600,
+      "contrastRatio": "6000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%95 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "2180 x 1320 x 420 mm",
+      "weightKg": 58,
+      "vesaMount": "800x400 mm",
+      "bezelStyle": "Metalik Çerçevesiz Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-98-ghq-9501-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 142500,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Grundig Yetkili Satıcı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 85,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 155000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 148000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 142500,
+        "store": "Hepsiburada"
+      }
+    ]
   }
 ];
