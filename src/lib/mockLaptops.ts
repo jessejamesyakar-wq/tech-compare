@@ -56220,5 +56220,1960 @@ export const mockLaptops: LaptopProduct[] = [
         "store": "Hepsiburada"
       }
     ]
+  },
+  {
+    "id": "hp-omen-gaming-16-ap0012nta43-c12cgeaa43",
+    "slug": "hp-omen-gaming-16-ap0012nta43-c12cgeaa43",
+    "name": "HP OMEN Gaming 16-ap0012nta43 (C12CGEAA43) (FreeDOS)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-16-ap0012nta43-c12cgeaa43-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-16-ap0012nta43-c12cgeaa43-1.jpg",
+      "https://resim.epey.com/1044088/z_hp-omen-gaming-16-ap0012nta40-c12cgeaa30-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 72,
+    "reviewCount": 16,
+    "basePrice": 107397.13,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit IPS)",
+      "AMD Ryzen AI 9 365 Yüksek Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "16GB RAM & 1TB NVMe SSD",
+      "OMEN Tempest Cooling Gelişmiş Termal Mimari"
+    ],
+    "specs": {
+      "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
+      "processor": "AMD Ryzen AI 9 365",
+      "processorCores": "10 Çekirdek / 20 İzlek",
+      "npuTops": 50,
+      "ramGb": 16,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 32,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.37,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Kasa",
+      "keyboard": "OMEN 4 Bölgeli / Per-Key RGB Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Mikrofon",
+      "audio": "HyperX / B&O Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-16-ap0012nta43-c12cgeaa43-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 107397.13,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 7600,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-16-ap0012nta43-c12cgeaa43-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 108471,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 5800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 112767,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 109545,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 107397.13,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-victus-gaming-16-r0071nt-8v898ea-64gb-2tbssd-w11p",
+    "slug": "hp-victus-gaming-16-r0071nt-8v898ea-64gb-2tbssd-w11p",
+    "name": "HP Victus Gaming 16-r0071nt (8V898EA) (64GB/2TBSSD/W11P)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Fiyat / Performans Oyuncu Laptopu",
+    "image": "/images/products/laptops/hp-victus-gaming-16-r0071nt-8v898ea-64gb-2tbssd-w11p-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-victus-gaming-16-r0071nt-8v898ea-64gb-2tbssd-w11p-1.jpg",
+      "https://resim.epey.com/1046488/z_hp-victus-gaming-16-r0071nt-8v898ea-v-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 72,
+    "reviewCount": 20,
+    "basePrice": 137519,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16.1\" 1920 x 1080 (FHD 16:9 144Hz %100 sRGB 300 Nit IPS)",
+      "Intel Core i7-13700H Yüksek Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "64GB RAM & 2TB NVMe SSD",
+      "HP OMEN Gaming Hub & Çift Fanlı Gelişmiş Soğutma"
+    ],
+    "specs": {
+      "productType": "Fiyat / Performans Oyuncu Laptopu",
+      "processor": "Intel Core i7-13700H",
+      "processorCores": "14 Çekirdek (6P + 8E / 20 İzlek 5.0 GHz)",
+      "npuTops": 0,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16.1,
+      "screenResolution": "1920 x 1080 (FHD 16:9 144Hz %100 sRGB 300 Nit IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 6,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.31,
+      "thicknessMm": 23.9,
+      "bodyMaterial": "Dayanıklı Güçlendirilmiş Polikarbonat Kasa",
+      "keyboard": "Tek Bölge Beyaz / RGB Aydınlatmalı Sayısal Tuş Takımlı Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Mikrofon",
+      "audio": "HyperX / B&O Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-victus-gaming-16-r0071nt-8v898ea-64gb-2tbssd-w11p-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 137519,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 7600,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-victus-gaming-16-r0071nt-8v898ea-64gb-2tbssd-w11p-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 138894,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 5800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 144395,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 140269,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 137519,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-16-ap0020nt-c12cpeaat75",
+    "slug": "hp-omen-gaming-16-ap0020nt-c12cpeaat75",
+    "name": "HP OMEN Gaming 16-ap0020nt (C12CPEAAT75)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-16-ap0020nt-c12cpeaat75-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-16-ap0020nt-c12cpeaat75-1.jpg",
+      "https://resim.epey.com/1066200/z_hp-omen-gaming-16-ap0020nt-c12cpeaat75-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 72,
+    "reviewCount": 29,
+    "basePrice": 120499.9,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit IPS)",
+      "AMD Ryzen AI 9 365 Yüksek Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "32GB RAM & 1TB NVMe SSD",
+      "OMEN Tempest Cooling Gelişmiş Termal Mimari"
+    ],
+    "specs": {
+      "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
+      "processor": "AMD Ryzen AI 9 365",
+      "processorCores": "10 Çekirdek / 20 İzlek",
+      "npuTops": 50,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 32,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.37,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Kasa",
+      "keyboard": "OMEN 4 Bölgeli / Per-Key RGB Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Mikrofon",
+      "audio": "HyperX / B&O Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-16-ap0020nt-c12cpeaat75-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 120499.9,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 7600,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-16-ap0020nt-c12cpeaat75-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 121705,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 5800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 126525,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 122910,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 120499.9,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-slim-gaming-16-an0000nt-bq3z2eapn332",
+    "slug": "hp-omen-slim-gaming-16-an0000nt-bq3z2eapn332",
+    "name": "HP OMEN Slim Gaming 16-an0000nt (BQ3Z2EAPN332) (FreeDOS)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
+    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0000nt-bq3z2eapn332-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-slim-gaming-16-an0000nt-bq3z2eapn332-1.jpg",
+      "https://resim.epey.com/1063125/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 72,
+    "reviewCount": 25,
+    "basePrice": 107950.97,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 400 Nit OLED/IPS Low Blue Light)",
+      "Intel Core Ultra 9 285H Yüksek Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "48GB RAM & 1TB NVMe SSD",
+      "19.9 mm Ultra İnce Tasarım & OMEN Tempest Slim Termal"
+    ],
+    "specs": {
+      "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
+      "processor": "Intel Core Ultra 9 285H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE / 16 İzlek)",
+      "npuTops": 13,
+      "ramGb": 48,
+      "ramType": "LPDDR5X / DDR5 5600 MHz",
+      "maxRamGb": 32,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 400 Nit OLED/IPS Low Blue Light)",
+      "screenBrightnessNits": 400,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 7.5,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.09,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Ultra Hafif Mat Siyah Magnezyum-Alüminyum Hibrit Kasa",
+      "keyboard": "OMEN 4 Bölgeli / Per-Key RGB Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Mikrofon",
+      "audio": "HyperX / B&O Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-slim-gaming-16-an0000nt-bq3z2eapn332-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 107950.97,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 7600,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-slim-gaming-16-an0000nt-bq3z2eapn332-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 109030,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 5800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 113349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 110110,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 107950.97,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf25",
+    "slug": "hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf25",
+    "name": "HP OMEN Slim Gaming 16-an0017nt (CD7K1EAHMF25)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
+    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf25-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf25-1.jpg",
+      "https://resim.epey.com/1059086/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 72,
+    "reviewCount": 21,
+    "basePrice": 98276.55,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 400 Nit OLED/IPS Low Blue Light)",
+      "Intel Core Ultra 9 285H Yüksek Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "32GB RAM & 1TB NVMe SSD",
+      "19.9 mm Ultra İnce Tasarım & OMEN Tempest Slim Termal"
+    ],
+    "specs": {
+      "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
+      "processor": "Intel Core Ultra 9 285H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE / 16 İzlek)",
+      "npuTops": 13,
+      "ramGb": 32,
+      "ramType": "LPDDR5X / DDR5 5600 MHz",
+      "maxRamGb": 32,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 400 Nit OLED/IPS Low Blue Light)",
+      "screenBrightnessNits": 400,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 7.5,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.09,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Ultra Hafif Mat Siyah Magnezyum-Alüminyum Hibrit Kasa",
+      "keyboard": "OMEN 4 Bölgeli / Per-Key RGB Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Mikrofon",
+      "audio": "HyperX / B&O Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf25-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 98276.55,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 7600,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf25-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 99259,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 5800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 103190,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 100242,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 98276.55,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-17-db1015nt-c2ez5ea-ka11",
+    "slug": "hp-omen-gaming-17-db1015nt-c2ez5ea-ka11",
+    "name": "HP OMEN Gaming 17-db1015nt (C2EZ5EA-KA11) (FreeDOS)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka11-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka11-1.jpg",
+      "https://resim.epey.com/1067231/z_hp-omen-gaming-17-db1015nt-c2ez5ea-ka11-4.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 72,
+    "reviewCount": 14,
+    "basePrice": 202489.5,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "17.3\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit G-Sync IPS)",
+      "AMD Ryzen AI 7 350 Yüksek Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4090 Laptop (16GB GDDR6 - 175W)",
+      "96GB RAM & 4TB NVMe SSD",
+      "OMEN Tempest Cooling Gelişmiş Termal Mimari"
+    ],
+    "specs": {
+      "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
+      "processor": "AMD Ryzen AI 7 350",
+      "processorCores": "8 Çekirdek / 16 İzlek",
+      "npuTops": 50,
+      "ramGb": 96,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 4096,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4090 Laptop (16GB GDDR6 - 175W)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 17.3,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit G-Sync IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.78,
+      "thicknessMm": 27,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Kasa",
+      "keyboard": "OMEN 4 Bölgeli / Per-Key RGB Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Mikrofon",
+      "audio": "HyperX / B&O Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-17-db1015nt-c2ez5ea-ka11-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 202489.5,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 7600,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-17-db1015nt-c2ez5ea-ka11-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 204514,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 5800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 212614,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 206539,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 202489.5,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf49",
+    "slug": "hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf49",
+    "name": "HP OMEN Slim Gaming 16-an0017nt (CD7K1EAHMF49)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
+    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf49-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf49-1.jpg",
+      "https://resim.epey.com/1058924/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 72,
+    "reviewCount": 13,
+    "basePrice": 98276.55,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 400 Nit OLED/IPS Low Blue Light)",
+      "Intel Core Ultra 9 285H Yüksek Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "32GB RAM & 1TB NVMe SSD",
+      "19.9 mm Ultra İnce Tasarım & OMEN Tempest Slim Termal"
+    ],
+    "specs": {
+      "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
+      "processor": "Intel Core Ultra 9 285H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE / 16 İzlek)",
+      "npuTops": 13,
+      "ramGb": 32,
+      "ramType": "LPDDR5X / DDR5 5600 MHz",
+      "maxRamGb": 32,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 400 Nit OLED/IPS Low Blue Light)",
+      "screenBrightnessNits": 400,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 7.5,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.09,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Ultra Hafif Mat Siyah Magnezyum-Alüminyum Hibrit Kasa",
+      "keyboard": "OMEN 4 Bölgeli / Per-Key RGB Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Mikrofon",
+      "audio": "HyperX / B&O Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "Windows 10 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf49-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 98276.55,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 7600,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-slim-gaming-16-an0017nt-cd7k1eahmf49-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 99259,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 5800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 103190,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 100242,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 98276.55,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-slim-gaming-16-an0016nt-cd7k0ea",
+    "slug": "hp-omen-slim-gaming-16-an0016nt-cd7k0ea",
+    "name": "HP OMEN Slim Gaming 16-an0016nt (CD7K0EA) (FreeDOS)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
+    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0016nt-cd7k0ea-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-slim-gaming-16-an0016nt-cd7k0ea-1.jpg",
+      "https://resim.epey.com/1051503/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 71,
+    "reviewCount": 14,
+    "basePrice": 85024.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 400 Nit OLED/IPS Low Blue Light)",
+      "Intel Core Ultra 9 285H Yüksek Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 120W)",
+      "32GB RAM & 1TB NVMe SSD",
+      "19.9 mm Ultra İnce Tasarım & OMEN Tempest Slim Termal"
+    ],
+    "specs": {
+      "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
+      "processor": "Intel Core Ultra 9 285H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE / 16 İzlek)",
+      "npuTops": 13,
+      "ramGb": 32,
+      "ramType": "LPDDR5X / DDR5 5600 MHz",
+      "maxRamGb": 32,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 120W)",
+      "gpuTgpWatts": 120,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 400 Nit OLED/IPS Low Blue Light)",
+      "screenBrightnessNits": 400,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 7.5,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.09,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Ultra Hafif Mat Siyah Magnezyum-Alüminyum Hibrit Kasa",
+      "keyboard": "OMEN 4 Bölgeli / Per-Key RGB Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Mikrofon",
+      "audio": "HyperX / B&O Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-slim-gaming-16-an0016nt-cd7k0ea-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 85024.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 7600,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-slim-gaming-16-an0016nt-cd7k0ea-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 85874,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 5800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 89275,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 86725,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 85024.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-16-ap0012nta29-c12cgeaa29",
+    "slug": "hp-omen-gaming-16-ap0012nta29-c12cgeaa29",
+    "name": "HP OMEN Gaming 16-ap0012nta29 (C12CGEAA29) (FreeDOS)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-16-ap0012nta29-c12cgeaa29-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-16-ap0012nta29-c12cgeaa29-1.jpg",
+      "https://resim.epey.com/1042462/z_hp-omen-gaming-16-ap0012nta29-c12cgeaa29-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 71,
+    "reviewCount": 22,
+    "basePrice": 105593.47,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit IPS)",
+      "AMD Ryzen AI 9 365 Yüksek Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "32GB RAM & 1TB NVMe SSD",
+      "OMEN Tempest Cooling Gelişmiş Termal Mimari"
+    ],
+    "specs": {
+      "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
+      "processor": "AMD Ryzen AI 9 365",
+      "processorCores": "10 Çekirdek / 20 İzlek",
+      "npuTops": 50,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 32,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.37,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Kasa",
+      "keyboard": "OMEN 4 Bölgeli / Per-Key RGB Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Mikrofon",
+      "audio": "HyperX / B&O Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-16-ap0012nta29-c12cgeaa29-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 105593.47,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 7600,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-16-ap0012nta29-c12cgeaa29-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 106649,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 5800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 110873,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 107705,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 105593.47,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-17-db1015nt-c2ez5ea-ka25",
+    "slug": "hp-omen-gaming-17-db1015nt-c2ez5ea-ka25",
+    "name": "HP OMEN Gaming 17-db1015nt (C2EZ5EA-KA25)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka25-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka25-1.jpg",
+      "https://resim.epey.com/1067235/z_hp-omen-gaming-17-db1015nt-c2ez5ea-ka25-4.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 71,
+    "reviewCount": 16,
+    "basePrice": 191576.9,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "17.3\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit G-Sync IPS)",
+      "AMD Ryzen AI 7 350 Yüksek Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "96GB RAM & 4TB NVMe SSD",
+      "OMEN Tempest Cooling Gelişmiş Termal Mimari"
+    ],
+    "specs": {
+      "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
+      "processor": "AMD Ryzen AI 7 350",
+      "processorCores": "8 Çekirdek / 16 İzlek",
+      "npuTops": 50,
+      "ramGb": 96,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 4096,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 17.3,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit G-Sync IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.78,
+      "thicknessMm": 27,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Kasa",
+      "keyboard": "OMEN 4 Bölgeli / Per-Key RGB Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Mikrofon",
+      "audio": "HyperX / B&O Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-17-db1015nt-c2ez5ea-ka25-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 191576.9,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 7600,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-17-db1015nt-c2ez5ea-ka25-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 193493,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 5800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 201156,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 195408,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 191576.9,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-victus-gaming-15-fa2036nt-c52qwea-fr51",
+    "slug": "hp-victus-gaming-15-fa2036nt-c52qwea-fr51",
+    "name": "HP Victus Gaming 15-fa2036nt (C52QWEA FR51) (FreeDOS)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Fiyat / Performans Oyuncu Laptopu",
+    "image": "/images/products/laptops/hp-victus-gaming-15-fa2036nt-c52qwea-fr51-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-victus-gaming-15-fa2036nt-c52qwea-fr51-1.jpg",
+      "https://resim.epey.com/1052292/z_hp-victus-gaming-15-fa2036nt-c52qwea-fr51-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 71,
+    "reviewCount": 23,
+    "basePrice": 112689.1,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "15.6\" 1920 x 1080 (FHD 16:9 144Hz 250 Nit IPS)",
+      "Intel Core i7-13620H Yüksek Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "64GB RAM & 2TB NVMe SSD",
+      "HP OMEN Gaming Hub & Çift Fanlı Gelişmiş Soğutma"
+    ],
+    "specs": {
+      "productType": "Fiyat / Performans Oyuncu Laptopu",
+      "processor": "Intel Core i7-13620H",
+      "processorCores": "10 Çekirdek (6P + 4E / 16 İzlek 4.9 GHz)",
+      "npuTops": 0,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 15.6,
+      "screenResolution": "1920 x 1080 (FHD 16:9 144Hz 250 Nit IPS)",
+      "screenBrightnessNits": 250,
+      "colorGamut": "%45 NTSC",
+      "batteryCapacityWh": 70,
+      "batteryLifeHours": 6,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.29,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Dayanıklı Güçlendirilmiş Polikarbonat Kasa",
+      "keyboard": "Tek Bölge Beyaz / RGB Aydınlatmalı Sayısal Tuş Takımlı Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Mikrofon",
+      "audio": "HyperX / B&O Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-victus-gaming-15-fa2036nt-c52qwea-fr51-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 112689.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 7600,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-victus-gaming-15-fa2036nt-c52qwea-fr51-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 113816,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 5800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 118324,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 114943,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 112689.1,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-16-ap0020nt-c12cpeaat102",
+    "slug": "hp-omen-gaming-16-ap0020nt-c12cpeaat102",
+    "name": "HP OMEN Gaming 16-ap0020nt (C12CPEAAT102)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-16-ap0020nt-c12cpeaat102-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-16-ap0020nt-c12cpeaat102-1.jpg",
+      "https://resim.epey.com/1066477/z_hp-omen-gaming-16-ap0020nt-c12cpeaat102-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 71,
+    "reviewCount": 26,
+    "basePrice": 107331.95,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit IPS)",
+      "AMD Ryzen AI 9 365 Yüksek Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "48GB RAM & 1TB NVMe SSD",
+      "OMEN Tempest Cooling Gelişmiş Termal Mimari"
+    ],
+    "specs": {
+      "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
+      "processor": "AMD Ryzen AI 9 365",
+      "processorCores": "10 Çekirdek / 20 İzlek",
+      "npuTops": 50,
+      "ramGb": 48,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 32,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.37,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Kasa",
+      "keyboard": "OMEN 4 Bölgeli / Per-Key RGB Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Mikrofon",
+      "audio": "HyperX / B&O Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-16-ap0020nt-c12cpeaat102-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 107331.95,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 7600,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-16-ap0020nt-c12cpeaat102-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 108405,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 5800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 112699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 109479,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 107331.95,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-17-db1015nt-c2ez5ea-ka16",
+    "slug": "hp-omen-gaming-17-db1015nt-c2ez5ea-ka16",
+    "name": "HP OMEN Gaming 17-db1015nt (C2EZ5EA-KA16) (FreeDOS)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka16-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka16-1.jpg",
+      "https://resim.epey.com/1067240/z_hp-omen-gaming-17-db1015nt-c2ez5ea-ka16-4.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 71,
+    "reviewCount": 32,
+    "basePrice": 149138.98,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "17.3\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit G-Sync IPS)",
+      "AMD Ryzen AI 7 350 Yüksek Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "48GB RAM & 2TB NVMe SSD",
+      "OMEN Tempest Cooling Gelişmiş Termal Mimari"
+    ],
+    "specs": {
+      "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
+      "processor": "AMD Ryzen AI 7 350",
+      "processorCores": "8 Çekirdek / 16 İzlek",
+      "npuTops": 50,
+      "ramGb": 48,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 32,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 17.3,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit G-Sync IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.78,
+      "thicknessMm": 27,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Kasa",
+      "keyboard": "OMEN 4 Bölgeli / Per-Key RGB Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Mikrofon",
+      "audio": "HyperX / B&O Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-17-db1015nt-c2ez5ea-ka16-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 149138.98,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 7600,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-17-db1015nt-c2ez5ea-ka16-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 150630,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 5800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 156596,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 152122,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 149138.98,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-16-ap0012nta11-c12cgeaa11",
+    "slug": "hp-omen-gaming-16-ap0012nta11-c12cgeaa11",
+    "name": "HP OMEN Gaming 16-ap0012nta11 (C12CGEAA11)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-16-ap0012nta11-c12cgeaa11-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-16-ap0012nta11-c12cgeaa11-1.jpg",
+      "https://resim.epey.com/1042358/z_hp-omen-gaming-16-ap0012nta11-c12cgeaa11-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 71,
+    "reviewCount": 24,
+    "basePrice": 101987.11,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit IPS)",
+      "AMD Ryzen AI 9 365 Yüksek Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "32GB RAM & 1TB NVMe SSD",
+      "OMEN Tempest Cooling Gelişmiş Termal Mimari"
+    ],
+    "specs": {
+      "productType": "Yeni Nesil Yapay Zeka (AI) Destekli Oyuncu Laptopu",
+      "processor": "AMD Ryzen AI 9 365",
+      "processorCores": "10 Çekirdek / 20 İzlek",
+      "npuTops": 50,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 32,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.37,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Kasa",
+      "keyboard": "OMEN 4 Bölgeli / Per-Key RGB Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Mikrofon",
+      "audio": "HyperX / B&O Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-16-ap0012nta11-c12cgeaa11-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 101987.11,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 7600,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-16-ap0012nta11-c12cgeaa11-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 103007,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 5800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 107086,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 104027,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 101987.11,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-17-db1015nt-c2ez5ea-ka05",
+    "slug": "hp-omen-gaming-17-db1015nt-c2ez5ea-ka05",
+    "name": "HP OMEN Gaming 17-db1015nt (C2EZ5EA-KA05) (FreeDOS)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka05-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-17-db1015nt-c2ez5ea-ka05-1.jpg",
+      "https://resim.epey.com/1067236/z_hp-omen-gaming-17-db1015nt-c2ez5ea-ka05-4.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 71,
+    "reviewCount": 30,
+    "basePrice": 206127.04,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "17.3\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit G-Sync IPS)",
+      "AMD Ryzen AI 7 350 Yüksek Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4090 Laptop (16GB GDDR6 - 175W)",
+      "128GB RAM & 4TB NVMe SSD",
+      "OMEN Tempest Cooling Gelişmiş Termal Mimari"
+    ],
+    "specs": {
+      "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
+      "processor": "AMD Ryzen AI 7 350",
+      "processorCores": "8 Çekirdek / 16 İzlek",
+      "npuTops": 50,
+      "ramGb": 128,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 128,
+      "storageGb": 4096,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4090 Laptop (16GB GDDR6 - 175W)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 17.3,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit G-Sync IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.78,
+      "thicknessMm": 27,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Kasa",
+      "keyboard": "OMEN 4 Bölgeli / Per-Key RGB Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Mikrofon",
+      "audio": "HyperX / B&O Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-17-db1015nt-c2ez5ea-ka05-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 206127.04,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 7600,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-17-db1015nt-c2ez5ea-ka05-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 208188,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 5800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 216433,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 210250,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 206127.04,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-slim-gaming-16-an0000nt-bq3z2eapn306",
+    "slug": "hp-omen-slim-gaming-16-an0000nt-bq3z2eapn306",
+    "name": "HP OMEN Slim Gaming 16-an0000nt (BQ3Z2EAPN306) (FreeDOS)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
+    "image": "/images/products/laptops/hp-omen-slim-gaming-16-an0000nt-bq3z2eapn306-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-slim-gaming-16-an0000nt-bq3z2eapn306-1.jpg",
+      "https://resim.epey.com/1063086/z_hp-slim-gaming-laptop-16-an0000nt-bq3z2ea-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 71,
+    "reviewCount": 28,
+    "basePrice": 174753.78,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 400 Nit OLED/IPS Low Blue Light)",
+      "Intel Core Ultra 9 285H Yüksek Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "8GB RAM & 2TB NVMe SSD",
+      "19.9 mm Ultra İnce Tasarım & OMEN Tempest Slim Termal"
+    ],
+    "specs": {
+      "productType": "İnce & Hafif Premium Oyuncu Laptopu (Slim Gaming)",
+      "processor": "Intel Core Ultra 9 285H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE / 16 İzlek)",
+      "npuTops": 13,
+      "ramGb": 8,
+      "ramType": "LPDDR5X / DDR5 5600 MHz",
+      "maxRamGb": 32,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 400 Nit OLED/IPS Low Blue Light)",
+      "screenBrightnessNits": 400,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 7.5,
+      "chargerWatts": 280,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.09,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Ultra Hafif Mat Siyah Magnezyum-Alüminyum Hibrit Kasa",
+      "keyboard": "OMEN 4 Bölgeli / Per-Key RGB Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Mikrofon",
+      "audio": "HyperX / B&O Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-slim-gaming-16-an0000nt-bq3z2eapn306-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 174753.78,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 7600,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-slim-gaming-16-an0000nt-bq3z2eapn306-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 176501,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 5800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 183491,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 178249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 174753.78,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-gaming-17-db1000nt-bv7w3ea",
+    "slug": "hp-omen-gaming-17-db1000nt-bv7w3ea",
+    "name": "HP OMEN Gaming 17-db1000nt (BV7W3EA)",
+    "brand": "HP",
+    "category": "laptops",
+    "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
+    "image": "/images/products/laptops/hp-omen-gaming-17-db1000nt-bv7w3ea-1.jpg",
+    "images": [
+      "/images/products/laptops/hp-omen-gaming-17-db1000nt-bv7w3ea-1.jpg",
+      "https://resim.epey.com/1027326/z_hp-omen-gaming-17-db1000nt-bv7w3ea-4.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 71,
+    "reviewCount": 22,
+    "basePrice": 127999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "17.3\" 2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit G-Sync IPS)",
+      "AMD Ryzen 7 8845HS Yüksek Güçlü İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "32GB RAM & 1TB NVMe SSD",
+      "OMEN Tempest Cooling Gelişmiş Termal Mimari"
+    ],
+    "specs": {
+      "productType": "Masaüstü Gücünde 17.3\" Flagship Oyuncu Laptopu",
+      "processor": "AMD Ryzen 7 8845HS",
+      "processorCores": "8 Çekirdek / 16 İzlek 5.1 GHz",
+      "npuTops": 50,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 32,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 17.3,
+      "screenResolution": "2560 x 1440 (QHD 16:9 240Hz 3ms %100 sRGB 300 Nit G-Sync IPS)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 83,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps (DisplayPort 1.4 & PD)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x 3.5mm Kulaklık/Mikrofon Kombo Jakı"
+      ],
+      "weightKg": 2.78,
+      "thicknessMm": 27,
+      "bodyMaterial": "Gölge Siyahı Alüminyum & Magnezyum Kasa",
+      "keyboard": "OMEN 4 Bölgeli / Per-Key RGB Aydınlatmalı Optik-Mekanik Klavye",
+      "webcam": "HP True Vision 1080p FHD IR Kamera ve Çift Mikrofon",
+      "audio": "HyperX / B&O Destekli Çift Hoparlör DTS:X Ultra",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-hp-omen-gaming-17-db1000nt-bv7w3ea-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 127999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HP Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 7600,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-hp-omen-gaming-17-db1000nt-bv7w3ea-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 129279,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 5800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 134399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 130559,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 127999,
+        "store": "Hepsiburada"
+      }
+    ]
   }
 ];
