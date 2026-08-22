@@ -32720,5 +32720,1960 @@ export const mockLaptops: LaptopProduct[] = [
         "store": "Hepsiburada"
       }
     ]
+  },
+  {
+    "id": "dell-pro-16-pc16250-32gb-2tbssd-dos",
+    "slug": "dell-pro-16-pc16250-32gb-2tbssd-dos",
+    "name": "Dell Pro 16 PC16250 (32GB/2TBSSD/DOS)",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Kurumsal & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/dell-pro-16-pc16250-32gb-2tbssd-dos-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-16-pc16250-32gb-2tbssd-dos-1.jpg",
+      "https://resim.epey.com/1037777/z_dell-pro-16-pc16250-32gb-2tbssd-dos-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 52,
+    "reviewCount": 22,
+    "basePrice": 74893.9,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 16:10 IPS Parlama Önleyici 300 Nit)",
+      "Intel Core Ultra 7 255U Yeni Nesil İşlemci",
+      "Intel Arc Graphics (Entegre Grafik)",
+      "32GB RAM & 2TB Hızlı SSD",
+      "Dell Kurumsal Güvenlik & Dayanıklı Gövde"
+    ],
+    "specs": {
+      "productType": "Kurumsal & İş Dünyası Laptopu",
+      "processor": "Intel Core Ultra 7 255U",
+      "processorCores": "12 Çekirdek (2P + 8E + 2LPE)",
+      "npuTops": 11,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "Intel Arc Graphics (Entegre Grafik)",
+      "gpuTgpWatts": 28,
+      "muxSwitch": false,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 16:10 IPS Parlama Önleyici 300 Nit)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%45 NTSC",
+      "batteryCapacityWh": 65,
+      "batteryLifeHours": 10,
+      "chargerWatts": 65,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB Type-C (Power Delivery & DP)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 / 2.0",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x uSD Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 1.83,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Güçlendirilmiş Kurumsal Alüminyum & Polimer Kasa",
+      "keyboard": "Sıvı Dökülmesine Dayanıklı, Beyaz LED Aydınlatmalı Klavye",
+      "webcam": "1080p FHD HDR Kamera & Gizlilik Kapağı",
+      "audio": "Waves MaxxAudio® Pro Stereo Hoparlörler",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-16-pc16250-32gb-2tbssd-dos-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 74893.9,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-16-pc16250-32gb-2tbssd-dos-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 75643,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 78639,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 76392,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 74893.9,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-16-plus-pb16250-u5-32-w-1tb",
+    "slug": "dell-pro-16-plus-pb16250-u5-32-w-1tb",
+    "name": "Dell Pro 16 Plus PB16250-U5-32-W-1TB",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Yüksek Performanslı İş Laptopu",
+    "image": "/images/products/laptops/dell-pro-16-plus-pb16250-u5-32-w-1tb-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-16-plus-pb16250-u5-32-w-1tb-1.jpg",
+      "https://resim.epey.com/1062559/z_dell-pro-16-plus-pb16250-u5-32-w-1tb-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 52,
+    "reviewCount": 17,
+    "basePrice": 107254.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 16:10 IPS Parlama Önleyici 300 Nit)",
+      "Intel Core Ultra 5 238V Yeni Nesil İşlemci",
+      "Intel Arc Graphics 130V (Lunar Lake)",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Dell Kurumsal Güvenlik & Dayanıklı Gövde"
+    ],
+    "specs": {
+      "productType": "Yüksek Performanslı İş Laptopu",
+      "processor": "Intel Core Ultra 5 238V",
+      "processorCores": "8 Çekirdek (4P + 4LPE)",
+      "npuTops": 40,
+      "ramGb": 32,
+      "ramType": "LPDDR5x 8533 MHz",
+      "maxRamGb": 32,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "Intel Arc Graphics 130V (Lunar Lake)",
+      "gpuTgpWatts": 37,
+      "muxSwitch": false,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 16:10 IPS Parlama Önleyici 300 Nit)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%45 NTSC",
+      "batteryCapacityWh": 65,
+      "batteryLifeHours": 14,
+      "chargerWatts": 65,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB Type-C (Power Delivery & DP)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 / 2.0",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x uSD Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 1.83,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Güçlendirilmiş Kurumsal Alüminyum & Polimer Kasa",
+      "keyboard": "Sıvı Dökülmesine Dayanıklı, Beyaz LED Aydınlatmalı Klavye",
+      "webcam": "1080p FHD HDR Kamera & Gizlilik Kapağı",
+      "audio": "Waves MaxxAudio® Pro Stereo Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-16-plus-pb16250-u5-32-w-1tb-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 107254.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-16-plus-pb16250-u5-32-w-1tb-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 108327,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 112617,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 109399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 107254.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-16-32gb-1tbssd-w11p",
+    "slug": "dell-pro-16-32gb-1tbssd-w11p",
+    "name": "Dell Pro 16 (32GB/1TBSSD/W11P)",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Kurumsal & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/dell-pro-16-32gb-1tbssd-w11p-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-16-32gb-1tbssd-w11p-1.jpg",
+      "https://resim.epey.com/1067925/z_dell-pro-16-plus-pb16250-bto105-pb16250-ubu-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 52,
+    "reviewCount": 26,
+    "basePrice": 79533.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 16:10 IPS Parlama Önleyici 300 Nit)",
+      "Intel Core Ultra 7 255U Yeni Nesil İşlemci",
+      "Intel Arc Graphics (Entegre Grafik)",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Dell Kurumsal Güvenlik & Dayanıklı Gövde"
+    ],
+    "specs": {
+      "productType": "Kurumsal & İş Dünyası Laptopu",
+      "processor": "Intel Core Ultra 7 255U",
+      "processorCores": "12 Çekirdek (2P + 8E + 2LPE)",
+      "npuTops": 11,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "Intel Arc Graphics (Entegre Grafik)",
+      "gpuTgpWatts": 28,
+      "muxSwitch": false,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 16:10 IPS Parlama Önleyici 300 Nit)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%45 NTSC",
+      "batteryCapacityWh": 65,
+      "batteryLifeHours": 10,
+      "chargerWatts": 65,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB Type-C (Power Delivery & DP)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 / 2.0",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x uSD Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 1.83,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Güçlendirilmiş Kurumsal Alüminyum & Polimer Kasa",
+      "keyboard": "Sıvı Dökülmesine Dayanıklı, Beyaz LED Aydınlatmalı Klavye",
+      "webcam": "1080p FHD HDR Kamera & Gizlilik Kapağı",
+      "audio": "Waves MaxxAudio® Pro Stereo Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-16-32gb-1tbssd-w11p-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 79533.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-16-32gb-1tbssd-w11p-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 80328,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 83510,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 81124,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 79533.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-16-plus-bto108-pc16250-u500",
+    "slug": "dell-pro-16-plus-bto108-pc16250-u500",
+    "name": "Dell Pro 16 Plus BTO108_PC16250_U500",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Yüksek Performanslı İş Laptopu",
+    "image": "/images/products/laptops/dell-pro-16-plus-bto108-pc16250-u500-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-16-plus-bto108-pc16250-u500-1.jpg",
+      "https://resim.epey.com/1067211/z_dell-pro-16-plus-pb16250-bto105-pb16250-ubu-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 52,
+    "reviewCount": 14,
+    "basePrice": 81889.1,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 16:10 IPS Parlama Önleyici 300 Nit)",
+      "Intel Core Ultra 7 255U Yeni Nesil İşlemci",
+      "Intel Arc Graphics (Entegre Grafik)",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Dell Kurumsal Güvenlik & Dayanıklı Gövde"
+    ],
+    "specs": {
+      "productType": "Yüksek Performanslı İş Laptopu",
+      "processor": "Intel Core Ultra 7 255U",
+      "processorCores": "12 Çekirdek (2P + 8E + 2LPE)",
+      "npuTops": 11,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "Intel Arc Graphics (Entegre Grafik)",
+      "gpuTgpWatts": 28,
+      "muxSwitch": false,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 16:10 IPS Parlama Önleyici 300 Nit)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%45 NTSC",
+      "batteryCapacityWh": 65,
+      "batteryLifeHours": 10,
+      "chargerWatts": 65,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB Type-C (Power Delivery & DP)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 / 2.0",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x uSD Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 1.83,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Güçlendirilmiş Kurumsal Alüminyum & Polimer Kasa",
+      "keyboard": "Sıvı Dökülmesine Dayanıklı, Beyaz LED Aydınlatmalı Klavye",
+      "webcam": "1080p FHD HDR Kamera & Gizlilik Kapağı",
+      "audio": "Waves MaxxAudio® Pro Stereo Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-16-plus-bto108-pc16250-u500-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 81889.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-16-plus-bto108-pc16250-u500-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 82708,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 85984,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 83527,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 81889.1,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-16-plus-bto105-pb16250a014",
+    "slug": "dell-pro-16-plus-bto105-pb16250a014",
+    "name": "Dell Pro 16 Plus BTO105_PB16250A014",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Yüksek Performanslı İş Laptopu",
+    "image": "/images/products/laptops/dell-pro-16-plus-bto105-pb16250a014-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-16-plus-bto105-pb16250a014-1.jpg",
+      "https://resim.epey.com/1042790/z_dell-pro-16-plus-pb16250-bto105-pb16250-ubu-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 52,
+    "reviewCount": 26,
+    "basePrice": 85999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 16:10 IPS Parlama Önleyici 300 Nit)",
+      "Intel Core Ultra 7 255U Yeni Nesil İşlemci",
+      "Intel Arc Graphics (Entegre Grafik)",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Dell Kurumsal Güvenlik & Dayanıklı Gövde"
+    ],
+    "specs": {
+      "productType": "Yüksek Performanslı İş Laptopu",
+      "processor": "Intel Core Ultra 7 255U",
+      "processorCores": "12 Çekirdek (2P + 8E + 2LPE)",
+      "npuTops": 11,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "Intel Arc Graphics (Entegre Grafik)",
+      "gpuTgpWatts": 28,
+      "muxSwitch": false,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 16:10 IPS Parlama Önleyici 300 Nit)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%45 NTSC",
+      "batteryCapacityWh": 65,
+      "batteryLifeHours": 10,
+      "chargerWatts": 65,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB Type-C (Power Delivery & DP)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 / 2.0",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x uSD Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 1.83,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Güçlendirilmiş Kurumsal Alüminyum & Polimer Kasa",
+      "keyboard": "Sıvı Dökülmesine Dayanıklı, Beyaz LED Aydınlatmalı Klavye",
+      "webcam": "1080p FHD HDR Kamera & Gizlilik Kapağı",
+      "audio": "Waves MaxxAudio® Pro Stereo Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-16-plus-bto105-pb16250a014-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 85999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-16-plus-bto105-pb16250a014-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 86859,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 90299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 87719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 85999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-16-32gb-1tbssd-w11h",
+    "slug": "dell-pro-16-32gb-1tbssd-w11h",
+    "name": "Dell Pro 16 (32GB/1TBSSD/W11H)",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Kurumsal & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/dell-pro-16-32gb-1tbssd-w11h-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-16-32gb-1tbssd-w11h-1.jpg",
+      "https://resim.epey.com/1067924/z_dell-pro-16-plus-pb16250-bto105-pb16250-ubu-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 52,
+    "reviewCount": 18,
+    "basePrice": 86499,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 16:10 IPS Parlama Önleyici 300 Nit)",
+      "Intel Core Ultra 7 255U Yeni Nesil İşlemci",
+      "Intel Arc Graphics (Entegre Grafik)",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Dell Kurumsal Güvenlik & Dayanıklı Gövde"
+    ],
+    "specs": {
+      "productType": "Kurumsal & İş Dünyası Laptopu",
+      "processor": "Intel Core Ultra 7 255U",
+      "processorCores": "12 Çekirdek (2P + 8E + 2LPE)",
+      "npuTops": 11,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "Intel Arc Graphics (Entegre Grafik)",
+      "gpuTgpWatts": 28,
+      "muxSwitch": false,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 16:10 IPS Parlama Önleyici 300 Nit)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%45 NTSC",
+      "batteryCapacityWh": 65,
+      "batteryLifeHours": 10,
+      "chargerWatts": 65,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB Type-C (Power Delivery & DP)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 / 2.0",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x uSD Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 1.83,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Güçlendirilmiş Kurumsal Alüminyum & Polimer Kasa",
+      "keyboard": "Sıvı Dökülmesine Dayanıklı, Beyaz LED Aydınlatmalı Klavye",
+      "webcam": "1080p FHD HDR Kamera & Gizlilik Kapağı",
+      "audio": "Waves MaxxAudio® Pro Stereo Hoparlörler",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-16-32gb-1tbssd-w11h-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 86499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-16-32gb-1tbssd-w11h-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 87364,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 90824,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 88229,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 86499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-16-plus-pb16250-32gb-ram-1tbssd-w11p",
+    "slug": "dell-pro-16-plus-pb16250-32gb-ram-1tbssd-w11p",
+    "name": "Dell Pro 16 Plus PB16250 (32GB RAM/1TBSSD/W11P)",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Yüksek Performanslı İş Laptopu",
+    "image": "/images/products/laptops/dell-pro-16-plus-pb16250-32gb-ram-1tbssd-w11p-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-16-plus-pb16250-32gb-ram-1tbssd-w11p-1.jpg",
+      "https://resim.epey.com/1031682/z_dell-pro-16-plus-pb16250-32gb-ram-1tbssd-w11p-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 52,
+    "reviewCount": 14,
+    "basePrice": 76523.19,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 16:10 IPS Parlama Önleyici 300 Nit)",
+      "Intel Core Ultra 7 265U Yeni Nesil İşlemci",
+      "Intel Arc Graphics (Entegre Grafik)",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Dell Kurumsal Güvenlik & Dayanıklı Gövde"
+    ],
+    "specs": {
+      "productType": "Yüksek Performanslı İş Laptopu",
+      "processor": "Intel Core Ultra 7 265U",
+      "processorCores": "12 Çekirdek (2P + 8E + 2LPE)",
+      "npuTops": 11,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "Intel Arc Graphics (Entegre Grafik)",
+      "gpuTgpWatts": 28,
+      "muxSwitch": false,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 16:10 IPS Parlama Önleyici 300 Nit)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%45 NTSC",
+      "batteryCapacityWh": 65,
+      "batteryLifeHours": 10,
+      "chargerWatts": 65,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB Type-C (Power Delivery & DP)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 / 2.0",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x uSD Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 1.83,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Güçlendirilmiş Kurumsal Alüminyum & Polimer Kasa",
+      "keyboard": "Sıvı Dökülmesine Dayanıklı, Beyaz LED Aydınlatmalı Klavye",
+      "webcam": "1080p FHD HDR Kamera & Gizlilik Kapağı",
+      "audio": "Waves MaxxAudio® Pro Stereo Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-16-plus-pb16250-32gb-ram-1tbssd-w11p-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 76523.19,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-16-plus-pb16250-32gb-ram-1tbssd-w11p-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 77288,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 80349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 78054,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 76523.19,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-14-plus-pb14250-k01",
+    "slug": "dell-pro-14-plus-pb14250-k01",
+    "name": "Dell Pro 14 Plus PB14250-K01",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Yüksek Performanslı İş Laptopu",
+    "image": "/images/products/laptops/dell-pro-14-plus-pb14250-k01-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-14-plus-pb14250-k01-1.jpg",
+      "https://resim.epey.com/1067759/z_dell-pro-14-plus-pc14250-bto105-pb14250-ubu-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 52,
+    "reviewCount": 21,
+    "basePrice": 85999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "14\" 1920 x 1200 (FHD+ 16:10 %100 sRGB IPS Parlama Önleyici 300 Nit)",
+      "Intel Core Ultra 5 238V Yeni Nesil İşlemci",
+      "Intel Arc Graphics 130V (Lunar Lake)",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Dell Kurumsal Güvenlik & Dayanıklı Gövde"
+    ],
+    "specs": {
+      "productType": "Yüksek Performanslı İş Laptopu",
+      "processor": "Intel Core Ultra 5 238V",
+      "processorCores": "8 Çekirdek (4P + 4LPE)",
+      "npuTops": 40,
+      "ramGb": 32,
+      "ramType": "LPDDR5x 8533 MHz",
+      "maxRamGb": 32,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "Intel Arc Graphics 130V (Lunar Lake)",
+      "gpuTgpWatts": 37,
+      "muxSwitch": false,
+      "screenSizeInches": 14,
+      "screenResolution": "1920 x 1200 (FHD+ 16:10 %100 sRGB IPS Parlama Önleyici 300 Nit)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 54,
+      "batteryLifeHours": 14,
+      "chargerWatts": 65,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB Type-C (Power Delivery & DP)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 / 2.0",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x uSD Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 1.48,
+      "thicknessMm": 18.1,
+      "bodyMaterial": "Güçlendirilmiş Kurumsal Alüminyum & Polimer Kasa",
+      "keyboard": "Sıvı Dökülmesine Dayanıklı, Beyaz LED Aydınlatmalı Klavye",
+      "webcam": "1080p FHD HDR Kamera & Gizlilik Kapağı",
+      "audio": "Waves MaxxAudio® Pro Stereo Hoparlörler",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-14-plus-pb14250-k01-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 85999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-14-plus-pb14250-k01-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 86859,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 90299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 87719,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 85999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-16-pc16250-bto107-pc16250a014",
+    "slug": "dell-pro-16-pc16250-bto107-pc16250a014",
+    "name": "Dell Pro 16 PC16250 BTO107_PC16250A014",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Kurumsal & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/dell-pro-16-pc16250-bto107-pc16250a014-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-16-pc16250-bto107-pc16250a014-1.jpg",
+      "https://resim.epey.com/1042687/z_dell-pro-16-pc16250-32gb-2tbssd-11p-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 52,
+    "reviewCount": 9,
+    "basePrice": 79903.53,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 16:10 IPS Parlama Önleyici 300 Nit)",
+      "Intel Core Ultra 7 255U Yeni Nesil İşlemci",
+      "Intel Arc Graphics (Entegre Grafik)",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Dell Kurumsal Güvenlik & Dayanıklı Gövde"
+    ],
+    "specs": {
+      "productType": "Kurumsal & İş Dünyası Laptopu",
+      "processor": "Intel Core Ultra 7 255U",
+      "processorCores": "12 Çekirdek (2P + 8E + 2LPE)",
+      "npuTops": 11,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "Intel Arc Graphics (Entegre Grafik)",
+      "gpuTgpWatts": 28,
+      "muxSwitch": false,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 16:10 IPS Parlama Önleyici 300 Nit)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%45 NTSC",
+      "batteryCapacityWh": 65,
+      "batteryLifeHours": 10,
+      "chargerWatts": 65,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB Type-C (Power Delivery & DP)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 / 2.0",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x uSD Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 1.83,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Güçlendirilmiş Kurumsal Alüminyum & Polimer Kasa",
+      "keyboard": "Sıvı Dökülmesine Dayanıklı, Beyaz LED Aydınlatmalı Klavye",
+      "webcam": "1080p FHD HDR Kamera & Gizlilik Kapağı",
+      "audio": "Waves MaxxAudio® Pro Stereo Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-16-pc16250-bto107-pc16250a014-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 79903.53,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-16-pc16250-bto107-pc16250a014-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 80703,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 83899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 81502,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 79903.53,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-16-pc16250-32gb-1tbssd-w11p",
+    "slug": "dell-pro-16-pc16250-32gb-1tbssd-w11p",
+    "name": "Dell Pro 16 PC16250 (32GB/1TBSSD/W11P)",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Kurumsal & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/dell-pro-16-pc16250-32gb-1tbssd-w11p-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-16-pc16250-32gb-1tbssd-w11p-1.jpg",
+      "https://resim.epey.com/1037640/z_dell-pro-16-pc16250-32gb-2tbssd-11p-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 52,
+    "reviewCount": 23,
+    "basePrice": 65008,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 16:10 IPS Parlama Önleyici 300 Nit)",
+      "Intel Core Ultra 7 255U Yeni Nesil İşlemci",
+      "Intel Arc Graphics (Entegre Grafik)",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Dell Kurumsal Güvenlik & Dayanıklı Gövde"
+    ],
+    "specs": {
+      "productType": "Kurumsal & İş Dünyası Laptopu",
+      "processor": "Intel Core Ultra 7 255U",
+      "processorCores": "12 Çekirdek (2P + 8E + 2LPE)",
+      "npuTops": 11,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "Intel Arc Graphics (Entegre Grafik)",
+      "gpuTgpWatts": 28,
+      "muxSwitch": false,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 16:10 IPS Parlama Önleyici 300 Nit)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%45 NTSC",
+      "batteryCapacityWh": 65,
+      "batteryLifeHours": 10,
+      "chargerWatts": 65,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB Type-C (Power Delivery & DP)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 / 2.0",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x uSD Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 1.83,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Güçlendirilmiş Kurumsal Alüminyum & Polimer Kasa",
+      "keyboard": "Sıvı Dökülmesine Dayanıklı, Beyaz LED Aydınlatmalı Klavye",
+      "webcam": "1080p FHD HDR Kamera & Gizlilik Kapağı",
+      "audio": "Waves MaxxAudio® Pro Stereo Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-16-pc16250-32gb-1tbssd-w11p-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 65008,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-16-pc16250-32gb-1tbssd-w11p-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 65658,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 68258,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 66308,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 65008,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-14-pc14250-32gbram-2tbssd-fdos",
+    "slug": "dell-pro-14-pc14250-32gbram-2tbssd-fdos",
+    "name": "Dell Pro 14 PC14250 (32GBRAM/2TBSSD/FDOS)",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Kurumsal & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/dell-pro-14-pc14250-32gbram-2tbssd-fdos-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-14-pc14250-32gbram-2tbssd-fdos-1.jpg",
+      "https://resim.epey.com/1052230/z_dell-pro-14-pc14250-32gbram-2tbssd-fdos-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 52,
+    "reviewCount": 11,
+    "basePrice": 70837.8,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "14\" 1920 x 1200 (FHD+ 16:10 %100 sRGB IPS Parlama Önleyici 300 Nit)",
+      "Intel Core Ultra 7 255U Yeni Nesil İşlemci",
+      "Intel Arc Graphics (Entegre Grafik)",
+      "32GB RAM & 2TB Hızlı SSD",
+      "Dell Kurumsal Güvenlik & Dayanıklı Gövde"
+    ],
+    "specs": {
+      "productType": "Kurumsal & İş Dünyası Laptopu",
+      "processor": "Intel Core Ultra 7 255U",
+      "processorCores": "12 Çekirdek (2P + 8E + 2LPE)",
+      "npuTops": 11,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "Intel Arc Graphics (Entegre Grafik)",
+      "gpuTgpWatts": 28,
+      "muxSwitch": false,
+      "screenSizeInches": 14,
+      "screenResolution": "1920 x 1200 (FHD+ 16:10 %100 sRGB IPS Parlama Önleyici 300 Nit)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 54,
+      "batteryLifeHours": 10,
+      "chargerWatts": 65,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB Type-C (Power Delivery & DP)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 / 2.0",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x uSD Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 1.48,
+      "thicknessMm": 18.1,
+      "bodyMaterial": "Güçlendirilmiş Kurumsal Alüminyum & Polimer Kasa",
+      "keyboard": "Sıvı Dökülmesine Dayanıklı, Beyaz LED Aydınlatmalı Klavye",
+      "webcam": "1080p FHD HDR Kamera & Gizlilik Kapağı",
+      "audio": "Waves MaxxAudio® Pro Stereo Hoparlörler",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-14-pc14250-32gbram-2tbssd-fdos-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 70837.8,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-14-pc14250-32gbram-2tbssd-fdos-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 71546,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 74380,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 72255,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 70837.8,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-14-plus-pb14250-k04",
+    "slug": "dell-pro-14-plus-pb14250-k04",
+    "name": "Dell Pro 14 Plus PB14250-K04",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Yüksek Performanslı İş Laptopu",
+    "image": "/images/products/laptops/dell-pro-14-plus-pb14250-k04-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-14-plus-pb14250-k04-1.jpg",
+      "https://resim.epey.com/1067758/z_dell-pro-14-plus-pc14250-bto105-pb14250-ubu-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 51,
+    "reviewCount": 11,
+    "basePrice": 88394.29,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "14\" 1920 x 1200 (FHD+ 16:10 %100 sRGB IPS Parlama Önleyici 300 Nit)",
+      "Intel Core Ultra 5 238V Yeni Nesil İşlemci",
+      "Intel Arc Graphics 130V (Lunar Lake)",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Dell Kurumsal Güvenlik & Dayanıklı Gövde"
+    ],
+    "specs": {
+      "productType": "Yüksek Performanslı İş Laptopu",
+      "processor": "Intel Core Ultra 5 238V",
+      "processorCores": "8 Çekirdek (4P + 4LPE)",
+      "npuTops": 40,
+      "ramGb": 32,
+      "ramType": "LPDDR5x 8533 MHz",
+      "maxRamGb": 32,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "Intel Arc Graphics 130V (Lunar Lake)",
+      "gpuTgpWatts": 37,
+      "muxSwitch": false,
+      "screenSizeInches": 14,
+      "screenResolution": "1920 x 1200 (FHD+ 16:10 %100 sRGB IPS Parlama Önleyici 300 Nit)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 54,
+      "batteryLifeHours": 14,
+      "chargerWatts": 65,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB Type-C (Power Delivery & DP)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 / 2.0",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x uSD Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 1.48,
+      "thicknessMm": 18.1,
+      "bodyMaterial": "Güçlendirilmiş Kurumsal Alüminyum & Polimer Kasa",
+      "keyboard": "Sıvı Dökülmesine Dayanıklı, Beyaz LED Aydınlatmalı Klavye",
+      "webcam": "1080p FHD HDR Kamera & Gizlilik Kapağı",
+      "audio": "Waves MaxxAudio® Pro Stereo Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-14-plus-pb14250-k04-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 88394.29,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-14-plus-pb14250-k04-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 89278,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 92814,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 90162,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 88394.29,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-16-plus-pb16250-u7265u165u",
+    "slug": "dell-pro-16-plus-pb16250-u7265u165u",
+    "name": "Dell Pro 16 Plus PB16250 U7265U165U",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Yüksek Performanslı İş Laptopu",
+    "image": "/images/products/laptops/dell-pro-16-plus-pb16250-u7265u165u-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-16-plus-pb16250-u7265u165u-1.jpg",
+      "https://resim.epey.com/1034583/z_dell-pro-16-plus-pb16250-32gb-ram-1tbssd-lnx-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 51,
+    "reviewCount": 14,
+    "basePrice": 73581.79,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 16:10 IPS Parlama Önleyici 300 Nit)",
+      "Intel Core Ultra 7 265U Yeni Nesil İşlemci",
+      "Intel Arc Graphics (Entegre Grafik)",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Dell Kurumsal Güvenlik & Dayanıklı Gövde"
+    ],
+    "specs": {
+      "productType": "Yüksek Performanslı İş Laptopu",
+      "processor": "Intel Core Ultra 7 265U",
+      "processorCores": "12 Çekirdek (2P + 8E + 2LPE)",
+      "npuTops": 11,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "Intel Arc Graphics (Entegre Grafik)",
+      "gpuTgpWatts": 28,
+      "muxSwitch": false,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 16:10 IPS Parlama Önleyici 300 Nit)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%45 NTSC",
+      "batteryCapacityWh": 65,
+      "batteryLifeHours": 10,
+      "chargerWatts": 65,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB Type-C (Power Delivery & DP)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 / 2.0",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x uSD Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 1.83,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Güçlendirilmiş Kurumsal Alüminyum & Polimer Kasa",
+      "keyboard": "Sıvı Dökülmesine Dayanıklı, Beyaz LED Aydınlatmalı Klavye",
+      "webcam": "1080p FHD HDR Kamera & Gizlilik Kapağı",
+      "audio": "Waves MaxxAudio® Pro Stereo Hoparlörler",
+      "os": "Ubuntu Linux"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-16-plus-pb16250-u7265u165u-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 73581.79,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-16-plus-pb16250-u7265u165u-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 74318,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 77261,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 75053,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 73581.79,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-14-pc14250-pc14250-bto107-wp321",
+    "slug": "dell-pro-14-pc14250-pc14250-bto107-wp321",
+    "name": "Dell Pro 14 PC14250 PC14250-BTO107-WP321",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Kurumsal & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/dell-pro-14-pc14250-pc14250-bto107-wp321-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-14-pc14250-pc14250-bto107-wp321-1.jpg",
+      "https://resim.epey.com/1031664/z_dell-pro-14-pc14250-pc14250-bto107-wp321-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 51,
+    "reviewCount": 25,
+    "basePrice": 85900,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "14\" 1920 x 1200 (FHD+ 16:10 %100 sRGB IPS Parlama Önleyici 300 Nit)",
+      "Intel Core Ultra 7 255U Yeni Nesil İşlemci",
+      "Intel Arc Graphics (Entegre Grafik)",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Dell Kurumsal Güvenlik & Dayanıklı Gövde"
+    ],
+    "specs": {
+      "productType": "Kurumsal & İş Dünyası Laptopu",
+      "processor": "Intel Core Ultra 7 255U",
+      "processorCores": "12 Çekirdek (2P + 8E + 2LPE)",
+      "npuTops": 11,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "Intel Arc Graphics (Entegre Grafik)",
+      "gpuTgpWatts": 28,
+      "muxSwitch": false,
+      "screenSizeInches": 14,
+      "screenResolution": "1920 x 1200 (FHD+ 16:10 %100 sRGB IPS Parlama Önleyici 300 Nit)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 54,
+      "batteryLifeHours": 10,
+      "chargerWatts": 65,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB Type-C (Power Delivery & DP)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 / 2.0",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x uSD Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 1.48,
+      "thicknessMm": 18.1,
+      "bodyMaterial": "Güçlendirilmiş Kurumsal Alüminyum & Polimer Kasa",
+      "keyboard": "Sıvı Dökülmesine Dayanıklı, Beyaz LED Aydınlatmalı Klavye",
+      "webcam": "1080p FHD HDR Kamera & Gizlilik Kapağı",
+      "audio": "Waves MaxxAudio® Pro Stereo Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-14-pc14250-pc14250-bto107-wp321-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 85900,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-14-pc14250-pc14250-bto107-wp321-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 86759,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 90195,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 87618,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 85900,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-16-pc16250-bto108-pc16250-emea-u",
+    "slug": "dell-pro-16-pc16250-bto108-pc16250-emea-u",
+    "name": "Dell Pro 16 PC16250 BTO108-PC16250-EMEA-U",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Kurumsal & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/dell-pro-16-pc16250-bto108-pc16250-emea-u-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-16-pc16250-bto108-pc16250-emea-u-1.jpg",
+      "https://resim.epey.com/1037760/z_dell-pro-16-pc16250-bto108-pc16250-emea-u-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 51,
+    "reviewCount": 24,
+    "basePrice": 68281.54,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 1920 x 1200 (FHD+ 16:10 IPS Parlama Önleyici 300 Nit)",
+      "Intel Core Ultra 7 255U Yeni Nesil İşlemci",
+      "Intel Arc Graphics (Entegre Grafik)",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Dell Kurumsal Güvenlik & Dayanıklı Gövde"
+    ],
+    "specs": {
+      "productType": "Kurumsal & İş Dünyası Laptopu",
+      "processor": "Intel Core Ultra 7 255U",
+      "processorCores": "12 Çekirdek (2P + 8E + 2LPE)",
+      "npuTops": 11,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "Intel Arc Graphics (Entegre Grafik)",
+      "gpuTgpWatts": 28,
+      "muxSwitch": false,
+      "screenSizeInches": 16,
+      "screenResolution": "1920 x 1200 (FHD+ 16:10 IPS Parlama Önleyici 300 Nit)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%45 NTSC",
+      "batteryCapacityWh": 65,
+      "batteryLifeHours": 10,
+      "chargerWatts": 65,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB Type-C (Power Delivery & DP)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 / 2.0",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x uSD Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 1.83,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Güçlendirilmiş Kurumsal Alüminyum & Polimer Kasa",
+      "keyboard": "Sıvı Dökülmesine Dayanıklı, Beyaz LED Aydınlatmalı Klavye",
+      "webcam": "1080p FHD HDR Kamera & Gizlilik Kapağı",
+      "audio": "Waves MaxxAudio® Pro Stereo Hoparlörler",
+      "os": "Ubuntu Linux"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-16-pc16250-bto108-pc16250-emea-u-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 68281.54,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-16-pc16250-bto108-pc16250-emea-u-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 68964,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 71696,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 69647,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 68281.54,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-pro-14-plus-pb14250-pb14250-u7-32-w",
+    "slug": "dell-pro-14-plus-pb14250-pb14250-u7-32-w",
+    "name": "Dell Pro 14 Plus PB14250 PB14250-U7-32-W",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Yüksek Performanslı İş Laptopu",
+    "image": "/images/products/laptops/dell-pro-14-plus-pb14250-pb14250-u7-32-w-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-pro-14-plus-pb14250-pb14250-u7-32-w-1.jpg",
+      "https://resim.epey.com/1037369/z_dell-pro-14-plus-pc14250-bto105-pb14250-ububto110-pb14250-ubu-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 51,
+    "reviewCount": 25,
+    "basePrice": 83040,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "14\" 1920 x 1200 (FHD+ 16:10 %100 sRGB IPS Parlama Önleyici 300 Nit)",
+      "Intel Core Ultra 7 268V Yeni Nesil İşlemci",
+      "Intel Arc Graphics 140V (Lunar Lake)",
+      "32GB RAM & 1TB Hızlı SSD",
+      "Dell Kurumsal Güvenlik & Dayanıklı Gövde"
+    ],
+    "specs": {
+      "productType": "Yüksek Performanslı İş Laptopu",
+      "processor": "Intel Core Ultra 7 268V",
+      "processorCores": "8 Çekirdek (4P + 4LPE)",
+      "npuTops": 48,
+      "ramGb": 32,
+      "ramType": "LPDDR5x 8533 MHz",
+      "maxRamGb": 32,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "Intel Arc Graphics 140V (Lunar Lake)",
+      "gpuTgpWatts": 37,
+      "muxSwitch": false,
+      "screenSizeInches": 14,
+      "screenResolution": "1920 x 1200 (FHD+ 16:10 %100 sRGB IPS Parlama Önleyici 300 Nit)",
+      "screenBrightnessNits": 300,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 54,
+      "batteryLifeHours": 14,
+      "chargerWatts": 65,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB Type-C (Power Delivery & DP)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 / 2.0",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x uSD Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 1.48,
+      "thicknessMm": 18.1,
+      "bodyMaterial": "Güçlendirilmiş Kurumsal Alüminyum & Polimer Kasa",
+      "keyboard": "Sıvı Dökülmesine Dayanıklı, Beyaz LED Aydınlatmalı Klavye",
+      "webcam": "1080p FHD HDR Kamera & Gizlilik Kapağı",
+      "audio": "Waves MaxxAudio® Pro Stereo Hoparlörler",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-pro-14-plus-pb14250-pb14250-u7-32-w-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 83040,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-pro-14-plus-pb14250-pb14250-u7-32-w-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 83870,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 87192,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 84701,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 83040,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dell-latitude-5550-32gb-2tb-dos",
+    "slug": "dell-latitude-5550-32gb-2tb-dos",
+    "name": "Dell Latitude 5550 (32GB/2TB/DOS)",
+    "brand": "DELL",
+    "category": "laptops",
+    "productType": "Kurumsal Mobil İş Laptopu",
+    "image": "/images/products/laptops/dell-latitude-5550-32gb-2tb-dos-1.jpg",
+    "images": [
+      "/images/products/laptops/dell-latitude-5550-32gb-2tb-dos-1.jpg",
+      "https://resim.epey.com/1038031/z_dell-latitude-5550-64gb-2tb-lnx-1.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 51,
+    "reviewCount": 19,
+    "basePrice": 70669,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "15.6\" 1920 x 1080 (FHD IPS Parlama Önleyici 250 Nit)",
+      "Intel Core Ultra 5 125U Yeni Nesil İşlemci",
+      "Intel Arc Graphics (Entegre Grafik)",
+      "32GB RAM & 2TB Hızlı SSD",
+      "Dell Kurumsal Güvenlik & Dayanıklı Gövde"
+    ],
+    "specs": {
+      "productType": "Kurumsal Mobil İş Laptopu",
+      "processor": "Intel Core Ultra 5 125U",
+      "processorCores": "12 Çekirdek (2P + 8E + 2LPE)",
+      "npuTops": 11,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "Intel Arc Graphics (Entegre Grafik)",
+      "gpuTgpWatts": 28,
+      "muxSwitch": false,
+      "screenSizeInches": 15.6,
+      "screenResolution": "1920 x 1080 (FHD IPS Parlama Önleyici 250 Nit)",
+      "screenBrightnessNits": 250,
+      "colorGamut": "%45 NTSC",
+      "batteryCapacityWh": 65,
+      "batteryLifeHours": 10,
+      "chargerWatts": 65,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB Type-C (Power Delivery & DP)",
+        "2x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 / 2.0",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x uSD Kart Okuyucu",
+        "1x 3.5mm Universal Kulaklık Girişi"
+      ],
+      "weightKg": 1.62,
+      "thicknessMm": 19.1,
+      "bodyMaterial": "Güçlendirilmiş Kurumsal Alüminyum & Polimer Kasa",
+      "keyboard": "Sıvı Dökülmesine Dayanıklı, Beyaz LED Aydınlatmalı Klavye",
+      "webcam": "1080p FHD HDR Kamera & Gizlilik Kapağı",
+      "audio": "Waves MaxxAudio® Pro Stereo Hoparlörler",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-dell-latitude-5550-32gb-2tb-dos-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 70669,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dell Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-dell-latitude-5550-32gb-2tb-dos-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 71376,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 74202,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 72082,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 70669,
+        "store": "Hepsiburada"
+      }
+    ]
   }
 ];
