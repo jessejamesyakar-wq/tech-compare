@@ -158,7 +158,8 @@ export const mockTVs: TVProduct[] = [
         "price": 44053,
         "store": "Idefix"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "lg-75qned80a6a",
@@ -226,7 +227,8 @@ export const mockTVs: TVProduct[] = [
         "price": 71610,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "lg-75qned82a6b",
@@ -294,7 +296,8 @@ export const mockTVs: TVProduct[] = [
         "price": 59499,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "lg-86ut81006la",
@@ -362,7 +365,8 @@ export const mockTVs: TVProduct[] = [
         "price": 98800,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "lg-75qned80t6a",
@@ -430,7 +434,8 @@ export const mockTVs: TVProduct[] = [
         "price": 114600,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "lg-65qned816qa",
@@ -564,7 +569,8 @@ export const mockTVs: TVProduct[] = [
         "price": 43929.1,
         "store": "PTT AVM"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "lg-75qned816re",
@@ -632,7 +638,8 @@ export const mockTVs: TVProduct[] = [
         "price": 126058.9,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 69
   },
   {
     "id": "lg-86qned80t6a",
@@ -700,7 +707,8 @@ export const mockTVs: TVProduct[] = [
         "price": 75445,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 69
   },
   {
     "id": "lg-oled48a16la",
@@ -768,7 +776,8 @@ export const mockTVs: TVProduct[] = [
         "price": 94999.05,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 71
   },
   {
     "id": "lg-oled65b46la",
@@ -836,7 +845,8 @@ export const mockTVs: TVProduct[] = [
         "price": 179540,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 79
   },
   {
     "id": "lg-98qned89t6a",
@@ -904,7 +914,8 @@ export const mockTVs: TVProduct[] = [
         "price": 169999,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 79
   },
   {
     "id": "lg-oled55c34la",
@@ -972,7 +983,8 @@ export const mockTVs: TVProduct[] = [
         "price": 143550,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 81
   },
   {
     "id": "lg-oled55cs3va",
@@ -1040,7 +1052,8 @@ export const mockTVs: TVProduct[] = [
         "price": 118800,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 81
   },
   {
     "id": "lg-oled77b56la",
@@ -1108,7 +1121,8 @@ export const mockTVs: TVProduct[] = [
         "price": 127380.89,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 82
   },
   {
     "id": "lg-oled83b56la",
@@ -1176,7 +1190,8 @@ export const mockTVs: TVProduct[] = [
         "price": 166953,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 83
   },
   {
     "id": "lg-100qned86a6",
@@ -1244,7 +1259,8 @@ export const mockTVs: TVProduct[] = [
         "price": 242499.03,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 83
   },
   {
     "id": "lg-oled55c54la",
@@ -1312,7 +1328,8 @@ export const mockTVs: TVProduct[] = [
         "price": 41800,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 83
   },
   {
     "id": "lg-oled55c64la",
@@ -1380,7 +1397,8 @@ export const mockTVs: TVProduct[] = [
         "price": 80371.2,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 85
   },
   {
     "id": "lg-100qned87b6",
@@ -1448,7 +1466,8 @@ export const mockTVs: TVProduct[] = [
         "price": 211409.1,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 87
   },
   {
     "id": "lg-oled65c64la",
@@ -1515,7 +1534,8 @@ export const mockTVs: TVProduct[] = [
         "price": 111289.36,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 87
   },
   {
     "id": "lg-oled65g64lw",
@@ -1582,7 +1602,8 @@ export const mockTVs: TVProduct[] = [
         "price": 149940,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 89
   },
   {
     "id": "lg-oled77c64la",
@@ -1650,7 +1671,8 @@ export const mockTVs: TVProduct[] = [
         "price": 166484.5,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 90
   },
   {
     "id": "lg-oled77g64lw",
@@ -1718,7 +1740,8 @@ export const mockTVs: TVProduct[] = [
         "price": 229729.5,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 92
   },
   {
     "id": "lg-oled77w69la",
@@ -1785,7 +1808,8 @@ export const mockTVs: TVProduct[] = [
         "price": 269999.1,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 93
   },
   {
     "id": "lg-oled83m59la",
@@ -1852,7 +1876,8 @@ export const mockTVs: TVProduct[] = [
         "price": 303999.05,
         "store": "Teknosa"
       }
-    ]
+    ],
+    "epeyScore": 93
   },
   {
     "id": "lg-oled83g55lw",
@@ -1919,7 +1944,8 @@ export const mockTVs: TVProduct[] = [
         "price": 304949.05,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 94
   },
   {
     "id": "lg-oled83g64lw",
@@ -1987,7 +2013,8 @@ export const mockTVs: TVProduct[] = [
         "price": 324664.2,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 94
   },
   {
     "id": "lg-oled97g54lw",
@@ -2055,7 +2082,8 @@ export const mockTVs: TVProduct[] = [
         "price": 688039,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 97
   },
   {
     "id": "lg-oled97g64lw",
@@ -2138,7 +2166,8 @@ export const mockTVs: TVProduct[] = [
         "price": 899999,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 98
   },
   {
     "id": "lg-83-oled83c6elb",
@@ -2247,7 +2276,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "D"
-    }
+    },
+    "epeyScore": 99
   },
   {
     "id": "lg-77-oled77c6elb",
@@ -2356,7 +2386,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "D"
-    }
+    },
+    "epeyScore": 99
   },
   {
     "id": "lg-65-oled65c6elb",
@@ -2465,7 +2496,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "D"
-    }
+    },
+    "epeyScore": 99
   },
   {
     "id": "lg-55-oled55c6elb",
@@ -2574,7 +2606,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 98
   },
   {
     "id": "lg-48-oled48c6elb",
@@ -2683,7 +2716,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 98
   },
   {
     "id": "lg-83-oled83c64la",
@@ -2793,7 +2827,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 99
   },
   {
     "id": "lg-77-oled77c64la",
@@ -2903,7 +2938,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 99
   },
   {
     "id": "lg-65-oled65c64la",
@@ -3013,7 +3049,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 97
   },
   {
     "id": "lg-55-oled55c64la",
@@ -3123,7 +3160,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 95
   },
   {
     "id": "lg-77-oled77b65la",
@@ -3233,7 +3271,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 96
   },
   {
     "id": "lg-65-oled65b65la",
@@ -3342,7 +3381,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 96
   },
   {
     "id": "lg-55-oled55b65la",
@@ -3451,7 +3491,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 94
   },
   {
     "id": "lg-85-85qned81b6a",
@@ -3560,7 +3601,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 81
   },
   {
     "id": "lg-75-75qned81b6a",
@@ -3669,7 +3711,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 79
   },
   {
     "id": "lg-65-65qned81b6a",
@@ -3778,7 +3821,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 77
   },
   {
     "id": "lg-55-55qned81b6a",
@@ -3887,7 +3931,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 75
   },
   {
     "id": "lg-85-85qned8eb3a",
@@ -3996,7 +4041,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 81
   },
   {
     "id": "lg-75-75qned8eb3a",
@@ -4105,7 +4151,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 79
   },
   {
     "id": "lg-65-65qned8eb3b",
@@ -4214,7 +4261,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 77
   },
   {
     "id": "lg-55-55qned8eb3b",
@@ -4323,7 +4371,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 75
   },
   {
     "id": "lg-75-75nu900b6la",
@@ -4432,7 +4481,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 61
   },
   {
     "id": "lg-65-65nu900b6la",
@@ -4541,7 +4591,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 59
   },
   {
     "id": "lg-55-55nu900b6la",
@@ -4650,7 +4701,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 57
   },
   {
     "id": "lg-50-50nu900b6la",
@@ -4759,7 +4811,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 57
   },
   {
     "id": "lg-85-85qned70b6a",
@@ -4868,7 +4921,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 81
   },
   {
     "id": "lg-65-65qned7eb3c",
@@ -4977,7 +5031,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 77
   },
   {
     "id": "lg-55-55qned7eb3c",
@@ -5086,7 +5141,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 75
   },
   {
     "id": "lg-50-50qned70b6c",
@@ -5195,7 +5251,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 75
   },
   {
     "id": "lg-85-85nu8e0b3la",
@@ -5304,7 +5361,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 63
   },
   {
     "id": "lg-75-75nu8e0b3la",
@@ -5413,7 +5471,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 61
   },
   {
     "id": "lg-65-65nu8e0b3la",
@@ -5522,7 +5581,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 59
   },
   {
     "id": "lg-55-55nu8e0b3la",
@@ -5631,7 +5691,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 57
   },
   {
     "id": "lg-50-50nu8e0b3la",
@@ -5740,7 +5801,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 57
   },
   {
     "id": "seg-tv-seg-65srb950-65-165-ekran-google-tv-qled-120hz-dlg-65-smart-tv-2026-16",
@@ -5871,7 +5933,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 79
   },
   {
     "id": "seg-tv-seg-55srb950-55-140-ekran-google-tv-qled-120hz-dlg-65-smart-tv-2026-15",
@@ -6002,7 +6065,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 77
   },
   {
     "id": "seg-tv-seg-65sbu740-65-165-ekran-google-tv-4k-65-smart-tv-2025-14",
@@ -6133,7 +6197,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 57
   },
   {
     "id": "seg-tv-seg-55srb900-55-140-ekran-powered-by-tivo-qled-4k-smart-tv-2025-13",
@@ -6264,7 +6329,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 73
   },
   {
     "id": "seg-tv-seg-50srb900-50-127-ekran-powered-by-tivo-qled-4k-smart-tv-2025-12",
@@ -6395,7 +6461,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 73
   },
   {
     "id": "seg-tv-seg-55sua740-55-140-ekran-android-tv-4k-ultra-hd-smart-tv-2024-11",
@@ -6526,7 +6593,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 55
   },
   {
     "id": "seg-tv-seg-50sua740-50-127-ekran-android-tv-4k-ultra-hd-smart-tv-2024-10",
@@ -6657,7 +6725,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 55
   },
   {
     "id": "seg-tv-seg-43sfa750-43-109-ekran-android-tv-full-hd-smart-tv-2023-9",
@@ -6786,7 +6855,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 48
   },
   {
     "id": "seg-tv-seg-40sfa750-40-102-ekran-android-tv-full-hd-smart-tv-2023-8",
@@ -6915,7 +6985,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 48
   },
   {
     "id": "seg-tv-seg-32sbh730-32-81-ekran-android-tv-hd-smart-tv-2022-7",
@@ -7044,7 +7115,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 40
   },
   {
     "id": "seg-tv-seg-32sbh715-32-81-ekran-smart-hd-ready-smart-tv-2021-6",
@@ -7173,7 +7245,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 40
   },
   {
     "id": "seg-tv-seg-43sc5650-43-109-ekran-smart-led-smart-tv-2019-5",
@@ -7302,7 +7375,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 54
   },
   {
     "id": "lg-97-oled97g64lw",
@@ -7412,7 +7486,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 99
   },
   {
     "id": "lg-97-oled97g54lw",
@@ -7522,7 +7597,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 99
   },
   {
     "id": "lg-83-oled83g64lw",
@@ -7632,7 +7708,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 99
   },
   {
     "id": "lg-83-oled83g55lw",
@@ -7742,7 +7819,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 99
   },
   {
     "id": "lg-83-oled83m59la",
@@ -7852,7 +7930,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 99
   },
   {
     "id": "lg-77-oled77w69la",
@@ -7962,7 +8041,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 99
   },
   {
     "id": "lg-77-oled77g64lw",
@@ -8072,7 +8152,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 99
   },
   {
     "id": "lg-77-oled77g55lw",
@@ -8182,7 +8263,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 99
   },
   {
     "id": "lg-77-oled77m59la",
@@ -8292,7 +8374,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 99
   },
   {
     "id": "lg-83-oled83c54la",
@@ -8402,7 +8485,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 98
   },
   {
     "id": "lg-65-oled65g64lw",
@@ -8512,7 +8596,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 99
   },
   {
     "id": "lg-77-oled77c54la",
@@ -8622,7 +8707,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 98
   },
   {
     "id": "lg-65-oled65g55lw",
@@ -8732,7 +8818,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 98
   },
   {
     "id": "lg-100-100qned87b6",
@@ -8842,7 +8929,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 87
   },
   {
     "id": "lg-65-oled65c54la",
@@ -8952,7 +9040,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 96
   },
   {
     "id": "lg-55-oled55c54la",
@@ -9062,7 +9151,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 94
   },
   {
     "id": "lg-100-100qned86a6",
@@ -9172,7 +9262,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 85
   },
   {
     "id": "lg-83-oled83b56la",
@@ -9282,7 +9373,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 96
   },
   {
     "id": "lg-77-oled77b56la",
@@ -9392,7 +9484,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 3,
       "energyClass": "F"
-    }
+    },
+    "epeyScore": 96
   },
   {
     "id": "lg-75qned93a6a",
@@ -9460,7 +9553,8 @@ export const mockTVs: TVProduct[] = [
         "price": 128699.01,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 81
   },
   {
     "id": "lg-oled65b65la",
@@ -9528,7 +9622,8 @@ export const mockTVs: TVProduct[] = [
         "price": 89999,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 81
   },
   {
     "id": "lg-86qned87b6a",
@@ -9596,7 +9691,8 @@ export const mockTVs: TVProduct[] = [
         "price": 143459,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 80
   },
   {
     "id": "lg-86qned86a6a",
@@ -9667,7 +9763,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 79
   },
   {
     "id": "lg-65qned93a6a",
@@ -9740,7 +9837,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 79
   },
   {
     "id": "lg-oled55b65la",
@@ -9808,7 +9906,8 @@ export const mockTVs: TVProduct[] = [
         "price": 72109.31,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 78
   },
   {
     "id": "lg-75qned87b6a",
@@ -9881,7 +9980,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 77
   },
   {
     "id": "lg-75qned86a6a",
@@ -9954,7 +10054,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 77
   },
   {
     "id": "lg-oled55b56la",
@@ -10027,7 +10128,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 76
   },
   {
     "id": "lg-65qned9ma6b",
@@ -10100,7 +10202,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 75
   },
   {
     "id": "lg-65qned87b6a",
@@ -10173,7 +10276,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 74
   },
   {
     "id": "lg-65qned86a6a",
@@ -10246,7 +10350,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 74
   },
   {
     "id": "lg-85qned81b6a",
@@ -10314,7 +10419,8 @@ export const mockTVs: TVProduct[] = [
         "price": 109349.1,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 74
   },
   {
     "id": "lg-85qned70b6a",
@@ -10382,7 +10488,8 @@ export const mockTVs: TVProduct[] = [
         "price": 79199.1,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 73
   },
   {
     "id": "lg-55qned87b6a",
@@ -10450,7 +10557,8 @@ export const mockTVs: TVProduct[] = [
         "price": 54999,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 72
   },
   {
     "id": "lg-75qned81b6a",
@@ -10518,7 +10626,8 @@ export const mockTVs: TVProduct[] = [
         "price": 62999.1,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 71
   },
   {
     "id": "lg-75qned7eb3a",
@@ -10586,7 +10695,8 @@ export const mockTVs: TVProduct[] = [
         "price": 63599,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 71
   },
   {
     "id": "lg-55qned86a6a",
@@ -10654,7 +10764,8 @@ export const mockTVs: TVProduct[] = [
         "price": 47774.09,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 69
   },
   {
     "id": "lg-86qned82a6b",
@@ -10722,7 +10833,8 @@ export const mockTVs: TVProduct[] = [
         "price": 93099.07,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 69
   },
   {
     "id": "lg-65qned81b6a",
@@ -10790,7 +10902,8 @@ export const mockTVs: TVProduct[] = [
         "price": 51687.09,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 68
   },
   {
     "id": "lg-65qned7eb3c",
@@ -10858,7 +10971,8 @@ export const mockTVs: TVProduct[] = [
         "price": 49940.8,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 68
   },
   {
     "id": "lg-65qned70b6c",
@@ -11019,7 +11133,8 @@ export const mockTVs: TVProduct[] = [
         "price": 47439,
         "store": "Idefix"
       }
-    ]
+    ],
+    "epeyScore": 68
   },
   {
     "id": "lg-75-75qned82a6b",
@@ -11191,7 +11306,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 81
   },
   {
     "id": "lg-75-75qned80a6a",
@@ -11363,7 +11479,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 81
   },
   {
     "id": "lg-55-55qned81b6a-1",
@@ -11535,7 +11652,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 77
   },
   {
     "id": "lg-55-55qned70b6c",
@@ -11707,7 +11825,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 77
   },
   {
     "id": "lg-75-75nu900b6la-1",
@@ -11876,7 +11995,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 67
   },
   {
     "id": "lg-65-65qned82a6b",
@@ -12045,7 +12165,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 75
   },
   {
     "id": "lg-75-75nano90a6b",
@@ -12214,7 +12335,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 77
   },
   {
     "id": "lg-65-65qned70a6a",
@@ -12383,7 +12505,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 75
   },
   {
     "id": "lg-75-75nano80a6b",
@@ -12552,7 +12675,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 77
   },
   {
     "id": "lg-75-75ua85006la",
@@ -12721,7 +12845,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 67
   },
   {
     "id": "lg-65-65nu900b6la-1",
@@ -12890,7 +13015,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 65
   },
   {
     "id": "lg-55-55qned80a6a",
@@ -13059,7 +13185,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 73
   },
   {
     "id": "lg-55-55qned82a6b",
@@ -13228,7 +13355,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 73
   },
   {
     "id": "lg-55-55qned70a6a",
@@ -13397,7 +13525,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 73
   },
   {
     "id": "lg-65-65nano90a6b",
@@ -13566,7 +13695,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 75
   },
   {
     "id": "lg-65-65nano81a6a",
@@ -13735,7 +13865,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 75
   },
   {
     "id": "lg-65-65nano80a6b",
@@ -13904,7 +14035,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 75
   },
   {
     "id": "lg-65-65ua84006lb",
@@ -14073,7 +14205,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 65
   },
   {
     "id": "lg-65-65ua85006la",
@@ -14242,7 +14375,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 65
   },
   {
     "id": "lg-65-65nano846qa",
@@ -14411,7 +14545,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 75
   },
   {
     "id": "lg-55-55nu900b6la-1",
@@ -14580,7 +14715,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 63
   },
   {
     "id": "lg-55-55nano80a6b",
@@ -14749,7 +14885,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 73
   },
   {
     "id": "tv-lg-lg-55-55ua84006lb-55-inc",
@@ -14934,7 +15071,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 63
   },
   {
     "id": "tv-lg-lg-55-55ua85006la-55-inc",
@@ -15119,7 +15257,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 63
   },
   {
     "id": "tv-lg-lg-50-50ua85006la-50-inc",
@@ -15304,7 +15443,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 63
   },
   {
     "id": "tv-lg-lg-55-oled55g64lw-55-inc",
@@ -15489,7 +15629,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 99
   },
   {
     "id": "lg-85qned93a6a",
@@ -15628,7 +15769,8 @@ export const mockTVs: TVProduct[] = [
       "/images/products/tvs/lg-85qned93a6a-3.jpg",
       "https://resim.epey.com/1025405/z_lg-85qned93a6a-8806096417096-7.jpg"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "epeyScore": 84
   },
   {
     "id": "tv-lg-lg-48-oled48c64la-48-inc",
@@ -15813,7 +15955,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 97
   },
   {
     "id": "lg-oled48c54la",
@@ -15952,7 +16095,8 @@ export const mockTVs: TVProduct[] = [
       "/images/products/tvs/lg-oled48c54la-3.jpg",
       "https://resim.epey.com/1036450/z_lg-oled48c54la-8806096601655-6.jpg"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "epeyScore": 81
   },
   {
     "id": "tv-lg-lg-65-oled65b56la-65-inc",
@@ -16137,7 +16281,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 94
   },
   {
     "id": "lg-75qned9ma6b",
@@ -16294,7 +16439,8 @@ export const mockTVs: TVProduct[] = [
       "/images/products/tvs/lg-75qned9ma6b-3.jpg",
       "https://resim.epey.com/1020252/z_lg-75qned9ma6b-1.jpg"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "epeyScore": 78
   },
   {
     "id": "tv-lg-lg-86-86qned70a6a-86-inc",
@@ -16479,7 +16625,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 83
   },
   {
     "id": "tv-lg-lg-65-65qned80a6a-65-inc",
@@ -16664,7 +16811,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 75
   },
   {
     "id": "tv-lg-lg-55-55nano90a6b-55-inc",
@@ -16849,7 +16997,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 73
   },
   {
     "id": "tv-tcl-98-98p8l-98-inc",
@@ -17047,7 +17196,8 @@ export const mockTVs: TVProduct[] = [
       "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p3@2x.png",
       "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/98-1.png",
       "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/1.png"
-    ]
+    ],
+    "epeyScore": 99
   },
   {
     "id": "tv-tcl-85-85p8l-85-inc",
@@ -17240,7 +17390,8 @@ export const mockTVs: TVProduct[] = [
       "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p3@2x.png",
       "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/98-1.png",
       "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/1.png"
-    ]
+    ],
+    "epeyScore": 99
   },
   {
     "id": "tv-tcl-75-75p8l-75-inc",
@@ -17433,7 +17584,8 @@ export const mockTVs: TVProduct[] = [
       "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p3@2x.png",
       "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/98-1.png",
       "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/1.png"
-    ]
+    ],
+    "epeyScore": 99
   },
   {
     "id": "tv-tcl-65-65p8l-65-inc",
@@ -17626,7 +17778,8 @@ export const mockTVs: TVProduct[] = [
       "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p3@2x.png",
       "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/98-1.png",
       "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/1.png"
-    ]
+    ],
+    "epeyScore": 98
   },
   {
     "id": "tv-tcl-55-55p8l-55-inc",
@@ -17819,7 +17972,8 @@ export const mockTVs: TVProduct[] = [
       "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/it-resources/product/kv/p3@2x.png",
       "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/98-1.png",
       "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p8l/id/1.png"
-    ]
+    ],
+    "epeyScore": 96
   },
   {
     "id": "tv-tcl-85-85p7l-85-inc",
@@ -18008,7 +18162,8 @@ export const mockTVs: TVProduct[] = [
     "images": [
       "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
       "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png"
-    ]
+    ],
+    "epeyScore": 88
   },
   {
     "id": "tv-tcl-75-75p7l-75-inc",
@@ -18197,7 +18352,8 @@ export const mockTVs: TVProduct[] = [
     "images": [
       "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
       "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png"
-    ]
+    ],
+    "epeyScore": 86
   },
   {
     "id": "tv-tcl-65-65p7l-65-inc",
@@ -18386,7 +18542,8 @@ export const mockTVs: TVProduct[] = [
     "images": [
       "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
       "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png"
-    ]
+    ],
+    "epeyScore": 81
   },
   {
     "id": "tv-tcl-55-55p7l-55-inc",
@@ -18575,7 +18732,8 @@ export const mockTVs: TVProduct[] = [
     "images": [
       "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
       "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png"
-    ]
+    ],
+    "epeyScore": 79
   },
   {
     "id": "tv-tcl-50-50p7l-50-inc",
@@ -18764,7 +18922,8 @@ export const mockTVs: TVProduct[] = [
     "images": [
       "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png?t=1767939225155&w=800&webp=true&dpr=1&rendition=2400",
       "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p7l/id/1.png"
-    ]
+    ],
+    "epeyScore": 79
   },
   {
     "id": "tv-tcl-98-98c7l-98-inc",
@@ -18955,7 +19114,8 @@ export const mockTVs: TVProduct[] = [
       "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/98-1.png",
       "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png",
       "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c7l/toolkits/98/card.jpg"
-    ]
+    ],
+    "epeyScore": 99
   },
   {
     "id": "tv-tcl-85-85c7l-85-inc",
@@ -19146,7 +19306,8 @@ export const mockTVs: TVProduct[] = [
       "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/98-1.png",
       "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png",
       "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c7l/toolkits/98/card.jpg"
-    ]
+    ],
+    "epeyScore": 99
   },
   {
     "id": "tv-tcl-75-75c7l-75-inc",
@@ -19337,7 +19498,8 @@ export const mockTVs: TVProduct[] = [
       "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/98-1.png",
       "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png",
       "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c7l/toolkits/98/card.jpg"
-    ]
+    ],
+    "epeyScore": 99
   },
   {
     "id": "tv-tcl-65-65c7l-65-inc",
@@ -19528,7 +19690,8 @@ export const mockTVs: TVProduct[] = [
       "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/98-1.png",
       "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c7l/id/1.png",
       "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c7l/toolkits/98/card.jpg"
-    ]
+    ],
+    "epeyScore": 97
   },
   {
     "id": "tv-tcl-98-98c8l-98-inc",
@@ -19719,7 +19882,8 @@ export const mockTVs: TVProduct[] = [
       "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/98/1.png",
       "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png",
       "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c8l/toolkits/98/card.jpg"
-    ]
+    ],
+    "epeyScore": 99
   },
   {
     "id": "tv-tcl-85-85c8l-85-inc",
@@ -19910,7 +20074,8 @@ export const mockTVs: TVProduct[] = [
       "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/98/1.png",
       "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png",
       "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c8l/toolkits/98/card.jpg"
-    ]
+    ],
+    "epeyScore": 99
   },
   {
     "id": "tv-tcl-75-75c8l-75-inc",
@@ -20101,7 +20266,8 @@ export const mockTVs: TVProduct[] = [
       "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/98/1.png",
       "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png",
       "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c8l/toolkits/98/card.jpg"
-    ]
+    ],
+    "epeyScore": 99
   },
   {
     "id": "tv-tcl-65-65c8l-65-inc",
@@ -20292,7 +20458,8 @@ export const mockTVs: TVProduct[] = [
       "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/98/1.png",
       "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/c8l/id/65-85/1.png",
       "https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/product/tv/c/c8l/toolkits/98/card.jpg"
-    ]
+    ],
+    "epeyScore": 97
   },
   {
     "id": "tv-tcl-75-75q7dpro-75-inc",
@@ -20482,7 +20649,8 @@ export const mockTVs: TVProduct[] = [
       "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png?t=1773648906095&w=800&webp=true&dpr=1&rendition=2400",
       "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png",
       "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png"
-    ]
+    ],
+    "epeyScore": 99
   },
   {
     "id": "tv-tcl-65-65q7dpro-65-inc",
@@ -20672,7 +20840,8 @@ export const mockTVs: TVProduct[] = [
       "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png?t=1773648906095&w=800&webp=true&dpr=1&rendition=2400",
       "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png",
       "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png"
-    ]
+    ],
+    "epeyScore": 97
   },
   {
     "id": "tv-tcl-55-55q7dpro-55-inc",
@@ -20862,7 +21031,8 @@ export const mockTVs: TVProduct[] = [
       "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png?t=1773648906095&w=800&webp=true&dpr=1&rendition=2400",
       "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png",
       "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/q/q7d-pro/id/1.png"
-    ]
+    ],
+    "epeyScore": 95
   },
   {
     "id": "tv-tcl-75-75p89k-75-inc",
@@ -21047,7 +21217,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 86
   },
   {
     "id": "tv-tcl-65-65p89k-65-inc",
@@ -21232,7 +21403,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 82
   },
   {
     "id": "tv-tcl-55-55p89k-55-inc",
@@ -21417,7 +21589,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 80
   },
   {
     "id": "tv-tcl-98-98c6k-98-inc",
@@ -21608,7 +21781,8 @@ export const mockTVs: TVProduct[] = [
       "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/98c6k/id/1.png",
       "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg",
       "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c6k/toolkits/product-card.png"
-    ]
+    ],
+    "epeyScore": 99
   },
   {
     "id": "tv-tcl-75-75c6k-75-inc",
@@ -21799,7 +21973,8 @@ export const mockTVs: TVProduct[] = [
       "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/98c6k/id/1.png",
       "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg",
       "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c6k/toolkits/product-card.png"
-    ]
+    ],
+    "epeyScore": 99
   },
   {
     "id": "tv-tcl-65-65c6k-65-inc",
@@ -21990,7 +22165,8 @@ export const mockTVs: TVProduct[] = [
       "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/98c6k/id/1.png",
       "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg",
       "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c6k/toolkits/product-card.png"
-    ]
+    ],
+    "epeyScore": 97
   },
   {
     "id": "tv-tcl-55-55c6k-55-inc",
@@ -22181,7 +22357,8 @@ export const mockTVs: TVProduct[] = [
       "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/98c6k/id/1.png",
       "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg",
       "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c6k/toolkits/product-card.png"
-    ]
+    ],
+    "epeyScore": 95
   },
   {
     "id": "tcl-115x955-max",
@@ -22288,7 +22465,8 @@ export const mockTVs: TVProduct[] = [
       "/images/products/tvs/tcl-115x955-max-1.jpg",
       "https://resim.epey.com/955587/k_tcl-115x955-max-8.jpg"
     ],
-    "isFeatured": true
+    "isFeatured": true,
+    "epeyScore": 97
   },
   {
     "id": "tcl-85c7k-qd-mini-led",
@@ -22378,7 +22556,8 @@ export const mockTVs: TVProduct[] = [
     ],
     "rating": 4.8,
     "reviewCount": 120,
-    "currency": "TL"
+    "currency": "TL",
+    "epeyScore": 99
   },
   {
     "id": "tcl-65c6ks-qd-mini-led-slim",
@@ -22460,7 +22639,8 @@ export const mockTVs: TVProduct[] = [
       "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/product/tv/c/98c6k/id/1.png",
       "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/c/c6k/id/1.jpg",
       "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/c/c6k/toolkits/product-card.png"
-    ]
+    ],
+    "epeyScore": 97
   },
   {
     "id": "hisense-55e7s",
@@ -22565,7 +22745,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 71
   },
   {
     "id": "hisense-65e7s",
@@ -22655,7 +22836,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 73
   },
   {
     "id": "hisense-75e7s",
@@ -22745,7 +22927,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 75
   },
   {
     "id": "hisense-55e7s-pro",
@@ -22836,7 +23019,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 76
   },
   {
     "id": "hisense-65e7s-pro",
@@ -22927,7 +23111,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 78
   },
   {
     "id": "hisense-75e7s-pro",
@@ -23018,7 +23203,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 82
   },
   {
     "id": "hisense-55e8s",
@@ -23109,7 +23295,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 68
   },
   {
     "id": "hisense-65e8s",
@@ -23200,7 +23387,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 70
   },
   {
     "id": "hisense-75e8s",
@@ -23291,7 +23479,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 72
   },
   {
     "id": "hisense-55u7se",
@@ -23382,7 +23571,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 68
   },
   {
     "id": "hisense-65u7se",
@@ -23473,7 +23663,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 70
   },
   {
     "id": "hisense-75u7se",
@@ -23564,7 +23755,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "D"
-    }
+    },
+    "epeyScore": 72
   },
   {
     "id": "hisense-65u8n",
@@ -23655,7 +23847,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 94
   },
   {
     "id": "hisense-75u8n",
@@ -23746,7 +23939,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 96
   },
   {
     "id": "hisense-85u8n",
@@ -23837,7 +24031,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "E"
-    }
+    },
+    "epeyScore": 98
   },
   {
     "id": "lg-65nano866na",
@@ -23937,7 +24132,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 64
   },
   {
     "id": "lg-55qned86t6a",
@@ -24049,7 +24245,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 64
   },
   {
     "id": "lg-65qned80t6a",
@@ -24161,7 +24358,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 63
   },
   {
     "id": "lg-75ut91006la",
@@ -24273,7 +24471,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 63
   },
   {
     "id": "lg-75nano766qa",
@@ -24361,7 +24560,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 62
   },
   {
     "id": "lg-75ur81006lj",
@@ -24473,7 +24673,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 62
   },
   {
     "id": "lg-75nano796nf",
@@ -24561,7 +24762,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 62
   },
   {
     "id": "lg-55sm8600pla",
@@ -24673,7 +24875,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 61
   },
   {
     "id": "lg-55qned80t6a",
@@ -24773,7 +24976,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 4,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 61
   },
   {
     "id": "lg-65nano81t6a",
@@ -24885,7 +25089,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 61
   },
   {
     "id": "lg-70up81006la",
@@ -24985,7 +25190,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 61
   },
   {
     "id": "lg-70un70706lb",
@@ -25097,7 +25303,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 60
   },
   {
     "id": "lg-70um7100pla",
@@ -25185,7 +25392,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 60
   },
   {
     "id": "lg-65nano766qa",
@@ -25285,7 +25493,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 59
   },
   {
     "id": "lg-65ur81006lj",
@@ -25385,7 +25594,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 59
   },
   {
     "id": "lg-65nano816na",
@@ -25485,7 +25695,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 59
   },
   {
     "id": "lg-65nano796ne",
@@ -25597,7 +25808,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 59
   },
   {
     "id": "lg-65uq75006lf",
@@ -25685,7 +25897,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 59
   },
   {
     "id": "lg-55nano81t6a",
@@ -25797,7 +26010,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 58
   },
   {
     "id": "lg-55ut91006la",
@@ -25885,7 +26099,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 58
   },
   {
     "id": "lg-55ut81006la",
@@ -25985,7 +26200,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 58
   },
   {
     "id": "lg-55ur91006la",
@@ -26085,7 +26301,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 57
   },
   {
     "id": "lg-55nano756pa",
@@ -26197,7 +26414,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 57
   },
   {
     "id": "lg-55nano766qa",
@@ -26309,7 +26527,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 57
   },
   {
     "id": "lg-55uq81006lb",
@@ -26409,7 +26628,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 57
   },
   {
     "id": "lg-55up77006lb",
@@ -26509,7 +26729,8 @@ export const mockTVs: TVProduct[] = [
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "G"
-    }
+    },
+    "epeyScore": 57
   },
   {
     "id": "tv-iffalcon-55u95a",
@@ -26611,7 +26832,8 @@ export const mockTVs: TVProduct[] = [
         "sellerReviews": 640,
         "url": "https://www.mediamarkt.com.tr"
       }
-    ]
+    ],
+    "epeyScore": 77
   },
   {
     "id": "tv-arçelik-a75-d-895-a",
@@ -26713,7 +26935,8 @@ export const mockTVs: TVProduct[] = [
         "sellerReviews": 640,
         "url": "https://www.mediamarkt.com.tr"
       }
-    ]
+    ],
+    "epeyScore": 67
   },
   {
     "id": "tv-tcl-55c655-pro",
@@ -26815,7 +27038,8 @@ export const mockTVs: TVProduct[] = [
         "sellerReviews": 640,
         "url": "https://www.mediamarkt.com.tr"
       }
-    ]
+    ],
+    "epeyScore": 77
   },
   {
     "id": "tv-lg-oled83g45lw",
@@ -26937,7 +27161,8 @@ export const mockTVs: TVProduct[] = [
         "price": 256500,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 93
   },
   {
     "id": "tv-lg-oled65g45lw",
@@ -27059,7 +27284,8 @@ export const mockTVs: TVProduct[] = [
         "price": 119999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 88
   },
   {
     "id": "tv-lg-oled97m49la",
@@ -27180,7 +27406,8 @@ export const mockTVs: TVProduct[] = [
         "price": 599999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 95
   },
   {
     "id": "tv-lg-oled83m49la",
@@ -27301,7 +27528,8 @@ export const mockTVs: TVProduct[] = [
         "price": 289999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 93
   },
   {
     "id": "tv-lg-oled77m49la",
@@ -27422,7 +27650,8 @@ export const mockTVs: TVProduct[] = [
         "price": 174999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 92
   },
   {
     "id": "tv-lg-oled77g45lw",
@@ -27543,7 +27772,8 @@ export const mockTVs: TVProduct[] = [
         "price": 199999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 91
   },
   {
     "id": "tv-lg-oled83c46la",
@@ -27664,7 +27894,8 @@ export const mockTVs: TVProduct[] = [
         "price": 198000,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 90
   },
   {
     "id": "tv-lg-oled77c46la",
@@ -27785,7 +28016,8 @@ export const mockTVs: TVProduct[] = [
         "price": 149999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 89
   },
   {
     "id": "tv-lg-oled65c46la",
@@ -27906,7 +28138,8 @@ export const mockTVs: TVProduct[] = [
         "price": 94999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 86
   },
   {
     "id": "tv-lg-oled55c46la",
@@ -28027,7 +28260,8 @@ export const mockTVs: TVProduct[] = [
         "price": 59999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 83
   },
   {
     "id": "tv-lg-86qned91t6a",
@@ -28147,7 +28381,8 @@ export const mockTVs: TVProduct[] = [
         "price": 124999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 82
   },
   {
     "id": "lg-oled77c34la",
@@ -28252,7 +28487,8 @@ export const mockTVs: TVProduct[] = [
         "price": 170999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 87
   },
   {
     "id": "lg-oled65g36la",
@@ -28357,7 +28593,8 @@ export const mockTVs: TVProduct[] = [
         "price": 244530,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 86
   },
   {
     "id": "lg-75qned916pa",
@@ -28462,7 +28699,8 @@ export const mockTVs: TVProduct[] = [
         "price": 91680,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 79
   },
   {
     "id": "lg-65qned916pa",
@@ -28567,7 +28805,8 @@ export const mockTVs: TVProduct[] = [
         "price": 49659,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 77
   },
   {
     "id": "lg-86qned816re",
@@ -28672,7 +28911,8 @@ export const mockTVs: TVProduct[] = [
         "price": 133700,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 75
   },
   {
     "id": "lg-stanbyme-go-27lx5qkna",
@@ -28803,7 +29043,8 @@ export const mockTVs: TVProduct[] = [
         "price": 57299,
         "store": "LG Resmi Mağaza"
       }
-    ]
+    ],
+    "epeyScore": 50
   },
   {
     "id": "lg-86ua85006la",
@@ -28951,7 +29192,8 @@ export const mockTVs: TVProduct[] = [
         "price": 84599.06,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "lg-55sk8500pla",
@@ -29083,7 +29325,8 @@ export const mockTVs: TVProduct[] = [
         "price": 31514.1,
         "store": "PTT AVM"
       }
-    ]
+    ],
+    "epeyScore": 79
   },
   {
     "id": "lg-75qned70b6a",
@@ -29216,7 +29459,8 @@ export const mockTVs: TVProduct[] = [
         "price": 60434.8,
         "store": "n11"
       }
-    ]
+    ],
+    "epeyScore": 71
   },
   {
     "id": "lg-55nano846qa",
@@ -29348,7 +29592,8 @@ export const mockTVs: TVProduct[] = [
         "price": 26999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "lg-stanbyme-2-27lx6tdga",
@@ -29525,7 +29770,8 @@ export const mockTVs: TVProduct[] = [
         "price": 42999,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 51
   },
   {
     "id": "lg-85nu900b6la",
@@ -29704,7 +29950,8 @@ export const mockTVs: TVProduct[] = [
         "price": 71889.09,
         "store": "Idefix"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "vestel-75ug9750",
@@ -29808,7 +30055,8 @@ export const mockTVs: TVProduct[] = [
         "price": 56999.05,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 64
   },
   {
     "id": "vestel-55qg9950",
@@ -29894,7 +30142,8 @@ export const mockTVs: TVProduct[] = [
         "price": 51300,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 62
   },
   {
     "id": "vestel-65ug9750",
@@ -29993,7 +30242,8 @@ export const mockTVs: TVProduct[] = [
         "price": 31692.63,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "vestel-75uv9750",
@@ -30076,7 +30326,8 @@ export const mockTVs: TVProduct[] = [
         "price": 44203.5,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "vestel-65qt9850",
@@ -30176,7 +30427,8 @@ export const mockTVs: TVProduct[] = [
         "price": 38637.24,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "vestel-55ug9750",
@@ -30260,7 +30512,8 @@ export const mockTVs: TVProduct[] = [
         "price": 32009.03,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "vestel-65ut9850",
@@ -30343,7 +30596,8 @@ export const mockTVs: TVProduct[] = [
         "price": 40479.08,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "vestel-65uv9750",
@@ -30426,7 +30680,8 @@ export const mockTVs: TVProduct[] = [
         "price": 32130,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "vestel-65ut9760",
@@ -30511,7 +30766,8 @@ export const mockTVs: TVProduct[] = [
         "price": 47195.08,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "vestel-55qt9850",
@@ -30611,7 +30867,8 @@ export const mockTVs: TVProduct[] = [
         "price": 29210.92,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "vestel-50ug9750",
@@ -30695,7 +30952,8 @@ export const mockTVs: TVProduct[] = [
         "price": 21886.8,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "vestel-50qt9850",
@@ -30779,7 +31037,8 @@ export const mockTVs: TVProduct[] = [
         "price": 31350,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 56
   },
   {
     "id": "vestel-58ut9850",
@@ -30862,7 +31121,8 @@ export const mockTVs: TVProduct[] = [
         "price": 36799.08,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 56
   },
   {
     "id": "vestel-55ut9760",
@@ -30947,7 +31207,8 @@ export const mockTVs: TVProduct[] = [
         "price": 24749,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 55
   },
   {
     "id": "vestel-55uv9750",
@@ -31030,7 +31291,8 @@ export const mockTVs: TVProduct[] = [
         "price": 25765.52,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 55
   },
   {
     "id": "vestel-43ug9750",
@@ -31113,7 +31375,8 @@ export const mockTVs: TVProduct[] = [
         "price": 24749,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 55
   },
   {
     "id": "vestel-50ut9760",
@@ -31197,7 +31460,8 @@ export const mockTVs: TVProduct[] = [
         "price": 21754.05,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 54
   },
   {
     "id": "vestel-50ut9850",
@@ -31280,7 +31544,8 @@ export const mockTVs: TVProduct[] = [
         "price": 24700,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 54
   },
   {
     "id": "vestel-50uv9750",
@@ -31363,7 +31628,8 @@ export const mockTVs: TVProduct[] = [
         "price": 22794.03,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 54
   },
   {
     "id": "vestel-43uv9750",
@@ -31446,7 +31712,8 @@ export const mockTVs: TVProduct[] = [
         "price": 22539.08,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 52
   },
   {
     "id": "vestel-43ut9760",
@@ -31530,7 +31797,8 @@ export const mockTVs: TVProduct[] = [
         "price": 25849,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 51
   },
   {
     "id": "vestel-43ft9751",
@@ -31612,7 +31880,8 @@ export const mockTVs: TVProduct[] = [
         "price": 18524.05,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 46
   },
   {
     "id": "vestel-43fv9750",
@@ -31693,7 +31962,8 @@ export const mockTVs: TVProduct[] = [
         "price": 19595.08,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 46
   },
   {
     "id": "vestel-40fv9750",
@@ -31774,7 +32044,8 @@ export const mockTVs: TVProduct[] = [
         "price": 20500,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 45
   },
   {
     "id": "vestel-40ft9760",
@@ -31923,7 +32194,8 @@ export const mockTVs: TVProduct[] = [
         "price": 16149.05,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 44
   },
   {
     "id": "vestel-32fa9950l",
@@ -32029,7 +32301,8 @@ export const mockTVs: TVProduct[] = [
         "price": 18049.05,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 43
   },
   {
     "id": "vestel-32fa9950b",
@@ -32149,7 +32422,8 @@ export const mockTVs: TVProduct[] = [
         "price": 19474.05,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 43
   },
   {
     "id": "vestel-32fa9950y",
@@ -32268,7 +32542,8 @@ export const mockTVs: TVProduct[] = [
         "price": 17859.05,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 43
   },
   {
     "id": "vestel-32fv9750",
@@ -32387,7 +32662,8 @@ export const mockTVs: TVProduct[] = [
         "price": 16150,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 42
   },
   {
     "id": "vestel-24ha9950m",
@@ -32516,7 +32792,8 @@ export const mockTVs: TVProduct[] = [
         "price": 16835.08,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 41
   },
   {
     "id": "vestel-24ha9950y",
@@ -32617,7 +32894,8 @@ export const mockTVs: TVProduct[] = [
         "price": 16910,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 41
   },
   {
     "id": "vestel-24ha9950s",
@@ -32746,7 +33024,8 @@ export const mockTVs: TVProduct[] = [
         "price": 16835.08,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 41
   },
   {
     "id": "vestel-32hv9750",
@@ -32863,7 +33142,8 @@ export const mockTVs: TVProduct[] = [
         "price": 12349.05,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 41
   },
   {
     "id": "vestel-32ht9760",
@@ -32994,7 +33274,8 @@ export const mockTVs: TVProduct[] = [
         "price": 12419.08,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 40
   },
   {
     "id": "vestel-32ht9150",
@@ -33139,7 +33420,8 @@ export const mockTVs: TVProduct[] = [
         "price": 10505,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 40
   },
   {
     "id": "vestel-40f8750",
@@ -33268,7 +33550,8 @@ export const mockTVs: TVProduct[] = [
         "price": 13984,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 28
   },
   {
     "id": "vestel-65og9950",
@@ -33394,7 +33677,8 @@ export const mockTVs: TVProduct[] = [
         "price": 84999,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 77
   },
   {
     "id": "vestel-55og9950",
@@ -33520,7 +33804,8 @@ export const mockTVs: TVProduct[] = [
         "price": 64999,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 74
   },
   {
     "id": "vestel-65qmg9950",
@@ -33645,7 +33930,8 @@ export const mockTVs: TVProduct[] = [
         "price": 52999,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 68
   },
   {
     "id": "vestel-65qg9960",
@@ -33767,7 +34053,8 @@ export const mockTVs: TVProduct[] = [
         "price": 43999,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "vestel-65qg9950",
@@ -33895,7 +34182,8 @@ export const mockTVs: TVProduct[] = [
         "price": 40999,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 65
   },
   {
     "id": "vestel-55qg9960",
@@ -34017,7 +34305,8 @@ export const mockTVs: TVProduct[] = [
         "price": 33999,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 63
   },
   {
     "id": "vestel-75qt9850",
@@ -34139,7 +34428,8 @@ export const mockTVs: TVProduct[] = [
         "price": 53999,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 63
   },
   {
     "id": "vestel-65ug9760",
@@ -34259,7 +34549,8 @@ export const mockTVs: TVProduct[] = [
         "price": 32999,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "vestel-55ug9760",
@@ -34379,7 +34670,8 @@ export const mockTVs: TVProduct[] = [
         "price": 25999,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "vestel-50ug9760",
@@ -34499,7 +34791,8 @@ export const mockTVs: TVProduct[] = [
         "price": 22499,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "vestel-55ut9850",
@@ -34620,7 +34913,8 @@ export const mockTVs: TVProduct[] = [
         "price": 27999,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 55
   },
   {
     "id": "vestel-43ug9760",
@@ -34740,7 +35034,8 @@ export const mockTVs: TVProduct[] = [
         "price": 19999,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 54
   },
   {
     "id": "vestel-32h8750",
@@ -34856,7 +35151,8 @@ export const mockTVs: TVProduct[] = [
         "price": 9899,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 24
   },
   {
     "id": "vestel-24h8750",
@@ -34972,7 +35268,8 @@ export const mockTVs: TVProduct[] = [
         "price": 7999,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 22
   },
   {
     "id": "vestel-65ua9740",
@@ -35081,7 +35378,8 @@ export const mockTVs: TVProduct[] = [
         "price": 37720,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "vestel-65ua9540",
@@ -35173,7 +35471,8 @@ export const mockTVs: TVProduct[] = [
         "price": 42072.65,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "vestel-70ut9740",
@@ -35282,7 +35581,8 @@ export const mockTVs: TVProduct[] = [
         "price": 36660,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 59
   },
   {
     "id": "vestel-50qg9840",
@@ -35392,7 +35692,8 @@ export const mockTVs: TVProduct[] = [
         "price": 29450,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 59
   },
   {
     "id": "vestel-58ua9740",
@@ -35486,7 +35787,8 @@ export const mockTVs: TVProduct[] = [
         "price": 37524.05,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 59
   },
   {
     "id": "vestel-50qa9701",
@@ -35595,7 +35897,8 @@ export const mockTVs: TVProduct[] = [
         "price": 25834.3,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "vestel-55ua9740",
@@ -35704,7 +36007,8 @@ export const mockTVs: TVProduct[] = [
         "price": 31739.08,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "vestel-65ut9840",
@@ -35798,7 +36102,8 @@ export const mockTVs: TVProduct[] = [
         "price": 42750,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "vestel-65ut9740",
@@ -35892,7 +36197,8 @@ export const mockTVs: TVProduct[] = [
         "price": 35880,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "vestel-55ua9540",
@@ -35984,7 +36290,8 @@ export const mockTVs: TVProduct[] = [
         "price": 32299.05,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "vestel-50ua9740",
@@ -36093,7 +36400,8 @@ export const mockTVs: TVProduct[] = [
         "price": 22799.05,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "vestel-50ut9740",
@@ -36201,7 +36509,8 @@ export const mockTVs: TVProduct[] = [
         "price": 26114.55,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 54
   },
   {
     "id": "vestel-43fa9740",
@@ -36294,7 +36603,8 @@ export const mockTVs: TVProduct[] = [
         "price": 21375,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 49
   },
   {
     "id": "vestel-40fa9740",
@@ -36400,7 +36710,8 @@ export const mockTVs: TVProduct[] = [
         "price": 18399.08,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 48
   },
   {
     "id": "vestel-40ft9740",
@@ -36492,7 +36803,8 @@ export const mockTVs: TVProduct[] = [
         "price": 16499,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 45
   },
   {
     "id": "vestel-32ht9740",
@@ -36584,7 +36896,8 @@ export const mockTVs: TVProduct[] = [
         "price": 14725,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 41
   },
   {
     "id": "vestel-24ha9530g",
@@ -36673,7 +36986,8 @@ export const mockTVs: TVProduct[] = [
         "price": 15674.05,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 41
   },
   {
     "id": "vestel-32h9530t",
@@ -36760,7 +37074,8 @@ export const mockTVs: TVProduct[] = [
         "price": 15199.05,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 40
   },
   {
     "id": "vestel-32h9530m",
@@ -36847,7 +37162,8 @@ export const mockTVs: TVProduct[] = [
         "price": 19000,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 40
   },
   {
     "id": "vestel-32h9530y",
@@ -36934,7 +37250,8 @@ export const mockTVs: TVProduct[] = [
         "price": 19000,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 40
   },
   {
     "id": "vestel-24h8740",
@@ -37021,7 +37338,8 @@ export const mockTVs: TVProduct[] = [
         "price": 10734.05,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 22
   },
   {
     "id": "vestel-43f8740",
@@ -37108,7 +37426,8 @@ export const mockTVs: TVProduct[] = [
         "price": 19999,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 46
   },
   {
     "id": "vestel-65qmg9940",
@@ -37206,7 +37525,8 @@ export const mockTVs: TVProduct[] = [
         "price": 47999,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 68
   },
   {
     "id": "vestel-75qg9840",
@@ -37303,7 +37623,8 @@ export const mockTVs: TVProduct[] = [
         "price": 58999,
         "store": "Vestel"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "samsung-115mr95",
@@ -37416,7 +37737,8 @@ export const mockTVs: TVProduct[] = [
         "price": 1332999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 97
   },
   {
     "id": "samsung-83s95h",
@@ -37529,7 +37851,8 @@ export const mockTVs: TVProduct[] = [
         "price": 298480,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 97
   },
   {
     "id": "samsung-115qn90f",
@@ -37627,7 +37950,8 @@ export const mockTVs: TVProduct[] = [
         "price": 855000,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 96
   },
   {
     "id": "samsung-77s95h",
@@ -37740,7 +38064,8 @@ export const mockTVs: TVProduct[] = [
         "price": 232179.1,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 95
   },
   {
     "id": "samsung-83s95f",
@@ -37837,7 +38162,8 @@ export const mockTVs: TVProduct[] = [
         "price": 272999.09,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 95
   },
   {
     "id": "samsung-98qn990f",
@@ -37936,7 +38262,8 @@ export const mockTVs: TVProduct[] = [
         "price": 583099,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 95
   },
   {
     "id": "samsung-77s95f",
@@ -38048,7 +38375,8 @@ export const mockTVs: TVProduct[] = [
         "price": 212685.2,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 94
   },
   {
     "id": "samsung-65s95h",
@@ -38161,7 +38489,8 @@ export const mockTVs: TVProduct[] = [
         "price": 161980,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 92
   },
   {
     "id": "samsung-83s90h",
@@ -38272,7 +38601,8 @@ export const mockTVs: TVProduct[] = [
         "price": 246655.1,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 92
   },
   {
     "id": "samsung-98qn90f",
@@ -38385,7 +38715,8 @@ export const mockTVs: TVProduct[] = [
         "price": 294000,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 91
   },
   {
     "id": "samsung-85qn990f",
@@ -38498,7 +38829,8 @@ export const mockTVs: TVProduct[] = [
         "price": 321999.08,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 91
   },
   {
     "id": "samsung-85qn900d",
@@ -38595,7 +38927,8 @@ export const mockTVs: TVProduct[] = [
         "price": 242550,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 91
   },
   {
     "id": "samsung-65s95f",
@@ -38693,7 +39026,8 @@ export const mockTVs: TVProduct[] = [
         "price": 138379.5,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 90
   },
   {
     "id": "samsung-77s90h",
@@ -38804,7 +39138,8 @@ export const mockTVs: TVProduct[] = [
         "price": 178599.1,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 90
   },
   {
     "id": "samsung-85r95h",
@@ -38902,7 +39237,8 @@ export const mockTVs: TVProduct[] = [
         "price": 322299,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 90
   },
   {
     "id": "samsung-85qn900f",
@@ -38999,7 +39335,8 @@ export const mockTVs: TVProduct[] = [
         "price": 222750,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 90
   },
   {
     "id": "samsung-83s90f",
@@ -39110,7 +39447,8 @@ export const mockTVs: TVProduct[] = [
         "price": 204088.5,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 90
   },
   {
     "id": "samsung-65s95d",
@@ -39208,7 +39546,8 @@ export const mockTVs: TVProduct[] = [
         "price": 136553,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 89
   },
   {
     "id": "samsung-75qn990f",
@@ -39321,7 +39660,8 @@ export const mockTVs: TVProduct[] = [
         "price": 203940,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 89
   },
   {
     "id": "samsung-100qn80h",
@@ -39434,7 +39774,8 @@ export const mockTVs: TVProduct[] = [
         "price": 232999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 88
   },
   {
     "id": "samsung-75qn900d",
@@ -39531,7 +39872,8 @@ export const mockTVs: TVProduct[] = [
         "price": 189683.01,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 88
   },
   {
     "id": "samsung-77s90f",
@@ -39643,7 +39985,8 @@ export const mockTVs: TVProduct[] = [
         "price": 139900,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 88
   },
   {
     "id": "samsung-85qn90f",
@@ -39741,7 +40084,8 @@ export const mockTVs: TVProduct[] = [
         "price": 200000,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 88
   },
   {
     "id": "samsung-75r95h",
@@ -39853,7 +40197,8 @@ export const mockTVs: TVProduct[] = [
         "price": 209999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 87
   },
   {
     "id": "samsung-75qn800d",
@@ -39950,7 +40295,8 @@ export const mockTVs: TVProduct[] = [
         "price": 158400,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 87
   },
   {
     "id": "samsung-75qn900f",
@@ -40047,7 +40393,8 @@ export const mockTVs: TVProduct[] = [
         "price": 158395.05,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 87
   },
   {
     "id": "samsung-65s90h",
@@ -40159,7 +40506,8 @@ export const mockTVs: TVProduct[] = [
         "price": 125763.08,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 87
   },
   {
     "id": "samsung-83s85h",
@@ -40256,7 +40604,8 @@ export const mockTVs: TVProduct[] = [
         "price": 199999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 85
   },
   {
     "id": "samsung-65s90f",
@@ -40368,7 +40717,8 @@ export const mockTVs: TVProduct[] = [
         "price": 110399.08,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 85
   },
   {
     "id": "samsung-65r95h",
@@ -40480,7 +40830,8 @@ export const mockTVs: TVProduct[] = [
         "price": 170327.1,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 85
   },
   {
     "id": "samsung-85qn85f",
@@ -40578,7 +40929,8 @@ export const mockTVs: TVProduct[] = [
         "price": 119999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 85
   },
   {
     "id": "samsung-65qn800d",
@@ -40675,7 +41027,8 @@ export const mockTVs: TVProduct[] = [
         "price": 161352.75,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 85
   },
   {
     "id": "samsung-65qn900f",
@@ -40772,7 +41125,8 @@ export const mockTVs: TVProduct[] = [
         "price": 134043.1,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 85
   },
   {
     "id": "samsung-65s90d",
@@ -40870,7 +41224,8 @@ export const mockTVs: TVProduct[] = [
         "price": 99999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 84
   },
   {
     "id": "samsung-55s90h",
@@ -40983,7 +41338,8 @@ export const mockTVs: TVProduct[] = [
         "price": 92790,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 84
   },
   {
     "id": "samsung-75qn90d",
@@ -41080,7 +41436,8 @@ export const mockTVs: TVProduct[] = [
         "price": 141750,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 84
   },
   {
     "id": "samsung-83s85f",
@@ -41177,7 +41534,8 @@ export const mockTVs: TVProduct[] = [
         "price": 159159.08,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 84
   },
   {
     "id": "samsung-77s85h",
@@ -41288,7 +41646,8 @@ export const mockTVs: TVProduct[] = [
         "price": 133999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 84
   },
   {
     "id": "samsung-65qn90f",
@@ -41400,7 +41759,8 @@ export const mockTVs: TVProduct[] = [
         "price": 93590,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 83
   },
   {
     "id": "samsung-85r85h",
@@ -41511,7 +41871,8 @@ export const mockTVs: TVProduct[] = [
         "price": 168986.09,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 83
   },
   {
     "id": "samsung-85qn85d",
@@ -41608,7 +41969,8 @@ export const mockTVs: TVProduct[] = [
         "price": 161352.75,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 83
   },
   {
     "id": "samsung-48s90h",
@@ -41721,7 +42083,8 @@ export const mockTVs: TVProduct[] = [
         "price": 71460,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 83
   },
   {
     "id": "samsung-55s90f",
@@ -41833,7 +42196,8 @@ export const mockTVs: TVProduct[] = [
         "price": 82753.11,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 82
   },
   {
     "id": "samsung-77s85f",
@@ -41930,7 +42294,8 @@ export const mockTVs: TVProduct[] = [
         "price": 125580,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 82
   },
   {
     "id": "samsung-75qn85f",
@@ -42028,7 +42393,8 @@ export const mockTVs: TVProduct[] = [
         "price": 114499,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 82
   },
   {
     "id": "samsung-85qn80h",
@@ -42141,7 +42507,8 @@ export const mockTVs: TVProduct[] = [
         "price": 128855.09,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 82
   },
   {
     "id": "samsung-55s90d",
@@ -42239,7 +42606,8 @@ export const mockTVs: TVProduct[] = [
         "price": 66150,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 82
   },
   {
     "id": "samsung-98ls03he",
@@ -42351,7 +42719,8 @@ export const mockTVs: TVProduct[] = [
         "price": 277799,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 81
   },
   {
     "id": "samsung-75qn80f",
@@ -42449,7 +42818,8 @@ export const mockTVs: TVProduct[] = [
         "price": 91179.1,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 81
   },
   {
     "id": "samsung-65s85h",
@@ -42562,7 +42932,8 @@ export const mockTVs: TVProduct[] = [
         "price": 98095.6,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 81
   },
   {
     "id": "samsung-48s90f",
@@ -42660,7 +43031,8 @@ export const mockTVs: TVProduct[] = [
         "price": 69999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 81
   },
   {
     "id": "samsung-75r85h",
@@ -42772,7 +43144,8 @@ export const mockTVs: TVProduct[] = [
         "price": 132663.08,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 80
   },
   {
     "id": "samsung-75qn85d",
@@ -42869,7 +43242,8 @@ export const mockTVs: TVProduct[] = [
         "price": 89292.5,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 80
   },
   {
     "id": "samsung-85qn70f",
@@ -42981,7 +43355,8 @@ export const mockTVs: TVProduct[] = [
         "price": 103959.08,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 80
   },
   {
     "id": "samsung-75qn80h",
@@ -43094,7 +43469,8 @@ export const mockTVs: TVProduct[] = [
         "price": 105286.09,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 79
   },
   {
     "id": "samsung-65s85f",
@@ -43206,7 +43582,8 @@ export const mockTVs: TVProduct[] = [
         "price": 85230,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 79
   },
   {
     "id": "samsung-55s85h",
@@ -43319,7 +43696,8 @@ export const mockTVs: TVProduct[] = [
         "price": 74245.05,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 78
   },
   {
     "id": "samsung-65r85h",
@@ -43431,7 +43809,8 @@ export const mockTVs: TVProduct[] = [
         "price": 99999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 78
   },
   {
     "id": "samsung-75qn70f",
@@ -43543,7 +43922,8 @@ export const mockTVs: TVProduct[] = [
         "price": 73792.88,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 77
   },
   {
     "id": "samsung-75ls03hw",
@@ -43655,7 +44035,8 @@ export const mockTVs: TVProduct[] = [
         "price": 112860,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 77
   },
   {
     "id": "samsung-55qn85f",
@@ -43752,7 +44133,8 @@ export const mockTVs: TVProduct[] = [
         "price": 145296.55,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 77
   },
   {
     "id": "samsung-65qn80h",
@@ -43865,7 +44247,8 @@ export const mockTVs: TVProduct[] = [
         "price": 93195,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 77
   },
   {
     "id": "samsung-55s85f",
@@ -43963,7 +44346,8 @@ export const mockTVs: TVProduct[] = [
         "price": 70969,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 77
   },
   {
     "id": "samsung-85m80h",
@@ -44073,7 +44457,8 @@ export const mockTVs: TVProduct[] = [
         "price": 91784.59,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 76
   },
   {
     "id": "samsung-75ls03f",
@@ -44171,7 +44556,8 @@ export const mockTVs: TVProduct[] = [
         "price": 89999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 76
   },
   {
     "id": "samsung-75q80d",
@@ -44268,7 +44654,8 @@ export const mockTVs: TVProduct[] = [
         "price": 85499.05,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 76
   },
   {
     "id": "samsung-55qn80f",
@@ -44380,7 +44767,8 @@ export const mockTVs: TVProduct[] = [
         "price": 59219.1,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 76
   },
   {
     "id": "samsung-55r85h",
@@ -44492,7 +44880,8 @@ export const mockTVs: TVProduct[] = [
         "price": 76435.1,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 75
   },
   {
     "id": "samsung-55qn85d",
@@ -44590,7 +44979,8 @@ export const mockTVs: TVProduct[] = [
         "price": 55390,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 75
   },
   {
     "id": "samsung-65qn70f",
@@ -44702,7 +45092,8 @@ export const mockTVs: TVProduct[] = [
         "price": 58734,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 75
   },
   {
     "id": "samsung-65ls03hw",
@@ -44814,7 +45205,8 @@ export const mockTVs: TVProduct[] = [
         "price": 90486,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 74
   },
   {
     "id": "samsung-98q7fa",
@@ -44927,7 +45319,8 @@ export const mockTVs: TVProduct[] = [
         "price": 122217,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 74
   },
   {
     "id": "samsung-55qn80h",
@@ -45040,7 +45433,8 @@ export const mockTVs: TVProduct[] = [
         "price": 66423.08,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 74
   },
   {
     "id": "samsung-75m80h",
@@ -45150,7 +45544,8 @@ export const mockTVs: TVProduct[] = [
         "price": 71739,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 74
   },
   {
     "id": "samsung-65ls03f",
@@ -45262,7 +45657,8 @@ export const mockTVs: TVProduct[] = [
         "price": 84629.09,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 73
   },
   {
     "id": "samsung-75ls03d",
@@ -45360,7 +45756,8 @@ export const mockTVs: TVProduct[] = [
         "price": 89061.55,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 73
   },
   {
     "id": "samsung-85q70d",
@@ -45459,7 +45856,8 @@ export const mockTVs: TVProduct[] = [
         "price": 122550,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 73
   },
   {
     "id": "samsung-98du9000",
@@ -45570,7 +45968,8 @@ export const mockTVs: TVProduct[] = [
         "price": 109999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 72
   },
   {
     "id": "samsung-55qn70f",
@@ -45682,7 +46081,8 @@ export const mockTVs: TVProduct[] = [
         "price": 48341.4,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 72
   },
   {
     "id": "samsung-55ls03ha",
@@ -45794,7 +46194,8 @@ export const mockTVs: TVProduct[] = [
         "price": 62389,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 71
   },
   {
     "id": "samsung-65m80h",
@@ -45904,7 +46305,8 @@ export const mockTVs: TVProduct[] = [
         "price": 61757.1,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 71
   },
   {
     "id": "samsung-85m70h",
@@ -46014,7 +46416,8 @@ export const mockTVs: TVProduct[] = [
         "price": 73149.05,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 71
   },
   {
     "id": "samsung-65ls03d",
@@ -46112,7 +46515,8 @@ export const mockTVs: TVProduct[] = [
         "price": 63029.1,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 71
   },
   {
     "id": "samsung-55ls03f",
@@ -46224,7 +46628,8 @@ export const mockTVs: TVProduct[] = [
         "price": 46919.08,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 70
   },
   {
     "id": "samsung-85q8fa",
@@ -46323,7 +46728,8 @@ export const mockTVs: TVProduct[] = [
         "price": 88195.1,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 69
   },
   {
     "id": "samsung-85q7fa",
@@ -46421,7 +46827,8 @@ export const mockTVs: TVProduct[] = [
         "price": 113050,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 69
   },
   {
     "id": "samsung-55m80h",
@@ -46531,7 +46938,8 @@ export const mockTVs: TVProduct[] = [
         "price": 49997.7,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 69
   },
   {
     "id": "samsung-75m70h",
@@ -46641,7 +47049,8 @@ export const mockTVs: TVProduct[] = [
         "price": 57999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 68
   },
   {
     "id": "samsung-55ls03d",
@@ -46739,7 +47148,8 @@ export const mockTVs: TVProduct[] = [
         "price": 54371.08,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 68
   },
   {
     "id": "samsung-65q70d",
@@ -46838,7 +47248,8 @@ export const mockTVs: TVProduct[] = [
         "price": 51975,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 68
   },
   {
     "id": "samsung-75q60d",
@@ -46949,7 +47360,8 @@ export const mockTVs: TVProduct[] = [
         "price": 66849.1,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 67
   },
   {
     "id": "samsung-75q8fa",
@@ -47062,7 +47474,8 @@ export const mockTVs: TVProduct[] = [
         "price": 63909.7,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "samsung-75q7f5",
@@ -47174,7 +47587,8 @@ export const mockTVs: TVProduct[] = [
         "price": 56672.25,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "samsung-75q7fa",
@@ -47272,7 +47686,8 @@ export const mockTVs: TVProduct[] = [
         "price": 56119.99,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "samsung-85u8000h",
@@ -47382,7 +47797,8 @@ export const mockTVs: TVProduct[] = [
         "price": 67999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "samsung-85u8000",
@@ -47492,7 +47908,8 @@ export const mockTVs: TVProduct[] = [
         "price": 72579.1,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "samsung-75q6fa",
@@ -47603,7 +48020,8 @@ export const mockTVs: TVProduct[] = [
         "price": 52899,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "samsung-65m70h",
@@ -47713,7 +48131,8 @@ export const mockTVs: TVProduct[] = [
         "price": 48194,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 65
   },
   {
     "id": "samsung-55q70d",
@@ -47811,7 +48230,8 @@ export const mockTVs: TVProduct[] = [
         "price": 44650,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 65
   },
   {
     "id": "samsung-65q8fa",
@@ -47924,7 +48344,8 @@ export const mockTVs: TVProduct[] = [
         "price": 50811.6,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 64
   },
   {
     "id": "samsung-65q7f5",
@@ -48036,7 +48457,8 @@ export const mockTVs: TVProduct[] = [
         "price": 44999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 64
   },
   {
     "id": "samsung-65q7fa",
@@ -48134,7 +48556,8 @@ export const mockTVs: TVProduct[] = [
         "price": 45556.79,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 64
   },
   {
     "id": "samsung-75u8000h",
@@ -48244,7 +48667,8 @@ export const mockTVs: TVProduct[] = [
         "price": 51891.6,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 64
   },
   {
     "id": "samsung-75u8000",
@@ -48340,7 +48764,8 @@ export const mockTVs: TVProduct[] = [
         "price": 53950.05,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 63
   },
   {
     "id": "samsung-65q6fa",
@@ -48451,7 +48876,8 @@ export const mockTVs: TVProduct[] = [
         "price": 45908,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 63
   },
   {
     "id": "samsung-55m70h",
@@ -48561,7 +48987,8 @@ export const mockTVs: TVProduct[] = [
         "price": 39192,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 63
   },
   {
     "id": "samsung-75du7100",
@@ -48657,7 +49084,8 @@ export const mockTVs: TVProduct[] = [
         "price": 67712,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 62
   },
   {
     "id": "samsung-70u8000",
@@ -48767,7 +49195,8 @@ export const mockTVs: TVProduct[] = [
         "price": 40999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 62
   },
   {
     "id": "samsung-50m70h",
@@ -48877,7 +49306,8 @@ export const mockTVs: TVProduct[] = [
         "price": 34056,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 62
   },
   {
     "id": "samsung-55q60d",
@@ -48974,7 +49404,8 @@ export const mockTVs: TVProduct[] = [
         "price": 39019.92,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "samsung-70du7100",
@@ -49070,7 +49501,8 @@ export const mockTVs: TVProduct[] = [
         "price": 54912.5,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "samsung-55q8fa",
@@ -49183,7 +49615,8 @@ export const mockTVs: TVProduct[] = [
         "price": 40498.08,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "samsung-55q7f5",
@@ -49295,7 +49728,8 @@ export const mockTVs: TVProduct[] = [
         "price": 38174,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "samsung-55q7fa",
@@ -49393,7 +49827,8 @@ export const mockTVs: TVProduct[] = [
         "price": 36767.5,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "samsung-65u8000h",
@@ -49503,7 +49938,8 @@ export const mockTVs: TVProduct[] = [
         "price": 41999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "samsung-65u8200f",
@@ -49599,7 +50035,8 @@ export const mockTVs: TVProduct[] = [
         "price": 40032,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "samsung-65u8000",
@@ -49709,7 +50146,8 @@ export const mockTVs: TVProduct[] = [
         "price": 45071,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "samsung-65du8100",
@@ -49805,7 +50243,8 @@ export const mockTVs: TVProduct[] = [
         "price": 56119.08,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "samsung-55q6fa",
@@ -49916,7 +50355,8 @@ export const mockTVs: TVProduct[] = [
         "price": 34571,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "samsung-50q60d",
@@ -50012,7 +50452,8 @@ export const mockTVs: TVProduct[] = [
         "price": 32256,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "samsung-65du7000",
@@ -50108,7 +50549,8 @@ export const mockTVs: TVProduct[] = [
         "price": 50137.5,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "samsung-50q8fa",
@@ -50221,7 +50663,8 @@ export const mockTVs: TVProduct[] = [
         "price": 35999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "samsung-43m70h",
@@ -50331,7 +50774,8 @@ export const mockTVs: TVProduct[] = [
         "price": 31199,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "samsung-50q7fa",
@@ -50443,7 +50887,8 @@ export const mockTVs: TVProduct[] = [
         "price": 26999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "samsung-58u8000",
@@ -50553,7 +50998,8 @@ export const mockTVs: TVProduct[] = [
         "price": 31019.1,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 59
   },
   {
     "id": "samsung-55u8000h",
@@ -50663,7 +51109,8 @@ export const mockTVs: TVProduct[] = [
         "price": 33999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "samsung-55u8200f",
@@ -50773,7 +51220,8 @@ export const mockTVs: TVProduct[] = [
         "price": 29999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "samsung-55u8000",
@@ -50869,7 +51317,8 @@ export const mockTVs: TVProduct[] = [
         "price": 35400,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "samsung-55du8100",
@@ -50965,7 +51414,8 @@ export const mockTVs: TVProduct[] = [
         "price": 38639.08,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "samsung-55du7200",
@@ -51060,7 +51510,8 @@ export const mockTVs: TVProduct[] = [
         "price": 32567.08,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "samsung-55du7000",
@@ -51155,7 +51606,8 @@ export const mockTVs: TVProduct[] = [
         "price": 36100,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "samsung-50u8000h",
@@ -51265,7 +51717,8 @@ export const mockTVs: TVProduct[] = [
         "price": 29751.82,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "samsung-50u8200f",
@@ -51361,7 +51814,8 @@ export const mockTVs: TVProduct[] = [
         "price": 32660.1,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "samsung-50u8000",
@@ -51471,7 +51925,8 @@ export const mockTVs: TVProduct[] = [
         "price": 23998,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "samsung-50du7200",
@@ -51566,7 +52021,8 @@ export const mockTVs: TVProduct[] = [
         "price": 32199.08,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 56
   },
   {
     "id": "samsung-50du7000",
@@ -51661,7 +52117,8 @@ export const mockTVs: TVProduct[] = [
         "price": 33249.05,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 56
   },
   {
     "id": "samsung-43u8000h",
@@ -51757,7 +52214,8 @@ export const mockTVs: TVProduct[] = [
         "price": 25199,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 55
   },
   {
     "id": "samsung-43u8000",
@@ -51867,7 +52325,8 @@ export const mockTVs: TVProduct[] = [
         "price": 25499,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 55
   },
   {
     "id": "samsung-43du7000",
@@ -51962,7 +52421,8 @@ export const mockTVs: TVProduct[] = [
         "price": 35999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 54
   },
   {
     "id": "samsung-32h5000f",
@@ -52082,7 +52542,8 @@ export const mockTVs: TVProduct[] = [
         "price": 13999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 42
   },
   {
     "id": "samsung-the-movingstyle-27lsm7f",
@@ -52189,7 +52650,8 @@ export const mockTVs: TVProduct[] = [
         "price": 49115,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 41
   },
   {
     "id": "samsung-114ms1c",
@@ -52288,7 +52750,8 @@ export const mockTVs: TVProduct[] = [
         "price": 5250000,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 100
   },
   {
     "id": "samsung-77s95d",
@@ -52401,7 +52864,8 @@ export const mockTVs: TVProduct[] = [
         "price": 154999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 92
   },
   {
     "id": "samsung-98qn90d",
@@ -52500,7 +52964,8 @@ export const mockTVs: TVProduct[] = [
         "price": 289999,
         "store": "Samsung"
       }
-    ]
+    ],
+    "epeyScore": 88
   },
   {
     "id": "tcl-115c7k",
@@ -52597,7 +53062,8 @@ export const mockTVs: TVProduct[] = [
         "price": 874000,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 96
   },
   {
     "id": "tcl-85c7k",
@@ -52695,7 +53161,8 @@ export const mockTVs: TVProduct[] = [
         "price": 144999,
         "store": "Vatan"
       }
-    ]
+    ],
+    "epeyScore": 88
   },
   {
     "id": "tcl-98c755",
@@ -52793,7 +53260,8 @@ export const mockTVs: TVProduct[] = [
         "price": 189050,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 88
   },
   {
     "id": "tcl-98p8l",
@@ -52891,7 +53359,8 @@ export const mockTVs: TVProduct[] = [
         "price": 159999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 88
   },
   {
     "id": "tcl-98c6k",
@@ -52988,7 +53457,8 @@ export const mockTVs: TVProduct[] = [
         "price": 166499,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 88
   },
   {
     "id": "tcl-85c855",
@@ -53086,7 +53556,8 @@ export const mockTVs: TVProduct[] = [
         "price": 176199,
         "store": "Vatan"
       }
-    ]
+    ],
+    "epeyScore": 87
   },
   {
     "id": "tcl-75c8l",
@@ -53185,7 +53656,8 @@ export const mockTVs: TVProduct[] = [
         "price": 158110,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 87
   },
   {
     "id": "tcl-75c8k",
@@ -53283,7 +53755,8 @@ export const mockTVs: TVProduct[] = [
         "price": 164349.05,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 86
   },
   {
     "id": "tcl-75c7k",
@@ -53380,7 +53853,8 @@ export const mockTVs: TVProduct[] = [
         "price": 163200,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 86
   },
   {
     "id": "tcl-85p8l",
@@ -53478,7 +53952,8 @@ export const mockTVs: TVProduct[] = [
         "price": 103500,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 84
   },
   {
     "id": "tcl-75c7l",
@@ -53575,7 +54050,8 @@ export const mockTVs: TVProduct[] = [
         "price": 114491.06,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 84
   },
   {
     "id": "tcl-85c6k",
@@ -53673,7 +54149,8 @@ export const mockTVs: TVProduct[] = [
         "price": 121500,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 84
   },
   {
     "id": "tcl-75c855",
@@ -53772,7 +54249,8 @@ export const mockTVs: TVProduct[] = [
         "price": 105600,
         "store": "Vatan"
       }
-    ]
+    ],
+    "epeyScore": 84
   },
   {
     "id": "tcl-65c8l",
@@ -53952,7 +54430,8 @@ export const mockTVs: TVProduct[] = [
         "price": 125685,
         "store": "PTT AVM"
       }
-    ]
+    ],
+    "epeyScore": 84
   },
   {
     "id": "tcl-65c8k",
@@ -54050,7 +54529,8 @@ export const mockTVs: TVProduct[] = [
         "price": 105799.08,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 84
   },
   {
     "id": "tcl-98p8k",
@@ -54148,7 +54628,8 @@ export const mockTVs: TVProduct[] = [
         "price": 120060,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 83
   },
   {
     "id": "tcl-65c7k",
@@ -54246,7 +54727,8 @@ export const mockTVs: TVProduct[] = [
         "price": 91079.01,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 83
   },
   {
     "id": "tcl-75q7d-pro",
@@ -54345,7 +54827,8 @@ export const mockTVs: TVProduct[] = [
         "price": 112149,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 82
   },
   {
     "id": "tcl-85c755",
@@ -54443,7 +54926,8 @@ export const mockTVs: TVProduct[] = [
         "price": 113645,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 82
   },
   {
     "id": "tcl-75q6c",
@@ -54541,7 +55025,8 @@ export const mockTVs: TVProduct[] = [
         "price": 70524.09,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 82
   },
   {
     "id": "tcl-75c6k",
@@ -54639,7 +55124,8 @@ export const mockTVs: TVProduct[] = [
         "price": 74249.01,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 82
   },
   {
     "id": "tcl-65c855",
@@ -54738,7 +55224,8 @@ export const mockTVs: TVProduct[] = [
         "price": 115200,
         "store": "Vatan"
       }
-    ]
+    ],
+    "epeyScore": 82
   },
   {
     "id": "tcl-75p8l",
@@ -54836,7 +55323,8 @@ export const mockTVs: TVProduct[] = [
         "price": 69750,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 81
   },
   {
     "id": "tcl-98p755",
@@ -54934,7 +55422,8 @@ export const mockTVs: TVProduct[] = [
         "price": 136499.09,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 81
   },
   {
     "id": "tcl-75t8d",
@@ -55032,7 +55521,8 @@ export const mockTVs: TVProduct[] = [
         "price": 68599,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 81
   },
   {
     "id": "tcl-55q7c",
@@ -55129,7 +55619,8 @@ export const mockTVs: TVProduct[] = [
         "price": 70252.5,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 80
   },
   {
     "id": "tcl-55c7k",
@@ -55227,7 +55718,8 @@ export const mockTVs: TVProduct[] = [
         "price": 83999,
         "store": "Vatan"
       }
-    ]
+    ],
+    "epeyScore": 80
   },
   {
     "id": "tcl-85p8k",
@@ -55324,7 +55816,8 @@ export const mockTVs: TVProduct[] = [
         "price": 93120,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 80
   },
   {
     "id": "tcl-65q7d-pro",
@@ -55423,7 +55916,8 @@ export const mockTVs: TVProduct[] = [
         "price": 88999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 79
   },
   {
     "id": "tcl-75c755",
@@ -55521,7 +56015,8 @@ export const mockTVs: TVProduct[] = [
         "price": 85050,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 79
   },
   {
     "id": "tcl-65q6c",
@@ -55619,7 +56114,8 @@ export const mockTVs: TVProduct[] = [
         "price": 57999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 79
   },
   {
     "id": "tcl-65c6k",
@@ -55717,7 +56213,8 @@ export const mockTVs: TVProduct[] = [
         "price": 60999,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 79
   },
   {
     "id": "tcl-65p8l",
@@ -55815,7 +56312,8 @@ export const mockTVs: TVProduct[] = [
         "price": 59250,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 79
   },
   {
     "id": "tcl-75t8b",
@@ -55912,7 +56410,8 @@ export const mockTVs: TVProduct[] = [
         "price": 138000,
         "store": "Vatan"
       }
-    ]
+    ],
+    "epeyScore": 84
   },
   {
     "id": "tcl-65t8d",
@@ -56010,7 +56509,8 @@ export const mockTVs: TVProduct[] = [
         "price": 56999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 78
   },
   {
     "id": "tcl-75p89k",
@@ -56107,7 +56607,8 @@ export const mockTVs: TVProduct[] = [
         "price": 78200,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 77
   },
   {
     "id": "tcl-75p8k",
@@ -56205,7 +56706,8 @@ export const mockTVs: TVProduct[] = [
         "price": 61999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 77
   },
   {
     "id": "tcl-85t7b",
@@ -56302,7 +56804,8 @@ export const mockTVs: TVProduct[] = [
         "price": 78762.06,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 77
   },
   {
     "id": "tcl-85c655",
@@ -56400,7 +56903,8 @@ export const mockTVs: TVProduct[] = [
         "price": 124291.08,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 77
   },
   {
     "id": "tcl-75t8c",
@@ -56498,7 +57002,8 @@ export const mockTVs: TVProduct[] = [
         "price": 56990,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 77
   },
   {
     "id": "tcl-55q7d-pro",
@@ -56597,7 +57102,8 @@ export const mockTVs: TVProduct[] = [
         "price": 78990,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 77
   },
   {
     "id": "tcl-55q6c",
@@ -56695,7 +57201,8 @@ export const mockTVs: TVProduct[] = [
         "price": 44589.09,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 77
   },
   {
     "id": "tcl-55c6k",
@@ -56793,7 +57300,8 @@ export const mockTVs: TVProduct[] = [
         "price": 46749,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 77
   },
   {
     "id": "tcl-65p8k",
@@ -56891,7 +57399,8 @@ export const mockTVs: TVProduct[] = [
         "price": 47600,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 74
   },
   {
     "id": "tcl-75c655-pro",
@@ -56989,7 +57498,8 @@ export const mockTVs: TVProduct[] = [
         "price": 113999.05,
         "store": "Vatan"
       }
-    ]
+    ],
+    "epeyScore": 74
   },
   {
     "id": "tcl-65t8c",
@@ -57087,7 +57597,8 @@ export const mockTVs: TVProduct[] = [
         "price": 48999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 74
   },
   {
     "id": "tcl-55c755",
@@ -57185,7 +57696,8 @@ export const mockTVs: TVProduct[] = [
         "price": 52801,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 74
   },
   {
     "id": "tcl-75c655",
@@ -57283,7 +57795,8 @@ export const mockTVs: TVProduct[] = [
         "price": 73599.08,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 73
   },
   {
     "id": "tcl-55p8l",
@@ -57381,7 +57894,8 @@ export const mockTVs: TVProduct[] = [
         "price": 46500,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 73
   },
   {
     "id": "tcl-55t8d",
@@ -57479,7 +57993,8 @@ export const mockTVs: TVProduct[] = [
         "price": 58499,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 73
   },
   {
     "id": "tcl-55c6ks",
@@ -57577,7 +58092,8 @@ export const mockTVs: TVProduct[] = [
         "price": 51479.01,
         "store": "Vatan"
       }
-    ]
+    ],
+    "epeyScore": 72
   },
   {
     "id": "tcl-55p89k",
@@ -57674,7 +58190,8 @@ export const mockTVs: TVProduct[] = [
         "price": 45248,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 72
   },
   {
     "id": "tcl-55p8k",
@@ -57772,7 +58289,8 @@ export const mockTVs: TVProduct[] = [
         "price": 36249,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 72
   },
   {
     "id": "tcl-65c655-pro",
@@ -57870,7 +58388,8 @@ export const mockTVs: TVProduct[] = [
         "price": 109000,
         "store": "Vatan"
       }
-    ]
+    ],
+    "epeyScore": 71
   },
   {
     "id": "tcl-55t8c",
@@ -57968,7 +58487,8 @@ export const mockTVs: TVProduct[] = [
         "price": 36999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 71
   },
   {
     "id": "tcl-75p7l",
@@ -58065,7 +58585,8 @@ export const mockTVs: TVProduct[] = [
         "price": 51795.08,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 70
   },
   {
     "id": "tcl-75p79k",
@@ -58159,7 +58680,8 @@ export const mockTVs: TVProduct[] = [
         "price": 50990,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 70
   },
   {
     "id": "tcl-75p7k",
@@ -58254,7 +58776,8 @@ export const mockTVs: TVProduct[] = [
         "price": 55200,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 70
   },
   {
     "id": "tcl-75p79l",
@@ -58348,7 +58871,8 @@ export const mockTVs: TVProduct[] = [
         "price": 50880.11,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 70
   },
   {
     "id": "tcl-75t7b",
@@ -58445,7 +58969,8 @@ export const mockTVs: TVProduct[] = [
         "price": 61275,
         "store": "Vatan"
       }
-    ]
+    ],
+    "epeyScore": 70
   },
   {
     "id": "tcl-75t6d",
@@ -58540,7 +59065,8 @@ export const mockTVs: TVProduct[] = [
         "price": 52233.09,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 70
   },
   {
     "id": "tcl-55c655-pro",
@@ -58638,7 +59164,8 @@ export const mockTVs: TVProduct[] = [
         "price": 103040,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 69
   },
   {
     "id": "tcl-65p7l",
@@ -58734,7 +59261,8 @@ export const mockTVs: TVProduct[] = [
         "price": 41420.19,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 67
   },
   {
     "id": "tcl-65p79k",
@@ -58828,7 +59356,8 @@ export const mockTVs: TVProduct[] = [
         "price": 43679.09,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 67
   },
   {
     "id": "tcl-65p7k",
@@ -58923,7 +59452,8 @@ export const mockTVs: TVProduct[] = [
         "price": 43297,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 67
   },
   {
     "id": "tcl-65p79l",
@@ -59018,7 +59548,8 @@ export const mockTVs: TVProduct[] = [
         "price": 38692.58,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 67
   },
   {
     "id": "tcl-65t6d",
@@ -59113,7 +59644,8 @@ export const mockTVs: TVProduct[] = [
         "price": 41998.99,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 67
   },
   {
     "id": "tcl-65t61c",
@@ -59205,7 +59737,8 @@ export const mockTVs: TVProduct[] = [
         "price": 35999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "tcl-75v61c",
@@ -59298,7 +59831,8 @@ export const mockTVs: TVProduct[] = [
         "price": 43710,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "tcl-75v6c",
@@ -59390,7 +59924,8 @@ export const mockTVs: TVProduct[] = [
         "price": 40999,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "tcl-55p7l",
@@ -59486,7 +60021,8 @@ export const mockTVs: TVProduct[] = [
         "price": 32530.41,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 64
   },
   {
     "id": "tcl-55p79k",
@@ -59581,7 +60117,8 @@ export const mockTVs: TVProduct[] = [
         "price": 31100,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 64
   },
   {
     "id": "tcl-55p7k",
@@ -59675,7 +60212,8 @@ export const mockTVs: TVProduct[] = [
         "price": 35899.38,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 64
   },
   {
     "id": "tcl-55p79l",
@@ -59769,7 +60307,8 @@ export const mockTVs: TVProduct[] = [
         "price": 30409.5,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 64
   },
   {
     "id": "tcl-55t6d",
@@ -59864,7 +60403,8 @@ export const mockTVs: TVProduct[] = [
         "price": 32999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 64
   },
   {
     "id": "tcl-55t6c",
@@ -59958,7 +60498,8 @@ export const mockTVs: TVProduct[] = [
         "price": 44499,
         "store": "Vatan"
       }
-    ]
+    ],
+    "epeyScore": 64
   },
   {
     "id": "tcl-55t61c",
@@ -60051,7 +60592,8 @@ export const mockTVs: TVProduct[] = [
         "price": 27180.45,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 64
   },
   {
     "id": "tcl-50p7l",
@@ -60147,7 +60689,8 @@ export const mockTVs: TVProduct[] = [
         "price": 23749.05,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 63
   },
   {
     "id": "tcl-50p79l",
@@ -60241,7 +60784,8 @@ export const mockTVs: TVProduct[] = [
         "price": 24636.3,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 63
   },
   {
     "id": "tcl-50t6c",
@@ -60336,7 +60880,8 @@ export const mockTVs: TVProduct[] = [
         "price": 27311.41,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 63
   },
   {
     "id": "tcl-65p6k",
@@ -60428,7 +60973,8 @@ export const mockTVs: TVProduct[] = [
         "price": 36500,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 62
   },
   {
     "id": "tcl-65v6c",
@@ -60521,7 +61067,8 @@ export const mockTVs: TVProduct[] = [
         "price": 38000,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 62
   },
   {
     "id": "tcl-65v6b",
@@ -60613,7 +61160,8 @@ export const mockTVs: TVProduct[] = [
         "price": 32899.1,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "tcl-55v6c",
@@ -60706,7 +61254,8 @@ export const mockTVs: TVProduct[] = [
         "price": 25759.08,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "tcl-55v6b",
@@ -60799,7 +61348,8 @@ export const mockTVs: TVProduct[] = [
         "price": 27693.1,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "tcl-50v6b",
@@ -60891,7 +61441,8 @@ export const mockTVs: TVProduct[] = [
         "price": 24999,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "tcl-43s59k",
@@ -60984,7 +61535,8 @@ export const mockTVs: TVProduct[] = [
         "price": 14559.09,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 51
   },
   {
     "id": "tcl-43s5k",
@@ -61076,7 +61628,8 @@ export const mockTVs: TVProduct[] = [
         "price": 16400,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 51
   },
   {
     "id": "tcl-32s5k",
@@ -61169,7 +61722,8 @@ export const mockTVs: TVProduct[] = [
         "price": 11455.99,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 50
   },
   {
     "id": "tcl-32s59k",
@@ -61261,7 +61815,8 @@ export const mockTVs: TVProduct[] = [
         "price": 12389,
         "store": "Vatan"
       }
-    ]
+    ],
+    "epeyScore": 48
   },
   {
     "id": "tcl-85c7l",
@@ -61360,7 +61915,8 @@ export const mockTVs: TVProduct[] = [
         "price": 164900,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 99
   },
   {
     "id": "tcl-65c7l",
@@ -61459,7 +62015,8 @@ export const mockTVs: TVProduct[] = [
         "price": 97509.02,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 94
   },
   {
     "id": "tcl-98c8l",
@@ -61558,7 +62115,8 @@ export const mockTVs: TVProduct[] = [
         "price": 289000,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 93
   },
   {
     "id": "tcl-98c8k",
@@ -61656,7 +62214,8 @@ export const mockTVs: TVProduct[] = [
         "price": 249000,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 92
   },
   {
     "id": "tcl-98c855",
@@ -61754,7 +62313,8 @@ export const mockTVs: TVProduct[] = [
         "price": 219000,
         "store": "Vatan"
       }
-    ]
+    ],
+    "epeyScore": 91
   },
   {
     "id": "philips-65oled810",
@@ -61854,7 +62414,8 @@ export const mockTVs: TVProduct[] = [
         "price": 97000,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 90
   },
   {
     "id": "philips-55oled810",
@@ -61953,7 +62514,8 @@ export const mockTVs: TVProduct[] = [
         "price": 67900,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 87
   },
   {
     "id": "philips-55oled760",
@@ -62051,7 +62613,8 @@ export const mockTVs: TVProduct[] = [
         "price": 53999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 77
   },
   {
     "id": "philips-55pml9009",
@@ -62148,7 +62711,8 @@ export const mockTVs: TVProduct[] = [
         "price": 42525,
         "store": "Vatan"
       }
-    ]
+    ],
+    "epeyScore": 73
   },
   {
     "id": "philips-65pus9000",
@@ -62246,7 +62810,8 @@ export const mockTVs: TVProduct[] = [
         "price": 64989,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 71
   },
   {
     "id": "philips-75mled810",
@@ -62343,7 +62908,8 @@ export const mockTVs: TVProduct[] = [
         "price": 68288.65,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 71
   },
   {
     "id": "philips-55pus9000",
@@ -62440,7 +63006,8 @@ export const mockTVs: TVProduct[] = [
         "price": 45350,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 68
   },
   {
     "id": "philips-65pus8909",
@@ -62536,7 +63103,8 @@ export const mockTVs: TVProduct[] = [
         "price": 108300,
         "store": "Vatan"
       }
-    ]
+    ],
+    "epeyScore": 68
   },
   {
     "id": "philips-65mled810",
@@ -62633,7 +63201,8 @@ export const mockTVs: TVProduct[] = [
         "price": 64713.46,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 68
   },
   {
     "id": "philips-50pus9000",
@@ -62730,7 +63299,8 @@ export const mockTVs: TVProduct[] = [
         "price": 68281.2,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 67
   },
   {
     "id": "philips-55pus8909",
@@ -62827,7 +63397,8 @@ export const mockTVs: TVProduct[] = [
         "price": 58900,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "philips-55mled810",
@@ -62923,7 +63494,8 @@ export const mockTVs: TVProduct[] = [
         "price": 38449,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 65
   },
   {
     "id": "philips-85pus8309",
@@ -63019,7 +63591,8 @@ export const mockTVs: TVProduct[] = [
         "price": 75922.5,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 65
   },
   {
     "id": "philips-65pus8600",
@@ -63116,7 +63689,8 @@ export const mockTVs: TVProduct[] = [
         "price": 59755,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 64
   },
   {
     "id": "philips-43pus9000",
@@ -63213,7 +63787,8 @@ export const mockTVs: TVProduct[] = [
         "price": 61715.6,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 64
   },
   {
     "id": "philips-75pus7800",
@@ -63308,7 +63883,8 @@ export const mockTVs: TVProduct[] = [
         "price": 67320,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 64
   },
   {
     "id": "philips-65pus8500",
@@ -63404,7 +63980,8 @@ export const mockTVs: TVProduct[] = [
         "price": 52629.7,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 62
   },
   {
     "id": "philips-75pus8309",
@@ -63500,7 +64077,8 @@ export const mockTVs: TVProduct[] = [
         "price": 57299.1,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 62
   },
   {
     "id": "philips-55pus8600",
@@ -63597,7 +64175,8 @@ export const mockTVs: TVProduct[] = [
         "price": 58826.7,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 62
   },
   {
     "id": "philips-65pus7800",
@@ -63693,7 +64272,8 @@ export const mockTVs: TVProduct[] = [
         "price": 44549.01,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "philips-75pus7000",
@@ -63786,7 +64366,8 @@ export const mockTVs: TVProduct[] = [
         "price": 59374.05,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "philips-65pus8200",
@@ -63882,7 +64463,8 @@ export const mockTVs: TVProduct[] = [
         "price": 45589.1,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "philips-55pus8500",
@@ -63978,7 +64560,8 @@ export const mockTVs: TVProduct[] = [
         "price": 37979,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "philips-65pus8050",
@@ -64073,7 +64656,8 @@ export const mockTVs: TVProduct[] = [
         "price": 45999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 59
   },
   {
     "id": "philips-65pus8609",
@@ -64170,7 +64754,8 @@ export const mockTVs: TVProduct[] = [
         "price": 59999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 59
   },
   {
     "id": "philips-55pus7409",
@@ -64265,7 +64850,8 @@ export const mockTVs: TVProduct[] = [
         "price": 34933.7,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 59
   },
   {
     "id": "philips-50pus8500",
@@ -64361,7 +64947,8 @@ export const mockTVs: TVProduct[] = [
         "price": 28999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "philips-55pus7800",
@@ -64457,7 +65044,8 @@ export const mockTVs: TVProduct[] = [
         "price": 34380,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "philips-65pus7009",
@@ -64551,7 +65139,8 @@ export const mockTVs: TVProduct[] = [
         "price": 36799.08,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "philips-65pus7000",
@@ -64645,7 +65234,8 @@ export const mockTVs: TVProduct[] = [
         "price": 33839.1,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "philips-55pus8349",
@@ -64741,7 +65331,8 @@ export const mockTVs: TVProduct[] = [
         "price": 35035,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "philips-50pus7800",
@@ -64837,7 +65428,8 @@ export const mockTVs: TVProduct[] = [
         "price": 29700,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "philips-55pus8309",
@@ -64933,7 +65525,8 @@ export const mockTVs: TVProduct[] = [
         "price": 33233,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "philips-55pus8050",
@@ -65028,7 +65621,8 @@ export const mockTVs: TVProduct[] = [
         "price": 33826.56,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "philips-55pus8609",
@@ -65125,7 +65719,8 @@ export const mockTVs: TVProduct[] = [
         "price": 43000,
         "store": "Vatan"
       }
-    ]
+    ],
+    "epeyScore": 56
   },
   {
     "id": "philips-55pus8009",
@@ -65221,7 +65816,8 @@ export const mockTVs: TVProduct[] = [
         "price": 42319.08,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 56
   },
   {
     "id": "philips-55pus7009",
@@ -65315,7 +65911,8 @@ export const mockTVs: TVProduct[] = [
         "price": 33580,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 56
   },
   {
     "id": "philips-55pus7609",
@@ -65411,7 +66008,8 @@ export const mockTVs: TVProduct[] = [
         "price": 32954.5,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 56
   },
   {
     "id": "philips-55pus7000",
@@ -65505,7 +66103,8 @@ export const mockTVs: TVProduct[] = [
         "price": 26178.1,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 55
   },
   {
     "id": "philips-50pus8050",
@@ -65600,7 +66199,8 @@ export const mockTVs: TVProduct[] = [
         "price": 28119.05,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 55
   },
   {
     "id": "philips-43pus7800",
@@ -65696,7 +66296,8 @@ export const mockTVs: TVProduct[] = [
         "price": 21965,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 55
   },
   {
     "id": "philips-50pus8009",
@@ -65791,7 +66392,8 @@ export const mockTVs: TVProduct[] = [
         "price": 34999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 55
   },
   {
     "id": "philips-50pus7609",
@@ -65887,7 +66489,8 @@ export const mockTVs: TVProduct[] = [
         "price": 25785,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 54
   },
   {
     "id": "philips-50pus7000",
@@ -65981,7 +66584,8 @@ export const mockTVs: TVProduct[] = [
         "price": 21149.1,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 54
   },
   {
     "id": "philips-43pus8309",
@@ -66076,7 +66680,8 @@ export const mockTVs: TVProduct[] = [
         "price": 54999,
         "store": "Vatan"
       }
-    ]
+    ],
+    "epeyScore": 54
   },
   {
     "id": "philips-43pus8050",
@@ -66171,7 +66776,8 @@ export const mockTVs: TVProduct[] = [
         "price": 24940.02,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 53
   },
   {
     "id": "philips-43pus7609",
@@ -66267,7 +66873,8 @@ export const mockTVs: TVProduct[] = [
         "price": 28499.05,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 52
   },
   {
     "id": "philips-32phs6000",
@@ -66360,7 +66967,8 @@ export const mockTVs: TVProduct[] = [
         "price": 19170.3,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 40
   },
   {
     "id": "philips-32phs6009",
@@ -66453,7 +67061,8 @@ export const mockTVs: TVProduct[] = [
         "price": 11821.08,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 40
   },
   {
     "id": "philips-77oled910",
@@ -66553,7 +67162,8 @@ export const mockTVs: TVProduct[] = [
         "price": 189000,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 94
   },
   {
     "id": "philips-77oled909",
@@ -66651,7 +67261,8 @@ export const mockTVs: TVProduct[] = [
         "price": 175000,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 94
   },
   {
     "id": "philips-77oled810",
@@ -66750,7 +67361,8 @@ export const mockTVs: TVProduct[] = [
         "price": 155000,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 93
   },
   {
     "id": "philips-77oled809",
@@ -66847,7 +67459,8 @@ export const mockTVs: TVProduct[] = [
         "price": 145000,
         "store": "Vatan"
       }
-    ]
+    ],
+    "epeyScore": 93
   },
   {
     "id": "philips-65oled910",
@@ -66946,7 +67559,8 @@ export const mockTVs: TVProduct[] = [
         "price": 125000,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 91
   },
   {
     "id": "philips-65oled909",
@@ -67043,7 +67657,8 @@ export const mockTVs: TVProduct[] = [
         "price": 115000,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 91
   },
   {
     "id": "philips-65oled809",
@@ -67141,7 +67756,8 @@ export const mockTVs: TVProduct[] = [
         "price": 89900,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 90
   },
   {
     "id": "philips-55oled910",
@@ -67240,7 +67856,8 @@ export const mockTVs: TVProduct[] = [
         "price": 94900,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 89
   },
   {
     "id": "philips-55oled909",
@@ -67337,7 +67954,8 @@ export const mockTVs: TVProduct[] = [
         "price": 87500,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 89
   },
   {
     "id": "philips-55oled809",
@@ -67435,7 +68053,8 @@ export const mockTVs: TVProduct[] = [
         "price": 62999,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 87
   },
   {
     "id": "philips-48oled810",
@@ -67534,7 +68153,8 @@ export const mockTVs: TVProduct[] = [
         "price": 56900,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 85
   },
   {
     "id": "philips-75mled950",
@@ -67630,7 +68250,8 @@ export const mockTVs: TVProduct[] = [
         "price": 84900,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 83
   },
   {
     "id": "philips-42oled810",
@@ -67730,7 +68351,8 @@ export const mockTVs: TVProduct[] = [
         "price": 51900,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 82
   },
   {
     "id": "philips-77oled760",
@@ -67827,7 +68449,8 @@ export const mockTVs: TVProduct[] = [
         "price": 119000,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 82
   },
   {
     "id": "philips-42oled809",
@@ -67924,7 +68547,8 @@ export const mockTVs: TVProduct[] = [
         "price": 47999,
         "store": "Vatan"
       }
-    ]
+    ],
+    "epeyScore": 82
   },
   {
     "id": "philips-85mled910",
@@ -68021,7 +68645,8 @@ export const mockTVs: TVProduct[] = [
         "price": 94500,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 81
   },
   {
     "id": "philips-65mled950",
@@ -68118,7 +68743,8 @@ export const mockTVs: TVProduct[] = [
         "price": 74900,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 81
   },
   {
     "id": "philips-85pml9009",
@@ -68214,7 +68840,8 @@ export const mockTVs: TVProduct[] = [
         "price": 89000,
         "store": "Vatan"
       }
-    ]
+    ],
+    "epeyScore": 81
   },
   {
     "id": "philips-65oled760",
@@ -68311,7 +68938,8 @@ export const mockTVs: TVProduct[] = [
         "price": 69900,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 79
   },
   {
     "id": "philips-85pus9000",
@@ -68408,7 +69036,8 @@ export const mockTVs: TVProduct[] = [
         "price": 99900,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 79
   },
   {
     "id": "philips-65oled759",
@@ -68504,7 +69133,8 @@ export const mockTVs: TVProduct[] = [
         "price": 66500,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 79
   },
   {
     "id": "philips-75mled910",
@@ -68600,7 +69230,8 @@ export const mockTVs: TVProduct[] = [
         "price": 77900,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 78
   },
   {
     "id": "philips-75pml9009",
@@ -68697,7 +69328,8 @@ export const mockTVs: TVProduct[] = [
         "price": 69900,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 78
   },
   {
     "id": "philips-75pus9000",
@@ -68795,7 +69427,8 @@ export const mockTVs: TVProduct[] = [
         "price": 78900,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 77
   },
   {
     "id": "philips-55oled759",
@@ -68892,7 +69525,8 @@ export const mockTVs: TVProduct[] = [
         "price": 53900,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 76
   },
   {
     "id": "philips-65pml9009",
@@ -68989,7 +69623,8 @@ export const mockTVs: TVProduct[] = [
         "price": 59900,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 75
   },
   {
     "id": "philips-48oled760",
@@ -69086,7 +69721,8 @@ export const mockTVs: TVProduct[] = [
         "price": 47900,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 75
   },
   {
     "id": "philips-48oled759",
@@ -69182,7 +69818,8 @@ export const mockTVs: TVProduct[] = [
         "price": 44900,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 74
   },
   {
     "id": "philips-75pus8909",
@@ -69278,7 +69915,8 @@ export const mockTVs: TVProduct[] = [
         "price": 67900,
         "store": "Vatan"
       }
-    ]
+    ],
+    "epeyScore": 74
   },
   {
     "id": "philips-55mled910",
@@ -69375,7 +70013,8 @@ export const mockTVs: TVProduct[] = [
         "price": 51900,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 73
   },
   {
     "id": "philips-85pus8500",
@@ -69471,7 +70110,8 @@ export const mockTVs: TVProduct[] = [
         "price": 79900,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 70
   },
   {
     "id": "philips-65pus8949",
@@ -69568,7 +70208,8 @@ export const mockTVs: TVProduct[] = [
         "price": 46999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 68
   },
   {
     "id": "philips-65pml8709",
@@ -69664,7 +70305,8 @@ export const mockTVs: TVProduct[] = [
         "price": 51900,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 68
   },
   {
     "id": "philips-75pus8500",
@@ -69760,7 +70402,8 @@ export const mockTVs: TVProduct[] = [
         "price": 59900,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 67
   },
   {
     "id": "philips-55pus8949",
@@ -69857,7 +70500,8 @@ export const mockTVs: TVProduct[] = [
         "price": 38999,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "philips-55pml8709",
@@ -69953,7 +70597,8 @@ export const mockTVs: TVProduct[] = [
         "price": 42900,
         "store": "Vatan"
       }
-    ]
+    ],
+    "epeyScore": 65
   },
   {
     "id": "philips-50pus8909",
@@ -70050,7 +70695,8 @@ export const mockTVs: TVProduct[] = [
         "price": 34999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 65
   },
   {
     "id": "philips-43pus8909",
@@ -70147,7 +70793,8 @@ export const mockTVs: TVProduct[] = [
         "price": 29999,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "philips-65pus8349",
@@ -70243,7 +70890,8 @@ export const mockTVs: TVProduct[] = [
         "price": 39900,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "philips-65pus8309",
@@ -70338,7 +70986,8 @@ export const mockTVs: TVProduct[] = [
         "price": 38900,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 59
   },
   {
     "id": "philips-65pus8009",
@@ -70431,7 +71080,8 @@ export const mockTVs: TVProduct[] = [
         "price": 36900,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 59
   },
   {
     "id": "philips-50pus8349",
@@ -70527,7 +71177,8 @@ export const mockTVs: TVProduct[] = [
         "price": 28900,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 56
   },
   {
     "id": "philips-50pus8309",
@@ -70623,7 +71274,8 @@ export const mockTVs: TVProduct[] = [
         "price": 27900,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 55
   },
   {
     "id": "philips-50pus7009",
@@ -70716,7 +71368,8 @@ export const mockTVs: TVProduct[] = [
         "price": 24900,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 54
   },
   {
     "id": "philips-43pus8009",
@@ -70810,7 +71463,8 @@ export const mockTVs: TVProduct[] = [
         "price": 24999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 53
   },
   {
     "id": "philips-43pus7009",
@@ -70904,7 +71558,8 @@ export const mockTVs: TVProduct[] = [
         "price": 20999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 52
   },
   {
     "id": "philips-43pus7000",
@@ -70998,7 +71653,8 @@ export const mockTVs: TVProduct[] = [
         "price": 21999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 52
   },
   {
     "id": "grundig-65-go-990a",
@@ -71109,7 +71765,8 @@ export const mockTVs: TVProduct[] = [
         "price": 72680,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 77
   },
   {
     "id": "grundig-65-gho-9900",
@@ -71204,7 +71861,8 @@ export const mockTVs: TVProduct[] = [
         "price": 66499,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 77
   },
   {
     "id": "grundig-dubai-65-gho-9905",
@@ -71299,7 +71957,8 @@ export const mockTVs: TVProduct[] = [
         "price": 66451,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 77
   },
   {
     "id": "grundig-100-gq-880",
@@ -71396,7 +72055,8 @@ export const mockTVs: TVProduct[] = [
         "price": 139999,
         "store": "MediaMarkt"
       }
-    ]
+    ],
+    "epeyScore": 76
   },
   {
     "id": "grundig-65-go-975a",
@@ -71491,7 +72151,8 @@ export const mockTVs: TVProduct[] = [
         "price": 69840,
         "store": "n11"
       }
-    ]
+    ],
+    "epeyScore": 75
   },
   {
     "id": "grundig-55-go-990a",
@@ -71587,7 +72248,8 @@ export const mockTVs: TVProduct[] = [
         "price": 56904,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 75
   },
   {
     "id": "grundig-55-go-975a",
@@ -71682,7 +72344,8 @@ export const mockTVs: TVProduct[] = [
         "price": 54999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 73
   },
   {
     "id": "grundig-85-gq-880",
@@ -71778,7 +72441,8 @@ export const mockTVs: TVProduct[] = [
         "price": 89999,
         "store": "Vatan Bilgisayar"
       }
-    ]
+    ],
+    "epeyScore": 72
   },
   {
     "id": "grundig-75-gq-850a",
@@ -71874,7 +72538,8 @@ export const mockTVs: TVProduct[] = [
         "price": 54279,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 71
   },
   {
     "id": "grundig-75-gq-800a",
@@ -71968,7 +72633,8 @@ export const mockTVs: TVProduct[] = [
         "price": 49999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 69
   },
   {
     "id": "grundig-65-gq-950a",
@@ -72064,7 +72730,8 @@ export const mockTVs: TVProduct[] = [
         "price": 45519,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 69
   },
   {
     "id": "grundig-65-gq-850a",
@@ -72159,7 +72826,8 @@ export const mockTVs: TVProduct[] = [
         "price": 38250,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 68
   },
   {
     "id": "grundig-65-gq-800a",
@@ -72253,7 +72921,8 @@ export const mockTVs: TVProduct[] = [
         "price": 38499,
         "store": "n11"
       }
-    ]
+    ],
+    "epeyScore": 68
   },
   {
     "id": "grundig-75-gq-750a",
@@ -72346,7 +73015,8 @@ export const mockTVs: TVProduct[] = [
         "price": 42749,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 67
   },
   {
     "id": "grundig-75-gjq-9200",
@@ -72440,7 +73110,8 @@ export const mockTVs: TVProduct[] = [
         "price": 54529,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 67
   },
   {
     "id": "grundig-75-gjq-9400-a",
@@ -72534,7 +73205,8 @@ export const mockTVs: TVProduct[] = [
         "price": 43997,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 67
   },
   {
     "id": "grundig-75-gq-700a",
@@ -72627,7 +73299,8 @@ export const mockTVs: TVProduct[] = [
         "price": 39998,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 67
   },
   {
     "id": "grundig-madrid-75-gjq-9250",
@@ -72722,7 +73395,8 @@ export const mockTVs: TVProduct[] = [
         "price": 142499,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "grundig-55-gq-950a",
@@ -72818,7 +73492,8 @@ export const mockTVs: TVProduct[] = [
         "price": 38653,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "grundig-65-ghq-9500",
@@ -72914,7 +73589,8 @@ export const mockTVs: TVProduct[] = [
         "price": 41323,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "grundig-monaco-65-ghq-9550a",
@@ -73010,7 +73686,8 @@ export const mockTVs: TVProduct[] = [
         "price": 45600,
         "store": "n11"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "grundig-55-gq-850a",
@@ -73105,7 +73782,8 @@ export const mockTVs: TVProduct[] = [
         "price": 30600,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 65
   },
   {
     "id": "grundig-55-gq-800a",
@@ -73199,7 +73877,8 @@ export const mockTVs: TVProduct[] = [
         "price": 30998,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 65
   },
   {
     "id": "grundig-paris-75-ghu-9055",
@@ -73292,7 +73971,8 @@ export const mockTVs: TVProduct[] = [
         "price": 65780,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 65
   },
   {
     "id": "grundig-65-gjq-9200-a",
@@ -73387,7 +74067,8 @@ export const mockTVs: TVProduct[] = [
         "price": 35334,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 65
   },
   {
     "id": "grundig-65-gq-700a",
@@ -73480,7 +74161,8 @@ export const mockTVs: TVProduct[] = [
         "price": 32499,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 64
   },
   {
     "id": "grundig-65-gq-750a",
@@ -73573,7 +74255,8 @@ export const mockTVs: TVProduct[] = [
         "price": 34850,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 64
   },
   {
     "id": "grundig-madrid-65-gjq-9250",
@@ -73668,7 +74351,8 @@ export const mockTVs: TVProduct[] = [
         "price": 64454,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 64
   },
   {
     "id": "grundig-55-ghq-9500",
@@ -73764,7 +74448,8 @@ export const mockTVs: TVProduct[] = [
         "price": 33839,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 63
   },
   {
     "id": "grundig-75-gju-8500-a",
@@ -73857,7 +74542,8 @@ export const mockTVs: TVProduct[] = [
         "price": 45079,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 63
   },
   {
     "id": "grundig-75-gku-750",
@@ -73950,7 +74636,8 @@ export const mockTVs: TVProduct[] = [
         "price": 39999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 63
   },
   {
     "id": "grundig-75-gku-700",
@@ -74043,7 +74730,8 @@ export const mockTVs: TVProduct[] = [
         "price": 36999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 63
   },
   {
     "id": "grundig-madrid-65-ghq-9250",
@@ -74137,7 +74825,8 @@ export const mockTVs: TVProduct[] = [
         "price": 45539,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 63
   },
   {
     "id": "grundig-monaco-55-ghq-9550a",
@@ -74233,7 +74922,8 @@ export const mockTVs: TVProduct[] = [
         "price": 35102,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 63
   },
   {
     "id": "grundig-65-ghq-9200",
@@ -74327,7 +75017,8 @@ export const mockTVs: TVProduct[] = [
         "price": 41399,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 62
   },
   {
     "id": "grundig-55-gq-700a",
@@ -74420,7 +75111,8 @@ export const mockTVs: TVProduct[] = [
         "price": 24999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 62
   },
   {
     "id": "grundig-55-gq-750a",
@@ -74513,7 +75205,8 @@ export const mockTVs: TVProduct[] = [
         "price": 25500,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 62
   },
   {
     "id": "grundig-55-gjq-9200",
@@ -74607,7 +75300,8 @@ export const mockTVs: TVProduct[] = [
         "price": 32205,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "grundig-rio-65-gju-8900s",
@@ -74700,7 +75394,8 @@ export const mockTVs: TVProduct[] = [
         "price": 34600,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "grundig-65-gju-7100",
@@ -74793,7 +75488,8 @@ export const mockTVs: TVProduct[] = [
         "price": 34579,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "grundig-75-gju-8000",
@@ -74886,7 +75582,8 @@ export const mockTVs: TVProduct[] = [
         "price": 44512,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "grundig-65-gku-700",
@@ -74979,7 +75676,8 @@ export const mockTVs: TVProduct[] = [
         "price": 27839,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "grundig-madrid-55-gjq-9250",
@@ -75073,7 +75771,8 @@ export const mockTVs: TVProduct[] = [
         "price": 33487,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "grundig-madrid-55-ghq-9250",
@@ -75167,7 +75866,8 @@ export const mockTVs: TVProduct[] = [
         "price": 31825,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "grundig-55-ghq-9100",
@@ -75261,7 +75961,8 @@ export const mockTVs: TVProduct[] = [
         "price": 31255,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "grundig-50-gq-700a",
@@ -75354,7 +76055,8 @@ export const mockTVs: TVProduct[] = [
         "price": 23999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "grundig-50-gq-750a",
@@ -75447,7 +76149,8 @@ export const mockTVs: TVProduct[] = [
         "price": 22355,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "grundig-65-gju-7505-b",
@@ -75540,7 +76243,8 @@ export const mockTVs: TVProduct[] = [
         "price": 34039,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "grundig-65-gku-750",
@@ -75633,7 +76337,8 @@ export const mockTVs: TVProduct[] = [
         "price": 32199,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "grundig-55-gjq-9100",
@@ -75727,7 +76432,8 @@ export const mockTVs: TVProduct[] = [
         "price": 32299,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "grundig-tokyo-65-gju-7900g",
@@ -75820,7 +76526,8 @@ export const mockTVs: TVProduct[] = [
         "price": 38999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "grundig-55-ghq-9200",
@@ -75914,7 +76621,8 @@ export const mockTVs: TVProduct[] = [
         "price": 37999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 59
   },
   {
     "id": "grundig-madrid-50-gjq-9250",
@@ -76008,7 +76716,8 @@ export const mockTVs: TVProduct[] = [
         "price": 31729,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 59
   },
   {
     "id": "grundig-43-gjq-9200",
@@ -76102,7 +76811,8 @@ export const mockTVs: TVProduct[] = [
         "price": 21160,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "grundig-65-gju-7000-b",
@@ -76195,7 +76905,8 @@ export const mockTVs: TVProduct[] = [
         "price": 35625,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "grundig-rio-55-gju-8900s",
@@ -76288,7 +76999,8 @@ export const mockTVs: TVProduct[] = [
         "price": 34106,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "grundig-55-gju-7100",
@@ -76381,7 +77093,8 @@ export const mockTVs: TVProduct[] = [
         "price": 22006,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "grundig-65-gju-8000",
@@ -76474,7 +77187,8 @@ export const mockTVs: TVProduct[] = [
         "price": 68632,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "grundig-55-gku-700",
@@ -76567,7 +77281,8 @@ export const mockTVs: TVProduct[] = [
         "price": 21469,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "grundig-55-gju-8500-a",
@@ -76660,7 +77375,8 @@ export const mockTVs: TVProduct[] = [
         "price": 25212,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "grundig-55-gku-750",
@@ -76753,7 +77469,8 @@ export const mockTVs: TVProduct[] = [
         "price": 25212,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "grundig-tokyo-55-gju-7900g",
@@ -76846,7 +77563,8 @@ export const mockTVs: TVProduct[] = [
         "price": 28500,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "grundig-rio-50-gju-8900s",
@@ -76939,7 +77657,8 @@ export const mockTVs: TVProduct[] = [
         "price": 29558,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "beko-atlanta-55-ggu-8965-be",
@@ -77032,7 +77751,8 @@ export const mockTVs: TVProduct[] = [
         "price": 33245,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "grundig-50-gku-700",
@@ -77125,7 +77845,8 @@ export const mockTVs: TVProduct[] = [
         "price": 20999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "grundig-50-gju-8500-a",
@@ -77218,7 +77939,8 @@ export const mockTVs: TVProduct[] = [
         "price": 22704,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 56
   },
   {
     "id": "grundig-50-gku-750",
@@ -77311,7 +78033,8 @@ export const mockTVs: TVProduct[] = [
         "price": 21159,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 56
   },
   {
     "id": "grundig-55-gju-7000-b",
@@ -77404,7 +78127,8 @@ export const mockTVs: TVProduct[] = [
         "price": 22799,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 56
   },
   {
     "id": "grundig-50-gju-7500-b",
@@ -77497,7 +78221,8 @@ export const mockTVs: TVProduct[] = [
         "price": 22039,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 54
   },
   {
     "id": "grundig-43-gju-8500-a",
@@ -77590,7 +78315,8 @@ export const mockTVs: TVProduct[] = [
         "price": 19872,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 54
   },
   {
     "id": "grundig-munich-43-gjf-6900-b",
@@ -77680,7 +78406,8 @@ export const mockTVs: TVProduct[] = [
         "price": 19462,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 48
   },
   {
     "id": "grundig-43-gkf-6500",
@@ -77770,7 +78497,8 @@ export const mockTVs: TVProduct[] = [
         "price": 16949,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 44
   },
   {
     "id": "grundig-toronto-32-gih-6900",
@@ -77860,7 +78588,8 @@ export const mockTVs: TVProduct[] = [
         "price": 12732,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 44
   },
   {
     "id": "grundig-40-gjf-6000-b",
@@ -77950,7 +78679,8 @@ export const mockTVs: TVProduct[] = [
         "price": 18999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 44
   },
   {
     "id": "grundig-40-gkf-6500",
@@ -78040,7 +78770,8 @@ export const mockTVs: TVProduct[] = [
         "price": 15520,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 44
   },
   {
     "id": "grundig-32-gih-6000-b",
@@ -78130,7 +78861,8 @@ export const mockTVs: TVProduct[] = [
         "price": 12869,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 41
   },
   {
     "id": "grundig-32-gkh-6500",
@@ -78220,7 +78952,8 @@ export const mockTVs: TVProduct[] = [
         "price": 11999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 40
   },
   {
     "id": "grundig-65-gho-9700",
@@ -78317,7 +79050,8 @@ export const mockTVs: TVProduct[] = [
         "price": 59999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 76
   },
   {
     "id": "grundig-55-gho-9900",
@@ -78413,7 +79147,8 @@ export const mockTVs: TVProduct[] = [
         "price": 52999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 75
   },
   {
     "id": "grundig-55-gho-9700",
@@ -78509,7 +79244,8 @@ export const mockTVs: TVProduct[] = [
         "price": 49999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 74
   },
   {
     "id": "grundig-75-gjq-9100",
@@ -78603,7 +79339,8 @@ export const mockTVs: TVProduct[] = [
         "price": 49999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 65
   },
   {
     "id": "grundig-65-ghq-9100",
@@ -78697,7 +79434,8 @@ export const mockTVs: TVProduct[] = [
         "price": 42999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 64
   },
   {
     "id": "grundig-75-gju-7505-b",
@@ -78790,7 +79528,8 @@ export const mockTVs: TVProduct[] = [
         "price": 47999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 63
   },
   {
     "id": "grundig-tokyo-75-gju-7900g",
@@ -78883,7 +79622,8 @@ export const mockTVs: TVProduct[] = [
         "price": 51999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 63
   },
   {
     "id": "grundig-65-gjq-9100",
@@ -78977,7 +79717,8 @@ export const mockTVs: TVProduct[] = [
         "price": 38999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 62
   },
   {
     "id": "grundig-75-gju-7500-b",
@@ -79070,7 +79811,8 @@ export const mockTVs: TVProduct[] = [
         "price": 46999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "grundig-75-gju-7000-b",
@@ -79163,7 +79905,8 @@ export const mockTVs: TVProduct[] = [
         "price": 45999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "grundig-50-gjq-9200",
@@ -79257,7 +80000,8 @@ export const mockTVs: TVProduct[] = [
         "price": 28999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "grundig-65-gju-8500-a",
@@ -79350,7 +80094,8 @@ export const mockTVs: TVProduct[] = [
         "price": 36999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "grundig-50-gjq-9100",
@@ -79444,7 +80189,8 @@ export const mockTVs: TVProduct[] = [
         "price": 27999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "grundig-65-gju-7500-b",
@@ -79537,7 +80283,8 @@ export const mockTVs: TVProduct[] = [
         "price": 34999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "grundig-50-gjo-9100",
@@ -79631,7 +80378,8 @@ export const mockTVs: TVProduct[] = [
         "price": 26999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "grundig-55-gju-7505-b",
@@ -79724,7 +80472,8 @@ export const mockTVs: TVProduct[] = [
         "price": 24999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "grundig-43-gjq-9100",
@@ -79818,7 +80567,8 @@ export const mockTVs: TVProduct[] = [
         "price": 19999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 56
   },
   {
     "id": "grundig-tokyo-50-gju-7900g",
@@ -79911,7 +80661,8 @@ export const mockTVs: TVProduct[] = [
         "price": 25999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 56
   },
   {
     "id": "grundig-55-gju-7500-b",
@@ -80004,7 +80755,8 @@ export const mockTVs: TVProduct[] = [
         "price": 24499,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 56
   },
   {
     "id": "grundig-55-gju-8000",
@@ -80097,7 +80849,8 @@ export const mockTVs: TVProduct[] = [
         "price": 25999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 56
   },
   {
     "id": "grundig-50-gju-7000-b",
@@ -80190,7 +80943,8 @@ export const mockTVs: TVProduct[] = [
         "price": 22999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 54
   },
   {
     "id": "grundig-50-gju-8000",
@@ -80283,7 +81037,8 @@ export const mockTVs: TVProduct[] = [
         "price": 23499,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 54
   },
   {
     "id": "grundig-43-gju-7000-b",
@@ -80376,7 +81131,8 @@ export const mockTVs: TVProduct[] = [
         "price": 18499,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 53
   },
   {
     "id": "grundig-43-gju-7500-b",
@@ -80469,7 +81225,8 @@ export const mockTVs: TVProduct[] = [
         "price": 18999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 52
   },
   {
     "id": "grundig-43-gjf-6000-b",
@@ -80559,7 +81316,8 @@ export const mockTVs: TVProduct[] = [
         "price": 16999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 45
   },
   {
     "id": "grundig-43-gjf-6500-b",
@@ -80649,7 +81407,8 @@ export const mockTVs: TVProduct[] = [
         "price": 17299,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 44
   },
   {
     "id": "grundig-40-gjf-6500-b",
@@ -80739,7 +81498,8 @@ export const mockTVs: TVProduct[] = [
         "price": 15999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 44
   },
   {
     "id": "grundig-32-gjh-6000b",
@@ -80829,7 +81589,8 @@ export const mockTVs: TVProduct[] = [
         "price": 12299,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 40
   },
   {
     "id": "grundig-hamburg-32-gih-5500",
@@ -80919,7 +81680,8 @@ export const mockTVs: TVProduct[] = [
         "price": 11499,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 25
   },
   {
     "id": "grundig-85-ghu-9001",
@@ -81012,7 +81774,8 @@ export const mockTVs: TVProduct[] = [
         "price": 69999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 69
   },
   {
     "id": "grundig-98-ghq-9501",
@@ -81109,7 +81872,8 @@ export const mockTVs: TVProduct[] = [
         "price": 142500,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 89
   },
   {
     "id": "onvo-100vq90f3ub",
@@ -81217,7 +81981,8 @@ export const mockTVs: TVProduct[] = [
         "price": 89999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 70
   },
   {
     "id": "onvo-85vq90f2ua",
@@ -81325,7 +82090,8 @@ export const mockTVs: TVProduct[] = [
         "price": 49236,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "onvo-85vq90f3ua",
@@ -81418,7 +82184,8 @@ export const mockTVs: TVProduct[] = [
         "price": 49999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "onvo-75ovf9001uq",
@@ -81526,7 +82293,8 @@ export const mockTVs: TVProduct[] = [
         "price": 39344,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 64
   },
   {
     "id": "onvo-75ovf9000uq",
@@ -81619,7 +82387,8 @@ export const mockTVs: TVProduct[] = [
         "price": 39170,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 64
   },
   {
     "id": "onvo-75vq90f2ua",
@@ -81712,7 +82481,8 @@ export const mockTVs: TVProduct[] = [
         "price": 37891,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 63
   },
   {
     "id": "onvo-75vq90f3ua",
@@ -81820,7 +82590,8 @@ export const mockTVs: TVProduct[] = [
         "price": 34591,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 63
   },
   {
     "id": "onvo-70ovf9000uq",
@@ -81913,7 +82684,8 @@ export const mockTVs: TVProduct[] = [
         "price": 38377,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 63
   },
   {
     "id": "onvo-70ovf9001uq",
@@ -82006,7 +82778,8 @@ export const mockTVs: TVProduct[] = [
         "price": 37562,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 62
   },
   {
     "id": "onvo-65vq90f3ua",
@@ -82114,7 +82887,8 @@ export const mockTVs: TVProduct[] = [
         "price": 26679,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "onvo-65ovf9250uq",
@@ -82207,7 +82981,8 @@ export const mockTVs: TVProduct[] = [
         "price": 27394,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "onvo-65ovf9000uq",
@@ -82300,7 +83075,8 @@ export const mockTVs: TVProduct[] = [
         "price": 27448,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "onvo-65ovf9001uq",
@@ -82393,7 +83169,8 @@ export const mockTVs: TVProduct[] = [
         "price": 27448,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 61
   },
   {
     "id": "onvo-65ovf5000aq",
@@ -82486,7 +83263,8 @@ export const mockTVs: TVProduct[] = [
         "price": 28059,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 60
   },
   {
     "id": "onvo-65ov9000u",
@@ -82579,7 +83357,8 @@ export const mockTVs: TVProduct[] = [
         "price": 27448,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "onvo-55vq90f3ua",
@@ -82687,7 +83466,8 @@ export const mockTVs: TVProduct[] = [
         "price": 18499,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "onvo-55ovf9250uq",
@@ -82780,7 +83560,8 @@ export const mockTVs: TVProduct[] = [
         "price": 20761,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "onvo-55ovf9001uq",
@@ -82873,7 +83654,8 @@ export const mockTVs: TVProduct[] = [
         "price": 20616,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "onvo-55ovf9000uq",
@@ -82966,7 +83748,8 @@ export const mockTVs: TVProduct[] = [
         "price": 20360,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "onvo-55ovf5000aq",
@@ -83059,7 +83842,8 @@ export const mockTVs: TVProduct[] = [
         "price": 22999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 58
   },
   {
     "id": "onvo-50vq90f3ua",
@@ -83167,7 +83951,8 @@ export const mockTVs: TVProduct[] = [
         "price": 15999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "onvo-50ovf9001uq",
@@ -83260,7 +84045,8 @@ export const mockTVs: TVProduct[] = [
         "price": 16690,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "onvo-50ovf9000uq",
@@ -83353,7 +84139,8 @@ export const mockTVs: TVProduct[] = [
         "price": 16765,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 57
   },
   {
     "id": "onvo-43vq80f3fa",
@@ -83443,7 +84230,8 @@ export const mockTVs: TVProduct[] = [
         "price": 11499,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 48
   },
   {
     "id": "onvo-50vq80f2fa",
@@ -83548,7 +84336,8 @@ export const mockTVs: TVProduct[] = [
         "price": 15240,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 46
   },
   {
     "id": "onvo-43vq80f2fa",
@@ -83638,7 +84427,8 @@ export const mockTVs: TVProduct[] = [
         "price": 11799,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 44
   },
   {
     "id": "onvo-40vq80f3fa",
@@ -83728,7 +84518,8 @@ export const mockTVs: TVProduct[] = [
         "price": 10099,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 44
   },
   {
     "id": "onvo-40vq80f2fa",
@@ -83818,7 +84609,8 @@ export const mockTVs: TVProduct[] = [
         "price": 9858,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 44
   },
   {
     "id": "onvo-32vq80f2ha",
@@ -83923,7 +84715,8 @@ export const mockTVs: TVProduct[] = [
         "price": 7299,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 43
   },
   {
     "id": "onvo-32vq80f3ha",
@@ -84013,7 +84806,8 @@ export const mockTVs: TVProduct[] = [
         "price": 8299,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 43
   },
   {
     "id": "onvo-43vl80f3fa",
@@ -84103,7 +84897,8 @@ export const mockTVs: TVProduct[] = [
         "price": 11799,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 42
   },
   {
     "id": "onvo-40vl80f2fa",
@@ -84193,7 +84988,8 @@ export const mockTVs: TVProduct[] = [
         "price": 9834,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 41
   },
   {
     "id": "onvo-32ovprohf9000h",
@@ -84285,7 +85081,8 @@ export const mockTVs: TVProduct[] = [
         "price": 23999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 41
   },
   {
     "id": "onvo-40ovf4000af",
@@ -84375,7 +85172,8 @@ export const mockTVs: TVProduct[] = [
         "price": 12777,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 41
   },
   {
     "id": "onvo-32vl80f2ha",
@@ -84465,7 +85263,8 @@ export const mockTVs: TVProduct[] = [
         "price": 7916,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 40
   },
   {
     "id": "onvo-40ovf6000f",
@@ -84555,7 +85354,8 @@ export const mockTVs: TVProduct[] = [
         "price": 10399,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 40
   },
   {
     "id": "onvo-32vl80f3ha",
@@ -84645,7 +85445,8 @@ export const mockTVs: TVProduct[] = [
         "price": 8899,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 38
   },
   {
     "id": "onvo-32ov6001h",
@@ -84735,7 +85536,8 @@ export const mockTVs: TVProduct[] = [
         "price": 11500,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 37
   },
   {
     "id": "onvo-24vl80f2ha",
@@ -84825,7 +85627,8 @@ export const mockTVs: TVProduct[] = [
         "price": 7175,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 34
   },
   {
     "id": "onvo-24ovf6001h",
@@ -84915,7 +85718,8 @@ export const mockTVs: TVProduct[] = [
         "price": 7003,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 34
   },
   {
     "id": "onvo-32ovm6500x",
@@ -85022,7 +85826,8 @@ export const mockTVs: TVProduct[] = [
         "price": 25999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 32
   },
   {
     "id": "onvo-32ovf4000ah",
@@ -85112,7 +85917,8 @@ export const mockTVs: TVProduct[] = [
         "price": 8690,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 44
   },
   {
     "id": "onvo-100ovf9001uq",
@@ -85205,7 +86011,8 @@ export const mockTVs: TVProduct[] = [
         "price": 79999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 70
   },
   {
     "id": "onvo-100ovf9000uq",
@@ -85298,7 +86105,8 @@ export const mockTVs: TVProduct[] = [
         "price": 78999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 70
   },
   {
     "id": "onvo-85ovf9001uq",
@@ -85391,7 +86199,8 @@ export const mockTVs: TVProduct[] = [
         "price": 46999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "onvo-85ovf9000uq",
@@ -85484,7 +86293,8 @@ export const mockTVs: TVProduct[] = [
         "price": 45999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 66
   },
   {
     "id": "onvo-85ovf9000u",
@@ -85577,7 +86387,8 @@ export const mockTVs: TVProduct[] = [
         "price": 44999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 63
   },
   {
     "id": "onvo-55vl90n4ua",
@@ -85670,7 +86481,8 @@ export const mockTVs: TVProduct[] = [
         "price": 18999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 55
   },
   {
     "id": "onvo-43ovf9000fq",
@@ -85762,7 +86574,8 @@ export const mockTVs: TVProduct[] = [
         "price": 11999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 47
   },
   {
     "id": "onvo-43ovf5000af",
@@ -85852,7 +86665,8 @@ export const mockTVs: TVProduct[] = [
         "price": 11499,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 45
   },
   {
     "id": "onvo-43ovf9000f",
@@ -85942,7 +86756,8 @@ export const mockTVs: TVProduct[] = [
         "price": 11499,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 45
   },
   {
     "id": "onvo-42ovf9000f",
@@ -86032,7 +86847,8 @@ export const mockTVs: TVProduct[] = [
         "price": 10999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 45
   },
   {
     "id": "onvo-43ovf9001f",
@@ -86122,7 +86938,8 @@ export const mockTVs: TVProduct[] = [
         "price": 11499,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 45
   },
   {
     "id": "onvo-42ov9000f",
@@ -86212,7 +87029,8 @@ export const mockTVs: TVProduct[] = [
         "price": 10999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 44
   },
   {
     "id": "onvo-43ov4000af",
@@ -86302,7 +87120,8 @@ export const mockTVs: TVProduct[] = [
         "price": 11299,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 41
   },
   {
     "id": "onvo-32ovf9000h",
@@ -86392,7 +87211,8 @@ export const mockTVs: TVProduct[] = [
         "price": 7999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 41
   },
   {
     "id": "onvo-32vl6000h2",
@@ -86482,7 +87302,8 @@ export const mockTVs: TVProduct[] = [
         "price": 7499,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 38
   },
   {
     "id": "onvo-32ovf6001h",
@@ -86572,7 +87393,8 @@ export const mockTVs: TVProduct[] = [
         "price": 7799,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 37
   },
   {
     "id": "onvo-24ovf6000h",
@@ -86662,7 +87484,8 @@ export const mockTVs: TVProduct[] = [
         "price": 6899,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 34
   },
   {
     "id": "onvo-24ov6001h",
@@ -86752,7 +87575,8 @@ export const mockTVs: TVProduct[] = [
         "price": 6799,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 34
   },
   {
     "id": "onvo-32ovm6000-slide-go",
@@ -86844,7 +87668,8 @@ export const mockTVs: TVProduct[] = [
         "price": 24999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 32
   },
   {
     "id": "onvo-24ov5002h",
@@ -86934,7 +87759,8 @@ export const mockTVs: TVProduct[] = [
         "price": 5499,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 22
   },
   {
     "id": "onvo-24ov5001h",
@@ -87024,7 +87850,8 @@ export const mockTVs: TVProduct[] = [
         "price": 5399,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "epeyScore": 22
   },
   {
     "id": "onvo-24ov5000h",
@@ -87114,7 +87941,8 @@ export const mockTVs: TVProduct[] = [
         "price": 5299,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 22
   },
   {
     "id": "onvo-43ovf5000aq",
@@ -87204,6 +88032,7 @@ export const mockTVs: TVProduct[] = [
         "price": 11499,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "epeyScore": 56
   }
 ];

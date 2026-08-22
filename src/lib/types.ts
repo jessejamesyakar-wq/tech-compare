@@ -21,6 +21,7 @@ export interface BaseProduct {
   image: string;
   images?: string[];
   rating: number;
+  epeyScore?: number;
   reviewCount: number;
   basePrice: number;
   currency: 'TL';

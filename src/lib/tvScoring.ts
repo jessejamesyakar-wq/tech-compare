@@ -23,12 +23,13 @@ export interface TVScoreResult {
  * Computes an authoritative 100-point Epey/TechCompare score for any TV model
  */
 export function calculateTVScore(tv: TVProduct): TVScoreResult {
-  const nameUpper = tv.name.toUpperCase();
+  const explicitScore = tv.epeyScore;
+
+  const nameUpper = (tv.name || '').toUpperCase();
   const tech = (tv.specs?.displayTech || '').toUpperCase();
   const refresh = tv.specs?.refreshRateHz || 60;
+  const res = (tv.specs?.resolution || '').toUpperCase();
   const year = tv.releaseYear || 2024;
-  const rating = tv.rating || 4.5;
-  const price = tv.basePrice || 30000;
   const highlightsStr = (tv.highlights || []).join(' ').toUpperCase();
   const tagsStr = (tv.tags || []).join(' ').toUpperCase();
   const combinedSpecs = `${nameUpper} ${tech} ${highlightsStr} ${tagsStr}`;
@@ -49,10 +50,10 @@ export function calculateTVScore(tv: TVProduct): TVScoreResult {
     displayScore = 96;
   } else if (combinedSpecs.includes('MINI-LED') || combinedSpecs.includes('MINI LED') || combinedSpecs.includes('NEO QLED')) {
     displayScore = 93;
-  } else if (combinedSpecs.includes('QLED')) {
+  } else if (combinedSpecs.includes('QLED') || combinedSpecs.includes('QNED')) {
     displayScore = 86;
   } else {
-    displayScore = 78;
+    displayScore = 70;
   }
 
   if (combinedSpecs.includes('8K')) displayScore = Math.min(100, displayScore + 3);
@@ -65,7 +66,7 @@ export function calculateTVScore(tv: TVProduct): TVScoreResult {
   } else if (refresh >= 120) {
     gamingScore = 95;
   } else {
-    gamingScore = 74;
+    gamingScore = 65;
   }
 
   if (combinedSpecs.includes('VRR') || combinedSpecs.includes('ALLM') || combinedSpecs.includes('FREESYNC') || combinedSpecs.includes('HDMI 2.1')) {
@@ -81,41 +82,40 @@ export function calculateTVScore(tv: TVProduct): TVScoreResult {
   } else if (combinedSpecs.includes('DOLBY ATMOS') || combinedSpecs.includes('50W') || combinedSpecs.includes('40W')) {
     audioScore = 88;
   } else {
-    audioScore = 78;
+    audioScore = 70;
   }
 
   // 4. SMART TV & PROCESSING SCORE (Max 100)
   let smartScore = 80;
   if (combinedSpecs.includes('GOOGLE TV') || combinedSpecs.includes('ANDROID TV') || combinedSpecs.includes('WEBOS') || combinedSpecs.includes('TIZEN')) {
     smartScore = 92;
-  } else if (combinedSpecs.includes('SAPHI') || combinedSpecs.includes('ROKU')) {
+  } else if (combinedSpecs.includes('SAPHI') || combinedSpecs.includes('ROKU') || combinedSpecs.includes('VIDAA')) {
     smartScore = 82;
   } else {
-    smartScore = 85;
+    smartScore = 70;
   }
 
-  if (combinedSpecs.includes('P5 AI DUAL') || combinedSpecs.includes('NEURAL QUANTUM') || combinedSpecs.includes('AIPQ PRO') || combinedSpecs.includes('P5 AI')) {
+  if (combinedSpecs.includes('P5 AI DUAL') || combinedSpecs.includes('NEURAL QUANTUM') || combinedSpecs.includes('AIPQ PRO') || combinedSpecs.includes('P5 AI') || combinedSpecs.includes('ALPHA 11') || combinedSpecs.includes('ALPHA 9')) {
     smartScore = Math.min(100, smartScore + 6);
   }
 
   // 5. DESIGN & AMBILIGHT SCORE (Max 100)
-  let designScore = 82;
+  let designScore = 75;
   if (combinedSpecs.includes('AMBILIGHT 4') || combinedSpecs.includes('4-SIDE') || combinedSpecs.includes('4-TARAFLI')) {
     designScore = 99;
   } else if (combinedSpecs.includes('AMBILIGHT 3') || combinedSpecs.includes('3-SIDE') || combinedSpecs.includes('3-TARAFLI') || combinedSpecs.includes('AMBILIGHT')) {
     designScore = 94;
   } else if (combinedSpecs.includes('ÇERÇEVESİZ') || combinedSpecs.includes('FRAMELESS') || combinedSpecs.includes('THE FRAME')) {
-    designScore = 90;
+    designScore = 88;
   }
 
-  // Release year adjustment (Newer tech gets small boost)
-  const yearBonus = (year - 2020) * 0.5;
-
-  // Weighted Average for overall 100 score
-  const weighted = (displayScore * 0.35) + (gamingScore * 0.25) + (audioScore * 0.15) + (smartScore * 0.15) + (designScore * 0.10) + yearBonus;
-
-  // Clamp score between 60 and 99
-  const totalScore = Math.min(99, Math.max(60, Math.round(weighted)));
+  // Total Score: Use explicit epeyScore if present, otherwise calculate weighted average
+  let totalScore = explicitScore;
+  if (!totalScore) {
+    const yearBonus = (year - 2020) * 0.5;
+    const weighted = (displayScore * 0.35) + (gamingScore * 0.25) + (audioScore * 0.15) + (smartScore * 0.15) + (designScore * 0.10) + yearBonus;
+    totalScore = Math.min(99, Math.max(40, Math.round(weighted)));
+  }
 
   return {
     totalScore,
@@ -124,7 +124,7 @@ export function calculateTVScore(tv: TVProduct): TVScoreResult {
         title: 'Görüntü ve Panel Kalitesi',
         score: Math.min(100, displayScore),
         maxScore: 100,
-        details: `${tech || 'LED'} Panel, 4K Ultra HD, Dolby Vision & HDR10+`,
+        details: `${tech || 'LED'} Panel, ${res || '4K Ultra HD'}, Dolby Vision & HDR10+`,
         iconName: 'Tv'
       },
       gaming: {
@@ -149,10 +149,10 @@ export function calculateTVScore(tv: TVProduct): TVScoreResult {
         iconName: 'Cpu'
       },
       design: {
-        title: 'Tasarım ve Ambilight Işıklandırma',
+        title: 'Tasarım ve Kasa Yapısı',
         score: Math.min(100, designScore),
         maxScore: 100,
-        details: combinedSpecs.includes('AMBILIGHT') ? 'Philips Ambilight Ortam Işıklandırması & Metal Çerçeve' : 'İnce Metal Çerçeve ve Ergonomik Ayak',
+        details: combinedSpecs.includes('AMBILIGHT') ? 'Philips Ambilight Ortam Işıklandırması & Metal Çerçeve' : 'İnce Çerçeve ve Ergonomik Stand',
         iconName: 'Sparkles'
       }
     }
