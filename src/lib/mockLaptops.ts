@@ -4383,5 +4383,1912 @@ export const mockLaptops: LaptopProduct[] = [
         "store": "Apple Store TR"
       }
     ]
+  },
+  {
+    "id": "apple-macbook-pro-14-2-m5-10cpu-10gpu-mde34tu-a",
+    "slug": "apple-macbook-pro-14-2-m5-10cpu-10gpu-mde34tu-a",
+    "name": "Apple MacBook Pro 14.2\" M5 (10CPU/10GPU) (MDE34TU/A) Siyah",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Laptop",
+    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-10cpu-10gpu-mde34tu-a-1.png",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-14-2-m5-10cpu-10gpu-mde34tu-a-1.png",
+      "https://resim.epey.com/1031762/z_apple-macbook-pro-14-m4-10cpu-10gpu-1.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 55,
+    "reviewCount": 26,
+    "basePrice": 127679.04,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "14.2\" Liquid Retina XDR 120Hz",
+      "Apple M5 (10CPU/10GPU) Güçlü İşlemci",
+      "24GB Bellek & 1TB SSD",
+      "Gelişmiş Termal Mimari & Apple Intelligence"
+    ],
+    "specs": {
+      "productType": "Laptop",
+      "processor": "Apple M5 (10CPU/10GPU)",
+      "processorCores": "10 Çekirdek",
+      "npuTops": 45,
+      "ramGb": 24,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 24,
+      "storageGb": 1024,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M5 10-Core GPU",
+      "gpuTgpWatts": 35,
+      "muxSwitch": false,
+      "screenSizeInches": 14.2,
+      "screenResolution": "3024 x 1964 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1000,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 70,
+      "batteryLifeHours": 22,
+      "chargerWatts": 70,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "3x Thunderbolt 4",
+        "1x HDMI",
+        "1x SDXC",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.6,
+      "thicknessMm": 15.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "6 Hoparlörlü Hi-Fi Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-10cpu-10gpu-mde34tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 127679.04,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-10cpu-10gpu-mde34tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 126402,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 134063,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 130233,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 127679.04,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-14-2-m5-10cpu-10gpu-mde54tu-a",
+    "slug": "apple-macbook-pro-14-2-m5-10cpu-10gpu-mde54tu-a",
+    "name": "Apple MacBook Pro 14.2\" M5 (10CPU/10GPU) (MDE54TU/A) Gümüş",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Laptop",
+    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-10cpu-10gpu-mde54tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-14-2-m5-10cpu-10gpu-mde54tu-a-1.jpg",
+      "https://resim.epey.com/1032439/z_apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 54,
+    "reviewCount": 30,
+    "basePrice": 90724.1,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "14.2\" Liquid Retina XDR 120Hz",
+      "Apple M5 (10CPU/10GPU) Güçlü İşlemci",
+      "16GB Bellek & 512GB SSD",
+      "Gelişmiş Termal Mimari & Apple Intelligence"
+    ],
+    "specs": {
+      "productType": "Laptop",
+      "processor": "Apple M5 (10CPU/10GPU)",
+      "processorCores": "10 Çekirdek",
+      "npuTops": 45,
+      "ramGb": 16,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 16,
+      "storageGb": 512,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M5 10-Core GPU",
+      "gpuTgpWatts": 35,
+      "muxSwitch": false,
+      "screenSizeInches": 14.2,
+      "screenResolution": "3024 x 1964 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1000,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 70,
+      "batteryLifeHours": 22,
+      "chargerWatts": 70,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "3x Thunderbolt 4",
+        "1x HDMI",
+        "1x SDXC",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.6,
+      "thicknessMm": 15.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "6 Hoparlörlü Hi-Fi Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-10cpu-10gpu-mde54tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 90724.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-10cpu-10gpu-mde54tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 89817,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 95260,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 92539,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 90724.1,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-14-2-m5-10cpu-10gpu-mde14tu-a",
+    "slug": "apple-macbook-pro-14-2-m5-10cpu-10gpu-mde14tu-a",
+    "name": "Apple MacBook Pro 14.2\" M5 (10CPU/10GPU) (MDE14TU/A) Siyah",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Laptop",
+    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-10cpu-10gpu-mde14tu-a-1.png",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-14-2-m5-10cpu-10gpu-mde14tu-a-1.png",
+      "https://resim.epey.com/1031761/z_apple-macbook-pro-14-m4-10cpu-10gpu-1.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 54,
+    "reviewCount": 26,
+    "basePrice": 101150,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "14.2\" Liquid Retina XDR 120Hz",
+      "Apple M5 (10CPU/10GPU) Güçlü İşlemci",
+      "16GB Bellek & 1TB SSD",
+      "Gelişmiş Termal Mimari & Apple Intelligence"
+    ],
+    "specs": {
+      "productType": "Laptop",
+      "processor": "Apple M5 (10CPU/10GPU)",
+      "processorCores": "10 Çekirdek",
+      "npuTops": 45,
+      "ramGb": 16,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 16,
+      "storageGb": 1024,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M5 10-Core GPU",
+      "gpuTgpWatts": 35,
+      "muxSwitch": false,
+      "screenSizeInches": 14.2,
+      "screenResolution": "3024 x 1964 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1000,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 70,
+      "batteryLifeHours": 22,
+      "chargerWatts": 70,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "3x Thunderbolt 4",
+        "1x HDMI",
+        "1x SDXC",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.6,
+      "thicknessMm": 15.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "6 Hoparlörlü Hi-Fi Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-10cpu-10gpu-mde14tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 101150,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-10cpu-10gpu-mde14tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 100139,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 106208,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 103173,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 101150,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-a",
+    "slug": "apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-a",
+    "name": "Apple MacBook Pro 14.2\" M5 (10CPU/10GPU) (MDE44TU/A) Gümüş",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Laptop",
+    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-a-1.jpg",
+      "https://resim.epey.com/1032438/z_apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 53,
+    "reviewCount": 31,
+    "basePrice": 99499,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "14.2\" Liquid Retina XDR 120Hz",
+      "Apple M5 (10CPU/10GPU) Güçlü İşlemci",
+      "16GB Bellek & 512GB SSD",
+      "Gelişmiş Termal Mimari & Apple Intelligence"
+    ],
+    "specs": {
+      "productType": "Laptop",
+      "processor": "Apple M5 (10CPU/10GPU)",
+      "processorCores": "10 Çekirdek",
+      "npuTops": 45,
+      "ramGb": 16,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 16,
+      "storageGb": 512,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M5 10-Core GPU",
+      "gpuTgpWatts": 35,
+      "muxSwitch": false,
+      "screenSizeInches": 14.2,
+      "screenResolution": "3024 x 1964 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1000,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 70,
+      "batteryLifeHours": 22,
+      "chargerWatts": 70,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "3x Thunderbolt 4",
+        "1x HDMI",
+        "1x SDXC",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.6,
+      "thicknessMm": 15.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "6 Hoparlörlü Hi-Fi Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 99499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 98504,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 104474,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 101489,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 99499,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-14-2-m5-10cpu-10gpu",
+    "slug": "apple-macbook-pro-14-2-m5-10cpu-10gpu",
+    "name": "Apple MacBook Pro 14.2\" M5 (10CPU/10GPU) (MDE04TU/A) Siyah",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Laptop",
+    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-10cpu-10gpu-1.png",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-14-2-m5-10cpu-10gpu-1.png",
+      "https://resim.epey.com/1031756/z_apple-macbook-pro-14-m4-10cpu-10gpu-1.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 53,
+    "reviewCount": 33,
+    "basePrice": 98939,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "14.2\" Liquid Retina XDR 120Hz",
+      "Apple M5 (10CPU/10GPU) Güçlü İşlemci",
+      "16GB Bellek & 512GB SSD",
+      "Gelişmiş Termal Mimari & Apple Intelligence"
+    ],
+    "specs": {
+      "productType": "Laptop",
+      "processor": "Apple M5 (10CPU/10GPU)",
+      "processorCores": "10 Çekirdek",
+      "npuTops": 45,
+      "ramGb": 16,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 16,
+      "storageGb": 512,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M5 10-Core GPU",
+      "gpuTgpWatts": 35,
+      "muxSwitch": false,
+      "screenSizeInches": 14.2,
+      "screenResolution": "3024 x 1964 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1000,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 70,
+      "batteryLifeHours": 22,
+      "chargerWatts": 70,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "3x Thunderbolt 4",
+        "1x HDMI",
+        "1x SDXC",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.6,
+      "thicknessMm": 15.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "6 Hoparlörlü Hi-Fi Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-10cpu-10gpu-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 98939,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-10cpu-10gpu-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 97950,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 103886,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 100918,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 98939,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-16-mk193tu-a",
+    "slug": "apple-macbook-pro-16-mk193tu-a",
+    "name": "Apple MacBook Pro 16 İnç (MK193TU/A) Gri",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Laptop",
+    "image": "/images/products/laptops/apple-macbook-pro-16-mk193tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-16-mk193tu-a-1.jpg",
+      "https://resim.epey.com/729659/z_apple-macbook-pro-14-mk183tu-a-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 53,
+    "reviewCount": 16,
+    "basePrice": 81999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "16.2\" Liquid Retina XDR 120Hz",
+      "Apple M1 Pro (10CPU/16GPU) Güçlü İşlemci",
+      "16GB Bellek & 512GB SSD",
+      "Gelişmiş Termal Mimari & Apple Intelligence"
+    ],
+    "specs": {
+      "productType": "Laptop",
+      "processor": "Apple M1 Pro (10CPU/16GPU)",
+      "processorCores": "10 Çekirdek",
+      "npuTops": 18,
+      "ramGb": 16,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 16,
+      "storageGb": 512,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M1 Pro 16-Core GPU",
+      "gpuTgpWatts": 35,
+      "muxSwitch": false,
+      "screenSizeInches": 16.2,
+      "screenResolution": "3456 x 2234 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1000,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 100,
+      "batteryLifeHours": 22,
+      "chargerWatts": 70,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "3x Thunderbolt 4",
+        "1x HDMI",
+        "1x SDXC",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 2.14,
+      "thicknessMm": 16.8,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "6 Hoparlörlü Hi-Fi Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-16-mk193tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 81999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-16-mk193tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 81179,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 86099,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 83639,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 81999,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-14-mkgt3tu-a",
+    "slug": "apple-macbook-pro-14-mkgt3tu-a",
+    "name": "Apple MacBook Pro 14\" (MKGT3TU/A) Gümüş",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Laptop",
+    "image": "/images/products/laptops/apple-macbook-pro-14-mkgt3tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-14-mkgt3tu-a-1.jpg",
+      "https://resim.epey.com/729216/z_apple-macbook-pro-14-mkgt3tu-a-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 52,
+    "reviewCount": 30,
+    "basePrice": 88999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "14.2\" Liquid Retina XDR 120Hz",
+      "Apple M1 Pro (10CPU/16GPU) Güçlü İşlemci",
+      "16GB Bellek & 512GB SSD",
+      "Gelişmiş Termal Mimari & Apple Intelligence"
+    ],
+    "specs": {
+      "productType": "Laptop",
+      "processor": "Apple M1 Pro (10CPU/16GPU)",
+      "processorCores": "10 Çekirdek",
+      "npuTops": 18,
+      "ramGb": 16,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 16,
+      "storageGb": 512,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M1 Pro 16-Core GPU",
+      "gpuTgpWatts": 35,
+      "muxSwitch": false,
+      "screenSizeInches": 14.2,
+      "screenResolution": "3024 x 1964 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1000,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 70,
+      "batteryLifeHours": 22,
+      "chargerWatts": 70,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "3x Thunderbolt 4",
+        "1x HDMI",
+        "1x SDXC",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.6,
+      "thicknessMm": 15.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "6 Hoparlörlü Hi-Fi Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-14-mkgt3tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 88999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-14-mkgt3tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 88109,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 93449,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 90779,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 88999,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-air-15-3-m3-mc9d4tu-a",
+    "slug": "apple-macbook-air-15-3-m3-mc9d4tu-a",
+    "name": "Apple MacBook Air 15.3\" M3 (MC9D4TU/A) Gri",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-air-15-3-m3-mc9d4tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-air-15-3-m3-mc9d4tu-a-1.jpg",
+      "https://resim.epey.com/1023123/z_apple-macbook-air-15-3-m3-mc9d4tu-a-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 51,
+    "reviewCount": 20,
+    "basePrice": 99999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "15.3\" Liquid Retina Ekran",
+      "Apple M3 (8CPU/10GPU) Güçlü İşlemci",
+      "16GB Bellek & 512GB SSD",
+      "Fansız Sessiz Tasarım & Apple Intelligence"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M3 (8CPU/10GPU)",
+      "processorCores": "8 Çekirdek",
+      "npuTops": 18,
+      "ramGb": 16,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 16,
+      "storageGb": 512,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M3 10-Core GPU",
+      "gpuTgpWatts": 20,
+      "muxSwitch": false,
+      "screenSizeInches": 15.3,
+      "screenResolution": "2880 x 1864 (Liquid Retina)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 66.5,
+      "batteryLifeHours": 18,
+      "chargerWatts": 35,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB 4",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.51,
+      "thicknessMm": 11.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "6 Hoparlörlü Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-air-15-3-m3-mc9d4tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 99999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-air-15-3-m3-mc9d4tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 98999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 104999,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 101999,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 99999,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-14-mkgq3tu-a",
+    "slug": "apple-macbook-pro-14-mkgq3tu-a",
+    "name": "Apple MacBook Pro 14\" (MKGQ3TU/A) Gri",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Laptop",
+    "image": "/images/products/laptops/apple-macbook-pro-14-mkgq3tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-14-mkgq3tu-a-1.jpg",
+      "https://resim.epey.com/729212/z_apple-macbook-pro-14-mkgq3tu-a-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 51,
+    "reviewCount": 20,
+    "basePrice": 149999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "14.2\" Liquid Retina XDR 120Hz",
+      "Apple M1 Pro (10CPU/16GPU) Güçlü İşlemci",
+      "16GB Bellek & 1TB SSD",
+      "Gelişmiş Termal Mimari & Apple Intelligence"
+    ],
+    "specs": {
+      "productType": "Laptop",
+      "processor": "Apple M1 Pro (10CPU/16GPU)",
+      "processorCores": "10 Çekirdek",
+      "npuTops": 18,
+      "ramGb": 16,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 16,
+      "storageGb": 1024,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M1 Pro 16-Core GPU",
+      "gpuTgpWatts": 35,
+      "muxSwitch": false,
+      "screenSizeInches": 14.2,
+      "screenResolution": "3024 x 1964 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1000,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 70,
+      "batteryLifeHours": 22,
+      "chargerWatts": 70,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "3x Thunderbolt 4",
+        "1x HDMI",
+        "1x SDXC",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.6,
+      "thicknessMm": 15.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "6 Hoparlörlü Hi-Fi Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-14-mkgq3tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 149999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-14-mkgq3tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 148499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 157499,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 152999,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 149999,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-14-2-m3-8cpu-10gpu-mr7k3tu-a",
+    "slug": "apple-macbook-pro-14-2-m3-8cpu-10gpu-mr7k3tu-a",
+    "name": "Apple MacBook Pro 14.2\" M3 (8CPU/10GPU) (MR7K3TU/A) Gümüş",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Laptop",
+    "image": "/images/products/laptops/apple-macbook-pro-14-2-m3-8cpu-10gpu-mr7k3tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-14-2-m3-8cpu-10gpu-mr7k3tu-a-1.jpg",
+      "https://resim.epey.com/905776/z_apple-macbook-pro-14-2-m3-8cpu-10gpu-mr7j3tu-6.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 51,
+    "reviewCount": 16,
+    "basePrice": 75999.05,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "14.2\" Liquid Retina XDR 120Hz",
+      "Apple M3 (8CPU/10GPU) Güçlü İşlemci",
+      "8GB Bellek & 512GB SSD",
+      "Gelişmiş Termal Mimari & Apple Intelligence"
+    ],
+    "specs": {
+      "productType": "Laptop",
+      "processor": "Apple M3 (8CPU/10GPU)",
+      "processorCores": "8 Çekirdek",
+      "npuTops": 18,
+      "ramGb": 8,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 8,
+      "storageGb": 512,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M3 10-Core GPU",
+      "gpuTgpWatts": 35,
+      "muxSwitch": false,
+      "screenSizeInches": 14.2,
+      "screenResolution": "3024 x 1964 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1000,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 70,
+      "batteryLifeHours": 22,
+      "chargerWatts": 70,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "3x Thunderbolt 4",
+        "1x HDMI",
+        "1x SDXC",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.6,
+      "thicknessMm": 15.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "6 Hoparlörlü Hi-Fi Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-14-2-m3-8cpu-10gpu-mr7k3tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 75999.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-14-2-m3-8cpu-10gpu-mr7k3tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 75239,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 79799,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 77519,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 75999.05,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-air-15-3-m3-mryp3tu-a",
+    "slug": "apple-macbook-air-15-3-m3-mryp3tu-a",
+    "name": "Apple MacBook Air 15.3\" M3 (MRYP3TU/A) Gümüş",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-air-15-3-m3-mryp3tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-air-15-3-m3-mryp3tu-a-1.jpg",
+      "https://resim.epey.com/930071/z_apple-macbook-air-15-3-m3-mryp3tu-a-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 50,
+    "reviewCount": 32,
+    "basePrice": 66898.12,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "15.3\" Liquid Retina Ekran",
+      "Apple M3 (8CPU/10GPU) Güçlü İşlemci",
+      "8GB Bellek & 256GB SSD",
+      "Fansız Sessiz Tasarım & Apple Intelligence"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M3 (8CPU/10GPU)",
+      "processorCores": "8 Çekirdek",
+      "npuTops": 18,
+      "ramGb": 8,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 8,
+      "storageGb": 256,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M3 10-Core GPU",
+      "gpuTgpWatts": 20,
+      "muxSwitch": false,
+      "screenSizeInches": 15.3,
+      "screenResolution": "2880 x 1864 (Liquid Retina)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 66.5,
+      "batteryLifeHours": 18,
+      "chargerWatts": 35,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB 4",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.51,
+      "thicknessMm": 11.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "6 Hoparlörlü Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-air-15-3-m3-mryp3tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 66898.12,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-air-15-3-m3-mryp3tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 66229,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 70243,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 68236,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 66898.12,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-air-15-3-m3-mryu3tu-a",
+    "slug": "apple-macbook-air-15-3-m3-mryu3tu-a",
+    "name": "Apple MacBook Air 15.3\" M3 (MRYU3TU/A) Koyu Mavi",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-air-15-3-m3-mryu3tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-air-15-3-m3-mryu3tu-a-1.jpg",
+      "https://resim.epey.com/930017/z_apple-macbook-air-15-3-m3-mryu3tu-a-6.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 50,
+    "reviewCount": 24,
+    "basePrice": 59375,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "15.3\" Liquid Retina Ekran",
+      "Apple M3 (8CPU/10GPU) Güçlü İşlemci",
+      "8GB Bellek & 256GB SSD",
+      "Fansız Sessiz Tasarım & Apple Intelligence"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M3 (8CPU/10GPU)",
+      "processorCores": "8 Çekirdek",
+      "npuTops": 18,
+      "ramGb": 8,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 8,
+      "storageGb": 256,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M3 10-Core GPU",
+      "gpuTgpWatts": 20,
+      "muxSwitch": false,
+      "screenSizeInches": 15.3,
+      "screenResolution": "2880 x 1864 (Liquid Retina)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 66.5,
+      "batteryLifeHours": 18,
+      "chargerWatts": 35,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB 4",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.51,
+      "thicknessMm": 11.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "6 Hoparlörlü Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-air-15-3-m3-mryu3tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 59375,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-air-15-3-m3-mryu3tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 58781,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 62344,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 60563,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 59375,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-air-13-6-m3-mrxp3tu-a",
+    "slug": "apple-macbook-air-13-6-m3-mrxp3tu-a",
+    "name": "Apple MacBook Air 13.6\" M3 (MRXP3TU/A) Gri",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-air-13-6-m3-mrxp3tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-air-13-6-m3-mrxp3tu-a-1.jpg",
+      "https://resim.epey.com/928488/z_apple-macbook-air-13-6-m3-mrxp3tu-a-6.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 50,
+    "reviewCount": 13,
+    "basePrice": 59849.05,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "13.6\" Liquid Retina Ekran",
+      "Apple M3 (8CPU/10GPU) Güçlü İşlemci",
+      "8GB Bellek & 256GB SSD",
+      "Fansız Sessiz Tasarım & Apple Intelligence"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M3 (8CPU/10GPU)",
+      "processorCores": "8 Çekirdek",
+      "npuTops": 18,
+      "ramGb": 8,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 8,
+      "storageGb": 256,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M3 10-Core GPU",
+      "gpuTgpWatts": 20,
+      "muxSwitch": false,
+      "screenSizeInches": 13.6,
+      "screenResolution": "2560 x 1664 (Liquid Retina)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 52.6,
+      "batteryLifeHours": 18,
+      "chargerWatts": 30,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB 4",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.24,
+      "thicknessMm": 11.3,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "4 Hoparlörlü Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-air-13-6-m3-mrxp3tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 59849.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-air-13-6-m3-mrxp3tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 59251,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 62842,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 61046,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 59849.05,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-air-13-6-m3-mrxw3tu-a",
+    "slug": "apple-macbook-air-13-6-m3-mrxw3tu-a",
+    "name": "Apple MacBook Air 13.6\" M3 (MRXW3TU/A) Koyu Mavi",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-air-13-6-m3-mrxw3tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-air-13-6-m3-mrxw3tu-a-1.jpg",
+      "https://resim.epey.com/928471/z_apple-macbook-air-13-6-m3-mrxw3tu-a-6.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 50,
+    "reviewCount": 28,
+    "basePrice": 61750,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "13.6\" Liquid Retina Ekran",
+      "Apple M3 (8CPU/10GPU) Güçlü İşlemci",
+      "8GB Bellek & 256GB SSD",
+      "Fansız Sessiz Tasarım & Apple Intelligence"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M3 (8CPU/10GPU)",
+      "processorCores": "8 Çekirdek",
+      "npuTops": 18,
+      "ramGb": 8,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 8,
+      "storageGb": 256,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M3 10-Core GPU",
+      "gpuTgpWatts": 20,
+      "muxSwitch": false,
+      "screenSizeInches": 13.6,
+      "screenResolution": "2560 x 1664 (Liquid Retina)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 52.6,
+      "batteryLifeHours": 18,
+      "chargerWatts": 30,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB 4",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.24,
+      "thicknessMm": 11.3,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "4 Hoparlörlü Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-air-13-6-m3-mrxw3tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 61750,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-air-13-6-m3-mrxw3tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 61133,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 64838,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 62985,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 61750,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-14-2-m3-8cpu-10gpu-mr7j3tu-a",
+    "slug": "apple-macbook-pro-14-2-m3-8cpu-10gpu-mr7j3tu-a",
+    "name": "Apple MacBook Pro 14.2\" M3 (8CPU/10GPU) (MR7J3TU/A) Gümüş",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Laptop",
+    "image": "/images/products/laptops/apple-macbook-pro-14-2-m3-8cpu-10gpu-mr7j3tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-14-2-m3-8cpu-10gpu-mr7j3tu-a-1.jpg",
+      "https://resim.epey.com/905695/z_apple-macbook-pro-14-2-m3-8cpu-10gpu-mr7j3tu-6.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 50,
+    "reviewCount": 31,
+    "basePrice": 75199,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "14.2\" Liquid Retina XDR 120Hz",
+      "Apple M3 (8CPU/10GPU) Güçlü İşlemci",
+      "8GB Bellek & 512GB SSD",
+      "Gelişmiş Termal Mimari & Apple Intelligence"
+    ],
+    "specs": {
+      "productType": "Laptop",
+      "processor": "Apple M3 (8CPU/10GPU)",
+      "processorCores": "8 Çekirdek",
+      "npuTops": 18,
+      "ramGb": 8,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 8,
+      "storageGb": 512,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M3 10-Core GPU",
+      "gpuTgpWatts": 35,
+      "muxSwitch": false,
+      "screenSizeInches": 14.2,
+      "screenResolution": "3024 x 1964 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1000,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 70,
+      "batteryLifeHours": 22,
+      "chargerWatts": 70,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "3x Thunderbolt 4",
+        "1x HDMI",
+        "1x SDXC",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.6,
+      "thicknessMm": 15.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "6 Hoparlörlü Hi-Fi Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-14-2-m3-8cpu-10gpu-mr7j3tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 75199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-14-2-m3-8cpu-10gpu-mr7j3tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 74447,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 78959,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 76703,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 75199,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-air-15-3-m4-mc6l4tu-a",
+    "slug": "apple-macbook-air-15-3-m4-mc6l4tu-a",
+    "name": "Apple MacBook Air 15.3\" M4 (MC6L4TU/A) Koyu Mavi",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-air-15-3-m4-mc6l4tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-air-15-3-m4-mc6l4tu-a-1.jpg",
+      "https://resim.epey.com/998778/z_apple-macbook-air-15-3-m4-mc6l4tu-a-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 50,
+    "reviewCount": 13,
+    "basePrice": 89999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "15.3\" Liquid Retina Ekran",
+      "Apple M4 (10CPU/10GPU) Güçlü İşlemci",
+      "24GB Bellek & 512GB SSD",
+      "Fansız Sessiz Tasarım & Apple Intelligence"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M4 (10CPU/10GPU)",
+      "processorCores": "10 Çekirdek",
+      "npuTops": 38,
+      "ramGb": 24,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 24,
+      "storageGb": 512,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M4 10-Core GPU",
+      "gpuTgpWatts": 20,
+      "muxSwitch": false,
+      "screenSizeInches": 15.3,
+      "screenResolution": "2880 x 1864 (Liquid Retina)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 66.5,
+      "batteryLifeHours": 18,
+      "chargerWatts": 35,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB 4",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.51,
+      "thicknessMm": 11.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "6 Hoparlörlü Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-air-15-3-m4-mc6l4tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 89999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-air-15-3-m4-mc6l4tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 89099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 94499,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 91799,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 89999,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-air-15-3-m4-mc6k4tu-a",
+    "slug": "apple-macbook-air-15-3-m4-mc6k4tu-a",
+    "name": "Apple MacBook Air 15.3\" M4 (MC6K4TU/A) Altın",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-air-15-3-m4-mc6k4tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-air-15-3-m4-mc6k4tu-a-1.jpg",
+      "https://resim.epey.com/998777/z_apple-macbook-air-15-3-m4-mc6k4tu-a-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 50,
+    "reviewCount": 19,
+    "basePrice": 81999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "15.3\" Liquid Retina Ekran",
+      "Apple M4 (10CPU/10GPU) Güçlü İşlemci",
+      "24GB Bellek & 512GB SSD",
+      "Fansız Sessiz Tasarım & Apple Intelligence"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M4 (10CPU/10GPU)",
+      "processorCores": "10 Çekirdek",
+      "npuTops": 38,
+      "ramGb": 24,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 24,
+      "storageGb": 512,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe SSD",
+      "gpu": "Apple M4 10-Core GPU",
+      "gpuTgpWatts": 20,
+      "muxSwitch": false,
+      "screenSizeInches": 15.3,
+      "screenResolution": "2880 x 1864 (Liquid Retina)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 66.5,
+      "batteryLifeHours": 18,
+      "chargerWatts": 35,
+      "wifiStandard": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB 4",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.51,
+      "thicknessMm": 11.5,
+      "bodyMaterial": "Yekpare Alüminyum Gövde",
+      "keyboard": "Magic Keyboard & Touch ID",
+      "webcam": "1080p FaceTime HD Kamera",
+      "audio": "6 Hoparlörlü Ses Sistemi",
+      "os": "macOS Sequoia"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-air-15-3-m4-mc6k4tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 81999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-air-15-3-m4-mc6k4tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 81179,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 86099,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 83639,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 81999,
+        "store": "Apple Store TR"
+      }
+    ]
   }
 ];
