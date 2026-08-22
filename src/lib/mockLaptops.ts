@@ -2559,5 +2559,1829 @@ export const mockLaptops: LaptopProduct[] = [
         "store": "MediaMarkt"
       }
     ]
+  },
+  {
+    "id": "apple-macbook-pro-16-2-m5-max-18cpu-40gpu-mge94tu-a",
+    "slug": "apple-macbook-pro-16-2-m5-max-18cpu-40gpu-mge94tu-a",
+    "name": "Apple MacBook Pro 16.2\" M5 Max (18CPU/40GPU) (MGE94TU/A) Gümüş",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-pro-16-2-m5-max-18cpu-40gpu-mge94tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-16-2-m5-max-18cpu-40gpu-mge94tu-a-1.jpg",
+      "https://resim.epey.com/1048678/z_apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-1.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 69,
+    "reviewCount": 33,
+    "basePrice": 279999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16.2\" Liquid Retina XDR Ekran & ProMotion 120Hz",
+      "Apple M5 Max (18CPU/40GPU) İşlemci Gücü",
+      "48GB Birleşik Bellek & 1TB SSD",
+      "macOS Sequoia / Tahoe & Apple Intelligence Destekli"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M5 Max (18CPU/40GPU)",
+      "processorCores": "18 Çekirdek",
+      "npuTops": 45,
+      "ramGb": 48,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 48,
+      "storageGb": 1024,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe Gen5 SSD",
+      "gpu": "Apple M5 Max 40-Core GPU",
+      "gpuTgpWatts": 75,
+      "muxSwitch": false,
+      "screenSizeInches": 16.2,
+      "screenResolution": "3456 x 2234 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1600,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 100,
+      "batteryLifeHours": 24,
+      "chargerWatts": 140,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "3x Thunderbolt 5 (USB-C)",
+        "1x HDMI 2.1",
+        "1x SDXC Kart Yuvası",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 2.14,
+      "thicknessMm": 16.8,
+      "bodyMaterial": "Yekpare Geri Dönüştürülmüş Alüminyum Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Magic Keyboard & Touch ID",
+      "webcam": "12MP Center Stage Kamera & 1080p FaceTime HD",
+      "audio": "6 Hoparlörlü Ses Sistemi & Force-Cancelling Woofer (Dolby Atmos)",
+      "os": "macOS Sequoia / Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-16-2-m5-max-18cpu-40gpu-mge94tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 279999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-16-2-m5-max-18cpu-40gpu-mge94tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 280499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 293999,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 285599,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 279999,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-16-2-m5-max-18cpu-40gpu",
+    "slug": "apple-macbook-pro-16-2-m5-max-18cpu-40gpu",
+    "name": "Apple MacBook Pro 16.2\" M5 Max (18CPU/40GPU) (MGEE4TU/A) Siyah",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-pro-16-2-m5-max-18cpu-40gpu-1.png",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-16-2-m5-max-18cpu-40gpu-1.png",
+      "https://resim.epey.com/1048677/z_apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mgdt4tu-a-1.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 69,
+    "reviewCount": 36,
+    "basePrice": 278400,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16.2\" Liquid Retina XDR Ekran & ProMotion 120Hz",
+      "Apple M5 Max (18CPU/40GPU) İşlemci Gücü",
+      "48GB Birleşik Bellek & 1TB SSD",
+      "macOS Sequoia / Tahoe & Apple Intelligence Destekli"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M5 Max (18CPU/40GPU)",
+      "processorCores": "18 Çekirdek",
+      "npuTops": 45,
+      "ramGb": 48,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 48,
+      "storageGb": 1024,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe Gen5 SSD",
+      "gpu": "Apple M5 Max 40-Core GPU",
+      "gpuTgpWatts": 75,
+      "muxSwitch": false,
+      "screenSizeInches": 16.2,
+      "screenResolution": "3456 x 2234 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1600,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 100,
+      "batteryLifeHours": 24,
+      "chargerWatts": 140,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "3x Thunderbolt 5 (USB-C)",
+        "1x HDMI 2.1",
+        "1x SDXC Kart Yuvası",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 2.14,
+      "thicknessMm": 16.8,
+      "bodyMaterial": "Yekpare Geri Dönüştürülmüş Alüminyum Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Magic Keyboard & Touch ID",
+      "webcam": "12MP Center Stage Kamera & 1080p FaceTime HD",
+      "audio": "6 Hoparlörlü Ses Sistemi & Force-Cancelling Woofer (Dolby Atmos)",
+      "os": "macOS Sequoia / Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-16-2-m5-max-18cpu-40gpu-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 278400,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-16-2-m5-max-18cpu-40gpu-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 278900,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 292320,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 283968,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 278400,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mge64tu-a",
+    "slug": "apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mge64tu-a",
+    "name": "Apple MacBook Pro 16.2\" M5 Pro (18CPU/20GPU) (MGE64TU/A) Gümüş",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mge64tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mge64tu-a-1.jpg",
+      "https://resim.epey.com/1048598/z_apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-1.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 68,
+    "reviewCount": 35,
+    "basePrice": 219999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16.2\" Liquid Retina XDR Ekran & ProMotion 120Hz",
+      "Apple M5 Pro (18CPU/20GPU) İşlemci Gücü",
+      "48GB Birleşik Bellek & 1TB SSD",
+      "macOS Sequoia / Tahoe & Apple Intelligence Destekli"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M5 Pro (18CPU/20GPU)",
+      "processorCores": "18 Çekirdek",
+      "npuTops": 45,
+      "ramGb": 48,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 48,
+      "storageGb": 1024,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe Gen5 SSD",
+      "gpu": "Apple M5 Pro 20-Core GPU",
+      "gpuTgpWatts": 45,
+      "muxSwitch": false,
+      "screenSizeInches": 16.2,
+      "screenResolution": "3456 x 2234 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1600,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 100,
+      "batteryLifeHours": 24,
+      "chargerWatts": 140,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "3x Thunderbolt 5 (USB-C)",
+        "1x HDMI 2.1",
+        "1x SDXC Kart Yuvası",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 2.14,
+      "thicknessMm": 16.8,
+      "bodyMaterial": "Yekpare Geri Dönüştürülmüş Alüminyum Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Magic Keyboard & Touch ID",
+      "webcam": "12MP Center Stage Kamera & 1080p FaceTime HD",
+      "audio": "6 Hoparlörlü Ses Sistemi & Force-Cancelling Woofer (Dolby Atmos)",
+      "os": "macOS Sequoia / Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mge64tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 219999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mge64tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 220499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 230999,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 224399,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 219999,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-16-2-m5-pro-18cpu-20gpu",
+    "slug": "apple-macbook-pro-16-2-m5-pro-18cpu-20gpu",
+    "name": "Apple MacBook Pro 16.2\" M5 Pro (18CPU/20GPU) (MGEC4TU/A) Siyah",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-1.png",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-1.png",
+      "https://resim.epey.com/1048599/z_apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mgdt4tu-a-1.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 68,
+    "reviewCount": 36,
+    "basePrice": 202499,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16.2\" Liquid Retina XDR Ekran & ProMotion 120Hz",
+      "Apple M5 Pro (18CPU/20GPU) İşlemci Gücü",
+      "48GB Birleşik Bellek & 1TB SSD",
+      "macOS Sequoia / Tahoe & Apple Intelligence Destekli"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M5 Pro (18CPU/20GPU)",
+      "processorCores": "18 Çekirdek",
+      "npuTops": 45,
+      "ramGb": 48,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 48,
+      "storageGb": 1024,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe Gen5 SSD",
+      "gpu": "Apple M5 Pro 20-Core GPU",
+      "gpuTgpWatts": 45,
+      "muxSwitch": false,
+      "screenSizeInches": 16.2,
+      "screenResolution": "3456 x 2234 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1600,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 100,
+      "batteryLifeHours": 24,
+      "chargerWatts": 140,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "3x Thunderbolt 5 (USB-C)",
+        "1x HDMI 2.1",
+        "1x SDXC Kart Yuvası",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 2.14,
+      "thicknessMm": 16.8,
+      "bodyMaterial": "Yekpare Geri Dönüştürülmüş Alüminyum Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Magic Keyboard & Touch ID",
+      "webcam": "12MP Center Stage Kamera & 1080p FaceTime HD",
+      "audio": "6 Hoparlörlü Ses Sistemi & Force-Cancelling Woofer (Dolby Atmos)",
+      "os": "macOS Sequoia / Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 202499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 202999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 212624,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 206549,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 202499,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-16-2-m5-max-18cpu-32gpu-mge74tu-a",
+    "slug": "apple-macbook-pro-16-2-m5-max-18cpu-32gpu-mge74tu-a",
+    "name": "Apple MacBook Pro 16.2\" M5 Max (18CPU/32GPU) (MGE74TU/A) Gümüş",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-pro-16-2-m5-max-18cpu-32gpu-mge74tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-16-2-m5-max-18cpu-32gpu-mge74tu-a-1.jpg",
+      "https://resim.epey.com/1048663/z_apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-1.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 68,
+    "reviewCount": 23,
+    "basePrice": 232999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16.2\" Liquid Retina XDR Ekran & ProMotion 120Hz",
+      "Apple M5 Max (18CPU/32GPU) İşlemci Gücü",
+      "36GB Birleşik Bellek & 1TB SSD",
+      "macOS Sequoia / Tahoe & Apple Intelligence Destekli"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M5 Max (18CPU/32GPU)",
+      "processorCores": "18 Çekirdek",
+      "npuTops": 45,
+      "ramGb": 36,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 36,
+      "storageGb": 1024,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe Gen5 SSD",
+      "gpu": "Apple M5 Max 32-Core GPU",
+      "gpuTgpWatts": 75,
+      "muxSwitch": false,
+      "screenSizeInches": 16.2,
+      "screenResolution": "3456 x 2234 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1600,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 100,
+      "batteryLifeHours": 24,
+      "chargerWatts": 140,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "3x Thunderbolt 5 (USB-C)",
+        "1x HDMI 2.1",
+        "1x SDXC Kart Yuvası",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 2.14,
+      "thicknessMm": 16.8,
+      "bodyMaterial": "Yekpare Geri Dönüştürülmüş Alüminyum Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Magic Keyboard & Touch ID",
+      "webcam": "12MP Center Stage Kamera & 1080p FaceTime HD",
+      "audio": "6 Hoparlörlü Ses Sistemi & Force-Cancelling Woofer (Dolby Atmos)",
+      "os": "macOS Sequoia / Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-16-2-m5-max-18cpu-32gpu-mge74tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 232999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-16-2-m5-max-18cpu-32gpu-mge74tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 233499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 244649,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 237659,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 232999,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-16-2-m5-max-18cpu-32gpu",
+    "slug": "apple-macbook-pro-16-2-m5-max-18cpu-32gpu",
+    "name": "Apple MacBook Pro 16.2\" M5 Max (18CPU/32GPU) (MGED4TU/A) Siyah",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-pro-16-2-m5-max-18cpu-32gpu-1.png",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-16-2-m5-max-18cpu-32gpu-1.png",
+      "https://resim.epey.com/1048660/z_apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mgdt4tu-a-1.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 68,
+    "reviewCount": 23,
+    "basePrice": 239999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16.2\" Liquid Retina XDR Ekran & ProMotion 120Hz",
+      "Apple M5 Max (18CPU/32GPU) İşlemci Gücü",
+      "36GB Birleşik Bellek & 1TB SSD",
+      "macOS Sequoia / Tahoe & Apple Intelligence Destekli"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M5 Max (18CPU/32GPU)",
+      "processorCores": "18 Çekirdek",
+      "npuTops": 45,
+      "ramGb": 36,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 36,
+      "storageGb": 1024,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe Gen5 SSD",
+      "gpu": "Apple M5 Max 32-Core GPU",
+      "gpuTgpWatts": 75,
+      "muxSwitch": false,
+      "screenSizeInches": 16.2,
+      "screenResolution": "3456 x 2234 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1600,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 100,
+      "batteryLifeHours": 24,
+      "chargerWatts": 140,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "3x Thunderbolt 5 (USB-C)",
+        "1x HDMI 2.1",
+        "1x SDXC Kart Yuvası",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 2.14,
+      "thicknessMm": 16.8,
+      "bodyMaterial": "Yekpare Geri Dönüştürülmüş Alüminyum Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Magic Keyboard & Touch ID",
+      "webcam": "12MP Center Stage Kamera & 1080p FaceTime HD",
+      "audio": "6 Hoparlörlü Ses Sistemi & Force-Cancelling Woofer (Dolby Atmos)",
+      "os": "macOS Sequoia / Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-16-2-m5-max-18cpu-32gpu-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 239999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-16-2-m5-max-18cpu-32gpu-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 240499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 251999,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 244799,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 239999,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-14-2-m5-max-18cpu-32gpu-mgdu4tu-a",
+    "slug": "apple-macbook-pro-14-2-m5-max-18cpu-32gpu-mgdu4tu-a",
+    "name": "Apple MacBook Pro 14.2\" M5 Max (18CPU/32GPU) (MGDU4TU/A) Siyah",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-max-18cpu-32gpu-mgdu4tu-a-1.png",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-14-2-m5-max-18cpu-32gpu-mgdu4tu-a-1.png",
+      "https://resim.epey.com/1048695/z_apple-macbook-pro-14-2-m5-max-18cpu-32gpu-mgdu4tu-a-1.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 68,
+    "reviewCount": 27,
+    "basePrice": 227499,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "14.2\" Liquid Retina XDR Ekran & ProMotion 120Hz",
+      "Apple M5 Max (18CPU/32GPU) İşlemci Gücü",
+      "36GB Birleşik Bellek & 1TB SSD",
+      "macOS Sequoia / Tahoe & Apple Intelligence Destekli"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M5 Max (18CPU/32GPU)",
+      "processorCores": "18 Çekirdek",
+      "npuTops": 45,
+      "ramGb": 36,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 36,
+      "storageGb": 1024,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe Gen5 SSD",
+      "gpu": "Apple M5 Max 32-Core GPU",
+      "gpuTgpWatts": 75,
+      "muxSwitch": false,
+      "screenSizeInches": 14.2,
+      "screenResolution": "3024 x 1964 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1600,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 72.4,
+      "batteryLifeHours": 18,
+      "chargerWatts": 96,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "3x Thunderbolt 5 (USB-C)",
+        "1x HDMI 2.1",
+        "1x SDXC Kart Yuvası",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.6,
+      "thicknessMm": 15.5,
+      "bodyMaterial": "Yekpare Geri Dönüştürülmüş Alüminyum Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Magic Keyboard & Touch ID",
+      "webcam": "12MP Center Stage Kamera & 1080p FaceTime HD",
+      "audio": "6 Hoparlörlü Ses Sistemi & Force-Cancelling Woofer (Dolby Atmos)",
+      "os": "macOS Sequoia / Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-max-18cpu-32gpu-mgdu4tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 227499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-max-18cpu-32gpu-mgdu4tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 227999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 238874,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 232049,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 227499,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-14-2-m5-max-18cpu-32gpu",
+    "slug": "apple-macbook-pro-14-2-m5-max-18cpu-32gpu",
+    "name": "Apple MacBook Pro 14.2\" M5 Max (18CPU/32GPU) (MGDQ4TU/A) Gümüş",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-max-18cpu-32gpu-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-14-2-m5-max-18cpu-32gpu-1.jpg",
+      "https://resim.epey.com/1048681/z_apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-1.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 68,
+    "reviewCount": 27,
+    "basePrice": 249899,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "14.2\" Liquid Retina XDR Ekran & ProMotion 120Hz",
+      "Apple M5 Max (18CPU/32GPU) İşlemci Gücü",
+      "36GB Birleşik Bellek & 1TB SSD",
+      "macOS Sequoia / Tahoe & Apple Intelligence Destekli"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M5 Max (18CPU/32GPU)",
+      "processorCores": "18 Çekirdek",
+      "npuTops": 45,
+      "ramGb": 36,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 36,
+      "storageGb": 1024,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe Gen5 SSD",
+      "gpu": "Apple M5 Max 32-Core GPU",
+      "gpuTgpWatts": 75,
+      "muxSwitch": false,
+      "screenSizeInches": 14.2,
+      "screenResolution": "3024 x 1964 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1600,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 72.4,
+      "batteryLifeHours": 18,
+      "chargerWatts": 96,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "3x Thunderbolt 5 (USB-C)",
+        "1x HDMI 2.1",
+        "1x SDXC Kart Yuvası",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.6,
+      "thicknessMm": 15.5,
+      "bodyMaterial": "Yekpare Geri Dönüştürülmüş Alüminyum Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Magic Keyboard & Touch ID",
+      "webcam": "12MP Center Stage Kamera & 1080p FaceTime HD",
+      "audio": "6 Hoparlörlü Ses Sistemi & Force-Cancelling Woofer (Dolby Atmos)",
+      "os": "macOS Sequoia / Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-max-18cpu-32gpu-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 249899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-max-18cpu-32gpu-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 250399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 262394,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 254897,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 249899,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-14-2-m5-pro-18cpu-20gpu-black",
+    "slug": "apple-macbook-pro-14-2-m5-pro-18cpu-20gpu-black",
+    "name": "Apple MacBook Pro 14.2\" M5 Pro (18CPU/20GPU) (MGDT4TU/A) Siyah",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-18cpu-20gpu-black-1.png",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-18cpu-20gpu-black-1.png",
+      "https://resim.epey.com/1048588/z_apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mgdt4tu-a-1.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 66,
+    "reviewCount": 27,
+    "basePrice": 166249.05,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "14.2\" Liquid Retina XDR Ekran & ProMotion 120Hz",
+      "Apple M5 Pro (18CPU/20GPU) İşlemci Gücü",
+      "24GB Birleşik Bellek & 512GB SSD",
+      "macOS Sequoia / Tahoe & Apple Intelligence Destekli"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M5 Pro (18CPU/20GPU)",
+      "processorCores": "18 Çekirdek",
+      "npuTops": 45,
+      "ramGb": 24,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 24,
+      "storageGb": 512,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe Gen5 SSD",
+      "gpu": "Apple M5 Pro 20-Core GPU",
+      "gpuTgpWatts": 45,
+      "muxSwitch": false,
+      "screenSizeInches": 14.2,
+      "screenResolution": "3024 x 1964 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1600,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 72.4,
+      "batteryLifeHours": 18,
+      "chargerWatts": 96,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "3x Thunderbolt 5 (USB-C)",
+        "1x HDMI 2.1",
+        "1x SDXC Kart Yuvası",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.6,
+      "thicknessMm": 15.5,
+      "bodyMaterial": "Yekpare Geri Dönüştürülmüş Alüminyum Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Magic Keyboard & Touch ID",
+      "webcam": "12MP Center Stage Kamera & 1080p FaceTime HD",
+      "audio": "6 Hoparlörlü Ses Sistemi & Force-Cancelling Woofer (Dolby Atmos)",
+      "os": "macOS Sequoia / Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-pro-18cpu-20gpu-black-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 166249.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-pro-18cpu-20gpu-black-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 166749.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 174562,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 169574,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 166249.05,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-14-2-m5-pro-18cpu-20gpu",
+    "slug": "apple-macbook-pro-14-2-m5-pro-18cpu-20gpu",
+    "name": "Apple MacBook Pro 14.2\" M5 Pro (18CPU/20GPU) (MGDP4TU/A) Gümüş",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-18cpu-20gpu-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-18cpu-20gpu-1.jpg",
+      "https://resim.epey.com/1048586/z_apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-1.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 66,
+    "reviewCount": 20,
+    "basePrice": 175679.04,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "14.2\" Liquid Retina XDR Ekran & ProMotion 120Hz",
+      "Apple M5 Pro (18CPU/20GPU) İşlemci Gücü",
+      "24GB Birleşik Bellek & 512GB SSD",
+      "macOS Sequoia / Tahoe & Apple Intelligence Destekli"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M5 Pro (18CPU/20GPU)",
+      "processorCores": "18 Çekirdek",
+      "npuTops": 45,
+      "ramGb": 24,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 24,
+      "storageGb": 512,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe Gen5 SSD",
+      "gpu": "Apple M5 Pro 20-Core GPU",
+      "gpuTgpWatts": 45,
+      "muxSwitch": false,
+      "screenSizeInches": 14.2,
+      "screenResolution": "3024 x 1964 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1600,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 72.4,
+      "batteryLifeHours": 18,
+      "chargerWatts": 96,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "3x Thunderbolt 5 (USB-C)",
+        "1x HDMI 2.1",
+        "1x SDXC Kart Yuvası",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.6,
+      "thicknessMm": 15.5,
+      "bodyMaterial": "Yekpare Geri Dönüştürülmüş Alüminyum Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Magic Keyboard & Touch ID",
+      "webcam": "12MP Center Stage Kamera & 1080p FaceTime HD",
+      "audio": "6 Hoparlörlü Ses Sistemi & Force-Cancelling Woofer (Dolby Atmos)",
+      "os": "macOS Sequoia / Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-pro-18cpu-20gpu-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 175679.04,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-pro-18cpu-20gpu-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 176179.04,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 184463,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 179193,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 175679.04,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mjlw4tu-a",
+    "slug": "apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mjlw4tu-a",
+    "name": "Apple MacBook Pro 14.2\" M5 Pro (15CPU/16GPU) (MJLW4TU/A) Siyah",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mjlw4tu-a-1.png",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mjlw4tu-a-1.png",
+      "https://resim.epey.com/1048591/z_apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mjlw4tu-a-1.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 66,
+    "reviewCount": 26,
+    "basePrice": 149999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "14.2\" Liquid Retina XDR Ekran & ProMotion 120Hz",
+      "Apple M5 Pro (15CPU/16GPU) İşlemci Gücü",
+      "24GB Birleşik Bellek & 512GB SSD",
+      "macOS Sequoia / Tahoe & Apple Intelligence Destekli"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M5 Pro (15CPU/16GPU)",
+      "processorCores": "15 Çekirdek",
+      "npuTops": 45,
+      "ramGb": 24,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 24,
+      "storageGb": 512,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe Gen5 SSD",
+      "gpu": "Apple M5 Pro 16-Core GPU",
+      "gpuTgpWatts": 45,
+      "muxSwitch": false,
+      "screenSizeInches": 14.2,
+      "screenResolution": "3024 x 1964 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1600,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 72.4,
+      "batteryLifeHours": 18,
+      "chargerWatts": 96,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "3x Thunderbolt 5 (USB-C)",
+        "1x HDMI 2.1",
+        "1x SDXC Kart Yuvası",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.6,
+      "thicknessMm": 15.5,
+      "bodyMaterial": "Yekpare Geri Dönüştürülmüş Alüminyum Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Magic Keyboard & Touch ID",
+      "webcam": "12MP Center Stage Kamera & 1080p FaceTime HD",
+      "audio": "6 Hoparlörlü Ses Sistemi & Force-Cancelling Woofer (Dolby Atmos)",
+      "os": "macOS Sequoia / Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mjlw4tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 149999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mjlw4tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 150499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 157499,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 152999,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 149999,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mjlv4tu-a",
+    "slug": "apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mjlv4tu-a",
+    "name": "Apple MacBook Pro 14.2\" M5 Pro (15CPU/16GPU) (MJLV4TU/A) Gümüş",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mjlv4tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mjlv4tu-a-1.jpg",
+      "https://resim.epey.com/1048590/z_apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-1.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 66,
+    "reviewCount": 26,
+    "basePrice": 148979,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "14.2\" Liquid Retina XDR Ekran & ProMotion 120Hz",
+      "Apple M5 Pro (15CPU/16GPU) İşlemci Gücü",
+      "24GB Birleşik Bellek & 512GB SSD",
+      "macOS Sequoia / Tahoe & Apple Intelligence Destekli"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M5 Pro (15CPU/16GPU)",
+      "processorCores": "15 Çekirdek",
+      "npuTops": 45,
+      "ramGb": 24,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 24,
+      "storageGb": 512,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe Gen5 SSD",
+      "gpu": "Apple M5 Pro 16-Core GPU",
+      "gpuTgpWatts": 45,
+      "muxSwitch": false,
+      "screenSizeInches": 14.2,
+      "screenResolution": "3024 x 1964 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1600,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 72.4,
+      "batteryLifeHours": 18,
+      "chargerWatts": 96,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "3x Thunderbolt 5 (USB-C)",
+        "1x HDMI 2.1",
+        "1x SDXC Kart Yuvası",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.6,
+      "thicknessMm": 15.5,
+      "bodyMaterial": "Yekpare Geri Dönüştürülmüş Alüminyum Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Magic Keyboard & Touch ID",
+      "webcam": "12MP Center Stage Kamera & 1080p FaceTime HD",
+      "audio": "6 Hoparlörlü Ses Sistemi & Force-Cancelling Woofer (Dolby Atmos)",
+      "os": "macOS Sequoia / Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mjlv4tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 148979,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mjlv4tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 149479,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 156428,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 151959,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 148979,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mge44tu-a",
+    "slug": "apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mge44tu-a",
+    "name": "Apple MacBook Pro 16.2\" M5 Pro (18CPU/20GPU) (MGE44TU/A) Gümüş",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mge44tu-a-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mge44tu-a-1.jpg",
+      "https://resim.epey.com/1048595/z_apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-1.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 65,
+    "reviewCount": 33,
+    "basePrice": 157410,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16.2\" Liquid Retina XDR Ekran & ProMotion 120Hz",
+      "Apple M5 Pro (18CPU/20GPU) İşlemci Gücü",
+      "24GB Birleşik Bellek & 512GB SSD",
+      "macOS Sequoia / Tahoe & Apple Intelligence Destekli"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M5 Pro (18CPU/20GPU)",
+      "processorCores": "18 Çekirdek",
+      "npuTops": 45,
+      "ramGb": 24,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 24,
+      "storageGb": 512,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe Gen5 SSD",
+      "gpu": "Apple M5 Pro 20-Core GPU",
+      "gpuTgpWatts": 45,
+      "muxSwitch": false,
+      "screenSizeInches": 16.2,
+      "screenResolution": "3456 x 2234 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1600,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 100,
+      "batteryLifeHours": 24,
+      "chargerWatts": 140,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "3x Thunderbolt 5 (USB-C)",
+        "1x HDMI 2.1",
+        "1x SDXC Kart Yuvası",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 2.14,
+      "thicknessMm": 16.8,
+      "bodyMaterial": "Yekpare Geri Dönüştürülmüş Alüminyum Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Magic Keyboard & Touch ID",
+      "webcam": "12MP Center Stage Kamera & 1080p FaceTime HD",
+      "audio": "6 Hoparlörlü Ses Sistemi & Force-Cancelling Woofer (Dolby Atmos)",
+      "os": "macOS Sequoia / Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mge44tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 157410,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mge44tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 157910,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 165281,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 160558,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 157410,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mgea4tu-a",
+    "slug": "apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mgea4tu-a",
+    "name": "Apple MacBook Pro 16.2\" M5 Pro (18CPU/20GPU) (MGEA4TU/A) Siyah",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mgea4tu-a-1.png",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mgea4tu-a-1.png",
+      "https://resim.epey.com/1048596/z_apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mgdt4tu-a-1.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 65,
+    "reviewCount": 16,
+    "basePrice": 162469,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16.2\" Liquid Retina XDR Ekran & ProMotion 120Hz",
+      "Apple M5 Pro (18CPU/20GPU) İşlemci Gücü",
+      "24GB Birleşik Bellek & 512GB SSD",
+      "macOS Sequoia / Tahoe & Apple Intelligence Destekli"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M5 Pro (18CPU/20GPU)",
+      "processorCores": "18 Çekirdek",
+      "npuTops": 45,
+      "ramGb": 24,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 24,
+      "storageGb": 512,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe Gen5 SSD",
+      "gpu": "Apple M5 Pro 20-Core GPU",
+      "gpuTgpWatts": 45,
+      "muxSwitch": false,
+      "screenSizeInches": 16.2,
+      "screenResolution": "3456 x 2234 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1600,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 100,
+      "batteryLifeHours": 24,
+      "chargerWatts": 140,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "3x Thunderbolt 5 (USB-C)",
+        "1x HDMI 2.1",
+        "1x SDXC Kart Yuvası",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 2.14,
+      "thicknessMm": 16.8,
+      "bodyMaterial": "Yekpare Geri Dönüştürülmüş Alüminyum Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Magic Keyboard & Touch ID",
+      "webcam": "12MP Center Stage Kamera & 1080p FaceTime HD",
+      "audio": "6 Hoparlörlü Ses Sistemi & Force-Cancelling Woofer (Dolby Atmos)",
+      "os": "macOS Sequoia / Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mgea4tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 162469,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-16-2-m5-pro-18cpu-20gpu-mgea4tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 162969,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 170592,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 165718,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 162469,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mgdr4tu-a",
+    "slug": "apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mgdr4tu-a",
+    "name": "Apple MacBook Pro 14.2\" M5 Pro (15CPU/16GPU) (MGDR4TU/A) Siyah",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mgdr4tu-a-1.png",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mgdr4tu-a-1.png",
+      "https://resim.epey.com/1048584/z_apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mgdr4tu-a-1.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 65,
+    "reviewCount": 22,
+    "basePrice": 147999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "14.2\" Liquid Retina XDR Ekran & ProMotion 120Hz",
+      "Apple M5 Pro (15CPU/16GPU) İşlemci Gücü",
+      "24GB Birleşik Bellek & 512GB SSD",
+      "macOS Sequoia / Tahoe & Apple Intelligence Destekli"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M5 Pro (15CPU/16GPU)",
+      "processorCores": "15 Çekirdek",
+      "npuTops": 45,
+      "ramGb": 24,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 24,
+      "storageGb": 512,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe Gen5 SSD",
+      "gpu": "Apple M5 Pro 16-Core GPU",
+      "gpuTgpWatts": 45,
+      "muxSwitch": false,
+      "screenSizeInches": 14.2,
+      "screenResolution": "3024 x 1964 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1600,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 72.4,
+      "batteryLifeHours": 18,
+      "chargerWatts": 96,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "3x Thunderbolt 5 (USB-C)",
+        "1x HDMI 2.1",
+        "1x SDXC Kart Yuvası",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.6,
+      "thicknessMm": 15.5,
+      "bodyMaterial": "Yekpare Geri Dönüştürülmüş Alüminyum Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Magic Keyboard & Touch ID",
+      "webcam": "12MP Center Stage Kamera & 1080p FaceTime HD",
+      "audio": "6 Hoparlörlü Ses Sistemi & Force-Cancelling Woofer (Dolby Atmos)",
+      "os": "macOS Sequoia / Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mgdr4tu-a-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 147999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-mgdr4tu-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 148499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 155399,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 150959,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 147999,
+        "store": "Apple Store TR"
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-14-2-m5-pro-15cpu-16gpu",
+    "slug": "apple-macbook-pro-14-2-m5-pro-15cpu-16gpu",
+    "name": "Apple MacBook Pro 14.2\" M5 Pro (15CPU/16GPU) (MGDN4TU/A) Gümüş",
+    "brand": "Apple",
+    "category": "laptops",
+    "productType": "Ultrabook",
+    "image": "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-1.jpg",
+    "images": [
+      "/images/products/laptops/apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-1.jpg",
+      "https://resim.epey.com/1048551/z_apple-macbook-pro-14-2-m5-10cpu-10gpu-mde44tu-1.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 65,
+    "reviewCount": 42,
+    "basePrice": 149999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "14.2\" Liquid Retina XDR Ekran & ProMotion 120Hz",
+      "Apple M5 Pro (15CPU/16GPU) İşlemci Gücü",
+      "24GB Birleşik Bellek & 512GB SSD",
+      "macOS Sequoia / Tahoe & Apple Intelligence Destekli"
+    ],
+    "specs": {
+      "productType": "Ultrabook",
+      "processor": "Apple M5 Pro (15CPU/16GPU)",
+      "processorCores": "15 Çekirdek",
+      "npuTops": 45,
+      "ramGb": 24,
+      "ramType": "Birleşik Bellek (Unified Memory)",
+      "maxRamGb": 24,
+      "storageGb": 512,
+      "storageType": "NVMe SSD",
+      "storageSlots": "Dahili PCIe Gen5 SSD",
+      "gpu": "Apple M5 Pro 16-Core GPU",
+      "gpuTgpWatts": 45,
+      "muxSwitch": false,
+      "screenSizeInches": 14.2,
+      "screenResolution": "3024 x 1964 (Liquid Retina XDR)",
+      "screenBrightnessNits": 1600,
+      "colorGamut": "%100 DCI-P3 (Geniş Renk Yelpazesi)",
+      "batteryCapacityWh": 72.4,
+      "batteryLifeHours": 18,
+      "chargerWatts": 96,
+      "wifiStandard": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "ports": [
+        "3x Thunderbolt 5 (USB-C)",
+        "1x HDMI 2.1",
+        "1x SDXC Kart Yuvası",
+        "1x MagSafe 3",
+        "1x 3.5mm Kulaklık"
+      ],
+      "weightKg": 1.6,
+      "thicknessMm": 15.5,
+      "bodyMaterial": "Yekpare Geri Dönüştürülmüş Alüminyum Gövde",
+      "keyboard": "Arkadan Aydınlatmalı Magic Keyboard & Touch ID",
+      "webcam": "12MP Center Stage Kamera & 1080p FaceTime HD",
+      "audio": "6 Hoparlörlü Ses Sistemi & Force-Cancelling Woofer (Dolby Atmos)",
+      "os": "macOS Sequoia / Tahoe"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-apple",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "#000000",
+        "price": 149999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo",
+          "Apple Türkiye Garantili"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 2450,
+        "url": "https://www.apple.com/tr"
+      },
+      {
+        "id": "offer-apple-macbook-pro-14-2-m5-pro-15cpu-16gpu-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 150499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 157499,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 152999,
+        "store": "Apple Store TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 149999,
+        "store": "Apple Store TR"
+      }
+    ]
   }
 ];
