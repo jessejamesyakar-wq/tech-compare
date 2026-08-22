@@ -34910,5 +34910,1960 @@ export const mockLaptops: LaptopProduct[] = [
         "store": "Hepsiburada"
       }
     ]
+  },
+  {
+    "id": "lenovo-thinkbook-16p-g6-21u00013tx-atl10",
+    "slug": "lenovo-thinkbook-16p-g6-21u00013tx-atl10",
+    "name": "Lenovo ThinkBook 16p G6 21U00013TX ATL10",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl10-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl10-1.jpg",
+      "https://resim.epey.com/1040827/z_lenovo-thinkbook-16p-g6-21u00013tx-atl10-8.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 81,
+    "reviewCount": 14,
+    "basePrice": 96062,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "AMD Ryzen 9 8940HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "16GB DDR5 RAM & 1TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront 5.0 / Buhar Odalı Soğutma"
+    ],
+    "specs": {
+      "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek",
+      "npuTops": 0,
+      "ramGb": 16,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "screenBrightnessNits": 430,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 80,
+      "batteryLifeHours": 7,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 2.5G Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.15,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Eclipse Black / Storm Grey)",
+      "keyboard": "Lenovo Legion TrueStrike Per-Key RGB / Beyaz Aydınlatmalı Klavye",
+      "webcam": "1080p FHD E-Shutter Gizlilik Anahtarlı Kamera",
+      "audio": "Nahimic Audio Destekli 2x 2W / Harman Kardon Hoparlör Sistemi",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-21u00013tx-atl10-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 96062,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5200,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-21u00013tx-atl10-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 97023,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 101826,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 98944,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 96062,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-legion-pro-7-83de002ktrep2",
+    "slug": "lenovo-legion-pro-7-83de002ktrep2",
+    "name": "Lenovo Legion Pro 7 83DE002KTREP2",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+    "image": "/images/products/laptops/lenovo-legion-pro-7-83de002ktrep2-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-legion-pro-7-83de002ktrep2-1.jpg",
+      "https://resim.epey.com/1029767/z_lenovo-legion-pro-7-83de002ktrep2-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 81,
+    "reviewCount": 34,
+    "basePrice": 333923.19,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 500 Nit HDR 400 G-Sync IPS)",
+      "Intel Core i9-14900HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4090 Laptop (16GB GDDR6 - 175W)",
+      "64GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront 5.0 / Buhar Odalı Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek)",
+      "npuTops": 0,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4090 Laptop (16GB GDDR6 - 175W)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 500 Nit HDR 400 G-Sync IPS)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 7,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 2.5G Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.62,
+      "thicknessMm": 21.95,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Eclipse Black / Storm Grey)",
+      "keyboard": "Lenovo Legion TrueStrike Per-Key RGB / Beyaz Aydınlatmalı Klavye",
+      "webcam": "1080p FHD E-Shutter Gizlilik Anahtarlı Kamera",
+      "audio": "Nahimic Audio Destekli 2x 2W / Harman Kardon Hoparlör Sistemi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-legion-pro-7-83de002ktrep2-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 333923.19,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5200,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-legion-pro-7-83de002ktrep2-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 337262,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 353959,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 343941,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 333923.19,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-legion-5-pro-83lt005rtr",
+    "slug": "lenovo-legion-5-pro-83lt005rtr",
+    "name": "Lenovo Legion 5 Pro 83LT005RTR",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+    "image": "/images/products/laptops/lenovo-legion-5-pro-83lt005rtr-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-legion-5-pro-83lt005rtr-1.jpg",
+      "https://resim.epey.com/1049062/z_lenovo-legion-5-pro-83lt005rtr-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 81,
+    "reviewCount": 24,
+    "basePrice": 97999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 500 Nit HDR 400 G-Sync IPS)",
+      "AMD Ryzen 9 8940HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "32GB DDR5 RAM & 1TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront 5.0 / Buhar Odalı Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek",
+      "npuTops": 0,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 500 Nit HDR 400 G-Sync IPS)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 80,
+      "batteryLifeHours": 7,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 2.5G Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.5,
+      "thicknessMm": 22,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Eclipse Black / Storm Grey)",
+      "keyboard": "Lenovo Legion TrueStrike Per-Key RGB / Beyaz Aydınlatmalı Klavye",
+      "webcam": "1080p FHD E-Shutter Gizlilik Anahtarlı Kamera",
+      "audio": "Nahimic Audio Destekli 2x 2W / Harman Kardon Hoparlör Sistemi",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-legion-5-pro-83lt005rtr-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 97999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5200,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-legion-5-pro-83lt005rtr-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 98979,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 103879,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 100939,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 97999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-thinkbook-16p-g6-21u00013tx-atl9",
+    "slug": "lenovo-thinkbook-16p-g6-21u00013tx-atl9",
+    "name": "Lenovo ThinkBook 16p G6  21U00013TX ATL9",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl9-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl9-1.jpg",
+      "https://resim.epey.com/1041876/z_lenovo-thinkbook-16p-g6-21u00013tx-atl9-8.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 81,
+    "reviewCount": 34,
+    "basePrice": 92295,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "AMD Ryzen 9 8940HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 115W)",
+      "16GB DDR5 RAM & 1TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront 5.0 / Buhar Odalı Soğutma"
+    ],
+    "specs": {
+      "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek",
+      "npuTops": 0,
+      "ramGb": 16,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 115W)",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "screenBrightnessNits": 430,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 80,
+      "batteryLifeHours": 7,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 2.5G Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.15,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Eclipse Black / Storm Grey)",
+      "keyboard": "Lenovo Legion TrueStrike Per-Key RGB / Beyaz Aydınlatmalı Klavye",
+      "webcam": "1080p FHD E-Shutter Gizlilik Anahtarlı Kamera",
+      "audio": "Nahimic Audio Destekli 2x 2W / Harman Kardon Hoparlör Sistemi",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-21u00013tx-atl9-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 92295,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5200,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-21u00013tx-atl9-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 93218,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 97833,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 95064,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 92295,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-thinkbook-16p-g6-21u00013tx-atl2",
+    "slug": "lenovo-thinkbook-16p-g6-21u00013tx-atl2",
+    "name": "Lenovo ThinkBook 16p G6 21U00013TX ATL2",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl2-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl2-1.jpg",
+      "https://resim.epey.com/1040836/z_lenovo-thinkbook-16p-g6-21u00013tx-atl2-8.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 80,
+    "reviewCount": 36,
+    "basePrice": 94759.07,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "AMD Ryzen 9 8940HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 115W)",
+      "16GB DDR5 RAM & 1TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront 5.0 / Buhar Odalı Soğutma"
+    ],
+    "specs": {
+      "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek",
+      "npuTops": 0,
+      "ramGb": 16,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 115W)",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "screenBrightnessNits": 430,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 80,
+      "batteryLifeHours": 7,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 2.5G Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.15,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Eclipse Black / Storm Grey)",
+      "keyboard": "Lenovo Legion TrueStrike Per-Key RGB / Beyaz Aydınlatmalı Klavye",
+      "webcam": "1080p FHD E-Shutter Gizlilik Anahtarlı Kamera",
+      "audio": "Nahimic Audio Destekli 2x 2W / Harman Kardon Hoparlör Sistemi",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-21u00013tx-atl2-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 94759.07,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5200,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-21u00013tx-atl2-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 95707,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 100445,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 97602,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 94759.07,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-legion-5-15iax10-83f0008btra48",
+    "slug": "lenovo-legion-5-15iax10-83f0008btra48",
+    "name": "Lenovo Legion 5 15IAX10 83F0008BTRA48",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra48-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra48-1.jpg",
+      "https://resim.epey.com/1056004/z_lenovo-legion-5-15iax10-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 80,
+    "reviewCount": 31,
+    "basePrice": 151827.74,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "15.1\" 2560 x 1600 (WQXGA 16:10 165Hz %100 sRGB 350 Nit Dolby Vision G-Sync IPS)",
+      "Intel Core Ultra 7 255HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "64GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront 5.0 / Buhar Odalı Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+      "processor": "Intel Core Ultra 7 255HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 20 İzlek)",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 15.1,
+      "screenResolution": "2560 x 1600 (WQXGA 16:10 165Hz %100 sRGB 350 Nit Dolby Vision G-Sync IPS)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 80,
+      "batteryLifeHours": 7,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 2.5G Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.3,
+      "thicknessMm": 21,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Eclipse Black / Storm Grey)",
+      "keyboard": "Lenovo Legion TrueStrike Per-Key RGB / Beyaz Aydınlatmalı Klavye",
+      "webcam": "1080p FHD E-Shutter Gizlilik Anahtarlı Kamera",
+      "audio": "Nahimic Audio Destekli 2x 2W / Harman Kardon Hoparlör Sistemi",
+      "os": "Windows 10 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-legion-5-15iax10-83f0008btra48-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 151827.74,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5200,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-legion-5-15iax10-83f0008btra48-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 153346,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 160937,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 156383,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 151827.74,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-legion-pro-7-83de002ktrep6",
+    "slug": "lenovo-legion-pro-7-83de002ktrep6",
+    "name": "Lenovo Legion Pro 7 83DE002KTREP6",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+    "image": "/images/products/laptops/lenovo-legion-pro-7-83de002ktrep6-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-legion-pro-7-83de002ktrep6-1.jpg",
+      "https://resim.epey.com/1033126/z_lenovo-legion-pro-7-83de002ktrep6-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 80,
+    "reviewCount": 15,
+    "basePrice": 315873.19,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 500 Nit HDR 400 G-Sync IPS)",
+      "Intel Core i9-14900HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4090 Laptop (16GB GDDR6 - 175W)",
+      "32GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront 5.0 / Buhar Odalı Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek)",
+      "npuTops": 0,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4090 Laptop (16GB GDDR6 - 175W)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 500 Nit HDR 400 G-Sync IPS)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 7,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 2.5G Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.62,
+      "thicknessMm": 21.95,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Eclipse Black / Storm Grey)",
+      "keyboard": "Lenovo Legion TrueStrike Per-Key RGB / Beyaz Aydınlatmalı Klavye",
+      "webcam": "1080p FHD E-Shutter Gizlilik Anahtarlı Kamera",
+      "audio": "Nahimic Audio Destekli 2x 2W / Harman Kardon Hoparlör Sistemi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-legion-pro-7-83de002ktrep6-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 315873.19,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5200,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-legion-pro-7-83de002ktrep6-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 319032,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 334826,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 325349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 315873.19,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-legion-5-15iax10-83f0008btra44",
+    "slug": "lenovo-legion-5-15iax10-83f0008btra44",
+    "name": "Lenovo Legion 5 15IAX10 83F0008BTRA44",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra44-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra44-1.jpg",
+      "https://resim.epey.com/1056000/z_lenovo-legion-5-15iax10-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 80,
+    "reviewCount": 22,
+    "basePrice": 125483.19,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "15.1\" 2560 x 1600 (WQXGA 16:10 165Hz %100 sRGB 350 Nit Dolby Vision G-Sync IPS)",
+      "Intel Core Ultra 7 255HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W)",
+      "64GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront 5.0 / Buhar Odalı Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+      "processor": "Intel Core Ultra 7 255HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 20 İzlek)",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 15.1,
+      "screenResolution": "2560 x 1600 (WQXGA 16:10 165Hz %100 sRGB 350 Nit Dolby Vision G-Sync IPS)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 80,
+      "batteryLifeHours": 7,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 2.5G Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.3,
+      "thicknessMm": 21,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Eclipse Black / Storm Grey)",
+      "keyboard": "Lenovo Legion TrueStrike Per-Key RGB / Beyaz Aydınlatmalı Klavye",
+      "webcam": "1080p FHD E-Shutter Gizlilik Anahtarlı Kamera",
+      "audio": "Nahimic Audio Destekli 2x 2W / Harman Kardon Hoparlör Sistemi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-legion-5-15iax10-83f0008btra44-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 125483.19,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5200,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-legion-5-15iax10-83f0008btra44-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 126738,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 133012,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 129248,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 125483.19,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-legion-pro-7-83de002ktrep4",
+    "slug": "lenovo-legion-pro-7-83de002ktrep4",
+    "name": "Lenovo Legion Pro 7 83DE002KTREP4",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+    "image": "/images/products/laptops/lenovo-legion-pro-7-83de002ktrep4-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-legion-pro-7-83de002ktrep4-1.jpg",
+      "https://resim.epey.com/1033125/z_lenovo-legion-pro-7-83de002ktrep4-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 80,
+    "reviewCount": 23,
+    "basePrice": 306848.19,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 500 Nit HDR 400 G-Sync IPS)",
+      "Intel Core i9-14900HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4090 Laptop (16GB GDDR6 - 175W)",
+      "48GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront 5.0 / Buhar Odalı Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek)",
+      "npuTops": 0,
+      "ramGb": 48,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4090 Laptop (16GB GDDR6 - 175W)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 500 Nit HDR 400 G-Sync IPS)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 7,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 2.5G Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.62,
+      "thicknessMm": 21.95,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Eclipse Black / Storm Grey)",
+      "keyboard": "Lenovo Legion TrueStrike Per-Key RGB / Beyaz Aydınlatmalı Klavye",
+      "webcam": "1080p FHD E-Shutter Gizlilik Anahtarlı Kamera",
+      "audio": "Nahimic Audio Destekli 2x 2W / Harman Kardon Hoparlör Sistemi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-legion-pro-7-83de002ktrep4-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 306848.19,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5200,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-legion-pro-7-83de002ktrep4-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 309917,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 325259,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 316054,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 306848.19,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-thinkbook-16p-g6-21u00013tx-atl1",
+    "slug": "lenovo-thinkbook-16p-g6-21u00013tx-atl1",
+    "name": "Lenovo ThinkBook 16p G6  21U00013TX ATL1",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+    "image": "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl1-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-thinkbook-16p-g6-21u00013tx-atl1-1.jpg",
+      "https://resim.epey.com/1040879/z_lenovo-thinkbook-16p-g6-21u00013tx-atl1-8.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 80,
+    "reviewCount": 31,
+    "basePrice": 82367.8,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "AMD Ryzen 9 8940HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 115W)",
+      "16GB DDR5 RAM & 1TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront 5.0 / Buhar Odalı Soğutma"
+    ],
+    "specs": {
+      "productType": "Yaratıcı Profesyoneller & İş Dünyası Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek",
+      "npuTops": 0,
+      "ramGb": 16,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 115W)",
+      "gpuTgpWatts": 115,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3200 x 2000 (3.2K 16:10 165Hz %100 DCI-P3 430 Nit Calman Onaylı IPS)",
+      "screenBrightnessNits": 430,
+      "colorGamut": "%100 DCI-P3",
+      "batteryCapacityWh": 80,
+      "batteryLifeHours": 7,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 2.5G Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.15,
+      "thicknessMm": 19.9,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Eclipse Black / Storm Grey)",
+      "keyboard": "Lenovo Legion TrueStrike Per-Key RGB / Beyaz Aydınlatmalı Klavye",
+      "webcam": "1080p FHD E-Shutter Gizlilik Anahtarlı Kamera",
+      "audio": "Nahimic Audio Destekli 2x 2W / Harman Kardon Hoparlör Sistemi",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-21u00013tx-atl1-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 82367.8,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5200,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-thinkbook-16p-g6-21u00013tx-atl1-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 83191,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 87310,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 84839,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 82367.8,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-legion-5-pro-83lt005rtrp314",
+    "slug": "lenovo-legion-5-pro-83lt005rtrp314",
+    "name": "Lenovo Legion 5 Pro 83LT005RTRP314",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+    "image": "/images/products/laptops/lenovo-legion-5-pro-83lt005rtrp314-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-legion-5-pro-83lt005rtrp314-1.jpg",
+      "https://resim.epey.com/1060920/z_lenovo-legion-5-pro-83lt005rtrp314-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 80,
+    "reviewCount": 19,
+    "basePrice": 121750.33,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 500 Nit HDR 400 G-Sync IPS)",
+      "AMD Ryzen 9 8940HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "24GB DDR5 RAM & 1TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront 5.0 / Buhar Odalı Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek",
+      "npuTops": 0,
+      "ramGb": 24,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 500 Nit HDR 400 G-Sync IPS)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 80,
+      "batteryLifeHours": 7,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 2.5G Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.5,
+      "thicknessMm": 22,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Eclipse Black / Storm Grey)",
+      "keyboard": "Lenovo Legion TrueStrike Per-Key RGB / Beyaz Aydınlatmalı Klavye",
+      "webcam": "1080p FHD E-Shutter Gizlilik Anahtarlı Kamera",
+      "audio": "Nahimic Audio Destekli 2x 2W / Harman Kardon Hoparlör Sistemi",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-legion-5-pro-83lt005rtrp314-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 121750.33,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5200,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-legion-5-pro-83lt005rtrp314-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 122968,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 129055,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 125403,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 121750.33,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-legion-9-83g00010tr",
+    "slug": "lenovo-legion-9-83g00010tr",
+    "name": "Lenovo Legion 9 83G00010TR",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Sıvı Soğutmalı Flagship Oyuncu Laptopu",
+    "image": "/images/products/laptops/lenovo-legion-9-83g00010tr-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-legion-9-83g00010tr-1.jpg",
+      "https://resim.epey.com/965269/z_lenovo-legion-9-83g00010tr-2.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 79,
+    "reviewCount": 28,
+    "basePrice": 199999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 3200 x 2000 (3.2K 16:10 165Hz Mini-LED 1200 Nit %100 AdobeRGB / DCI-P3)",
+      "Intel Core i9-14900HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "64GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Entegre Sıvı Soğutma & Forged Carbon Kasa"
+    ],
+    "specs": {
+      "productType": "Sıvı Soğutmalı Flagship Oyuncu Laptopu",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek)",
+      "npuTops": 0,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "3200 x 2000 (3.2K 16:10 165Hz Mini-LED 1200 Nit %100 AdobeRGB / DCI-P3)",
+      "screenBrightnessNits": 1200,
+      "colorGamut": "%100 AdobeRGB / DCI-P3",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 7,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 2.5G Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.56,
+      "thicknessMm": 18.99,
+      "bodyMaterial": "Dövme Karbon Fiber & Eloksallı Magnezyum Kasa",
+      "keyboard": "Lenovo Legion TrueStrike Per-Key RGB / Beyaz Aydınlatmalı Klavye",
+      "webcam": "1080p FHD E-Shutter Gizlilik Anahtarlı Kamera",
+      "audio": "Nahimic Audio Destekli 2x 2W / Harman Kardon Hoparlör Sistemi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-legion-9-83g00010tr-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 199999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5200,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-legion-9-83g00010tr-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 201999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 211999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 205999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 199999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-legion-5-15iax10-83f0008btra60",
+    "slug": "lenovo-legion-5-15iax10-83f0008btra60",
+    "name": "Lenovo Legion 5 15IAX10 83F0008BTRA60",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra60-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra60-1.jpg",
+      "https://resim.epey.com/1056012/z_lenovo-legion-5-15iax10-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 79,
+    "reviewCount": 17,
+    "basePrice": 158649.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "15.1\" 2560 x 1600 (WQXGA 16:10 165Hz %100 sRGB 350 Nit Dolby Vision G-Sync IPS)",
+      "Intel Core Ultra 7 255HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "64GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront 5.0 / Buhar Odalı Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+      "processor": "Intel Core Ultra 7 255HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 20 İzlek)",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 15.1,
+      "screenResolution": "2560 x 1600 (WQXGA 16:10 165Hz %100 sRGB 350 Nit Dolby Vision G-Sync IPS)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 80,
+      "batteryLifeHours": 7,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 2.5G Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.3,
+      "thicknessMm": 21,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Eclipse Black / Storm Grey)",
+      "keyboard": "Lenovo Legion TrueStrike Per-Key RGB / Beyaz Aydınlatmalı Klavye",
+      "webcam": "1080p FHD E-Shutter Gizlilik Anahtarlı Kamera",
+      "audio": "Nahimic Audio Destekli 2x 2W / Harman Kardon Hoparlör Sistemi",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-legion-5-15iax10-83f0008btra60-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 158649.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5200,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-legion-5-15iax10-83f0008btra60-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 160236,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 168168,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 163409,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 158649.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-legion-pro-7-83de002ktrep1",
+    "slug": "lenovo-legion-pro-7-83de002ktrep1",
+    "name": "Lenovo Legion Pro 7 83DE002KTREP1",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+    "image": "/images/products/laptops/lenovo-legion-pro-7-83de002ktrep1-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-legion-pro-7-83de002ktrep1-1.jpg",
+      "https://resim.epey.com/1033025/z_lenovo-legion-pro-7-83de002ktrep1-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 79,
+    "reviewCount": 21,
+    "basePrice": 288798.19,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 500 Nit HDR 400 G-Sync IPS)",
+      "Intel Core i9-14900HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4090 Laptop (16GB GDDR6 - 175W)",
+      "48GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront 5.0 / Buhar Odalı Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek)",
+      "npuTops": 0,
+      "ramGb": 48,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4090 Laptop (16GB GDDR6 - 175W)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 500 Nit HDR 400 G-Sync IPS)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 99.9,
+      "batteryLifeHours": 7,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 2.5G Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.62,
+      "thicknessMm": 21.95,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Eclipse Black / Storm Grey)",
+      "keyboard": "Lenovo Legion TrueStrike Per-Key RGB / Beyaz Aydınlatmalı Klavye",
+      "webcam": "1080p FHD E-Shutter Gizlilik Anahtarlı Kamera",
+      "audio": "Nahimic Audio Destekli 2x 2W / Harman Kardon Hoparlör Sistemi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-legion-pro-7-83de002ktrep1-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 288798.19,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5200,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-legion-pro-7-83de002ktrep1-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 291686,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 306126,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 297462,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 288798.19,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-legion-5-pro-83lt005rtrp307",
+    "slug": "lenovo-legion-5-pro-83lt005rtrp307",
+    "name": "Lenovo Legion 5 Pro 83LT005RTRP307",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+    "image": "/images/products/laptops/lenovo-legion-5-pro-83lt005rtrp307-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-legion-5-pro-83lt005rtrp307-1.jpg",
+      "https://resim.epey.com/1060916/z_lenovo-legion-5-pro-83lt005rtrp307-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 78,
+    "reviewCount": 38,
+    "basePrice": 103433.3,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 500 Nit HDR 400 G-Sync IPS)",
+      "AMD Ryzen 9 8940HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "16GB DDR5 RAM & 1TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront 5.0 / Buhar Odalı Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+      "processor": "AMD Ryzen 9 8940HX",
+      "processorCores": "16 Çekirdek / 32 İzlek",
+      "npuTops": 0,
+      "ramGb": 16,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (WQXGA 16:10 240Hz %100 sRGB 500 Nit HDR 400 G-Sync IPS)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 80,
+      "batteryLifeHours": 7,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 2.5G Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.5,
+      "thicknessMm": 22,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Eclipse Black / Storm Grey)",
+      "keyboard": "Lenovo Legion TrueStrike Per-Key RGB / Beyaz Aydınlatmalı Klavye",
+      "webcam": "1080p FHD E-Shutter Gizlilik Anahtarlı Kamera",
+      "audio": "Nahimic Audio Destekli 2x 2W / Harman Kardon Hoparlör Sistemi",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-legion-5-pro-83lt005rtrp307-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 103433.3,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5200,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-legion-5-pro-83lt005rtrp307-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 104468,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 109639,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 106536,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 103433.3,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-legion-5-15iax10-83f0008btra36",
+    "slug": "lenovo-legion-5-15iax10-83f0008btra36",
+    "name": "Lenovo Legion 5 15IAX10 83F0008BTRA36",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra36-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra36-1.jpg",
+      "https://resim.epey.com/1055918/z_lenovo-legion-5-15iax10-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 78,
+    "reviewCount": 15,
+    "basePrice": 142198.87,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "15.1\" 2560 x 1600 (WQXGA 16:10 165Hz %100 sRGB 350 Nit Dolby Vision G-Sync IPS)",
+      "Intel Core Ultra 7 255HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "64GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront 5.0 / Buhar Odalı Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+      "processor": "Intel Core Ultra 7 255HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 20 İzlek)",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 15.1,
+      "screenResolution": "2560 x 1600 (WQXGA 16:10 165Hz %100 sRGB 350 Nit Dolby Vision G-Sync IPS)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 80,
+      "batteryLifeHours": 7,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 2.5G Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.3,
+      "thicknessMm": 21,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Eclipse Black / Storm Grey)",
+      "keyboard": "Lenovo Legion TrueStrike Per-Key RGB / Beyaz Aydınlatmalı Klavye",
+      "webcam": "1080p FHD E-Shutter Gizlilik Anahtarlı Kamera",
+      "audio": "Nahimic Audio Destekli 2x 2W / Harman Kardon Hoparlör Sistemi",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-legion-5-15iax10-83f0008btra36-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 142198.87,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5200,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-legion-5-15iax10-83f0008btra36-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 143621,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 150731,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 146465,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 142198.87,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-legion-5-15iax10-83f0008btra32",
+    "slug": "lenovo-legion-5-15iax10-83f0008btra32",
+    "name": "Lenovo Legion 5 15IAX10 83F0008BTRA32",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+    "image": "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra32-1.jpg",
+    "images": [
+      "/images/products/laptops/lenovo-legion-5-15iax10-83f0008btra32-1.jpg",
+      "https://resim.epey.com/1055916/z_lenovo-legion-5-15iax10-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 78,
+    "reviewCount": 24,
+    "basePrice": 141296.07,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "15.1\" 2560 x 1600 (WQXGA 16:10 165Hz %100 sRGB 350 Nit Dolby Vision G-Sync IPS)",
+      "Intel Core Ultra 7 255HX Canavar İşlemci",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "64GB DDR5 RAM & 2TB Ultra Hızlı SSD",
+      "Lenovo Legion Coldfront 5.0 / Buhar Odalı Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Profesyonel Oyuncu Laptopu",
+      "processor": "Intel Core Ultra 7 255HX",
+      "processorCores": "20 Çekirdek (8P + 12E / 20 İzlek)",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe 4.0 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 15.1,
+      "screenResolution": "2560 x 1600 (WQXGA 16:10 165Hz %100 sRGB 350 Nit Dolby Vision G-Sync IPS)",
+      "screenBrightnessNits": 350,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 80,
+      "batteryLifeHours": 7,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) / Wi-Fi 7 Ready",
+      "bluetooth": "5.3",
+      "ports": [
+        "2x Thunderbolt 4 / USB4 40Gbps",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 2.5G Ethernet LAN",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.3,
+      "thicknessMm": 21,
+      "bodyMaterial": "Tamamen Eloksallı Alüminyum Gövde (Eclipse Black / Storm Grey)",
+      "keyboard": "Lenovo Legion TrueStrike Per-Key RGB / Beyaz Aydınlatmalı Klavye",
+      "webcam": "1080p FHD E-Shutter Gizlilik Anahtarlı Kamera",
+      "audio": "Nahimic Audio Destekli 2x 2W / Harman Kardon Hoparlör Sistemi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-lenovo-legion-5-15iax10-83f0008btra32-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 141296.07,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5200,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-lenovo-legion-5-15iax10-83f0008btra32-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 142709,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 149774,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 145535,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 141296.07,
+        "store": "Hepsiburada"
+      }
+    ]
   }
 ];
