@@ -72571,5 +72571,2299 @@ export const mockTVs: TVProduct[] = [
         "store": "Trendyol"
       }
     ]
+  },
+  {
+    "id": "grundig-65-go-990a",
+    "slug": "grundig-65-go-990a",
+    "name": "Grundig 65 GO 990A 65\" 4K Ultra HD Smart OLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-65-go-990a-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-65-go-990a-1.jpg",
+      "https://resim.epey.com/1034946/z_grundig-65go990a-8690842825163-9.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 34,
+    "basePrice": 72680,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD OLED Panel & Sonsuz Kontrast",
+      "120Hz Gerçek Yenileme Hızı & MEMC Hareket Akıcılığı",
+      "Dolby Vision & Dolby Atmos 30W RMS Güçlü Ses Sistemi",
+      "Android TV & Dahili Google Asistan & Chromecast"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz VRR",
+        "ALLM",
+        "Düşük Gecikme Modu"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "Grundig Quad Core Video Engine",
+      "brightnessNits": 850,
+      "contrastRatio": "Sonsuz (OLED)",
+      "viewingAngle": "178/178 Geniş Görüş Açısı",
+      "colorGamut": "%99 DCI-P3 Geniş Renk Gamı",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Assistant (Uzaktan Kumanda Mikrofonu)",
+      "wifiVersion": "Wi-Fi 5 (802.11ac)",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1449 x 862 x 281 mm",
+      "weightKg": 24.5,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "Çerçevesiz Metalik Slim Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-65-go-990a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 72680,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Grundig Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-grundig-65-go-990a-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 73999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 310,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 79999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 75500,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 72680,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "grundig-65-gho-9900",
+    "slug": "grundig-65-gho-9900",
+    "name": "Grundig 65 GHO 9900 65\" 4K Ultra HD Smart OLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-65-gho-9900-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-65-gho-9900-1.jpg",
+      "https://resim.epey.com/929775/z_grundig-65-gho-9900-8.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 28,
+    "basePrice": 66499.05,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD OLED Kendinden Aydınlatmalı Piksel Teknolojisi",
+      "120Hz Panel Yenileme Hızı & MEMC Akıcı Hareket",
+      "30W RMS Dolby Atmos & DTS Virtual:X Ses Deneyimi",
+      "Android TV Smart Platform & Dahili Chromecast"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz VRR",
+        "ALLM"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 800,
+      "contrastRatio": "Sonsuz Kontrast",
+      "viewingAngle": "178/178",
+      "colorGamut": "%98 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan Destekli Kumanda",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1449 x 862 x 281 mm",
+      "weightKg": 24,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "Süper İnce Metal Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-65-gho-9900-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 66499.05,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Grundig Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 190,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 72000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 68900,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 66499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "grundig-dubai-65-gho-9905",
+    "slug": "grundig-dubai-65-gho-9905",
+    "name": "Grundig Dubai 65 GHO 9905 65\" 4K Ultra HD Smart OLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-dubai-65-gho-9905-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-dubai-65-gho-9905-1.jpg",
+      "https://resim.epey.com/954234/z_grundig-dubai-65-gho-9905-9.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 22,
+    "basePrice": 66451.55,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD OLED Panel (Dubai Özel Serisi)",
+      "120Hz Ekran Yenileme & Dolby Vision HDR Desteği",
+      "30W RMS Dolby Atmos Ses Çıkışı",
+      "Android TV & Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz VRR",
+        "ALLM"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "Quad Core Video İşlemci",
+      "brightnessNits": 800,
+      "contrastRatio": "Sonsuz Kontrast",
+      "viewingAngle": "178/178",
+      "colorGamut": "%98 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1449 x 862 x 281 mm",
+      "weightKg": 24.2,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "Premium Metalik Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-dubai-65-gho-9905-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 66451.55,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 140,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 71000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 68000,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 66451,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "grundig-100-gq-880",
+    "slug": "grundig-100-gq-880",
+    "name": "Grundig 100 GQ 880 100\" 4K Ultra HD Smart QLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-100-gq-880-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-100-gq-880-1.jpg",
+      "https://resim.epey.com/1064667/z_grundig-100-gq-880-6.jpg"
+    ],
+    "rating": 4.9,
+    "reviewCount": 15,
+    "basePrice": 139999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "100\" (254 cm) Devasa Sinematik 4K Ultra HD QLED Ekran",
+      "120Hz / 144Hz VRR Yüksek Yenileme Hızı & DLG Desteği",
+      "Kuantum Nokta (Quantum Dot) Canlı ve Parlak Renkler",
+      "24W RMS Dolby Atmos & DTS:X Ses Sistemi & Android TV"
+    ],
+    "specs": {
+      "screenSizeInches": 100,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 24,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz VRR",
+        "ALLM",
+        "FreeSync Desteği"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Grundig AI Picture Engine Quad Core",
+      "brightnessNits": 650,
+      "contrastRatio": "6000:1 (Statik)",
+      "viewingAngle": "178/178 Geniş Açı",
+      "colorGamut": "%95 DCI-P3 Quantum Dot",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan & Dahili Mikrofon",
+      "wifiVersion": "Wi-Fi 5 (Dual Band)",
+      "bluetoothVersion": "5.1",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "2234 x 1320 x 410 mm",
+      "weightKg": 58,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "Sonsuz Ekran İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-100-gq-880-mediamarkt",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 139999,
+        "inStock": true,
+        "shippingDays": 3,
+        "badges": [
+          "VIP Kurulum",
+          "Grundig Yetkili Satıcı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 450,
+        "url": "https://www.mediamarkt.com.tr"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 155000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 145000,
+        "store": "MediaMarkt"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 139999,
+        "store": "MediaMarkt"
+      }
+    ]
+  },
+  {
+    "id": "grundig-65-go-975a",
+    "slug": "grundig-65-go-975a",
+    "name": "Grundig 65 GO 975A 65\" 4K Ultra HD Smart OLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-65-go-975a-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-65-go-975a-1.jpg",
+      "https://resim.epey.com/1033852/z_grundig-55go975a-8690842825194-5.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 19,
+    "basePrice": 69840,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD Kendinden Aydınlatmalı OLED Ekran",
+      "120Hz Ekran Yenileme & Dolby Vision HDR",
+      "30W RMS Dolby Atmos Ses Çıkış Gücü",
+      "Android TV Smart Platformu"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz VRR",
+        "ALLM"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 800,
+      "contrastRatio": "Sonsuz Kontrast",
+      "viewingAngle": "178/178",
+      "colorGamut": "%98 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1449 x 862 x 281 mm",
+      "weightKg": 24.3,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "Metalik İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-65-go-975a-n11",
+        "storeName": "n11",
+        "storeLogoColor": "#5c3bfe",
+        "price": 69840,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Grundig Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 180,
+        "url": "https://www.n11.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 74000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 71500,
+        "store": "n11"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 69840,
+        "store": "n11"
+      }
+    ]
+  },
+  {
+    "id": "grundig-55-go-990a",
+    "slug": "grundig-55-go-990a",
+    "name": "Grundig 55 GO 990A 55\" 4K Ultra HD Smart OLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-55-go-990a-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-55-go-990a-1.jpg",
+      "https://resim.epey.com/1035091/z_grundig-55-go-990a-1.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 31,
+    "basePrice": 56904.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "55\" (139 cm) 4K Ultra HD OLED Panel & Mükemmel Siyah Seviyeleri",
+      "120Hz Ekran Yenileme & Akıcı Spor ve Oyun Deneyimi",
+      "30W RMS Dolby Atmos & DTS:X Ses Sistemi",
+      "Android TV & Sesli Komut & Chromecast"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz VRR",
+        "ALLM",
+        "Düşük Gecikme"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "Quad Core Video Motoru",
+      "brightnessNits": 850,
+      "contrastRatio": "Sonsuz Kontrast",
+      "viewingAngle": "178/178",
+      "colorGamut": "%99 DCI-P3 Geniş Renk",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1228 x 742 x 251 mm",
+      "weightKg": 18.5,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "Ultra İnce Metalik Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-55-go-990a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 56904.05,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Grundig Yetkili Satıcı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 290,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 62000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 58900,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 56904,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "grundig-55-go-975a",
+    "slug": "grundig-55-go-975a",
+    "name": "Grundig 55 GO 975A 55\" 4K Ultra HD Smart OLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-55-go-975a-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-55-go-975a-1.jpg",
+      "https://resim.epey.com/1033689/z_grundig-55go975a-8690842825194-5.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 20,
+    "basePrice": 54999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (139 cm) 4K Ultra HD Smart OLED Ekran",
+      "120Hz Yenileme & Dolby Vision HDR",
+      "30W RMS Dolby Atmos Ses Çıkışı",
+      "Android TV & Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "OLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz VRR",
+        "ALLM"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "G",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 800,
+      "contrastRatio": "Sonsuz Kontrast",
+      "viewingAngle": "178/178",
+      "colorGamut": "%98 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1228 x 742 x 251 mm",
+      "weightKg": 18.2,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "İnce Metal Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-55-go-975a-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 54999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 160,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 59000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 56500,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 54999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "grundig-85-gq-880",
+    "slug": "grundig-85-gq-880",
+    "name": "Grundig 85 GQ 880 85\" 4K Ultra HD Smart QLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-85-gq-880-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-85-gq-880-1.jpg",
+      "https://resim.epey.com/1064324/z_grundig-85-gq-880-1.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 16,
+    "basePrice": 89999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "85\" (215 cm) Dev Ekran 4K Ultra HD QLED TV",
+      "120Hz Panel Yenileme Hızı & MEMC Hareket Akıcılığı",
+      "Dolby Vision & Dolby Atmos Ses Teknolojisi",
+      "Android TV & Dahili Wi-Fi & Google Asistan"
+    ],
+    "specs": {
+      "screenSizeInches": 85,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 24,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz VRR",
+        "ALLM"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Grundig AI Quad Core Engine",
+      "brightnessNits": 550,
+      "contrastRatio": "5000:1 (Statik)",
+      "viewingAngle": "178/178",
+      "colorGamut": "%94 DCI-P3 Quantum Dot",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.1",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1894 x 1140 x 370 mm",
+      "weightKg": 42,
+      "vesaMount": "600x400 mm",
+      "bezelStyle": "İnce Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-85-gq-880-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 89999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "Grundig Türkiye"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 210,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 98000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 92500,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 89999,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "grundig-75-gq-850a",
+    "slug": "grundig-75-gq-850a",
+    "name": "Grundig 75 GQ 850A 75\" 4K Ultra HD Smart QLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-75-gq-850a-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-75-gq-850a-1.jpg",
+      "https://resim.epey.com/1037852/z_grundig-55gq850a-8690842832161-1.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 25,
+    "basePrice": 54279.08,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "75\" (189 cm) 4K Ultra HD Quantum Dot QLED Canlı Renkler",
+      "30W RMS Dolby Atmos & DTS Virtual:X Ses Çıkışı",
+      "Dolby Vision & HDR10+ Yüksek Dinamik Aralık",
+      "Android TV Platformu & Google Asistan"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM",
+        "Oyun Modu"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "Quad Core Video İşlemci",
+      "brightnessNits": 450,
+      "contrastRatio": "5000:1 (Statik)",
+      "viewingAngle": "178/178",
+      "colorGamut": "%92 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1672 x 1025 x 350 mm",
+      "weightKg": 28.5,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Çerçevesiz Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-75-gq-850a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 54279.08,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Grundig Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 58000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 55900,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 54279,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "grundig-75-gq-800a",
+    "slug": "grundig-75-gq-800a",
+    "name": "Grundig 75 GQ 800A 75\" 4K Ultra HD Smart QLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-75-gq-800a-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-75-gq-800a-1.jpg",
+      "https://resim.epey.com/1037850/z_grundig-55-gq-800a-8690842832185-9.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 18,
+    "basePrice": 49999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "75\" (189 cm) 4K Ultra HD QLED Ekran",
+      "Dolby Vision & HDR10 Desteği",
+      "20W RMS Dolby Atmos Ses Çıkışı",
+      "Android TV Akıllı İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 400,
+      "contrastRatio": "4500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%90 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1672 x 1025 x 350 mm",
+      "weightKg": 28,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "İnce Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-75-gq-800a-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 49999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 130,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 54000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 51500,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 49999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "grundig-65-gq-950a",
+    "slug": "grundig-65-gq-950a",
+    "name": "Grundig 65 GQ 950A 65\" 4K Ultra HD Smart QLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-65-gq-950a-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-65-gq-950a-1.jpg",
+      "https://resim.epey.com/1033690/z_grundig-55gq950a-8690842828027-1.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 29,
+    "basePrice": 45519.26,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD Quantum Dot QLED Ekran",
+      "120Hz Panel Yenileme Hızı & MEMC Desteği",
+      "36W RMS Dahili Subwoofer'lı Güçlü Ses Sistemi",
+      "Dolby Atmos & Dolby Vision & Android TV"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 36,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz VRR",
+        "ALLM"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Quad Core Video Motoru",
+      "brightnessNits": 500,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%94 DCI-P3 Quantum Dot",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1450 x 895 x 290 mm",
+      "weightKg": 21.5,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "Metalik İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-65-gq-950a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 45519.26,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Grundig Türkiye"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 220,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 49999,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 47500,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 45519,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "grundig-65-gq-850a",
+    "slug": "grundig-65-gq-850a",
+    "name": "Grundig 65 GQ 850A 65\" 4K Ultra HD Smart QLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-65-gq-850a-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-65-gq-850a-1.jpg",
+      "https://resim.epey.com/1037856/z_grundig-55gq850a-8690842832161-1.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 24,
+    "basePrice": 38250,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD Canlı Renkli QLED Panel",
+      "20W RMS Dolby Atmos & DTS:X Ses Desteği",
+      "Dolby Vision HDR & Android TV",
+      "Dahili Wi-Fi & Bluetooth & Google Asistan"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 450,
+      "contrastRatio": "4500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%92 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1450 x 895 x 290 mm",
+      "weightKg": 20.8,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "İnce Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-65-gq-850a-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 38250,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 290,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 42000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 39900,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 38250,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "grundig-65-gq-800a",
+    "slug": "grundig-65-gq-800a",
+    "name": "Grundig 65 GQ 800A 65\" 4K Ultra HD Smart QLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-65-gq-800a-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-65-gq-800a-1.jpg",
+      "https://resim.epey.com/1037853/z_grundig-55-gq-800a-8690842832185-9.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 16,
+    "basePrice": 38499,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD QLED Ekran",
+      "Dolby Vision & Dolby Atmos",
+      "20W RMS Ses Çıkışı & Android TV",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 400,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%90 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1450 x 895 x 290 mm",
+      "weightKg": 20.5,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "İnce Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-65-gq-800a-n11",
+        "storeName": "n11",
+        "storeLogoColor": "#5c3bfe",
+        "price": 38499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Grundig Satıcı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 120,
+        "url": "https://www.n11.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 41500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 39500,
+        "store": "n11"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 38499,
+        "store": "n11"
+      }
+    ]
+  },
+  {
+    "id": "grundig-75-gq-750a",
+    "slug": "grundig-75-gq-750a",
+    "name": "Grundig 75 GQ 750A 75\" 4K Ultra HD Smart QLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-75-gq-750a-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-75-gq-750a-1.jpg",
+      "https://resim.epey.com/1033688/z_grundig-75-gq-750a-7.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 22,
+    "basePrice": 42749.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "75\" (189 cm) Geniş 4K Ultra HD QLED Panel",
+      "30W RMS Dolby Atmos Ses Çıkışı",
+      "HDR10 & HLG & Android TV",
+      "Dahili Wi-Fi & Bluetooth & Google Asistan"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 420,
+      "contrastRatio": "4500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%90 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1672 x 1025 x 350 mm",
+      "weightKg": 27.5,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "İnce Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-75-gq-750a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 42749.05,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Grundig Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 260,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 47000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 44500,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 42749,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "grundig-75-gjq-9200",
+    "slug": "grundig-75-gjq-9200",
+    "name": "Grundig 75 GJQ 9200 A 75\" 4K Ultra HD Smart QLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-75-gjq-9200-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-75-gjq-9200-1.jpg",
+      "https://resim.epey.com/992215/z_grundig-50gjq9200-8690842762741-1.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 18,
+    "basePrice": 54529.05,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "75\" (189 cm) 4K Ultra HD QLED Ekran",
+      "30W RMS Dolby Atmos Ses Deneyimi",
+      "Dolby Vision & HDR10 & Android TV",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 450,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%92 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1672 x 1025 x 350 mm",
+      "weightKg": 28,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Metalik Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-75-gjq-9200-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 54529.05,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 170,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 59000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 56000,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 54529,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "grundig-75-gjq-9400-a",
+    "slug": "grundig-75-gjq-9400-a",
+    "name": "Grundig 75 GJQ 9400 A 75\" 4K Ultra HD Smart QLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-75-gjq-9400-a-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-75-gjq-9400-a-1.jpg",
+      "https://resim.epey.com/1016987/z_grundig-75gjq9400-8690842795565-1.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 15,
+    "basePrice": 43997,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "75\" (189 cm) 4K Ultra HD Quantum Dot QLED Ekran",
+      "30W RMS Dolby Atmos Ses Çıkış Gücü",
+      "Dolby Vision & HDR10 & Android TV",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 450,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%92 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1672 x 1025 x 350 mm",
+      "weightKg": 28.2,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "İnce Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-75-gjq-9400-a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 43997,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Grundig Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 120,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 48000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 45500,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 43997,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "grundig-75-gq-700a",
+    "slug": "grundig-75-gq-700a",
+    "name": "Grundig 75 GQ 700A 75\" 4K Ultra HD Smart QLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-75-gq-700a-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-75-gq-700a-1.jpg",
+      "https://resim.epey.com/1035008/z_grundig-55-gq-700a-8690842825415-8.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 14,
+    "basePrice": 39998.7,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "75\" (189 cm) 4K Ultra HD QLED Ekran",
+      "20W RMS Ses Gücü & Dolby Audio",
+      "HDR10 & HLG & Android TV Platformu",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 400,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%90 DCI-P3",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1672 x 1025 x 350 mm",
+      "weightKg": 27.2,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Siyah İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-75-gq-700a-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 39998.7,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 110,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 44000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 41900,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 39998,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "grundig-madrid-75-gjq-9250",
+    "slug": "grundig-madrid-75-gjq-9250",
+    "name": "Grundig Madrid 75 GJQ 9250 75\" 4K Ultra HD Smart QLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-madrid-75-gjq-9250-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-madrid-75-gjq-9250-1.jpg",
+      "https://resim.epey.com/992125/z_grundig-madrid-75-gjq-9250-9.jpg"
+    ],
+    "rating": 4.8,
+    "reviewCount": 19,
+    "basePrice": 142499.05,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "75\" (189 cm) Özel Madrid Serisi 4K Ultra HD QLED Ekran",
+      "30W RMS Dolby Atmos Premium Ses Sistemi",
+      "Dolby Vision & HDR10+ Geniş Dinamik Aralık",
+      "Android TV & Özel Metalik Gövde Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "Quad Core Video Motoru",
+      "brightnessNits": 500,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%94 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1672 x 1025 x 350 mm",
+      "weightKg": 29,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Madrid Özel Metalik Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-madrid-75-gjq-9250-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 142499.05,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "VIP Kurulum",
+          "Grundig Yetkili Satıcı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 150,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 155000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 148000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 142499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "grundig-55-gq-950a",
+    "slug": "grundig-55-gq-950a",
+    "name": "Grundig 55 GQ 950A 55\" 4K Ultra HD Smart QLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-55-gq-950a-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-55-gq-950a-1.jpg",
+      "https://resim.epey.com/1033693/z_grundig-55gq950a-8690842828027-1.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 28,
+    "basePrice": 38653.61,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "55\" (139 cm) 4K Ultra HD Quantum Dot QLED Panel",
+      "120Hz Panel Yenileme Hızı & Akıcı Görüntü (MEMC)",
+      "36W RMS Dahili Subwoofer & Dolby Atmos",
+      "Dolby Vision & Android TV Smart Platform"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 36,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz VRR",
+        "ALLM"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Quad Core Video Motoru",
+      "brightnessNits": 500,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%94 DCI-P3 Quantum Dot",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1230 x 775 x 260 mm",
+      "weightKg": 16.5,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "Metalik İnce Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-55-gq-950a-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 38653.61,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 310,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 42000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 39900,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 38653,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "grundig-65-ghq-9500",
+    "slug": "grundig-65-ghq-9500",
+    "name": "Grundig 65 GHQ 9500 65\" 4K Ultra HD Smart QLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-65-ghq-9500-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-65-ghq-9500-1.jpg",
+      "https://resim.epey.com/919226/z_grundig-65-ghq-9500-10.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 26,
+    "basePrice": 41323.1,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) 4K Ultra HD QLED Canlı Renkler",
+      "120Hz Yenileme & 36W RMS Dahili Subwoofer Ses",
+      "Dolby Vision & Dolby Atmos & Android TV",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 36,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz VRR",
+        "ALLM"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 500,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%94 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1450 x 895 x 290 mm",
+      "weightKg": 21.2,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "Siyah Metal Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-65-ghq-9500-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 41323.1,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Grundig Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 180,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 46000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 43500,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 41323,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "grundig-monaco-65-ghq-9550a",
+    "slug": "grundig-monaco-65-ghq-9550a",
+    "name": "Grundig Monaco 65 GHQ 9550A 65\" 4K Ultra HD Smart QLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-monaco-65-ghq-9550a-1.png",
+    "images": [
+      "/images/products/tvs/grundig-monaco-65-ghq-9550a-1.png",
+      "https://resim.epey.com/945290/z_grundig-monaco-65-ghq-9550a-1.png"
+    ],
+    "rating": 4.7,
+    "reviewCount": 17,
+    "basePrice": 45600,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "65\" (164 cm) Monaco Özel Tasarım 4K Ultra HD QLED Ekran",
+      "120Hz Panel Yenileme & Dolby Vision HDR",
+      "30W RMS Dolby Atmos Ses Sistemi",
+      "Android TV & Dahili Wi-Fi"
+    ],
+    "specs": {
+      "screenSizeInches": 65,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 120,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "120Hz VRR",
+        "ALLM"
+      ],
+      "hdmiPorts": 4,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 500,
+      "contrastRatio": "5000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%94 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1450 x 895 x 290 mm",
+      "weightKg": 21.8,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "Monaco Metalik Özel Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-monaco-65-ghq-9550a-n11",
+        "storeName": "n11",
+        "storeLogoColor": "#5c3bfe",
+        "price": 45600,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Grundig Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 130,
+        "url": "https://www.n11.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 49000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 47000,
+        "store": "n11"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 45600,
+        "store": "n11"
+      }
+    ]
+  },
+  {
+    "id": "grundig-55-gq-850a",
+    "slug": "grundig-55-gq-850a",
+    "name": "Grundig 55 GQ 850A 55\" 4K Ultra HD Smart QLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-55-gq-850a-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-55-gq-850a-1.jpg",
+      "https://resim.epey.com/1035636/z_grundig-55gq850a-8690842832161-1.jpg"
+    ],
+    "rating": 4.7,
+    "reviewCount": 33,
+    "basePrice": 30600,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "55\" (139 cm) 4K Ultra HD Quantum Dot QLED Panel",
+      "20W RMS Dolby Atmos & DTS:X Ses Sistemi",
+      "Dolby Vision & HDR10+ Canlı Renkler",
+      "Android TV Platformu & Google Asistan"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "Quad Core Video Motoru",
+      "brightnessNits": 450,
+      "contrastRatio": "4500:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%92 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1230 x 775 x 260 mm",
+      "weightKg": 15.8,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "İnce Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-55-gq-850a-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 30600,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 380,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 34000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 32000,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 30600,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "grundig-55-gq-800a",
+    "slug": "grundig-55-gq-800a",
+    "name": "Grundig 55 GQ 800A 55\" 4K Ultra HD Smart QLED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-55-gq-800a-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-55-gq-800a-1.jpg",
+      "https://resim.epey.com/1037857/z_grundig-55-gq-800a-8690842832185-9.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 21,
+    "basePrice": 30998.7,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "55\" (139 cm) 4K Ultra HD QLED Ekran",
+      "Dolby Vision & Dolby Atmos",
+      "20W RMS Ses Çıkışı & Android TV",
+      "Dahili Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 55,
+      "displayTech": "QLED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 20,
+      "hdrFormats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "E",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 400,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%90 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1230 x 775 x 260 mm",
+      "weightKg": 15.5,
+      "vesaMount": "300x200 mm",
+      "bezelStyle": "İnce Siyah Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-55-gq-800a-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 30998.7,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Grundig Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 160,
+        "url": "https://www.hepsiburada.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 34500,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 32500,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 30998,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "grundig-paris-75-ghu-9055",
+    "slug": "grundig-paris-75-ghu-9055",
+    "name": "Grundig Paris 75 GHU 9055 75\" 4K Ultra HD Smart LED TV",
+    "brand": "Grundig",
+    "category": "tvs",
+    "image": "/images/products/tvs/grundig-paris-75-ghu-9055-1.jpg",
+    "images": [
+      "/images/products/tvs/grundig-paris-75-ghu-9055-1.jpg",
+      "https://resim.epey.com/924284/z_grundig-paris-75-ghu-9055-7.jpg"
+    ],
+    "rating": 4.6,
+    "reviewCount": 16,
+    "basePrice": 65780,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "75\" (189 cm) Paris Özel Serisi 4K Ultra HD LED TV",
+      "30W RMS Dolby Atmos & DTS Virtual:X Ses",
+      "HDR10 & HLG Destekli Akıllı Panel",
+      "Android TV Platformu & Google Asistan"
+    ],
+    "specs": {
+      "screenSizeInches": 75,
+      "displayTech": "LED",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 60,
+      "smartOs": "Android TV",
+      "audioPowerWatts": 30,
+      "hdrFormats": [
+        "HDR10",
+        "HLG"
+      ],
+      "gamingFeatures": [
+        "ALLM"
+      ],
+      "hdmiPorts": 3,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "Quad Core İşlemci",
+      "brightnessNits": 400,
+      "contrastRatio": "4000:1",
+      "viewingAngle": "178/178",
+      "colorGamut": "%85 DCI-P3",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "voiceControl": "Google Asistan",
+      "wifiVersion": "Wi-Fi 5",
+      "bluetoothVersion": "5.0",
+      "appleAirplay": false,
+      "chromecastBuiltIn": true,
+      "dimensionsWithStand": "1672 x 1025 x 350 mm",
+      "weightKg": 27.8,
+      "vesaMount": "400x300 mm",
+      "bezelStyle": "Paris Özel Tasarım Çerçeve"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-grundig-paris-75-ghu-9055-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 65780,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ücretsiz Kargo",
+          "Grundig Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 110,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 71000,
+        "store": "Ortalama"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 68000,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 65780,
+        "store": "Trendyol"
+      }
+    ]
   }
 ];
