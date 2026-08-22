@@ -41830,80 +41830,86 @@ export const mockTVs: TVProduct[] = [
   {
     "id": "vestel-65qg9950",
     "slug": "vestel-65qg9950",
-    "name": "Vestel 65QG9950 65\" 4K QLED Android TV (2025)",
+    "name": "Vestel 65QG9950 (20300357) 65\" 4K QLED Android TV (2025)",
     "brand": "Vestel",
     "category": "tvs",
     "image": "/images/products/tvs/vestel-65qg9950-1.jpg",
     "images": [
       "/images/products/tvs/vestel-65qg9950-1.jpg",
-      "https://resim.epey.com/1016990/k_vestel-65qg9950-8698902009058-1.jpg"
+      "/images/products/tvs/vestel-65qg9950-2.jpg",
+      "/images/products/tvs/vestel-65qg9950-3.jpg",
+      "https://resim.epey.com/1016990/z_vestel-65qg9950-8698902009058-1.jpg"
     ],
-    "rating": 4.5,
-    "reviewCount": 15,
+    "rating": 4,
+    "reviewCount": 2,
     "basePrice": 40999,
     "currency": "TL",
     "releaseYear": 2025,
-    "isPopular": false,
+    "isPopular": true,
     "isFeatured": false,
     "highlights": [
-      "65\" 4K Quantum Dot (QLED) Canlı Renkler",
-      "24W Stereo Ses, Dolby Atmos & DTS Virtual:X",
-      "Dolby Vision & HDR10 Desteği",
-      "Android TV & Google Play Store"
+      "65\" (164 cm) 4K Ultra HD (3840x2160) Quantum Dot (QLED) Ekran",
+      "100/120 Hz Gerçek Yenileme Hızı & Ultra Motion (MEMC)",
+      "Dolby Vision, HDR10+, HDR10 & Micro Dimming",
+      "24W Stereo Ses (Dolby Atmos, DTS:X, DTS Virtual:X)",
+      "Android TV, Google Play Store, Dahili Wi-Fi 5 & Bluetooth"
     ],
     "specs": {
       "screenSizeInches": 65,
       "displayTech": "QLED",
       "resolution": "4K Ultra HD (3840x2160)",
-      "refreshRateHz": 60,
+      "refreshRateHz": 120,
       "smartOs": "Android TV",
       "audioPowerWatts": 24,
       "hdrFormats": [
         "Dolby Vision",
+        "HDR10+",
         "HDR10",
         "HLG"
       ],
       "gamingFeatures": [
         "ALLM",
+        "MEMC (Ultra Motion)",
         "Game Mode"
       ],
       "hdmiPorts": 3,
       "usbPorts": 2,
       "energyClass": "E",
-      "processorEngine": "Vestel Quantum AI Processor",
-      "brightnessNits": 400,
+      "processorEngine": "Vestel Quantum 4-Core Engine",
+      "brightnessNits": 450,
       "contrastRatio": "5000:1",
       "viewingAngle": "178/178",
-      "colorGamut": "92% DCI-P3",
+      "colorGamut": "Vestel Quantum Renk Paleti (%95+ DCI-P3)",
       "dolbyAtmos": true,
-      "dtsX": false,
-      "voiceControl": "Google Asistan",
-      "wifiVersion": "Wi-Fi 5",
+      "dtsX": true,
+      "voiceControl": "Google Asistan (Ses ile TV Kontrolü)",
+      "wifiVersion": "Wi-Fi 5 (802.11a/b/g/n/ac)",
       "bluetoothVersion": "5.0",
       "appleAirplay": false,
       "chromecastBuiltIn": true,
-      "dimensionsWithStand": "1453 x 892 x 260 mm",
-      "weightKg": 20,
+      "dimensionsWithStand": "1446 x 871 x 252 mm",
+      "weightKg": 18.65,
       "vesaMount": "400x200 mm",
-      "bezelStyle": "İnce Çerçeve"
+      "bezelStyle": "Siyah Standart Çerçeve / İkili Ayak (Düz)"
     },
     "storeOffers": [
       {
-        "id": "offer-vestel-65qg9950-0",
+        "id": "offer-vestel-65qg9950-vestel",
         "storeName": "Vestel Yetkili Mağaza",
         "storeLogoColor": "#df0000",
         "price": 40999,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Ücretsiz Kargo"
+          "Ücretsiz Kargo",
+          "Vestel Güvencesi"
         ],
-        "sellerRating": 4.8,
-        "sellerReviews": 350,
+        "sellerRating": 4.9,
+        "sellerReviews": 480,
         "url": "https://www.vestel.com.tr"
       },
       {
-        "id": "offer-vestel-65qg9950-1",
+        "id": "offer-vestel-65qg9950-hepsiburada",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
         "price": 41499,
@@ -41913,33 +41919,33 @@ export const mockTVs: TVProduct[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 350,
+        "sellerReviews": 320,
         "url": "https://www.hepsiburada.com"
       },
       {
-        "id": "offer-vestel-65qg9950-2",
+        "id": "offer-vestel-65qg9950-trendyol",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
         "price": 41999,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
-          "Ücretsiz Kargo"
+          "Hızlı Teslimat"
         ],
-        "sellerRating": 4.8,
-        "sellerReviews": 350,
+        "sellerRating": 4.7,
+        "sellerReviews": 210,
         "url": "https://www.trendyol.com"
       }
     ],
     "priceHistory": [
       {
         "date": "2026-06-01",
-        "price": 43999,
+        "price": 44999,
         "store": "Ortalama"
       },
       {
         "date": "2026-07-01",
-        "price": 41999,
+        "price": 42999,
         "store": "Ortalama"
       },
       {
