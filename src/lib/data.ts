@@ -396,13 +396,21 @@ export async function getDynamicCategoryDistributionProducts(total: number = 20)
   const smartwatches = await getAllSmartwatches();
   const headphones = await getAllHeadphones();
 
-  // Helper score calculator for popularity sorting
+  // Helper score calculator for flagship & popularity sorting
   const getPopularityScore = (p: Product) => {
     let score = 0;
-    if (p.isPopular) score += 50;
+    if (p.isPopular) score += 40;
     if (p.isFeatured) score += 30;
-    score += (p.rating || 4.5) * 10;
-    score += Math.min(20, (p.reviewCount || 0) / 100);
+    score += (p.rating || 4.5) * 20;
+    // Boost ultra-flagships by name and price tier
+    const nameLower = p.name.toLowerCase();
+    if (nameLower.includes('pro max') || nameLower.includes('ultra') || nameLower.includes('fold') || nameLower.includes('oled evo') || nameLower.includes('neo qled') || nameLower.includes('ambilight')) {
+      score += 50;
+    }
+    if (p.basePrice >= 90000) score += 40;
+    else if (p.basePrice >= 50000) score += 25;
+    else if (p.basePrice >= 25000) score += 15;
+    score += Math.min(20, (p.reviewCount || 0) / 50);
     return score;
   };
 
@@ -419,8 +427,44 @@ export async function getDynamicCategoryDistributionProducts(total: number = 20)
   const smartwatchCount = Math.round(total * 0.10); // 2 for 20
   const headphoneCount = Math.round(total * 0.10); // 2 for 20
 
-  const topPhones = sortPopular(phones).slice(0, phoneCount);
-  const topTVs = sortPopular(tvs).slice(0, tvCount);
+  // 1. Curated Top Phones: Apple, Samsung, Xiaomi, Oppo (2 from each brand for 8 total)
+  const targetPhoneBrands = ['Apple', 'Samsung', 'Xiaomi', 'Oppo'];
+  const curatedPhones: Product[] = [];
+  targetPhoneBrands.forEach((brandName) => {
+    const brandPhones = sortPopular(
+      phones.filter((p) => p.brand.toLowerCase() === brandName.toLowerCase())
+    );
+    curatedPhones.push(...brandPhones.slice(0, 2));
+  });
+
+  // If any brand was missing, fill up from sorted popular phones
+  if (curatedPhones.length < phoneCount) {
+    const existingSlugs = new Set(curatedPhones.map((p) => p.slug));
+    const remaining = sortPopular(phones).filter((p) => !existingSlugs.has(p.slug));
+    curatedPhones.push(...remaining.slice(0, phoneCount - curatedPhones.length));
+  }
+  const topPhones = curatedPhones.slice(0, phoneCount);
+
+  // 2. Curated Top TVs: Samsung, LG, Philips (Flagship OLED / Neo QLED / Ambilight models)
+  const curatedTVs: Product[] = [];
+  const targetTVBrands = ['Samsung', 'LG', 'Philips'];
+  targetTVBrands.forEach((brandName) => {
+    const brandTVs = sortPopular(
+      tvs.filter((t) => t.brand.toLowerCase() === brandName.toLowerCase())
+    );
+    // Grab top 1 from each brand first
+    if (brandTVs[0]) curatedTVs.push(brandTVs[0]);
+  });
+  // Add 1 more top flagship TV from Samsung/LG/Philips to reach tvCount (4)
+  const existingTVSlugs = new Set(curatedTVs.map((t) => t.slug));
+  const remainingTargetTVs = sortPopular(
+    tvs.filter((t) => targetTVBrands.map((b) => b.toLowerCase()).includes(t.brand.toLowerCase()) && !existingTVSlugs.has(t.slug))
+  );
+  if (remainingTargetTVs.length > 0) {
+    curatedTVs.push(remainingTargetTVs[0]);
+  }
+  const topTVs = curatedTVs.slice(0, tvCount);
+
   const topAppliances = sortPopular(appliances).slice(0, applianceCount);
   const topTablets = sortPopular(tablets).slice(0, tabletCount);
   const topSmartwatches = sortPopular(smartwatches).slice(0, smartwatchCount);
