@@ -6853,6 +6853,142 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "ms-surface-pro-10-ultra7-16-512-zdw00019",
+    "slug": "microsoft-surface-pro-10-zdw-00019",
+    "name": "Microsoft Surface Pro 10 Intel Core Ultra 7 (ZDW-00019) 16 GB / 512 GB",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 128900,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 20,
+    "image": "/images/tablets/microsoft-998010.jpg",
+    "images": [
+      "/images/tablets/microsoft-998010.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "13.0 İnç 120 Hz PixelSense Ekran",
+      "Intel Core Ultra 7 165U İşlemci",
+      "16 GB RAM & 512 GB SSD",
+      "Intel AI Boost NPU ile Yapay Zeka Hızlandırma"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2880 x 1920",
+      "panelType": "PixelSense Flow",
+      "refreshRateHz": 120,
+      "processor": "Intel Core Ultra 7 165U",
+      "ramGb": 16,
+      "storageGb": 512,
+      "batteryMah": 7100,
+      "rearCameraMp": "10.5 MP",
+      "frontCameraMp": "1440p QHD",
+      "weightGrams": 879,
+      "os": "Windows 11 Pro",
+      "cellularSupport": "Wi-Fi 6E",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-pro10-zdw00019-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 128900,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 50,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-10.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-05-01",
+        "price": 134000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 128900,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-10-ultra7-16-512-zdw00001",
+    "slug": "microsoft-surface-pro-10-zdw-00001",
+    "name": "Microsoft Surface Pro 10 Intel Core Ultra 7 (ZDW-00001) 16 GB / 512 GB",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 128900,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 16,
+    "image": "/images/tablets/microsoft-1042449.jpg",
+    "images": [
+      "/images/tablets/microsoft-1042449.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "13.0 İnç 120 Hz PixelSense Ekran",
+      "Intel Core Ultra 7 165U İşlemci",
+      "16 GB RAM & 512 GB SSD",
+      "Platin Gri Metalik Gövde"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2880 x 1920",
+      "panelType": "PixelSense Flow",
+      "refreshRateHz": 120,
+      "processor": "Intel Core Ultra 7 165U",
+      "ramGb": 16,
+      "storageGb": 512,
+      "batteryMah": 7100,
+      "rearCameraMp": "10.5 MP",
+      "frontCameraMp": "1440p QHD",
+      "weightGrams": 879,
+      "os": "Windows 11 Pro",
+      "cellularSupport": "Wi-Fi 6E",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-pro10-zdw00001-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 128900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 40,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-10-zdw-00001.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-05-01",
+        "price": 134000,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 128900,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "ms-surface-pro-copilot-plus-16-256-zhx",
     "slug": "microsoft-surface-pro-copilot-plus-pc-zhx-00001",
     "name": "Microsoft Surface Pro Copilot+ PC 16 GB / 256 GB (EP2-05006)",
@@ -7083,6 +7219,142 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 125640,
         "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-10-ultra5-16-512-zdu00007",
+    "slug": "microsoft-surface-pro-10-zdu-00007",
+    "name": "Microsoft Surface Pro 10 Intel Core Ultra 5 (ZDU-00007) 16 GB / 512 GB",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 109900,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 22,
+    "image": "/images/tablets/microsoft-1042451.jpg",
+    "images": [
+      "/images/tablets/microsoft-1042451.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "13.0 İnç 120 Hz PixelSense Ekran",
+      "Intel Core Ultra 5 135U İşlemci",
+      "16 GB RAM & 512 GB SSD",
+      "Uzun Pil Ömrü & Hızlı Şarj"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2880 x 1920",
+      "panelType": "PixelSense Flow",
+      "refreshRateHz": 120,
+      "processor": "Intel Core Ultra 5 135U",
+      "ramGb": 16,
+      "storageGb": 512,
+      "batteryMah": 7100,
+      "rearCameraMp": "10.5 MP",
+      "frontCameraMp": "1440p QHD",
+      "weightGrams": 879,
+      "os": "Windows 11 Pro",
+      "cellularSupport": "Wi-Fi 6E",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-pro10-zdu00007-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 109900,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 65,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-10-zdu-00007.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-04-01",
+        "price": 115000,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 109900,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-10-ultra5-16-512-zdu00025",
+    "slug": "microsoft-surface-pro-10-zdu-00025",
+    "name": "Microsoft Surface Pro 10 Intel Core Ultra 5 (ZDU-00025) 16 GB / 512 GB",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 109900,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 18,
+    "image": "/images/tablets/microsoft-1042450.jpg",
+    "images": [
+      "/images/tablets/microsoft-1042450.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "13.0 İnç 120 Hz PixelSense Ekran",
+      "Intel Core Ultra 5 135U İşlemci",
+      "16 GB RAM & 512 GB SSD",
+      "Windows 11 Pro İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2880 x 1920",
+      "panelType": "PixelSense Flow",
+      "refreshRateHz": 120,
+      "processor": "Intel Core Ultra 5 135U",
+      "ramGb": 16,
+      "storageGb": 512,
+      "batteryMah": 7100,
+      "rearCameraMp": "10.5 MP",
+      "frontCameraMp": "1440p QHD",
+      "weightGrams": 879,
+      "os": "Windows 11 Pro",
+      "cellularSupport": "Wi-Fi 6E",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-pro10-zdu00025-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 109900,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 45,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-10-zdu-00025.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-04-01",
+        "price": 115000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 109900,
+        "store": "Hepsiburada"
       }
     ]
   },
@@ -16018,6 +16290,158 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "ms-surface-pro-9-32-1024-qlq",
+    "slug": "microsoft-surface-pro-9-qlq-00007",
+    "name": "Microsoft Surface Pro 9 32 GB / 1024 GB (QLQ-00007)",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 115000,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 36,
+    "image": "/images/tablets/microsoft-869179.jpg",
+    "images": [
+      "/images/tablets/microsoft-869179.jpg"
+    ],
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "13.0 İnç 120 Hz PixelSense Flow Dokunmatik Ekran",
+      "12. Nesil Intel Core i7-1265U İşlemci",
+      "32 GB LPDDR5 RAM & 1 TB SSD",
+      "Thunderbolt 4 Desteği & Windows 11 Pro"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2880 x 1920",
+      "panelType": "PixelSense Flow (120 Hz)",
+      "refreshRateHz": 120,
+      "processor": "Intel Core i7-1265U (10 Çekirdek)",
+      "ramGb": 32,
+      "storageGb": 1024,
+      "batteryMah": 6200,
+      "rearCameraMp": "10 MP (4K Video)",
+      "frontCameraMp": "1080p FHD Kamera",
+      "weightGrams": 879,
+      "os": "Windows 11 Pro",
+      "cellularSupport": "Wi-Fi 6E",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-pro9-32-1tb-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 115000,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 240,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-9-qlq-00007.html"
+      },
+      {
+        "id": "so-ms-surface-pro9-32-1tb-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 116999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 110,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-9-qlq-00007.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-01-01",
+        "price": 122000,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 115000,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-9-16-1024-qki",
+    "slug": "microsoft-surface-pro-9-qki-00008",
+    "name": "Microsoft Surface Pro 9 16 GB / 1024 GB (QKI-00008)",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 96900,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 38,
+    "image": "/images/tablets/microsoft-869131.jpg",
+    "images": [
+      "/images/tablets/microsoft-869131.jpg"
+    ],
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "13.0 İnç 120 Hz PixelSense Ekran",
+      "12. Nesil Intel Core i7-1255U İşlemci",
+      "16 GB RAM & 1 TB SSD",
+      "Canlı Renk Seçenekleri & Alüminyum Gövde"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2880 x 1920",
+      "panelType": "PixelSense Flow",
+      "refreshRateHz": 120,
+      "processor": "Intel Core i7-1255U",
+      "ramGb": 16,
+      "storageGb": 1024,
+      "batteryMah": 6200,
+      "rearCameraMp": "10 MP",
+      "frontCameraMp": "1080p FHD",
+      "weightGrams": 879,
+      "os": "Windows 11 Home",
+      "cellularSupport": "Wi-Fi 6E",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-pro9-16-1tb-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 96900,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Çok Satan"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 210,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-9-qki-00008.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-01-01",
+        "price": 104000,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 96900,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-pro-11-mnxk3tu-a",
     "slug": "apple-ipad-pro-11-mnxk3tu-a",
     "name": "Apple iPad Pro 11 (MNXK3TU/A) 16 GB / 1024 GB",
@@ -18249,6 +18673,142 @@ export const mockTablets: Product[] = [
       {
         "date": "2026-08-01",
         "price": 4999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-8-32-1024",
+    "slug": "microsoft-surface-pro-8-1024-gb-32-gb",
+    "name": "Microsoft Surface Pro 8 32 GB / 1024 GB",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 84900,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 40,
+    "image": "/images/tablets/microsoft-759074.jpg",
+    "images": [
+      "/images/tablets/microsoft-759074.jpg"
+    ],
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "13.0 İnç 120 Hz PixelSense Flow Ekran",
+      "11. Nesil Intel Core i7-1185G7 İşlemci",
+      "32 GB RAM & 1 TB SSD",
+      "Thunderbolt 4 Portları & İnce Çerçeve"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2880 x 1920",
+      "panelType": "PixelSense Flow (120 Hz)",
+      "refreshRateHz": 120,
+      "processor": "Intel Core i7-1185G7",
+      "ramGb": 32,
+      "storageGb": 1024,
+      "batteryMah": 6200,
+      "rearCameraMp": "10 MP (4K)",
+      "frontCameraMp": "5 MP (1080p)",
+      "weightGrams": 891,
+      "os": "Windows 11 Pro",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-pro8-32-1tb-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 84900,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 180,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-8-1024-gb-32-gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 92000,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 84900,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-8-16-1024",
+    "slug": "microsoft-surface-pro-8-1tb",
+    "name": "Microsoft Surface Pro 8 16 GB / 1024 GB",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 74900,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 34,
+    "image": "/images/tablets/microsoft-724247.jpg",
+    "images": [
+      "/images/tablets/microsoft-724247.jpg"
+    ],
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "13.0 İnç 120 Hz PixelSense Ekran",
+      "Intel Core i7-1185G7 İşlemci",
+      "16 GB RAM & 1 TB SSD",
+      "Surface Slim Pen 2 Entegre Klavye Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2880 x 1920",
+      "panelType": "PixelSense Flow",
+      "refreshRateHz": 120,
+      "processor": "Intel Core i7-1185G7",
+      "ramGb": 16,
+      "storageGb": 1024,
+      "batteryMah": 6200,
+      "rearCameraMp": "10 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 891,
+      "os": "Windows 11 Home",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-pro8-16-1tb-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 74900,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 95,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-8-1tb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 81000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 74900,
         "store": "Hepsiburada"
       }
     ]
@@ -23341,6 +23901,210 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 2799,
         "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-6-i7-16-512",
+    "slug": "microsoft-surface-pro-6-12-3-kjv-00016",
+    "name": "Microsoft Surface Pro 6 Intel Core i7 / 16 GB / 512 GB",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 36900,
+    "currency": "TL",
+    "rating": 4.4,
+    "reviewCount": 55,
+    "image": "/images/tablets/microsoft-155948.png",
+    "images": [
+      "/images/tablets/microsoft-155948.png"
+    ],
+    "releaseYear": 2018,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "12.3 İnç PixelSense Dokunmatik Ekran",
+      "8. Nesil Intel Core i7-8650U İşlemci",
+      "16 GB RAM & 512 GB SSD",
+      "Kompakt ve Güvenilir Efsanevi Surface Pro Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 12.3,
+      "screenResolution": "2736 x 1824",
+      "panelType": "PixelSense",
+      "refreshRateHz": 60,
+      "processor": "Intel Core i7-8650U (4 Çekirdek)",
+      "ramGb": 16,
+      "storageGb": 512,
+      "batteryMah": 5940,
+      "rearCameraMp": "8 MP (1080p)",
+      "frontCameraMp": "5 MP (Windows Hello)",
+      "weightGrams": 784,
+      "os": "Windows 10 Pro / 11 Destekli",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-pro6-i7-16-512-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 36900,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 90,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-6-12-3-kjv-00016.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2021-01-01",
+        "price": 42000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 36900,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-6-i7-8-256",
+    "slug": "microsoft-surface-pro-6-12-3-lqh-00016",
+    "name": "Microsoft Surface Pro 6 Intel Core i7 / 8 GB / 256 GB",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 28900,
+    "currency": "TL",
+    "rating": 4.3,
+    "reviewCount": 48,
+    "image": "/images/tablets/microsoft-155956.png",
+    "images": [
+      "/images/tablets/microsoft-155956.png"
+    ],
+    "releaseYear": 2018,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "12.3 İnç PixelSense Dokunmatik Ekran",
+      "Intel Core i7-8650U İşlemci",
+      "8 GB RAM & 256 GB SSD",
+      "Windows Hello Yüz Tanıma Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 12.3,
+      "screenResolution": "2736 x 1824",
+      "panelType": "PixelSense",
+      "refreshRateHz": 60,
+      "processor": "Intel Core i7-8650U",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 5940,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 784,
+      "os": "Windows 10 / 11 Destekli",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-pro6-i7-8-256-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 28900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Uygun Fiyat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 60,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-6-12-3-lqh-00016.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2021-01-01",
+        "price": 33000,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 28900,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-6-i5-8-256",
+    "slug": "microsoft-surface-pro-6-12-3-kjt-00006",
+    "name": "Microsoft Surface Pro 6 Intel Core i5 / 8 GB / 256 GB",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 23900,
+    "currency": "TL",
+    "rating": 4.3,
+    "reviewCount": 65,
+    "image": "/images/tablets/microsoft-423094.png",
+    "images": [
+      "/images/tablets/microsoft-423094.png"
+    ],
+    "releaseYear": 2018,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "12.3 İnç PixelSense Dokunmatik Ekran",
+      "Intel Core i5-8250U 4 Çekirdekli İşlemci",
+      "8 GB RAM & 256 GB SSD",
+      "Genişletilebilir microSD Kart Yuvası"
+    ],
+    "specs": {
+      "screenSizeInches": 12.3,
+      "screenResolution": "2736 x 1824",
+      "panelType": "PixelSense",
+      "refreshRateHz": 60,
+      "processor": "Intel Core i5-8250U",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 5940,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 770,
+      "os": "Windows 10 / 11 Destekli",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-pro6-i5-8-256-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 23900,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 120,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-6-12-3-kjt-00006.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2021-01-01",
+        "price": 27000,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 23900,
+        "store": "Amazon TR"
       }
     ]
   },
