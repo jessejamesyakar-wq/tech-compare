@@ -132,7 +132,7 @@ export function DynamicCategoryShowcase() {
 
   return (
     <section className="space-y-6 pt-4 pb-2">
-      {/* 1. Header with Live Ratio Breakdown Badge Strip */}
+      {/* 1. Header with Category Shortcut Strip */}
       <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-indigo-950 text-white rounded-3xl p-6 sm:p-8 shadow-xl border border-slate-800 flex flex-col lg:flex-row lg:items-center justify-between gap-6 relative overflow-hidden">
         <div className="absolute -top-16 -right-16 w-80 h-80 bg-emerald-500/20 rounded-full blur-3xl pointer-events-none" />
         <div className="absolute -bottom-16 -left-16 w-80 h-80 bg-blue-500/20 rounded-full blur-3xl pointer-events-none" />
@@ -140,37 +140,35 @@ export function DynamicCategoryShowcase() {
         <div className="space-y-2 relative z-10">
           <div className="inline-flex items-center gap-1.5 bg-emerald-500/20 text-emerald-300 text-[11px] font-black px-3 py-1 rounded-full border border-emerald-500/30 backdrop-blur-xs">
             <Layers className="w-3.5 h-3.5" />
-            <span>KATEGORİ ORANLARI SABİT VİTRİN</span>
+            <span>ÖNE ÇIKAN KATEGORİLER</span>
           </div>
           <h2 className="text-2xl sm:text-3xl font-black tracking-tight flex items-center gap-2.5">
             <Sparkles className="w-6 h-6 text-emerald-400" />
             <span>Trend Ürünler Karma Vitrini</span>
           </h2>
           <p className="text-xs text-slate-300 font-medium max-w-xl leading-relaxed">
-            Piyasadaki en popüler modeller; <span className="text-emerald-400 font-bold">%40 Telefon (8)</span>, <span className="text-purple-300 font-bold">%20 TV (4)</span>, <span className="text-amber-300 font-bold">%10 Ev Aletleri (2)</span>, <span className="text-emerald-300 font-bold">%10 Tablet (2)</span>, <span className="text-rose-300 font-bold">%10 Akıllı Saat (2)</span> ve <span className="text-teal-300 font-bold">%10 Kulaklık (2)</span> oranıyla listelenmektedir.
+            Piyasadaki en popüler ve en çok tercih edilen akıllı telefon, televizyon, ev aletleri, tablet, akıllı saat ve kulaklık modelleri listelenmektedir.
           </p>
         </div>
 
-        {/* Category Ratio Badges Matrix */}
+        {/* Category Badges Matrix */}
         <div className="grid grid-cols-3 sm:grid-cols-6 gap-2 relative z-10">
           {Object.entries(CATEGORY_CONFIG).map(([catKey, cfg]) => {
             const Icon = cfg.icon;
-            const count = catKey === 'smartphones' ? 8 : catKey === 'tvs' ? 4 : 2;
             const isSelected = activeFilter === catKey;
 
             return (
               <button
                 key={catKey}
                 onClick={() => setActiveFilter(activeFilter === catKey ? 'all' : catKey)}
-                className={`p-2.5 rounded-2xl border text-center transition-all cursor-pointer flex flex-col items-center justify-center gap-1 ${
+                className={`p-3 rounded-2xl border text-center transition-all cursor-pointer flex flex-col items-center justify-center gap-1.5 min-w-[70px] ${
                   isSelected
                     ? 'bg-white text-slate-900 border-white font-extrabold shadow-lg scale-105'
                     : 'bg-white/10 hover:bg-white/15 text-slate-200 border-white/10'
                 }`}
               >
-                <Icon className="w-4 h-4" />
-                <span className="text-[11px] font-black">{cfg.ratio}</span>
-                <span className="text-[9px] text-slate-300 font-bold whitespace-nowrap">{cfg.shortLabel} ({count})</span>
+                <Icon className="w-5 h-5" />
+                <span className="text-xs font-bold whitespace-nowrap">{cfg.shortLabel}</span>
               </button>
             );
           })}
@@ -188,13 +186,12 @@ export function DynamicCategoryShowcase() {
           }`}
         >
           <Flame className="w-3.5 h-3.5 text-amber-500" />
-          <span>🔥 Tüm Kategoriler (20 Ürün • %40/%20/%10 Dağılım)</span>
+          <span>Tüm Kategoriler</span>
         </button>
 
         {Object.entries(CATEGORY_CONFIG).map(([catKey, cfg]) => {
           const Icon = cfg.icon;
           const isSelected = activeFilter === catKey;
-          const count = catKey === 'smartphones' ? 8 : catKey === 'tvs' ? 4 : 2;
 
           return (
             <button
@@ -207,7 +204,7 @@ export function DynamicCategoryShowcase() {
               }`}
             >
               <Icon className="w-3.5 h-3.5" />
-              <span>{cfg.label} ({count} Model • {cfg.ratio})</span>
+              <span>{cfg.label}</span>
             </button>
           );
         })}
