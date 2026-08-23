@@ -2,6 +2,738 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "casper-via-t41",
+    "slug": "casper-via-t41",
+    "name": "Casper VIA T41 2 GB / 16 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 0.9,
+    "reviewCount": 22,
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/casper-via-t41-1.jpg",
+    "images": [
+      "/images/products/tablets/casper-via-t41-1.jpg"
+    ],
+    "highlights": [
+      "10.1\" IPS Ekran (1280 x 800)",
+      "Intel Atom Z3735D 4 Çekirdek İşlemci",
+      "2 GB RAM & 16 GB Depolama",
+      "6000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735D (1.33 - 1.83 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 6000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 570,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-via-t41-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Intel 4 Çekirdek",
+          "10.1\" Ekran"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 60,
+        "url": "https://www.epey.com/tablet/casper-via-t41.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 2799,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 2599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "casper-via-s7w",
+    "slug": "casper-via-s7w",
+    "name": "Casper VIA S7W 1 GB / 16 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 1999,
+    "currency": "TL",
+    "rating": 0.9,
+    "reviewCount": 20,
+    "releaseYear": 2017,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/casper-via-s7w-1.jpg",
+    "images": [
+      "/images/products/tablets/casper-via-s7w-1.jpg"
+    ],
+    "highlights": [
+      "6.9\" IPS Kompakt Ekran (1024 x 600)",
+      "Intel Atom x3-C3230RK İşlemci",
+      "2800 mAh Batarya & Taşınabilir Kasa",
+      "1 GB RAM & 16 GB Depolama"
+    ],
+    "specs": {
+      "screenSizeInches": 6.9,
+      "screenResolution": "1024 x 600",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom x3-C3230RK (1.2 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 2800,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 280,
+      "os": "Android 5.1 (Lollipop)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-via-s7w-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 1999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kompakt 6.9\""
+        ],
+        "sellerRating": 4.2,
+        "sellerReviews": 50,
+        "url": "https://www.epey.com/tablet/casper-via-s7w.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 2199,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 2099,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "casper-via-s7",
+    "slug": "casper-via-s7",
+    "name": "Casper VIA S7 3G 1 GB / 16 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 2099,
+    "currency": "TL",
+    "rating": 0.9,
+    "reviewCount": 25,
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/casper-via-s7-1.png",
+    "images": [
+      "/images/products/tablets/casper-via-s7-1.png"
+    ],
+    "highlights": [
+      "6.9\" IPS Ekran (1024 x 600)",
+      "3G SIM Kart & Sesli Görüşme Desteği (Tablet/Telefon)",
+      "Intel Atom x3-C3230RK İşlemci",
+      "2800 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 6.9,
+      "screenResolution": "1024 x 600",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom x3-C3230RK (1.2 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 2800,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 280,
+      "os": "Android 5.1 (Lollipop)",
+      "cellularSupport": "3G (SIM)",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-via-s7-offer-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 2099,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "3G SIM Destekli",
+          "Telefon Özellikli"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 55,
+        "url": "https://www.epey.com/tablet/casper-via-s7.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 2299,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 2199,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2099,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "casper-cta-e07-13a",
+    "slug": "casper-cta-e07-13a",
+    "name": "Casper CTA-E07-13A 1 GB / 8 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 1799,
+    "currency": "TL",
+    "rating": 0.9,
+    "reviewCount": 22,
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/casper-cta-e07-13a-1.jpg",
+    "images": [
+      "/images/products/tablets/casper-cta-e07-13a-1.jpg"
+    ],
+    "highlights": [
+      "7.0\" LCD Ekran (1024 x 600)",
+      "Allwinner A20 Çift Çekirdek İşlemci",
+      "2800 mAh Batarya",
+      "Kompakt ve Hafif Gövde"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "LCD",
+      "refreshRateHz": 60,
+      "processor": "Allwinner A20 Dual-Core",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2800,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 290,
+      "os": "Android 4.2 (Jelly Bean)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-cta-e07-13a-offer-1",
+        "storeName": "N11",
+        "storeLogoColor": "#53298a",
+        "price": 1799,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "7.0\" Ekran"
+        ],
+        "sellerRating": 4.1,
+        "sellerReviews": 45,
+        "url": "https://www.epey.com/tablet/casper-cta-e07-13a.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 1999,
+        "store": "N11"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 1899,
+        "store": "N11"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1799,
+        "store": "N11"
+      }
+    ]
+  },
+  {
+    "id": "casper-via-t8w",
+    "slug": "casper-via-t8w",
+    "name": "Casper VIA T8W (Windows) 1 GB / 32 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 2299,
+    "currency": "TL",
+    "rating": 0.9,
+    "reviewCount": 30,
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/casper-via-t8w-1.png",
+    "images": [
+      "/images/products/tablets/casper-via-t8w-1.png"
+    ],
+    "highlights": [
+      "8.0\" IPS Ekran (1280 x 800)",
+      "Intel Atom Z3735G 4 Çekirdek İşlemci",
+      "Windows 8.1 / 10 İşletim Sistemi",
+      "32 GB Dahili Depolama & 4000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735G (1.33 GHz)",
+      "ramGb": 1,
+      "storageGb": 32,
+      "batteryMah": 4000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 370,
+      "os": "Windows 8.1 with Bing (Win 10 Yükseltilebilir)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-via-t8w-offer-1",
+        "storeName": "PttAVM",
+        "storeLogoColor": "#ffcc00",
+        "price": 2299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Windows İşletim Sistemi"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 65,
+        "url": "https://www.epey.com/tablet/casper-via-t8w.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 2499,
+        "store": "PttAVM"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 2399,
+        "store": "PttAVM"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2299,
+        "store": "PttAVM"
+      }
+    ]
+  },
+  {
+    "id": "casper-via-t7-3g",
+    "slug": "casper-via-t7-3g",
+    "name": "Casper VIA T7 3G 1 GB / 16 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 1999,
+    "currency": "TL",
+    "rating": 0.9,
+    "reviewCount": 26,
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/casper-via-t7-3g-1.png",
+    "images": [
+      "/images/products/tablets/casper-via-t7-3g-1.png"
+    ],
+    "highlights": [
+      "7.0\" IPS Ekran (1024 x 600)",
+      "3G SIM Kart Desteği",
+      "Intel Atom Z2520 Çift Çekirdek (1.2 GHz)",
+      "3000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z2520 (1.2 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 3000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 295,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "3G (SIM)",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-via-t7-3g-offer-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#ff6700",
+        "price": 1999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "3G SIM Destekli"
+        ],
+        "sellerRating": 4.2,
+        "sellerReviews": 50,
+        "url": "https://www.epey.com/tablet/casper-via-t7-3g.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 2199,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 2099,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1999,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "casper-via-t7",
+    "slug": "casper-via-t7",
+    "name": "Casper VIA T7 1 GB / 16 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 1899,
+    "currency": "TL",
+    "rating": 0.9,
+    "reviewCount": 30,
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/casper-via-t7-1.png",
+    "images": [
+      "/images/products/tablets/casper-via-t7-1.png"
+    ],
+    "highlights": [
+      "7.0\" IPS Ekran (1024 x 600)",
+      "Intel Atom Z2520 Çift Çekirdek İşlemci",
+      "16 GB Dahili Depolama",
+      "3000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z2520 (1.2 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 3000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 290,
+      "os": "Android 4.2 (Jelly Bean)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-via-t7-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 1899,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kompakt 7.0\""
+        ],
+        "sellerRating": 4.2,
+        "sellerReviews": 60,
+        "url": "https://www.epey.com/tablet/casper-via-t7.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 2099,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 1999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1899,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "casper-via-t17",
+    "slug": "casper-via-t17",
+    "name": "Casper VIA T17 2 GB / 16 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 1999,
+    "currency": "TL",
+    "rating": 0.8,
+    "reviewCount": 22,
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/casper-via-t17-1.png",
+    "images": [
+      "/images/products/tablets/casper-via-t17-1.png"
+    ],
+    "highlights": [
+      "7.0\" IPS Ekran (1024 x 600)",
+      "Intel Atom Z3735G 4 Çekirdek İşlemci",
+      "2 GB RAM & 16 GB Depolama",
+      "3000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735G (1.33 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 3000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 285,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-via-t17-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 1999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "2 GB RAM"
+        ],
+        "sellerRating": 4.2,
+        "sellerReviews": 45,
+        "url": "https://www.epey.com/tablet/casper-via-t17.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 2199,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 2099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "casper-via-t8b",
+    "slug": "casper-via-t8b",
+    "name": "Casper VIA T8B 1 GB / 16 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 2099,
+    "currency": "TL",
+    "rating": 0.8,
+    "reviewCount": 20,
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/casper-via-t8b-1.png",
+    "images": [
+      "/images/products/tablets/casper-via-t8b-1.png"
+    ],
+    "highlights": [
+      "8.0\" IPS Ekran (1280 x 800)",
+      "Intel Atom Z3735G 4 Çekirdek İşlemci",
+      "4000 mAh Batarya",
+      "1 GB RAM & 16 GB Depolama"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735G (1.33 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 4000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 350,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-via-t8b-offer-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 2099,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "8.0\" Ekran"
+        ],
+        "sellerRating": 4.1,
+        "sellerReviews": 40,
+        "url": "https://www.epey.com/tablet/casper-via-t8b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 2299,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 2199,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2099,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "casper-cta-e07-11a",
+    "slug": "casper-cta-e07-11a",
+    "name": "Casper CTA-E07-11A 1 GB / 8 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 1499,
+    "currency": "TL",
+    "rating": 0.6,
+    "reviewCount": 18,
+    "releaseYear": 2013,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/casper-cta-e07-11a-1.jpg",
+    "images": [
+      "/images/products/tablets/casper-cta-e07-11a-1.jpg"
+    ],
+    "highlights": [
+      "7.0\" LCD Ekran (800 x 480)",
+      "Allwinner A13 Cortex-A8 Tek Çekirdek",
+      "2500 mAh Batarya",
+      "1 GB RAM & 8 GB Dahili Hafıza"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "800 x 480",
+      "panelType": "LCD",
+      "refreshRateHz": 60,
+      "processor": "Allwinner A13 (1.0 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2500,
+      "rearCameraMp": "0.3 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 300,
+      "os": "Android 4.0 (Ice Cream Sandwich)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-cta-e07-11a-offer-1",
+        "storeName": "PttAVM",
+        "storeLogoColor": "#ffcc00",
+        "price": 1499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kompakt Tablet"
+        ],
+        "sellerRating": 4,
+        "sellerReviews": 35,
+        "url": "https://www.epey.com/tablet/casper-cta-e07-11a.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 1699,
+        "store": "PttAVM"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 1599,
+        "store": "PttAVM"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1499,
+        "store": "PttAVM"
+      }
+    ]
+  },
+  {
     "id": "casper-via-l8",
     "slug": "casper-via-l8",
     "name": "Casper VIA L8 (4G / LTE) 2 GB / 16 GB",
