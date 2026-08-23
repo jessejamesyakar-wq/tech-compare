@@ -2,6 +2,838 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "apple-ipad-mini-7-2024",
+    "slug": "apple-ipad-mini-7-2024",
+    "name": "Apple iPad Mini 7 (2024) 128 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 25379,
+    "currency": "TL",
+    "rating": 3,
+    "reviewCount": 568,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-mini-7-2024-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-mini-7-2024-1.jpg"
+    ],
+    "highlights": [
+      "8.3\" Liquid Retina IPS 60Hz Ekran",
+      "Apple A17 Pro İşlemci",
+      "128 GB Dahili Depolama • 8 GB RAM",
+      "Wi-Fi Yüksek Hızlı Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 8.3,
+      "screenResolution": "2266 x 1488",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple A17 Pro",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 5124,
+      "rearCameraMp": "12 MP (4K Video)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 293,
+      "os": "iPadOS 18",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-mini-7-2024-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 25379,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-mini-7-2024.html"
+      },
+      {
+        "id": "apple-ipad-mini-7-2024-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 25125,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-mini-7-2024.html"
+      },
+      {
+        "id": "apple-ipad-mini-7-2024-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 25379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-mini-7-2024.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 26648,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 25887,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 25379,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-9-mk2p3ll",
+    "slug": "apple-ipad-9-mk2p3ll",
+    "name": "Apple iPad 9 3 GB / 256 GB (MK2P3TU/A)",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 21840,
+    "currency": "TL",
+    "rating": 3,
+    "reviewCount": 420,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-9-mk2p3ll-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-9-mk2p3ll-1.jpg"
+    ],
+    "highlights": [
+      "10.2\" Retina IPS 60Hz Ekran",
+      "Apple A13 Bionic İşlemci",
+      "256 GB Dahili Depolama • 3 GB RAM",
+      "Wi-Fi Yüksek Hızlı Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 10.2,
+      "screenResolution": "2160 x 1620",
+      "panelType": "Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple A13 Bionic",
+      "ramGb": 3,
+      "storageGb": 256,
+      "batteryMah": 8557,
+      "rearCameraMp": "8 MP (1080p HD)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 487,
+      "os": "iPadOS 18",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-9-mk2p3ll-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 21840,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-9-mk2p3ll.html"
+      },
+      {
+        "id": "apple-ipad-9-mk2p3ll-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 21622,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-9-mk2p3ll.html"
+      },
+      {
+        "id": "apple-ipad-9-mk2p3ll-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 21840,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-9-mk2p3ll.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 22932,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 22277,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21840,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-2022-10-nesil-wi-fi",
+    "slug": "apple-ipad-2022-10-nesil-wi-fi",
+    "name": "Apple iPad 10.Nesil Wi-Fi (MPQ13TU/A) 64 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 26800,
+    "currency": "TL",
+    "rating": 3,
+    "reviewCount": 368,
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-2022-10-nesil-wi-fi-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-2022-10-nesil-wi-fi-1.jpg"
+    ],
+    "highlights": [
+      "10.9\" Liquid Retina IPS 60Hz Ekran",
+      "Apple A14 Bionic İşlemci",
+      "64 GB Dahili Depolama • 4 GB RAM",
+      "Wi-Fi Yüksek Hızlı Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 10.9,
+      "screenResolution": "2360 x 1640",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple A14 Bionic",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 7606,
+      "rearCameraMp": "12 MP (4K Video)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 477,
+      "os": "iPadOS 18",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-2022-10-nesil-wi-fi-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 26800,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-2022-10-nesil-wi-fi.html"
+      },
+      {
+        "id": "apple-ipad-2022-10-nesil-wi-fi-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 26532,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-2022-10-nesil-wi-fi.html"
+      },
+      {
+        "id": "apple-ipad-2022-10-nesil-wi-fi-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 26800,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-2022-10-nesil-wi-fi.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 28140,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 27336,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 26800,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-9-mk673ll",
+    "slug": "apple-ipad-9-mk673ll",
+    "name": "Apple iPad 9 3 GB / 64 GB / 4G (MK493TU/A)",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 28499,
+    "currency": "TL",
+    "rating": 2.9,
+    "reviewCount": 557,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-9-mk673ll-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-9-mk673ll-1.jpg"
+    ],
+    "highlights": [
+      "10.2\" Retina IPS 60Hz Ekran",
+      "Apple A13 Bionic İşlemci",
+      "64 GB Dahili Depolama • 3 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 10.2,
+      "screenResolution": "2160 x 1620",
+      "panelType": "Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple A13 Bionic",
+      "ramGb": 3,
+      "storageGb": 64,
+      "batteryMah": 8557,
+      "rearCameraMp": "8 MP (1080p HD)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 487,
+      "os": "iPadOS 18",
+      "cellularSupport": "4G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-9-mk673ll-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 28499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-9-mk673ll.html"
+      },
+      {
+        "id": "apple-ipad-9-mk673ll-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 28214,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-9-mk673ll.html"
+      },
+      {
+        "id": "apple-ipad-9-mk673ll-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 28499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-9-mk673ll.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 29924,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 29069,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 28499,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-mini-6-mk8e3ll",
+    "slug": "apple-ipad-mini-6-mk8e3ll",
+    "name": "Apple iPad Mini 6 4 GB / 64 GB / 5G (MK8E3TU/A)",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 32382,
+    "currency": "TL",
+    "rating": 2.8,
+    "reviewCount": 545,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-mini-6-mk8e3ll-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-mini-6-mk8e3ll-1.jpg"
+    ],
+    "highlights": [
+      "8.3\" Liquid Retina IPS 60Hz Ekran",
+      "Apple A15 Bionic İşlemci",
+      "64 GB Dahili Depolama • 4 GB RAM",
+      "5G & Wi-Fi Hücresel Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 8.3,
+      "screenResolution": "2266 x 1488",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple A15 Bionic",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 5124,
+      "rearCameraMp": "12 MP (4K Video)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 293,
+      "os": "iPadOS 18",
+      "cellularSupport": "5G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-mini-6-mk8e3ll-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 32382,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-mini-6-mk8e3ll.html"
+      },
+      {
+        "id": "apple-ipad-mini-6-mk8e3ll-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 32058,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-mini-6-mk8e3ll.html"
+      },
+      {
+        "id": "apple-ipad-mini-6-mk8e3ll-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 32382,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-mini-6-mk8e3ll.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 34001,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 33030,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 32382,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-9",
+    "slug": "apple-ipad-9",
+    "name": "Apple iPad 9 3 GB / 64 GB (MK2L3TU/A)",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 19702,
+    "currency": "TL",
+    "rating": 2.7,
+    "reviewCount": 472,
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-9-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-9-1.jpg"
+    ],
+    "highlights": [
+      "10.2\" Retina IPS 60Hz Ekran",
+      "Apple A13 Bionic İşlemci",
+      "64 GB Dahili Depolama • 3 GB RAM",
+      "Wi-Fi Yüksek Hızlı Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 10.2,
+      "screenResolution": "2160 x 1620",
+      "panelType": "Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple A13 Bionic",
+      "ramGb": 3,
+      "storageGb": 64,
+      "batteryMah": 8557,
+      "rearCameraMp": "8 MP (1080p HD)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 487,
+      "os": "iPadOS 18",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-9-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 19702,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-9.html"
+      },
+      {
+        "id": "apple-ipad-9-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 19505,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-9.html"
+      },
+      {
+        "id": "apple-ipad-9-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 19702,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-9.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 20687,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 20096,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19702,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-mini-6-mlwl3ll",
+    "slug": "apple-ipad-mini-6-mlwl3ll",
+    "name": "Apple iPad Mini 6 4 GB / 64 GB (MLWL3TU/A)",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 23464,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 278,
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-mini-6-mlwl3ll-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-mini-6-mlwl3ll-1.jpg"
+    ],
+    "highlights": [
+      "8.3\" Liquid Retina IPS 60Hz Ekran",
+      "Apple A15 Bionic İşlemci",
+      "64 GB Dahili Depolama • 4 GB RAM",
+      "Wi-Fi Yüksek Hızlı Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 8.3,
+      "screenResolution": "2266 x 1488",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple A15 Bionic",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 5124,
+      "rearCameraMp": "12 MP (4K Video)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 293,
+      "os": "iPadOS 18",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-mini-6-mlwl3ll-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 23464,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-mini-6-mlwl3ll.html"
+      },
+      {
+        "id": "apple-ipad-mini-6-mlwl3ll-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 23229,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-mini-6-mlwl3ll.html"
+      },
+      {
+        "id": "apple-ipad-mini-6-mlwl3ll-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 23464,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-mini-6-mlwl3ll.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 24637,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 23933,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 23464,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-mini-3",
+    "slug": "apple-ipad-mini-3",
+    "name": "Apple iPad Mini 3 16 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 6999,
+    "currency": "TL",
+    "rating": 2.8,
+    "reviewCount": 435,
+    "releaseYear": 2014,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-mini-3-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-mini-3-1.jpg"
+    ],
+    "highlights": [
+      "8.3\" Retina IPS 60Hz Ekran",
+      "Apple A7 İşlemci",
+      "16 GB Dahili Depolama • 1 GB RAM",
+      "Wi-Fi Yüksek Hızlı Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 8.3,
+      "screenResolution": "2048 x 1536",
+      "panelType": "Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple A7",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 5124,
+      "rearCameraMp": "12 MP (4K Video)",
+      "frontCameraMp": "1.2 MP FaceTime HD",
+      "weightGrams": 293,
+      "os": "iOS 12",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-mini-3-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 6999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-mini-3.html"
+      },
+      {
+        "id": "apple-ipad-mini-3-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 6929,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-mini-3.html"
+      },
+      {
+        "id": "apple-ipad-mini-3-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 6999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-mini-3.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 7349,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 7139,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-air-11-2024-1-tb",
     "slug": "apple-ipad-air-11-2024-1-tb",
     "name": "Apple iPad Air 11 (2024) 1024 GB",
