@@ -2,6 +2,942 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "apple-ipad-pro-13-m5-wi-fi-standart-cam-16-gb-2048-gb",
+    "slug": "apple-ipad-pro-13-m5-wi-fi-standart-cam-16-gb-2048-gb",
+    "name": "Apple iPad Pro 13 (M5) Wi-Fi (Standart Cam) 16 GB / 2048 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 123199,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 481,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-pro-13-m5-wi-fi-standart-cam-16-gb-2048-gb-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-13-m5-wi-fi-standart-cam-16-gb-2048-gb-1.jpg"
+    ],
+    "highlights": [
+      "13\" Ultra Retina Tandem OLED 120Hz Ekran",
+      "Apple M5 Güçlü Apple Silikon Çip",
+      "2 TB Dahili Depolama • 16 GB RAM",
+      "Wi-Fi 6E / Wi-Fi 7 Yüksek Hız"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2752 x 2064",
+      "panelType": "Ultra Retina Tandem OLED",
+      "refreshRateHz": 120,
+      "processor": "Apple M5",
+      "ramGb": 16,
+      "storageGb": 2048,
+      "batteryMah": 10290,
+      "rearCameraMp": "12 MP (LiDAR Destekli 4K Video)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 579,
+      "os": "iPadOS 18",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-13-m5-wi-fi-standart-cam-16-gb-2048-gb-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 123199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-m5-wi-fi-standart-cam-16-gb-2048-gb.html"
+      },
+      {
+        "id": "apple-ipad-pro-13-m5-wi-fi-standart-cam-16-gb-2048-gb-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 121967,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-m5-wi-fi-standart-cam-16-gb-2048-gb.html"
+      },
+      {
+        "id": "apple-ipad-pro-13-m5-wi-fi-standart-cam-16-gb-2048-gb-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 123199,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-m5-wi-fi-standart-cam-16-gb-2048-gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 129359,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 125663,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 123199,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-13-m5-wi-fi-nano-texture-cam-16-gb-2048-gb",
+    "slug": "apple-ipad-pro-13-m5-wi-fi-nano-texture-cam-16-gb-2048-gb",
+    "name": "Apple iPad Pro 13 (M5) Wi-Fi (Nano-texture Cam) 16 GB / 2048 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 111005,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 588,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-pro-13-m5-wi-fi-nano-texture-cam-16-gb-2048-gb-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-13-m5-wi-fi-nano-texture-cam-16-gb-2048-gb-1.jpg"
+    ],
+    "highlights": [
+      "13\" Ultra Retina Tandem OLED 120Hz Ekran",
+      "Apple M5 Güçlü Apple Silikon Çip",
+      "2 TB Dahili Depolama • 16 GB RAM",
+      "Wi-Fi 6E / Wi-Fi 7 Yüksek Hız"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2752 x 2064",
+      "panelType": "Ultra Retina Tandem OLED",
+      "refreshRateHz": 120,
+      "processor": "Apple M5",
+      "ramGb": 16,
+      "storageGb": 2048,
+      "batteryMah": 10290,
+      "rearCameraMp": "12 MP (LiDAR Destekli 4K Video)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 579,
+      "os": "iPadOS 18",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-13-m5-wi-fi-nano-texture-cam-16-gb-2048-gb-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 111005,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-m5-wi-fi-nano-texture-cam-16-gb-2048-gb.html"
+      },
+      {
+        "id": "apple-ipad-pro-13-m5-wi-fi-nano-texture-cam-16-gb-2048-gb-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 109895,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-m5-wi-fi-nano-texture-cam-16-gb-2048-gb.html"
+      },
+      {
+        "id": "apple-ipad-pro-13-m5-wi-fi-nano-texture-cam-16-gb-2048-gb-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 111005,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-m5-wi-fi-nano-texture-cam-16-gb-2048-gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 116555,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 113225,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 111005,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-13-2024-wi-fi-plus-cellular-1024",
+    "slug": "apple-ipad-pro-13-2024-wi-fi-plus-cellular-1024",
+    "name": "Apple iPad Pro 13 (M4) Wi-Fi + Cellular 1024 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 85499,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 425,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-pro-13-2024-wi-fi-plus-cellular-1024-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-13-2024-wi-fi-plus-cellular-1024-1.jpg"
+    ],
+    "highlights": [
+      "13\" Ultra Retina Tandem OLED 120Hz Ekran",
+      "Apple M4 Güçlü Apple Silikon Çip",
+      "1 TB Dahili Depolama • 16 GB RAM",
+      "5G & Wi-Fi Hücresel Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2752 x 2064",
+      "panelType": "Ultra Retina Tandem OLED",
+      "refreshRateHz": 120,
+      "processor": "Apple M4",
+      "ramGb": 16,
+      "storageGb": 1024,
+      "batteryMah": 10290,
+      "rearCameraMp": "12 MP (LiDAR Destekli 4K Video)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 579,
+      "os": "iPadOS 18",
+      "cellularSupport": "4G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-13-2024-wi-fi-plus-cellular-1024-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 85499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-2024-wi-fi-plus-cellular-1024.html"
+      },
+      {
+        "id": "apple-ipad-pro-13-2024-wi-fi-plus-cellular-1024-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 84644,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-2024-wi-fi-plus-cellular-1024.html"
+      },
+      {
+        "id": "apple-ipad-pro-13-2024-wi-fi-plus-cellular-1024-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 85499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-2024-wi-fi-plus-cellular-1024.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 89774,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 87209,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 85499,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-11-m5-wi-fi-plus-cellular-16gb-2tbssd",
+    "slug": "apple-ipad-pro-11-m5-wi-fi-plus-cellular-16gb-2tbssd",
+    "name": "Apple iPad Pro 11 (M5)  Wi-Fi + Cellular 16 GB / 2048 GB / 5G",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 133185,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 675,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-pro-11-m5-wi-fi-plus-cellular-16gb-2tbssd-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-11-m5-wi-fi-plus-cellular-16gb-2tbssd-1.jpg"
+    ],
+    "highlights": [
+      "11\" Ultra Retina Tandem OLED 120Hz Ekran",
+      "Apple M5 Güçlü Apple Silikon Çip",
+      "2 TB Dahili Depolama • 16 GB RAM",
+      "5G & Wi-Fi Hücresel Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "2420 x 1668",
+      "panelType": "Ultra Retina Tandem OLED",
+      "refreshRateHz": 120,
+      "processor": "Apple M5",
+      "ramGb": 16,
+      "storageGb": 2048,
+      "batteryMah": 8340,
+      "rearCameraMp": "12 MP (LiDAR Destekli 4K Video)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 444,
+      "os": "iPadOS 18",
+      "cellularSupport": "5G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-11-m5-wi-fi-plus-cellular-16gb-2tbssd-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 133185,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-m5-wi-fi-plus-cellular-16gb-2tbssd.html"
+      },
+      {
+        "id": "apple-ipad-pro-11-m5-wi-fi-plus-cellular-16gb-2tbssd-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 131853,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-m5-wi-fi-plus-cellular-16gb-2tbssd.html"
+      },
+      {
+        "id": "apple-ipad-pro-11-m5-wi-fi-plus-cellular-16gb-2tbssd-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 133185,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-m5-wi-fi-plus-cellular-16gb-2tbssd.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 139844,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 135849,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 133185,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-13-2024-wi-fi-plus-cellular-2048",
+    "slug": "apple-ipad-pro-13-2024-wi-fi-plus-cellular-2048",
+    "name": "Apple iPad Pro 13 (M4) Wi-Fi + Cellular 2048 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 76474,
+    "currency": "TL",
+    "rating": 4.9,
+    "reviewCount": 440,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-pro-13-2024-wi-fi-plus-cellular-2048-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-13-2024-wi-fi-plus-cellular-2048-1.jpg"
+    ],
+    "highlights": [
+      "13\" Ultra Retina Tandem OLED 120Hz Ekran",
+      "Apple M4 Güçlü Apple Silikon Çip",
+      "2 TB Dahili Depolama • 16 GB RAM",
+      "5G & Wi-Fi Hücresel Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2752 x 2064",
+      "panelType": "Ultra Retina Tandem OLED",
+      "refreshRateHz": 120,
+      "processor": "Apple M4",
+      "ramGb": 16,
+      "storageGb": 2048,
+      "batteryMah": 10290,
+      "rearCameraMp": "12 MP (LiDAR Destekli 4K Video)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 579,
+      "os": "iPadOS 18",
+      "cellularSupport": "4G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-13-2024-wi-fi-plus-cellular-2048-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 76474,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-2024-wi-fi-plus-cellular-2048.html"
+      },
+      {
+        "id": "apple-ipad-pro-13-2024-wi-fi-plus-cellular-2048-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 75709,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-2024-wi-fi-plus-cellular-2048.html"
+      },
+      {
+        "id": "apple-ipad-pro-13-2024-wi-fi-plus-cellular-2048-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 76474,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-2024-wi-fi-plus-cellular-2048.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 80298,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 78003,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 76474,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-13-m5-wi-fi-plus-cellular-standart-cam",
+    "slug": "apple-ipad-pro-13-m5-wi-fi-plus-cellular-standart-cam",
+    "name": "Apple iPad Pro 13 (M5) Wi-Fi + Cellular (Standart Cam) 16 GB / 1024 GB / 5G",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 114999,
+    "currency": "TL",
+    "rating": 5,
+    "reviewCount": 754,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-pro-13-m5-wi-fi-plus-cellular-standart-cam-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-13-m5-wi-fi-plus-cellular-standart-cam-1.jpg"
+    ],
+    "highlights": [
+      "13\" Ultra Retina Tandem OLED 120Hz Ekran",
+      "Apple M5 Güçlü Apple Silikon Çip",
+      "1 TB Dahili Depolama • 16 GB RAM",
+      "5G & Wi-Fi Hücresel Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2752 x 2064",
+      "panelType": "Ultra Retina Tandem OLED",
+      "refreshRateHz": 120,
+      "processor": "Apple M5",
+      "ramGb": 16,
+      "storageGb": 1024,
+      "batteryMah": 10290,
+      "rearCameraMp": "12 MP (LiDAR Destekli 4K Video)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 579,
+      "os": "iPadOS 18",
+      "cellularSupport": "5G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-13-m5-wi-fi-plus-cellular-standart-cam-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 114999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-m5-wi-fi-plus-cellular-standart-cam.html"
+      },
+      {
+        "id": "apple-ipad-pro-13-m5-wi-fi-plus-cellular-standart-cam-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 113849,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-m5-wi-fi-plus-cellular-standart-cam.html"
+      },
+      {
+        "id": "apple-ipad-pro-13-m5-wi-fi-plus-cellular-standart-cam-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 114999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-m5-wi-fi-plus-cellular-standart-cam.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 120749,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 117299,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 114999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-13-m5-wi-fi-plus-cellular-nano-texture-cam",
+    "slug": "apple-ipad-pro-13-m5-wi-fi-plus-cellular-nano-texture-cam",
+    "name": "Apple iPad Pro 13 (M5) Wi-Fi + Cellular (Nano-texture Cam) 16 GB / 1024 GB / 5G",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 114999,
+    "currency": "TL",
+    "rating": 5,
+    "reviewCount": 439,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-pro-13-m5-wi-fi-plus-cellular-nano-texture-cam-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-13-m5-wi-fi-plus-cellular-nano-texture-cam-1.jpg"
+    ],
+    "highlights": [
+      "13\" Ultra Retina Tandem OLED 120Hz Ekran",
+      "Apple M5 Güçlü Apple Silikon Çip",
+      "1 TB Dahili Depolama • 16 GB RAM",
+      "5G & Wi-Fi Hücresel Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2752 x 2064",
+      "panelType": "Ultra Retina Tandem OLED",
+      "refreshRateHz": 120,
+      "processor": "Apple M5",
+      "ramGb": 16,
+      "storageGb": 1024,
+      "batteryMah": 10290,
+      "rearCameraMp": "12 MP (LiDAR Destekli 4K Video)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 579,
+      "os": "iPadOS 18",
+      "cellularSupport": "5G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-13-m5-wi-fi-plus-cellular-nano-texture-cam-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 114999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-m5-wi-fi-plus-cellular-nano-texture-cam.html"
+      },
+      {
+        "id": "apple-ipad-pro-13-m5-wi-fi-plus-cellular-nano-texture-cam-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 113849,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-m5-wi-fi-plus-cellular-nano-texture-cam.html"
+      },
+      {
+        "id": "apple-ipad-pro-13-m5-wi-fi-plus-cellular-nano-texture-cam-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 114999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-m5-wi-fi-plus-cellular-nano-texture-cam.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 120749,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 117299,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 114999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-13-m5-wi-fi-plus-cellular-nano-texture-cam-16-gb-2048-gb",
+    "slug": "apple-ipad-pro-13-m5-wi-fi-plus-cellular-nano-texture-cam-16-gb-2048-gb",
+    "name": "Apple iPad Pro 13 (M5) Wi-Fi + Cellular (Nano-texture Cam) 16 GB / 2048 GB / 5G",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 156580,
+    "currency": "TL",
+    "rating": 5,
+    "reviewCount": 685,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-pro-13-m5-wi-fi-plus-cellular-nano-texture-cam-16-gb-2048-gb-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-13-m5-wi-fi-plus-cellular-nano-texture-cam-16-gb-2048-gb-1.jpg"
+    ],
+    "highlights": [
+      "13\" Ultra Retina Tandem OLED 120Hz Ekran",
+      "Apple M5 Güçlü Apple Silikon Çip",
+      "2 TB Dahili Depolama • 16 GB RAM",
+      "5G & Wi-Fi Hücresel Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2752 x 2064",
+      "panelType": "Ultra Retina Tandem OLED",
+      "refreshRateHz": 120,
+      "processor": "Apple M5",
+      "ramGb": 16,
+      "storageGb": 2048,
+      "batteryMah": 10290,
+      "rearCameraMp": "12 MP (LiDAR Destekli 4K Video)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 579,
+      "os": "iPadOS 18",
+      "cellularSupport": "5G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-13-m5-wi-fi-plus-cellular-nano-texture-cam-16-gb-2048-gb-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 156580,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-m5-wi-fi-plus-cellular-nano-texture-cam-16-gb-2048-gb.html"
+      },
+      {
+        "id": "apple-ipad-pro-13-m5-wi-fi-plus-cellular-nano-texture-cam-16-gb-2048-gb-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 155014,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-m5-wi-fi-plus-cellular-nano-texture-cam-16-gb-2048-gb.html"
+      },
+      {
+        "id": "apple-ipad-pro-13-m5-wi-fi-plus-cellular-nano-texture-cam-16-gb-2048-gb-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 156580,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-m5-wi-fi-plus-cellular-nano-texture-cam-16-gb-2048-gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 164409,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 159712,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 156580,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-13-m5-wi-fi-plus-cellular-standart-cam-16-gb-2048-gb-5g",
+    "slug": "apple-ipad-pro-13-m5-wi-fi-plus-cellular-standart-cam-16-gb-2048-gb-5g",
+    "name": "Apple iPad Pro 13 (M5) Wi-Fi + Cellular (Standart Cam) 16 GB / 2048 GB / 5G",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 129001,
+    "currency": "TL",
+    "rating": 5,
+    "reviewCount": 565,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-pro-13-m5-wi-fi-plus-cellular-standart-cam-16-gb-2048-gb-5g-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-13-m5-wi-fi-plus-cellular-standart-cam-16-gb-2048-gb-5g-1.jpg"
+    ],
+    "highlights": [
+      "13\" Ultra Retina Tandem OLED 120Hz Ekran",
+      "Apple M5 Güçlü Apple Silikon Çip",
+      "2 TB Dahili Depolama • 16 GB RAM",
+      "5G & Wi-Fi Hücresel Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2752 x 2064",
+      "panelType": "Ultra Retina Tandem OLED",
+      "refreshRateHz": 120,
+      "processor": "Apple M5",
+      "ramGb": 16,
+      "storageGb": 2048,
+      "batteryMah": 10290,
+      "rearCameraMp": "12 MP (LiDAR Destekli 4K Video)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 579,
+      "os": "iPadOS 18",
+      "cellularSupport": "5G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-13-m5-wi-fi-plus-cellular-standart-cam-16-gb-2048-gb-5g-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 129001,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-m5-wi-fi-plus-cellular-standart-cam-16-gb-2048-gb-5g.html"
+      },
+      {
+        "id": "apple-ipad-pro-13-m5-wi-fi-plus-cellular-standart-cam-16-gb-2048-gb-5g-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 127711,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-m5-wi-fi-plus-cellular-standart-cam-16-gb-2048-gb-5g.html"
+      },
+      {
+        "id": "apple-ipad-pro-13-m5-wi-fi-plus-cellular-standart-cam-16-gb-2048-gb-5g-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 129001,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-m5-wi-fi-plus-cellular-standart-cam-16-gb-2048-gb-5g.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 135451,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 131581,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 129001,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
     "id": "samsung-galaxy-tab-a9-plus",
     "slug": "samsung-galaxy-tab-a9-plus",
     "name": "Samsung Galaxy Tab A9+ (64 GB / 11.0\")",
