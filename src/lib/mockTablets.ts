@@ -2,6 +2,942 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "apple-ipad-pro-12-9-256gb-wi-fi",
+    "slug": "apple-ipad-pro-12-9-256gb-wi-fi",
+    "name": "Apple iPad Pro 12.9 256 GB (MXAT2TU/A)",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 36999,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 156,
+    "releaseYear": 2020,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-pro-12-9-256gb-wi-fi-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-12-9-256gb-wi-fi-1.jpg"
+    ],
+    "highlights": [
+      "12.9\" Liquid Retina IPS 120Hz Ekran",
+      "Apple A12Z Bionic Çip",
+      "256 GB Dahili Depolama • 6 GB RAM",
+      "Wi-Fi Yüksek Hızlı Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 12.9,
+      "screenResolution": "2732 x 2048",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 120,
+      "processor": "Apple A12Z Bionic",
+      "ramGb": 6,
+      "storageGb": 256,
+      "batteryMah": 9720,
+      "rearCameraMp": "12 MP + 10 MP Ultra Geniş",
+      "frontCameraMp": "7 MP TrueDepth",
+      "weightGrams": 641,
+      "os": "iPadOS 17",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-12-9-256gb-wi-fi-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 36999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-12-9-256gb-wi-fi.html"
+      },
+      {
+        "id": "apple-ipad-pro-12-9-256gb-wi-fi-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 36629,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-12-9-256gb-wi-fi.html"
+      },
+      {
+        "id": "apple-ipad-pro-12-9-256gb-wi-fi-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 36999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1950,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-12-9-256gb-wi-fi.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 38849,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 37739,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 36999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-air-2-wifi-cellular",
+    "slug": "apple-ipad-air-2-wifi-cellular",
+    "name": "Apple iPad Air 2 16 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 5999,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 277,
+    "releaseYear": 2014,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-air-2-wifi-cellular-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-air-2-wifi-cellular-1.jpg"
+    ],
+    "highlights": [
+      "9.7\" Retina IPS 60Hz Ekran",
+      "Apple A8X Çip",
+      "16 GB Dahili Depolama • 2 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 9.7,
+      "screenResolution": "2048 x 1536",
+      "panelType": "Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple A8X",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 7340,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "1.2 MP FaceTime HD",
+      "weightGrams": 469,
+      "os": "iOS 12",
+      "cellularSupport": "4G/3G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-air-2-wifi-cellular-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-2-wifi-cellular.html"
+      },
+      {
+        "id": "apple-ipad-air-2-wifi-cellular-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 5939,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-2-wifi-cellular.html"
+      },
+      {
+        "id": "apple-ipad-air-2-wifi-cellular-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1950,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-2-wifi-cellular.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 6299,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 6119,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-9-7-128gb",
+    "slug": "apple-ipad-pro-9-7-128gb",
+    "name": "Apple iPad Pro 9.7 128 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 12999,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 216,
+    "releaseYear": 2016,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-pro-9-7-128gb-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-9-7-128gb-1.jpg"
+    ],
+    "highlights": [
+      "9.7\" Liquid Retina IPS 60Hz Ekran",
+      "Apple A9X Çip",
+      "128 GB Dahili Depolama • 2 GB RAM",
+      "Wi-Fi Yüksek Hızlı Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 9.7,
+      "screenResolution": "2048 x 1536",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple A9X",
+      "ramGb": 2,
+      "storageGb": 128,
+      "batteryMah": 7340,
+      "rearCameraMp": "12 MP",
+      "frontCameraMp": "7 MP TrueDepth",
+      "weightGrams": 469,
+      "os": "iPadOS 16",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-9-7-128gb-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-9-7-128gb.html"
+      },
+      {
+        "id": "apple-ipad-pro-9-7-128gb-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 12869,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-9-7-128gb.html"
+      },
+      {
+        "id": "apple-ipad-pro-9-7-128gb-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1950,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-9-7-128gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 13649,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 13259,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro",
+    "slug": "apple-ipad-pro",
+    "name": "Apple iPad Pro 12.9 32 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 13999,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 232,
+    "releaseYear": 2015,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-pro-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-1.jpg"
+    ],
+    "highlights": [
+      "12.9\" Liquid Retina IPS 60Hz Ekran",
+      "Apple A9X Çip",
+      "32 GB Dahili Depolama • 4 GB RAM",
+      "Wi-Fi Yüksek Hızlı Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 12.9,
+      "screenResolution": "2732 x 2048",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple A9X",
+      "ramGb": 4,
+      "storageGb": 32,
+      "batteryMah": 9720,
+      "rearCameraMp": "12 MP",
+      "frontCameraMp": "7 MP TrueDepth",
+      "weightGrams": 641,
+      "os": "iPadOS 16",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 13999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro.html"
+      },
+      {
+        "id": "apple-ipad-pro-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 13859,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro.html"
+      },
+      {
+        "id": "apple-ipad-pro-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 13999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1950,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 14699,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 14279,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-9-7-2018-wi-fi-mrjp2fd-a",
+    "slug": "apple-ipad-9-7-2018-wi-fi-mrjp2fd-a",
+    "name": "Apple iPad 6 128 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 9999,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 215,
+    "releaseYear": 2018,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-9-7-2018-wi-fi-mrjp2fd-a-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-9-7-2018-wi-fi-mrjp2fd-a-1.jpg"
+    ],
+    "highlights": [
+      "9.7\" Retina IPS 60Hz Ekran",
+      "Apple A10 Fusion Çip",
+      "128 GB Dahili Depolama • 2 GB RAM",
+      "Wi-Fi Yüksek Hızlı Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 9.7,
+      "screenResolution": "2048 x 1536",
+      "panelType": "Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple A10 Fusion",
+      "ramGb": 2,
+      "storageGb": 128,
+      "batteryMah": 7340,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "1.2 MP FaceTime HD",
+      "weightGrams": 469,
+      "os": "iPadOS 16",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-9-7-2018-wi-fi-mrjp2fd-a-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 9999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/tablet/apple-ipad-9-7-2018-wi-fi-mrjp2fd-a.html"
+      },
+      {
+        "id": "apple-ipad-9-7-2018-wi-fi-mrjp2fd-a-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 9899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/tablet/apple-ipad-9-7-2018-wi-fi-mrjp2fd-a.html"
+      },
+      {
+        "id": "apple-ipad-9-7-2018-wi-fi-mrjp2fd-a-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 9999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1950,
+        "url": "https://www.epey.com/tablet/apple-ipad-9-7-2018-wi-fi-mrjp2fd-a.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 10499,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 10199,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-mini-4-wi-fi-plus-cellular-128gb",
+    "slug": "apple-ipad-mini-4-wi-fi-plus-cellular-128gb",
+    "name": "Apple iPad Mini 4 128 GB / 4G",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 7999,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 246,
+    "releaseYear": 2015,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-mini-4-wi-fi-plus-cellular-128gb-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-mini-4-wi-fi-plus-cellular-128gb-1.jpg"
+    ],
+    "highlights": [
+      "7.9\" Retina IPS 60Hz Ekran",
+      "Apple A8 Çip",
+      "128 GB Dahili Depolama • 2 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 7.9,
+      "screenResolution": "2048 x 1536",
+      "panelType": "Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple A8",
+      "ramGb": 2,
+      "storageGb": 128,
+      "batteryMah": 5124,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "1.2 MP FaceTime HD",
+      "weightGrams": 300,
+      "os": "iPadOS 16",
+      "cellularSupport": "4G/3G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-mini-4-wi-fi-plus-cellular-128gb-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/tablet/apple-ipad-mini-4-wi-fi-plus-cellular-128gb.html"
+      },
+      {
+        "id": "apple-ipad-mini-4-wi-fi-plus-cellular-128gb-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 7919,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/tablet/apple-ipad-mini-4-wi-fi-plus-cellular-128gb.html"
+      },
+      {
+        "id": "apple-ipad-mini-4-wi-fi-plus-cellular-128gb-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1950,
+        "url": "https://www.epey.com/tablet/apple-ipad-mini-4-wi-fi-plus-cellular-128gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 8399,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 8159,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-mini-5-7-9-256-gb-wi-fi-plus-cellular",
+    "slug": "apple-ipad-mini-5-7-9-256-gb-wi-fi-plus-cellular",
+    "name": "Apple iPad Mini 5  256 GB / 4G",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 16999,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 193,
+    "releaseYear": 2019,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-mini-5-7-9-256-gb-wi-fi-plus-cellular-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-mini-5-7-9-256-gb-wi-fi-plus-cellular-1.jpg"
+    ],
+    "highlights": [
+      "7.9\" Retina IPS 60Hz Ekran",
+      "Apple A12 Bionic Çip",
+      "256 GB Dahili Depolama • 3 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 7.9,
+      "screenResolution": "2048 x 1536",
+      "panelType": "Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple A12 Bionic",
+      "ramGb": 3,
+      "storageGb": 256,
+      "batteryMah": 5124,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "7 MP FaceTime HD",
+      "weightGrams": 300,
+      "os": "iPadOS 17",
+      "cellularSupport": "4G/3G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-mini-5-7-9-256-gb-wi-fi-plus-cellular-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 16999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/tablet/apple-ipad-mini-5-7-9-256-gb-wi-fi-plus-cellular.html"
+      },
+      {
+        "id": "apple-ipad-mini-5-7-9-256-gb-wi-fi-plus-cellular-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 16829,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/tablet/apple-ipad-mini-5-7-9-256-gb-wi-fi-plus-cellular.html"
+      },
+      {
+        "id": "apple-ipad-mini-5-7-9-256-gb-wi-fi-plus-cellular-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 16999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1950,
+        "url": "https://www.epey.com/tablet/apple-ipad-mini-5-7-9-256-gb-wi-fi-plus-cellular.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 17849,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 17339,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-7-10-2-32-gb-wi-fi-plus-cellular",
+    "slug": "apple-ipad-7-10-2-32-gb-wi-fi-plus-cellular",
+    "name": "Apple Ipad 7 32 GB / 4G",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 8999,
+    "currency": "TL",
+    "rating": 2.4,
+    "reviewCount": 330,
+    "releaseYear": 2019,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-7-10-2-32-gb-wi-fi-plus-cellular-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-7-10-2-32-gb-wi-fi-plus-cellular-1.jpg"
+    ],
+    "highlights": [
+      "10.2\" Retina IPS 60Hz Ekran",
+      "Apple A10 Fusion Çip",
+      "32 GB Dahili Depolama • 3 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 10.2,
+      "screenResolution": "2160 x 1620",
+      "panelType": "Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple A10 Fusion",
+      "ramGb": 3,
+      "storageGb": 32,
+      "batteryMah": 8827,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "7 MP FaceTime HD",
+      "weightGrams": 483,
+      "os": "iPadOS 17",
+      "cellularSupport": "4G/3G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-7-10-2-32-gb-wi-fi-plus-cellular-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/tablet/apple-ipad-7-10-2-32-gb-wi-fi-plus-cellular.html"
+      },
+      {
+        "id": "apple-ipad-7-10-2-32-gb-wi-fi-plus-cellular-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 8909,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/tablet/apple-ipad-7-10-2-32-gb-wi-fi-plus-cellular.html"
+      },
+      {
+        "id": "apple-ipad-7-10-2-32-gb-wi-fi-plus-cellular-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1950,
+        "url": "https://www.epey.com/tablet/apple-ipad-7-10-2-32-gb-wi-fi-plus-cellular.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 9449,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 9179,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-4-wifi-plus-cellular-64gb",
+    "slug": "apple-ipad-4-wifi-plus-cellular-64gb",
+    "name": "Apple iPad 4 1 GB / 64 GB / 3G",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 4999,
+    "currency": "TL",
+    "rating": 2.4,
+    "reviewCount": 222,
+    "releaseYear": 2012,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-4-wifi-plus-cellular-64gb-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-4-wifi-plus-cellular-64gb-1.jpg"
+    ],
+    "highlights": [
+      "9.7\" Retina IPS 60Hz Ekran",
+      "Apple A6X Çip",
+      "64 GB Dahili Depolama • 1 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 9.7,
+      "screenResolution": "2048 x 1536",
+      "panelType": "Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple A6X",
+      "ramGb": 1,
+      "storageGb": 64,
+      "batteryMah": 7340,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "1.2 MP FaceTime HD",
+      "weightGrams": 469,
+      "os": "iOS 10",
+      "cellularSupport": "4G/3G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-4-wifi-plus-cellular-64gb-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/tablet/apple-ipad-4-wifi-plus-cellular-64gb.html"
+      },
+      {
+        "id": "apple-ipad-4-wifi-plus-cellular-64gb-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 4949,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/tablet/apple-ipad-4-wifi-plus-cellular-64gb.html"
+      },
+      {
+        "id": "apple-ipad-4-wifi-plus-cellular-64gb-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1950,
+        "url": "https://www.epey.com/tablet/apple-ipad-4-wifi-plus-cellular-64gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 5249,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 5099,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-mini-6-mk8h3ll",
     "slug": "apple-ipad-mini-6-mk8h3ll",
     "name": "Apple iPad Mini 6 4 GB / 256 GB / 5G (MK8H3TU/A)",
