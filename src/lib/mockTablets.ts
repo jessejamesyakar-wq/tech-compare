@@ -2,6 +2,734 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "lenovo-tab-p11-pro-tb-j706f",
+    "slug": "lenovo-tab-p11-pro-tb-j706f",
+    "name": "Lenovo Tab P11 Pro (ZA7C0082SE)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 18999,
+    "currency": "TL",
+    "rating": 2.8,
+    "reviewCount": 179,
+    "releaseYear": 2020,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/lenovo-tab-p11-pro-tb-j706f-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-tab-p11-pro-tb-j706f-1.jpg"
+    ],
+    "highlights": [
+      "11.5\" 2.5K OLED Dolby Vision HDR10 Ekran",
+      "Qualcomm Snapdragon 730G İşlemci",
+      "128 GB Dahili Depolama • 6 GB RAM",
+      "Çift Bant Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 11.5,
+      "screenResolution": "2560 x 1600",
+      "panelType": "2.5K OLED Dolby Vision HDR10",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon 730G",
+      "ramGb": 6,
+      "storageGb": 128,
+      "batteryMah": 8600,
+      "rearCameraMp": "13 MP + 5 MP",
+      "frontCameraMp": "8 MP + 8 MP",
+      "weightGrams": 485,
+      "os": "Android 10",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-tab-p11-pro-tb-j706f-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2400,
+        "url": "https://www.epey.com/tablet/lenovo-tab-p11-pro-tb-j706f.html"
+      },
+      {
+        "id": "lenovo-tab-p11-pro-tb-j706f-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 19189,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/lenovo-tab-p11-pro-tb-j706f.html"
+      },
+      {
+        "id": "lenovo-tab-p11-pro-tb-j706f-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 19379,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1600,
+        "url": "https://www.epey.com/tablet/lenovo-tab-p11-pro-tb-j706f.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 19949,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 19379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-legion-y700-2022",
+    "slug": "lenovo-legion-y700-2022",
+    "name": "Lenovo Legion Y700",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 16499,
+    "currency": "TL",
+    "rating": 2.7,
+    "reviewCount": 117,
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/lenovo-legion-y700-2022-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-legion-y700-2022-1.jpg"
+    ],
+    "highlights": [
+      "8.8\" 2.5K LCD 120Hz Dolby Vision Ekran",
+      "Qualcomm Snapdragon 870 İşlemci",
+      "128 GB Dahili Depolama • 8 GB RAM",
+      "Çift Bant Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 8.8,
+      "screenResolution": "2560 x 1600",
+      "panelType": "2.5K LCD 120Hz Dolby Vision",
+      "refreshRateHz": 120,
+      "processor": "Qualcomm Snapdragon 870",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 6550,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 375,
+      "os": "Android 10",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-legion-y700-2022-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 16499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2400,
+        "url": "https://www.epey.com/tablet/lenovo-legion-y700-2022.html"
+      },
+      {
+        "id": "lenovo-legion-y700-2022-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 16664,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/lenovo-legion-y700-2022.html"
+      },
+      {
+        "id": "lenovo-legion-y700-2022-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 16829,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1600,
+        "url": "https://www.epey.com/tablet/lenovo-legion-y700-2022.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 17324,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 16829,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-yoga-tab-3-plus-lte",
+    "slug": "lenovo-yoga-tab-3-plus-lte",
+    "name": "Lenovo Yoga Tab 3 Plus LTE 4G",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 11999,
+    "currency": "TL",
+    "rating": 2.6,
+    "reviewCount": 151,
+    "releaseYear": 2016,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/lenovo-yoga-tab-3-plus-lte-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-yoga-tab-3-plus-lte-1.jpg"
+    ],
+    "highlights": [
+      "10.1\" 2K IPS LCD Ekran",
+      "Qualcomm Snapdragon 652 İşlemci",
+      "32 GB Dahili Depolama • 3 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "2560 x 1600",
+      "panelType": "2K IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon 652",
+      "ramGb": 3,
+      "storageGb": 32,
+      "batteryMah": 9300,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 644,
+      "os": "Android 6.0 / 7.0",
+      "cellularSupport": "4G LTE + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-yoga-tab-3-plus-lte-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2400,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-tab-3-plus-lte.html"
+      },
+      {
+        "id": "lenovo-yoga-tab-3-plus-lte-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 12119,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-tab-3-plus-lte.html"
+      },
+      {
+        "id": "lenovo-yoga-tab-3-plus-lte-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 12239,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1600,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-tab-3-plus-lte.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 12599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 12239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-yoga-book-android-4g",
+    "slug": "lenovo-yoga-book-android-4g",
+    "name": "Lenovo Yoga Book 4G / Android 6.x (Marshmallow)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 13499,
+    "currency": "TL",
+    "rating": 2.6,
+    "reviewCount": 166,
+    "releaseYear": 2016,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/lenovo-yoga-book-android-4g-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-yoga-book-android-4g-1.jpg"
+    ],
+    "highlights": [
+      "10.1\" FHD IPS LCD Halo Keyboard Ekran",
+      "Intel Atom x5-Z8550 İşlemci",
+      "64 GB Dahili Depolama • 4 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1920 x 1200",
+      "panelType": "FHD IPS LCD Halo Keyboard",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom x5-Z8550",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 8500,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 690,
+      "os": "Android 6.0 / 7.0",
+      "cellularSupport": "4G LTE + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-yoga-book-android-4g-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 13499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2400,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-book-android-4g.html"
+      },
+      {
+        "id": "lenovo-yoga-book-android-4g-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 13634,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-book-android-4g.html"
+      },
+      {
+        "id": "lenovo-yoga-book-android-4g-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 13769,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1600,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-book-android-4g.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 14174,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 13769,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-yoga-a12-lte",
+    "slug": "lenovo-yoga-a12-lte",
+    "name": "Lenovo Yoga A12 LTE 4 GB / 64 GB / 3G",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 12499,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 92,
+    "releaseYear": 2017,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/lenovo-yoga-a12-lte-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-yoga-a12-lte-1.jpg"
+    ],
+    "highlights": [
+      "12.2\" HD IPS LCD Halo Keyboard Ekran",
+      "Intel Atom x5-Z8550 İşlemci",
+      "64 GB Dahili Depolama • 4 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 12.2,
+      "screenResolution": "1280 x 800",
+      "panelType": "HD IPS LCD Halo Keyboard",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom x5-Z8550",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 10500,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "1.3 MP",
+      "weightGrams": 1000,
+      "os": "Android 6.0 / 7.0",
+      "cellularSupport": "4G LTE + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-yoga-a12-lte-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 12499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2400,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-a12-lte.html"
+      },
+      {
+        "id": "lenovo-yoga-a12-lte-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 12624,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-a12-lte.html"
+      },
+      {
+        "id": "lenovo-yoga-a12-lte-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 12749,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1600,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-a12-lte.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 13124,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 12749,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-tab-m10-plus-tb125fu",
+    "slug": "lenovo-tab-m10-plus-tb125fu",
+    "name": "Lenovo Tab M10 Plus TB125FU (ZAAJ0353TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 7999,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 143,
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/lenovo-tab-m10-plus-tb125fu-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-tab-m10-plus-tb125fu-1.jpg"
+    ],
+    "highlights": [
+      "10.61\" 2K IPS LCD Ekran",
+      "MediaTek Helio G80 İşlemci",
+      "128 GB Dahili Depolama • 4 GB RAM",
+      "Çift Bant Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 10.61,
+      "screenResolution": "2000 x 1200",
+      "panelType": "2K IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek Helio G80",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 7700,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 465,
+      "os": "Android 10",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-tab-m10-plus-tb125fu-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2400,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-plus-tb125fu.html"
+      },
+      {
+        "id": "lenovo-tab-m10-plus-tb125fu-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 8079,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-plus-tb125fu.html"
+      },
+      {
+        "id": "lenovo-tab-m10-plus-tb125fu-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 8159,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1600,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-plus-tb125fu.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 8399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 8159,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-tab-p11-tb350fu-zabl0042tr",
+    "slug": "lenovo-tab-p11-tb350fu-zabl0042tr",
+    "name": "Lenovo  Tab P11 TB350FU (ZABL0042TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 9999,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 223,
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/lenovo-tab-p11-tb350fu-zabl0042tr-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-tab-p11-tb350fu-zabl0042tr-1.jpg"
+    ],
+    "highlights": [
+      "11.5\" 2K IPS LCD 120Hz Ekran",
+      "MediaTek Helio G99 İşlemci",
+      "64 GB Dahili Depolama • 4 GB RAM",
+      "Çift Bant Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 11.5,
+      "screenResolution": "2000 x 1200",
+      "panelType": "2K IPS LCD 120Hz",
+      "refreshRateHz": 120,
+      "processor": "MediaTek Helio G99",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 7700,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 520,
+      "os": "Android 12 (Android 13 Güncellenebilir)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-tab-p11-tb350fu-zabl0042tr-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 9999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2400,
+        "url": "https://www.epey.com/tablet/lenovo-tab-p11-tb350fu-zabl0042tr.html"
+      },
+      {
+        "id": "lenovo-tab-p11-tb350fu-zabl0042tr-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 10099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/lenovo-tab-p11-tb350fu-zabl0042tr.html"
+      },
+      {
+        "id": "lenovo-tab-p11-tb350fu-zabl0042tr-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 10199,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1600,
+        "url": "https://www.epey.com/tablet/lenovo-tab-p11-tb350fu-zabl0042tr.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 10499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 10199,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "lenovo-tab-m10-hd-2-nesil-tb-x306f",
     "slug": "lenovo-tab-m10-hd-2-nesil-tb-x306f",
     "name": "Lenovo Tab M10 HD (2.Nesil) TB-X306F 3 GB / 32 GB (ZA6W0241TR)",
