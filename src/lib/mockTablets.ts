@@ -2,6 +2,630 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "lenovo-yoga-tab-tb710fu-klavye-plus-kalem",
+    "slug": "lenovo-yoga-tab-tb710fu-klavye-plus-kalem",
+    "name": "Lenovo Yoga Tab TB710FU Klavye + Kalem (ZAG60087TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 23940,
+    "currency": "TL",
+    "rating": 3.5,
+    "reviewCount": 260,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/lenovo-yoga-tab-tb710fu-klavye-plus-kalem-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-yoga-tab-tb710fu-klavye-plus-kalem-1.jpg"
+    ],
+    "highlights": [
+      "11.1\" OLED / PureSight Pro 144Hz 144Hz Ekran",
+      "Qualcomm Snapdragon 8 Gen 3 Yonga Seti",
+      "256 GB Dahili Depolama • 12 GB LPDDR5X RAM",
+      "8800 mAh Uzun Ömürlü Batarya • Dolby Atmos Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 11.1,
+      "screenResolution": "3200 x 2000",
+      "panelType": "OLED / PureSight Pro 144Hz",
+      "refreshRateHz": 144,
+      "processor": "Qualcomm Snapdragon 8 Gen 3",
+      "ramGb": 12,
+      "storageGb": 256,
+      "batteryMah": 8800,
+      "rearCameraMp": "13 MP + 5 MP Geniş",
+      "frontCameraMp": "13 MP Ultra Geniş",
+      "weightGrams": 500,
+      "os": "Android 14 (ZUI 16)",
+      "cellularSupport": "4G LTE + Wi-Fi",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-yoga-tab-tb710fu-klavye-plus-kalem-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 23940,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3400,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-tab-tb710fu-klavye-plus-kalem.html"
+      },
+      {
+        "id": "lenovo-yoga-tab-tb710fu-klavye-plus-kalem-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 24179,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-tab-tb710fu-klavye-plus-kalem.html"
+      },
+      {
+        "id": "lenovo-yoga-tab-tb710fu-klavye-plus-kalem-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 24419,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2200,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-tab-tb710fu-klavye-plus-kalem.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 25376,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 24658,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 23940,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-yoga-tab",
+    "slug": "lenovo-yoga-tab",
+    "name": "Lenovo Yoga Tab TB710FU + Kalem (ZAG60029TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 19172,
+    "currency": "TL",
+    "rating": 3.5,
+    "reviewCount": 268,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/lenovo-yoga-tab-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-yoga-tab-1.jpg"
+    ],
+    "highlights": [
+      "11.1\" OLED / PureSight Pro 144Hz 144Hz Ekran",
+      "Qualcomm Snapdragon 8 Gen 3 Yonga Seti",
+      "256 GB Dahili Depolama • 12 GB LPDDR5X RAM",
+      "8800 mAh Uzun Ömürlü Batarya • Dolby Atmos Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 11.1,
+      "screenResolution": "3200 x 2000",
+      "panelType": "OLED / PureSight Pro 144Hz",
+      "refreshRateHz": 144,
+      "processor": "Qualcomm Snapdragon 8 Gen 3",
+      "ramGb": 12,
+      "storageGb": 256,
+      "batteryMah": 8800,
+      "rearCameraMp": "13 MP + 5 MP Geniş",
+      "frontCameraMp": "13 MP Ultra Geniş",
+      "weightGrams": 500,
+      "os": "Android 14 (ZUI 16)",
+      "cellularSupport": "4G LTE + Wi-Fi",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-yoga-tab-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 19172,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3400,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-tab.html"
+      },
+      {
+        "id": "lenovo-yoga-tab-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 19364,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-tab.html"
+      },
+      {
+        "id": "lenovo-yoga-tab-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 19555,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2200,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-tab.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 20322,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 19747,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19172,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-yoga-tab-plus-tb520fu",
+    "slug": "lenovo-yoga-tab-plus-tb520fu",
+    "name": "Lenovo Yoga Tab Plus TB520FU (ZAEG0058TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 42679,
+    "currency": "TL",
+    "rating": 3.4,
+    "reviewCount": 181,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/lenovo-yoga-tab-plus-tb520fu-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-yoga-tab-plus-tb520fu-1.jpg"
+    ],
+    "highlights": [
+      "12.7\" LTPS IPS LCD 144Hz 144Hz Ekran",
+      "MediaTek Dimensity 8300 Yonga Seti",
+      "512 GB Dahili Depolama • 16 GB LPDDR5X RAM",
+      "10200 mAh Uzun Ömürlü Batarya • Dolby Atmos Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 12.7,
+      "screenResolution": "2944 x 1840",
+      "panelType": "LTPS IPS LCD 144Hz",
+      "refreshRateHz": 144,
+      "processor": "MediaTek Dimensity 8300",
+      "ramGb": 16,
+      "storageGb": 512,
+      "batteryMah": 10200,
+      "rearCameraMp": "13 MP + 8 MP Geniş",
+      "frontCameraMp": "13 MP Ultra Geniş",
+      "weightGrams": 615,
+      "os": "Android 14 (ZUI 16)",
+      "cellularSupport": "4G LTE + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-yoga-tab-plus-tb520fu-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 42679,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3400,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-tab-plus-tb520fu.html"
+      },
+      {
+        "id": "lenovo-yoga-tab-plus-tb520fu-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 43106,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-tab-plus-tb520fu.html"
+      },
+      {
+        "id": "lenovo-yoga-tab-plus-tb520fu-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 43533,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2200,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-tab-plus-tb520fu.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 45240,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 43959,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 42679,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-idea-tab-pro",
+    "slug": "lenovo-idea-tab-pro",
+    "name": "Lenovo Idea Tab Pro TB373FU 256 GB (ZAE40060TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 24789,
+    "currency": "TL",
+    "rating": 3.1,
+    "reviewCount": 233,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/lenovo-idea-tab-pro-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-idea-tab-pro-1.jpg"
+    ],
+    "highlights": [
+      "12.7\" LTPS IPS LCD 144Hz 144Hz Ekran",
+      "MediaTek Dimensity 8300 Yonga Seti",
+      "256 GB Dahili Depolama • 8 GB LPDDR5X RAM",
+      "10200 mAh Uzun Ömürlü Batarya • Dolby Atmos Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 12.7,
+      "screenResolution": "2944 x 1840",
+      "panelType": "LTPS IPS LCD 144Hz",
+      "refreshRateHz": 144,
+      "processor": "MediaTek Dimensity 8300",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 10200,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 615,
+      "os": "Android 14 (ZUI 16)",
+      "cellularSupport": "4G LTE + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-idea-tab-pro-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 24789,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3400,
+        "url": "https://www.epey.com/tablet/lenovo-idea-tab-pro.html"
+      },
+      {
+        "id": "lenovo-idea-tab-pro-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 25037,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.epey.com/tablet/lenovo-idea-tab-pro.html"
+      },
+      {
+        "id": "lenovo-idea-tab-pro-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 25285,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2200,
+        "url": "https://www.epey.com/tablet/lenovo-idea-tab-pro.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 26276,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 25533,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 24789,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-tab-k12-tb361fu-zagj0525tr",
+    "slug": "lenovo-tab-k12-tb361fu-zagj0525tr",
+    "name": "Lenovo Tab K12 TB361FU 256 GB (ZAGJ0525TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 18799,
+    "currency": "TL",
+    "rating": 3,
+    "reviewCount": 186,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/lenovo-tab-k12-tb361fu-zagj0525tr-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-tab-k12-tb361fu-zagj0525tr-1.jpg"
+    ],
+    "highlights": [
+      "12.1\" IPS LCD 90Hz 90Hz Ekran",
+      "Qualcomm Snapdragon 7s Gen 2 Yonga Seti",
+      "256 GB Dahili Depolama • 8 GB LPDDR5X RAM",
+      "10200 mAh Uzun Ömürlü Batarya • Dolby Atmos Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 12.1,
+      "screenResolution": "2560 x 1600",
+      "panelType": "IPS LCD 90Hz",
+      "refreshRateHz": 90,
+      "processor": "Qualcomm Snapdragon 7s Gen 2",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 10200,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 610,
+      "os": "Android 14 (ZUI 16)",
+      "cellularSupport": "4G LTE + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-tab-k12-tb361fu-zagj0525tr-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 18799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3400,
+        "url": "https://www.epey.com/tablet/lenovo-tab-k12-tb361fu-zagj0525tr.html"
+      },
+      {
+        "id": "lenovo-tab-k12-tb361fu-zagj0525tr-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 18987,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.epey.com/tablet/lenovo-tab-k12-tb361fu-zagj0525tr.html"
+      },
+      {
+        "id": "lenovo-tab-k12-tb361fu-zagj0525tr-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 19175,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-k12-tb361fu-zagj0525tr.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 19927,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 19363,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18799,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-idea-tab-plus-tb361fu",
+    "slug": "lenovo-idea-tab-plus-tb361fu",
+    "name": "Lenovo Idea Tab Plus TB361FU Folio Klavye + Kalem 8 GB / 256 GB (ZAG70609TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 17229,
+    "currency": "TL",
+    "rating": 3,
+    "reviewCount": 219,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/lenovo-idea-tab-plus-tb361fu-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-idea-tab-plus-tb361fu-1.jpg"
+    ],
+    "highlights": [
+      "12.1\" IPS LCD 90Hz 90Hz Ekran",
+      "Qualcomm Snapdragon 7s Gen 2 Yonga Seti",
+      "256 GB Dahili Depolama • 8 GB LPDDR5X RAM",
+      "10200 mAh Uzun Ömürlü Batarya • Dolby Atmos Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 12.1,
+      "screenResolution": "2560 x 1600",
+      "panelType": "IPS LCD 90Hz",
+      "refreshRateHz": 90,
+      "processor": "Qualcomm Snapdragon 7s Gen 2",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 10200,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 610,
+      "os": "Android 14 (ZUI 16)",
+      "cellularSupport": "4G LTE + Wi-Fi",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-idea-tab-plus-tb361fu-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 17229,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3400,
+        "url": "https://www.epey.com/tablet/lenovo-idea-tab-plus-tb361fu.html"
+      },
+      {
+        "id": "lenovo-idea-tab-plus-tb361fu-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 17401,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.epey.com/tablet/lenovo-idea-tab-plus-tb361fu.html"
+      },
+      {
+        "id": "lenovo-idea-tab-plus-tb361fu-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 17574,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2200,
+        "url": "https://www.epey.com/tablet/lenovo-idea-tab-plus-tb361fu.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 18263,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 17746,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 17229,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-pro-12-9-256gb-wi-fi",
     "slug": "apple-ipad-pro-12-9-256gb-wi-fi",
     "name": "Apple iPad Pro 12.9 256 GB (MXAT2TU/A)",
