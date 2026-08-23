@@ -2,6 +2,1046 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "apple-ipad-air-11-m4-wi-fi-plus-cellular-mh7n4tu-a",
+    "slug": "apple-ipad-air-11-m4-wi-fi-plus-cellular-mh7n4tu-a",
+    "name": "Apple iPad Air 11 (M4) Wi-Fi + Cellular 1024 GB / 5G (MH7N4TU/A)",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 69999,
+    "currency": "TL",
+    "rating": 4.4,
+    "reviewCount": 474,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-air-11-m4-wi-fi-plus-cellular-mh7n4tu-a-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-air-11-m4-wi-fi-plus-cellular-mh7n4tu-a-1.jpg"
+    ],
+    "highlights": [
+      "11\" Liquid Retina IPS 60Hz Ekran",
+      "Apple M4 Güçlü Apple Silikon Çip",
+      "512 GB Dahili Depolama • 8 GB RAM",
+      "5G & Wi-Fi Hücresel Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "2360 x 1640",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple M4",
+      "ramGb": 8,
+      "storageGb": 512,
+      "batteryMah": 8340,
+      "rearCameraMp": "12 MP (4K Video Kaydı)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 462,
+      "os": "iPadOS 18",
+      "cellularSupport": "5G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-air-11-m4-wi-fi-plus-cellular-mh7n4tu-a-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 69999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-11-m4-wi-fi-plus-cellular-mh7n4tu-a.html"
+      },
+      {
+        "id": "apple-ipad-air-11-m4-wi-fi-plus-cellular-mh7n4tu-a-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 69299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-11-m4-wi-fi-plus-cellular-mh7n4tu-a.html"
+      },
+      {
+        "id": "apple-ipad-air-11-m4-wi-fi-plus-cellular-mh7n4tu-a-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 69999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-11-m4-wi-fi-plus-cellular-mh7n4tu-a.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 73499,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 71399,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 69999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-13-2024-2",
+    "slug": "apple-ipad-pro-13-2024-2",
+    "name": "Apple iPad Pro 13 (M4) Wi-Fi 512 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 94524,
+    "currency": "TL",
+    "rating": 4.4,
+    "reviewCount": 496,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-pro-13-2024-2-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-13-2024-2-1.jpg"
+    ],
+    "highlights": [
+      "13\" Ultra Retina Tandem OLED 120Hz Ekran",
+      "Apple M4 Güçlü Apple Silikon Çip",
+      "512 GB Dahili Depolama • 8 GB RAM",
+      "Wi-Fi 6E / Wi-Fi 7 Yüksek Hız"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2752 x 2064",
+      "panelType": "Ultra Retina Tandem OLED",
+      "refreshRateHz": 120,
+      "processor": "Apple M4",
+      "ramGb": 8,
+      "storageGb": 512,
+      "batteryMah": 10290,
+      "rearCameraMp": "12 MP (4K Video Kaydı)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 579,
+      "os": "iPadOS 18",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-13-2024-2-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 94524,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-2024-2.html"
+      },
+      {
+        "id": "apple-ipad-pro-13-2024-2-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 93579,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-2024-2.html"
+      },
+      {
+        "id": "apple-ipad-pro-13-2024-2-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 94524,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-2024-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 99250,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 96414,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 94524,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-air-13-m4-wi-fi-plus-cellular-mh9n4tu-a",
+    "slug": "apple-ipad-air-13-m4-wi-fi-plus-cellular-mh9n4tu-a",
+    "name": "Apple iPad Air 13 (M4) Wi-Fi + Cellular 512 GB / 5G (MH9N4TU/A)",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 69599,
+    "currency": "TL",
+    "rating": 4.4,
+    "reviewCount": 461,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-air-13-m4-wi-fi-plus-cellular-mh9n4tu-a-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-air-13-m4-wi-fi-plus-cellular-mh9n4tu-a-1.jpg"
+    ],
+    "highlights": [
+      "13\" Liquid Retina IPS 60Hz Ekran",
+      "Apple M4 Güçlü Apple Silikon Çip",
+      "512 GB Dahili Depolama • 12 GB RAM",
+      "5G & Wi-Fi Hücresel Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2732 x 2048",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple M4",
+      "ramGb": 12,
+      "storageGb": 512,
+      "batteryMah": 10290,
+      "rearCameraMp": "12 MP (4K Video Kaydı)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 617,
+      "os": "iPadOS 18",
+      "cellularSupport": "5G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-air-13-m4-wi-fi-plus-cellular-mh9n4tu-a-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 69599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-13-m4-wi-fi-plus-cellular-mh9n4tu-a.html"
+      },
+      {
+        "id": "apple-ipad-air-13-m4-wi-fi-plus-cellular-mh9n4tu-a-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 68903,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-13-m4-wi-fi-plus-cellular-mh9n4tu-a.html"
+      },
+      {
+        "id": "apple-ipad-air-13-m4-wi-fi-plus-cellular-mh9n4tu-a-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 69599,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-13-m4-wi-fi-plus-cellular-mh9n4tu-a.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 73079,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 70991,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 69599,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-11-m5-wi-fi",
+    "slug": "apple-ipad-pro-11-m5-wi-fi",
+    "name": "Apple iPad Pro 11 (M5) Wi-Fi 12 GB / 512 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 69999,
+    "currency": "TL",
+    "rating": 4.4,
+    "reviewCount": 690,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-pro-11-m5-wi-fi-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-11-m5-wi-fi-1.jpg"
+    ],
+    "highlights": [
+      "11\" Ultra Retina Tandem OLED 120Hz Ekran",
+      "Apple M5 Güçlü Apple Silikon Çip",
+      "512 GB Dahili Depolama • 12 GB RAM",
+      "Wi-Fi 6E / Wi-Fi 7 Yüksek Hız"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "2420 x 1668",
+      "panelType": "Ultra Retina Tandem OLED",
+      "refreshRateHz": 120,
+      "processor": "Apple M5",
+      "ramGb": 12,
+      "storageGb": 512,
+      "batteryMah": 8340,
+      "rearCameraMp": "12 MP (4K Video Kaydı)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 444,
+      "os": "iPadOS 18",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-11-m5-wi-fi-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 69999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-m5-wi-fi.html"
+      },
+      {
+        "id": "apple-ipad-pro-11-m5-wi-fi-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 69299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-m5-wi-fi.html"
+      },
+      {
+        "id": "apple-ipad-pro-11-m5-wi-fi-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 69999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-m5-wi-fi.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 73499,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 71399,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 69999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-11-2024-wi-fi-plus-cellular-512gb",
+    "slug": "apple-ipad-pro-11-2024-wi-fi-plus-cellular-512gb",
+    "name": "Apple iPad Pro 11 (M4) Wi-Fi + Cellular 512 GB / 8 GB / 5G",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 66582,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 536,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-pro-11-2024-wi-fi-plus-cellular-512gb-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-11-2024-wi-fi-plus-cellular-512gb-1.jpg"
+    ],
+    "highlights": [
+      "11\" Ultra Retina Tandem OLED 120Hz Ekran",
+      "Apple M4 Güçlü Apple Silikon Çip",
+      "512 GB Dahili Depolama • 8 GB RAM",
+      "5G & Wi-Fi Hücresel Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "2420 x 1668",
+      "panelType": "Ultra Retina Tandem OLED",
+      "refreshRateHz": 120,
+      "processor": "Apple M4",
+      "ramGb": 8,
+      "storageGb": 512,
+      "batteryMah": 8340,
+      "rearCameraMp": "12 MP (4K Video Kaydı)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 444,
+      "os": "iPadOS 18",
+      "cellularSupport": "5G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-11-2024-wi-fi-plus-cellular-512gb-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 66582,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-2024-wi-fi-plus-cellular-512gb.html"
+      },
+      {
+        "id": "apple-ipad-pro-11-2024-wi-fi-plus-cellular-512gb-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 65916,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-2024-wi-fi-plus-cellular-512gb.html"
+      },
+      {
+        "id": "apple-ipad-pro-11-2024-wi-fi-plus-cellular-512gb-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 66582,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-2024-wi-fi-plus-cellular-512gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 69911,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 67914,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 66582,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-13-m5-wi-fi",
+    "slug": "apple-ipad-pro-13-m5-wi-fi",
+    "name": "Apple iPad Pro 13 (M5) Wi-Fi 12 GB / 256 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 72599,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 504,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-pro-13-m5-wi-fi-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-13-m5-wi-fi-1.jpg"
+    ],
+    "highlights": [
+      "13\" Ultra Retina Tandem OLED 120Hz Ekran",
+      "Apple M5 Güçlü Apple Silikon Çip",
+      "256 GB Dahili Depolama • 12 GB RAM",
+      "Wi-Fi 6E / Wi-Fi 7 Yüksek Hız"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2752 x 2064",
+      "panelType": "Ultra Retina Tandem OLED",
+      "refreshRateHz": 120,
+      "processor": "Apple M5",
+      "ramGb": 12,
+      "storageGb": 256,
+      "batteryMah": 10290,
+      "rearCameraMp": "12 MP (4K Video Kaydı)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 579,
+      "os": "iPadOS 18",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-13-m5-wi-fi-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 72599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-m5-wi-fi.html"
+      },
+      {
+        "id": "apple-ipad-pro-13-m5-wi-fi-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 71873,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-m5-wi-fi.html"
+      },
+      {
+        "id": "apple-ipad-pro-13-m5-wi-fi-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 72599,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-m5-wi-fi.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 76229,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 74051,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 72599,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-13-2024-wi-fi-plus-cellular",
+    "slug": "apple-ipad-pro-13-2024-wi-fi-plus-cellular",
+    "name": "Apple iPad Pro 13 (M4) Wi-Fi + Cellular 256 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 89999,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 692,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-pro-13-2024-wi-fi-plus-cellular-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-13-2024-wi-fi-plus-cellular-1.jpg"
+    ],
+    "highlights": [
+      "13\" Ultra Retina Tandem OLED 120Hz Ekran",
+      "Apple M4 Güçlü Apple Silikon Çip",
+      "256 GB Dahili Depolama • 8 GB RAM",
+      "5G & Wi-Fi Hücresel Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2752 x 2064",
+      "panelType": "Ultra Retina Tandem OLED",
+      "refreshRateHz": 120,
+      "processor": "Apple M4",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 10290,
+      "rearCameraMp": "12 MP (4K Video Kaydı)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 579,
+      "os": "iPadOS 18",
+      "cellularSupport": "4G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-13-2024-wi-fi-plus-cellular-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 89999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-2024-wi-fi-plus-cellular.html"
+      },
+      {
+        "id": "apple-ipad-pro-13-2024-wi-fi-plus-cellular-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 89099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-2024-wi-fi-plus-cellular.html"
+      },
+      {
+        "id": "apple-ipad-pro-13-2024-wi-fi-plus-cellular-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 89999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-13-2024-wi-fi-plus-cellular.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 94499,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 91799,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 89999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-air-13-m4-wi-fi-plus-cellular-mh9v4tu-a",
+    "slug": "apple-ipad-air-13-m4-wi-fi-plus-cellular-mh9v4tu-a",
+    "name": "Apple iPad Air 13 (M4) Wi-Fi + Cellular 1024 GB / 5G (MH9V4TU/A)",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 79999,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 500,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-air-13-m4-wi-fi-plus-cellular-mh9v4tu-a-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-air-13-m4-wi-fi-plus-cellular-mh9v4tu-a-1.jpg"
+    ],
+    "highlights": [
+      "13\" Liquid Retina IPS 60Hz Ekran",
+      "Apple M4 Güçlü Apple Silikon Çip",
+      "1 TB Dahili Depolama • 12 GB RAM",
+      "5G & Wi-Fi Hücresel Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2732 x 2048",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple M4",
+      "ramGb": 12,
+      "storageGb": 1024,
+      "batteryMah": 10290,
+      "rearCameraMp": "12 MP (4K Video Kaydı)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 617,
+      "os": "iPadOS 18",
+      "cellularSupport": "5G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-air-13-m4-wi-fi-plus-cellular-mh9v4tu-a-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 79999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-13-m4-wi-fi-plus-cellular-mh9v4tu-a.html"
+      },
+      {
+        "id": "apple-ipad-air-13-m4-wi-fi-plus-cellular-mh9v4tu-a-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 79199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-13-m4-wi-fi-plus-cellular-mh9v4tu-a.html"
+      },
+      {
+        "id": "apple-ipad-air-13-m4-wi-fi-plus-cellular-mh9v4tu-a-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 79999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-13-m4-wi-fi-plus-cellular-mh9v4tu-a.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 83999,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 81599,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 79999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-11-wi-fi-2024",
+    "slug": "apple-ipad-pro-11-wi-fi-2024",
+    "name": "Apple iPad Pro 11 (M4) Wi-Fi 1024 GB / 16 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 68619,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 672,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-pro-11-wi-fi-2024-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-11-wi-fi-2024-1.jpg"
+    ],
+    "highlights": [
+      "11\" Ultra Retina Tandem OLED 120Hz Ekran",
+      "Apple M4 Güçlü Apple Silikon Çip",
+      "1 TB Dahili Depolama • 16 GB RAM",
+      "Wi-Fi 6E / Wi-Fi 7 Yüksek Hız"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "2420 x 1668",
+      "panelType": "Ultra Retina Tandem OLED",
+      "refreshRateHz": 120,
+      "processor": "Apple M4",
+      "ramGb": 16,
+      "storageGb": 1024,
+      "batteryMah": 8340,
+      "rearCameraMp": "12 MP (4K Video Kaydı)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 444,
+      "os": "iPadOS 18",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-11-wi-fi-2024-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 68619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-wi-fi-2024.html"
+      },
+      {
+        "id": "apple-ipad-pro-11-wi-fi-2024-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 67933,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-wi-fi-2024.html"
+      },
+      {
+        "id": "apple-ipad-pro-11-wi-fi-2024-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 68619,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-wi-fi-2024.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 72050,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 69991,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 68619,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-11-m5-wi-fi-plus-cellular-2",
+    "slug": "apple-ipad-pro-11-m5-wi-fi-plus-cellular-2",
+    "name": "Apple iPad Pro 11 (M5)  Wi-Fi + Cellular 12 GB / 256 GB / 5G",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 76139,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 551,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-pro-11-m5-wi-fi-plus-cellular-2-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-11-m5-wi-fi-plus-cellular-2-1.jpg"
+    ],
+    "highlights": [
+      "11\" Ultra Retina Tandem OLED 120Hz Ekran",
+      "Apple M5 Güçlü Apple Silikon Çip",
+      "256 GB Dahili Depolama • 12 GB RAM",
+      "5G & Wi-Fi Hücresel Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "2420 x 1668",
+      "panelType": "Ultra Retina Tandem OLED",
+      "refreshRateHz": 120,
+      "processor": "Apple M5",
+      "ramGb": 12,
+      "storageGb": 256,
+      "batteryMah": 8340,
+      "rearCameraMp": "12 MP (4K Video Kaydı)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 444,
+      "os": "iPadOS 18",
+      "cellularSupport": "5G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-11-m5-wi-fi-plus-cellular-2-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 76139,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-m5-wi-fi-plus-cellular-2.html"
+      },
+      {
+        "id": "apple-ipad-pro-11-m5-wi-fi-plus-cellular-2-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 75378,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-m5-wi-fi-plus-cellular-2.html"
+      },
+      {
+        "id": "apple-ipad-pro-11-m5-wi-fi-plus-cellular-2-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 76139,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-m5-wi-fi-plus-cellular-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 79946,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 77662,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 76139,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-pro-13-m5-wi-fi-standart-cam-16-gb-2048-gb",
     "slug": "apple-ipad-pro-13-m5-wi-fi-standart-cam-16-gb-2048-gb",
     "name": "Apple iPad Pro 13 (M5) Wi-Fi (Standart Cam) 16 GB / 2048 GB",
