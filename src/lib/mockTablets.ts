@@ -2,6 +2,366 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "oneplus-pad-3-pro-16-512",
+    "slug": "oneplus-pad-3-pro-16gb-512gb",
+    "name": "OnePlus Pad 3 Pro 16 GB / 512 GB",
+    "brand": "OnePlus",
+    "category": "tablets",
+    "basePrice": 39999,
+    "currency": "TL",
+    "rating": 4.9,
+    "reviewCount": 38,
+    "image": "/images/tablets/oneplus-1061679.jpg",
+    "images": [
+      "/images/tablets/oneplus-1061679.jpg"
+    ],
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "13.2 İnç 3K 144 Hz 900 Nit Ekran",
+      "Snapdragon 8 Gen 3 Leading Version Performansı",
+      "16 GB LPDDR5X RAM ile Üstün Çoklu Görev",
+      "6 Hoparlörlü Dolby Atmos Surround Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 13.2,
+      "screenResolution": "3000 x 2120",
+      "panelType": "3K IPS LCD (144Hz, 900 nit)",
+      "refreshRateHz": 144,
+      "processor": "Snapdragon 8 Gen 3 Leading Version",
+      "ramGb": 16,
+      "storageGb": 512,
+      "batteryMah": 9510,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 584,
+      "os": "Android 14 (OxygenOS 14.1)",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-oneplus-pad-3-pro-16-512-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 39999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Garanti"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 310,
+        "url": "https://www.epey.com/tablet/oneplus-pad-3-pro-16gb-512gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 41999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 39999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "oneplus-pad-4-12-512",
+    "slug": "oneplus-pad-4-12gb-512gb",
+    "name": "OnePlus Pad 4 12 GB / 512 GB",
+    "brand": "OnePlus",
+    "category": "tablets",
+    "basePrice": 42749,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 42,
+    "image": "/images/tablets/oneplus-1056879.png",
+    "images": [
+      "/images/tablets/oneplus-1056879.png"
+    ],
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "13.2 İnç 3.2K 144 Hz Akıcı Ekran",
+      "Qualcomm Snapdragon 8 Elite Amiral Gemisi İşlemci",
+      "10.050 mAh Dev Pil ve 67W SUPERVOOC Hızlı Şarj",
+      "12 GB RAM + 512 GB Süper Hızlı Depolama"
+    ],
+    "specs": {
+      "screenSizeInches": 13.2,
+      "screenResolution": "3000 x 2120",
+      "panelType": "3.2K IPS LCD (144Hz, HDR10+)",
+      "refreshRateHz": 144,
+      "processor": "Qualcomm Snapdragon 8 Elite",
+      "ramGb": 12,
+      "storageGb": 512,
+      "batteryMah": 10050,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 584,
+      "os": "Android 15 (OxygenOS 15)",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-oneplus-pad-4-12-512-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 42749,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 620,
+        "url": "https://www.epey.com/tablet/oneplus-pad-4-2.html"
+      },
+      {
+        "id": "so-oneplus-pad-4-12-512-2",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 43199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 430,
+        "url": "https://www.epey.com/tablet/oneplus-pad-4-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 44999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 43499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 42749,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "oneplus-pad-3-pro-12-512",
+    "slug": "oneplus-pad-3-pro-12gb-512gb",
+    "name": "OnePlus Pad 3 Pro 12 GB / 512 GB",
+    "brand": "OnePlus",
+    "category": "tablets",
+    "basePrice": 36999,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 29,
+    "image": "/images/tablets/oneplus-1061678.jpg",
+    "images": [
+      "/images/tablets/oneplus-1061678.jpg"
+    ],
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "13.2 İnç 3K 144 Hz Ekran",
+      "Snapdragon 8 Gen 3 Leading Version",
+      "9.510 mAh Pil & 67W SUPERVOOC Şarj",
+      "512 GB Geniş Depolama Alanı"
+    ],
+    "specs": {
+      "screenSizeInches": 13.2,
+      "screenResolution": "3000 x 2120",
+      "panelType": "3K IPS LCD (144Hz)",
+      "refreshRateHz": 144,
+      "processor": "Snapdragon 8 Gen 3 Leading Version",
+      "ramGb": 12,
+      "storageGb": 512,
+      "batteryMah": 9510,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 584,
+      "os": "Android 14 (OxygenOS 14.1)",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-oneplus-pad-3-pro-12-512-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 36999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Ürün"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.epey.com/tablet/oneplus-pad-3-pro-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 37999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 36999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "oneplus-pad-3-pro-12-256",
+    "slug": "oneplus-pad-3-pro-12gb-256gb",
+    "name": "OnePlus Pad 3 Pro 12 GB / 256 GB",
+    "brand": "OnePlus",
+    "category": "tablets",
+    "basePrice": 33999,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 24,
+    "image": "/images/tablets/oneplus-1061633.jpg",
+    "images": [
+      "/images/tablets/oneplus-1061633.jpg"
+    ],
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "13.2 İnç 3K 144 Hz Ekran",
+      "Snapdragon 8 Gen 3 Güçlü İşlemci",
+      "12 GB RAM & 256 GB Depolama",
+      "Metal Yekpare Şık Kasa"
+    ],
+    "specs": {
+      "screenSizeInches": 13.2,
+      "screenResolution": "3000 x 2120",
+      "panelType": "3K IPS LCD (144Hz)",
+      "refreshRateHz": 144,
+      "processor": "Qualcomm Snapdragon 8 Gen 3",
+      "ramGb": 12,
+      "storageGb": 256,
+      "batteryMah": 9510,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 584,
+      "os": "Android 14 (OxygenOS 14)",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-oneplus-pad-3-pro-12-256-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 33999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 180,
+        "url": "https://www.epey.com/tablet/oneplus-pad-3-pro.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 34999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 33999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "oneplus-pad-4-8-256",
+    "slug": "oneplus-pad-4-8gb-256gb",
+    "name": "OnePlus Pad 4 8 GB / 256 GB",
+    "brand": "OnePlus",
+    "category": "tablets",
+    "basePrice": 31999,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 21,
+    "image": "/images/tablets/oneplus-1056877.png",
+    "images": [
+      "/images/tablets/oneplus-1056877.png"
+    ],
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "13.2 İnç 3.2K 144 Hz Ekran",
+      "Qualcomm Snapdragon 8s Gen 3",
+      "10.050 mAh Batarya",
+      "OxygenOS 15 Akıllı Tablet Deneyimi"
+    ],
+    "specs": {
+      "screenSizeInches": 13.2,
+      "screenResolution": "3000 x 2120",
+      "panelType": "3.2K IPS LCD (144Hz)",
+      "refreshRateHz": 144,
+      "processor": "Qualcomm Snapdragon 8s Gen 3",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 10050,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 584,
+      "os": "Android 15 (OxygenOS 15)",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-oneplus-pad-4-8-256-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 31999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 150,
+        "url": "https://www.epey.com/tablet/oneplus-pad-4.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 32999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 31999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "tecno-tecno-megapad-pro",
     "slug": "tecno-megapad-pro",
     "name": "Tecno Megapad Pro",
@@ -1515,6 +1875,79 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "oneplus-pad-3-16-512",
+    "slug": "oneplus-pad-3-16gb-512gb",
+    "name": "OnePlus Pad 3 16 GB / 512 GB",
+    "brand": "OnePlus",
+    "category": "tablets",
+    "basePrice": 29999,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 31,
+    "image": "/images/tablets/oneplus-1019039.png",
+    "images": [
+      "/images/tablets/oneplus-1019039.png"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "13.2 İnç 3K 144 Hz Ekran",
+      "Snapdragon 8 Gen 3 Amiral Gemisi",
+      "16 GB RAM + 512 GB Depolama",
+      "67W SUPERVOOC Hızlı Şarj"
+    ],
+    "specs": {
+      "screenSizeInches": 13.2,
+      "screenResolution": "3000 x 2120",
+      "panelType": "3K IPS LCD (144Hz, 900 nit)",
+      "refreshRateHz": 144,
+      "processor": "Qualcomm Snapdragon 8 Gen 3",
+      "ramGb": 16,
+      "storageGb": 512,
+      "batteryMah": 9510,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 584,
+      "os": "Android 14 (OxygenOS 14)",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-oneplus-pad-3-16-512-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 29999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 290,
+        "url": "https://www.epey.com/tablet/oneplus-pad-3-16.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10-01",
+        "price": 32999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-03-01",
+        "price": 30999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 29999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-pro-11-m5-wi-fi",
     "slug": "apple-ipad-pro-11-m5-wi-fi",
     "name": "Apple iPad Pro 11 (M5) Wi-Fi 12 GB / 512 GB",
@@ -1688,6 +2121,74 @@ export const mockTablets: Product[] = [
       {
         "date": "2026-08-01",
         "price": 52999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "oneplus-pad-3-12-256",
+    "slug": "oneplus-pad-3-12gb-256gb",
+    "name": "OnePlus Pad 3 12 GB / 256 GB",
+    "brand": "OnePlus",
+    "category": "tablets",
+    "basePrice": 26999,
+    "currency": "TL",
+    "rating": 4.4,
+    "reviewCount": 27,
+    "image": "/images/tablets/oneplus-1012997.png",
+    "images": [
+      "/images/tablets/oneplus-1012997.png"
+    ],
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "13.2 İnç 3K 144 Hz Geniş Ekran",
+      "Snapdragon 8 Gen 3 Yonga Seti",
+      "12 GB RAM & 256 GB UFS 4.0 Hafıza",
+      "9.510 mAh Güçlü Pil"
+    ],
+    "specs": {
+      "screenSizeInches": 13.2,
+      "screenResolution": "3000 x 2120",
+      "panelType": "3K IPS LCD (144Hz)",
+      "refreshRateHz": 144,
+      "processor": "Qualcomm Snapdragon 8 Gen 3",
+      "ramGb": 12,
+      "storageGb": 256,
+      "batteryMah": 9510,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 584,
+      "os": "Android 14 (OxygenOS 14)",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-oneplus-pad-3-12-256-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 26999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Tükeniyor"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 210,
+        "url": "https://www.epey.com/tablet/oneplus-pad-3.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-11-01",
+        "price": 28999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 26999,
         "store": "Trendyol"
       }
     ]
@@ -3599,6 +4100,74 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "oneplus-pad-lite-8-4g-128",
+    "slug": "oneplus-pad-lite-8gb-4g",
+    "name": "OnePlus Pad Lite 8 GB / 4G (128 GB)",
+    "brand": "OnePlus",
+    "category": "tablets",
+    "basePrice": 11499,
+    "currency": "TL",
+    "rating": 3.7,
+    "reviewCount": 19,
+    "image": "/images/tablets/oneplus-1023385.jpg",
+    "images": [
+      "/images/tablets/oneplus-1023385.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "11.0 İnç 2K 90 Hz IPS Ekran",
+      "4G LTE SIM Kart Desteği ile Kesintisiz İnternet",
+      "8 GB RAM + 128 GB Depolama (MicroSD Destekli)",
+      "8.000 mAh Pil ve 33W Hızlı Şarj"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "1920 x 1200",
+      "panelType": "2K IPS LCD (90Hz)",
+      "refreshRateHz": 90,
+      "processor": "MediaTek Helio G99 (4G LTE)",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 8000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 520,
+      "os": "Android 14 (OxygenOS 14)",
+      "cellularSupport": "4G LTE SIM + Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-oneplus-pad-lite-4g-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 11499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "4G SIM Destekli"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 120,
+        "url": "https://www.epey.com/tablet/oneplus-pad-lite-lte.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-11-01",
+        "price": 12499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "huawei-matepad-pro-13-2-2025-512-gb",
     "slug": "huawei-matepad-pro-13-2-2025-512-gb",
     "name": "Huawei MatePad Pro 13.2 (2025) 12 GB / 512 GB",
@@ -4201,6 +4770,74 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 20214.8,
         "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "oneplus-pad-lite-6-128",
+    "slug": "oneplus-pad-lite-6gb",
+    "name": "OnePlus Pad Lite 6 GB / 128 GB",
+    "brand": "OnePlus",
+    "category": "tablets",
+    "basePrice": 9999,
+    "currency": "TL",
+    "rating": 3.5,
+    "reviewCount": 22,
+    "image": "/images/tablets/oneplus-1023376.jpg",
+    "images": [
+      "/images/tablets/oneplus-1023376.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "11.0 İnç 2K 90 Hz IPS Ekran",
+      "MediaTek Helio G99 6nm Verimli İşlemci",
+      "8.000 mAh Uzun Ömürlü Batarya",
+      "Dörtlü Stereo Hoparlör Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "1920 x 1200",
+      "panelType": "2K IPS LCD (90Hz)",
+      "refreshRateHz": 90,
+      "processor": "MediaTek Helio G99",
+      "ramGb": 6,
+      "storageGb": 128,
+      "batteryMah": 8000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 520,
+      "os": "Android 14 (OxygenOS 14)",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-oneplus-pad-lite-6-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 9999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ekonomik Fiyat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 160,
+        "url": "https://www.epey.com/tablet/oneplus-pad-lite.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-11-01",
+        "price": 10999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9999,
+        "store": "Hepsiburada"
       }
     ]
   },
@@ -6753,6 +7390,93 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "oneplus-pad-2-12-256",
+    "slug": "oneplus-pad-2",
+    "name": "OnePlus Pad 2 12 GB / 256 GB",
+    "brand": "OnePlus",
+    "category": "tablets",
+    "basePrice": 22999,
+    "currency": "TL",
+    "rating": 4.3,
+    "reviewCount": 52,
+    "image": "/images/tablets/oneplus-963349.jpg",
+    "images": [
+      "/images/tablets/oneplus-963349.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "12.1 İnç 3K 144 Hz 7:5 ReadFit Ekran",
+      "Qualcomm Snapdragon 8 Gen 3 (4 nm)",
+      "6 Hoparlörlü Dolby Atmos Ses",
+      "67W SUPERVOOC ile 81 Dakikada Tam Dolum"
+    ],
+    "specs": {
+      "screenSizeInches": 12.1,
+      "screenResolution": "3000 x 2120",
+      "panelType": "3K IPS LCD (144Hz, 7:5 ReadFit)",
+      "refreshRateHz": 144,
+      "processor": "Qualcomm Snapdragon 8 Gen 3",
+      "ramGb": 12,
+      "storageGb": 256,
+      "batteryMah": 9510,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 584,
+      "os": "Android 14 (OxygenOS 14.1)",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-oneplus-pad-2-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 22999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çok Satan"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 530,
+        "url": "https://www.epey.com/tablet/oneplus-pad-2.html"
+      },
+      {
+        "id": "so-oneplus-pad-2-2",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 23299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 410,
+        "url": "https://www.epey.com/tablet/oneplus-pad-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-09-01",
+        "price": 25999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2025-06-01",
+        "price": 23999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 22999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-pro-12-9-2022-wi-fi-16",
     "slug": "apple-ipad-pro-12-9-2022-wi-fi-16",
     "name": "Apple iPad Pro 12.9 (MNXY3TU/A) 16 GB / 2048 GB",
@@ -7477,6 +8201,74 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 42840,
         "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "oneplus-pad-pro-8-128",
+    "slug": "oneplus-pad-pro",
+    "name": "OnePlus Pad Pro 8 GB / 128 GB",
+    "brand": "OnePlus",
+    "category": "tablets",
+    "basePrice": 19999,
+    "currency": "TL",
+    "rating": 4.1,
+    "reviewCount": 35,
+    "image": "/images/tablets/oneplus-947300.jpg",
+    "images": [
+      "/images/tablets/oneplus-947300.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "12.1 İnç 3K 144 Hz Ekran",
+      "Snapdragon 8 Gen 3 Amiral Gemisi İşlemci",
+      "9.510 mAh Batarya & 67W Hızlı Şarj",
+      "İnce ve Hafif Premium Metal Gövde"
+    ],
+    "specs": {
+      "screenSizeInches": 12.1,
+      "screenResolution": "3000 x 2120",
+      "panelType": "3K IPS LCD (144Hz)",
+      "refreshRateHz": 144,
+      "processor": "Qualcomm Snapdragon 8 Gen 3",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 9510,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 584,
+      "os": "Android 14 (ColorOS / OxygenOS)",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-oneplus-pad-pro-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 19999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 190,
+        "url": "https://www.epey.com/tablet/oneplus-pad-pro.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-08-01",
+        "price": 21999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19999,
+        "store": "Trendyol"
       }
     ]
   },
@@ -12637,6 +13429,79 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 6899,
         "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "oneplus-pad-8-128",
+    "slug": "oneplus-pad",
+    "name": "OnePlus Pad 8 GB / 128 GB",
+    "brand": "OnePlus",
+    "category": "tablets",
+    "basePrice": 15999,
+    "currency": "TL",
+    "rating": 3.9,
+    "reviewCount": 64,
+    "image": "/images/tablets/oneplus-892177.jpg",
+    "images": [
+      "/images/tablets/oneplus-892177.jpg"
+    ],
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "11.61 İnç 2.8K 144 Hz 7:5 ReadFit Ekran",
+      "MediaTek Dimensity 9000 Amiral Gemisi İşlemci",
+      "9.510 mAh Batarya & 67W SUPERVOOC Hızlı Şarj",
+      "Halo Yeşil İkonik CNC Metal Gövde"
+    ],
+    "specs": {
+      "screenSizeInches": 11.61,
+      "screenResolution": "2800 x 2000",
+      "panelType": "2.8K IPS LCD (144Hz, 7:5 ReadFit)",
+      "refreshRateHz": 144,
+      "processor": "MediaTek Dimensity 9000",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 9510,
+      "rearCameraMp": "13 MP (4K)",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 552,
+      "os": "Android 13 (OxygenOS 13.1, güncellenebilir)",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-oneplus-pad-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 15999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Klasik Amiral Gemisi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 480,
+        "url": "https://www.epey.com/tablet/oneplus-pad.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-08-01",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2024-12-01",
+        "price": 16999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 15999,
+        "store": "Hepsiburada"
       }
     ]
   },
