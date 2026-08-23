@@ -6207,6 +6207,89 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "ms-surface-pro-copilot-plus-32-1024",
+    "slug": "microsoft-surface-pro-copilot-plus-pc-zid-00001",
+    "name": "Microsoft Surface Pro Copilot+ PC 32 GB / 1024 GB (ZID-00001)",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 167669,
+    "currency": "TL",
+    "rating": 4.9,
+    "reviewCount": 38,
+    "image": "/images/tablets/microsoft-968750.jpg",
+    "images": [
+      "/images/tablets/microsoft-968750.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "13.0 İnç 120 Hz PixelSense Flow OLED / LCD Dokunmatik Ekran",
+      "Snapdragon X Elite (12 Çekirdek) & 45 TOPS NPU Yapay Zeka İşlemci",
+      "32 GB LPDDR5x RAM & 1 TB Gen4 NVMe SSD",
+      "Windows 11 Copilot+ PC Deneyimi ve 14 Saate Varan Pil Ömrü"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2880 x 1920",
+      "panelType": "PixelSense Flow (120 Hz)",
+      "refreshRateHz": 120,
+      "processor": "Snapdragon X Elite (12 Çekirdek, 3.4 GHz)",
+      "ramGb": 32,
+      "storageGb": 1024,
+      "batteryMah": 7300,
+      "rearCameraMp": "10 MP (4K Video)",
+      "frontCameraMp": "1440p QHD Surface Studio Kamera",
+      "weightGrams": 895,
+      "os": "Windows 11 Home (Copilot+)",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-copilot-32-1tb-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 167669,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 320,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-copilot-plus-pc-zid-00001.html"
+      },
+      {
+        "id": "so-ms-surface-copilot-32-1tb-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 169999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 140,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-copilot-plus-pc-zid-00001.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-06-01",
+        "price": 174999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 167669,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-pro-13-2024-wi-fi-plus-cellular-2048",
     "slug": "apple-ipad-pro-13-2024-wi-fi-plus-cellular-2048",
     "name": "Apple iPad Pro 13 (M4) Wi-Fi + Cellular 2048 GB",
@@ -6307,6 +6390,142 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 76474,
         "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-copilot-plus-32-512",
+    "slug": "microsoft-surface-pro-copilot-plus-pc-ep2-20042",
+    "name": "Microsoft Surface Pro Copilot+ PC 32 GB / 512 GB (EP2-20042)",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 186725,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 24,
+    "image": "/images/tablets/microsoft-1031514.jpg",
+    "images": [
+      "/images/tablets/microsoft-1031514.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "13.0 İnç 120 Hz PixelSense Ekran",
+      "Snapdragon X Elite Yüksek Performanslı İşlemci",
+      "32 GB RAM & 512 GB SSD",
+      "Surface Slim Pen 2 ve Flex Klavye Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2880 x 1920",
+      "panelType": "PixelSense Flow",
+      "refreshRateHz": 120,
+      "processor": "Snapdragon X Elite",
+      "ramGb": 32,
+      "storageGb": 512,
+      "batteryMah": 7300,
+      "rearCameraMp": "10 MP",
+      "frontCameraMp": "1440p QHD",
+      "weightGrams": 895,
+      "os": "Windows 11 Pro",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-copilot-32-512-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#ff6700",
+        "price": 186725,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 75,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-copilot-plus-pc-ep2-20042.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-07-01",
+        "price": 189999,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 186725,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-copilot-plus-16-1024",
+    "slug": "microsoft-surface-pro-copilot-plus-pc-ep2-23855",
+    "name": "Microsoft Surface Pro Copilot+ PC 16 GB / 1024 GB (EP2-23855)",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 130465,
+    "currency": "TL",
+    "rating": 4.8,
+    "reviewCount": 30,
+    "image": "/images/tablets/microsoft-1048755.jpg",
+    "images": [
+      "/images/tablets/microsoft-1048755.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "13.0 İnç 120 Hz 2.8K PixelSense Ekran",
+      "Snapdragon X Plus / Elite İşlemci",
+      "16 GB LPDDR5x RAM & 1 TB SSD",
+      "Yapay Zeka Destekli Copilot+ İş Akışları"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2880 x 1920",
+      "panelType": "PixelSense Flow",
+      "refreshRateHz": 120,
+      "processor": "Snapdragon X Elite",
+      "ramGb": 16,
+      "storageGb": 1024,
+      "batteryMah": 7300,
+      "rearCameraMp": "10 MP",
+      "frontCameraMp": "1440p QHD",
+      "weightGrams": 895,
+      "os": "Windows 11 Home",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-copilot-16-1tb-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 130465,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 160,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-copilot-plus-pc-ep2-23855.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-06-01",
+        "price": 135000,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 130465,
+        "store": "Amazon TR"
       }
     ]
   },
@@ -6415,6 +6634,308 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "ms-surface-pro-10-ultra7-5g-16-256",
+    "slug": "microsoft-surface-pro-10-ep2-27020",
+    "name": "Microsoft Surface Pro 10 Intel Core Ultra 7 5G (EP2-27020) 16 GB / 256 GB",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 147000,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 19,
+    "image": "/images/tablets/microsoft-986722.jpg",
+    "images": [
+      "/images/tablets/microsoft-986722.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "5G LTE SIM & eSIM Bağlantı Desteği",
+      "13.0 İnç 120 Hz PixelSense Ekran",
+      "Intel Core Ultra 7 165U İşlemci",
+      "16 GB RAM & 256 GB SSD"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2880 x 1920",
+      "panelType": "PixelSense Flow",
+      "refreshRateHz": 120,
+      "processor": "Intel Core Ultra 7 165U",
+      "ramGb": 16,
+      "storageGb": 256,
+      "batteryMah": 7100,
+      "rearCameraMp": "10.5 MP",
+      "frontCameraMp": "1440p QHD",
+      "weightGrams": 885,
+      "os": "Windows 11 Pro",
+      "cellularSupport": "5G + 4G LTE + Wi-Fi 6E",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-pro10-5g-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 147000,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "5G Destekli",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 50,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-10-ep2-27020.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-07-01",
+        "price": 152000,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 147000,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-10-ultra7-32-512",
+    "slug": "microsoft-surface-pro-10-y6b-00001",
+    "name": "Microsoft Surface Pro 10 Intel Core Ultra 7 (Y6B-00001) 32 GB / 512 GB",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 141268,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 22,
+    "image": "/images/tablets/microsoft-1031515.jpg",
+    "images": [
+      "/images/tablets/microsoft-1031515.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "13.0 İnç Yansıma Önleyici 120 Hz PixelSense Ekran",
+      "Intel Core Ultra 7 165U İşlemci & Entegre Intel AI Boost NPU",
+      "32 GB LPDDR5x RAM & 512 GB Gen4 SSD",
+      "Kurumsal Seviye Windows 11 Pro Güvenliği"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2880 x 1920",
+      "panelType": "PixelSense Flow (Anti-reflective)",
+      "refreshRateHz": 120,
+      "processor": "Intel Core Ultra 7 165U (12 Çekirdek)",
+      "ramGb": 32,
+      "storageGb": 512,
+      "batteryMah": 7100,
+      "rearCameraMp": "10.5 MP Ultra HD",
+      "frontCameraMp": "1440p Surface Studio Kamera",
+      "weightGrams": 879,
+      "os": "Windows 11 Pro",
+      "cellularSupport": "Wi-Fi 6E",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-pro10-u7-32-512-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 141268,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Kurumsal Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 88,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-10-y6b-00001.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-06-01",
+        "price": 146000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 141268,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-copilot-plus-16-512-ep20240",
+    "slug": "microsoft-surface-pro-copilot-plus-pc-ep2-20240",
+    "name": "Microsoft Surface Pro Copilot+ PC 16 GB / 512 GB (EP2-20240)",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 136636,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 42,
+    "image": "/images/tablets/microsoft-1042447.jpg",
+    "images": [
+      "/images/tablets/microsoft-1042447.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "13.0 İnç 120 Hz Dokunmatik Panel",
+      "Snapdragon X Elite 12 Çekirdekli İşlemci",
+      "16 GB RAM & 512 GB Hızlı SSD",
+      "Ultra İnce Alüminyum Gövde & Ayarlanabilir Ayaklık (Kickstand)"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2880 x 1920",
+      "panelType": "PixelSense Flow",
+      "refreshRateHz": 120,
+      "processor": "Snapdragon X Elite",
+      "ramGb": 16,
+      "storageGb": 512,
+      "batteryMah": 7300,
+      "rearCameraMp": "10 MP",
+      "frontCameraMp": "1440p QHD",
+      "weightGrams": 895,
+      "os": "Windows 11 Home",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-copilot-16-512-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 136636,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 95,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-copilot-plus-pc-ep2-20240.html"
+      },
+      {
+        "id": "so-ms-surface-copilot-16-512-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 137500,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 60,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-copilot-plus-pc-ep2-20240.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-05-01",
+        "price": 142000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 136636,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-copilot-plus-16-256-zhx",
+    "slug": "microsoft-surface-pro-copilot-plus-pc-zhx-00001",
+    "name": "Microsoft Surface Pro Copilot+ PC 16 GB / 256 GB (EP2-05006)",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 92175,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 50,
+    "image": "/images/tablets/microsoft-967024.jpg",
+    "images": [
+      "/images/tablets/microsoft-967024.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "13.0 İnç 120 Hz PixelSense Ekran",
+      "Snapdragon X Plus (10 Çekirdek) İşlemci",
+      "16 GB RAM & 256 GB Depolama",
+      "En Çok Tercih Edilen Fiyat/Performans Surface Pro"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2880 x 1920",
+      "panelType": "PixelSense Flow",
+      "refreshRateHz": 120,
+      "processor": "Snapdragon X Plus (10 Çekirdek)",
+      "ramGb": 16,
+      "storageGb": 256,
+      "batteryMah": 7300,
+      "rearCameraMp": "10 MP",
+      "frontCameraMp": "1440p QHD",
+      "weightGrams": 895,
+      "os": "Windows 11 Home",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-copilot-16-256-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 92175,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "En Çok Satan"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 280,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-copilot-plus-pc-zhx-00001.html"
+      },
+      {
+        "id": "so-ms-surface-copilot-16-256-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 93499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 110,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-copilot-plus-pc-zhx-00001.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-04-01",
+        "price": 97999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 92175,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "tcl-nxtpaper-14-8-256",
     "slug": "tcl-nxtpaper-14",
     "name": "TCL NXTPAPER 14 8 GB / 256 GB",
@@ -6493,6 +7014,142 @@ export const mockTablets: Product[] = [
       {
         "date": "2026-08-01",
         "price": 20265,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-copilot-plus-16-256-ep20104",
+    "slug": "microsoft-surface-pro-copilot-plus-pc-ep2-20104",
+    "name": "Microsoft Surface Pro Copilot+ PC 16 GB / 256 GB (EP2-20104)",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 125640,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 18,
+    "image": "/images/tablets/microsoft-1066765.jpg",
+    "images": [
+      "/images/tablets/microsoft-1066765.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "13.0 İnç 120 Hz PixelSense Ekran",
+      "Snapdragon X Plus İşlemci",
+      "16 GB RAM & 256 GB SSD",
+      "Windows 11 Copilot+ Entegrasyonu"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2880 x 1920",
+      "panelType": "PixelSense Flow",
+      "refreshRateHz": 120,
+      "processor": "Snapdragon X Plus",
+      "ramGb": 16,
+      "storageGb": 256,
+      "batteryMah": 7300,
+      "rearCameraMp": "10 MP",
+      "frontCameraMp": "1440p QHD",
+      "weightGrams": 895,
+      "os": "Windows 11 Pro",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-copilot-ep20104-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 125640,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 45,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-copilot-plus-pc-ep2-20104.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-06-01",
+        "price": 129999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 125640,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-copilot-plus-12-16-512-ep36697",
+    "slug": "microsoft-surface-pro-copilot-plus-pc-ep2-36697",
+    "name": "Microsoft Surface Pro Copilot+ PC 12.0 İnç 16 GB / 512 GB (EP2-36697)",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 107088,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 15,
+    "image": "/images/tablets/microsoft-1059268.jpg",
+    "images": [
+      "/images/tablets/microsoft-1059268.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "12.0 İnç Kompakt PixelSense Dokunmatik Ekran",
+      "Snapdragon X Plus İşlemci",
+      "16 GB RAM & 512 GB SSD",
+      "Hafif ve Taşınabilir 2si1 Arada Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 12,
+      "screenResolution": "2560 x 1600",
+      "panelType": "PixelSense Flow",
+      "refreshRateHz": 120,
+      "processor": "Snapdragon X Plus",
+      "ramGb": 16,
+      "storageGb": 512,
+      "batteryMah": 6500,
+      "rearCameraMp": "10 MP",
+      "frontCameraMp": "1080p FHD",
+      "weightGrams": 780,
+      "os": "Windows 11 Home",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-12-16-512-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 107088,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 35,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-copilot-plus-pc-ep2-36697.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-07-01",
+        "price": 112000,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 107088,
         "store": "Amazon TR"
       }
     ]
@@ -6702,6 +7359,142 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 79999,
         "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-copilot-plus-12-16-512-ep33676",
+    "slug": "microsoft-surface-pro-copilot-plus-pc-ep2-33676",
+    "name": "Microsoft Surface Pro Copilot+ PC 12.0 İnç 16 GB / 512 GB (EP2-33676)",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 78045,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 20,
+    "image": "/images/tablets/microsoft-1048673.jpg",
+    "images": [
+      "/images/tablets/microsoft-1048673.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "12.0 İnç PixelSense Dokunmatik Ekran",
+      "Snapdragon X Plus İşlemci",
+      "16 GB RAM & 512 GB SSD",
+      "Uzun Pil Ömrü & Hızlı Şarj"
+    ],
+    "specs": {
+      "screenSizeInches": 12,
+      "screenResolution": "2560 x 1600",
+      "panelType": "PixelSense Flow",
+      "refreshRateHz": 120,
+      "processor": "Snapdragon X Plus",
+      "ramGb": 16,
+      "storageGb": 512,
+      "batteryMah": 6500,
+      "rearCameraMp": "10 MP",
+      "frontCameraMp": "1080p FHD",
+      "weightGrams": 780,
+      "os": "Windows 11 Home",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-12-512-ep33676-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 78045,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 65,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-copilot-plus-pc-ep2-33676.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-05-01",
+        "price": 82000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 78045,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-copilot-plus-12-16-512-ep33674",
+    "slug": "microsoft-surface-pro-copilot-plus-pc-ep2-33674",
+    "name": "Microsoft Surface Pro Copilot+ PC 12.0 İnç 16 GB / 512 GB (EP2-33674)",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 78045,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 17,
+    "image": "/images/tablets/microsoft-1048672.jpg",
+    "images": [
+      "/images/tablets/microsoft-1048672.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "12.0 İnç PixelSense Dokunmatik Ekran",
+      "Snapdragon X Plus İşlemci",
+      "16 GB RAM & 512 GB SSD",
+      "Platin Gri Metalik Gövde"
+    ],
+    "specs": {
+      "screenSizeInches": 12,
+      "screenResolution": "2560 x 1600",
+      "panelType": "PixelSense Flow",
+      "refreshRateHz": 120,
+      "processor": "Snapdragon X Plus",
+      "ramGb": 16,
+      "storageGb": 512,
+      "batteryMah": 6500,
+      "rearCameraMp": "10 MP",
+      "frontCameraMp": "1080p FHD",
+      "weightGrams": 780,
+      "os": "Windows 11 Home",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-12-512-ep33674-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 78045,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 50,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-copilot-plus-pc-ep2-33674.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-05-01",
+        "price": 82000,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 78045,
+        "store": "Trendyol"
       }
     ]
   },
@@ -7222,6 +8015,89 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 69599,
         "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-copilot-plus-12-16-256-ep33670",
+    "slug": "microsoft-surface-pro-copilot-plus-pc-ep2-33670",
+    "name": "Microsoft Surface Pro Copilot+ PC 12.0 İnç 16 GB / 256 GB (EP2-33670)",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 68318,
+    "currency": "TL",
+    "rating": 4.4,
+    "reviewCount": 35,
+    "image": "/images/tablets/microsoft-1046885.jpg",
+    "images": [
+      "/images/tablets/microsoft-1046885.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "12.0 İnç PixelSense Dokunmatik Ekran",
+      "Snapdragon X Plus İşlemci",
+      "16 GB RAM & 256 GB SSD",
+      "En Uygun Fiyatlı Copilot+ Surface Pro Modeli"
+    ],
+    "specs": {
+      "screenSizeInches": 12,
+      "screenResolution": "2560 x 1600",
+      "panelType": "PixelSense Flow",
+      "refreshRateHz": 120,
+      "processor": "Snapdragon X Plus",
+      "ramGb": 16,
+      "storageGb": 256,
+      "batteryMah": 6500,
+      "rearCameraMp": "10 MP",
+      "frontCameraMp": "1080p FHD",
+      "weightGrams": 780,
+      "os": "Windows 11 Home",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-12-256-ep33670-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 68318,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "En Uygun Fiyat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 190,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-copilot-plus-pc-ep2-33670.html"
+      },
+      {
+        "id": "so-ms-surface-12-256-ep33670-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 68999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 80,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-copilot-plus-pc-ep2-33670.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-04-01",
+        "price": 72999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 68318,
+        "store": "Amazon TR"
       }
     ]
   },
