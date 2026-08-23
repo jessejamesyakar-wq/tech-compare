@@ -357,7 +357,15 @@ export async function searchProducts(query: string): Promise<Product[]> {
 
 export async function getAllTablets(): Promise<Product[]> {
   const all = deduplicateProducts(getStoredProducts());
-  return all.filter((p) => p.category === 'tablets');
+  return all
+    .filter((p) => p.category === 'tablets')
+    .sort((a, b) => {
+      const yearDiff = (b.releaseYear || 0) - (a.releaseYear || 0);
+      if (yearDiff !== 0) return yearDiff;
+      const ratingDiff = (b.rating || 0) - (a.rating || 0);
+      if (ratingDiff !== 0) return ratingDiff;
+      return (b.basePrice || 0) - (a.basePrice || 0);
+    });
 }
 
 export async function getAllSmartwatches(): Promise<Product[]> {

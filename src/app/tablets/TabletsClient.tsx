@@ -16,7 +16,7 @@ function TabletsContent({ initialProducts }: { initialProducts: Product[] }) {
   
   const [products] = useState<Product[]>(initialProducts);
   const [searchQuery, setSearchQuery] = useState('');
-  const [sortBy, setSortBy] = useState('popular');
+  const [sortBy, setSortBy] = useState('newest');
 
   const brandParam = searchParams.get('brand');
   const selectedBrands = useMemo(() => {
@@ -59,8 +59,24 @@ function TabletsContent({ initialProducts }: { initialProducts: Product[] }) {
       .sort((a, b) => {
         if (sortBy === 'priceAsc') return a.basePrice - b.basePrice;
         if (sortBy === 'priceDesc') return b.basePrice - a.basePrice;
-        if (sortBy === 'rating') return b.rating - a.rating;
-        return (b.isPopular ? 1 : 0) - (a.isPopular ? 1 : 0);
+        if (sortBy === 'rating') {
+          const ratingDiff = (b.rating || 0) - (a.rating || 0);
+          if (ratingDiff !== 0) return ratingDiff;
+          return (b.releaseYear || 0) - (a.releaseYear || 0);
+        }
+        if (sortBy === 'popular') {
+          const popDiff = (b.isPopular ? 1 : 0) - (a.isPopular ? 1 : 0);
+          if (popDiff !== 0) return popDiff;
+          const yearDiff = (b.releaseYear || 0) - (a.releaseYear || 0);
+          if (yearDiff !== 0) return yearDiff;
+          return (b.rating || 0) - (a.rating || 0);
+        }
+        // Default / 'newest': Yeniden Eskiye (En Yeni Çıkış Yılı En Üstte)
+        const yearDiff = (b.releaseYear || 0) - (a.releaseYear || 0);
+        if (yearDiff !== 0) return yearDiff;
+        const ratingDiff = (b.rating || 0) - (a.rating || 0);
+        if (ratingDiff !== 0) return ratingDiff;
+        return (b.basePrice || 0) - (a.basePrice || 0);
       });
   }, [products, selectedBrands, searchQuery, sortBy]);
 
@@ -119,10 +135,11 @@ function TabletsContent({ initialProducts }: { initialProducts: Product[] }) {
             onChange={(e) => setSortBy(e.target.value)}
             className="bg-slate-50 border border-slate-200 rounded-2xl px-3 py-2 text-xs font-bold text-slate-800 outline-none cursor-pointer"
           >
+            <option value="newest">En Yeniler (Çıkış Yılı)</option>
             <option value="popular">Öne Çıkanlar</option>
+            <option value="rating">En Yüksek Puanlılar</option>
             <option value="priceAsc">Fiyat: Düşükten Yükseğe</option>
             <option value="priceDesc">Fiyat: Yüksekten Düşüğe</option>
-            <option value="rating">En Yüksek Puanlılar</option>
           </select>
         </div>
       </div>
