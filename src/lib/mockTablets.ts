@@ -2,6 +2,391 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "samsung-galaxy-tab-pro-10-1",
+    "slug": "samsung-galaxy-tab-pro-10-1",
+    "name": "Samsung Galaxy Tab Pro 10.1 (SM-T520) 16 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 5499,
+    "currency": "TL",
+    "rating": 2.1,
+    "reviewCount": 36,
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/samsung-galaxy-tab-pro-10-1-1.png",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-pro-10-1-1.png"
+    ],
+    "highlights": [
+      "10.1\" 2K WQXGA Super Clear LCD Ekran (2560 x 1600)",
+      "Samsung Exynos 5 Octa 5420 8 Çekirdek İşlemci",
+      "8220 mAh Yüksek Kapasiteli Batarya",
+      "8 MP Arka Kamera (LED Flaşlı) & Stereo Hoparlör"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "2560 x 1600",
+      "panelType": "Super Clear LCD",
+      "refreshRateHz": 60,
+      "processor": "Samsung Exynos 5 Octa 5420",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 8220,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 469,
+      "os": "Android 4.4 KitKat",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-pro-10-1-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 5499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "2K WQXGA Ekran",
+          "8220 mAh Pil"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 240,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-pro-10-1.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 5699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-note-101-2014-edition",
+    "slug": "samsung-galaxy-note-101-2014-edition",
+    "name": "Samsung Galaxy Note 10.1 (2014 Edition) (SM-P600) 16 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 5999,
+    "currency": "TL",
+    "rating": 2.1,
+    "reviewCount": 42,
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/samsung-galaxy-note-101-2014-edition-1.png",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-note-101-2014-edition-1.png"
+    ],
+    "highlights": [
+      "10.1\" 2K WQXGA Ekran & Dahili S Pen Kalem Yuvası",
+      "Samsung Exynos 5 Octa 5420 & 3 GB RAM",
+      "8220 mAh Batarya & Deri Görünümlü Şık Arka Kapak",
+      "Air Command & Çoklu Pencere (Multi Window) Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "2560 x 1600",
+      "panelType": "Super Clear LCD",
+      "refreshRateHz": 60,
+      "processor": "Samsung Exynos 5 Octa 5420",
+      "ramGb": 3,
+      "storageGb": 16,
+      "batteryMah": 8220,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 540,
+      "os": "Android 4.3 / 5.1.1 Lollipop",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-note-101-2014-edition-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "S Pen Dahil",
+          "2K Ekran"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 310,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-note-101-2014-edition.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 6499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 6199,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-note-101-2014-edition-3g",
+    "slug": "samsung-galaxy-note-101-2014-edition-3g",
+    "name": "Samsung Galaxy Note 10.1 (2014 Edition) 3G (SM-P602) 16 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 6299,
+    "currency": "TL",
+    "rating": 2.1,
+    "reviewCount": 39,
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/samsung-galaxy-note-101-2014-edition-3g-1.png",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-note-101-2014-edition-3g-1.png"
+    ],
+    "highlights": [
+      "10.1\" 2560 x 1600 WQXGA Ekran & 3G SIM Kart Desteği",
+      "Sesli Telefon Görüşmesi & Dahili S Pen Kalem",
+      "Samsung Exynos 5420 8 Çekirdek İşlemci & 3 GB RAM",
+      "8220 mAh Batarya & 8 MP LED Flaşlı Arka Kamera"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "2560 x 1600",
+      "panelType": "Super Clear LCD",
+      "refreshRateHz": 60,
+      "processor": "Samsung Exynos 5 Octa 5420",
+      "ramGb": 3,
+      "storageGb": 16,
+      "batteryMah": 8220,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 547,
+      "os": "Android 4.3 / 5.1.1 Lollipop",
+      "cellularSupport": "3G SIM (Micro-SIM)",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-note-101-2014-edition-3g-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 6299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "3G SIM & Telefon",
+          "S Pen Dahil"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 280,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-note-101-2014-edition-3g.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 6799,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 6499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6299,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "samsung-google-nexus-10-32gb",
+    "slug": "samsung-google-nexus-10-32gb",
+    "name": "Samsung Google Nexus 10 (GT-P8110) 32 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 5199,
+    "currency": "TL",
+    "rating": 2.1,
+    "reviewCount": 30,
+    "releaseYear": 2012,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/samsung-google-nexus-10-32gb-1.png",
+    "images": [
+      "/images/products/tablets/samsung-google-nexus-10-32gb-1.png"
+    ],
+    "highlights": [
+      "10.1\" 2560 x 1600 WQXGA (300 ppi) Corning Gorilla Glass 2",
+      "Google & Samsung Ortak Tasarımı Saf Android Deneyimi",
+      "9000 mAh Dev Batarya & Çift Ön Stereo Hoparlör",
+      "Samsung Exynos 5 Dual 5250 & Micro HDMI Çıkışı"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "2560 x 1600",
+      "panelType": "Super PLS TFT",
+      "refreshRateHz": 60,
+      "processor": "Samsung Exynos 5 Dual 5250",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 9000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "1.9 MP",
+      "weightGrams": 603,
+      "os": "Android (Google Nexus Pure Android)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-google-nexus-10-32gb-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 5199,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "9000 mAh Batarya",
+          "Saf Android"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 190,
+        "url": "https://www.epey.com/tablet/samsung-google-nexus-10-32gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 5699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 5399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5199,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-a-10-1-lte-2019",
+    "slug": "samsung-galaxy-tab-a-10-1-lte-2019",
+    "name": "Samsung Galaxy Tab A 10.1 (2019) LTE (SM-T517) 32 GB / 4G",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 6999,
+    "currency": "TL",
+    "rating": 2.1,
+    "reviewCount": 75,
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/samsung-galaxy-tab-a-10-1-lte-2019-1.png",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-a-10-1-lte-2019-1.png"
+    ],
+    "highlights": [
+      "10.1\" WUXGA Ekran (1920 x 1200) & İnce Metal Kasa (7.5 mm)",
+      "Samsung Exynos 7904 (14 nm) 8 Çekirdek İşlemci",
+      "4G LTE SIM Bağlantısı & Dolby Atmos Çift Hoparlör",
+      "6150 mAh Batarya & SmartThings Ev Kontrolü"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1920 x 1200",
+      "panelType": "TFT LCD",
+      "refreshRateHz": 60,
+      "processor": "Samsung Exynos 7904",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 6150,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 469,
+      "os": "Android 9.0 / 10 / 11 (One UI)",
+      "cellularSupport": "4G LTE (Nano-SIM)",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-a-10-1-lte-2019-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 6999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Türkiye Garantili",
+          "4G LTE Metal Gövde"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-a-10-1-lte-2019.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-a-10-1-lte-2019-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 7199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 850,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-a-10-1-lte-2019.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 7499,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 7299,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6999,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
     "id": "samsung-galaxy-tab-a9-plus-5g",
     "slug": "samsung-galaxy-tab-a9-plus-5g",
     "name": "Samsung Galaxy Tab A9+ 5G (SM-X216) 4 GB / 64 GB",
