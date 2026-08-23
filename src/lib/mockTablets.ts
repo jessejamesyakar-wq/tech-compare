@@ -23920,6 +23920,74 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "reeder-m7s-1-8",
+    "slug": "reeder-m7s",
+    "name": "Reeder M7S 1 GB / 8 GB (Android 9 Pie Go)",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1499,
+    "currency": "TL",
+    "rating": 3.6,
+    "reviewCount": 22,
+    "image": "/images/tablets/reeder-155374.png",
+    "images": [
+      "/images/tablets/reeder-155374.png"
+    ],
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç IPS Ekran",
+      "Allwinner A50 4 Çekirdekli İşlemci",
+      "Android 9.0 Pie (Go Edition)",
+      "2400 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Allwinner A50 (4 Çekirdek 1.5 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2400,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 260,
+      "os": "Android 9.0 (Pie Go)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-m7s-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 1499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 30,
+        "url": "https://www.epey.com/tablet/reeder-m7s.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2020-01-01",
+        "price": 999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-air-3-10-5-256-gb-wi-fi-plus-cellular-mv0p2tu-a",
     "slug": "apple-ipad-air-3-10-5-256-gb-wi-fi-plus-cellular-mv0p2tu-a",
     "name": "Apple iPad Air 3 256 GB / 4G (MV0P2TU/A)",
@@ -25463,6 +25531,74 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "reeder-m7-go-1-8",
+    "slug": "reeder-m7-go",
+    "name": "Reeder M7 GO 1 GB / 8 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1399,
+    "currency": "TL",
+    "rating": 3.5,
+    "reviewCount": 20,
+    "image": "/images/tablets/reeder-105113.png",
+    "images": [
+      "/images/tablets/reeder-105113.png"
+    ],
+    "releaseYear": 2018,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Ekran",
+      "MediaTek MT8167 4 Çekirdekli İşlemci",
+      "Android 8.1 Oreo (Go Edition)",
+      "2200 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8167 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2200,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 250,
+      "os": "Android 8.1 (Oreo Go)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-m7go-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 1399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Bütçe Dostu"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 25,
+        "url": "https://www.epey.com/tablet/reeder-m7-go.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2019-01-01",
+        "price": 899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1399,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-pro-12-9-512-gb-wi-fi-mtfp2tu",
     "slug": "apple-ipad-pro-12-9-512-gb-wi-fi-mtfp2tu",
     "name": "Apple iPad Pro 3 12.9 4 GB / 512 GB",
@@ -26986,6 +27122,74 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 16999,
         "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "reeder-m7-plus-1-8",
+    "slug": "reeder-m7-plus-7inch",
+    "name": "Reeder M7 Plus 1 GB / 8 GB (Android 7 Nougat)",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1299,
+    "currency": "TL",
+    "rating": 3.5,
+    "reviewCount": 18,
+    "image": "/images/tablets/reeder-85208.png",
+    "images": [
+      "/images/tablets/reeder-85208.png"
+    ],
+    "releaseYear": 2017,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Ekran",
+      "Allwinner A33 4 Çekirdekli İşlemci",
+      "Android 7.0 Nougat",
+      "2000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Allwinner A33 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 260,
+      "os": "Android 7.0 (Nougat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-m7plus7-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 1299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 20,
+        "url": "https://www.epey.com/tablet/reeder-m7-plus.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2018-01-01",
+        "price": 799,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1299,
+        "store": "Amazon TR"
       }
     ]
   },
@@ -28579,6 +28783,142 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 1899,
         "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "reeder-a7i-quad-pink-2-8",
+    "slug": "reeder-a7i-quad-pink",
+    "name": "Reeder A7i Quad Pink 2 GB / 8 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1499,
+    "currency": "TL",
+    "rating": 3.6,
+    "reviewCount": 20,
+    "image": "/images/tablets/reeder-80772.png",
+    "images": [
+      "/images/tablets/reeder-80772.png"
+    ],
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç IPS Ekran",
+      "Intel Atom Z3735G 4 Çekirdekli İşlemci",
+      "2 GB RAM & 8 GB Hafıza",
+      "Pembe Renk Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735G (4 Çekirdek 1.83 GHz)",
+      "ramGb": 2,
+      "storageGb": 8,
+      "batteryMah": 2800,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 280,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a7ipink-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 1499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 24,
+        "url": "https://www.epey.com/tablet/reeder-a7i-quad-pink.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2017-01-01",
+        "price": 899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "reeder-m7-1-8",
+    "slug": "reeder-m7-marshmallow",
+    "name": "Reeder M7 1 GB / 8 GB (Android 6 Marshmallow)",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1199,
+    "currency": "TL",
+    "rating": 3.4,
+    "reviewCount": 16,
+    "image": "/images/tablets/reeder-78018.png",
+    "images": [
+      "/images/tablets/reeder-78018.png"
+    ],
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Ekran",
+      "Allwinner A33 4 Çekirdekli İşlemci",
+      "Android 6.0 Marshmallow",
+      "2000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Allwinner A33 (4 Çekirdek 1.2 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2000,
+      "rearCameraMp": "0.3 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 260,
+      "os": "Android 6.0 (Marshmallow)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-m7m-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 1199,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Uygun"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 18,
+        "url": "https://www.epey.com/tablet/reeder-m7.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2017-01-01",
+        "price": 699,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1199,
+        "store": "Trendyol"
       }
     ]
   },
@@ -30789,6 +31129,74 @@ export const mockTablets: Product[] = [
       {
         "date": "2026-08-01",
         "price": 1699,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "reeder-a7is-quad-3g-1-8",
+    "slug": "reeder-a7is-quad-3g",
+    "name": "Reeder A7iS Quad (3G) 1 GB / 8 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1599,
+    "currency": "TL",
+    "rating": 3.6,
+    "reviewCount": 22,
+    "image": "/images/tablets/reeder-50239.png",
+    "images": [
+      "/images/tablets/reeder-50239.png"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç IPS Ekran",
+      "Intel Atom x3-C3230RK 4 Çekirdekli İşlemci",
+      "3G SIM Kart Desteği ile Telefon Görüşmesi",
+      "2800 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom x3-C3230RK (4 Çekirdek 1.2 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2800,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 280,
+      "os": "Android 5.1 (Lollipop)",
+      "cellularSupport": "3G SIM + Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a7isquad-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 1599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "3G SIM"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 30,
+        "url": "https://www.epey.com/tablet/reeder-a7is-quad-3g.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2016-01-01",
+        "price": 999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1599,
         "store": "Amazon TR"
       }
     ]
@@ -33187,6 +33595,346 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "reeder-a7is-3g-1-8",
+    "slug": "reeder-a7is-3g",
+    "name": "Reeder A7iS (3G) 1 GB / 8 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1399,
+    "currency": "TL",
+    "rating": 3.5,
+    "reviewCount": 18,
+    "image": "/images/tablets/reeder-3024.png",
+    "images": [
+      "/images/tablets/reeder-3024.png"
+    ],
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç IPS Ekran",
+      "Intel Atom Z2520 Çift Çekirdekli İşlemci",
+      "3G SIM Kart ile Sesli Görüşme",
+      "2800 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z2520 (2 Çekirdek 1.2 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2800,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 280,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "3G SIM + Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a7is3g-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 1399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "3G"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 22,
+        "url": "https://www.epey.com/tablet/reeder-a7is-3g.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2015-01-01",
+        "price": 899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1399,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "reeder-a7iq-1-16",
+    "slug": "reeder-a7iq",
+    "name": "Reeder A7iQ 1 GB / 16 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1399,
+    "currency": "TL",
+    "rating": 3.5,
+    "reviewCount": 16,
+    "image": "/images/tablets/reeder-3117.png",
+    "images": [
+      "/images/tablets/reeder-3117.png"
+    ],
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç HD IPS Ekran",
+      "Intel Atom Z3735G 4 Çekirdekli İşlemci",
+      "1 GB RAM & 16 GB Depolama",
+      "2800 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735G (4 Çekirdek 1.83 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 2800,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 280,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a7iq-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 1399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 20,
+        "url": "https://www.epey.com/tablet/reeder-a7iq.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2015-01-01",
+        "price": 899,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1399,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "reeder-a8c-1-8",
+    "slug": "reeder-a8c",
+    "name": "Reeder A8C 1 GB / 8 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1299,
+    "currency": "TL",
+    "rating": 3.5,
+    "reviewCount": 16,
+    "image": "/images/tablets/reeder-3028.png",
+    "images": [
+      "/images/tablets/reeder-3028.png"
+    ],
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.9 İnç IPS Ekran (4:3 Oran)",
+      "Allwinner A31s 4 Çekirdekli İşlemci",
+      "1 GB RAM & 8 GB Hafıza",
+      "4000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7.9,
+      "screenResolution": "1024 x 768",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Allwinner A31s (4 Çekirdek 1.0 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 4000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 340,
+      "os": "Android 4.2 (Jelly Bean)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a8c-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 1299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ekonomik"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 18,
+        "url": "https://www.epey.com/tablet/reeder-a8c.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2015-01-01",
+        "price": 799,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1299,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "reeder-a7im-1-8",
+    "slug": "reeder-a7im",
+    "name": "Reeder A7iM 1 GB / 8 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1299,
+    "currency": "TL",
+    "rating": 3.4,
+    "reviewCount": 15,
+    "image": "/images/tablets/reeder-1333.png",
+    "images": [
+      "/images/tablets/reeder-1333.png"
+    ],
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç IPS Ekran",
+      "Intel Atom Z2520 İşlemci",
+      "1 GB RAM & 8 GB Hafıza",
+      "2800 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z2520 (2 Çekirdek 1.2 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2800,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 280,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a7im-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 1299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bütçe Dostu"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 16,
+        "url": "https://www.epey.com/tablet/reeder-a7im.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2015-01-01",
+        "price": 799,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1299,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "reeder-a7id-1-8",
+    "slug": "reeder-a7id",
+    "name": "Reeder A7iD 1 GB / 8 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1299,
+    "currency": "TL",
+    "rating": 3.4,
+    "reviewCount": 14,
+    "image": "/images/tablets/reeder-767.png",
+    "images": [
+      "/images/tablets/reeder-767.png"
+    ],
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç IPS Ekran",
+      "Intel Atom Z2520 İşlemci",
+      "1 GB RAM & 8 GB Hafıza",
+      "2800 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z2520 (2 Çekirdek 1.2 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2800,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 280,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a7id-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 1299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 15,
+        "url": "https://www.epey.com/tablet/reeder-a7id.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2015-01-01",
+        "price": 799,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1299,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-air-2-wifi-plus-cellular-128gb",
     "slug": "apple-ipad-air-2-wifi-plus-cellular-128gb",
     "name": "Apple iPad Air 2 128 GB",
@@ -34925,6 +35673,210 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 1699,
         "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "reeder-a7s-3g-1-4",
+    "slug": "reeder-a7s-3g",
+    "name": "Reeder A7S (3G) 1 GB / 4 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1199,
+    "currency": "TL",
+    "rating": 3.3,
+    "reviewCount": 12,
+    "image": "/images/tablets/reeder-543.png",
+    "images": [
+      "/images/tablets/reeder-543.png"
+    ],
+    "releaseYear": 2013,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Ekran",
+      "MediaTek MT6575 İşlemci",
+      "3G SIM Kart Desteği",
+      "3000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "TFT LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT6575 (1 Çekirdek 1.0 GHz)",
+      "ramGb": 1,
+      "storageGb": 4,
+      "batteryMah": 3000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 310,
+      "os": "Android 4.0 (Ice Cream Sandwich)",
+      "cellularSupport": "3G SIM + Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a7s3g-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 1199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "3G SIM"
+        ],
+        "sellerRating": 4.2,
+        "sellerReviews": 14,
+        "url": "https://www.epey.com/tablet/reeder-a7s-3g.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2014-01-01",
+        "price": 699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1199,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "reeder-a7-1-8",
+    "slug": "reeder-a7",
+    "name": "Reeder A7 1 GB / 8 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1099,
+    "currency": "TL",
+    "rating": 3.3,
+    "reviewCount": 15,
+    "image": "/images/tablets/reeder-546.png",
+    "images": [
+      "/images/tablets/reeder-546.png"
+    ],
+    "releaseYear": 2013,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Dokunmatik Ekran",
+      "Allwinner A13 İşlemci",
+      "1 GB RAM & 8 GB Hafıza",
+      "2500 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "800 x 480",
+      "panelType": "TFT LCD",
+      "refreshRateHz": 60,
+      "processor": "Allwinner A13 (1 Çekirdek 1.0 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2500,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 290,
+      "os": "Android 4.1 (Jelly Bean)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a7-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 1099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Bütçe"
+        ],
+        "sellerRating": 4.2,
+        "sellerReviews": 16,
+        "url": "https://www.epey.com/tablet/reeder-a7.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2014-01-01",
+        "price": 599,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1099,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "reeder-reedpad-4-lite-plus-1-8",
+    "slug": "reeder-reedpad-4-lite-plus",
+    "name": "Reeder ReedPad 4 Lite Plus 1 GB / 8 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 999,
+    "currency": "TL",
+    "rating": 3.2,
+    "reviewCount": 14,
+    "image": "/images/tablets/reeder-548.png",
+    "images": [
+      "/images/tablets/reeder-548.png"
+    ],
+    "releaseYear": 2013,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Ekran",
+      "Boxchip A10 İşlemci",
+      "1 GB RAM & 8 GB Hafıza",
+      "3000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "800 x 480",
+      "panelType": "TFT LCD",
+      "refreshRateHz": 60,
+      "processor": "Boxchip A10 (1 Çekirdek 1.0 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 3000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 300,
+      "os": "Android 4.0 (Ice Cream Sandwich)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-reedpad4-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Giriş Seviye"
+        ],
+        "sellerRating": 4.1,
+        "sellerReviews": 12,
+        "url": "https://www.epey.com/tablet/reeder-reedpad-4-lite-plus.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2014-01-01",
+        "price": 499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 999,
+        "store": "Trendyol"
       }
     ]
   },
