@@ -2,6 +2,838 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "apple-ipad-air-11-2024-1-tb",
+    "slug": "apple-ipad-air-11-2024-1-tb",
+    "name": "Apple iPad Air 11 (2024) 1024 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 41800,
+    "currency": "TL",
+    "rating": 3.9,
+    "reviewCount": 312,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-air-11-2024-1-tb-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-air-11-2024-1-tb-1.jpg"
+    ],
+    "highlights": [
+      "11\" Liquid Retina IPS 60Hz Ekran",
+      "Apple M2 Güçlü Apple Silikon Çip",
+      "1 TB Dahili Depolama • 8 GB RAM",
+      "Wi-Fi 6E Yüksek Hız"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "2360 x 1640",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple M2",
+      "ramGb": 8,
+      "storageGb": 1024,
+      "batteryMah": 7606,
+      "rearCameraMp": "12 MP (4K Video Kaydı)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 462,
+      "os": "iPadOS 18",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-air-11-2024-1-tb-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 41800,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-11-2024-1-tb.html"
+      },
+      {
+        "id": "apple-ipad-air-11-2024-1-tb-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 41382,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-11-2024-1-tb.html"
+      },
+      {
+        "id": "apple-ipad-air-11-2024-1-tb-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 41800,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-11-2024-1-tb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 43890,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 42636,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 41800,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-air-11-2024-wi-fi-plus-cellular",
+    "slug": "apple-ipad-air-11-2024-wi-fi-plus-cellular",
+    "name": "Apple iPad Air 11 (2024) Wi-Fi + Cellular 128 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 31839,
+    "currency": "TL",
+    "rating": 3.8,
+    "reviewCount": 273,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-air-11-2024-wi-fi-plus-cellular-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-air-11-2024-wi-fi-plus-cellular-1.jpg"
+    ],
+    "highlights": [
+      "11\" Liquid Retina IPS 60Hz Ekran",
+      "Apple M2 Güçlü Apple Silikon Çip",
+      "128 GB Dahili Depolama • 8 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "2360 x 1640",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple M2",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 7606,
+      "rearCameraMp": "12 MP (4K Video Kaydı)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 462,
+      "os": "iPadOS 18",
+      "cellularSupport": "4G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-air-11-2024-wi-fi-plus-cellular-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 31839,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-11-2024-wi-fi-plus-cellular.html"
+      },
+      {
+        "id": "apple-ipad-air-11-2024-wi-fi-plus-cellular-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 31521,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-11-2024-wi-fi-plus-cellular.html"
+      },
+      {
+        "id": "apple-ipad-air-11-2024-wi-fi-plus-cellular-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 31839,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-11-2024-wi-fi-plus-cellular.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 33431,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 32476,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 31839,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-air-11-m3-128-2",
+    "slug": "apple-ipad-air-11-m3-128-2",
+    "name": "Apple iPad Air 11 (M3) 128 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 33999,
+    "currency": "TL",
+    "rating": 3.8,
+    "reviewCount": 553,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-air-11-m3-128-2-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-air-11-m3-128-2-1.jpg"
+    ],
+    "highlights": [
+      "11\" Liquid Retina IPS 60Hz Ekran",
+      "Apple M3 Güçlü Apple Silikon Çip",
+      "128 GB Dahili Depolama • 8 GB RAM",
+      "Wi-Fi 6E Yüksek Hız"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "2360 x 1640",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple M3",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 7606,
+      "rearCameraMp": "12 MP (4K Video Kaydı)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 462,
+      "os": "iPadOS 18",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-air-11-m3-128-2-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 33999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-11-m3-128-2.html"
+      },
+      {
+        "id": "apple-ipad-air-11-m3-128-2-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 33659,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-11-m3-128-2.html"
+      },
+      {
+        "id": "apple-ipad-air-11-m3-128-2-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 33999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-11-m3-128-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 35699,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 34679,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 33999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-12-9-2022-wi-fi",
+    "slug": "apple-ipad-pro-12-9-2022-wi-fi",
+    "name": "Apple iPad Pro 12.9 (MNXP3TU/A ) 8 GB / 128 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 69713,
+    "currency": "TL",
+    "rating": 3.7,
+    "reviewCount": 453,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-pro-12-9-2022-wi-fi-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-12-9-2022-wi-fi-1.jpg"
+    ],
+    "highlights": [
+      "12.9\" Liquid Retina XDR Mini-LED 120Hz Ekran",
+      "Apple M1 Güçlü Apple Silikon Çip",
+      "128 GB Dahili Depolama • 8 GB RAM",
+      "Wi-Fi 6E Yüksek Hız"
+    ],
+    "specs": {
+      "screenSizeInches": 12.9,
+      "screenResolution": "2732 x 2048",
+      "panelType": "Liquid Retina XDR Mini-LED",
+      "refreshRateHz": 120,
+      "processor": "Apple M1",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 10758,
+      "rearCameraMp": "12 MP (4K Video Kaydı)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 682,
+      "os": "iPadOS 18",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-12-9-2022-wi-fi-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 69713,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-12-9-2022-wi-fi.html"
+      },
+      {
+        "id": "apple-ipad-pro-12-9-2022-wi-fi-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 69016,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-12-9-2022-wi-fi.html"
+      },
+      {
+        "id": "apple-ipad-pro-12-9-2022-wi-fi-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 69713,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-12-9-2022-wi-fi.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 73199,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 71107,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 69713,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-air-11-2024-2",
+    "slug": "apple-ipad-air-11-2024-2",
+    "name": "Apple iPad Air 11 (2024) 256 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 39949,
+    "currency": "TL",
+    "rating": 3.6,
+    "reviewCount": 424,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-air-11-2024-2-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-air-11-2024-2-1.jpg"
+    ],
+    "highlights": [
+      "11\" Liquid Retina IPS 60Hz Ekran",
+      "Apple M2 Güçlü Apple Silikon Çip",
+      "256 GB Dahili Depolama • 8 GB RAM",
+      "Wi-Fi 6E Yüksek Hız"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "2360 x 1640",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple M2",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 7606,
+      "rearCameraMp": "12 MP (4K Video Kaydı)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 462,
+      "os": "iPadOS 18",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-air-11-2024-2-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 39949,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-11-2024-2.html"
+      },
+      {
+        "id": "apple-ipad-air-11-2024-2-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 39550,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-11-2024-2.html"
+      },
+      {
+        "id": "apple-ipad-air-11-2024-2-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 39949,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-11-2024-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 41946,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 40748,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 39949,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-12-9-mhnj3tu-a",
+    "slug": "apple-ipad-pro-12-9-mhnj3tu-a",
+    "name": "Apple iPad Pro 12.9 8 GB / 256 GB (MHNJ3TU/A)",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 65550,
+    "currency": "TL",
+    "rating": 3.6,
+    "reviewCount": 326,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-pro-12-9-mhnj3tu-a-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-12-9-mhnj3tu-a-1.jpg"
+    ],
+    "highlights": [
+      "12.9\" Liquid Retina XDR Mini-LED 120Hz Ekran",
+      "Apple M1 Güçlü Apple Silikon Çip",
+      "256 GB Dahili Depolama • 8 GB RAM",
+      "Wi-Fi 6E Yüksek Hız"
+    ],
+    "specs": {
+      "screenSizeInches": 12.9,
+      "screenResolution": "2732 x 2048",
+      "panelType": "Liquid Retina XDR Mini-LED",
+      "refreshRateHz": 120,
+      "processor": "Apple M1",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 10758,
+      "rearCameraMp": "12 MP (4K Video Kaydı)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 682,
+      "os": "iPadOS 18",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-12-9-mhnj3tu-a-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 65550,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-12-9-mhnj3tu-a.html"
+      },
+      {
+        "id": "apple-ipad-pro-12-9-mhnj3tu-a-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 64895,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-12-9-mhnj3tu-a.html"
+      },
+      {
+        "id": "apple-ipad-pro-12-9-mhnj3tu-a-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 65550,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-12-9-mhnj3tu-a.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 68828,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 66861,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 65550,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-11-a16-wi-fi-plus-cellular-512",
+    "slug": "apple-ipad-11-a16-wi-fi-plus-cellular-512",
+    "name": "Apple iPad 11 (A16) Wi-Fi + Cellular 512",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 38999,
+    "currency": "TL",
+    "rating": 3.6,
+    "reviewCount": 589,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-11-a16-wi-fi-plus-cellular-512-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-11-a16-wi-fi-plus-cellular-512-1.jpg"
+    ],
+    "highlights": [
+      "11\" Liquid Retina IPS 60Hz Ekran",
+      "Apple A16 Bionic Güçlü Apple Silikon Çip",
+      "512 GB Dahili Depolama • 6 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "2360 x 1640",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple A16 Bionic",
+      "ramGb": 6,
+      "storageGb": 512,
+      "batteryMah": 7606,
+      "rearCameraMp": "12 MP (4K Video Kaydı)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 462,
+      "os": "iPadOS 18",
+      "cellularSupport": "4G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-11-a16-wi-fi-plus-cellular-512-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 38999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-11-a16-wi-fi-plus-cellular-512.html"
+      },
+      {
+        "id": "apple-ipad-11-a16-wi-fi-plus-cellular-512-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 38609,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-11-a16-wi-fi-plus-cellular-512.html"
+      },
+      {
+        "id": "apple-ipad-11-a16-wi-fi-plus-cellular-512-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 38999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-11-a16-wi-fi-plus-cellular-512.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 40949,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 39779,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 38999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-air-11-2024",
+    "slug": "apple-ipad-air-11-2024",
+    "name": "Apple iPad Air 11 (2024) 128 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 28999,
+    "currency": "TL",
+    "rating": 3.8,
+    "reviewCount": 592,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-air-11-2024-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-air-11-2024-1.jpg"
+    ],
+    "highlights": [
+      "11\" Liquid Retina IPS 60Hz Ekran",
+      "Apple M2 Güçlü Apple Silikon Çip",
+      "128 GB Dahili Depolama • 8 GB RAM",
+      "Wi-Fi 6E Yüksek Hız"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "2360 x 1640",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple M2",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 7606,
+      "rearCameraMp": "12 MP (4K Video Kaydı)",
+      "frontCameraMp": "12 MP Ultra Geniş (Center Stage)",
+      "weightGrams": 462,
+      "os": "iPadOS 18",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-air-11-2024-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-11-2024.html"
+      },
+      {
+        "id": "apple-ipad-air-11-2024-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 28709,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-11-2024.html"
+      },
+      {
+        "id": "apple-ipad-air-11-2024-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Club İndirimli",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-11-2024.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 30449,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 29579,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 28999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-air-11-m4-wi-fi-plus-cellular-mh794tu-a",
     "slug": "apple-ipad-air-11-m4-wi-fi-plus-cellular-mh794tu-a",
     "name": "Apple iPad Air 11 (M4) Wi-Fi + Cellular 128 GB / 5G (MH794TU/A)",
