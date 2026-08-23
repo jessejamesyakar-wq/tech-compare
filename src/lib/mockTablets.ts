@@ -1742,6 +1742,89 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "tcl-tab-a1-plus-6-128",
+    "slug": "tcl-tab-a1-plus",
+    "name": "TCL Tab A1 Plus 6 GB / 128 GB",
+    "brand": "TCL",
+    "category": "tablets",
+    "basePrice": 14550,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 32,
+    "image": "/images/tablets/tcl-1055880.jpg",
+    "images": [
+      "/images/tablets/tcl-1055880.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "12.2 İnç Geniş IPS Ekran",
+      "6 GB RAM & 128 GB Dahili Hafıza",
+      "Sekiz Çekirdekli Yüksek Performanslı İşlemci",
+      "Göz Konforu ve Geniş Görsel Alan Sunan İnce Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 12.2,
+      "screenResolution": "2160 x 1440",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 90,
+      "processor": "MediaTek Helio G99 (6 nm)",
+      "ramGb": 6,
+      "storageGb": 128,
+      "batteryMah": 8000,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 580,
+      "os": "Android 14",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-tcl-tab-a1-plus-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 14550,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 120,
+        "url": "https://www.epey.com/tablet/tcl-tab-a1-plus.html"
+      },
+      {
+        "id": "so-tcl-tab-a1-plus-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 14699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Avantajlı Fiyat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 85,
+        "url": "https://www.epey.com/tablet/tcl-tab-a1-plus.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10-01",
+        "price": 15499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14550,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-pro-11-m5-wi-fi",
     "slug": "apple-ipad-pro-11-m5-wi-fi",
     "name": "Apple iPad Pro 11 (M5) Wi-Fi 12 GB / 512 GB",
@@ -6332,6 +6415,89 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "tcl-nxtpaper-14-8-256",
+    "slug": "tcl-nxtpaper-14",
+    "name": "TCL NXTPAPER 14 8 GB / 256 GB",
+    "brand": "TCL",
+    "category": "tablets",
+    "basePrice": 20265,
+    "currency": "TL",
+    "rating": 4.7,
+    "reviewCount": 45,
+    "image": "/images/tablets/tcl-1023648.jpg",
+    "images": [
+      "/images/tablets/tcl-1023648.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "14.3 İnç 2.4K NXTPAPER 3.0 Kağıt Hissiyatlı Ekran",
+      "8 GB RAM & 256 GB Depolama",
+      "MediaTek Helio G99 İşlemci",
+      "10.000 mAh Dev Batarya & 33W Hızlı Şarj"
+    ],
+    "specs": {
+      "screenSizeInches": 14.3,
+      "screenResolution": "2400 x 1600",
+      "panelType": "NXTPAPER 3.0 (Mat / Parlama Önleyici)",
+      "refreshRateHz": 60,
+      "processor": "MediaTek Helio G99 (6 nm)",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 10000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "13 MP + 5 MP Çift Ön Kamera",
+      "weightGrams": 760,
+      "os": "Android 14",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "so-tcl-nxtpaper-14-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 20265,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 210,
+        "url": "https://www.epey.com/tablet/tcl-nxtpaper-14.html"
+      },
+      {
+        "id": "so-tcl-nxtpaper-14-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 20499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 95,
+        "url": "https://www.epey.com/tablet/tcl-nxtpaper-14.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-05-01",
+        "price": 21999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 20265,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-pro-13-2024-wi-fi-plus-cellular",
     "slug": "apple-ipad-pro-13-2024-wi-fi-plus-cellular",
     "name": "Apple iPad Pro 13 (M4) Wi-Fi + Cellular 256 GB",
@@ -7060,6 +7226,74 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "tcl-tab-11-gen2-6-256",
+    "slug": "tcl-tab-11-gen2",
+    "name": "TCL Tab 11 Gen2 6 GB / 256 GB",
+    "brand": "TCL",
+    "category": "tablets",
+    "basePrice": 7559,
+    "currency": "TL",
+    "rating": 4.4,
+    "reviewCount": 28,
+    "image": "/images/tablets/tcl-992327.jpg",
+    "images": [
+      "/images/tablets/tcl-992327.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "11.0 İnç 2K NXTVISION Ekran",
+      "6 GB RAM & 256 GB Dahili Depolama",
+      "8.000 mAh Batarya & İnce Metal Gövde",
+      "Dörtlü Hoparlör ile Zengin Multimedya Deneyimi"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS LCD (NXTVISION)",
+      "refreshRateHz": 60,
+      "processor": "MediaTek Helio G80 (12 nm)",
+      "ramGb": 6,
+      "storageGb": 256,
+      "batteryMah": 8000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 512,
+      "os": "Android 14",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-tcl-tab-11-gen2-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 7559,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 64,
+        "url": "https://www.epey.com/tablet/tcl-tab-11-gen2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-06-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7559,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "oneplus-pad-2-12-256",
     "slug": "oneplus-pad-2",
     "name": "OnePlus Pad 2 12 GB / 256 GB",
@@ -7559,6 +7793,89 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 40176,
         "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "tcl-tab-10l-gen-4-4-128",
+    "slug": "tcl-tab-10l-gen-4",
+    "name": "TCL Tab 10L Gen 4 4 GB / 128 GB",
+    "brand": "TCL",
+    "category": "tablets",
+    "basePrice": 5639,
+    "currency": "TL",
+    "rating": 4.2,
+    "reviewCount": 30,
+    "image": "/images/tablets/tcl-1024979.jpg",
+    "images": [
+      "/images/tablets/tcl-1024979.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "10.1 İnç HD+ IPS Ekran",
+      "4 GB RAM & 128 GB Dahili Depolama",
+      "6.000 mAh Uzun Ömürlü Batarya",
+      "Android 14 ile Akıcı Kullanım"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8766",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 6000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 435,
+      "os": "Android 14",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-tcl-tab-10l-gen4-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 5639,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çok Satan",
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 110,
+        "url": "https://www.epey.com/tablet/tcl-tab-10l-gen-4.html"
+      },
+      {
+        "id": "so-tcl-tab-10l-gen4-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 5699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 80,
+        "url": "https://www.epey.com/tablet/tcl-tab-10l-gen-4.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-04-01",
+        "price": 5999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5639,
+        "store": "Hepsiburada"
       }
     ]
   },
@@ -13103,6 +13420,210 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "tcl-nxtpaper-11-4-128",
+    "slug": "tcl-nxtpaper-11",
+    "name": "TCL NXTPAPER 11 4 GB / 128 GB",
+    "brand": "TCL",
+    "category": "tablets",
+    "basePrice": 18315,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 52,
+    "image": "/images/tablets/tcl-874824.jpg",
+    "images": [
+      "/images/tablets/tcl-874824.jpg"
+    ],
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.95 İnç 2K NXTPAPER 2.0 Kağıt Doku Ekran",
+      "Göz Yormayan Yansıma Önleyici Mat Panel",
+      "8.000 mAh Batarya & Ters Şarj Desteği",
+      "4 GB RAM & 128 GB Genişletilebilir Depolama"
+    ],
+    "specs": {
+      "screenSizeInches": 10.95,
+      "screenResolution": "2000 x 1200",
+      "panelType": "IPS LCD (NXTPAPER 2.0)",
+      "refreshRateHz": 60,
+      "processor": "MediaTek Helio P60T (12 nm)",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 8000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 462,
+      "os": "Android 13",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-tcl-nxtpaper-11-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#ff6700",
+        "price": 18315,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 70,
+        "url": "https://www.epey.com/tablet/tcl-nxtpaper-11.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05-01",
+        "price": 18999,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18315,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "tcl-tab-11-9466x-4-64",
+    "slug": "tcl-tab-11",
+    "name": "TCL Tab 11 (9466X) 4 GB / 64 GB",
+    "brand": "TCL",
+    "category": "tablets",
+    "basePrice": 14000,
+    "currency": "TL",
+    "rating": 4.3,
+    "reviewCount": 22,
+    "image": "/images/tablets/tcl-874868.jpg",
+    "images": [
+      "/images/tablets/tcl-874868.jpg"
+    ],
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.95 İnç 2K IPS Ekran",
+      "MediaTek Helio P60T İşlemci",
+      "8.000 mAh Batarya",
+      "Dörtlü Hoparlör & İnce Metal Çerçeve"
+    ],
+    "specs": {
+      "screenSizeInches": 10.95,
+      "screenResolution": "2000 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek Helio P60T",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 8000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 462,
+      "os": "Android 13",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-tcl-tab-11-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 14000,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 40,
+        "url": "https://www.epey.com/tablet/tcl-tab-11.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-03-01",
+        "price": 14500,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14000,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "tcl-tab-10-gen-2-4-64",
+    "slug": "tcl-tab-10-gen-2",
+    "name": "TCL Tab 10 Gen 2 4 GB / 64 GB",
+    "brand": "TCL",
+    "category": "tablets",
+    "basePrice": 14836,
+    "currency": "TL",
+    "rating": 4.1,
+    "reviewCount": 15,
+    "image": "/images/tablets/tcl-930984.jpg",
+    "images": [
+      "/images/tablets/tcl-930984.jpg"
+    ],
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.36 İnç 2K IPS Ekran",
+      "MediaTek MT8768 İşlemci",
+      "6.000 mAh Batarya",
+      "Hafif ve Ergonomik Metal Kasa"
+    ],
+    "specs": {
+      "screenSizeInches": 10.36,
+      "screenResolution": "2000 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8768",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 6000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 425,
+      "os": "Android 13",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-tcl-tab-10-gen2-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 14836,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 30,
+        "url": "https://www.epey.com/tablet/tcl-tab-10-gen-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-04-01",
+        "price": 15200,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14836,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "oneplus-pad-8-128",
     "slug": "oneplus-pad",
     "name": "OnePlus Pad 8 GB / 128 GB",
@@ -13171,6 +13692,89 @@ export const mockTablets: Product[] = [
       {
         "date": "2026-08-01",
         "price": 15999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "tcl-tab-7-l-2023-2-32",
+    "slug": "tcl-tab-7-l-2023",
+    "name": "TCL Tab 7 L (2023) 2 GB / 32 GB",
+    "brand": "TCL",
+    "category": "tablets",
+    "basePrice": 2370,
+    "currency": "TL",
+    "rating": 3.5,
+    "reviewCount": 45,
+    "image": "/images/tablets/tcl-886684.jpg",
+    "images": [
+      "/images/tablets/tcl-886684.jpg"
+    ],
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Kompakt Ekran",
+      "2.580 mAh Batarya",
+      "2 GB RAM & 32 GB Hafıza",
+      "Son Derece Hafif & Cepte Taşınabilir"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "TN / TFT",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8167",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 2580,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 245,
+      "os": "Android 12 (Go Edition)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-tcl-tab-7-l-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 2370,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En Uygun Fiyat",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 120,
+        "url": "https://www.epey.com/tablet/tcl-tab-7-l-2023.html"
+      },
+      {
+        "id": "so-tcl-tab-7-l-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 2399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 95,
+        "url": "https://www.epey.com/tablet/tcl-tab-7-l-2023.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-01-01",
+        "price": 2599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2370,
         "store": "Hepsiburada"
       }
     ]
@@ -14850,6 +15454,74 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "tcl-tab-10-hd-4-64",
+    "slug": "tcl-tab-10-hd",
+    "name": "TCL Tab 10 HD 4 GB / 64 GB",
+    "brand": "TCL",
+    "category": "tablets",
+    "basePrice": 14099,
+    "currency": "TL",
+    "rating": 3.8,
+    "reviewCount": 16,
+    "image": "/images/tablets/tcl-792121.png",
+    "images": [
+      "/images/tablets/tcl-792121.png"
+    ],
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.1 İnç HD Ekran",
+      "5.500 mAh Batarya",
+      "4 GB RAM & 64 GB Hafıza",
+      "Çocuk Modu ve Kolay Kullanım Arayüzü"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8768E",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 5500,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 448,
+      "os": "Android 11",
+      "cellularSupport": "Wi-Fi 5 (4G Opsiyonel)",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-tcl-tab-10-hd-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 14099,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 25,
+        "url": "https://www.epey.com/tablet/tcl-tab-10-hd.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-06-01",
+        "price": 14500,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14099,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-air-5-wi-fi-plus-cellular-2",
     "slug": "apple-ipad-air-5-wi-fi-plus-cellular-2",
     "name": "Apple iPad Air 5 Wi-Fi + Cellular 256 GB (MM733TU/A)",
@@ -15162,6 +15834,74 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "tcl-tab-10l-2-32",
+    "slug": "tcl-tab-10l",
+    "name": "TCL Tab 10L 2 GB / 32 GB",
+    "brand": "TCL",
+    "category": "tablets",
+    "basePrice": 9999,
+    "currency": "TL",
+    "rating": 3.6,
+    "reviewCount": 20,
+    "image": "/images/tablets/tcl-776875.jpg",
+    "images": [
+      "/images/tablets/tcl-776875.jpg"
+    ],
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.1 İnç HD IPS Ekran",
+      "4.080 mAh Batarya",
+      "2 GB RAM / 32 GB Depolama",
+      "Hafif ve Taşınabilir Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8167B",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 4080,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 426,
+      "os": "Android 11 (Go Edition)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-tcl-tab-10l-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 9999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 35,
+        "url": "https://www.epey.com/tablet/tcl-tab-10l.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 9999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "huawei-matepad-pro-12-6",
     "slug": "huawei-matepad-pro-12-6",
     "name": "Huawei MatePad Pro 12.6 (2022) 8 GB / 256 GB",
@@ -15232,6 +15972,74 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 37278,
         "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "tcl-tab-7-lite-1-32",
+    "slug": "tcl-tab-7-lite",
+    "name": "TCL Tab 7 Lite 1 GB / 32 GB",
+    "brand": "TCL",
+    "category": "tablets",
+    "basePrice": 3420,
+    "currency": "TL",
+    "rating": 3.3,
+    "reviewCount": 12,
+    "image": "/images/tablets/tcl-791928.jpg",
+    "images": [
+      "/images/tablets/tcl-791928.jpg"
+    ],
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Kompakt Ekran",
+      "1 GB RAM & 32 GB Depolama",
+      "2.580 mAh Batarya",
+      "Android Go Edition Sayesinde Sade Kullanım"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "TFT",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8167A",
+      "ramGb": 1,
+      "storageGb": 32,
+      "batteryMah": 2580,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 245,
+      "os": "Android 11 (Go Edition)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-tcl-tab-7-lite-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 3420,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 18,
+        "url": "https://www.epey.com/tablet/tcl-tab-7-lite.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 3420,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3420,
+        "store": "Hepsiburada"
       }
     ]
   },
@@ -16570,6 +17378,74 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "tcl-10-tab-max-4-64",
+    "slug": "tcl-10-tab-max",
+    "name": "TCL 10 Tab Max 4 GB / 64 GB",
+    "brand": "TCL",
+    "category": "tablets",
+    "basePrice": 8550,
+    "currency": "TL",
+    "rating": 4.2,
+    "reviewCount": 35,
+    "image": "/images/tablets/tcl-690881.png",
+    "images": [
+      "/images/tablets/tcl-690881.png"
+    ],
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.36 İnç FHD+ NXTVISION Ekran",
+      "8.000 mAh Güçlü Batarya & 18W Şarj",
+      "13 MP Arka Kamera & 8 MP Ön Kamera",
+      "4 GB RAM & 64 GB Depolama"
+    ],
+    "specs": {
+      "screenSizeInches": 10.36,
+      "screenResolution": "2000 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8788A",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 8000,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 465,
+      "os": "Android 10",
+      "cellularSupport": "Wi-Fi 5 (4G Opsiyonel)",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-tcl-10-tab-max-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 8550,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 55,
+        "url": "https://www.epey.com/tablet/tcl-10-tab-max.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8550,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-pro-11-mhwd3tu-a",
     "slug": "apple-ipad-pro-11-mhwd3tu-a",
     "name": "Apple iPad Pro 11 16 GB / 1024 GB / 5G (MHWD3TU/A)",
@@ -16670,6 +17546,74 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 54999,
         "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "tcl-tab-10-s-3-32",
+    "slug": "tcl-tab-10-s",
+    "name": "TCL Tab 10 S 3 GB / 32 GB",
+    "brand": "TCL",
+    "category": "tablets",
+    "basePrice": 7210,
+    "currency": "TL",
+    "rating": 4,
+    "reviewCount": 40,
+    "image": "/images/tablets/tcl-677906.png",
+    "images": [
+      "/images/tablets/tcl-677906.png"
+    ],
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.1 İnç FHD Ekran",
+      "8.000 mAh Batarya & 18W Hızlı Şarj",
+      "T-Pen Kalem Desteği",
+      "Çocuk Modu & Göz Koruma Kalkanı"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8768E",
+      "ramGb": 3,
+      "storageGb": 32,
+      "batteryMah": 8000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 464,
+      "os": "Android 10",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-tcl-tab-10-s-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 7210,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 45,
+        "url": "https://www.epey.com/tablet/tcl-tab-10-s.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 7800,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7210,
+        "store": "Hepsiburada"
       }
     ]
   },
