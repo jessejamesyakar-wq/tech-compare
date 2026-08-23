@@ -26750,6 +26750,74 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "reeder-m8-plus-2-16",
+    "slug": "reeder-m8-plus",
+    "name": "Reeder M8 Plus 2 GB / 16 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 2199,
+    "currency": "TL",
+    "rating": 3.8,
+    "reviewCount": 26,
+    "image": "/images/tablets/reeder-81017.png",
+    "images": [
+      "/images/tablets/reeder-81017.png"
+    ],
+    "releaseYear": 2017,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8.0 İnç HD IPS Ekran",
+      "2 GB RAM & 16 GB Hafıza",
+      "4000 mAh Batarya",
+      "Android 7.0 Nougat"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8163 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 4000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 335,
+      "os": "Android 7.0",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-m8plus-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 2199,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 40,
+        "url": "https://www.epey.com/tablet/reeder-m8-plus.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2018-01-01",
+        "price": 1599,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2199,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "reeder-t8-2-16",
     "slug": "reeder-t8",
     "name": "Reeder T8 2 GB / 16 GB",
@@ -28379,6 +28447,142 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "reeder-a8i-q2-2-16",
+    "slug": "reeder-a8i-q2",
+    "name": "Reeder A8i Q2 2 GB / 16 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1999,
+    "currency": "TL",
+    "rating": 3.7,
+    "reviewCount": 24,
+    "image": "/images/tablets/reeder-86432.png",
+    "images": [
+      "/images/tablets/reeder-86432.png"
+    ],
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8.0 İnç HD IPS Ekran",
+      "Intel Atom x3-C3230RK 4 Çekirdekli İşlemci",
+      "2 GB RAM & 16 GB Depolama",
+      "4000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom x3-C3230RK (4 Çekirdek 1.2 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 4000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 340,
+      "os": "Android 5.1 (Lollipop)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a8iq2-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 1999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ekonomik"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 30,
+        "url": "https://www.epey.com/tablet/reeder-a8i-q2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2017-01-01",
+        "price": 1399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "reeder-m8-2-16",
+    "slug": "reeder-m8",
+    "name": "Reeder M8 2 GB / 16 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1899,
+    "currency": "TL",
+    "rating": 3.6,
+    "reviewCount": 20,
+    "image": "/images/tablets/reeder-71593.png",
+    "images": [
+      "/images/tablets/reeder-71593.png"
+    ],
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.8 İnç IPS Dokunmatik Ekran",
+      "MediaTek MT8127 4 Çekirdekli İşlemci",
+      "2 GB RAM & 16 GB Dahili Hafıza",
+      "4000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7.8,
+      "screenResolution": "1024 x 768",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8127 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 4000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 320,
+      "os": "Android 5.1 (Lollipop)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-m8-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 1899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 35,
+        "url": "https://www.epey.com/tablet/reeder-m8.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2017-01-01",
+        "price": 1299,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1899,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-pro-9-7-wi-fi-plus-cellular-128gb",
     "slug": "apple-ipad-pro-9-7-wi-fi-plus-cellular-128gb",
     "name": "Apple iPad Pro 9.7 128 GB",
@@ -29978,6 +30182,74 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "reeder-w9is-2-16",
+    "slug": "reeder-w9is",
+    "name": "Reeder W9iS 2 GB / 16 GB (Windows 10)",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 2599,
+    "currency": "TL",
+    "rating": 3.8,
+    "reviewCount": 22,
+    "image": "/images/tablets/reeder-58756.jpg",
+    "images": [
+      "/images/tablets/reeder-58756.jpg"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8.9 İnç Full HD (1920x1200) IPS Ekran",
+      "Intel Atom Z3735F 4 Çekirdekli İşlemci",
+      "Windows 10 İşletim Sistemi",
+      "6000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 8.9,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735F (4 Çekirdek 1.83 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 6000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 440,
+      "os": "Windows 10",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-w9is-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 2599,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Windows Tablet"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 30,
+        "url": "https://www.epey.com/tablet/reeder-w9is.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2016-01-01",
+        "price": 1799,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2599,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "reeder-a10ix-air-2-16",
     "slug": "reeder-a10ix-air",
     "name": "Reeder A10iX Air 2 GB / 16 GB (Retina Ekran)",
@@ -30042,6 +30314,74 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 2499,
         "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "reeder-a8i-quad-noir-2-16",
+    "slug": "reeder-a8i-quad-noir-2gb",
+    "name": "Reeder A8i Quad Noir 2 GB / 16 GB (Retina Ekran)",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 2199,
+    "currency": "TL",
+    "rating": 3.8,
+    "reviewCount": 30,
+    "image": "/images/tablets/reeder-69721.png",
+    "images": [
+      "/images/tablets/reeder-69721.png"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.8 İnç Retina (2048x1536) IPS Ekran",
+      "Intel Atom Z3735D 4 Çekirdekli İşlemci",
+      "2 GB RAM & 16 GB Depolama",
+      "4000 mAh Batarya & Siyah Metal Kasa"
+    ],
+    "specs": {
+      "screenSizeInches": 7.8,
+      "screenResolution": "2048 x 1536",
+      "panelType": "Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735D (4 Çekirdek 1.83 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 4000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 310,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a8iquad-noir2-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 2199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Retina"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 40,
+        "url": "https://www.epey.com/tablet/reeder-a8i-quad-noir-2gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2016-01-01",
+        "price": 1499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2199,
+        "store": "Hepsiburada"
       }
     ]
   },
@@ -30178,6 +30518,346 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 2199,
         "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "reeder-a8i-quad-2-2-16",
+    "slug": "reeder-a8i-quad-2",
+    "name": "Reeder A8i Quad 2 2 GB / 16 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1899,
+    "currency": "TL",
+    "rating": 3.7,
+    "reviewCount": 22,
+    "image": "/images/tablets/reeder-62119.jpg",
+    "images": [
+      "/images/tablets/reeder-62119.jpg"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8.0 İnç HD IPS Ekran",
+      "Intel Atom Z3735F 4 Çekirdekli İşlemci",
+      "2 GB RAM & 16 GB Hafıza",
+      "4000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735F (4 Çekirdek 1.83 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 4000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 330,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a8iquad2-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 1899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 30,
+        "url": "https://www.epey.com/tablet/reeder-a8i-quad-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2016-01-01",
+        "price": 1299,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1899,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "reeder-a8i-quad-rosey-1-16",
+    "slug": "reeder-a8i-quad-rosey",
+    "name": "Reeder A8i Quad Rosey 1 GB / 16 GB (Retina Ekran)",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1899,
+    "currency": "TL",
+    "rating": 3.7,
+    "reviewCount": 20,
+    "image": "/images/tablets/reeder-57631.png",
+    "images": [
+      "/images/tablets/reeder-57631.png"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.8 İnç Retina (2048x1536) Ekran",
+      "Intel Atom Z3735D İşlemci",
+      "Rose Gold / Pembe Şık Tasarım",
+      "4000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7.8,
+      "screenResolution": "2048 x 1536",
+      "panelType": "Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735D (4 Çekirdek 1.83 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 4000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 310,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a8irosey-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 1899,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 25,
+        "url": "https://www.epey.com/tablet/reeder-a8i-quad-rosey.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2016-01-01",
+        "price": 1299,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1899,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "reeder-a8i-quad-noir-1-16",
+    "slug": "reeder-a8i-quad-noir",
+    "name": "Reeder A8i Quad Noir 1 GB / 16 GB (Retina Ekran)",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1899,
+    "currency": "TL",
+    "rating": 3.7,
+    "reviewCount": 20,
+    "image": "/images/tablets/reeder-57629.png",
+    "images": [
+      "/images/tablets/reeder-57629.png"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.8 İnç Retina (2048x1536) Ekran",
+      "Intel Atom Z3735D İşlemci",
+      "Siyah Metal Gövde",
+      "4000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7.8,
+      "screenResolution": "2048 x 1536",
+      "panelType": "Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735D (4 Çekirdek 1.83 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 4000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 310,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a8inoir-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 1899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ekonomik"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 20,
+        "url": "https://www.epey.com/tablet/reeder-a8i-quad-noir.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2016-01-01",
+        "price": 1299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1899,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "reeder-a8ic-quad-1-16",
+    "slug": "reeder-a8ic-quad",
+    "name": "Reeder A8iC Quad 1 GB / 16 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1699,
+    "currency": "TL",
+    "rating": 3.6,
+    "reviewCount": 18,
+    "image": "/images/tablets/reeder-37129.png",
+    "images": [
+      "/images/tablets/reeder-37129.png"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8.0 İnç HD IPS Ekran",
+      "Intel Atom Z3735G İşlemci",
+      "1 GB RAM & 16 GB Hafıza",
+      "4000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735G (4 Çekirdek 1.83 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 4000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 330,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a8icquad-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 1699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 22,
+        "url": "https://www.epey.com/tablet/reeder-a8ic-quad.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2016-01-01",
+        "price": 1199,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1699,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "reeder-a8ic-noir-1-8",
+    "slug": "reeder-a8ic-noir",
+    "name": "Reeder A8iC Noir 1 GB / 8 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1599,
+    "currency": "TL",
+    "rating": 3.5,
+    "reviewCount": 16,
+    "image": "/images/tablets/reeder-37134.png",
+    "images": [
+      "/images/tablets/reeder-37134.png"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8.0 İnç HD IPS Ekran",
+      "Intel Atom Z3735G İşlemci",
+      "1 GB RAM & 8 GB Hafıza",
+      "Siyah Kasa Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735G (4 Çekirdek 1.83 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 4000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 330,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a8icnoir-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 1599,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Bütçe Dostu"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 18,
+        "url": "https://www.epey.com/tablet/reeder-a8ic-noir.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2016-01-01",
+        "price": 1099,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1599,
+        "store": "Trendyol"
       }
     ]
   },
@@ -32231,6 +32911,278 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 1999,
         "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "reeder-w8is-1-16",
+    "slug": "reeder-w8is",
+    "name": "Reeder W8iS 1 GB / 16 GB (Windows Tablet)",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1999,
+    "currency": "TL",
+    "rating": 3.6,
+    "reviewCount": 20,
+    "image": "/images/tablets/reeder-3016.png",
+    "images": [
+      "/images/tablets/reeder-3016.png"
+    ],
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8.0 İnç HD IPS Ekran",
+      "Intel Atom Z3735G 4 Çekirdekli İşlemci",
+      "Windows 8.1 / 10 Desteği",
+      "4200 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735G (4 Çekirdek 1.83 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 4200,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 350,
+      "os": "Windows 8.1 / 10",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-w8is-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 1999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Windows"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 25,
+        "url": "https://www.epey.com/tablet/reeder-w8is.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2015-01-01",
+        "price": 1399,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "reeder-a8i-quad-1-16",
+    "slug": "reeder-a8i-quad",
+    "name": "Reeder A8i Quad 1 GB / 16 GB (Retina Ekran)",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1799,
+    "currency": "TL",
+    "rating": 3.6,
+    "reviewCount": 25,
+    "image": "/images/tablets/reeder-28590.png",
+    "images": [
+      "/images/tablets/reeder-28590.png"
+    ],
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.8 İnç Retina (2048x1536) IPS Ekran",
+      "Intel Atom Z3735D 4 Çekirdekli İşlemci",
+      "1 GB RAM & 16 GB Hafıza",
+      "4000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7.8,
+      "screenResolution": "2048 x 1536",
+      "panelType": "Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735D (4 Çekirdek 1.83 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 4000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 310,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a8iquad-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 1799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 30,
+        "url": "https://www.epey.com/tablet/reeder-a8i-quad.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2015-01-01",
+        "price": 1199,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1799,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "reeder-a8iq-1-16",
+    "slug": "reeder-a8iq",
+    "name": "Reeder A8iQ 1 GB / 16 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1699,
+    "currency": "TL",
+    "rating": 3.6,
+    "reviewCount": 22,
+    "image": "/images/tablets/reeder-3400.png",
+    "images": [
+      "/images/tablets/reeder-3400.png"
+    ],
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8.0 İnç HD IPS Ekran",
+      "Intel Atom Z3735D 4 Çekirdekli İşlemci",
+      "1 GB RAM & 16 GB Depolama",
+      "4400 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735D (4 Çekirdek 1.83 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 4400,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 340,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a8iq-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 1699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 30,
+        "url": "https://www.epey.com/tablet/reeder-a8iq.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2015-01-01",
+        "price": 1099,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1699,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "reeder-a7ix-1-8",
+    "slug": "reeder-a7ix",
+    "name": "Reeder A7iX 1 GB / 8 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1499,
+    "currency": "TL",
+    "rating": 3.5,
+    "reviewCount": 20,
+    "image": "/images/tablets/reeder-3133.png",
+    "images": [
+      "/images/tablets/reeder-3133.png"
+    ],
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Kompakt IPS Ekran",
+      "Intel Atom Z2520 Çift Çekirdek İşlemci",
+      "1 GB RAM & 8 GB Hafıza",
+      "3000 mAh Batarya & Cep Boyutu"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z2520 (2 Çekirdek 1.2 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 3000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 280,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a7ix-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 1499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Uygun Fiyat"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 28,
+        "url": "https://www.epey.com/tablet/reeder-a7ix.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2015-01-01",
+        "price": 999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1499,
+        "store": "Hepsiburada"
       }
     ]
   },
