@@ -2,6 +2,1043 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "huawei-matepad-edge-32gb-2tb",
+    "slug": "huawei-matepad-edge-32gb-2tb",
+    "name": "Huawei MatePad Edge 32 GB / 2048 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 69999,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 15,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/huawei-matepad-edge-32gb-2tb-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-edge-32gb-2tb-1.jpg"
+    ],
+    "highlights": [
+      "14.2\" 3.1K 144 Hz Flexible OLED Ekran (3120 x 2080, 1000 nit)",
+      "32 GB RAM & 2048 GB (2 TB) Ultra Geniş Depolama",
+      "HiSilicon Kirin 9000W 12 Çekirdekli Üst Düzey İşlemci",
+      "12900 mAh Batarya & 100W Huawei SuperCharge Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 14.2,
+      "screenResolution": "3120 x 2080",
+      "panelType": "Flexible OLED",
+      "refreshRateHz": 144,
+      "processor": "HiSilicon Kirin 9000W",
+      "ramGb": 32,
+      "storageGb": 2048,
+      "batteryMah": 12900,
+      "rearCameraMp": "50 MP + 8 MP",
+      "frontCameraMp": "16 MP Geniş Açı",
+      "weightGrams": 580,
+      "os": "HarmonyOS 4.3",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-edge-32gb-2tb-offer-1",
+        "storeName": "Huawei Store",
+        "storeLogoColor": "#cf0a2c",
+        "price": 69999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "2 TB SSD",
+          "144 Hz OLED",
+          "M-Pencil Dahil"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 120,
+        "url": "https://www.epey.com/tablet/huawei-matepad-edge-32gb-2tb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-04-01",
+        "price": 74999,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 71999,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 69999,
+        "store": "Huawei Store"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-edge-24-1tb",
+    "slug": "huawei-matepad-edge-24-1tb",
+    "name": "Huawei MatePad Edge 24 GB / 1024 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 59999,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 22,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-edge-24-1tb-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-edge-24-1tb-1.jpg"
+    ],
+    "highlights": [
+      "14.2\" 3.1K 144 Hz OLED Ekran (3120 x 2080)",
+      "24 GB RAM & 1024 GB (1 TB) SSD Depolama",
+      "HiSilicon Kirin 9000W Güçlü Performans",
+      "12900 mAh Pil & 100W SuperCharge"
+    ],
+    "specs": {
+      "screenSizeInches": 14.2,
+      "screenResolution": "3120 x 2080",
+      "panelType": "Flexible OLED",
+      "refreshRateHz": 144,
+      "processor": "HiSilicon Kirin 9000W",
+      "ramGb": 24,
+      "storageGb": 1024,
+      "batteryMah": 12900,
+      "rearCameraMp": "50 MP + 8 MP",
+      "frontCameraMp": "16 MP Geniş Açı",
+      "weightGrams": 580,
+      "os": "HarmonyOS 4.3",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-edge-24-1tb-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 59999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "1 TB Hafıza",
+          "14.2\" OLED"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 180,
+        "url": "https://www.epey.com/tablet/huawei-matepad-edge-24-1tb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-04-01",
+        "price": 63999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 61499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 59999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-edge-2",
+    "slug": "huawei-matepad-edge-2",
+    "name": "Huawei MatePad Edge 16 GB / 512 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 52999,
+    "currency": "TL",
+    "rating": 4.4,
+    "reviewCount": 35,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-edge-2-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-edge-2-1.jpg"
+    ],
+    "highlights": [
+      "14.2\" 3.1K 144 Hz OLED Ekran (3120 x 2080)",
+      "16 GB RAM & 512 GB Depolama",
+      "Kirin 9000W & Çoklu Görev Yetenekleri",
+      "12900 mAh Pil & 100W SuperCharge"
+    ],
+    "specs": {
+      "screenSizeInches": 14.2,
+      "screenResolution": "3120 x 2080",
+      "panelType": "Flexible OLED",
+      "refreshRateHz": 144,
+      "processor": "HiSilicon Kirin 9000W",
+      "ramGb": 16,
+      "storageGb": 512,
+      "batteryMah": 12900,
+      "rearCameraMp": "50 MP + 8 MP",
+      "frontCameraMp": "16 MP Geniş Açı",
+      "weightGrams": 580,
+      "os": "HarmonyOS 4.3",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-edge-2-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 52999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "14.2 İnç OLED",
+          "100W Şarj"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 240,
+        "url": "https://www.epey.com/tablet/huawei-matepad-edge-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-04-01",
+        "price": 56999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 54499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 52999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-edge",
+    "slug": "huawei-matepad-edge",
+    "name": "Huawei MatePad Edge 16 GB / 256 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 46999,
+    "currency": "TL",
+    "rating": 4.3,
+    "reviewCount": 40,
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-edge-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-edge-1.jpg"
+    ],
+    "highlights": [
+      "14.2\" 3.1K 144 Hz Flexible OLED Ekran (3120 x 2080)",
+      "16 GB RAM & 256 GB Dahili Depolama",
+      "Kirin 9000W & PC Düzeyinde WPS Office Desteği",
+      "12900 mAh Batarya & 100W Hızlı Şarj"
+    ],
+    "specs": {
+      "screenSizeInches": 14.2,
+      "screenResolution": "3120 x 2080",
+      "panelType": "Flexible OLED",
+      "refreshRateHz": 144,
+      "processor": "HiSilicon Kirin 9000W",
+      "ramGb": 16,
+      "storageGb": 256,
+      "batteryMah": 12900,
+      "rearCameraMp": "50 MP + 8 MP",
+      "frontCameraMp": "16 MP Geniş Açı",
+      "weightGrams": 580,
+      "os": "HarmonyOS 4.3",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-edge-offer-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 46999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "14.2\" OLED",
+          "M-Pencil"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 310,
+        "url": "https://www.epey.com/tablet/huawei-matepad-edge.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-04-01",
+        "price": 49999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 47999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 46999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-pro-max",
+    "slug": "huawei-matepad-pro-max",
+    "name": "Huawei MatePad Pro Max PaperMatte Edition 12 GB / 512 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 44999,
+    "currency": "TL",
+    "rating": 4.3,
+    "reviewCount": 30,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/huawei-matepad-pro-max-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-pro-max-1.jpg"
+    ],
+    "highlights": [
+      "13.2\" 2.8K 144 Hz PaperMatte Flexible OLED (2880 x 1920)",
+      "Yansıma Önleyici Nano Doku Teknolojisi & Gerçek Kağıt Hissi",
+      "HiSilicon Kirin 9000W & 12 GB RAM / 512 GB Depolama",
+      "10100 mAh Batarya & 88W SuperCharge"
+    ],
+    "specs": {
+      "screenSizeInches": 13.2,
+      "screenResolution": "2880 x 1920",
+      "panelType": "PaperMatte Flexible OLED",
+      "refreshRateHz": 144,
+      "processor": "HiSilicon Kirin 9000W",
+      "ramGb": 12,
+      "storageGb": 512,
+      "batteryMah": 10100,
+      "rearCameraMp": "13 MP + 8 MP",
+      "frontCameraMp": "16 MP Geniş Açı",
+      "weightGrams": 580,
+      "os": "HarmonyOS 4.3",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-pro-max-offer-1",
+        "storeName": "Huawei Store",
+        "storeLogoColor": "#cf0a2c",
+        "price": 44999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "PaperMatte OLED",
+          "88W Şarj"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 210,
+        "url": "https://www.epey.com/tablet/huawei-matepad-pro-max.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 47999,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 45999,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 44999,
+        "store": "Huawei Store"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-pro-max-papermatte-edition",
+    "slug": "huawei-matepad-pro-max-papermatte-edition",
+    "name": "Huawei MatePad Pro Max PaperMatte Edition 12 GB / 256 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 39999,
+    "currency": "TL",
+    "rating": 4.2,
+    "reviewCount": 26,
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-pro-max-papermatte-edition-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-pro-max-papermatte-edition-1.jpg"
+    ],
+    "highlights": [
+      "13.2\" 2.8K 144 Hz PaperMatte Flexible OLED Ekran",
+      "12 GB RAM & 256 GB Dahili Depolama",
+      "88W Kablolu SuperCharge & 10100 mAh Batarya",
+      "Huawei SOUND 6 Hoparlörlü Üstün Akustik"
+    ],
+    "specs": {
+      "screenSizeInches": 13.2,
+      "screenResolution": "2880 x 1920",
+      "panelType": "PaperMatte Flexible OLED",
+      "refreshRateHz": 144,
+      "processor": "HiSilicon Kirin 9000W",
+      "ramGb": 12,
+      "storageGb": 256,
+      "batteryMah": 10100,
+      "rearCameraMp": "13 MP + 8 MP",
+      "frontCameraMp": "16 MP Geniş Açı",
+      "weightGrams": 580,
+      "os": "HarmonyOS 4.3",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-pro-max-256-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 39999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "PaperMatte OLED",
+          "M-Pencil Dahil"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 160,
+        "url": "https://www.epey.com/tablet/huawei-matepad-pro-max-papermatte-edition.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 42999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 40999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 39999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-air-2026",
+    "slug": "huawei-matepad-air-2026",
+    "name": "Huawei MatePad Air (2026) 12 GB / 256 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 27999,
+    "currency": "TL",
+    "rating": 3.7,
+    "reviewCount": 48,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-air-2026-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-air-2026-1.jpg"
+    ],
+    "highlights": [
+      "12.0\" 2.8K 144 Hz PaperMatte IPS Ekran (2800 x 1840, 1000 nit)",
+      "HiSilicon Kirin 9000W & 12 GB RAM / 256 GB Depolama",
+      "10100 mAh Dev Batarya & 66W SuperCharge",
+      "555 gr Ultra İnce & Şık Metalik Gövde"
+    ],
+    "specs": {
+      "screenSizeInches": 12,
+      "screenResolution": "2800 x 1840",
+      "panelType": "PaperMatte IPS LCD",
+      "refreshRateHz": 144,
+      "processor": "HiSilicon Kirin 9000W",
+      "ramGb": 12,
+      "storageGb": 256,
+      "batteryMah": 10100,
+      "rearCameraMp": "13 MP + 8 MP",
+      "frontCameraMp": "8 MP Geniş Açı",
+      "weightGrams": 555,
+      "os": "HarmonyOS 4.3",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-air-2026-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 27999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "144 Hz 2.8K",
+          "66W Şarj"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 350,
+        "url": "https://www.epey.com/tablet/huawei-matepad-air-2026.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 29999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 28999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 27999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-air-2026-2",
+    "slug": "huawei-matepad-air-2026-2",
+    "name": "Huawei MatePad Air (2026) 8 GB / 256 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 24999,
+    "currency": "TL",
+    "rating": 3.6,
+    "reviewCount": 38,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-air-2026-2-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-air-2026-2-1.jpg"
+    ],
+    "highlights": [
+      "12.0\" 2.8K 144 Hz PaperMatte IPS Ekran (2800 x 1840)",
+      "HiSilicon Kirin 9000W & 8 GB RAM / 256 GB Depolama",
+      "10100 mAh Batarya & 66W SuperCharge",
+      "6 Hoparlörlü Huawei SOUND Ses Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 12,
+      "screenResolution": "2800 x 1840",
+      "panelType": "PaperMatte IPS LCD",
+      "refreshRateHz": 144,
+      "processor": "HiSilicon Kirin 9000W",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 10100,
+      "rearCameraMp": "13 MP + 8 MP",
+      "frontCameraMp": "8 MP Geniş Açı",
+      "weightGrams": 555,
+      "os": "HarmonyOS 4.3",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-air-2026-8gb-offer-1",
+        "storeName": "Huawei Store",
+        "storeLogoColor": "#cf0a2c",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "144 Hz Ekran",
+          "10100 mAh Pil"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 290,
+        "url": "https://www.epey.com/tablet/huawei-matepad-air-2026-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 26999,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 25999,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 24999,
+        "store": "Huawei Store"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-11-5-s-2026-2",
+    "slug": "huawei-matepad-11-5-s-2026-2",
+    "name": "Huawei MatePad 11.5 S (2026) 12 GB / 512 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 23999,
+    "currency": "TL",
+    "rating": 3.8,
+    "reviewCount": 62,
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-11-5-s-2026-2-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-11-5-s-2026-2-1.jpg"
+    ],
+    "highlights": [
+      "11.5\" 2.8K 144 Hz PaperMatte IPS Ekran (2800 x 1840, 3:2)",
+      "HiSilicon Kirin 9000WL & 12 GB RAM / 512 GB Depolama",
+      "8800 mAh Batarya & 40W SuperCharge",
+      "GoPaint Profesyonel Çizim Yazılımı Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 11.5,
+      "screenResolution": "2800 x 1840",
+      "panelType": "PaperMatte IPS LCD",
+      "refreshRateHz": 144,
+      "processor": "HiSilicon Kirin 9000WL",
+      "ramGb": 12,
+      "storageGb": 512,
+      "batteryMah": 8800,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 510,
+      "os": "HarmonyOS 4.2",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-11-5-s-512-offer-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 23999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "PaperMatte 144 Hz",
+          "512 GB Hafıza"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 410,
+        "url": "https://www.epey.com/tablet/huawei-matepad-11-5-s-2026-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 25999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 24999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 23999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-mini-papermatte-edition",
+    "slug": "huawei-matepad-mini-papermatte-edition",
+    "name": "Huawei MatePad Mini PaperMatte Edition 12 GB / 256 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 22999,
+    "currency": "TL",
+    "rating": 3.5,
+    "reviewCount": 31,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-mini-papermatte-edition-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-mini-papermatte-edition-1.jpg"
+    ],
+    "highlights": [
+      "8.8\" 2.5K 144 Hz PaperMatte Ekran (2560 x 1600, 343 PPI)",
+      "Kompakt Ergonomik Tasarım (330 gr)",
+      "HiSilicon Kirin 9000S & 12 GB RAM / 256 GB",
+      "6400 mAh Batarya & 40W SuperCharge"
+    ],
+    "specs": {
+      "screenSizeInches": 8.8,
+      "screenResolution": "2560 x 1600",
+      "panelType": "PaperMatte IPS LCD",
+      "refreshRateHz": 144,
+      "processor": "HiSilicon Kirin 9000S",
+      "ramGb": 12,
+      "storageGb": 256,
+      "batteryMah": 6400,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 330,
+      "os": "HarmonyOS 4.3",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-mini-pm-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 22999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "8.8\" Kompakt",
+          "PaperMatte 144 Hz"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 190,
+        "url": "https://www.epey.com/tablet/huawei-matepad-mini-papermatte-edition.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 24999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 23999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 22999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-mini",
+    "slug": "huawei-matepad-mini",
+    "name": "Huawei MatePad Mini 8 GB / 256 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 19999,
+    "currency": "TL",
+    "rating": 3.4,
+    "reviewCount": 28,
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-mini-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-mini-1.jpg"
+    ],
+    "highlights": [
+      "8.8\" 2.5K 144 Hz Parlak Ekran (2560 x 1600, 343 PPI)",
+      "HiSilicon Kirin 9000S & 8 GB RAM / 256 GB",
+      "6400 mAh Batarya & 40W Hızlı Şarj",
+      "Tek Elle Kolay Tutuş ve Taşınabilirlik (330 gr)"
+    ],
+    "specs": {
+      "screenSizeInches": 8.8,
+      "screenResolution": "2560 x 1600",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 144,
+      "processor": "HiSilicon Kirin 9000S",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 6400,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 330,
+      "os": "HarmonyOS 4.3",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-mini-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 19999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "8.8\" Kompakt",
+          "144 Hz Ekran"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 150,
+        "url": "https://www.epey.com/tablet/huawei-matepad-mini.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 21999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 20999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-11-5-papermatte-edition-plusklavye",
+    "slug": "huawei-matepad-11-5-papermatte-edition-plusklavye",
+    "name": "Huawei MatePad 11.5 PaperMatte Edition +Klavye 8 GB / 256 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 15999,
+    "currency": "TL",
+    "rating": 3.1,
+    "reviewCount": 56,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-11-5-papermatte-edition-plusklavye-1.png",
+    "images": [
+      "/images/products/tablets/huawei-matepad-11-5-papermatte-edition-plusklavye-1.png"
+    ],
+    "highlights": [
+      "11.5\" 120 Hz PaperMatte Ekran (2200 x 1440, 3:2)",
+      "Huawei Akıllı Manyetik Klavye Dahil Paket",
+      "Snapdragon 7 Gen 1 (4 nm) & 8 GB RAM / 256 GB",
+      "7700 mAh Batarya & Alüminyum Gövde"
+    ],
+    "specs": {
+      "screenSizeInches": 11.5,
+      "screenResolution": "2200 x 1440",
+      "panelType": "PaperMatte IPS LCD",
+      "refreshRateHz": 120,
+      "processor": "Qualcomm Snapdragon 7 Gen 1 (4 nm)",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 7700,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP Geniş Açı",
+      "weightGrams": 499,
+      "os": "HarmonyOS 3.1",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-11-5-pm-klavye-offer-1",
+        "storeName": "Huawei Store",
+        "storeLogoColor": "#cf0a2c",
+        "price": 15999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Klavye Dahil",
+          "PaperMatte Ekran"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 380,
+        "url": "https://www.epey.com/tablet/huawei-matepad-11-5-papermatte-edition-plusklavye.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 17499,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 16799,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 15999,
+        "store": "Huawei Store"
+      }
+    ]
+  },
+  {
+    "id": "huawei-mediapad-t3-7",
+    "slug": "huawei-mediapad-t3-7",
+    "name": "Huawei MediaPad T3 7\" 1 GB / 16 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 2699,
+    "currency": "TL",
+    "rating": 1,
+    "reviewCount": 25,
+    "releaseYear": 2017,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-mediapad-t3-7-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-mediapad-t3-7-1.jpg"
+    ],
+    "highlights": [
+      "7.0\" IPS Ekran (1024 x 600, 170 PPI)",
+      "MediaTek MT8127 Dört Çekirdekli İşlemci",
+      "3100 mAh Batarya & 250 gr Ultra Hafif Kasa",
+      "Metalik Gövde Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8127",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 3100,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 250,
+      "os": "Android 6.0 (Marshmallow)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-mediapad-t3-7-offer-1",
+        "storeName": "PttAVM",
+        "storeLogoColor": "#ffcc00",
+        "price": 2699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Giriş Seviye",
+          "Hafif Kasa"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 95,
+        "url": "https://www.epey.com/tablet/huawei-mediapad-t3-7.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 2999,
+        "store": "PttAVM"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 2799,
+        "store": "PttAVM"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2699,
+        "store": "PttAVM"
+      }
+    ]
+  },
+  {
+    "id": "huawei-mediapad-7-youth",
+    "slug": "huawei-mediapad-7-youth",
+    "name": "Huawei MediaPad 7 Youth 1 GB / 8 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 1,
+    "reviewCount": 18,
+    "releaseYear": 2013,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-mediapad-7-youth-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-mediapad-7-youth-1.jpg"
+    ],
+    "highlights": [
+      "7.0\" Dokunmatik Ekran & 3G SIM Kart Desteği (Sesli Görüşme)",
+      "4100 mAh Batarya & Alüminyum Gövde",
+      "Çift Çekirdekli 1.6 GHz İşlemci",
+      "1080p Full HD Video Oynatma Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "TFT LCD",
+      "refreshRateHz": 60,
+      "processor": "Rockchip RK3168 / 1.6 GHz Dual-Core",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 4100,
+      "rearCameraMp": "3.15 MP",
+      "frontCameraMp": "0.3 MP (VGA)",
+      "weightGrams": 350,
+      "os": "Android 4.1.2 (Jelly Bean)",
+      "cellularSupport": "3G SIM (Sesli Görüşme)",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-mediapad-7-youth-offer-1",
+        "storeName": "N11",
+        "storeLogoColor": "#53298a",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "3G Sesli Görüşme",
+          "Klasik Seri"
+        ],
+        "sellerRating": 4.1,
+        "sellerReviews": 60,
+        "url": "https://www.epey.com/tablet/huawei-mediapad-7-youth.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 2799,
+        "store": "N11"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 2599,
+        "store": "N11"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "N11"
+      }
+    ]
+  },
+  {
     "id": "huawei-matepad-11-2023-2",
     "slug": "huawei-matepad-11-2023-2",
     "name": "Huawei MatePad 11 (2023) 5G 6 GB / 128 GB",
