@@ -2,6 +2,982 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "honor-magicpad-4",
+    "slug": "honor-magicpad-4",
+    "name": "Honor MagicPad 4 12 GB / 256 GB",
+    "brand": "Honor",
+    "category": "tablets",
+    "basePrice": 42750,
+    "currency": "TL",
+    "rating": 3.9,
+    "reviewCount": 48,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/honor-magicpad-4-1.jpg",
+    "images": [
+      "/images/products/tablets/honor-magicpad-4-1.jpg"
+    ],
+    "highlights": [
+      "12.3\" 3K 144 Hz IMAX Enhanced OLED Ekran (3000 x 1920, 1600 nit)",
+      "Qualcomm Snapdragon 8s Gen 3 (4 nm) Amiral Gemisi İşlemci",
+      "8 Hoparlörlü Mekansal Ses Sistemi & 3 Mikrofon",
+      "10050 mAh Batarya & 66W Honor SuperCharge"
+    ],
+    "specs": {
+      "screenSizeInches": 12.3,
+      "screenResolution": "3000 x 1920",
+      "panelType": "OLED",
+      "refreshRateHz": 144,
+      "processor": "Qualcomm Snapdragon 8s Gen 3 (4 nm)",
+      "ramGb": 12,
+      "storageGb": 256,
+      "batteryMah": 10050,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "9 MP",
+      "weightGrams": 555,
+      "os": "MagicOS 8.0.1 (Android 14)",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "honor-magicpad-4-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 42750,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Snapdragon 8s Gen 3",
+          "144 Hz 3K OLED"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 280,
+        "url": "https://www.epey.com/tablet/honor-magicpad-4.html"
+      },
+      {
+        "id": "honor-magicpad-4-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 43499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.epey.com/tablet/honor-magicpad-4.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 44999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 43499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 42750,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "honor-pad-v9-12gb",
+    "slug": "honor-pad-v9-12gb",
+    "name": "Honor Pad V9 12 GB / 256 GB",
+    "brand": "Honor",
+    "category": "tablets",
+    "basePrice": 23699,
+    "currency": "TL",
+    "rating": 3.3,
+    "reviewCount": 36,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/honor-pad-v9-12gb-1.jpg",
+    "images": [
+      "/images/products/tablets/honor-pad-v9-12gb-1.jpg"
+    ],
+    "highlights": [
+      "11.5\" 2.8K 144 Hz Ultra Akıcı Ekran (2800 x 1840, %100 DCI-P3)",
+      "MediaTek Dimensity 8350 (4 nm) Yüksek Performanslı İşlemci",
+      "8 Hoparlörlü Çevresel Ses Düzeni & Hi-Res Audio",
+      "8300 mAh Batarya & 66W Honor SuperCharge"
+    ],
+    "specs": {
+      "screenSizeInches": 11.5,
+      "screenResolution": "2800 x 1840",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 144,
+      "processor": "MediaTek Dimensity 8350 (4 nm)",
+      "ramGb": 12,
+      "storageGb": 256,
+      "batteryMah": 8300,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 510,
+      "os": "MagicOS 8.0 (Android 14)",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "honor-pad-v9-12gb-offer-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 23699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "144 Hz 2.8K",
+          "66W Şarj"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 190,
+        "url": "https://www.epey.com/tablet/honor-pad-v9-12gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 25499,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 24299,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 23699,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "honor-pad-v9-256gb",
+    "slug": "honor-pad-v9-256gb",
+    "name": "Honor Pad V9 8 GB / 256 GB",
+    "brand": "Honor",
+    "category": "tablets",
+    "basePrice": 17399,
+    "currency": "TL",
+    "rating": 3.3,
+    "reviewCount": 42,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/honor-pad-v9-256gb-1.jpg",
+    "images": [
+      "/images/products/tablets/honor-pad-v9-256gb-1.jpg"
+    ],
+    "highlights": [
+      "11.5\" 2.8K 144 Hz IPS Ekran (2800 x 1840)",
+      "MediaTek Dimensity 8350 Güçlü İşlemci",
+      "8 Hoparlörlü Akustik Deneyim",
+      "8300 mAh Pil & 66W Hızlı Şarj"
+    ],
+    "specs": {
+      "screenSizeInches": 11.5,
+      "screenResolution": "2800 x 1840",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 144,
+      "processor": "MediaTek Dimensity 8350 (4 nm)",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 8300,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 510,
+      "os": "MagicOS 8.0 (Android 14)",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "honor-pad-v9-256gb-offer-1",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 17399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "144 Hz Ekran",
+          "8 Hoparlör"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 220,
+        "url": "https://www.epey.com/tablet/honor-pad-v9-256gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-04-01",
+        "price": 18999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 17999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 17399,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "honor-pad-10",
+    "slug": "honor-pad-10",
+    "name": "Honor Pad 10 8 GB / 256 GB",
+    "brand": "Honor",
+    "category": "tablets",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 3.1,
+    "reviewCount": 65,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/honor-pad-10-1.jpg",
+    "images": [
+      "/images/products/tablets/honor-pad-10-1.jpg"
+    ],
+    "highlights": [
+      "12.1\" 2.5K 120 Hz Göz Koruma Sertifikalı IPS Ekran (2560 x 1600)",
+      "Qualcomm Snapdragon 6 Gen 1 (4 nm) Verimli İşlemci",
+      "6 Hoparlörlü Güçlü Ses Sistemi",
+      "8300 mAh Dev Batarya & 35W Hızlı Şarj"
+    ],
+    "specs": {
+      "screenSizeInches": 12.1,
+      "screenResolution": "2560 x 1600",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 120,
+      "processor": "Qualcomm Snapdragon 6 Gen 1 (4 nm)",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 8300,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 555,
+      "os": "MagicOS 8.0 (Android 14)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "honor-pad-10-offer-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#ff6700",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "12.1\" 2.5K",
+          "8300 mAh Pil"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 410,
+        "url": "https://www.epey.com/tablet/honor-pad-10.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 16499,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 15499,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "honor-pad-9",
+    "slug": "honor-pad-9",
+    "name": "Honor Pad 9 8 GB / 256 GB",
+    "brand": "Honor",
+    "category": "tablets",
+    "basePrice": 18620,
+    "currency": "TL",
+    "rating": 3,
+    "reviewCount": 78,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/honor-pad-9-1.jpg",
+    "images": [
+      "/images/products/tablets/honor-pad-9-1.jpg"
+    ],
+    "highlights": [
+      "12.1\" 2.5K 120 Hz Parlak Ekran (2560 x 1600, 500 nit)",
+      "Qualcomm Snapdragon 6 Gen 1 8 Çekirdek İşlemci",
+      "8 Hoparlörlü Sinematik Ses Deneyimi",
+      "8300 mAh Batarya & 35W Hızlı Şarj Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 12.1,
+      "screenResolution": "2560 x 1600",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 120,
+      "processor": "Qualcomm Snapdragon 6 Gen 1 (4 nm)",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 8300,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 555,
+      "os": "MagicOS 7.2 (Android 13 / 14)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "honor-pad-9-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 18620,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "120 Hz 2.5K",
+          "8 Hoparlör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 520,
+        "url": "https://www.epey.com/tablet/honor-pad-9.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 19999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 19199,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18620,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "honor-pad-x9a-256",
+    "slug": "honor-pad-x9a-256",
+    "name": "Honor Pad X9a 8 GB / 256 GB",
+    "brand": "Honor",
+    "category": "tablets",
+    "basePrice": 9929,
+    "currency": "TL",
+    "rating": 2.8,
+    "reviewCount": 54,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/honor-pad-x9a-256-1.jpg",
+    "images": [
+      "/images/products/tablets/honor-pad-x9a-256-1.jpg"
+    ],
+    "highlights": [
+      "11.5\" 120 Hz 2K Ekran (2000 x 1200, %86 Ekran/Gövde)",
+      "Qualcomm Snapdragon 685 (6 nm) İşlemci & 8 GB RAM",
+      "6 Hoparlörlü Çevresel Ses Sistemi (Honor Histen)",
+      "7250 mAh Batarya & 22.5W Hızlı Şarj"
+    ],
+    "specs": {
+      "screenSizeInches": 11.5,
+      "screenResolution": "2000 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 120,
+      "processor": "Qualcomm Snapdragon 685 (6 nm)",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 7250,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 499,
+      "os": "MagicOS 7.1 (Android 13 / 14)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "honor-pad-x9a-256-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 9929,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "256 GB Hafıza",
+          "120 Hz Ekran"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 340,
+        "url": "https://www.epey.com/tablet/honor-pad-x9a-256.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 10799,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 10299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9929,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "honor-pad-x9a",
+    "slug": "honor-pad-x9a",
+    "name": "Honor Pad X9a 8 GB / 128 GB",
+    "brand": "Honor",
+    "category": "tablets",
+    "basePrice": 9290,
+    "currency": "TL",
+    "rating": 2.7,
+    "reviewCount": 92,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/honor-pad-x9a-1.jpg",
+    "images": [
+      "/images/products/tablets/honor-pad-x9a-1.jpg"
+    ],
+    "highlights": [
+      "11.5\" 120 Hz 2K Ekran (2000 x 1200)",
+      "Qualcomm Snapdragon 685 & 8 GB RAM",
+      "6 Hoparlörlü Güçlü Akustik Sistem",
+      "7250 mAh Batarya & Alüminyum Metal Gövde"
+    ],
+    "specs": {
+      "screenSizeInches": 11.5,
+      "screenResolution": "2000 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 120,
+      "processor": "Qualcomm Snapdragon 685 (6 nm)",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 7250,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 499,
+      "os": "MagicOS 7.1 (Android 13 / 14)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "honor-pad-x9a-128-offer-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#ff6700",
+        "price": 9290,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çok Satan",
+          "120 Hz Ekran"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 620,
+        "url": "https://www.epey.com/tablet/honor-pad-x9a.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 9999,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 9599,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9290,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "honor-pad-x8b-6-gb",
+    "slug": "honor-pad-x8b-6-gb",
+    "name": "Honor Pad X8b 6 GB / 256 GB",
+    "brand": "Honor",
+    "category": "tablets",
+    "basePrice": 8999,
+    "currency": "TL",
+    "rating": 2.7,
+    "reviewCount": 38,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/honor-pad-x8b-6-gb-1.jpg",
+    "images": [
+      "/images/products/tablets/honor-pad-x8b-6-gb-1.jpg"
+    ],
+    "highlights": [
+      "11.0\" 90 Hz IPS Ekran (1920 x 1200, TÜV Rheinland Düşük Mavi Işık)",
+      "Qualcomm Snapdragon 680 (6 nm) 8 Çekirdek İşlemci",
+      "4 Hoparlörlü Çevresel Ses Sistemi",
+      "7250 mAh Batarya & 22.5W Hızlı Şarj"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 90,
+      "processor": "Qualcomm Snapdragon 680 (6 nm)",
+      "ramGb": 6,
+      "storageGb": 256,
+      "batteryMah": 7250,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 495,
+      "os": "MagicOS 8.0 (Android 14)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "honor-pad-x8b-256-offer-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "256 GB Hafıza",
+          "90 Hz Ekran"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 260,
+        "url": "https://www.epey.com/tablet/honor-pad-x8b-6-gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-04-01",
+        "price": 9599,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 9249,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "honor-pad-x9-8gb",
+    "slug": "honor-pad-x9-8gb",
+    "name": "Honor Pad X9 8 GB / 128 GB",
+    "brand": "Honor",
+    "category": "tablets",
+    "basePrice": 13944,
+    "currency": "TL",
+    "rating": 2.6,
+    "reviewCount": 45,
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/honor-pad-x9-8gb-1.jpg",
+    "images": [
+      "/images/products/tablets/honor-pad-x9-8gb-1.jpg"
+    ],
+    "highlights": [
+      "11.5\" 120 Hz 2K Ekran (2000 x 1200)",
+      "Qualcomm Snapdragon 685 & 8 GB RAM",
+      "6 Hoparlörlü Surround Ses",
+      "7250 mAh Pil & İnce Metal Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 11.5,
+      "screenResolution": "2000 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 120,
+      "processor": "Qualcomm Snapdragon 685",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 7250,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 499,
+      "os": "MagicOS 7.1 (Android 13)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "honor-pad-x9-8gb-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 13944,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "8 GB RAM",
+          "6 Hoparlör"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 180,
+        "url": "https://www.epey.com/tablet/honor-pad-x9-8gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 14799,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 14299,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13944,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "honor-pad-x8b-6-gb-128-gb",
+    "slug": "honor-pad-x8b-6-gb-128-gb",
+    "name": "Honor Pad X8b 6 GB / 128 GB",
+    "brand": "Honor",
+    "category": "tablets",
+    "basePrice": 9299,
+    "currency": "TL",
+    "rating": 2.6,
+    "reviewCount": 32,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/honor-pad-x8b-6-gb-128-gb-1.jpg",
+    "images": [
+      "/images/products/tablets/honor-pad-x8b-6-gb-128-gb-1.jpg"
+    ],
+    "highlights": [
+      "11.0\" 90 Hz IPS Ekran (1920 x 1200)",
+      "Qualcomm Snapdragon 680 & 6 GB RAM / 128 GB",
+      "4 Hoparlörlü Çevresel Ses",
+      "7250 mAh Batarya & 22.5W Hızlı Şarj"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 90,
+      "processor": "Qualcomm Snapdragon 680",
+      "ramGb": 6,
+      "storageGb": 128,
+      "batteryMah": 7250,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 495,
+      "os": "MagicOS 8.0 (Android 14)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "honor-pad-x8b-128-offer-1",
+        "storeName": "N11",
+        "storeLogoColor": "#53298a",
+        "price": 9299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "90 Hz Ekran",
+          "6 GB RAM"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 140,
+        "url": "https://www.epey.com/tablet/honor-pad-x8b-6-gb-128-gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-04-01",
+        "price": 9899,
+        "store": "N11"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 9499,
+        "store": "N11"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9299,
+        "store": "N11"
+      }
+    ]
+  },
+  {
+    "id": "honor-pad-x8b",
+    "slug": "honor-pad-x8b",
+    "name": "Honor Pad X8b 4 GB / 128 GB",
+    "brand": "Honor",
+    "category": "tablets",
+    "basePrice": 6899,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 70,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/honor-pad-x8b-1.jpg",
+    "images": [
+      "/images/products/tablets/honor-pad-x8b-1.jpg"
+    ],
+    "highlights": [
+      "11.0\" 90 Hz IPS Ekran (1920 x 1200)",
+      "Qualcomm Snapdragon 680 8 Çekirdek İşlemci",
+      "4 Hoparlör & 7250 mAh Pil (22.5W Şarj)",
+      "Fiyat/Performans Odaklı İnce Metal Gövde"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 90,
+      "processor": "Qualcomm Snapdragon 680",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 7250,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 495,
+      "os": "MagicOS 8.0 (Android 14)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "honor-pad-x8b-4gb-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 6899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fiyat / Performans",
+          "90 Hz Ekran"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 480,
+        "url": "https://www.epey.com/tablet/honor-pad-x8b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 7499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 7199,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6899,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "honor-pad-8-2022",
+    "slug": "honor-pad-8-2022",
+    "name": "Honor Pad 8 (HEY-W09) 4 GB / 128 GB",
+    "brand": "Honor",
+    "category": "tablets",
+    "basePrice": 9975,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 60,
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/honor-pad-8-2022-1.jpg",
+    "images": [
+      "/images/products/tablets/honor-pad-8-2022-1.jpg"
+    ],
+    "highlights": [
+      "12.0\" 2K IPS Ekran (2000 x 1200, %87 Ekran/Gövde)",
+      "Qualcomm Snapdragon 680 (6 nm) İşlemci",
+      "8 Hoparlörlü Profesyonel Ses Sistemi (DTS:X Ultra)",
+      "7250 mAh Batarya & 22.5W Hızlı Şarj"
+    ],
+    "specs": {
+      "screenSizeInches": 12,
+      "screenResolution": "2000 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon 680 (6 nm)",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 7250,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 520,
+      "os": "MagicUI 6.1 (Android 12)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "honor-pad-8-offer-1",
+        "storeName": "PttAVM",
+        "storeLogoColor": "#ffcc00",
+        "price": 9975,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "12.0\" 2K",
+          "8 Hoparlör"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 210,
+        "url": "https://www.epey.com/tablet/honor-pad-8-2022.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 10499,
+        "store": "PttAVM"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 10199,
+        "store": "PttAVM"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9975,
+        "store": "PttAVM"
+      }
+    ]
+  },
+  {
+    "id": "honor-pad-x9",
+    "slug": "honor-pad-x9",
+    "name": "Honor Pad X9 4 GB / 128 GB",
+    "brand": "Honor",
+    "category": "tablets",
+    "basePrice": 6499,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 85,
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/honor-pad-x9-1.jpg",
+    "images": [
+      "/images/products/tablets/honor-pad-x9-1.jpg"
+    ],
+    "highlights": [
+      "11.5\" 120 Hz 2K Ekran (2000 x 1200, 400 nit)",
+      "Qualcomm Snapdragon 685 (6 nm) İşlemci",
+      "6 Hoparlörlü Sinematik Ses Sistemi",
+      "7250 mAh Batarya & İnce Metal Kasa (495 gr)"
+    ],
+    "specs": {
+      "screenSizeInches": 11.5,
+      "screenResolution": "2000 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 120,
+      "processor": "Qualcomm Snapdragon 685 (6 nm)",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 7250,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 495,
+      "os": "MagicOS 7.1 (Android 13 / 14)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "honor-pad-x9-4gb-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 6499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çok Satan",
+          "120 Hz Ekran"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 750,
+        "url": "https://www.epey.com/tablet/honor-pad-x9.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 6999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 6699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "huawei-matepad-edge-32gb-2tb",
     "slug": "huawei-matepad-edge-32gb-2tb",
     "name": "Huawei MatePad Edge 32 GB / 2048 GB",
