@@ -19169,6 +19169,157 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "ms-surface-go-3-i3-8-128",
+    "slug": "microsoft-surface-go-3-8gb-128gb",
+    "name": "Microsoft Surface Go 3 Intel Core i3 / 8 GB / 128 GB SSD",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 24900,
+    "currency": "TL",
+    "rating": 4.4,
+    "reviewCount": 52,
+    "image": "/images/tablets/microsoft-724243.jpg",
+    "images": [
+      "/images/tablets/microsoft-724243.jpg"
+    ],
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "10.5 İnç Kompakt PixelSense Dokunmatik Ekran",
+      "10. Nesil Intel Core i3-10100Y İşlemci",
+      "8 GB RAM & 128 GB Hızlı NVMe SSD",
+      "Sadece 544 Gram Ultra Hafif Gövde"
+    ],
+    "specs": {
+      "screenSizeInches": 10.5,
+      "screenResolution": "1920 x 1280",
+      "panelType": "PixelSense",
+      "refreshRateHz": 60,
+      "processor": "Intel Core i3-10100Y",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 3500,
+      "rearCameraMp": "8 MP (1080p)",
+      "frontCameraMp": "5 MP (Windows Hello)",
+      "weightGrams": 544,
+      "os": "Windows 11 Home S Modu",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-go3-i3-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 24900,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo",
+          "Çok Satan"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 190,
+        "url": "https://www.epey.com/tablet/microsoft-surface-go-3-8gb-128gb.html"
+      },
+      {
+        "id": "so-ms-surface-go3-i3-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 25400,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Avantajlı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 110,
+        "url": "https://www.epey.com/tablet/microsoft-surface-go-3-8gb-128gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 28000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 24900,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-go-3-pentium-8-128",
+    "slug": "microsoft-surface-go-3",
+    "name": "Microsoft Surface Go 3 Intel Pentium 6500Y / 8 GB / 128 GB SSD",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 20900,
+    "currency": "TL",
+    "rating": 4.3,
+    "reviewCount": 40,
+    "image": "/images/tablets/microsoft-724242.jpg",
+    "images": [
+      "/images/tablets/microsoft-724242.jpg"
+    ],
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.5 İnç PixelSense Dokunmatik Ekran",
+      "Intel Pentium Gold 6500Y İşlemci",
+      "8 GB RAM & 128 GB SSD",
+      "Öğrenciler ve Mobil Çalışanlar İçin İdeal"
+    ],
+    "specs": {
+      "screenSizeInches": 10.5,
+      "screenResolution": "1920 x 1280",
+      "panelType": "PixelSense",
+      "refreshRateHz": 60,
+      "processor": "Intel Pentium Gold 6500Y",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 3500,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 544,
+      "os": "Windows 11 Home S Modu",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-go3-pentium-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 20900,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 95,
+        "url": "https://www.epey.com/tablet/microsoft-surface-go-3.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 23500,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 20900,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "tcl-10-tab-max-4-64",
     "slug": "tcl-10-tab-max",
     "name": "TCL 10 Tab Max 4 GB / 64 GB",
@@ -21529,6 +21680,75 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "ms-surface-pro-x-lte-8-256-mny",
+    "slug": "microsoft-surface-pro-x-lte-mny-00001",
+    "name": "Microsoft Surface Pro X LTE 8 GB / 256 GB (MNY-00001)",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 46900,
+    "currency": "TL",
+    "rating": 4.5,
+    "reviewCount": 35,
+    "image": "/images/tablets/microsoft-722910.jpg",
+    "images": [
+      "/images/tablets/microsoft-722910.jpg"
+    ],
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "13.0 İnç İnce Çerçeveli PixelSense Dokunmatik Ekran",
+      "Microsoft SQ1 ARM Tabanlı Yüksek Verimli İşlemci",
+      "Dahili 4G LTE Gigabit Hücresel Bağlantı",
+      "Ultra İnce 7.3 mm Gövde Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 13,
+      "screenResolution": "2880 x 1920",
+      "panelType": "PixelSense",
+      "refreshRateHz": 60,
+      "processor": "Microsoft SQ1 ARM (Adreno 685 GPU)",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 5039,
+      "rearCameraMp": "10 MP (4K Video)",
+      "frontCameraMp": "5 MP (1080p FHD)",
+      "weightGrams": 774,
+      "os": "Windows 11 ARM",
+      "cellularSupport": "4G LTE (Nano SIM + eSIM)",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-prox-8-256-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 46900,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "LTE"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 85,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-x-lte-mny-00001.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 52000,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 46900,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-pro-12-9-2020-wi-fi-128gb",
     "slug": "apple-ipad-pro-12-9-2020-wi-fi-128gb",
     "name": "Apple iPad Pro 12.9\" (2020) 6 GB / 128 GB (MY2H2TU/A)",
@@ -23256,6 +23476,74 @@ export const mockTablets: Product[] = [
       {
         "date": "2026-08-01",
         "price": 26900,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-7-i3-4-128",
+    "slug": "microsoft-surface-pro-7-12-3-i3-4-128",
+    "name": "Microsoft Surface Pro 7 Intel Core i3 / 4 GB / 128 GB (VDH-00001)",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 19900,
+    "currency": "TL",
+    "rating": 4.2,
+    "reviewCount": 35,
+    "image": "/images/tablets/microsoft-405856.jpg",
+    "images": [
+      "/images/tablets/microsoft-405856.jpg"
+    ],
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "12.3 İnç PixelSense Dokunmatik Ekran",
+      "10. Nesil Intel Core i3-1005G1 İşlemci",
+      "4 GB RAM & 128 GB SSD",
+      "Windows 10 / 11 Destekli"
+    ],
+    "specs": {
+      "screenSizeInches": 12.3,
+      "screenResolution": "2736 x 1824",
+      "panelType": "PixelSense",
+      "refreshRateHz": 60,
+      "processor": "Intel Core i3-1005G1",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 5702,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 775,
+      "os": "Windows 10 Home",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-pro7-i3-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 19900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 60,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-7-12-3-i3-4-128.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2022-01-01",
+        "price": 23000,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19900,
         "store": "Trendyol"
       }
     ]
@@ -25847,6 +26135,74 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 18900,
         "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-5-4-128-fjt",
+    "slug": "microsoft-surface-pro-5-fjt-00001",
+    "name": "Microsoft Surface Pro 5 4 GB / 128 GB (FJT-00001)",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 14900,
+    "currency": "TL",
+    "rating": 4.1,
+    "reviewCount": 30,
+    "image": "/images/tablets/microsoft-725641.jpg",
+    "images": [
+      "/images/tablets/microsoft-725641.jpg"
+    ],
+    "releaseYear": 2017,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "12.3 İnç PixelSense Dokunmatik Ekran",
+      "7. Nesil Intel Core i5-7300U İşlemci",
+      "4 GB RAM & 128 GB SSD",
+      "Fansız Sessiz Çalışma Prensibi"
+    ],
+    "specs": {
+      "screenSizeInches": 12.3,
+      "screenResolution": "2736 x 1824",
+      "panelType": "PixelSense",
+      "refreshRateHz": 60,
+      "processor": "Intel Core i5-7300U",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 5940,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 770,
+      "os": "Windows 10 Pro",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-pro5-4-128-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 14900,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ekonomik"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 40,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-5-fjt-00001.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2020-01-01",
+        "price": 17500,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14900,
+        "store": "Hepsiburada"
       }
     ]
   },
@@ -28703,6 +29059,278 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 2099,
         "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-4-i7-8-256",
+    "slug": "microsoft-surface-pro-4-cq9-00003",
+    "name": "Microsoft Surface Pro 4 Intel Core i7 / 8 GB / 256 GB",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 16900,
+    "currency": "TL",
+    "rating": 4.2,
+    "reviewCount": 45,
+    "image": "/images/tablets/microsoft-650434.jpg",
+    "images": [
+      "/images/tablets/microsoft-650434.jpg"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "12.3 İnç PixelSense Yüksek Çözünürlüklü Ekran",
+      "6. Nesil Intel Core i7-6650U İşlemci",
+      "8 GB RAM & 256 GB SSD",
+      "Iris Graphics 540 Grafik Yongası"
+    ],
+    "specs": {
+      "screenSizeInches": 12.3,
+      "screenResolution": "2736 x 1824",
+      "panelType": "PixelSense",
+      "refreshRateHz": 60,
+      "processor": "Intel Core i7-6650U",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 5087,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP (Windows Hello)",
+      "weightGrams": 786,
+      "os": "Windows 10 Pro",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-pro4-i7-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 16900,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Uygun Fiyat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 70,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-4-cq9-00003.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2019-01-01",
+        "price": 19500,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16900,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-4-i5-8-256",
+    "slug": "microsoft-surface-pro-4-i5-6300u-8gb-256gb",
+    "name": "Microsoft Surface Pro 4 Intel Core i5 / 8 GB / 256 GB",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 14900,
+    "currency": "TL",
+    "rating": 4.1,
+    "reviewCount": 55,
+    "image": "/images/tablets/microsoft-650433.jpg",
+    "images": [
+      "/images/tablets/microsoft-650433.jpg"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "12.3 İnç PixelSense Dokunmatik Ekran",
+      "6. Nesil Intel Core i5-6300U İşlemci",
+      "8 GB RAM & 256 GB SSD",
+      "Entegre Kickstand & Magnezyum Kasa"
+    ],
+    "specs": {
+      "screenSizeInches": 12.3,
+      "screenResolution": "2736 x 1824",
+      "panelType": "PixelSense",
+      "refreshRateHz": 60,
+      "processor": "Intel Core i5-6300U",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 5087,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 786,
+      "os": "Windows 10 Pro",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-pro4-i5-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 14900,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 120,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-4-i5-6300u-8gb-256gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2019-01-01",
+        "price": 17000,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14900,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-pro-4-i5-4-128",
+    "slug": "microsoft-surface-pro-4",
+    "name": "Microsoft Surface Pro 4 Intel Core i5 / 4 GB / 128 GB (CR5-00001)",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 12900,
+    "currency": "TL",
+    "rating": 4,
+    "reviewCount": 65,
+    "image": "/images/tablets/microsoft-725786.jpg",
+    "images": [
+      "/images/tablets/microsoft-725786.jpg"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "12.3 İnç PixelSense Dokunmatik Ekran",
+      "Intel Core i5-6300U İşlemci",
+      "4 GB RAM & 128 GB SSD",
+      "Klasik Surface Pro Deneyimi"
+    ],
+    "specs": {
+      "screenSizeInches": 12.3,
+      "screenResolution": "2736 x 1824",
+      "panelType": "PixelSense",
+      "refreshRateHz": 60,
+      "processor": "Intel Core i5-6300U",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 5087,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 786,
+      "os": "Windows 10 Pro",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-pro4-i5-4gb-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 12900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 80,
+        "url": "https://www.epey.com/tablet/microsoft-surface-pro-4.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2019-01-01",
+        "price": 15000,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12900,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "ms-surface-3-2-64",
+    "slug": "microsoft-surface-3",
+    "name": "Microsoft Surface 3 2 GB / 64 GB",
+    "brand": "Microsoft",
+    "category": "tablets",
+    "basePrice": 9900,
+    "currency": "TL",
+    "rating": 3.9,
+    "reviewCount": 30,
+    "image": "/images/tablets/microsoft-82583.png",
+    "images": [
+      "/images/tablets/microsoft-82583.png"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.8 İnç Full HD Plus ClearType Ekran (1920x1280)",
+      "Intel Atom x7-Z8700 4 Çekirdekli İşlemci",
+      "Micro-USB ile Kolay Şarj İmkanı",
+      "622 Gram Ultra Taşınabilir Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 10.8,
+      "screenResolution": "1920 x 1280",
+      "panelType": "ClearType Full HD+",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom x7-Z8700 (4 Çekirdek)",
+      "ramGb": 2,
+      "storageGb": 64,
+      "batteryMah": 5400,
+      "rearCameraMp": "8 MP (1080p)",
+      "frontCameraMp": "3.5 MP",
+      "weightGrams": 622,
+      "os": "Windows 10",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ms-surface-3-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 9900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 50,
+        "url": "https://www.epey.com/tablet/microsoft-surface-3.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2018-01-01",
+        "price": 12000,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9900,
+        "store": "Trendyol"
       }
     ]
   },
