@@ -279,15 +279,15 @@ export default function HomePage() {
       <HeroThumbnailStrip items={heroThumbnails} activeIndex={heroIndex} onSelect={setHeroIndex} />
 
       {/* 🐧 TechKıyas Penguen Vitrini & MediaMarkt Reklam Alanı */}
-      <section className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-slate-900/5 via-red-500/5 to-slate-900/5 dark:from-slate-900 dark:via-red-950/20 dark:to-slate-900 border border-slate-200 dark:border-slate-800 p-5 sm:p-7 shadow-xs">
+      <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-white via-slate-50 to-red-50/20 dark:from-slate-900 dark:via-slate-900 dark:to-red-950/20 border border-slate-200 dark:border-slate-800 p-4 sm:p-6 shadow-md">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-6 sm:gap-8">
           {/* Sol Kısım: MediaMarkt Reklam Alanı */}
-          <div className="flex-1 w-full max-w-3xl">
+          <div className="flex-1 w-full max-w-4xl">
             <MediaMarktBanner />
           </div>
 
           {/* Sağ Kısım: Penguen Maskot */}
-          <div className="shrink-0 flex items-center justify-center">
+          <div className="shrink-0 flex items-center justify-center pt-2 lg:pt-0">
             <PenguinMascot />
           </div>
         </div>
