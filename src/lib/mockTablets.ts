@@ -2,6 +2,451 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "samsung-galaxy-tab-s6-lite-2022-128gb",
+    "slug": "samsung-galaxy-tab-s6-lite-2022-128gb",
+    "name": "Samsung Galaxy Tab S6 Lite (2022) (SM-P613) 128 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 16101,
+    "currency": "TL",
+    "rating": 2.6,
+    "reviewCount": 145,
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/samsung-galaxy-tab-s6-lite-2022-128gb-1.jpg",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-s6-lite-2022-128gb-1.jpg"
+    ],
+    "highlights": [
+      "10.4\" TFT LCD (2000 x 1200) Ekran",
+      "Qualcomm Snapdragon 720G İşlemci",
+      "128 GB Dahili Hafıza • 4 GB RAM",
+      "Dahili S Pen Kalem • AKG & Dolby Atmos Hoparlörler"
+    ],
+    "specs": {
+      "screenSizeInches": 10.4,
+      "screenResolution": "2000 x 1200",
+      "panelType": "TFT LCD",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon 720G",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 7040,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 465,
+      "os": "Android 12 (One UI 4)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-s6-lite-2022-128gb-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 16101,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Türkiye Garantili",
+          "S Pen Dahil"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3400,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s6-lite.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s6-lite-2022-128gb-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 16299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat",
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s6-lite.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 17200,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 16600,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16101,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-s6-lite-lte-2024",
+    "slug": "samsung-galaxy-tab-s6-lite-lte-2024",
+    "name": "Samsung Galaxy Tab S6 Lite LTE (2024) (SM-P625NZADZTO) 64 GB / 4G",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 16500,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 95,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/samsung-galaxy-tab-s6-lite-lte-2024-1.jpg",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-s6-lite-lte-2024-1.jpg"
+    ],
+    "highlights": [
+      "10.4\" TFT LCD (2000 x 1200) Ekran",
+      "Samsung Exynos 1280 (5 nm) 8 Çekirdek İşlemci",
+      "4G LTE Hücresel Bağlantı • 4 GB RAM / 64 GB",
+      "Dahili S Pen Kalem • AKG Ses Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 10.4,
+      "screenResolution": "2000 x 1200",
+      "panelType": "TFT LCD",
+      "refreshRateHz": 60,
+      "processor": "Samsung Exynos 1280",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 7040,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 467,
+      "os": "Android 14 (One UI 6.1)",
+      "cellularSupport": "4G LTE (Nano-SIM)",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-s6-lite-lte-2024-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 16500,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Türkiye Garantili",
+          "4G LTE & S Pen"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s6-lite-lte-2024.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s6-lite-lte-2024-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 16699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s6-lite-lte-2024.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 17500,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 16900,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16500,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-a9-plus",
+    "slug": "samsung-galaxy-tab-a9-plus",
+    "name": "Samsung Galaxy Tab A9+ (SM-X210) 4 GB / 64 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 8170,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 310,
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/samsung-galaxy-tab-a9-plus-1.jpg",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-a9-plus-1.jpg"
+    ],
+    "highlights": [
+      "11.0\" 90Hz Akıcı TFT Ekran (1920 x 1200)",
+      "Qualcomm Snapdragon 695 (6 nm) İşlemci",
+      "Dörtlü Hoparlör (Dolby Atmos Desteği)",
+      "7040 mAh Uzun Ömürlü Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "1920 x 1200",
+      "panelType": "TFT LCD 90Hz",
+      "refreshRateHz": 90,
+      "processor": "Qualcomm Snapdragon 695",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 7040,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 480,
+      "os": "Android 13 / 14 (One UI 6)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-a9-plus-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 8170,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Türkiye Garantili",
+          "Çok Satan"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-a9-plus.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-a9-plus-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 8199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat",
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3800,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-a9-plus.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-a9-plus-offer-3",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 8249,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-a9-plus.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-a9-plus-offer-4",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 8299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslimat",
+          "Yetkili Distribütör"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1600,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-a9-plus.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 8999,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 8499,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8170,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-active-pro",
+    "slug": "samsung-galaxy-tab-active-pro",
+    "name": "Samsung Galaxy Tab Active Pro (SM-T547NZKATUR) 64 GB / 4G",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 48499,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 45,
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/samsung-galaxy-tab-active-pro-1.jpg",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-active-pro-1.jpg"
+    ],
+    "highlights": [
+      "10.1\" IP68 ve MIL-STD-810G Askeri Dayanıklılık",
+      "Qualcomm Snapdragon 670 İşlemci & 4G LTE",
+      "7600 mAh Çıkarılabilir Değiştirilebilir Batarya",
+      "Suya Dayanıklı Dahili S Pen & Samsung DeX Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1920 x 1200",
+      "panelType": "TFT LCD",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon 670",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 7600,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 653,
+      "os": "Android 10 / 11",
+      "cellularSupport": "4G LTE (Nano-SIM)",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-active-pro-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 48499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Endüstriyel & Askeri Dayanıklı",
+          "S Pen Dahil"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 950,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-active-pro.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 49999,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 48999,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 48499,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-s6-lite-lte-2020",
+    "slug": "samsung-galaxy-tab-s6-lite-lte-2020",
+    "name": "Samsung Galaxy Tab S6 Lite LTE (2020) (SM-P617NZAATUR) 64 GB / 4G",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 110,
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/samsung-galaxy-tab-s6-lite-lte-2020-1.jpg",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-s6-lite-lte-2020-1.jpg"
+    ],
+    "highlights": [
+      "10.4\" TFT LCD (2000 x 1200) Ekran",
+      "Samsung Exynos 9611 İşlemci & 4G LTE",
+      "7040 mAh Batarya & Dahili S Pen Kalem",
+      "Metal Gövde & AKG Çift Hoparlör"
+    ],
+    "specs": {
+      "screenSizeInches": 10.4,
+      "screenResolution": "2000 x 1200",
+      "panelType": "TFT LCD",
+      "refreshRateHz": 60,
+      "processor": "Samsung Exynos 9611",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 7040,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 467,
+      "os": "Android 10 / 12 (One UI)",
+      "cellularSupport": "4G LTE (Nano-SIM)",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-s6-lite-lte-2020-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Türkiye Garantili",
+          "S Pen Dahil"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1540,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s6-lite-10-4-wi-fi-pluslte.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 15999,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 15499,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
     "id": "samsung-galaxy-tab-s10-fe-wi-fi-sm-x526",
     "slug": "samsung-galaxy-tab-s10-fe-wi-fi-sm-x526",
     "name": "Samsung Galaxy Tab S10 FE Wi-Fi (SM-X520NZAPTUR) 12 GB / 256 GB",
