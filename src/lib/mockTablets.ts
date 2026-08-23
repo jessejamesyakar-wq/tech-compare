@@ -2,6 +2,451 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "samsung-galaxy-tab-a-7-0-2016-sm-t287",
+    "slug": "samsung-galaxy-tab-a-7-0-2016-sm-t287",
+    "name": "Samsung Galaxy Tab A 7.0 (2016) (SM-T287) 8 GB / 4G",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 5999,
+    "currency": "TL",
+    "rating": 1.5,
+    "reviewCount": 48,
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/samsung-galaxy-tab-a-7-0-2016-sm-t287-1.png",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-a-7-0-2016-sm-t287-1.png"
+    ],
+    "highlights": [
+      "7.0\" Kompakt TFT Ekran (1280 x 800)",
+      "4G LTE SIM Kart & Sesli Görüşme Desteği",
+      "4000 mAh Batarya & 289 gr Hafif Gövde",
+      "MicroSD Kart ile 200 GB'a Kadar Hafıza Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1280 x 800",
+      "panelType": "TFT LCD",
+      "refreshRateHz": 60,
+      "processor": "Spreadtrum SC9830A",
+      "ramGb": 1.5,
+      "storageGb": 8,
+      "batteryMah": 4000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 289,
+      "os": "Android 5.1 Lollipop",
+      "cellularSupport": "4G LTE (Micro-SIM)",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-a-7-0-2016-sm-t287-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "4G SIM Destekli",
+          "Kompakt Boyut"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 420,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-a-7-0-2016-sm-t287.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 6499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 6199,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-active2",
+    "slug": "samsung-galaxy-tab-active2",
+    "name": "Samsung Galaxy Tab Active2 (SM-T395) 16 GB / 4G LTE",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 19225,
+    "currency": "TL",
+    "rating": 1.5,
+    "reviewCount": 35,
+    "releaseYear": 2017,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/samsung-galaxy-tab-active2-1.png",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-active2-1.png"
+    ],
+    "highlights": [
+      "8.0\" IP68 & MIL-STD-810G Askeri Dayanıklılık",
+      "4450 mAh Çıkarılabilir Değiştirilebilir Batarya",
+      "Suya & Toza Dayanıklı Dahili S Pen Kalem",
+      "4G LTE Hücresel Bağlantı & Parmak İzi Okuyucu"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "TFT LCD",
+      "refreshRateHz": 60,
+      "processor": "Samsung Exynos 7870",
+      "ramGb": 3,
+      "storageGb": 16,
+      "batteryMah": 4450,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 419,
+      "os": "Android 7.1 / 9.0",
+      "cellularSupport": "4G LTE (Nano-SIM)",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-active2-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 19225,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Endüstriyel Dayanıklı",
+          "S Pen Dahil"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-active2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 20500,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 19800,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19225,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-active5-pro-5g",
+    "slug": "samsung-galaxy-tab-active5-pro-5g",
+    "name": "Samsung Galaxy Tab Active5 Pro 5G (SM-X356BZGATUR) 6 GB / 128 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 46067,
+    "currency": "TL",
+    "rating": 3.3,
+    "reviewCount": 62,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/samsung-galaxy-tab-active5-pro-5g-1.jpg",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-active5-pro-5g-1.jpg"
+    ],
+    "highlights": [
+      "10.1\" 120Hz Akıcı Ekran & MIL-STD-810H Askeri Dayanıklılık",
+      "5G Süper Hızlı Bağlantı & Samsung DeX Desteği",
+      "7600 mAh Değiştirilebilir Batarya (Pilsiz Mod Desteği)",
+      "IP68 Su Geçirmez S Pen Kalem & Özel Programlanabilir Tuş"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1920 x 1200",
+      "panelType": "TFT LCD 120Hz",
+      "refreshRateHz": 120,
+      "processor": "Qualcomm Snapdragon 7s Gen 2",
+      "ramGb": 6,
+      "storageGb": 128,
+      "batteryMah": 7600,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 650,
+      "os": "Android 14 (One UI 6)",
+      "cellularSupport": "5G (Nano-SIM + eSIM)",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-active5-pro-5g-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 46067,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Türkiye Garantili",
+          "5G Askeri Dayanıklı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1400,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-active5-pro-5g.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-active5-pro-5g-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 46499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo",
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-active5-pro-5g.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 47999,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 46999,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 46067,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-active-5",
+    "slug": "samsung-galaxy-tab-active-5",
+    "name": "Samsung Galaxy Tab Active5 5G (SM-X308BZGATUR) 6 GB / 128 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 36814,
+    "currency": "TL",
+    "rating": 3.2,
+    "reviewCount": 88,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/samsung-galaxy-tab-active-5-1.jpg",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-active-5-1.jpg"
+    ],
+    "highlights": [
+      "8.0\" 120Hz Corning Gorilla Glass 5 & MIL-STD-810H Dayanıklılık",
+      "Samsung Exynos 1380 (5 nm) Güçlü 8 Çekirdek İşlemci",
+      "5G Hücresel Bağlantı & 5050 mAh Değiştirilebilir Pil",
+      "IP68 Suya Dayanıklı S Pen & Eldivenle Dokunma Modu"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1920 x 1200",
+      "panelType": "TFT LCD 120Hz",
+      "refreshRateHz": 120,
+      "processor": "Samsung Exynos 1380",
+      "ramGb": 6,
+      "storageGb": 128,
+      "batteryMah": 5050,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 433,
+      "os": "Android 14 (One UI 6)",
+      "cellularSupport": "5G (Nano-SIM + eSIM)",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-active-5-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 36814,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Türkiye Garantili",
+          "5G & S Pen Dahil"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2200,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-active-5.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-active-5-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 36999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1350,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-active-5.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-active-5-offer-3",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 37199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1100,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-active-5.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 38500,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 37500,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 36814,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-s10-ultra-wi-fi-1tb",
+    "slug": "samsung-galaxy-tab-s10-ultra-wi-fi-1tb",
+    "name": "Samsung Galaxy Tab S10 Ultra Wi-Fi 16 GB / 1024 GB (1 TB)",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 64999,
+    "currency": "TL",
+    "rating": 4.2,
+    "reviewCount": 195,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/samsung-galaxy-tab-s10-ultra-wi-fi-1tb-1.jpg",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-s10-ultra-wi-fi-1tb-1.jpg"
+    ],
+    "highlights": [
+      "14.6\" Dynamic AMOLED 2X (2960 x 1848) 120Hz Ekran",
+      "MediaTek Dimensity 9300+ (4 nm) Amiral Gemisi İşlemci",
+      "1 TB (1024 GB) UFS Depolama • 16 GB RAM",
+      "11.200 mAh Dev Batarya & Galaxy AI & S Pen Dahil"
+    ],
+    "specs": {
+      "screenSizeInches": 14.6,
+      "screenResolution": "2960 x 1848",
+      "panelType": "Dynamic AMOLED 2X 120Hz",
+      "refreshRateHz": 120,
+      "processor": "MediaTek Dimensity 9300+",
+      "ramGb": 16,
+      "storageGb": 1024,
+      "batteryMah": 11200,
+      "rearCameraMp": "13 MP + 8 MP",
+      "frontCameraMp": "12 MP + 12 MP Çift Kamera",
+      "weightGrams": 718,
+      "os": "Android 14 / 15 (One UI 6.1.1 & Galaxy AI)",
+      "cellularSupport": "Wi-Fi Only (Wi-Fi 7)",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-s10-ultra-wi-fi-1tb-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 64999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Türkiye Garantili",
+          "Galaxy AI & S Pen"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s10-ultra-wi-fi-1tb.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s10-ultra-wi-fi-1tb-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 65499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat",
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s10-ultra-wi-fi-1tb.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s10-ultra-wi-fi-1tb-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 65999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Satıcı",
+          "Mağazadan Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1800,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s10-ultra-wi-fi-1tb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 68999,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 66999,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 64999,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
     "id": "samsung-galaxy-tab-s6-lite-2022-128gb",
     "slug": "samsung-galaxy-tab-s6-lite-2022-128gb",
     "name": "Samsung Galaxy Tab S6 Lite (2022) (SM-P613) 128 GB",
