@@ -4533,6 +4533,88 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "tecno-megapad-se-4-128",
+    "slug": "tecno-megapad-se",
+    "name": "Tecno Megapad Se 4 GB / 128 GB",
+    "brand": "Tecno",
+    "category": "tablets",
+    "basePrice": 8499,
+    "currency": "TL",
+    "rating": 3.5,
+    "reviewCount": 18,
+    "image": "/images/tablets/tecno-1045228.jpg",
+    "images": [
+      "/images/tablets/tecno-1045228.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "11.0 İnç 90 Hz IPS Ekran",
+      "MediaTek Helio G99 6nm 8 Çekirdekli İşlemci",
+      "8.000 mAh Yüksek Kapasiteli Batarya",
+      "Dörtlü Hoparlör & Dolby Atmos Ses Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS LCD (90Hz)",
+      "refreshRateHz": 90,
+      "processor": "MediaTek Helio G99 (6 nm)",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 8000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 510,
+      "os": "Android 14 (HiOS Pad)",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-tecno-megapad-se-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 8499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 95,
+        "url": "https://www.epey.com/tablet/tecno-megapad-se.html"
+      },
+      {
+        "id": "so-tecno-megapad-se-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 8599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 80,
+        "url": "https://www.epey.com/tablet/tecno-megapad-se.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-11-01",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "honor-magicpad-3",
     "slug": "honor-magicpad-3",
     "name": "Honor MagicPad 3 12 GB / 256 GB",
