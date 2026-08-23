@@ -2,6 +2,734 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "lenovo-yoga-tab-11",
+    "slug": "lenovo-yoga-tab-11",
+    "name": "Lenovo Yoga Tab 11 YT-J706F (ZA8W0004TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 45000,
+    "currency": "TL",
+    "rating": 2.6,
+    "reviewCount": 251,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/lenovo-yoga-tab-11-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-yoga-tab-11-1.jpg"
+    ],
+    "highlights": [
+      "11\" 2K IPS LCD 60Hz Dolby Vision Ekran",
+      "MediaTek Helio G90T İşlemci",
+      "256 GB Dahili Depolama • 8 GB RAM",
+      "Çift Bant Wi-Fi & Bluetooth 5.1"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "2000 x 1200",
+      "panelType": "2K IPS LCD 60Hz Dolby Vision",
+      "refreshRateHz": 60,
+      "processor": "MediaTek Helio G90T",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 7700,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 650,
+      "os": "Android 11",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-yoga-tab-11-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 45000,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-tab-11.html"
+      },
+      {
+        "id": "lenovo-yoga-tab-11-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 45450,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-tab-11.html"
+      },
+      {
+        "id": "lenovo-yoga-tab-11-offer-3",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 45900,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Vatan Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1800,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-tab-11.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 47250,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 45900,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 45000,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-tab-p11-plus",
+    "slug": "lenovo-tab-p11-plus",
+    "name": "Lenovo Tab P11 Plus 6 GB / 128 GB (ZA940086TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 12999,
+    "currency": "TL",
+    "rating": 2.6,
+    "reviewCount": 233,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/lenovo-tab-p11-plus-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-tab-p11-plus-1.jpg"
+    ],
+    "highlights": [
+      "11\" 2K IPS LCD 60Hz Ekran",
+      "MediaTek Helio G90T İşlemci",
+      "128 GB Dahili Depolama • 6 GB RAM",
+      "Çift Bant Wi-Fi & Bluetooth 5.1"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "2000 x 1200",
+      "panelType": "2K IPS LCD 60Hz",
+      "refreshRateHz": 60,
+      "processor": "MediaTek Helio G90T",
+      "ramGb": 6,
+      "storageGb": 128,
+      "batteryMah": 7700,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 490,
+      "os": "Android 11",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-tab-p11-plus-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.epey.com/tablet/lenovo-tab-p11-plus.html"
+      },
+      {
+        "id": "lenovo-tab-p11-plus-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 13129,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-p11-plus.html"
+      },
+      {
+        "id": "lenovo-tab-p11-plus-offer-3",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 13259,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Vatan Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1800,
+        "url": "https://www.epey.com/tablet/lenovo-tab-p11-plus.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 13649,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 13259,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-tab-m11-tb330xu",
+    "slug": "lenovo-tab-m11-tb330xu",
+    "name": "Lenovo Tab M11 TB330XU 4G (ZADB0231TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 14837,
+    "currency": "TL",
+    "rating": 2.6,
+    "reviewCount": 112,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/lenovo-tab-m11-tb330xu-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-tab-m11-tb330xu-1.jpg"
+    ],
+    "highlights": [
+      "11\" IPS LCD 90Hz Ekran",
+      "MediaTek Helio G88 İşlemci",
+      "128 GB Dahili Depolama • 4 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS LCD 90Hz",
+      "refreshRateHz": 90,
+      "processor": "MediaTek Helio G88",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 7040,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 465,
+      "os": "Android 14 (ZUI)",
+      "cellularSupport": "4G LTE + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-tab-m11-tb330xu-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 14837,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m11-tb330xu.html"
+      },
+      {
+        "id": "lenovo-tab-m11-tb330xu-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 14985,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m11-tb330xu.html"
+      },
+      {
+        "id": "lenovo-tab-m11-tb330xu-offer-3",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 15134,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Vatan Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1800,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m11-tb330xu.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 15579,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 15134,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14837,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-tab-m11-tb330fu-zada0327tr",
+    "slug": "lenovo-tab-m11-tb330fu-zada0327tr",
+    "name": "Lenovo TAB M11 TB330FU (ZADA0327TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 12739,
+    "currency": "TL",
+    "rating": 2.6,
+    "reviewCount": 237,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/lenovo-tab-m11-tb330fu-zada0327tr-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-tab-m11-tb330fu-zada0327tr-1.jpg"
+    ],
+    "highlights": [
+      "11\" IPS LCD 90Hz Ekran",
+      "MediaTek Helio G88 İşlemci",
+      "128 GB Dahili Depolama • 8 GB RAM",
+      "Çift Bant Wi-Fi & Bluetooth 5.1"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS LCD 90Hz",
+      "refreshRateHz": 90,
+      "processor": "MediaTek Helio G88",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 7040,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 465,
+      "os": "Android 14 (ZUI)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-tab-m11-tb330fu-zada0327tr-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 12739,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m11-tb330fu-zada0327tr.html"
+      },
+      {
+        "id": "lenovo-tab-m11-tb330fu-zada0327tr-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 12866,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m11-tb330fu-zada0327tr.html"
+      },
+      {
+        "id": "lenovo-tab-m11-tb330fu-zada0327tr-offer-3",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 12994,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Vatan Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1800,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m11-tb330fu-zada0327tr.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 13376,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 12994,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12739,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-tab-k11-tb330fu",
+    "slug": "lenovo-tab-k11-tb330fu",
+    "name": "Lenovo Tab K11 TB330FU (ZADC0072TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 8940,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 163,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/lenovo-tab-k11-tb330fu-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-tab-k11-tb330fu-1.jpg"
+    ],
+    "highlights": [
+      "11\" IPS LCD 90Hz Ekran",
+      "MediaTek Helio G88 İşlemci",
+      "128 GB Dahili Depolama • 4 GB RAM",
+      "Çift Bant Wi-Fi & Bluetooth 5.1"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS LCD 90Hz",
+      "refreshRateHz": 90,
+      "processor": "MediaTek Helio G88",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 7040,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 465,
+      "os": "Android 14 (ZUI)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-tab-k11-tb330fu-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 8940,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.epey.com/tablet/lenovo-tab-k11-tb330fu.html"
+      },
+      {
+        "id": "lenovo-tab-k11-tb330fu-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 9029,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-k11-tb330fu.html"
+      },
+      {
+        "id": "lenovo-tab-k11-tb330fu-offer-3",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 9119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Vatan Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1800,
+        "url": "https://www.epey.com/tablet/lenovo-tab-k11-tb330fu.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 9387,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 9119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8940,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-tab-m11-tb330fu",
+    "slug": "lenovo-tab-m11-tb330fu",
+    "name": "Lenovo Tab M11 TB330FU (ZADA0210TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 15058,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 226,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/lenovo-tab-m11-tb330fu-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-tab-m11-tb330fu-1.jpg"
+    ],
+    "highlights": [
+      "11\" IPS LCD 90Hz Ekran",
+      "MediaTek Helio G88 İşlemci",
+      "128 GB Dahili Depolama • 4 GB RAM",
+      "Çift Bant Wi-Fi & Bluetooth 5.1"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS LCD 90Hz",
+      "refreshRateHz": 90,
+      "processor": "MediaTek Helio G88",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 7040,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 465,
+      "os": "Android 14 (ZUI)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-tab-m11-tb330fu-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 15058,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m11-tb330fu.html"
+      },
+      {
+        "id": "lenovo-tab-m11-tb330fu-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 15209,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m11-tb330fu.html"
+      },
+      {
+        "id": "lenovo-tab-m11-tb330fu-offer-3",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 15359,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Vatan Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1800,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m11-tb330fu.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 15811,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 15359,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 15058,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-tab-m10-plus-tb128fu",
+    "slug": "lenovo-tab-m10-plus-tb128fu",
+    "name": "Lenovo Tab M10 Plus TB128FU (3. Nesil) (ZAAM0175TR) 4 GB / 128 GB",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 7499,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 131,
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/lenovo-tab-m10-plus-tb128fu-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-tab-m10-plus-tb128fu-1.jpg"
+    ],
+    "highlights": [
+      "10.61\" 2K IPS LCD Ekran",
+      "MediaTek Helio G80 İşlemci",
+      "128 GB Dahili Depolama • 4 GB RAM",
+      "Çift Bant Wi-Fi & Bluetooth 5.1"
+    ],
+    "specs": {
+      "screenSizeInches": 10.61,
+      "screenResolution": "2000 x 1200",
+      "panelType": "2K IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek Helio G80",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 7700,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 465,
+      "os": "Android 12 (Güncellenebilir)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-tab-m10-plus-tb128fu-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 7499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-plus-tb128fu.html"
+      },
+      {
+        "id": "lenovo-tab-m10-plus-tb128fu-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 7574,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-plus-tb128fu.html"
+      },
+      {
+        "id": "lenovo-tab-m10-plus-tb128fu-offer-3",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#003399",
+        "price": 7649,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Vatan Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1800,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-plus-tb128fu.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 7874,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 7649,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "lenovo-yoga-tab-tb710fu-klavye-plus-kalem",
     "slug": "lenovo-yoga-tab-tb710fu-klavye-plus-kalem",
     "name": "Lenovo Yoga Tab TB710FU Klavye + Kalem (ZAG60087TR)",
