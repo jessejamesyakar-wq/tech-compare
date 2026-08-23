@@ -81552,5 +81552,2232 @@ export const mockLaptops: LaptopProduct[] = [
         "store": "Hepsiburada"
       }
     ]
+  },
+  {
+    "id": "casper-excalibur-g920-1490-cxp0a-e",
+    "slug": "casper-excalibur-g920-1490-cxp0a-e",
+    "name": "Casper Excalibur G920.1490-CXP0A-E (Windows 11 Home)",
+    "brand": "Casper",
+    "category": "laptops",
+    "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G920 Series)",
+    "image": "/images/products/laptops/casper-excalibur-g920-1490-cxp0a-e-1.jpg",
+    "images": [
+      "/images/products/laptops/casper-excalibur-g920-1490-cxp0a-e-1.jpg",
+      "https://resim.epey.com/1036830/z_casper-excalibur-g920-1490-cxp0a-e-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 76,
+    "reviewCount": 41,
+    "basePrice": 143324.02,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "Intel Core i9-14900HX (24 Çekirdek (8P + 16E / 32 İzlek 5.8 GHz))",
+      "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W Max TGP)",
+      "24GB DDR5 5600MHz RAM & 2TB NVMe SSD",
+      "Metal Alaşımlı Şasi, RGB Aydınlatmalı Klavye & Çift Fanlı Turbo Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G920 Series)",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.8 GHz)",
+      "npuTops": 13,
+      "ramGb": 24,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 64GB Destekli)",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (PCIe Gen4x4)",
+      "gpu": "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W Max TGP)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 80,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) Gig+",
+      "bluetooth": "5.2",
+      "ports": [
+        "1x USB Type-C (Thunderbolt 4 / DisplayPort / PD Destekli)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x SD / MicroSD Kart Okuyucu",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.6,
+      "thicknessMm": 24.9,
+      "bodyMaterial": "Metal Alaşımlı Güçlendirilmiş Gövde (Alüminyum Kapak)",
+      "keyboard": "RGB Aydınlatmalı Türkçe Q Klavye (Anti-Ghosting)",
+      "webcam": "FHD (1080p) Gizlilik Deklanşörlü Web Kamera",
+      "audio": "2x 2W Hoparlör Dolby Atmos & Akıllı Amfi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-casper-excalibur-g920-1490-cxp0a-e-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 143324.02,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Casper Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 9500,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g920-1490-cxp0a-e-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 144757,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g920-1490-cxp0a-e-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 146191,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim",
+          "Taksit İmkanı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 5400,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 149057,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 146191,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 143324.02,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "casper-excalibur-g920-1490-dfp0h-e",
+    "slug": "casper-excalibur-g920-1490-dfp0h-e",
+    "name": "Casper Excalibur G920.1490-DFP0H-E (Windows 11 Pro)",
+    "brand": "Casper",
+    "category": "laptops",
+    "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G920 Series)",
+    "image": "/images/products/laptops/casper-excalibur-g920-1490-dfp0h-e-1.jpg",
+    "images": [
+      "/images/products/laptops/casper-excalibur-g920-1490-dfp0h-e-1.jpg",
+      "https://resim.epey.com/1063942/z_casper-excalibur-g920-1490-dfp0h-e-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 31,
+    "basePrice": 144884.02,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "Intel Core i9-14900HX (24 Çekirdek (8P + 16E / 32 İzlek 5.8 GHz))",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "32GB DDR5 5600MHz RAM & 2TB NVMe SSD",
+      "Metal Alaşımlı Şasi, RGB Aydınlatmalı Klavye & Çift Fanlı Turbo Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G920 Series)",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.8 GHz)",
+      "npuTops": 13,
+      "ramGb": 32,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 64GB Destekli)",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (PCIe Gen4x4)",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 80,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) Gig+",
+      "bluetooth": "5.2",
+      "ports": [
+        "1x USB Type-C (Thunderbolt 4 / DisplayPort / PD Destekli)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x SD / MicroSD Kart Okuyucu",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.6,
+      "thicknessMm": 24.9,
+      "bodyMaterial": "Metal Alaşımlı Güçlendirilmiş Gövde (Alüminyum Kapak)",
+      "keyboard": "RGB Aydınlatmalı Türkçe Q Klavye (Anti-Ghosting)",
+      "webcam": "FHD (1080p) Gizlilik Deklanşörlü Web Kamera",
+      "audio": "2x 2W Hoparlör Dolby Atmos & Akıllı Amfi",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-casper-excalibur-g920-1490-dfp0h-e-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 144884.02,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Casper Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 9500,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g920-1490-dfp0h-e-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 146333,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g920-1490-dfp0h-e-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 147782,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim",
+          "Taksit İmkanı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 5400,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 150679,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 147782,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 144884.02,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "casper-excalibur-g915-1362-en70a-c",
+    "slug": "casper-excalibur-g915-1362-en70a-c",
+    "name": "Casper Excalibur G915.1362-EN70A-C (Windows 11 Home)",
+    "brand": "Casper",
+    "category": "laptops",
+    "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+    "image": "/images/products/laptops/casper-excalibur-g915-1362-en70a-c-1.jpg",
+    "images": [
+      "/images/products/laptops/casper-excalibur-g915-1362-en70a-c-1.jpg",
+      "https://resim.epey.com/1044552/z_casper-excalibur-g915-1362-en70a-c-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 39,
+    "basePrice": 139777.06,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "Intel Core i7-13620H (10 Çekirdek (6P + 4E / 16 İzlek 4.9 GHz))",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "64GB DDR5 5600MHz RAM & 2TB NVMe SSD",
+      "Metal Alaşımlı Şasi, RGB Aydınlatmalı Klavye & Çift Fanlı Turbo Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+      "processor": "Intel Core i7-13620H",
+      "processorCores": "10 Çekirdek (6P + 4E / 16 İzlek 4.9 GHz)",
+      "npuTops": 0,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 64GB Destekli)",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (PCIe Gen4x4)",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 76,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) Gig+",
+      "bluetooth": "5.2",
+      "ports": [
+        "1x USB Type-C (Thunderbolt 4 / DisplayPort / PD Destekli)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x SD / MicroSD Kart Okuyucu",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.4,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Metal Alaşımlı Güçlendirilmiş Gövde (Alüminyum Kapak)",
+      "keyboard": "RGB Aydınlatmalı Türkçe Q Klavye (Anti-Ghosting)",
+      "webcam": "FHD (1080p) Gizlilik Deklanşörlü Web Kamera",
+      "audio": "2x 2W Hoparlör Dolby Atmos & Akıllı Amfi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-casper-excalibur-g915-1362-en70a-c-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 139777.06,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Casper Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 9500,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-1362-en70a-c-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 141175,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-1362-en70a-c-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 142573,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim",
+          "Taksit İmkanı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 5400,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 145368,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 142573,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 139777.06,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "casper-excalibur-g915-356h-en60a-c",
+    "slug": "casper-excalibur-g915-356h-en60a-c",
+    "name": "Casper Excalibur G915.356H-EN60A-C (Windows 11 Home)",
+    "brand": "Casper",
+    "category": "laptops",
+    "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+    "image": "/images/products/laptops/casper-excalibur-g915-356h-en60a-c-1.jpg",
+    "images": [
+      "/images/products/laptops/casper-excalibur-g915-356h-en60a-c-1.jpg",
+      "https://resim.epey.com/1066149/z_casper-excalibur-1031325-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 13,
+    "basePrice": 148143.06,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "Intel Core Ultra 7 356H (16 Çekirdek (6P + 8E + 2LPE / 22 İzlek 5.1 GHz))",
+      "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "64GB DDR5 5600MHz RAM & 2TB NVMe SSD",
+      "Metal Alaşımlı Şasi, RGB Aydınlatmalı Klavye & Çift Fanlı Turbo Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+      "processor": "Intel Core Ultra 7 356H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE / 22 İzlek 5.1 GHz)",
+      "npuTops": 24,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 64GB Destekli)",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (PCIe Gen4x4)",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 76,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) Gig+",
+      "bluetooth": "5.2",
+      "ports": [
+        "1x USB Type-C (Thunderbolt 4 / DisplayPort / PD Destekli)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x SD / MicroSD Kart Okuyucu",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.4,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Metal Alaşımlı Güçlendirilmiş Gövde (Alüminyum Kapak)",
+      "keyboard": "RGB Aydınlatmalı Türkçe Q Klavye (Anti-Ghosting)",
+      "webcam": "FHD (1080p) Gizlilik Deklanşörlü Web Kamera",
+      "audio": "2x 2W Hoparlör Dolby Atmos & Akıllı Amfi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-casper-excalibur-g915-356h-en60a-c-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 148143.06,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Casper Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 9500,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-356h-en60a-c-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 149624,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-356h-en60a-c-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 151106,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim",
+          "Taksit İmkanı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 5400,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 154069,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 151106,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 148143.06,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "casper-excalibur-g915-356h-ex60a-c",
+    "slug": "casper-excalibur-g915-356h-ex60a-c",
+    "name": "Casper Excalibur G915.356H-EX60A-C (Windows 11 Home)",
+    "brand": "Casper",
+    "category": "laptops",
+    "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+    "image": "/images/products/laptops/casper-excalibur-g915-356h-ex60a-c-1.jpg",
+    "images": [
+      "/images/products/laptops/casper-excalibur-g915-356h-ex60a-c-1.jpg",
+      "https://resim.epey.com/1066146/z_casper-excalibur-1031325-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 27,
+    "basePrice": 131975.06,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "Intel Core Ultra 7 356H (16 Çekirdek (6P + 8E + 2LPE / 22 İzlek 5.1 GHz))",
+      "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "64GB DDR5 5600MHz RAM & 2TB NVMe SSD",
+      "Metal Alaşımlı Şasi, RGB Aydınlatmalı Klavye & Çift Fanlı Turbo Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+      "processor": "Intel Core Ultra 7 356H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE / 22 İzlek 5.1 GHz)",
+      "npuTops": 24,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 64GB Destekli)",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (PCIe Gen4x4)",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 76,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) Gig+",
+      "bluetooth": "5.2",
+      "ports": [
+        "1x USB Type-C (Thunderbolt 4 / DisplayPort / PD Destekli)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x SD / MicroSD Kart Okuyucu",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.4,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Metal Alaşımlı Güçlendirilmiş Gövde (Alüminyum Kapak)",
+      "keyboard": "RGB Aydınlatmalı Türkçe Q Klavye (Anti-Ghosting)",
+      "webcam": "FHD (1080p) Gizlilik Deklanşörlü Web Kamera",
+      "audio": "2x 2W Hoparlör Dolby Atmos & Akıllı Amfi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-casper-excalibur-g915-356h-ex60a-c-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 131975.06,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Casper Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 9500,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-356h-ex60a-c-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 133295,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-356h-ex60a-c-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 134615,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim",
+          "Taksit İmkanı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 5400,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 137254,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 134615,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 131975.06,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "casper-excalibur-g915-356h-ex70x-c",
+    "slug": "casper-excalibur-g915-356h-ex70x-c",
+    "name": "Casper Excalibur G915.356H-EX70X-C (FreeDOS)",
+    "brand": "Casper",
+    "category": "laptops",
+    "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+    "image": "/images/products/laptops/casper-excalibur-g915-356h-ex70x-c-1.jpg",
+    "images": [
+      "/images/products/laptops/casper-excalibur-g915-356h-ex70x-c-1.jpg",
+      "https://resim.epey.com/1065992/z_casper-excalibur-1031325-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 39,
+    "basePrice": 144289.06,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "Intel Core Ultra 7 356H (16 Çekirdek (6P + 8E + 2LPE / 22 İzlek 5.1 GHz))",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "64GB DDR5 5600MHz RAM & 2TB NVMe SSD",
+      "Metal Alaşımlı Şasi, RGB Aydınlatmalı Klavye & Çift Fanlı Turbo Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+      "processor": "Intel Core Ultra 7 356H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE / 22 İzlek 5.1 GHz)",
+      "npuTops": 24,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 64GB Destekli)",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (PCIe Gen4x4)",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 76,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) Gig+",
+      "bluetooth": "5.2",
+      "ports": [
+        "1x USB Type-C (Thunderbolt 4 / DisplayPort / PD Destekli)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x SD / MicroSD Kart Okuyucu",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.4,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Metal Alaşımlı Güçlendirilmiş Gövde (Alüminyum Kapak)",
+      "keyboard": "RGB Aydınlatmalı Türkçe Q Klavye (Anti-Ghosting)",
+      "webcam": "FHD (1080p) Gizlilik Deklanşörlü Web Kamera",
+      "audio": "2x 2W Hoparlör Dolby Atmos & Akıllı Amfi",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-casper-excalibur-g915-356h-ex70x-c-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 144289.06,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Casper Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 9500,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-356h-ex70x-c-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 145732,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-356h-ex70x-c-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 147175,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim",
+          "Taksit İmkanı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 5400,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 150061,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 147175,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 144289.06,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "casper-excalibur-g915-356h-en70x-c",
+    "slug": "casper-excalibur-g915-356h-en70x-c",
+    "name": "Casper Excalibur G915.356H-EN70X-C (FreeDOS)",
+    "brand": "Casper",
+    "category": "laptops",
+    "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+    "image": "/images/products/laptops/casper-excalibur-g915-356h-en70x-c-1.jpg",
+    "images": [
+      "/images/products/laptops/casper-excalibur-g915-356h-en70x-c-1.jpg",
+      "https://resim.epey.com/1065968/z_casper-excalibur-1031325-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 16,
+    "basePrice": 157604.05,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "Intel Core Ultra 7 356H (16 Çekirdek (6P + 8E + 2LPE / 22 İzlek 5.1 GHz))",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "64GB DDR5 5600MHz RAM & 2TB NVMe SSD",
+      "Metal Alaşımlı Şasi, RGB Aydınlatmalı Klavye & Çift Fanlı Turbo Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+      "processor": "Intel Core Ultra 7 356H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE / 22 İzlek 5.1 GHz)",
+      "npuTops": 24,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 64GB Destekli)",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (PCIe Gen4x4)",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 76,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) Gig+",
+      "bluetooth": "5.2",
+      "ports": [
+        "1x USB Type-C (Thunderbolt 4 / DisplayPort / PD Destekli)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x SD / MicroSD Kart Okuyucu",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.4,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Metal Alaşımlı Güçlendirilmiş Gövde (Alüminyum Kapak)",
+      "keyboard": "RGB Aydınlatmalı Türkçe Q Klavye (Anti-Ghosting)",
+      "webcam": "FHD (1080p) Gizlilik Deklanşörlü Web Kamera",
+      "audio": "2x 2W Hoparlör Dolby Atmos & Akıllı Amfi",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-casper-excalibur-g915-356h-en70x-c-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 157604.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Casper Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 9500,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-356h-en70x-c-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 159180,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-356h-en70x-c-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 160756,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim",
+          "Taksit İmkanı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 5400,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 163908,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 160756,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 157604.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "casper-excalibur-g915-356h-ef70a-c",
+    "slug": "casper-excalibur-g915-356h-ef70a-c",
+    "name": "Casper Excalibur G915.356H-EF70A-C (Windows 11 Home)",
+    "brand": "Casper",
+    "category": "laptops",
+    "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+    "image": "/images/products/laptops/casper-excalibur-g915-356h-ef70a-c-1.jpg",
+    "images": [
+      "/images/products/laptops/casper-excalibur-g915-356h-ef70a-c-1.jpg",
+      "https://resim.epey.com/1066026/z_casper-excalibur-1031325-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 18,
+    "basePrice": 132539.06,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "Intel Core Ultra 7 356H (16 Çekirdek (6P + 8E + 2LPE / 22 İzlek 5.1 GHz))",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "64GB DDR5 5600MHz RAM & 2TB NVMe SSD",
+      "Metal Alaşımlı Şasi, RGB Aydınlatmalı Klavye & Çift Fanlı Turbo Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+      "processor": "Intel Core Ultra 7 356H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE / 22 İzlek 5.1 GHz)",
+      "npuTops": 24,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 64GB Destekli)",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (PCIe Gen4x4)",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 76,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) Gig+",
+      "bluetooth": "5.2",
+      "ports": [
+        "1x USB Type-C (Thunderbolt 4 / DisplayPort / PD Destekli)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x SD / MicroSD Kart Okuyucu",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.4,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Metal Alaşımlı Güçlendirilmiş Gövde (Alüminyum Kapak)",
+      "keyboard": "RGB Aydınlatmalı Türkçe Q Klavye (Anti-Ghosting)",
+      "webcam": "FHD (1080p) Gizlilik Deklanşörlü Web Kamera",
+      "audio": "2x 2W Hoparlör Dolby Atmos & Akıllı Amfi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-casper-excalibur-g915-356h-ef70a-c-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 132539.06,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Casper Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 9500,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-356h-ef70a-c-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 133864,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-356h-ef70a-c-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 135190,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim",
+          "Taksit İmkanı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 5400,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 137841,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 135190,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 132539.06,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "casper-excalibur-g915-1362-en60a-c",
+    "slug": "casper-excalibur-g915-1362-en60a-c",
+    "name": "Casper Excalibur G915.1362-EN60A-C (Windows 11 Home)",
+    "brand": "Casper",
+    "category": "laptops",
+    "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+    "image": "/images/products/laptops/casper-excalibur-g915-1362-en60a-c-1.jpg",
+    "images": [
+      "/images/products/laptops/casper-excalibur-g915-1362-en60a-c-1.jpg",
+      "https://resim.epey.com/1056757/z_casper-excalibur-1031325-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 27,
+    "basePrice": 129249.06,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "Intel Core i7-13620H (10 Çekirdek (6P + 4E / 16 İzlek 4.9 GHz))",
+      "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "64GB DDR5 5600MHz RAM & 1TB NVMe SSD",
+      "Metal Alaşımlı Şasi, RGB Aydınlatmalı Klavye & Çift Fanlı Turbo Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+      "processor": "Intel Core i7-13620H",
+      "processorCores": "10 Çekirdek (6P + 4E / 16 İzlek 4.9 GHz)",
+      "npuTops": 0,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 64GB Destekli)",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (PCIe Gen4x4)",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 76,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) Gig+",
+      "bluetooth": "5.2",
+      "ports": [
+        "1x USB Type-C (Thunderbolt 4 / DisplayPort / PD Destekli)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x SD / MicroSD Kart Okuyucu",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.4,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Metal Alaşımlı Güçlendirilmiş Gövde (Alüminyum Kapak)",
+      "keyboard": "RGB Aydınlatmalı Türkçe Q Klavye (Anti-Ghosting)",
+      "webcam": "FHD (1080p) Gizlilik Deklanşörlü Web Kamera",
+      "audio": "2x 2W Hoparlör Dolby Atmos & Akıllı Amfi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-casper-excalibur-g915-1362-en60a-c-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 129249.06,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Casper Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 9500,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-1362-en60a-c-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 130542,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-1362-en60a-c-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 131834,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim",
+          "Taksit İmkanı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 5400,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 134419,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 131834,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 129249.06,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "casper-excalibur-g920-1490-cxp0x-e",
+    "slug": "casper-excalibur-g920-1490-cxp0x-e",
+    "name": "Casper Excalibur G920.1490-CXP0X-E (FreeDOS)",
+    "brand": "Casper",
+    "category": "laptops",
+    "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G920 Series)",
+    "image": "/images/products/laptops/casper-excalibur-g920-1490-cxp0x-e-1.jpg",
+    "images": [
+      "/images/products/laptops/casper-excalibur-g920-1490-cxp0x-e-1.jpg",
+      "https://resim.epey.com/1036268/z_casper-excalibur-g920-1490-cxp0x-e-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 75,
+    "reviewCount": 12,
+    "basePrice": 139814.02,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "Intel Core i9-14900HX (24 Çekirdek (8P + 16E / 32 İzlek 5.8 GHz))",
+      "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W Max TGP)",
+      "24GB DDR5 5600MHz RAM & 2TB NVMe SSD",
+      "Metal Alaşımlı Şasi, RGB Aydınlatmalı Klavye & Çift Fanlı Turbo Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G920 Series)",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.8 GHz)",
+      "npuTops": 13,
+      "ramGb": 24,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 64GB Destekli)",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (PCIe Gen4x4)",
+      "gpu": "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6 - 175W Max TGP)",
+      "gpuTgpWatts": 175,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 80,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) Gig+",
+      "bluetooth": "5.2",
+      "ports": [
+        "1x USB Type-C (Thunderbolt 4 / DisplayPort / PD Destekli)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x SD / MicroSD Kart Okuyucu",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.6,
+      "thicknessMm": 24.9,
+      "bodyMaterial": "Metal Alaşımlı Güçlendirilmiş Gövde (Alüminyum Kapak)",
+      "keyboard": "RGB Aydınlatmalı Türkçe Q Klavye (Anti-Ghosting)",
+      "webcam": "FHD (1080p) Gizlilik Deklanşörlü Web Kamera",
+      "audio": "2x 2W Hoparlör Dolby Atmos & Akıllı Amfi",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-casper-excalibur-g920-1490-cxp0x-e-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 139814.02,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Casper Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 9500,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g920-1490-cxp0x-e-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 141212,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g920-1490-cxp0x-e-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 142610,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim",
+          "Taksit İmkanı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 5400,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 145407,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 142610,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 139814.02,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "casper-excalibur-g920-1490-cfp0h-e",
+    "slug": "casper-excalibur-g920-1490-cfp0h-e",
+    "name": "Casper Excalibur G920.1490-CFP0H-E (Windows 11 Pro)",
+    "brand": "Casper",
+    "category": "laptops",
+    "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G920 Series)",
+    "image": "/images/products/laptops/casper-excalibur-g920-1490-cfp0h-e-1.jpg",
+    "images": [
+      "/images/products/laptops/casper-excalibur-g920-1490-cfp0h-e-1.jpg",
+      "https://resim.epey.com/1063943/z_casper-excalibur-g920-1490-cfp0h-e-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 74,
+    "reviewCount": 17,
+    "basePrice": 140691.52,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "Intel Core i9-14900HX (24 Çekirdek (8P + 16E / 32 İzlek 5.8 GHz))",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "24GB DDR5 5600MHz RAM & 2TB NVMe SSD",
+      "Metal Alaşımlı Şasi, RGB Aydınlatmalı Klavye & Çift Fanlı Turbo Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G920 Series)",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.8 GHz)",
+      "npuTops": 13,
+      "ramGb": 24,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 64GB Destekli)",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (PCIe Gen4x4)",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 80,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) Gig+",
+      "bluetooth": "5.2",
+      "ports": [
+        "1x USB Type-C (Thunderbolt 4 / DisplayPort / PD Destekli)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x SD / MicroSD Kart Okuyucu",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.6,
+      "thicknessMm": 24.9,
+      "bodyMaterial": "Metal Alaşımlı Güçlendirilmiş Gövde (Alüminyum Kapak)",
+      "keyboard": "RGB Aydınlatmalı Türkçe Q Klavye (Anti-Ghosting)",
+      "webcam": "FHD (1080p) Gizlilik Deklanşörlü Web Kamera",
+      "audio": "2x 2W Hoparlör Dolby Atmos & Akıllı Amfi",
+      "os": "Windows 11 Pro"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-casper-excalibur-g920-1490-cfp0h-e-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 140691.52,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Casper Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 9500,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g920-1490-cfp0h-e-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 142098,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g920-1490-cfp0h-e-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 143505,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim",
+          "Taksit İmkanı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 5400,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 146319,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 143505,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 140691.52,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "casper-excalibur-g920-1490-cfp0a-e",
+    "slug": "casper-excalibur-g920-1490-cfp0a-e",
+    "name": "Casper Excalibur G920.1490-CFP0A-E (Windows 11 Home)",
+    "brand": "Casper",
+    "category": "laptops",
+    "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G920 Series)",
+    "image": "/images/products/laptops/casper-excalibur-g920-1490-cfp0a-e-1.jpg",
+    "images": [
+      "/images/products/laptops/casper-excalibur-g920-1490-cfp0a-e-1.jpg",
+      "https://resim.epey.com/1036832/z_casper-excalibur-g920-1490-cfp0a-e-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 74,
+    "reviewCount": 17,
+    "basePrice": 133281.52,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "Intel Core i9-14900HX (24 Çekirdek (8P + 16E / 32 İzlek 5.8 GHz))",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "24GB DDR5 5600MHz RAM & 2TB NVMe SSD",
+      "Metal Alaşımlı Şasi, RGB Aydınlatmalı Klavye & Çift Fanlı Turbo Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G920 Series)",
+      "processor": "Intel Core i9-14900HX",
+      "processorCores": "24 Çekirdek (8P + 16E / 32 İzlek 5.8 GHz)",
+      "npuTops": 13,
+      "ramGb": 24,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 64GB Destekli)",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (PCIe Gen4x4)",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 80,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 330,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) Gig+",
+      "bluetooth": "5.2",
+      "ports": [
+        "1x USB Type-C (Thunderbolt 4 / DisplayPort / PD Destekli)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x SD / MicroSD Kart Okuyucu",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.6,
+      "thicknessMm": 24.9,
+      "bodyMaterial": "Metal Alaşımlı Güçlendirilmiş Gövde (Alüminyum Kapak)",
+      "keyboard": "RGB Aydınlatmalı Türkçe Q Klavye (Anti-Ghosting)",
+      "webcam": "FHD (1080p) Gizlilik Deklanşörlü Web Kamera",
+      "audio": "2x 2W Hoparlör Dolby Atmos & Akıllı Amfi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-casper-excalibur-g920-1490-cfp0a-e-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 133281.52,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Casper Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 9500,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g920-1490-cfp0a-e-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 134614,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g920-1490-cfp0a-e-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 135947,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim",
+          "Taksit İmkanı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 5400,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 138613,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 135947,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 133281.52,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "casper-excalibur-g915-1362-en70x-c",
+    "slug": "casper-excalibur-g915-1362-en70x-c",
+    "name": "Casper Excalibur G915.1362-EN70X-C (FreeDOS)",
+    "brand": "Casper",
+    "category": "laptops",
+    "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+    "image": "/images/products/laptops/casper-excalibur-g915-1362-en70x-c-1.jpg",
+    "images": [
+      "/images/products/laptops/casper-excalibur-g915-1362-en70x-c-1.jpg",
+      "https://resim.epey.com/1029066/z_casper-excalibur-g915-1362-en70x-c-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 74,
+    "reviewCount": 31,
+    "basePrice": 133284.05,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "Intel Core i7-13620H (10 Çekirdek (6P + 4E / 16 İzlek 4.9 GHz))",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "64GB DDR5 5600MHz RAM & 2TB NVMe SSD",
+      "Metal Alaşımlı Şasi, RGB Aydınlatmalı Klavye & Çift Fanlı Turbo Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+      "processor": "Intel Core i7-13620H",
+      "processorCores": "10 Çekirdek (6P + 4E / 16 İzlek 4.9 GHz)",
+      "npuTops": 0,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 64GB Destekli)",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (PCIe Gen4x4)",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 76,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) Gig+",
+      "bluetooth": "5.2",
+      "ports": [
+        "1x USB Type-C (Thunderbolt 4 / DisplayPort / PD Destekli)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x SD / MicroSD Kart Okuyucu",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.4,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Metal Alaşımlı Güçlendirilmiş Gövde (Alüminyum Kapak)",
+      "keyboard": "RGB Aydınlatmalı Türkçe Q Klavye (Anti-Ghosting)",
+      "webcam": "FHD (1080p) Gizlilik Deklanşörlü Web Kamera",
+      "audio": "2x 2W Hoparlör Dolby Atmos & Akıllı Amfi",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-casper-excalibur-g915-1362-en70x-c-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 133284.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Casper Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 9500,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-1362-en70x-c-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 134617,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-1362-en70x-c-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 135950,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim",
+          "Taksit İmkanı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 5400,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 138615,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 135950,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 133284.05,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "casper-excalibur-g915-356h-ex60x-c",
+    "slug": "casper-excalibur-g915-356h-ex60x-c",
+    "name": "Casper Excalibur G915.356H-EX60X-C (FreeDOS)",
+    "brand": "Casper",
+    "category": "laptops",
+    "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+    "image": "/images/products/laptops/casper-excalibur-g915-356h-ex60x-c-1.jpg",
+    "images": [
+      "/images/products/laptops/casper-excalibur-g915-356h-ex60x-c-1.jpg",
+      "https://resim.epey.com/1066143/z_casper-excalibur-1031325-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 74,
+    "reviewCount": 25,
+    "basePrice": 133667.06,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "Intel Core Ultra 7 356H (16 Çekirdek (6P + 8E + 2LPE / 22 İzlek 5.1 GHz))",
+      "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "64GB DDR5 5600MHz RAM & 2TB NVMe SSD",
+      "Metal Alaşımlı Şasi, RGB Aydınlatmalı Klavye & Çift Fanlı Turbo Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+      "processor": "Intel Core Ultra 7 356H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE / 22 İzlek 5.1 GHz)",
+      "npuTops": 24,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 64GB Destekli)",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (PCIe Gen4x4)",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 76,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) Gig+",
+      "bluetooth": "5.2",
+      "ports": [
+        "1x USB Type-C (Thunderbolt 4 / DisplayPort / PD Destekli)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x SD / MicroSD Kart Okuyucu",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.4,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Metal Alaşımlı Güçlendirilmiş Gövde (Alüminyum Kapak)",
+      "keyboard": "RGB Aydınlatmalı Türkçe Q Klavye (Anti-Ghosting)",
+      "webcam": "FHD (1080p) Gizlilik Deklanşörlü Web Kamera",
+      "audio": "2x 2W Hoparlör Dolby Atmos & Akıllı Amfi",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-casper-excalibur-g915-356h-ex60x-c-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 133667.06,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Casper Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 9500,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-356h-ex60x-c-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 135004,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-356h-ex60x-c-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 136340,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim",
+          "Taksit İmkanı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 5400,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 139014,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 136340,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 133667.06,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "casper-excalibur-g915-356h-en60x-c",
+    "slug": "casper-excalibur-g915-356h-en60x-c",
+    "name": "Casper Excalibur G915.356H-EN60X-C (FreeDOS)",
+    "brand": "Casper",
+    "category": "laptops",
+    "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+    "image": "/images/products/laptops/casper-excalibur-g915-356h-en60x-c-1.jpg",
+    "images": [
+      "/images/products/laptops/casper-excalibur-g915-356h-en60x-c-1.jpg",
+      "https://resim.epey.com/1066142/z_casper-excalibur-1031325-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 74,
+    "reviewCount": 16,
+    "basePrice": 143499,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "Intel Core Ultra 7 356H (16 Çekirdek (6P + 8E + 2LPE / 22 İzlek 5.1 GHz))",
+      "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "64GB DDR5 5600MHz RAM & 2TB NVMe SSD",
+      "Metal Alaşımlı Şasi, RGB Aydınlatmalı Klavye & Çift Fanlı Turbo Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+      "processor": "Intel Core Ultra 7 356H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE / 22 İzlek 5.1 GHz)",
+      "npuTops": 24,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 64GB Destekli)",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (PCIe Gen4x4)",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 76,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) Gig+",
+      "bluetooth": "5.2",
+      "ports": [
+        "1x USB Type-C (Thunderbolt 4 / DisplayPort / PD Destekli)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x SD / MicroSD Kart Okuyucu",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.4,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Metal Alaşımlı Güçlendirilmiş Gövde (Alüminyum Kapak)",
+      "keyboard": "RGB Aydınlatmalı Türkçe Q Klavye (Anti-Ghosting)",
+      "webcam": "FHD (1080p) Gizlilik Deklanşörlü Web Kamera",
+      "audio": "2x 2W Hoparlör Dolby Atmos & Akıllı Amfi",
+      "os": "FreeDOS"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-casper-excalibur-g915-356h-en60x-c-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 143499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Casper Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 9500,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-356h-en60x-c-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 144934,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-356h-en60x-c-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 146369,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim",
+          "Taksit İmkanı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 5400,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 149239,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 146369,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 143499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "casper-excalibur-g915-356h-ef60a-c",
+    "slug": "casper-excalibur-g915-356h-ef60a-c",
+    "name": "Casper Excalibur G915.356H-EF60A-C (Windows 11 Home)",
+    "brand": "Casper",
+    "category": "laptops",
+    "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+    "image": "/images/products/laptops/casper-excalibur-g915-356h-ef60a-c-1.jpg",
+    "images": [
+      "/images/products/laptops/casper-excalibur-g915-356h-ef60a-c-1.jpg",
+      "https://resim.epey.com/1066150/z_casper-excalibur-1031325-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 74,
+    "reviewCount": 12,
+    "basePrice": 119241.52,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "Intel Core Ultra 7 356H (16 Çekirdek (6P + 8E + 2LPE / 22 İzlek 5.1 GHz))",
+      "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "64GB DDR5 5600MHz RAM & 1TB NVMe SSD",
+      "Metal Alaşımlı Şasi, RGB Aydınlatmalı Klavye & Çift Fanlı Turbo Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+      "processor": "Intel Core Ultra 7 356H",
+      "processorCores": "16 Çekirdek (6P + 8E + 2LPE / 22 İzlek 5.1 GHz)",
+      "npuTops": 24,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 64GB Destekli)",
+      "maxRamGb": 64,
+      "storageGb": 1024,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (PCIe Gen4x4)",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 76,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) Gig+",
+      "bluetooth": "5.2",
+      "ports": [
+        "1x USB Type-C (Thunderbolt 4 / DisplayPort / PD Destekli)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x SD / MicroSD Kart Okuyucu",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.4,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Metal Alaşımlı Güçlendirilmiş Gövde (Alüminyum Kapak)",
+      "keyboard": "RGB Aydınlatmalı Türkçe Q Klavye (Anti-Ghosting)",
+      "webcam": "FHD (1080p) Gizlilik Deklanşörlü Web Kamera",
+      "audio": "2x 2W Hoparlör Dolby Atmos & Akıllı Amfi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-casper-excalibur-g915-356h-ef60a-c-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 119241.52,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Casper Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 9500,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-356h-ef60a-c-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 120434,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-356h-ef60a-c-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 121626,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim",
+          "Taksit İmkanı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 5400,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 124011,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 121626,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 119241.52,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "casper-excalibur-g915-240h-en70a-c",
+    "slug": "casper-excalibur-g915-240h-en70a-c",
+    "name": "Casper Excalibur G915.240H-EN70A-C (Windows 11 Home)",
+    "brand": "Casper",
+    "category": "laptops",
+    "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+    "image": "/images/products/laptops/casper-excalibur-g915-240h-en70a-c-1.jpg",
+    "images": [
+      "/images/products/laptops/casper-excalibur-g915-240h-en70a-c-1.jpg",
+      "https://resim.epey.com/1058915/z_casper-excalibur-1031325-1.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 74,
+    "reviewCount": 12,
+    "basePrice": 138179.06,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "16\" 2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "Intel Core 7 240H (10 Çekirdek (6P + 4E / 16 İzlek 5.2 GHz))",
+      "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "64GB DDR5 5600MHz RAM & 2TB NVMe SSD",
+      "Metal Alaşımlı Şasi, RGB Aydınlatmalı Klavye & Çift Fanlı Turbo Soğutma"
+    ],
+    "specs": {
+      "productType": "Üst Seviye Performans & Oyuncu Laptopu (Excalibur G915 Series)",
+      "processor": "Intel Core 7 240H",
+      "processorCores": "10 Çekirdek (6P + 4E / 16 İzlek 5.2 GHz)",
+      "npuTops": 13,
+      "ramGb": 64,
+      "ramType": "DDR5 5600 MHz (2x SO-DIMM Yuvası / 64GB Destekli)",
+      "maxRamGb": 64,
+      "storageGb": 2048,
+      "storageType": "PCIe Gen4 x4 NVMe M.2 SSD",
+      "storageSlots": "2x M.2 NVMe SSD Yuvası (PCIe Gen4x4)",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6 - 140W Max TGP)",
+      "gpuTgpWatts": 140,
+      "muxSwitch": true,
+      "screenSizeInches": 16,
+      "screenResolution": "2560 x 1600 (QHD+ / WQXGA 16:10 165Hz-240Hz 500 Nits %100 sRGB IPS Panel)",
+      "screenBrightnessNits": 500,
+      "colorGamut": "%100 sRGB",
+      "batteryCapacityWh": 76,
+      "batteryLifeHours": 5.5,
+      "chargerWatts": 230,
+      "wifiStandard": "Wi-Fi 6E (802.11ax) Gig+",
+      "bluetooth": "5.2",
+      "ports": [
+        "1x USB Type-C (Thunderbolt 4 / DisplayPort / PD Destekli)",
+        "3x USB 3.2 Gen 1 Type-A",
+        "1x HDMI 2.1 (8K @ 60Hz / 4K @ 120Hz)",
+        "1x RJ45 Gigabit Ethernet LAN",
+        "1x SD / MicroSD Kart Okuyucu",
+        "1x 3.5mm Kombo Ses Jakı"
+      ],
+      "weightKg": 2.4,
+      "thicknessMm": 23.5,
+      "bodyMaterial": "Metal Alaşımlı Güçlendirilmiş Gövde (Alüminyum Kapak)",
+      "keyboard": "RGB Aydınlatmalı Türkçe Q Klavye (Anti-Ghosting)",
+      "webcam": "FHD (1080p) Gizlilik Deklanşörlü Web Kamera",
+      "audio": "2x 2W Hoparlör Dolby Atmos & Akıllı Amfi",
+      "os": "Windows 11 Home"
+    },
+    "storeOffers": [
+      {
+        "id": "offer-casper-excalibur-g915-240h-en70a-c-hepsiburada",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 138179.06,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Casper Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 9500,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-240h-en70a-c-trendyol",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 139561,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 7800,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "id": "offer-casper-excalibur-g915-240h-en70a-c-vatan",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 140943,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslim",
+          "Taksit İmkanı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 5400,
+        "url": "https://www.vatanbilgisayar.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 143706,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 140943,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 138179.06,
+        "store": "Hepsiburada"
+      }
+    ]
   }
 ];
