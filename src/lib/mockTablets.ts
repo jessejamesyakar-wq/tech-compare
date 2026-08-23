@@ -2,6 +2,601 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "samsung-galaxy-tab-s11-ultra",
+    "slug": "samsung-galaxy-tab-s11-ultra",
+    "name": "Samsung Galaxy Tab S11 Ultra Wi-Fi (SM-X930) 16 GB / 1024 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 69899,
+    "currency": "TL",
+    "rating": 4.2,
+    "reviewCount": 95,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/samsung-galaxy-tab-s11-ultra-1.jpg",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-s11-ultra-1.jpg"
+    ],
+    "highlights": [
+      "14.6\" Dynamic AMOLED 2X 120Hz Ekran",
+      "MediaTek Dimensity 9400+ Amiral Gemisi İşlemci",
+      "1 TB UFS Depolama • 16 GB RAM",
+      "Wi-Fi 7 & Dahili S Pen Kalem Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 14.6,
+      "screenResolution": "2960 x 1848",
+      "panelType": "Dynamic AMOLED 2X",
+      "refreshRateHz": 120,
+      "processor": "MediaTek Dimensity 9400+",
+      "ramGb": 16,
+      "storageGb": 1024,
+      "batteryMah": 11600,
+      "rearCameraMp": "13 MP + 8 MP",
+      "frontCameraMp": "12 MP + 12 MP",
+      "weightGrams": 732,
+      "os": "Android 15 (One UI 7.0)",
+      "cellularSupport": "Wi-Fi Only (Wi-Fi 7)",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-s11-ultra-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 69899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Türkiye Garantili",
+          "Orijinal Kutu & S Pen"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s11-ultra.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s11-ultra-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 70248,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat",
+          "Samsung Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s11-ultra.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s11-ultra-offer-3",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 70598,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s11-ultra.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s11-ultra-offer-4",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 70947,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s11-ultra.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 74093,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 71996,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 69899,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-s11-ultra-5g-2",
+    "slug": "samsung-galaxy-tab-s11-ultra-5g-2",
+    "name": "Samsung Galaxy Tab S11 Ultra 5G 12 GB / 512 GB / 5G",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 67679,
+    "currency": "TL",
+    "rating": 4.1,
+    "reviewCount": 89,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/samsung-galaxy-tab-s11-ultra-5g-2-1.jpg",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-s11-ultra-5g-2-1.jpg"
+    ],
+    "highlights": [
+      "14.6\" Dynamic AMOLED 2X 120Hz Ekran",
+      "MediaTek Dimensity 9400+ Amiral Gemisi İşlemci",
+      "512 GB UFS Depolama • 12 GB RAM",
+      "5G Hücresel + Wi-Fi 7 & Dahili S Pen"
+    ],
+    "specs": {
+      "screenSizeInches": 14.6,
+      "screenResolution": "2960 x 1848",
+      "panelType": "Dynamic AMOLED 2X",
+      "refreshRateHz": 120,
+      "processor": "MediaTek Dimensity 9400+",
+      "ramGb": 12,
+      "storageGb": 512,
+      "batteryMah": 11600,
+      "rearCameraMp": "13 MP + 8 MP",
+      "frontCameraMp": "12 MP + 12 MP",
+      "weightGrams": 732,
+      "os": "Android 15 (One UI 7.0)",
+      "cellularSupport": "5G (Nano-SIM + eSIM)",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-s11-ultra-5g-2-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 67679,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Türkiye Garantili",
+          "Orijinal Kutu & S Pen"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s11-ultra-5g-2.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s11-ultra-5g-2-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 68017,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat",
+          "Samsung Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s11-ultra-5g-2.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s11-ultra-5g-2-offer-3",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 68356,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s11-ultra-5g-2.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s11-ultra-5g-2-offer-4",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 68694,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s11-ultra-5g-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 71740,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 69709,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 67679,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-s11-ultra-5g",
+    "slug": "samsung-galaxy-tab-s11-ultra-5g",
+    "name": "Samsung Galaxy Tab S11 Ultra 5G 12 GB / 256 GB / 5G",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 59405,
+    "currency": "TL",
+    "rating": 4,
+    "reviewCount": 87,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/samsung-galaxy-tab-s11-ultra-5g-1.jpg",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-s11-ultra-5g-1.jpg"
+    ],
+    "highlights": [
+      "14.6\" Dynamic AMOLED 2X 120Hz Ekran",
+      "MediaTek Dimensity 9400+ Amiral Gemisi İşlemci",
+      "256 GB UFS Depolama • 12 GB RAM",
+      "5G Hücresel + Wi-Fi 7 & Dahili S Pen"
+    ],
+    "specs": {
+      "screenSizeInches": 14.6,
+      "screenResolution": "2960 x 1848",
+      "panelType": "Dynamic AMOLED 2X",
+      "refreshRateHz": 120,
+      "processor": "MediaTek Dimensity 9400+",
+      "ramGb": 12,
+      "storageGb": 256,
+      "batteryMah": 11600,
+      "rearCameraMp": "13 MP + 8 MP",
+      "frontCameraMp": "12 MP + 12 MP",
+      "weightGrams": 732,
+      "os": "Android 15 (One UI 7.0)",
+      "cellularSupport": "5G (Nano-SIM + eSIM)",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-s11-ultra-5g-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 59405,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Türkiye Garantili",
+          "Orijinal Kutu & S Pen"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s11-ultra-5g.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s11-ultra-5g-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 59702,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat",
+          "Samsung Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s11-ultra-5g.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s11-ultra-5g-offer-3",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 59999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s11-ultra-5g.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s11-ultra-5g-offer-4",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 60296,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s11-ultra-5g.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 62969,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 61187,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 59405,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-s11-ultra-512gb",
+    "slug": "samsung-galaxy-tab-s11-ultra-512gb",
+    "name": "Samsung Galaxy Tab S11 Ultra Wi-Fi 12 GB / 512 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 58200,
+    "currency": "TL",
+    "rating": 4,
+    "reviewCount": 124,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/samsung-galaxy-tab-s11-ultra-512gb-1.jpg",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-s11-ultra-512gb-1.jpg"
+    ],
+    "highlights": [
+      "14.6\" Dynamic AMOLED 2X 120Hz Ekran",
+      "MediaTek Dimensity 9400+ Amiral Gemisi İşlemci",
+      "512 GB UFS Depolama • 12 GB RAM",
+      "Wi-Fi 7 & Dahili S Pen Kalem Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 14.6,
+      "screenResolution": "2960 x 1848",
+      "panelType": "Dynamic AMOLED 2X",
+      "refreshRateHz": 120,
+      "processor": "MediaTek Dimensity 9400+",
+      "ramGb": 12,
+      "storageGb": 512,
+      "batteryMah": 11600,
+      "rearCameraMp": "13 MP + 8 MP",
+      "frontCameraMp": "12 MP + 12 MP",
+      "weightGrams": 732,
+      "os": "Android 15 (One UI 7.0)",
+      "cellularSupport": "Wi-Fi Only (Wi-Fi 7)",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-s11-ultra-512gb-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 58200,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Türkiye Garantili",
+          "Orijinal Kutu & S Pen"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s11-ultra-512gb.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s11-ultra-512gb-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 58491,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat",
+          "Samsung Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s11-ultra-512gb.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s11-ultra-512gb-offer-3",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 58782,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s11-ultra-512gb.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s11-ultra-512gb-offer-4",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 59073,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s11-ultra-512gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 61692,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 59946,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 58200,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-s11-ultra-2",
+    "slug": "samsung-galaxy-tab-s11-ultra-2",
+    "name": "Samsung Galaxy Tab S11 Ultra Wi-Fi 12 GB / 256 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 51999,
+    "currency": "TL",
+    "rating": 4,
+    "reviewCount": 49,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/samsung-galaxy-tab-s11-ultra-2-1.jpg",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-s11-ultra-2-1.jpg"
+    ],
+    "highlights": [
+      "14.6\" Dynamic AMOLED 2X 120Hz Ekran",
+      "MediaTek Dimensity 9400+ Amiral Gemisi İşlemci",
+      "256 GB UFS Depolama • 12 GB RAM",
+      "Wi-Fi 7 & Dahili S Pen Kalem Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 14.6,
+      "screenResolution": "2960 x 1848",
+      "panelType": "Dynamic AMOLED 2X",
+      "refreshRateHz": 120,
+      "processor": "MediaTek Dimensity 9400+",
+      "ramGb": 12,
+      "storageGb": 256,
+      "batteryMah": 11600,
+      "rearCameraMp": "13 MP + 8 MP",
+      "frontCameraMp": "12 MP + 12 MP",
+      "weightGrams": 732,
+      "os": "Android 15 (One UI 7.0)",
+      "cellularSupport": "Wi-Fi Only (Wi-Fi 7)",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-s11-ultra-2-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 51999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Türkiye Garantili",
+          "Orijinal Kutu & S Pen"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s11-ultra-2.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s11-ultra-2-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 52259,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat",
+          "Samsung Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s11-ultra-2.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s11-ultra-2-offer-3",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 52519,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s11-ultra-2.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s11-ultra-2-offer-4",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 52779,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s11-ultra-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 55119,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 53559,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 51999,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
     "id": "lenovo-yoga-tablet-10-3g",
     "slug": "lenovo-yoga-tablet-10-3g",
     "name": "Lenovo Yoga Tablet 10 3G",
