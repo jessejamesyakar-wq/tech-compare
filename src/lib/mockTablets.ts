@@ -2,6 +2,630 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "lenovo-tab-m10-hd-2-nesil-tb-x306f",
+    "slug": "lenovo-tab-m10-hd-2-nesil-tb-x306f",
+    "name": "Lenovo Tab M10 HD (2.Nesil) TB-X306F 3 GB / 32 GB (ZA6W0241TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 26253,
+    "currency": "TL",
+    "rating": 1.7,
+    "reviewCount": 170,
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/lenovo-tab-m10-hd-2-nesil-tb-x306f-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-tab-m10-hd-2-nesil-tb-x306f-1.jpg"
+    ],
+    "highlights": [
+      "10.1\" HD IPS LCD (TDDI) Ekran",
+      "MediaTek Helio P22T İşlemci",
+      "32 GB Dahili Depolama • 3 GB RAM",
+      "Çift Bant Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "HD IPS LCD (TDDI)",
+      "refreshRateHz": 60,
+      "processor": "MediaTek Helio P22T",
+      "ramGb": 3,
+      "storageGb": 32,
+      "batteryMah": 5000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 420,
+      "os": "Android 10 (Android 11 Güncellenebilir)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-tab-m10-hd-2-nesil-tb-x306f-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 26253,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1900,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-hd-2-nesil-tb-x306f.html"
+      },
+      {
+        "id": "lenovo-tab-m10-hd-2-nesil-tb-x306f-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 26516,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-hd-2-nesil-tb-x306f.html"
+      },
+      {
+        "id": "lenovo-tab-m10-hd-2-nesil-tb-x306f-offer-3",
+        "storeName": "N11",
+        "storeLogoColor": "#5344a8",
+        "price": 26778,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı",
+          "Güvenli Ödeme"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-hd-2-nesil-tb-x306f.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 27303,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 26778,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 26253,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-tab-m10-hd-2-nesil-tb-x306f-za6w0008tr",
+    "slug": "lenovo-tab-m10-hd-2-nesil-tb-x306f-za6w0008tr",
+    "name": "Lenovo Tab M10 HD (2.Nesil) TB-X306F 2 GB / 32 GB (ZA6W0008TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 10621,
+    "currency": "TL",
+    "rating": 1.6,
+    "reviewCount": 168,
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/lenovo-tab-m10-hd-2-nesil-tb-x306f-za6w0008tr-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-tab-m10-hd-2-nesil-tb-x306f-za6w0008tr-1.jpg"
+    ],
+    "highlights": [
+      "10.1\" HD IPS LCD (TDDI) Ekran",
+      "MediaTek Helio P22T İşlemci",
+      "32 GB Dahili Depolama • 2 GB RAM",
+      "Çift Bant Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "HD IPS LCD (TDDI)",
+      "refreshRateHz": 60,
+      "processor": "MediaTek Helio P22T",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 5000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 420,
+      "os": "Android 10 (Android 11 Güncellenebilir)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-tab-m10-hd-2-nesil-tb-x306f-za6w0008tr-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 10621,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1900,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-hd-2-nesil-tb-x306f-za6w0008tr.html"
+      },
+      {
+        "id": "lenovo-tab-m10-hd-2-nesil-tb-x306f-za6w0008tr-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 10727,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-hd-2-nesil-tb-x306f-za6w0008tr.html"
+      },
+      {
+        "id": "lenovo-tab-m10-hd-2-nesil-tb-x306f-za6w0008tr-offer-3",
+        "storeName": "N11",
+        "storeLogoColor": "#5344a8",
+        "price": 10833,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı",
+          "Güvenli Ödeme"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-hd-2-nesil-tb-x306f-za6w0008tr.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 11046,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 10833,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 10621,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-tab-m10",
+    "slug": "lenovo-tab-m10",
+    "name": "Lenovo Tab M10 TB-X505F 32 GB (ZA4G0072TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 7519,
+    "currency": "TL",
+    "rating": 1.6,
+    "reviewCount": 214,
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/lenovo-tab-m10-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-tab-m10-1.jpg"
+    ],
+    "highlights": [
+      "10.1\" HD IPS LCD Ekran",
+      "Qualcomm Snapdragon 429 İşlemci",
+      "32 GB Dahili Depolama • 2 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "HD IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon 429",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 4850,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 480,
+      "os": "Android 9.0 (Pie)",
+      "cellularSupport": "4G LTE + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-tab-m10-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 7519,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1900,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10.html"
+      },
+      {
+        "id": "lenovo-tab-m10-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 7594,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10.html"
+      },
+      {
+        "id": "lenovo-tab-m10-offer-3",
+        "storeName": "N11",
+        "storeLogoColor": "#5344a8",
+        "price": 7669,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı",
+          "Güvenli Ödeme"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 7820,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 7669,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7519,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-tab-m10-tb-x505f",
+    "slug": "lenovo-tab-m10-tb-x505f",
+    "name": "Lenovo Tab M10 TB-X505F 16 GB (ZA4G0053TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 17640,
+    "currency": "TL",
+    "rating": 1.6,
+    "reviewCount": 170,
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/lenovo-tab-m10-tb-x505f-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-tab-m10-tb-x505f-1.jpg"
+    ],
+    "highlights": [
+      "10.1\" HD IPS LCD Ekran",
+      "Qualcomm Snapdragon 429 İşlemci",
+      "16 GB Dahili Depolama • 2 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "HD IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon 429",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 4850,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 480,
+      "os": "Android 9.0 (Pie)",
+      "cellularSupport": "4G LTE + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-tab-m10-tb-x505f-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 17640,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1900,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-tb-x505f.html"
+      },
+      {
+        "id": "lenovo-tab-m10-tb-x505f-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 17816,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-tb-x505f.html"
+      },
+      {
+        "id": "lenovo-tab-m10-tb-x505f-offer-3",
+        "storeName": "N11",
+        "storeLogoColor": "#5344a8",
+        "price": 17993,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı",
+          "Güvenli Ödeme"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-tb-x505f.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 18346,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 17993,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 17640,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-tab-m8-hd-2-nesil-tb-8505f",
+    "slug": "lenovo-tab-m8-hd-2-nesil-tb-8505f",
+    "name": "Lenovo Tab M8 HD (2.Nesil) TB-8505F 3 GB (ZA5G0185TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 1.5,
+    "reviewCount": 102,
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/lenovo-tab-m8-hd-2-nesil-tb-8505f-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-tab-m8-hd-2-nesil-tb-8505f-1.jpg"
+    ],
+    "highlights": [
+      "8\" HD IPS LCD Ekran",
+      "MediaTek Helio A22 İşlemci",
+      "32 GB Dahili Depolama • 3 GB RAM",
+      "Çift Bant Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "HD IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek Helio A22",
+      "ramGb": 3,
+      "storageGb": 32,
+      "batteryMah": 5000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 305,
+      "os": "Android 9.0 (Pie)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-tab-m8-hd-2-nesil-tb-8505f-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1900,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m8-hd-2-nesil-tb-8505f.html"
+      },
+      {
+        "id": "lenovo-tab-m8-hd-2-nesil-tb-8505f-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 15149,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m8-hd-2-nesil-tb-8505f.html"
+      },
+      {
+        "id": "lenovo-tab-m8-hd-2-nesil-tb-8505f-offer-3",
+        "storeName": "N11",
+        "storeLogoColor": "#5344a8",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı",
+          "Güvenli Ödeme"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m8-hd-2-nesil-tb-8505f.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 15599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-tab-m8-tb-8505f",
+    "slug": "lenovo-tab-m8-tb-8505f",
+    "name": "Lenovo TAB M8 HD (2.Nesil) TB-8505F 2 GB (ZA5G0100TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 8275,
+    "currency": "TL",
+    "rating": 1.5,
+    "reviewCount": 148,
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/lenovo-tab-m8-tb-8505f-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-tab-m8-tb-8505f-1.jpg"
+    ],
+    "highlights": [
+      "8\" HD IPS LCD Ekran",
+      "MediaTek Helio A22 İşlemci",
+      "32 GB Dahili Depolama • 2 GB RAM",
+      "Çift Bant Wi-Fi & Bluetooth"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "HD IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek Helio A22",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 5000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 305,
+      "os": "Android 9.0 (Pie)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-tab-m8-tb-8505f-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 8275,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1900,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m8-tb-8505f.html"
+      },
+      {
+        "id": "lenovo-tab-m8-tb-8505f-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 8358,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 2200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m8-tb-8505f.html"
+      },
+      {
+        "id": "lenovo-tab-m8-tb-8505f-offer-3",
+        "storeName": "N11",
+        "storeLogoColor": "#5344a8",
+        "price": 8441,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kupon Fırsatı",
+          "Güvenli Ödeme"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m8-tb-8505f.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 8606,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 8441,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8275,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "lenovo-yoga-tab-11",
     "slug": "lenovo-yoga-tab-11",
     "name": "Lenovo Yoga Tab 11 YT-J706F (ZA8W0004TR)",
