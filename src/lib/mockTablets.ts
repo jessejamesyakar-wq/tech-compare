@@ -2,6 +2,942 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "apple-ipad-pro-11-1-tb-wi-fi-mtxv2tu-a",
+    "slug": "apple-ipad-pro-11-1-tb-wi-fi-mtxv2tu-a",
+    "name": "Apple iPad Pro 3 11 6 GB / 1024 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 34999,
+    "currency": "TL",
+    "rating": 3.3,
+    "reviewCount": 217,
+    "releaseYear": 2018,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-pro-11-1-tb-wi-fi-mtxv2tu-a-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-11-1-tb-wi-fi-mtxv2tu-a-1.jpg"
+    ],
+    "highlights": [
+      "11\" Liquid Retina IPS 120Hz Ekran",
+      "Apple A12X Bionic Çip",
+      "1 TB Dahili Depolama • 6 GB RAM",
+      "Wi-Fi Yüksek Hızlı Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "2388 x 1668",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 120,
+      "processor": "Apple A12X Bionic",
+      "ramGb": 6,
+      "storageGb": 1024,
+      "batteryMah": 7812,
+      "rearCameraMp": "12 MP",
+      "frontCameraMp": "7 MP TrueDepth",
+      "weightGrams": 468,
+      "os": "iPadOS 17",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-11-1-tb-wi-fi-mtxv2tu-a-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-1-tb-wi-fi-mtxv2tu-a.html"
+      },
+      {
+        "id": "apple-ipad-pro-11-1-tb-wi-fi-mtxv2tu-a-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 34649,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-1-tb-wi-fi-mtxv2tu-a.html"
+      },
+      {
+        "id": "apple-ipad-pro-11-1-tb-wi-fi-mtxv2tu-a-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-1-tb-wi-fi-mtxv2tu-a.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 36749,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 35699,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 34999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-air-4-256gb-wi-fi-plus-cellular-yesil",
+    "slug": "apple-ipad-air-4-256gb-wi-fi-plus-cellular-yesil",
+    "name": "Apple iPad Air 4 256GB Wi-Fi + Cellular 256 GB / 4G (MYH72TU/A)",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 27999,
+    "currency": "TL",
+    "rating": 3.3,
+    "reviewCount": 190,
+    "releaseYear": 2020,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-air-4-256gb-wi-fi-plus-cellular-yesil-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-air-4-256gb-wi-fi-plus-cellular-yesil-1.jpg"
+    ],
+    "highlights": [
+      "10.9\" Liquid Retina IPS 60Hz Ekran",
+      "Apple A14 Bionic Çip",
+      "256 GB Dahili Depolama • 4 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 10.9,
+      "screenResolution": "2360 x 1640",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple A14 Bionic",
+      "ramGb": 4,
+      "storageGb": 256,
+      "batteryMah": 7606,
+      "rearCameraMp": "12 MP",
+      "frontCameraMp": "1.2 MP FaceTime HD",
+      "weightGrams": 458,
+      "os": "iPadOS 17",
+      "cellularSupport": "4G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-air-4-256gb-wi-fi-plus-cellular-yesil-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 27999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-4-256gb-wi-fi-plus-cellular-yesil.html"
+      },
+      {
+        "id": "apple-ipad-air-4-256gb-wi-fi-plus-cellular-yesil-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 27719,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-4-256gb-wi-fi-plus-cellular-yesil.html"
+      },
+      {
+        "id": "apple-ipad-air-4-256gb-wi-fi-plus-cellular-yesil-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 27999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-air-4-256gb-wi-fi-plus-cellular-yesil.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 29399,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 28559,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 27999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-11-512-gb-wi-fi-plus-cellular-mu1f2tu-a",
+    "slug": "apple-ipad-pro-11-512-gb-wi-fi-plus-cellular-mu1f2tu-a",
+    "name": "Apple iPad Pro 3 11 4 GB / 512 GB / 4G",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 32999,
+    "currency": "TL",
+    "rating": 3.3,
+    "reviewCount": 356,
+    "releaseYear": 2018,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-pro-11-512-gb-wi-fi-plus-cellular-mu1f2tu-a-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-11-512-gb-wi-fi-plus-cellular-mu1f2tu-a-1.jpg"
+    ],
+    "highlights": [
+      "11\" Liquid Retina IPS 120Hz Ekran",
+      "Apple A12X Bionic Çip",
+      "512 GB Dahili Depolama • 4 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "2388 x 1668",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 120,
+      "processor": "Apple A12X Bionic",
+      "ramGb": 4,
+      "storageGb": 512,
+      "batteryMah": 7812,
+      "rearCameraMp": "12 MP",
+      "frontCameraMp": "7 MP TrueDepth",
+      "weightGrams": 468,
+      "os": "iPadOS 17",
+      "cellularSupport": "4G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-11-512-gb-wi-fi-plus-cellular-mu1f2tu-a-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 32999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-512-gb-wi-fi-plus-cellular-mu1f2tu-a.html"
+      },
+      {
+        "id": "apple-ipad-pro-11-512-gb-wi-fi-plus-cellular-mu1f2tu-a-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 32669,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-512-gb-wi-fi-plus-cellular-mu1f2tu-a.html"
+      },
+      {
+        "id": "apple-ipad-pro-11-512-gb-wi-fi-plus-cellular-mu1f2tu-a-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 32999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-512-gb-wi-fi-plus-cellular-mu1f2tu-a.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 34649,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 33659,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 32999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-12-9-512-gb-wi-fi-mtfp2tu",
+    "slug": "apple-ipad-pro-12-9-512-gb-wi-fi-mtfp2tu",
+    "name": "Apple iPad Pro 3 12.9 4 GB / 512 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 35999,
+    "currency": "TL",
+    "rating": 3.3,
+    "reviewCount": 306,
+    "releaseYear": 2018,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-pro-12-9-512-gb-wi-fi-mtfp2tu-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-12-9-512-gb-wi-fi-mtfp2tu-1.jpg"
+    ],
+    "highlights": [
+      "12.9\" Liquid Retina IPS 120Hz Ekran",
+      "Apple A12X Bionic Çip",
+      "512 GB Dahili Depolama • 4 GB RAM",
+      "Wi-Fi Yüksek Hızlı Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 12.9,
+      "screenResolution": "2732 x 2048",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 120,
+      "processor": "Apple A12X Bionic",
+      "ramGb": 4,
+      "storageGb": 512,
+      "batteryMah": 9720,
+      "rearCameraMp": "12 MP",
+      "frontCameraMp": "7 MP TrueDepth",
+      "weightGrams": 631,
+      "os": "iPadOS 17",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-12-9-512-gb-wi-fi-mtfp2tu-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 35999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-12-9-512-gb-wi-fi-mtfp2tu.html"
+      },
+      {
+        "id": "apple-ipad-pro-12-9-512-gb-wi-fi-mtfp2tu-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 35639,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-12-9-512-gb-wi-fi-mtfp2tu.html"
+      },
+      {
+        "id": "apple-ipad-pro-12-9-512-gb-wi-fi-mtfp2tu-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 35999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-12-9-512-gb-wi-fi-mtfp2tu.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 37799,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 36719,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 35999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-11-256gb-wi-fi-plus-cellular-mxex2ll-a",
+    "slug": "apple-ipad-pro-11-256gb-wi-fi-plus-cellular-mxex2ll-a",
+    "name": "Apple iPad Pro 11 256 GB / 4G (MXE52TU/A)",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 37999,
+    "currency": "TL",
+    "rating": 3.3,
+    "reviewCount": 200,
+    "releaseYear": 2020,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-pro-11-256gb-wi-fi-plus-cellular-mxex2ll-a-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-11-256gb-wi-fi-plus-cellular-mxex2ll-a-1.jpg"
+    ],
+    "highlights": [
+      "11\" Liquid Retina IPS 120Hz Ekran",
+      "Apple A12Z Bionic Çip",
+      "256 GB Dahili Depolama • 6 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "2388 x 1668",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 120,
+      "processor": "Apple A12Z Bionic",
+      "ramGb": 6,
+      "storageGb": 256,
+      "batteryMah": 7812,
+      "rearCameraMp": "12 MP + 10 MP Ultra Geniş (LiDAR)",
+      "frontCameraMp": "7 MP TrueDepth",
+      "weightGrams": 468,
+      "os": "iPadOS 17",
+      "cellularSupport": "4G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-11-256gb-wi-fi-plus-cellular-mxex2ll-a-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 37999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-256gb-wi-fi-plus-cellular-mxex2ll-a.html"
+      },
+      {
+        "id": "apple-ipad-pro-11-256gb-wi-fi-plus-cellular-mxex2ll-a-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 37619,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-256gb-wi-fi-plus-cellular-mxex2ll-a.html"
+      },
+      {
+        "id": "apple-ipad-pro-11-256gb-wi-fi-plus-cellular-mxex2ll-a-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 37999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-256gb-wi-fi-plus-cellular-mxex2ll-a.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 39899,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 38759,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 37999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-wi-fi-cellular-256gb",
+    "slug": "apple-ipad-pro-wi-fi-cellular-256gb",
+    "name": "Apple iPad Pro 12.9 256 GB / 4G",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 18999,
+    "currency": "TL",
+    "rating": 3.3,
+    "reviewCount": 247,
+    "releaseYear": 2015,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/apple-ipad-pro-wi-fi-cellular-256gb-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-wi-fi-cellular-256gb-1.jpg"
+    ],
+    "highlights": [
+      "12.9\" Liquid Retina IPS 120Hz Ekran",
+      "Apple A9X Çip",
+      "256 GB Dahili Depolama • 4 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 12.9,
+      "screenResolution": "2732 x 2048",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 120,
+      "processor": "Apple A9X",
+      "ramGb": 4,
+      "storageGb": 256,
+      "batteryMah": 9720,
+      "rearCameraMp": "12 MP",
+      "frontCameraMp": "7 MP TrueDepth",
+      "weightGrams": 631,
+      "os": "iOS 16",
+      "cellularSupport": "4G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-wi-fi-cellular-256gb-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-wi-fi-cellular-256gb.html"
+      },
+      {
+        "id": "apple-ipad-pro-wi-fi-cellular-256gb-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 18809,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-wi-fi-cellular-256gb.html"
+      },
+      {
+        "id": "apple-ipad-pro-wi-fi-cellular-256gb-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-wi-fi-cellular-256gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 19949,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 19379,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-11-256-gb-wi-fi-plus-cellular-mu102tu-a",
+    "slug": "apple-ipad-pro-11-256-gb-wi-fi-plus-cellular-mu102tu-a",
+    "name": "Apple iPad Pro 3 11 4 GB / 256 GB / 4G",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 29999,
+    "currency": "TL",
+    "rating": 3.2,
+    "reviewCount": 335,
+    "releaseYear": 2018,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-pro-11-256-gb-wi-fi-plus-cellular-mu102tu-a-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-11-256-gb-wi-fi-plus-cellular-mu102tu-a-1.jpg"
+    ],
+    "highlights": [
+      "11\" Liquid Retina IPS 120Hz Ekran",
+      "Apple A12X Bionic Çip",
+      "256 GB Dahili Depolama • 4 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "2388 x 1668",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 120,
+      "processor": "Apple A12X Bionic",
+      "ramGb": 4,
+      "storageGb": 256,
+      "batteryMah": 7812,
+      "rearCameraMp": "12 MP",
+      "frontCameraMp": "7 MP TrueDepth",
+      "weightGrams": 468,
+      "os": "iPadOS 17",
+      "cellularSupport": "4G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-11-256-gb-wi-fi-plus-cellular-mu102tu-a-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 29999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-256-gb-wi-fi-plus-cellular-mu102tu-a.html"
+      },
+      {
+        "id": "apple-ipad-pro-11-256-gb-wi-fi-plus-cellular-mu102tu-a-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 29699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-256-gb-wi-fi-plus-cellular-mu102tu-a.html"
+      },
+      {
+        "id": "apple-ipad-pro-11-256-gb-wi-fi-plus-cellular-mu102tu-a-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 29999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-11-256-gb-wi-fi-plus-cellular-mu102tu-a.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 31499,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 30599,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 29999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-9-7-2018-wi-fi-cellular-128gb",
+    "slug": "apple-ipad-9-7-2018-wi-fi-cellular-128gb",
+    "name": "Apple iPad 6 128 GB / 4G",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 11999,
+    "currency": "TL",
+    "rating": 3.2,
+    "reviewCount": 173,
+    "releaseYear": 2018,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-9-7-2018-wi-fi-cellular-128gb-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-9-7-2018-wi-fi-cellular-128gb-1.jpg"
+    ],
+    "highlights": [
+      "9.7\" Retina IPS 60Hz Ekran",
+      "Apple A10 Fusion Çip",
+      "128 GB Dahili Depolama • 2 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 9.7,
+      "screenResolution": "2048 x 1536",
+      "panelType": "Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Apple A10 Fusion",
+      "ramGb": 2,
+      "storageGb": 128,
+      "batteryMah": 3240,
+      "rearCameraMp": "12 MP",
+      "frontCameraMp": "1.2 MP FaceTime HD",
+      "weightGrams": 469,
+      "os": "iPadOS 17",
+      "cellularSupport": "4G + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-9-7-2018-wi-fi-cellular-128gb-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-9-7-2018-wi-fi-cellular-128gb.html"
+      },
+      {
+        "id": "apple-ipad-9-7-2018-wi-fi-cellular-128gb-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 11879,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-9-7-2018-wi-fi-cellular-128gb.html"
+      },
+      {
+        "id": "apple-ipad-9-7-2018-wi-fi-cellular-128gb-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-9-7-2018-wi-fi-cellular-128gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 12599,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 12239,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-12-9-64-gb-wi-fi-mtel2tu-a",
+    "slug": "apple-ipad-pro-12-9-64-gb-wi-fi-mtel2tu-a",
+    "name": "Apple iPad Pro 3 12.9\" (MTEL2TU/A) 4 GB / 64 GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "basePrice": 28999,
+    "currency": "TL",
+    "rating": 3.2,
+    "reviewCount": 311,
+    "releaseYear": 2018,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/apple-ipad-pro-12-9-64-gb-wi-fi-mtel2tu-a-1.jpg",
+    "images": [
+      "/images/products/tablets/apple-ipad-pro-12-9-64-gb-wi-fi-mtel2tu-a-1.jpg"
+    ],
+    "highlights": [
+      "12.9\" Liquid Retina IPS 120Hz Ekran",
+      "Apple A12X Bionic Çip",
+      "64 GB Dahili Depolama • 4 GB RAM",
+      "Wi-Fi Yüksek Hızlı Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 12.9,
+      "screenResolution": "2732 x 2048",
+      "panelType": "Liquid Retina IPS",
+      "refreshRateHz": 120,
+      "processor": "Apple A12X Bionic",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 9720,
+      "rearCameraMp": "12 MP",
+      "frontCameraMp": "7 MP TrueDepth",
+      "weightGrams": 631,
+      "os": "iPadOS 17",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "apple-ipad-pro-12-9-64-gb-wi-fi-mtel2tu-a-offer-1",
+        "storeName": "Apple Store Türkiye",
+        "storeLogoColor": "#000000",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Apple Türkiye Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-12-9-64-gb-wi-fi-mtel2tu-a.html"
+      },
+      {
+        "id": "apple-ipad-pro-12-9-64-gb-wi-fi-mtel2tu-a-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 28709,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hepsiburada Güvencesi",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-12-9-64-gb-wi-fi-mtel2tu-a.html"
+      },
+      {
+        "id": "apple-ipad-pro-12-9-64-gb-wi-fi-mtel2tu-a-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "MediaMarkt Güvencesi",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tablet/apple-ipad-pro-12-9-64-gb-wi-fi-mtel2tu-a.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 30449,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 29579,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 28999,
+        "store": "Apple Store"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-air-5-wi-fi-plus-cellular-2",
     "slug": "apple-ipad-air-5-wi-fi-plus-cellular-2",
     "name": "Apple iPad Air 5 Wi-Fi + Cellular 256 GB (MM733TU/A)",
