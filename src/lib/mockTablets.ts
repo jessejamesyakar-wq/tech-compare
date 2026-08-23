@@ -2,6 +2,734 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "lenovo-tab-2-a10-30l",
+    "slug": "lenovo-tab-2-a10-30l",
+    "name": "Lenovo Tab 2 A10-30L 4G",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 3999,
+    "currency": "TL",
+    "rating": 2.1,
+    "reviewCount": 171,
+    "releaseYear": 2015,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/lenovo-tab-2-a10-30l-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-tab-2-a10-30l-1.jpg"
+    ],
+    "highlights": [
+      "10.1\" HD IPS LCD Ekran",
+      "Qualcomm Snapdragon 210 MSM8909 İşlemci",
+      "16 GB Dahili Depolama • 2 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "HD IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon 210 MSM8909",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 7000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 525,
+      "os": "Android 7.0 / 8.1 / 9.0",
+      "cellularSupport": "4G LTE + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-tab-2-a10-30l-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 3999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1900,
+        "url": "https://www.epey.com/tablet/lenovo-tab-2-a10-30l.html"
+      },
+      {
+        "id": "lenovo-tab-2-a10-30l-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 4039,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1550,
+        "url": "https://www.epey.com/tablet/lenovo-tab-2-a10-30l.html"
+      },
+      {
+        "id": "lenovo-tab-2-a10-30l-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 4079,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-2-a10-30l.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 4199,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 4079,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-yoga-tab-3-pro-10",
+    "slug": "lenovo-yoga-tab-3-pro-10",
+    "name": "Lenovo Yoga Tab 3 Pro 2 GB / 16 GB",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 2.1,
+    "reviewCount": 118,
+    "releaseYear": 2015,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/lenovo-yoga-tab-3-pro-10-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-yoga-tab-3-pro-10-1.jpg"
+    ],
+    "highlights": [
+      "10.1\" QHD IPS LCD (Dahili Projeksiyon) Ekran",
+      "Intel Atom x5-Z8500 İşlemci",
+      "16 GB Dahili Depolama • 2 GB RAM",
+      "Wi-Fi & Bluetooth Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "2560 x 1600",
+      "panelType": "QHD IPS LCD (Dahili Projeksiyon)",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom x5-Z8500",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 10200,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 665,
+      "os": "Android 7.0 / 8.1 / 9.0",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-yoga-tab-3-pro-10-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1900,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-tab-3-pro-10.html"
+      },
+      {
+        "id": "lenovo-yoga-tab-3-pro-10-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 15149,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1550,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-tab-3-pro-10.html"
+      },
+      {
+        "id": "lenovo-yoga-tab-3-pro-10-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 15299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/tablet/lenovo-yoga-tab-3-pro-10.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 15749,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-tab-m10-tb-x605lc-lte",
+    "slug": "lenovo-tab-m10-tb-x605lc-lte",
+    "name": "Lenovo TAB M10 TB-X605LC LTE 3 GB / 32 GB / 4G (ZA500072TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 5499,
+    "currency": "TL",
+    "rating": 2.1,
+    "reviewCount": 136,
+    "releaseYear": 2019,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/lenovo-tab-m10-tb-x605lc-lte-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-tab-m10-tb-x605lc-lte-1.jpg"
+    ],
+    "highlights": [
+      "10.1\" FHD IPS LCD Ekran",
+      "Qualcomm Snapdragon 450 İşlemci",
+      "32 GB Dahili Depolama • 3 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1920 x 1200",
+      "panelType": "FHD IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon 450",
+      "ramGb": 3,
+      "storageGb": 32,
+      "batteryMah": 4850,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 480,
+      "os": "Android 7.0 / 8.1 / 9.0",
+      "cellularSupport": "4G LTE + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-tab-m10-tb-x605lc-lte-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 5499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1900,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-tb-x605lc-lte.html"
+      },
+      {
+        "id": "lenovo-tab-m10-tb-x605lc-lte-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 5554,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1550,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-tb-x605lc-lte.html"
+      },
+      {
+        "id": "lenovo-tab-m10-tb-x605lc-lte-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 5609,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-tb-x605lc-lte.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 5774,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 5609,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-tab4-8-plus",
+    "slug": "lenovo-tab4-8-plus",
+    "name": "Lenovo Tab 4 8 Plus",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 4999,
+    "currency": "TL",
+    "rating": 2,
+    "reviewCount": 127,
+    "releaseYear": 2017,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/lenovo-tab4-8-plus-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-tab4-8-plus-1.jpg"
+    ],
+    "highlights": [
+      "8\" FHD IPS LCD Ekran",
+      "Qualcomm Snapdragon 625 İşlemci",
+      "64 GB Dahili Depolama • 4 GB RAM",
+      "Wi-Fi & Bluetooth Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1920 x 1200",
+      "panelType": "FHD IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon 625",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 4850,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 310,
+      "os": "Android 7.0 / 8.1 / 9.0",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-tab4-8-plus-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1900,
+        "url": "https://www.epey.com/tablet/lenovo-tab4-8-plus.html"
+      },
+      {
+        "id": "lenovo-tab4-8-plus-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 5049,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1550,
+        "url": "https://www.epey.com/tablet/lenovo-tab4-8-plus.html"
+      },
+      {
+        "id": "lenovo-tab4-8-plus-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 5099,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/tablet/lenovo-tab4-8-plus.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 5249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 5099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-tab4-10",
+    "slug": "lenovo-tab4-10",
+    "name": "Lenovo Tab4 10 (ZA2J0013TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 4299,
+    "currency": "TL",
+    "rating": 2,
+    "reviewCount": 146,
+    "releaseYear": 2017,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/lenovo-tab4-10-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-tab4-10-1.jpg"
+    ],
+    "highlights": [
+      "10.1\" HD IPS LCD Ekran",
+      "Qualcomm Snapdragon 425 İşlemci",
+      "16 GB Dahili Depolama • 2 GB RAM",
+      "Wi-Fi & Bluetooth Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "HD IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon 425",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 7000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 505,
+      "os": "Android 7.0 / 8.1 / 9.0",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-tab4-10-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 4299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1900,
+        "url": "https://www.epey.com/tablet/lenovo-tab4-10.html"
+      },
+      {
+        "id": "lenovo-tab4-10-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 4342,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1550,
+        "url": "https://www.epey.com/tablet/lenovo-tab4-10.html"
+      },
+      {
+        "id": "lenovo-tab4-10-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 4385,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/tablet/lenovo-tab4-10.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 4514,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 4385,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4299,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-tab-m10-tb-x605fc",
+    "slug": "lenovo-tab-m10-tb-x605fc",
+    "name": "Lenovo Tab M10 TB-X605FC 3 GB / 32 GB (ZA4Y0053TR)",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 4799,
+    "currency": "TL",
+    "rating": 2,
+    "reviewCount": 83,
+    "releaseYear": 2019,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/lenovo-tab-m10-tb-x605fc-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-tab-m10-tb-x605fc-1.jpg"
+    ],
+    "highlights": [
+      "10.1\" FHD IPS LCD Ekran",
+      "Qualcomm Snapdragon 450 İşlemci",
+      "32 GB Dahili Depolama • 3 GB RAM",
+      "Wi-Fi & Bluetooth Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1920 x 1200",
+      "panelType": "FHD IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon 450",
+      "ramGb": 3,
+      "storageGb": 32,
+      "batteryMah": 4850,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 480,
+      "os": "Android 7.0 / 8.1 / 9.0",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-tab-m10-tb-x605fc-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 4799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1900,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-tb-x605fc.html"
+      },
+      {
+        "id": "lenovo-tab-m10-tb-x605fc-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 4847,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1550,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-tb-x605fc.html"
+      },
+      {
+        "id": "lenovo-tab-m10-tb-x605fc-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 4895,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-tb-x605fc.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 5039,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 4895,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4799,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lenovo-tab-m10-fhd-plus-lte-tb-x606x",
+    "slug": "lenovo-tab-m10-fhd-plus-lte-tb-x606x",
+    "name": "Lenovo Tab M10 FHD Plus LTE TB-X606X 64 GB LTE",
+    "brand": "Lenovo",
+    "category": "tablets",
+    "basePrice": 5999,
+    "currency": "TL",
+    "rating": 2,
+    "reviewCount": 144,
+    "releaseYear": 2020,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/lenovo-tab-m10-fhd-plus-lte-tb-x606x-1.jpg",
+    "images": [
+      "/images/products/tablets/lenovo-tab-m10-fhd-plus-lte-tb-x606x-1.jpg"
+    ],
+    "highlights": [
+      "10.3\" FHD TDDI IPS LCD Ekran",
+      "MediaTek Helio P22T (MT8768T) İşlemci",
+      "64 GB Dahili Depolama • 4 GB RAM",
+      "4G LTE & Wi-Fi Bağlantı"
+    ],
+    "specs": {
+      "screenSizeInches": 10.3,
+      "screenResolution": "1920 x 1200",
+      "panelType": "FHD TDDI IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek Helio P22T (MT8768T)",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 5000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 460,
+      "os": "Android 9.0 (Pie) / Android 10",
+      "cellularSupport": "4G LTE + Wi-Fi",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "lenovo-tab-m10-fhd-plus-lte-tb-x606x-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Lenovo Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1900,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-fhd-plus-lte-tb-x606x.html"
+      },
+      {
+        "id": "lenovo-tab-m10-fhd-plus-lte-tb-x606x-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 6059,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1550,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-fhd-plus-lte-tb-x606x.html"
+      },
+      {
+        "id": "lenovo-tab-m10-fhd-plus-lte-tb-x606x-offer-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 6119,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/tablet/lenovo-tab-m10-fhd-plus-lte-tb-x606x.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 6299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 6119,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "lenovo-tab-p11-pro-tb-j706f",
     "slug": "lenovo-tab-p11-pro-tb-j706f",
     "name": "Lenovo Tab P11 Pro (ZA7C0082SE)",
