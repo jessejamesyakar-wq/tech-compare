@@ -2,6 +2,1113 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "asus-memo-pad-hd-7",
+    "slug": "asus-memo-pad-hd-7",
+    "name": "Asus MeMO Pad HD 7 (ME173X) 8 GB",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 1999,
+    "currency": "TL",
+    "rating": 1.1,
+    "reviewCount": 35,
+    "releaseYear": 2013,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-memo-pad-hd-7-1.png",
+    "images": [
+      "/images/products/tablets/asus-memo-pad-hd-7-1.png"
+    ],
+    "highlights": [
+      "7.0\" HD (1280 x 800) IPS Ekran (216 PPI)",
+      "MediaTek MT8125 Dört Çekirdekli İşlemci",
+      "SonicMaster Stereo Ses Teknolojisi",
+      "302 gr Hafif ve Renkli Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1280 x 800 (HD)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8125 (1.2 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 3950,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 302,
+      "os": "Android 4.2 (Jelly Bean)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-memo-pad-hd-7-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 1999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "HD IPS Ekran",
+          "Kompakt"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 85,
+        "url": "https://www.epey.com/tablet/asus-memo-pad-hd-7.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 2299,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 2099,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "asus-transformer-pad-tf103c",
+    "slug": "asus-transformer-pad-tf103c",
+    "name": "Asus Transformer Pad (TF103C) 16 GB",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 2799,
+    "currency": "TL",
+    "rating": 1,
+    "reviewCount": 40,
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-transformer-pad-tf103c-1.jpg",
+    "images": [
+      "/images/products/tablets/asus-transformer-pad-tf103c-1.jpg"
+    ],
+    "highlights": [
+      "10.1\" WXGA (1280 x 800) IPS Ekran",
+      "Intel Atom Z3745 64-bit Dört Çekirdekli İşlemci",
+      "Çıkarılabilir Klavye Dock İstasyonu Uyumluluğu",
+      "5070 mAh Batarya & SonicMaster Çift Hoparlör"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800 (WXGA)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3745 (1.86 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 5070,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 550,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-transformer-pad-tf103c-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 2799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Intel 64-bit İşlemci",
+          "10.1\" Ekran"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 120,
+        "url": "https://www.epey.com/tablet/asus-transformer-pad-tf103c.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3199,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 2999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2799,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-fonepad-7-fe170cg",
+    "slug": "asus-fonepad-7-fe170cg",
+    "name": "ASUS Fonepad 7 (FE170CG) 8 GB",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 1899,
+    "currency": "TL",
+    "rating": 1,
+    "reviewCount": 30,
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-fonepad-7-fe170cg-1.png",
+    "images": [
+      "/images/products/tablets/asus-fonepad-7-fe170cg-1.png"
+    ],
+    "highlights": [
+      "7.0\" Kompakt Tablet & 3G Çift SIM Telefon Özelliği",
+      "Intel Atom Z2520 Çift Çekirdekli Hyper-Threading İşlemci",
+      "Sesli Görüşme ve SMS Desteği",
+      "3950 mAh Batarya & 10 Saate Varan Pil Ömrü"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600 (WSVGA)",
+      "panelType": "TN LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z2520 (1.2 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 3950,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 290,
+      "os": "Android 4.3 (Jelly Bean)",
+      "cellularSupport": "3G Çift SIM (Sesli Görüşme)",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-fonepad-7-offer-1",
+        "storeName": "N11",
+        "storeLogoColor": "#53298a",
+        "price": 1899,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Çift SIM 3G",
+          "Telefon Özellikli"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 95,
+        "url": "https://www.epey.com/tablet/asus-fonepad-7-fe170cg.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 2199,
+        "store": "N11"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 1999,
+        "store": "N11"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1899,
+        "store": "N11"
+      }
+    ]
+  },
+  {
+    "id": "asus-vivotab-note-8",
+    "slug": "asus-vivotab-note-8",
+    "name": "Asus VivoTab Note 8 (M80TA) 32 GB",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 3499,
+    "currency": "TL",
+    "rating": 1,
+    "reviewCount": 32,
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-vivotab-note-8-1.png",
+    "images": [
+      "/images/products/tablets/asus-vivotab-note-8-1.png"
+    ],
+    "highlights": [
+      "8.0\" WXGA IPS Ekran & Dahili Wacom Stylus Kalem",
+      "Tam Sürüm Windows 8.1 İşletim Sistemi",
+      "Intel Atom Z3740 Dört Çekirdekli İşlemci",
+      "380 gr Hafif Kasa & Microsoft Office Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800 (WXGA)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3740 (1.86 GHz)",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 3950,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "1.2 MP",
+      "weightGrams": 380,
+      "os": "Windows 8.1 32-bit",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "asus-vivotab-note-8-offer-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Windows Tablet PC",
+          "Wacom Kalem Dahil"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 140,
+        "url": "https://www.epey.com/tablet/asus-vivotab-note-8.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3699,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "asus-memo-pad-me172v",
+    "slug": "asus-memo-pad-me172v",
+    "name": "Asus MeMO Pad (ME172V) 16 GB",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 1499,
+    "currency": "TL",
+    "rating": 1,
+    "reviewCount": 22,
+    "releaseYear": 2013,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-memo-pad-me172v-1.png",
+    "images": [
+      "/images/products/tablets/asus-memo-pad-me172v-1.png"
+    ],
+    "highlights": [
+      "7.0\" WSVGA Kompakt Ekran",
+      "VIA WonderMedia WM8950 İşlemci",
+      "4270 mAh Uzun Ömürlü Batarya",
+      "SonicMaster Ses Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600 (WSVGA)",
+      "panelType": "TN LCD",
+      "refreshRateHz": 60,
+      "processor": "VIA WM8950 (1.0 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 4270,
+      "rearCameraMp": "Yok",
+      "frontCameraMp": "1 MP",
+      "weightGrams": 358,
+      "os": "Android 4.1 (Jelly Bean)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-memo-pad-me172v-offer-1",
+        "storeName": "PttAVM",
+        "storeLogoColor": "#ffcc00",
+        "price": 1499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "7\" Kompakt",
+          "16 GB"
+        ],
+        "sellerRating": 4.2,
+        "sellerReviews": 60,
+        "url": "https://www.epey.com/tablet/asus-memo-pad-me172v.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 1799,
+        "store": "PttAVM"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 1599,
+        "store": "PttAVM"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1499,
+        "store": "PttAVM"
+      }
+    ]
+  },
+  {
+    "id": "asus-zenpad-10-z300cg",
+    "slug": "asus-zenpad-10-z300cg",
+    "name": "Asus ZenPad 10 (Z300CG) 8 GB / 3G",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 2599,
+    "currency": "TL",
+    "rating": 1,
+    "reviewCount": 20,
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-zenpad-10-z300cg-1.png",
+    "images": [
+      "/images/products/tablets/asus-zenpad-10-z300cg-1.png"
+    ],
+    "highlights": [
+      "10.1\" WXGA IPS Geniş Ekran",
+      "3G SIM Kart Bağlantısı & Sesli Arama Desteği",
+      "Intel Atom x3-C3230 Dört Çekirdekli İşlemci",
+      "DTS-HD Premium Sound Ses Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800 (WXGA)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom x3-C3230 (1.2 GHz)",
+      "ramGb": 2,
+      "storageGb": 8,
+      "batteryMah": 4890,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 510,
+      "os": "Android 5.0 (Lollipop)",
+      "cellularSupport": "3G SIM Destekli (Sesli Arama)",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-zenpad-10-z300cg-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 2599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "3G SIM Kartlı",
+          "10.1\" Ekran"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 80,
+        "url": "https://www.epey.com/tablet/asus-zenpad-10-z300cg.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 2899,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 2699,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2599,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "asus-zenpad-8-0-z380c",
+    "slug": "asus-zenpad-8-0-z380c",
+    "name": "Asus ZenPad 8.0 (Z380C) 16 GB",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 2399,
+    "currency": "TL",
+    "rating": 0.9,
+    "reviewCount": 26,
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-zenpad-8-0-z380c-1.png",
+    "images": [
+      "/images/products/tablets/asus-zenpad-8-0-z380c-1.png"
+    ],
+    "highlights": [
+      "8.0\" WXGA IPS Tru2Life Ekran",
+      "Intel Atom x3-C3200 Dört Çekirdekli 64-bit İşlemci",
+      "DTS-HD Premium Sound & Değiştirilebilir Arka Kapaklar",
+      "350 gr Hafif ve Şık Kasa"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800 (WXGA)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom x3-C3200 (1.2 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 4000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 350,
+      "os": "Android 5.0 (Lollipop)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-zenpad-8-0-z380c-offer-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#ff6700",
+        "price": 2399,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "8.0\" IPS Ekran",
+          "2 GB RAM"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 90,
+        "url": "https://www.epey.com/tablet/asus-zenpad-8-0-z380c.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 2699,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 2499,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2399,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "asus-zenpad-c-7-0-z170c",
+    "slug": "asus-zenpad-c-7-0-z170c",
+    "name": "Asus ZenPad C 7.0 (Z170C) 8 GB",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 1799,
+    "currency": "TL",
+    "rating": 0.9,
+    "reviewCount": 30,
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-zenpad-c-7-0-z170c-1.png",
+    "images": [
+      "/images/products/tablets/asus-zenpad-c-7-0-z170c-1.png"
+    ],
+    "highlights": [
+      "7.0\" WSVGA IPS Tru2Life Canlı Ekran",
+      "Intel Atom x3-C3200 Dört Çekirdekli İşlemci",
+      "265 gr Ultra Hafif Deri Dokulu Gövde",
+      "DTS-HD Premium Sound Ön Hoparlör"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600 (WSVGA)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom x3-C3200 (1.2 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 3450,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 265,
+      "os": "Android 5.0 (Lollipop)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-zenpad-c-7-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 1799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "265 gr Hafif",
+          "IPS Ekran"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 110,
+        "url": "https://www.epey.com/tablet/asus-zenpad-c-7-0-z170c.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 2099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 1899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1799,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-memo-pad-7-16gb-me176c",
+    "slug": "asus-memo-pad-7-16gb-me176c",
+    "name": "Asus MeMO Pad 7 (ME176C) 16 GB",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 1999,
+    "currency": "TL",
+    "rating": 0.9,
+    "reviewCount": 28,
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-memo-pad-7-16gb-me176c-1.png",
+    "images": [
+      "/images/products/tablets/asus-memo-pad-7-16gb-me176c-1.png"
+    ],
+    "highlights": [
+      "7.0\" HD (1280 x 800) IPS Ekran",
+      "Intel Atom Z3745 64-bit 4 Çekirdekli Hızlı İşlemci",
+      "5 MP Arka / 2 MP Ön Kamera",
+      "295 gr Hafiflik & SonicMaster Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1280 x 800 (HD)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3745 (1.86 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 3910,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 295,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-memo-pad-7-16-offer-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 1999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HD IPS Ekran",
+          "Intel 64-bit"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 120,
+        "url": "https://www.epey.com/tablet/asus-memo-pad-7-16gb-me176c.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 2299,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 2099,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "asus-zenpad-7-0-z370cl",
+    "slug": "asus-zenpad-7-0-z370cl",
+    "name": "Asus ZenPad 7.0 (Z370CL) 8 GB / 4G",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 2199,
+    "currency": "TL",
+    "rating": 0.9,
+    "reviewCount": 22,
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-zenpad-7-0-z370cl-1.png",
+    "images": [
+      "/images/products/tablets/asus-zenpad-7-0-z370cl-1.png"
+    ],
+    "highlights": [
+      "7.0\" HD IPS Ekran (1280 x 800)",
+      "4G LTE SIM Kart Bağlantı Desteği",
+      "Intel Atom Z3560 Dört Çekirdekli İşlemci",
+      "DTS-HD Premium Sound Ses Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1280 x 800 (HD)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3560 (1.83 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 3450,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 272,
+      "os": "Android 5.0 (Lollipop)",
+      "cellularSupport": "4G LTE SIM Destekli",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-zenpad-7-z370cl-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 2199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "4G SIM Kartlı",
+          "HD IPS"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 70,
+        "url": "https://www.epey.com/tablet/asus-zenpad-7-0-z370cl.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 2499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 2299,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2199,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "asus-memo-pad-7-me176c",
+    "slug": "asus-memo-pad-7-me176c",
+    "name": "ASUS MeMO Pad 7 (ME176C) 8 GB",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 1799,
+    "currency": "TL",
+    "rating": 0.8,
+    "reviewCount": 30,
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-memo-pad-7-me176c-1.png",
+    "images": [
+      "/images/products/tablets/asus-memo-pad-7-me176c-1.png"
+    ],
+    "highlights": [
+      "7.0\" HD IPS Ekran (1280 x 800)",
+      "Intel Atom Z3745 64-bit Dört Çekirdekli İşlemci",
+      "2 MP Arka / 0.3 MP Ön Kamera",
+      "SonicMaster Stereo Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1280 x 800 (HD)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3745 (1.86 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 3910,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 295,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-memo-pad-7-8-offer-1",
+        "storeName": "PttAVM",
+        "storeLogoColor": "#ffcc00",
+        "price": 1799,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "HD IPS Ekran"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 80,
+        "url": "https://www.epey.com/tablet/asus-memo-pad-7-me176c.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 2099,
+        "store": "PttAVM"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 1899,
+        "store": "PttAVM"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1799,
+        "store": "PttAVM"
+      }
+    ]
+  },
+  {
+    "id": "asus-zenpad-7-0-z370cg",
+    "slug": "asus-zenpad-7-0-z370cg",
+    "name": "Asus ZenPad 7.0 (Z370CG) 8 GB / 3G",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 1899,
+    "currency": "TL",
+    "rating": 0.8,
+    "reviewCount": 25,
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-zenpad-7-0-z370cg-1.png",
+    "images": [
+      "/images/products/tablets/asus-zenpad-7-0-z370cg-1.png"
+    ],
+    "highlights": [
+      "7.0\" HD IPS Ekran (1280 x 800)",
+      "3G SIM Kart & Sesli Görüşme Desteği",
+      "Intel Atom x3-C3230 İşlemci",
+      "DTS-HD Premium Sound"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1280 x 800 (HD)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom x3-C3230 (1.2 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 3450,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 272,
+      "os": "Android 5.0 (Lollipop)",
+      "cellularSupport": "3G SIM Destekli (Sesli Arama)",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-zenpad-7-z370cg-offer-1",
+        "storeName": "N11",
+        "storeLogoColor": "#53298a",
+        "price": 1899,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "3G SIM Destekli"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 65,
+        "url": "https://www.epey.com/tablet/asus-zenpad-7-0-z370cg.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 2199,
+        "store": "N11"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 1999,
+        "store": "N11"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1899,
+        "store": "N11"
+      }
+    ]
+  },
+  {
+    "id": "asus-zenpad-7-0-z370c",
+    "slug": "asus-zenpad-7-0-z370c",
+    "name": "Asus ZenPad 7.0 (Z370C) 8 GB",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 1699,
+    "currency": "TL",
+    "rating": 0.8,
+    "reviewCount": 24,
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-zenpad-7-0-z370c-1.png",
+    "images": [
+      "/images/products/tablets/asus-zenpad-7-0-z370c-1.png"
+    ],
+    "highlights": [
+      "7.0\" HD IPS Ekran (1280 x 800)",
+      "Intel Atom x3-C3200 Dört Çekirdekli İşlemci",
+      "272 gr Hafif Gövde",
+      "DTS-HD Premium Sound"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1280 x 800 (HD)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom x3-C3200 (1.2 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 3450,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 272,
+      "os": "Android 5.0 (Lollipop)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-zenpad-7-z370c-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 1699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HD IPS Ekran"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 80,
+        "url": "https://www.epey.com/tablet/asus-zenpad-7-0-z370c.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 1999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 1799,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1699,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "asus-memo-pad-7-fe7010cg",
+    "slug": "asus-memo-pad-7-fe7010cg",
+    "name": "ASUS MeMO Pad 7 (FE7010CG) 8 GB / 3G",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 1799,
+    "currency": "TL",
+    "rating": 0.8,
+    "reviewCount": 30,
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-memo-pad-7-fe7010cg-1.jpeg",
+    "images": [
+      "/images/products/tablets/asus-memo-pad-7-fe7010cg-1.jpeg"
+    ],
+    "highlights": [
+      "7.0\" Tablet & 3G Çift SIM Kartlı Sesli Görüşme",
+      "Intel Atom Z2520 İşlemci",
+      "3950 mAh Batarya",
+      "Kompakt ve Taşınabilir Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600 (WSVGA)",
+      "panelType": "TN LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z2520 (1.2 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 3950,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 295,
+      "os": "Android 4.3 (Jelly Bean)",
+      "cellularSupport": "3G Çift SIM (Sesli Görüşme)",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-memo-pad-fe7010-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 1799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çift SIM 3G",
+          "Sesli Görüşme"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 95,
+        "url": "https://www.epey.com/tablet/asus-memo-pad-7-fe7010cg.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 2099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 1899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1799,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-memo-pad-7-me176cx",
+    "slug": "asus-memo-pad-7-me176cx",
+    "name": "ASUS MeMO Pad 7 (ME176CX) 8 GB",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 1699,
+    "currency": "TL",
+    "rating": 0.8,
+    "reviewCount": 20,
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-memo-pad-7-me176cx-1.png",
+    "images": [
+      "/images/products/tablets/asus-memo-pad-7-me176cx-1.png"
+    ],
+    "highlights": [
+      "7.0\" HD IPS Ekran (1280 x 800)",
+      "Intel Atom Z3745 Dört Çekirdekli 64-bit İşlemci",
+      "295 gr Hafif Tasarım",
+      "SonicMaster Stereo Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1280 x 800 (HD)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3745 (1.86 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 3910,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 295,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-memo-pad-7-me176cx-offer-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#ff6700",
+        "price": 1699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "HD IPS Ekran",
+          "Intel İşlemci"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 60,
+        "url": "https://www.epey.com/tablet/asus-memo-pad-7-me176cx.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 1999,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 1799,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1699,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
     "id": "asus-zenpad-3s-10-lte",
     "slug": "asus-zenpad-3s-10-lte",
     "name": "Asus ZenPad 3S 10 LTE (Z500KL)",
