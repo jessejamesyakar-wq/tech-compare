@@ -2,6 +2,1113 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "asus-zenpad-3s-10-lte",
+    "slug": "asus-zenpad-3s-10-lte",
+    "name": "Asus ZenPad 3S 10 LTE (Z500KL)",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 8999,
+    "currency": "TL",
+    "rating": 2.3,
+    "reviewCount": 38,
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-zenpad-3s-10-lte-1.png",
+    "images": [
+      "/images/products/tablets/asus-zenpad-3s-10-lte-1.png"
+    ],
+    "highlights": [
+      "9.7\" 2K (2048 x 1536) QXGA IPS Ekran",
+      "4G LTE SIM Kart Bağlantı Desteği",
+      "Qualcomm Snapdragon 650 6 Çekirdekli İşlemci",
+      "7800 mAh Batarya & Quick Charge 3.0 Hızlı Şarj"
+    ],
+    "specs": {
+      "screenSizeInches": 9.7,
+      "screenResolution": "2048 x 1536 (2K QXGA)",
+      "panelType": "IPS LCD (Tru2Life)",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon 650 (1.8 GHz)",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 7800,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 490,
+      "os": "Android 6.0 (Marshmallow)",
+      "cellularSupport": "4G LTE SIM Destekli",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-zenpad-3s-10-lte-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "4G SIM Kartlı",
+          "2K Ekran",
+          "4 GB RAM"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 120,
+        "url": "https://www.epey.com/tablet/asus-zenpad-3s-10-lte.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 9999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 9499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "asus-vivobook-13-slate-oled",
+    "slug": "asus-vivobook-13-slate-oled",
+    "name": "Asus Vivobook 13 Slate OLED (T3300)",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 19999,
+    "currency": "TL",
+    "rating": 2.2,
+    "reviewCount": 45,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/asus-vivobook-13-slate-oled-1.jpg",
+    "images": [
+      "/images/products/tablets/asus-vivobook-13-slate-oled-1.jpg"
+    ],
+    "highlights": [
+      "13.3\" FHD OLED Dolby Vision Pantone Onaylı Ekran",
+      "Windows 11 Home 64-bit İşletim Sistemi",
+      "Çıkarılabilir Manyetik Klavye & Asus Pen 2.0 Desteği",
+      "Dörtlü Hoparlör & Dolby Atmos Akıllı Amfi"
+    ],
+    "specs": {
+      "screenSizeInches": 13.3,
+      "screenResolution": "1920 x 1080 (FHD)",
+      "panelType": "OLED (550 nit, %100 DCI-P3, HDR True Black 500)",
+      "refreshRateHz": 60,
+      "processor": "Intel Pentium Silver N6000 (3.3 GHz)",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 6600,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 785,
+      "os": "Windows 11 Home",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "asus-vivobook-13-slate-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 19999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "13.3\" OLED Ekran",
+          "Windows 11 Tablet PC",
+          "Kalem Dahil"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 310,
+        "url": "https://www.epey.com/tablet/asus-vivobook-13-slate-oled.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 21999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 20499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-memo-pad-fhd-10-lte",
+    "slug": "asus-memo-pad-fhd-10-lte",
+    "name": "Asus MeMO Pad FHD 10 LTE (ME302KL)",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 3999,
+    "currency": "TL",
+    "rating": 2.2,
+    "reviewCount": 20,
+    "releaseYear": 2013,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-memo-pad-fhd-10-lte-1.png",
+    "images": [
+      "/images/products/tablets/asus-memo-pad-fhd-10-lte-1.png"
+    ],
+    "highlights": [
+      "10.1\" Full HD (1920 x 1200) WUXGA IPS Ekran",
+      "4G LTE SIM Kart Bağlantısı",
+      "Qualcomm Snapdragon S4 Pro Dört Çekirdekli İşlemci",
+      "SonicMaster Ses Teknolojisi & Çift Hoparlör"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1920 x 1200 (Full HD WUXGA)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon S4 Pro (1.5 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 6760,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "1.2 MP",
+      "weightGrams": 572,
+      "os": "Android 4.2 (Jelly Bean)",
+      "cellularSupport": "4G LTE SIM Destekli",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-memo-pad-fhd-10-offer-1",
+        "storeName": "N11",
+        "storeLogoColor": "#53298a",
+        "price": 3999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "4G LTE",
+          "Full HD Ekran"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 95,
+        "url": "https://www.epey.com/tablet/asus-memo-pad-fhd-10-lte.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 4499,
+        "store": "N11"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 4199,
+        "store": "N11"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3999,
+        "store": "N11"
+      }
+    ]
+  },
+  {
+    "id": "asus-zenpad-3s-10",
+    "slug": "asus-zenpad-3s-10",
+    "name": "Asus ZenPad 3S 10 (Z500M)",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 6499,
+    "currency": "TL",
+    "rating": 2.1,
+    "reviewCount": 32,
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-zenpad-3s-10-1.png",
+    "images": [
+      "/images/products/tablets/asus-zenpad-3s-10-1.png"
+    ],
+    "highlights": [
+      "9.7\" 2K (2048 x 1536) QXGA IPS Ekran",
+      "MediaTek MT8176 6 Çekirdekli Güçlü İşlemci",
+      "4 GB RAM & 64 GB Dahili Depolama",
+      "Parmak İzi Okuyucu & USB Type-C"
+    ],
+    "specs": {
+      "screenSizeInches": 9.7,
+      "screenResolution": "2048 x 1536 (2K QXGA)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8176 (2.1 GHz)",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 5900,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 430,
+      "os": "Android 6.0 (Marshmallow)",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-zenpad-3s-10-offer-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 6499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "2K Ekran",
+          "4 GB RAM"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 180,
+        "url": "https://www.epey.com/tablet/asus-zenpad-3s-10.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 7199,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 6799,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6499,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "asus-zenpad-10-z301mfl",
+    "slug": "asus-zenpad-10-z301mfl",
+    "name": "Asus ZenPad 10 (Z301MFL)",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 4499,
+    "currency": "TL",
+    "rating": 2,
+    "reviewCount": 24,
+    "releaseYear": 2017,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-zenpad-10-z301mfl-1.png",
+    "images": [
+      "/images/products/tablets/asus-zenpad-10-z301mfl-1.png"
+    ],
+    "highlights": [
+      "10.1\" Full HD (1920 x 1200) WUXGA IPS Ekran",
+      "4G LTE SIM Kart Bağlantısı",
+      "Çift Ön Hoparlör & DTS-HD Premium Sound",
+      "Örgü Dokulu Zarif Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1920 x 1200 (Full HD WUXGA)",
+      "panelType": "IPS LCD (Tru2Life)",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8735A (1.45 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 4680,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 470,
+      "os": "Android 7.0 (Nougat)",
+      "cellularSupport": "4G LTE SIM Destekli",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-zenpad-10-z301mfl-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 4499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "4G SIM Kartlı",
+          "Full HD Ekran"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 110,
+        "url": "https://www.epey.com/tablet/asus-zenpad-10-z301mfl.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 4999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 4699,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "asus-zenpad-10-z301ml",
+    "slug": "asus-zenpad-10-z301ml",
+    "name": "Asus ZenPad 10 (Z301ML)",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 3799,
+    "currency": "TL",
+    "rating": 1.9,
+    "reviewCount": 18,
+    "releaseYear": 2017,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-zenpad-10-z301ml-1.png",
+    "images": [
+      "/images/products/tablets/asus-zenpad-10-z301ml-1.png"
+    ],
+    "highlights": [
+      "10.1\" HD IPS Ekran",
+      "4G LTE SIM Kart Bağlantısı",
+      "DTS-HD Premium Sound Ses Desteği",
+      "4680 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800 (HD)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8735W (1.3 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 4680,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 470,
+      "os": "Android 7.0 (Nougat)",
+      "cellularSupport": "4G LTE SIM Destekli",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-zenpad-10-z301ml-offer-1",
+        "storeName": "PttAVM",
+        "storeLogoColor": "#ffcc00",
+        "price": 3799,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "4G SIM Kartlı"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 75,
+        "url": "https://www.epey.com/tablet/asus-zenpad-10-z301ml.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 4199,
+        "store": "PttAVM"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3949,
+        "store": "PttAVM"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3799,
+        "store": "PttAVM"
+      }
+    ]
+  },
+  {
+    "id": "asus-zenpad-10-z300m",
+    "slug": "asus-zenpad-10-z300m",
+    "name": "ASUS ZenPad 10 (Z300M) 16 GB",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 3299,
+    "currency": "TL",
+    "rating": 1.5,
+    "reviewCount": 22,
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-zenpad-10-z300m-1.png",
+    "images": [
+      "/images/products/tablets/asus-zenpad-10-z300m-1.png"
+    ],
+    "highlights": [
+      "10.1\" WXGA IPS Ekran",
+      "MediaTek MT8163 Dört Çekirdekli İşlemci",
+      "DTS-HD Premium Sound Çift Hoparlör",
+      "Zarif Metalik Çerçeveli Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800 (WXGA)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8163 (1.3 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 4680,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 490,
+      "os": "Android 6.0 (Marshmallow)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-zenpad-10-z300m-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 3299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "10.1\" Ekran"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 130,
+        "url": "https://www.epey.com/tablet/asus-zenpad-10-z300m.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3449,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3299,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-zenpad-10-z300c",
+    "slug": "asus-zenpad-10-z300c",
+    "name": "Asus ZenPad 10 (Z300C) 16 GB",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 2999,
+    "currency": "TL",
+    "rating": 1.5,
+    "reviewCount": 20,
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-zenpad-10-z300c-1.png",
+    "images": [
+      "/images/products/tablets/asus-zenpad-10-z300c-1.png"
+    ],
+    "highlights": [
+      "10.1\" IPS Ekran",
+      "Intel Atom x3-C3200 Dört Çekirdekli İşlemci",
+      "DTS-HD Premium Ses Sistemi",
+      "4890 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800 (WXGA)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom x3-C3200 (1.2 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 4890,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 510,
+      "os": "Android 5.0 (Lollipop)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-zenpad-10-z300c-offer-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#ff6700",
+        "price": 2999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Intel İşlemcili"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 90,
+        "url": "https://www.epey.com/tablet/asus-zenpad-10-z300c.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3399,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3149,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2999,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "asus-memo-pad-10",
+    "slug": "asus-memo-pad-10",
+    "name": "Asus MeMO Pad 10 (ME102A)",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 1.5,
+    "reviewCount": 25,
+    "releaseYear": 2013,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-memo-pad-10-1.png",
+    "images": [
+      "/images/products/tablets/asus-memo-pad-10-1.png"
+    ],
+    "highlights": [
+      "10.1\" WXGA IPS Geniş Ekran",
+      "Rockchip RK3188 Dört Çekirdekli İşlemci",
+      "SonicMaster Çift Hoparlör",
+      "5070 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800 (WXGA)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Rockchip RK3188 (1.6 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 5070,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "1.2 MP",
+      "weightGrams": 522,
+      "os": "Android 4.2 (Jelly Bean)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-memo-pad-10-offer-1",
+        "storeName": "N11",
+        "storeLogoColor": "#53298a",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "10.1\" Ekran"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 80,
+        "url": "https://www.epey.com/tablet/asus-memo-pad-10.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 2799,
+        "store": "N11"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 2599,
+        "store": "N11"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "N11"
+      }
+    ]
+  },
+  {
+    "id": "asus-nexus-7-32gb-2013",
+    "slug": "asus-nexus-7-32gb-2013",
+    "name": "Asus Nexus 7 2013 32 GB / 4G",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 3499,
+    "currency": "TL",
+    "rating": 1.5,
+    "reviewCount": 60,
+    "releaseYear": 2013,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-nexus-7-32gb-2013-1.png",
+    "images": [
+      "/images/products/tablets/asus-nexus-7-32gb-2013-1.png"
+    ],
+    "highlights": [
+      "7.0\" Full HD (1920 x 1200, 323 PPI) IPS Ekran",
+      "4G LTE SIM Kart Bağlantı Desteği",
+      "Qualcomm Snapdragon S4 Pro İşlemci",
+      "Kablosuz Şarj (Qi) Desteği & Saf Android Deneyimi"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1920 x 1200 (Full HD, 323 ppi)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon S4 Pro (1.5 GHz)",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 3950,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "1.2 MP",
+      "weightGrams": 299,
+      "os": "Android 4.3 (Marshmallow Güncellenebilir)",
+      "cellularSupport": "4G LTE SIM Destekli",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-nexus-7-32-offer-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "4G SIM Kartlı",
+          "Full HD Ekran",
+          "Kablosuz Şarj"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.epey.com/tablet/asus-nexus-7-32gb-2013.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3899,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3649,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "asus-zenpad-10-z300cl",
+    "slug": "asus-zenpad-10-z300cl",
+    "name": "Asus ZenPad 10 (Z300CL) 8 GB / 4G",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 2799,
+    "currency": "TL",
+    "rating": 1.4,
+    "reviewCount": 15,
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-zenpad-10-z300cl-1.png",
+    "images": [
+      "/images/products/tablets/asus-zenpad-10-z300cl-1.png"
+    ],
+    "highlights": [
+      "10.1\" WXGA IPS Ekran",
+      "4G LTE SIM Kart Bağlantısı",
+      "Intel Atom Z3560 Dört Çekirdekli İşlemci",
+      "DTS-HD Premium Sound"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800 (WXGA)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3560 (1.83 GHz)",
+      "ramGb": 2,
+      "storageGb": 8,
+      "batteryMah": 4890,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 510,
+      "os": "Android 5.0 (Lollipop)",
+      "cellularSupport": "4G LTE SIM Destekli",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-zenpad-10-z300cl-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 2799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "4G SIM Destekli"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 85,
+        "url": "https://www.epey.com/tablet/asus-zenpad-10-z300cl.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3099,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 2899,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2799,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "asus-memo-pad-10-me103k",
+    "slug": "asus-memo-pad-10-me103k",
+    "name": "Asus MeMO Pad 10 (ME103K)",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 2299,
+    "currency": "TL",
+    "rating": 1.4,
+    "reviewCount": 16,
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-memo-pad-10-me103k-1.png",
+    "images": [
+      "/images/products/tablets/asus-memo-pad-10-me103k-1.png"
+    ],
+    "highlights": [
+      "10.1\" WXGA IPS Ekran",
+      "Qualcomm Snapdragon S4 Pro İşlemci",
+      "Stereo Çift Hoparlör",
+      "5070 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800 (WXGA)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon S4 Pro (1.5 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 5070,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 525,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-memo-pad-10-me103k-offer-1",
+        "storeName": "PttAVM",
+        "storeLogoColor": "#ffcc00",
+        "price": 2299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "10.1\" Ekran"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 60,
+        "url": "https://www.epey.com/tablet/asus-memo-pad-10-me103k.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 2599,
+        "store": "PttAVM"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 2399,
+        "store": "PttAVM"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2299,
+        "store": "PttAVM"
+      }
+    ]
+  },
+  {
+    "id": "asus-memo-pad-7-me572c",
+    "slug": "asus-memo-pad-7-me572c",
+    "name": "Asus MeMO Pad 7 (ME572C)",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 2599,
+    "currency": "TL",
+    "rating": 1.3,
+    "reviewCount": 28,
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-memo-pad-7-me572c-1.png",
+    "images": [
+      "/images/products/tablets/asus-memo-pad-7-me572c-1.png"
+    ],
+    "highlights": [
+      "7.0\" Full HD (1920 x 1200, 323 PPI) IPS Ekran",
+      "Intel Atom Z3560 Dört Çekirdekli 64-bit İşlemci",
+      "269 gr Ultra Hafif Çanta Tipi Tasarım",
+      "SonicMaster Stereo Hoparlörler"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1920 x 1200 (Full HD, 323 ppi)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3560 (1.83 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 3950,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 269,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-memo-pad-7-offer-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 2599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Full HD 323 PPI",
+          "Hafif Tasarım"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 140,
+        "url": "https://www.epey.com/tablet/asus-memo-pad-7-me572c.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 2899,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 2699,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2599,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "asus-nexus-7",
+    "slug": "asus-nexus-7",
+    "name": "Asus Nexus 7 2013 16 GB",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 2899,
+    "currency": "TL",
+    "rating": 1.3,
+    "reviewCount": 45,
+    "releaseYear": 2013,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-nexus-7-1.png",
+    "images": [
+      "/images/products/tablets/asus-nexus-7-1.png"
+    ],
+    "highlights": [
+      "7.0\" Full HD (1920 x 1200, 323 PPI) IPS Ekran",
+      "Snapdragon S4 Pro Dört Çekirdekli İşlemci",
+      "Kablosuz Şarj (Qi) Desteği",
+      "Kompakt & Hafif Kasa (290 gr)"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1920 x 1200 (Full HD, 323 ppi)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon S4 Pro (1.5 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 3950,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "1.2 MP",
+      "weightGrams": 290,
+      "os": "Android 4.3 (Jelly Bean)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-nexus-7-16-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 2899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Full HD Ekran",
+          "Kablosuz Şarj"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 210,
+        "url": "https://www.epey.com/tablet/asus-nexus-7.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 3199,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 2999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2899,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "asus-zenpad-8-0-z380kl",
+    "slug": "asus-zenpad-8-0-z380kl",
+    "name": "Asus ZenPad 8.0 (Z380KL) 8 GB / 4G",
+    "brand": "Asus",
+    "category": "tablets",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 1.3,
+    "reviewCount": 22,
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/asus-zenpad-8-0-z380kl-1.png",
+    "images": [
+      "/images/products/tablets/asus-zenpad-8-0-z380kl-1.png"
+    ],
+    "highlights": [
+      "8.0\" WXGA IPS Kompakt Ekran",
+      "4G LTE SIM Kart & Sesli Görüşme Desteği",
+      "Qualcomm Snapdragon 410 Dört Çekirdekli İşlemci",
+      "DTS-HD Premium Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800 (WXGA)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon 410 (1.2 GHz)",
+      "ramGb": 2,
+      "storageGb": 8,
+      "batteryMah": 4000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 350,
+      "os": "Android 5.0 (Lollipop)",
+      "cellularSupport": "4G LTE SIM Destekli (Sesli Arama)",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "asus-zenpad-8-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "4G SIM Kartlı",
+          "Sesli Görüşme"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 95,
+        "url": "https://www.epey.com/tablet/asus-zenpad-8-0-z380kl.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 2799,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 2599,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "xiaomi-pad-7-pro-8-gb-128-gb",
     "slug": "xiaomi-pad-7-pro-8-gb-128-gb",
     "name": "Xiaomi Pad 7 Pro 8 GB / 128 GB",
