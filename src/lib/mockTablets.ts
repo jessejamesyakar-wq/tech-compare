@@ -7359,6 +7359,89 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "reeder-m11-pro-max-8-256",
+    "slug": "reeder-m11-pro-max",
+    "name": "Reeder M11 Pro Max 8 GB / 256 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 7499,
+    "currency": "TL",
+    "rating": 4.6,
+    "reviewCount": 45,
+    "image": "/images/tablets/reeder-945230.jpg",
+    "images": [
+      "/images/tablets/reeder-945230.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "11.97 İnç 2K (2000x1200) Geniş IPS Ekran",
+      "8 GB RAM & 256 GB Geniş Dahili Depolama",
+      "MediaTek 8 Çekirdekli Güçlü İşlemci",
+      "7000 mAh Uzun Ömürlü Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 11.97,
+      "screenResolution": "2000 x 1200",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8788 (8 Çekirdek 2.0 GHz)",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 7000,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 580,
+      "os": "Android 13",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-m11promax-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 7499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 120,
+        "url": "https://www.epey.com/tablet/reeder-m11-pro-max.html"
+      },
+      {
+        "id": "so-reeder-m11promax-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 7699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Avantajlı"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 85,
+        "url": "https://www.epey.com/tablet/reeder-m11-pro-max.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-06-01",
+        "price": 8299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "ms-surface-pro-copilot-plus-12-16-512-ep36697",
     "slug": "microsoft-surface-pro-copilot-plus-pc-ep2-36697",
     "name": "Microsoft Surface Pro Copilot+ PC 12.0 İnç 16 GB / 512 GB (EP2-36697)",
@@ -8525,6 +8608,89 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 22999,
         "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "reeder-t71-6-128",
+    "slug": "reeder-t71",
+    "name": "Reeder T71 6 GB / 128 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 5048,
+    "currency": "TL",
+    "rating": 4.3,
+    "reviewCount": 68,
+    "image": "/images/tablets/reeder-1033898.jpg",
+    "images": [
+      "/images/tablets/reeder-1033898.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "8.7 İnç Taşınabilir Kompakt IPS Ekran",
+      "6 GB RAM & 128 GB Dahili Depolama",
+      "Android 13 / 14 Güncel Yazılım Deneyimi",
+      "5100 mAh Gün Boyu Yeten Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 8.7,
+      "screenResolution": "1340 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Unisoc T606 (8 Çekirdek 1.6 GHz)",
+      "ramGb": 6,
+      "storageGb": 128,
+      "batteryMah": 5100,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 370,
+      "os": "Android 13",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-t71-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 5048.01,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Çok Satan"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 240,
+        "url": "https://www.epey.com/tablet/reeder-t71.html"
+      },
+      {
+        "id": "so-reeder-t71-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 5199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 150,
+        "url": "https://www.epey.com/tablet/reeder-t71.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-09-01",
+        "price": 5499,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5048.01,
+        "store": "Amazon TR"
       }
     ]
   },
@@ -19252,6 +19418,75 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "reeder-m10-blue-max-lte-4-64",
+    "slug": "reeder-m10-blue-max-lte",
+    "name": "Reeder M10 Blue Max LTE 4 GB / 64 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 10999.9,
+    "currency": "TL",
+    "rating": 4.4,
+    "reviewCount": 52,
+    "image": "/images/tablets/reeder-673702.png",
+    "images": [
+      "/images/tablets/reeder-673702.png"
+    ],
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "10.1 İnç HD IPS Dokunmatik Ekran",
+      "4G LTE SIM Kart & Hücresel Arama Desteği",
+      "4 GB RAM & 64 GB Hafıza",
+      "5000 mAh Batarya & Metal Gövde"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Unisoc SC9863A (8 Çekirdek 1.6 GHz)",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 5000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 520,
+      "os": "Android 10",
+      "cellularSupport": "4G LTE (SIM Destekli)",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-m10-bluemax-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 10999.9,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "4G LTE",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 95,
+        "url": "https://www.epey.com/tablet/reeder-m10-blue-max-lte.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2022-01-01",
+        "price": 7999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 10999.9,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "ms-surface-go-3-pentium-8-128",
     "slug": "microsoft-surface-go-3",
     "name": "Microsoft Surface Go 3 Intel Pentium 6500Y / 8 GB / 128 GB SSD",
@@ -21749,6 +21984,74 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "reeder-a11s-3-32",
+    "slug": "reeder-a11s",
+    "name": "Reeder A11S 3 GB / 32 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 3499,
+    "currency": "TL",
+    "rating": 4.1,
+    "reviewCount": 38,
+    "image": "/images/tablets/reeder-68231.png",
+    "images": [
+      "/images/tablets/reeder-68231.png"
+    ],
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.1 İnç HD IPS Ekran",
+      "3 GB RAM & 32 GB Depolama",
+      "6000 mAh Yüksek Kapasiteli Batarya",
+      "Çocuk ve Eğitim Kullanımı İçin Uygun"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Spreadtrum SC9832E (4 Çekirdek 1.4 GHz)",
+      "ramGb": 3,
+      "storageGb": 32,
+      "batteryMah": 6000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 510,
+      "os": "Android 9.0 (Pie)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a11s-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 70,
+        "url": "https://www.epey.com/tablet/reeder-a11s.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2021-01-01",
+        "price": 2899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-pro-12-9-2020-wi-fi-128gb",
     "slug": "apple-ipad-pro-12-9-2020-wi-fi-128gb",
     "name": "Apple iPad Pro 12.9\" (2020) 6 GB / 128 GB (MY2H2TU/A)",
@@ -23549,6 +23852,74 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "reeder-m8s-2-32",
+    "slug": "reeder-m8s",
+    "name": "Reeder M8S 2 GB / 32 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 3.9,
+    "reviewCount": 42,
+    "image": "/images/tablets/reeder-80019.png",
+    "images": [
+      "/images/tablets/reeder-80019.png"
+    ],
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8.0 İnç HD IPS Ekran",
+      "2 GB RAM & 32 GB Depolama",
+      "4000 mAh Batarya",
+      "Kompakt ve Hafif Gövde"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8167 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 4000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 340,
+      "os": "Android 9.0 (Pie)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-m8s-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Ekonomik"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 55,
+        "url": "https://www.epey.com/tablet/reeder-m8s.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2020-01-01",
+        "price": 1999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-air-3-10-5-256-gb-wi-fi-plus-cellular-mv0p2tu-a",
     "slug": "apple-ipad-air-3-10-5-256-gb-wi-fi-plus-cellular-mv0p2tu-a",
     "name": "Apple iPad Air 3 256 GB / 4G (MV0P2TU/A)",
@@ -25024,6 +25395,74 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "reeder-m8-go-1-8",
+    "slug": "reeder-m8-go",
+    "name": "Reeder M8 GO 1 GB / 8 GB (Android Go)",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 2609.11,
+    "currency": "TL",
+    "rating": 3.8,
+    "reviewCount": 30,
+    "image": "/images/tablets/reeder-154276.jpg",
+    "images": [
+      "/images/tablets/reeder-154276.jpg"
+    ],
+    "releaseYear": 2018,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8.0 İnç HD IPS Ekran",
+      "Hafif ve Hızlı Android 8.1 Go Edition",
+      "MicroSD Kart ile Hafıza Artırma Desteği",
+      "Temel Günlük Kullanım İçin Uygun Fiyatlı Çözüm"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8321 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 3500,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 320,
+      "os": "Android 8.1 (Go Edition)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-m8go-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 2609.11,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 90,
+        "url": "https://www.epey.com/tablet/reeder-m8-go.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2020-01-01",
+        "price": 1899,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2609.11,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-pro-12-9-512-gb-wi-fi-mtfp2tu",
     "slug": "apple-ipad-pro-12-9-512-gb-wi-fi-mtfp2tu",
     "name": "Apple iPad Pro 3 12.9 4 GB / 512 GB",
@@ -26307,6 +26746,74 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 24999,
         "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "reeder-t8-2-16",
+    "slug": "reeder-t8",
+    "name": "Reeder T8 2 GB / 16 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 2199,
+    "currency": "TL",
+    "rating": 3.7,
+    "reviewCount": 25,
+    "image": "/images/tablets/reeder-82942.png",
+    "images": [
+      "/images/tablets/reeder-82942.png"
+    ],
+    "releaseYear": 2017,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8.0 İnç IPS Ekran",
+      "2 GB RAM & 16 GB Depolama",
+      "4000 mAh Batarya",
+      "Taşınabilir Mini Tablet Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8163 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 4000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 330,
+      "os": "Android 7.0 (Nougat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-t8-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 2199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Bütçe Dostu"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 35,
+        "url": "https://www.epey.com/tablet/reeder-t8.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2018-01-01",
+        "price": 1499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2199,
+        "store": "Hepsiburada"
       }
     ]
   },
@@ -27799,6 +28306,74 @@ export const mockTablets: Product[] = [
       {
         "date": "2026-08-01",
         "price": 1999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "reeder-a12ix-workbook-2-16",
+    "slug": "reeder-a12ix",
+    "name": "Reeder A12iX Workbook 2 GB / 16 GB (Windows 10)",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 2999,
+    "currency": "TL",
+    "rating": 3.9,
+    "reviewCount": 34,
+    "image": "/images/tablets/reeder-30915.png",
+    "images": [
+      "/images/tablets/reeder-30915.png"
+    ],
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "11.6 İnç Full HD (1920x1080) Geniş IPS Ekran",
+      "Intel Atom Z3735F 4 Çekirdekli İşlemci",
+      "8400 mAh Devasa Batarya Kapasitesi",
+      "Windows 10 İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 11.6,
+      "screenResolution": "1920 x 1080",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735F (4 Çekirdek 1.83 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 8400,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 720,
+      "os": "Windows 10 Home",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a12ix-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 2999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Windows Tablet"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 45,
+        "url": "https://www.epey.com/tablet/reeder-a12ix.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2017-01-01",
+        "price": 2199,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2999,
         "store": "Trendyol"
       }
     ]
@@ -29331,6 +29906,278 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 9900,
         "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "reeder-w100i-64gb",
+    "slug": "reeder-w100i-64gb",
+    "name": "Reeder W100i 2 GB / 64 GB (Windows Tablet)",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 2799,
+    "currency": "TL",
+    "rating": 3.8,
+    "reviewCount": 30,
+    "image": "/images/tablets/reeder-26109.jpg",
+    "images": [
+      "/images/tablets/reeder-26109.jpg"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.1 İnç HD IPS Dokunmatik Ekran",
+      "Intel Atom Z3735F 4 Çekirdekli İşlemci",
+      "64 GB Dahili SSD/eMMC Depolama",
+      "7900 mAh Yüksek Kapasiteli Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735F (4 Çekirdek 1.83 GHz)",
+      "ramGb": 2,
+      "storageGb": 64,
+      "batteryMah": 7900,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 590,
+      "os": "Windows 8.1 / 10",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-w100i-64-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 2799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 50,
+        "url": "https://www.epey.com/tablet/reeder-w100i-64gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2016-01-01",
+        "price": 1899,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2799,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "reeder-a10ix-air-2-16",
+    "slug": "reeder-a10ix-air",
+    "name": "Reeder A10iX Air 2 GB / 16 GB (Retina Ekran)",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 3.8,
+    "reviewCount": 36,
+    "image": "/images/tablets/reeder-3801.png",
+    "images": [
+      "/images/tablets/reeder-3801.png"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "9.7 İnç Retina (2048x1536) Ultra Yüksek Çözünürlüklü IPS Ekran",
+      "Intel Atom Z3735F 4 Çekirdekli İşlemci",
+      "8000 mAh Güçlü Batarya",
+      "Ultra İnce Alüminyum Gövde Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 9.7,
+      "screenResolution": "2048 x 1536",
+      "panelType": "Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735F (4 Çekirdek 1.83 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 8000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 498,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a10ix-air-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Retina Ekran"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 60,
+        "url": "https://www.epey.com/tablet/reeder-a10ix-air.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2016-01-01",
+        "price": 1699,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "reeder-w100i-32gb",
+    "slug": "reeder-w100i",
+    "name": "Reeder W100i 2 GB / 32 GB (Windows Tablet)",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 2399,
+    "currency": "TL",
+    "rating": 3.7,
+    "reviewCount": 28,
+    "image": "/images/tablets/reeder-2438.jpg",
+    "images": [
+      "/images/tablets/reeder-2438.jpg"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.1 İnç HD IPS Ekran",
+      "Intel Atom Z3735F İşlemci",
+      "2 GB RAM & 32 GB Depolama",
+      "Windows Tablet Deneyimi"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735F (4 Çekirdek 1.83 GHz)",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 7900,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 590,
+      "os": "Windows 8.1 / 10",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-w100i-32-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 2399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 40,
+        "url": "https://www.epey.com/tablet/reeder-w100i.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2016-01-01",
+        "price": 1599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2399,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "reeder-a10is-air-2-8",
+    "slug": "reeder-a10is-air",
+    "name": "Reeder A10iS Air 2 GB / 8 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 2199,
+    "currency": "TL",
+    "rating": 3.7,
+    "reviewCount": 22,
+    "image": "/images/tablets/reeder-30220.jpg",
+    "images": [
+      "/images/tablets/reeder-30220.jpg"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "9.7 İnç Retina (2048x1536) IPS Ekran",
+      "Intel Atom Z3735F 4 Çekirdekli İşlemci",
+      "8000 mAh Batarya",
+      "Alüminyum Arka Kapak"
+    ],
+    "specs": {
+      "screenSizeInches": 9.7,
+      "screenResolution": "2048 x 1536",
+      "panelType": "Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735F (4 Çekirdek 1.83 GHz)",
+      "ramGb": 2,
+      "storageGb": 8,
+      "batteryMah": 8000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 498,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a10is-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 2199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ekonomik"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 30,
+        "url": "https://www.epey.com/tablet/reeder-a10is-air.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2016-01-01",
+        "price": 1399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2199,
+        "store": "Hepsiburada"
       }
     ]
   },
@@ -31247,6 +32094,142 @@ export const mockTablets: Product[] = [
       {
         "date": "2026-08-01",
         "price": 1699,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "reeder-a10iq-2-16",
+    "slug": "reeder-a10iq",
+    "name": "Reeder A10iQ 2 GB / 16 GB (Retina Ekran)",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 3.8,
+    "reviewCount": 32,
+    "image": "/images/tablets/reeder-3017.png",
+    "images": [
+      "/images/tablets/reeder-3017.png"
+    ],
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "9.7 İnç Retina 2048x1536 IPS Ekran",
+      "Intel Atom Z3735D 4 Çekirdekli İşlemci",
+      "8000 mAh Yüksek Batarya",
+      "Şık Metal Kasa Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 9.7,
+      "screenResolution": "2048 x 1536",
+      "panelType": "Retina IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735D (4 Çekirdek 1.83 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 8000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 550,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a10iq-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 45,
+        "url": "https://www.epey.com/tablet/reeder-a10iq.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2015-01-01",
+        "price": 1599,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "reeder-a9i-1-16",
+    "slug": "reeder-a9i",
+    "name": "Reeder A9i 1 GB / 16 GB",
+    "brand": "Reeder",
+    "category": "tablets",
+    "basePrice": 1999,
+    "currency": "TL",
+    "rating": 3.6,
+    "reviewCount": 20,
+    "image": "/images/tablets/reeder-3406.jpg",
+    "images": [
+      "/images/tablets/reeder-3406.jpg"
+    ],
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8.9 İnç Full HD (1920x1200) IPS Ekran",
+      "Intel Atom Z3735D 4 Çekirdekli İşlemci",
+      "6000 mAh Batarya",
+      "Taşınabilir 8.9 İnç Özel Form Faktörü"
+    ],
+    "specs": {
+      "screenSizeInches": 8.9,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735D (4 Çekirdek 1.83 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 6000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 440,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-reeder-a9i-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 1999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 25,
+        "url": "https://www.epey.com/tablet/reeder-a9i.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2015-01-01",
+        "price": 1299,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1999,
         "store": "Trendyol"
       }
     ]
