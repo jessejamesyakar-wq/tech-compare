@@ -2,6 +2,744 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "huawei-matepad-se-11-lte",
+    "slug": "huawei-matepad-se-11-lte",
+    "name": "Huawei MatePad SE 11\" LTE 4 GB / 128 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 9999,
+    "currency": "TL",
+    "rating": 2.6,
+    "reviewCount": 38,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-se-11-lte-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-se-11-lte-1.jpg"
+    ],
+    "highlights": [
+      "11.0\" FHD+ Göz Koruyucu Ekran (1920 x 1200, TÜV Rheinland Sertifikalı)",
+      "4G LTE SIM Kart Bağlantı Desteği",
+      "7700 mAh Uzun Ömürlü Batarya & 22.5W Hızlı Şarj",
+      "Huawei Histen 9.0 Dörtlü Hoparlör Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "HiSilicon Kirin 710A Octa-core",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 7700,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 475,
+      "os": "HarmonyOS 2.0",
+      "cellularSupport": "4G LTE SIM",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-se-11-lte-offer-1",
+        "storeName": "Huawei Store",
+        "storeLogoColor": "#cf0a2c",
+        "price": 9999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "4G LTE SIM Destekli",
+          "Huawei Türkiye Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 650,
+        "url": "https://www.epey.com/tablet/huawei-matepad-se-11-lte.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 10999,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 10499,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9999,
+        "store": "Huawei Store"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-se-11-8-gb",
+    "slug": "huawei-matepad-se-11-8-gb",
+    "name": "Huawei MatePad SE 11\" 8 GB / 128 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 10670,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 45,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-se-11-8-gb-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-se-11-8-gb-1.jpg"
+    ],
+    "highlights": [
+      "11.0\" FHD+ Konforlu Ekran (1920 x 1200, %85 Ekran-Gövde Oranı)",
+      "8 GB RAM & 128 GB Dahili Hafıza",
+      "7700 mAh Batarya & 22.5W Hızlı Şarj Desteği",
+      "475 gr Hafif Alüminyum Gövde & 4 Hoparlörlü Histen Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "HiSilicon Kirin 710A Octa-core",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 7700,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 475,
+      "os": "HarmonyOS 2.0",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-se-11-8-gb-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 10670,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "8 GB RAM",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 420,
+        "url": "https://www.epey.com/tablet/huawei-matepad-se-11-8-gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 11499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 10999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 10670,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-se-11",
+    "slug": "huawei-matepad-se-11",
+    "name": "Huawei MatePad SE 11\" 6 GB / 128 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 8882,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 92,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-se-11-6-gb-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-se-11-6-gb-1.jpg"
+    ],
+    "highlights": [
+      "11.0\" FHD+ IPS Ekran (1920 x 1200, TÜV Düşük Mavi Işık)",
+      "6 GB RAM & 128 GB Depolama",
+      "7700 mAh Batarya & 22.5W Şarj",
+      "Huawei Histen 9.0 & Metal Unibody Kasa (475 gr)"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "HiSilicon Kirin 710A",
+      "ramGb": 6,
+      "storageGb": 128,
+      "batteryMah": 7700,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 475,
+      "os": "HarmonyOS 2.0",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-se-11-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 8882,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fiyat/Performans",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/tablet/huawei-matepad-se-11.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 9499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 9199,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8882,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-se-11-4-gb",
+    "slug": "huawei-matepad-se-11-4-gb",
+    "name": "Huawei MatePad SE 11\" 4 GB / 128 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 8199,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 120,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-se-11-4-gb-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-se-11-4-gb-1.jpg"
+    ],
+    "highlights": [
+      "11.0\" 1920 x 1200 FHD+ Ekran & Çocuk Köşesi (Kids Corner)",
+      "4 GB RAM & 128 GB Dahili Hafıza",
+      "7700 mAh Pil & 22.5W Hızlı Şarj",
+      "Ebeveyn Denetimi & Çoklu Pencere Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "HiSilicon Kirin 710A",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 7700,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 475,
+      "os": "HarmonyOS 2.0",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-se-11-4-gb-offer-1",
+        "storeName": "Huawei Store",
+        "storeLogoColor": "#cf0a2c",
+        "price": 8199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En Uygun Fiyat",
+          "Huawei Türkiye Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1150,
+        "url": "https://www.epey.com/tablet/huawei-matepad-se-11-4-gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 8799,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 8499,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8199,
+        "store": "Huawei Store"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-se-10-4",
+    "slug": "huawei-matepad-se-10-4",
+    "name": "Huawei MatePad SE 10.4 (2022) 4 GB / 128 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 9985,
+    "currency": "TL",
+    "rating": 2.2,
+    "reviewCount": 88,
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-se-10-4-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-se-10-4-1.jpg"
+    ],
+    "highlights": [
+      "10.4\" 2K Eye Comfort Ekran (2000 x 1200, TÜV Rheinland)",
+      "Qualcomm Snapdragon 680 (6 nm) 8 Çekirdek İşlemci",
+      "Histen 8.0 Çift Simetrik Hoparlör",
+      "5100 mAh Batarya & HarmonyOS 3.0"
+    ],
+    "specs": {
+      "screenSizeInches": 10.4,
+      "screenResolution": "2000 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon 680 (6 nm)",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 5100,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 440,
+      "os": "HarmonyOS 3.0",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-se-10-4-offer-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 9985,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Snapdragon 680",
+          "2K Ekran"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 540,
+        "url": "https://www.epey.com/tablet/huawei-matepad-se-10-4.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 10499,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 10199,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9985,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-se-10-4-53013nbl",
+    "slug": "huawei-matepad-se-10-4-53013nbl",
+    "name": "Huawei MatePad SE 10.4 (2022) 3 GB / 32 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 17950,
+    "currency": "TL",
+    "rating": 1.9,
+    "reviewCount": 30,
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-se-10-4-53013nbl-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-se-10-4-53013nbl-1.jpg"
+    ],
+    "highlights": [
+      "10.4\" 2K Çözünürlük (2000 x 1200)",
+      "Qualcomm Snapdragon 680 İşlemci",
+      "5100 mAh Batarya & Histen 8.0 Ses",
+      "HarmonyOS 3.0 İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 10.4,
+      "screenResolution": "2000 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon 680",
+      "ramGb": 3,
+      "storageGb": 32,
+      "batteryMah": 5100,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 440,
+      "os": "HarmonyOS 3.0",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-se-10-4-53013nbl-offer-1",
+        "storeName": "N11",
+        "storeLogoColor": "#53298a",
+        "price": 17950,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Distribütör Garantili"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 120,
+        "url": "https://www.epey.com/tablet/huawei-matepad-se-10-4-53013nbl.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 18999,
+        "store": "N11"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 18499,
+        "store": "N11"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 17950,
+        "store": "N11"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-t10-64-gb",
+    "slug": "huawei-matepad-t10-64-gb",
+    "name": "Huawei MatePad T10 4 GB / 64 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 9995,
+    "currency": "TL",
+    "rating": 1.8,
+    "reviewCount": 35,
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-t10-64-gb-1.png",
+    "images": [
+      "/images/products/tablets/huawei-matepad-t10-64-gb-1.png"
+    ],
+    "highlights": [
+      "9.7\" HD IPS Ekran (1280 x 800)",
+      "HiSilicon Kirin 710A 8 Çekirdek İşlemci",
+      "4 GB RAM & 64 GB Dahili Hafıza",
+      "5100 mAh Batarya & Çift Hoparlör Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 9.7,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "HiSilicon Kirin 710A",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 5100,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 450,
+      "os": "EMUI 10.1 (Android 10)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-t10-64-gb-offer-1",
+        "storeName": "PttAVM",
+        "storeLogoColor": "#ffcc00",
+        "price": 9995,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "4 GB RAM",
+          "9.7 İnç"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 180,
+        "url": "https://www.epey.com/tablet/huawei-matepad-t10-64-gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 10499,
+        "store": "PttAVM"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 10199,
+        "store": "PttAVM"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9995,
+        "store": "PttAVM"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-t10-32-gb",
+    "slug": "huawei-matepad-t10-32-gb",
+    "name": "Huawei MatePad T10 2 GB / 32 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 7998,
+    "currency": "TL",
+    "rating": 1.7,
+    "reviewCount": 40,
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-t10-32-gb-1.png",
+    "images": [
+      "/images/products/tablets/huawei-matepad-t10-32-gb-1.png"
+    ],
+    "highlights": [
+      "9.7\" HD IPS Ekran (1280 x 800)",
+      "HiSilicon Kirin 710A İşlemci",
+      "5100 mAh Batarya & Histen 6.1 Çift Hoparlör",
+      "Kids Corner Çocuk Modu & Göz Koruma"
+    ],
+    "specs": {
+      "screenSizeInches": 9.7,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "HiSilicon Kirin 710A",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 5100,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 450,
+      "os": "EMUI 10.1 (Android 10)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-t10-32-gb-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 7998,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Kirin 710A",
+          "Kids Corner"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 210,
+        "url": "https://www.epey.com/tablet/huawei-matepad-t10-32-gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 8499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 8199,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7998,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "huawei-mediapad-t3-32",
+    "slug": "huawei-mediapad-t3-32",
+    "name": "Huawei MediaPad T3 10 2 GB / 32 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 18048,
+    "currency": "TL",
+    "rating": 1.5,
+    "reviewCount": 22,
+    "releaseYear": 2017,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-mediapad-t3-32-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-mediapad-t3-32-1.jpg"
+    ],
+    "highlights": [
+      "9.6\" IPS HD Ekran (1280 x 800)",
+      "Qualcomm Snapdragon 425 İşlemci",
+      "4800 mAh Batarya & Eloksallı Alüminyum Gövde",
+      "EMUI 5.1 Arayüzü"
+    ],
+    "specs": {
+      "screenSizeInches": 9.6,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon 425",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 4800,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 460,
+      "os": "Android 7.0 (Nougat)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-mediapad-t3-32-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 18048,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Alüminyum Kasa"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 95,
+        "url": "https://www.epey.com/tablet/huawei-mediapad-t3-32.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 18999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 18499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18048,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-t8",
+    "slug": "huawei-matepad-t8",
+    "name": "Huawei MatePad T8 Wi-Fi 2 GB / 32 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 5334,
+    "currency": "TL",
+    "rating": 1.5,
+    "reviewCount": 60,
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-t8-1.png",
+    "images": [
+      "/images/products/tablets/huawei-matepad-t8-1.png"
+    ],
+    "highlights": [
+      "8.0\" Kompakt Ekran (1280 x 800, 310 gr Ultra Hafif)",
+      "MediaTek MT8768 8 Çekirdek İşlemci",
+      "5100 mAh Uzun Kullanım Süreli Batarya",
+      "Yüz Tanıma ile Kilit Açma & Çocuk Modu"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8768",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 5100,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 310,
+      "os": "EMUI 10.0.1 (Android 10)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-t8-offer-1",
+        "storeName": "N11",
+        "storeLogoColor": "#53298a",
+        "price": 5334,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kompakt 8 İnç",
+          "Hafif Tasarım"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 310,
+        "url": "https://www.epey.com/tablet/huawei-matepad-t8.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 5699,
+        "store": "N11"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 5499,
+        "store": "N11"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5334,
+        "store": "N11"
+      }
+    ]
+  },
+  {
     "id": "huawei-matepad-pro-13-2-2025-512-gb",
     "slug": "huawei-matepad-pro-13-2-2025-512-gb",
     "name": "Huawei MatePad Pro 13.2 (2025) 12 GB / 512 GB",
