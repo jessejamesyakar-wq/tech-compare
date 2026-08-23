@@ -2,6 +2,450 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "samsung-galaxy-tab-e-9-6-sm-t561",
+    "slug": "samsung-galaxy-tab-e-9-6-sm-t561",
+    "name": "Samsung Galaxy Tab E 9.6 3G (SM-T562 / SM-T561) 8 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 4499,
+    "currency": "TL",
+    "rating": 1.4,
+    "reviewCount": 38,
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/samsung-galaxy-tab-e-9-6-sm-t561-1.png",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-e-9-6-sm-t561-1.png"
+    ],
+    "highlights": [
+      "9.6\" WXGA Parlak Ekran & 3G Hücresel Veri Bağlantısı",
+      "Dört Çekirdekli 1.3 GHz İşlemci & 1.5 GB RAM",
+      "5000 mAh Güçlü Batarya & Çocuk Modu (Kids Mode)",
+      "Genişletilebilir Hafıza Kartı Desteği (128 GB MicroSD)"
+    ],
+    "specs": {
+      "screenSizeInches": 9.6,
+      "screenResolution": "1280 x 800",
+      "panelType": "TFT LCD",
+      "refreshRateHz": 60,
+      "processor": "Spreadtrum SC7730SE Quad-core 1.3 GHz",
+      "ramGb": 1.5,
+      "storageGb": 8,
+      "batteryMah": 5000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 495,
+      "os": "Android 4.4 KitKat",
+      "cellularSupport": "3G SIM (Micro-SIM)",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-e-9-6-sm-t561-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 4499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "3G SIM Destekli",
+          "5000 mAh Pil"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 210,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-e-9-6-sm-t561.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 4999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 4699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-e-9-6",
+    "slug": "samsung-galaxy-tab-e-9-6",
+    "name": "Samsung Galaxy Tab E 9.6 (SM-T560) 8 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 4199,
+    "currency": "TL",
+    "rating": 1.4,
+    "reviewCount": 45,
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/samsung-galaxy-tab-e-9-6-1.png",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-e-9-6-1.png"
+    ],
+    "highlights": [
+      "9.6\" WXGA Geniş Ekran (1280 x 800) & Ergonomik Gövde",
+      "Dört Çekirdekli 1.3 GHz İşlemci & 1.5 GB RAM",
+      "5000 mAh Yüksek Kapasiteli Batarya",
+      "5 MP Arka Kamera (Otomatik Odaklama) & 2 MP Ön Kamera"
+    ],
+    "specs": {
+      "screenSizeInches": 9.6,
+      "screenResolution": "1280 x 800",
+      "panelType": "TFT LCD",
+      "refreshRateHz": 60,
+      "processor": "Spreadtrum SC7730SE Quad-core 1.3 GHz",
+      "ramGb": 1.5,
+      "storageGb": 8,
+      "batteryMah": 5000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 490,
+      "os": "Android 4.4 KitKat",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-e-9-6-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 4199,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Geniş Ekran",
+          "5000 mAh"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-e-9-6.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 4599,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 4399,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4199,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-note-8-0",
+    "slug": "samsung-galaxy-note-8-0",
+    "name": "Samsung Galaxy Note 8.0 (GT-N5110) 16 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 4799,
+    "currency": "TL",
+    "rating": 1.3,
+    "reviewCount": 32,
+    "releaseYear": 2013,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/samsung-galaxy-note-8-0-1.png",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-note-8-0-1.png"
+    ],
+    "highlights": [
+      "8.0\" WXGA Ekran & Dahili Hassas S Pen Kalem",
+      "Samsung Exynos 4 Quad 4412 1.6 GHz & 2 GB RAM",
+      "4600 mAh Batarya & Kompakt Tek Elle Tutuş Tasarımı",
+      "Çoklu Pencere & Akıllı Not Alma Deneyimi"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "TFT LCD",
+      "refreshRateHz": 60,
+      "processor": "Samsung Exynos 4 Quad 4412 (1.6 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 4600,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "1.3 MP",
+      "weightGrams": 340,
+      "os": "Android 4.1.2 / 4.4.2 KitKat",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-note-8-0-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 4799,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "S Pen Dahil",
+          "Exynos 4 Quad"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 180,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-note-8-0.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 5199,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 4999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4799,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-note-8-0-3g",
+    "slug": "samsung-galaxy-note-8-0-3g",
+    "name": "Samsung Galaxy Note 8.0 3G (GT-N5105 / GT-N5100) 16 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 5199,
+    "currency": "TL",
+    "rating": 1.3,
+    "reviewCount": 35,
+    "releaseYear": 2013,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/samsung-galaxy-note-8-0-3g-1.png",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-note-8-0-3g-1.png"
+    ],
+    "highlights": [
+      "8.0\" WXGA Ekran & 3G SIM Kart Telefon Görüşmesi",
+      "Dahili S Pen Kalem & Exynos 4 Quad 4412 1.6 GHz İşlemci",
+      "2 GB RAM & 4600 mAh Batarya",
+      "Kompakt Boyut & Akıllı Not Alma / Arama Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "TFT LCD",
+      "refreshRateHz": 60,
+      "processor": "Samsung Exynos 4 Quad 4412 (1.6 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 4600,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "1.3 MP",
+      "weightGrams": 345,
+      "os": "Android 4.1.2 / 4.4.2 KitKat",
+      "cellularSupport": "3G SIM (Micro-SIM)",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-note-8-0-3g-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 5199,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "3G SIM & Telefon",
+          "S Pen Dahil"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 220,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-note-8-0-3g.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 5699,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 5399,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5199,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-3-8-0",
+    "slug": "samsung-galaxy-tab-3-8-0",
+    "name": "Samsung Galaxy Tab 3 8.0 (SM-T310) 16 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 3999,
+    "currency": "TL",
+    "rating": 1.3,
+    "reviewCount": 28,
+    "releaseYear": 2013,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/samsung-galaxy-tab-3-8-0-1.png",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-3-8-0-1.png"
+    ],
+    "highlights": [
+      "8.0\" WXGA Parlak Ekran & İnce Hafif Tasarım (314 gr)",
+      "Samsung Exynos 4 Dual 4212 1.5 GHz Çift Çekirdek",
+      "1.5 GB RAM & 4450 mAh Batarya",
+      "SoundAlive & Dolby Surround Stereo Hoparlörler"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "TFT LCD",
+      "refreshRateHz": 60,
+      "processor": "Samsung Exynos 4 Dual 4212 (1.5 GHz)",
+      "ramGb": 1.5,
+      "storageGb": 16,
+      "batteryMah": 4450,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "1.3 MP",
+      "weightGrams": 314,
+      "os": "Android 4.2.2 / 4.4.2 KitKat",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-3-8-0-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 3999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hafif & Kompakt",
+          "Dolby Surround"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 160,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-3-8-0.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 4399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 4199,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-3-8-0-3g",
+    "slug": "samsung-galaxy-tab-3-8-0-3g",
+    "name": "Samsung Galaxy Tab 3 8.0 3G (SM-T312 / SM-T311) 16 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 4299,
+    "currency": "TL",
+    "rating": 1.3,
+    "reviewCount": 30,
+    "releaseYear": 2013,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/samsung-galaxy-tab-3-8-0-3g-1.png",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-3-8-0-3g-1.png"
+    ],
+    "highlights": [
+      "8.0\" WXGA Ekran & 3G SIM Kart Sesli Telefon Arama Desteği",
+      "Samsung Exynos 4 Dual 4212 1.5 GHz & 1.5 GB RAM",
+      "4450 mAh Batarya & Kompakt 314 gr Gövde",
+      "5 MP Arka & 1.3 MP Ön Kamera"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "TFT LCD",
+      "refreshRateHz": 60,
+      "processor": "Samsung Exynos 4 Dual 4212 (1.5 GHz)",
+      "ramGb": 1.5,
+      "storageGb": 16,
+      "batteryMah": 4450,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "1.3 MP",
+      "weightGrams": 314,
+      "os": "Android 4.2.2 / 4.4.2 KitKat",
+      "cellularSupport": "3G SIM (Micro-SIM)",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-3-8-0-3g-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 4299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "3G SIM & Sesli Arama",
+          "4450 mAh"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 190,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-3-8-0-3g.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 4699,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 4499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4299,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "samsung-galaxy-tab-pro-10-1",
     "slug": "samsung-galaxy-tab-pro-10-1",
     "name": "Samsung Galaxy Tab Pro 10.1 (SM-T520) 16 GB",
