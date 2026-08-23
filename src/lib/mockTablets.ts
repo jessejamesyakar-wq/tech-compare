@@ -2,6 +2,981 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "casper-pad-z10-pro",
+    "slug": "casper-pad-z10-pro",
+    "name": "Casper Pad Z10 Pro 12 GB / 256 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 37199,
+    "currency": "TL",
+    "rating": 3.2,
+    "reviewCount": 45,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/casper-pad-z10-pro-1.jpg",
+    "images": [
+      "/images/products/tablets/casper-pad-z10-pro-1.jpg"
+    ],
+    "highlights": [
+      "14.2\" 2.4K 120 Hz AMOLED Dev Ekran (2400 x 1600, İnce Çerçeve)",
+      "MediaTek Helio G99 (6 nm) 8 Çekirdek Güçlü İşlemci",
+      "12 GB RAM & 256 GB Geniş Dahili Depolama",
+      "10000 mAh Yüksek Kapasiteli Batarya & 33W Hızlı Şarj"
+    ],
+    "specs": {
+      "screenSizeInches": 14.2,
+      "screenResolution": "2400 x 1600",
+      "panelType": "AMOLED",
+      "refreshRateHz": 120,
+      "processor": "MediaTek Helio G99 (6 nm)",
+      "ramGb": 12,
+      "storageGb": 256,
+      "batteryMah": 10000,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 690,
+      "os": "Android 14",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-pad-z10-pro-offer-1",
+        "storeName": "Casper Resmi Mağaza",
+        "storeLogoColor": "#005696",
+        "price": 37199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "14.2\" AMOLED",
+          "120 Hz Ekran"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 180,
+        "url": "https://www.epey.com/tablet/casper-pad-z10-pro.html"
+      },
+      {
+        "id": "casper-pad-z10-pro-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 37499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.epey.com/tablet/casper-pad-z10-pro.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 38999,
+        "store": "Casper Resmi Mağaza"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 37999,
+        "store": "Casper Resmi Mağaza"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 37199,
+        "store": "Casper Resmi Mağaza"
+      }
+    ]
+  },
+  {
+    "id": "casper-pad-h10-pro",
+    "slug": "casper-pad-h10-pro",
+    "name": "Casper Pad H10 Pro 8 GB / 256 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 19999,
+    "currency": "TL",
+    "rating": 3,
+    "reviewCount": 52,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/casper-pad-h10-pro-1.jpg",
+    "images": [
+      "/images/products/tablets/casper-pad-h10-pro-1.jpg"
+    ],
+    "highlights": [
+      "12.6\" 2.5K 120 Hz IPS Ekran (2560 x 1600)",
+      "MediaTek Helio G99 (6 nm) İşlemci & 8 GB RAM",
+      "4 Hoparlörlü Çevresel Ses & Metal İnce Kasa",
+      "10000 mAh Batarya & 33W Hızlı Şarj"
+    ],
+    "specs": {
+      "screenSizeInches": 12.6,
+      "screenResolution": "2560 x 1600",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 120,
+      "processor": "MediaTek Helio G99 (6 nm)",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 10000,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 620,
+      "os": "Android 14",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-pad-h10-pro-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 19999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "120 Hz 2.5K",
+          "10000 mAh"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.epey.com/tablet/casper-pad-h10-pro.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-04-01",
+        "price": 21999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 20499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "casper-pad-h10",
+    "slug": "casper-pad-h10",
+    "name": "Casper Pad H10 8 GB / 256 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 16739,
+    "currency": "TL",
+    "rating": 3,
+    "reviewCount": 68,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/casper-pad-h10-1.jpg",
+    "images": [
+      "/images/products/tablets/casper-pad-h10-1.jpg"
+    ],
+    "highlights": [
+      "12.6\" 2.5K IPS Ekran (2560 x 1600, Geniş Görüş Açısı)",
+      "MediaTek Helio G99 8 Çekirdek İşlemci",
+      "4 Hoparlörlü Ses Sistemi & 10000 mAh Batarya",
+      "8 GB RAM & 256 GB Geniş Depolama"
+    ],
+    "specs": {
+      "screenSizeInches": 12.6,
+      "screenResolution": "2560 x 1600",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek Helio G99 (6 nm)",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 10000,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 620,
+      "os": "Android 14",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-pad-h10-offer-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 16739,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çok Satan",
+          "12.6\" 2.5K"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 450,
+        "url": "https://www.epey.com/tablet/casper-pad-h10.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 17999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 17299,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16739,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "casper-via-l50",
+    "slug": "casper-via-l50",
+    "name": "Casper VIA L50 8 GB / 128 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 9999,
+    "currency": "TL",
+    "rating": 2.8,
+    "reviewCount": 95,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/casper-via-l50-1.jpg",
+    "images": [
+      "/images/products/tablets/casper-via-l50-1.jpg"
+    ],
+    "highlights": [
+      "11.0\" 90 Hz IPS Ekran (1920 x 1200)",
+      "MediaTek Helio G88 (12 nm) & 8 GB RAM",
+      "4 Hoparlör & 8000 mAh Batarya (18W Şarj)",
+      "Şık Metal Tasarım & Yüksek Verimlilik"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 90,
+      "processor": "MediaTek Helio G88 (12 nm)",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 8000,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 515,
+      "os": "Android 13 / 14",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-via-l50-offer-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#ff6700",
+        "price": 9999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fiyat / Performans",
+          "8 GB RAM"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://www.epey.com/tablet/casper-via-l50.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 10999,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 10499,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9999,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "casper-pad-m10-pro",
+    "slug": "casper-pad-m10-pro",
+    "name": "Casper PAD M10 Pro 8 GB / 128 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 15809,
+    "currency": "TL",
+    "rating": 2.8,
+    "reviewCount": 36,
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/casper-pad-m10-pro-1.jpg",
+    "images": [
+      "/images/products/tablets/casper-pad-m10-pro-1.jpg"
+    ],
+    "highlights": [
+      "12.2\" 90 Hz IPS Ekran (1920 x 1200)",
+      "MediaTek Helio G88 İşlemci & 8 GB RAM",
+      "4 Hoparlörlü Ses Sistemi",
+      "8000 mAh Batarya & 18W Hızlı Şarj"
+    ],
+    "specs": {
+      "screenSizeInches": 12.2,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 90,
+      "processor": "MediaTek Helio G88 (12 nm)",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 8000,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 580,
+      "os": "Android 14",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-pad-m10-pro-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 15809,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "12.2\" Ekran",
+          "8000 mAh Pil"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 140,
+        "url": "https://www.epey.com/tablet/casper-pad-m10-pro.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 16999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 16299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 15809,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "casper-pad-m10",
+    "slug": "casper-pad-m10",
+    "name": "Casper Pad M10 8 GB / 128 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 11999,
+    "currency": "TL",
+    "rating": 2.8,
+    "reviewCount": 48,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/casper-pad-m10-1.jpg",
+    "images": [
+      "/images/products/tablets/casper-pad-m10-1.jpg"
+    ],
+    "highlights": [
+      "12.2\" 90 Hz Geniş Ekran (1920 x 1200)",
+      "MediaTek Helio G88 8 Çekirdek İşlemci",
+      "4 Hoparlör & 8000 mAh Batarya",
+      "8 GB RAM & 128 GB Dahili Hafıza"
+    ],
+    "specs": {
+      "screenSizeInches": 12.2,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 90,
+      "processor": "MediaTek Helio G88 (12 nm)",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 8000,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 580,
+      "os": "Android 14",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-pad-m10-offer-1",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "#002f6c",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Geniş Ekran",
+          "8 GB RAM"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 290,
+        "url": "https://www.epey.com/tablet/casper-pad-m10.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-04-01",
+        "price": 12999,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 12499,
+        "store": "Vatan Bilgisayar"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11999,
+        "store": "Vatan Bilgisayar"
+      }
+    ]
+  },
+  {
+    "id": "casper-via-s50",
+    "slug": "casper-via-s50",
+    "name": "Casper VIA S50 4 GB / 128 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 8342,
+    "currency": "TL",
+    "rating": 2.6,
+    "reviewCount": 75,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/casper-via-s50-1.jpg",
+    "images": [
+      "/images/products/tablets/casper-via-s50-1.jpg"
+    ],
+    "highlights": [
+      "11.0\" 90 Hz IPS Ekran (1920 x 1200)",
+      "MediaTek Helio G88 & 4 GB RAM / 128 GB Depolama",
+      "4 Hoparlör & 8000 mAh Pil",
+      "Uygun Fiyatlı Günlük Kullanım ve Öğrenci Tableti"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 90,
+      "processor": "MediaTek Helio G88 (12 nm)",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 8000,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 515,
+      "os": "Android 13 / 14",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-via-s50-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 8342,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çok Satan",
+          "90 Hz Ekran"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 540,
+        "url": "https://www.epey.com/tablet/casper-via-s50.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 8999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 8649,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8342,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "casper-via-l40",
+    "slug": "casper-via-l40",
+    "name": "Casper VIA L40 8 GB / 128 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 9490,
+    "currency": "TL",
+    "rating": 2.4,
+    "reviewCount": 62,
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/casper-via-l40-1.jpg",
+    "images": [
+      "/images/products/tablets/casper-via-l40-1.jpg"
+    ],
+    "highlights": [
+      "10.4\" 2K IPS Ekran (2000 x 1200)",
+      "MediaTek MT8788 8 Çekirdek İşlemci",
+      "8 GB RAM & 128 GB Dahili Depolama",
+      "4 Hoparlör & 6000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10.4,
+      "screenResolution": "2000 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8788 (12 nm)",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 6000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 480,
+      "os": "Android 12 / 13",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-via-l40-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 9490,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "8 GB RAM",
+          "2K Ekran"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 380,
+        "url": "https://www.epey.com/tablet/casper-via-l40.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 9999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 9749,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9490,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "casper-via-s40",
+    "slug": "casper-via-s40",
+    "name": "Casper VIA S40 4 GB / 128 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 5652,
+    "currency": "TL",
+    "rating": 2.2,
+    "reviewCount": 110,
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/casper-via-s40-1.jpg",
+    "images": [
+      "/images/products/tablets/casper-via-s40-1.jpg"
+    ],
+    "highlights": [
+      "10.4\" 2K IPS Ekran (2000 x 1200)",
+      "MediaTek MT8788 İşlemci & 4 GB RAM",
+      "4 Hoparlörlü Ses Sistemi",
+      "6000 mAh Batarya & İnce Hafif Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 10.4,
+      "screenResolution": "2000 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8788 (12 nm)",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 6000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 480,
+      "os": "Android 12 / 13",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-via-s40-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 5652,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fiyat / Performans",
+          "2K Ekran"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/tablet/casper-via-s40.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 6199,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 5899,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5652,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "casper-via-s30",
+    "slug": "casper-via-s30",
+    "name": "Casper VIA S30 4 GB / 64 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 5499,
+    "currency": "TL",
+    "rating": 2.2,
+    "reviewCount": 85,
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/casper-via-s30-1.png",
+    "images": [
+      "/images/products/tablets/casper-via-s30-1.png"
+    ],
+    "highlights": [
+      "10.0\" IPS Ekran (1280 x 800)",
+      "MediaTek MT8183 8 Çekirdek İşlemci",
+      "7400 mAh Yüksek Kapasiteli Batarya",
+      "4 GB RAM & 64 GB Dahili Hafıza"
+    ],
+    "specs": {
+      "screenSizeInches": 10,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8183",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 7400,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 530,
+      "os": "Android 11",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-via-s30-offer-1",
+        "storeName": "PttAVM",
+        "storeLogoColor": "#ffcc00",
+        "price": 5499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "7400 mAh Pil"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 310,
+        "url": "https://www.epey.com/tablet/casper-via-s30.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 5899,
+        "store": "PttAVM"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 5699,
+        "store": "PttAVM"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5499,
+        "store": "PttAVM"
+      }
+    ]
+  },
+  {
+    "id": "casper-via-s48",
+    "slug": "casper-via-s48",
+    "name": "Casper VIA S48 3 GB / 32 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 4740,
+    "currency": "TL",
+    "rating": 1.5,
+    "reviewCount": 90,
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/casper-via-s48-1.jpg",
+    "images": [
+      "/images/products/tablets/casper-via-s48-1.jpg"
+    ],
+    "highlights": [
+      "8.0\" IPS Kompakt Ekran (1280 x 800)",
+      "MediaTek MT8768 8 Çekirdek İşlemci",
+      "4300 mAh Batarya & Taşınabilir Hafif Tasarım (315 gr)",
+      "3 GB RAM & 32 GB Depolama"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8768",
+      "ramGb": 3,
+      "storageGb": 32,
+      "batteryMah": 4300,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 315,
+      "os": "Android 10",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-via-s48-offer-1",
+        "storeName": "N11",
+        "storeLogoColor": "#53298a",
+        "price": 4740,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kompakt 8.0\"",
+          "Hafif Tasarım"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 420,
+        "url": "https://www.epey.com/tablet/casper-via-s48.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 4999,
+        "store": "N11"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 4849,
+        "store": "N11"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4740,
+        "store": "N11"
+      }
+    ]
+  },
+  {
+    "id": "casper-l20",
+    "slug": "casper-l20",
+    "name": "Casper L20 (4G / LTE) 3 GB / 64 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 4999,
+    "currency": "TL",
+    "rating": 2.3,
+    "reviewCount": 70,
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/casper-l20-1.jpg",
+    "images": [
+      "/images/products/tablets/casper-l20-1.jpg"
+    ],
+    "highlights": [
+      "10.1\" FHD IPS Ekran (1920 x 1200)",
+      "4G LTE SIM Kart Desteği & Arama Özelliği",
+      "7000 mAh Batarya",
+      "MediaTek Helio P23 8 Çekirdek İşlemci"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek Helio P23 (MT6763V)",
+      "ramGb": 3,
+      "storageGb": 64,
+      "batteryMah": 7000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 520,
+      "os": "Android 9.0 (Pie)",
+      "cellularSupport": "4G LTE (Micro-SIM)",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-l20-offer-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#ff6700",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "4G SIM Destekli",
+          "FHD Ekran"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 320,
+        "url": "https://www.epey.com/tablet/casper-l20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 5499,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 5199,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "casper-via-l30",
+    "slug": "casper-via-l30",
+    "name": "Casper VIA L30 (4G / LTE) 4 GB / 64 GB",
+    "brand": "Casper",
+    "category": "tablets",
+    "basePrice": 5299,
+    "currency": "TL",
+    "rating": 2.3,
+    "reviewCount": 65,
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/casper-via-l30-1.jpg",
+    "images": [
+      "/images/products/tablets/casper-via-l30-1.jpg"
+    ],
+    "highlights": [
+      "10.1\" FHD IPS Ekran (1920 x 1200)",
+      "4G LTE SIM Kart Desteği & Çift Hoparlör",
+      "7400 mAh Uzun Ömürlü Batarya",
+      "MediaTek Helio P22 (MT6762) & 4 GB RAM"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek Helio P22 (MT6762)",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 7400,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 540,
+      "os": "Android 10",
+      "cellularSupport": "4G LTE (Nano-SIM)",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "casper-via-l30-offer-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 5299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "4G SIM Destekli",
+          "7400 mAh Pil"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 280,
+        "url": "https://www.epey.com/tablet/casper-via-l30.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 5799,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 5499,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5299,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "honor-magicpad-3-512gb",
     "slug": "honor-magicpad-3-512gb",
     "name": "Honor MagicPad 3 16 GB / 512 GB",
