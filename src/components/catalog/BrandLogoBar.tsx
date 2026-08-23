@@ -207,16 +207,27 @@ const BRAND_CONFIGS: BrandConfig[] = [
     )
   },
   {
-    name: 'Nothing',
-    categoryTag: 'Mobil & CMF Ekosistemi',
-    isMultiCategory: false,
-    searchFilter: 'Nothing',
-    href: '/phones?brand=Nothing',
+    name: 'Casper',
+    categoryTag: 'Excalibur & Nirvana',
+    isMultiCategory: true,
+    searchFilter: 'Casper',
+    href: '/laptops?brand=Casper',
     renderDefaultLogo: () => (
-      <div className="flex items-center gap-1">
-        <div className="w-2 h-2 rounded-full bg-[#D71921]" />
-        <span className="font-mono text-xs font-black text-slate-900 dark:text-white tracking-wider">NOTHING</span>
-      </div>
+      <span className="text-xs font-black text-[#0066B3] dark:text-sky-400 tracking-wider">
+        CASPER
+      </span>
+    )
+  },
+  {
+    name: 'MSI',
+    categoryTag: 'Titan & Raider & Stealth',
+    isMultiCategory: false,
+    searchFilter: 'MSI',
+    href: '/laptops?brand=MSI',
+    renderDefaultLogo: () => (
+      <span className="text-xs font-black text-[#E2001A] dark:text-red-500 tracking-wider font-mono">
+        MSI
+      </span>
     )
   },
 ];
