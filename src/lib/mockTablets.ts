@@ -2,6 +2,601 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "samsung-galaxy-tab-s10-fe-wi-fi-sm-x526",
+    "slug": "samsung-galaxy-tab-s10-fe-wi-fi-sm-x526",
+    "name": "Samsung Galaxy Tab S10 FE Wi-Fi (SM-X520NZAPTUR) 12 GB / 256 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 21999,
+    "currency": "TL",
+    "rating": 3.1,
+    "reviewCount": 110,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/samsung-galaxy-tab-s10-fe-wi-fi-sm-x526-1.jpg",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-s10-fe-wi-fi-sm-x526-1.jpg"
+    ],
+    "highlights": [
+      "10.9\" IPS LCD 90Hz Ekran",
+      "Samsung Exynos 1480 İşlemci",
+      "256 GB Dahili Depolama • 12 GB RAM",
+      "Wi-Fi & Dahili S Pen Kalem Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 10.9,
+      "screenResolution": "2304 x 1440",
+      "panelType": "IPS LCD 90Hz",
+      "refreshRateHz": 90,
+      "processor": "Samsung Exynos 1480",
+      "ramGb": 12,
+      "storageGb": 256,
+      "batteryMah": 8000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "12 MP Ultra Geniş",
+      "weightGrams": 523,
+      "os": "Android 14 / 15 (One UI)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-s10-fe-wi-fi-sm-x526-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Türkiye Garantili",
+          "Orijinal Kutu & S Pen"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s10-fe-wi-fi-sm-x526.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s10-fe-wi-fi-sm-x526-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 22175,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat",
+          "Samsung Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s10-fe-wi-fi-sm-x526.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s10-fe-wi-fi-sm-x526-offer-3",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 22219,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s10-fe-wi-fi-sm-x526.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s10-fe-wi-fi-sm-x526-offer-4",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 22329,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s10-fe-wi-fi-sm-x526.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 23319,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 22659,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21999,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-s10-fe-2",
+    "slug": "samsung-galaxy-tab-s10-fe-2",
+    "name": "Samsung Galaxy Tab S10 FE 5G 8 GB / 128 GB / 5G",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 43700,
+    "currency": "TL",
+    "rating": 3.1,
+    "reviewCount": 138,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/samsung-galaxy-tab-s10-fe-2-1.jpg",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-s10-fe-2-1.jpg"
+    ],
+    "highlights": [
+      "10.9\" IPS LCD 90Hz Ekran",
+      "Samsung Exynos 1480 İşlemci",
+      "128 GB Dahili Depolama • 8 GB RAM",
+      "5G Hücresel + Wi-Fi & Dahili S Pen"
+    ],
+    "specs": {
+      "screenSizeInches": 10.9,
+      "screenResolution": "2304 x 1440",
+      "panelType": "IPS LCD 90Hz",
+      "refreshRateHz": 90,
+      "processor": "Samsung Exynos 1480",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 8000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "12 MP Ultra Geniş",
+      "weightGrams": 524,
+      "os": "Android 14 / 15 (One UI)",
+      "cellularSupport": "5G (Nano-SIM + eSIM)",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-s10-fe-2-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 43700,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Türkiye Garantili",
+          "Orijinal Kutu & S Pen"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s10-fe-2.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s10-fe-2-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 44050,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat",
+          "Samsung Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s10-fe-2.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s10-fe-2-offer-3",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 44137,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s10-fe-2.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s10-fe-2-offer-4",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 44355,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s10-fe-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 46322,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 45011,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 43700,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-s9-fe-plus-wi-fi-2",
+    "slug": "samsung-galaxy-tab-s9-fe-plus-wi-fi-2",
+    "name": "Samsung Galaxy Tab S9 FE+ Wi-Fi (SM-X610NZAETUR) 12 GB / 256 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 31994,
+    "currency": "TL",
+    "rating": 3,
+    "reviewCount": 87,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/samsung-galaxy-tab-s9-fe-plus-wi-fi-2-1.jpg",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-s9-fe-plus-wi-fi-2-1.jpg"
+    ],
+    "highlights": [
+      "12.4\" IPS LCD 90Hz Ekran",
+      "Samsung Exynos 1380 İşlemci",
+      "256 GB Dahili Depolama • 12 GB RAM",
+      "Wi-Fi & Dahili S Pen Kalem Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 12.4,
+      "screenResolution": "2560 x 1600",
+      "panelType": "IPS LCD 90Hz",
+      "refreshRateHz": 90,
+      "processor": "Samsung Exynos 1380",
+      "ramGb": 12,
+      "storageGb": 256,
+      "batteryMah": 10090,
+      "rearCameraMp": "8 MP + 8 MP",
+      "frontCameraMp": "12 MP Ultra Geniş",
+      "weightGrams": 627,
+      "os": "Android 14 / 15 (One UI)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-s9-fe-plus-wi-fi-2-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 31994,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Türkiye Garantili",
+          "Orijinal Kutu & S Pen"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s9-fe-plus-wi-fi-2.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s9-fe-plus-wi-fi-2-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 32250,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat",
+          "Samsung Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s9-fe-plus-wi-fi-2.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s9-fe-plus-wi-fi-2-offer-3",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 32314,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s9-fe-plus-wi-fi-2.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s9-fe-plus-wi-fi-2-offer-4",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 32474,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s9-fe-plus-wi-fi-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 33914,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 32954,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 31994,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-s10-fe-wi-fi",
+    "slug": "samsung-galaxy-tab-s10-fe-wi-fi",
+    "name": "Samsung Galaxy Tab S10 FE Wi-Fi (SM-X520) 8 GB / 128 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 18000,
+    "currency": "TL",
+    "rating": 3,
+    "reviewCount": 66,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/samsung-galaxy-tab-s10-fe-wi-fi-1.jpg",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-s10-fe-wi-fi-1.jpg"
+    ],
+    "highlights": [
+      "10.9\" IPS LCD 90Hz Ekran",
+      "Samsung Exynos 1480 İşlemci",
+      "128 GB Dahili Depolama • 8 GB RAM",
+      "Wi-Fi & Dahili S Pen Kalem Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 10.9,
+      "screenResolution": "2304 x 1440",
+      "panelType": "IPS LCD 90Hz",
+      "refreshRateHz": 90,
+      "processor": "Samsung Exynos 1480",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 8000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "12 MP Ultra Geniş",
+      "weightGrams": 523,
+      "os": "Android 14 / 15 (One UI)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-s10-fe-wi-fi-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 18000,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Türkiye Garantili",
+          "Orijinal Kutu & S Pen"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s10-fe-wi-fi.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s10-fe-wi-fi-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 18144,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat",
+          "Samsung Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s10-fe-wi-fi.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s10-fe-wi-fi-offer-3",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 18180,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s10-fe-wi-fi.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s10-fe-wi-fi-offer-4",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 18270,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s10-fe-wi-fi.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 19080,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 18540,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18000,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-s8-plus",
+    "slug": "samsung-galaxy-tab-s8-plus",
+    "name": "Samsung Galaxy Tab S8+ Wi-Fi 8 GB / 128 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 27999,
+    "currency": "TL",
+    "rating": 3,
+    "reviewCount": 90,
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/samsung-galaxy-tab-s8-plus-1.jpg",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-s8-plus-1.jpg"
+    ],
+    "highlights": [
+      "12.4\" Super AMOLED 120Hz Ekran",
+      "Qualcomm Snapdragon 8 Gen 1 İşlemci",
+      "128 GB Dahili Depolama • 8 GB RAM",
+      "Wi-Fi & Dahili S Pen Kalem Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 12.4,
+      "screenResolution": "2800 x 1752",
+      "panelType": "Super AMOLED 120Hz",
+      "refreshRateHz": 120,
+      "processor": "Qualcomm Snapdragon 8 Gen 1",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 10090,
+      "rearCameraMp": "13 MP + 6 MP",
+      "frontCameraMp": "12 MP Ultra Geniş",
+      "weightGrams": 567,
+      "os": "Android 12 (One UI 4 / 6)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-s8-plus-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 27999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Türkiye Garantili",
+          "Orijinal Kutu & S Pen"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s8-plus.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s8-plus-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 28223,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat",
+          "Samsung Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s8-plus.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s8-plus-offer-3",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 28279,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Trendyol Güvencesi",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1420,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s8-plus.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s8-plus-offer-4",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 28419,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Resmi Distribütör",
+          "Mağazadan Teslim"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 980,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s8-plus.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 29679,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 28839,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 27999,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
     "id": "samsung-galaxy-tab-s11-ultra",
     "slug": "samsung-galaxy-tab-s11-ultra",
     "name": "Samsung Galaxy Tab S11 Ultra Wi-Fi (SM-X930) 16 GB / 1024 GB",
