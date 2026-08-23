@@ -2,6 +2,421 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "samsung-galaxy-tab-a9-plus-5g",
+    "slug": "samsung-galaxy-tab-a9-plus-5g",
+    "name": "Samsung Galaxy Tab A9+ 5G (SM-X216) 4 GB / 64 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 10499,
+    "currency": "TL",
+    "rating": 2.6,
+    "reviewCount": 112,
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/samsung-galaxy-tab-a9-plus-5g-1.jpg",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-a9-plus-5g-1.jpg"
+    ],
+    "highlights": [
+      "11.0\" 90Hz Akıcı Ekran (1920 x 1200)",
+      "Qualcomm Snapdragon 695 5G (6 nm) İşlemci",
+      "5G & 4G LTE Süper Hızlı Hücresel Bağlantı",
+      "7040 mAh Batarya & Dörtlü Dolby Atmos Hoparlör"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "1920 x 1200",
+      "panelType": "TFT LCD 90Hz",
+      "refreshRateHz": 90,
+      "processor": "Qualcomm Snapdragon 695 5G",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 7040,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 491,
+      "os": "Android 13 / 14 (One UI 6)",
+      "cellularSupport": "5G / 4G (Nano-SIM)",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-a9-plus-5g-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 10499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Türkiye Garantili",
+          "5G Destekli"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-a9-plus-5g.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-a9-plus-5g-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 10699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat",
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-a9-plus-5g.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 11499,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 10999,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 10499,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-s2-9-7-sm-t818",
+    "slug": "samsung-galaxy-tab-s2-9-7-sm-t818",
+    "name": "Samsung Galaxy Tab S2 9.7 (SM-T818) 32 GB / 4G LTE",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 6999,
+    "currency": "TL",
+    "rating": 2.6,
+    "reviewCount": 45,
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/samsung-galaxy-tab-s2-9-7-sm-t818-1.png",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-s2-9-7-sm-t818-1.png"
+    ],
+    "highlights": [
+      "9.7\" 2K Super AMOLED Ekran (2048 x 1536)",
+      "Qualcomm Snapdragon 652 8 Çekirdek İşlemci",
+      "4G LTE Hücresel Bağlantı & SIM Kart Desteği",
+      "5870 mAh Batarya & İnce Hafif Metal Gövde (389 gr)"
+    ],
+    "specs": {
+      "screenSizeInches": 9.7,
+      "screenResolution": "2048 x 1536",
+      "panelType": "Super AMOLED",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon 652",
+      "ramGb": 3,
+      "storageGb": 32,
+      "batteryMah": 5870,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "2.1 MP",
+      "weightGrams": 389,
+      "os": "Android 6.0 / 7.0",
+      "cellularSupport": "4G LTE (Nano-SIM)",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-s2-9-7-sm-t818-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 6999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "4G SIM Destekli",
+          "Super AMOLED"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 380,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s2-9-7-sm-t818.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 7499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 7199,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-s2-9-7-sm-t817",
+    "slug": "samsung-galaxy-tab-s2-9-7-sm-t817",
+    "name": "Samsung Galaxy Tab S2 9.7 (SM-T817) 32 GB / 4G",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 6499,
+    "currency": "TL",
+    "rating": 2.6,
+    "reviewCount": 38,
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/samsung-galaxy-tab-s2-9-7-sm-t817-1.png",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-s2-9-7-sm-t817-1.png"
+    ],
+    "highlights": [
+      "9.7\" QXGA Super AMOLED Parlak Ekran (2048 x 1536)",
+      "Samsung Exynos 5433 8 Çekirdek İşlemci",
+      "4G LTE SIM Bağlantısı & Parmak İzi Okuyucu",
+      "5870 mAh Batarya & Ultra İnce 5.6 mm Gövde"
+    ],
+    "specs": {
+      "screenSizeInches": 9.7,
+      "screenResolution": "2048 x 1536",
+      "panelType": "Super AMOLED",
+      "refreshRateHz": 60,
+      "processor": "Samsung Exynos 5433",
+      "ramGb": 3,
+      "storageGb": 32,
+      "batteryMah": 5870,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "2.1 MP",
+      "weightGrams": 392,
+      "os": "Android 5.0 / 6.0",
+      "cellularSupport": "4G LTE (Nano-SIM)",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-s2-9-7-sm-t817-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 6499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "4G SIM Desteği",
+          "Super AMOLED"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 290,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s2-9-7-sm-t817.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 6999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 6799,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-a9-plus-lte",
+    "slug": "samsung-galaxy-tab-a9-plus-lte",
+    "name": "Samsung Galaxy Tab A9+ LTE (SM-X215) 4 GB / 64 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 9299,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 94,
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/samsung-galaxy-tab-a9-plus-lte-1.jpg",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-a9-plus-lte-1.jpg"
+    ],
+    "highlights": [
+      "11.0\" 90Hz Yenileme Hızlı TFT Ekran",
+      "Qualcomm Snapdragon 695 8 Çekirdek İşlemci",
+      "4G LTE SIM Kart Hücresel İnternet & Arama Desteği",
+      "7040 mAh Batarya & Samsung DeX Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "1920 x 1200",
+      "panelType": "TFT LCD 90Hz",
+      "refreshRateHz": 90,
+      "processor": "Qualcomm Snapdragon 695",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 7040,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 491,
+      "os": "Android 13 / 14 (One UI 6)",
+      "cellularSupport": "4G LTE (Nano-SIM)",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-a9-plus-lte-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 9299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Türkiye Garantili",
+          "4G LTE SIM"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-a9-plus-lte.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-a9-plus-lte-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 9399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1900,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-a9-plus-lte.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 9999,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 9599,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9299,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-s6-lite-lte-2022",
+    "slug": "samsung-galaxy-tab-s6-lite-lte-2022",
+    "name": "Samsung Galaxy Tab S6 Lite LTE (2022) (SM-P619NZAATGY) 64 GB",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 14499,
+    "currency": "TL",
+    "rating": 2.5,
+    "reviewCount": 140,
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/samsung-galaxy-tab-s6-lite-lte-2022-1.jpg",
+    "images": [
+      "/images/products/tablets/samsung-galaxy-tab-s6-lite-lte-2022-1.jpg"
+    ],
+    "highlights": [
+      "10.4\" TFT WUXGA+ Ekran (2000 x 1200)",
+      "Qualcomm Snapdragon 720G / 732G (8 nm) İşlemci",
+      "Kutuya Dahil S Pen Manyetik Kalem",
+      "4G LTE SIM Bağlantısı & AKG Dolby Atmos Çift Hoparlör"
+    ],
+    "specs": {
+      "screenSizeInches": 10.4,
+      "screenResolution": "2000 x 1200",
+      "panelType": "TFT LCD",
+      "refreshRateHz": 60,
+      "processor": "Qualcomm Snapdragon 720G",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 7040,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 467,
+      "os": "Android 12 / 13 / 14 (One UI 6)",
+      "cellularSupport": "4G LTE (Nano-SIM)",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "samsung-galaxy-tab-s6-lite-lte-2022-offer-1",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "#1428a0",
+        "price": 14499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Türkiye Garantili",
+          "S Pen Dahil & 4G"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s6-lite-lte-2022.html"
+      },
+      {
+        "id": "samsung-galaxy-tab-s6-lite-lte-2022-offer-2",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 14799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1750,
+        "url": "https://www.epey.com/tablet/samsung-galaxy-tab-s6-lite-lte-2022.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 15499,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 14999,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14499,
+        "store": "Samsung Türkiye"
+      }
+    ]
+  },
+  {
     "id": "samsung-galaxy-tab-a-7-0-2016-sm-t287",
     "slug": "samsung-galaxy-tab-a-7-0-2016-sm-t287",
     "name": "Samsung Galaxy Tab A 7.0 (2016) (SM-T287) 8 GB / 4G",
