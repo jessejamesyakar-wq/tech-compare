@@ -2,6 +2,832 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "xiaomi-pad-8-pro-2",
+    "slug": "xiaomi-pad-8-pro-2",
+    "name": "Xiaomi Pad 8 Pro 12 GB / 512 GB",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "basePrice": 32632.5,
+    "currency": "TL",
+    "rating": 3.9,
+    "reviewCount": 38,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/xiaomi-pad-8-pro-2-1.jpg",
+    "images": [
+      "/images/products/tablets/xiaomi-pad-8-pro-2-1.jpg"
+    ],
+    "highlights": [
+      "11.2\" 3.2K 144Hz Ultra Net Ekran (3200 x 2136)",
+      "Snapdragon 8 Gen 3 Amiral Gemisi İşlemci",
+      "12 GB LPDDR5X RAM & 512 GB UFS 4.0 Depolama",
+      "10000 mAh Batarya & 67W HyperCharge Hızlı Şarj"
+    ],
+    "specs": {
+      "screenSizeInches": 11.2,
+      "screenResolution": "3200 x 2136 (3.2K)",
+      "panelType": "IPS LCD (144Hz, HDR10+, Dolby Vision)",
+      "refreshRateHz": 144,
+      "processor": "Qualcomm Snapdragon 8 Gen 3 (3.3 GHz 8 Çekirdek)",
+      "ramGb": 12,
+      "storageGb": 512,
+      "batteryMah": 10000,
+      "rearCameraMp": "50 MP + 2 MP",
+      "frontCameraMp": "32 MP",
+      "weightGrams": 500,
+      "os": "Android 15 (Xiaomi HyperOS 2)",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "xiaomi-pad-8-pro-2-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 32632.5,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HyperOS 2",
+          "Snapdragon 8 Gen 3",
+          "144Hz 3.2K"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 320,
+        "url": "https://www.epey.com/tablet/xiaomi-pad-8-pro-2.html"
+      },
+      {
+        "id": "xiaomi-pad-8-pro-2-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 32999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Yetkili Satıcı",
+          "67W Hızlı Şarj"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.epey.com/tablet/xiaomi-pad-8-pro-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 33499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 32632.5,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-pad-mini",
+    "slug": "xiaomi-pad-mini",
+    "name": "Xiaomi Pad Mini 12 GB / 512 GB",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "basePrice": 20214.8,
+    "currency": "TL",
+    "rating": 3.5,
+    "reviewCount": 30,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/xiaomi-pad-mini-1.jpg",
+    "images": [
+      "/images/products/tablets/xiaomi-pad-mini-1.jpg"
+    ],
+    "highlights": [
+      "8.8\" 3K 165Hz Kompakt Oyun Ekranı",
+      "Snapdragon 8 Gen 3 Güçlü İşlemci",
+      "12 GB RAM & 512 GB Hızlı Depolama",
+      "8000 mAh Batarya & 67W Hızlı Şarj"
+    ],
+    "specs": {
+      "screenSizeInches": 8.8,
+      "screenResolution": "2880 x 1800 (3K)",
+      "panelType": "IPS LCD (165Hz)",
+      "refreshRateHz": 165,
+      "processor": "Qualcomm Snapdragon 8 Gen 3 (3.3 GHz)",
+      "ramGb": 12,
+      "storageGb": 512,
+      "batteryMah": 8000,
+      "rearCameraMp": "50 MP",
+      "frontCameraMp": "16 MP",
+      "weightGrams": 360,
+      "os": "Android 15 (Xiaomi HyperOS 2)",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "xiaomi-pad-mini-offer-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 20214.8,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "165Hz Kompakt Oyun Tableti"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 210,
+        "url": "https://www.epey.com/tablet/xiaomi-pad-mini.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 21999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 20999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 20214.8,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-pad-8-2",
+    "slug": "xiaomi-pad-8-2",
+    "name": "Xiaomi Pad 8 8 GB / 256 GB",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "basePrice": 22999,
+    "currency": "TL",
+    "rating": 3.5,
+    "reviewCount": 35,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/xiaomi-pad-8-1.jpg",
+    "images": [
+      "/images/products/tablets/xiaomi-pad-8-1.jpg"
+    ],
+    "highlights": [
+      "11.2\" 3.2K 144Hz Ekran (3200 x 2136)",
+      "Snapdragon 8s Gen 3 İşlemci",
+      "8 GB LPDDR5X RAM & 256 GB Depolama",
+      "8850 mAh Batarya & 45W Hızlı Şarj"
+    ],
+    "specs": {
+      "screenSizeInches": 11.2,
+      "screenResolution": "3200 x 2136 (3.2K)",
+      "panelType": "IPS LCD (144Hz)",
+      "refreshRateHz": 144,
+      "processor": "Qualcomm Snapdragon 8s Gen 3 (3.0 GHz)",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 8850,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 490,
+      "os": "Android 15 (Xiaomi HyperOS 2)",
+      "cellularSupport": "Wi-Fi 6E",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "xiaomi-pad-8-2-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 22999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "3.2K 144Hz",
+          "Snapdragon 8s Gen 3"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 290,
+        "url": "https://www.epey.com/tablet/xiaomi-pad-8-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 24999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 23999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 22999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-pad-7-pro-2",
+    "slug": "xiaomi-pad-7-pro-2",
+    "name": "Xiaomi Pad 7 Pro 12 GB / 512 GB",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "basePrice": 23872.55,
+    "currency": "TL",
+    "rating": 3.4,
+    "reviewCount": 42,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/xiaomi-pad-7-pro-1.jpg",
+    "images": [
+      "/images/products/tablets/xiaomi-pad-7-pro-1.jpg"
+    ],
+    "highlights": [
+      "11.2\" 3.2K 144Hz Ekran (3200 x 2136)",
+      "Snapdragon 8s Gen 3 İşlemci",
+      "12 GB LPDDR5X RAM & 512 GB UFS 4.0",
+      "8850 mAh Batarya & 67W HyperCharge"
+    ],
+    "specs": {
+      "screenSizeInches": 11.2,
+      "screenResolution": "3200 x 2136 (3.2K)",
+      "panelType": "IPS LCD (144Hz, HDR10, Dolby Vision)",
+      "refreshRateHz": 144,
+      "processor": "Qualcomm Snapdragon 8s Gen 3 (3.0 GHz)",
+      "ramGb": 12,
+      "storageGb": 512,
+      "batteryMah": 8850,
+      "rearCameraMp": "50 MP + 2 MP",
+      "frontCameraMp": "32 MP",
+      "weightGrams": 500,
+      "os": "Android 15 (Xiaomi HyperOS 2)",
+      "cellularSupport": "Wi-Fi 7",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "xiaomi-pad-7-pro-2-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 23872.55,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "67W Hızlı Şarj",
+          "50 MP Kamera"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 310,
+        "url": "https://www.epey.com/tablet/xiaomi-pad-7-pro-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 25999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 24499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 23872.55,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-pad-7",
+    "slug": "xiaomi-pad-7",
+    "name": "Xiaomi Pad 7 8 GB / 256 GB",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "basePrice": 16739.07,
+    "currency": "TL",
+    "rating": 3.2,
+    "reviewCount": 48,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/xiaomi-pad-7-1.jpg",
+    "images": [
+      "/images/products/tablets/xiaomi-pad-7-1.jpg"
+    ],
+    "highlights": [
+      "11.2\" 3.2K 144Hz Akıcı Ekran (3200 x 2136)",
+      "Snapdragon 7+ Gen 3 İşlemci",
+      "8 GB RAM & 256 GB Depolama",
+      "8850 mAh Batarya & 45W Turbo Şarj"
+    ],
+    "specs": {
+      "screenSizeInches": 11.2,
+      "screenResolution": "3200 x 2136 (3.2K)",
+      "panelType": "IPS LCD (144Hz)",
+      "refreshRateHz": 144,
+      "processor": "Qualcomm Snapdragon 7+ Gen 3 (2.8 GHz)",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 8850,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 500,
+      "os": "Android 15 (Xiaomi HyperOS 2)",
+      "cellularSupport": "Wi-Fi 6E",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "xiaomi-pad-7-offer-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 16739.07,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fiyat / Performans",
+          "3.2K 144Hz"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 450,
+        "url": "https://www.epey.com/tablet/xiaomi-pad-7.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 18499,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 17299,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16739.07,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-pad-7-2",
+    "slug": "xiaomi-pad-7-2",
+    "name": "Xiaomi Pad 7 8 GB / 128 GB",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "basePrice": 32999,
+    "currency": "TL",
+    "rating": 3.1,
+    "reviewCount": 20,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/xiaomi-pad-7-128gb-1.jpg",
+    "images": [
+      "/images/products/tablets/xiaomi-pad-7-128gb-1.jpg"
+    ],
+    "highlights": [
+      "11.2\" 3.2K 144Hz Ekran",
+      "Snapdragon 7+ Gen 3 İşlemci",
+      "8 GB RAM & 128 GB Depolama",
+      "8850 mAh Batarya & 45W Şarj"
+    ],
+    "specs": {
+      "screenSizeInches": 11.2,
+      "screenResolution": "3200 x 2136 (3.2K)",
+      "panelType": "IPS LCD (144Hz)",
+      "refreshRateHz": 144,
+      "processor": "Qualcomm Snapdragon 7+ Gen 3 (2.8 GHz)",
+      "ramGb": 8,
+      "storageGb": 128,
+      "batteryMah": 8850,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 500,
+      "os": "Android 15 (Xiaomi HyperOS 2)",
+      "cellularSupport": "Wi-Fi 6E",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "xiaomi-pad-7-2-offer-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#ff6700",
+        "price": 32999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "128 GB"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 90,
+        "url": "https://www.epey.com/tablet/xiaomi-pad-7-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 34999,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 33999,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 32999,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "redmi-pad-2-pro",
+    "slug": "redmi-pad-2-pro",
+    "name": "Redmi Pad 2 Pro 8 GB / 256 GB",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "basePrice": 14582.5,
+    "currency": "TL",
+    "rating": 3.1,
+    "reviewCount": 36,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/redmi-pad-2-pro-1.jpg",
+    "images": [
+      "/images/products/tablets/redmi-pad-2-pro-1.jpg"
+    ],
+    "highlights": [
+      "12.1\" 2.5K 120Hz Geniş Ekran (2560 x 1600)",
+      "Snapdragon 7s Gen 2 İşlemci",
+      "10000 mAh Devasa Batarya & 33W Şarj",
+      "Dörtlü Dolby Atmos Hoparlör"
+    ],
+    "specs": {
+      "screenSizeInches": 12.1,
+      "screenResolution": "2560 x 1600 (2.5K)",
+      "panelType": "IPS LCD (120Hz, Dolby Vision)",
+      "refreshRateHz": 120,
+      "processor": "Qualcomm Snapdragon 7s Gen 2 (2.4 GHz)",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 10000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 571,
+      "os": "Android 15 (Xiaomi HyperOS 2)",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "redmi-pad-2-pro-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 14582.5,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "12.1\" Geniş Ekran",
+          "10000 mAh"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://www.epey.com/tablet/redmi-pad-2-pro.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 15999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14582.5,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-pad-6",
+    "slug": "xiaomi-pad-6",
+    "name": "Xiaomi Pad 6 8 GB / 256 GB",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "basePrice": 20999,
+    "currency": "TL",
+    "rating": 3,
+    "reviewCount": 95,
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/xiaomi-pad-6-1.jpg",
+    "images": [
+      "/images/products/tablets/xiaomi-pad-6-1.jpg"
+    ],
+    "highlights": [
+      "11.0\" WQHD+ 144Hz Ekran (2880 x 1800)",
+      "Qualcomm Snapdragon 870 İşlemci",
+      "8840 mAh Batarya & 33W Hızlı Şarj",
+      "Dörtlü Stereo Hoparlör & Dolby Atmos"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "2880 x 1800 (WQHD+)",
+      "panelType": "IPS LCD (144Hz, HDR10, Dolby Vision)",
+      "refreshRateHz": 144,
+      "processor": "Qualcomm Snapdragon 870 (3.2 GHz)",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 8840,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 490,
+      "os": "Android 14 (HyperOS)",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "xiaomi-pad-6-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 20999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "144Hz WQHD+",
+          "Snapdragon 870"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 850,
+        "url": "https://www.epey.com/tablet/xiaomi-pad-6.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-04-01",
+        "price": 21999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 21499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 20999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "redmi-pad-pro-2",
+    "slug": "redmi-pad-pro-2",
+    "name": "Redmi Pad Pro 8 GB / 256 GB",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "basePrice": 17812.5,
+    "currency": "TL",
+    "rating": 3,
+    "reviewCount": 65,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/redmi-pad-pro-256gb-1.jpg",
+    "images": [
+      "/images/products/tablets/redmi-pad-pro-256gb-1.jpg"
+    ],
+    "highlights": [
+      "12.1\" 2.5K 120Hz Ekran (2560 x 1600)",
+      "Snapdragon 7s Gen 2 İşlemci",
+      "10000 mAh Batarya & 33W Hızlı Şarj",
+      "8 GB RAM & 256 GB Depolama"
+    ],
+    "specs": {
+      "screenSizeInches": 12.1,
+      "screenResolution": "2560 x 1600 (2.5K)",
+      "panelType": "IPS LCD (120Hz)",
+      "refreshRateHz": 120,
+      "processor": "Qualcomm Snapdragon 7s Gen 2 (2.4 GHz)",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 10000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 571,
+      "os": "Android 14 (HyperOS)",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "redmi-pad-pro-2-offer-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 17812.5,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "12.1\" Ekran",
+          "10000 mAh"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 520,
+        "url": "https://www.epey.com/tablet/redmi-pad-pro-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 18999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 18299,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 17812.5,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-pad-5",
+    "slug": "xiaomi-pad-5",
+    "name": "Xiaomi Pad 5 6 GB / 256 GB",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "basePrice": 22325,
+    "currency": "TL",
+    "rating": 2.9,
+    "reviewCount": 110,
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/xiaomi-pad-5-1.png",
+    "images": [
+      "/images/products/tablets/xiaomi-pad-5-1.png"
+    ],
+    "highlights": [
+      "11.0\" WQHD+ 120Hz Ekran (2560 x 1600)",
+      "Qualcomm Snapdragon 860 İşlemci",
+      "8720 mAh Batarya & 33W Hızlı Şarj",
+      "6 GB RAM & 256 GB Depolama"
+    ],
+    "specs": {
+      "screenSizeInches": 11,
+      "screenResolution": "2560 x 1600 (WQHD+)",
+      "panelType": "IPS LCD (120Hz, Dolby Vision)",
+      "refreshRateHz": 120,
+      "processor": "Qualcomm Snapdragon 860 (2.96 GHz)",
+      "ramGb": 6,
+      "storageGb": 256,
+      "batteryMah": 8720,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 511,
+      "os": "Android 13 (MIUI for Pad)",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "xiaomi-pad-5-offer-1",
+        "storeName": "N11",
+        "storeLogoColor": "#53298a",
+        "price": 22325,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "120Hz WQHD+"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 650,
+        "url": "https://www.epey.com/tablet/xiaomi-pad-5.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-04-01",
+        "price": 23999,
+        "store": "N11"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 22999,
+        "store": "N11"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 22325,
+        "store": "N11"
+      }
+    ]
+  },
+  {
+    "id": "redmi-pad-pro-6gb-126-gb",
+    "slug": "redmi-pad-pro-6gb-126-gb",
+    "name": "Redmi Pad Pro 6 GB / 128 GB",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "basePrice": 23615.1,
+    "currency": "TL",
+    "rating": 2.9,
+    "reviewCount": 50,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/redmi-pad-pro-6-128-1.jpg",
+    "images": [
+      "/images/products/tablets/redmi-pad-pro-6-128-1.jpg"
+    ],
+    "highlights": [
+      "12.1\" 2.5K 120Hz Ekran (2560 x 1600)",
+      "Snapdragon 7s Gen 2 İşlemci",
+      "10000 mAh Batarya & 33W Hızlı Şarj",
+      "6 GB RAM & 128 GB Depolama"
+    ],
+    "specs": {
+      "screenSizeInches": 12.1,
+      "screenResolution": "2560 x 1600 (2.5K)",
+      "panelType": "IPS LCD (120Hz)",
+      "refreshRateHz": 120,
+      "processor": "Qualcomm Snapdragon 7s Gen 2 (2.4 GHz)",
+      "ramGb": 6,
+      "storageGb": 128,
+      "batteryMah": 10000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 571,
+      "os": "Android 14 (HyperOS)",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "redmi-pad-pro-6gb-126-gb-offer-1",
+        "storeName": "PttAVM",
+        "storeLogoColor": "#ffcc00",
+        "price": 23615.1,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "6 GB / 128 GB"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 120,
+        "url": "https://www.epey.com/tablet/redmi-pad-pro-6gb-126-gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 24999,
+        "store": "PttAVM"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 24299,
+        "store": "PttAVM"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 23615.1,
+        "store": "PttAVM"
+      }
+    ]
+  },
+  {
     "id": "casper-via-t41",
     "slug": "casper-via-t41",
     "name": "Casper VIA T41 2 GB / 16 GB",
