@@ -2,6 +2,776 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "huawei-matepad-pro-13-2-2025-512-gb",
+    "slug": "huawei-matepad-pro-13-2-2025-512-gb",
+    "name": "Huawei MatePad Pro 13.2 (2025) 12 GB / 512 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 81698,
+    "currency": "TL",
+    "rating": 3.6,
+    "reviewCount": 48,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/huawei-matepad-pro-13-2-2025-512-gb-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-pro-13-2-2025-512-gb-1.jpg"
+    ],
+    "highlights": [
+      "13.2\" 2.8K Flexible OLED Ekran (2880 x 1920, 144 Hz, %94 Ekran-Gövde Oranı)",
+      "HiSilicon Kirin 9000W & 12 GB RAM / 512 GB Dahili Hafıza",
+      "10100 mAh Batarya & 88W Huawei SuperCharge Hızlı Şarj",
+      "HUAWEI SOUND 6 Hoparlörlü Akustik Sistem & 5.5 mm Ultra İnce Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 13.2,
+      "screenResolution": "2880 x 1920",
+      "panelType": "Flexible OLED",
+      "refreshRateHz": 144,
+      "processor": "HiSilicon Kirin 9000W Octa-core",
+      "ramGb": 12,
+      "storageGb": 512,
+      "batteryMah": 10100,
+      "rearCameraMp": "13 MP + 8 MP",
+      "frontCameraMp": "16 MP + dToF",
+      "weightGrams": 580,
+      "os": "HarmonyOS 4.3",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-pro-13-2-2025-512-gb-offer-1",
+        "storeName": "Huawei Store",
+        "storeLogoColor": "#cf0a2c",
+        "price": 81698,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "88W Hızlı Şarj"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 450,
+        "url": "https://www.epey.com/tablet/huawei-matepad-pro-13-2-2025-512-gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-04-01",
+        "price": 84999,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 82999,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 81698,
+        "store": "Huawei Store"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-pro-12-2-papermatte-edition-2025",
+    "slug": "huawei-matepad-pro-12-2-papermatte-edition-2025",
+    "name": "Huawei MatePad Pro 12.2 PaperMatte Edition (2025) 12 GB / 512 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 43849,
+    "currency": "TL",
+    "rating": 3.6,
+    "reviewCount": 95,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/huawei-matepad-pro-12-2-papermatte-edition-2025-1.png",
+    "images": [
+      "/images/products/tablets/huawei-matepad-pro-12-2-papermatte-edition-2025-1.png"
+    ],
+    "highlights": [
+      "12.2\" Çift Katmanlı Tandem OLED PaperMatte Ekran (2800 x 1840, 144 Hz, 2000 nits)",
+      "HiSilicon Kirin T91 & 12 GB RAM / 512 GB Depolama",
+      "10100 mAh Batarya & 100W Huawei SuperCharge Desteği",
+      "Huawei SOUND 8 Hoparlörlü Profesyonel Ses & 508 gr Hafif İpek Dokulu Kasa"
+    ],
+    "specs": {
+      "screenSizeInches": 12.2,
+      "screenResolution": "2800 x 1840",
+      "panelType": "Tandem OLED PaperMatte",
+      "refreshRateHz": 144,
+      "processor": "HiSilicon Kirin T91",
+      "ramGb": 12,
+      "storageGb": 512,
+      "batteryMah": 10100,
+      "rearCameraMp": "13 MP + 8 MP",
+      "frontCameraMp": "8 MP Smart Sensing",
+      "weightGrams": 508,
+      "os": "HarmonyOS 4.2",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-pro-12-2-papermatte-edition-2025-offer-1",
+        "storeName": "Huawei Store",
+        "storeLogoColor": "#cf0a2c",
+        "price": 43849,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "100W Şarj & Tandem OLED"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1250,
+        "url": "https://www.epey.com/tablet/huawei-matepad-pro-12-2-papermatte-edition-2025.html"
+      },
+      {
+        "id": "huawei-matepad-pro-12-2-papermatte-edition-2025-offer-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 44299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat",
+          "Peşin Fiyatına 3 Taksit"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/tablet/huawei-matepad-pro-12-2-papermatte-edition-2025.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 46999,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 44999,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 43849,
+        "store": "Huawei Store"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-pro-13-2-2025",
+    "slug": "huawei-matepad-pro-13-2-2025",
+    "name": "Huawei MatePad Pro 13.2 (2025) 12 GB / 256 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 60000,
+    "currency": "TL",
+    "rating": 3.5,
+    "reviewCount": 42,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-pro-13-2-2025-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-pro-13-2-2025-1.jpg"
+    ],
+    "highlights": [
+      "13.2\" 144 Hz Flexible OLED Ekran (2880 x 1920, 1000 nits)",
+      "HiSilicon Kirin 9000W & 12 GB RAM",
+      "10100 mAh Batarya & 88W Hızlı Şarj",
+      "Huawei SOUND 6 Hoparlörlü Ses Sistemi & 580 gr Ağırlık"
+    ],
+    "specs": {
+      "screenSizeInches": 13.2,
+      "screenResolution": "2880 x 1920",
+      "panelType": "Flexible OLED",
+      "refreshRateHz": 144,
+      "processor": "HiSilicon Kirin 9000W",
+      "ramGb": 12,
+      "storageGb": 256,
+      "batteryMah": 10100,
+      "rearCameraMp": "13 MP + 8 MP",
+      "frontCameraMp": "16 MP + dToF",
+      "weightGrams": 580,
+      "os": "HarmonyOS 4.2",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-pro-13-2-2025-offer-1",
+        "storeName": "Huawei Store",
+        "storeLogoColor": "#cf0a2c",
+        "price": 60000,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "OLED 144 Hz",
+          "88W Hızlı Şarj"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 380,
+        "url": "https://www.epey.com/tablet/huawei-matepad-pro-13-2-2025.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 63999,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 61999,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 60000,
+        "store": "Huawei Store"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-12-x-2025-papermatte-edition-klavye-plus-kalem",
+    "slug": "huawei-matepad-12-x-2025-papermatte-edition-klavye-plus-kalem",
+    "name": "Huawei MatePad 12 X 2025 PaperMatte Edition (+Klavye +Kalem) 12 GB / 256 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 28130,
+    "currency": "TL",
+    "rating": 3.4,
+    "reviewCount": 110,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/products/tablets/huawei-matepad-12-x-2025-papermatte-edition-klavye-plus-kalem-1.png",
+    "images": [
+      "/images/products/tablets/huawei-matepad-12-x-2025-papermatte-edition-klavye-plus-kalem-1.png"
+    ],
+    "highlights": [
+      "12.0\" 2.8K 144 Hz PaperMatte Ekran (2800 x 1840, Parlama Önleyici Mat Yüzey)",
+      "Kutu İçeriğinde Manyetik Akıllı Klavye + M-Pencil (NearLink) Kalem Dahil",
+      "10100 mAh Batarya & 66W SuperCharge Hızlı Şarj",
+      "HiSilicon Kirin T90A & 12 GB RAM / 256 GB Depolama"
+    ],
+    "specs": {
+      "screenSizeInches": 12,
+      "screenResolution": "2800 x 1840",
+      "panelType": "PaperMatte LCD",
+      "refreshRateHz": 144,
+      "processor": "HiSilicon Kirin T90A",
+      "ramGb": 12,
+      "storageGb": 256,
+      "batteryMah": 10100,
+      "rearCameraMp": "13 MP + 8 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 555,
+      "os": "HarmonyOS 4.2",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": true
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-12-x-2025-papermatte-edition-klavye-plus-kalem-offer-1",
+        "storeName": "Huawei Store",
+        "storeLogoColor": "#cf0a2c",
+        "price": 28130,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Klavye + Kalem Dahil",
+          "PaperMatte 144 Hz"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1400,
+        "url": "https://www.epey.com/tablet/huawei-matepad-12-x-2025-papermatte-edition-klavye-plus-kalem.html"
+      },
+      {
+        "id": "huawei-matepad-12-x-2025-papermatte-edition-klavye-plus-kalem-offer-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 28499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat",
+          "Tam Set Paket"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 920,
+        "url": "https://www.epey.com/tablet/huawei-matepad-12-x-2025-papermatte-edition-klavye-plus-kalem.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 29999,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 28999,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 28130,
+        "store": "Huawei Store"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-12-x-papermatte-edition-2025",
+    "slug": "huawei-matepad-12-x-papermatte-edition-2025",
+    "name": "Huawei MatePad 12 X 2025 PaperMatte Edition (+Klavye) 12 GB / 256 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 26626,
+    "currency": "TL",
+    "rating": 3.4,
+    "reviewCount": 78,
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-12-x-papermatte-edition-2025-1.png",
+    "images": [
+      "/images/products/tablets/huawei-matepad-12-x-papermatte-edition-2025-1.png"
+    ],
+    "highlights": [
+      "12.0\" 2.8K 144 Hz PaperMatte Ekran & Manyetik Akıllı Klavye Dahil",
+      "HiSilicon Kirin T90A & 12 GB RAM",
+      "10100 mAh Batarya & 66W Hızlı Şarj",
+      "Huawei SOUND 6 Hoparlör & İnce Metal Kasa (555 gr)"
+    ],
+    "specs": {
+      "screenSizeInches": 12,
+      "screenResolution": "2800 x 1840",
+      "panelType": "PaperMatte LCD",
+      "refreshRateHz": 144,
+      "processor": "HiSilicon Kirin T90A",
+      "ramGb": 12,
+      "storageGb": 256,
+      "batteryMah": 10100,
+      "rearCameraMp": "13 MP + 8 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 555,
+      "os": "HarmonyOS 4.2",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-12-x-papermatte-edition-2025-offer-1",
+        "storeName": "Huawei Store",
+        "storeLogoColor": "#cf0a2c",
+        "price": 26626,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Klavye Dahil",
+          "PaperMatte Ekran"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 670,
+        "url": "https://www.epey.com/tablet/huawei-matepad-12-x-papermatte-edition-2025.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 27999,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 26999,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 26626,
+        "store": "Huawei Store"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-pro-13-2",
+    "slug": "huawei-matepad-pro-13-2",
+    "name": "Huawei MatePad Pro 13.2 12 GB / 256 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 52250,
+    "currency": "TL",
+    "rating": 3.3,
+    "reviewCount": 65,
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-pro-13-2-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-pro-13-2-1.jpg"
+    ],
+    "highlights": [
+      "13.2\" 144 Hz Flexible OLED Ekran (2880 x 1920, 1000 nits)",
+      "HiSilicon Kirin 9000S & 12 GB RAM / 256 GB Depolama",
+      "10100 mAh Batarya & 88W Huawei SuperCharge",
+      "HUAWEI SOUND 6 Hoparlörlü Ses & 580 gr Hafif Gövde"
+    ],
+    "specs": {
+      "screenSizeInches": 13.2,
+      "screenResolution": "2880 x 1920",
+      "panelType": "Flexible OLED",
+      "refreshRateHz": 144,
+      "processor": "HiSilicon Kirin 9000S",
+      "ramGb": 12,
+      "storageGb": 256,
+      "batteryMah": 10100,
+      "rearCameraMp": "13 MP + 8 MP",
+      "frontCameraMp": "16 MP + dToF",
+      "weightGrams": 580,
+      "os": "HarmonyOS 4.0",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-pro-13-2-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 52250,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "OLED 144 Hz",
+          "88W Hızlı Şarj"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 310,
+        "url": "https://www.epey.com/tablet/huawei-matepad-pro-13-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 55999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 53999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 52250,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-pro-12-6",
+    "slug": "huawei-matepad-pro-12-6",
+    "name": "Huawei MatePad Pro 12.6 (2022) 8 GB / 256 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 37278,
+    "currency": "TL",
+    "rating": 3.3,
+    "reviewCount": 52,
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-pro-12-6-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-pro-12-6-1.jpg"
+    ],
+    "highlights": [
+      "12.6\" 120 Hz OLED 2K Ekran (2560 x 1600, Delta E < 0.5 Renk Doğruluğu)",
+      "HiSilicon Kirin 9000E & 8 GB RAM / 256 GB Hafıza",
+      "10050 mAh Batarya & 40W Kablolu + 27W Kablosuz Şarj",
+      "Huawei SOUND 8 Hoparlörlü Profesyonel Ses"
+    ],
+    "specs": {
+      "screenSizeInches": 12.6,
+      "screenResolution": "2560 x 1600",
+      "panelType": "OLED",
+      "refreshRateHz": 120,
+      "processor": "HiSilicon Kirin 9000E",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 10050,
+      "rearCameraMp": "13 MP + 8 MP + 3D ToF",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 609,
+      "os": "HarmonyOS 3.0 / 4.0",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-pro-12-6-offer-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 37278,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "120 Hz OLED",
+          "Kablosuz Şarj"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 240,
+        "url": "https://www.epey.com/tablet/huawei-matepad-pro-12-6.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 39999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 38499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 37278,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-pro-12-6-2",
+    "slug": "huawei-matepad-pro-12-6-2",
+    "name": "Huawei MatePad Pro 12.6 (2021) 8 GB / 256 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 41442,
+    "currency": "TL",
+    "rating": 3.3,
+    "reviewCount": 40,
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-pro-12-6-2-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-pro-12-6-2-1.jpg"
+    ],
+    "highlights": [
+      "12.6\" WQXGA OLED Ekran (2560 x 1600, DCI-P3)",
+      "HiSilicon Kirin 9000E 5 nm Güçlü İşlemci",
+      "10050 mAh Batarya & Harman Kardon 8 Hoparlör",
+      "40W SuperCharge & 27W Kablosuz Şarj & 10W Ters Kablosuz Şarj"
+    ],
+    "specs": {
+      "screenSizeInches": 12.6,
+      "screenResolution": "2560 x 1600",
+      "panelType": "OLED",
+      "refreshRateHz": 60,
+      "processor": "HiSilicon Kirin 9000E (5 nm)",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 10050,
+      "rearCameraMp": "13 MP + 8 MP + 3D Depth",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 609,
+      "os": "HarmonyOS 2.0 / 3.0",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-pro-12-6-2-offer-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 41442,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Harman Kardon Ses",
+          "OLED Panel"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 180,
+        "url": "https://www.epey.com/tablet/huawei-matepad-pro-12-6-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 44999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 42999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 41442,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-12-x-papermatte",
+    "slug": "huawei-matepad-12-x-papermatte",
+    "name": "Huawei MatePad 12 X PaperMatte Edition 12 GB / 256 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 33499,
+    "currency": "TL",
+    "rating": 3.2,
+    "reviewCount": 68,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-12-x-papermatte-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-12-x-papermatte-1.jpg"
+    ],
+    "highlights": [
+      "12.0\" 2.8K 144 Hz PaperMatte Ekran (Parlama Yapmayan Mat Yüzey)",
+      "HiSilicon Kirin T90A & 12 GB RAM / 256 GB Hafıza",
+      "10100 mAh Batarya & 66W SuperCharge Desteği",
+      "HUAWEI SOUND 6 Hoparlörlü Ses Düzeni & 555 gr Gövde"
+    ],
+    "specs": {
+      "screenSizeInches": 12,
+      "screenResolution": "2800 x 1840",
+      "panelType": "PaperMatte LCD",
+      "refreshRateHz": 144,
+      "processor": "HiSilicon Kirin T90A",
+      "ramGb": 12,
+      "storageGb": 256,
+      "batteryMah": 10100,
+      "rearCameraMp": "13 MP + 8 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 555,
+      "os": "HarmonyOS 4.2",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-12-x-papermatte-offer-1",
+        "storeName": "Huawei Store",
+        "storeLogoColor": "#cf0a2c",
+        "price": 33499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "PaperMatte 144 Hz",
+          "12 GB RAM"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/tablet/huawei-matepad-12-x-papermatte.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 35999,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 34499,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 33499,
+        "store": "Huawei Store"
+      }
+    ]
+  },
+  {
+    "id": "huawei-matepad-12-x",
+    "slug": "huawei-matepad-12-x",
+    "name": "Huawei MatePad 12 X 8 GB / 256 GB",
+    "brand": "Huawei",
+    "category": "tablets",
+    "basePrice": 28999,
+    "currency": "TL",
+    "rating": 3.1,
+    "reviewCount": 54,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/products/tablets/huawei-matepad-12-x-1.jpg",
+    "images": [
+      "/images/products/tablets/huawei-matepad-12-x-1.jpg"
+    ],
+    "highlights": [
+      "12.0\" 2.8K 144 Hz Ultra Parlak Ekran (2800 x 1840, 1000 nits)",
+      "HiSilicon Kirin T90A & 8 GB RAM / 256 GB Depolama",
+      "10100 mAh Batarya & 66W SuperCharge Hızlı Şarj",
+      "HUAWEI SOUND 6 Hoparlör & Şık Metal Kasa (5.9 mm / 555 gr)"
+    ],
+    "specs": {
+      "screenSizeInches": 12,
+      "screenResolution": "2800 x 1840",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 144,
+      "processor": "HiSilicon Kirin T90A",
+      "ramGb": 8,
+      "storageGb": 256,
+      "batteryMah": 10100,
+      "rearCameraMp": "13 MP + 8 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 555,
+      "os": "HarmonyOS 4.2",
+      "cellularSupport": "Wi-Fi Only",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "huawei-matepad-12-x-offer-1",
+        "storeName": "Huawei Store",
+        "storeLogoColor": "#cf0a2c",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Huawei Türkiye Garantili",
+          "144 Hz 2.8K Ekran"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 530,
+        "url": "https://www.epey.com/tablet/huawei-matepad-12-x.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 30999,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-05-01",
+        "price": 29999,
+        "store": "Huawei Store"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 28999,
+        "store": "Huawei Store"
+      }
+    ]
+  },
+  {
     "id": "samsung-galaxy-tab-e-9-6-sm-t561",
     "slug": "samsung-galaxy-tab-e-9-6-sm-t561",
     "name": "Samsung Galaxy Tab E 9.6 3G (SM-T562 / SM-T561) 8 GB",
