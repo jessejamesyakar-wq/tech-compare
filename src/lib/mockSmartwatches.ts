@@ -4883,4 +4883,2189 @@ export const mockSmartwatches: Product[] = [
       "batteryLife": "18-36 Saate Kadar Pil Ömrü (Hızlı Şarj Destekli)"
     }
   }
+,
+  {
+  "id": "samsung-samsung-galaxy-ring",
+  "slug": "samsung-samsung-galaxy-ring",
+  "name": "Samsung Galaxy Ring",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "basePrice": 12297,
+  "currency": "TL",
+  "rating": 4.7,
+  "epeyScore": 90,
+  "reviewCount": 578,
+  "releaseYear": 2024,
+  "isPopular": true,
+  "isFeatured": false,
+  "image": "/images/smartwatches/samsung-1023378.jpg",
+  "images": [
+    "/images/smartwatches/samsung-1023378.jpg"
+  ],
+  "highlights": [
+    "Havacılık Sınıfı Titanyum Kasa & 7 Gün Pil Ömrü",
+    "BioActive Sensör (Kalp Atış, EKG, Vücut Kompozisyonu BIA)",
+    "Gelişmiş Uyku Koçluğu ve Enerji Skoru Analizi",
+    "IP68 & 5ATM / 10ATM Suya Dayanıklılık"
+  ],
+  "specs": {
+    "caseSizeMm": 7,
+    "displayType": "Ekran Bulunmuyor (Akıllı Sensör Halkası)",
+    "displaySizeInches": 0,
+    "batteryLifeDays": 7,
+    "batteryCapacityMah": 22,
+    "waterResistanceAtm": 10,
+    "os": "Samsung Health Entegre",
+    "compatibility": [
+      "Android 10.0 ve üzeri",
+      "Samsung Galaxy Cihazlar"
+    ],
+    "sensors": [
+      "Kalp Atış Hızı (Optik)",
+      "EKG",
+      "BIA Vücut Analizi",
+      "SpO2",
+      "Cilt Sıcaklığı",
+      "İvmeölçer",
+      "Barometre",
+      "Jiroskop"
+    ],
+    "connectivity": [
+      "Bluetooth 5.3",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "weightGrams": 33,
+    "material": "Havacılık Sınıfı Titanyum (Grade 5)",
+    "hasMicrophone": false,
+    "hasSpeaker": false,
+    "hasGPS": false,
+    "hasHeartRate": true,
+    "hasSpO2": true,
+    "hasECG": true,
+    "hasSleepTracking": true
+  },
+  "storeOffers": [
+    {
+      "id": "so-samsung-1023378-1",
+      "storeName": "Samsung TR",
+      "storeLogoColor": "bg-blue-900",
+      "price": 12297,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Resmi Samsung Türkiye Garantili"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 4500,
+      "url": "https://www.epey.com/akilli-yuzuk/samsung-galaxy-ring.html"
+    },
+    {
+      "id": "so-samsung-1023378-2",
+      "storeName": "Hepsiburada",
+      "storeLogoColor": "bg-orange-500",
+      "price": 12543,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Hızlı Teslimat"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 3200,
+      "url": "https://www.epey.com/akilli-yuzuk/samsung-galaxy-ring.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 13281,
+      "store": "Samsung TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 12297,
+      "store": "Samsung TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-watch-ultra-2",
+  "slug": "samsung-samsung-galaxy-watch-ultra-2",
+  "name": "Samsung Galaxy Watch Ultra 2",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "basePrice": 36950,
+  "currency": "TL",
+  "rating": 4.7,
+  "epeyScore": 96,
+  "reviewCount": 1021,
+  "releaseYear": 2024,
+  "isPopular": true,
+  "isFeatured": true,
+  "image": "/images/smartwatches/samsung-1065621.jpg",
+  "images": [
+    "/images/smartwatches/samsung-1065621.jpg"
+  ],
+  "highlights": [
+    "47mm Ergonomik Gövde & Super AMOLED (3000 Nit Safir Cam) Ekran",
+    "BioActive Sensör (Kalp Atış, EKG, Vücut Kompozisyonu BIA)",
+    "Gelişmiş Uyku Koçluğu ve Enerji Skoru Analizi",
+    "IP68 & 5ATM / 10ATM Suya Dayanıklılık"
+  ],
+  "specs": {
+    "caseSizeMm": 47,
+    "displayType": "Super AMOLED (3000 Nit Safir Cam)",
+    "displaySizeInches": 1.5,
+    "batteryLifeDays": 4,
+    "batteryCapacityMah": 590,
+    "waterResistanceAtm": 10,
+    "os": "Wear OS Powered by Samsung (One UI Watch)",
+    "compatibility": [
+      "Android 10.0 ve üzeri",
+      "Samsung Galaxy Cihazlar"
+    ],
+    "sensors": [
+      "Kalp Atış Hızı (Optik)",
+      "EKG",
+      "BIA Vücut Analizi",
+      "SpO2",
+      "Cilt Sıcaklığı",
+      "İvmeölçer",
+      "Barometre",
+      "Jiroskop"
+    ],
+    "connectivity": [
+      "Bluetooth 5.3",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "weightGrams": 60,
+    "material": "Grade 4 Havacılık Titanyum Gövde",
+    "hasMicrophone": true,
+    "hasSpeaker": true,
+    "hasGPS": true,
+    "hasHeartRate": true,
+    "hasSpO2": true,
+    "hasECG": true,
+    "hasSleepTracking": true
+  },
+  "storeOffers": [
+    {
+      "id": "so-samsung-1065621-1",
+      "storeName": "Samsung TR",
+      "storeLogoColor": "bg-blue-900",
+      "price": 36950,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Resmi Samsung Türkiye Garantili"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 4500,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-ultra-2.html"
+    },
+    {
+      "id": "so-samsung-1065621-2",
+      "storeName": "Hepsiburada",
+      "storeLogoColor": "bg-orange-500",
+      "price": 37689,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Hızlı Teslimat"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 3200,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-ultra-2.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 39906,
+      "store": "Samsung TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 36950,
+      "store": "Samsung TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-watch-ultra-2025",
+  "slug": "samsung-samsung-galaxy-watch-ultra-2025",
+  "name": "Samsung Galaxy Watch Ultra 2025",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "basePrice": 21449.8,
+  "currency": "TL",
+  "rating": 4.9,
+  "epeyScore": 87,
+  "reviewCount": 536,
+  "releaseYear": 2024,
+  "isPopular": true,
+  "isFeatured": true,
+  "image": "/images/smartwatches/samsung-1035686.jpg",
+  "images": [
+    "/images/smartwatches/samsung-1035686.jpg"
+  ],
+  "highlights": [
+    "47mm Ergonomik Gövde & Super AMOLED (3000 Nit Safir Cam) Ekran",
+    "BioActive Sensör (Kalp Atış, EKG, Vücut Kompozisyonu BIA)",
+    "Gelişmiş Uyku Koçluğu ve Enerji Skoru Analizi",
+    "IP68 & 5ATM / 10ATM Suya Dayanıklılık"
+  ],
+  "specs": {
+    "caseSizeMm": 47,
+    "displayType": "Super AMOLED (3000 Nit Safir Cam)",
+    "displaySizeInches": 1.5,
+    "batteryLifeDays": 4,
+    "batteryCapacityMah": 590,
+    "waterResistanceAtm": 10,
+    "os": "Wear OS Powered by Samsung (One UI Watch)",
+    "compatibility": [
+      "Android 10.0 ve üzeri",
+      "Samsung Galaxy Cihazlar"
+    ],
+    "sensors": [
+      "Kalp Atış Hızı (Optik)",
+      "EKG",
+      "BIA Vücut Analizi",
+      "SpO2",
+      "Cilt Sıcaklığı",
+      "İvmeölçer",
+      "Barometre",
+      "Jiroskop"
+    ],
+    "connectivity": [
+      "Bluetooth 5.3",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "weightGrams": 60,
+    "material": "Grade 4 Havacılık Titanyum Gövde",
+    "hasMicrophone": true,
+    "hasSpeaker": true,
+    "hasGPS": true,
+    "hasHeartRate": true,
+    "hasSpO2": true,
+    "hasECG": true,
+    "hasSleepTracking": true
+  },
+  "storeOffers": [
+    {
+      "id": "so-samsung-1035686-1",
+      "storeName": "Samsung TR",
+      "storeLogoColor": "bg-blue-900",
+      "price": 21449.8,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Resmi Samsung Türkiye Garantili"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 4500,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-ultra-2025.html"
+    },
+    {
+      "id": "so-samsung-1035686-2",
+      "storeName": "Hepsiburada",
+      "storeLogoColor": "bg-orange-500",
+      "price": 21879,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Hızlı Teslimat"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 3200,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-ultra-2025.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 23166,
+      "store": "Samsung TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 21449.8,
+      "store": "Samsung TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-watch-9-44mm",
+  "slug": "samsung-samsung-galaxy-watch-9-44mm",
+  "name": "Samsung Galaxy Watch 9 44mm",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "basePrice": 17590,
+  "currency": "TL",
+  "rating": 4.9,
+  "epeyScore": 93,
+  "reviewCount": 1044,
+  "releaseYear": 2026,
+  "isPopular": true,
+  "isFeatured": true,
+  "image": "/images/smartwatches/samsung-1065644.jpg",
+  "images": [
+    "/images/smartwatches/samsung-1065644.jpg"
+  ],
+  "highlights": [
+    "44mm Ergonomik Gövde & Super AMOLED Ekran",
+    "BioActive Sensör (Kalp Atış, EKG, Vücut Kompozisyonu BIA)",
+    "Gelişmiş Uyku Koçluğu ve Enerji Skoru Analizi",
+    "IP68 & 5ATM / 10ATM Suya Dayanıklılık"
+  ],
+  "specs": {
+    "caseSizeMm": 44,
+    "displayType": "Super AMOLED",
+    "displaySizeInches": 1.4,
+    "batteryLifeDays": 2,
+    "batteryCapacityMah": 425,
+    "waterResistanceAtm": 5,
+    "os": "Wear OS Powered by Samsung (One UI Watch)",
+    "compatibility": [
+      "Android 10.0 ve üzeri",
+      "Samsung Galaxy Cihazlar"
+    ],
+    "sensors": [
+      "Kalp Atış Hızı (Optik)",
+      "EKG",
+      "BIA Vücut Analizi",
+      "SpO2",
+      "Cilt Sıcaklığı",
+      "İvmeölçer",
+      "Barometre",
+      "Jiroskop"
+    ],
+    "connectivity": [
+      "Bluetooth 5.3",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "weightGrams": 33,
+    "material": "Zırh Alüminyum",
+    "hasMicrophone": true,
+    "hasSpeaker": true,
+    "hasGPS": true,
+    "hasHeartRate": true,
+    "hasSpO2": true,
+    "hasECG": true,
+    "hasSleepTracking": true
+  },
+  "storeOffers": [
+    {
+      "id": "so-samsung-1065644-1",
+      "storeName": "Samsung TR",
+      "storeLogoColor": "bg-blue-900",
+      "price": 17590,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Resmi Samsung Türkiye Garantili"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 4500,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-9-44mm.html"
+    },
+    {
+      "id": "so-samsung-1065644-2",
+      "storeName": "Hepsiburada",
+      "storeLogoColor": "bg-orange-500",
+      "price": 17942,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Hızlı Teslimat"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 3200,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-9-44mm.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 18997,
+      "store": "Samsung TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 17590,
+      "store": "Samsung TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-watch-9-40mm",
+  "slug": "samsung-samsung-galaxy-watch-9-40mm",
+  "name": "Samsung Galaxy Watch 9 40mm",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "basePrice": 18000,
+  "currency": "TL",
+  "rating": 4.7,
+  "epeyScore": 97,
+  "reviewCount": 1048,
+  "releaseYear": 2026,
+  "isPopular": true,
+  "isFeatured": true,
+  "image": "/images/smartwatches/samsung-1065648.jpg",
+  "images": [
+    "/images/smartwatches/samsung-1065648.jpg"
+  ],
+  "highlights": [
+    "40mm Ergonomik Gövde & Super AMOLED Ekran",
+    "BioActive Sensör (Kalp Atış, EKG, Vücut Kompozisyonu BIA)",
+    "Gelişmiş Uyku Koçluğu ve Enerji Skoru Analizi",
+    "IP68 & 5ATM / 10ATM Suya Dayanıklılık"
+  ],
+  "specs": {
+    "caseSizeMm": 40,
+    "displayType": "Super AMOLED",
+    "displaySizeInches": 1.2,
+    "batteryLifeDays": 2,
+    "batteryCapacityMah": 300,
+    "waterResistanceAtm": 5,
+    "os": "Wear OS Powered by Samsung (One UI Watch)",
+    "compatibility": [
+      "Android 10.0 ve üzeri",
+      "Samsung Galaxy Cihazlar"
+    ],
+    "sensors": [
+      "Kalp Atış Hızı (Optik)",
+      "EKG",
+      "BIA Vücut Analizi",
+      "SpO2",
+      "Cilt Sıcaklığı",
+      "İvmeölçer",
+      "Barometre",
+      "Jiroskop"
+    ],
+    "connectivity": [
+      "Bluetooth 5.3",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "weightGrams": 33,
+    "material": "Zırh Alüminyum",
+    "hasMicrophone": true,
+    "hasSpeaker": true,
+    "hasGPS": true,
+    "hasHeartRate": true,
+    "hasSpO2": true,
+    "hasECG": true,
+    "hasSleepTracking": true
+  },
+  "storeOffers": [
+    {
+      "id": "so-samsung-1065648-1",
+      "storeName": "Samsung TR",
+      "storeLogoColor": "bg-blue-900",
+      "price": 18000,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Resmi Samsung Türkiye Garantili"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 4500,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-9-40mm.html"
+    },
+    {
+      "id": "so-samsung-1065648-2",
+      "storeName": "Hepsiburada",
+      "storeLogoColor": "bg-orange-500",
+      "price": 18360,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Hızlı Teslimat"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 3200,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-9-40mm.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 19440,
+      "store": "Samsung TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 18000,
+      "store": "Samsung TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-watch-7-44mm",
+  "slug": "samsung-samsung-galaxy-watch-7-44mm",
+  "name": "Samsung Galaxy Watch 7 (44mm)",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "basePrice": 10199.1,
+  "currency": "TL",
+  "rating": 4.8,
+  "epeyScore": 87,
+  "reviewCount": 393,
+  "releaseYear": 2024,
+  "isPopular": true,
+  "isFeatured": false,
+  "image": "/images/smartwatches/samsung-949093.jpg",
+  "images": [
+    "/images/smartwatches/samsung-949093.jpg"
+  ],
+  "highlights": [
+    "44mm Ergonomik Gövde & Super AMOLED Ekran",
+    "BioActive Sensör (Kalp Atış, EKG, Vücut Kompozisyonu BIA)",
+    "Gelişmiş Uyku Koçluğu ve Enerji Skoru Analizi",
+    "IP68 & 5ATM / 10ATM Suya Dayanıklılık"
+  ],
+  "specs": {
+    "caseSizeMm": 44,
+    "displayType": "Super AMOLED",
+    "displaySizeInches": 1.4,
+    "batteryLifeDays": 2,
+    "batteryCapacityMah": 425,
+    "waterResistanceAtm": 5,
+    "os": "Wear OS Powered by Samsung (One UI Watch)",
+    "compatibility": [
+      "Android 10.0 ve üzeri",
+      "Samsung Galaxy Cihazlar"
+    ],
+    "sensors": [
+      "Kalp Atış Hızı (Optik)",
+      "EKG",
+      "BIA Vücut Analizi",
+      "SpO2",
+      "Cilt Sıcaklığı",
+      "İvmeölçer",
+      "Barometre",
+      "Jiroskop"
+    ],
+    "connectivity": [
+      "Bluetooth 5.3",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "weightGrams": 33,
+    "material": "Zırh Alüminyum",
+    "hasMicrophone": true,
+    "hasSpeaker": true,
+    "hasGPS": true,
+    "hasHeartRate": true,
+    "hasSpO2": true,
+    "hasECG": true,
+    "hasSleepTracking": true
+  },
+  "storeOffers": [
+    {
+      "id": "so-samsung-949093-1",
+      "storeName": "Samsung TR",
+      "storeLogoColor": "bg-blue-900",
+      "price": 10199.1,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Resmi Samsung Türkiye Garantili"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 4500,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch7-44mm.html"
+    },
+    {
+      "id": "so-samsung-949093-2",
+      "storeName": "Hepsiburada",
+      "storeLogoColor": "bg-orange-500",
+      "price": 10403,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Hızlı Teslimat"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 3200,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch7-44mm.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 11015,
+      "store": "Samsung TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 10199.1,
+      "store": "Samsung TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-watch-8-classic",
+  "slug": "samsung-samsung-galaxy-watch-8-classic",
+  "name": "Samsung Galaxy Watch 8 Classic",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "basePrice": 11760,
+  "currency": "TL",
+  "rating": 4.7,
+  "epeyScore": 93,
+  "reviewCount": 977,
+  "releaseYear": 2025,
+  "isPopular": true,
+  "isFeatured": false,
+  "image": "/images/smartwatches/samsung-1018077.jpg",
+  "images": [
+    "/images/smartwatches/samsung-1018077.jpg"
+  ],
+  "highlights": [
+    "46mm Ergonomik Gövde & Super AMOLED Ekran",
+    "BioActive Sensör (Kalp Atış, EKG, Vücut Kompozisyonu BIA)",
+    "Gelişmiş Uyku Koçluğu ve Enerji Skoru Analizi",
+    "IP68 & 5ATM / 10ATM Suya Dayanıklılık"
+  ],
+  "specs": {
+    "caseSizeMm": 46,
+    "displayType": "Super AMOLED",
+    "displaySizeInches": 1.4,
+    "batteryLifeDays": 2,
+    "batteryCapacityMah": 425,
+    "waterResistanceAtm": 5,
+    "os": "Wear OS Powered by Samsung (One UI Watch)",
+    "compatibility": [
+      "Android 10.0 ve üzeri",
+      "Samsung Galaxy Cihazlar"
+    ],
+    "sensors": [
+      "Kalp Atış Hızı (Optik)",
+      "EKG",
+      "BIA Vücut Analizi",
+      "SpO2",
+      "Cilt Sıcaklığı",
+      "İvmeölçer",
+      "Barometre",
+      "Jiroskop"
+    ],
+    "connectivity": [
+      "Bluetooth 5.3",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "weightGrams": 60,
+    "material": "Paslanmaz Çelik & Döner Bezel",
+    "hasMicrophone": true,
+    "hasSpeaker": true,
+    "hasGPS": true,
+    "hasHeartRate": true,
+    "hasSpO2": true,
+    "hasECG": true,
+    "hasSleepTracking": true
+  },
+  "storeOffers": [
+    {
+      "id": "so-samsung-1018077-1",
+      "storeName": "Samsung TR",
+      "storeLogoColor": "bg-blue-900",
+      "price": 11760,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Resmi Samsung Türkiye Garantili"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 4500,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-8-classic.html"
+    },
+    {
+      "id": "so-samsung-1018077-2",
+      "storeName": "Hepsiburada",
+      "storeLogoColor": "bg-orange-500",
+      "price": 11995,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Hızlı Teslimat"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 3200,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-8-classic.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 12701,
+      "store": "Samsung TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 11760,
+      "store": "Samsung TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-watch-5-pro",
+  "slug": "samsung-samsung-galaxy-watch-5-pro",
+  "name": "Samsung Galaxy Watch 5 Pro",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "basePrice": 7742.5,
+  "currency": "TL",
+  "rating": 4.7,
+  "epeyScore": 85,
+  "reviewCount": 950,
+  "releaseYear": 2023,
+  "isPopular": true,
+  "isFeatured": false,
+  "image": "/images/smartwatches/samsung-801450.jpg",
+  "images": [
+    "/images/smartwatches/samsung-801450.jpg"
+  ],
+  "highlights": [
+    "44mm Ergonomik Gövde & Super AMOLED Ekran",
+    "BioActive Sensör (Kalp Atış, EKG, Vücut Kompozisyonu BIA)",
+    "Gelişmiş Uyku Koçluğu ve Enerji Skoru Analizi",
+    "IP68 & 5ATM / 10ATM Suya Dayanıklılık"
+  ],
+  "specs": {
+    "caseSizeMm": 44,
+    "displayType": "Super AMOLED",
+    "displaySizeInches": 1.4,
+    "batteryLifeDays": 2,
+    "batteryCapacityMah": 425,
+    "waterResistanceAtm": 5,
+    "os": "Wear OS Powered by Samsung (One UI Watch)",
+    "compatibility": [
+      "Android 10.0 ve üzeri",
+      "Samsung Galaxy Cihazlar"
+    ],
+    "sensors": [
+      "Kalp Atış Hızı (Optik)",
+      "EKG",
+      "BIA Vücut Analizi",
+      "SpO2",
+      "Cilt Sıcaklığı",
+      "İvmeölçer",
+      "Barometre",
+      "Jiroskop"
+    ],
+    "connectivity": [
+      "Bluetooth 5.3",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "weightGrams": 33,
+    "material": "Zırh Alüminyum",
+    "hasMicrophone": true,
+    "hasSpeaker": true,
+    "hasGPS": true,
+    "hasHeartRate": true,
+    "hasSpO2": true,
+    "hasECG": true,
+    "hasSleepTracking": true
+  },
+  "storeOffers": [
+    {
+      "id": "so-samsung-801450-1",
+      "storeName": "Samsung TR",
+      "storeLogoColor": "bg-blue-900",
+      "price": 7742.5,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Resmi Samsung Türkiye Garantili"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 4500,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-5-pro.html"
+    },
+    {
+      "id": "so-samsung-801450-2",
+      "storeName": "Hepsiburada",
+      "storeLogoColor": "bg-orange-500",
+      "price": 7897,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Hızlı Teslimat"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 3200,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-5-pro.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 8362,
+      "store": "Samsung TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 7742.5,
+      "store": "Samsung TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-watch-6-44mm",
+  "slug": "samsung-samsung-galaxy-watch-6-44mm",
+  "name": "Samsung Galaxy Watch 6 44mm",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "basePrice": 8490,
+  "currency": "TL",
+  "rating": 4.8,
+  "epeyScore": 88,
+  "reviewCount": 748,
+  "releaseYear": 2023,
+  "isPopular": true,
+  "isFeatured": false,
+  "image": "/images/smartwatches/samsung-884848.jpg",
+  "images": [
+    "/images/smartwatches/samsung-884848.jpg"
+  ],
+  "highlights": [
+    "44mm Ergonomik Gövde & Super AMOLED Ekran",
+    "BioActive Sensör (Kalp Atış, EKG, Vücut Kompozisyonu BIA)",
+    "Gelişmiş Uyku Koçluğu ve Enerji Skoru Analizi",
+    "IP68 & 5ATM / 10ATM Suya Dayanıklılık"
+  ],
+  "specs": {
+    "caseSizeMm": 44,
+    "displayType": "Super AMOLED",
+    "displaySizeInches": 1.4,
+    "batteryLifeDays": 2,
+    "batteryCapacityMah": 425,
+    "waterResistanceAtm": 5,
+    "os": "Wear OS Powered by Samsung (One UI Watch)",
+    "compatibility": [
+      "Android 10.0 ve üzeri",
+      "Samsung Galaxy Cihazlar"
+    ],
+    "sensors": [
+      "Kalp Atış Hızı (Optik)",
+      "EKG",
+      "BIA Vücut Analizi",
+      "SpO2",
+      "Cilt Sıcaklığı",
+      "İvmeölçer",
+      "Barometre",
+      "Jiroskop"
+    ],
+    "connectivity": [
+      "Bluetooth 5.3",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "weightGrams": 33,
+    "material": "Zırh Alüminyum",
+    "hasMicrophone": true,
+    "hasSpeaker": true,
+    "hasGPS": true,
+    "hasHeartRate": true,
+    "hasSpO2": true,
+    "hasECG": true,
+    "hasSleepTracking": true
+  },
+  "storeOffers": [
+    {
+      "id": "so-samsung-884848-1",
+      "storeName": "Samsung TR",
+      "storeLogoColor": "bg-blue-900",
+      "price": 8490,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Resmi Samsung Türkiye Garantili"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 4500,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-6-44mm.html"
+    },
+    {
+      "id": "so-samsung-884848-2",
+      "storeName": "Hepsiburada",
+      "storeLogoColor": "bg-orange-500",
+      "price": 8660,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Hızlı Teslimat"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 3200,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-6-44mm.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 9169,
+      "store": "Samsung TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 8490,
+      "store": "Samsung TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-watch-6-classic-47mm",
+  "slug": "samsung-samsung-galaxy-watch-6-classic-47mm",
+  "name": "Samsung Galaxy Watch 6 Classic 47mm",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "basePrice": 10699,
+  "currency": "TL",
+  "rating": 4.8,
+  "epeyScore": 97,
+  "reviewCount": 718,
+  "releaseYear": 2024,
+  "isPopular": true,
+  "isFeatured": false,
+  "image": "/images/smartwatches/samsung-884818.jpg",
+  "images": [
+    "/images/smartwatches/samsung-884818.jpg"
+  ],
+  "highlights": [
+    "47mm Ergonomik Gövde & Super AMOLED Ekran",
+    "BioActive Sensör (Kalp Atış, EKG, Vücut Kompozisyonu BIA)",
+    "Gelişmiş Uyku Koçluğu ve Enerji Skoru Analizi",
+    "IP68 & 5ATM / 10ATM Suya Dayanıklılık"
+  ],
+  "specs": {
+    "caseSizeMm": 47,
+    "displayType": "Super AMOLED",
+    "displaySizeInches": 1.4,
+    "batteryLifeDays": 2,
+    "batteryCapacityMah": 425,
+    "waterResistanceAtm": 5,
+    "os": "Wear OS Powered by Samsung (One UI Watch)",
+    "compatibility": [
+      "Android 10.0 ve üzeri",
+      "Samsung Galaxy Cihazlar"
+    ],
+    "sensors": [
+      "Kalp Atış Hızı (Optik)",
+      "EKG",
+      "BIA Vücut Analizi",
+      "SpO2",
+      "Cilt Sıcaklığı",
+      "İvmeölçer",
+      "Barometre",
+      "Jiroskop"
+    ],
+    "connectivity": [
+      "Bluetooth 5.3",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "weightGrams": 60,
+    "material": "Paslanmaz Çelik & Döner Bezel",
+    "hasMicrophone": true,
+    "hasSpeaker": true,
+    "hasGPS": true,
+    "hasHeartRate": true,
+    "hasSpO2": true,
+    "hasECG": true,
+    "hasSleepTracking": true
+  },
+  "storeOffers": [
+    {
+      "id": "so-samsung-884818-1",
+      "storeName": "Samsung TR",
+      "storeLogoColor": "bg-blue-900",
+      "price": 10699,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Resmi Samsung Türkiye Garantili"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 4500,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-6-classic-47mm.html"
+    },
+    {
+      "id": "so-samsung-884818-2",
+      "storeName": "Hepsiburada",
+      "storeLogoColor": "bg-orange-500",
+      "price": 10913,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Hızlı Teslimat"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 3200,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-6-classic-47mm.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 11555,
+      "store": "Samsung TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 10699,
+      "store": "Samsung TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-watch-6-40mm",
+  "slug": "samsung-samsung-galaxy-watch-6-40mm",
+  "name": "Samsung Galaxy Watch 6 40mm",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "basePrice": 7109.1,
+  "currency": "TL",
+  "rating": 4.7,
+  "epeyScore": 97,
+  "reviewCount": 744,
+  "releaseYear": 2023,
+  "isPopular": true,
+  "isFeatured": false,
+  "image": "/images/smartwatches/samsung-884844.jpg",
+  "images": [
+    "/images/smartwatches/samsung-884844.jpg"
+  ],
+  "highlights": [
+    "40mm Ergonomik Gövde & Super AMOLED Ekran",
+    "BioActive Sensör (Kalp Atış, EKG, Vücut Kompozisyonu BIA)",
+    "Gelişmiş Uyku Koçluğu ve Enerji Skoru Analizi",
+    "IP68 & 5ATM / 10ATM Suya Dayanıklılık"
+  ],
+  "specs": {
+    "caseSizeMm": 40,
+    "displayType": "Super AMOLED",
+    "displaySizeInches": 1.2,
+    "batteryLifeDays": 2,
+    "batteryCapacityMah": 300,
+    "waterResistanceAtm": 5,
+    "os": "Wear OS Powered by Samsung (One UI Watch)",
+    "compatibility": [
+      "Android 10.0 ve üzeri",
+      "Samsung Galaxy Cihazlar"
+    ],
+    "sensors": [
+      "Kalp Atış Hızı (Optik)",
+      "EKG",
+      "BIA Vücut Analizi",
+      "SpO2",
+      "Cilt Sıcaklığı",
+      "İvmeölçer",
+      "Barometre",
+      "Jiroskop"
+    ],
+    "connectivity": [
+      "Bluetooth 5.3",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "weightGrams": 33,
+    "material": "Zırh Alüminyum",
+    "hasMicrophone": true,
+    "hasSpeaker": true,
+    "hasGPS": true,
+    "hasHeartRate": true,
+    "hasSpO2": true,
+    "hasECG": true,
+    "hasSleepTracking": true
+  },
+  "storeOffers": [
+    {
+      "id": "so-samsung-884844-1",
+      "storeName": "Samsung TR",
+      "storeLogoColor": "bg-blue-900",
+      "price": 7109.1,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Resmi Samsung Türkiye Garantili"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 4500,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-6-40mm.html"
+    },
+    {
+      "id": "so-samsung-884844-2",
+      "storeName": "Hepsiburada",
+      "storeLogoColor": "bg-orange-500",
+      "price": 7251,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Hızlı Teslimat"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 3200,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-6-40mm.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 7678,
+      "store": "Samsung TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 7109.1,
+      "store": "Samsung TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-watch-5-44mm",
+  "slug": "samsung-samsung-galaxy-watch-5-44mm",
+  "name": "Samsung Galaxy Watch 5 44mm",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "basePrice": 6300,
+  "currency": "TL",
+  "rating": 4.9,
+  "epeyScore": 86,
+  "reviewCount": 808,
+  "releaseYear": 2023,
+  "isPopular": true,
+  "isFeatured": false,
+  "image": "/images/smartwatches/samsung-801308.jpg",
+  "images": [
+    "/images/smartwatches/samsung-801308.jpg"
+  ],
+  "highlights": [
+    "44mm Ergonomik Gövde & Super AMOLED Ekran",
+    "BioActive Sensör (Kalp Atış, EKG, Vücut Kompozisyonu BIA)",
+    "Gelişmiş Uyku Koçluğu ve Enerji Skoru Analizi",
+    "IP68 & 5ATM / 10ATM Suya Dayanıklılık"
+  ],
+  "specs": {
+    "caseSizeMm": 44,
+    "displayType": "Super AMOLED",
+    "displaySizeInches": 1.4,
+    "batteryLifeDays": 2,
+    "batteryCapacityMah": 425,
+    "waterResistanceAtm": 5,
+    "os": "Wear OS Powered by Samsung (One UI Watch)",
+    "compatibility": [
+      "Android 10.0 ve üzeri",
+      "Samsung Galaxy Cihazlar"
+    ],
+    "sensors": [
+      "Kalp Atış Hızı (Optik)",
+      "EKG",
+      "BIA Vücut Analizi",
+      "SpO2",
+      "Cilt Sıcaklığı",
+      "İvmeölçer",
+      "Barometre",
+      "Jiroskop"
+    ],
+    "connectivity": [
+      "Bluetooth 5.3",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "weightGrams": 33,
+    "material": "Zırh Alüminyum",
+    "hasMicrophone": true,
+    "hasSpeaker": true,
+    "hasGPS": true,
+    "hasHeartRate": true,
+    "hasSpO2": true,
+    "hasECG": true,
+    "hasSleepTracking": true
+  },
+  "storeOffers": [
+    {
+      "id": "so-samsung-801308-1",
+      "storeName": "Samsung TR",
+      "storeLogoColor": "bg-blue-900",
+      "price": 6300,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Resmi Samsung Türkiye Garantili"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 4500,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-5-44mm.html"
+    },
+    {
+      "id": "so-samsung-801308-2",
+      "storeName": "Hepsiburada",
+      "storeLogoColor": "bg-orange-500",
+      "price": 6426,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Hızlı Teslimat"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 3200,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-5-44mm.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 6804,
+      "store": "Samsung TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 6300,
+      "store": "Samsung TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-watch-6-classic-43mm",
+  "slug": "samsung-samsung-galaxy-watch-6-classic-43mm",
+  "name": "Samsung Galaxy Watch 6 Classic 43mm",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "basePrice": 9899.1,
+  "currency": "TL",
+  "rating": 4.8,
+  "epeyScore": 92,
+  "reviewCount": 739,
+  "releaseYear": 2023,
+  "isPopular": true,
+  "isFeatured": false,
+  "image": "/images/smartwatches/samsung-884839.jpg",
+  "images": [
+    "/images/smartwatches/samsung-884839.jpg"
+  ],
+  "highlights": [
+    "43mm Ergonomik Gövde & Super AMOLED Ekran",
+    "BioActive Sensör (Kalp Atış, EKG, Vücut Kompozisyonu BIA)",
+    "Gelişmiş Uyku Koçluğu ve Enerji Skoru Analizi",
+    "IP68 & 5ATM / 10ATM Suya Dayanıklılık"
+  ],
+  "specs": {
+    "caseSizeMm": 43,
+    "displayType": "Super AMOLED",
+    "displaySizeInches": 1.4,
+    "batteryLifeDays": 2,
+    "batteryCapacityMah": 425,
+    "waterResistanceAtm": 5,
+    "os": "Wear OS Powered by Samsung (One UI Watch)",
+    "compatibility": [
+      "Android 10.0 ve üzeri",
+      "Samsung Galaxy Cihazlar"
+    ],
+    "sensors": [
+      "Kalp Atış Hızı (Optik)",
+      "EKG",
+      "BIA Vücut Analizi",
+      "SpO2",
+      "Cilt Sıcaklığı",
+      "İvmeölçer",
+      "Barometre",
+      "Jiroskop"
+    ],
+    "connectivity": [
+      "Bluetooth 5.3",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "weightGrams": 33,
+    "material": "Paslanmaz Çelik & Döner Bezel",
+    "hasMicrophone": true,
+    "hasSpeaker": true,
+    "hasGPS": true,
+    "hasHeartRate": true,
+    "hasSpO2": true,
+    "hasECG": true,
+    "hasSleepTracking": true
+  },
+  "storeOffers": [
+    {
+      "id": "so-samsung-884839-1",
+      "storeName": "Samsung TR",
+      "storeLogoColor": "bg-blue-900",
+      "price": 9899.1,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Resmi Samsung Türkiye Garantili"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 4500,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-6-classic-43mm.html"
+    },
+    {
+      "id": "so-samsung-884839-2",
+      "storeName": "Hepsiburada",
+      "storeLogoColor": "bg-orange-500",
+      "price": 10097,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Hızlı Teslimat"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 3200,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-6-classic-43mm.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 10691,
+      "store": "Samsung TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 9899.1,
+      "store": "Samsung TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-watch-5-40mm",
+  "slug": "samsung-samsung-galaxy-watch-5-40mm",
+  "name": "Samsung Galaxy Watch 5 40mm",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "basePrice": 9611,
+  "currency": "TL",
+  "rating": 4.8,
+  "epeyScore": 93,
+  "reviewCount": 945,
+  "releaseYear": 2023,
+  "isPopular": true,
+  "isFeatured": false,
+  "image": "/images/smartwatches/samsung-801445.jpg",
+  "images": [
+    "/images/smartwatches/samsung-801445.jpg"
+  ],
+  "highlights": [
+    "40mm Ergonomik Gövde & Super AMOLED Ekran",
+    "BioActive Sensör (Kalp Atış, EKG, Vücut Kompozisyonu BIA)",
+    "Gelişmiş Uyku Koçluğu ve Enerji Skoru Analizi",
+    "IP68 & 5ATM / 10ATM Suya Dayanıklılık"
+  ],
+  "specs": {
+    "caseSizeMm": 40,
+    "displayType": "Super AMOLED",
+    "displaySizeInches": 1.2,
+    "batteryLifeDays": 2,
+    "batteryCapacityMah": 300,
+    "waterResistanceAtm": 5,
+    "os": "Wear OS Powered by Samsung (One UI Watch)",
+    "compatibility": [
+      "Android 10.0 ve üzeri",
+      "Samsung Galaxy Cihazlar"
+    ],
+    "sensors": [
+      "Kalp Atış Hızı (Optik)",
+      "EKG",
+      "BIA Vücut Analizi",
+      "SpO2",
+      "Cilt Sıcaklığı",
+      "İvmeölçer",
+      "Barometre",
+      "Jiroskop"
+    ],
+    "connectivity": [
+      "Bluetooth 5.3",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "weightGrams": 33,
+    "material": "Zırh Alüminyum",
+    "hasMicrophone": true,
+    "hasSpeaker": true,
+    "hasGPS": true,
+    "hasHeartRate": true,
+    "hasSpO2": true,
+    "hasECG": true,
+    "hasSleepTracking": true
+  },
+  "storeOffers": [
+    {
+      "id": "so-samsung-801445-1",
+      "storeName": "Samsung TR",
+      "storeLogoColor": "bg-blue-900",
+      "price": 9611,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Resmi Samsung Türkiye Garantili"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 4500,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-5-40mm.html"
+    },
+    {
+      "id": "so-samsung-801445-2",
+      "storeName": "Hepsiburada",
+      "storeLogoColor": "bg-orange-500",
+      "price": 9803,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Hızlı Teslimat"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 3200,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-5-40mm.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 10380,
+      "store": "Samsung TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 9611,
+      "store": "Samsung TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-watch-4-44mm",
+  "slug": "samsung-samsung-galaxy-watch-4-44mm",
+  "name": "Samsung Galaxy Watch 4 (44mm)",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "basePrice": 7999,
+  "currency": "TL",
+  "rating": 4.8,
+  "epeyScore": 89,
+  "reviewCount": 1231,
+  "releaseYear": 2023,
+  "isPopular": true,
+  "isFeatured": false,
+  "image": "/images/smartwatches/samsung-711481.jpg",
+  "images": [
+    "/images/smartwatches/samsung-711481.jpg"
+  ],
+  "highlights": [
+    "44mm Ergonomik Gövde & Super AMOLED Ekran",
+    "BioActive Sensör (Kalp Atış, EKG, Vücut Kompozisyonu BIA)",
+    "Gelişmiş Uyku Koçluğu ve Enerji Skoru Analizi",
+    "IP68 & 5ATM / 10ATM Suya Dayanıklılık"
+  ],
+  "specs": {
+    "caseSizeMm": 44,
+    "displayType": "Super AMOLED",
+    "displaySizeInches": 1.4,
+    "batteryLifeDays": 2,
+    "batteryCapacityMah": 425,
+    "waterResistanceAtm": 5,
+    "os": "Wear OS Powered by Samsung (One UI Watch)",
+    "compatibility": [
+      "Android 10.0 ve üzeri",
+      "Samsung Galaxy Cihazlar"
+    ],
+    "sensors": [
+      "Kalp Atış Hızı (Optik)",
+      "EKG",
+      "BIA Vücut Analizi",
+      "SpO2",
+      "Cilt Sıcaklığı",
+      "İvmeölçer",
+      "Barometre",
+      "Jiroskop"
+    ],
+    "connectivity": [
+      "Bluetooth 5.3",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "weightGrams": 33,
+    "material": "Zırh Alüminyum",
+    "hasMicrophone": true,
+    "hasSpeaker": true,
+    "hasGPS": true,
+    "hasHeartRate": true,
+    "hasSpO2": true,
+    "hasECG": true,
+    "hasSleepTracking": true
+  },
+  "storeOffers": [
+    {
+      "id": "so-samsung-711481-1",
+      "storeName": "Samsung TR",
+      "storeLogoColor": "bg-blue-900",
+      "price": 7999,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Resmi Samsung Türkiye Garantili"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 4500,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-4-44mm.html"
+    },
+    {
+      "id": "so-samsung-711481-2",
+      "storeName": "Hepsiburada",
+      "storeLogoColor": "bg-orange-500",
+      "price": 8159,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Hızlı Teslimat"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 3200,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-4-44mm.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 8639,
+      "store": "Samsung TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 7999,
+      "store": "Samsung TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-watch-4-classic-46mm",
+  "slug": "samsung-samsung-galaxy-watch-4-classic-46mm",
+  "name": "Samsung Galaxy Watch 4 Classic (46mm)",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "basePrice": 7309.14,
+  "currency": "TL",
+  "rating": 4.7,
+  "epeyScore": 97,
+  "reviewCount": 495,
+  "releaseYear": 2023,
+  "isPopular": true,
+  "isFeatured": false,
+  "image": "/images/smartwatches/samsung-713595.jpg",
+  "images": [
+    "/images/smartwatches/samsung-713595.jpg"
+  ],
+  "highlights": [
+    "46mm Ergonomik Gövde & Super AMOLED Ekran",
+    "BioActive Sensör (Kalp Atış, EKG, Vücut Kompozisyonu BIA)",
+    "Gelişmiş Uyku Koçluğu ve Enerji Skoru Analizi",
+    "IP68 & 5ATM / 10ATM Suya Dayanıklılık"
+  ],
+  "specs": {
+    "caseSizeMm": 46,
+    "displayType": "Super AMOLED",
+    "displaySizeInches": 1.4,
+    "batteryLifeDays": 2,
+    "batteryCapacityMah": 425,
+    "waterResistanceAtm": 5,
+    "os": "Wear OS Powered by Samsung (One UI Watch)",
+    "compatibility": [
+      "Android 10.0 ve üzeri",
+      "Samsung Galaxy Cihazlar"
+    ],
+    "sensors": [
+      "Kalp Atış Hızı (Optik)",
+      "EKG",
+      "BIA Vücut Analizi",
+      "SpO2",
+      "Cilt Sıcaklığı",
+      "İvmeölçer",
+      "Barometre",
+      "Jiroskop"
+    ],
+    "connectivity": [
+      "Bluetooth 5.3",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "weightGrams": 60,
+    "material": "Paslanmaz Çelik & Döner Bezel",
+    "hasMicrophone": true,
+    "hasSpeaker": true,
+    "hasGPS": true,
+    "hasHeartRate": true,
+    "hasSpO2": true,
+    "hasECG": true,
+    "hasSleepTracking": true
+  },
+  "storeOffers": [
+    {
+      "id": "so-samsung-713595-1",
+      "storeName": "Samsung TR",
+      "storeLogoColor": "bg-blue-900",
+      "price": 7309.14,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Resmi Samsung Türkiye Garantili"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 4500,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-4-classic-46mm.html"
+    },
+    {
+      "id": "so-samsung-713595-2",
+      "storeName": "Hepsiburada",
+      "storeLogoColor": "bg-orange-500",
+      "price": 7455,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Hızlı Teslimat"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 3200,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-4-classic-46mm.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 7894,
+      "store": "Samsung TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 7309.14,
+      "store": "Samsung TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-watch-4-40mm",
+  "slug": "samsung-samsung-galaxy-watch-4-40mm",
+  "name": "Samsung Galaxy Watch 4 (40mm)",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "basePrice": 7869,
+  "currency": "TL",
+  "rating": 4.9,
+  "epeyScore": 91,
+  "reviewCount": 437,
+  "releaseYear": 2023,
+  "isPopular": true,
+  "isFeatured": false,
+  "image": "/images/smartwatches/samsung-713537.jpg",
+  "images": [
+    "/images/smartwatches/samsung-713537.jpg"
+  ],
+  "highlights": [
+    "40mm Ergonomik Gövde & Super AMOLED Ekran",
+    "BioActive Sensör (Kalp Atış, EKG, Vücut Kompozisyonu BIA)",
+    "Gelişmiş Uyku Koçluğu ve Enerji Skoru Analizi",
+    "IP68 & 5ATM / 10ATM Suya Dayanıklılık"
+  ],
+  "specs": {
+    "caseSizeMm": 40,
+    "displayType": "Super AMOLED",
+    "displaySizeInches": 1.2,
+    "batteryLifeDays": 2,
+    "batteryCapacityMah": 300,
+    "waterResistanceAtm": 5,
+    "os": "Wear OS Powered by Samsung (One UI Watch)",
+    "compatibility": [
+      "Android 10.0 ve üzeri",
+      "Samsung Galaxy Cihazlar"
+    ],
+    "sensors": [
+      "Kalp Atış Hızı (Optik)",
+      "EKG",
+      "BIA Vücut Analizi",
+      "SpO2",
+      "Cilt Sıcaklığı",
+      "İvmeölçer",
+      "Barometre",
+      "Jiroskop"
+    ],
+    "connectivity": [
+      "Bluetooth 5.3",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "weightGrams": 33,
+    "material": "Zırh Alüminyum",
+    "hasMicrophone": true,
+    "hasSpeaker": true,
+    "hasGPS": true,
+    "hasHeartRate": true,
+    "hasSpO2": true,
+    "hasECG": true,
+    "hasSleepTracking": true
+  },
+  "storeOffers": [
+    {
+      "id": "so-samsung-713537-1",
+      "storeName": "Samsung TR",
+      "storeLogoColor": "bg-blue-900",
+      "price": 7869,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Resmi Samsung Türkiye Garantili"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 4500,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-4-40mm.html"
+    },
+    {
+      "id": "so-samsung-713537-2",
+      "storeName": "Hepsiburada",
+      "storeLogoColor": "bg-orange-500",
+      "price": 8026,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Hızlı Teslimat"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 3200,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-4-40mm.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 8499,
+      "store": "Samsung TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 7869,
+      "store": "Samsung TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-watch-8-44mm",
+  "slug": "samsung-samsung-galaxy-watch-8-44mm",
+  "name": "Samsung Galaxy Watch 8 44mm",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "basePrice": 9800,
+  "currency": "TL",
+  "rating": 4.9,
+  "epeyScore": 88,
+  "reviewCount": 946,
+  "releaseYear": 2025,
+  "isPopular": true,
+  "isFeatured": false,
+  "image": "/images/smartwatches/samsung-1018046.jpg",
+  "images": [
+    "/images/smartwatches/samsung-1018046.jpg"
+  ],
+  "highlights": [
+    "44mm Ergonomik Gövde & Super AMOLED Ekran",
+    "BioActive Sensör (Kalp Atış, EKG, Vücut Kompozisyonu BIA)",
+    "Gelişmiş Uyku Koçluğu ve Enerji Skoru Analizi",
+    "IP68 & 5ATM / 10ATM Suya Dayanıklılık"
+  ],
+  "specs": {
+    "caseSizeMm": 44,
+    "displayType": "Super AMOLED",
+    "displaySizeInches": 1.4,
+    "batteryLifeDays": 2,
+    "batteryCapacityMah": 425,
+    "waterResistanceAtm": 5,
+    "os": "Wear OS Powered by Samsung (One UI Watch)",
+    "compatibility": [
+      "Android 10.0 ve üzeri",
+      "Samsung Galaxy Cihazlar"
+    ],
+    "sensors": [
+      "Kalp Atış Hızı (Optik)",
+      "EKG",
+      "BIA Vücut Analizi",
+      "SpO2",
+      "Cilt Sıcaklığı",
+      "İvmeölçer",
+      "Barometre",
+      "Jiroskop"
+    ],
+    "connectivity": [
+      "Bluetooth 5.3",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "weightGrams": 33,
+    "material": "Zırh Alüminyum",
+    "hasMicrophone": true,
+    "hasSpeaker": true,
+    "hasGPS": true,
+    "hasHeartRate": true,
+    "hasSpO2": true,
+    "hasECG": true,
+    "hasSleepTracking": true
+  },
+  "storeOffers": [
+    {
+      "id": "so-samsung-1018046-1",
+      "storeName": "Samsung TR",
+      "storeLogoColor": "bg-blue-900",
+      "price": 9800,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Resmi Samsung Türkiye Garantili"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 4500,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-8-44mm.html"
+    },
+    {
+      "id": "so-samsung-1018046-2",
+      "storeName": "Hepsiburada",
+      "storeLogoColor": "bg-orange-500",
+      "price": 9996,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Hızlı Teslimat"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 3200,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-8-44mm.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 10584,
+      "store": "Samsung TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 9800,
+      "store": "Samsung TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-watch-8-40mm",
+  "slug": "samsung-samsung-galaxy-watch-8-40mm",
+  "name": "Samsung Galaxy Watch 8 40mm",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "basePrice": 9598.9,
+  "currency": "TL",
+  "rating": 4.7,
+  "epeyScore": 91,
+  "reviewCount": 923,
+  "releaseYear": 2025,
+  "isPopular": true,
+  "isFeatured": false,
+  "image": "/images/smartwatches/samsung-1018023.jpg",
+  "images": [
+    "/images/smartwatches/samsung-1018023.jpg"
+  ],
+  "highlights": [
+    "40mm Ergonomik Gövde & Super AMOLED Ekran",
+    "BioActive Sensör (Kalp Atış, EKG, Vücut Kompozisyonu BIA)",
+    "Gelişmiş Uyku Koçluğu ve Enerji Skoru Analizi",
+    "IP68 & 5ATM / 10ATM Suya Dayanıklılık"
+  ],
+  "specs": {
+    "caseSizeMm": 40,
+    "displayType": "Super AMOLED",
+    "displaySizeInches": 1.2,
+    "batteryLifeDays": 2,
+    "batteryCapacityMah": 300,
+    "waterResistanceAtm": 5,
+    "os": "Wear OS Powered by Samsung (One UI Watch)",
+    "compatibility": [
+      "Android 10.0 ve üzeri",
+      "Samsung Galaxy Cihazlar"
+    ],
+    "sensors": [
+      "Kalp Atış Hızı (Optik)",
+      "EKG",
+      "BIA Vücut Analizi",
+      "SpO2",
+      "Cilt Sıcaklığı",
+      "İvmeölçer",
+      "Barometre",
+      "Jiroskop"
+    ],
+    "connectivity": [
+      "Bluetooth 5.3",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "weightGrams": 33,
+    "material": "Zırh Alüminyum",
+    "hasMicrophone": true,
+    "hasSpeaker": true,
+    "hasGPS": true,
+    "hasHeartRate": true,
+    "hasSpO2": true,
+    "hasECG": true,
+    "hasSleepTracking": true
+  },
+  "storeOffers": [
+    {
+      "id": "so-samsung-1018023-1",
+      "storeName": "Samsung TR",
+      "storeLogoColor": "bg-blue-900",
+      "price": 9598.9,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Resmi Samsung Türkiye Garantili"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 4500,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-8-40mm.html"
+    },
+    {
+      "id": "so-samsung-1018023-2",
+      "storeName": "Hepsiburada",
+      "storeLogoColor": "bg-orange-500",
+      "price": 9791,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Hızlı Teslimat"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 3200,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-8-40mm.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 10367,
+      "store": "Samsung TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 9598.9,
+      "store": "Samsung TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-fit3",
+  "slug": "samsung-samsung-galaxy-fit3",
+  "name": "Samsung Galaxy Fit3",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "basePrice": 2519.1,
+  "currency": "TL",
+  "rating": 4.8,
+  "epeyScore": 86,
+  "reviewCount": 560,
+  "releaseYear": 2024,
+  "isPopular": true,
+  "isFeatured": false,
+  "image": "/images/smartwatches/samsung-925510.jpg",
+  "images": [
+    "/images/smartwatches/samsung-925510.jpg"
+  ],
+  "highlights": [
+    "40mm Ergonomik Gövde & AMOLED Ekran",
+    "BioActive Sensör (Kalp Atış, EKG, Vücut Kompozisyonu BIA)",
+    "Gelişmiş Uyku Koçluğu ve Enerji Skoru Analizi",
+    "IP68 & 5ATM / 10ATM Suya Dayanıklılık"
+  ],
+  "specs": {
+    "caseSizeMm": 40,
+    "displayType": "AMOLED",
+    "displaySizeInches": 1.6,
+    "batteryLifeDays": 13,
+    "batteryCapacityMah": 208,
+    "waterResistanceAtm": 5,
+    "os": "FreeRTOS",
+    "compatibility": [
+      "Android 10.0 ve üzeri",
+      "Samsung Galaxy Cihazlar"
+    ],
+    "sensors": [
+      "Kalp Atış Hızı (Optik)",
+      "EKG",
+      "BIA Vücut Analizi",
+      "SpO2",
+      "Cilt Sıcaklığı",
+      "İvmeölçer",
+      "Barometre",
+      "Jiroskop"
+    ],
+    "connectivity": [
+      "Bluetooth 5.3",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "weightGrams": 33,
+    "material": "Zırh Alüminyum",
+    "hasMicrophone": false,
+    "hasSpeaker": false,
+    "hasGPS": false,
+    "hasHeartRate": true,
+    "hasSpO2": true,
+    "hasECG": false,
+    "hasSleepTracking": true
+  },
+  "storeOffers": [
+    {
+      "id": "so-samsung-925510-1",
+      "storeName": "Samsung TR",
+      "storeLogoColor": "bg-blue-900",
+      "price": 2519.1,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Resmi Samsung Türkiye Garantili"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 4500,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-fit3.html"
+    },
+    {
+      "id": "so-samsung-925510-2",
+      "storeName": "Hepsiburada",
+      "storeLogoColor": "bg-orange-500",
+      "price": 2569,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Hızlı Teslimat"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 3200,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-fit3.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 2721,
+      "store": "Samsung TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 2519.1,
+      "store": "Samsung TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-fit2",
+  "slug": "samsung-samsung-galaxy-fit2",
+  "name": "Samsung Galaxy Fit2",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "basePrice": 1999,
+  "currency": "TL",
+  "rating": 4.9,
+  "epeyScore": 88,
+  "reviewCount": 986,
+  "releaseYear": 2023,
+  "isPopular": true,
+  "isFeatured": false,
+  "image": "/images/smartwatches/samsung-597236.jpg",
+  "images": [
+    "/images/smartwatches/samsung-597236.jpg"
+  ],
+  "highlights": [
+    "40mm Ergonomik Gövde & AMOLED Ekran",
+    "BioActive Sensör (Kalp Atış, EKG, Vücut Kompozisyonu BIA)",
+    "Gelişmiş Uyku Koçluğu ve Enerji Skoru Analizi",
+    "IP68 & 5ATM / 10ATM Suya Dayanıklılık"
+  ],
+  "specs": {
+    "caseSizeMm": 40,
+    "displayType": "AMOLED",
+    "displaySizeInches": 1.6,
+    "batteryLifeDays": 13,
+    "batteryCapacityMah": 208,
+    "waterResistanceAtm": 5,
+    "os": "FreeRTOS",
+    "compatibility": [
+      "Android 10.0 ve üzeri",
+      "Samsung Galaxy Cihazlar"
+    ],
+    "sensors": [
+      "Kalp Atış Hızı (Optik)",
+      "EKG",
+      "BIA Vücut Analizi",
+      "SpO2",
+      "Cilt Sıcaklığı",
+      "İvmeölçer",
+      "Barometre",
+      "Jiroskop"
+    ],
+    "connectivity": [
+      "Bluetooth 5.3",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "weightGrams": 33,
+    "material": "Zırh Alüminyum",
+    "hasMicrophone": false,
+    "hasSpeaker": false,
+    "hasGPS": false,
+    "hasHeartRate": true,
+    "hasSpO2": true,
+    "hasECG": false,
+    "hasSleepTracking": true
+  },
+  "storeOffers": [
+    {
+      "id": "so-samsung-597236-1",
+      "storeName": "Samsung TR",
+      "storeLogoColor": "bg-blue-900",
+      "price": 1999,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Resmi Samsung Türkiye Garantili"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 4500,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-fit2.html"
+    },
+    {
+      "id": "so-samsung-597236-2",
+      "storeName": "Hepsiburada",
+      "storeLogoColor": "bg-orange-500",
+      "price": 2039,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Hızlı Teslimat"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 3200,
+      "url": "https://www.epey.com/akilli-saat/samsung-galaxy-fit2.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 2159,
+      "store": "Samsung TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 1999,
+      "store": "Samsung TR"
+    }
+  ]
+},
 ];

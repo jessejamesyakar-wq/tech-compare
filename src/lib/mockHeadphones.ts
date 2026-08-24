@@ -3051,4 +3051,698 @@ export const mockHeadphones: Product[] = [
       { date: '2026-06-01', price: 5499, store: 'Trendyol' }
     ]
   }
+,
+  {
+  "id": "samsung-samsung-galaxy-buds-fe",
+  "slug": "samsung-samsung-galaxy-buds-fe",
+  "name": "Samsung Galaxy Buds FE",
+  "brand": "Samsung",
+  "category": "headphones",
+  "basePrice": 3519.1,
+  "currency": "TL",
+  "rating": 4.8,
+  "epeyScore": 96,
+  "reviewCount": 758,
+  "releaseYear": 2023,
+  "isPopular": true,
+  "isFeatured": false,
+  "image": "/images/headphones/samsung-899038.jpg",
+  "images": [
+    "/images/headphones/samsung-899038.jpg"
+  ],
+  "highlights": [
+    "24-bit Hi-Fi Kayıpsız Ses ve Seamless Codec Desteği",
+    "Aktif Gürültü Engelleme (ANC) ile Dış Sesleri Minimuma İndirme",
+    "360 Audio & Dolby Atmos Kafa Takibi",
+    "IPX7 / IP57 Suya ve Tere Dayanıklı Tasarım"
+  ],
+  "specs": {
+    "formFactor": "TWS Tam Kablosuz Kulak İçi",
+    "anc": "Aktif Gürültü Engelleme (ANC)",
+    "batteryLife": "21 Saat (Kutulu ANC Açık)",
+    "bluetoothVersion": "Bluetooth 5.4",
+    "driverSize": "1-Yönlü 10mm Dinamik Sürücü",
+    "frequencyResponse": "20 Hz - 40.000 Hz (Hi-Res Codec)",
+    "weightGrams": 5.5
+  },
+  "storeOffers": [
+    {
+      "id": "so-buds-899038-1",
+      "storeName": "Amazon TR",
+      "storeLogoColor": "bg-orange-500",
+      "price": 3519.1,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Prime",
+        "Resmi Distribütör"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 5200,
+      "url": "https://www.epey.com/kulaklik/samsung-galaxy-buds-fe.html"
+    },
+    {
+      "id": "so-buds-899038-2",
+      "storeName": "MediaMarkt",
+      "storeLogoColor": "bg-red-600",
+      "price": 3625,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Yetkili Satıcı"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 2800,
+      "url": "https://www.epey.com/kulaklik/samsung-galaxy-buds-fe.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 3871,
+      "store": "Amazon TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 3519.1,
+      "store": "Amazon TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-buds-2",
+  "slug": "samsung-samsung-galaxy-buds-2",
+  "name": "Samsung Galaxy Buds 2",
+  "brand": "Samsung",
+  "category": "headphones",
+  "basePrice": 6299.99,
+  "currency": "TL",
+  "rating": 4.7,
+  "epeyScore": 89,
+  "reviewCount": 1403,
+  "releaseYear": 2023,
+  "isPopular": true,
+  "isFeatured": true,
+  "image": "/images/headphones/samsung-709383.jpg",
+  "images": [
+    "/images/headphones/samsung-709383.jpg"
+  ],
+  "highlights": [
+    "24-bit Hi-Fi Kayıpsız Ses ve Seamless Codec Desteği",
+    "Aktif Gürültü Engelleme (ANC) ile Dış Sesleri Minimuma İndirme",
+    "360 Audio & Dolby Atmos Kafa Takibi",
+    "IPX7 / IP57 Suya ve Tere Dayanıklı Tasarım"
+  ],
+  "specs": {
+    "formFactor": "TWS Tam Kablosuz Kulak İçi",
+    "anc": "Aktif Gürültü Engelleme (ANC)",
+    "batteryLife": "30 Saat (Kutulu) / 7.5 Saat (Kulaklık)",
+    "bluetoothVersion": "Bluetooth 5.4",
+    "driverSize": "11mm Dinamik + 5.3mm Düz Tweeter (Çift Sürücü)",
+    "frequencyResponse": "20 Hz - 40.000 Hz (Hi-Res Codec)",
+    "weightGrams": 5.5
+  },
+  "storeOffers": [
+    {
+      "id": "so-buds-709383-1",
+      "storeName": "Amazon TR",
+      "storeLogoColor": "bg-orange-500",
+      "price": 6299.99,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Prime",
+        "Resmi Distribütör"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 5200,
+      "url": "https://www.epey.com/kulaklik/samsung-galaxy-buds-2.html"
+    },
+    {
+      "id": "so-buds-709383-2",
+      "storeName": "MediaMarkt",
+      "storeLogoColor": "bg-red-600",
+      "price": 6489,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Yetkili Satıcı"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 2800,
+      "url": "https://www.epey.com/kulaklik/samsung-galaxy-buds-2.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 6930,
+      "store": "Amazon TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 6299.99,
+      "store": "Amazon TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-buds-pro",
+  "slug": "samsung-samsung-galaxy-buds-pro",
+  "name": "Samsung Galaxy Buds Pro",
+  "brand": "Samsung",
+  "category": "headphones",
+  "basePrice": 25332,
+  "currency": "TL",
+  "rating": 4.8,
+  "epeyScore": 90,
+  "reviewCount": 620,
+  "releaseYear": 2023,
+  "isPopular": true,
+  "isFeatured": true,
+  "image": "/images/headphones/samsung-638200.jpg",
+  "images": [
+    "/images/headphones/samsung-638200.jpg"
+  ],
+  "highlights": [
+    "24-bit Hi-Fi Kayıpsız Ses ve Seamless Codec Desteği",
+    "Akıllı Gelişmiş ANC & 360 Audio (Kafa Takibi) ile Dış Sesleri Minimuma İndirme",
+    "360 Audio & Dolby Atmos Kafa Takibi",
+    "IPX7 / IP57 Suya ve Tere Dayanıklı Tasarım"
+  ],
+  "specs": {
+    "formFactor": "TWS Tam Kablosuz Kulak İçi",
+    "anc": "Akıllı Gelişmiş ANC & 360 Audio (Kafa Takibi)",
+    "batteryLife": "30 Saat (Kutulu) / 7.5 Saat (Kulaklık)",
+    "bluetoothVersion": "Bluetooth 5.4",
+    "driverSize": "2-Yönlü Çift Amplifikatörlü Koaksiyel Sürücü",
+    "frequencyResponse": "20 Hz - 40.000 Hz (Hi-Res Codec)",
+    "weightGrams": 5.5
+  },
+  "storeOffers": [
+    {
+      "id": "so-buds-638200-1",
+      "storeName": "Amazon TR",
+      "storeLogoColor": "bg-orange-500",
+      "price": 25332,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Prime",
+        "Resmi Distribütör"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 5200,
+      "url": "https://www.epey.com/kulaklik/samsung-galaxy-buds-pro.html"
+    },
+    {
+      "id": "so-buds-638200-2",
+      "storeName": "MediaMarkt",
+      "storeLogoColor": "bg-red-600",
+      "price": 26092,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Yetkili Satıcı"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 2800,
+      "url": "https://www.epey.com/kulaklik/samsung-galaxy-buds-pro.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 27865,
+      "store": "Amazon TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 25332,
+      "store": "Amazon TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-buds-2-pro",
+  "slug": "samsung-samsung-galaxy-buds-2-pro",
+  "name": "Samsung Galaxy Buds 2 Pro",
+  "brand": "Samsung",
+  "category": "headphones",
+  "basePrice": 10452.48,
+  "currency": "TL",
+  "rating": 4.8,
+  "epeyScore": 87,
+  "reviewCount": 1269,
+  "releaseYear": 2023,
+  "isPopular": true,
+  "isFeatured": true,
+  "image": "/images/headphones/samsung-801649.jpg",
+  "images": [
+    "/images/headphones/samsung-801649.jpg"
+  ],
+  "highlights": [
+    "24-bit Hi-Fi Kayıpsız Ses ve Seamless Codec Desteği",
+    "Akıllı Gelişmiş ANC & 360 Audio (Kafa Takibi) ile Dış Sesleri Minimuma İndirme",
+    "360 Audio & Dolby Atmos Kafa Takibi",
+    "IPX7 / IP57 Suya ve Tere Dayanıklı Tasarım"
+  ],
+  "specs": {
+    "formFactor": "TWS Tam Kablosuz Kulak İçi",
+    "anc": "Akıllı Gelişmiş ANC & 360 Audio (Kafa Takibi)",
+    "batteryLife": "30 Saat (Kutulu) / 7.5 Saat (Kulaklık)",
+    "bluetoothVersion": "Bluetooth 5.4",
+    "driverSize": "2-Yönlü Çift Amplifikatörlü Koaksiyel Sürücü",
+    "frequencyResponse": "20 Hz - 40.000 Hz (Hi-Res Codec)",
+    "weightGrams": 5.5
+  },
+  "storeOffers": [
+    {
+      "id": "so-buds-801649-1",
+      "storeName": "Amazon TR",
+      "storeLogoColor": "bg-orange-500",
+      "price": 10452.48,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Prime",
+        "Resmi Distribütör"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 5200,
+      "url": "https://www.epey.com/kulaklik/samsung-galaxy-buds-2-pro.html"
+    },
+    {
+      "id": "so-buds-801649-2",
+      "storeName": "MediaMarkt",
+      "storeLogoColor": "bg-red-600",
+      "price": 10766,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Yetkili Satıcı"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 2800,
+      "url": "https://www.epey.com/kulaklik/samsung-galaxy-buds-2-pro.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 11498,
+      "store": "Amazon TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 10452.48,
+      "store": "Amazon TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-buds-3-fe",
+  "slug": "samsung-samsung-galaxy-buds-3-fe",
+  "name": "Samsung Galaxy Buds 3 FE",
+  "brand": "Samsung",
+  "category": "headphones",
+  "basePrice": 3599,
+  "currency": "TL",
+  "rating": 4.9,
+  "epeyScore": 94,
+  "reviewCount": 612,
+  "releaseYear": 2024,
+  "isPopular": true,
+  "isFeatured": false,
+  "image": "/images/headphones/samsung-1024292.jpg",
+  "images": [
+    "/images/headphones/samsung-1024292.jpg"
+  ],
+  "highlights": [
+    "24-bit Hi-Fi Kayıpsız Ses ve Seamless Codec Desteği",
+    "Aktif Gürültü Engelleme (ANC) ile Dış Sesleri Minimuma İndirme",
+    "360 Audio & Dolby Atmos Kafa Takibi",
+    "IPX7 / IP57 Suya ve Tere Dayanıklı Tasarım"
+  ],
+  "specs": {
+    "formFactor": "TWS Tam Kablosuz Kulak İçi",
+    "anc": "Aktif Gürültü Engelleme (ANC)",
+    "batteryLife": "21 Saat (Kutulu ANC Açık)",
+    "bluetoothVersion": "Bluetooth 5.4",
+    "driverSize": "1-Yönlü 10mm Dinamik Sürücü",
+    "frequencyResponse": "20 Hz - 40.000 Hz (Hi-Res Codec)",
+    "weightGrams": 5.5
+  },
+  "storeOffers": [
+    {
+      "id": "so-buds-1024292-1",
+      "storeName": "Amazon TR",
+      "storeLogoColor": "bg-orange-500",
+      "price": 3599,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Prime",
+        "Resmi Distribütör"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 5200,
+      "url": "https://www.epey.com/kulaklik/samsung-galaxy-buds-3-fe.html"
+    },
+    {
+      "id": "so-buds-1024292-2",
+      "storeName": "MediaMarkt",
+      "storeLogoColor": "bg-red-600",
+      "price": 3707,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Yetkili Satıcı"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 2800,
+      "url": "https://www.epey.com/kulaklik/samsung-galaxy-buds-3-fe.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 3959,
+      "store": "Amazon TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 3599,
+      "store": "Amazon TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-buds-4",
+  "slug": "samsung-samsung-galaxy-buds-4",
+  "name": "Samsung Galaxy Buds 4",
+  "brand": "Samsung",
+  "category": "headphones",
+  "basePrice": 5949,
+  "currency": "TL",
+  "rating": 4.9,
+  "epeyScore": 94,
+  "reviewCount": 588,
+  "releaseYear": 2025,
+  "isPopular": true,
+  "isFeatured": true,
+  "image": "/images/headphones/samsung-1047368.jpg",
+  "images": [
+    "/images/headphones/samsung-1047368.jpg"
+  ],
+  "highlights": [
+    "24-bit Hi-Fi Kayıpsız Ses ve Seamless Codec Desteği",
+    "Aktif Gürültü Engelleme (ANC) ile Dış Sesleri Minimuma İndirme",
+    "360 Audio & Dolby Atmos Kafa Takibi",
+    "IPX7 / IP57 Suya ve Tere Dayanıklı Tasarım"
+  ],
+  "specs": {
+    "formFactor": "TWS Tam Kablosuz Kulak İçi",
+    "anc": "Aktif Gürültü Engelleme (ANC)",
+    "batteryLife": "30 Saat (Kutulu) / 7.5 Saat (Kulaklık)",
+    "bluetoothVersion": "Bluetooth 5.4",
+    "driverSize": "11mm Dinamik + 5.3mm Düz Tweeter (Çift Sürücü)",
+    "frequencyResponse": "20 Hz - 40.000 Hz (Hi-Res Codec)",
+    "weightGrams": 5.5
+  },
+  "storeOffers": [
+    {
+      "id": "so-buds-1047368-1",
+      "storeName": "Amazon TR",
+      "storeLogoColor": "bg-orange-500",
+      "price": 5949,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Prime",
+        "Resmi Distribütör"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 5200,
+      "url": "https://www.epey.com/kulaklik/samsung-galaxy-buds-4.html"
+    },
+    {
+      "id": "so-buds-1047368-2",
+      "storeName": "MediaMarkt",
+      "storeLogoColor": "bg-red-600",
+      "price": 6127,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Yetkili Satıcı"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 2800,
+      "url": "https://www.epey.com/kulaklik/samsung-galaxy-buds-4.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 6544,
+      "store": "Amazon TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 5949,
+      "store": "Amazon TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-buds-4-pro",
+  "slug": "samsung-samsung-galaxy-buds-4-pro",
+  "name": "Samsung Galaxy Buds 4 Pro",
+  "brand": "Samsung",
+  "category": "headphones",
+  "basePrice": 10999,
+  "currency": "TL",
+  "rating": 4.8,
+  "epeyScore": 90,
+  "reviewCount": 596,
+  "releaseYear": 2025,
+  "isPopular": true,
+  "isFeatured": true,
+  "image": "/images/headphones/samsung-1047376.jpg",
+  "images": [
+    "/images/headphones/samsung-1047376.jpg"
+  ],
+  "highlights": [
+    "24-bit Hi-Fi Kayıpsız Ses ve Seamless Codec Desteği",
+    "Akıllı Gelişmiş ANC & 360 Audio (Kafa Takibi) ile Dış Sesleri Minimuma İndirme",
+    "360 Audio & Dolby Atmos Kafa Takibi",
+    "IPX7 / IP57 Suya ve Tere Dayanıklı Tasarım"
+  ],
+  "specs": {
+    "formFactor": "TWS Tam Kablosuz Kulak İçi",
+    "anc": "Akıllı Gelişmiş ANC & 360 Audio (Kafa Takibi)",
+    "batteryLife": "30 Saat (Kutulu) / 7.5 Saat (Kulaklık)",
+    "bluetoothVersion": "Bluetooth 5.4",
+    "driverSize": "2-Yönlü Çift Amplifikatörlü Koaksiyel Sürücü",
+    "frequencyResponse": "20 Hz - 40.000 Hz (Hi-Res Codec)",
+    "weightGrams": 5.5
+  },
+  "storeOffers": [
+    {
+      "id": "so-buds-1047376-1",
+      "storeName": "Amazon TR",
+      "storeLogoColor": "bg-orange-500",
+      "price": 10999,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Prime",
+        "Resmi Distribütör"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 5200,
+      "url": "https://www.epey.com/kulaklik/samsung-galaxy-buds-4-pro.html"
+    },
+    {
+      "id": "so-buds-1047376-2",
+      "storeName": "MediaMarkt",
+      "storeLogoColor": "bg-red-600",
+      "price": 11329,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Yetkili Satıcı"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 2800,
+      "url": "https://www.epey.com/kulaklik/samsung-galaxy-buds-4-pro.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 12099,
+      "store": "Amazon TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 10999,
+      "store": "Amazon TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-buds-3",
+  "slug": "samsung-samsung-galaxy-buds-3",
+  "name": "Samsung Galaxy Buds 3",
+  "brand": "Samsung",
+  "category": "headphones",
+  "basePrice": 4223.1,
+  "currency": "TL",
+  "rating": 4.8,
+  "epeyScore": 93,
+  "reviewCount": 1283,
+  "releaseYear": 2024,
+  "isPopular": true,
+  "isFeatured": false,
+  "image": "/images/headphones/samsung-949063.jpg",
+  "images": [
+    "/images/headphones/samsung-949063.jpg"
+  ],
+  "highlights": [
+    "24-bit Hi-Fi Kayıpsız Ses ve Seamless Codec Desteği",
+    "Aktif Gürültü Engelleme (ANC) ile Dış Sesleri Minimuma İndirme",
+    "360 Audio & Dolby Atmos Kafa Takibi",
+    "IPX7 / IP57 Suya ve Tere Dayanıklı Tasarım"
+  ],
+  "specs": {
+    "formFactor": "TWS Tam Kablosuz Kulak İçi",
+    "anc": "Aktif Gürültü Engelleme (ANC)",
+    "batteryLife": "30 Saat (Kutulu) / 7.5 Saat (Kulaklık)",
+    "bluetoothVersion": "Bluetooth 5.4",
+    "driverSize": "11mm Dinamik + 5.3mm Düz Tweeter (Çift Sürücü)",
+    "frequencyResponse": "20 Hz - 40.000 Hz (Hi-Res Codec)",
+    "weightGrams": 5.5
+  },
+  "storeOffers": [
+    {
+      "id": "so-buds-949063-1",
+      "storeName": "Amazon TR",
+      "storeLogoColor": "bg-orange-500",
+      "price": 4223.1,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Prime",
+        "Resmi Distribütör"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 5200,
+      "url": "https://www.epey.com/kulaklik/samsung-galaxy-buds3.html"
+    },
+    {
+      "id": "so-buds-949063-2",
+      "storeName": "MediaMarkt",
+      "storeLogoColor": "bg-red-600",
+      "price": 4350,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Yetkili Satıcı"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 2800,
+      "url": "https://www.epey.com/kulaklik/samsung-galaxy-buds3.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 4645,
+      "store": "Amazon TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 4223.1,
+      "store": "Amazon TR"
+    }
+  ]
+},
+  {
+  "id": "samsung-samsung-galaxy-buds-core",
+  "slug": "samsung-samsung-galaxy-buds-core",
+  "name": "Samsung Galaxy Buds Core",
+  "brand": "Samsung",
+  "category": "headphones",
+  "basePrice": 2087.1,
+  "currency": "TL",
+  "rating": 4.7,
+  "epeyScore": 92,
+  "reviewCount": 1006,
+  "releaseYear": 2023,
+  "isPopular": true,
+  "isFeatured": false,
+  "image": "/images/headphones/samsung-1018086.jpg",
+  "images": [
+    "/images/headphones/samsung-1018086.jpg"
+  ],
+  "highlights": [
+    "24-bit Hi-Fi Kayıpsız Ses ve Seamless Codec Desteği",
+    "Aktif Gürültü Engelleme (ANC) ile Dış Sesleri Minimuma İndirme",
+    "360 Audio & Dolby Atmos Kafa Takibi",
+    "IPX7 / IP57 Suya ve Tere Dayanıklı Tasarım"
+  ],
+  "specs": {
+    "formFactor": "TWS Tam Kablosuz Kulak İçi",
+    "anc": "Aktif Gürültü Engelleme (ANC)",
+    "batteryLife": "21 Saat (Kutulu ANC Açık)",
+    "bluetoothVersion": "Bluetooth 5.4",
+    "driverSize": "1-Yönlü 10mm Dinamik Sürücü",
+    "frequencyResponse": "20 Hz - 40.000 Hz (Hi-Res Codec)",
+    "weightGrams": 5.5
+  },
+  "storeOffers": [
+    {
+      "id": "so-buds-1018086-1",
+      "storeName": "Amazon TR",
+      "storeLogoColor": "bg-orange-500",
+      "price": 2087.1,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Prime",
+        "Resmi Distribütör"
+      ],
+      "sellerRating": 4.9,
+      "sellerReviews": 5200,
+      "url": "https://www.epey.com/kulaklik/samsung-galaxy-buds-core.html"
+    },
+    {
+      "id": "so-buds-1018086-2",
+      "storeName": "MediaMarkt",
+      "storeLogoColor": "bg-red-600",
+      "price": 2150,
+      "inStock": true,
+      "shippingDays": 1,
+      "badges": [
+        "Yetkili Satıcı"
+      ],
+      "sellerRating": 4.8,
+      "sellerReviews": 2800,
+      "url": "https://www.epey.com/kulaklik/samsung-galaxy-buds-core.html"
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-06-01",
+      "price": 2296,
+      "store": "Amazon TR"
+    },
+    {
+      "date": "2026-08-01",
+      "price": 2087.1,
+      "store": "Amazon TR"
+    }
+  ]
+},
 ];
