@@ -13,6 +13,7 @@ const SUB_CATEGORIES = [
   { id: 'robot_vacuum', label: 'Robot Süpürgeler' },
   { id: 'stick_vacuum', label: 'Dikey Süpürgeler' },
   { id: 'personal_care', label: 'Kişisel Bakım' },
+  { id: 'cosmetics', label: 'Kozmetik' },
   { id: 'air_purifier', label: 'Hava Temizleyiciler' },
   { id: 'airfryer', label: 'Airfryer & Fritöz' },
   { id: 'coffee_machine', label: 'Kahve Makineleri' },

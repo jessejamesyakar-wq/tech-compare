@@ -12101,5 +12101,202 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 30999
       }
     ]
+  },
+  {
+    "id": "dyson-chitosan-post-style-serum",
+    "slug": "dyson-chitosan-sekillendirme-sonrasi-sac-serumu-sac-kremi",
+    "name": "Dyson Chitosan™ Şekillendirme Sonrası Saç Serumu (100 ml)",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-1034308.jpg",
+    "images": [
+      "/images/appliances/dyson-1034308.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 15,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "Dyson Triodetic™ Teknolojisi ile Esnek Tutuculuk",
+      "İstiridye Mantarından Elde Edilen Doğal Chitosan Makromolekülü",
+      "Saçı Sertleştirmeden ve Yapışkanlık Bırakmadan Sabitleme",
+      "Yüksek Nem Oranında Bile 2 Kat Daha Uzun Süre Kalıcı Bukleler",
+      "Yeniden Doldurulabilir Çevre Dostu Şık Kartuş Ambalaj"
+    ],
+    "tags": [
+      "Dyson",
+      "Chitosan",
+      "Kozmetik",
+      "Saç Serumu",
+      "Kişisel Bakım"
+    ],
+    "specs": {
+      "subCategory": "cosmetics",
+      "subCategoryLabel": "Kozmetik",
+      "powerWatts": 0,
+      "capacity": "100 ml",
+      "weightKg": 0.25,
+      "warrantyYears": 1,
+      "color": "Mat Metalik / Mavi"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 3499,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 3599,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-06",
+        "price": 3799
+      },
+      {
+        "date": "2024-07",
+        "price": 3599
+      },
+      {
+        "date": "2024-08",
+        "price": 3499
+      }
+    ]
+  },
+  {
+    "id": "dyson-chitosan-pre-style-cream-curly",
+    "slug": "dyson-chitosan-sekillendirme-oncesi-kivircik-bukleli-kalin-telli-saclar-592311-01",
+    "name": "Dyson Chitosan™ Şekillendirme Öncesi Saç Kremi (Kıvırcık ve Kalın Telli)",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-1034313.jpg",
+    "images": [
+      "/images/appliances/dyson-1034313.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 12,
+    "basePrice": 1499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Kıvırcık, Bukleli ve Yoğun Saç Tipleri İçin Özel Formül",
+      "Hassas Dozaj Pompalı Yenilikçi Şişe Tasarımı",
+      "Isı ile Şekillendirme Öncesi Saç Telini Besler ve Esnetir",
+      "Elektriklenmeyi ve Kabarmayı Gün Boyu Engelleme",
+      "Doğal Chitosan İçeriği ile Hafif ve Parlak Dokunuş"
+    ],
+    "tags": [
+      "Dyson",
+      "Chitosan",
+      "Kozmetik",
+      "Saç Kremi",
+      "Bukle Belirginleştirici"
+    ],
+    "specs": {
+      "subCategory": "cosmetics",
+      "subCategoryLabel": "Kozmetik",
+      "powerWatts": 0,
+      "capacity": "100 ml",
+      "weightKg": 0.25,
+      "warrantyYears": 1,
+      "color": "Mat Metalik / Mor"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 1499,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-06",
+        "price": 1699
+      },
+      {
+        "date": "2024-07",
+        "price": 1549
+      },
+      {
+        "date": "2024-08",
+        "price": 1499
+      }
+    ]
+  },
+  {
+    "id": "dyson-chitosan-pre-style-cream-straight",
+    "slug": "dyson-chitosan-sekillendirme-oncesi-duz-dalgali-kalin-telli-saclar-sac-kremi",
+    "name": "Dyson Chitosan™ Şekillendirme Öncesi Saç Kremi (Düz ve Dalgalı)",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-1034314.jpg",
+    "images": [
+      "/images/appliances/dyson-1034314.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 14,
+    "basePrice": 1499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Düz ve Dalgalı Saçlar İçin Pürüzsüzleştirici Formül",
+      "Hafif Yağ ve Besleyici İçeriklerle İpeksi Parlaklık",
+      "Airstrait ve Airwrap Şekillendiricilerle Mükemmel Uyum",
+      "Gözle Görünür Şekilde Elektriklenmeyi Azaltma",
+      "Triodetic™ Hücresel Sabitleme Yapısı"
+    ],
+    "tags": [
+      "Dyson",
+      "Chitosan",
+      "Kozmetik",
+      "Saç Kremi",
+      "Düzleştirici Bakım"
+    ],
+    "specs": {
+      "subCategory": "cosmetics",
+      "subCategoryLabel": "Kozmetik",
+      "powerWatts": 0,
+      "capacity": "100 ml",
+      "weightKg": 0.25,
+      "warrantyYears": 1,
+      "color": "Mat Metalik / Pembe"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 1499,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-06",
+        "price": 1699
+      },
+      {
+        "date": "2024-07",
+        "price": 1549
+      },
+      {
+        "date": "2024-08",
+        "price": 1499
+      }
+    ]
   }
 ];
