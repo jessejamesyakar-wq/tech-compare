@@ -2,6 +2,943 @@ import { LaptopProduct } from './types';
 
 export const mockLaptops: LaptopProduct[] = [
   {
+    "id": "philips-evnia-32m2c5500w-00",
+    "slug": "philips-evnia-32m2c5500w-00",
+    "name": "Philips Evnia 32M2C5500W/00 31.5\" 240Hz 0.5ms QHD Curved Espor Monitörü",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 63883.75,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 98,
+    "reviewCount": 36,
+    "image": "/images/laptops/philips-evnia-32m2c5500w.jpg",
+    "images": [
+      "/images/laptops/philips-evnia-32m2c5500w.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "31.5 İnç 1000R Derin Kavisli QHD (2560 x 1440) Fast VA Espor Panel",
+      "240 Hz Ultra Yüksek Yenileme Hızı & 0.5 ms MPRT Hızlı Tepki",
+      "DisplayHDR 400 ve Ambiglow Dinamik Yapay Zeka Işıklandırması",
+      "Geniş Renk Skalası (%122 sRGB, %93 DCI-P3)"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "Fast VA Curved 240Hz Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "240Hz 2K 1000R Fast VA Engine",
+      "screenSizeInches": 31.5,
+      "screenResolution": "2560 x 1440 (QHD 2K)",
+      "colorGamut": "sRGB 122%, DCI-P3 93%",
+      "ports": [
+        "2x HDMI 2.0",
+        "2x DisplayPort 1.4",
+        "USB Hub (4 Port)"
+      ],
+      "weightKg": 8.9,
+      "bodyMaterial": "Evnia 1000R Kavisli Espor Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-evnia32-240-1",
+        "storeName": "İtopya",
+        "storeLogoColor": "#e62117",
+        "price": 63883.75,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "240Hz 1000R",
+          "Ambiglow"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 120,
+        "url": "https://www.epey.com/monitor/philips-evnia-32m2c5500w-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 67999,
+        "store": "İtopya"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 63883.75,
+        "store": "İtopya"
+      }
+    ]
+  },
+  {
+    "id": "philips-346e2lae-00",
+    "slug": "philips-346e2lae-00",
+    "name": "Philips 346E2LAE/00 34\" 100Hz WQHD UltraWide USB-C Kavisli Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 43263,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 48,
+    "image": "/images/laptops/philips-346e2lae.jpg",
+    "images": [
+      "/images/laptops/philips-346e2lae.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "34 İnç 1500R Kavisli WQHD (3440 x 1440) 21:9 UltraGeniş Görüş",
+      "100 Hz Yenileme Hızı ve 1 ms MPRT",
+      "Dahili Stereo Hoparlörler & Kablo Düzenleme Kanalları",
+      "MultiView ile 2 Cihazı Aynı Ekranda Eşzamanlı Görüntüleme"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "UltraWide WQHD VA Display Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "100Hz 3440x1440 VA Engine",
+      "screenSizeInches": 34,
+      "screenResolution": "3440 x 1440 (UltraWide QHD)",
+      "colorGamut": "sRGB 121%, NTSC 100%",
+      "ports": [
+        "1x HDMI 2.0",
+        "1x DisplayPort 1.2",
+        "Dahili Hoparlör"
+      ],
+      "weightKg": 8.2,
+      "bodyMaterial": "Ergonomik Yükseklik Ayarlı Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-346e2lae-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 43263,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "UltraWide"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.epey.com/monitor/philips-346e2lae-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 45999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 43263,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-evnia-27m2c5500w-00",
+    "slug": "philips-evnia-27m2c5500w-00",
+    "name": "Philips Evnia 27M2C5500W/00 27\" 240Hz 0.5ms QHD 1000R Curved Espor Monitörü",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 41458.6,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 97,
+    "reviewCount": 62,
+    "image": "/images/laptops/philips-evnia-27m2c5500w.jpg",
+    "images": [
+      "/images/laptops/philips-evnia-27m2c5500w.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "27 İnç 1000R Agresif Kavisli QHD (2560 x 1440) Fast VA Panel",
+      "240 Hz Ekstrem Yenileme Hızı & 0.5 ms MPRT Gecikmesiz Deneyim",
+      "DisplayHDR 400 ve Ambiglow Yapay Zeka Aydınlatma",
+      "USB Hub & Yükseklik/Eğim Ayarlı Stand"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "Fast VA 240Hz 1000R Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "240Hz 2K Fast VA Engine",
+      "screenSizeInches": 27,
+      "screenResolution": "2560 x 1440 (QHD 2K)",
+      "colorGamut": "sRGB 119%, DCI-P3 92%",
+      "ports": [
+        "2x HDMI 2.0",
+        "2x DisplayPort 1.4",
+        "USB 3.2 Hub"
+      ],
+      "weightKg": 6.8,
+      "bodyMaterial": "Evnia 1000R Espor Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "so-evnia27-240curved-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 41458.6,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "240Hz 1000R",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 450,
+        "url": "https://www.epey.com/monitor/philips-evnia-27m2c5500w-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 43999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 41458.6,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-evnia-27m2n5500-00",
+    "slug": "philips-evnia-27m2n5500-00",
+    "name": "Philips Evnia 27M2N5500/00 27\" 180Hz 0.5ms QHD Fast IPS Gaming Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 39656,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 54,
+    "image": "/images/laptops/philips-evnia-27m2n5500.jpg",
+    "images": [
+      "/images/laptops/philips-evnia-27m2n5500.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "27 İnç QHD 2K (2560 x 1440) Fast IPS Panel",
+      "180 Hz Hızlı Tazeleme ve 0.5 ms Smart MBR",
+      "DisplayHDR 400 & %125 sRGB Geniş Renk Paleti",
+      "Ergonomik SmartErgoBase Stand (Pivot, Yükseklik, Döndürme)"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "Fast IPS 180Hz QHD Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "180Hz QHD Fast IPS Engine",
+      "screenSizeInches": 27,
+      "screenResolution": "2560 x 1440 (QHD 2K)",
+      "colorGamut": "sRGB 125%, DCI-P3 94%",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Ses Çıkışı"
+      ],
+      "weightKg": 6.2,
+      "bodyMaterial": "Evnia Pivot Standlı Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-evnia27-5500-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 39656,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fast IPS"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 310,
+        "url": "https://www.epey.com/monitor/philips-evnia-27m2n5500-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 41999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 39656,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-279c9-00",
+    "slug": "philips-279c9-00",
+    "name": "Philips 279C9/00 27\" 4K UHD 65W USB-C Çerçevesiz Tasarım IPS Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 34465.7,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 75,
+    "image": "/images/laptops/philips-279c9.jpg",
+    "images": [
+      "/images/laptops/philips-279c9.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "27 İnç 4K UHD (3840 x 2160) 4 Tarafı Sıfır Çerçeve Tasarımı",
+      "Tek Kablo USB-C Güç Dağıtımı (65W) ve Görüntü Aktarımı",
+      "DisplayHDR 400 & AMD FreeSync Desteği",
+      "iF Tasarım ve Red Dot Ödüllü Minimalist Gövde"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "4K UHD IPS Frameless Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "4K UHD 60Hz Pro IPS Engine",
+      "screenSizeInches": 27,
+      "screenResolution": "3840 x 2160 (4K UHD)",
+      "colorGamut": "sRGB 109%, NTSC 90%",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "1x USB-C (65W PD)",
+        "USB 3.2 Hub"
+      ],
+      "weightKg": 5.6,
+      "bodyMaterial": "4 Kenar Çerçevesiz Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-279c9-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 34465.7,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "4 Kenar Çerçevesiz",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 620,
+        "url": "https://www.epey.com/monitor/philips-279c9-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 36999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 34465.7,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-evnia-25m2n5200p-00",
+    "slug": "philips-evnia-25m2n5200p-00",
+    "name": "Philips Evnia 25M2N5200P/00 24.5\" 280Hz 0.5ms Fast IPS Espor Monitörü",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 28102.28,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 98,
+    "reviewCount": 88,
+    "image": "/images/laptops/philips-evnia-25m2n5200p.jpg",
+    "images": [
+      "/images/laptops/philips-evnia-25m2n5200p.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "24.5 İnç Profesyonel Espor Boyutu Fast IPS Panel",
+      "280 Hz Aşırı Hızlandırılmış Yenileme & 0.5 ms MPRT",
+      "DisplayHDR 400 & SmartImage Espor Oyun Modları",
+      "Tam Ergonomik Pivot Stand ve Kablo Tutucu"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "Fast IPS 280Hz Pro Esports Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "280Hz Fast IPS FHD Engine",
+      "screenSizeInches": 24.5,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 110%, NTSC 93%",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "USB Hub (4 Port)"
+      ],
+      "weightKg": 5.1,
+      "bodyMaterial": "Evnia Profesyonel Espor Pivot Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-evnia25-280-1",
+        "storeName": "İtopya",
+        "storeLogoColor": "#e62117",
+        "price": 28102.28,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "280Hz Espor",
+          "0.5ms"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 540,
+        "url": "https://www.epey.com/monitor/philips-evnia-25m2n5200p-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 29999,
+        "store": "İtopya"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 28102.28,
+        "store": "İtopya"
+      }
+    ]
+  },
+  {
+    "id": "philips-328b1-00",
+    "slug": "philips-328b1-00",
+    "name": "Philips 328B1/00 31.5\" 4K UHD Profesyonel VA Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 22701.3,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 65,
+    "image": "/images/laptops/philips-328b1.jpg",
+    "images": [
+      "/images/laptops/philips-328b1.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "31.5 İnç 4K Ultra HD (3840 x 2160) Derin Kontrastlı VA Panel",
+      "PowerSensor ve LightSensor ile Akıllı Enerji Tasarrufu",
+      "Dahili Stereo Hoparlörler ve SmartErgoBase Stand",
+      "Flicker-Free ve LowBlue Göz Koruma Teknolojileri"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "4K UHD VA Pro Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "4K 60Hz VA Engine",
+      "screenSizeInches": 31.5,
+      "screenResolution": "3840 x 2160 (4K UHD)",
+      "colorGamut": "sRGB 119%, NTSC 98%",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.2",
+        "USB Hub (4 Port)",
+        "Dahili Hoparlör"
+      ],
+      "weightKg": 8.9,
+      "bodyMaterial": "Ergonomik Profesyonel Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-328b1-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#ff6700",
+        "price": 22701.3,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "4K UHD 32 İnç"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.epey.com/monitor/philips-328b1-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 23999,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 22701.3,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "philips-346e2cuae-00",
+    "slug": "philips-346e2cuae-00",
+    "name": "Philips 346E2CUAE/00 34\" 100Hz WQHD UltraWide USB-C Kavisli Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 20575,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 140,
+    "image": "/images/laptops/philips-346e2cuae.jpg",
+    "images": [
+      "/images/laptops/philips-346e2cuae.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "34 İnç 1500R Kavisli WQHD (3440 x 1440) UltraWide Panel",
+      "Tek Kablo ile 65W USB-C Güç Dağıtımı ve Görüntü Aktarımı",
+      "100 Hz Yenileme Hızı ve 1 ms MPRT Tepki Süresi",
+      "Dahili Hoparlörler & MultiView Çoklu Ekran Desteği"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "UltraWide WQHD USB-C VA Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "100Hz 3440x1440 USB-C Engine",
+      "screenSizeInches": 34,
+      "screenResolution": "3440 x 1440 (UltraWide QHD)",
+      "colorGamut": "sRGB 121%, NTSC 100%",
+      "ports": [
+        "1x HDMI 2.0",
+        "1x DisplayPort 1.2",
+        "1x USB-C (65W)",
+        "USB 3.2 Hub",
+        "Hoparlör"
+      ],
+      "weightKg": 8,
+      "bodyMaterial": "Ergonomik Kavisli USB-C Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-346e2cuae-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 20575,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "USB-C 65W",
+          "UltraWide"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/monitor/philips-346e2cuae-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 21999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 20575,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-evnia-34m2c3500l-00",
+    "slug": "philips-evnia-34m2c3500l-00",
+    "name": "Philips Evnia 34M2C3500L/00 34\" 180Hz 0.5ms WQHD Curved Espor Monitörü",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 96,
+    "reviewCount": 220,
+    "image": "/images/laptops/philips-evnia-34m2c3500l.jpg",
+    "images": [
+      "/images/laptops/philips-evnia-34m2c3500l.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "34 İnç 1500R Kavisli WQHD (3440 x 1440) UltraWide Fast VA Panel",
+      "180 Hz Yüksek Tazeleme & 0.5 ms MPRT Akıcı Espor Deneyimi",
+      "HDR10 & Geniş Renk Gamı (%121 sRGB, %95 DCI-P3)",
+      "SmartImage Oyun Modları ve Shadow Boost"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "Fast VA 180Hz UltraWide Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "180Hz 3440x1440 Fast VA Engine",
+      "screenSizeInches": 34,
+      "screenResolution": "3440 x 1440 (UltraWide QHD)",
+      "colorGamut": "sRGB 121%, DCI-P3 95%",
+      "ports": [
+        "2x HDMI 2.0",
+        "2x DisplayPort 1.4",
+        "Ses Çıkışı"
+      ],
+      "weightKg": 7.9,
+      "bodyMaterial": "Evnia Kavisli UltraWide Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-evnia34-3500l-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "180Hz WQHD",
+          "Fırsat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1600,
+        "url": "https://www.epey.com/monitor/philips-evnia-34m2c3500l-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 15999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-27e1n1900ae-00",
+    "slug": "philips-27e1n1900ae-00",
+    "name": "Philips 27E1N1900AE/00 27\" 4K UHD 65W USB-C IPS Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 13999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 160,
+    "image": "/images/laptops/philips-27e1n1900ae.jpg",
+    "images": [
+      "/images/laptops/philips-27e1n1900ae.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "27 İnç 4K Ultra HD (3840 x 2160) IPS Geniş Açılı Panel",
+      "65W USB-C Tek Kablo ile Güç ve Görüntü İletimi",
+      "Dahili Hoparlörler ve Yükseklik Ayarlı Ergonomik Stand",
+      "Göz Sağlığı için EasyRead ve Flicker-Free Teknolojisi"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "4K UHD IPS USB-C Display Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "4K 60Hz IPS USB-C Engine",
+      "screenSizeInches": 27,
+      "screenResolution": "3840 x 2160 (4K UHD)",
+      "colorGamut": "sRGB 109%, NTSC 93%",
+      "ports": [
+        "1x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "1x USB-C (65W PD)",
+        "USB Hub",
+        "Dahili Hoparlör"
+      ],
+      "weightKg": 5.8,
+      "bodyMaterial": "Ergonomik Yükseklik Ayarlı Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-27e1n1900-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 13999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "4K USB-C",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1100,
+        "url": "https://www.epey.com/monitor/philips-27e1n1900ae-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 14799,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-278b1-00",
+    "slug": "philips-278b1-00",
+    "name": "Philips 278B1/00 27\" 4K UHD Profesyonel IPS Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 13525,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 130,
+    "image": "/images/laptops/philips-278b1.jpg",
+    "images": [
+      "/images/laptops/philips-278b1.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "27 İnç 4K Ultra HD (3840 x 2160) Canlı IPS Panel",
+      "PowerSensor ile Enerji Tüketiminde %70'e Varan Tasarruf",
+      "SmartErgoBase Tam Hareketli Pivot Stand",
+      "Dahili Stereo Hoparlörler & USB 3.2 Hub"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "4K UHD IPS Pro Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "4K 60Hz IPS Engine",
+      "screenSizeInches": 27,
+      "screenResolution": "3840 x 2160 (4K UHD)",
+      "colorGamut": "sRGB 122%, NTSC 110%",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.2",
+        "USB 3.2 Hub",
+        "Dahili Hoparlör"
+      ],
+      "weightKg": 6.7,
+      "bodyMaterial": "Çevre Dostu Ergonomik Pivot Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-278b1-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 13525,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "4K IPS Pivot"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 780,
+        "url": "https://www.epey.com/monitor/philips-278b1-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 14299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13525,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-evnia-25m2n5200u-00",
+    "slug": "philips-evnia-25m2n5200u-00",
+    "name": "Philips Evnia 25M2N5200U/00 24.5\" 280Hz 0.5ms Fast IPS Espor Monitörü",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 10735,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 95,
+    "image": "/images/laptops/philips-evnia-25m2n5200u.jpg",
+    "images": [
+      "/images/laptops/philips-evnia-25m2n5200u.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "24.5 İnç Full HD (1920 x 1080) 280 Hz Fast IPS Espor Panel",
+      "0.5 ms MPRT Ultra Düşük Gecikme",
+      "HDR400 & sRGB %110 Canlı Renk Doğruluğu",
+      "Yükseklik Ayarlı ve Pivot Dönebilen Stand"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "Fast IPS 280Hz FHD Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "280Hz Fast IPS Engine",
+      "screenSizeInches": 24.5,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 110%, NTSC 93%",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Ses Çıkışı"
+      ],
+      "weightKg": 4.8,
+      "bodyMaterial": "Evnia Espor Pivot Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-evnia25-5200u-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 10735,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "280Hz Fast IPS"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://www.epey.com/monitor/philips-evnia-25m2n5200u-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 11499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 10735,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-evnia-25m2n3200u-00",
+    "slug": "philips-evnia-25m2n3200u-00",
+    "name": "Philips Evnia 25M2N3200U/00 24.5\" 180Hz 0.5ms Fast IPS Espor Monitörü",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 8699,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 92,
+    "reviewCount": 140,
+    "image": "/images/laptops/philips-evnia-25m2n3200u.jpg",
+    "images": [
+      "/images/laptops/philips-evnia-25m2n3200u.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "24.5 İnç Full HD (1920 x 1080) 180 Hz Fast IPS Panel",
+      "0.5 ms MPRT Ultra Akıcı Tepki Süresi",
+      "HDR10 Desteği & SmartImage Espor Modları",
+      "Kompakt Şık Espor Masa Standı"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "Fast IPS 180Hz Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "180Hz FHD Fast IPS Engine",
+      "screenSizeInches": 24.5,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 100%, NTSC 88%",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Ses Çıkışı"
+      ],
+      "weightKg": 4.3,
+      "bodyMaterial": "Evnia Kompakt Espor Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-evnia25-3200u-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 8699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "180Hz Fast IPS"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/monitor/philips-evnia-25m2n3200u-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 9299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8699,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "philips-evnia-34m2c5501a-00",
     "slug": "philips-evnia-34m2c5501a-00",
     "name": "Philips Evnia 34M2C5501A/00 34\" 180Hz 0.5ms WQHD Curved Espor Monitörü",

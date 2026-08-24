@@ -2,6 +2,187 @@ import { Product } from './types';
 
 export const mockHeadphones: Product[] = [
   {
+    "id": "philips-shc8800",
+    "slug": "philips-shc8800",
+    "name": "Philips SHC8800 Kablosuz Hi-Res Ev Sinema ve TV Kulaklığı",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 7495,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 120,
+    "image": "/images/headphones/philips-shc8800.jpg",
+    "images": [
+      "/images/headphones/philips-shc8800.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "100 Metre Geniş Kablosuz Çekim Alanı ve Şarj Yuvalı Verici İstasyon",
+      "Hi-Res Audio Sertifikalı 40 mm Neodimyum Sürücüler",
+      "20 Saate Kadar Kesintisiz TV ve Sinema Dinleme Deneyimi",
+      "Nefes Alabilen Kadife Kulak Yastıkları ve Otomatik Ayarlı Kafa Bandı"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Kablosuz RF / TV)",
+      "anc": "Yok",
+      "batteryLife": "20 Saat",
+      "bluetoothVersion": "Kablosuz RF (100m)",
+      "driverSize": "40 mm Hi-Res",
+      "frequencyResponse": "8 Hz - 40.000 Hz",
+      "weightGrams": 280
+    },
+    "storeOffers": [
+      {
+        "id": "so-shc8800-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 7495,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hi-Res TV",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 380,
+        "url": "https://www.epey.com/kulaklik/philips-shc8800.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 7999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7495,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-tat1215",
+    "slug": "philips-tat1215",
+    "name": "Philips TAT1215 TWS Gerçek Kablosuz Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 2800.96,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 87,
+    "reviewCount": 450,
+    "image": "/images/headphones/philips-tat1215.jpg",
+    "images": [
+      "/images/headphones/philips-tat1215.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "IPX4 Suya ve Tere Karşı Dayanıklılık",
+      "Kompakt Şarj Kutusu ile 18 Saate Kadar Çalma Süresi",
+      "6 mm Neodimyum Akustik Sürücüler ile Net Ses",
+      "Yankı Önleyici Mikrofon ile Temiz Görüşmeler"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Yok",
+      "batteryLife": "18 Saat (Kutu ile)",
+      "bluetoothVersion": "5.1",
+      "driverSize": "6 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 36
+    },
+    "storeOffers": [
+      {
+        "id": "so-tat1215-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 2800.96,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "TWS IPX4"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1100,
+        "url": "https://www.epey.com/kulaklik/philips-tat1215.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 2999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2800.96,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-taun102bk",
+    "slug": "philips-taun102bk",
+    "name": "Philips TAUN102BK Manyetik Boyun Bantlı Bluetooth Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 791.1,
+    "currency": "TL",
+    "rating": 4.4,
+    "epeyScore": 83,
+    "reviewCount": 380,
+    "image": "/images/headphones/philips-taun102bk.jpg",
+    "images": [
+      "/images/headphones/philips-taun102bk.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "Manyetik Uçlar ile Dolaşmayı Önleyen Pratik Boyun Bandı",
+      "7 Saat Kesintisiz Müzik & Hızlı Şarj",
+      "6 mm Sürücüler ile Dengeli Bas ve Tizler",
+      "Kablo Üzerinde Entegre Mikrofon ve Ses Kontrolü"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Boyun Bantlı)",
+      "anc": "Yok",
+      "batteryLife": "7 Saat",
+      "bluetoothVersion": "5.0",
+      "driverSize": "6 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 20
+    },
+    "storeOffers": [
+      {
+        "id": "so-taun102-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 791.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Manyetik"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/kulaklik/philips-taun102bk.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 850,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 791.1,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "philips-actionfit-st702",
     "slug": "philips-actionfit-st702",
     "name": "Philips ActionFit ST702 TWS UV Temizlemeli IPX5 Sporcu Kulaklığı",
