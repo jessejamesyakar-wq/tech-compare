@@ -17227,6 +17227,89 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "hometech-alfa-10bt-6-128",
+    "slug": "hometech-alfa-10bt",
+    "name": "Hometech Alfa 10BT 6 GB / 128 GB (2K)",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 6999,
+    "currency": "TL",
+    "rating": 4.3,
+    "reviewCount": 38,
+    "image": "/images/tablets/hometech-865417.jpg",
+    "images": [
+      "/images/tablets/hometech-865417.jpg"
+    ],
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "10.4 İnç 2K (2000x1200) Yüksek Çözünürlüklü IPS Ekran",
+      "Unisoc T618 8 Çekirdekli Performans İşlemcisi",
+      "6 GB RAM & 128 GB Geniş Depolama Alanı",
+      "7000 mAh Güçlü Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10.4,
+      "screenResolution": "2000 x 1200",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Unisoc Tiger T618 (8 Çekirdek 2.0 GHz)",
+      "ramGb": 6,
+      "storageGb": 128,
+      "batteryMah": 7000,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 510,
+      "os": "Android 12",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-alfa10bt-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 6999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "2K Ekran",
+          "Fırsat"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 40,
+        "url": "https://www.epey.com/tablet/hometech-alfa-10bt.html"
+      },
+      {
+        "id": "so-ht-alfa10bt-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 7199,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 35,
+        "url": "https://www.epey.com/tablet/hometech-alfa-10bt.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 5499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-pro-11-mnxk3tu-a",
     "slug": "apple-ipad-pro-11-mnxk3tu-a",
     "name": "Apple iPad Pro 11 (MNXK3TU/A) 16 GB / 1024 GB",
@@ -20743,6 +20826,171 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "hometech-alfa-10md-2-32",
+    "slug": "hometech-alfa-10md",
+    "name": "Hometech Alfa 10MD 2 GB / 32 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 4000,
+    "currency": "TL",
+    "rating": 3.9,
+    "reviewCount": 22,
+    "image": "/images/tablets/hometech-690291.jpg",
+    "images": [
+      "/images/tablets/hometech-690291.jpg"
+    ],
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.1 İnç HD IPS Ekran",
+      "MediaTek MT8167 4 Çekirdekli İşlemci",
+      "2 GB RAM & 32 GB Depolama",
+      "5000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8167 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 5000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 480,
+      "os": "Android 10",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-alfa10md-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 4000,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 25,
+        "url": "https://www.epey.com/tablet/hometech-alfa-10md.html"
+      },
+      {
+        "id": "so-ht-alfa10md-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 4150,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 20,
+        "url": "https://www.epey.com/tablet/hometech-alfa-10md.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2022-01-01",
+        "price": 2799,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4000,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "hometech-alfa-8-mrc-2-32",
+    "slug": "hometech-alfa-8-mrc",
+    "name": "Hometech Alfa 8 MRC 2 GB / 32 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 3475,
+    "currency": "TL",
+    "rating": 3.9,
+    "reviewCount": 20,
+    "image": "/images/tablets/hometech-690292.jpg",
+    "images": [
+      "/images/tablets/hometech-690292.jpg"
+    ],
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8.0 İnç Taşınabilir HD IPS Ekran",
+      "MediaTek MT8167 4 Çekirdekli İşlemci",
+      "2 GB RAM & 32 GB Depolama",
+      "4000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8167 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 4000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 330,
+      "os": "Android 10",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-alfa8mrc-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 3475,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kompakt",
+          "Fırsat"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 24,
+        "url": "https://www.epey.com/tablet/hometech-alfa-8-mrc.html"
+      },
+      {
+        "id": "so-ht-alfa8mrc-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 3599,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 18,
+        "url": "https://www.epey.com/tablet/hometech-alfa-8-mrc.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2022-01-01",
+        "price": 2299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3475,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "hometech-alfa-10bs-3-32",
     "slug": "hometech-alfa-10bs",
     "name": "Hometech Alfa 10BS 3 GB / 32 GB",
@@ -22924,6 +23172,74 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 6109,
         "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hometech-alfa-8st-2-16",
+    "slug": "hometech-alfa-8st",
+    "name": "Hometech Alfa 8ST 2 GB / 16 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 3299,
+    "currency": "TL",
+    "rating": 3.7,
+    "reviewCount": 16,
+    "image": "/images/tablets/hometech-660961.jpg",
+    "images": [
+      "/images/tablets/hometech-660961.jpg"
+    ],
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8.0 İnç HD IPS Ekran",
+      "MediaTek MT8163 4 Çekirdekli İşlemci",
+      "2 GB RAM & 16 GB Depolama",
+      "4000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8163 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 4000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 340,
+      "os": "Android 9.0 (Pie)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-alfa8st-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 3299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 20,
+        "url": "https://www.epey.com/tablet/hometech-alfa-8st.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2021-01-01",
+        "price": 1999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3299,
+        "store": "Amazon TR"
       }
     ]
   },
@@ -27658,6 +27974,76 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "hometech-wi-360-2-64",
+    "slug": "hometech-wi-360",
+    "name": "Hometech Wi 360 2 GB / 64 GB (2-in-1 Windows 10)",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 4999,
+    "currency": "TL",
+    "rating": 4,
+    "reviewCount": 30,
+    "image": "/images/tablets/hometech-66189.jpg",
+    "images": [
+      "/images/tablets/hometech-66189.jpg"
+    ],
+    "releaseYear": 2017,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "11.6 İnç Full HD (1920x1080) IPS Dokunmatik Ekran",
+      "360 Derece Dönebilen Katlanabilir 2-in-1 Tasarım",
+      "Intel Atom x5-Z8350 4 Çekirdekli İşlemci",
+      "Orijinal Windows 10 Home İşletim Sistemi",
+      "8000 mAh Yüksek Kapasiteli Pil"
+    ],
+    "specs": {
+      "screenSizeInches": 11.6,
+      "screenResolution": "1920 x 1080",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom x5-Z8350 (4 Çekirdek 1.92 GHz)",
+      "ramGb": 2,
+      "storageGb": 64,
+      "batteryMah": 8000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 1060,
+      "os": "Windows 10 Home",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-wi360-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Windows 10",
+          "Full HD"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 35,
+        "url": "https://www.epey.com/tablet/hometech-wi-360.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2018-01-01",
+        "price": 1499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-pro-10-5-wifi-plus-cellular-512gb",
     "slug": "apple-ipad-pro-10-5-wifi-plus-cellular-512gb",
     "name": "Apple iPad Pro 10.5 512 GB",
@@ -29459,6 +29845,75 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "hometech-wi-11-2-64",
+    "slug": "hometech-wi-11",
+    "name": "Hometech Wi 11 2 GB / 64 GB (Windows 10)",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 4299,
+    "currency": "TL",
+    "rating": 3.9,
+    "reviewCount": 26,
+    "image": "/images/tablets/hometech-101370.jpg",
+    "images": [
+      "/images/tablets/hometech-101370.jpg"
+    ],
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "11.6 İnç HD IPS Ekran",
+      "Intel Atom Z3735F 4 Çekirdekli İşlemci",
+      "2 GB RAM & 64 GB Dahili Hafıza",
+      "Klavyeli Windows 10 Tablet PC",
+      "8000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 11.6,
+      "screenResolution": "1366 x 768",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735F (4 Çekirdek 1.83 GHz)",
+      "ramGb": 2,
+      "storageGb": 64,
+      "batteryMah": 8000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 890,
+      "os": "Windows 10",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-wi11-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 4299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Windows Tablet"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 28,
+        "url": "https://www.epey.com/tablet/hometech-wi-11.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2017-01-01",
+        "price": 999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4299,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "reeder-a12ix-workbook-2-16",
     "slug": "reeder-a12ix",
     "name": "Reeder A12iX Workbook 2 GB / 16 GB (Windows 10)",
@@ -29527,6 +29982,282 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "hometech-ht-101b-2-32",
+    "slug": "hometech-ht-101b",
+    "name": "Hometech HT 101B 2 GB / 32 GB (Windows 10)",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 3899,
+    "currency": "TL",
+    "rating": 3.8,
+    "reviewCount": 22,
+    "image": "/images/tablets/hometech-101378.jpg",
+    "images": [
+      "/images/tablets/hometech-101378.jpg"
+    ],
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "11.6 İnç Geniş Ekran",
+      "Intel Atom Z3735F 4 Çekirdekli İşlemci",
+      "2 GB RAM & 32 GB Depolama",
+      "Windows 10 İşletim Sistemi",
+      "8000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 11.6,
+      "screenResolution": "1366 x 768",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735F (4 Çekirdek 1.83 GHz)",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 8000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 890,
+      "os": "Windows 10",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-ht101b-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 3899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Windows 10"
+        ],
+        "sellerRating": 4.2,
+        "sellerReviews": 24,
+        "url": "https://www.epey.com/tablet/hometech-ht-101b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2017-01-01",
+        "price": 899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3899,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hometech-wi-10-3g-2-32",
+    "slug": "hometech-wi-10-3g",
+    "name": "Hometech Wi 10 3G 2 GB / 32 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 3799,
+    "currency": "TL",
+    "rating": 3.8,
+    "reviewCount": 22,
+    "image": "/images/tablets/hometech-54978.jpg",
+    "images": [
+      "/images/tablets/hometech-54978.jpg"
+    ],
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.1 İnç HD IPS Ekran",
+      "Intel Atom Z3735F 4 Çekirdekli İşlemci",
+      "3G SIM Kart Yuvası ile Kesintisiz İnternet",
+      "Windows 10 İşletim Sistemi",
+      "6000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735F (4 Çekirdek 1.83 GHz)",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 6000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 590,
+      "os": "Windows 10",
+      "cellularSupport": "3G SIM",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-wi103g-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 3799,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "3G SIM Destekli"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 25,
+        "url": "https://www.epey.com/tablet/hometech-wi-10-3g.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2017-01-01",
+        "price": 899,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3799,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "hometech-wi-10-2-32",
+    "slug": "hometech-wi-10",
+    "name": "Hometech Wi 10 2 GB / 32 GB (Windows 10)",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 3599,
+    "currency": "TL",
+    "rating": 3.7,
+    "reviewCount": 20,
+    "image": "/images/tablets/hometech-54981.jpg",
+    "images": [
+      "/images/tablets/hometech-54981.jpg"
+    ],
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.1 İnç HD IPS Ekran",
+      "Intel Atom Z3735F 4 Çekirdekli İşlemci",
+      "2 GB RAM & 32 GB Depolama",
+      "Windows 10 İşletim Sistemi",
+      "6000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735F (4 Çekirdek 1.83 GHz)",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 6000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 580,
+      "os": "Windows 10",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-wi10-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 3599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.2,
+        "sellerReviews": 22,
+        "url": "https://www.epey.com/tablet/hometech-wi-10.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2017-01-01",
+        "price": 799,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3599,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "hometech-wi101-2-32",
+    "slug": "hometech-wi101",
+    "name": "Hometech Wi101 2 GB / 32 GB (Windows 10)",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 3499,
+    "currency": "TL",
+    "rating": 3.7,
+    "reviewCount": 18,
+    "image": "/images/tablets/hometech-54983.jpg",
+    "images": [
+      "/images/tablets/hometech-54983.jpg"
+    ],
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.1 İnç HD IPS Ekran",
+      "Intel Atom Z3735F 4 Çekirdekli İşlemci",
+      "2 GB RAM & 32 GB Depolama",
+      "Windows 10 İşletim Sistemi",
+      "6000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735F (4 Çekirdek 1.83 GHz)",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 6000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 580,
+      "os": "Windows 10",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-wi101-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.2,
+        "sellerReviews": 20,
+        "url": "https://www.epey.com/tablet/hometech-wi101.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2017-01-01",
+        "price": 749,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "reeder-a8i-q2-2-16",
     "slug": "reeder-a8i-q2",
     "name": "Reeder A8i Q2 2 GB / 16 GB",
@@ -29591,6 +30322,75 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 1999,
         "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hometech-ideal-tab-10-w-1-16",
+    "slug": "hometech-ideal-tab-10-w",
+    "name": "Hometech Ideal Tab 10 W 1 GB / 16 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 2899,
+    "currency": "TL",
+    "rating": 3.6,
+    "reviewCount": 15,
+    "image": "/images/tablets/hometech-54976.png",
+    "images": [
+      "/images/tablets/hometech-54976.png"
+    ],
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.1 İnç HD IPS Ekran",
+      "Intel Atom Z3735G 4 Çekirdekli İşlemci",
+      "1 GB RAM & 16 GB Depolama",
+      "Windows 10 İşletim Sistemi",
+      "5000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735G (4 Çekirdek 1.83 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 5000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 550,
+      "os": "Windows 10",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-idealtab10w-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 2899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.1,
+        "sellerReviews": 18,
+        "url": "https://www.epey.com/tablet/hometech-ideal-tab-10-w.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2017-01-01",
+        "price": 599,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2899,
+        "store": "Amazon TR"
       }
     ]
   },
@@ -31330,6 +32130,143 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "hometech-elite-tab-9-7-3g-2-16",
+    "slug": "hometech-elite-tab-9-7-3g",
+    "name": "Hometech Elite Tab Retina 9.7 3G 2 GB / 16 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 3699,
+    "currency": "TL",
+    "rating": 3.8,
+    "reviewCount": 24,
+    "image": "/images/tablets/hometech-72451.png",
+    "images": [
+      "/images/tablets/hometech-72451.png"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "9.7 İnç Retina (2048x1536) IPS Ekran",
+      "Intel Atom Z3735F 4 Çekirdekli İşlemci",
+      "3G SIM Kart Desteği ile Mobil Bağlantı",
+      "8000 mAh Yüksek Kapasiteli Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 9.7,
+      "screenResolution": "2048 x 1536",
+      "panelType": "IPS Retina",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735F (4 Çekirdek 1.83 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 8000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 530,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "3G SIM",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-elitetab973g-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 3699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Retina Ekran",
+          "3G"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 26,
+        "url": "https://www.epey.com/tablet/hometech-elite-tab-9-7-3g.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2016-01-01",
+        "price": 699,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3699,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "hometech-elite-tab-9-7-retina-2-16",
+    "slug": "hometech-elite-tab-9-7-retina",
+    "name": "Hometech Elite Tab 9.7 Retina 2 GB / 16 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 3499,
+    "currency": "TL",
+    "rating": 3.8,
+    "reviewCount": 22,
+    "image": "/images/tablets/hometech-37148.png",
+    "images": [
+      "/images/tablets/hometech-37148.png"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "9.7 İnç Retina (2048x1536) Kristal Netliğinde Ekran",
+      "Intel Atom Z3735F 4 Çekirdekli İşlemci",
+      "2 GB RAM & 16 GB Dahili Hafıza",
+      "8000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 9.7,
+      "screenResolution": "2048 x 1536",
+      "panelType": "IPS Retina",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735F (4 Çekirdek 1.83 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 8000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 530,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-elitetab97-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Retina Ekran"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 25,
+        "url": "https://www.epey.com/tablet/hometech-elite-tab-9-7-retina.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2016-01-01",
+        "price": 649,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "reeder-w100i-64gb",
     "slug": "reeder-w100i-64gb",
     "name": "Reeder W100i 2 GB / 64 GB (Windows Tablet)",
@@ -31598,6 +32535,74 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 2199,
         "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hometech-premium-tab-10-2-32",
+    "slug": "hometech-premium-tab-10",
+    "name": "Hometech Premium Tab 10 2 GB / 32 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 3399,
+    "currency": "TL",
+    "rating": 3.7,
+    "reviewCount": 20,
+    "image": "/images/tablets/hometech-25909.png",
+    "images": [
+      "/images/tablets/hometech-25909.png"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.1 İnç HD IPS Ekran",
+      "Intel Atom Z3735F 4 Çekirdekli İşlemci",
+      "2 GB RAM & 32 GB Depolama",
+      "Windows 8.1 / 10 & 6000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735F (4 Çekirdek 1.83 GHz)",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 6000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 580,
+      "os": "Windows 8.1 with Bing",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-premiumtab10-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 3399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.2,
+        "sellerReviews": 20,
+        "url": "https://www.epey.com/tablet/hometech-premium-tab-10.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2016-01-01",
+        "price": 599,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3399,
+        "store": "Amazon TR"
       }
     ]
   },
