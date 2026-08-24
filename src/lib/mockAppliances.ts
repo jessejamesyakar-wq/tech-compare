@@ -2,6 +2,1677 @@ import { ApplianceProduct } from './types';
 
 export const mockAppliances: ApplianceProduct[] = [
   {
+    "id": "philips-cafe-gaia-hd7548-20",
+    "slug": "philips-cafe-gaia-hd7548-20",
+    "name": "Philips Cafe Gaia HD7548/20 1000W Çelik Termoslu Filtre Kahve Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 26344,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 310,
+    "image": "/images/appliances/philips-cafe-gaia-hd7548-20.jpg",
+    "images": [
+      "/images/appliances/philips-cafe-gaia-hd7548-20.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "Çift Katmanlı Paslanmaz Kırılmaz Termos Sürahi (Kahveyi 2 Saatten Fazla Sıcak Tutar)",
+      "Konsantre Su Akışı ile Tam Kıvamında Kahve Aroması",
+      "Drip-Stop Damlama Önleme & Akıllı Otomatik Kapanma",
+      "1.2 Litre Kapasite (15 Fincan)"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Kahve Makinesi",
+      "powerWatts": 1000,
+      "capacityLiters": 1.2,
+      "waterTankCapacityLiters": 1.2,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "dishwasherSafeParts": true,
+      "weightKg": 2.03,
+      "warrantyYears": 2,
+      "color": "Fırçalanmış Paslanmaz Çelik / Mat Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hd7548-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 26344,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Termoslu Filtre Kahve"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 410,
+        "url": "https://www.epey.com/kahve-makinesi/philips-cafe-gaia-hd7548-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 27500,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 26344,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-senseo-select-csa250",
+    "slug": "philips-senseo-select-csa250",
+    "name": "Philips Senseo Select CSA250/10 Intensity Plus Kahve Pedi Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 29543,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 380,
+    "image": "/images/appliances/philips-senseo-csa250-10.jpg",
+    "images": [
+      "/images/appliances/philips-senseo-csa250-10.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "Intensity Plus Kaydırıcı ile Klasik Kahve, Yoğun Kahve ve Espresso Seçimi",
+      "Memo Kişiselleştirme Fonksiyonu ile Favori Kahve Boyutunu Kaydetme",
+      "Crema Plus Teknolojisi ile İpeksi ve Yoğun Kahve Kreması",
+      "1 veya 2 Fincanı 1 Dakikadan Kısa Sürede Hazırlama"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Kahve Makinesi",
+      "powerWatts": 1450,
+      "capacityLiters": 0.9,
+      "waterTankCapacityLiters": 0.9,
+      "programsCount": 3,
+      "autoShutOff": true,
+      "dishwasherSafeParts": true,
+      "weightKg": 2.11,
+      "warrantyYears": 2,
+      "color": "Mat Siyah / Metalik Detaylar"
+    },
+    "storeOffers": [
+      {
+        "id": "so-csa250-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 29543,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Intensity Plus",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/kahve-makinesi/philips-senseo-select-csa250.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 31000,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 29543,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-senseo-csa230-50",
+    "slug": "philips-senseo-csa230-50",
+    "name": "Philips Senseo CSA230/50 Crema Plus Kahve Pedi Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 29543,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 290,
+    "image": "/images/appliances/philips-senseo-csa230-50.jpg",
+    "images": [
+      "/images/appliances/philips-senseo-csa230-50.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Crema Plus Teknolojisi ile Zengin Krema Tabakası",
+      "Kahve Yoğunluğu Seçimi (Lungo veya Yoğun Küçük Kahve)",
+      "Aynı Anda 2 Fincan Kahve Hazırlama",
+      "Doğa Dostu Geri Dönüştürülmüş Plastik Gövde ve Otomatik Kapanma"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Kahve Makinesi",
+      "powerWatts": 1450,
+      "capacityLiters": 0.9,
+      "waterTankCapacityLiters": 0.9,
+      "programsCount": 2,
+      "autoShutOff": true,
+      "dishwasherSafeParts": true,
+      "weightKg": 2.05,
+      "warrantyYears": 2,
+      "color": "Antrasit Gri"
+    },
+    "storeOffers": [
+      {
+        "id": "so-csa230-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 29543,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Senseo Kahve Makinesi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://www.epey.com/kahve-makinesi/philips-senseo-csa230-50.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 31000,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 29543,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-cucina-hr1565-40",
+    "slug": "philips-cucina-hr1565-40",
+    "name": "Philips Cucina HR1565/40 400W 3L Dönen Hazneli Standlı Mikser",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 22849.09,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 340,
+    "image": "/images/appliances/philips-hr1565-40.png",
+    "images": [
+      "/images/appliances/philips-hr1565-40.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "400 Watt Güçlü Motor & 3 Litre Otomatik Dönen Karıştırma Kasesi",
+      "3 Farklı Hız Kademesi ve Ekstra Turbo Fonksiyonu",
+      "Paslanmaz Çelik Çırpıcılar ve Hamur Yoğurma Çengelleri",
+      "Stand Üzerinde ya da Elde Bağımsız Kullanım İmkanı"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Mikser",
+      "powerWatts": 400,
+      "capacityLiters": 3,
+      "speedSettings": 3,
+      "turboFunction": true,
+      "dishwasherSafeParts": true,
+      "weightKg": 2.4,
+      "warrantyYears": 2,
+      "color": "Beyaz / Turuncu Detaylar"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hr1565-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 22849.09,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Standlı Dönen Hazneli Mikser"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 540,
+        "url": "https://www.epey.com/mikser/philips-hr1565-40.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 24000,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 22849.09,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-cafe-gourmet-hd5416-60",
+    "slug": "philips-cafe-gourmet-hd5416-60",
+    "name": "Philips Cafe Gourmet HD5416/60 1300W Boil & Brew Filtre Kahve Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 14360.28,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 620,
+    "image": "/images/appliances/philips-hd5416-60.jpg",
+    "images": [
+      "/images/appliances/philips-hd5416-60.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Benzersiz Boil & Brew Sistemi: Suyu Önce Kaynatıp Ardından Kahve Yatağına Akıtır",
+      "93°C ve Üzeri İdeal Demleme Sıcaklığı ile Maksimum Aroma Çıkarımı",
+      "Ikonik Şeffaf Cam Su Haznesi ve Çift Isıtıcı Eleman",
+      "Otomatik Sıcak Tutma Tablası ve 30 Dk Sonra Kapanma"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Kahve Makinesi",
+      "powerWatts": 1300,
+      "capacityLiters": 1,
+      "waterTankCapacityLiters": 1,
+      "keepWarmHours": 0.5,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "dishwasherSafeParts": true,
+      "weightKg": 2.3,
+      "warrantyYears": 2,
+      "color": "İkonik Cam Gövde / Paslanmaz Çelik"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hd5416-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 14360.28,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Boil & Brew İkonik Tasarım",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/kahve-makinesi/philips-cafe-gourmet-hd5416-60.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 15500,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14360.28,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-senseo-hd6553",
+    "slug": "philips-senseo-hd6553",
+    "name": "Philips Senseo Original HD6553/60 Kahve Pedi Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 8540.66,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 92,
+    "reviewCount": 920,
+    "image": "/images/appliances/philips-senseo-hd6553.jpg",
+    "images": [
+      "/images/appliances/philips-senseo-hd6553.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Coffee Boost Teknolojisi ile 45 Aroma Nozülünden Eşit Su Dağılımı",
+      "Crema Plus ile Zengin Kadifemsi Krema",
+      "Aynı Anda 2 Fincana Kadar Kahve Çıkışı",
+      "30 Dakika Sonra Otomatik Kapanma ile Enerji Tasarrufu"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Kahve Makinesi",
+      "powerWatts": 1450,
+      "capacityLiters": 0.7,
+      "waterTankCapacityLiters": 0.7,
+      "autoShutOff": true,
+      "dishwasherSafeParts": true,
+      "weightKg": 1.75,
+      "warrantyYears": 2,
+      "color": "Parlak Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hd6553-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 8540.66,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Coffee Boost",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2400,
+        "url": "https://www.epey.com/kahve-makinesi/philips-senseo-hd6553.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 9200,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8540.66,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-hr1364",
+    "slug": "philips-hr1364",
+    "name": "Philips Cucina HR1364 600W Çelik Bıçaklı El Blender Seti",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 6602.07,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 480,
+    "image": "/images/appliances/philips-hr1364.png",
+    "images": [
+      "/images/appliances/philips-hr1364.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "600 Watt Güçlü Motor & Turbo Hız Butonu",
+      "Çift Etkili Paslanmaz Çelik Bıçak Sistemi (Yatay ve Dikey Kesim)",
+      "Doğrayıcı Hazne, Çırpıcı Uç ve 1L Ölçekli Karıştırma Kabı",
+      "Sıçrama Önleyici Özel Başlık Tasarımı"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Blender",
+      "powerWatts": 600,
+      "capacityLiters": 1,
+      "speedSettings": 2,
+      "turboFunction": true,
+      "dishwasherSafeParts": true,
+      "weightKg": 1.35,
+      "warrantyYears": 2,
+      "color": "Beyaz / Lavanta Detaylar"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hr1364-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 6602.07,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "El Blender Seti"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 760,
+        "url": "https://www.epey.com/blender/philips-hr1364.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 7100,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6602.07,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-eco-conscious-edition-hd5120-00",
+    "slug": "philips-eco-conscious-edition-hd5120-00",
+    "name": "Philips Eco Conscious HD5120/00 1000W 1.2L Filtre Kahve Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 5265,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 790,
+    "image": "/images/appliances/philips-hd5120-00.png",
+    "images": [
+      "/images/appliances/philips-hd5120-00.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "%100 Biyolojik Esaslı Plastikten Üretilen Çevre Dostu Tasarım",
+      "Aroma Twister ile Sürahi Boyunca Eşit Kahve Karışımı ve Harika Tat",
+      "1.2 Litre Kapasite (10-15 Fincan) & 30 Dk Sonra Otomatik Kapanma",
+      "Drip-Stop Damlama Emniyeti"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Kahve Makinesi",
+      "powerWatts": 1000,
+      "capacityLiters": 1.2,
+      "waterTankCapacityLiters": 1.2,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "dishwasherSafeParts": true,
+      "weightKg": 1.53,
+      "warrantyYears": 2,
+      "color": "İpek Beyazı / Mat Ahşap Dokusu"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hd5120-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 5265,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Eco Conscious Edition",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1800,
+        "url": "https://www.epey.com/kahve-makinesi/philips-eco-conscious-edition-hd5120-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 5699,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5265,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-hd7462-20-daily-collection",
+    "slug": "philips-hd7462-20-daily-collection",
+    "name": "Philips Daily Collection HD7462/20 1000W Aroma Twister Filtre Kahve Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 2785,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 3800,
+    "image": "/images/appliances/philips-hd7462-20.png",
+    "images": [
+      "/images/appliances/philips-hd7462-20.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Aroma Twister Başlığı ile Sürahiye Dolan Kahveyi Sürekli Dolaştırarak Optimum Lezzet",
+      "1.2 Litre Cam Demlik (15 Fincan Kahve)",
+      "Damlama Önleyici Drip-Stop ile İstediğiniz An Kahve Alabilme",
+      "30 Dakika Sonra Otomatik Kapanma ve Bulaşık Makinesinde Yıkanabilir Parçalar"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Kahve Makinesi",
+      "powerWatts": 1000,
+      "capacityLiters": 1.2,
+      "waterTankCapacityLiters": 1.2,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "dishwasherSafeParts": true,
+      "weightKg": 1.42,
+      "warrantyYears": 2,
+      "color": "Siyah / Metalik Paslanmaz Çelik Detay"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hd7462-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 2785,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En Çok Satan Kahve Makinesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 9500,
+        "url": "https://www.epey.com/kahve-makinesi/philips-hd7462-20-daily-collection.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 2999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2785,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-daily-collection-hd7461",
+    "slug": "philips-daily-collection-hd7461",
+    "name": "Philips Daily Collection HD7461/20 1000W 1.2L Cam Demlikli Filtre Kahve Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 2688.4,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 3100,
+    "image": "/images/appliances/philips-hd7461-20.png",
+    "images": [
+      "/images/appliances/philips-hd7461-20.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "1000 Watt Hızlı Demleme Gücü & 1.2 Litre Kapasite",
+      "Aroma Twister Sirkülasyon Memesi",
+      "Drip-Stop Damlama Önleme Sistemi",
+      "Otomatik Kapanma ve Işıklı Güç Anahtarı"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Kahve Makinesi",
+      "powerWatts": 1000,
+      "capacityLiters": 1.2,
+      "waterTankCapacityLiters": 1.2,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "dishwasherSafeParts": true,
+      "weightKg": 1.42,
+      "warrantyYears": 2,
+      "color": "Parlak Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hd7461-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 2688.4,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Daily Collection Kahve"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8200,
+        "url": "https://www.epey.com/kahve-makinesi/philips-daily-collection-hd7461.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 2899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2688.4,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-daily-collection-hd7459-20",
+    "slug": "philips-daily-collection-hd7459-20",
+    "name": "Philips Daily Collection HD7459/20 Zaman Ayarlı Dijital Filtre Kahve Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 2659.95,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 3600,
+    "image": "/images/appliances/philips-hd7459-filtre-kahve-makinesi.png",
+    "images": [
+      "/images/appliances/philips-hd7459-filtre-kahve-makinesi.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Dijital Entegre Zamanlayıcı (Sabah Taze Kahve Kokusuyla Uyanın)",
+      "Aroma Twister ile Sürahi Boyunca Eşit Yoğunlukta Kahve Dağılımı",
+      "1.2 Litre Kapasite (15 Fincan) & Damlama Önleyici Drip-Stop",
+      "30 Dakika Sonra Otomatik Kapanma"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Kahve Makinesi",
+      "powerWatts": 1000,
+      "capacityLiters": 1.2,
+      "waterTankCapacityLiters": 1.2,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "dishwasherSafeParts": true,
+      "weightKg": 1.42,
+      "warrantyYears": 2,
+      "color": "Siyah / Fırçalanmış Paslanmaz Çelik"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hd7459-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 2659.95,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Zaman Ayarlı Filtre Kahve",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 8900,
+        "url": "https://www.epey.com/kahve-makinesi/philips-daily-collection-hd7459-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 2850,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2659.95,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-gc4860-22",
+    "slug": "philips-gc4860-22",
+    "name": "Philips Azur GC4860/22 2600W SteamGlide Plus Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 14413.04,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 310,
+    "image": "/images/appliances/philips-gc4860-22.png",
+    "images": [
+      "/images/appliances/philips-gc4860-22.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2600 Watt Güç & 50 g/dk Sürekli Buhar",
+      "200g Güçlü Şok Buhar",
+      "SteamGlide Plus Taban & İyonik Derin Buhar",
+      "Drip-Stop ve Çift Etkili Kireç Önleme Sistemi"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2600,
+      "steamOutputGramsPerMin": 50,
+      "steamBoostGramsPerMin": 200,
+      "waterTankCapacityLiters": 0.35,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.6,
+      "warrantyYears": 2,
+      "color": "Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc4860-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 14413.04,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "SteamGlide Plus"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 430,
+        "url": "https://www.epey.com/utu/philips-gc4860-22.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 15200,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14413.04,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-azur-gc4870-35",
+    "slug": "philips-azur-gc4870-35",
+    "name": "Philips Azur GC4870/35 2600W İyonik Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 13940.7,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 380,
+    "image": "/images/appliances/philips-gc4870-35.jpg",
+    "images": [
+      "/images/appliances/philips-gc4870-35.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "2600 Watt Güç & İyonik Derin Buhar Teknolojisi",
+      "50 g/dk Sürekli & 200g Şok Buhar",
+      "SteamGlide Plus Taban & Otomatik Emniyet Kapanması",
+      "Double Active Calc Clean Çift Etkili Kireç Sistemi"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2600,
+      "steamOutputGramsPerMin": 50,
+      "steamBoostGramsPerMin": 200,
+      "waterTankCapacityLiters": 0.35,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.6,
+      "warrantyYears": 2,
+      "color": "Koyu Mavi / Gümüş"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc4870-35-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 13940.7,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "İyonik Buhar",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 620,
+        "url": "https://www.epey.com/utu/philips-azur-gc4870-35.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 14800,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13940.7,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-azur-gc4870-22",
+    "slug": "philips-azur-gc4870-22",
+    "name": "Philips Azur GC4870/22 2600W SteamGlide Plus Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 12606.3,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 420,
+    "image": "/images/appliances/philips-gc4870-22.png",
+    "images": [
+      "/images/appliances/philips-gc4870-22.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2600 Watt Güç & 50 g/dk Sürekli Buhar",
+      "200g Şok Buhar",
+      "SteamGlide Plus Taban & İyonik Buhar",
+      "Otomatik Kapanma ve Damlama Emniyeti"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2600,
+      "steamOutputGramsPerMin": 50,
+      "steamBoostGramsPerMin": 200,
+      "waterTankCapacityLiters": 0.35,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.6,
+      "warrantyYears": 2,
+      "color": "Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc4870-22-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 12606.3,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Azur Buharlı Ütü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 710,
+        "url": "https://www.epey.com/utu/philips-azur-gc4870-22.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 13400,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12606.3,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-gc4930-11",
+    "slug": "philips-gc4930-11",
+    "name": "Philips Azur Advanced GC4930/11 2930W OptimalTEMP Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 11340,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 520,
+    "image": "/images/appliances/philips-gc4930-11.jpg",
+    "images": [
+      "/images/appliances/philips-gc4930-11.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "2930 Watt Güç & OptimalTEMP ile Sıfır Yanık Garantisi",
+      "45 g/dk Sürekli Buhar & 210g Şok Buhar",
+      "SteamGlide Plus Taban ve Quick Calc Release",
+      "Akıllı Sıcaklık Ayarı (Ayar Gerektirmez)"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2930,
+      "steamOutputGramsPerMin": 45,
+      "steamBoostGramsPerMin": 210,
+      "waterTankCapacityLiters": 0.33,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.62,
+      "warrantyYears": 2,
+      "color": "Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc4930-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 11340,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "OptimalTEMP Akıllı Ütü",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 950,
+        "url": "https://www.epey.com/utu/philips-gc4930-11.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 12000,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11340,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-gc4551-20",
+    "slug": "philips-gc4551-20",
+    "name": "Philips Azur GC4551/20 2500W SteamGlide Plus Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 10183.5,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 92,
+    "reviewCount": 380,
+    "image": "/images/appliances/philips-gc4551-20.png",
+    "images": [
+      "/images/appliances/philips-gc4551-20.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2500 Watt Güç & 45 g/dk Sürekli Buhar",
+      "210g Şok Buhar",
+      "SteamGlide Plus Taban ve Quick Calc Release",
+      "Drip-Stop Damlama Önleme"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2500,
+      "steamOutputGramsPerMin": 45,
+      "steamBoostGramsPerMin": 210,
+      "waterTankCapacityLiters": 0.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.55,
+      "warrantyYears": 2,
+      "color": "Açık Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc4551-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 10183.5,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Azur 2500W"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 580,
+        "url": "https://www.epey.com/utu/philips-gc4551-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 10900,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 10183.5,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-azur-gc4567-80",
+    "slug": "philips-azur-gc4567-80",
+    "name": "Philips Azur GC4567/80 2600W SteamGlide Advanced Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 9672,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 460,
+    "image": "/images/appliances/philips-gc4567-80.jpg",
+    "images": [
+      "/images/appliances/philips-gc4567-80.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "2600 Watt Hızlı Isınma & 50 g/dk Sürekli Buhar",
+      "240g Şok Buhar Gücü",
+      "SteamGlide Advanced Taban ve Quick Calc Release",
+      "Otomatik Emniyet Kapanması"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2600,
+      "steamOutputGramsPerMin": 50,
+      "steamBoostGramsPerMin": 240,
+      "waterTankCapacityLiters": 0.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.57,
+      "warrantyYears": 2,
+      "color": "Siyah / Bakır"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc4567-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 9672,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "SteamGlide Advanced",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/utu/philips-azur-gc4567-80.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 10400,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9672,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-gc3929-64",
+    "slug": "philips-perfectcare-gc3929-64",
+    "name": "Philips PerfectCare GC3929/64 2600W OptimalTEMP Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 8835,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 680,
+    "image": "/images/appliances/philips-gc3929-64.jpg",
+    "images": [
+      "/images/appliances/philips-gc3929-64.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "2600 Watt Güç & OptimalTEMP ile Sıfır Yanık Garantisi",
+      "45 g/dk Sürekli Buhar & 200g Şok Buhar",
+      "SteamGlide Plus Taban & Dahili Kireç Kaydırıcı (Calc-Clean)",
+      "Sıcaklık Ayarı Gerektirmez (Tüm Kumaşlarda Güvenli)"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2600,
+      "steamOutputGramsPerMin": 45,
+      "steamBoostGramsPerMin": 200,
+      "waterTankCapacityLiters": 0.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.48,
+      "warrantyYears": 2,
+      "color": "Mürdüm / Bakır"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc3929-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 8835,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "OptimalTEMP Sıfır Yanık"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/utu/philips-perfectcare-gc3929-64.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 9400,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8835,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-azur-gc4554-40",
+    "slug": "philips-azur-gc4554-40",
+    "name": "Philips Azur GC4554/40 2500W SteamGlide Plus Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 7035.6,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 92,
+    "reviewCount": 420,
+    "image": "/images/appliances/philips-gc4554-40.png",
+    "images": [
+      "/images/appliances/philips-gc4554-40.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2500 Watt Güç & 45 g/dk Sürekli Buhar",
+      "220g Şok Buhar Gücü",
+      "SteamGlide Plus Taban ve Quick Calc Release",
+      "Drip-Stop Damlama Emniyeti"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2500,
+      "steamOutputGramsPerMin": 45,
+      "steamBoostGramsPerMin": 220,
+      "waterTankCapacityLiters": 0.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.55,
+      "warrantyYears": 2,
+      "color": "Gül Kurusu / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc4554-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 7035.6,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Azur 2500W"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 670,
+        "url": "https://www.epey.com/utu/philips-azur-gc4554-40.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 7500,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7035.6,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-azur-gc4850-22",
+    "slug": "philips-azur-gc4850-22",
+    "name": "Philips Azur GC4850/22 2600W SteamGlide Plus Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 6742.5,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 390,
+    "image": "/images/appliances/philips-gc4850-22.png",
+    "images": [
+      "/images/appliances/philips-gc4850-22.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2600 Watt Güç & 50 g/dk Sürekli Buhar",
+      "180g Şok Buhar",
+      "SteamGlide Plus Taban & Double Active Calc Kireç Önleme",
+      "Damlama Önleyici Drip-Stop"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2600,
+      "steamOutputGramsPerMin": 50,
+      "steamBoostGramsPerMin": 180,
+      "waterTankCapacityLiters": 0.35,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.6,
+      "warrantyYears": 2,
+      "color": "Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc4850-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 6742.5,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "SteamGlide Plus"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 510,
+        "url": "https://www.epey.com/utu/philips-azur-gc4850-22.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 7200,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6742.5,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-azur-gc4552-00",
+    "slug": "philips-azur-gc4552-00",
+    "name": "Philips Azur GC4552/00 2500W SteamGlide Plus Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 6499,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 92,
+    "reviewCount": 450,
+    "image": "/images/appliances/philips-gc4552-00.jpg",
+    "images": [
+      "/images/appliances/philips-gc4552-00.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2500 Watt Güç & 45 g/dk Sürekli Buhar",
+      "210g Şok Buhar",
+      "SteamGlide Plus Taban ve Quick Calc Release",
+      "Drip-Stop Damlama Önleme"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2500,
+      "steamOutputGramsPerMin": 45,
+      "steamBoostGramsPerMin": 210,
+      "waterTankCapacityLiters": 0.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.55,
+      "warrantyYears": 2,
+      "color": "Mavi / Gri"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc4552-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 6499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Azur 2500W",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 820,
+        "url": "https://www.epey.com/utu/philips-azur-gc4552-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 6999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6499,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-dst3040-70",
+    "slug": "philips-dst3040-70",
+    "name": "Philips 3000 Series DST3040/70 2600W Ceramic Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 4649.07,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 92,
+    "reviewCount": 890,
+    "image": "/images/appliances/philips-dst3040-70.jpg",
+    "images": [
+      "/images/appliances/philips-dst3040-70.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2600 Watt Güç & 40 g/dk Sürekli Buhar",
+      "200g Güçlü Şok Buhar",
+      "Pürüzsüz Seramik Taban (Çizilmeye Karşı Dayanıklı)",
+      "Dahili Kireç Temizleme Sürgüsü & Damlama Önleme"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2600,
+      "steamOutputGramsPerMin": 40,
+      "steamBoostGramsPerMin": 200,
+      "waterTankCapacityLiters": 0.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.2,
+      "warrantyYears": 2,
+      "color": "Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dst3040-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 4649.07,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Seramik Taban 2600W"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1400,
+        "url": "https://www.epey.com/utu/philips-dst3040-70.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 4999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4649.07,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-azur-gc4860-37",
+    "slug": "philips-azur-gc4860-37",
+    "name": "Philips Azur GC4860/37 2600W SteamGlide Plus Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 4185,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 92,
+    "reviewCount": 780,
+    "image": "/images/appliances/philips-gc4860-37.png",
+    "images": [
+      "/images/appliances/philips-gc4860-37.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2600 Watt Güç & 50 g/dk Sürekli Buhar",
+      "200g Şok Buhar",
+      "SteamGlide Plus Taban & İyonik Buhar",
+      "Otomatik Kapanma ve Quick Calc Release"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2600,
+      "steamOutputGramsPerMin": 50,
+      "steamBoostGramsPerMin": 200,
+      "waterTankCapacityLiters": 0.35,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.6,
+      "warrantyYears": 2,
+      "color": "Mavi / Gümüş"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc4860-37-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 4185,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Azur SteamGlide"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1100,
+        "url": "https://www.epey.com/utu/philips-azur-gc4860-37.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 4499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4185,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-azur-steam-iron-gc4537-70",
+    "slug": "philips-azur-steam-iron-gc4537-70",
+    "name": "Philips Azur GC4537/70 2400W SteamGlide Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 3673,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 920,
+    "image": "/images/appliances/philips-gc4537-70.png",
+    "images": [
+      "/images/appliances/philips-gc4537-70.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2400 Watt Güç & 45 g/dk Sürekli Buhar",
+      "200g Şok Buhar",
+      "SteamGlide Taban & Quick Calc Release (15 Saniyede Kireç Temizliği)",
+      "Drip-Stop Damlama Emniyeti"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2400,
+      "steamOutputGramsPerMin": 45,
+      "steamBoostGramsPerMin": 200,
+      "waterTankCapacityLiters": 0.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.5,
+      "warrantyYears": 2,
+      "color": "Açık Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc4537-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 3673,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "SteamGlide Buharlı Ütü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1600,
+        "url": "https://www.epey.com/utu/philips-azur-steam-iron-gc4537-70.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3673,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-dst7022-40",
+    "slug": "philips-dst7022-40",
+    "name": "Philips 7000 Series DST7022/40 2800W Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 2715.3,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 2600,
+    "image": "/images/appliances/philips-dst7022-40.jpg",
+    "images": [
+      "/images/appliances/philips-dst7022-40.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "2800 Watt Hızlı Isınma Gücü & 50 g/dk Sürekli Buhar",
+      "250g Şok Buhar Gücü",
+      "SteamGlide Plus Taban ve Quick Calc Release",
+      "En Çok Satan Azur 7000 Serisi Ütü"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2800,
+      "steamOutputGramsPerMin": 50,
+      "steamBoostGramsPerMin": 250,
+      "waterTankCapacityLiters": 0.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.66,
+      "warrantyYears": 2,
+      "color": "Gül Kurusu / Altın"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dst7022-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 2715.3,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "7000 Serisi Çok Satan"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 8900,
+        "url": "https://www.epey.com/utu/philips-dst7022-40.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 2950,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2715.3,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "philips-hr7310-00",
     "slug": "philips-hr7310-00",
     "name": "Philips Daily Collection HR7310/00 700W 2.1L Kompakt Mutfak Robotu",

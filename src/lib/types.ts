@@ -71,6 +71,8 @@ export interface ApplianceSpecs {
   antiCalcSystem?: boolean;
   material?: string;
   weightKg?: number;
+  speedSettings?: number;
+  turboFunction?: boolean;
   warrantyYears?: number;
   color?: string;
 }

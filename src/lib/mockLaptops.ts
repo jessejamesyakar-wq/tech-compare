@@ -2,6 +2,288 @@ import { LaptopProduct } from './types';
 
 export const mockLaptops: LaptopProduct[] = [
   {
+    "id": "philips-dlp2720n",
+    "slug": "philips-dlp2720n",
+    "name": "Philips DLP2720N 20.000 mAh 20W PD Hızlı Şarj PowerBank",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "PowerBank",
+    "basePrice": 3799,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 420,
+    "image": "/images/laptops/philips-dlp2720n.png",
+    "images": [
+      "/images/laptops/philips-dlp2720n.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "20.000 mAh Yüksek Güç Kapasitesi",
+      "20W Power Delivery (PD) & QC 3.0 Hızlı Şarj Desteği",
+      "Aynı Anda 3 Cihazı Güvenle Şarj Edebilme",
+      "Akıllı Güvenlik Korumaları (Aşırı Isınma, Kısa Devre ve Akım Koruması)"
+    ],
+    "specs": {
+      "productType": "PowerBank",
+      "processor": "20W PD/QC Fast Charge Controller",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "20W Dual Quick Charge Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "LED Pil Durum Göstergesi",
+      "ports": [
+        "2x USB-A QC 3.0",
+        "1x Type-C PD 20W",
+        "1x Micro-USB"
+      ],
+      "weightKg": 0.41,
+      "bodyMaterial": "Mat Siyah Yanmaz Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dlp2720n-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 3799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "20W PD PowerBank"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 690,
+        "url": "https://www.epey.com/powerbank/philips-dlp2720n.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 4100,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3799,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-dlp2720",
+    "slug": "philips-dlp2720",
+    "name": "Philips DLP2720 20.000 mAh Çift USB Çıkışlı PowerBank",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "PowerBank",
+    "basePrice": 1300,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 780,
+    "image": "/images/laptops/philips-dlp2720.jpg",
+    "images": [
+      "/images/laptops/philips-dlp2720.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "20.000 mAh Yüksek Kapasiteli Lityum Polimer Batarya",
+      "Çift USB-A Çıkışı ile Aynı Anda 2 Cihaz Şarjı (5V / 2.1A)",
+      "LED Gösterge Işıkları ile Kalan Şarj Seviyesi",
+      "Kompakt ve Dayanıklı Doku Kaplamalı Gövde"
+    ],
+    "specs": {
+      "productType": "PowerBank",
+      "processor": "Dual USB 2.1A Charge Controller",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "Dual USB Power Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "4 Kademeli LED Gösterge",
+      "ports": [
+        "2x USB-A (5V/2.1A)",
+        "1x Micro-USB",
+        "1x Type-C Giriş"
+      ],
+      "weightKg": 0.4,
+      "bodyMaterial": "Doku Desenli Siyah Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dlp2720-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 1300,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "20000mAh Çift USB",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/powerbank/philips-dlp2720.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1450,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1300,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-dlp7725n",
+    "slug": "philips-dlp7725n",
+    "name": "Philips DLP7725N 20.000 mAh 22.5W Dijital Göstergeli Hızlı Şarj PowerBank",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "PowerBank",
+    "basePrice": 1199,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 1150,
+    "image": "/images/laptops/philips-dlp7725n.jpg",
+    "images": [
+      "/images/laptops/philips-dlp7725n.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "20.000 mAh Dev Kapasite & 22.5W Süper Hızlı Şarj (SCP/PD/QC 3.0)",
+      "Dijital LED Ekran ile Yüzdelik Hassas Pil Seviyesi Takibi",
+      "Type-C PD Giriş/Çıkış + 2 Adet USB-A Hızlı Şarj Portu",
+      "Akıllı Koruma Çipi ile Güvenli ve Kararlı Enerji İletimi"
+    ],
+    "specs": {
+      "productType": "PowerBank",
+      "processor": "22.5W Super Charge Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "PD 20W / 22.5W QC Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "Dijital LED Yüzdeli Ekran",
+      "ports": [
+        "2x USB-A (22.5W)",
+        "1x Type-C PD (20W)",
+        "1x Micro-USB"
+      ],
+      "weightKg": 0.42,
+      "bodyMaterial": "Mat Siyah Dayanıklı Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dlp7725n-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 1199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "22.5W Dijital Ekranlı",
+          "Çok Satan"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3400,
+        "url": "https://www.epey.com/powerbank/philips-dlp7725n.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1350,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1199,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-dlp9520c",
+    "slug": "philips-dlp9520c",
+    "name": "Philips DLP9520C 20.000 mAh 22.5W Hızlı Şarj PowerBank",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "PowerBank",
+    "basePrice": 1065.34,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 890,
+    "image": "/images/laptops/philips-dlp9520c.jpg",
+    "images": [
+      "/images/laptops/philips-dlp9520c.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "20.000 mAh Yüksek Kapasite",
+      "22.5W Hızlı Şarj Desteği & PD 20W Çift Yönlü Type-C",
+      "3 Cihazı Aynı Anda Şarj Edebilme",
+      "LED Gösterge Işıkları ve İnce Ergonomik Tasarım"
+    ],
+    "specs": {
+      "productType": "PowerBank",
+      "processor": "22.5W Fast Charge Controller",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "22.5W Power Management Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "LED Pil Göstergesi",
+      "ports": [
+        "2x USB-A (22.5W)",
+        "1x Type-C (20W)",
+        "1x Micro-USB"
+      ],
+      "weightKg": 0.39,
+      "bodyMaterial": "Mat Beyaz / Gri Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dlp9520c-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 1065.34,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "F/P 20000mAh PowerBank"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2600,
+        "url": "https://www.epey.com/powerbank/philips-dlp9520c.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1199,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1065.34,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "philips-223v5lhsb2-00",
     "slug": "philips-223v5lhsb2-00",
     "name": "Philips 223V5LHSB2/00 21.5\" FHD LED Monitör (HDMI / VGA)",

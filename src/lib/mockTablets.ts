@@ -2,6 +2,75 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "philips-m9-plus",
+    "slug": "philips-m9-plus",
+    "name": "Philips M9 Plus 10.1\" FHD IPS 4G LTE Tablet (32GB)",
+    "brand": "Philips",
+    "category": "tablets",
+    "basePrice": 18650.7,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 120,
+    "image": "/images/tablets/philips-m9-plus.jpg",
+    "images": [
+      "/images/tablets/philips-m9-plus.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "10.1 İnç Full HD (1920 x 1200) Canlı IPS Ekran",
+      "4G LTE SIM Kart Desteği & Çift Bant Wi-Fi",
+      "8 Çekirdekli İşlemci & Metal Gövde Tasarımı",
+      "Çift Hoparlör Sistemi ve 5000 mAh Uzun Ömürlü Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1920 x 1200 (Full HD)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Octa-Core 2.0 GHz",
+      "ramGb": 3,
+      "storageGb": 32,
+      "batteryMah": 5000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 510,
+      "os": "Android 10",
+      "cellular": "4G LTE",
+      "color": "Gümüş Gri Metal Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-m9plus-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 18650.7,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "4G LTE Tablet"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.epey.com/tablet/philips-m9-plus.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 19500,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18650.7,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "philips-t7305",
     "slug": "philips-t7305",
     "name": "Philips T7305 8\" HD IPS 4G LTE 32GB Tablet",
