@@ -23326,5 +23326,1994 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 12706.03
       }
     ]
+  },
+  {
+    "id": "dreame-x60-max-ultra-complete",
+    "slug": "dreame-x60-max-ultra-complete",
+    "name": "Dreame X60 Max Ultra Complete Üst Segment Robot Süpürge",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1041550.png",
+    "images": [
+      "/images/appliances/dreame-1041550.png"
+    ],
+    "rating": 5,
+    "epeyScore": 100,
+    "reviewCount": 45,
+    "basePrice": 133279.49,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "22.000 Pa Devasa Vormax™ Turbo Emiş Gücü ile Zirve Temizlik",
+      "Ultra Bionic Robotic Dual Arm (Paspas ve Yan Fırça Tam Uzama Teknolojisi)",
+      "85°C Termal Sıcak Su ile Ağır Mutfak Yağı ve Lekeleri Çözme",
+      "TriCut 3.0 Kesintisiz Saç Kesici Rulo ve Bakım Gerektirmeyen Tasarım",
+      "Otomatik Su Tesisatına Bağlanabilen Master All-in-One İstasyon"
+    ],
+    "tags": [
+      "Dreame",
+      "X60 Max Ultra",
+      "22000 Pa",
+      "Bionic Dual Arm",
+      "85°C Termal",
+      "Amiral Gemisi"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürgeler",
+      "powerWatts": 90,
+      "suctionPowerPa": 22000,
+      "batteryRuntimeMin": 280,
+      "noiseLevelDb": 61,
+      "capacity": "350 ml toz, 5 L temiz su",
+      "mappingTechnology": "OmniSight AI RGB + 3D LiDAR + Çift Yapay Zeka",
+      "autoEmptyStation": true,
+      "autoCleanDock": true,
+      "appControl": true,
+      "weightKg": 4.5,
+      "warrantyYears": 2,
+      "color": "Koyu Titanyum / Karbon Gold"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 133279.49,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 139999
+      },
+      {
+        "date": "2024-08",
+        "price": 133279.49
+      }
+    ]
+  },
+  {
+    "id": "dreame-d20-robot-vacuum",
+    "slug": "dreame-d20",
+    "name": "Dreame D20 Akıllı Robot Süpürge ve Paspas",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1034297.png",
+    "images": [
+      "/images/appliances/dreame-1034297.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 80,
+    "basePrice": 15806.15,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "6000 Pa Güçlü Emiş Performansı",
+      "Gelişmiş LDS Lidar Haritalama ve Hızlı Rota Planlama",
+      "Duo-Scrub Paspaslama ve Elektronik Su Kontrolü",
+      "5200 mAh Pil ile 160 Dakika Kesintisiz Temizlik",
+      "Fiyat / Performans Robot Süpürge"
+    ],
+    "tags": [
+      "Dreame",
+      "D20",
+      "6000 Pa",
+      "Robot Süpürge",
+      "LiDAR"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürgeler",
+      "powerWatts": 50,
+      "suctionPowerPa": 6000,
+      "batteryRuntimeMin": 160,
+      "noiseLevelDb": 64,
+      "capacity": "450 ml toz, 270 ml su",
+      "mappingTechnology": "LDS Lidar",
+      "appControl": true,
+      "weightKg": 3.6,
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 15806.15,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 16299,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 17499
+      },
+      {
+        "date": "2024-08",
+        "price": 15806.15
+      }
+    ]
+  },
+  {
+    "id": "dreame-l10s-ultra-gen-2",
+    "slug": "dreame-l10s-ultra-gen-2",
+    "name": "Dreame L10S Ultra Gen 2 All-in-One Robot Süpürge & Paspas",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-971228.jpg",
+    "images": [
+      "/images/appliances/dreame-971228.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 97,
+    "reviewCount": 190,
+    "basePrice": 33999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "10.000 Pa Yükseltilmiş Vormax™ Emiş Gücü",
+      "MopExtend™ RoboSwing ile Köşe ve Süpürgelik Altı Paspaslama",
+      "Otomatik Toz Boşaltma, Paspas Yıkama ve Sıcak Hava Kurutma İstasyonu",
+      "DuoScrub™ Çift Döner Paspas ve 10.5 mm Otomatik Paspas Kaldırma",
+      "AI RGB Kamera ile Gelişmiş 3D Engel Tanıma"
+    ],
+    "tags": [
+      "Dreame",
+      "L10S Ultra Gen 2",
+      "10000 Pa",
+      "MopExtend",
+      "All-in-One"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürgeler",
+      "powerWatts": 75,
+      "suctionPowerPa": 10000,
+      "batteryRuntimeMin": 240,
+      "noiseLevelDb": 63,
+      "capacity": "350 ml toz, 4.5 L temiz su",
+      "mappingTechnology": "AI Action RGB + 3D LiDAR",
+      "autoEmptyStation": true,
+      "autoCleanDock": true,
+      "appControl": true,
+      "weightKg": 4.2,
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 33999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 34599,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 37999
+      },
+      {
+        "date": "2024-08",
+        "price": 33999
+      }
+    ]
+  },
+  {
+    "id": "dreame-d9-max-gen-2",
+    "slug": "dreame-d9-max-gen-2",
+    "name": "Dreame D9 Max Gen 2 Akıllı Robot Süpürge",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-965041.png",
+    "images": [
+      "/images/appliances/dreame-965041.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 140,
+    "basePrice": 9963,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "6000 Pa Yükseltilmiş Emiş Gücü ve Geliştirilmiş Katı Kauçuk Fırça",
+      "Smart Pathfinder™ Lidar Navigasyon ile Hızlı Haritalama",
+      "570 ml Geniş Toz Haznesi ve 235 ml Akıllı Su Tankı",
+      "Halı Algılama ve Otomatik Emiş Yükseltme",
+      "Fiyat / Performans Lideri Robot Süpürge"
+    ],
+    "tags": [
+      "Dreame",
+      "D9 Max Gen 2",
+      "6000 Pa",
+      "Pathfinder Lidar",
+      "F/P"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürgeler",
+      "powerWatts": 46,
+      "suctionPowerPa": 6000,
+      "batteryRuntimeMin": 180,
+      "noiseLevelDb": 64,
+      "capacity": "570 ml toz, 235 ml su",
+      "mappingTechnology": "Pathfinder™ LiDAR",
+      "appControl": true,
+      "weightKg": 3.7,
+      "warrantyYears": 2,
+      "color": "Siyah"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 9963,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 10499,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 11999
+      },
+      {
+        "date": "2024-08",
+        "price": 9963
+      }
+    ]
+  },
+  {
+    "id": "dreame-d20-ultra",
+    "slug": "dreame-d20-ultra",
+    "name": "Dreame D20 Ultra Tam Otomatik Robot Süpürge & Paspas",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1018459.png",
+    "images": [
+      "/images/appliances/dreame-1018459.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 95,
+    "basePrice": 30999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "7000 Pa Vormax™ Emiş Gücü",
+      "All-in-One İstasyon: Otomatik Toz Boşaltma ve Paspas Yıkama",
+      "DuoScrub™ Çift Dönen Paspas Sistemi",
+      "3D Lazer Engel Algılama ve Akıllı Halı Koruması",
+      "5200 mAh Batarya ile Uzun Çalışma Süresi"
+    ],
+    "tags": [
+      "Dreame",
+      "D20 Ultra",
+      "7000 Pa",
+      "All-in-One",
+      "Robot Süpürge"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürgeler",
+      "powerWatts": 65,
+      "suctionPowerPa": 7000,
+      "batteryRuntimeMin": 210,
+      "noiseLevelDb": 63,
+      "capacity": "350 ml toz, 4 L temiz su",
+      "mappingTechnology": "LiDAR + 3D Lazer",
+      "autoEmptyStation": true,
+      "autoCleanDock": true,
+      "appControl": true,
+      "weightKg": 4.1,
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 30999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 31499,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 33999
+      },
+      {
+        "date": "2024-08",
+        "price": 30999
+      }
+    ]
+  },
+  {
+    "id": "dreame-u10-stick-vacuum",
+    "slug": "dreame-u10",
+    "name": "Dreame U10 Kablosuz Şarjlı Dikey Süpürge",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-971064.jpg",
+    "images": [
+      "/images/appliances/dreame-971064.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 89,
+    "reviewCount": 110,
+    "basePrice": 7439.07,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "highlights": [
+      "100 AW (18.000 Pa) Güçlü Emiş Gücü",
+      "Ön LED Aydınlatmalı Çok Yüzeyli Fırça Başlığı",
+      "40 Dakika Kesintisiz Çalışma Süresi (Çıkarılabilir Batarya)",
+      "3 Kademeli HEPA Filtrasyon Sistemi",
+      "Hafif ve Ergonomik 1.5 kg Gövde"
+    ],
+    "tags": [
+      "Dreame",
+      "U10",
+      "Dikey Süpürge",
+      "100 AW",
+      "LED Işıklı"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 220,
+      "suctionPowerPa": 100,
+      "batteryRuntimeMin": 40,
+      "noiseLevelDb": 79,
+      "capacity": "0.5 L",
+      "weightKg": 1.5,
+      "warrantyYears": 2,
+      "color": "Beyaz / Gri"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 7439.07,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 7699,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 8499
+      },
+      {
+        "date": "2024-08",
+        "price": 7439.07
+      }
+    ]
+  },
+  {
+    "id": "dreame-h15-mix-wet-dry",
+    "slug": "dreame-h15-mix",
+    "name": "Dreame H15 Mix Akıllı Islak & Kuru Zemin Yıkama ve Dikey Süpürge",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1059928.jpg",
+    "images": [
+      "/images/appliances/dreame-1059928.jpg"
+    ],
+    "rating": 5,
+    "epeyScore": 98,
+    "reviewCount": 65,
+    "basePrice": 31499.04,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "5'i 1 Arada Çok Amaçlı Hibrit Sistem (Islak Zemin Yıkama, Dikey Süpürge, Yatak & Koltuk Temizleyici)",
+      "60°C Sıcak Su ile Fırça Kendi Kendini Yıkama ve 30 Dakikada Sıcak Hava Kurutma",
+      "GlideWheel™ Çift Motorlu İleri-Geri Güç Destekli Çekiş Sistemi",
+      "Akıllı Kir ve Leke Algılama Sensörü ile Otomatik Su/Emiş Ayarı",
+      "Kenardan Kenara Çift Taraflı Fırça ile Sıfır Kenar Boşluğu"
+    ],
+    "tags": [
+      "Dreame",
+      "H15 Mix",
+      "Islak Kuru",
+      "5'i 1 Arada",
+      "60°C Sıcak Su",
+      "GlideWheel"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 350,
+      "suctionPowerPa": 18000,
+      "batteryRuntimeMin": 45,
+      "noiseLevelDb": 74,
+      "capacity": "900 ml temiz su, 700 ml kirli su",
+      "autoCleanDock": true,
+      "weightKg": 5,
+      "warrantyYears": 2,
+      "color": "Gece Siyahı / Titanyum"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 31499.04,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 32499,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 34999
+      },
+      {
+        "date": "2024-08",
+        "price": 31499.04
+      }
+    ]
+  },
+  {
+    "id": "dreame-matrix-10-ultra",
+    "slug": "dreame-matrix-10-ultra",
+    "name": "Dreame Matrix 10 Ultra Flagship Robot Süpürge & Paspas",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1056707.jpg",
+    "images": [
+      "/images/appliances/dreame-1056707.jpg"
+    ],
+    "rating": 5,
+    "epeyScore": 99,
+    "reviewCount": 50,
+    "basePrice": 79999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "20.000 Pa Vormax™ Emiş Gücü ve Matrix AI Navigasyon Teknolojisi",
+      "Dual Dynamic Bionic Arm ile Mükemmel Kenar ve Köşe Kapsamı",
+      "80°C Termal Sıcak Suyla Paspas Yıkama ve UV Işık Dezenfeksiyonu",
+      "TriCut Anti-Tangle Saç Kesici Rulo ile Sıfır Kıl Dolanması",
+      "Kompakt Boyutlu Tam Otomatik Temizleme ve Şarj İstasyonu"
+    ],
+    "tags": [
+      "Dreame",
+      "Matrix 10 Ultra",
+      "20000 Pa",
+      "Matrix AI",
+      "80°C Termal",
+      "Amiral Gemisi"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürgeler",
+      "powerWatts": 85,
+      "suctionPowerPa": 20000,
+      "batteryRuntimeMin": 260,
+      "noiseLevelDb": 62,
+      "capacity": "350 ml toz, 4.5 L temiz su",
+      "mappingTechnology": "Matrix AI RGB + 3D LiDAR + Çift Lazer",
+      "autoEmptyStation": true,
+      "autoCleanDock": true,
+      "appControl": true,
+      "weightKg": 4.4,
+      "warrantyYears": 2,
+      "color": "Titanyum Gümüş"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 79999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 81999,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 85999
+      },
+      {
+        "date": "2024-08",
+        "price": 79999
+      }
+    ]
+  },
+  {
+    "id": "dreame-l50-ultra-ce",
+    "slug": "dreame-l50-ultra-ce",
+    "name": "Dreame L50 Ultra CE Robot Süpürge & Paspas",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1055830.jpg",
+    "images": [
+      "/images/appliances/dreame-1055830.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 98,
+    "reviewCount": 70,
+    "basePrice": 42630,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "15.000 Pa Vormax™ Emiş Gücü ve MopExtend™ Uzayan Paspas",
+      "65°C Sıcak Su ile Paspas Yıkama ve Sıcak Hava Kurutma",
+      "AI RGB Görsel Engel Algılama ve Harita Güncelleme",
+      "TriCut Fırça Desteği ile Kıl Dolanmaz Sistem",
+      "Tam Otomatik All-in-One İstasyon"
+    ],
+    "tags": [
+      "Dreame",
+      "L50 Ultra CE",
+      "15000 Pa",
+      "MopExtend",
+      "65°C Sıcak Su"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürgeler",
+      "powerWatts": 80,
+      "suctionPowerPa": 15000,
+      "batteryRuntimeMin": 250,
+      "noiseLevelDb": 63,
+      "capacity": "350 ml toz, 4.5 L temiz su",
+      "mappingTechnology": "AI Action RGB + 3D LiDAR",
+      "autoEmptyStation": true,
+      "autoCleanDock": true,
+      "appControl": true,
+      "weightKg": 4.3,
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 42630,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 43499,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 46999
+      },
+      {
+        "date": "2024-08",
+        "price": 42630
+      }
+    ]
+  },
+  {
+    "id": "dreame-aqua-10-ultra-roller",
+    "slug": "dreame-aqua-10-ultra-roller",
+    "name": "Dreame Aqua 10 Ultra Roller Islak Rulolu Robot Süpürge",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1055829.jpg",
+    "images": [
+      "/images/appliances/dreame-1055829.jpg"
+    ],
+    "rating": 5,
+    "epeyScore": 99,
+    "reviewCount": 60,
+    "basePrice": 66499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Devrim Niteliğinde Aktif Su Sirkülasyonlu Roller Paspas (Sürekli Temiz Suyla Yıkama)",
+      "18.000 Pa Vormax™ Emiş Gücü ile Ağır Kirleri Anında Temizleme",
+      "75°C Sıcak Suyla Kendini Yıkama ve Kendi Kendini Temizleyen Rulo",
+      "Saç Dolanmasını %100 Engelleyen Dahili Kazıyıcı Bıçak",
+      "All-in-One İstasyon: Kirli Suyu Ayrıştırma ve Kurutma"
+    ],
+    "tags": [
+      "Dreame",
+      "Aqua 10 Ultra",
+      "Roller Mop",
+      "18000 Pa",
+      "Aktif Su Sirkülasyonu",
+      "Robot Süpürge"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürgeler",
+      "powerWatts": 85,
+      "suctionPowerPa": 18000,
+      "batteryRuntimeMin": 250,
+      "noiseLevelDb": 62,
+      "capacity": "350 ml toz, 4.5 L temiz su",
+      "mappingTechnology": "AI Action RGB + 3D LiDAR",
+      "autoEmptyStation": true,
+      "autoCleanDock": true,
+      "appControl": true,
+      "weightKg": 4.4,
+      "warrantyYears": 2,
+      "color": "Siyah Titanyum"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 66499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 67999,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 71999
+      },
+      {
+        "date": "2024-08",
+        "price": 66499
+      }
+    ]
+  },
+  {
+    "id": "dreame-z30-slim-stick-vacuum",
+    "slug": "dreame-z30-slim",
+    "name": "Dreame Z30 Slim Hafif Kablosuz Dikey Süpürge",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1055799.png",
+    "images": [
+      "/images/appliances/dreame-1055799.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 85,
+    "basePrice": 16660,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "200 AW Güçlü Emiş Gücü ve Ultra Hafif İnce Gövde",
+      "CelesTect™ Mavi Optik Toz Algılama Işığı",
+      "70 Dakika Kesintisiz Çalışma Süresi",
+      "LCD Ekran ile Gerçek Zamanlı Partikül ve Pil Göstergesi",
+      "Kapsamlı Aksesuar Paketi ve Çok Yüzeyli Fırça"
+    ],
+    "tags": [
+      "Dreame",
+      "Z30 Slim",
+      "200 AW",
+      "Dikey Süpürge",
+      "CelesTect",
+      "Hafif"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 500,
+      "suctionPowerPa": 200,
+      "batteryRuntimeMin": 70,
+      "noiseLevelDb": 76,
+      "capacity": "0.5 L",
+      "weightKg": 1.45,
+      "warrantyYears": 2,
+      "color": "Gümüş / Platin"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 16660,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 17199,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 18499
+      },
+      {
+        "date": "2024-08",
+        "price": 16660
+      }
+    ]
+  },
+  {
+    "id": "dreame-l40-ultra",
+    "slug": "dreame-l40-ultra",
+    "name": "Dreame L40 Ultra Akıllı Robot Süpürge & Paspas",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-971200.jpg",
+    "images": [
+      "/images/appliances/dreame-971200.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 98,
+    "reviewCount": 180,
+    "basePrice": 41999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "11.000 Pa Vormax™ Emiş Gücü",
+      "MopExtend™ RoboSwing + Yan Fırça Genişletme Teknolojisi",
+      "65°C Sıcak Su ile Paspas Yıkama ve Sıcak Hava Kurutma",
+      "AI Action RGB Kamera ile Gelişmiş Nesne Algılama",
+      "Tam Otomatik All-in-One İstasyon"
+    ],
+    "tags": [
+      "Dreame",
+      "L40 Ultra",
+      "11000 Pa",
+      "MopExtend",
+      "Robot Süpürge"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürgeler",
+      "powerWatts": 75,
+      "suctionPowerPa": 11000,
+      "batteryRuntimeMin": 240,
+      "noiseLevelDb": 63,
+      "capacity": "300 ml toz, 4.5 L temiz su",
+      "mappingTechnology": "AI Action RGB + 3D LiDAR",
+      "autoEmptyStation": true,
+      "autoCleanDock": true,
+      "appControl": true,
+      "weightKg": 4.3,
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 41999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 42799,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 45999
+      },
+      {
+        "date": "2024-08",
+        "price": 41999
+      }
+    ]
+  },
+  {
+    "id": "dreame-l40-plus",
+    "slug": "dreame-l40-plus",
+    "name": "Dreame L40 Plus Otomatik Toz İstasyonlu Robot Süpürge",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1056684.png",
+    "images": [
+      "/images/appliances/dreame-1056684.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 90,
+    "basePrice": 26499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "11.000 Pa Güçlü Vormax™ Emiş Gücü",
+      "MopExtend™ Uzayan Paspas Kolu",
+      "90 Günlük Otomatik Toz Boşaltma İstasyonu",
+      "DuoScrub™ Çift Dönen Paspas Sistemi",
+      "AI RGB Kamera ile Engellerden Kaçınma"
+    ],
+    "tags": [
+      "Dreame",
+      "L40 Plus",
+      "11000 Pa",
+      "MopExtend",
+      "Toz İstasyonlu"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürgeler",
+      "powerWatts": 70,
+      "suctionPowerPa": 11000,
+      "batteryRuntimeMin": 220,
+      "noiseLevelDb": 63,
+      "capacity": "400 ml toz, 300 ml su",
+      "mappingTechnology": "AI Action RGB + LiDAR",
+      "autoEmptyStation": true,
+      "appControl": true,
+      "weightKg": 4,
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 26499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 26999,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 28999
+      },
+      {
+        "date": "2024-08",
+        "price": 26499
+      }
+    ]
+  },
+  {
+    "id": "dreame-r20-ultra-aquacycle",
+    "slug": "dreame-r20-ultra-aquacycle",
+    "name": "Dreame R20 Ultra AquaCycle Islak & Kuru Dikey Süpürge",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1052626.jpg",
+    "images": [
+      "/images/appliances/dreame-1052626.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 95,
+    "basePrice": 16399,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "AquaCycle™ Aktif Paspaslama ve Süpürme Teknolojisi Bir Arada",
+      "190 AW Emiş Gücü ve 150.000 RPM Yüksek Hızlı Motor",
+      "Mavi Optik Toz Algılama Işığı ile Mikron Seviyesinde Toz Tespiti",
+      "80 Dakika Kesintisiz Çalışma Süresi",
+      "Akıllı Kir Algılama Sensörü ile Otomatik Emiş ve Su Ayarı"
+    ],
+    "tags": [
+      "Dreame",
+      "R20 Ultra AquaCycle",
+      "190 AW",
+      "AquaCycle",
+      "Islak Kuru",
+      "Dikey Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 570,
+      "suctionPowerPa": 190,
+      "batteryRuntimeMin": 80,
+      "noiseLevelDb": 76,
+      "capacity": "0.6 L toz, 300 ml su",
+      "weightKg": 1.75,
+      "warrantyYears": 2,
+      "color": "Gümüş / Karbon Mavi"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 16399,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 16899,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 18499
+      },
+      {
+        "date": "2024-08",
+        "price": 16399
+      }
+    ]
+  },
+  {
+    "id": "dreame-h14-dual-wet-dry",
+    "slug": "dreame-h14-dual",
+    "name": "Dreame H14 Dual Islak & Kuru Zemin Yıkama ve Dikey Süpürge",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1005012.png",
+    "images": [
+      "/images/appliances/dreame-1005012.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 97,
+    "reviewCount": 160,
+    "basePrice": 22999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "180° Tam Düz Yatabilen (Lie-Flat) Tasarım ile 14 cm Koltuk ve Yatak Altlarına Erişim",
+      "60°C Sıcak Su ile İstasyonda Kendi Kendini Yıkama ve 5 Dakikada Ultra Hızlı Sıcak Hava Kurutma",
+      "18.000 Pa Emiş Gücü ve 5'i 1 Arada Modüler Başlık Seti",
+      "Liquid Separation Sıvı Ayırma Motoru ile Su Sızdırmaz Yapı",
+      "GlideWheel™ Akıllı İki Yönlü Güç Çekiş Motorları"
+    ],
+    "tags": [
+      "Dreame",
+      "H14 Dual",
+      "Lie-Flat 180°",
+      "60°C Sıcak Su",
+      "5 Dakika Kurutma",
+      "Zemin Yıkama"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 400,
+      "suctionPowerPa": 18000,
+      "batteryRuntimeMin": 40,
+      "noiseLevelDb": 74,
+      "capacity": "880 ml temiz su, 650 ml kirli su",
+      "autoCleanDock": true,
+      "weightKg": 5.1,
+      "warrantyYears": 2,
+      "color": "Siyah / Titanyum"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 22999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 23499,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 25999
+      },
+      {
+        "date": "2024-08",
+        "price": 22999
+      }
+    ]
+  },
+  {
+    "id": "dreame-z20-stick-vacuum",
+    "slug": "dreame-z20",
+    "name": "Dreame Z20 Akıllı Kablosuz Dikey Süpürge",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-971161.png",
+    "images": [
+      "/images/appliances/dreame-971161.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 97,
+    "reviewCount": 130,
+    "basePrice": 19899,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "250 AW (26.000 Pa) Devasa Emiş Gücü ve 140.000 RPM Motor",
+      "CelesTect™ Çift Mavi Optik Işık ile Görünmeyen Tozları Gösterme",
+      "Akıllı Partikül Sensörü ve LCD Renkli Ekran",
+      "90 Dakika Çalışma Süresi (Çıkarılabilir Batarya)",
+      "HEPA %99.99 Tam Makine Filtrasyonu"
+    ],
+    "tags": [
+      "Dreame",
+      "Z20",
+      "250 AW",
+      "CelesTect",
+      "Dikey Süpürge",
+      "LCD Ekran"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 650,
+      "suctionPowerPa": 250,
+      "batteryRuntimeMin": 90,
+      "noiseLevelDb": 76,
+      "capacity": "0.6 L",
+      "weightKg": 1.68,
+      "warrantyYears": 2,
+      "color": "Koyu Titanyum / Gümüş"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 19899,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 20499,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 22499
+      },
+      {
+        "date": "2024-08",
+        "price": 19899
+      }
+    ]
+  },
+  {
+    "id": "dreame-h12-core-wet-dry",
+    "slug": "dreame-h12-core",
+    "name": "Dreame H12 Core Islak & Kuru Akıllı Zemin Yıkama Makinesi",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-946922.png",
+    "images": [
+      "/images/appliances/dreame-946922.png"
+    ],
+    "rating": 4.7,
+    "epeyScore": 92,
+    "reviewCount": 115,
+    "basePrice": 9999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "highlights": [
+      "Sert Zeminlerde Tek Geçişte Islak & Kuru Süpürme ve Silme",
+      "Akıllı Kir Algılama Sensörü ve Otomatik Güç Ayarı",
+      "Tek Tuşla Kendi Kendini Temizleyen Rulo Fırça İstasyonu",
+      "900 ml Temiz Su ve 500 ml Kirli Su Kapasitesi",
+      "Fiyat / Performans Zemin Yıkama Şampiyonu"
+    ],
+    "tags": [
+      "Dreame",
+      "H12 Core",
+      "Islak Kuru",
+      "Zemin Yıkama",
+      "F/P"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 200,
+      "suctionPowerPa": 10000,
+      "batteryRuntimeMin": 25,
+      "noiseLevelDb": 76,
+      "capacity": "900 ml temiz su, 500 ml kirli su",
+      "autoCleanDock": true,
+      "weightKg": 4.75,
+      "warrantyYears": 2,
+      "color": "Siyah / Gri"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 9999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 10299,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 11499
+      },
+      {
+        "date": "2024-08",
+        "price": 9999
+      }
+    ]
+  },
+  {
+    "id": "dreame-h16-pro-steam",
+    "slug": "dreame-h16-pro-steam",
+    "name": "Dreame H16 Pro Steam Buharlı Islak & Kuru Zemin Yıkama Makinesi",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1056613.png",
+    "images": [
+      "/images/appliances/dreame-1056613.png"
+    ],
+    "rating": 5,
+    "epeyScore": 99,
+    "reviewCount": 40,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "100°C Gerçek Buharlı Sterilizasyon ile İnatçı Lekeleri ve Bakterileri Yok Etme",
+      "20.000 Pa Güçlü Emiş ve Çift Taraflı Kenardan Kenara Fırça",
+      "İstasyonda 75°C Sıcak Su Yıkama ve Sıcak Hava Kurutma",
+      "GlideWheel™ Akıllı İki Yönlü Motor Desteği ile Zahmetsiz Hareket",
+      "Kapsamlı LED Bilgi Ekranı ve Akıllı Kir Sensörü"
+    ],
+    "tags": [
+      "Dreame",
+      "H16 Pro Steam",
+      "100°C Buharlı",
+      "20000 Pa",
+      "Zemin Yıkama",
+      "Sterilizasyon"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 450,
+      "suctionPowerPa": 20000,
+      "batteryRuntimeMin": 45,
+      "noiseLevelDb": 73,
+      "capacity": "950 ml temiz su, 750 ml kirli su",
+      "autoCleanDock": true,
+      "weightKg": 5.2,
+      "warrantyYears": 2,
+      "color": "Koyu Gri / Rose Gold"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 34999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 35999,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 38999
+      },
+      {
+        "date": "2024-08",
+        "price": 34999
+      }
+    ]
+  },
+  {
+    "id": "dreame-airstyle-pro-hi",
+    "slug": "dreame-airstyle-pro-hi",
+    "name": "Dreame AirStyle Pro HI Çok Fonksiyonlu Saç Şekillendirici ve Kurutucu",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1056578.png",
+    "images": [
+      "/images/appliances/dreame-1056578.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 97,
+    "reviewCount": 85,
+    "basePrice": 16119,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Coanda Hava Akımı Etkisi ile Isı Hasarı Olmadan Saç Bukleleme ve Şekillendirme",
+      "110.000 RPM Yüksek Hızlı Motor ve 6'sı 1 Arada Değiştirilebilir Manyetik Başlık Seti",
+      "Akıllı Sıcaklık Sensörü (Saniyede 300 Kez Kontrol ile Aşırı Isınmayı Önleme)",
+      "300 Milyon Negatif İyon ile Elektriklenmeyen İpeksi Saçlar",
+      "Kurutma, Düzleştirme, Hacim Verme ve Bukle Yapma Tek Cihazda"
+    ],
+    "tags": [
+      "Dreame",
+      "AirStyle Pro HI",
+      "Saç Şekillendirici",
+      "Coanda Etkisi",
+      "110000 RPM",
+      "Kişisel Bakım"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
+      "powerWatts": 1300,
+      "noiseLevelDb": 75,
+      "weightKg": 0.298,
+      "warrantyYears": 2,
+      "color": "Koyu Titanyum / Rose Gold"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 16119,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 16699,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 17999
+      },
+      {
+        "date": "2024-08",
+        "price": 16119
+      }
+    ]
+  },
+  {
+    "id": "dreame-pm20-air-purifier",
+    "slug": "dreame-pm20",
+    "name": "Dreame PM20 Akıllı HEPA Hava Temizleme Cihazı",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1056407.jpg",
+    "images": [
+      "/images/appliances/dreame-1056407.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 60,
+    "basePrice": 26699.1,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "600 m³/h CADR Temiz Hava Dağıtım Hızı (72 m²'ye Kadar Alanlar İçin)",
+      "H13 True HEPA + Aktif Karbon + Formaldehit Parçalayıcı Çok Katmanlı Filtre",
+      "Gerçek Zamanlı PM2.5, TVOC, Sıcaklık ve Nem Lazer Sensör Ekranı",
+      "Çift Yönlü Güçlü Hava Sirkülasyonu ve Fısıltı Sessizliğinde Gece Modu (20 dB)",
+      "Mobil Uygulama ve Sesli Asistan Entegrasyonu"
+    ],
+    "tags": [
+      "Dreame",
+      "PM20",
+      "Hava Temizleyici",
+      "CADR 600",
+      "HEPA H13",
+      "Lazer Sensör"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "Hava Temizleyiciler",
+      "powerWatts": 45,
+      "noiseLevelDb": 20,
+      "capacity": "72 m² etki alanı, 600 m³/h CADR",
+      "appControl": true,
+      "weightKg": 6.5,
+      "warrantyYears": 2,
+      "color": "Beyaz / Gümüş Detay"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 26699.1,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 27499,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 29999
+      },
+      {
+        "date": "2024-08",
+        "price": 26699.1
+      }
+    ]
+  },
+  {
+    "id": "dreame-h12-pro-flexreach",
+    "slug": "dreame-h12-pro-flexreach",
+    "name": "Dreame H12 Pro FlexReach Esnek Gövdeli Zemin Yıkama Makinesi",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1052627.png",
+    "images": [
+      "/images/appliances/dreame-1052627.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 110,
+    "basePrice": 14210,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "FlexReach™ 180° Tam Yatabilen Gövde ile Koltuk ve Mobilya Altlarına Kolay Ulaşım",
+      "Kenardan Kenara Çift Taraflı Fırça Tasarımı",
+      "55°C Sıcak Hava ile 30 Dakikada Otomatik Fırça Kurutma",
+      "16.000 Pa Güçlü Emiş ve Akıllı Kir Algılama",
+      "900 ml Temiz Su Deposu ve 35 Dakika Çalışma Süresi"
+    ],
+    "tags": [
+      "Dreame",
+      "H12 Pro FlexReach",
+      "180° Lie Flat",
+      "Sıcak Hava Kurutma",
+      "Zemin Yıkama"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 300,
+      "suctionPowerPa": 16000,
+      "batteryRuntimeMin": 35,
+      "noiseLevelDb": 74,
+      "capacity": "900 ml temiz su, 700 ml kirli su",
+      "autoCleanDock": true,
+      "weightKg": 4.9,
+      "warrantyYears": 2,
+      "color": "Siyah / Antrasit"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 14210,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 14699,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 15999
+      },
+      {
+        "date": "2024-08",
+        "price": 14210
+      }
+    ]
+  },
+  {
+    "id": "dreame-l40-robot-vacuum",
+    "slug": "dreame-l40",
+    "name": "Dreame L40 Akıllı Robot Süpürge ve Paspas",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1052545.jpg",
+    "images": [
+      "/images/appliances/dreame-1052545.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 75,
+    "basePrice": 22540,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "11.000 Pa Vormax™ Yüksek Emiş Gücü",
+      "MopExtend™ Uzayan Kol Teknolojisi",
+      "DuoScrub™ Çift Dönen Paspas Sistemi",
+      "LDS Lidar Navigasyon ile Hızlı 3D Haritalama",
+      "5200 mAh Pil ile 180 Dakika Çalışma"
+    ],
+    "tags": [
+      "Dreame",
+      "L40",
+      "11000 Pa",
+      "MopExtend",
+      "Robot Süpürge"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürgeler",
+      "powerWatts": 65,
+      "suctionPowerPa": 11000,
+      "batteryRuntimeMin": 180,
+      "noiseLevelDb": 64,
+      "capacity": "450 ml toz, 300 ml su",
+      "mappingTechnology": "LiDAR Lazer",
+      "appControl": true,
+      "weightKg": 3.8,
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 22540,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 22999,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 24999
+      },
+      {
+        "date": "2024-08",
+        "price": 22540
+      }
+    ]
+  },
+  {
+    "id": "dreame-pm10-air-purifier",
+    "slug": "dreame-pm10",
+    "name": "Dreame PM10 Akıllı Kompakt Hava Temizleme Cihazı",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1052456.jpg",
+    "images": [
+      "/images/appliances/dreame-1052456.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 93,
+    "reviewCount": 45,
+    "basePrice": 21292.1,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "400 m³/h CADR Temiz Hava Akışı (48 m² Alanlar İçin İdeal)",
+      "H13 True HEPA Filtre ile %99.97 Partikül Yakalama",
+      "Akıllı Lazer Toz Sensörü ve Halka LED Hava Kalitesi Göstergesi",
+      "Ultra Sessiz Uyku Modu ve Düşük Enerji Tüketimi",
+      "Dreamehome Uygulama Kontrolü"
+    ],
+    "tags": [
+      "Dreame",
+      "PM10",
+      "Hava Temizleyici",
+      "CADR 400",
+      "HEPA H13"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "Hava Temizleyiciler",
+      "powerWatts": 35,
+      "noiseLevelDb": 22,
+      "capacity": "48 m² etki alanı, 400 m³/h CADR",
+      "appControl": true,
+      "weightKg": 4.8,
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 21292.1,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 21999,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 23999
+      },
+      {
+        "date": "2024-08",
+        "price": 21292.1
+      }
+    ]
+  },
+  {
+    "id": "dreame-l40s-pro",
+    "slug": "dreame-l40s-pro",
+    "name": "Dreame L40s Pro All-in-One Robot Süpürge & Paspas",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1034168.png",
+    "images": [
+      "/images/appliances/dreame-1034168.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 98,
+    "reviewCount": 85,
+    "basePrice": 47429,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "12.000 Pa Vormax™ Maksimum Emiş Gücü",
+      "Çift Robotik Kol (MopExtend + Yan Fırça Genişletme)",
+      "70°C Sıcak Su ile Paspas Yıkama ve Sıcak Hava Kurutma",
+      "TriCut Fırça ile Asla Kıl Dolanmayan Yapı",
+      "Tam Otomatik All-in-One İstasyon"
+    ],
+    "tags": [
+      "Dreame",
+      "L40s Pro",
+      "12000 Pa",
+      "MopExtend",
+      "70°C Sıcak Su"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürgeler",
+      "powerWatts": 80,
+      "suctionPowerPa": 12000,
+      "batteryRuntimeMin": 250,
+      "noiseLevelDb": 63,
+      "capacity": "350 ml toz, 4.5 L temiz su",
+      "mappingTechnology": "AI Action RGB + 3D LiDAR",
+      "autoEmptyStation": true,
+      "autoCleanDock": true,
+      "appControl": true,
+      "weightKg": 4.3,
+      "warrantyYears": 2,
+      "color": "Titanyum Siyah"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 47429,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 48499,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 51999
+      },
+      {
+        "date": "2024-08",
+        "price": 47429
+      }
+    ]
+  },
+  {
+    "id": "dreame-n10-stick-vacuum",
+    "slug": "dreame-n10",
+    "name": "Dreame N10 Kablosuz Şarjlı Dikey Süpürge",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1010219.png",
+    "images": [
+      "/images/appliances/dreame-1010219.png"
+    ],
+    "rating": 4.6,
+    "epeyScore": 90,
+    "reviewCount": 75,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "120 AW Emiş Gücü ve 50 Dakika Kesintisiz Temizlik",
+      "Ön LED Işıklı Rulo Başlık ile Gizli Tozları Görme",
+      "0.6 L Tek Tuşla Boşaltılan Toz Haznesi",
+      "5 Kademeli HEPA Filtrasyonu",
+      "Hafif ve Dengeli Tasarım"
+    ],
+    "tags": [
+      "Dreame",
+      "N10",
+      "120 AW",
+      "Dikey Süpürge",
+      "LED Işıklı"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 300,
+      "suctionPowerPa": 120,
+      "batteryRuntimeMin": 50,
+      "noiseLevelDb": 78,
+      "capacity": "0.6 L",
+      "weightKg": 1.55,
+      "warrantyYears": 2,
+      "color": "Beyaz / Mavi"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 7999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 8299,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 8999
+      },
+      {
+        "date": "2024-08",
+        "price": 7999
+      }
+    ]
+  },
+  {
+    "id": "dreame-air-style-rls3l",
+    "slug": "dreame-air-style-rls3l",
+    "name": "Dreame Air Style RLS3L Saç Şekillendirici ve Kurutma Seti",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1005031.jpg",
+    "images": [
+      "/images/appliances/dreame-1005031.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 110,
+    "basePrice": 8599.1,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "5'i 1 Arada Çok Fonksiyonlu Manyetik Şekillendirme Başlığı",
+      "100.000 RPM Yüksek Hızlı Dijital Motor ve Hızlı Kurutma",
+      "Coanda Hava Akımı Teknolojisi ile Isısız Bukle Yapma",
+      "200 Milyon Negatif İyon ile Kabarmayı Önleme",
+      "Akıllı Termal Sıcaklık Kontrolü"
+    ],
+    "tags": [
+      "Dreame",
+      "Air Style",
+      "RLS3L",
+      "Saç Şekillendirici",
+      "Coanda",
+      "Kişisel Bakım"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
+      "powerWatts": 1200,
+      "noiseLevelDb": 76,
+      "weightKg": 0.31,
+      "warrantyYears": 2,
+      "color": "Gül Kurusu / Altın"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 8599.1,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 8899,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 9499
+      },
+      {
+        "date": "2024-08",
+        "price": 8599.1
+      }
+    ]
+  },
+  {
+    "id": "dreame-h14-pro-wet-dry",
+    "slug": "dreame-h14-pro",
+    "name": "Dreame H14 Pro Akıllı Zemin Yıkama ve Süpürge",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-971286.png",
+    "images": [
+      "/images/appliances/dreame-971286.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 98,
+    "reviewCount": 90,
+    "basePrice": 73401,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "180° Tam Düz Yatabilen (Lie-Flat) Gövde ile Koltuk Altlarını Temizleme",
+      "60°C Sıcak Su ile İstasyonda Kendi Kendini Temizleme",
+      "18.000 Pa Emiş Gücü ve Kılları Dolanmayan Özel Fırça",
+      "GlideWheel™ İki Yönlü Motor Desteği ile Zahmetsiz Sürüş",
+      "5 Dakika Ultra Hızlı Fırça Kurutma"
+    ],
+    "tags": [
+      "Dreame",
+      "H14 Pro",
+      "Lie Flat",
+      "60°C Sıcak Su",
+      "Zemin Yıkama"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 400,
+      "suctionPowerPa": 18000,
+      "batteryRuntimeMin": 40,
+      "noiseLevelDb": 74,
+      "capacity": "880 ml temiz su, 650 ml kirli su",
+      "autoCleanDock": true,
+      "weightKg": 5.1,
+      "warrantyYears": 2,
+      "color": "Koyu Titanyum / Siyah"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 73401,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 78999
+      },
+      {
+        "date": "2024-08",
+        "price": 73401
+      }
+    ]
+  },
+  {
+    "id": "dreame-z10-stick-vacuum",
+    "slug": "dreame-z10",
+    "name": "Dreame Z10 Kablosuz Şarjlı Dikey Süpürge",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-965101.jpg",
+    "images": [
+      "/images/appliances/dreame-965101.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 65,
+    "basePrice": 18599.07,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "150 AW Emiş Gücü ve 65 Dakika Kesintisiz Çalışma Süresi",
+      "Mavi Optik Toz Algılama Işığı ile Zemin Aydınlatması",
+      "Çıkarılabilir Batarya ve LCD Ekran",
+      "5 Kademeli HEPA Filtrasyonu",
+      "Çok Amaçlı Başlık Seti"
+    ],
+    "tags": [
+      "Dreame",
+      "Z10",
+      "150 AW",
+      "Dikey Süpürge",
+      "Optik Işık"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 425,
+      "suctionPowerPa": 150,
+      "batteryRuntimeMin": 65,
+      "noiseLevelDb": 77,
+      "capacity": "0.6 L",
+      "weightKg": 1.65,
+      "warrantyYears": 2,
+      "color": "Gri / Platin"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 18599.07,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 20499
+      },
+      {
+        "date": "2024-08",
+        "price": 18599.07
+      }
+    ]
   }
 ];
