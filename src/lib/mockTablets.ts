@@ -28864,6 +28864,142 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "hometech-ht-7rk-1-8",
+    "slug": "hometech-ht-7rk",
+    "name": "Hometech HT 7RK 1 GB / 8 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 2199,
+    "currency": "TL",
+    "rating": 3.4,
+    "reviewCount": 14,
+    "image": "/images/tablets/hometech-100957.png",
+    "images": [
+      "/images/tablets/hometech-100957.png"
+    ],
+    "releaseYear": 2017,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Kompakt Ekran",
+      "Rockchip RK3126 4 Çekirdekli İşlemci",
+      "1 GB RAM & 8 GB Depolama",
+      "Android 6.0 Marshmallow"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "TN",
+      "refreshRateHz": 60,
+      "processor": "Rockchip RK3126 (4 Çekirdek 1.2 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2500,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 260,
+      "os": "Android 6.0 (Marshmallow)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-ht7rk-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 2199,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4,
+        "sellerReviews": 15,
+        "url": "https://www.epey.com/tablet/hometech-ht-7rk.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2018-01-01",
+        "price": 449,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2199,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "hometech-ht-7rt-1-8",
+    "slug": "hometech-ht-7rt",
+    "name": "Hometech HT 7RT 1 GB / 8 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 2199,
+    "currency": "TL",
+    "rating": 3.3,
+    "reviewCount": 12,
+    "image": "/images/tablets/hometech-100956.png",
+    "images": [
+      "/images/tablets/hometech-100956.png"
+    ],
+    "releaseYear": 2017,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Kompakt Ekran",
+      "MediaTek MT8127 4 Çekirdekli İşlemci",
+      "1 GB RAM & 8 GB Depolama",
+      "Android 6.0 Marshmallow"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "TN",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8127 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2500,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 260,
+      "os": "Android 6.0 (Marshmallow)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-ht7rt-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 2199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4,
+        "sellerReviews": 12,
+        "url": "https://www.epey.com/tablet/hometech-ht-7rt.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2018-01-01",
+        "price": 449,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2199,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-pro-10-5-wifi-512gb",
     "slug": "apple-ipad-pro-10-5-wifi-512gb",
     "name": "Apple iPad Pro 10.5 512 GB",
@@ -31206,6 +31342,142 @@ export const mockTablets: Product[] = [
       {
         "date": "2026-08-01",
         "price": 1199,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "hometech-ht7-1-8",
+    "slug": "hometech-ht-7",
+    "name": "Hometech HT7 1 GB / 8 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 2099,
+    "currency": "TL",
+    "rating": 3.3,
+    "reviewCount": 14,
+    "image": "/images/tablets/hometech-71803.png",
+    "images": [
+      "/images/tablets/hometech-71803.png"
+    ],
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Ekran",
+      "Allwinner A33 4 Çekirdekli İşlemci",
+      "1 GB RAM & 8 GB Depolama",
+      "Android 5.1 Lollipop"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "TN",
+      "refreshRateHz": 60,
+      "processor": "Allwinner A33 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2500,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 260,
+      "os": "Android 5.1 (Lollipop)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-ht7-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 2099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 3.9,
+        "sellerReviews": 14,
+        "url": "https://www.epey.com/tablet/hometech-ht-7.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2017-01-01",
+        "price": 379,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2099,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "hometech-t705-512-8",
+    "slug": "hometech-t705",
+    "name": "Hometech T705 512 MB / 8 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 1899,
+    "currency": "TL",
+    "rating": 3.2,
+    "reviewCount": 10,
+    "image": "/images/tablets/hometech-71808.png",
+    "images": [
+      "/images/tablets/hometech-71808.png"
+    ],
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Ekran",
+      "Allwinner A33 4 Çekirdekli İşlemci",
+      "512 MB RAM & 8 GB Depolama",
+      "2500 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "800 x 480",
+      "panelType": "TN",
+      "refreshRateHz": 60,
+      "processor": "Allwinner A33 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 0.5,
+      "storageGb": 8,
+      "batteryMah": 2500,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 260,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-t705-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 1899,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 3.8,
+        "sellerReviews": 10,
+        "url": "https://www.epey.com/tablet/hometech-t705.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2017-01-01",
+        "price": 299,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1899,
         "store": "Trendyol"
       }
     ]
@@ -34479,6 +34751,142 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "hometech-t701-1-8",
+    "slug": "hometech-t701",
+    "name": "Hometech T701 1 GB / 8 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 1999,
+    "currency": "TL",
+    "rating": 3.3,
+    "reviewCount": 12,
+    "image": "/images/tablets/hometech-50165.jpg",
+    "images": [
+      "/images/tablets/hometech-50165.jpg"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Ekran",
+      "Allwinner A33 4 Çekirdekli İşlemci",
+      "1 GB RAM & 8 GB Depolama",
+      "Android 4.4 KitKat"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "TN",
+      "refreshRateHz": 60,
+      "processor": "Allwinner A33 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2500,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 260,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-t701-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 1999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 3.9,
+        "sellerReviews": 12,
+        "url": "https://www.epey.com/tablet/hometech-t701.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2016-01-01",
+        "price": 349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hometech-t700-1-8",
+    "slug": "hometech-t700",
+    "name": "Hometech T700 1 GB / 8 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 1999,
+    "currency": "TL",
+    "rating": 3.3,
+    "reviewCount": 12,
+    "image": "/images/tablets/hometech-30759.png",
+    "images": [
+      "/images/tablets/hometech-30759.png"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Ekran",
+      "Allwinner A33 4 Çekirdekli İşlemci",
+      "1 GB RAM & 8 GB Depolama",
+      "Android 4.4 KitKat"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "TN",
+      "refreshRateHz": 60,
+      "processor": "Allwinner A33 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2500,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 260,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-t700-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 1999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 3.9,
+        "sellerReviews": 12,
+        "url": "https://www.epey.com/tablet/hometech-t700.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2016-01-01",
+        "price": 349,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "samsung-galaxy-tab-s2-9-7-sm-t817",
     "slug": "samsung-galaxy-tab-s2-9-7-sm-t817",
     "name": "Samsung Galaxy Tab S2 9.7 (SM-T817) 32 GB / 4G",
@@ -36700,6 +37108,142 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "hometech-hello-kitty-red-1-8",
+    "slug": "hometech-hello-kitty-red",
+    "name": "Hometech Hello Kitty Red 1 GB / 8 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 2099,
+    "currency": "TL",
+    "rating": 3.5,
+    "reviewCount": 18,
+    "image": "/images/tablets/hometech-3659.png",
+    "images": [
+      "/images/tablets/hometech-3659.png"
+    ],
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Özel Hello Kitty Tasarımlı Ekran",
+      "Allwinner A33 4 Çekirdekli İşlemci",
+      "1 GB RAM & 8 GB Depolama",
+      "Çocuklara Özel Arayüz & İçerikler"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "TN",
+      "refreshRateHz": 60,
+      "processor": "Allwinner A33 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2800,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 280,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-hkred-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 2099,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Çocuk Tableti"
+        ],
+        "sellerRating": 4.1,
+        "sellerReviews": 20,
+        "url": "https://www.epey.com/tablet/hometech-hello-kitty-red.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2015-01-01",
+        "price": 399,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2099,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "hometech-hello-kitty-pink-1-8",
+    "slug": "hometech-hello-kitty",
+    "name": "Hometech Hello Kitty Pink 1 GB / 8 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 2099,
+    "currency": "TL",
+    "rating": 3.5,
+    "reviewCount": 18,
+    "image": "/images/tablets/hometech-574.png",
+    "images": [
+      "/images/tablets/hometech-574.png"
+    ],
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Hello Kitty Pembe Kasa",
+      "Allwinner A20 Çift Çekirdekli İşlemci",
+      "1 GB RAM & 8 GB Depolama",
+      "2800 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "TN",
+      "refreshRateHz": 60,
+      "processor": "Allwinner A20 (2 Çekirdek 1.2 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2800,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 280,
+      "os": "Android 4.2 (Jelly Bean)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-hkpink-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 2099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çocuk Tableti"
+        ],
+        "sellerRating": 4.1,
+        "sellerReviews": 18,
+        "url": "https://www.epey.com/tablet/hometech-hello-kitty.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2015-01-01",
+        "price": 399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2099,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "reeder-a7ix-1-8",
     "slug": "reeder-a7ix",
     "name": "Reeder A7iX 1 GB / 8 GB",
@@ -37176,6 +37720,74 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "hometech-hello-kitty-pinki-1-8",
+    "slug": "hometech-hello-kitty-pinki",
+    "name": "Hometech Hello Kitty Pinki 1 GB / 8 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 1999,
+    "currency": "TL",
+    "rating": 3.4,
+    "reviewCount": 16,
+    "image": "/images/tablets/hometech-3660.png",
+    "images": [
+      "/images/tablets/hometech-3660.png"
+    ],
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Hello Kitty Özel Kasa",
+      "Allwinner A33 4 Çekirdekli İşlemci",
+      "1 GB RAM & 8 GB Depolama",
+      "Android 4.4 KitKat"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "800 x 480",
+      "panelType": "TN",
+      "refreshRateHz": 60,
+      "processor": "Allwinner A33 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2500,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 270,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-hkpinki-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 1999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4,
+        "sellerReviews": 16,
+        "url": "https://www.epey.com/tablet/hometech-hello-kitty-pinki.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2015-01-01",
+        "price": 379,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "reeder-a7im-1-8",
     "slug": "reeder-a7im",
     "name": "Reeder A7iM 1 GB / 8 GB",
@@ -37308,6 +37920,74 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 1299,
         "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hometech-premium-tab-7-1-8",
+    "slug": "hometech-premium-tab-7",
+    "name": "Hometech Premium Tab 7 1 GB / 8 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 1999,
+    "currency": "TL",
+    "rating": 3.3,
+    "reviewCount": 12,
+    "image": "/images/tablets/hometech-1367.png",
+    "images": [
+      "/images/tablets/hometech-1367.png"
+    ],
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Ekran",
+      "Rockchip RK3026 Çift Çekirdekli İşlemci",
+      "1 GB RAM & 8 GB Depolama",
+      "2800 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "TN",
+      "refreshRateHz": 60,
+      "processor": "Rockchip RK3026 (2 Çekirdek 1.0 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2800,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 280,
+      "os": "Android 4.2 (Jelly Bean)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-premiumtab7-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 1999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 3.9,
+        "sellerReviews": 12,
+        "url": "https://www.epey.com/tablet/hometech-premium-tab-7.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2015-01-01",
+        "price": 329,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1999,
+        "store": "Trendyol"
       }
     ]
   },
@@ -39458,6 +40138,210 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 1799,
         "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hometech-ideal-tab-7-1-8",
+    "slug": "hometech-ideal-tab-7",
+    "name": "Hometech Ideal Tab 7 1 GB / 8 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 1799,
+    "currency": "TL",
+    "rating": 3.2,
+    "reviewCount": 11,
+    "image": "/images/tablets/hometech-573.png",
+    "images": [
+      "/images/tablets/hometech-573.png"
+    ],
+    "releaseYear": 2013,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Kompakt Ekran",
+      "Boxchip A13 İşlemci",
+      "1 GB RAM & 8 GB Depolama",
+      "2800 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "800 x 480",
+      "panelType": "TN",
+      "refreshRateHz": 60,
+      "processor": "Boxchip A13 (1 Çekirdek 1.0 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2800,
+      "rearCameraMp": "0.3 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 270,
+      "os": "Android 4.1 (Jelly Bean)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-idealtab7-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 1799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 3.8,
+        "sellerReviews": 11,
+        "url": "https://www.epey.com/tablet/hometech-ideal-tab-7.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2014-01-01",
+        "price": 249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1799,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hometech-mid-7102-1-8",
+    "slug": "hometech-mid-7102",
+    "name": "Hometech MID 7102 1 GB / 8 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 1749,
+    "currency": "TL",
+    "rating": 3.2,
+    "reviewCount": 10,
+    "image": "/images/tablets/hometech-3569.png",
+    "images": [
+      "/images/tablets/hometech-3569.png"
+    ],
+    "releaseYear": 2013,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Ekran",
+      "Allwinner A13 İşlemci",
+      "1 GB RAM & 8 GB Depolama",
+      "Android 4.0 ICS"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "800 x 480",
+      "panelType": "TN",
+      "refreshRateHz": 60,
+      "processor": "Allwinner A13 (1 Çekirdek 1.0 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2500,
+      "rearCameraMp": "0.3 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 270,
+      "os": "Android 4.0 (Ice Cream Sandwich)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-mid7102-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 1749,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 3.8,
+        "sellerReviews": 10,
+        "url": "https://www.epey.com/tablet/hometech-mid-7102.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2014-01-01",
+        "price": 229,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1749,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "hometech-mid-710-1-8",
+    "slug": "hometech-mid-710",
+    "name": "Hometech MID 710 1 GB / 8 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 1699,
+    "currency": "TL",
+    "rating": 3.2,
+    "reviewCount": 10,
+    "image": "/images/tablets/hometech-3657.png",
+    "images": [
+      "/images/tablets/hometech-3657.png"
+    ],
+    "releaseYear": 2013,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Ekran",
+      "Boxchip A13 İşlemci",
+      "1 GB RAM & 8 GB Depolama",
+      "Android 4.0 ICS"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "800 x 480",
+      "panelType": "TN",
+      "refreshRateHz": 60,
+      "processor": "Boxchip A13 (1 Çekirdek 1.0 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 2500,
+      "rearCameraMp": "0.3 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 270,
+      "os": "Android 4.0 (Ice Cream Sandwich)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-mid710-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 1699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 3.8,
+        "sellerReviews": 10,
+        "url": "https://www.epey.com/tablet/hometech-mid-710.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2014-01-01",
+        "price": 219,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1699,
+        "store": "Trendyol"
       }
     ]
   },
