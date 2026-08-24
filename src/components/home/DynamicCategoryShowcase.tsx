@@ -45,8 +45,8 @@ const CATEGORY_CONFIG: Record<
     icon: TvIcon
   },
   appliances: {
-    label: 'Küçük Ev Aletleri',
-    shortLabel: 'Ev Aleti',
+    label: 'Ev ve Yaşam Teknolojileri',
+    shortLabel: 'Ev & Yaşam',
     ratio: '%10',
     color: 'text-amber-600 border-amber-200 bg-amber-50',
     badgeBg: 'bg-amber-600 text-white',

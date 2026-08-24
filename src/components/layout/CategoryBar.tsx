@@ -24,7 +24,7 @@ export function CategoryBar() {
     { id: 'phones', label: 'Akıllı Telefonlar', href: '/phones', icon: Smartphone },
     { id: 'laptops', label: 'Bilgisayar & Laptop', href: '/laptops', icon: Laptop },
     { id: 'tvs', label: 'Televizyonlar', href: '/tvs', icon: Tv },
-    { id: 'appliances', label: 'Küçük Ev Aletleri', href: '/appliances', icon: PlugZap },
+    { id: 'appliances', label: 'Ev ve Yaşam Teknolojileri', href: '/appliances', icon: PlugZap },
     { id: 'tablets', label: 'Tabletler', href: '/tablets', icon: Tablet },
     { id: 'smartwatches', label: 'Akıllı Saatler', href: '/smartwatches', icon: Watch },
     { id: 'headphones', label: 'Ses & Kulaklık', href: '/headphones', icon: Headphones },

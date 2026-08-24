@@ -36,7 +36,7 @@ export default function ApplianceDetailClient({ initialApplianceProduct }: { ini
       <div className="py-24 text-center space-y-4">
         <h2 className="text-slate-900 text-xl font-bold">Ürün bulunamadı</h2>
         <Link href="/appliances" className="text-emerald-600 font-bold text-xs underline">
-          Küçük Ev Aletleri Kataloğuna Dön
+          Ev ve Yaşam Teknolojileri Kataloğuna Dön
         </Link>
       </div>
     );
@@ -54,7 +54,7 @@ export default function ApplianceDetailClient({ initialApplianceProduct }: { ini
       <nav className="flex items-center gap-2 text-xs font-bold text-slate-500">
         <Link href="/" className="hover:text-emerald-600 transition-colors">Ana Sayfa</Link>
         <span>&gt;</span>
-        <Link href="/appliances" className="hover:text-emerald-600 transition-colors">Küçük Ev Aletleri</Link>
+        <Link href="/appliances" className="hover:text-emerald-600 transition-colors">Ev ve Yaşam Teknolojileri</Link>
         <span>&gt;</span>
         <span className="text-slate-800">{product.brand}</span>
         <span>&gt;</span>

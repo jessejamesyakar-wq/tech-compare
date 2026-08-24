@@ -78,7 +78,7 @@ export function CategoryIconStrip() {
       count: counts.tvs > 0 ? `${counts.tvs} Model` : ''
     },
     {
-      name: 'Küçük Ev Aletleri',
+      name: 'Ev ve Yaşam Teknolojileri',
       href: '/appliances',
       icon: PlugZap,
       count: counts.appliances > 0 ? `${counts.appliances} Model` : ''

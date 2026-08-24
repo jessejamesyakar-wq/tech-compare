@@ -88,9 +88,9 @@ const WIDE_PROMO_BANNERS = [
 const CATEGORY_BANNERS_ROW2 = [
   {
     id: 'cat-5',
-    title: 'Küçük Ev Aletleri',
-    subtitle: 'AKILLI EV & MUTFAK',
-    badge: '⚡ DYSON & DREAME',
+    title: 'Ev ve Yaşam Teknolojileri',
+    subtitle: 'AKILLI EV, MUTFAK & BAKIM',
+    badge: '⚡ DYSON, PHILIPS & DREAME',
     image: 'https://images.unsplash.com/photo-1558317374-067fb5f30001?w=800&auto=format&fit=crop&q=80',
     href: '/appliances'
   },
