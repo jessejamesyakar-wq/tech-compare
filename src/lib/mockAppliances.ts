@@ -45061,5 +45061,3035 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 8909
       }
     ]
+  },
+  {
+    "id": "philips-philips-fc882001-smartpro",
+    "slug": "philips-philips-fc882001-smartpro",
+    "name": "Philips FC8820/01 SmartPro",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-595687.jpg",
+    "images": [
+      "/images/appliances/philips-595687.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 85,
+    "reviewCount": 360,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "5.8 cm - 6 cm Ultra İnce Tasarım ile Kolay Mobilya Altı Erişimi",
+      "TriActive XL Ekstra Geniş Başlık & Yan Fırçalar",
+      "120 Dakikaya Varan Uzun Lityum İyon Pil Ömrü",
+      "Akıllı Algılama Sistemi ile Düşme ve Çarpma Koruması"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Robot Süpürge",
+      "SmartPro",
+      "İnce Gövde"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "SmartPro Compact Robot Süpürge",
+      "suctionPowerPa": 1800,
+      "batteryRuntimeMin": 120,
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "mappingTechnology": "Smart Detection Sensör Navigasyonu",
+      "noiseLevelDb": 60,
+      "capacity": "0.4 L",
+      "weightKg": 1.9,
+      "powerWatts": 650
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 11999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 12239,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 11879,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 12359,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 12479,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 10919
+      },
+      {
+        "date": "2025-10",
+        "price": 10919
+      },
+      {
+        "date": "2025-11",
+        "price": 11399
+      },
+      {
+        "date": "2025-12",
+        "price": 11399
+      },
+      {
+        "date": "2025-01",
+        "price": 11879
+      },
+      {
+        "date": "2025-02",
+        "price": 11879
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc879201-smartpro-easy",
+    "slug": "philips-philips-fc879201-smartpro-easy",
+    "name": "Philips FC8792/01 SmartPro Easy",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-595721.jpg",
+    "images": [
+      "/images/appliances/philips-595721.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 85,
+    "reviewCount": 360,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "5.8 cm - 6 cm Ultra İnce Tasarım ile Kolay Mobilya Altı Erişimi",
+      "TriActive XL Ekstra Geniş Başlık & Yan Fırçalar",
+      "105 Dakikaya Varan Uzun Lityum İyon Pil Ömrü",
+      "Akıllı Algılama Sistemi ile Düşme ve Çarpma Koruması"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Robot Süpürge",
+      "SmartPro",
+      "İnce Gövde"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "SmartPro Easy Ultra İnce Robot Süpürge",
+      "suctionPowerPa": 1800,
+      "batteryRuntimeMin": 105,
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "mappingTechnology": "Smart Detection Sensör Navigasyonu",
+      "noiseLevelDb": 60,
+      "capacity": "0.4 L",
+      "weightKg": 1.9,
+      "powerWatts": 650
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 11999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 12239,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 11879,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 12359,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 12479,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 10919
+      },
+      {
+        "date": "2025-10",
+        "price": 10919
+      },
+      {
+        "date": "2025-11",
+        "price": 11399
+      },
+      {
+        "date": "2025-12",
+        "price": 11399
+      },
+      {
+        "date": "2025-01",
+        "price": 11879
+      },
+      {
+        "date": "2025-02",
+        "price": 11879
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc877601",
+    "slug": "philips-philips-fc877601",
+    "name": "Philips FC8776/01",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-595662.jpg",
+    "images": [
+      "/images/appliances/philips-595662.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 85,
+    "reviewCount": 360,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "5.8 cm - 6 cm Ultra İnce Tasarım ile Kolay Mobilya Altı Erişimi",
+      "TriActive XL Ekstra Geniş Başlık & Yan Fırçalar",
+      "130 Dakikaya Varan Uzun Lityum İyon Pil Ömrü",
+      "Akıllı Algılama Sistemi ile Düşme ve Çarpma Koruması"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Robot Süpürge",
+      "SmartPro",
+      "İnce Gövde"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "SmartPro Compact Robot Süpürge",
+      "suctionPowerPa": 1800,
+      "batteryRuntimeMin": 130,
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "mappingTechnology": "Smart Detection Sensör Navigasyonu",
+      "noiseLevelDb": 60,
+      "capacity": "0.4 L",
+      "weightKg": 1.9,
+      "powerWatts": 650
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 11999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 12239,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 11879,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 12359,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 12479,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 10919
+      },
+      {
+        "date": "2025-10",
+        "price": 10919
+      },
+      {
+        "date": "2025-11",
+        "price": 11399
+      },
+      {
+        "date": "2025-12",
+        "price": 11399
+      },
+      {
+        "date": "2025-01",
+        "price": 11879
+      },
+      {
+        "date": "2025-02",
+        "price": 11879
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc832609",
+    "slug": "philips-philips-fc832609",
+    "name": "Philips FC8326/09",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-428825.jpg",
+    "images": [
+      "/images/appliances/philips-428825.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 84,
+    "reviewCount": 480,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "750W Yüksek Verimli Motor",
+      "3.0L s-bag Toz Torbası",
+      "Kompakt ve Ergonomik Gövde"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbalı"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Kompakt Torbalı Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 77,
+      "capacity": "3.0 L (s-bag)",
+      "weightKg": 4.3,
+      "powerWatts": 750
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 5999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 6119,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 5939,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 6179,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 6239,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 5459
+      },
+      {
+        "date": "2025-10",
+        "price": 5459
+      },
+      {
+        "date": "2025-11",
+        "price": 5699
+      },
+      {
+        "date": "2025-12",
+        "price": 5699
+      },
+      {
+        "date": "2025-01",
+        "price": 5939
+      },
+      {
+        "date": "2025-02",
+        "price": 5939
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc879601-smartpro-easy",
+    "slug": "philips-philips-fc879601-smartpro-easy",
+    "name": "Philips FC8796/01 SmartPro Easy",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-899158.jpg",
+    "images": [
+      "/images/appliances/philips-899158.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 85,
+    "reviewCount": 360,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "5.8 cm - 6 cm Ultra İnce Tasarım ile Kolay Mobilya Altı Erişimi",
+      "TriActive XL Ekstra Geniş Başlık & Yan Fırçalar",
+      "115 Dakikaya Varan Uzun Lityum İyon Pil Ömrü",
+      "Akıllı Algılama Sistemi ile Düşme ve Çarpma Koruması"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Robot Süpürge",
+      "SmartPro",
+      "İnce Gövde"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "SmartPro Easy Ultra İnce Robot Süpürge",
+      "suctionPowerPa": 1800,
+      "batteryRuntimeMin": 115,
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "mappingTechnology": "Smart Detection Sensör Navigasyonu",
+      "noiseLevelDb": 60,
+      "capacity": "0.4 L",
+      "weightKg": 1.9,
+      "powerWatts": 650
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 11999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 12239,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 11879,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 12359,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 12479,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 10919
+      },
+      {
+        "date": "2025-10",
+        "price": 10919
+      },
+      {
+        "date": "2025-11",
+        "price": 11399
+      },
+      {
+        "date": "2025-12",
+        "price": 11399
+      },
+      {
+        "date": "2025-01",
+        "price": 11879
+      },
+      {
+        "date": "2025-02",
+        "price": 11879
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc877401",
+    "slug": "philips-philips-fc877401",
+    "name": "Philips FC8774/01",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-584318.jpg",
+    "images": [
+      "/images/appliances/philips-584318.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 85,
+    "reviewCount": 360,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "5.8 cm - 6 cm Ultra İnce Tasarım ile Kolay Mobilya Altı Erişimi",
+      "TriActive XL Ekstra Geniş Başlık & Yan Fırçalar",
+      "130 Dakikaya Varan Uzun Lityum İyon Pil Ömrü",
+      "Akıllı Algılama Sistemi ile Düşme ve Çarpma Koruması"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Robot Süpürge",
+      "SmartPro",
+      "İnce Gövde"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "SmartPro Compact Robot Süpürge",
+      "suctionPowerPa": 1800,
+      "batteryRuntimeMin": 130,
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "mappingTechnology": "Smart Detection Sensör Navigasyonu",
+      "noiseLevelDb": 60,
+      "capacity": "0.4 L",
+      "weightKg": 1.9,
+      "powerWatts": 650
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 11999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 12239,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 11879,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 12359,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 12479,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 10919
+      },
+      {
+        "date": "2025-10",
+        "price": 10919
+      },
+      {
+        "date": "2025-11",
+        "price": 11399
+      },
+      {
+        "date": "2025-12",
+        "price": 11399
+      },
+      {
+        "date": "2025-01",
+        "price": 11879
+      },
+      {
+        "date": "2025-02",
+        "price": 11879
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc871501",
+    "slug": "philips-philips-fc871501",
+    "name": "Philips FC8715/01",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-595698.jpg",
+    "images": [
+      "/images/appliances/philips-595698.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 85,
+    "reviewCount": 360,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "5.8 cm - 6 cm Ultra İnce Tasarım ile Kolay Mobilya Altı Erişimi",
+      "TriActive XL Ekstra Geniş Başlık & Yan Fırçalar",
+      "130 Dakikaya Varan Uzun Lityum İyon Pil Ömrü",
+      "Akıllı Algılama Sistemi ile Düşme ve Çarpma Koruması"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Robot Süpürge",
+      "SmartPro",
+      "İnce Gövde"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "SmartPro Compact Robot Süpürge",
+      "suctionPowerPa": 1800,
+      "batteryRuntimeMin": 130,
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "mappingTechnology": "Smart Detection Sensör Navigasyonu",
+      "noiseLevelDb": 60,
+      "capacity": "0.4 L",
+      "weightKg": 1.9,
+      "powerWatts": 650
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 11999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 12239,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 11879,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 12359,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 12479,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 10919
+      },
+      {
+        "date": "2025-10",
+        "price": 10919
+      },
+      {
+        "date": "2025-11",
+        "price": 11399
+      },
+      {
+        "date": "2025-12",
+        "price": 11399
+      },
+      {
+        "date": "2025-01",
+        "price": 11879
+      },
+      {
+        "date": "2025-02",
+        "price": 11879
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc871001-smartpro",
+    "slug": "philips-philips-fc871001-smartpro",
+    "name": "Philips FC8710/01 SmartPro",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-595675.png",
+    "images": [
+      "/images/appliances/philips-595675.png"
+    ],
+    "rating": 4.6,
+    "epeyScore": 85,
+    "reviewCount": 360,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "5.8 cm - 6 cm Ultra İnce Tasarım ile Kolay Mobilya Altı Erişimi",
+      "TriActive XL Ekstra Geniş Başlık & Yan Fırçalar",
+      "120 Dakikaya Varan Uzun Lityum İyon Pil Ömrü",
+      "Akıllı Algılama Sistemi ile Düşme ve Çarpma Koruması"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Robot Süpürge",
+      "SmartPro",
+      "İnce Gövde"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "SmartPro Compact Robot Süpürge",
+      "suctionPowerPa": 1800,
+      "batteryRuntimeMin": 120,
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "mappingTechnology": "Smart Detection Sensör Navigasyonu",
+      "noiseLevelDb": 60,
+      "capacity": "0.4 L",
+      "weightKg": 1.9,
+      "powerWatts": 650
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 11999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 12239,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 11879,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 12359,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 12479,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 10919
+      },
+      {
+        "date": "2025-10",
+        "price": 10919
+      },
+      {
+        "date": "2025-11",
+        "price": 11399
+      },
+      {
+        "date": "2025-12",
+        "price": 11399
+      },
+      {
+        "date": "2025-01",
+        "price": 11879
+      },
+      {
+        "date": "2025-02",
+        "price": 11879
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc878609-performer-silent",
+    "slug": "philips-philips-fc878609-performer-silent",
+    "name": "Philips FC8786/09 Performer Silent",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-707581.jpg",
+    "images": [
+      "/images/appliances/philips-707581.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 890,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Yalnızca 66 dB Ekstra Sessiz Çalışma Teknolojisi",
+      "Allergy H13 Filtre ile %99.99 Antialerjik Koruması",
+      "TriActive Pro Çok Fonksiyonlu Yüksek Emiş Başlığı",
+      "Geniş 4.0L s-bag Torbası"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbalı",
+      "Performer Silent",
+      "Sessiz"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Performer Silent Ekstra Sessiz Torbalı Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 66,
+      "capacity": "4.0 L (s-bag)",
+      "weightKg": 5.4,
+      "powerWatts": 750
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 11999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 12239,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 11879,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 12359,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 12479,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 10919
+      },
+      {
+        "date": "2025-10",
+        "price": 10919
+      },
+      {
+        "date": "2025-11",
+        "price": 11399
+      },
+      {
+        "date": "2025-12",
+        "price": 11399
+      },
+      {
+        "date": "2025-01",
+        "price": 11879
+      },
+      {
+        "date": "2025-02",
+        "price": 11879
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-minivac-fc604801",
+    "slug": "philips-philips-minivac-fc604801",
+    "name": "Philips Minivac FC6048/01",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-613509.jpg",
+    "images": [
+      "/images/appliances/philips-613509.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 85,
+    "reviewCount": 490,
+    "basePrice": 3999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Aerodinamik Başlık ile Maksimum Toz Çekimi",
+      "Siklonik Hava Akışı ve 2 Aşamalı Filtreleme",
+      "Hafif ve Ergonomik Tasarım"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "El Süpürgesi",
+      "MiniVac",
+      "Şarjlı"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "MiniVac Şarjlı El Süpürgesi",
+      "batteryRuntimeMin": 12,
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 81,
+      "capacity": "0.5 L",
+      "weightKg": 1.3,
+      "powerWatts": 100
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 3999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 4079,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 3959,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 4119,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 4159,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 3639
+      },
+      {
+        "date": "2025-10",
+        "price": 3639
+      },
+      {
+        "date": "2025-11",
+        "price": 3799
+      },
+      {
+        "date": "2025-12",
+        "price": 3799
+      },
+      {
+        "date": "2025-01",
+        "price": 3959
+      },
+      {
+        "date": "2025-02",
+        "price": 3959
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc824609",
+    "slug": "philips-philips-fc824609",
+    "name": "Philips FC8246/09",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-707584.png",
+    "images": [
+      "/images/appliances/philips-707584.png"
+    ],
+    "rating": 4.6,
+    "epeyScore": 84,
+    "reviewCount": 480,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "750W Yüksek Verimli Motor",
+      "3.0L s-bag Toz Torbası",
+      "Kompakt ve Ergonomik Gövde"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbalı"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Kompakt Torbalı Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 77,
+      "capacity": "3.0 L (s-bag)",
+      "weightKg": 4.3,
+      "powerWatts": 750
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 5999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 6119,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 5939,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 6179,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 6239,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 5459
+      },
+      {
+        "date": "2025-10",
+        "price": 5459
+      },
+      {
+        "date": "2025-11",
+        "price": 5699
+      },
+      {
+        "date": "2025-12",
+        "price": 5699
+      },
+      {
+        "date": "2025-01",
+        "price": 5939
+      },
+      {
+        "date": "2025-02",
+        "price": 5939
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc614901",
+    "slug": "philips-philips-fc614901",
+    "name": "Philips FC6149/01",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-76280.png",
+    "images": [
+      "/images/appliances/philips-76280.png"
+    ],
+    "rating": 4.6,
+    "epeyScore": 85,
+    "reviewCount": 490,
+    "basePrice": 3999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Aerodinamik Başlık ile Maksimum Toz Çekimi",
+      "12V Araç Çakmaklık Adaptörü ve Zengin Araç Temizlik Kiti",
+      "Hafif ve Ergonomik Tasarım"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "El Süpürgesi",
+      "MiniVac",
+      "Şarjlı"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "MiniVac Şarjlı El Süpürgesi",
+      "batteryRuntimeMin": 12,
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 81,
+      "capacity": "0.5 L",
+      "weightKg": 1.3,
+      "powerWatts": 100
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 3999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 4079,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 3959,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 4119,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 4159,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 3639
+      },
+      {
+        "date": "2025-10",
+        "price": 3639
+      },
+      {
+        "date": "2025-11",
+        "price": 3799
+      },
+      {
+        "date": "2025-12",
+        "price": 3799
+      },
+      {
+        "date": "2025-01",
+        "price": 3959
+      },
+      {
+        "date": "2025-02",
+        "price": 3959
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc672201",
+    "slug": "philips-philips-fc672201",
+    "name": "Philips FC6722/01",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-428822.png",
+    "images": [
+      "/images/appliances/philips-428822.png"
+    ],
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 670,
+    "basePrice": 10999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "180° Emiş Başlığı ile Hızlı ve Etkili Toz Toplama",
+      "30 Dakika Kesintisiz Lityum İyon Batarya",
+      "PowerBlade Motor & PowerCyclone 7 Teknolojisi",
+      "LED Işıklı Zemin Başlığı (Modele Göre)"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Şarjlı Dikey Süpürge",
+      "SpeedPro",
+      "Kablosuz"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "SpeedPro / PowerPro Uno Şarjlı Dikey Süpürge",
+      "batteryRuntimeMin": 30,
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 80,
+      "capacity": "0.6 L",
+      "weightKg": 2.4,
+      "powerWatts": 200
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 10999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 11219,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 10889,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 11329,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 11439,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 10009
+      },
+      {
+        "date": "2025-10",
+        "price": 10009
+      },
+      {
+        "date": "2025-11",
+        "price": 10449
+      },
+      {
+        "date": "2025-12",
+        "price": 10449
+      },
+      {
+        "date": "2025-01",
+        "price": 10889
+      },
+      {
+        "date": "2025-02",
+        "price": 10889
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc672701",
+    "slug": "philips-philips-fc672701",
+    "name": "Philips FC6727/01",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-553585.jpg",
+    "images": [
+      "/images/appliances/philips-553585.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 670,
+    "basePrice": 10999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "180° Emiş Başlığı ile Hızlı ve Etkili Toz Toplama",
+      "40 Dakika Kesintisiz Lityum İyon Batarya",
+      "PowerBlade Motor & PowerCyclone 7 Teknolojisi",
+      "LED Işıklı Zemin Başlığı (Modele Göre)"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Şarjlı Dikey Süpürge",
+      "SpeedPro",
+      "Kablosuz"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "SpeedPro / PowerPro Uno Şarjlı Dikey Süpürge",
+      "batteryRuntimeMin": 40,
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 80,
+      "capacity": "0.6 L",
+      "weightKg": 2.4,
+      "powerWatts": 200
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 10999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 11219,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 10889,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 11329,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 11439,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 10009
+      },
+      {
+        "date": "2025-10",
+        "price": 10009
+      },
+      {
+        "date": "2025-11",
+        "price": 10449
+      },
+      {
+        "date": "2025-12",
+        "price": 10449
+      },
+      {
+        "date": "2025-01",
+        "price": 10889
+      },
+      {
+        "date": "2025-02",
+        "price": 10889
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc672301",
+    "slug": "philips-philips-fc672301",
+    "name": "Philips FC6723/01",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-677722.jpg",
+    "images": [
+      "/images/appliances/philips-677722.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 670,
+    "basePrice": 10999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "180° Emiş Başlığı ile Hızlı ve Etkili Toz Toplama",
+      "30 Dakika Kesintisiz Lityum İyon Batarya",
+      "PowerBlade Motor & PowerCyclone 7 Teknolojisi",
+      "LED Işıklı Zemin Başlığı (Modele Göre)"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Şarjlı Dikey Süpürge",
+      "SpeedPro",
+      "Kablosuz"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "SpeedPro / PowerPro Uno Şarjlı Dikey Süpürge",
+      "batteryRuntimeMin": 30,
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 80,
+      "capacity": "0.6 L",
+      "weightKg": 2.4,
+      "powerWatts": 200
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 10999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 11219,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 10889,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 11329,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 11439,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 10009
+      },
+      {
+        "date": "2025-10",
+        "price": 10009
+      },
+      {
+        "date": "2025-11",
+        "price": 10449
+      },
+      {
+        "date": "2025-12",
+        "price": 10449
+      },
+      {
+        "date": "2025-01",
+        "price": 10889
+      },
+      {
+        "date": "2025-02",
+        "price": 10889
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc614201",
+    "slug": "philips-philips-fc614201",
+    "name": "Philips FC6142/01",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-77038.jpg",
+    "images": [
+      "/images/appliances/philips-77038.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 85,
+    "reviewCount": 490,
+    "basePrice": 3999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Aerodinamik Başlık ile Maksimum Toz Çekimi",
+      "Siklonik Hava Akışı ve 2 Aşamalı Filtreleme",
+      "Hafif ve Ergonomik Tasarım"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "El Süpürgesi",
+      "MiniVac",
+      "Şarjlı"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "MiniVac Şarjlı El Süpürgesi",
+      "batteryRuntimeMin": 12,
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 81,
+      "capacity": "0.5 L",
+      "weightKg": 1.3,
+      "powerWatts": 100
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 3999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 4079,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 3959,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 4119,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 4159,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 3639
+      },
+      {
+        "date": "2025-10",
+        "price": 3639
+      },
+      {
+        "date": "2025-11",
+        "price": 3799
+      },
+      {
+        "date": "2025-12",
+        "price": 3799
+      },
+      {
+        "date": "2025-01",
+        "price": 3959
+      },
+      {
+        "date": "2025-02",
+        "price": 3959
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc617101",
+    "slug": "philips-philips-fc617101",
+    "name": "Philips FC6171/01",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-428824.jpg",
+    "images": [
+      "/images/appliances/philips-428824.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 670,
+    "basePrice": 10999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "180° Emiş Başlığı ile Hızlı ve Etkili Toz Toplama",
+      "60 Dakika Kesintisiz Lityum İyon Batarya",
+      "PowerBlade Motor & PowerCyclone 7 Teknolojisi",
+      "LED Işıklı Zemin Başlığı (Modele Göre)"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Şarjlı Dikey Süpürge",
+      "SpeedPro",
+      "Kablosuz"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "SpeedPro / PowerPro Uno Şarjlı Dikey Süpürge",
+      "batteryRuntimeMin": 60,
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 80,
+      "capacity": "0.6 L",
+      "weightKg": 2.4,
+      "powerWatts": 200
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 10999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 11219,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 10889,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 11329,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 11439,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 10009
+      },
+      {
+        "date": "2025-10",
+        "price": 10009
+      },
+      {
+        "date": "2025-11",
+        "price": 10449
+      },
+      {
+        "date": "2025-12",
+        "price": 10449
+      },
+      {
+        "date": "2025-01",
+        "price": 10889
+      },
+      {
+        "date": "2025-02",
+        "price": 10889
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc702801",
+    "slug": "philips-philips-fc702801",
+    "name": "Philips FC7028/01",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-120592.jpg",
+    "images": [
+      "/images/appliances/philips-120592.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 87,
+    "reviewCount": 520,
+    "basePrice": 9499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2'si 1 Arada: Buharlı Zemin Temizleme ve Süpürme",
+      "1500W Güçlü Buhar ile %99.9 Bakteri Yok Etme",
+      "Kimyasal Kullanmadan Yalnızca Su ile Derinlemesine Hijyen",
+      "Yıkanabilir Mikrofiber Paspas Başlıkları"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Buharlı Temizleyici",
+      "Süpürge",
+      "SteamPlus"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "SteamPlus Buharlı Temizleyici ve Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 75,
+      "capacity": "0.45 L Su Deposu",
+      "weightKg": 3,
+      "powerWatts": 1500
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 9499,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 9689,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 9404,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 9784,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 9879,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 8644
+      },
+      {
+        "date": "2025-10",
+        "price": 8644
+      },
+      {
+        "date": "2025-11",
+        "price": 9024
+      },
+      {
+        "date": "2025-12",
+        "price": 9024
+      },
+      {
+        "date": "2025-01",
+        "price": 9404
+      },
+      {
+        "date": "2025-02",
+        "price": 9404
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-3000i-serisi-ac303310",
+    "slug": "philips-philips-3000i-serisi-ac303310",
+    "name": "Philips 3000i Serisi AC3033/10",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-420618.png",
+    "images": [
+      "/images/appliances/philips-420618.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 680,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "520 m³/h Yüksek CADR ile 135 m² Geniş Alan Kapsama",
+      "NanoProtect HEPA ile %99.97 0.003 Mikron Partikül Yakalama",
+      "360° Hava Emişi ve 3 Katmanlı Silindirik Filtre",
+      "Clean Home+ ile Gerçek Zamanlı Akıllı Hava Kalitesi Takibi"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Hava Temizleyici",
+      "3000i Serisi",
+      "HEPA",
+      "Akıllı"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "3000i Serisi Akıllı Hava Temizleyici",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 25,
+      "capacity": "135 m² Kapsama Alanı (520 m³/h CADR)",
+      "weightKg": 6.8,
+      "powerWatts": 55
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 24999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 25499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 24749,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 25749,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 25999,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 22749
+      },
+      {
+        "date": "2025-10",
+        "price": 22749
+      },
+      {
+        "date": "2025-11",
+        "price": 23749
+      },
+      {
+        "date": "2025-12",
+        "price": 23749
+      },
+      {
+        "date": "2025-01",
+        "price": 24749
+      },
+      {
+        "date": "2025-02",
+        "price": 24749
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-robbie-premium",
+    "slug": "philips-philips-robbie-premium",
+    "name": "Philips Robbie Premium",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-963394.png",
+    "images": [
+      "/images/appliances/philips-963394.png"
+    ],
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 410,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "4000 Pa Güçlü Emiş Performansı & Akıllı Paspas",
+      "LDS Lidar 360° Hızlı ve Hassas Haritalama",
+      "180 Dakika Kesintisiz Temizlik & Otomatik Şarja Dönüş",
+      "Mobil Uygulama Üzerinden Oda Bazlı Temizlik ve Yasak Alanlar"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Robot Süpürge",
+      "Lazer Haritalama",
+      "Paspas",
+      "Robbie"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robbie Premium Lazer Navigasyonlu Robot Süpürge",
+      "suctionPowerPa": 4000,
+      "batteryRuntimeMin": 180,
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "mappingTechnology": "LDS Lidar Lazer Haritalama",
+      "noiseLevelDb": 65,
+      "capacity": "0.45 L Toz / 0.3 L Su",
+      "weightKg": 3.6,
+      "powerWatts": 650
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 18999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 19379,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 18809,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 19569,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 19759,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 17289
+      },
+      {
+        "date": "2025-10",
+        "price": 17289
+      },
+      {
+        "date": "2025-11",
+        "price": 18049
+      },
+      {
+        "date": "2025-12",
+        "price": 18049
+      },
+      {
+        "date": "2025-01",
+        "price": 18809
+      },
+      {
+        "date": "2025-02",
+        "price": 18809
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-ac305551",
+    "slug": "philips-philips-ac305551",
+    "name": "Philips AC3055/51",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-955254.jpg",
+    "images": [
+      "/images/appliances/philips-955254.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 680,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "520 m³/h Yüksek CADR ile 135 m² Geniş Alan Kapsama",
+      "NanoProtect HEPA ile %99.97 0.003 Mikron Partikül Yakalama",
+      "360° Hava Emişi ve 3 Katmanlı Silindirik Filtre",
+      "Clean Home+ ile Gerçek Zamanlı Akıllı Hava Kalitesi Takibi"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Hava Temizleyici",
+      "3000i Serisi",
+      "HEPA",
+      "Akıllı"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "3000i Serisi Akıllı Hava Temizleyici",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 25,
+      "capacity": "135 m² Kapsama Alanı (520 m³/h CADR)",
+      "weightKg": 6.8,
+      "powerWatts": 55
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 24999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 25499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 24749,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 25749,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 25999,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 22749
+      },
+      {
+        "date": "2025-10",
+        "price": 22749
+      },
+      {
+        "date": "2025-11",
+        "price": 23749
+      },
+      {
+        "date": "2025-12",
+        "price": 23749
+      },
+      {
+        "date": "2025-01",
+        "price": 24749
+      },
+      {
+        "date": "2025-02",
+        "price": 24749
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-gopure-style-gp5611",
+    "slug": "philips-philips-gopure-style-gp5611",
+    "name": "Philips Gopure Style GP5611",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-914151.jpg",
+    "images": [
+      "/images/appliances/philips-914151.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 280,
+    "basePrice": 4499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "UV-C LED Teknolojisi ile %99.9 Virüs & Bakteri Yok Etme",
+      "HESAMax Çift Katmanlı Koku ve Zararlı Gaz Filtresi",
+      "Kompakt Bardaklık Boyutu & Otomatik Çalışma"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Hava Temizleyici",
+      "Araç İçi",
+      "UV-C",
+      "GoPure"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "GoPure Araç İçi UV-C & HEPA Hava Temizleyici",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 35,
+      "capacity": "Araç İçi / 3 m² (Sani Tech UV-C)",
+      "weightKg": 0.6,
+      "powerWatts": 10
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 4499,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 4589,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 4454,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 4634,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 4679,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 4094
+      },
+      {
+        "date": "2025-10",
+        "price": 4094
+      },
+      {
+        "date": "2025-11",
+        "price": 4274
+      },
+      {
+        "date": "2025-12",
+        "price": 4274
+      },
+      {
+        "date": "2025-01",
+        "price": 4454
+      },
+      {
+        "date": "2025-02",
+        "price": 4454
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-ac083010",
+    "slug": "philips-philips-ac083010",
+    "name": "Philips AC0830/10",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-850541.jpg",
+    "images": [
+      "/images/appliances/philips-850541.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 430,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Tek Tuşla Kolay Kullanım & 4 Renkli Hava Kalitesi Göstergesi",
+      "NanoProtect HEPA Filtrasyon",
+      "Kompakt Boyut & Ultra Sessiz Çalışma"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Hava Temizleyici",
+      "Kompakt",
+      "HEPA"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "800 Serisi Kompakt Hava Temizleyici",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 27,
+      "capacity": "49 m² (190 m³/h CADR)",
+      "weightKg": 2.4,
+      "powerWatts": 20
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 7999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 8159,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 7919,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 8239,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 8319,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 7279
+      },
+      {
+        "date": "2025-10",
+        "price": 7279
+      },
+      {
+        "date": "2025-11",
+        "price": 7599
+      },
+      {
+        "date": "2025-12",
+        "price": 7599
+      },
+      {
+        "date": "2025-01",
+        "price": 7919
+      },
+      {
+        "date": "2025-02",
+        "price": 7919
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-ac2889-10",
+    "slug": "philips-philips-ac2889-10",
+    "name": "Philips AC2889-10",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-157918.jpg",
+    "images": [
+      "/images/appliances/philips-157918.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 91,
+    "reviewCount": 510,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "AeraSense Profesyonel Hava Algılama Teknolojisi",
+      "NanoProtect HEPA ve Aktif Karbon Filtre Koruması",
+      "3 Otomatik Mod: Genel, Alerjen ve Bakteri/Virüs Modu",
+      "Sessiz Gece Modu"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Hava Temizleyici",
+      "HEPA",
+      "AeraSense"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "2000i / 1000i Serisi Akıllı Hava Temizleyici",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 28,
+      "capacity": "79 m² (333 m³/h CADR)",
+      "weightKg": 5.2,
+      "powerWatts": 30
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 14999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 15299,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 14849,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 15449,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 15599,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 13649
+      },
+      {
+        "date": "2025-10",
+        "price": 13649
+      },
+      {
+        "date": "2025-11",
+        "price": 14249
+      },
+      {
+        "date": "2025-12",
+        "price": 14249
+      },
+      {
+        "date": "2025-01",
+        "price": 14849
+      },
+      {
+        "date": "2025-02",
+        "price": 14849
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-ac4080-10",
+    "slug": "philips-philips-ac4080-10",
+    "name": "Philips AC4080-10",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-157915.jpg",
+    "images": [
+      "/images/appliances/philips-157915.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 590,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2'si 1 Arada: NanoProtect HEPA Hava Temizleme & Hijyenik NanoCloud Nemlendirme",
+      "AeraSense Sayısal PM2.5 ve Nem Sensörü",
+      "Clean Home+ Uygulama Entegrasyonu ve Wi-Fi Kontrolü",
+      "Antialerjen ve Nemlendirici Özel Modlar"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Hava Temizleyici",
+      "Hava Nemlendirici",
+      "2si1 Arada",
+      "NanoCloud"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "2'si 1 Arada Hava Temizleyici ve Nemlendirici",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 30,
+      "capacity": "68 m² (250 m³/h CADR - 500 ml/saat Nemlendirme)",
+      "weightKg": 8.5,
+      "powerWatts": 45
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 21999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 22439,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 21779,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 22659,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 22879,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 20019
+      },
+      {
+        "date": "2025-10",
+        "price": 20019
+      },
+      {
+        "date": "2025-11",
+        "price": 20899
+      },
+      {
+        "date": "2025-12",
+        "price": 20899
+      },
+      {
+        "date": "2025-01",
+        "price": 21779
+      },
+      {
+        "date": "2025-02",
+        "price": 21779
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-ac1214-10",
+    "slug": "philips-philips-ac1214-10",
+    "name": "Philips AC1214-10",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-157914.jpg",
+    "images": [
+      "/images/appliances/philips-157914.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 91,
+    "reviewCount": 510,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "AeraSense Profesyonel Hava Algılama Teknolojisi",
+      "NanoProtect HEPA ve Aktif Karbon Filtre Koruması",
+      "3 Otomatik Mod: Genel, Alerjen ve Bakteri/Virüs Modu",
+      "Sessiz Gece Modu"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Hava Temizleyici",
+      "HEPA",
+      "AeraSense"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "2000i / 1000i Serisi Akıllı Hava Temizleyici",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 28,
+      "capacity": "63 m² (270 m³/h CADR)",
+      "weightKg": 5.2,
+      "powerWatts": 30
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 14999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 15299,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 14849,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 15449,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 15599,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 13649
+      },
+      {
+        "date": "2025-10",
+        "price": 13649
+      },
+      {
+        "date": "2025-11",
+        "price": 14249
+      },
+      {
+        "date": "2025-12",
+        "price": 14249
+      },
+      {
+        "date": "2025-01",
+        "price": 14849
+      },
+      {
+        "date": "2025-02",
+        "price": 14849
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-ac2882-10",
+    "slug": "philips-philips-ac2882-10",
+    "name": "Philips AC2882-10",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-157919.png",
+    "images": [
+      "/images/appliances/philips-157919.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 91,
+    "reviewCount": 510,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "AeraSense Profesyonel Hava Algılama Teknolojisi",
+      "NanoProtect HEPA ve Aktif Karbon Filtre Koruması",
+      "3 Otomatik Mod: Genel, Alerjen ve Bakteri/Virüs Modu",
+      "Sessiz Gece Modu"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Hava Temizleyici",
+      "HEPA",
+      "AeraSense"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "2000i / 1000i Serisi Akıllı Hava Temizleyici",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 28,
+      "capacity": "79 m² (333 m³/h CADR)",
+      "weightKg": 5.2,
+      "powerWatts": 30
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 14999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 15299,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 14849,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 15449,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 15599,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 13649
+      },
+      {
+        "date": "2025-10",
+        "price": 13649
+      },
+      {
+        "date": "2025-11",
+        "price": 14249
+      },
+      {
+        "date": "2025-12",
+        "price": 14249
+      },
+      {
+        "date": "2025-01",
+        "price": 14849
+      },
+      {
+        "date": "2025-02",
+        "price": 14849
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-ac3829-10",
+    "slug": "philips-philips-ac3829-10",
+    "name": "Philips AC3829-10",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-169198.jpg",
+    "images": [
+      "/images/appliances/philips-169198.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 590,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2'si 1 Arada: NanoProtect HEPA Hava Temizleme & Hijyenik NanoCloud Nemlendirme",
+      "AeraSense Sayısal PM2.5 ve Nem Sensörü",
+      "Clean Home+ Uygulama Entegrasyonu ve Wi-Fi Kontrolü",
+      "Antialerjen ve Nemlendirici Özel Modlar"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Hava Temizleyici",
+      "Hava Nemlendirici",
+      "2si1 Arada",
+      "NanoCloud"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "2'si 1 Arada Hava Temizleyici ve Nemlendirici",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 30,
+      "capacity": "80 m² (310 m³/h CADR - 600 ml/saat Nemlendirme)",
+      "weightKg": 8.5,
+      "powerWatts": 45
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 21999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 22439,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 21779,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 22659,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 22879,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 20019
+      },
+      {
+        "date": "2025-10",
+        "price": 20019
+      },
+      {
+        "date": "2025-11",
+        "price": 20899
+      },
+      {
+        "date": "2025-12",
+        "price": 20899
+      },
+      {
+        "date": "2025-01",
+        "price": 21779
+      },
+      {
+        "date": "2025-02",
+        "price": 21779
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-ac2729-10",
+    "slug": "philips-philips-ac2729-10",
+    "name": "Philips AC2729-10",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-169205.jpg",
+    "images": [
+      "/images/appliances/philips-169205.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 590,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2'si 1 Arada: NanoProtect HEPA Hava Temizleme & Hijyenik NanoCloud Nemlendirme",
+      "AeraSense Sayısal PM2.5 ve Nem Sensörü",
+      "Clean Home+ Uygulama Entegrasyonu ve Wi-Fi Kontrolü",
+      "Antialerjen ve Nemlendirici Özel Modlar"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Hava Temizleyici",
+      "Hava Nemlendirici",
+      "2si1 Arada",
+      "NanoCloud"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "2'si 1 Arada Hava Temizleyici ve Nemlendirici",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 30,
+      "capacity": "68 m² (250 m³/h CADR - 500 ml/saat Nemlendirme)",
+      "weightKg": 8.5,
+      "powerWatts": 45
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 21999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 22439,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 21779,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 22659,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 22879,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 20019
+      },
+      {
+        "date": "2025-10",
+        "price": 20019
+      },
+      {
+        "date": "2025-11",
+        "price": 20899
+      },
+      {
+        "date": "2025-12",
+        "price": 20899
+      },
+      {
+        "date": "2025-01",
+        "price": 21779
+      },
+      {
+        "date": "2025-02",
+        "price": 21779
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-ac2887-10",
+    "slug": "philips-philips-ac2887-10",
+    "name": "Philips AC2887-10",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-397462.png",
+    "images": [
+      "/images/appliances/philips-397462.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 91,
+    "reviewCount": 510,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "AeraSense Profesyonel Hava Algılama Teknolojisi",
+      "NanoProtect HEPA ve Aktif Karbon Filtre Koruması",
+      "3 Otomatik Mod: Genel, Alerjen ve Bakteri/Virüs Modu",
+      "Sessiz Gece Modu"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Hava Temizleyici",
+      "HEPA",
+      "AeraSense"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "2000i / 1000i Serisi Akıllı Hava Temizleyici",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 28,
+      "capacity": "79 m² (333 m³/h CADR)",
+      "weightKg": 5.2,
+      "powerWatts": 30
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 14999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 15299,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 14849,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 15449,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 15599,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 13649
+      },
+      {
+        "date": "2025-10",
+        "price": 13649
+      },
+      {
+        "date": "2025-11",
+        "price": 14249
+      },
+      {
+        "date": "2025-12",
+        "price": 14249
+      },
+      {
+        "date": "2025-01",
+        "price": 14849
+      },
+      {
+        "date": "2025-02",
+        "price": 14849
+      }
+    ]
   }
 ];
