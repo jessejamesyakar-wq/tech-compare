@@ -8457,6 +8457,104 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "hometech-alfa-11bt-6-128",
+    "slug": "hometech-alfa-11bt",
+    "name": "Hometech Alfa 11BT 6 GB / 128 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 8499,
+    "currency": "TL",
+    "rating": 4.4,
+    "reviewCount": 48,
+    "image": "/images/tablets/hometech-967028.jpg",
+    "images": [
+      "/images/tablets/hometech-967028.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "10.95 İnç 2K (2000x1200) IPS Ekran",
+      "MediaTek Helio G99 8 Çekirdekli Güçlü İşlemci",
+      "6 GB RAM & 128 GB Geniş Hafıza",
+      "7500 mAh Uzun Ömürlü Batarya",
+      "Android 13 İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 10.95,
+      "screenResolution": "2000 x 1200",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "MediaTek Helio G99 (8 Çekirdek 2.2 GHz)",
+      "ramGb": 6,
+      "storageGb": 128,
+      "batteryMah": 7500,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 510,
+      "os": "Android 13",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-alfa11bt-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 8499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çok Satan",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 120,
+        "url": "https://www.epey.com/tablet/hometech-alfa-11bt.html"
+      },
+      {
+        "id": "so-ht-alfa11bt-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 8699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 95,
+        "url": "https://www.epey.com/tablet/hometech-alfa-11bt.html"
+      },
+      {
+        "id": "so-ht-alfa11bt-3",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 8599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 80,
+        "url": "https://www.epey.com/tablet/hometech-alfa-11bt.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-03-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "tcl-tab-11-gen2-6-256",
     "slug": "tcl-tab-11-gen2",
     "name": "TCL Tab 11 Gen2 6 GB / 256 GB",
@@ -8608,6 +8706,89 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 22999,
         "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hometech-alfa-12gx-pro-6-256",
+    "slug": "hometech-alfa-12-gx-pro",
+    "name": "Hometech Alfa 12GX Pro 6 GB / 256 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 12885,
+    "currency": "TL",
+    "rating": 4.3,
+    "reviewCount": 36,
+    "image": "/images/tablets/hometech-1003676.jpg",
+    "images": [
+      "/images/tablets/hometech-1003676.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "11.97 İnç Dev 2K IPS Ekran",
+      "MediaTek Helio G99 8 Çekirdekli İşlemci",
+      "6 GB RAM & 256 GB Yüksek Depolama",
+      "8000 mAh Yüksek Kapasiteli Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 11.97,
+      "screenResolution": "2000 x 1200",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "MediaTek Helio G99 (8 Çekirdek 2.2 GHz)",
+      "ramGb": 6,
+      "storageGb": 256,
+      "batteryMah": 8000,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 580,
+      "os": "Android 13",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-alfa12gx-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 12885,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "256 GB",
+          "Büyük Ekran"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 45,
+        "url": "https://www.epey.com/tablet/hometech-alfa-12-gx-pro.html"
+      },
+      {
+        "id": "so-ht-alfa12gx-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 40,
+        "url": "https://www.epey.com/tablet/hometech-alfa-12-gx-pro.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05-01",
+        "price": 11999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12885,
+        "store": "Trendyol"
       }
     ]
   },
@@ -9107,6 +9288,157 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 40176,
         "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "hometech-alfa-10-mx-4-128",
+    "slug": "hometech-alfa-10-mx",
+    "name": "Hometech Alfa 10 MX 4 GB / 128 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 7498,
+    "currency": "TL",
+    "rating": 4.2,
+    "reviewCount": 30,
+    "image": "/images/tablets/hometech-1009023.jpg",
+    "images": [
+      "/images/tablets/hometech-1009023.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.1 İnç HD IPS Ekran",
+      "Unisoc T606 8 Çekirdekli İşlemci",
+      "4 GB RAM & 128 GB Depolama",
+      "5000 mAh Batarya & Android 13"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Unisoc T606 (8 Çekirdek 1.6 GHz)",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 5000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 470,
+      "os": "Android 13",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-alfa10mx-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 7498,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 35,
+        "url": "https://www.epey.com/tablet/hometech-alfa-10-mx.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-06-01",
+        "price": 6999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7498,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "hometech-alfa-10xm-4-128",
+    "slug": "hometech-alfa-10xm",
+    "name": "Hometech Alfa 10XM 4 GB / 128 GB (Android 14)",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 6599,
+    "currency": "TL",
+    "rating": 4.2,
+    "reviewCount": 28,
+    "image": "/images/tablets/hometech-1059264.jpg",
+    "images": [
+      "/images/tablets/hometech-1059264.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.1 İnç HD IPS Ekran",
+      "Allwinner A523 8 Çekirdekli İşlemci",
+      "4 GB RAM & 128 GB Depolama",
+      "Güncel Android 14 İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Allwinner A523 (8 Çekirdek 1.8 GHz)",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 5000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 460,
+      "os": "Android 14",
+      "cellularSupport": "Wi-Fi 6",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-alfa10xm-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 6599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Android 14",
+          "Fiyat Performans"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 40,
+        "url": "https://www.epey.com/tablet/hometech-alfa-10xm.html"
+      },
+      {
+        "id": "so-ht-alfa10xm-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 6699,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 32,
+        "url": "https://www.epey.com/tablet/hometech-alfa-10xm.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-07-01",
+        "price": 6299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6599,
+        "store": "Hepsiburada"
       }
     ]
   },
@@ -14938,6 +15270,142 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "hometech-alfa-10yc-pro-6-128",
+    "slug": "hometech-alfa-10yc-pro",
+    "name": "Hometech Alfa 10YC PRO 6 GB / 128 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 7500,
+    "currency": "TL",
+    "rating": 4.1,
+    "reviewCount": 30,
+    "image": "/images/tablets/hometech-918068.jpg",
+    "images": [
+      "/images/tablets/hometech-918068.jpg"
+    ],
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.1 İnç Full HD (1920x1200) IPS Ekran",
+      "8 Çekirdekli Güçlü İşlemci",
+      "6 GB RAM & 128 GB Depolama",
+      "6000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Unisoc SC9863A (8 Çekirdek 1.6 GHz)",
+      "ramGb": 6,
+      "storageGb": 128,
+      "batteryMah": 6000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 495,
+      "os": "Android 12",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-alfa10ycpro-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 7500,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 38,
+        "url": "https://www.epey.com/tablet/hometech-alfa-10yc-pro.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-09-01",
+        "price": 6299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7500,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hometech-alfa-10yf-pro-6-128",
+    "slug": "hometech-alfa-10yf-pro",
+    "name": "Hometech Alfa 10YF Pro 6 GB / 128 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 7499,
+    "currency": "TL",
+    "rating": 4.1,
+    "reviewCount": 34,
+    "image": "/images/tablets/hometech-931585.jpg",
+    "images": [
+      "/images/tablets/hometech-931585.jpg"
+    ],
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.1 İnç Full HD (1920x1200) IPS Ekran",
+      "Unisoc T618 8 Çekirdekli İşlemci",
+      "6 GB RAM & 128 GB Hafıza",
+      "6000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1920 x 1200",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Unisoc T618 (8 Çekirdek 2.0 GHz)",
+      "ramGb": 6,
+      "storageGb": 128,
+      "batteryMah": 6000,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 490,
+      "os": "Android 12",
+      "cellularSupport": "Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-alfa10yfpro-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 7499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Full HD"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 45,
+        "url": "https://www.epey.com/tablet/hometech-alfa-10yf-pro.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-08-01",
+        "price": 5999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "oneplus-pad-8-128",
     "slug": "oneplus-pad",
     "name": "OnePlus Pad 8 GB / 128 GB",
@@ -16859,6 +17327,74 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 62999,
         "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "hometech-alfa-10tx-pro-4-64",
+    "slug": "hometech-alfa-10tx-pro",
+    "name": "Hometech Alfa 10TX Pro 4 GB / 64 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 6199,
+    "currency": "TL",
+    "rating": 4,
+    "reviewCount": 26,
+    "image": "/images/tablets/hometech-875163.jpg",
+    "images": [
+      "/images/tablets/hometech-875163.jpg"
+    ],
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.1 İnç HD IPS Ekran",
+      "Unisoc SC9863A 8 Çekirdekli İşlemci",
+      "4 GB RAM & 64 GB Hafıza",
+      "5000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Unisoc SC9863A (8 Çekirdek 1.6 GHz)",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 5000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 480,
+      "os": "Android 11",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-alfa10txpro-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 6199,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 30,
+        "url": "https://www.epey.com/tablet/hometech-alfa-10tx-pro.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 4799,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6199,
+        "store": "Trendyol"
       }
     ]
   },
@@ -19727,6 +20263,74 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "hometech-alfa-10yf-4-128",
+    "slug": "hometech-alfa-10yf",
+    "name": "Hometech Alfa 10YF 4 GB / 128 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 7499,
+    "currency": "TL",
+    "rating": 4,
+    "reviewCount": 32,
+    "image": "/images/tablets/hometech-708410.jpg",
+    "images": [
+      "/images/tablets/hometech-708410.jpg"
+    ],
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.0 İnç HD IPS Ekran",
+      "Unisoc SC9863A 8 Çekirdekli İşlemci",
+      "4 GB RAM & 128 GB Depolama",
+      "5000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Unisoc SC9863A (8 Çekirdek 1.6 GHz)",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 5000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 470,
+      "os": "Android 11",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-alfa10yf-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 7499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.5,
+        "sellerReviews": 35,
+        "url": "https://www.epey.com/tablet/hometech-alfa-10yf.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2022-01-01",
+        "price": 4999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7499,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "tcl-tab-10-s-3-32",
     "slug": "tcl-tab-10-s",
     "name": "TCL Tab 10 S 3 GB / 32 GB",
@@ -19999,6 +20603,210 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 59999,
         "store": "Apple Store"
+      }
+    ]
+  },
+  {
+    "id": "hometech-alfa-10-yc-4-128",
+    "slug": "hometech-alfa-10-yc",
+    "name": "Hometech Alfa 10-YC 4 GB / 128 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 13198,
+    "currency": "TL",
+    "rating": 3.9,
+    "reviewCount": 22,
+    "image": "/images/tablets/hometech-656663.jpg",
+    "images": [
+      "/images/tablets/hometech-656663.jpg"
+    ],
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.0 İnç HD IPS Ekran",
+      "Allwinner A133 4 Çekirdekli İşlemci",
+      "4 GB RAM & 128 GB Depolama",
+      "5000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Allwinner A133 (4 Çekirdek 1.6 GHz)",
+      "ramGb": 4,
+      "storageGb": 128,
+      "batteryMah": 5000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 470,
+      "os": "Android 10",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-alfa10yc-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 13198,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 25,
+        "url": "https://www.epey.com/tablet/hometech-alfa-10-yc.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2022-01-01",
+        "price": 4299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13198,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hometech-alfa-10tx-4-64",
+    "slug": "hometech-alfa-10tx",
+    "name": "Hometech Alfa 10TX 4 GB / 64 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 6109,
+    "currency": "TL",
+    "rating": 3.9,
+    "reviewCount": 25,
+    "image": "/images/tablets/hometech-717453.jpg",
+    "images": [
+      "/images/tablets/hometech-717453.jpg"
+    ],
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.1 İnç HD IPS Ekran",
+      "Unisoc SC9863A 8 Çekirdekli İşlemci",
+      "4 GB RAM & 64 GB Depolama",
+      "5000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Unisoc SC9863A (8 Çekirdek 1.6 GHz)",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 5000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 480,
+      "os": "Android 10",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-alfa10tx-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 6109,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 28,
+        "url": "https://www.epey.com/tablet/hometech-alfa-10tx.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2022-01-01",
+        "price": 3999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6109,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "hometech-alfa-10bs-3-32",
+    "slug": "hometech-alfa-10bs",
+    "name": "Hometech Alfa 10BS 3 GB / 32 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 4499,
+    "currency": "TL",
+    "rating": 3.8,
+    "reviewCount": 20,
+    "image": "/images/tablets/hometech-722463.jpg",
+    "images": [
+      "/images/tablets/hometech-722463.jpg"
+    ],
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.1 İnç HD IPS Ekran",
+      "Allwinner A133 4 Çekirdekli İşlemci",
+      "3 GB RAM & 32 GB Depolama",
+      "5000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Allwinner A133 (4 Çekirdek 1.6 GHz)",
+      "ramGb": 3,
+      "storageGb": 32,
+      "batteryMah": 5000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 470,
+      "os": "Android 10",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-alfa10bs-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 4499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.3,
+        "sellerReviews": 22,
+        "url": "https://www.epey.com/tablet/hometech-alfa-10bs.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2022-01-01",
+        "price": 2999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4499,
+        "store": "Amazon TR"
       }
     ]
   },
@@ -22047,6 +22855,74 @@ export const mockTablets: Product[] = [
       {
         "date": "2026-08-01",
         "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hometech-alfa-10tb-4-64",
+    "slug": "hometech-alfa-10tb",
+    "name": "Hometech Alfa 10TB 4 GB / 64 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 6109,
+    "currency": "TL",
+    "rating": 3.8,
+    "reviewCount": 24,
+    "image": "/images/tablets/hometech-620903.png",
+    "images": [
+      "/images/tablets/hometech-620903.png"
+    ],
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.1 İnç HD IPS Ekran",
+      "MediaTek MT8167 4 Çekirdekli İşlemci",
+      "4 GB RAM & 64 GB Depolama",
+      "5000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8167 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 5000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 480,
+      "os": "Android 10",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-alfa10tb-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 6109,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.4,
+        "sellerReviews": 30,
+        "url": "https://www.epey.com/tablet/hometech-alfa-10tb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2021-01-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6109,
         "store": "Hepsiburada"
       }
     ]
