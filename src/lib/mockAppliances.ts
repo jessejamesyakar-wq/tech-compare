@@ -2,6 +2,1146 @@ import { ApplianceProduct } from './types';
 
 export const mockAppliances: ApplianceProduct[] = [
   {
+    "id": "philips-hr7310-00",
+    "slug": "philips-hr7310-00",
+    "name": "Philips Daily Collection HR7310/00 700W 2.1L Kompakt Mutfak Robotu",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 26456,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 420,
+    "image": "/images/appliances/philips-hr7310-00.png",
+    "images": [
+      "/images/appliances/philips-hr7310-00.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "700 Watt Güçlü Motor ile Zahmetsiz Yoğurma, Dilimleme ve Rendeleme",
+      "PowerChop Teknolojisi ile Sert ve Yumuşak Malzemelerde Üstün Doğrama",
+      "16 Fonksiyonlu 2'si 1 Arada Çift Taraflı Paslanmaz Çelik Disk",
+      "Geniş Besleme Borusu ve Bulaşık Makinesinde Yıkanabilir Parçalar"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Mutfak Robotu",
+      "powerWatts": 700,
+      "capacityLiters": 2.1,
+      "programsCount": 16,
+      "dishwasherSafeParts": true,
+      "autoShutOff": true,
+      "weightKg": 2.37,
+      "warrantyYears": 2,
+      "color": "Parlak Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hr7310-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 26456,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "PowerChop Mutfak Robotu"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 650,
+        "url": "https://www.epey.com/mutfak-robotu/philips-hr7310-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 27900,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 26456,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-hd7546-20-cafe-gaia",
+    "slug": "philips-hd7546-20-cafe-gaia",
+    "name": "Philips Cafe Gaia HD7546/20 1000W Çift Katmanlı Termoslu Filtre Kahve Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 3555.7,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 1900,
+    "image": "/images/appliances/philips-hd7546-20.png",
+    "images": [
+      "/images/appliances/philips-hd7546-20.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Kırılmaz Çift Katmanlı Paslanmaz Çelik Termos Sürahi (Kahveyi Saatlerce Sıcak Tutar)",
+      "Konsantre Su Akışı ile Zengin Aroma ve Yoğun Kahve Tadı",
+      "Damlama Önleyici Drip-Stop & Demleme Sonrası Otomatik Kapanma",
+      "1.2 Litre Kapasite (15 Fincana Kadar Kahve)"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Kahve Makinesi",
+      "powerWatts": 1000,
+      "capacityLiters": 1.2,
+      "waterTankCapacityLiters": 1.2,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "dishwasherSafeParts": true,
+      "weightKg": 2.03,
+      "warrantyYears": 2,
+      "color": "Fırçalanmış Paslanmaz Çelik / Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hd7546-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 3555.7,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Termoslu Filtre Kahve",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4800,
+        "url": "https://www.epey.com/kahve-makinesi/philips-hd7546-20-cafe-gaia.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3899,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3555.7,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-9000-serisi-hc9450-20",
+    "slug": "philips-9000-serisi-hc9450-20",
+    "name": "Philips Hairclipper series 9000 HC9450/20 Dijital Dokunmatik Saç Kesme Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 10550,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 98,
+    "reviewCount": 780,
+    "image": "/images/appliances/philips-hc9450-20.jpg",
+    "images": [
+      "/images/appliances/philips-hc9450-20.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Dijital Dokunmatik Ekran ile 400 Hassas Kilitli Uzunluk Ayarı (0.1 mm Adımlarla)",
+      "Motorlu Tarak Sistemi & Çelikten 3 Kat Daha Sert Titanyum Bıçaklar",
+      "Auto Turbo ile Kalın Saçlarda Hızı Otomatik Artırma",
+      "120 Dakika Kablosuz Kullanım (1 Saatte Hızlı Şarj) & 3 Hafıza Yuvası"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Tıraş Makinesi",
+      "powerWatts": 15,
+      "batteryLifeMinutes": 120,
+      "chargingTimeHours": 1,
+      "wetAndDry": false,
+      "programsCount": 400,
+      "weightKg": 0.38,
+      "warrantyYears": 2,
+      "color": "Lüks Titanyum Gri / Dokunmatik Ekran"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hc9450-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 10550,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hairclipper 9000 Zirve Model",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1900,
+        "url": "https://www.epey.com/tiras-makinesi/philips-9000-serisi-hc9450-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 11400,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 10550,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-azur-gc4909-60",
+    "slug": "philips-azur-gc4909-60",
+    "name": "Philips Azur GC4909/60 3000W SteamGlide Elite Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 12000,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 340,
+    "image": "/images/appliances/philips-gc4909-60.jpg",
+    "images": [
+      "/images/appliances/philips-gc4909-60.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "3000 Watt Ekstra Hızlı Isınma & 55 g/dk Sürekli Buhar",
+      "250g Güçlü Şok Buhar",
+      "SteamGlide Elite Çizilmez Özel Taban",
+      "Quick Calc Release 15 Saniyede Kireç Temizliği"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 3000,
+      "steamOutputGramsPerMin": 55,
+      "steamBoostGramsPerMin": 250,
+      "waterTankCapacityLiters": 0.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.67,
+      "warrantyYears": 2,
+      "color": "Koyu Gül Kurusu / Bakır"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc4909-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 12000,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Azur 3000W"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 520,
+        "url": "https://www.epey.com/utu/philips-azur-gc4909-60.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 12800,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12000,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-azur-8000-dst8020-20",
+    "slug": "philips-azur-8000-dst8020-20",
+    "name": "Philips Azur 8000 Series DST8020/20 3000W Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 11482.6,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 96,
+    "reviewCount": 480,
+    "image": "/images/appliances/philips-dst8020-20.png",
+    "images": [
+      "/images/appliances/philips-dst8020-20.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "3000 Watt Isınma Gücü & 70 g/dk Sürekli Buhar",
+      "240g Şok Buhar & SteamGlide Elite Taban",
+      "OptimalTEMP Teknolojisi ile Sıfır Yanık Garantisi",
+      "Quick Calc Release Hızlı Kireç Boşaltma"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 3000,
+      "steamOutputGramsPerMin": 70,
+      "steamBoostGramsPerMin": 240,
+      "waterTankCapacityLiters": 0.35,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.78,
+      "warrantyYears": 2,
+      "color": "Koyu Mavi / Rose Gold"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dst8020-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 11482.6,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Azur 8000 OptimalTEMP",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/utu/philips-azur-8000-dst8020-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 12200,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11482.6,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-xpress-gc5060-02",
+    "slug": "philips-perfectcare-xpress-gc5060-02",
+    "name": "Philips PerfectCare Xpress GC5060/02 2800W Otomatik Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 9676.28,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 93,
+    "reviewCount": 280,
+    "image": "/images/appliances/philips-gc5060-02.jpg",
+    "images": [
+      "/images/appliances/philips-gc5060-02.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2800 Watt Güç & 65 g/dk Sürekli Basınçlı Buhar",
+      "200g Şok Buhar & OptimalTEMP Sıfır Yanık Teknolojisi",
+      "SteamGlide Taban & Entegre Buhar Jeneratörü Pompa Sistemi",
+      "Otomatik Kapanma Emniyeti"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2800,
+      "steamOutputGramsPerMin": 65,
+      "steamBoostGramsPerMin": 200,
+      "waterTankCapacityLiters": 0.32,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.75,
+      "warrantyYears": 2,
+      "color": "Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc5060-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 9676.28,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "PerfectCare Xpress"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 390,
+        "url": "https://www.epey.com/utu/philips-perfectcare-xpress-gc5060-02.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 10400,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9676.28,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-gc4902-20",
+    "slug": "philips-gc4902-20",
+    "name": "Philips Azur GC4902/20 2800W SteamGlide Elite Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 8999,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 92,
+    "reviewCount": 310,
+    "image": "/images/appliances/philips-gc4902-20.jpg",
+    "images": [
+      "/images/appliances/philips-gc4902-20.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2800 Watt Güç & 50 g/dk Sürekli Buhar",
+      "220g Şok Buhar Gücü",
+      "SteamGlide Elite Çizilmeye Dayanıklı Taban",
+      "Quick Calc Release Kireç Temizleme"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2800,
+      "steamOutputGramsPerMin": 50,
+      "steamBoostGramsPerMin": 220,
+      "waterTankCapacityLiters": 0.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.66,
+      "warrantyYears": 2,
+      "color": "Açık Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc4902-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "SteamGlide Elite"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 440,
+        "url": "https://www.epey.com/utu/philips-gc4902-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 9500,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-azur-gc4905-40",
+    "slug": "philips-azur-gc4905-40",
+    "name": "Philips Azur GC4905/40 3000W SteamGlide Elite Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 7125.38,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 520,
+    "image": "/images/appliances/philips-gc4905-40.jpg",
+    "images": [
+      "/images/appliances/philips-gc4905-40.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "3000 Watt Hızlı Isınma & 55 g/dk Sürekli Güçlü Buhar",
+      "240g Şok Buhar ile Zorlu Kırışıklıklara Hızlı Çözüm",
+      "SteamGlide Elite Taban ve Quick Calc Release",
+      "Drip-Stop Damlama Önleme Sistemi"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 3000,
+      "steamOutputGramsPerMin": 55,
+      "steamBoostGramsPerMin": 240,
+      "waterTankCapacityLiters": 0.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.67,
+      "warrantyYears": 2,
+      "color": "Pembe / Bakır"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc4905-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 7125.38,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Azur 3000W",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1100,
+        "url": "https://www.epey.com/utu/philips-azur-gc4905-40.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 7600,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7125.38,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-gc5034-20",
+    "slug": "philips-gc5034-20",
+    "name": "Philips Azur Elite GC5034/20 3000W DynamiQ Akıllı Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 6525,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 620,
+    "image": "/images/appliances/philips-gc5034-20.png",
+    "images": [
+      "/images/appliances/philips-gc5034-20.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "3000 Watt Güç & DynamiQ Akıllı Hareket Sensörü",
+      "65 g/dk Sürekli Buhar ve 260g Güçlü Şok Buhar",
+      "OptimalTEMP ile Sıfır Yanık Garantisi",
+      "SteamGlide Plus Taban ve Quick Calc Release"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 3000,
+      "steamOutputGramsPerMin": 65,
+      "steamBoostGramsPerMin": 260,
+      "waterTankCapacityLiters": 0.35,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.66,
+      "warrantyYears": 2,
+      "color": "Mavi / Gümüş"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc5034-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 6525,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "DynamiQ Buharlı Ütü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1250,
+        "url": "https://www.epey.com/utu/philips-gc5034-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 6999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6525,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-azur-8000-dst8021-30",
+    "slug": "philips-azur-8000-dst8021-30",
+    "name": "Philips Azur 8000 Series DST8021/30 3000W Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 5389,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 940,
+    "image": "/images/appliances/philips-dst8021-30.jpg",
+    "images": [
+      "/images/appliances/philips-dst8021-30.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "3000 Watt Isınma Gücü & 70 g/dk Sürekli Buhar",
+      "240g Şok Buhar Gücü",
+      "SteamGlide Elite Taban ve OptimalTEMP Teknolojisi",
+      "Quick Calc Release Kireç Temizleme"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 3000,
+      "steamOutputGramsPerMin": 70,
+      "steamBoostGramsPerMin": 240,
+      "waterTankCapacityLiters": 0.35,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.78,
+      "warrantyYears": 2,
+      "color": "Mor / Bakır Detaylar"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dst8021-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 5389,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Azur 8000 OptimalTEMP"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/utu/philips-azur-8000-dst8021-30.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 5799,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5389,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-azur-7000-dst7051-30",
+    "slug": "philips-azur-7000-dst7051-30",
+    "name": "Philips Azur 7000 Series DST7051/30 2800W Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 4900,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 450,
+    "image": "/images/appliances/philips-dst7051-30.jpg",
+    "images": [
+      "/images/appliances/philips-dst7051-30.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2800 Watt Güç & 50 g/dk Sürekli Buhar",
+      "250g Şok Buhar ile Kalın Kumaşlarda Mükemmel Performans",
+      "SteamGlide Elite Taban ve Quick Calc Release",
+      "Drip-Stop Damlama Emniyeti"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2800,
+      "steamOutputGramsPerMin": 50,
+      "steamBoostGramsPerMin": 250,
+      "waterTankCapacityLiters": 0.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.66,
+      "warrantyYears": 2,
+      "color": "Mürdüm / Bakır"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dst7051-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 4900,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Azur 7000 2800W",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1300,
+        "url": "https://www.epey.com/utu/philips-azur-7000-dst7051-30.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 5200,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4900,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-azur-gc4564-20",
+    "slug": "philips-azur-gc4564-20",
+    "name": "Philips Azur GC4564/20 2600W SteamGlide Advanced Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 4399.12,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 92,
+    "reviewCount": 880,
+    "image": "/images/appliances/philips-gc4564-20.jpg",
+    "images": [
+      "/images/appliances/philips-gc4564-20.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2600 Watt Hızlı Isınma & 50 g/dk Sürekli Buhar",
+      "240g Şok Buhar Gücü",
+      "SteamGlide Advanced Gelişmiş Taban",
+      "Quick Calc Release Kireç Temizleme Sistemi"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2600,
+      "steamOutputGramsPerMin": 50,
+      "steamBoostGramsPerMin": 240,
+      "waterTankCapacityLiters": 0.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.57,
+      "warrantyYears": 2,
+      "color": "Mavi / Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc4564-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 4399.12,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "SteamGlide Advanced"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1800,
+        "url": "https://www.epey.com/utu/philips-azur-gc4564-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 4799,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4399.12,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-azur-dst7020-20",
+    "slug": "philips-azur-dst7020-20",
+    "name": "Philips Azur 7000 Series DST7020/20 2800W Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 3131.1,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 1600,
+    "image": "/images/appliances/philips-dst7020-20.jpg",
+    "images": [
+      "/images/appliances/philips-dst7020-20.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "2800 Watt Güç & 50 g/dk Sürekli Buhar",
+      "250g Şok Buhar",
+      "SteamGlide Plus Taban ve Quick Calc Release",
+      "Damlama Önleyici Drip-Stop"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2800,
+      "steamOutputGramsPerMin": 50,
+      "steamBoostGramsPerMin": 250,
+      "waterTankCapacityLiters": 0.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.66,
+      "warrantyYears": 2,
+      "color": "Açık Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dst7020-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 3131.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Azur 7000 Çok Satan"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3800,
+        "url": "https://www.epey.com/utu/philips-azur-dst7020-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3131.1,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-7000-dst7040-80",
+    "slug": "philips-7000-dst7040-80",
+    "name": "Philips 7000 Series DST7040/80 2800W SteamGlide Elite Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 3119,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 1900,
+    "image": "/images/appliances/philips-dst7040-80.jpg",
+    "images": [
+      "/images/appliances/philips-dst7040-80.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "2800 Watt Güç & 50 g/dk Sürekli Buhar",
+      "250g Şok Buhar",
+      "SteamGlide Elite Çizilmez Taban",
+      "Quick Calc Release Kolay Kireç Temizliği"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2800,
+      "steamOutputGramsPerMin": 50,
+      "steamBoostGramsPerMin": 250,
+      "waterTankCapacityLiters": 0.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.66,
+      "warrantyYears": 2,
+      "color": "Koyu Mavi / Altın Sarı"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dst7040-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 3119,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "SteamGlide Elite Fırsat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.epey.com/utu/philips-7000-series-dst7040-80.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3399,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3119,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-dst7031-70",
+    "slug": "philips-dst7031-70",
+    "name": "Philips Azur 7000 Series DST7031/70 2800W Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 2969,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 1400,
+    "image": "/images/appliances/philips-dst7031-70.jpg",
+    "images": [
+      "/images/appliances/philips-dst7031-70.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "2800 Watt Güç & 50 g/dk Sürekli Buhar",
+      "250g Şok Buhar",
+      "SteamGlide Plus Taban ve Quick Calc Release",
+      "Dikey Buhar Püskürtme"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2800,
+      "steamOutputGramsPerMin": 50,
+      "steamBoostGramsPerMin": 250,
+      "waterTankCapacityLiters": 0.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.66,
+      "warrantyYears": 2,
+      "color": "Mavi / Gri"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dst7031-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 2969,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Azur 7000",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/utu/philips-dst7031-70.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3199,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2969,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-7000-dst7041-20",
+    "slug": "philips-7000-dst7041-20",
+    "name": "Philips 7000 Series DST7041/20 2800W SteamGlide Elite Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 2859,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 2200,
+    "image": "/images/appliances/philips-dst7041-20.jpg",
+    "images": [
+      "/images/appliances/philips-dst7041-20.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "2800 Watt Güç & 50 g/dk Sürekli Buhar",
+      "250g Şok Buhar",
+      "SteamGlide Elite Çizilmeye Karşı Üstün Taban",
+      "Otomatik Kapanma ve Quick Calc Release"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2800,
+      "steamOutputGramsPerMin": 50,
+      "steamBoostGramsPerMin": 250,
+      "waterTankCapacityLiters": 0.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.66,
+      "warrantyYears": 2,
+      "color": "Lacivert / Şampanya"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dst7041-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 2859,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "7000 Serisi Çok Satan"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 6100,
+        "url": "https://www.epey.com/utu/philips-7000-series-dst7041-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3099,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2859,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-7000-series-dst7030-20",
+    "slug": "philips-7000-series-dst7030-20",
+    "name": "Philips Azur 7000 Series DST7030/20 2800W Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 2714,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 2400,
+    "image": "/images/appliances/philips-dst7030-20.jpg",
+    "images": [
+      "/images/appliances/philips-dst7030-20.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "2800 Watt Güç & 50 g/dk Sürekli Buhar",
+      "250g Şok Buhar",
+      "SteamGlide Plus Taban ve Quick Calc Release",
+      "Fiyat/Performans Şampiyonu Azur 7000"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 2800,
+      "steamOutputGramsPerMin": 50,
+      "steamBoostGramsPerMin": 250,
+      "waterTankCapacityLiters": 0.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.66,
+      "warrantyYears": 2,
+      "color": "Mavi / Gümüş"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dst7030-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 2714,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En Çok Satan Ütü"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 7800,
+        "url": "https://www.epey.com/utu/philips-7000-series-dst7030-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 2999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2714,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "philips-l-or-barista-lm8012-60",
     "slug": "philips-l-or-barista-lm8012-60",
     "name": "Philips L'or Barista LM8012/60 Çift Çıkışlı 19 Bar Kapsül Kahve Makinesi",

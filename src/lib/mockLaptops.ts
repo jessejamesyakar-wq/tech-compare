@@ -2,6 +2,897 @@ import { LaptopProduct } from './types';
 
 export const mockLaptops: LaptopProduct[] = [
   {
+    "id": "philips-223v5lhsb2-00",
+    "slug": "philips-223v5lhsb2-00",
+    "name": "Philips 223V5LHSB2/00 21.5\" FHD LED Monitör (HDMI / VGA)",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 41237.5,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 89,
+    "reviewCount": 30,
+    "image": "/images/laptops/philips-223v5lhsb2-00.jpg",
+    "images": [
+      "/images/laptops/philips-223v5lhsb2-00.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "21.5 İnç Full HD (1920 x 1080) LED Arka Aydınlatmalı Panel",
+      "HDMI ve VGA Girişleri ile Esnek Bağlantı",
+      "SmartControl Lite ile Kolay Ekran Ayarı",
+      "Kompakt ve VESA Uyumlu Tasarım"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "FHD LED Display Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "60Hz FHD LED Engine",
+      "screenSizeInches": 21.5,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 99%",
+      "ports": [
+        "1x HDMI",
+        "1x VGA",
+        "Ses Çıkışı"
+      ],
+      "weightKg": 2.6,
+      "bodyMaterial": "Mat Siyah Kompakt Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-223v5lhsb2-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 41237.5,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "LED Monitör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 80,
+        "url": "https://www.epey.com/monitor/philips-223v5lhsb2-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 43000,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 41237.5,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-dlp7726n",
+    "slug": "philips-dlp7726n",
+    "name": "Philips DLP7726N 20.000 mAh 22.5W LCD Ekranlı Hızlı Şarj PowerBank",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "PowerBank",
+    "basePrice": 1699.15,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 940,
+    "image": "/images/laptops/philips-dlp7726n.jpg",
+    "images": [
+      "/images/laptops/philips-dlp7726n.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "20.000 mAh Yüksek Kapasite (Telefonları 4-5 Kez Tam Şarj Eder)",
+      "22.5W Super Charge & Power Delivery (PD) + Quick Charge 3.0 Hızlı Şarj",
+      "Hassas Yüzdeli LCD Dijital Pil Göstergesi",
+      "Çoklu Koruma Güvenlik Sistemi (Aşırı Akım, Kısa Devre ve Isı Koruması)"
+    ],
+    "specs": {
+      "productType": "PowerBank",
+      "processor": "22.5W Super Fast Charge Controller",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "PD 20W / QC 22.5W Power Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "Dijital LCD Pil Göstergesi",
+      "ports": [
+        "2x USB-A (22.5W)",
+        "1x Type-C PD (20W Giriş/Çıkış)",
+        "1x Micro-USB"
+      ],
+      "weightKg": 0.42,
+      "bodyMaterial": "Mat Siyah Yanmaz Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dlp7726n-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 1699.15,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "20000mAh 22.5W",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/powerbank/philips-dlp7726n.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1850,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1699.15,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-spk7307bl",
+    "slug": "philips-spk7307bl",
+    "name": "Philips SPK7307BL 2.4GHz 1600 DPI Kablosuz Optik Mouse",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Klavye Mouse",
+    "basePrice": 538.5,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 420,
+    "image": "/images/laptops/philips-spk7307bl.jpg",
+    "images": [
+      "/images/laptops/philips-spk7307bl.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "1600 DPI Optik İzleme Sensörü",
+      "2.4 GHz Kablosuz Tak-Çalıştır USB Nano Alıcı",
+      "Kompakt ve Ergonomik Şık Kasa",
+      "Akıllı Güç Tasarrufu ile Uzun Pil Ömrü"
+    ],
+    "specs": {
+      "productType": "Klavye Mouse",
+      "processor": "1600 DPI Wireless Optical Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "1600 DPI Optical Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "Kablosuz USB Mouse",
+      "ports": [
+        "2.4 GHz USB Alıcı"
+      ],
+      "weightKg": 0.075,
+      "bodyMaterial": "Mat Siyah Kompakt Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "so-spk7307bl-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 538.5,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kablosuz Mouse"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/klavye-mouse/philips-spk7307bl.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 590,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 538.5,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-m221",
+    "slug": "philips-m221",
+    "name": "Philips M221 (SPK7221) 2.4GHz 1600 DPI Kablosuz Optik Mouse",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Klavye Mouse",
+    "basePrice": 449,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 380,
+    "image": "/images/laptops/philips-m221.jpg",
+    "images": [
+      "/images/laptops/philips-m221.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "1600 DPI Ayarlanabilir Optik Sensör",
+      "Ergonomik Avuç İçi Kavrama Tasarımı",
+      "2.4 GHz Güvenilir Kablosuz Bağlantı",
+      "Dayanıklı Tuş Anahtarları"
+    ],
+    "specs": {
+      "productType": "Klavye Mouse",
+      "processor": "1600 DPI Wireless Optical Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "1600 DPI Optical Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "Kablosuz USB Mouse",
+      "ports": [
+        "2.4 GHz USB Alıcı"
+      ],
+      "weightKg": 0.08,
+      "bodyMaterial": "Mat Siyah Ergonomik Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-m221-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 449,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ergonomik Mouse",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/klavye-mouse/philips-m221.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 499,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 449,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-m315",
+    "slug": "philips-m315",
+    "name": "Philips M315 (SPK7315) 2.4GHz 1600 DPI Kablosuz Optik Mouse",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Klavye Mouse",
+    "basePrice": 349,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 580,
+    "image": "/images/laptops/philips-spk7315.jpg",
+    "images": [
+      "/images/laptops/philips-spk7315.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "1600 DPI Hassas Optik Sensör",
+      "Kompakt ve Hafif Çift El Uyumlu Tasarım",
+      "10 Metre Kablosuz Çalışma Alanı",
+      "Düşük Enerji Tüketimi ile Uzun Pil Ömrü"
+    ],
+    "specs": {
+      "productType": "Klavye Mouse",
+      "processor": "1600 DPI Wireless Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "1600 DPI Optical Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "Kablosuz USB Mouse",
+      "ports": [
+        "2.4 GHz USB Alıcı"
+      ],
+      "weightKg": 0.075,
+      "bodyMaterial": "Mat Siyah Kompakt Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "so-m315-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 349,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kompakt Kablosuz"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1750,
+        "url": "https://www.epey.com/klavye-mouse/philips-spk7315.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 389,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 349,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-m305",
+    "slug": "philips-m305",
+    "name": "Philips M305 (SPK7305) 2.4GHz 1600 DPI Kablosuz Mouse",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Klavye Mouse",
+    "basePrice": 318.41,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 460,
+    "image": "/images/laptops/philips-m305.jpg",
+    "images": [
+      "/images/laptops/philips-m305.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "1600 DPI Optik İzleme Hassasiyeti",
+      "2.4 GHz Tak-Çalıştır USB Nano Alıcı",
+      "Ergonomik Çift Taraflı Kullanım",
+      "Otomatik Uyku Modu"
+    ],
+    "specs": {
+      "productType": "Klavye Mouse",
+      "processor": "1600 DPI Wireless Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "1600 DPI Optical Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "Kablosuz USB Mouse",
+      "ports": [
+        "2.4 GHz USB Alıcı"
+      ],
+      "weightKg": 0.075,
+      "bodyMaterial": "Mat Siyah Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "so-m305-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 318.41,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kablosuz Mouse"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/klavye-mouse/philips-m305.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 350,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 318.41,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-spk7405",
+    "slug": "philips-spk7405",
+    "name": "Philips SPK7405 2.4GHz 1600 DPI Kablosuz Ergonomik Mouse",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Klavye Mouse",
+    "basePrice": 315,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 650,
+    "image": "/images/laptops/philips-spk7405.jpg",
+    "images": [
+      "/images/laptops/philips-spk7405.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "1600 DPI Optik Çözünürlük",
+      "Ergonomik Kavisli Yan Yüzeyler",
+      "2.4 GHz Kablosuz USB Nano Alıcı",
+      "Sessiz ve Akıcı Kaydırma Tekerleği"
+    ],
+    "specs": {
+      "productType": "Klavye Mouse",
+      "processor": "1600 DPI Wireless Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "1600 DPI Optical Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "Kablosuz USB Mouse",
+      "ports": [
+        "2.4 GHz USB Alıcı"
+      ],
+      "weightKg": 0.08,
+      "bodyMaterial": "Mat Siyah Ergonomik Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "so-spk7405-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 315,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ergonomik Mouse",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/klavye-mouse/philips-spk7405.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 349,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 315,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-spk7317",
+    "slug": "philips-spk7317",
+    "name": "Philips SPK7317 2.4GHz 1600 DPI Kablosuz Mouse",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Klavye Mouse",
+    "basePrice": 293.54,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 480,
+    "image": "/images/laptops/philips-spk7317.jpg",
+    "images": [
+      "/images/laptops/philips-spk7317.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "1600 DPI Optik İzleme Hassasiyeti",
+      "Kompakt ve Zarif Gövde Tasarımı",
+      "2.4 GHz Tak-Çalıştır USB Alıcı",
+      "Enerji Tasarruflu Mimari"
+    ],
+    "specs": {
+      "productType": "Klavye Mouse",
+      "processor": "1600 DPI Wireless Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "1600 DPI Optical Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "Kablosuz USB Mouse",
+      "ports": [
+        "2.4 GHz USB Alıcı"
+      ],
+      "weightKg": 0.075,
+      "bodyMaterial": "Mat Siyah Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-spk7317-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 293.54,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Uygun Fiyatlı Mouse"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1350,
+        "url": "https://www.epey.com/klavye-mouse/philips-spk7317.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 320,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 293.54,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-m402",
+    "slug": "philips-m402",
+    "name": "Philips M402 (SPK7402) 2.4GHz 1600 DPI Kablosuz Optik Mouse",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Klavye Mouse",
+    "basePrice": 265.92,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 88,
+    "reviewCount": 390,
+    "image": "/images/laptops/philips-m402.jpg",
+    "images": [
+      "/images/laptops/philips-m402.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "1600 DPI Optik Sensör ile Hassas Kontrol",
+      "2.4 GHz Kablosuz USB Nano Alıcı",
+      "Hafif ve Ergonomik Taşınabilir Yapı",
+      "Uzun Pil Ömrü"
+    ],
+    "specs": {
+      "productType": "Klavye Mouse",
+      "processor": "1600 DPI Wireless Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "1600 DPI Optical Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "Kablosuz USB Mouse",
+      "ports": [
+        "2.4 GHz USB Alıcı"
+      ],
+      "weightKg": 0.075,
+      "bodyMaterial": "Mat Siyah Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-m402-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 265.92,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kablosuz Mouse"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 950,
+        "url": "https://www.epey.com/klavye-mouse/philips-m402.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 299,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 265.92,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-m374",
+    "slug": "philips-m374",
+    "name": "Philips M374 (SPK7374) USB Kablolu 1200 DPI Optik Mouse",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Klavye Mouse",
+    "basePrice": 265.1,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 88,
+    "reviewCount": 310,
+    "image": "/images/laptops/philips-m374.jpg",
+    "images": [
+      "/images/laptops/philips-m374.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "1200 DPI Hassas Optik İzleme",
+      "USB Tak-Çalıştır Kablolu Bağlantı (Pil İhtiyacı Yok)",
+      "Ergonomik Simetrik Tasarım (Sağ ve Sol El Uyumlu)",
+      "1.5 Metre Dayanıklı USB Kablosu"
+    ],
+    "specs": {
+      "productType": "Klavye Mouse",
+      "processor": "1200 DPI Wired Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "1200 DPI Optical Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "Kablolu USB Mouse",
+      "ports": [
+        "1x USB-A (1.5m)"
+      ],
+      "weightKg": 0.08,
+      "bodyMaterial": "Mat Siyah Dayanıklı Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-m374-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 265.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kablolu Ofis Mouse",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/klavye-mouse/philips-m374.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 290,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 265.1,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-snow-2-0",
+    "slug": "philips-snow-2-0",
+    "name": "Philips Snow Edition 8GB USB 2.0 Flash Bellek",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "USB Bellek",
+    "basePrice": 750,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 88,
+    "reviewCount": 220,
+    "image": "/images/laptops/philips-snow-2-0.jpg",
+    "images": [
+      "/images/laptops/philips-snow-2-0.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8 GB Kapasiteli Kompakt USB Bellek",
+      "Kar Beyazı Şık Koruyucu Kapaklı Tasarım",
+      "LED Gösterge Işığı & Tak-Çalıştır USB Uyumluluğu"
+    ],
+    "specs": {
+      "productType": "USB Bellek",
+      "processor": "Snow Flash Controller",
+      "ramGb": 0,
+      "storageGb": 8,
+      "gpu": "NAND Flash Storage",
+      "screenSizeInches": 0,
+      "screenResolution": "USB 2.0",
+      "ports": [
+        "1x USB-A"
+      ],
+      "weightKg": 0.012,
+      "bodyMaterial": "Kar Beyazı Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "so-snow-2-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 750,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Snow 8GB"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 640,
+        "url": "https://www.epey.com/usb-bellek/philips-snow-2-0.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 800,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 750,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-vivid-16gb",
+    "slug": "philips-vivid-16gb",
+    "name": "Philips Vivid Edition 16GB USB 2.0 / USB 3.0 Flash Bellek",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "USB Bellek",
+    "basePrice": 425,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 380,
+    "image": "/images/laptops/philips-vivid-16gb.jpg",
+    "images": [
+      "/images/laptops/philips-vivid-16gb.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "16 GB Depolama Kapasitesi",
+      "Canlı Renkli 360° Döner Kapaklı (Swivel) Mekanizma",
+      "Hızlı Veri Okuma/Yazma ve LED Etkinlik Göstergesi"
+    ],
+    "specs": {
+      "productType": "USB Bellek",
+      "processor": "16GB High-Speed Flash Controller",
+      "ramGb": 0,
+      "storageGb": 16,
+      "gpu": "NAND Flash Storage",
+      "screenSizeInches": 0,
+      "screenResolution": "USB 2.0 / 3.0",
+      "ports": [
+        "1x USB-A"
+      ],
+      "weightKg": 0.015,
+      "bodyMaterial": "Canlı Renkli Döner Kapaklı Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-vivid-16-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 425,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "16GB Döner Kapak",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1400,
+        "url": "https://www.epey.com/usb-bellek/philips-vivid-16gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 460,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 425,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-vivid-8gb",
+    "slug": "philips-vivid-8gb",
+    "name": "Philips Vivid Edition 8GB USB 2.0 Flash Bellek",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "USB Bellek",
+    "basePrice": 306.13,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 88,
+    "reviewCount": 290,
+    "image": "/images/laptops/philips-vivid-8gb.jpg",
+    "images": [
+      "/images/laptops/philips-vivid-8gb.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8 GB Kapasiteli Döner Başlıklı USB Bellek",
+      "Kapak Kaybolmasını Önleyen 360 Derece Döner Tasarım",
+      "Tak-Çalıştır Geniş Cihaz Uyumluluğu"
+    ],
+    "specs": {
+      "productType": "USB Bellek",
+      "processor": "8GB Flash Controller",
+      "ramGb": 0,
+      "storageGb": 8,
+      "gpu": "NAND Flash Storage",
+      "screenSizeInches": 0,
+      "screenResolution": "USB 2.0",
+      "ports": [
+        "1x USB-A"
+      ],
+      "weightKg": 0.015,
+      "bodyMaterial": "Döner Kapaklı Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-vivid-8-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 306.13,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "8GB Döner Kapak"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 980,
+        "url": "https://www.epey.com/usb-bellek/philips-vivid-8gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 340,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 306.13,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "philips-243v7qsb-00",
     "slug": "philips-243v7qsb-00",
     "name": "Philips 243V7QSB/00 23.8\" FHD IPS Monitör",
