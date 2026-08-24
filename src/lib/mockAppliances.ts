@@ -153,6 +153,74 @@ export const mockAppliances: ApplianceProduct[] = [
     ]
   },
   {
+    "id": "roborock-saros-z70",
+    "slug": "roborock-saros-z70",
+    "name": "Roborock Saros Z70 Robot Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 66521,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 90,
+    "reviewCount": 220,
+    "image": "/images/appliances/roborock-986568.png",
+    "images": [
+      "/images/appliances/roborock-986568.png"
+    ],
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "18.500 Pa Emiş Gücü",
+      "Solid-State StarSight LiDAR & RGB Kamera",
+      "AdaptiLift Akıllı Şasi",
+      "Tam Otomatik Temizleme ve Kurutma İstasyonu"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 72,
+      "suctionPowerPa": 18500,
+      "batteryRuntimeMin": 220,
+      "noiseLevelDb": 63,
+      "capacity": "400 ml toz haznesi",
+      "autoCleanDock": true,
+      "appControl": true,
+      "programsCount": 7,
+      "weightKg": 4.4,
+      "warrantyYears": 2,
+      "color": "Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-sarosz70-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 66521,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 680,
+        "url": "https://www.epey.com/robot-supurge/roborock-saros-z70.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-08-01",
+        "price": 72999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 66521,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "roborock-qrevo-edge-2-pro",
     "slug": "roborock-qrevo-edge-2-pro",
     "name": "Roborock Qrevo Edge 2 Pro Robot Süpürge",
@@ -217,6 +285,142 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2026-08-01",
         "price": 63999,
         "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "roborock-qrevo-curv-2-pro",
+    "slug": "roborock-qrevo-curv-2-pro",
+    "name": "Roborock Qrevo Curv 2 Pro Robot Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 63900,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 90,
+    "reviewCount": 290,
+    "image": "/images/appliances/roborock-1027319.jpg",
+    "images": [
+      "/images/appliances/roborock-1027319.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18.500 Pa Emiş Gücü & AdaptiLift Şasi",
+      "Şık Kavisli Curv İstasyon Tasarımı",
+      "75°C Sıcak Suyla Paspas Yıkama & Sıcak Hava Kurutma",
+      "FlexiArm Kenar Paspası ve Dolaşmaz Fırça"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 70,
+      "suctionPowerPa": 18500,
+      "batteryRuntimeMin": 220,
+      "noiseLevelDb": 63,
+      "capacity": "380 ml toz, 4 L su",
+      "autoCleanDock": true,
+      "appControl": true,
+      "programsCount": 7,
+      "weightKg": 4.4,
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-qrevocurv2p-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 63900,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/robot-supurge/roborock-qrevo-curv-2-pro.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10-01",
+        "price": 69999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 63900,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "roborock-qrevo-curvx",
+    "slug": "roborock-qrevo-curvx",
+    "name": "Roborock Qrevo CurvX Robot Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 62999,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 89,
+    "reviewCount": 310,
+    "image": "/images/appliances/roborock-1009676.png",
+    "images": [
+      "/images/appliances/roborock-1009676.png"
+    ],
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "18.500 Pa Emiş Gücü",
+      "Modern Kavisli İstasyon Mimarisi",
+      "FlexiArm Dönen Paspas Sistemi",
+      "75°C Sıcak Su & Sıcak Hava Kurutma"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 70,
+      "suctionPowerPa": 18500,
+      "batteryRuntimeMin": 220,
+      "noiseLevelDb": 63,
+      "capacity": "380 ml toz, 4 L su",
+      "autoCleanDock": true,
+      "appControl": true,
+      "programsCount": 7,
+      "weightKg": 4.4,
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-qrevocurvx-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 62999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 920,
+        "url": "https://www.epey.com/robot-supurge/roborock-qrevo-curvx.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09-01",
+        "price": 67999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 62999,
+        "store": "Trendyol"
       }
     ]
   },
@@ -289,6 +493,279 @@ export const mockAppliances: ApplianceProduct[] = [
     ]
   },
   {
+    "id": "roborock-qrevo-curv-2-flow",
+    "slug": "roborock-qrevo-curv-2-flow",
+    "name": "Roborock Qrevo Curv 2 Flow Robot Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 56700,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 89,
+    "reviewCount": 380,
+    "image": "/images/appliances/roborock-1037345.png",
+    "images": [
+      "/images/appliances/roborock-1037345.png"
+    ],
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "18.500 Pa Emiş Gücü",
+      "Otomatik Su Doldurma ve Boşaltma Entegrasyonu",
+      "Curv Kavisli İstasyon",
+      "FlexiArm Kenar Paspası"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 70,
+      "suctionPowerPa": 18500,
+      "batteryRuntimeMin": 220,
+      "noiseLevelDb": 63,
+      "capacity": "380 ml toz haznesi",
+      "autoCleanDock": true,
+      "appControl": true,
+      "programsCount": 7,
+      "weightKg": 4.4,
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-qrevocurv2flow-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 56700,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1100,
+        "url": "https://www.epey.com/robot-supurge/roborock-qrevo-curv-2-flow.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10-01",
+        "price": 61999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 56700,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "roborock-f25-steam",
+    "slug": "roborock-f25-steam",
+    "name": "Roborock F25 Steam Buharlı Islak Kuru Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 27528,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 89,
+    "reviewCount": 350,
+    "image": "/images/appliances/roborock-1068883.jpg",
+    "images": [
+      "/images/appliances/roborock-1068883.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "20.000 Pa Emiş Gücü & 110°C Yüksek Sıcaklıkta Buharlı Dezenfeksiyon",
+      "FlatReach 180° Yatay Eğim",
+      "Dirsekli Çift Kenar Fırçası",
+      "Kendi Kendini Temizleyen ve Kurutan İstasyon"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 350,
+      "suctionPowerPa": 20000,
+      "batteryRuntimeMin": 50,
+      "noiseLevelDb": 75,
+      "capacity": "800 ml temiz su, 650 ml kirli su",
+      "autoCleanDock": true,
+      "appControl": true,
+      "programsCount": 4,
+      "weightKg": 4.8,
+      "warrantyYears": 2,
+      "color": "Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-f25steam-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 27528,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Buharlı Temizlik",
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 950,
+        "url": "https://www.epey.com/supurge/roborock-f25-steam.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-12-01",
+        "price": 31999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 27528,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "roborock-qrevo-edge-2",
+    "slug": "roborock-qrevo-edge-2",
+    "name": "Roborock Qrevo Edge 2 Robot Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 59649,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 310,
+    "image": "/images/appliances/roborock-1063837.png",
+    "images": [
+      "/images/appliances/roborock-1063837.png"
+    ],
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "18.500 Pa Emiş Gücü",
+      "AdaptiLift Şasi",
+      "FlexiArm Kenar Paspası",
+      "Sıcak Hava Kurutmalı İstasyon"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 68,
+      "suctionPowerPa": 18500,
+      "batteryRuntimeMin": 200,
+      "noiseLevelDb": 64,
+      "capacity": "380 ml toz haznesi",
+      "autoCleanDock": true,
+      "appControl": true,
+      "programsCount": 6,
+      "weightKg": 4.3,
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-qrevoedge2-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 59649,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/robot-supurge/roborock-qrevo-edge-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-11-01",
+        "price": 63999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 59649,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "roborock-qrevo-edge-5v1",
+    "slug": "roborock-qrevo-edge-5v1",
+    "name": "Roborock Qrevo Edge 5V1 Robot Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 50999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 340,
+    "image": "/images/appliances/roborock-1027243.png",
+    "images": [
+      "/images/appliances/roborock-1027243.png"
+    ],
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "18.500 Pa Emiş Gücü",
+      "FlexiArm Kenar Paspası ve Yan Fırça",
+      "AdaptiLift Şasi ile Kolay Eşik Geçişi",
+      "Sıcak Suyla Yıkama İstasyonu"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 68,
+      "suctionPowerPa": 18500,
+      "batteryRuntimeMin": 200,
+      "noiseLevelDb": 64,
+      "capacity": "350 ml toz, 4 L su",
+      "autoCleanDock": true,
+      "appControl": true,
+      "programsCount": 6,
+      "weightKg": 4.3,
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-qrevoedge5v1-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 50999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Garanti"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 870,
+        "url": "https://www.epey.com/robot-supurge/roborock-qrevo-edge-5v1.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-10-01",
+        "price": 55999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 50999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "roborock-qrevo-2-pro",
     "slug": "roborock-qrevo-2-pro",
     "name": "Roborock Qrevo 2 Pro Akıllı Robot Süpürge",
@@ -357,6 +834,74 @@ export const mockAppliances: ApplianceProduct[] = [
     ]
   },
   {
+    "id": "roborock-qrevo-c-pro",
+    "slug": "roborock-qrevo-c-pro",
+    "name": "Roborock Qrevo C Pro Robot Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 46800,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 87,
+    "reviewCount": 310,
+    "image": "/images/appliances/roborock-1047129.png",
+    "images": [
+      "/images/appliances/roborock-1047129.png"
+    ],
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "10.000 Pa Güçlü Emiş Gücü",
+      "FlexiArm Dönen Paspas Sistemi",
+      "Kompakt Boyutlu All-in-One İstasyon",
+      "LiDAR ve Akıllı Engel Algılama"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 62,
+      "suctionPowerPa": 10000,
+      "batteryRuntimeMin": 180,
+      "noiseLevelDb": 64,
+      "capacity": "330 ml toz, 3.5 L su",
+      "autoCleanDock": true,
+      "appControl": true,
+      "programsCount": 6,
+      "weightKg": 4.1,
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-qrevocpro-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 46800,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 920,
+        "url": "https://www.epey.com/robot-supurge/roborock-qrevo-c-pro.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09-01",
+        "price": 49999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 46800,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "roborock-qrevo-l-pro",
     "slug": "roborock-qrevo-l-pro",
     "name": "Roborock Qrevo L Pro Robot Süpürge",
@@ -421,6 +966,485 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2026-08-01",
         "price": 39999,
         "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "roborock-s9-plus",
+    "slug": "roborock-s9-plus",
+    "name": "Roborock S9+ Robot Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 26979,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 320,
+    "image": "/images/appliances/roborock-1063627.jpg",
+    "images": [
+      "/images/appliances/roborock-1063627.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "11.000 Pa HyperForce Emiş Gücü",
+      "Auto-Empty RockDock Otomatik Toz Boşaltma İstasyonu",
+      "VibraRise 3.0 Titreşimli Sonic Paspas Sistemi",
+      "3D Yapay Zekâ Engel Tanıma & LiDAR"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 66,
+      "suctionPowerPa": 11000,
+      "batteryRuntimeMin": 200,
+      "noiseLevelDb": 65,
+      "capacity": "400 ml toz haznesi, 2.5 L torba",
+      "autoCleanDock": true,
+      "appControl": true,
+      "programsCount": 6,
+      "weightKg": 4.3,
+      "warrantyYears": 2,
+      "color": "Siyah / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-s9p-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 26979,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Yeni Model"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1250,
+        "url": "https://www.epey.com/robot-supurge/roborock-s9-plus.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-11-01",
+        "price": 29999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 26979,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "roborock-f25-ultra",
+    "slug": "roborock-f25-ultra",
+    "name": "Roborock F25 Ultra Islak Kuru Kablosuz Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 25518,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 420,
+    "image": "/images/appliances/roborock-1037511.jpg",
+    "images": [
+      "/images/appliances/roborock-1037511.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "20.000 Pa Devasa Emiş Gücü",
+      "180° FlatReach Yatay Temizlik (Yatak & Koltuk Altı)",
+      "90°C Sıcak Suyla Kendi Kendini Yıkama & Kurutma İstasyonu",
+      "Dirsek Açılı Çift Kenar Temizleme Merdanesi"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 300,
+      "suctionPowerPa": 20000,
+      "batteryRuntimeMin": 60,
+      "noiseLevelDb": 74,
+      "capacity": "800 ml temiz su, 650 ml kirli su",
+      "autoCleanDock": true,
+      "appControl": true,
+      "programsCount": 4,
+      "weightKg": 4.6,
+      "warrantyYears": 2,
+      "color": "Siyah / Gri"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-f25u-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 25518,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Islak Kuru"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1600,
+        "url": "https://www.epey.com/supurge/roborock-f25-ultra.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09-01",
+        "price": 28999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 25518,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "roborock-h60-hub-ultra",
+    "slug": "roborock-h60-hub-ultra",
+    "name": "Roborock H60 Hub Ultra Dikey Süpürge İstasyonlu",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 22199,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 87,
+    "reviewCount": 390,
+    "image": "/images/appliances/roborock-1025041.jpg",
+    "images": [
+      "/images/appliances/roborock-1025041.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "200 AW / 550W Üstün Emiş Performansı",
+      "Otomatik Toz Boşaltma İstasyonu (100 Gün Bakımsız)",
+      "Anti-Tangle Dolaşmaz Fırça Teknolojisi",
+      "75 Dakika Kesintisiz Çalışma"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 550,
+      "suctionPowerPa": 25000,
+      "batteryRuntimeMin": 75,
+      "noiseLevelDb": 72,
+      "capacity": "600 ml toz haznesi, 3 L istasyon torbası",
+      "autoCleanDock": true,
+      "appControl": false,
+      "programsCount": 3,
+      "weightKg": 1.5,
+      "warrantyYears": 2,
+      "color": "Uzay Grisi"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-h60hub-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 22199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yeni Nesil İstasyon"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1800,
+        "url": "https://www.epey.com/supurge/roborock-h60-hub-ultra.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-08-01",
+        "price": 24999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 22199,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "roborock-s9",
+    "slug": "roborock-s9",
+    "name": "Roborock S9 Robot Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 20499,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 86,
+    "reviewCount": 260,
+    "image": "/images/appliances/roborock-1063625.jpg",
+    "images": [
+      "/images/appliances/roborock-1063625.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "11.000 Pa HyperForce Emiş Gücü",
+      "VibraRise Titreşimli Sonic Paspas",
+      "PreciSense LiDAR Haritalama",
+      "Kombine Su & Toz Haznesi"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 65,
+      "suctionPowerPa": 11000,
+      "batteryRuntimeMin": 180,
+      "noiseLevelDb": 66,
+      "capacity": "400 ml toz, 300 ml su",
+      "autoCleanDock": false,
+      "appControl": true,
+      "programsCount": 5,
+      "weightKg": 3.9,
+      "warrantyYears": 2,
+      "color": "Siyah / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-s9-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 20499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 850,
+        "url": "https://www.epey.com/robot-supurge/roborock-s9.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-11-01",
+        "price": 23999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 20499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "roborock-f25-rt",
+    "slug": "roborock-f25-rt",
+    "name": "Roborock F25 RT Islak Kuru Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 19210,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 86,
+    "reviewCount": 380,
+    "image": "/images/appliances/roborock-1019019.png",
+    "images": [
+      "/images/appliances/roborock-1019019.png"
+    ],
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "20.000 Pa Emiş Gücü",
+      "FlatReach 180° Yatay Temizleme Başlığı",
+      "Kendi Kendini Temizleyen Şarj İstasyonu",
+      "Islak ve Kuru Eş Zamanlı Süpürme"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 260,
+      "suctionPowerPa": 20000,
+      "batteryRuntimeMin": 50,
+      "noiseLevelDb": 73,
+      "capacity": "750 ml temiz su, 600 ml kirli su",
+      "autoCleanDock": true,
+      "appControl": false,
+      "programsCount": 3,
+      "weightKg": 4.3,
+      "warrantyYears": 2,
+      "color": "Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-f25rt-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 19210,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Garanti"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 980,
+        "url": "https://www.epey.com/supurge/roborock-f25-rt.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-08-01",
+        "price": 21999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19210,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "roborock-f25-ace",
+    "slug": "roborock-f25-ace",
+    "name": "Roborock F25 ACE Islak Kuru Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 18909,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 86,
+    "reviewCount": 650,
+    "image": "/images/appliances/roborock-1019033.jpg",
+    "images": [
+      "/images/appliances/roborock-1019033.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "20.000 Pa Emiş Gücü",
+      "FlatReach Yatar Gövde ile Kolay Erişim",
+      "Kendi Kendini Temizleyen ve Kurutan İstasyon",
+      "Akıllı Dirsekli Ergonomik Tutma Kolu"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 280,
+      "suctionPowerPa": 20000,
+      "batteryRuntimeMin": 50,
+      "noiseLevelDb": 73,
+      "capacity": "750 ml temiz su, 600 ml kirli su",
+      "autoCleanDock": true,
+      "appControl": false,
+      "programsCount": 3,
+      "weightKg": 4.4,
+      "warrantyYears": 2,
+      "color": "Beyaz / Gri"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-f25ace-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 18909,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Çok Satan"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2400,
+        "url": "https://www.epey.com/supurge/roborock-f25-ace.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-08-01",
+        "price": 21999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18909,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "roborock-h60",
+    "slug": "roborock-h60",
+    "name": "Roborock H60 Kablosuz Dikey Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 14386,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 84,
+    "reviewCount": 460,
+    "image": "/images/appliances/roborock-1032070.jpg",
+    "images": [
+      "/images/appliances/roborock-1032070.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "180 AW Güçlü Emiş",
+      "Hafif ve Ergonomik 1.4 kg Gövde",
+      "70 Dakika Çalışma Süresi",
+      "LED Fenerli Zemin Başlığı"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 450,
+      "suctionPowerPa": 22000,
+      "batteryRuntimeMin": 70,
+      "noiseLevelDb": 72,
+      "capacity": "600 ml toz haznesi",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 3,
+      "weightKg": 1.4,
+      "warrantyYears": 2,
+      "color": "Gri"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-h60-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 14386,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/supurge/roborock-h60.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-08-01",
+        "price": 16999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14386,
+        "store": "Trendyol"
       }
     ]
   },
@@ -503,6 +1527,211 @@ export const mockAppliances: ApplianceProduct[] = [
       {
         "date": "2026-08-01",
         "price": 71725,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "roborock-qrevo-curv-5a1",
+    "slug": "roborock-qrevo-curv-5a1",
+    "name": "Roborock Qrevo Curv 5A1 Robot Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 70525,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 91,
+    "reviewCount": 420,
+    "image": "/images/appliances/roborock-1008865.png",
+    "images": [
+      "/images/appliances/roborock-1008865.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "18.500 Pa HyperForce Emiş Gücü",
+      "AdaptiLift Şasi Teknolojisi",
+      "Curv Kavisli İstasyon",
+      "75°C Sıcak Suyla Paspas Yıkama"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 70,
+      "suctionPowerPa": 18500,
+      "batteryRuntimeMin": 220,
+      "noiseLevelDb": 63,
+      "capacity": "380 ml toz, 4 L su",
+      "autoCleanDock": true,
+      "appControl": true,
+      "programsCount": 7,
+      "weightKg": 4.4,
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-qrevocurv5a1-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 70525,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1300,
+        "url": "https://www.epey.com/robot-supurge/roborock-qrevo-curv-5a1.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-09-01",
+        "price": 75999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 70525,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "roborock-qrevo-curv",
+    "slug": "roborock-qrevo-curv",
+    "name": "Roborock Qrevo Curv Robot Süpürge & Paspas",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 67375,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 91,
+    "reviewCount": 650,
+    "image": "/images/appliances/roborock-966620.jpg",
+    "images": [
+      "/images/appliances/roborock-966620.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18.500 Pa HyperForce Emiş Gücü",
+      "AdaptiLift Şasi (4 cm Eşik Atlama)",
+      "75°C Sıcak Suyla Paspas Yıkama & Sıcak Kurutma",
+      "FlexiArm Yan Fırça & Paspas Sistemi"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 70,
+      "suctionPowerPa": 18500,
+      "batteryRuntimeMin": 220,
+      "noiseLevelDb": 63,
+      "capacity": "380 ml toz, 4 L su",
+      "autoCleanDock": true,
+      "appControl": true,
+      "programsCount": 7,
+      "weightKg": 4.4,
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-qrevocurv-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 67375,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yılın Ürünü"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/robot-supurge/roborock-qrevo-curv.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-09-01",
+        "price": 72999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 67375,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "roborock-qrevo-master",
+    "slug": "roborock-qrevo-master",
+    "name": "Roborock Qrevo Master Robot Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 66021,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 91,
+    "reviewCount": 520,
+    "image": "/images/appliances/roborock-993209.png",
+    "images": [
+      "/images/appliances/roborock-993209.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "10.000 Pa HyperForce Emiş Gücü",
+      "FlexiArm Yan Fırça & Kenar Paspas Sistemi",
+      "75°C Sıcak Suyla Paspas Yıkama & Sıcak Kurutma İstasyonu",
+      "Reactive AI Engel Tanıma & \"Hello Rocky\" Sesli Asistan"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 68,
+      "suctionPowerPa": 10000,
+      "batteryRuntimeMin": 180,
+      "noiseLevelDb": 63,
+      "capacity": "330 ml toz, 4 L su",
+      "autoCleanDock": true,
+      "appControl": true,
+      "programsCount": 7,
+      "weightKg": 4.3,
+      "warrantyYears": 2,
+      "color": "Siyah / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-qrevomaster-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 66021,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2400,
+        "url": "https://www.epey.com/robot-supurge/roborock-qrevo-master.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-06-01",
+        "price": 71999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 66021,
         "store": "Hepsiburada"
       }
     ]
@@ -1568,6 +2797,142 @@ export const mockAppliances: ApplianceProduct[] = [
     }
   },
   {
+    "id": "roborock-qrevo-pro",
+    "slug": "roborock-qrevo-pro",
+    "name": "Roborock Qrevo Pro Robot Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 64800,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 490,
+    "image": "/images/appliances/roborock-985761.png",
+    "images": [
+      "/images/appliances/roborock-985761.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7000 Pa Emiş Gücü & FlexiArm Edge Paspas",
+      "60°C Sıcak Suyla Paspas Yıkama",
+      "Sıcak Hava Kurutmalı Çok Fonksiyonlu İstasyon",
+      "PreciSense LiDAR ve Reactive Tech"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 60,
+      "suctionPowerPa": 7000,
+      "batteryRuntimeMin": 180,
+      "noiseLevelDb": 63,
+      "capacity": "330 ml toz, 5 L su",
+      "autoCleanDock": true,
+      "appControl": true,
+      "programsCount": 6,
+      "weightKg": 4.2,
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-qrevopro-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 64800,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1300,
+        "url": "https://www.epey.com/robot-supurge/roborock-qrevo-pro.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05-01",
+        "price": 68999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 64800,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "roborock-qrevo-c",
+    "slug": "roborock-qrevo-c",
+    "name": "Roborock Qrevo C Robot Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 56999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 86,
+    "reviewCount": 340,
+    "image": "/images/appliances/roborock-1006780.jpg",
+    "images": [
+      "/images/appliances/roborock-1006780.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8000 Pa Güçlü Emiş",
+      "Çift Dönen Sonic Paspas Sistemi",
+      "Kompakt All-in-One İstasyon",
+      "PreciSense LiDAR Haritalama"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 60,
+      "suctionPowerPa": 8000,
+      "batteryRuntimeMin": 180,
+      "noiseLevelDb": 64,
+      "capacity": "330 ml toz, 3.5 L su",
+      "autoCleanDock": true,
+      "appControl": true,
+      "programsCount": 5,
+      "weightKg": 4.1,
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-qrevoc-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 56999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 950,
+        "url": "https://www.epey.com/robot-supurge/roborock-qrevo-c.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-07-01",
+        "price": 61999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 56999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "roborock-qrevo-maxv",
     "slug": "roborock-qrevo-maxv",
     "name": "Roborock Qrevo MaxV Akıllı Robot Süpürge",
@@ -1632,6 +2997,74 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2026-08-01",
         "price": 49999,
         "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "roborock-qrevo-s",
+    "slug": "roborock-qrevo-s",
+    "name": "Roborock Qrevo S Robot Süpürge & Paspas",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 44898,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 590,
+    "image": "/images/appliances/roborock-970301.jpg",
+    "images": [
+      "/images/appliances/roborock-970301.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "7000 Pa HyperForce Emiş Gücü",
+      "Dönen Çift Sonic Paspas (200 RPM)",
+      "Otomatik Paspas Yıkama & Sıcak Kurutma İstasyonu",
+      "Reactive Tech Engel Algılama"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 60,
+      "suctionPowerPa": 7000,
+      "batteryRuntimeMin": 180,
+      "noiseLevelDb": 63,
+      "capacity": "330 ml toz, 5 L su haznesi",
+      "autoCleanDock": true,
+      "appControl": true,
+      "programsCount": 6,
+      "weightKg": 4.2,
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-qrevos-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 44898,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/robot-supurge/roborock-qrevo-s.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-06-01",
+        "price": 48999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 44898,
+        "store": "Amazon TR"
       }
     ]
   },
@@ -1822,6 +3255,278 @@ export const mockAppliances: ApplianceProduct[] = [
       "warrantyYears": 2,
       "color": "Beyaz"
     }
+  },
+  {
+    "id": "roborock-q8-max-pro-plus",
+    "slug": "roborock-q8-max-pro-plus",
+    "name": "Roborock Q8 Max Pro+ Robot Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 30599,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 86,
+    "reviewCount": 780,
+    "image": "/images/appliances/roborock-1009050.png",
+    "images": [
+      "/images/appliances/roborock-1009050.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6000 Pa Emiş Gücü",
+      "RockDock Plus Otomatik Toz Boşaltma İstasyonu",
+      "DuoRoller Çift Kauçuk Fırça",
+      "Reactive Tech Engel Algılama"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 59,
+      "suctionPowerPa": 6000,
+      "batteryRuntimeMin": 240,
+      "noiseLevelDb": 67,
+      "capacity": "470 ml toz, 350 ml su, 2.5 L torba",
+      "autoCleanDock": true,
+      "appControl": true,
+      "programsCount": 5,
+      "weightKg": 4.4,
+      "warrantyYears": 2,
+      "color": "Siyah / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-q8maxproplus-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 30599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.epey.com/robot-supurge/roborock-q8-max-pro-plus.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-08-01",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 30599,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "roborock-s8-pro-plus",
+    "slug": "roborock-s8-pro-plus",
+    "name": "Roborock S8 Pro+ Robot Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 30450,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 87,
+    "reviewCount": 470,
+    "image": "/images/appliances/roborock-1009199.png",
+    "images": [
+      "/images/appliances/roborock-1009199.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6000 Pa Emiş Gücü",
+      "Otomatik Toz Boşaltma İstasyonu (RockDock Plus)",
+      "VibraRise Titreşimli Paspas",
+      "DuoRoller Çift Kauçuk Fırça"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 60,
+      "suctionPowerPa": 6000,
+      "batteryRuntimeMin": 180,
+      "noiseLevelDb": 67,
+      "capacity": "400 ml toz, 2.5 L torba",
+      "autoCleanDock": true,
+      "appControl": true,
+      "programsCount": 5,
+      "weightKg": 4.3,
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-s8pp-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 30450,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1500,
+        "url": "https://www.epey.com/robot-supurge/roborock-s8-pro-plus.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-08-01",
+        "price": 34999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 30450,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "roborock-flexi-pro",
+    "slug": "roborock-flexi-pro",
+    "name": "Roborock Flexi Pro Islak Kuru Kablosuz Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 29999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 87,
+    "reviewCount": 410,
+    "image": "/images/appliances/roborock-935292.png",
+    "images": [
+      "/images/appliances/roborock-935292.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "17.000 Pa Emiş Gücü",
+      "FlatReach Düz Yatar Gövde Tasarımı",
+      "DirSelect Akıllı Çift Yönlü Tekerlek Asistanı",
+      "60°C Sıcak Suyla Kendi Kendini Yıkama & Sıcak Kurutma"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 260,
+      "suctionPowerPa": 17000,
+      "batteryRuntimeMin": 50,
+      "noiseLevelDb": 73,
+      "capacity": "730 ml temiz su, 450 ml kirli su",
+      "autoCleanDock": true,
+      "appControl": true,
+      "programsCount": 4,
+      "weightKg": 5,
+      "warrantyYears": 2,
+      "color": "Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-flexipro-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 29999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/supurge/roborock-flexi-pro.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-06-01",
+        "price": 33999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 29999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "roborock-q8-plus",
+    "slug": "roborock-q8-plus",
+    "name": "Roborock Q8+ Robot Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 25590,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 86,
+    "reviewCount": 520,
+    "image": "/images/appliances/roborock-1017835.png",
+    "images": [
+      "/images/appliances/roborock-1017835.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "5500 Pa Emiş Gücü",
+      "Auto-Empty Dock Otomatik Toz Boşaltma İstasyonu",
+      "DuoRoller Çift Fırça Teknolojisi",
+      "PreciSense LiDAR Haritalama"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 58,
+      "suctionPowerPa": 5500,
+      "batteryRuntimeMin": 200,
+      "noiseLevelDb": 67,
+      "capacity": "470 ml toz, 2.5 L torba",
+      "autoCleanDock": true,
+      "appControl": true,
+      "programsCount": 5,
+      "weightKg": 4.2,
+      "warrantyYears": 2,
+      "color": "Siyah / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-q8plus-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 25590,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1400,
+        "url": "https://www.epey.com/robot-supurge/roborock-q8-plus.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-07-01",
+        "price": 28999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 25590,
+        "store": "Amazon TR"
+      }
+    ]
   },
   {
     "id": "tefal-pro-express-ultimate-ii",
@@ -2645,6 +4350,74 @@ export const mockAppliances: ApplianceProduct[] = [
     }
   },
   {
+    "id": "roborock-q8",
+    "slug": "roborock-q8",
+    "name": "Roborock Q8 Robot Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 19975,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 84,
+    "reviewCount": 380,
+    "image": "/images/appliances/roborock-1017829.png",
+    "images": [
+      "/images/appliances/roborock-1017829.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "5500 Pa Emiş Gücü",
+      "PreciSense LiDAR Haritalama",
+      "DuoRoller Çift Fırça",
+      "470 ml Toz & 350 ml Su Haznesi"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 58,
+      "suctionPowerPa": 5500,
+      "batteryRuntimeMin": 200,
+      "noiseLevelDb": 67,
+      "capacity": "470 ml toz, 350 ml su",
+      "autoCleanDock": false,
+      "appControl": true,
+      "programsCount": 5,
+      "weightKg": 3.7,
+      "warrantyYears": 2,
+      "color": "Siyah / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-q8-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 19975,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/robot-supurge/roborock-q8.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-07-01",
+        "price": 22999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19975,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "roborock-q8-max-pro",
     "slug": "roborock-q8-max-pro",
     "name": "Roborock Q8 Max Pro Robot Süpürge",
@@ -2898,6 +4671,74 @@ export const mockAppliances: ApplianceProduct[] = [
       "warrantyYears": 2,
       "color": "Inox Paslanmaz Çelik"
     }
+  },
+  {
+    "id": "roborock-q7-tf",
+    "slug": "roborock-q7-tf",
+    "name": "Roborock Q7 TF Robot Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 13790,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 82,
+    "reviewCount": 310,
+    "image": "/images/appliances/roborock-1028939.jpg",
+    "images": [
+      "/images/appliances/roborock-1028939.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2700 Pa Emiş Gücü",
+      "LiDAR Haritalama",
+      "Geniş Toz Haznesi",
+      "5200 mAh Batarya ile 180 dk Süre"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 50,
+      "suctionPowerPa": 2700,
+      "batteryRuntimeMin": 180,
+      "noiseLevelDb": 67,
+      "capacity": "750 ml toz haznesi",
+      "autoCleanDock": false,
+      "appControl": true,
+      "programsCount": 4,
+      "weightKg": 3.5,
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-q7tf-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 13790,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/robot-supurge/roborock-q7-tf.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-09-01",
+        "price": 15999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13790,
+        "store": "Trendyol"
+      }
+    ]
   },
   {
     "id": "roborock-s8-pro-ultra",
@@ -4006,6 +5847,74 @@ export const mockAppliances: ApplianceProduct[] = [
     ]
   },
   {
+    "id": "roborock-dyad-wet-and-dry",
+    "slug": "roborock-dyad-wet-and-dry",
+    "name": "Roborock Dyad Wet & Dry Islak Kuru Süpürge",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 28311,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 84,
+    "reviewCount": 710,
+    "image": "/images/appliances/roborock-795097.jpg",
+    "images": [
+      "/images/appliances/roborock-795097.jpg"
+    ],
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "DyadPower Çift Motor & 3 Merdaneli Fırça",
+      "13.000 Pa Emiş Gücü",
+      "Otomatik Kir Algılama & LED Ekran",
+      "Kendi Kendini Temizleyen Stand"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 260,
+      "suctionPowerPa": 13000,
+      "batteryRuntimeMin": 35,
+      "noiseLevelDb": 78,
+      "capacity": "850 ml temiz su, 620 ml kirli su",
+      "autoCleanDock": true,
+      "appControl": false,
+      "programsCount": 3,
+      "weightKg": 5,
+      "warrantyYears": 2,
+      "color": "Siyah / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-dyad-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 28311,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1800,
+        "url": "https://www.epey.com/supurge/roborock-dyad-wet-and-dry.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2022-01-01",
+        "price": 9999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 28311,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "roborock-s6-maxv",
     "slug": "roborock-s6-maxv",
     "name": "Roborock S6 MaxV Robot Süpürge",
@@ -4207,6 +6116,74 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2026-08-01",
         "price": 36487,
         "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "roborock-s6",
+    "slug": "roborock-s6",
+    "name": "Roborock S6 Robot Süpürge & Paspas",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 31999,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 83,
+    "reviewCount": 1850,
+    "image": "/images/appliances/roborock-591027.png",
+    "images": [
+      "/images/appliances/roborock-591027.png"
+    ],
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2000 Pa Emiş Gücü & 14 Sensörlü LDS Lazer Haritalama",
+      "Akıllı Rota Planlama & Seçilebilir Oda Temizliği",
+      "480 ml Toz & 140 ml Su Haznesi",
+      "5200 mAh Batarya ile 150 dk Çalışma"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 58,
+      "suctionPowerPa": 2000,
+      "batteryRuntimeMin": 150,
+      "noiseLevelDb": 67,
+      "capacity": "480 ml toz, 140 ml su",
+      "autoCleanDock": false,
+      "appControl": true,
+      "programsCount": 4,
+      "weightKg": 3.6,
+      "warrantyYears": 2,
+      "color": "Beyaz / Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-s6-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 31999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Klasik Model"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 9500,
+        "url": "https://www.epey.com/robot-supurge/roborock-s6.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2019-06-01",
+        "price": 4299,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 31999,
+        "store": "Trendyol"
       }
     ]
   }
