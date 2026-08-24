@@ -2407,7 +2407,7 @@ export const mockAppliances: ApplianceProduct[] = [
       "Kompakt Masaüstü ve Yatak Odası Tasarımı"
     ],
     "specs": {
-      "subCategory": "airfryer",
+      "subCategory": "air_purifier",
       "subCategoryLabel": "Hava Temizleyici",
       "powerWatts": 40,
       "suctionPowerPa": 0,
