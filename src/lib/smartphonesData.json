@@ -1,5 +1,74 @@
 [
   {
+    "id": "philips-xenium-e2125",
+    "slug": "philips-xenium-e2125",
+    "name": "Philips Xenium E2125 Çift Hatlı Tuşlu Cep Telefonu",
+    "brand": "Philips",
+    "category": "smartphones",
+    "basePrice": 2100,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 380,
+    "image": "/images/smartphones/philips-xenium-e2125.png",
+    "images": [
+      "/images/smartphones/philips-xenium-e2125.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Xenium Enerji Tasarrufu ile Haftalarca Süren Bekleme Süresi",
+      "Çift SIM Kart (Dual SIM) Desteği & Dahili Kablosuz FM Radyo",
+      "Güçlü LED El Feneri ve Yüksek Sesli Ahize / Hoparlör",
+      "Geniş Tuş Takımı & Dayanıklı Sağlam Gövde"
+    ],
+    "specs": {
+      "screenSizeInches": 1.77,
+      "screenResolution": "128 x 160 TFT",
+      "displayTechnology": "TFT Renkli Ekran",
+      "processor": "Xenium Güç Tasarruflu Yonga Seti",
+      "ramGb": 0.032,
+      "storageGb": 0.032,
+      "batteryCapacityMah": 1700,
+      "operatingSystem": "Philips Özelleştirilmiş Tuşlu İşletim Sistemi",
+      "rearCameraMp": 0.3,
+      "frontCameraMp": 0,
+      "weightGrams": 98,
+      "cellular": "2G GSM Çift Hat",
+      "color": "Siyah / Koyu Gri"
+    },
+    "storeOffers": [
+      {
+        "id": "so-e2125-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 2100,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Xenium Uzun Pil",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/tuslu-telefon/philips-xenium-e2125.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 2299,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2100,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "philips-xenium-e227",
     "slug": "philips-xenium-e227",
     "name": "Philips Xenium E227 Yaşlı & Acil Durum Uyumlu Şarj Standlı Tuşlu Telefon",

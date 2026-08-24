@@ -2,6 +2,350 @@ import { LaptopProduct } from './types';
 
 export const mockLaptops: LaptopProduct[] = [
   {
+    "id": "philips-243v7qsb-00",
+    "slug": "philips-243v7qsb-00",
+    "name": "Philips 243V7QSB/00 23.8\" FHD IPS Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 28491.25,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 40,
+    "image": "/images/laptops/philips-243v7qsb-00.jpg",
+    "images": [
+      "/images/laptops/philips-243v7qsb-00.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "23.8 İnç Full HD (1920 x 1080) Geniş IPS Panel",
+      "DVI-D ve VGA Bağlantıları",
+      "Flicker-Free ve LowBlue Modu ile Göz Koruması",
+      "3 Kenar Çerçevesiz Şık Tasarım"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "FHD IPS Display Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "60Hz FHD IPS Engine",
+      "screenSizeInches": 23.8,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 100%, NTSC 72%",
+      "ports": [
+        "1x DVI-D",
+        "1x VGA"
+      ],
+      "weightKg": 3.5,
+      "bodyMaterial": "İnce Çerçeveli Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-243v7qsb-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 28491.25,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "IPS Monitör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 95,
+        "url": "https://www.epey.com/monitor/philips-243v7qsb-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 29900,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 28491.25,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-spk7407b",
+    "slug": "philips-spk7407b",
+    "name": "Philips SPK7407B 2.4GHz 1600 DPI Sessiz Tıklamalı Kablosuz Mouse",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Klavye Mouse",
+    "basePrice": 436.9,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 91,
+    "reviewCount": 920,
+    "image": "/images/laptops/philips-spk7407b.jpg",
+    "images": [
+      "/images/laptops/philips-spk7407b.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Sessiz Tıklama (Silent Click) Mekanizması ile Sessiz Çalışma Ortamı",
+      "1600 DPI Ayarlanabilir Optik İzleme Sensörü",
+      "2.4 GHz USB Nano Alıcı ile 10 Metre Kablosuz Menzil",
+      "Ergonomik Dokulu Yan Yüzeyler ile Rahat Tutuş"
+    ],
+    "specs": {
+      "productType": "Klavye Mouse",
+      "processor": "Silent Optical Wireless Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "1600 DPI Silent Sensor",
+      "screenSizeInches": 0,
+      "screenResolution": "Kablosuz USB Mouse",
+      "ports": [
+        "2.4 GHz USB Alıcı"
+      ],
+      "weightKg": 0.08,
+      "bodyMaterial": "Mat Siyah Dokulu Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "so-spk7407b-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 436.9,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Sessiz Kablosuz Mouse",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/klavye-mouse/philips-spk7407b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 499,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 436.9,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-spk7307b",
+    "slug": "philips-spk7307b",
+    "name": "Philips SPK7307B 2.4GHz 1600 DPI Kompakt Kablosuz Mouse",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Klavye Mouse",
+    "basePrice": 339.9,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 1100,
+    "image": "/images/laptops/philips-spk7307b.jpg",
+    "images": [
+      "/images/laptops/philips-spk7307b.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "1600 DPI Optik İzleme ile Hızlı ve Doğru İmleç Kontrolü",
+      "2.4 GHz Güvenilir Kablosuz Bağlantı & Tak-Çalıştır USB Alıcı",
+      "Hafif ve Kompakt Dizüstü Bilgisayar Uyumlu Tasarım",
+      "Akıllı Güç Tasarrufu ile Uzun Pil Ömrü"
+    ],
+    "specs": {
+      "productType": "Klavye Mouse",
+      "processor": "1600 DPI Wireless Optical Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "1600 DPI Optical Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "Kablosuz USB Mouse",
+      "ports": [
+        "2.4 GHz USB Alıcı"
+      ],
+      "weightKg": 0.075,
+      "bodyMaterial": "Mat Siyah Kompakt Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-spk7307b-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 339.9,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ekonomik Kablosuz"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3400,
+        "url": "https://www.epey.com/klavye-mouse/philips-spk7307b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 389,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 339.9,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-vivid-32gb",
+    "slug": "philips-vivid-32gb",
+    "name": "Philips Vivid Edition 32GB USB 2.0 / USB 3.0 Flash Bellek",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "USB Bellek",
+    "basePrice": 450.8,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 420,
+    "image": "/images/laptops/philips-vivid-32gb.jpg",
+    "images": [
+      "/images/laptops/philips-vivid-32gb.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "32 GB Güvenilir Depolama Kapasitesi",
+      "Şık Canlı Renkli Döner Kapaklı (Swivel) Koruyucu Mekanizma",
+      "Hızlı Veri Aktarımı ve Geniş Cihaz Uyumluluğu",
+      "Entegre LED Etkinlik Göstergesi"
+    ],
+    "specs": {
+      "productType": "USB Bellek",
+      "processor": "32GB High-Speed Flash Controller",
+      "ramGb": 0,
+      "storageGb": 32,
+      "gpu": "NAND Flash Storage",
+      "screenSizeInches": 0,
+      "screenResolution": "USB 2.0 / 3.0",
+      "ports": [
+        "1x USB-A"
+      ],
+      "weightKg": 0.015,
+      "bodyMaterial": "Canlı Renkli Döner Kapaklı Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-vivid-32-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 450.8,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "32GB Döner Kapak"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/usb-bellek/philips-vivid-32gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 450.8,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-snow",
+    "slug": "philips-snow",
+    "name": "Philips Snow Edition 16GB / 32GB USB 2.0 Flash Bellek",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "USB Bellek",
+    "basePrice": 390.39,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 680,
+    "image": "/images/laptops/philips-snow.jpg",
+    "images": [
+      "/images/laptops/philips-snow.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Kompakt ve Şık Kar Beyazı Tasarım",
+      "Kapaklı Koruma & Anahtarlık Deliği",
+      "Tak-Çalıştır USB 2.0 / USB 3.0 Uyumluluğu",
+      "Dosya Aktarımı Sırasında Yanan Etkinlik LED Işığı"
+    ],
+    "specs": {
+      "productType": "USB Bellek",
+      "processor": "Snow Edition Flash Controller",
+      "ramGb": 0,
+      "storageGb": 16,
+      "gpu": "NAND Flash Storage",
+      "screenSizeInches": 0,
+      "screenResolution": "USB 2.0 Flash",
+      "ports": [
+        "1x USB-A"
+      ],
+      "weightKg": 0.012,
+      "bodyMaterial": "Kar Beyazı Kompakt Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-snow-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 390.39,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Snow Edition",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/usb-bellek/philips-snow.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 440,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 390.39,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "philips-tab6405",
     "slug": "philips-tab6405",
     "name": "Philips TAB6405 2.1 Kanal 140W Ultra İnce Soundbar & Kablosuz Subwoofer",

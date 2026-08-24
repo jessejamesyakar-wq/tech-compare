@@ -58,6 +58,9 @@ export interface ApplianceSpecs {
   programsCount?: number;
   ionicConditioning?: boolean;
   coldShot?: boolean;
+  batteryLifeMinutes?: number;
+  chargingTimeHours?: number;
+  wetAndDry?: boolean;
   pressureBar?: number;
   steamOutputGpm?: number;
   steamOutputGramsPerMin?: number;

@@ -2,6 +2,75 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "philips-t7305",
+    "slug": "philips-t7305",
+    "name": "Philips T7305 8\" HD IPS 4G LTE 32GB Tablet",
+    "brand": "Philips",
+    "category": "tablets",
+    "basePrice": 6203.06,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 88,
+    "reviewCount": 95,
+    "image": "/images/tablets/philips-t7305.jpg",
+    "images": [
+      "/images/tablets/philips-t7305.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "8 İnç HD IPS (1280 x 800) Canlı Dokunmatik Ekran",
+      "4G LTE SIM Kart Desteği ile Her Yerde Kesintisiz İnternet",
+      "Dört Çekirdekli İşlemci & 32 GB Depolama (MicroSD ile 128 GB'a Kadar)",
+      "Kompakt ve Hafif Metalik Gövde (Taşıması Kolay)"
+    ],
+    "specs": {
+      "screenSizeInches": 8.0,
+      "screenResolution": "1280 x 800 (HD IPS)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Quad-Core 1.6 GHz Cortex-A53",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 5000,
+      "rearCameraMp": "5 MP",
+      "frontCameraMp": "2 MP",
+      "weightGrams": 340,
+      "os": "Android 11 Go Edition",
+      "cellular": "4G LTE & SIM Kart Desteği",
+      "color": "Gümüş / Koyu Gri"
+    },
+    "storeOffers": [
+      {
+        "id": "so-t7305-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 6203.06,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "4G LTE Tablet"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.epey.com/tablet/philips-t7305.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 6599,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6203.06,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "philips-t7310",
     "slug": "philips-t7310",
     "name": "Philips T7310 10.1\" FHD IPS 4G LTE 4GB RAM 64GB Android Tablet",
