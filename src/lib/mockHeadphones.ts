@@ -2,6 +2,126 @@ import { Product } from './types';
 
 export const mockHeadphones: Product[] = [
   {
+    "id": "philips-actionfit-st702",
+    "slug": "philips-actionfit-st702",
+    "name": "Philips ActionFit ST702 TWS UV Temizlemeli IPX5 Sporcu Kulaklığı",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 1999,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 89,
+    "reviewCount": 160,
+    "image": "/images/headphones/philips-st702.jpg",
+    "images": [
+      "/images/headphones/philips-st702.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "UV Temizleme Teknolojisi ile Bakterileri Yok Eden Şarj Kutusu",
+      "IPX5 Su ve Tere Dayanıklı Spor Gövde",
+      "Kutu ile 24 Saate Kadar Oynatma Süresi",
+      "6 mm Neodimyum Akustik Sürücüler"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS Spor)",
+      "anc": "Yok",
+      "batteryLife": "24 Saat (Kutu ile)",
+      "bluetoothVersion": "5.0",
+      "driverSize": "6 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 42
+    },
+    "storeOffers": [
+      {
+        "id": "so-st702-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 1999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "UV Temizleme"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 540,
+        "url": "https://www.epey.com/kulaklik/philips-actionfit-st702.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 2199,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-tae1105",
+    "slug": "philips-tae1105",
+    "name": "Philips TAE1105 Renkli Mikrofonlu Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 419,
+    "currency": "TL",
+    "rating": 4.3,
+    "epeyScore": 80,
+    "reviewCount": 340,
+    "image": "/images/headphones/philips-tae1105.jpg",
+    "images": [
+      "/images/headphones/philips-tae1105.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "8.6 mm Dinamik Sürücüler ile Güçlü Bas",
+      "Kablo Üstü Net Mikrofon ve Çağrı Butonu",
+      "Ergonomik Açılı Kulak İçi Uçlar",
+      "1.2 Metre Dayanıklı Esnek Kablo"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Kablolu 3.5mm)",
+      "anc": "Yok",
+      "batteryLife": "Kablolu",
+      "bluetoothVersion": "Kablolu (3.5mm)",
+      "driverSize": "8.6 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 12
+    },
+    "storeOffers": [
+      {
+        "id": "so-tae1105-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 419,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 920,
+        "url": "https://www.epey.com/kulaklik/philips-tae1105.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 459,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 419,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "philips-tah4105",
     "slug": "philips-tah4105",
     "name": "Philips TAH4105 Kablolu Kulak Üstü Mikrofonlu Kulaklık",
