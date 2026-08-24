@@ -249,15 +249,103 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
         if (activeSector) {
           const sec = SECTOR_PILLARS.find((s) => s.id === activeSector);
           if (sec) {
-            const allowedSubCats = sec.subCats.map((sc) => sc.id);
-            if (!allowedSubCats.includes(p.specs?.subCategory || '')) {
-              return false;
+            const allowedSubCats = [sec.id, ...sec.subCats.map((sc) => sc.id)];
+            const prodSubCat = p.specs?.subCategory || '';
+            const prodLabel = (p.specs?.subCategoryLabel || '').toLowerCase();
+            const prodName = p.name.toLowerCase();
+
+            let matched = allowedSubCats.includes(prodSubCat);
+            if (!matched) {
+              if (activeSector === 'kitchen') {
+                matched =
+                  prodSubCat === 'kitchen' ||
+                  prodSubCat === 'airfryer' ||
+                  prodSubCat === 'coffee_machine' ||
+                  prodSubCat === 'blender' ||
+                  prodSubCat === 'toaster' ||
+                  prodSubCat === 'tea_maker' ||
+                  prodLabel.includes('kahve') ||
+                  prodLabel.includes('mutfak') ||
+                  prodLabel.includes('blender') ||
+                  prodLabel.includes('mikser') ||
+                  prodLabel.includes('tost') ||
+                  prodName.includes('kahve') ||
+                  prodName.includes('blender') ||
+                  prodName.includes('mikser');
+              } else if (activeSector === 'personal_care') {
+                matched =
+                  prodSubCat === 'personal_care' ||
+                  prodSubCat === 'cosmetics' ||
+                  prodLabel.includes('tıraş') ||
+                  prodLabel.includes('epilasyon') ||
+                  prodLabel.includes('saç') ||
+                  prodLabel.includes('diş') ||
+                  prodName.includes('tıraş') ||
+                  prodName.includes('oneblade') ||
+                  prodName.includes('hairclipper') ||
+                  prodName.includes('epilatör') ||
+                  prodName.includes('diş fırçası');
+              } else if (activeSector === 'smart_home_tools') {
+                matched =
+                  prodSubCat === 'iron' ||
+                  prodSubCat === 'smart_home_tools' ||
+                  prodSubCat === 'power_station' ||
+                  prodLabel.includes('ütü') ||
+                  prodName.includes('ütü') ||
+                  prodName.includes('buhar');
+              } else if (activeSector === 'floorcare') {
+                matched =
+                  prodSubCat === 'robot_vacuum' ||
+                  prodSubCat === 'stick_vacuum' ||
+                  prodSubCat === 'floorcare' ||
+                  prodLabel.includes('süpürge') ||
+                  prodName.includes('süpürge') ||
+                  prodName.includes('robot');
+              } else if (activeSector === 'climate') {
+                matched =
+                  prodSubCat === 'air_purifier' ||
+                  prodSubCat === 'climate' ||
+                  prodLabel.includes('hava') ||
+                  prodLabel.includes('klima') ||
+                  prodName.includes('hava') ||
+                  prodName.includes('klima');
+              }
             }
+            if (!matched) return false;
           }
         }
+
         // Subcategory filter
-        if (selectedSubCat !== 'all' && p.specs?.subCategory !== selectedSubCat) {
-          return false;
+        if (selectedSubCat !== 'all') {
+          const prodSubCat = p.specs?.subCategory || '';
+          const prodLabel = (p.specs?.subCategoryLabel || '').toLowerCase();
+          const prodName = p.name.toLowerCase();
+
+          let subMatch = prodSubCat === selectedSubCat;
+          if (!subMatch) {
+            if (selectedSubCat === 'coffee_machine') {
+              subMatch = prodLabel.includes('kahve') || prodName.includes('kahve') || prodName.includes('espresso') || prodName.includes('senseo');
+            } else if (selectedSubCat === 'blender') {
+              subMatch = prodLabel.includes('blender') || prodLabel.includes('mikser') || prodLabel.includes('robot') || prodName.includes('blender') || prodName.includes('mikser') || prodName.includes('mutfak robotu');
+            } else if (selectedSubCat === 'iron') {
+              subMatch = prodLabel.includes('ütü') || prodName.includes('ütü') || prodName.includes('azur') || prodName.includes('perfectcare');
+            } else if (selectedSubCat === 'personal_care') {
+              subMatch = prodLabel.includes('tıraş') || prodLabel.includes('saç') || prodLabel.includes('epilasyon') || prodLabel.includes('diş') || prodName.includes('tıraş') || prodName.includes('oneblade') || prodName.includes('hairclipper');
+            } else if (selectedSubCat === 'airfryer') {
+              subMatch = prodLabel.includes('airfryer') || prodLabel.includes('fritöz') || prodName.includes('airfryer') || prodName.includes('fritöz');
+            } else if (selectedSubCat === 'robot_vacuum') {
+              subMatch = prodLabel.includes('robot') || prodName.includes('robot');
+            } else if (selectedSubCat === 'stick_vacuum') {
+              subMatch = prodLabel.includes('dikey') || prodLabel.includes('şarjlı süpürge') || prodName.includes('dikey');
+            } else if (selectedSubCat === 'air_purifier') {
+              subMatch = prodLabel.includes('hava') || prodName.includes('hava temizleyici');
+            } else if (selectedSubCat === 'tea_maker') {
+              subMatch = prodLabel.includes('çay') || prodLabel.includes('su ısıtıcı') || prodName.includes('çay') || prodName.includes('kettle');
+            } else if (selectedSubCat === 'toaster') {
+              subMatch = prodLabel.includes('tost') || prodLabel.includes('ızgara') || prodName.includes('tost');
+            }
+          }
+          if (!subMatch) return false;
         }
         // Search query filter
         if (searchQuery) {
