@@ -21059,6 +21059,74 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "hometech-alfa-8my-pro-2-32",
+    "slug": "hometech-alfa-8my-pro",
+    "name": "Hometech Alfa 8MY Pro 2 GB / 32 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 3499,
+    "currency": "TL",
+    "rating": 3.8,
+    "reviewCount": 22,
+    "image": "/images/tablets/hometech-794284.jpg",
+    "images": [
+      "/images/tablets/hometech-794284.jpg"
+    ],
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8.0 İnç HD IPS Ekran",
+      "Allwinner A133 4 Çekirdekli İşlemci",
+      "2 GB RAM & 32 GB Depolama",
+      "Android 11 İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Allwinner A133 (4 Çekirdek 1.6 GHz)",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 4000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 320,
+      "os": "Android 11 (Go Edition)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-alfa8mypro-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.2,
+        "sellerReviews": 25,
+        "url": "https://www.epey.com/tablet/hometech-alfa-8my-pro.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2022-01-01",
+        "price": 1899,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "apple-ipad-pro-11-mhw63tu-a",
     "slug": "apple-ipad-pro-11-mhw63tu-a",
     "name": "Apple iPad Pro 11 8 GB / 128 GB / 5G (MHW63TU/A)",
@@ -23240,6 +23308,74 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 3299,
         "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "hometech-alfa-8mh-pro-2-32",
+    "slug": "hometech-alfa-8mh-pro",
+    "name": "Hometech Alfa 8MH Pro 2 GB / 32 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 3299,
+    "currency": "TL",
+    "rating": 3.7,
+    "reviewCount": 20,
+    "image": "/images/tablets/hometech-776880.jpg",
+    "images": [
+      "/images/tablets/hometech-776880.jpg"
+    ],
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8.0 İnç HD IPS Ekran",
+      "MediaTek MT8167 4 Çekirdekli İşlemci",
+      "2 GB RAM & 32 GB Depolama",
+      "Android 10 İşletim Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8167 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 2,
+      "storageGb": 32,
+      "batteryMah": 4000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 330,
+      "os": "Android 10 (Go Edition)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-alfa8mhpro-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 3299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.2,
+        "sellerReviews": 22,
+        "url": "https://www.epey.com/tablet/hometech-alfa-8mh-pro.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2021-01-01",
+        "price": 1799,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3299,
+        "store": "Hepsiburada"
       }
     ]
   },
@@ -26923,6 +27059,142 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 1399,
         "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hometech-alfa-7rs-1-16",
+    "slug": "hometech-alfa-7rs",
+    "name": "Hometech Alfa 7RS 1 GB / 16 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 3.4,
+    "reviewCount": 14,
+    "image": "/images/tablets/hometech-333664.jpg",
+    "images": [
+      "/images/tablets/hometech-333664.jpg"
+    ],
+    "releaseYear": 2018,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Kompakt Ekran",
+      "Allwinner A33 4 Çekirdekli İşlemci",
+      "1 GB RAM & 16 GB Depolama",
+      "Android 8.1 Go Edition"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "TN",
+      "refreshRateHz": 60,
+      "processor": "Allwinner A33 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 2500,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 260,
+      "os": "Android 8.1 Go Edition",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-alfa7rs-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4,
+        "sellerReviews": 16,
+        "url": "https://www.epey.com/tablet/hometech-alfa-7rs.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2019-01-01",
+        "price": 999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "hometech-alfa-7-rc-1-16",
+    "slug": "hometech-alfa-7-rc",
+    "name": "Hometech Alfa 7 RC 1 GB / 16 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 2399,
+    "currency": "TL",
+    "rating": 3.4,
+    "reviewCount": 12,
+    "image": "/images/tablets/hometech-169342.png",
+    "images": [
+      "/images/tablets/hometech-169342.png"
+    ],
+    "releaseYear": 2018,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Ekran",
+      "MediaTek MT8167 4 Çekirdekli İşlemci",
+      "1 GB RAM & 16 GB Depolama",
+      "Android 8.1 Oreo"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "TN",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8167 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 2500,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 260,
+      "os": "Android 8.1 (Oreo)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-alfa7rc-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 2399,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4,
+        "sellerReviews": 14,
+        "url": "https://www.epey.com/tablet/hometech-alfa-7-rc.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2019-01-01",
+        "price": 949,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2399,
+        "store": "Trendyol"
       }
     ]
   },
@@ -30735,6 +31007,142 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "hometech-ht-8c-1-16",
+    "slug": "hometech-ht-8c",
+    "name": "Hometech HT 8C 1 GB / 16 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 2699,
+    "currency": "TL",
+    "rating": 3.5,
+    "reviewCount": 16,
+    "image": "/images/tablets/hometech-84067.png",
+    "images": [
+      "/images/tablets/hometech-84067.png"
+    ],
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.85 İnç IPS Ekran (4:3 Oran)",
+      "Intel Atom Z3735G 4 Çekirdekli İşlemci",
+      "1 GB RAM & 16 GB Depolama",
+      "4000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7.85,
+      "screenResolution": "1024 x 768",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735G (4 Çekirdek 1.83 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 4000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 310,
+      "os": "Android 5.1 (Lollipop)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-ht8c-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 2699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.1,
+        "sellerReviews": 18,
+        "url": "https://www.epey.com/tablet/hometech-ht-8c.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2017-01-01",
+        "price": 649,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2699,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hometech-ideal-8s-1-8",
+    "slug": "hometech-ideal-8s",
+    "name": "Hometech İdeal 8S 1 GB / 8 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 2399,
+    "currency": "TL",
+    "rating": 3.5,
+    "reviewCount": 15,
+    "image": "/images/tablets/hometech-55657.png",
+    "images": [
+      "/images/tablets/hometech-55657.png"
+    ],
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8.0 İnç HD IPS Ekran",
+      "MediaTek MT8127 4 Çekirdekli İşlemci",
+      "1 GB RAM & 8 GB Depolama",
+      "4000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "MediaTek MT8127 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 4000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 330,
+      "os": "Android 5.1 (Lollipop)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-ideal8s-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 2399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4,
+        "sellerReviews": 16,
+        "url": "https://www.epey.com/tablet/hometech-ideal-8s.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2017-01-01",
+        "price": 549,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2399,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "reeder-m7-1-8",
     "slug": "reeder-m7-marshmallow",
     "name": "Reeder M7 1 GB / 8 GB (Android 6 Marshmallow)",
@@ -33695,6 +34103,74 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "hometech-w735-1-16",
+    "slug": "hometech-w735",
+    "name": "Hometech W735 1 GB / 16 GB (Windows 8.1)",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 2399,
+    "currency": "TL",
+    "rating": 3.5,
+    "reviewCount": 14,
+    "image": "/images/tablets/hometech-25910.png",
+    "images": [
+      "/images/tablets/hometech-25910.png"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç IPS Ekran",
+      "Intel Atom Z3735G 4 Çekirdekli İşlemci",
+      "1 GB RAM & 16 GB Depolama",
+      "Windows 8.1 with Bing"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735G (4 Çekirdek 1.83 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 3000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 280,
+      "os": "Windows 8.1 with Bing",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-w735-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 2399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Windows"
+        ],
+        "sellerRating": 4,
+        "sellerReviews": 14,
+        "url": "https://www.epey.com/tablet/hometech-w735.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2016-01-01",
+        "price": 449,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2399,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "reeder-a8ic-noir-1-8",
     "slug": "reeder-a8ic-noir",
     "name": "Reeder A8iC Noir 1 GB / 8 GB",
@@ -33759,6 +34235,142 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 1599,
         "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "hometech-ultra-tab-7-1-16",
+    "slug": "hometech-ultra-tab-7-16gb",
+    "name": "Hometech Ultra Tab 7 1 GB / 16 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 2299,
+    "currency": "TL",
+    "rating": 3.4,
+    "reviewCount": 14,
+    "image": "/images/tablets/hometech-58727.png",
+    "images": [
+      "/images/tablets/hometech-58727.png"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç IPS Ekran",
+      "Intel Atom Z3735G 4 Çekirdekli İşlemci",
+      "1 GB RAM & 16 GB Depolama",
+      "2800 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735G (4 Çekirdek 1.83 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 2800,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 270,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-ultratab7-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 2299,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4,
+        "sellerReviews": 15,
+        "url": "https://www.epey.com/tablet/hometech-ultra-tab-7-16gb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2016-01-01",
+        "price": 399,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2299,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "hometech-pro-tab-7-1-16",
+    "slug": "hometech-pro-tab-7",
+    "name": "Hometech Pro Tab 7 1 GB / 16 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 2299,
+    "currency": "TL",
+    "rating": 3.4,
+    "reviewCount": 12,
+    "image": "/images/tablets/hometech-3848.png",
+    "images": [
+      "/images/tablets/hometech-3848.png"
+    ],
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç IPS Ekran",
+      "Intel Atom Z3735G 4 Çekirdekli İşlemci",
+      "1 GB RAM & 16 GB Depolama",
+      "Android 4.4 KitKat"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "1024 x 600",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Intel Atom Z3735G (4 Çekirdek 1.83 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 2800,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 270,
+      "os": "Android 4.4 (KitKat)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-protab7-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 2299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4,
+        "sellerReviews": 12,
+        "url": "https://www.epey.com/tablet/hometech-pro-tab-7.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2016-01-01",
+        "price": 399,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2299,
+        "store": "Amazon TR"
       }
     ]
   },
@@ -36360,6 +36972,142 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "hometech-quad-tab-1-16",
+    "slug": "hometech-quad-tab",
+    "name": "Hometech Quad Tab 1 GB / 16 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 2299,
+    "currency": "TL",
+    "rating": 3.4,
+    "reviewCount": 14,
+    "image": "/images/tablets/hometech-1370.png",
+    "images": [
+      "/images/tablets/hometech-1370.png"
+    ],
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.85 İnç IPS Ekran (4:3 Oran)",
+      "Actions ATM7029 4 Çekirdekli İşlemci",
+      "1 GB RAM & 16 GB Depolama",
+      "4000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7.85,
+      "screenResolution": "1024 x 768",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Actions ATM7029 (4 Çekirdek 1.3 GHz)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "batteryMah": 4000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 320,
+      "os": "Android 4.2 (Jelly Bean)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-quadtab-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 2299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4,
+        "sellerReviews": 15,
+        "url": "https://www.epey.com/tablet/hometech-quad-tab.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2015-01-01",
+        "price": 379,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2299,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "hometech-ultra-tab-8-1-8",
+    "slug": "hometech-ultra-tab-8",
+    "name": "Hometech Ultra Tab 8 1 GB / 8 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 2199,
+    "currency": "TL",
+    "rating": 3.4,
+    "reviewCount": 14,
+    "image": "/images/tablets/hometech-3784.png",
+    "images": [
+      "/images/tablets/hometech-3784.png"
+    ],
+    "releaseYear": 2014,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8.0 İnç HD IPS Ekran",
+      "Allwinner A31s 4 Çekirdekli İşlemci",
+      "1 GB RAM & 8 GB Depolama",
+      "4000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1280 x 800",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "processor": "Allwinner A31s (4 Çekirdek 1.0 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 4000,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 340,
+      "os": "Android 4.2 (Jelly Bean)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-ultratab8-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 2199,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 3.9,
+        "sellerReviews": 14,
+        "url": "https://www.epey.com/tablet/hometech-ultra-tab-8.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2015-01-01",
+        "price": 349,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2199,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "hometech-t920-1-8",
     "slug": "hometech-t920",
     "name": "Hometech T920 1 GB / 8 GB",
@@ -38374,6 +39122,74 @@ export const mockTablets: Product[] = [
     ]
   },
   {
+    "id": "hometech-t800-1-8",
+    "slug": "hometech-t800",
+    "name": "Hometech T800 1 GB / 8 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 1999,
+    "currency": "TL",
+    "rating": 3.3,
+    "reviewCount": 11,
+    "image": "/images/tablets/hometech-1357.png",
+    "images": [
+      "/images/tablets/hometech-1357.png"
+    ],
+    "releaseYear": 2013,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8.0 İnç Dokunmatik Ekran (4:3)",
+      "Boxchip A10 İşlemci",
+      "1 GB RAM & 8 GB Depolama",
+      "4400 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 8,
+      "screenResolution": "1024 x 768",
+      "panelType": "TFT LCD",
+      "refreshRateHz": 60,
+      "processor": "Boxchip A10 (1 Çekirdek 1.2 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 4400,
+      "rearCameraMp": "2 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 420,
+      "os": "Android 4.0 (Ice Cream Sandwich)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-t800-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 1999,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 3.8,
+        "sellerReviews": 12,
+        "url": "https://www.epey.com/tablet/hometech-t800.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2014-01-01",
+        "price": 279,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "hometech-ideal-tab-9-1-8",
     "slug": "hometech-ideal-tab-9",
     "name": "Hometech İdeal Tab 9 1 GB / 8 GB",
@@ -38574,6 +39390,74 @@ export const mockTablets: Product[] = [
         "date": "2026-08-01",
         "price": 1099,
         "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "hometech-t720-bt-1-8",
+    "slug": "hometech-t720-bt",
+    "name": "Hometech T720 BT 1 GB / 8 GB",
+    "brand": "Hometech",
+    "category": "tablets",
+    "basePrice": 1799,
+    "currency": "TL",
+    "rating": 3.2,
+    "reviewCount": 10,
+    "image": "/images/tablets/hometech-1354.png",
+    "images": [
+      "/images/tablets/hometech-1354.png"
+    ],
+    "releaseYear": 2013,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 İnç Kompakt Ekran",
+      "Boxchip A13 İşlemci & Bluetooth Desteği",
+      "1 GB RAM & 8 GB Depolama",
+      "3000 mAh Batarya"
+    ],
+    "specs": {
+      "screenSizeInches": 7,
+      "screenResolution": "800 x 480",
+      "panelType": "TFT LCD",
+      "refreshRateHz": 60,
+      "processor": "Boxchip A13 (1 Çekirdek 1.0 GHz)",
+      "ramGb": 1,
+      "storageGb": 8,
+      "batteryMah": 3000,
+      "rearCameraMp": "1.3 MP",
+      "frontCameraMp": "0.3 MP",
+      "weightGrams": 290,
+      "os": "Android 4.0 (Ice Cream Sandwich)",
+      "cellularSupport": "Wi-Fi 4",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-ht-t720bt-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 1799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 3.8,
+        "sellerReviews": 10,
+        "url": "https://www.epey.com/tablet/hometech-t720-bt.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2014-01-01",
+        "price": 219,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1799,
+        "store": "Hepsiburada"
       }
     ]
   },
