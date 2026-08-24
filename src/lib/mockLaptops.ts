@@ -2,6 +2,236 @@ import { LaptopProduct } from './types';
 
 export const mockLaptops: LaptopProduct[] = [
   {
+    "id": "philips-evnia-49m2c8900-00",
+    "slug": "philips-evnia-49m2c8900-00",
+    "name": "Philips Evnia 49M2C8900/00 49\" 144Hz 0.03ms QD-OLED Kavisli Gaming Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 55100,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 98,
+    "reviewCount": 45,
+    "image": "/images/laptops/philips-evnia-49m2c8900.jpg",
+    "images": [
+      "/images/laptops/philips-evnia-49m2c8900.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "48.9 İnç Dual QHD (5120 x 1440) 32:9 Kavisli QD-OLED Panel",
+      "144 Hz Yenileme Hızı & 0.03 ms Ultra Düşük Tepki Süresi",
+      "Ambiglow 3 Taraflı Arka Aydınlatma ile Sürükleyici Atmosfer",
+      "DTS Sound 30W Güçlü Dahili Ses & 90W Type-C Güç Dağıtımı"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "Display Engine AI",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "QD-OLED Gen 3 Gaming Panel",
+      "screenSizeInches": 48.9,
+      "screenResolution": "5120 x 1440 (DQHD 32:9)",
+      "colorGamut": "DCI-P3 99%",
+      "ports": [
+        "2x HDMI 2.1",
+        "1x DP 1.4",
+        "1x USB-C (90W PD)",
+        "USB Hub"
+      ],
+      "weightKg": 13.9,
+      "bodyMaterial": "Evnia Lüks Beyaz Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "so-evnia49-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 55100,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "QD-OLED",
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 110,
+        "url": "https://www.epey.com/monitor/philips-evnia-49m2c8900-00.html"
+      },
+      {
+        "id": "so-evnia49-2",
+        "storeName": "İtopya",
+        "storeLogoColor": "#e62117",
+        "price": 55499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Gaming Özel"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 240,
+        "url": "https://www.epey.com/monitor/philips-evnia-49m2c8900-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 57999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 55100,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-evnia-32m2n8900-00",
+    "slug": "philips-evnia-32m2n8900-00",
+    "name": "Philips Evnia 32M2N8900/00 31.5\" 240Hz 4K UHD QD-OLED Gaming Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 53431,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 99,
+    "reviewCount": 29,
+    "image": "/images/laptops/philips-evnia-32m2n8900.jpg",
+    "images": [
+      "/images/laptops/philips-evnia-32m2n8900.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "31.5 İnç 4K UHD (3840 x 2160) QD-OLED Yeni Nesil Panel",
+      "240 Hz Süper Akıcı Yenileme & 0.03 ms GTG Tepki Süresi",
+      "Ambiglow Yeni Nesil Dinamik RGB Işıklandırma",
+      "USB-C 65W Şarj & KVM Switch ile Çoklu Cihaz Kontrolü"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "QD-OLED Panel Controller",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "240Hz 4K UHD Quantum Dot OLED",
+      "screenSizeInches": 31.5,
+      "screenResolution": "3840 x 2160 (4K UHD)",
+      "colorGamut": "DCI-P3 99%",
+      "ports": [
+        "2x HDMI 2.1",
+        "1x DP 1.4",
+        "1x USB-C (65W PD)",
+        "KVM Switch"
+      ],
+      "weightKg": 8.7,
+      "bodyMaterial": "Koyu Grafit"
+    },
+    "storeOffers": [
+      {
+        "id": "so-evnia32-1",
+        "storeName": "Vatan",
+        "storeLogoColor": "#0047ba",
+        "price": 53431,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "240Hz 4K OLED"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 85,
+        "url": "https://www.epey.com/monitor/philips-evnia-32m2n8900-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 54999,
+        "store": "Vatan"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 53431,
+        "store": "Vatan"
+      }
+    ]
+  },
+  {
+    "id": "philips-evnia-49m2c8900l-00",
+    "slug": "philips-evnia-49m2c8900l-00",
+    "name": "Philips Evnia 49M2C8900L/00 49\" 144Hz QD-OLED Kavisli Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 47999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 96,
+    "reviewCount": 34,
+    "image": "/images/laptops/philips-evnia-49m2c8900l.jpg",
+    "images": [
+      "/images/laptops/philips-evnia-49m2c8900l.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "48.9 İnç Kavisli QD-OLED Panel",
+      "144 Hz Hız & 0.03 ms Tepki Süresi",
+      "KVM Switch ile Çift Bilgisayar Tek Klavye/Mouse Kullanımı",
+      "Ambiglow Atmosfer Aydınlatması"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "Display Processing Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "Curved QD-OLED Display Panel",
+      "screenSizeInches": 48.9,
+      "screenResolution": "5120 x 1440 (DQHD)",
+      "colorGamut": "sRGB 100%",
+      "ports": [
+        "HDMI 2.1",
+        "DisplayPort 1.4",
+        "USB-C"
+      ],
+      "weightKg": 13.5,
+      "bodyMaterial": "Beyaz / Gümüş"
+    },
+    "storeOffers": [
+      {
+        "id": "so-evnia49l-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 47999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 60,
+        "url": "https://www.epey.com/monitor/philips-evnia-49m2c8900l-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 49999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 47999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "apple-macbook-pro-16-2-m5-max-18cpu-40gpu-mge94tu-a",
     "slug": "apple-macbook-pro-16-2-m5-max-18cpu-40gpu-mge94tu-a",
     "name": "Apple MacBook Pro 16.2\" M5 Max (18CPU/40GPU) (MGE94TU/A) Gümüş",

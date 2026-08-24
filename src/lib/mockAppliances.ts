@@ -2,6 +2,1034 @@ import { ApplianceProduct } from './types';
 
 export const mockAppliances: ApplianceProduct[] = [
   {
+    "id": "philips-perfectcare-9000-psg9050-20",
+    "slug": "philips-perfectcare-9000-psg9050-20",
+    "name": "Philips PerfectCare 9000 PSG9050/20 Akıllı Kumaş Tanımalı Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 28499,
+    "currency": "TL",
+    "rating": 5,
+    "epeyScore": 98,
+    "reviewCount": 420,
+    "image": "/images/appliances/philips-psg9050-20.jpg",
+    "images": [
+      "/images/appliances/philips-psg9050-20.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "ActiveSense Kumaş Tanıma Yapay Zeka Kamerası",
+      "9.0 Bar Maksimum Basınç & 750g Şok Buhar",
+      "Sıfır Yanık Riski (OptimalTEMP Teknolojisi)",
+      "Ultra Sessiz Buhar Teknolojisi & Çıkarılabilir 1.8L Su Tankı"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 3100,
+      "steamOutputGramsPerMin": 180,
+      "steamBoostGramsPerMin": 750,
+      "pressureBar": 9,
+      "waterTankCapacityLiters": 1.8,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 5.5,
+      "warrantyYears": 2,
+      "color": "Koyu Mor / Altın"
+    },
+    "storeOffers": [
+      {
+        "id": "so-psg9050-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 28499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1420,
+        "url": "https://www.epey.com/utu/philips-perfectcare-9000-psg9050-20.html"
+      },
+      {
+        "id": "so-psg9050-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/utu/philips-perfectcare-9000-psg9050-20.html"
+      },
+      {
+        "id": "so-psg9050-3",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "#df0000",
+        "price": 29499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Mağazadan Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 950,
+        "url": "https://www.epey.com/utu/philips-perfectcare-9000-psg9050-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 29999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 28999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 28499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-8000-psg8300-30",
+    "slug": "philips-perfectcare-8000-psg8300-30",
+    "name": "Philips PerfectCare 8000 PSG8300/30 Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 23979.29,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 275,
+    "image": "/images/appliances/philips-psg8300-30.jpg",
+    "images": [
+      "/images/appliances/philips-psg8300-30.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Akıllı Hareket Sensörü ile Otomatik Buhar Püskürtme",
+      "8.5 Bar Buhar Basıncı & 700g Şok Buhar",
+      "OptimalTEMP Kumaş Koruma (Sıcaklık Ayarı Gerektirmez)",
+      "SteamGlide Elite Taban ile Kusursuz Kayganlık"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2700,
+      "steamOutputGramsPerMin": 170,
+      "steamBoostGramsPerMin": 700,
+      "pressureBar": 8.5,
+      "waterTankCapacityLiters": 1.8,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 4.9,
+      "warrantyYears": 2,
+      "color": "Gece Mavisi / Bakır"
+    },
+    "storeOffers": [
+      {
+        "id": "so-psg8300-30-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 23979.29,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Resmi Garanti"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/utu/philips-perfectcare-8000-psg8300-30.html"
+      },
+      {
+        "id": "so-psg8300-30-2",
+        "storeName": "Vatan",
+        "storeLogoColor": "#0047ba",
+        "price": 24499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Ürün"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/utu/philips-perfectcare-8000-psg8300-30.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 24999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 23979.29,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-8000-psg8300-20",
+    "slug": "philips-perfectcare-8000-psg8300-20",
+    "name": "Philips PerfectCare 8000 PSG8300/20 Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 22295,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 312,
+    "image": "/images/appliances/philips-psg8300-20.jpg",
+    "images": [
+      "/images/appliances/philips-psg8300-20.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "OptimalTEMP Sıfır Yanık Garantisi",
+      "8.5 Bar Yüksek Basınç & 650g Şok Buhar",
+      "Easy De-Calc Plus Kolay Kireç Temizleme Sistemi",
+      "Ultra Hafif Ütü Gövdesi (800g)"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2700,
+      "steamOutputGramsPerMin": 165,
+      "steamBoostGramsPerMin": 650,
+      "pressureBar": 8.5,
+      "waterTankCapacityLiters": 1.8,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 4.8,
+      "warrantyYears": 2,
+      "color": "Beyaz / Rose Gold"
+    },
+    "storeOffers": [
+      {
+        "id": "so-psg8300-20-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 22295,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1800,
+        "url": "https://www.epey.com/utu/philips-perfectcare-8000-psg8300-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 22999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 22295,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-8000-psg8200-70",
+    "slug": "philips-perfectcare-8000-psg8200-70",
+    "name": "Philips PerfectCare 8000 PSG8200/70 Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 20999,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 145,
+    "image": "/images/appliances/philips-psg8200-70.jpg",
+    "images": [
+      "/images/appliances/philips-psg8200-70.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "8.0 Bar Basınç & 600g Güçlü Şok Buhar",
+      "SteamGlide Elite Çizilmeye Dayanıklı Taban",
+      "Otomatik Kapanma ve Taşıma Kilidi Güvenliği",
+      "Dikey Buhar Verme Özelliği ile Perde & Elbise Bakımı"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2600,
+      "steamOutputGramsPerMin": 160,
+      "steamBoostGramsPerMin": 600,
+      "pressureBar": 8,
+      "waterTankCapacityLiters": 1.8,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 4.7,
+      "warrantyYears": 2,
+      "color": "Mavi / Gümüş"
+    },
+    "storeOffers": [
+      {
+        "id": "so-psg8200-70-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#ff6700",
+        "price": 20999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 760,
+        "url": "https://www.epey.com/utu/philips-perfectcare-8000-psg8200-70.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 21999,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 20999,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "philips-shaver-s9711-31",
+    "slug": "philips-shaver-s9711-31",
+    "name": "Philips Shaver Series 9000 S9711/31 Islak Kuru Tıraş Makinesi & SmartClean",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 145800.23,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 96,
+    "reviewCount": 198,
+    "image": "/images/appliances/philips-shaver-s9711-31.jpg",
+    "images": [
+      "/images/appliances/philips-shaver-s9711-31.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "8 Yönlü Esneyen V-Track Hassas Bıçak Sistemi",
+      "SmartClean PRO Temizleme ve Şarj Ünitesi",
+      "Kişiselleştirilmiş Konfor Ayarları (Hassas/Normal/Hızlı)",
+      "Dijital Kullanıcı Arayüzü & Dijital Pil Göstergesi"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Tıraş Makinesi",
+      "powerWatts": 9,
+      "batteryRuntimeMin": 60,
+      "chargeTimeHours": 1,
+      "quickChargeMin": 5,
+      "wetDryUsage": true,
+      "bladeMaterial": "V-Track Hassas Çelik",
+      "autoCleanDock": true,
+      "weightKg": 0.28,
+      "warrantyYears": 2,
+      "color": "Lüks Metalik Krom / Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-s9711-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 145800.23,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Premium İthalat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 120,
+        "url": "https://www.epey.com/tiras-makinesi/philips-shaver-s9711-31.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 149000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 145800.23,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-multigroom-7720-15",
+    "slug": "philips-multigroom-7720-15",
+    "name": "Philips Multigroom 7720/15 14'ü 1 Arada Yüz, Saç ve Vücut Erkek Bakım Seti",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 15679.91,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 97,
+    "reviewCount": 650,
+    "image": "/images/appliances/philips-mg7720-15.jpg",
+    "images": [
+      "/images/appliances/philips-mg7720-15.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "DualCut Teknolojisi ile Maksimum Hassasiyet & Kendiliğinden Bilenebilen Bıçaklar",
+      "Tamamen Metal Tıraş Gövdesi & Kaymaz Kauçuk Tutma Yeri",
+      "5 Saate Kadar Kesintisiz Çalışma Süresi (Lityum-İyon)",
+      "Suya Yüzde Yüz Dayanıklı (Duşta Kullanılabilir & Yıkanabilir)"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Tıraş & Bakım Kiti",
+      "powerWatts": 5,
+      "batteryRuntimeMin": 300,
+      "chargeTimeHours": 2,
+      "quickChargeMin": 5,
+      "wetDryUsage": true,
+      "bladeMaterial": "Kendiliğinden Bilenebilen Paslanmaz Çelik",
+      "weightKg": 0.35,
+      "warrantyYears": 5,
+      "color": "Fırçalanmış Paslanmaz Çelik"
+    },
+    "storeOffers": [
+      {
+        "id": "so-mg7720-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 15679.91,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal",
+          "5 Yıl Garanti"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tiras-makinesi/philips-multigroom-7720-15.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 16499,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 15679.91,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-norelco-multigroom-7000",
+    "slug": "philips-norelco-multigroom-7000",
+    "name": "Philips Norelco Multigroom 7000 Çok Amaçlı Premium Bakım Kiti",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 9635,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 390,
+    "image": "/images/appliances/philips-norelco-7000.jpg",
+    "images": [
+      "/images/appliances/philips-norelco-7000.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "DualCut Çelik Bıçaklar & Paslanmaz Çelik Gövde",
+      "5 Saat Pil Ömrü & Hızlı Şarj",
+      "23 Parça Aksesuar & Hassas Sakal Tarağı",
+      "Duşta Kullanım & Kolay Temizlik"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Tıraş & Bakım Kiti",
+      "batteryRuntimeMin": 300,
+      "chargeTimeHours": 2,
+      "wetDryUsage": true,
+      "bladeMaterial": "DualCut Paslanmaz Çelik",
+      "weightKg": 0.32,
+      "warrantyYears": 2,
+      "color": "Gümüş / Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-norelco-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 9635,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 870,
+        "url": "https://www.epey.com/tiras-makinesi/philips-norelco-multigroom-7000.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 9999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9635,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-8000-serisi-s8692-35",
+    "slug": "philips-8000-serisi-s8692-35",
+    "name": "Philips Shaver Series 8000 S8692/35 SkinIQ Islak Kuru Tıraş Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 8447.67,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 260,
+    "image": "/images/appliances/philips-s8692-35.jpg",
+    "images": [
+      "/images/appliances/philips-s8692-35.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "SkinIQ Teknolojisi & Power Adapt Sensörü ile Sakal Yoğunluğuna Göre Güç Ayarı",
+      "SteelPrecision Kendiliğinden Bilenebilen Bıçaklar",
+      "360-D Esnek Başlıklar ile Yüz Kıvrımlarına Tam Uyum",
+      "Kablosuz Hızlı Temizleme Kartuşu (Quick Clean Pod)"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Tıraş Makinesi",
+      "batteryRuntimeMin": 60,
+      "chargeTimeHours": 1,
+      "wetDryUsage": true,
+      "bladeMaterial": "SteelPrecision Çelik",
+      "autoCleanDock": true,
+      "weightKg": 0.24,
+      "warrantyYears": 2,
+      "color": "Koyu Gece Mavisi"
+    },
+    "storeOffers": [
+      {
+        "id": "so-s8692-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 8447.67,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1650,
+        "url": "https://www.epey.com/tiras-makinesi/philips-8000-serisi-s8692-35.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8447.67,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-5000-serisi-s5587-10",
+    "slug": "philips-5000-serisi-s5587-10",
+    "name": "Philips Shaver Series 5000 S5587/10 SteelPrecision Tıraş Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 6879.1,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 410,
+    "image": "/images/appliances/philips-s5587-10.png",
+    "images": [
+      "/images/appliances/philips-s5587-10.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Dakikada 90.000 Kesme Hareketi Yapan SteelPrecision Bıçaklar",
+      "Power Adapt Sensörü ile Sakalı Saniyede 125 Kez Okuma",
+      "360 Derece Esneyen Döner Başlıklar",
+      "Entegre Hassas Bıyık ve Favori Düzeltici"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Tıraş Makinesi",
+      "batteryRuntimeMin": 60,
+      "chargeTimeHours": 1,
+      "wetDryUsage": true,
+      "bladeMaterial": "SteelPrecision",
+      "weightKg": 0.22,
+      "warrantyYears": 2,
+      "color": "Grafit Grisi"
+    },
+    "storeOffers": [
+      {
+        "id": "so-s5587-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 6879.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2400,
+        "url": "https://www.epey.com/tiras-makinesi/philips-5000-serisi-s5587-10.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 7299,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6879.1,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-7000-serisi-mg7940-15",
+    "slug": "philips-7000-serisi-mg7940-15",
+    "name": "Philips Multigroom Series 7000 MG7940/15 14'ü 1 Arada Bakım Kiti",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 4692,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 610,
+    "image": "/images/appliances/philips-mg7940-15.jpg",
+    "images": [
+      "/images/appliances/philips-mg7940-15.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "14 Farklı Başlık ile Sakal, Saç, Kulak, Burun ve Vücut Bakımı",
+      "BeardSense Akıllı Sakal Algılama Sensörü",
+      "Kendiliğinden Bilenebilen Paslanmaz Çelik Bıçaklar",
+      "120 Dakika Çalışma Süresi & USB-A Kolay Şarj"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Tıraş & Bakım Kiti",
+      "batteryRuntimeMin": 120,
+      "chargeTimeHours": 1,
+      "wetDryUsage": true,
+      "bladeMaterial": "Paslanmaz Çelik",
+      "weightKg": 0.28,
+      "warrantyYears": 2,
+      "color": "Gümüş Metalik / Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-mg7940-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 4692,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2900,
+        "url": "https://www.epey.com/tiras-makinesi/philips-7000-serisi-mg7940-15.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 4999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4692,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-7000-serisi-mg7920-15",
+    "slug": "philips-7000-serisi-mg7920-15",
+    "name": "Philips Multigroom Series 7000 MG7920/15 13'ü 1 Arada Bakım Kiti",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 3981,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 540,
+    "image": "/images/appliances/philips-mg7920-15.jpg",
+    "images": [
+      "/images/appliances/philips-mg7920-15.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "13 Parça Çok Yönlü Bakım Aksesuarı",
+      "BeardSense Sakal Yoğunluğu Okuma Teknolojisi",
+      "120 Dakikaya Varan Pil Ömrü",
+      "%100 Su Geçirmezlik"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Tıraş & Bakım Kiti",
+      "batteryRuntimeMin": 120,
+      "chargeTimeHours": 1,
+      "wetDryUsage": true,
+      "bladeMaterial": "Paslanmaz Çelik",
+      "weightKg": 0.27,
+      "warrantyYears": 2,
+      "color": "Gümüş / Gri"
+    },
+    "storeOffers": [
+      {
+        "id": "so-mg7920-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 3981,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.epey.com/tiras-makinesi/philips-7000-serisi-mg7920-15.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 4299,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3981,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-aquatouch-s5070-06",
+    "slug": "philips-aquatouch-s5070-06",
+    "name": "Philips AquaTouch S5070/06 Islak Kuru Döner Başlıklı Tıraş Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 24749,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 320,
+    "image": "/images/appliances/philips-aquatouch-s5070.jpg",
+    "images": [
+      "/images/appliances/philips-aquatouch-s5070.jpg"
+    ],
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "ComfortCut Bıçak Sistemi ile Yuvarlak Kenarlı Koruma",
+      "5 Yöne Esneyen DynamicFlex Başlıklar",
+      "AquaTec Islak ve Kuru Tıraş İmkânı",
+      "SmartClick Hassas Düzeltici Başlık"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Tıraş Makinesi",
+      "batteryRuntimeMin": 40,
+      "chargeTimeHours": 1,
+      "wetDryUsage": true,
+      "bladeMaterial": "ComfortCut Çelik",
+      "weightKg": 0.21,
+      "warrantyYears": 2,
+      "color": "Mavi / Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-s5070-1",
+        "storeName": "Vatan",
+        "storeLogoColor": "#0047ba",
+        "price": 24749,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 620,
+        "url": "https://www.epey.com/tiras-makinesi/philips-aquatouch-s5070-06.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 25999,
+        "store": "Vatan"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 24749,
+        "store": "Vatan"
+      }
+    ]
+  },
+  {
+    "id": "philips-sonicare-protectiveclean-5100",
+    "slug": "philips-sonicare-protectiveclean-5100",
+    "name": "Philips Sonicare ProtectiveClean 5100 Şarjlı Sonik Diş Fırçası",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 3499,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 186,
+    "image": "/images/appliances/philips-sonicare-5100.jpg",
+    "images": [
+      "/images/appliances/philips-sonicare-5100.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Dakikada 62.000 Fırça Hareketi ile Sonik Temizlik",
+      "Basınç Sensörü ile Diş Etlerini Fazla Baskıdan Koruma",
+      "3 Temizleme Modu: Temizleme, Beyazlatma, Diş Eti Bakımı",
+      "BrushSync Başlık Değiştirme Hatırlatıcısı & 2 Haftalık Pil Ömrü"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Elektrikli Diş Fırçası",
+      "batteryRuntimeMin": 280,
+      "programsCount": 3,
+      "wetDryUsage": true,
+      "weightKg": 0.18,
+      "warrantyYears": 2,
+      "color": "Pastel Pembe / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-sonicare-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Sağlık & Bakım"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1300,
+        "url": "https://www.epey.com/elektrikli-dis-fircasi/philips-philips-sonicare-protectiveclean-5100.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3799,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-hr3770-00",
+    "slug": "philips-hr3770-00",
+    "name": "Philips Flip & Juice HR3770/00 Katı Meyve Sıkacaklı Blender",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 7167.62,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 195,
+    "image": "/images/appliances/philips-hr3770-00.jpg",
+    "images": [
+      "/images/appliances/philips-hr3770-00.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Flip & Juice Teknolojisi: Hem Blender Hem Katı Meyve Sıkacağı",
+      "ProBlend Ultra Teknolojisi & 1500W Güçlü Motor",
+      "2 Litre Geniş Tritan Sürahi (BPA İçermez)",
+      "NutriU Uygulama Desteği ve 8 Hızlı Program"
+    ],
+    "specs": {
+      "subCategory": "blender",
+      "subCategoryLabel": "Mutfak Şefi & Blender",
+      "powerWatts": 1500,
+      "capacity": "2.0 L",
+      "programsCount": 8,
+      "dishwasherSafeParts": true,
+      "weightKg": 4.1,
+      "warrantyYears": 2,
+      "color": "Gümüş Metalik / Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hr3770-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 7167.62,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çok Satan"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1400,
+        "url": "https://www.epey.com/blender/philips-hr3770-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 7499,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7167.62,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-power-alkaline-aa-12li",
+    "slug": "philips-power-alkaline-aa-12li",
+    "name": "Philips Power Alkaline AA 12'li Kalem Pil Paketi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 298,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 520,
+    "image": "/images/appliances/philips-alkaline-aa-12li.jpg",
+    "images": [
+      "/images/appliances/philips-alkaline-aa-12li.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Yüksek Enerji Yoğunluklu Power Alkaline Formülü",
+      "10 Yıla Kadar Gücünü Koruyan Raf Ömrü",
+      "Kadmiyum ve Cıva İçermez (Çevre Dostu)",
+      "Tüm Akıllı Ev ve Kumanda Cihazlarıyla %100 Uyumlu"
+    ],
+    "specs": {
+      "subCategory": "power_station",
+      "subCategoryLabel": "Pil & Güç",
+      "batteryCapacityMah": 2800,
+      "warrantyYears": 2,
+      "color": "Mavi / Altın"
+    },
+    "storeOffers": [
+      {
+        "id": "so-alkaline-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 298,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "12'li Paket",
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4300,
+        "url": "https://www.epey.com/pil/philips-power-alkaline-aa-12li-kalem.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 320,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 298,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "roborock-saros-20-sonic",
     "slug": "roborock-saros-20-sonic",
     "name": "Roborock Saros 20 Sonic Robot Süpürge & Paspas",

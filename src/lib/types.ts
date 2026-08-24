@@ -42,6 +42,12 @@ export interface ApplianceSpecs {
   capacity?: string;
   suctionPowerPa?: number;
   batteryRuntimeMin?: number;
+  chargeTimeHours?: number;
+  quickChargeMin?: number;
+  wetDryUsage?: boolean;
+  bladeMaterial?: string;
+  dishwasherSafeParts?: boolean;
+  batteryCapacityMah?: number;
   noiseLevelDb?: number;
   autoCleanDock?: boolean;
   autoEmptyStation?: boolean;
@@ -50,6 +56,12 @@ export interface ApplianceSpecs {
   programsCount?: number;
   pressureBar?: number;
   steamOutputGpm?: number;
+  steamOutputGramsPerMin?: number;
+  steamBoostGramsPerMin?: number;
+  waterTankCapacityLiters?: number;
+  continuousSteam?: boolean;
+  autoShutOff?: boolean;
+  antiCalcSystem?: boolean;
   material?: string;
   weightKg?: number;
   warrantyYears?: number;

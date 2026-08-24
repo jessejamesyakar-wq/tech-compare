@@ -2,6 +2,90 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "philips-m10-pro",
+    "slug": "philips-m10-pro",
+    "name": "Philips M10 Pro 4 GB RAM / 64 GB LTE Tablet",
+    "brand": "Philips",
+    "category": "tablets",
+    "basePrice": 18985.2,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 87,
+    "reviewCount": 42,
+    "image": "/images/tablets/philips-m10-pro.jpg",
+    "images": [
+      "/images/tablets/philips-m10-pro.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "10.1 İnç Full HD IPS Parlak Ekran",
+      "4G LTE SIM Kart Desteği ile Her Yerde İnternet",
+      "Metalik Şık ve İnce Alüminyum Gövde",
+      "6000 mAh Uzun Ömürlü Batarya & Stereo Çift Hoparlör"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1920 x 1200 (FHD)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Octa-Core 2.0 GHz İşlemci",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 6000,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 510,
+      "os": "Android 13",
+      "cellularSupport": "4G LTE + Wi-Fi 5",
+      "stylusIncluded": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-m10pro-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 18985.2,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "LTE Desteği",
+          "Resmi Garanti"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.epey.com/tablet/philips-m10-pro.html"
+      },
+      {
+        "id": "so-m10pro-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 19499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 180,
+        "url": "https://www.epey.com/tablet/philips-m10-pro.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 19999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18985.2,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "oneplus-pad-3-pro-16-512",
     "slug": "oneplus-pad-3-pro-16gb-512gb",
     "name": "OnePlus Pad 3 Pro 16 GB / 512 GB",

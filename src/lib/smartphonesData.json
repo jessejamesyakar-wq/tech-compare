@@ -1,5 +1,139 @@
 [
   {
+    "id": "philips-xenium-x818",
+    "slug": "philips-xenium-x818",
+    "name": "Philips Xenium X818 32 GB",
+    "brand": "Philips",
+    "category": "smartphones",
+    "basePrice": 4999,
+    "currency": "TL",
+    "rating": 4.2,
+    "epeyScore": 82,
+    "reviewCount": 28,
+    "image": "/images/phones/philips-xenium-x818.png",
+    "images": [
+      "/images/phones/philips-xenium-x818.png"
+    ],
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "SoftBlue Göz Koruma Ekran Teknolojisi",
+      "Anti-Bakteriyel Kaplamalı Cam Panel",
+      "3900 mAh Yüksek Kapasiteli Xenium Batarya",
+      "16 MP PDAF Otomatik Odaklamalı Arka Kamera"
+    ],
+    "specs": {
+      "screenSizeInches": 5.5,
+      "screenResolution": "1080 x 1920 (FHD)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek Helio P10 (MT6755)",
+      "ramGb": 3,
+      "storageGb": 32,
+      "batteryMah": 3900,
+      "rearCameraMp": "16 MP",
+      "frontCameraMp": "8 MP",
+      "weightGrams": 168,
+      "os": "Android"
+    },
+    "storeOffers": [
+      {
+        "id": "so-x818-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 120,
+        "url": "https://www.epey.com/akilli-telefonlar/philips-xenium-x818.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 5299,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-s318",
+    "slug": "philips-s318",
+    "name": "Philips S318 16 GB",
+    "brand": "Philips",
+    "category": "smartphones",
+    "basePrice": 3299,
+    "currency": "TL",
+    "rating": 4.1,
+    "epeyScore": 78,
+    "reviewCount": 19,
+    "image": "/images/phones/philips-s318.png",
+    "images": [
+      "/images/phones/philips-s318.png"
+    ],
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Kompakt 5.0 İnç IPS Ekran",
+      "4G LTE Bağlantı Desteği",
+      "Dahili Kızılötesi IR Kumanda Özelliği",
+      "Uzun Bekleme Süreli Pil Performansı"
+    ],
+    "specs": {
+      "screenSizeInches": 5,
+      "screenResolution": "720 x 1280 (HD)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "MediaTek Dört Çekirdek",
+      "ramGb": 2,
+      "storageGb": 16,
+      "batteryMah": 2500,
+      "rearCameraMp": "8 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 155,
+      "os": "Android"
+    },
+    "storeOffers": [
+      {
+        "id": "so-s318-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 3299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta"
+        ],
+        "sellerRating": 4.6,
+        "sellerReviews": 85,
+        "url": "https://www.epey.com/akilli-telefonlar/philips-s318.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3299,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "samsung-galaxy-z-fold8-ultra",
     "slug": "samsung-galaxy-z-fold8-ultra",
     "name": "Samsung Galaxy Z Fold8 Ultra",
