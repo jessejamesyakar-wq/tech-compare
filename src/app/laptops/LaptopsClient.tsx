@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { LaptopProduct } from '@/lib/types';
 import { LaptopFilterSidebar, LaptopFilterState } from '@/components/catalog/LaptopFilterSidebar';
@@ -15,10 +15,13 @@ import {
   RotateCcw
 } from 'lucide-react';
 
+const ITEMS_PER_PAGE = 20;
+
 export default function LaptopsClient({ initialLaptops }: { initialLaptops: LaptopProduct[] }) {
   const [laptops] = useState<LaptopProduct[]>(initialLaptops);
   const [loading, setLoading] = useState<boolean>(false);
   const [mobileFilterOpen, setMobileFilterOpen] = useState<boolean>(false);
+  const [visibleCount, setVisibleCount] = useState<number>(ITEMS_PER_PAGE);
 
   // Filter State
   const [filters, setFilters] = useState<LaptopFilterState>({
@@ -37,72 +40,80 @@ export default function LaptopsClient({ initialLaptops }: { initialLaptops: Lapt
   const [sortBy, setSortBy] = useState<string>('best');
 
   // Filter Logic
-  const filteredLaptops = laptops.filter((laptop) => {
-    // Brand filter
-    if (filters.brands.length > 0) {
-      if (!filters.brands.some((b) => b.toLowerCase() === laptop.brand.toLowerCase())) {
+  const filteredLaptops = useMemo(() => {
+    return laptops.filter((laptop) => {
+      // Brand filter
+      if (filters.brands.length > 0) {
+        if (!filters.brands.some((b) => b.toLowerCase() === laptop.brand.toLowerCase())) {
+          return false;
+        }
+      }
+
+      // Apple Series filter
+      if (filters.appleSeries && filters.appleSeries.length > 0) {
+        const matchApple = filters.appleSeries.some((s) =>
+          laptop.brand.toLowerCase() === 'apple' &&
+          (laptop.name.toLowerCase().includes(s.toLowerCase()) ||
+           laptop.slug.toLowerCase().includes(s.toLowerCase().replace(' ', '-')))
+        );
+        if (!matchApple) return false;
+      }
+
+      // Lenovo Series filter
+      if (filters.lenovoSeries && filters.lenovoSeries.length > 0) {
+        const matchSeries = filters.lenovoSeries.some((s) =>
+          laptop.name.toLowerCase().includes(s.toLowerCase()) ||
+          laptop.slug.toLowerCase().includes(s.toLowerCase())
+        );
+        if (!matchSeries) return false;
+      }
+
+      // Product Type filter
+      if (filters.productTypes.length > 0) {
+        if (!filters.productTypes.includes(laptop.specs?.productType || laptop.productType)) {
+          return false;
+        }
+      }
+
+      // Price filter
+      if (laptop.basePrice < filters.minPrice || laptop.basePrice > filters.maxPrice) {
         return false;
       }
-    }
 
-    // Apple Series filter
-    if (filters.appleSeries && filters.appleSeries.length > 0) {
-      const matchApple = filters.appleSeries.some((s) =>
-        laptop.brand.toLowerCase() === 'apple' &&
-        (laptop.name.toLowerCase().includes(s.toLowerCase()) ||
-         laptop.slug.toLowerCase().includes(s.toLowerCase().replace(' ', '-')))
-      );
-      if (!matchApple) return false;
-    }
-
-    // Lenovo Series filter
-    if (filters.lenovoSeries && filters.lenovoSeries.length > 0) {
-      const matchSeries = filters.lenovoSeries.some((s) =>
-        laptop.name.toLowerCase().includes(s.toLowerCase()) ||
-        laptop.slug.toLowerCase().includes(s.toLowerCase())
-      );
-      if (!matchSeries) return false;
-    }
-
-    // Product Type filter
-    if (filters.productTypes.length > 0) {
-      if (!filters.productTypes.includes(laptop.specs?.productType || laptop.productType)) {
+      // Screen size filter
+      const inch = laptop.specs?.screenSizeInches || 15.6;
+      if (inch < filters.minScreenInch || inch > filters.maxScreenInch) {
         return false;
       }
-    }
 
-    // Price filter
-    if (laptop.basePrice < filters.minPrice || laptop.basePrice > filters.maxPrice) {
-      return false;
-    }
+      // Search query
+      if (filters.searchQuery) {
+        const q = filters.searchQuery.toLowerCase();
+        const matchName = laptop.name.toLowerCase().includes(q);
+        const matchBrand = laptop.brand.toLowerCase().includes(q);
+        const matchChip = (laptop.specs?.processor || '').toLowerCase().includes(q);
+        if (!matchName && !matchBrand && !matchChip) return false;
+      }
 
-    // Screen size filter
-    const inch = laptop.specs?.screenSizeInches || 15.6;
-    if (inch < filters.minScreenInch || inch > filters.maxScreenInch) {
-      return false;
-    }
-
-    // Search query
-    if (filters.searchQuery) {
-      const q = filters.searchQuery.toLowerCase();
-      const matchName = laptop.name.toLowerCase().includes(q);
-      const matchBrand = laptop.brand.toLowerCase().includes(q);
-      const matchChip = (laptop.specs?.processor || '').toLowerCase().includes(q);
-      if (!matchName && !matchBrand && !matchChip) return false;
-    }
-
-    return true;
-  });
+      return true;
+    });
+  }, [laptops, filters]);
 
   // Sort Logic
-  const sortedLaptops = [...filteredLaptops].sort((a, b) => {
-    if (sortBy === 'priceAsc') return a.basePrice - b.basePrice;
-    if (sortBy === 'priceDesc') return b.basePrice - a.basePrice;
-    if (sortBy === 'newest') return (b.releaseYear || 2025) - (a.releaseYear || 2025);
-    if (sortBy === 'rating') return (b.rating || 0) - (a.rating || 0);
-    // 'best' default sort: combination of rating score and isPopular/isFeatured
-    return (b.rating || 0) * 100 + (b.reviewCount || 0) - ((a.rating || 0) * 100 + (a.reviewCount || 0));
-  });
+  const sortedLaptops = useMemo(() => {
+    return [...filteredLaptops].sort((a, b) => {
+      if (sortBy === 'priceAsc') return a.basePrice - b.basePrice;
+      if (sortBy === 'priceDesc') return b.basePrice - a.basePrice;
+      if (sortBy === 'newest') return (b.releaseYear || 2025) - (a.releaseYear || 2025);
+      if (sortBy === 'rating') return (b.rating || 0) - (a.rating || 0);
+      // 'best' default sort: combination of rating score and isPopular/isFeatured
+      return (b.rating || 0) * 100 + (b.reviewCount || 0) - ((a.rating || 0) * 100 + (a.reviewCount || 0));
+    });
+  }, [filteredLaptops, sortBy]);
+
+  const paginatedLaptops = useMemo(() => {
+    return sortedLaptops.slice(0, visibleCount);
+  }, [sortedLaptops, visibleCount]);
 
   return (
     <div className="space-y-6 py-2">
@@ -306,10 +317,28 @@ export default function LaptopsClient({ initialLaptops }: { initialLaptops: Lapt
               </button>
             </div>
           ) : (
-            <div className="space-y-4">
-              {sortedLaptops.map((laptop, idx) => (
-                <LaptopMediaMarktCard key={laptop.id} laptop={laptop} index={idx} />
-              ))}
+            <div className="space-y-6">
+              <div className="space-y-4">
+                {paginatedLaptops.map((laptop, idx) => (
+                  <LaptopMediaMarktCard key={laptop.id} laptop={laptop} index={idx} />
+                ))}
+              </div>
+
+              {/* Load More Button */}
+              {visibleCount < sortedLaptops.length && (
+                <div className="text-center pt-4">
+                  <button
+                    onClick={() => setVisibleCount((prev) => prev + ITEMS_PER_PAGE)}
+                    className="inline-flex items-center gap-2 bg-slate-900 hover:bg-emerald-600 text-white font-extrabold text-xs px-8 py-3.5 rounded-2xl shadow-md transition-all cursor-pointer hover:scale-105 active:scale-95"
+                  >
+                    <span>Daha Fazla Laptop Göster ({sortedLaptops.length - visibleCount} model kaldı)</span>
+                    <ChevronDown className="w-4 h-4" />
+                  </button>
+                  <p className="text-[11px] text-slate-400 mt-2 font-semibold">
+                    {visibleCount} / {sortedLaptops.length} model listeleniyor
+                  </p>
+                </div>
+              )}
             </div>
           )}
 

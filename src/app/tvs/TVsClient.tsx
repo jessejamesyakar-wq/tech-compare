@@ -1,11 +1,13 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { TVProduct } from '@/lib/types';
 import { useCompare } from '@/context/CompareContext';
-import { Tv, Star, Scale, Check, ShoppingBag, Sparkles, Filter, ChevronRight, Store, ShieldCheck, ArrowRight, LayoutGrid, Grid3X3, Award, ArrowUpDown } from 'lucide-react';
+import { Tv, Star, Scale, Check, ShoppingBag, Sparkles, Filter, ChevronRight, Store, ShieldCheck, ArrowRight, LayoutGrid, Grid3X3, Award, ArrowUpDown, ChevronDown } from 'lucide-react';
 import { calculateTVScore } from '@/lib/tvScoring';
+
+const ITEMS_PER_PAGE = 24;
 
 export default function TVsClient({ initialTVs }: { initialTVs: TVProduct[] }) {
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
@@ -19,6 +21,7 @@ export default function TVsClient({ initialTVs }: { initialTVs: TVProduct[] }) {
   const [selectedYear, setSelectedYear] = useState<string>('all');
   const [viewLayout, setViewLayout] = useState<'grid9' | 'cards'>('grid9');
   const [sortBy, setSortBy] = useState<'score' | 'price-asc' | 'price-desc' | 'refresh'>('score');
+  const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
 
   const getTVInches = (tv: TVProduct) => {
     const nameInchMatch = tv.name.match(/\b(\d+(?:\.\d+)?)"/);
@@ -26,49 +29,57 @@ export default function TVsClient({ initialTVs }: { initialTVs: TVProduct[] }) {
     return tv.specs?.screenSizeInches || 55;
   };
 
-  const filteredTVs = tvs.filter((tv) => {
-    if (selectedBrand !== 'all' && tv.brand.toLowerCase() !== selectedBrand.toLowerCase()) return false;
-    if (selectedTech !== 'all' && tv.specs.displayTech !== selectedTech) return false;
-    
-    if (selectedSize !== 'all') {
-      const inch = getTVInches(tv);
-      if (selectedSize === '32' && !(inch >= 20 && inch <= 32)) return false;
-      if (selectedSize === '43' && !(inch >= 40 && inch <= 43)) return false;
-      if (selectedSize === '50' && !(inch >= 47 && inch <= 50)) return false;
-      if (selectedSize === '55' && !(inch >= 54 && inch <= 56)) return false;
-      if (selectedSize === '65' && !(inch >= 60 && inch <= 65)) return false;
-      if (selectedSize === '75' && !(inch >= 74 && inch <= 77)) return false;
-      if (selectedSize === '85' && !(inch >= 84 && inch <= 86)) return false;
-      if (selectedSize === '98' && !(inch >= 97 && inch <= 115)) return false;
-    }
-
-    if (selectedYear !== 'all' && tv.releaseYear !== Number(selectedYear)) return false;
-    if (selectedStore !== 'all') {
-      const hasStore = tv.storeOffers?.some((o) => o.storeName.toLowerCase().includes(selectedStore.toLowerCase()));
-      if (!hasStore) return false;
-    }
-    if (selectedTag !== 'all') {
-      if (selectedTag === '2025' || selectedTag === '2026') {
-        if (tv.releaseYear !== Number(selectedTag)) return false;
-      } else {
-        const hasTag = tv.tags?.some((t) => t.toLowerCase().includes(selectedTag.toLowerCase())) ||
-                       tv.highlights?.some((h) => h.toLowerCase().includes(selectedTag.toLowerCase()));
-        if (!hasTag) return false;
+  const filteredTVs = useMemo(() => {
+    return tvs.filter((tv) => {
+      if (selectedBrand !== 'all' && tv.brand.toLowerCase() !== selectedBrand.toLowerCase()) return false;
+      if (selectedTech !== 'all' && tv.specs.displayTech !== selectedTech) return false;
+      
+      if (selectedSize !== 'all') {
+        const inch = getTVInches(tv);
+        if (selectedSize === '32' && !(inch >= 20 && inch <= 32)) return false;
+        if (selectedSize === '43' && !(inch >= 40 && inch <= 43)) return false;
+        if (selectedSize === '50' && !(inch >= 47 && inch <= 50)) return false;
+        if (selectedSize === '55' && !(inch >= 54 && inch <= 56)) return false;
+        if (selectedSize === '65' && !(inch >= 60 && inch <= 65)) return false;
+        if (selectedSize === '75' && !(inch >= 74 && inch <= 77)) return false;
+        if (selectedSize === '85' && !(inch >= 84 && inch <= 86)) return false;
+        if (selectedSize === '98' && !(inch >= 97 && inch <= 115)) return false;
       }
-    }
-    return true;
-  });
 
-  const sortedTVs = [...filteredTVs].sort((a, b) => {
-    const scoreA = calculateTVScore(a).totalScore;
-    const scoreB = calculateTVScore(b).totalScore;
+      if (selectedYear !== 'all' && tv.releaseYear !== Number(selectedYear)) return false;
+      if (selectedStore !== 'all') {
+        const hasStore = tv.storeOffers?.some((o) => o.storeName.toLowerCase().includes(selectedStore.toLowerCase()));
+        if (!hasStore) return false;
+      }
+      if (selectedTag !== 'all') {
+        if (selectedTag === '2025' || selectedTag === '2026') {
+          if (tv.releaseYear !== Number(selectedTag)) return false;
+        } else {
+          const hasTag = tv.tags?.some((t) => t.toLowerCase().includes(selectedTag.toLowerCase())) ||
+                         tv.highlights?.some((h) => h.toLowerCase().includes(selectedTag.toLowerCase()));
+          if (!hasTag) return false;
+        }
+      }
+      return true;
+    });
+  }, [tvs, selectedBrand, selectedTech, selectedSize, selectedYear, selectedStore, selectedTag]);
 
-    if (sortBy === 'score') return scoreB - scoreA;
-    if (sortBy === 'price-asc') return (a.basePrice || 0) - (b.basePrice || 0);
-    if (sortBy === 'price-desc') return (b.basePrice || 0) - (a.basePrice || 0);
-    if (sortBy === 'refresh') return (b.specs?.refreshRateHz || 60) - (a.specs?.refreshRateHz || 60);
-    return scoreB - scoreA;
-  });
+  const sortedTVs = useMemo(() => {
+    return [...filteredTVs].sort((a, b) => {
+      const scoreA = calculateTVScore(a).totalScore;
+      const scoreB = calculateTVScore(b).totalScore;
+
+      if (sortBy === 'score') return scoreB - scoreA;
+      if (sortBy === 'price-asc') return (a.basePrice || 0) - (b.basePrice || 0);
+      if (sortBy === 'price-desc') return (b.basePrice || 0) - (a.basePrice || 0);
+      if (sortBy === 'refresh') return (b.specs?.refreshRateHz || 60) - (a.specs?.refreshRateHz || 60);
+      return scoreB - scoreA;
+    });
+  }, [filteredTVs, sortBy]);
+
+  const paginatedTVs = useMemo(() => {
+    return sortedTVs.slice(0, visibleCount);
+  }, [sortedTVs, visibleCount]);
 
   return (
     <div className="space-y-8 py-4">
@@ -246,7 +257,7 @@ export default function TVsClient({ initialTVs }: { initialTVs: TVProduct[] }) {
       {viewLayout === 'grid9' ? (
         <div className="space-y-6">
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-9 gap-2.5">
-            {sortedTVs.map((tv, idx) => {
+            {paginatedTVs.map((tv, idx) => {
               const inCompare = isInCompare(tv.id);
               const score100 = calculateTVScore(tv).totalScore;
 
@@ -318,6 +329,7 @@ export default function TVsClient({ initialTVs }: { initialTVs: TVProduct[] }) {
                       <img
                         src={tv.image}
                         alt={tv.name}
+                        loading="lazy"
                         className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
                       />
                     </div>
@@ -354,7 +366,7 @@ export default function TVsClient({ initialTVs }: { initialTVs: TVProduct[] }) {
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {sortedTVs.map((tv, idx) => {
+          {paginatedTVs.map((tv, idx) => {
             const inCompare = isInCompare(tv.id);
             const score100 = calculateTVScore(tv).totalScore;
             const base = tv.basePrice || 35000;
@@ -367,13 +379,11 @@ export default function TVsClient({ initialTVs }: { initialTVs: TVProduct[] }) {
 
             const storeList = [
               { id: 'hb', name: 'Hepsiburada', price: findStorePrice('hepsiburada', 0.996), color: 'text-orange-600' },
-              { id: 'ty', name: 'Trendyol', price: findStorePrice('trendyol', 1.002), color: 'text-amber-600' },
-              { id: 'vatan', name: 'Vatan', price: findStorePrice('vatan', 1.0), color: 'text-blue-700' },
-              { id: 'mm', name: 'MediaMarkt', price: findStorePrice('media', 1.006), color: 'text-red-600' },
-              { id: 'teknosa', name: 'Teknosa', price: findStorePrice('teknosa', 1.004), color: 'text-orange-600' },
-              { id: 'amazon', name: 'Amazon', price: findStorePrice('amazon', 0.998), color: 'text-amber-600' },
-              { id: 'n11', name: 'n11', price: findStorePrice('n11', 0.994), color: 'text-purple-700' },
-              { id: 'pttavm', name: 'PttAVM', price: findStorePrice('ptt', 0.992), color: 'text-blue-900 font-extrabold' }
+              { id: 'ty', name: 'Trendyol', price: findStorePrice('trendyol', 1.0), color: 'text-amber-600' },
+              { id: 'amz', name: 'Amazon', price: findStorePrice('amazon', 0.992), color: 'text-blue-600' },
+              { id: 'mm', name: 'MediaMarkt', price: findStorePrice('mediamarkt', 1.008), color: 'text-red-600' },
+              { id: 'tk', name: 'Teknosa', price: findStorePrice('teknosa', 1.012), color: 'text-yellow-600' },
+              { id: 'n11', name: 'N11', price: findStorePrice('n11', 1.002), color: 'text-purple-600' }
             ];
 
             const lowestPrice = Math.min(...storeList.map((s) => s.price));
@@ -389,6 +399,7 @@ export default function TVsClient({ initialTVs }: { initialTVs: TVProduct[] }) {
                     <img
                       src={tv.image}
                       alt={tv.name}
+                      loading="lazy"
                       className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300 drop-shadow-xs"
                     />
                     {(() => {

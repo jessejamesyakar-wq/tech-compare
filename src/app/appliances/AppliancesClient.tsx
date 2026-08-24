@@ -1,12 +1,12 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { ApplianceProduct } from '@/lib/types';
 import { CompactProductCard } from '@/components/catalog/CompactProductCard';
 import { CategoryBar } from '@/components/layout/CategoryBar';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
-import { Search, Sparkles, SlidersHorizontal, Check } from 'lucide-react';
+import { Search, Sparkles, SlidersHorizontal, Check, ChevronDown } from 'lucide-react';
 
 const SUB_CATEGORIES = [
   { id: 'all', label: 'Tüm Ürünler' },
@@ -23,48 +23,69 @@ const SUB_CATEGORIES = [
   { id: 'toaster', label: 'Tost & Izgara' }
 ];
 
+const ITEMS_PER_PAGE = 24;
+
 export default function AppliancesClient({ initialProducts }: { initialProducts: ApplianceProduct[] }) {
   const [products] = useState<ApplianceProduct[]>(initialProducts);
   const [selectedSubCat, setSelectedSubCat] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
   const [sortBy, setSortBy] = useState('popular');
-  const [priceRange, setPriceRange] = useState<number>(60000);
+  const [priceRange] = useState<number>(100000);
+  const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
 
-  const allBrands = Array.from(new Set(products.map((p) => p.brand))).filter(Boolean);
+  const allBrands = useMemo(() => {
+    return Array.from(new Set(products.map((p) => p.brand))).filter(Boolean);
+  }, [products]);
 
   const toggleBrand = (brand: string) => {
+    setVisibleCount(ITEMS_PER_PAGE);
     setSelectedBrands((prev) =>
       prev.includes(brand) ? prev.filter((b) => b !== brand) : [...prev, brand]
     );
   };
 
-  const displayProducts = products
-    .filter((p) => {
-      // Subcategory filter
-      if (selectedSubCat !== 'all' && p.specs?.subCategory !== selectedSubCat) {
-        return false;
-      }
-      // Search query filter
-      if (searchQuery) {
-        const q = searchQuery.toLowerCase();
-        const matchesName = p.name.toLowerCase().includes(q);
-        const matchesBrand = p.brand.toLowerCase().includes(q);
-        const matchesSubCat = p.specs?.subCategoryLabel?.toLowerCase().includes(q);
-        if (!matchesName && !matchesBrand && !matchesSubCat) return false;
-      }
-      // Brand filter
-      if (selectedBrands.length > 0 && !selectedBrands.includes(p.brand)) return false;
-      // Price filter
-      if (p.basePrice > priceRange) return false;
-      return true;
-    })
-    .sort((a, b) => {
-      if (sortBy === 'priceAsc') return a.basePrice - b.basePrice;
-      if (sortBy === 'priceDesc') return b.basePrice - a.basePrice;
-      if (sortBy === 'rating') return b.rating - a.rating;
-      return (b.isPopular ? 1 : 0) - (a.isPopular ? 1 : 0);
-    });
+  const displayProducts = useMemo(() => {
+    return products
+      .filter((p) => {
+        // Subcategory filter
+        if (selectedSubCat !== 'all' && p.specs?.subCategory !== selectedSubCat) {
+          return false;
+        }
+        // Search query filter
+        if (searchQuery) {
+          const q = searchQuery.toLowerCase();
+          const matchesName = p.name.toLowerCase().includes(q);
+          const matchesBrand = p.brand.toLowerCase().includes(q);
+          const matchesSubCat = p.specs?.subCategoryLabel?.toLowerCase().includes(q);
+          if (!matchesName && !matchesBrand && !matchesSubCat) return false;
+        }
+        // Brand filter
+        if (selectedBrands.length > 0 && !selectedBrands.includes(p.brand)) return false;
+        // Price filter
+        if (p.basePrice > priceRange) return false;
+        return true;
+      })
+      .sort((a, b) => {
+        if (sortBy === 'priceAsc') return a.basePrice - b.basePrice;
+        if (sortBy === 'priceDesc') return b.basePrice - a.basePrice;
+        if (sortBy === 'rating') return b.rating - a.rating;
+        return (b.isPopular ? 1 : 0) - (a.isPopular ? 1 : 0);
+      });
+  }, [products, selectedSubCat, searchQuery, selectedBrands, priceRange, sortBy]);
+
+  const paginatedProducts = useMemo(() => {
+    return displayProducts.slice(0, visibleCount);
+  }, [displayProducts, visibleCount]);
+
+  const handleSubCatChange = (catId: string) => {
+    setSelectedSubCat(catId);
+    setVisibleCount(ITEMS_PER_PAGE);
+  };
+
+  const handleLoadMore = () => {
+    setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
+  };
 
   return (
     <div className="space-y-6 pb-12">
@@ -86,7 +107,7 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
             </span>
           </h1>
           <p className="text-xs text-slate-500 font-medium mt-1.5 max-w-2xl">
-            Robot süpürgeler, airfryer modelleri, tam otomatik espresso makineleri ve akıllı mutfak gereçlerinde 8 mağaza canlı fiyat takibi
+            Robot süpürgeler, airfryer modelleri, hava temizleyiciler ve akıllı ev aletlerinde 8 mağaza canlı fiyat takibi
           </p>
         </div>
 
@@ -95,16 +116,22 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
             <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
             <input
               type="text"
-              placeholder="Robot süpürge, airfryer, kahve ara..."
+              placeholder="Robot süpürge, airfryer, filtre ara..."
               value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
+              onChange={(e) => {
+                setSearchQuery(e.target.value);
+                setVisibleCount(ITEMS_PER_PAGE);
+              }}
               className="bg-white border border-slate-200 focus:border-emerald-500 rounded-2xl pl-9 pr-4 py-2 text-xs font-bold outline-none w-full sm:w-64 shadow-2xs transition-all"
             />
           </div>
 
           <select
             value={sortBy}
-            onChange={(e) => setSortBy(e.target.value)}
+            onChange={(e) => {
+              setSortBy(e.target.value);
+              setVisibleCount(ITEMS_PER_PAGE);
+            }}
             className="bg-white border border-slate-200 rounded-2xl px-3 py-2 text-xs font-bold text-slate-800 outline-none cursor-pointer shadow-2xs hover:border-slate-300 transition-all"
           >
             <option value="popular">Öne Çıkanlar & Popüler</option>
@@ -122,7 +149,7 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
           return (
             <button
               key={cat.id}
-              onClick={() => setSelectedSubCat(cat.id)}
+              onClick={() => handleSubCatChange(cat.id)}
               className={`px-4 py-2 rounded-2xl text-xs font-bold whitespace-nowrap transition-all cursor-pointer shadow-2xs ${
                 isSelected
                   ? 'bg-emerald-600 text-white shadow-emerald-500/20'
@@ -161,7 +188,10 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
           })}
           {selectedBrands.length > 0 && (
             <button
-              onClick={() => setSelectedBrands([])}
+              onClick={() => {
+                setSelectedBrands([]);
+                setVisibleCount(ITEMS_PER_PAGE);
+              }}
               className="text-xs text-red-600 hover:text-red-700 font-bold ml-auto cursor-pointer"
             >
               Filtreleri Temizle
@@ -171,11 +201,29 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
       )}
 
       {/* Product Grid */}
-      {displayProducts.length > 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {displayProducts.map((product) => (
-            <CompactProductCard key={product.id} product={product} />
-          ))}
+      {paginatedProducts.length > 0 ? (
+        <div className="space-y-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {paginatedProducts.map((product, idx) => (
+              <CompactProductCard key={product.id} product={product} index={idx} />
+            ))}
+          </div>
+
+          {/* Load More Button */}
+          {visibleCount < displayProducts.length && (
+            <div className="text-center pt-4">
+              <button
+                onClick={handleLoadMore}
+                className="inline-flex items-center gap-2 bg-slate-900 hover:bg-emerald-600 text-white font-extrabold text-xs px-8 py-3.5 rounded-2xl shadow-md transition-all cursor-pointer hover:scale-105 active:scale-95"
+              >
+                <span>Daha Fazla Ürün Göster ({displayProducts.length - visibleCount} model kaldı)</span>
+                <ChevronDown className="w-4 h-4" />
+              </button>
+              <p className="text-[11px] text-slate-400 mt-2 font-semibold">
+                {visibleCount} / {displayProducts.length} ürün listeleniyor
+              </p>
+            </div>
+          )}
         </div>
       ) : (
         <div className="bg-white border border-slate-200 rounded-3xl p-12 text-center space-y-3">
@@ -187,6 +235,7 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
               setSearchQuery('');
               setSelectedSubCat('all');
               setSelectedBrands([]);
+              setVisibleCount(ITEMS_PER_PAGE);
             }}
             className="bg-emerald-600 text-white font-bold text-xs px-4 py-2 rounded-xl shadow-xs cursor-pointer hover:bg-emerald-700 transition-all"
           >

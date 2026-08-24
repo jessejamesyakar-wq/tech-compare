@@ -8,7 +8,9 @@ import { CompactProductCard } from '@/components/catalog/CompactProductCard';
 import { CategoryBar } from '@/components/layout/CategoryBar';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
 import { BrandPillBar } from '@/components/catalog/BrandPillBar';
-import { Search, Watch, X } from 'lucide-react';
+import { Search, Watch, X, ChevronDown } from 'lucide-react';
+
+const ITEMS_PER_PAGE = 24;
 
 function SmartwatchesContent({ initialProducts }: { initialProducts: Product[] }) {
   const router = useRouter();
@@ -17,6 +19,7 @@ function SmartwatchesContent({ initialProducts }: { initialProducts: Product[] }
   const [products] = useState<Product[]>(initialProducts);
   const [searchQuery, setSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState('popular');
+  const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
 
   const brandParam = searchParams.get('brand');
   const selectedBrands = useMemo(() => {
@@ -158,10 +161,28 @@ function SmartwatchesContent({ initialProducts }: { initialProducts: Product[] }
 
       {/* Grid */}
       {displayProducts.length > 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {displayProducts.map((product) => (
-            <CompactProductCard key={product.id} product={product} />
-          ))}
+        <div className="space-y-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {displayProducts.slice(0, visibleCount).map((product, idx) => (
+              <CompactProductCard key={product.id} product={product} index={idx} />
+            ))}
+          </div>
+
+          {/* Load More Button */}
+          {visibleCount < displayProducts.length && (
+            <div className="text-center pt-4">
+              <button
+                onClick={() => setVisibleCount((prev) => prev + ITEMS_PER_PAGE)}
+                className="inline-flex items-center gap-2 bg-slate-900 hover:bg-emerald-600 text-white font-extrabold text-xs px-8 py-3.5 rounded-2xl shadow-md transition-all cursor-pointer hover:scale-105 active:scale-95"
+              >
+                <span>Daha Fazla Akıllı Saat Göster ({displayProducts.length - visibleCount} model kaldı)</span>
+                <ChevronDown className="w-4 h-4" />
+              </button>
+              <p className="text-[11px] text-slate-400 mt-2 font-semibold">
+                {visibleCount} / {displayProducts.length} model listeleniyor
+              </p>
+            </div>
+          )}
         </div>
       ) : (
         <div className="bg-white border border-slate-200 rounded-3xl p-12 text-center space-y-3">
