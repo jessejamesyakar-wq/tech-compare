@@ -12298,5 +12298,1848 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 1499
       }
     ]
+  },
+  {
+    "id": "dyson-chitosan-pre-style-cream-straight-fine-581866",
+    "slug": "dyson-chitosan-sekillendirme-oncesi-duz-dalgali-ince-telli-saclar-581866-01",
+    "name": "Dyson Chitosan™ Şekillendirme Öncesi Saç Kremi (Düz/Dalgalı İnce Telli - 581866-01)",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-1034312.jpg",
+    "images": [
+      "/images/appliances/dyson-1034312.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 16,
+    "basePrice": 1499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "İnce Telli Saçlara Ağırlık Yapmadan Doğal Hacim ve Tutuş",
+      "İstiridye Mantarı Kökenli Triodetic™ Chitosan Teknolojisi",
+      "Isıl İşlem Öncesi Saç Telini Koruyan ve Parlatan Formül",
+      "Airstrait ve Supersonic Cihazlarıyla Kusursuz Birliktelik",
+      "Dozaj Ayarlı Hijyenik Pompalı Şişe Tasarımı"
+    ],
+    "tags": [
+      "Dyson",
+      "Chitosan",
+      "Kozmetik",
+      "Saç Kremi",
+      "İnce Telli"
+    ],
+    "specs": {
+      "subCategory": "cosmetics",
+      "subCategoryLabel": "Kozmetik",
+      "powerWatts": 0,
+      "capacity": "100 ml",
+      "weightKg": 0.25,
+      "warrantyYears": 1,
+      "color": "Mat Metalik / Mavi"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 1499,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-06",
+        "price": 1699
+      },
+      {
+        "date": "2024-08",
+        "price": 1499
+      }
+    ]
+  },
+  {
+    "id": "dyson-chitosan-pre-style-cream-curly-thick-100ml",
+    "slug": "dyson-chitosan-sekillendirme-oncesi-kivircik-bukleli-kalin-telli-saclar-sac-kremi",
+    "name": "Dyson Chitosan™ Şekillendirme Öncesi Saç Kremi (Kıvırcık/Bukleli Kalın Telli 100 ml)",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-1034307.jpg",
+    "images": [
+      "/images/appliances/dyson-1034307.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 18,
+    "basePrice": 3099,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Kıvırcık ve Yoğun Saç Tipleri İçin Ekstra Nemlendirici ve Belirginleştirici Formül",
+      "Chitosan Moleküler Esnek Tutuş ile Kabarmayı ve Elektriklenmeyi Önler",
+      "Yüksek Nem Ortamlarında Bile 2 Kat Daha Uzun Süre Bukle Dayanıklılığı",
+      "Airwrap ve Supersonic Difüzör ile Kusursuz Bukleler",
+      "Yeniden Doldurulabilir Lüks Ambalaj"
+    ],
+    "tags": [
+      "Dyson",
+      "Chitosan",
+      "Kozmetik",
+      "Saç Kremi",
+      "Kıvırcık Saç"
+    ],
+    "specs": {
+      "subCategory": "cosmetics",
+      "subCategoryLabel": "Kozmetik",
+      "powerWatts": 0,
+      "capacity": "100 ml",
+      "weightKg": 0.25,
+      "warrantyYears": 1,
+      "color": "Mat Metalik / Mor"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 3099,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-06",
+        "price": 3399
+      },
+      {
+        "date": "2024-08",
+        "price": 3099
+      }
+    ]
+  },
+  {
+    "id": "dyson-chitosan-pre-style-cream-straight-thick-521874",
+    "slug": "dyson-chitosan-sekillendirme-oncesi-duz-dalgali-kalin-telli-saclar-521874-01",
+    "name": "Dyson Chitosan™ Şekillendirme Öncesi Saç Kremi (Düz/Dalgalı Kalın Telli - 521874-01)",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-1034310.jpg",
+    "images": [
+      "/images/appliances/dyson-1034310.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 20,
+    "basePrice": 3099,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Kalın Telli ve Zor Şekil Alan Düz Saçlar İçin Yoğun Pürüzsüzleştirici",
+      "Saç Tellerini Isıya Karşı Korurken İpeksi Yumuşaklık Verir",
+      "Airstrait Islak Kuru Düzleştirici ile Mükemmel Parlak Sonuç",
+      "Triodetic™ Hücresel Sabitleme Formülü",
+      "Ağırlaşma ve Sertleşme Yapmayan Hafif Dokunuş"
+    ],
+    "tags": [
+      "Dyson",
+      "Chitosan",
+      "Kozmetik",
+      "Saç Kremi",
+      "Kalın Telli"
+    ],
+    "specs": {
+      "subCategory": "cosmetics",
+      "subCategoryLabel": "Kozmetik",
+      "powerWatts": 0,
+      "capacity": "100 ml",
+      "weightKg": 0.25,
+      "warrantyYears": 1,
+      "color": "Mat Metalik / Bakır"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 3099,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 3199,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-06",
+        "price": 3399
+      },
+      {
+        "date": "2024-08",
+        "price": 3099
+      }
+    ]
+  },
+  {
+    "id": "dyson-chitosan-pre-style-cream-straight-fine-100ml",
+    "slug": "dyson-chitosan-sekillendirme-oncesi-duz-dalgali-ince-telli-saclar-sac-kremi",
+    "name": "Dyson Chitosan™ Şekillendirme Öncesi Saç Kremi (Düz/Dalgalı İnce Telli 100 ml)",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-1034309.jpg",
+    "images": [
+      "/images/appliances/dyson-1034309.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 14,
+    "basePrice": 3099,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "İnce Telli Saçlarda Elektriklenmeyi ve Sönmeyi Engelleyen Formül",
+      "Doğal Mantar Özlü Chitosan ile Esnek ve Hareketli Hacim",
+      "Isı Olmadan veya Hava Akımı ile Şekillendirmede Kalıcı Tutuş",
+      "Yeniden Doldurulabilir Lüks Şişe",
+      "100 ml Boyut"
+    ],
+    "tags": [
+      "Dyson",
+      "Chitosan",
+      "Kozmetik",
+      "Saç Kremi",
+      "İnce Telli"
+    ],
+    "specs": {
+      "subCategory": "cosmetics",
+      "subCategoryLabel": "Kozmetik",
+      "powerWatts": 0,
+      "capacity": "100 ml",
+      "weightKg": 0.25,
+      "warrantyYears": 1,
+      "color": "Mat Metalik / Pembe"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 3099,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-06",
+        "price": 3399
+      },
+      {
+        "date": "2024-08",
+        "price": 3099
+      }
+    ]
+  },
+  {
+    "id": "dyson-omega-hydrating-hair-oil-30ml",
+    "slug": "dyson-omega-nemlendirici-30-ml-bakim-yagi",
+    "name": "Dyson Omega Nemlendirici Saç Bakım Yağı (30 ml)",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-1034306.jpg",
+    "images": [
+      "/images/appliances/dyson-1034306.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 90,
+    "reviewCount": 22,
+    "basePrice": 2699,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "Omega 3, 6 ve 9 Yağ Asitleri Bakımından Zengin Özel Bitkisel Kompleks",
+      "Kuru ve Yıpranmış Saç Uçlarını Derinlemesine Besler ve Onarır",
+      "Yağlı His Bırakmayan Hızlı Emilen İpeksi Doku",
+      "Göz Alıcı Doğal Parlaklık ve Kolay Taranabilirlik",
+      "Damlalıklı Cam Şişe Tasarımı"
+    ],
+    "tags": [
+      "Dyson",
+      "Omega Yağı",
+      "Kozmetik",
+      "Saç Yağı",
+      "Kişisel Bakım"
+    ],
+    "specs": {
+      "subCategory": "cosmetics",
+      "subCategoryLabel": "Kozmetik",
+      "powerWatts": 0,
+      "capacity": "30 ml",
+      "weightKg": 0.15,
+      "warrantyYears": 1,
+      "color": "Şeffaf / Altın"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 2699,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 2799,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-06",
+        "price": 2999
+      },
+      {
+        "date": "2024-08",
+        "price": 2699
+      }
+    ]
+  },
+  {
+    "id": "dyson-supersonic-113277-01",
+    "slug": "dyson-supersonic-113277-01",
+    "name": "Dyson Supersonic™ Saç Kurutma Makinesi (113277-01)",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-1034281.jpg",
+    "images": [
+      "/images/appliances/dyson-1034281.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 38,
+    "basePrice": 20999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Dyson V9 Dijital Motor ile Yüksek Hızlı Odaklanmış Hava Akımı",
+      "Akıllı Isı Kontrolü (Saniyede 40 Kez Sıcaklık Ölçümü)",
+      "Elektriklenmeyi Gizleyen Flyaway Pürüzsüzleştirici Başlık Dahil",
+      "Manyetik 360° Dönebilen Kolay Takılır Başlıklar",
+      "Özel Renk Kombinasyonu"
+    ],
+    "tags": [
+      "Dyson",
+      "Supersonic",
+      "Saç Kurutma",
+      "Kişisel Bakım",
+      "V9 Motor"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
+      "powerWatts": 1600,
+      "noiseLevelDb": 77,
+      "weightKg": 0.65,
+      "warrantyYears": 2,
+      "color": "Antrasit / Fuşya"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 20999,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 22999
+      },
+      {
+        "date": "2024-08",
+        "price": 20999
+      }
+    ]
+  },
+  {
+    "id": "dyson-airstrait-strawberry-bronze",
+    "slug": "dyson-airstrait-strawberry-bronze",
+    "name": "Dyson Airstrait™ Strawberry Bronze (Bronz) Saç Düzleştirici",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-973366.jpg",
+    "images": [
+      "/images/appliances/dyson-973366.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 44,
+    "basePrice": 18920,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "Özel Koleksiyon Çilek Bronzu (Strawberry Bronze) Şık Gövde",
+      "Sıcak Plaka Kullanmadan Sadece Yüksek Basınçlı Hava Akımıyla Düzleştirme",
+      "Islak Saçı Kuruturken Aynı Anda Düzleştirerek Zamandan Tasarruf",
+      "Cam Boncuk Termistörleri ile Sıfır Termal Hasar",
+      "Renkli LCD Bilgi Ekranı"
+    ],
+    "tags": [
+      "Dyson",
+      "Airstrait",
+      "Strawberry Bronze",
+      "Saç Düzleştirici",
+      "Kişisel Bakım"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
+      "powerWatts": 1600,
+      "weightKg": 0.93,
+      "warrantyYears": 2,
+      "color": "Strawberry Bronze (Çilek Bronzu)"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 18920,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 19299,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 21999
+      },
+      {
+        "date": "2024-08",
+        "price": 18920
+      }
+    ]
+  },
+  {
+    "id": "dyson-corrale-copper",
+    "slug": "dyson-corrale-bakir",
+    "name": "Dyson Corrale™ Kablosuz Saç Düzleştirici (Parlak Bakır / Nikel)",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-894740.jpg",
+    "images": [
+      "/images/appliances/dyson-894740.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 65,
+    "basePrice": 20768,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "highlights": [
+      "Esnek Manganez Bakır Alaşımlı Plakalar ile %50 Daha Az Saç Hasarı",
+      "Kablosuz Kullanım Özgürlüğü (30 Dakika Termal Performans)",
+      "OLED Ekran (Sıcaklık ve Pil Seviyesi Göstergesi)",
+      "Uçuşa Uygun Evrensel Voltaj ve Emniyet Kilidi",
+      "Manyetik Şarj İstasyonu ve Isıya Dayanıklı Seyahat Çantası"
+    ],
+    "tags": [
+      "Dyson",
+      "Corrale",
+      "Kablosuz Düzleştirici",
+      "Kişisel Bakım",
+      "Bakır"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
+      "powerWatts": 200,
+      "batteryRuntimeMin": 30,
+      "weightKg": 0.561,
+      "warrantyYears": 2,
+      "color": "Parlak Bakır / Nikel"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 20768,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 21299,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 21500,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 23999
+      },
+      {
+        "date": "2024-08",
+        "price": 20768
+      }
+    ]
+  },
+  {
+    "id": "dyson-zone-air-purifying-headphones",
+    "slug": "dyson-zone",
+    "name": "Dyson Zone™ Kişisel Hava Temizleyicili ANC Kulaklık",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-924840.jpg",
+    "images": [
+      "/images/appliances/dyson-924840.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 92,
+    "reviewCount": 28,
+    "basePrice": 23999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "highlights": [
+      "Manyetik Temassız Vizör ile Burun ve Ağza %99 Saf Arıtılmış Hava Akımı",
+      "Elektrostatik HEPA Filtreleri ile Şehir Kirliliği ve Gazları Engelleme",
+      "Gelişmiş Aktif Gürültü Engelleme (ANC) ile Kristal Netliğinde Ses",
+      "50 Saate Varan Kesintisiz Müzik Dinleme Süresi",
+      "MyDyson Uygulaması ile Anlık Hava Kalitesi ve Ses Analizi"
+    ],
+    "tags": [
+      "Dyson",
+      "Dyson Zone",
+      "Hava Temizleyici",
+      "ANC Kulaklık",
+      "Kişisel Bakım"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "Hava Temizleyici",
+      "powerWatts": 15,
+      "batteryRuntimeMin": 3000,
+      "appControl": true,
+      "weightKg": 0.67,
+      "warrantyYears": 2,
+      "color": "Ultra Mavi / Parlak Bakır"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 23999,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 26999
+      },
+      {
+        "date": "2024-08",
+        "price": 23999
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc52-allergy",
+    "slug": "dyson-dc52-allergy",
+    "name": "Dyson DC52 Allergy Filtresiz Toz Torbasız Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-30482.jpg",
+    "images": [
+      "/images/appliances/dyson-30482.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 85,
+    "basePrice": 19999,
+    "currency": "TL",
+    "releaseYear": 2014,
+    "highlights": [
+      "Dyson Cinetic™ Bilimi (Asla Filtre Yıkama veya Değiştirme Gerektirmez)",
+      "54 Yüksek Salınımlı Siklon ile Mikroskobik Tozları Ayrıştırma",
+      "Ball™ Teknolojisi ile Kendi Ekseni Etrafında Kusursuz Manevra",
+      "Alerji Dostu Sertifikalı Tamamen Sızdırmaz Kasa",
+      "2 Litre Geniş Şeffaf Toz Haznesi"
+    ],
+    "tags": [
+      "Dyson",
+      "DC52",
+      "Cinetic",
+      "Yatık Süpürge",
+      "Alerji"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 1300,
+      "suctionPowerPa": 290,
+      "noiseLevelDb": 84,
+      "capacity": "2 L",
+      "weightKg": 7.8,
+      "warrantyYears": 5,
+      "color": "Demir / Mor"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 19999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 21999
+      },
+      {
+        "date": "2024-08",
+        "price": 19999
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc37c-allergy",
+    "slug": "dyson-dc37c-allergy",
+    "name": "Dyson DC37c Allergy Torbasız Elektrikli Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-30216.jpg",
+    "images": [
+      "/images/appliances/dyson-30216.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 72,
+    "basePrice": 16499,
+    "currency": "TL",
+    "releaseYear": 2013,
+    "highlights": [
+      "Radial Root Cyclone™ Emiş Gücünü Kaybetmeyen Siklon Dizilimi",
+      "Ball™ Gövde Tasarımı ile Takılmadan Akıcı Hareket",
+      "Yıkanabilir Ömür Boyu HEPA Filtre",
+      "Dual Mode Zemin Başlığı",
+      "290 AW Güçlü Emiş Gücü"
+    ],
+    "tags": [
+      "Dyson",
+      "DC37c",
+      "Ball",
+      "Süpürge",
+      "Allergy"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 1300,
+      "suctionPowerPa": 290,
+      "noiseLevelDb": 82,
+      "capacity": "2 L",
+      "weightKg": 7.5,
+      "warrantyYears": 5,
+      "color": "Demir / Sarı"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 16499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 17999
+      },
+      {
+        "date": "2024-08",
+        "price": 16499
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc37-animal-turbine",
+    "slug": "dyson-dc37-animal-turbine",
+    "name": "Dyson DC37 Animal Turbine Evcil Hayvan Süpürgesi",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-4390.jpg",
+    "images": [
+      "/images/appliances/dyson-4390.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 60,
+    "basePrice": 17999,
+    "currency": "TL",
+    "releaseYear": 2012,
+    "highlights": [
+      "Tangle-Free Türbin Başlığı ile Halılardaki Evcil Hayvan Tüylerini Toplama",
+      "Radial Root Cyclone™ Sabit Yüksek Emiş Gücü",
+      "Merkezi Ağırlıklı Ball™ Gövde",
+      "Hijyenik Tek Tuşla Toz Boşaltma",
+      "Alerjenleri Hapseden HEPA Filtre"
+    ],
+    "tags": [
+      "Dyson",
+      "DC37 Animal",
+      "Türbin",
+      "Evcil Hayvan",
+      "Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 1400,
+      "suctionPowerPa": 290,
+      "noiseLevelDb": 82,
+      "capacity": "2 L",
+      "weightKg": 7.5,
+      "warrantyYears": 5,
+      "color": "Platin / Mor"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 17999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 18999
+      },
+      {
+        "date": "2024-08",
+        "price": 17999
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc33c-origin",
+    "slug": "dyson-dc33c-origin",
+    "name": "Dyson DC33C Origin Torbasız Elektrikli Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-30218.jpg",
+    "images": [
+      "/images/appliances/dyson-30218.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 67,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2014,
+    "highlights": [
+      "750 W Yüksek Enerji Verimli Eco Motor",
+      "Radial Root Cyclone™ Sabit Hava Akımı",
+      "Ball™ Döner Mekanizması",
+      "Çift Modlu Üniversal Taban Başlığı",
+      "A Sınıfı Sert Zemin Performansı"
+    ],
+    "tags": [
+      "Dyson",
+      "DC33C Origin",
+      "Eco Motor",
+      "Ball",
+      "Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 750,
+      "suctionPowerPa": 260,
+      "noiseLevelDb": 80,
+      "capacity": "2 L",
+      "weightKg": 7.3,
+      "warrantyYears": 5,
+      "color": "Gümüş / Sarı"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 14999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 16499
+      },
+      {
+        "date": "2024-08",
+        "price": 14999
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc37c-parquet",
+    "slug": "dyson-dc37c-parquet",
+    "name": "Dyson DC37c Parquet Sert Zemin Süpürgesi",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-30217.jpg",
+    "images": [
+      "/images/appliances/dyson-30217.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 50,
+    "basePrice": 15999,
+    "currency": "TL",
+    "releaseYear": 2013,
+    "highlights": [
+      "Eklemli Parke Başlığı ile Ahşap ve Hassas Zeminlerde Çizilmesiz Temizlik",
+      "Radial Root Cyclone™ Toz Ayrıştırma",
+      "Dyson Ball™ Manevra Yeteneği",
+      "Yıkanabilir Filtreler",
+      "Geniş Toz Kapasitesi"
+    ],
+    "tags": [
+      "Dyson",
+      "DC37c Parquet",
+      "Parke Başlığı",
+      "Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 1300,
+      "suctionPowerPa": 290,
+      "noiseLevelDb": 82,
+      "capacity": "2 L",
+      "weightKg": 7.5,
+      "warrantyYears": 5,
+      "color": "Demir / Mavi"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 15999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 17499
+      },
+      {
+        "date": "2024-08",
+        "price": 15999
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc46-allergy-parquet",
+    "slug": "dyson-dc46-allergy-parquet",
+    "name": "Dyson DC46 Allergy Parquet Kompakt Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-4388.jpg",
+    "images": [
+      "/images/appliances/dyson-4388.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 42,
+    "basePrice": 14499,
+    "currency": "TL",
+    "releaseYear": 2013,
+    "highlights": [
+      "32 Root Cyclone™ Çift Katmanlı Siklon Teknolojisi",
+      "Kompakt Boyut ile Dar Alanlarda Kolay Saklama",
+      "Hassas Parke ve Sert Zemin Başlığı Dahil",
+      "HEPA Filtrasyon ile Temiz Hava Çıkışı",
+      "Hafif Gövde Yapısı"
+    ],
+    "tags": [
+      "Dyson",
+      "DC46",
+      "Kompakt",
+      "Parquet",
+      "Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 1100,
+      "suctionPowerPa": 240,
+      "noiseLevelDb": 82,
+      "capacity": "1.5 L",
+      "weightKg": 6,
+      "warrantyYears": 5,
+      "color": "Saten Mavi / Gri"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 14499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 15999
+      },
+      {
+        "date": "2024-08",
+        "price": 14499
+      }
+    ]
+  },
+  {
+    "id": "dyson-ball-parquet",
+    "slug": "dyson-ball-parquet",
+    "name": "Dyson Ball™ Parquet Torbasız Elektrikli Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-113304.jpg",
+    "images": [
+      "/images/appliances/dyson-113304.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 47,
+    "basePrice": 17499,
+    "currency": "TL",
+    "releaseYear": 2016,
+    "highlights": [
+      "600 W Yüksek Verimli Motor ve A Sınıfı Enerji Tüketimi",
+      "Eklemli Parke Başlığı (180° Dönebilen Hassas Başlık)",
+      "2 Tier Radial™ 19 Siklonlu Toz Ayrıştırma",
+      "Ball™ Küre Gövde ile Kolay Yönlendirme",
+      "Akustik Mühendisliği ile Düşük Ses Seviyesi"
+    ],
+    "tags": [
+      "Dyson",
+      "Ball Parquet",
+      "Yüksek Verim",
+      "Sert Zemin",
+      "Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 600,
+      "suctionPowerPa": 250,
+      "noiseLevelDb": 80,
+      "capacity": "1.8 L",
+      "weightKg": 7.1,
+      "warrantyYears": 5,
+      "color": "Demir / Sarı"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 17499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 18999
+      },
+      {
+        "date": "2024-08",
+        "price": 17499
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc33c-pro",
+    "slug": "dyson-dc33c-pro",
+    "name": "Dyson DC33C Pro Torbasız Elektrikli Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-94408.jpg",
+    "images": [
+      "/images/appliances/dyson-94408.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 53,
+    "basePrice": 16999,
+    "currency": "TL",
+    "releaseYear": 2015,
+    "highlights": [
+      "Karbon Fiber Türbin Başlığı (Halı ve Sert Zeminlerde Antistatik Emiş)",
+      "Radial Root Cyclone™ Teknolojisi",
+      "Ball™ Döner Küre Gövde",
+      "750 W Optimize Edilmiş Düşük Enerji Tüketimi",
+      "Gelişmiş Akustik Yalıtım"
+    ],
+    "tags": [
+      "Dyson",
+      "DC33C Pro",
+      "Karbon Fiber",
+      "Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 750,
+      "suctionPowerPa": 260,
+      "noiseLevelDb": 80,
+      "capacity": "2 L",
+      "weightKg": 7.3,
+      "warrantyYears": 5,
+      "color": "Gümüş / Kırmızı"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 16999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 18499
+      },
+      {
+        "date": "2024-08",
+        "price": 16999
+      }
+    ]
+  },
+  {
+    "id": "dyson-ball-multi-floor",
+    "slug": "dyson-ball-multi-floor",
+    "name": "Dyson Ball™ Multi Floor Torbasız Elektrikli Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-98895.jpg",
+    "images": [
+      "/images/appliances/dyson-98895.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 39,
+    "basePrice": 15449,
+    "currency": "TL",
+    "releaseYear": 2016,
+    "highlights": [
+      "Pnömatik Otomatik Yükseklik Ayarlı Zemin Başlığı",
+      "Halıdan Parkeye Geçişte Emiş Gücünü Korumak İçin Kendini Ayarlar",
+      "2 Tier Radial™ Siklon Filtrasyonu",
+      "Küre Şasi ile Devrilmeden İlerleyen Gövde",
+      "A Sınıfı Enerji ve Toz Toplama"
+    ],
+    "tags": [
+      "Dyson",
+      "Ball Multi Floor",
+      "Pnömatik Başlık",
+      "Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 600,
+      "suctionPowerPa": 250,
+      "noiseLevelDb": 80,
+      "capacity": "1.8 L",
+      "weightKg": 7.1,
+      "warrantyYears": 5,
+      "color": "Sarı / Demir"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 15449,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 16999
+      },
+      {
+        "date": "2024-08",
+        "price": 15449
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc33c-allergy",
+    "slug": "dyson-dc33c-allergy",
+    "name": "Dyson DC33C Allergy Torbasız Elektrikli Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-92313.jpg",
+    "images": [
+      "/images/appliances/dyson-92313.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 45,
+    "basePrice": 15200,
+    "currency": "TL",
+    "releaseYear": 2014,
+    "highlights": [
+      "Alerji Dostu HEPA Çıkış Filtresi",
+      "Radial Root Cyclone™ Emiş Teknolojisi",
+      "Ball™ Küre Gövde ile Kolay Dönüş",
+      "750 W Yüksek Emiş Verimi",
+      "2 Litre Hijyenik Boşaltmalı Toz Haznesi"
+    ],
+    "tags": [
+      "Dyson",
+      "DC33C Allergy",
+      "HEPA",
+      "Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 750,
+      "suctionPowerPa": 260,
+      "noiseLevelDb": 80,
+      "capacity": "2 L",
+      "weightKg": 7.3,
+      "warrantyYears": 5,
+      "color": "Gümüş / Mavi"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 15200,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 16500
+      },
+      {
+        "date": "2024-08",
+        "price": 15200
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc52-animal-complete",
+    "slug": "dyson-dc52-animal-complete",
+    "name": "Dyson DC52 Animal Complete Filtresiz Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-4377.jpg",
+    "images": [
+      "/images/appliances/dyson-4377.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 91,
+    "reviewCount": 58,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2014,
+    "highlights": [
+      "Dyson Cinetic™ Filtresiz Siklon Bilimi",
+      "Tangle-Free Dolanmayan Karbon Fiber Türbin Başlık",
+      "Tangle-Free Mini Türbin Başlığı ile Koltuk ve Yatak Temizliği",
+      "Sert Zemin Eklemli Parke Ucu Dahil Tam Aksesuar Paketi",
+      "290 AW Güçlü Emiş Performansı"
+    ],
+    "tags": [
+      "Dyson",
+      "DC52 Animal Complete",
+      "Cinetic",
+      "Filtresiz",
+      "Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 1300,
+      "suctionPowerPa": 290,
+      "noiseLevelDb": 84,
+      "capacity": "2 L",
+      "weightKg": 7.8,
+      "warrantyYears": 5,
+      "color": "Platin / Mor"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 21999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 23999
+      },
+      {
+        "date": "2024-08",
+        "price": 21999
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc52-total-animal",
+    "slug": "dyson-dc52-total-animal",
+    "name": "Dyson DC52 Total Animal Filtresiz Elektrikli Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-32523.jpg",
+    "images": [
+      "/images/appliances/dyson-32523.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 41,
+    "basePrice": 21499,
+    "currency": "TL",
+    "releaseYear": 2014,
+    "highlights": [
+      "Dyson Cinetic™ Asla Tıkanmayan 54 Siklon Dizilimi",
+      "Evcil Hayvan Sahipleri İçin Kapsamlı Aksesuar Seti",
+      "Ball™ Teknolojisi ile Rahat Takip",
+      "Filtre Bakımı ve Masrafı Sıfır",
+      "2 Litre Geniş Hazne"
+    ],
+    "tags": [
+      "Dyson",
+      "DC52 Total Animal",
+      "Cinetic",
+      "Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 1300,
+      "suctionPowerPa": 290,
+      "noiseLevelDb": 84,
+      "capacity": "2 L",
+      "weightKg": 7.8,
+      "warrantyYears": 5,
+      "color": "Demir / Mor"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 21499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 23499
+      },
+      {
+        "date": "2024-08",
+        "price": 21499
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc52-animal-turbine",
+    "slug": "dyson-dc52-animal-turbine",
+    "name": "Dyson DC52 Animal Turbine Filtresiz Elektrikli Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-30439.jpg",
+    "images": [
+      "/images/appliances/dyson-30439.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 37,
+    "basePrice": 20999,
+    "currency": "TL",
+    "releaseYear": 2014,
+    "highlights": [
+      "Dyson Cinetic™ Filtresiz Teknoloji",
+      "Güçlü Türbin Başlığı ile Halılarda Derin Temizlik",
+      "Ball™ Küre Taban ile Mobilyaların Etrafında Kolay Dönüş",
+      "290 AW Emiş Gücü",
+      "Hijyenik Hazne Tahliyesi"
+    ],
+    "tags": [
+      "Dyson",
+      "DC52 Animal Turbine",
+      "Cinetic",
+      "Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 1300,
+      "suctionPowerPa": 290,
+      "noiseLevelDb": 84,
+      "capacity": "2 L",
+      "weightKg": 7.8,
+      "warrantyYears": 5,
+      "color": "Platin / Kırmızı"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 20999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 22999
+      },
+      {
+        "date": "2024-08",
+        "price": 20999
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc52-allergy-parquet",
+    "slug": "dyson-dc52-allergy-parquet",
+    "name": "Dyson DC52 Allergy Parquet Filtresiz Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-30215.jpg",
+    "images": [
+      "/images/appliances/dyson-30215.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 46,
+    "basePrice": 20499,
+    "currency": "TL",
+    "releaseYear": 2014,
+    "highlights": [
+      "Dyson Cinetic™ Filtresiz Emiş Sistemi",
+      "Eklemli Parke ve Sert Zemin Ucu ile Çizilmelere Son",
+      "Alerji Karşıtı Sızdırmaz Yapı",
+      "Ball™ Küre Manevra Sistemi",
+      "290 AW Emiş Gücü"
+    ],
+    "tags": [
+      "Dyson",
+      "DC52 Allergy Parquet",
+      "Cinetic",
+      "Parke",
+      "Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 1300,
+      "suctionPowerPa": 290,
+      "noiseLevelDb": 84,
+      "capacity": "2 L",
+      "weightKg": 7.8,
+      "warrantyYears": 5,
+      "color": "Demir / Sarı"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 20499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 22499
+      },
+      {
+        "date": "2024-08",
+        "price": 20499
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc52-allergy-musclehead-parquet",
+    "slug": "dyson-dc52-allergy-musclehead-parquet",
+    "name": "Dyson DC52 Allergy Musclehead Parquet Filtresiz Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-4386.jpg",
+    "images": [
+      "/images/appliances/dyson-4386.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 35,
+    "basePrice": 20999,
+    "currency": "TL",
+    "releaseYear": 2014,
+    "highlights": [
+      "Musclehead™ Zemin Tipini Otomatik Algılayan Akıllı Başlık",
+      "Dyson Cinetic™ Filtre Değişimi Gerektirmeyen Tasarım",
+      "Hassas Parke Başlığı Hediyeli",
+      "Ball™ Küre Gövde Tasarımı",
+      "2 Litre Toz Haznesi"
+    ],
+    "tags": [
+      "Dyson",
+      "DC52 Musclehead",
+      "Cinetic",
+      "Otomatik Zemin",
+      "Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 1300,
+      "suctionPowerPa": 290,
+      "noiseLevelDb": 84,
+      "capacity": "2 L",
+      "weightKg": 7.8,
+      "warrantyYears": 5,
+      "color": "Demir / Turuncu"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 20999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 22999
+      },
+      {
+        "date": "2024-08",
+        "price": 20999
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc37-allergy-parquet",
+    "slug": "dyson-dc37-allergy-parquet",
+    "name": "Dyson DC37 Allergy Parquet Torbasız Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-31526.jpg",
+    "images": [
+      "/images/appliances/dyson-31526.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 40,
+    "basePrice": 15999,
+    "currency": "TL",
+    "releaseYear": 2012,
+    "highlights": [
+      "Radial Root Cyclone™ Emiş Sistemi",
+      "Eklemli Sert Zemin ve Parke Başlığı",
+      "Ball™ Teknolojisi ile Dengeli Dönüşler",
+      "1400 W Motor Gücü ve 290 AW Emiş",
+      "Yıkanabilir Ömür Boyu Filtre"
+    ],
+    "tags": [
+      "Dyson",
+      "DC37 Allergy",
+      "Parquet",
+      "Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 1400,
+      "suctionPowerPa": 290,
+      "noiseLevelDb": 82,
+      "capacity": "2 L",
+      "weightKg": 7.5,
+      "warrantyYears": 5,
+      "color": "Saten Mavi / Gri"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 15999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 17499
+      },
+      {
+        "date": "2024-08",
+        "price": 15999
+      }
+    ]
+  },
+  {
+    "id": "dyson-cinetic-big-ball-parquet",
+    "slug": "dyson-cinetic-big-ball-parquet",
+    "name": "Dyson Cinetic Big Ball™ Parquet Devrilmez Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-65504.jpg",
+    "images": [
+      "/images/appliances/dyson-65504.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 62,
+    "basePrice": 19500,
+    "currency": "TL",
+    "releaseYear": 2016,
+    "isPopular": true,
+    "highlights": [
+      "Devrildiğinde Otomatik Olarak Kendi Kendine Doğrulan Küre Gövde",
+      "Dyson Cinetic™ Filtresiz ve Asla Emiş Gücü Kaybetmeyen Teknoloji",
+      "Yeni Nesil Hijyenik Hazne Boşaltma (Tek Hamlede Tozu Sıyırma)",
+      "360° Dönen Eklemli Tutma Kolu",
+      "Hassas Parke ve Sert Zemin Başlığı Dahil"
+    ],
+    "tags": [
+      "Dyson",
+      "Cinetic Big Ball",
+      "Devrilmez",
+      "Filtresiz",
+      "Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 1200,
+      "suctionPowerPa": 250,
+      "noiseLevelDb": 80,
+      "capacity": "1.6 L",
+      "weightKg": 7.7,
+      "warrantyYears": 5,
+      "color": "Antrasit / Sarı"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 19500,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 21999
+      },
+      {
+        "date": "2024-08",
+        "price": 19500
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc33c-origin-plus",
+    "slug": "dyson-dc33c-origin-plus",
+    "name": "Dyson DC33C Origin Plus Torbasız Elektrikli Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-90369.jpg",
+    "images": [
+      "/images/appliances/dyson-90369.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 33,
+    "basePrice": 15499,
+    "currency": "TL",
+    "releaseYear": 2014,
+    "highlights": [
+      "Zengin Aksesuar Paketi ile Köşe, Döşeme ve Perde Temizliği",
+      "Radial Root Cyclone™ Sabit Emiş",
+      "Ball™ Küre Taban",
+      "750 W Eco Motor",
+      "Hijyenik Tek Tuşla Tahliye"
+    ],
+    "tags": [
+      "Dyson",
+      "DC33C Origin Plus",
+      "Süpürge",
+      "Ball"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 750,
+      "suctionPowerPa": 260,
+      "noiseLevelDb": 80,
+      "capacity": "2 L",
+      "weightKg": 7.3,
+      "warrantyYears": 5,
+      "color": "Gümüş / Sarı"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 15499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 16999
+      },
+      {
+        "date": "2024-08",
+        "price": 15499
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc42-allergy",
+    "slug": "dyson-dc42-allergy",
+    "name": "Dyson DC42 Allergy Dik Duran Elektrikli Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-4394.jpg",
+    "images": [
+      "/images/appliances/dyson-4394.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 87,
+    "reviewCount": 31,
+    "basePrice": 16999,
+    "currency": "TL",
+    "releaseYear": 2012,
+    "highlights": [
+      "Klasik Dik Duran Dyson Ball™ Tasarımı",
+      "Motorlu Fırça Başlığı ile Halılarda Derin Titreşimli Temizlik",
+      "Radial Root Cyclone™ Emiş Gücü",
+      "Teleskopik Uzatma Hortumu ve Borusu ile Merdiven/Tavan Erişimi",
+      "HEPA Alerji Sertifikası"
+    ],
+    "tags": [
+      "Dyson",
+      "DC42",
+      "Dik Süpürge",
+      "Ball",
+      "Allergy"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 1200,
+      "suctionPowerPa": 200,
+      "noiseLevelDb": 83,
+      "capacity": "1.6 L",
+      "weightKg": 6.7,
+      "warrantyYears": 5,
+      "color": "Platin / Sarı"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 16999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 18499
+      },
+      {
+        "date": "2024-08",
+        "price": 16999
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc63-allergy",
+    "slug": "dyson-dc63-allergy",
+    "name": "Dyson DC63 Allergy Ultra Kompakt Elektrikli Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-31032.jpg",
+    "images": [
+      "/images/appliances/dyson-31032.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 36,
+    "basePrice": 15999,
+    "currency": "TL",
+    "releaseYear": 2014,
+    "highlights": [
+      "2 Tier Radial™ Çift Katlı 24 Siklonlu Minyatür Tasarım",
+      "Küçük ve Hafif Gövde Sayesinde Merdivenlerde Kolay Taşıma",
+      "Karbon Fiber Fırçalı Başlık",
+      "Ball™ Küre Tabanlı Akıcı Sürüş",
+      "Alerjenleri Hapseden Tam Yalıtımlı Kasa"
+    ],
+    "tags": [
+      "Dyson",
+      "DC63",
+      "Ultra Kompakt",
+      "2 Tier Radial",
+      "Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 1150,
+      "suctionPowerPa": 220,
+      "noiseLevelDb": 81,
+      "capacity": "1 L",
+      "weightKg": 5,
+      "warrantyYears": 5,
+      "color": "Demir / Sarı"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 15999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 17499
+      },
+      {
+        "date": "2024-08",
+        "price": 15999
+      }
+    ]
+  },
+  {
+    "id": "dyson-small-ball-multifloor",
+    "slug": "dyson-small-ball-multifloor",
+    "name": "Dyson Small Ball™ Multifloor Kompakt Dik Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-69563.jpg",
+    "images": [
+      "/images/appliances/dyson-69563.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 34,
+    "basePrice": 16499,
+    "currency": "TL",
+    "releaseYear": 2016,
+    "highlights": [
+      "%45 Daha Az Yer Kaplayan Katlanabilir Tutma Kolu",
+      "5.5 kg Hafif Şasi ile Kolay Kaldırma ve Taşıma",
+      "Otomatik Zemin Yüksekliği Algılayan Motorlu Başlık",
+      "2 Tier Radial™ Siklon Filtrasyon",
+      "Genişletilebilir Esnek Hortum ile Tavan Temizliği"
+    ],
+    "tags": [
+      "Dyson",
+      "Small Ball",
+      "Multifloor",
+      "Dik Süpürge",
+      "Kompakt"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 800,
+      "suctionPowerPa": 210,
+      "noiseLevelDb": 80,
+      "capacity": "1.2 L",
+      "weightKg": 5.5,
+      "warrantyYears": 5,
+      "color": "Demir / Sarı"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 16499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 17999
+      },
+      {
+        "date": "2024-08",
+        "price": 16499
+      }
+    ]
   }
 ];
