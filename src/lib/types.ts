@@ -54,6 +54,7 @@ export interface ApplianceSpecs {
   autoEmptyStation?: boolean;
   mappingTechnology?: string;
   appControl?: boolean;
+  keepWarmHours?: number;
   programsCount?: number;
   pressureBar?: number;
   steamOutputGpm?: number;
