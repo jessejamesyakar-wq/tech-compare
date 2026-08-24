@@ -2,6 +2,1081 @@ import { ApplianceProduct } from './types';
 
 export const mockAppliances: ApplianceProduct[] = [
   {
+    "id": "philips-daily-collection-hd7301-00",
+    "slug": "philips-daily-collection-hd7301-00",
+    "name": "Philips Daily Collection HD7301/00 Çift Isıtmalı Çay Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 1814,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 1400,
+    "image": "/images/appliances/philips-hd7301-00.jpg",
+    "images": [
+      "/images/appliances/philips-hd7301-00.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "1700 Watt Güçlü Hızlı Kaynatma Sistemi",
+      "1.9 Litre Geniş Su Isıtıcı & 0.9 Litre Cam Demlik",
+      "Sıcak Tutma Fonksiyonu ile Sürekli Taze Çay",
+      "Paslanmaz Çelik Çay Filtresi ve 360 Derece Döner Taban"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Çay Makinesi",
+      "powerWatts": 1700,
+      "capacityLiters": 1.9,
+      "waterTankCapacityLiters": 1.9,
+      "dishwasherSafeParts": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.6,
+      "warrantyYears": 2,
+      "color": "Parlak Siyah / Şeffaf Cam"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hd7301-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 1814,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En Çok Satan",
+          "Daily Collection"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 6800,
+        "url": "https://www.epey.com/cay-makinesi/philips-hd7301-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1814,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-2200-serisi-lattego-ep2231-40",
+    "slug": "philips-2200-serisi-lattego-ep2231-40",
+    "name": "Philips 2200 Serisi LatteGo EP2231/40 Tam Otomatik Espresso & Cappuccino Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 21995.1,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 880,
+    "image": "/images/appliances/philips-ep2231-40.jpg",
+    "images": [
+      "/images/appliances/philips-ep2231-40.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "LatteGo 2 Parçalı Borusuz Hızlı Süt Sistemi",
+      "3 Farklı Taze Kahve (Espresso, Kahve, Cappuccino)",
+      "Dokunmatik Sezgisel Kontrol Paneli",
+      "AquaClean Filtre ile 5000 Fincana Kadar Kireçsiz Kullanım"
+    ],
+    "specs": {
+      "subCategory": "coffee_machine",
+      "subCategoryLabel": "Tam Otomatik Kahve Makinesi",
+      "powerWatts": 1500,
+      "pressureBar": 15,
+      "capacityLiters": 1.8,
+      "programsCount": 3,
+      "dishwasherSafeParts": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 8,
+      "warrantyYears": 2,
+      "color": "Piyano Siyahı / Mat Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-ep2231-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 21995.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "LatteGo",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2400,
+        "url": "https://www.epey.com/kahve-makinesi/philips-2200-serisi-lattego-ep2231-40.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 22999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21995.1,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-2200-serisi-ep2220-10",
+    "slug": "philips-2200-serisi-ep2220-10",
+    "name": "Philips 2200 Serisi EP2220/10 Tam Otomatik Espresso Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 10399,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 1600,
+    "image": "/images/appliances/philips-ep2220-10.jpg",
+    "images": [
+      "/images/appliances/philips-ep2220-10.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Klasik Manuel Süt Köpürtücü Başlık",
+      "Dokunmatik Sensörlü Seçim Arayüzü",
+      "%100 Seramik 12 Kademeli Öğütücü",
+      "Aroma Extract Sıcaklık ve Ekstraksiyon Dengesi"
+    ],
+    "specs": {
+      "subCategory": "coffee_machine",
+      "subCategoryLabel": "Tam Otomatik Kahve Makinesi",
+      "powerWatts": 1500,
+      "pressureBar": 15,
+      "capacityLiters": 1.8,
+      "programsCount": 2,
+      "dishwasherSafeParts": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 7.5,
+      "warrantyYears": 2,
+      "color": "Mat Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-ep2220-10-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 10399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5200,
+        "url": "https://www.epey.com/kahve-makinesi/philips-2200-serisi-ep2220-10.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 11299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 10399,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-aqua-pro-gc9324-20",
+    "slug": "philips-perfectcare-aqua-pro-gc9324-20",
+    "name": "Philips PerfectCare Aqua Pro GC9324/20 Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 32559.12,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 180,
+    "image": "/images/appliances/philips-gc9324-20.png",
+    "images": [
+      "/images/appliances/philips-gc9324-20.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.5 Bar Yüksek Buhar Basıncı & 440g Şok Buhar",
+      "2.5 Litre Ekstra Geniş Su Tankı (Kesintisiz Uzun Ütüleme)",
+      "T-ionicGlide Üstün Titanyum Taban",
+      "OptimalTEMP Kumaş Yanmama Güvencesi"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2100,
+      "steamOutputGramsPerMin": 120,
+      "steamBoostGramsPerMin": 440,
+      "pressureBar": 6.5,
+      "waterTankCapacityLiters": 2.5,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 4.2,
+      "warrantyYears": 2,
+      "color": "Beyaz / Koyu Mor"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc9324-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 32559.12,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "2.5L Su Deposu",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 310,
+        "url": "https://www.epey.com/utu/philips-perfectcare-aqua-pro-gc9324-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 34999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 32559.12,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-performer-gc8723-20",
+    "slug": "philips-perfectcare-performer-gc8723-20",
+    "name": "Philips PerfectCare Performer GC8723/20 Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 20099,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 290,
+    "image": "/images/appliances/philips-gc8723-20.png",
+    "images": [
+      "/images/appliances/philips-gc8723-20.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.0 Bar Basınç & 330g Şok Buhar",
+      "SteamGlide Plus Çizilmeye Dirençli Taban",
+      "ProVelocity Kompakt Güçlü Buhar Motoru",
+      "Smart Calc-Clean Sesli Kireç Hatırlatıcısı"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2600,
+      "steamOutputGramsPerMin": 120,
+      "steamBoostGramsPerMin": 330,
+      "pressureBar": 6,
+      "waterTankCapacityLiters": 1.8,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 3.2,
+      "warrantyYears": 2,
+      "color": "Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc8723-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 20099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Performer"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 620,
+        "url": "https://www.epey.com/utu/philips-perfectcare-performer-gc8723-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 21500,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 20099,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-aqua-pro-gc9330-20",
+    "slug": "philips-perfectcare-aqua-pro-gc9330-20",
+    "name": "Philips PerfectCare Aqua Pro GC9330/20 Buhar Kazanlı Ütü (Mavi)",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 19599.02,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 350,
+    "image": "/images/appliances/philips-gc9330-20.jpg",
+    "images": [
+      "/images/appliances/philips-gc9330-20.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.5 Bar Buhar Basıncı & 420g Şok Buhar",
+      "2.5 Litre Ultra Geniş Su Deposu",
+      "T-ionicGlide Taban ile Pürüzsüz Kayganlık",
+      "Easy De-Calc Kireç Temizleme"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2100,
+      "steamOutputGramsPerMin": 120,
+      "steamBoostGramsPerMin": 420,
+      "pressureBar": 6.5,
+      "waterTankCapacityLiters": 2.5,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 4.2,
+      "warrantyYears": 2,
+      "color": "Gök Mavisi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc9330-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 19599.02,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Aqua Pro 2.5L"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/utu/philips-perfectcare-aqua-pro-gc9330-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 20999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19599.02,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-compact-gc7844-20",
+    "slug": "philips-perfectcare-compact-gc7844-20",
+    "name": "Philips PerfectCare Compact GC7844/20 Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 18584.15,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 420,
+    "image": "/images/appliances/philips-gc7844-20.png",
+    "images": [
+      "/images/appliances/philips-gc7844-20.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.5 Bar Buhar Basıncı & 400g Şok Buhar",
+      "Kompakt Hafif Gövde (Taşıma Kilidi ile Güvenli)",
+      "SteamGlide Taban",
+      "OptimalTEMP Kumaş Yanmama Teknolojisi"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2400,
+      "steamOutputGramsPerMin": 120,
+      "steamBoostGramsPerMin": 400,
+      "pressureBar": 6.5,
+      "waterTankCapacityLiters": 1.5,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 2.9,
+      "warrantyYears": 2,
+      "color": "Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc7844-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 18584.15,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kompakt Tasarım",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 670,
+        "url": "https://www.epey.com/utu/philips-perfectcare-compact-gc7844-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 19800,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18584.15,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfect-care-aqua-pro-gc9315-30",
+    "slug": "philips-perfect-care-aqua-pro-gc9315-30",
+    "name": "Philips Perfect Care Aqua Pro GC9315/30 Buhar Kazanlı Ütü (Mor)",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 17948.07,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 380,
+    "image": "/images/appliances/philips-gc9315-30.jpg",
+    "images": [
+      "/images/appliances/philips-gc9315-30.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.5 Bar Yüksek Basınç & 420g Şok Buhar",
+      "2.5 Litre Devasa Su Tankı",
+      "T-ionicGlide Titanyum Taban",
+      "OptimalTEMP Kumaş Yanmama Güvencesi"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2100,
+      "steamOutputGramsPerMin": 120,
+      "steamBoostGramsPerMin": 420,
+      "pressureBar": 6.5,
+      "waterTankCapacityLiters": 2.5,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 4.2,
+      "warrantyYears": 2,
+      "color": "Mor / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc9315-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 17948.07,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Aqua Pro 2.5L"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 940,
+        "url": "https://www.epey.com/utu/philips-perfect-care-aqua-pro-gc9315-30.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 18999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 17948.07,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-performer-gc8721-30",
+    "slug": "philips-perfectcare-performer-gc8721-30",
+    "name": "Philips PerfectCare Performer GC8721/30 Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 14199,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 310,
+    "image": "/images/appliances/philips-gc8721-30.png",
+    "images": [
+      "/images/appliances/philips-gc8721-30.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.0 Bar Basınç & 330g Şok Buhar Gücü",
+      "1.8 Litre Çıkarılabilir Su Haznesi",
+      "SteamGlide Plus Çizilmez Taban",
+      "OptimalTEMP Kumaş Yanmama Garantisi"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2600,
+      "steamOutputGramsPerMin": 120,
+      "steamBoostGramsPerMin": 330,
+      "pressureBar": 6,
+      "waterTankCapacityLiters": 1.8,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 3.2,
+      "warrantyYears": 2,
+      "color": "Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc8721-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 14199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Performer"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 540,
+        "url": "https://www.epey.com/utu/philips-perfectcare-performer-gc8721-30.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14199,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-compact-plus-gc7933-30",
+    "slug": "philips-perfectcare-compact-plus-gc7933-30",
+    "name": "Philips PerfectCare Compact Plus GC7933/30 Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 13538.1,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 490,
+    "image": "/images/appliances/philips-gc7933-30.jpg",
+    "images": [
+      "/images/appliances/philips-gc7933-30.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6.5 Bar Buhar Basıncı & 450g Şok Buhar",
+      "SteamGlide Plus Taban ile Akıcı Ütüleme",
+      "Kompakt Gövde & Güvenli Taşıma Kilidi",
+      "1.5 Litre Çıkarılabilir Su Haznesi"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2400,
+      "steamOutputGramsPerMin": 120,
+      "steamBoostGramsPerMin": 450,
+      "pressureBar": 6.5,
+      "waterTankCapacityLiters": 1.5,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 2.8,
+      "warrantyYears": 2,
+      "color": "Mor / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc7933-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 13538.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Compact Plus",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1100,
+        "url": "https://www.epey.com/utu/philips-perfectcare-compact-plus-gc7933-30.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 14499,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13538.1,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-7014-10",
+    "slug": "philips-perfectcare-7014-10",
+    "name": "Philips PerfectCare 7014/10 Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 13206,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 360,
+    "image": "/images/appliances/philips-7014-10.jpg",
+    "images": [
+      "/images/appliances/philips-7014-10.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.0 Bar Yüksek Buhar Basıncı & 450g Şok Buhar",
+      "SteamGlide Advanced Çizilmez Taban",
+      "OptimalTEMP Kumaş Yanmama Güvencesi",
+      "Easy De-Calc Plus Hızlı Kireç Boşaltma"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2400,
+      "steamOutputGramsPerMin": 120,
+      "steamBoostGramsPerMin": 450,
+      "pressureBar": 7,
+      "waterTankCapacityLiters": 1.8,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 3.8,
+      "warrantyYears": 2,
+      "color": "Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-7014-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 13206,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "7.0 Bar"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 760,
+        "url": "https://www.epey.com/utu/philips-perfectcare-7014-10.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 13999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13206,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-gc8752-30",
+    "slug": "philips-gc8752-30",
+    "name": "Philips GC8752/30 PerfectCare Performer Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 12961.52,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 520,
+    "image": "/images/appliances/philips-gc8752-30.jpg",
+    "images": [
+      "/images/appliances/philips-gc8752-30.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6.5 Bar Yüksek Basınç & 420g Şok Buhar",
+      "SteamGlide Plus Kaygan ve Çizilmeye Dirençli Taban",
+      "1.8 L Çıkarılabilir Su Deposu",
+      "Sıfır Yanık Riski (OptimalTEMP)"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2600,
+      "steamOutputGramsPerMin": 120,
+      "steamBoostGramsPerMin": 420,
+      "pressureBar": 6.5,
+      "waterTankCapacityLiters": 1.8,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 3.2,
+      "warrantyYears": 2,
+      "color": "Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc8752-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 12961.52,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Performer 6.5 Bar"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1800,
+        "url": "https://www.epey.com/utu/philips-gc8752-30.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 13799,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12961.52,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-bodygroom-bg-3015-15",
+    "slug": "philips-bodygroom-bg-3015-15",
+    "name": "Philips Bodygroom Series 3000 BG3015/15 Vücut Bakım Kiti",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 7999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 540,
+    "image": "/images/appliances/philips-bg3015-15.jpg",
+    "images": [
+      "/images/appliances/philips-bg3015-15.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Hipoalerjenik Folyo ve Yuvarlatılmış Bıçak Uçları ile Cilt Koruması",
+      "3 Farklı Geçmeli Vücut Tarağı (3, 5, 7 mm)",
+      "50 Dakika Kablosuz Kullanım & 1 Saat Hızlı Şarj",
+      "Duşta Kullanıma %100 Uygun Su Geçirmezlik"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Vücut Bakım Kiti",
+      "batteryRuntimeMin": 50,
+      "chargeTimeHours": 1,
+      "wetDryUsage": true,
+      "bladeMaterial": "Hipoalerjenik Çelik Folyo",
+      "weightKg": 0.22,
+      "warrantyYears": 2,
+      "color": "Mavi / Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-bg3015-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "3 Taraklı Bodygroom"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/tiras-makinesi/philips-bodygroom-bg-3015-15.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 8499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-bodygroom-bg3017-01",
+    "slug": "philips-bodygroom-bg3017-01",
+    "name": "Philips Bodygroom Series 3000 BG3017/01 Duş Tipi Vücut Tıraş Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 4680,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 780,
+    "image": "/images/appliances/philips-bg3017-01.jpg",
+    "images": [
+      "/images/appliances/philips-bg3017-01.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Hassas Bölgeler için Cilt Koruyucu Başlık",
+      "50 Dakika Kablosuz Çalışma Süresi & USB Şarj Kolaylığı",
+      "1 Adet Geçmeli Vücut Tarağı (3 mm)",
+      "Ergonomik Kaymaz Kauçuk Gövde"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Vücut Tıraş Makinesi",
+      "batteryRuntimeMin": 50,
+      "chargeTimeHours": 8,
+      "wetDryUsage": true,
+      "bladeMaterial": "Hipoalerjenik Folyo",
+      "weightKg": 0.2,
+      "warrantyYears": 2,
+      "color": "Siyah / Açık Mavi Çizgi"
+    },
+    "storeOffers": [
+      {
+        "id": "so-bg3017-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 4680,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Bodygroom 3000",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2400,
+        "url": "https://www.epey.com/tiras-makinesi/philips-bodygroom-bg3017-01.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 4999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4680,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-bg3010-15",
+    "slug": "philips-bg3010-15",
+    "name": "Philips Bodygroom Series 3000 BG3010/15 Vücut Tıraş Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 4599.08,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 920,
+    "image": "/images/appliances/philips-bg3010-15.jpg",
+    "images": [
+      "/images/appliances/philips-bg3010-15.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Yuvarlatılmış Uçlu Bıçaklar ile Tahrişsiz Tıraş",
+      "Duşta Kullanıma Uygun %100 Su Geçirmezlik",
+      "50 Dakika Kablosuz Kullanım",
+      "3 mm Vücut Tarağı Dahil"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Vücut Tıraş Makinesi",
+      "batteryRuntimeMin": 50,
+      "chargeTimeHours": 8,
+      "wetDryUsage": true,
+      "bladeMaterial": "Hipoalerjenik Çelik Folyo",
+      "weightKg": 0.2,
+      "warrantyYears": 2,
+      "color": "Siyah / Gri"
+    },
+    "storeOffers": [
+      {
+        "id": "so-bg3010-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 4599.08,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Bodygroom"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1900,
+        "url": "https://www.epey.com/tiras-makinesi/philips-bg3010-15.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 4899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4599.08,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-oneblade-qp2520-20",
+    "slug": "philips-oneblade-qp2520-20",
+    "name": "Philips OneBlade QP2520/20 Hibrit Sakal Şekillendirici ve Tıraş",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 2849.05,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 3100,
+    "image": "/images/appliances/philips-qp2520-20.jpg",
+    "images": [
+      "/images/appliances/philips-qp2520-20.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Klasik Efsanevi OneBlade Çift Yönlü Bıçak",
+      "3 Farklı Kirli Sakal Tarağı (1, 3, 5 mm)",
+      "45 Dakika Kablosuz Kullanım",
+      "Köpüklü veya Kuru Tıraş Olabilme İmkanı"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Tıraş & Şekillendirici",
+      "batteryRuntimeMin": 45,
+      "chargeTimeHours": 8,
+      "wetDryUsage": true,
+      "bladeMaterial": "OneBlade Çelik",
+      "weightKg": 0.16,
+      "warrantyYears": 2,
+      "color": "Limon Yeşili / Koyu Kömür"
+    },
+    "storeOffers": [
+      {
+        "id": "so-qp2520-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 2849.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Efsane Model",
+          "Çok Satan"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 12000,
+        "url": "https://www.epey.com/tiras-makinesi/philips-one-blade-qp2520-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 2999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2849.05,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "philips-5400-serisi-lattego-ep5144-70",
     "slug": "philips-5400-serisi-lattego-ep5144-70",
     "name": "Philips 5400 Serisi LatteGo EP5144/70 Tam Otomatik Espresso & Kahve Makinesi",

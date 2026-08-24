@@ -2,6 +2,66 @@ import { Product } from './types';
 
 export const mockHeadphones: Product[] = [
   {
+    "id": "philips-she2405",
+    "slug": "philips-she2405",
+    "name": "Philips SHE2405 Mikrofonlu Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 539.89,
+    "currency": "TL",
+    "rating": 4.4,
+    "epeyScore": 81,
+    "reviewCount": 410,
+    "image": "/images/headphones/philips-she2405.jpg",
+    "images": [
+      "/images/headphones/philips-she2405.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "8.6 mm Neodimyum Dinamik Sürücüler",
+      "Kablo Üstü Net Mikrofon ve Çağrı Cevaplama Butonu",
+      "Ergonomik Açılı Kulak İçi Uçlar ile Ses İzolasyonu",
+      "3.5 mm Altın Kaplama Jak"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Kablolu 3.5mm)",
+      "anc": "Yok",
+      "batteryLife": "Kablolu",
+      "bluetoothVersion": "Kablolu",
+      "driverSize": "8.6 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 13
+    },
+    "storeOffers": [
+      {
+        "id": "so-she2405-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 539.89,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/kulaklik/philips-she2405bk.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 589,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 539.89,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "philips-shc8800",
     "slug": "philips-shc8800",
     "name": "Philips SHC8800 Kablosuz Hi-Res Ev Sinema ve TV Kulaklığı",
