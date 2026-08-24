@@ -39072,5 +39072,2982 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 7919
       }
     ]
+  },
+  {
+    "id": "philips-philips-fc974109-powerpro-expert",
+    "slug": "philips-philips-fc974109-powerpro-expert",
+    "name": "Philips FC9741/09 PowerPro Expert",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-396033.jpg",
+    "images": [
+      "/images/appliances/philips-396033.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 670,
+    "basePrice": 9499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "PowerCyclone 8 ile %99.9 Toz Toplama",
+      "Allergy H13 Filtre",
+      "TriActive Başlık"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbasız",
+      "PowerPro Expert"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "PowerPro Expert Torbasız Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 76,
+      "capacity": "2.0 L",
+      "weightKg": 5.2,
+      "powerWatts": 650
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 9499,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 9689,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 9404,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 9784,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 9879,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 8644
+      },
+      {
+        "date": "2025-10",
+        "price": 8644
+      },
+      {
+        "date": "2025-11",
+        "price": 9024
+      },
+      {
+        "date": "2025-12",
+        "price": 9024
+      },
+      {
+        "date": "2025-01",
+        "price": 9404
+      },
+      {
+        "date": "2025-02",
+        "price": 9404
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc955209-powerpro-active",
+    "slug": "philips-philips-fc955209-powerpro-active",
+    "name": "Philips FC9552/09 PowerPro Active",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-428821.jpg",
+    "images": [
+      "/images/appliances/philips-428821.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 86,
+    "reviewCount": 520,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "PowerCyclone 7 Hava Ayrıştırma",
+      "Allergy H13 Filtreleme",
+      "Kompakt ve Güçlü Gövde"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbasız",
+      "PowerPro Active"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "PowerPro Active / Max Torbasız Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 76,
+      "capacity": "1.5 L",
+      "weightKg": 4.8,
+      "powerWatts": 650
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 7999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 8159,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 7919,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 8239,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 8319,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 7279
+      },
+      {
+        "date": "2025-10",
+        "price": 7279
+      },
+      {
+        "date": "2025-11",
+        "price": 7599
+      },
+      {
+        "date": "2025-12",
+        "price": 7599
+      },
+      {
+        "date": "2025-01",
+        "price": 7919
+      },
+      {
+        "date": "2025-02",
+        "price": 7919
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc917007",
+    "slug": "philips-philips-fc917007",
+    "name": "Philips FC9170/07",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-704867.jpg",
+    "images": [
+      "/images/appliances/philips-704867.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 84,
+    "reviewCount": 590,
+    "basePrice": 6499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "PowerCyclone / AirflowMax Teknolojisi",
+      "Kompakt ve Hafif Ergonomik Tasarım",
+      "Super Clean Air Filtre Sistemi"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbasız"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Kompakt Torbasız Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 77,
+      "capacity": "1.5 L",
+      "weightKg": 4.3,
+      "powerWatts": 900
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 6499,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 6629,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 6434,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 6694,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 6759,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 5914
+      },
+      {
+        "date": "2025-10",
+        "price": 5914
+      },
+      {
+        "date": "2025-11",
+        "price": 6174
+      },
+      {
+        "date": "2025-12",
+        "price": 6174
+      },
+      {
+        "date": "2025-01",
+        "price": 6434
+      },
+      {
+        "date": "2025-02",
+        "price": 6434
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc923801-marathon-2200-w",
+    "slug": "philips-philips-fc923801-marathon-2200-w",
+    "name": "Philips FC9238/01 Marathon (2200 W)",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-4118.jpg",
+    "images": [
+      "/images/appliances/philips-4118.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 980,
+    "basePrice": 10499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "2200W Yüksek Motor Gücü",
+      "Otomatik Filtre Temizleme Düğmesi",
+      "HEPA 13 Yıkanabilir Filtre"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbasız",
+      "Marathon"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Marathon Klasik Torbasız Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 78,
+      "capacity": "2.0 L",
+      "weightKg": 7,
+      "powerWatts": 2200
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 10499,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 10709,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 10394,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 10814,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 10919,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 9554
+      },
+      {
+        "date": "2025-10",
+        "price": 9554
+      },
+      {
+        "date": "2025-11",
+        "price": 9974
+      },
+      {
+        "date": "2025-12",
+        "price": 9974
+      },
+      {
+        "date": "2025-01",
+        "price": 10394
+      },
+      {
+        "date": "2025-02",
+        "price": 10394
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc920501-marathon-2200-w",
+    "slug": "philips-philips-fc920501-marathon-2200-w",
+    "name": "Philips FC9205/01 Marathon (2200 W)",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-4123.png",
+    "images": [
+      "/images/appliances/philips-4123.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 980,
+    "basePrice": 10499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "2200W Yüksek Motor Gücü",
+      "Otomatik Filtre Temizleme Düğmesi",
+      "HEPA 13 Yıkanabilir Filtre"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbasız",
+      "Marathon"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Marathon Klasik Torbasız Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 78,
+      "capacity": "2.0 L",
+      "weightKg": 7,
+      "powerWatts": 2200
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 10499,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 10709,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 10394,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 10814,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 10919,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 9554
+      },
+      {
+        "date": "2025-10",
+        "price": 9554
+      },
+      {
+        "date": "2025-11",
+        "price": 9974
+      },
+      {
+        "date": "2025-12",
+        "price": 9974
+      },
+      {
+        "date": "2025-01",
+        "price": 10394
+      },
+      {
+        "date": "2025-02",
+        "price": 10394
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc922501-2200-w",
+    "slug": "philips-philips-fc922501-2200-w",
+    "name": "Philips FC9225/01 (2200 W)",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-4121.jpg",
+    "images": [
+      "/images/appliances/philips-4121.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 980,
+    "basePrice": 10499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2200W Yüksek Motor Gücü",
+      "Otomatik Filtre Temizleme Düğmesi",
+      "HEPA 13 Yıkanabilir Filtre"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbasız",
+      "Marathon"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Marathon Klasik Torbasız Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 78,
+      "capacity": "2.0 L",
+      "weightKg": 7,
+      "powerWatts": 2200
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 10499,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 10709,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 10394,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 10814,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 10919,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 9554
+      },
+      {
+        "date": "2025-10",
+        "price": 9554
+      },
+      {
+        "date": "2025-11",
+        "price": 9974
+      },
+      {
+        "date": "2025-12",
+        "price": 9974
+      },
+      {
+        "date": "2025-01",
+        "price": 10394
+      },
+      {
+        "date": "2025-02",
+        "price": 10394
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc8952-aquaaction",
+    "slug": "philips-philips-fc8952-aquaaction",
+    "name": "Philips FC8952 AquaAction",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-729613.jpg",
+    "images": [
+      "/images/appliances/philips-729613.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 490,
+    "basePrice": 10999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "AquaWeb Su Filtreleme Teknolojisi",
+      "%99.9 Toz ve Alerjenleri Suda Hapsetme",
+      "Yıkanabilir HEPA 13 Filtre",
+      "1400W Güçlü ve Sabit Emiş"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Su Filtreli",
+      "AquaAction"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Su Filtreli Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 79,
+      "capacity": "2.0 L Su Filtresi",
+      "weightKg": 7,
+      "powerWatts": 1400
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 10999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 11219,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 10889,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 11329,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 11439,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 10009
+      },
+      {
+        "date": "2025-10",
+        "price": 10009
+      },
+      {
+        "date": "2025-11",
+        "price": 10449
+      },
+      {
+        "date": "2025-12",
+        "price": 10449
+      },
+      {
+        "date": "2025-01",
+        "price": 10889
+      },
+      {
+        "date": "2025-02",
+        "price": 10889
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc895001-aquaaction",
+    "slug": "philips-philips-fc895001-aquaaction",
+    "name": "Philips FC8950/01 AquaAction",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-4124.jpg",
+    "images": [
+      "/images/appliances/philips-4124.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 490,
+    "basePrice": 10999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "AquaWeb Su Filtreleme Teknolojisi",
+      "%99.9 Toz ve Alerjenleri Suda Hapsetme",
+      "Yıkanabilir HEPA 13 Filtre",
+      "1400W Güçlü ve Sabit Emiş"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Su Filtreli",
+      "AquaAction"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Su Filtreli Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 79,
+      "capacity": "2.0 L Su Filtresi",
+      "weightKg": 7,
+      "powerWatts": 1400
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 10999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 11219,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 10889,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 11329,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 11439,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 10009
+      },
+      {
+        "date": "2025-10",
+        "price": 10009
+      },
+      {
+        "date": "2025-11",
+        "price": 10449
+      },
+      {
+        "date": "2025-12",
+        "price": 10449
+      },
+      {
+        "date": "2025-01",
+        "price": 10889
+      },
+      {
+        "date": "2025-02",
+        "price": 10889
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc974209-powerpro-expert",
+    "slug": "philips-philips-fc974209-powerpro-expert",
+    "name": "Philips FC9742/09 PowerPro Expert",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-714549.png",
+    "images": [
+      "/images/appliances/philips-714549.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 670,
+    "basePrice": 9499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "PowerCyclone 8 ile %99.9 Toz Toplama",
+      "Allergy H13 Filtre",
+      "TriActive Başlık"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbasız",
+      "PowerPro Expert"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "PowerPro Expert Torbasız Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 76,
+      "capacity": "2.0 L",
+      "weightKg": 5.2,
+      "powerWatts": 650
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 9499,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 9689,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 9404,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 9784,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 9879,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 8644
+      },
+      {
+        "date": "2025-10",
+        "price": 8644
+      },
+      {
+        "date": "2025-11",
+        "price": 9024
+      },
+      {
+        "date": "2025-12",
+        "price": 9024
+      },
+      {
+        "date": "2025-01",
+        "price": 9404
+      },
+      {
+        "date": "2025-02",
+        "price": 9404
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-performer-expert-fc872809",
+    "slug": "philips-philips-performer-expert-fc872809",
+    "name": "Philips Performer Expert FC8728/09",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-155473.jpg",
+    "images": [
+      "/images/appliances/philips-155473.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 640,
+    "basePrice": 9999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "AirflowMax Teknolojisi ile Maksimum Emiş Gücü",
+      "TriActiveMax Çok Yönlü Zemin Başlığı",
+      "HEPA 13 ve AirSeal Antialerjik Koruması",
+      "Geniş 5.0L s-bag Kapasitesi"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbalı",
+      "Performer Expert"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Performer Expert Torbalı Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 78,
+      "capacity": "5.0 L (s-bag)",
+      "weightKg": 5,
+      "powerWatts": 650
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 9999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 10199,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 9899,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 10299,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 10399,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 9099
+      },
+      {
+        "date": "2025-10",
+        "price": 9099
+      },
+      {
+        "date": "2025-11",
+        "price": 9499
+      },
+      {
+        "date": "2025-12",
+        "price": 9499
+      },
+      {
+        "date": "2025-01",
+        "price": 9899
+      },
+      {
+        "date": "2025-02",
+        "price": 9899
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc993207-marathon-ultimate",
+    "slug": "philips-philips-fc993207-marathon-ultimate",
+    "name": "Philips FC9932/07 Marathon Ultimate",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-77050.jpg",
+    "images": [
+      "/images/appliances/philips-77050.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 890,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "PowerCyclone 10 / 8 Maksimum Siklon Performansı",
+      "TriActive Ultra LED Işıklı Özel Başlık",
+      "Allergy H13 Filtre ile %99.9 Toz Hapsetme",
+      "NanoClean Kolay Boşaltılan Toz Haznesi"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbasız",
+      "Marathon Ultimate"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Marathon Ultimate Torbasız Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 75,
+      "capacity": "2.2 L",
+      "weightKg": 5.5,
+      "powerWatts": 650
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 14999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 15299,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 14849,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 15449,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 15599,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 13649
+      },
+      {
+        "date": "2025-10",
+        "price": 13649
+      },
+      {
+        "date": "2025-11",
+        "price": 14249
+      },
+      {
+        "date": "2025-12",
+        "price": 14249
+      },
+      {
+        "date": "2025-01",
+        "price": 14849
+      },
+      {
+        "date": "2025-02",
+        "price": 14849
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc872109-performer-expert",
+    "slug": "philips-philips-fc872109-performer-expert",
+    "name": "Philips FC8721/09 Performer Expert",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-32063.jpg",
+    "images": [
+      "/images/appliances/philips-32063.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 640,
+    "basePrice": 9999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "AirflowMax Teknolojisi ile Maksimum Emiş Gücü",
+      "TriActiveMax Çok Yönlü Zemin Başlığı",
+      "HEPA 13 ve AirSeal Antialerjik Koruması",
+      "Geniş 5.0L s-bag Kapasitesi"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbalı",
+      "Performer Expert"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Performer Expert Torbalı Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 78,
+      "capacity": "5.0 L (s-bag)",
+      "weightKg": 5,
+      "powerWatts": 650
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 9999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 10199,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 9899,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 10299,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 10399,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 9099
+      },
+      {
+        "date": "2025-10",
+        "price": 9099
+      },
+      {
+        "date": "2025-11",
+        "price": 9499
+      },
+      {
+        "date": "2025-12",
+        "price": 9499
+      },
+      {
+        "date": "2025-01",
+        "price": 9899
+      },
+      {
+        "date": "2025-02",
+        "price": 9899
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-xb915409",
+    "slug": "philips-philips-xb915409",
+    "name": "Philips XB9154/09",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-714547.jpg",
+    "images": [
+      "/images/appliances/philips-714547.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 890,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "PowerCyclone 10 / 8 Maksimum Siklon Performansı",
+      "TriActive Ultra LED Işıklı Özel Başlık",
+      "Allergy H13 Filtre ile %99.9 Toz Hapsetme",
+      "NanoClean Kolay Boşaltılan Toz Haznesi"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbasız",
+      "Marathon Ultimate"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Marathon Ultimate Torbasız Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 75,
+      "capacity": "2.2 L",
+      "weightKg": 5.5,
+      "powerWatts": 900
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 14999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 15299,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 14849,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 15449,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 15599,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 13649
+      },
+      {
+        "date": "2025-10",
+        "price": 13649
+      },
+      {
+        "date": "2025-11",
+        "price": 14249
+      },
+      {
+        "date": "2025-12",
+        "price": 14249
+      },
+      {
+        "date": "2025-01",
+        "price": 14849
+      },
+      {
+        "date": "2025-02",
+        "price": 14849
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc872709-performer-expert",
+    "slug": "philips-philips-fc872709-performer-expert",
+    "name": "Philips FC8727/09 Performer Expert",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-32019.jpg",
+    "images": [
+      "/images/appliances/philips-32019.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 640,
+    "basePrice": 9999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "AirflowMax Teknolojisi ile Maksimum Emiş Gücü",
+      "TriActiveMax Çok Yönlü Zemin Başlığı",
+      "HEPA 13 ve AirSeal Antialerjik Koruması",
+      "Geniş 5.0L s-bag Kapasitesi"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbalı",
+      "Performer Expert"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Performer Expert Torbalı Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 78,
+      "capacity": "5.0 L (s-bag)",
+      "weightKg": 5,
+      "powerWatts": 650
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 9999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 10199,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 9899,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 10299,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 10399,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 9099
+      },
+      {
+        "date": "2025-10",
+        "price": 9099
+      },
+      {
+        "date": "2025-11",
+        "price": 9499
+      },
+      {
+        "date": "2025-12",
+        "price": 9499
+      },
+      {
+        "date": "2025-01",
+        "price": 9899
+      },
+      {
+        "date": "2025-02",
+        "price": 9899
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc872609-performer-expert",
+    "slug": "philips-philips-fc872609-performer-expert",
+    "name": "Philips FC8726/09 Performer Expert",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-32014.jpg",
+    "images": [
+      "/images/appliances/philips-32014.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 640,
+    "basePrice": 9999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "AirflowMax Teknolojisi ile Maksimum Emiş Gücü",
+      "TriActiveMax Çok Yönlü Zemin Başlığı",
+      "HEPA 13 ve AirSeal Antialerjik Koruması",
+      "Geniş 5.0L s-bag Kapasitesi"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbalı",
+      "Performer Expert"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Performer Expert Torbalı Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 78,
+      "capacity": "5.0 L (s-bag)",
+      "weightKg": 5,
+      "powerWatts": 650
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 9999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 10199,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 9899,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 10299,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 10399,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 9099
+      },
+      {
+        "date": "2025-10",
+        "price": 9099
+      },
+      {
+        "date": "2025-11",
+        "price": 9499
+      },
+      {
+        "date": "2025-12",
+        "price": 9499
+      },
+      {
+        "date": "2025-01",
+        "price": 9899
+      },
+      {
+        "date": "2025-02",
+        "price": 9899
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc865401-performer-active",
+    "slug": "philips-philips-fc865401-performer-active",
+    "name": "Philips FC8654/01 Performer Active",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-4117.jpg",
+    "images": [
+      "/images/appliances/philips-4117.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 87,
+    "reviewCount": 510,
+    "basePrice": 8499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "AirflowMax Yüksek Hava Akışı",
+      "Allergy H13 Filtre Sistemi",
+      "TriActive Başlık & Geniş 4.0L Toz Torbası"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbalı",
+      "Performer Active"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Performer Active Torbalı Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 77,
+      "capacity": "4.0 L (s-bag)",
+      "weightKg": 4.8,
+      "powerWatts": 2000
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 8499,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 8669,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 8414,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 8754,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 8839,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 7734
+      },
+      {
+        "date": "2025-10",
+        "price": 7734
+      },
+      {
+        "date": "2025-11",
+        "price": 8074
+      },
+      {
+        "date": "2025-12",
+        "price": 8074
+      },
+      {
+        "date": "2025-01",
+        "price": 8414
+      },
+      {
+        "date": "2025-02",
+        "price": 8414
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc865701-performer-active",
+    "slug": "philips-philips-fc865701-performer-active",
+    "name": "Philips FC8657/01 Performer Active",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-4116.png",
+    "images": [
+      "/images/appliances/philips-4116.png"
+    ],
+    "rating": 4.7,
+    "epeyScore": 87,
+    "reviewCount": 510,
+    "basePrice": 8499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "AirflowMax Yüksek Hava Akışı",
+      "Allergy H13 Filtre Sistemi",
+      "TriActive Başlık & Geniş 4.0L Toz Torbası"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbalı",
+      "Performer Active"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Performer Active Torbalı Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 77,
+      "capacity": "4.0 L (s-bag)",
+      "weightKg": 4.8,
+      "powerWatts": 2000
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 8499,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 8669,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 8414,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 8754,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 8839,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 7734
+      },
+      {
+        "date": "2025-10",
+        "price": 7734
+      },
+      {
+        "date": "2025-11",
+        "price": 8074
+      },
+      {
+        "date": "2025-12",
+        "price": 8074
+      },
+      {
+        "date": "2025-01",
+        "price": 8414
+      },
+      {
+        "date": "2025-02",
+        "price": 8414
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-xb212509",
+    "slug": "philips-philips-xb212509",
+    "name": "Philips XB2125/09",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-707582.png",
+    "images": [
+      "/images/appliances/philips-707582.png"
+    ],
+    "rating": 4.6,
+    "epeyScore": 84,
+    "reviewCount": 590,
+    "basePrice": 6499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "PowerCyclone / AirflowMax Teknolojisi",
+      "Kompakt ve Hafif Ergonomik Tasarım",
+      "Super Clean Air Filtre Sistemi"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbasız"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Kompakt Torbasız Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 77,
+      "capacity": "1.5 L",
+      "weightKg": 4.3,
+      "powerWatts": 850
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 6499,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 6629,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 6434,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 6694,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 6759,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 5914
+      },
+      {
+        "date": "2025-10",
+        "price": 5914
+      },
+      {
+        "date": "2025-11",
+        "price": 6174
+      },
+      {
+        "date": "2025-12",
+        "price": 6174
+      },
+      {
+        "date": "2025-01",
+        "price": 6434
+      },
+      {
+        "date": "2025-02",
+        "price": 6434
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc933109-powerpro-compact",
+    "slug": "philips-philips-fc933109-powerpro-compact",
+    "name": "Philips FC9331/09 PowerPro Compact",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-729398.jpg",
+    "images": [
+      "/images/appliances/philips-729398.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 84,
+    "reviewCount": 590,
+    "basePrice": 6499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "PowerCyclone / AirflowMax Teknolojisi",
+      "Kompakt ve Hafif Ergonomik Tasarım",
+      "Super Clean Air Filtre Sistemi"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbasız"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Kompakt Torbasız Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 77,
+      "capacity": "1.5 L",
+      "weightKg": 4.3,
+      "powerWatts": 900
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 6499,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 6629,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 6434,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 6694,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 6759,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 5914
+      },
+      {
+        "date": "2025-10",
+        "price": 5914
+      },
+      {
+        "date": "2025-11",
+        "price": 6174
+      },
+      {
+        "date": "2025-12",
+        "price": 6174
+      },
+      {
+        "date": "2025-01",
+        "price": 6434
+      },
+      {
+        "date": "2025-02",
+        "price": 6434
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc933309-powerpro-city",
+    "slug": "philips-philips-fc933309-powerpro-city",
+    "name": "Philips FC9333/09 PowerPro City",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-723914.jpg",
+    "images": [
+      "/images/appliances/philips-723914.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 84,
+    "reviewCount": 590,
+    "basePrice": 6499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "PowerCyclone / AirflowMax Teknolojisi",
+      "Kompakt ve Hafif Ergonomik Tasarım",
+      "Super Clean Air Filtre Sistemi"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbasız"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Kompakt Torbasız Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 77,
+      "capacity": "1.5 L",
+      "weightKg": 4.3,
+      "powerWatts": 900
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 6499,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 6629,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 6434,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 6694,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 6759,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 5914
+      },
+      {
+        "date": "2025-10",
+        "price": 5914
+      },
+      {
+        "date": "2025-11",
+        "price": 6174
+      },
+      {
+        "date": "2025-12",
+        "price": 6174
+      },
+      {
+        "date": "2025-01",
+        "price": 6434
+      },
+      {
+        "date": "2025-02",
+        "price": 6434
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc993407",
+    "slug": "philips-philips-fc993407",
+    "name": "Philips FC9934/07",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-110224.jpg",
+    "images": [
+      "/images/appliances/philips-110224.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 890,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "PowerCyclone 10 / 8 Maksimum Siklon Performansı",
+      "TriActive Ultra LED Işıklı Özel Başlık",
+      "Allergy H13 Filtre ile %99.9 Toz Hapsetme",
+      "NanoClean Kolay Boşaltılan Toz Haznesi"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbasız",
+      "Marathon Ultimate"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Marathon Ultimate Torbasız Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 75,
+      "capacity": "2.2 L",
+      "weightKg": 5.5,
+      "powerWatts": 650
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 14999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 15299,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 14849,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 15449,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 15599,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 13649
+      },
+      {
+        "date": "2025-10",
+        "price": 13649
+      },
+      {
+        "date": "2025-11",
+        "price": 14249
+      },
+      {
+        "date": "2025-12",
+        "price": 14249
+      },
+      {
+        "date": "2025-01",
+        "price": 14849
+      },
+      {
+        "date": "2025-02",
+        "price": 14849
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-performer-active-fc857709",
+    "slug": "philips-philips-performer-active-fc857709",
+    "name": "Philips Performer Active FC8577/09",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-608505.jpg",
+    "images": [
+      "/images/appliances/philips-608505.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 87,
+    "reviewCount": 510,
+    "basePrice": 8499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "AirflowMax Yüksek Hava Akışı",
+      "Allergy H13 Filtre Sistemi",
+      "TriActive Başlık & Geniş 4.0L Toz Torbası"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbalı",
+      "Performer Active"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Performer Active Torbalı Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 77,
+      "capacity": "4.0 L (s-bag)",
+      "weightKg": 4.8,
+      "powerWatts": 650
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 8499,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 8669,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 8414,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 8754,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 8839,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 7734
+      },
+      {
+        "date": "2025-10",
+        "price": 7734
+      },
+      {
+        "date": "2025-11",
+        "price": 8074
+      },
+      {
+        "date": "2025-12",
+        "price": 8074
+      },
+      {
+        "date": "2025-01",
+        "price": 8414
+      },
+      {
+        "date": "2025-02",
+        "price": 8414
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc957107-powerpro-max",
+    "slug": "philips-philips-fc957107-powerpro-max",
+    "name": "Philips FC9571/07 PowerPro Max",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-392013.jpg",
+    "images": [
+      "/images/appliances/philips-392013.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 86,
+    "reviewCount": 520,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "PowerCyclone 7 Hava Ayrıştırma",
+      "Allergy H13 Filtreleme",
+      "Kompakt ve Güçlü Gövde"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbasız",
+      "PowerPro Active"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "PowerPro Active / Max Torbasız Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 76,
+      "capacity": "1.5 L",
+      "weightKg": 4.8,
+      "powerWatts": 1800
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 7999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 8159,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 7919,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 8239,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 8319,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 7279
+      },
+      {
+        "date": "2025-10",
+        "price": 7279
+      },
+      {
+        "date": "2025-11",
+        "price": 7599
+      },
+      {
+        "date": "2025-12",
+        "price": 7599
+      },
+      {
+        "date": "2025-01",
+        "price": 7919
+      },
+      {
+        "date": "2025-02",
+        "price": 7919
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc992807",
+    "slug": "philips-philips-fc992807",
+    "name": "Philips FC9928/07",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-110225.jpg",
+    "images": [
+      "/images/appliances/philips-110225.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 890,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "PowerCyclone 10 / 8 Maksimum Siklon Performansı",
+      "TriActive Ultra LED Işıklı Özel Başlık",
+      "Allergy H13 Filtre ile %99.9 Toz Hapsetme",
+      "NanoClean Kolay Boşaltılan Toz Haznesi"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbasız",
+      "Marathon Ultimate"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Marathon Ultimate Torbasız Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 75,
+      "capacity": "2.2 L",
+      "weightKg": 5.5,
+      "powerWatts": 650
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 14999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 15299,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 14849,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 15449,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 15599,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 13649
+      },
+      {
+        "date": "2025-10",
+        "price": 13649
+      },
+      {
+        "date": "2025-11",
+        "price": 14249
+      },
+      {
+        "date": "2025-12",
+        "price": 14249
+      },
+      {
+        "date": "2025-01",
+        "price": 14849
+      },
+      {
+        "date": "2025-02",
+        "price": 14849
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc8210",
+    "slug": "philips-philips-fc8210",
+    "name": "Philips FC8210",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-671765.jpg",
+    "images": [
+      "/images/appliances/philips-671765.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 84,
+    "reviewCount": 590,
+    "basePrice": 6499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "PowerCyclone / AirflowMax Teknolojisi",
+      "Kompakt ve Hafif Ergonomik Tasarım",
+      "Super Clean Air Filtre Sistemi"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbalı"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Kompakt Torbalı Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 77,
+      "capacity": "2.0 L",
+      "weightKg": 4.3,
+      "powerWatts": 1600
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 6499,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 6629,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 6434,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 6694,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 6759,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 5914
+      },
+      {
+        "date": "2025-10",
+        "price": 5914
+      },
+      {
+        "date": "2025-11",
+        "price": 6174
+      },
+      {
+        "date": "2025-12",
+        "price": 6174
+      },
+      {
+        "date": "2025-01",
+        "price": 6434
+      },
+      {
+        "date": "2025-02",
+        "price": 6434
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc814401",
+    "slug": "philips-philips-fc814401",
+    "name": "Philips FC8144/01",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-569231.jpg",
+    "images": [
+      "/images/appliances/philips-569231.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 84,
+    "reviewCount": 590,
+    "basePrice": 6499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "PowerCyclone / AirflowMax Teknolojisi",
+      "Kompakt ve Hafif Ergonomik Tasarım",
+      "Super Clean Air Filtre Sistemi"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbasız"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Kompakt Torbasız Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 77,
+      "capacity": "1.5 L",
+      "weightKg": 4.3,
+      "powerWatts": 1400
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 6499,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 6629,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 6434,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 6694,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 6759,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 5914
+      },
+      {
+        "date": "2025-10",
+        "price": 5914
+      },
+      {
+        "date": "2025-11",
+        "price": 6174
+      },
+      {
+        "date": "2025-12",
+        "price": 6174
+      },
+      {
+        "date": "2025-01",
+        "price": 6434
+      },
+      {
+        "date": "2025-02",
+        "price": 6434
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc824109",
+    "slug": "philips-philips-fc824109",
+    "name": "Philips FC8241/09",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-608506.jpg",
+    "images": [
+      "/images/appliances/philips-608506.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 84,
+    "reviewCount": 590,
+    "basePrice": 6499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "PowerCyclone / AirflowMax Teknolojisi",
+      "Kompakt ve Hafif Ergonomik Tasarım",
+      "Super Clean Air Filtre Sistemi"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbalı"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Kompakt Torbalı Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 77,
+      "capacity": "3.0 L (s-bag)",
+      "weightKg": 4.3,
+      "powerWatts": 750
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 6499,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 6629,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 6434,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 6694,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 6759,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 5914
+      },
+      {
+        "date": "2025-10",
+        "price": 5914
+      },
+      {
+        "date": "2025-11",
+        "price": 6174
+      },
+      {
+        "date": "2025-12",
+        "price": 6174
+      },
+      {
+        "date": "2025-01",
+        "price": 6434
+      },
+      {
+        "date": "2025-02",
+        "price": 6434
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc883201",
+    "slug": "philips-philips-fc883201",
+    "name": "Philips FC8832/01",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-595626.jpg",
+    "images": [
+      "/images/appliances/philips-595626.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 85,
+    "reviewCount": 310,
+    "basePrice": 13999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6 cm Ultra İnce Tasarım ile Mobilya Altlarına Kolay Erişim",
+      "TriActive XL Ekstra Geniş Emiş Başlığı",
+      "105 Dakika Kesintisiz Lityum İyon Pil Ömrü",
+      "Akıllı Algılama Sistemi ile Engel ve Merdiven Tanıma"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Robot Süpürge",
+      "SmartPro",
+      "İnce Gövde"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "SmartPro Compact Akıllı Robot Süpürge",
+      "suctionPowerPa": 2000,
+      "batteryRuntimeMin": 105,
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "mappingTechnology": "Smart Detection Jiroskop Sensör Sistemi",
+      "noiseLevelDb": 63,
+      "capacity": "0.4 L",
+      "weightKg": 1.95,
+      "powerWatts": 650
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 13999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 14279,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 13859,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 14419,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 14559,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 12739
+      },
+      {
+        "date": "2025-10",
+        "price": 12739
+      },
+      {
+        "date": "2025-11",
+        "price": 13299
+      },
+      {
+        "date": "2025-12",
+        "price": 13299
+      },
+      {
+        "date": "2025-01",
+        "price": 13859
+      },
+      {
+        "date": "2025-02",
+        "price": 13859
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc845201-powerlife",
+    "slug": "philips-philips-fc845201-powerlife",
+    "name": "Philips FC8452/01 PowerLife",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-30452.png",
+    "images": [
+      "/images/appliances/philips-30452.png"
+    ],
+    "rating": 4.6,
+    "epeyScore": 84,
+    "reviewCount": 470,
+    "basePrice": 6499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2000W Güçlü Emiş",
+      "3.0L s-bag Toz Torbası",
+      "Kompakt Tasarım"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbalı",
+      "PowerLife"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "PowerLife Torbalı Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 80,
+      "capacity": "3.0 L (s-bag)",
+      "weightKg": 4.2,
+      "powerWatts": 2000
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 6499,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 6629,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 6434,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 6694,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 6759,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 5914
+      },
+      {
+        "date": "2025-10",
+        "price": 5914
+      },
+      {
+        "date": "2025-11",
+        "price": 6174
+      },
+      {
+        "date": "2025-12",
+        "price": 6174
+      },
+      {
+        "date": "2025-01",
+        "price": 6434
+      },
+      {
+        "date": "2025-02",
+        "price": 6434
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-fc845501-powerlife",
+    "slug": "philips-philips-fc845501-powerlife",
+    "name": "Philips FC8455/01 PowerLife",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-30451.png",
+    "images": [
+      "/images/appliances/philips-30451.png"
+    ],
+    "rating": 4.6,
+    "epeyScore": 84,
+    "reviewCount": 470,
+    "basePrice": 6499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2000W Güçlü Emiş",
+      "3.0L s-bag Toz Torbası",
+      "Kompakt Tasarım"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Elektrikli Süpürge",
+      "Torbalı",
+      "PowerLife"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "PowerLife Torbalı Elektrikli Süpürge",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 80,
+      "capacity": "3.0 L (s-bag)",
+      "weightKg": 4.2,
+      "powerWatts": 2000
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 6499,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 6629,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 6434,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 6694,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 6759,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 5914
+      },
+      {
+        "date": "2025-10",
+        "price": 5914
+      },
+      {
+        "date": "2025-11",
+        "price": 6174
+      },
+      {
+        "date": "2025-12",
+        "price": 6174
+      },
+      {
+        "date": "2025-01",
+        "price": 6434
+      },
+      {
+        "date": "2025-02",
+        "price": 6434
+      }
+    ]
   }
 ];
