@@ -6803,6 +6803,74 @@ export const mockAppliances: ApplianceProduct[] = [
     ]
   },
   {
+    "id": "roborock-vacuum-s7-auto-empty-dock",
+    "slug": "roborock-vacuum-s7-auto-empty-dock",
+    "name": "Roborock S7 Otomatik Toz Boşaltma İstasyonu (R100010-02)",
+    "brand": "Roborock",
+    "category": "appliances",
+    "basePrice": 11499,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 86,
+    "reviewCount": 380,
+    "image": "/images/appliances/roborock-878032.jpg",
+    "images": [
+      "/images/appliances/roborock-878032.jpg"
+    ],
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Roborock S7 Serisi ile Tam Uyumlu",
+      "Torbasız Siklonik / Torbalı Çift Kullanım Modu",
+      "H13 Seviyesi Çok Katmanlı HEPA Filtrasyon",
+      "6 Haftaya Kadar Bakımsız Otomatik Toz Tahliyesi"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Süpürge Aksesuar & İstasyon",
+      "powerWatts": 1000,
+      "suctionPowerPa": 0,
+      "batteryRuntimeMin": 0,
+      "noiseLevelDb": 72,
+      "capacity": "1.5 L toz haznesi / 1.8 L toz torbası",
+      "autoCleanDock": true,
+      "appControl": true,
+      "programsCount": 3,
+      "weightKg": 5.5,
+      "warrantyYears": 2,
+      "color": "Beyaz / Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-rr-s7dock-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 11499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Aksesuar"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 650,
+        "url": "https://www.epey.com/urun/roborock-vacuum-s7-otomatik-cop-bosaltma-istasyonu.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2022-01-01",
+        "price": 4999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "roborock-h7",
     "slug": "roborock-h7",
     "name": "Roborock H7 Kablosuz Dikey Süpürge",
