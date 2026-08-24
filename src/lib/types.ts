@@ -56,6 +56,8 @@ export interface ApplianceSpecs {
   appControl?: boolean;
   keepWarmHours?: number;
   programsCount?: number;
+  ionicConditioning?: boolean;
+  coldShot?: boolean;
   pressureBar?: number;
   steamOutputGpm?: number;
   steamOutputGramsPerMin?: number;

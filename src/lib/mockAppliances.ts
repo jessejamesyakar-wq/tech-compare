@@ -2,6 +2,531 @@ import { ApplianceProduct } from './types';
 
 export const mockAppliances: ApplianceProduct[] = [
   {
+    "id": "philips-senseo-select-csa240",
+    "slug": "philips-senseo-select-csa240",
+    "name": "Philips Senseo Select CSA240/60 Pod & Kapsül Kahve Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 11176.04,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 380,
+    "image": "/images/appliances/philips-senseo-select-csa240.jpg",
+    "images": [
+      "/images/appliances/philips-senseo-select-csa240.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "Intensity Plus Kaydırıcı (Klasik Yumuşak, Yoğun Espresso ve Zengin Kahve)",
+      "Crema Plus Teknolojisi ile İpeksi ve Yoğun Kahve Kreması",
+      "Memory Fonksiyonu ile Favori Kahve Tarifinizi Kaydetme",
+      "Aynı Anda 2 Fincan Kahve Hazırlama ve 0.9L Su Deposu"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Kahve Makinesi",
+      "powerWatts": 1450,
+      "capacityLiters": 0.9,
+      "waterTankCapacityLiters": 0.9,
+      "programsCount": 3,
+      "dishwasherSafeParts": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 2.1,
+      "warrantyYears": 2,
+      "color": "Mat Siyah / Metalik Gri"
+    },
+    "storeOffers": [
+      {
+        "id": "so-csa240-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 11176.04,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Senseo Select Pod Kahve",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/kahve-makinesi/philips-senseo-select-csa240.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 11990,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11176.04,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-hd2650-90",
+    "slug": "philips-hd2650-90",
+    "name": "Philips Viva Collection HD2650/90 950W Paslanmaz Çelik Ekmek Kızartma Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 8999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 340,
+    "image": "/images/appliances/philips-hd2650-90.jpg",
+    "images": [
+      "/images/appliances/philips-hd2650-90.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "950 Watt Güç & Şık Fırçalanmış Paslanmaz Çelik Gövde",
+      "8 Kademeli Ayarlanabilir Kızartma Kontrolü & Ekstra Geniş Yuvalar",
+      "Entegre Çörek ve Kruvasan Isıtma Rafı",
+      "Buz Çözme, Yeniden Isıtma ve Otomatik Merkezleme"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Ekmek Kızartma Makinesi",
+      "powerWatts": 950,
+      "programsCount": 8,
+      "dishwasherSafeParts": true,
+      "autoShutOff": true,
+      "weightKg": 1.5,
+      "warrantyYears": 2,
+      "color": "Fırçalanmış Paslanmaz Çelik"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hd2650-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Viva Collection Çelik"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 620,
+        "url": "https://www.epey.com/ekmek-kizartma-makinesi/philips-hd2650-90.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 9500,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-hd4646-20",
+    "slug": "philips-hd4646-20",
+    "name": "Philips Daily Collection HD4646/20 2400W 1.5L Su Isıtıcı (Kettle)",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 3228.4,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 1850,
+    "image": "/images/appliances/philips-hd4646-20.png",
+    "images": [
+      "/images/appliances/philips-hd4646-20.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "2400 Watt Hızlı Kaynatma & 1.5 Litre Kapasite",
+      "Düz Gizli Paslanmaz Çelik Isıtma Rezistansı",
+      "Mikro Gözenekli Çıkarılabilir Kireç Filtresi",
+      "360 Derece Döner Taban ve Çift Taraflı Su Seviyesi Göstergesi"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Su Isıtıcı",
+      "powerWatts": 2400,
+      "capacityLiters": 1.5,
+      "waterTankCapacityLiters": 1.5,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1,
+      "warrantyYears": 2,
+      "color": "Beyaz / Mavi Detaylar"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hd4646-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 3228.4,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Daily Kettle",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3400,
+        "url": "https://www.epey.com/su-isiticisi/philips-hd4646-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3499,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3228.4,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-azur-8000-dst8070-80",
+    "slug": "philips-azur-8000-dst8070-80",
+    "name": "Philips Azur 8000 Series DST8070/80 3000W Buharlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 8322.57,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 97,
+    "reviewCount": 940,
+    "image": "/images/appliances/philips-dst8070-80.jpg",
+    "images": [
+      "/images/appliances/philips-dst8070-80.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "3000 Watt Ekstra Hızlı Isınma & 85 g/dk Sürekli Güçlü Buhar",
+      "260g Turbo Şok Buhar ile İnatçı Kırışıklıklara Son",
+      "SteamGlide Elite Taban ile Kusursuz Kayganlık ve Çizilmezlik",
+      "OptimalTEMP Teknolojisi ile Sıfır Yanık Riski ve Quick Calc Release"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buharlı Ütü",
+      "powerWatts": 3000,
+      "steamOutputGramsPerMin": 85,
+      "steamBoostGramsPerMin": 260,
+      "waterTankCapacityLiters": 0.35,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.78,
+      "warrantyYears": 2,
+      "color": "Koyu Mavi / Rose Gold"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dst8070-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 8322.57,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Azur 8000 Zirve Model"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/utu/philips-azur-8000-dst8070-80.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 8899,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8322.57,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-hi5922-30",
+    "slug": "philips-hi5922-30",
+    "name": "Philips HI5922/30 2400W 5.2 Bar Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 9500,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 310,
+    "image": "/images/appliances/philips-hi5922-30.jpg",
+    "images": [
+      "/images/appliances/philips-hi5922-30.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "5.2 Bar Pompa Basıncı & 300g Şok Buhar (110 g/dk Sürekli Buhar)",
+      "Seramik Taban ile Zahmetsiz Ütüleme ve Kayganlık",
+      "1.1 Litre Çıkarılabilir Su Deposu",
+      "Smart Calc-Clean ile Hızlı ve Zahmetsiz Kireç Temizliği"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2400,
+      "steamOutputGramsPerMin": 110,
+      "steamBoostGramsPerMin": 300,
+      "pressureBar": 5.2,
+      "waterTankCapacityLiters": 1.1,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 2.7,
+      "warrantyYears": 2,
+      "color": "Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hi5922-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 9500,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "300g Şok Buhar"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 480,
+        "url": "https://www.epey.com/utu/philips-hi5922-30.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 9999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9500,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-bhd290-00",
+    "slug": "philips-bhd290-00",
+    "name": "Philips DryCare Pro BHD290/00 2300W İyonik Profesyonel Saç Kurutma Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 11610,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 220,
+    "image": "/images/appliances/philips-bhd290-00.jpg",
+    "images": [
+      "/images/appliances/philips-bhd290-00.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "2300 Watt Profesyonel AC Motor & 105 km/sa Hava Hızı",
+      "İyonik Bakım ile Elektriklenmeyen Parlak Saçlar",
+      "ThermoProtect Sıcaklık Ayarı ile Aşırı Isınmaya Karşı Koruma",
+      "Soğuk Hava Üfleme (Cool Shot) & İnce Fön Başlığı ve Difüzör"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Saç Kurutma Makinesi",
+      "powerWatts": 2300,
+      "programsCount": 6,
+      "ionicConditioning": true,
+      "coldShot": true,
+      "weightKg": 0.85,
+      "warrantyYears": 2,
+      "color": "Mat Siyah / Mor Detaylar"
+    },
+    "storeOffers": [
+      {
+        "id": "so-bhd290-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 11610,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Profesyonel AC Motor"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.epey.com/sac-kurutma-makinesi/philips-bhd290-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 12400,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11610,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-hp8230-50",
+    "slug": "philips-hp8230-50",
+    "name": "Philips ThermoProtect HP8230/50 2100W Profesyonel Saç Kurutma Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 10664,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 390,
+    "image": "/images/appliances/philips-hp8230-50.png",
+    "images": [
+      "/images/appliances/philips-hp8230-50.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2100 Watt Güçlü Kurutma & 6 Farklı Hız ve Sıcaklık Ayarı",
+      "ThermoProtect Sıcaklık Koruma Teknolojisi",
+      "Soğuk Hava Üfleme Düğmesi ile Şekli Sabitleme",
+      "14 mm Hassas Şekillendirme Fön Başlığı"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Saç Kurutma Makinesi",
+      "powerWatts": 2100,
+      "programsCount": 6,
+      "coldShot": true,
+      "weightKg": 0.65,
+      "warrantyYears": 2,
+      "color": "Mat Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hp8230-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 10664,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "ThermoProtect 2100W",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 540,
+        "url": "https://www.epey.com/sac-kurutma-makinesi/philips-hp8230-50.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 11200,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 10664,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-bhd500-00",
+    "slug": "philips-bhd500-00",
+    "name": "Philips Series 5000 BHD500/00 2100W ThermoShield Saç Kurutma Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 2199,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 3800,
+    "image": "/images/appliances/philips-bhd500.png",
+    "images": [
+      "/images/appliances/philips-bhd500.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "ThermoShield Teknolojisi ile Saçı Isı Hasarından %100 Koruma",
+      "2100 Watt Güçlü Kurutma & 110 km/sa Hava Akışı",
+      "2 Kat Güçlü İyonik Bakım ile Parlak ve Pürüzsüz Saçlar",
+      "6 Isı ve Hız Ayarı & Soğuk Hava Sabitleme Modu"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Saç Kurutma Makinesi",
+      "powerWatts": 2100,
+      "programsCount": 6,
+      "ionicConditioning": true,
+      "coldShot": true,
+      "weightKg": 0.62,
+      "warrantyYears": 2,
+      "color": "Metalik Beyaz / Rose Gold"
+    },
+    "storeOffers": [
+      {
+        "id": "so-bhd500-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 2199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En Çok Satan ThermoShield"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 8900,
+        "url": "https://www.epey.com/sac-kurutma-makinesi/philips-bhd500.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 2399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2199,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "philips-hr2156-90",
     "slug": "philips-hr2156-90",
     "name": "Philips Viva Collection HR2156/90 600W 2L ProBlend 5 Cam Hazneli Blender",

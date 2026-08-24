@@ -2,6 +2,1481 @@ import { LaptopProduct } from './types';
 
 export const mockLaptops: LaptopProduct[] = [
   {
+    "id": "philips-tab6405",
+    "slug": "philips-tab6405",
+    "name": "Philips TAB6405 2.1 Kanal 140W Ultra İnce Soundbar & Kablosuz Subwoofer",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Ses Sistemi",
+    "basePrice": 19199.04,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 140,
+    "image": "/images/laptops/philips-tab6405.png",
+    "images": [
+      "/images/laptops/philips-tab6405.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "140 Watt Güç & 2.1 Kanal Kablosuz Subwoofer ile Sinematik Baslar",
+      "Yalnızca 35 mm Ultra İnce Profil (Televizyon Altına Mükemmel Uyum)",
+      "Dolby Audio Desteği & HDMI ARC Kolay TV Entegrasyonu",
+      "Bluetooth, Optik Giriş ve USB Medya Oynatma"
+    ],
+    "specs": {
+      "productType": "Ses Sistemi",
+      "processor": "140W 2.1 Dolby Soundbar Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "Dolby Audio 2.1 Channel Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "Dolby Digital Audio",
+      "ports": [
+        "1x HDMI ARC",
+        "1x Optik Ses",
+        "1x USB",
+        "Bluetooth 4.2",
+        "3.5mm AUX"
+      ],
+      "weightKg": 4.5,
+      "bodyMaterial": "35mm Ultra İnce Alüminyum & Kumaş Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-tab6405-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 19199.04,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ultra İnce 35mm Soundbar",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 520,
+        "url": "https://www.epey.com/ses-sistemi/philips-tab6405.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 20500,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19199.04,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-tab6305-10",
+    "slug": "philips-tab6305-10",
+    "name": "Philips TAB6305/10 2.1 Kanal 140W Ultra İnce Soundbar & Kablosuz Subwoofer",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Ses Sistemi",
+    "basePrice": 18047.04,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 160,
+    "image": "/images/laptops/philips-tab6305-10.jpg",
+    "images": [
+      "/images/laptops/philips-tab6305-10.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "140 Watt Maksimum Güç & Ultra İnce 3.5 cm Tasarım",
+      "Kablosuz Güçlü Subwoofer ile Derin Bas Deneyimi",
+      "Dolby Digital & HDMI ARC Tek Kumanda Kontrolü",
+      "Bluetooth ile Kablosuz Müzik Akışı"
+    ],
+    "specs": {
+      "productType": "Ses Sistemi",
+      "processor": "140W 2.1 Dolby Soundbar Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "Dolby Audio 2.1 Channel Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "Dolby Digital Audio",
+      "ports": [
+        "1x HDMI ARC",
+        "1x Optik",
+        "1x USB",
+        "Bluetooth",
+        "3.5mm AUX"
+      ],
+      "weightKg": 4.5,
+      "bodyMaterial": "35mm Ultra İnce Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-tab6305-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 18047.04,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kablosuz Subwoofer"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 410,
+        "url": "https://www.epey.com/ses-sistemi/philips-tab6305-10.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 19200,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18047.04,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-243v7qdsb-00",
+    "slug": "philips-243v7qdsb-00",
+    "name": "Philips 243V7QDSB/00 23.8\" FHD IPS Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 36750,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 45,
+    "image": "/images/laptops/philips-243v7qdsb-00.jpg",
+    "images": [
+      "/images/laptops/philips-243v7qdsb-00.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "23.8 İnç Full HD (1920 x 1080) Geniş Açılı IPS Panel",
+      "DVI-D, HDMI ve VGA Çoklu Giriş Desteği",
+      "SmartContrast & Flicker-Free Göz Koruması",
+      "3 Kenar Çerçevesiz Şık Tasarım"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "FHD IPS Display Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "60Hz FHD IPS Engine",
+      "screenSizeInches": 23.8,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 100%, NTSC 72%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x DVI-D",
+        "1x VGA"
+      ],
+      "weightKg": 3.5,
+      "bodyMaterial": "İnce Çerçeveli Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-243v7qdsb-00-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 36750,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "IPS Panel"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 120,
+        "url": "https://www.epey.com/monitor/philips-243v7qdsb-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 38500,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 36750,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-243v7qdsb-01",
+    "slug": "philips-243v7qdsb-01",
+    "name": "Philips 243V7QDSB/01 23.8\" FHD IPS Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 29240,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 65,
+    "image": "/images/laptops/philips-243v7qdsb-01.jpg",
+    "images": [
+      "/images/laptops/philips-243v7qdsb-01.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "23.8 İnç Full HD (1920 x 1080) Canlı Renk Skalalı IPS Panel",
+      "HDMI, DVI-D ve VGA Bağlantıları",
+      "SmartImage Modları & LowBlue Göz Koruması",
+      "Ultra Dar Çerçeve Tasarımı"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "FHD IPS Display Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "60Hz FHD IPS Engine",
+      "screenSizeInches": 23.8,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 100%, NTSC 72%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x DVI-D",
+        "1x VGA"
+      ],
+      "weightKg": 3.5,
+      "bodyMaterial": "İnce Çerçeveli Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-243v7qdsb-01-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 29240,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "IPS Monitör",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 240,
+        "url": "https://www.epey.com/monitor/philips-243v7qdsb-01.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 30500,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 29240,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-241e1sca-01",
+    "slug": "philips-241e1sca-01",
+    "name": "Philips 241E1SCA/01 23.8\" 75Hz FHD 1500R Curved VA Hoparlörlü Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 22466.4,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 95,
+    "image": "/images/laptops/philips-241e1sca-01.jpg",
+    "images": [
+      "/images/laptops/philips-241e1sca-01.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "23.8 İnç Full HD (1920 x 1080) 1500R Kavisli VA Panel",
+      "75 Hz Yenileme & Dahili Stereo Hoparlörler",
+      "AMD FreeSync Akıcılığı & Ultra Wide-Color",
+      "Flicker-Free ve LowBlue Modu"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "23.8\" FHD 1500R Curved VA Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "75Hz FHD VA Curved Engine",
+      "screenSizeInches": 23.8,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 102%, NTSC 85%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x VGA",
+        "Hoparlör"
+      ],
+      "weightKg": 3.8,
+      "bodyMaterial": "1500R Curved Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-241e1sca-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 22466.4,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "1500R Kavisli"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 320,
+        "url": "https://www.epey.com/monitor/philips-241e1sca-01.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 23800,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 22466.4,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-241v8la-01",
+    "slug": "philips-241v8la-01",
+    "name": "Philips 241V8LA/01 23.8\" 75Hz FHD VA Hoparlörlü Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 19125,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 65,
+    "image": "/images/laptops/philips-241v8la-01.jpg",
+    "images": [
+      "/images/laptops/philips-241v8la-01.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "23.8 İnç Full HD (1920 x 1080) 75 Hz VA Panel (3000:1)",
+      "Dahili Stereo Hoparlörler & Adaptive-Sync",
+      "DisplayPort, HDMI ve VGA Girişleri",
+      "LowBlue Modu ve SmartContrast"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "FHD VA 75Hz Audio Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "75Hz FHD VA Engine",
+      "screenSizeInches": 23.8,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 100%, NTSC 85%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x DisplayPort 1.2",
+        "1x VGA",
+        "Hoparlör"
+      ],
+      "weightKg": 3.5,
+      "bodyMaterial": "İnce Çerçeveli Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-241v8la-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 19125,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dahili Hoparlör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 180,
+        "url": "https://www.epey.com/monitor/philips-241v8la-01.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 20200,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19125,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-273v7qdsb-00",
+    "slug": "philips-273v7qdsb-00",
+    "name": "Philips 273V7QDSB/00 27\" FHD IPS Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 17298,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 88,
+    "image": "/images/laptops/philips-273v7qdsb-00.jpg",
+    "images": [
+      "/images/laptops/philips-273v7qdsb-00.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "27 İnç Full HD (1920 x 1080) Geniş IPS Panel",
+      "HDMI, DVI-D ve VGA Girişleri",
+      "Flicker-Free ve LowBlue Göz Koruması",
+      "SmartImage Ön Ayarları"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "27\" FHD IPS Display Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "60Hz FHD IPS Engine",
+      "screenSizeInches": 27,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 100%, NTSC 72%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x DVI-D",
+        "1x VGA"
+      ],
+      "weightKg": 4.5,
+      "bodyMaterial": "İnce Çerçeveli Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-273v7qdsb-00-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 17298,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "27 İnç IPS",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 310,
+        "url": "https://www.epey.com/monitor/philips-273v7qdsb-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 18500,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 17298,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-221v8-01",
+    "slug": "philips-221v8-01",
+    "name": "Philips 221V8/01 21.5\" 75Hz FHD VA Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 6800,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 95,
+    "image": "/images/laptops/philips-221v8-01.jpg",
+    "images": [
+      "/images/laptops/philips-221v8-01.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "21.5 İnç Full HD (1920 x 1080) 75 Hz VA Panel (3000:1)",
+      "Adaptive-Sync Akıcılığı & SmartContrast",
+      "HDMI ve VGA Girişleri",
+      "Flicker-Free ve LowBlue Modu"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "FHD VA 75Hz Display Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "75Hz FHD VA Engine",
+      "screenSizeInches": 21.5,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 100%, NTSC 85%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x VGA",
+        "Ses Çıkışı"
+      ],
+      "weightKg": 2.8,
+      "bodyMaterial": "İnce Çerçeveli Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-221v8-01-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 6800,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "75Hz VA"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 420,
+        "url": "https://www.epey.com/monitor/philips-221v8-01.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 7200,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6800,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-243v7qdab-00",
+    "slug": "philips-243v7qdab-00",
+    "name": "Philips 243V7QDAB/00 23.8\" FHD IPS Hoparlörlü Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 5999,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 140,
+    "image": "/images/laptops/philips-243v7qdab-00.jpg",
+    "images": [
+      "/images/laptops/philips-243v7qdab-00.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "23.8 İnç Full HD (1920 x 1080) Geniş Açılı IPS Panel",
+      "Dahili Stereo Hoparlörler & DVI-D / HDMI Bağlantısı",
+      "Flicker-Free ve LowBlue Modu",
+      "3 Kenar İnce Kenarlı Zarif Tasarım"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "FHD IPS Audio Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "60Hz FHD IPS Engine",
+      "screenSizeInches": 23.8,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 100%, NTSC 72%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x DVI-D",
+        "1x VGA",
+        "Hoparlör"
+      ],
+      "weightKg": 3.5,
+      "bodyMaterial": "İnce Çerçeveli Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-243v7qdab-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 5999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dahili Hoparlör Fırsat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 540,
+        "url": "https://www.epey.com/monitor/philips-243v7qdab-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 6399,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-221v8-00",
+    "slug": "philips-221v8-00",
+    "name": "Philips 221V8/00 21.5\" 75Hz FHD VA Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 5725.86,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 160,
+    "image": "/images/laptops/philips-221v8-00.jpg",
+    "images": [
+      "/images/laptops/philips-221v8-00.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "21.5 İnç Full HD (1920 x 1080) 75 Hz VA Panel",
+      "Adaptive-Sync Akıcılığı & 3000:1 Yüksek Kontrast",
+      "HDMI ve VGA Girişleri",
+      "LowBlue Modu ve Flicker-Free"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "FHD VA 75Hz Display Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "75Hz FHD VA Engine",
+      "screenSizeInches": 21.5,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 100%, NTSC 85%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x VGA",
+        "Ses Çıkışı"
+      ],
+      "weightKg": 2.8,
+      "bodyMaterial": "İnce Çerçeveli Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-221v8-00-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 5725.86,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "75Hz VA",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 680,
+        "url": "https://www.epey.com/monitor/philips-221v8-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 6099,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5725.86,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-223v7qhab-00",
+    "slug": "philips-223v7qhab-00",
+    "name": "Philips 223V7QHAB/00 21.5\" FHD IPS Hoparlörlü Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 5299,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 180,
+    "image": "/images/laptops/philips-223v7qhab-00.jpg",
+    "images": [
+      "/images/laptops/philips-223v7qhab-00.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "21.5 İnç Full HD (1920 x 1080) Geniş Görüşlü IPS Panel",
+      "Dahili Stereo Hoparlörler & HDMI / VGA Girişleri",
+      "SmartContrast & Flicker-Free Göz Koruması",
+      "3 Kenar Çerçevesiz Şık Tasarım"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "FHD IPS Audio Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "60Hz FHD IPS Engine",
+      "screenSizeInches": 21.5,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 100%, NTSC 72%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x VGA",
+        "Hoparlör"
+      ],
+      "weightKg": 2.9,
+      "bodyMaterial": "İnce Çerçeveli Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-223v7qhab-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 5299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "IPS Dahili Hoparlör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/monitor/philips-223v7qhab-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 5699,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5299,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-221v8a-01",
+    "slug": "philips-221v8a-01",
+    "name": "Philips 221V8A/01 21.5\" 75Hz FHD VA Hoparlörlü Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 5258.55,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 240,
+    "image": "/images/laptops/philips-221v8a-01.jpg",
+    "images": [
+      "/images/laptops/philips-221v8a-01.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "21.5 İnç Full HD (1920 x 1080) 75 Hz VA Panel (3000:1)",
+      "Dahili Stereo Hoparlörler & Adaptive-Sync",
+      "HDMI ve VGA Bağlantıları",
+      "LowBlue Modu ve Flicker-Free"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "FHD VA 75Hz Audio Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "75Hz FHD VA Engine",
+      "screenSizeInches": 21.5,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 100%, NTSC 85%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x VGA",
+        "Hoparlör"
+      ],
+      "weightKg": 2.8,
+      "bodyMaterial": "İnce Çerçeveli Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-221v8a-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 5258.55,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "75Hz Hoparlörlü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/monitor/philips-221v8a-01.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 5599,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5258.55,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-c501",
+    "slug": "philips-c501",
+    "name": "Philips C501 2.4GHz Kablosuz Multimedya Klavye & Mouse Seti",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Klavye Mouse",
+    "basePrice": 2075.3,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 220,
+    "image": "/images/laptops/philips-c501.jpg",
+    "images": [
+      "/images/laptops/philips-c501.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "2.4 GHz Güvenilir Kablosuz Bağlantı & Tak-Çalıştır Nano Alıcı",
+      "Ergonomik Tuş Dizilimi & Sessiz Membran Anahtarlar",
+      "1600 DPI Yüksek Hassasiyetli Optik Mouse",
+      "Sıvı Dökülmesine Karşı Dayanıklı Gövde Tasarımı"
+    ],
+    "specs": {
+      "productType": "Klavye Mouse",
+      "processor": "2.4GHz Wireless Combo Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "1600 DPI Optical Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "Kablosuz USB Set",
+      "ports": [
+        "2.4 GHz USB Nano Alıcı"
+      ],
+      "weightKg": 0.75,
+      "bodyMaterial": "Ergonomik Sıvı Dayanıklı Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-c501-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 2075.3,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kablosuz Klavye Mouse Seti"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 540,
+        "url": "https://www.epey.com/klavye-mouse/philips-c501.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 2250,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2075.3,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-spt6307b",
+    "slug": "philips-spt6307b",
+    "name": "Philips SPT6307B 2.4GHz Kablosuz İnce Klavye & Mouse Seti",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Klavye Mouse",
+    "basePrice": 1273.09,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 380,
+    "image": "/images/laptops/philips-spt6307b.jpg",
+    "images": [
+      "/images/laptops/philips-spt6307b.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Ultra İnce Modern Tasarım & Fısıltı Sessizliğinde Tuşlar",
+      "1600 DPI Ayarlanabilir Optik Mouse",
+      "10 Metre Kablosuz Çekim Mesafesi (2.4 GHz)",
+      "Akıllı Güç Tasarrufu ile Uzun Pil Ömrü"
+    ],
+    "specs": {
+      "productType": "Klavye Mouse",
+      "processor": "2.4GHz Slim Wireless Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "1600 DPI Optical Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "Kablosuz USB Set",
+      "ports": [
+        "2.4 GHz USB Alıcı"
+      ],
+      "weightKg": 0.68,
+      "bodyMaterial": "İnce Mat Siyah Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "so-spt6307b-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 1273.09,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ultra İnce Kablosuz Set",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1100,
+        "url": "https://www.epey.com/klavye-mouse/philips-spt6307b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1399,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1273.09,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-spt6501bb",
+    "slug": "philips-spt6501bb",
+    "name": "Philips SPT6501BB 2.4GHz Kablosuz Ergonomik Klavye & Mouse Seti",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Klavye Mouse",
+    "basePrice": 1046.5,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 290,
+    "image": "/images/laptops/philips-spt6501bb.jpg",
+    "images": [
+      "/images/laptops/philips-spt6501bb.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2.4 GHz Tak-Çalıştır Kablosuz USB Alıcı",
+      "Ergonomik Bilek Eğimli Konforlu Tuş Tasarımı",
+      "1200 DPI Hassas Optik Mouse",
+      "Düşük Pil Göstergesi ve Güç Açma/Kapama Düğmesi"
+    ],
+    "specs": {
+      "productType": "Klavye Mouse",
+      "processor": "2.4GHz Wireless Combo Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "1200 DPI Optical Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "Kablosuz USB Set",
+      "ports": [
+        "2.4 GHz USB Alıcı"
+      ],
+      "weightKg": 0.72,
+      "bodyMaterial": "Ergonomik Mat Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "so-spt6501bb-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 1046.5,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ergonomik Kablosuz Set"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 680,
+        "url": "https://www.epey.com/klavye-mouse/philips-spt6501bb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1150,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1046.5,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-c314-spt6314",
+    "slug": "philips-c314-spt6314",
+    "name": "Philips C314 (SPT6314) 2.4GHz Kablosuz Klavye & Mouse Seti",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Klavye Mouse",
+    "basePrice": 899,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 89,
+    "reviewCount": 320,
+    "image": "/images/laptops/philips-c314.jpg",
+    "images": [
+      "/images/laptops/philips-c314.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2.4 GHz Kablosuz Bağlantı ile 10 Metreye Kadar Kesintisiz Çalışma",
+      "Sessiz Çikolata (Chiclet) Tuş Tasarımı",
+      "1600 DPI Optik Mouse & Çift El Kullanımına Uygun Simetrik Tasarım",
+      "Uzun Pil Ömrü ve Dayanıklı Tuş Baskısı"
+    ],
+    "specs": {
+      "productType": "Klavye Mouse",
+      "processor": "2.4GHz Chiclet Combo Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "1600 DPI Optical Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "Kablosuz USB Set",
+      "ports": [
+        "2.4 GHz USB Alıcı"
+      ],
+      "weightKg": 0.65,
+      "bodyMaterial": "Mat Siyah Kompakt Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-c314-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Chiclet Sessiz Klavye"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 740,
+        "url": "https://www.epey.com/klavye-mouse/philips-c314.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 899,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-c324-spt6324",
+    "slug": "philips-c324-spt6324",
+    "name": "Philips C324 (SPT6324) USB Kablolu Multimedya Klavye & Mouse Seti",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Klavye Mouse",
+    "basePrice": 846.3,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 450,
+    "image": "/images/laptops/philips-c324.jpg",
+    "images": [
+      "/images/laptops/philips-c324.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "USB Tak-Çalıştır Kablolu Bağlantı (Pil Değiştirme Derdine Son)",
+      "1200 DPI Yüksek Tepkime Hızlı Optik Mouse",
+      "Ergonomik Tuş Profili & Sıvı Tahliye Kanalları",
+      "1.5 Metre Dayanıklı USB Kabloları"
+    ],
+    "specs": {
+      "productType": "Klavye Mouse",
+      "processor": "Wired USB Office Combo Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "1200 DPI Wired Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "Kablolu USB Set",
+      "ports": [
+        "2x USB-A (1.5m)"
+      ],
+      "weightKg": 0.7,
+      "bodyMaterial": "Sıvı Dayanıklı Ofis Kasası"
+    },
+    "storeOffers": [
+      {
+        "id": "so-c324-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 846.3,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kablolu Ofis Seti",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1250,
+        "url": "https://www.epey.com/klavye-mouse/philips-c324-spt6324.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 920,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 846.3,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-spt6307bl",
+    "slug": "philips-spt6307bl",
+    "name": "Philips SPT6307BL 2.4GHz Kablosuz İnce Klavye & Mouse Seti",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Klavye Mouse",
+    "basePrice": 799,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 360,
+    "image": "/images/laptops/philips-spt6307bl.jpg",
+    "images": [
+      "/images/laptops/philips-spt6307bl.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Ultra İnce Gövde & Sessiz Tuş Mekanizması",
+      "2.4 GHz USB Nano Alıcı ile 10m Kablosuz Menzil",
+      "1600 DPI Ergonomik Optik Mouse",
+      "Otomatik Uyku Modu ile Uzun Pil Ömrü"
+    ],
+    "specs": {
+      "productType": "Klavye Mouse",
+      "processor": "2.4GHz Slim Wireless Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "1600 DPI Optical Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "Kablosuz USB Set",
+      "ports": [
+        "2.4 GHz USB Alıcı"
+      ],
+      "weightKg": 0.65,
+      "bodyMaterial": "İnce Mat Siyah Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "so-spt6307bl-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Kablosuz Set"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/klavye-mouse/philips-spt6307bl.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 890,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 799,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-c602-spt6602b",
+    "slug": "philips-c602-spt6602b",
+    "name": "Philips C602 (SPT6602B) 2.4GHz Kablosuz Multimedya Klavye & Mouse Seti",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Klavye Mouse",
+    "basePrice": 681.59,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 520,
+    "image": "/images/laptops/philips-c602.jpg",
+    "images": [
+      "/images/laptops/philips-c602.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "2.4 GHz Kablosuz USB Tak-Çalıştır Bağlantı",
+      "Lazer Baskılı Silinmez Türkçe Q Tuş Takımı",
+      "1600 DPI Hassas Optik Mouse & Ergonomik Avuç İçi Desteği",
+      "Multimedya Kısayol Tuşları"
+    ],
+    "specs": {
+      "productType": "Klavye Mouse",
+      "processor": "2.4GHz Multimedia Combo Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "1600 DPI Optical Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "Kablosuz USB Set",
+      "ports": [
+        "2.4 GHz USB Alıcı"
+      ],
+      "weightKg": 0.68,
+      "bodyMaterial": "Mat Siyah Sağlam Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "so-c602-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 681.59,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En Çok Satan Kablosuz Set"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/klavye-mouse/philips-c602-spt6602b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 749,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 681.59,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-spk7607",
+    "slug": "philips-spk7607",
+    "name": "Philips SPK7607 2.4GHz 1600 DPI Sessiz Tıklamalı Kablosuz Mouse",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Klavye Mouse",
+    "basePrice": 530,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 1400,
+    "image": "/images/laptops/philips-spk7607.jpg",
+    "images": [
+      "/images/laptops/philips-spk7607.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Sessiz Tıklama (Silent Click) Teknolojisi ile Ofiste ve Kütüphanede Sıfır Gürültü",
+      "1600 DPI Ayarlanabilir Optik Sensör (800 / 1200 / 1600 DPI)",
+      "2.4 GHz USB Tak-Çalıştır & 10 Metre Kablosuz Menzil",
+      "Ergonomik Avuç İçi Kavrama ve Uzun Pil Ömrü"
+    ],
+    "specs": {
+      "productType": "Klavye Mouse",
+      "processor": "Silent Optical Wireless Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "1600 DPI Silent Sensor",
+      "screenSizeInches": 0,
+      "screenResolution": "Kablosuz USB Mouse",
+      "ports": [
+        "2.4 GHz USB Nano Alıcı"
+      ],
+      "weightKg": 0.08,
+      "bodyMaterial": "Mat Siyah Sessiz Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "so-spk7607-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 530,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Sessiz Tıklama",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/klavye-mouse/philips-spk7607.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 599,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 530,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-m344",
+    "slug": "philips-m344",
+    "name": "Philips M344 (SPK7344) 2.4GHz 1600 DPI Ergonomik Kablosuz Mouse",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Klavye Mouse",
+    "basePrice": 399,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 980,
+    "image": "/images/laptops/philips-m344.jpg",
+    "images": [
+      "/images/laptops/philips-m344.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "1600 DPI Optik İzleme Hassasiyeti",
+      "2.4 GHz Güvenilir Kablosuz Bağlantı & Kompakt Nano Alıcı",
+      "Simetrik Tasarım (Hem Sağ Hem Sol El Kullanımına Uygun)",
+      "Enerji Tasarruflu Akıllı Uyku Modu"
+    ],
+    "specs": {
+      "productType": "Klavye Mouse",
+      "processor": "1600 DPI Wireless Optical Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "1600 DPI Optical Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "Kablosuz USB Mouse",
+      "ports": [
+        "2.4 GHz USB Alıcı"
+      ],
+      "weightKg": 0.075,
+      "bodyMaterial": "Mat Siyah Kompakt Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-m344-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ekonomik Kablosuz Mouse"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/klavye-mouse/philips-m344.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 449,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 399,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "philips-neopix-330",
     "slug": "philips-neopix-330",
     "name": "Philips NeoPix 330 Akıllı Full HD Dahili 2.1 Hoparlörlü Ev Sineması Projeksiyon Cihazı",
