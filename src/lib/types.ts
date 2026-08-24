@@ -36,7 +36,7 @@ export interface BaseProduct {
 }
 
 export interface ApplianceSpecs {
-  subCategory: 'robot_vacuum' | 'airfryer' | 'coffee_machine' | 'stick_vacuum' | 'blender' | 'iron' | 'tea_maker' | 'toaster' | string;
+  subCategory: 'robot_vacuum' | 'stick_vacuum' | 'personal_care' | 'airfryer' | 'coffee_machine' | 'blender' | 'iron' | 'tea_maker' | 'toaster' | string;
   subCategoryLabel: string;
   powerWatts: number;
   capacity?: string;

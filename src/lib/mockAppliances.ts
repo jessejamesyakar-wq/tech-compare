@@ -2036,8 +2036,8 @@ export const mockAppliances: ApplianceProduct[] = [
       "Düzleştirici, Hacim Verici ve Kurutucu Başlıklar"
     ],
     "specs": {
-      "subCategory": "airfryer",
-      "subCategoryLabel": "Saç Şekillendirici",
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
       "powerWatts": 1300,
       "suctionPowerPa": 0,
       "batteryRuntimeMin": 0,
@@ -2338,8 +2338,8 @@ export const mockAppliances: ApplianceProduct[] = [
       "Özel Vinca Blue (Mavi) / Bakır Lüks Tasarım"
     ],
     "specs": {
-      "subCategory": "airfryer",
-      "subCategoryLabel": "Saç Şekillendirici",
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
       "powerWatts": 1300,
       "suctionPowerPa": 0,
       "batteryRuntimeMin": 0,
@@ -6831,8 +6831,8 @@ export const mockAppliances: ApplianceProduct[] = [
       "Akıllı Isı Kontrolü"
     ],
     "specs": {
-      "subCategory": "airfryer",
-      "subCategoryLabel": "Saç Kurutma Makinesi",
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
       "powerWatts": 1600,
       "suctionPowerPa": 0,
       "batteryRuntimeMin": 0,
@@ -6899,8 +6899,8 @@ export const mockAppliances: ApplianceProduct[] = [
       "5 Farklı Manyetik Şekillendirme Aparatı"
     ],
     "specs": {
-      "subCategory": "airfryer",
-      "subCategoryLabel": "Saç Kurutma Makinesi",
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
       "powerWatts": 1600,
       "suctionPowerPa": 0,
       "batteryRuntimeMin": 0,
@@ -6967,8 +6967,8 @@ export const mockAppliances: ApplianceProduct[] = [
       "Hızlı Kurutma ve Hassas Şekillendirme"
     ],
     "specs": {
-      "subCategory": "airfryer",
-      "subCategoryLabel": "Saç Kurutma Makinesi",
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
       "powerWatts": 1600,
       "suctionPowerPa": 0,
       "batteryRuntimeMin": 0,
@@ -7035,8 +7035,8 @@ export const mockAppliances: ApplianceProduct[] = [
       "Dahili Negatif İyon Teknolojisi"
     ],
     "specs": {
-      "subCategory": "airfryer",
-      "subCategoryLabel": "Saç Kurutma Makinesi",
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
       "powerWatts": 1600,
       "suctionPowerPa": 0,
       "batteryRuntimeMin": 0,
@@ -9896,8 +9896,8 @@ export const mockAppliances: ApplianceProduct[] = [
       "Hızlı ve Kontrollü Kurutma"
     ],
     "specs": {
-      "subCategory": "airfryer",
-      "subCategoryLabel": "Saç Kurutma Makinesi",
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
       "powerWatts": 1600,
       "suctionPowerPa": 0,
       "batteryRuntimeMin": 0,

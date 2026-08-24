@@ -11,9 +11,10 @@ import { Search, Sparkles, SlidersHorizontal, Check } from 'lucide-react';
 const SUB_CATEGORIES = [
   { id: 'all', label: 'Tüm Ürünler' },
   { id: 'robot_vacuum', label: 'Robot Süpürgeler' },
+  { id: 'stick_vacuum', label: 'Dikey Süpürgeler' },
+  { id: 'personal_care', label: 'Kişisel Bakım' },
   { id: 'airfryer', label: 'Airfryer & Fritöz' },
   { id: 'coffee_machine', label: 'Kahve Makineleri' },
-  { id: 'stick_vacuum', label: 'Dikey Süpürgeler' },
   { id: 'blender', label: 'Mutfak Şefi & Blender' },
   { id: 'iron', label: 'Buharlı Ütüler' },
   { id: 'tea_maker', label: 'Çay & Su Isıtıcı' },
