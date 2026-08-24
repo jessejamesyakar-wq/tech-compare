@@ -40,6 +40,7 @@ export interface ApplianceSpecs {
   subCategoryLabel: string;
   powerWatts?: number;
   capacity?: string;
+  capacityLiters?: number;
   suctionPowerPa?: number;
   batteryRuntimeMin?: number;
   chargeTimeHours?: number;

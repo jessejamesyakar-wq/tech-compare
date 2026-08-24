@@ -2,6 +2,966 @@ import { Product } from './types';
 
 export const mockHeadphones: Product[] = [
   {
+    "id": "philips-tah4105",
+    "slug": "philips-tah4105",
+    "name": "Philips TAH4105 Kablolu Kulak Üstü Mikrofonlu Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 3550,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 87,
+    "reviewCount": 140,
+    "image": "/images/headphones/philips-tah4105.jpg",
+    "images": [
+      "/images/headphones/philips-tah4105.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "32 mm Neodimyum Güçlü Ses Sürücüleri",
+      "Kablo Üstü Dahili Mikrofon ve Çağrı Butonu",
+      "Kompakt Düz Katlanabilir Taşınabilir Tasarım",
+      "Yumuşak Yastıklı Yalıtımlı Kulak Kapakları"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Kablolu)",
+      "anc": "Yok",
+      "batteryLife": "Kablolu (3.5mm)",
+      "bluetoothVersion": "Kablolu (3.5mm Jack)",
+      "driverSize": "32 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 153
+    },
+    "storeOffers": [
+      {
+        "id": "so-tah4105-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3550,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 450,
+        "url": "https://www.epey.com/kulaklik/philips-tah4105.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3750,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3550,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-tat2205",
+    "slug": "philips-tat2205",
+    "name": "Philips TAT2205 TWS Bluetooth Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 3196.14,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 88,
+    "reviewCount": 310,
+    "image": "/images/headphones/philips-tat2205.jpg",
+    "images": [
+      "/images/headphones/philips-tat2205.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "IPX4 Su Sıçramasına ve Tere Dayanıklı",
+      "Kutu ile 12 Saate Varan Çalma Süresi",
+      "Kompakt Cep Boyutunda Şarj Kutusu",
+      "Neodimyum 6 mm Akustik Sürücüler"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Yok",
+      "batteryLife": "12 Saat (Kutu ile)",
+      "bluetoothVersion": "5.1",
+      "driverSize": "6 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 32
+    },
+    "storeOffers": [
+      {
+        "id": "so-tat2205-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 3196.14,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 980,
+        "url": "https://www.epey.com/kulaklik/philips-tat2205.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3399,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3196.14,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-tauh201",
+    "slug": "philips-tauh201",
+    "name": "Philips TAUH201 Mikrofonlu Hafif Kulak Üstü Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 3149.1,
+    "currency": "TL",
+    "rating": 4.5,
+    "epeyScore": 86,
+    "reviewCount": 220,
+    "image": "/images/headphones/philips-tauh201.jpg",
+    "images": [
+      "/images/headphones/philips-tauh201.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "Ultra Hafif Gövde ve 32 mm Neodimyum Sürücüler",
+      "Kablo Üstü Entegre Mikrofon",
+      "Katlanabilir Kompakt Kulak Kapakları",
+      "Net Tizler ve Canlı Bas Performansı"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Kablolu)",
+      "anc": "Yok",
+      "batteryLife": "Kablolu",
+      "bluetoothVersion": "Kablolu (3.5mm)",
+      "driverSize": "32 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 130
+    },
+    "storeOffers": [
+      {
+        "id": "so-tauh201-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 3149.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://www.epey.com/kulaklik/philips-tauh201.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3350,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3149.1,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-tat3217",
+    "slug": "philips-tat3217",
+    "name": "Philips TAT3217 Zengin Baslı TWS Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 3000,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 380,
+    "image": "/images/headphones/philips-tat3217.jpg",
+    "images": [
+      "/images/headphones/philips-tat3217.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "IPX5 Su Sıçramalarına Karşı Dayanıklılık",
+      "Kutu ile 26 Saate Varan Toplam Çalma Süresi",
+      "10 mm Dinamik Sürücüler ile Güçlü Bas",
+      "15 Dakika Hızlı Şarj ile 1 Saat Kullanım"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Yok (Pasif Yalıtım)",
+      "batteryLife": "26 Saat (Kutu ile)",
+      "bluetoothVersion": "5.2",
+      "driverSize": "10 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 46
+    },
+    "storeOffers": [
+      {
+        "id": "so-tat3217-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3000,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Zengin Bas"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1100,
+        "url": "https://www.epey.com/kulaklik/philips-tat3217.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3200,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3000,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-she3855",
+    "slug": "philips-she3855",
+    "name": "Philips SHE3855 Metalik Gövdeli Mikrofonlu Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 1539.9,
+    "currency": "TL",
+    "rating": 4.5,
+    "epeyScore": 85,
+    "reviewCount": 190,
+    "image": "/images/headphones/philips-she3855.png",
+    "images": [
+      "/images/headphones/philips-she3855.png"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Metalik Vakumlu Gövde ile Berrak Ses",
+      "Kabloya Entegre Mikrofon",
+      "Ergonomik Açılı Oval Ses Tüpü",
+      "3 Farklı Boyutta Yumuşak Silikon Uç"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Kablolu 3.5mm)",
+      "anc": "Yok",
+      "batteryLife": "Kablolu",
+      "bluetoothVersion": "Kablolu (3.5mm)",
+      "driverSize": "8.6 mm",
+      "frequencyResponse": "12 Hz - 22.000 Hz",
+      "weightGrams": 12
+    },
+    "storeOffers": [
+      {
+        "id": "so-she3855-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 1539.9,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 540,
+        "url": "https://www.epey.com/kulaklik/philips-she3855.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1650,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1539.9,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-tat1207",
+    "slug": "philips-tat1207",
+    "name": "Philips TAT1207 TWS Kompakt Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 1143.1,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 87,
+    "reviewCount": 750,
+    "image": "/images/headphones/philips-tat1207.jpg",
+    "images": [
+      "/images/headphones/philips-tat1207.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "Kutu ile 18 Saate Kadar Toplam Oynatma",
+      "IPX4 Suya ve Tere Karşı Dayanıklılık",
+      "Ultra Kompakt Şarj Kutusu",
+      "6 mm Dinamik Sürücüler ile Canlı Ses"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Yok",
+      "batteryLife": "18 Saat (Kutu ile)",
+      "bluetoothVersion": "5.2",
+      "driverSize": "6 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 34
+    },
+    "storeOffers": [
+      {
+        "id": "so-tat1207-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 1143.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çok Satan"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2900,
+        "url": "https://www.epey.com/kulaklik/philips-tat1207.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1249,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1143.1,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-tat1109",
+    "slug": "philips-tat1109",
+    "name": "Philips TAT1109 TWS Bluetooth 5.3 Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 1099,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 88,
+    "reviewCount": 620,
+    "image": "/images/headphones/philips-tat1109.jpg",
+    "images": [
+      "/images/headphones/philips-tat1109.jpg"
+    ],
+    "releaseYear": 2025,
+    "highlights": [
+      "Bluetooth 5.3 Düşük Gecikme ve Stabil Bağlantı",
+      "13 mm Güçlü Sürücüler",
+      "Kutu ile 18 Saate Kadar Çalma Süresi",
+      "AI Gürültü Engelleyici Net Çağrı Mikrofonu"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Yok",
+      "batteryLife": "18 Saat (Kutu ile)",
+      "bluetoothVersion": "5.3",
+      "driverSize": "13 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 37
+    },
+    "storeOffers": [
+      {
+        "id": "so-tat1109-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 1099,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yeni Model"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1800,
+        "url": "https://www.epey.com/kulaklik/philips-tat1109.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1199,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1099,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-tae5008",
+    "slug": "philips-tae5008",
+    "name": "Philips TAE5008 Yüksek Çözünürlüklü Type-C Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 1029,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 87,
+    "reviewCount": 210,
+    "image": "/images/headphones/philips-tae5008.jpg",
+    "images": [
+      "/images/headphones/philips-tae5008.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "Dahili DAC ile Dijital Type-C Yüksek Çözünürlüklü Ses",
+      "Kablo Üstü 3 Butonlu Kumanda ve Mikrofon",
+      "10 mm Dinamik Sürücüler ile Dengeli Akustik",
+      "Metalik Şık ve Dayanıklı Kulaklık Başlıkları"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Type-C Kablolu)",
+      "anc": "Yok",
+      "batteryLife": "Kablolu (Type-C)",
+      "bluetoothVersion": "Type-C Dijital DAC",
+      "driverSize": "10 mm",
+      "frequencyResponse": "20 Hz - 40.000 Hz (Hi-Res Audio)",
+      "weightGrams": 15
+    },
+    "storeOffers": [
+      {
+        "id": "so-tae5008-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 1029,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Type-C DAC"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 480,
+        "url": "https://www.epey.com/kulaklik/philips-tae5008.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1099,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1029,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-tat1108",
+    "slug": "philips-tat1108",
+    "name": "Philips TAT1108 TWS Kablosuz Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 899,
+    "currency": "TL",
+    "rating": 4.5,
+    "epeyScore": 86,
+    "reviewCount": 670,
+    "image": "/images/headphones/philips-tat1108.jpg",
+    "images": [
+      "/images/headphones/philips-tat1108.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "13 mm Sürücüler ile Canlı Baslar",
+      "Kutu ile 15 Saate Varan Pil Ömrü",
+      "IPX4 Su Sıçramalarına Karşı Korumalı",
+      "Hafif ve Ergonomik Kulak İçi Oturuş"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Yok",
+      "batteryLife": "15 Saat (Kutu ile)",
+      "bluetoothVersion": "5.3",
+      "driverSize": "13 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 36
+    },
+    "storeOffers": [
+      {
+        "id": "so-tat1108-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2900,
+        "url": "https://www.epey.com/kulaklik/philips-tat1108.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 950,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 899,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-she3015",
+    "slug": "philips-she3015",
+    "name": "Philips SHE3015 Mikrofonlu Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 820.48,
+    "currency": "TL",
+    "rating": 4.4,
+    "epeyScore": 83,
+    "reviewCount": 150,
+    "image": "/images/headphones/philips-she3015.jpg",
+    "images": [
+      "/images/headphones/philips-she3015.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "14.8 mm Büyük Sürücüler ile Güçlü Bas",
+      "Kablo Üstü Dahili Mikrofon",
+      "Kauçuk Ön Kapak ile Konforlu Oturuş",
+      "Flexi-Grip Kablo Koruması"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Yarı Açık 3.5mm)",
+      "anc": "Yok",
+      "batteryLife": "Kablolu",
+      "bluetoothVersion": "Kablolu (3.5mm)",
+      "driverSize": "14.8 mm",
+      "frequencyResponse": "9 Hz - 22.000 Hz",
+      "weightGrams": 14
+    },
+    "storeOffers": [
+      {
+        "id": "so-she3015-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 820.48,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 320,
+        "url": "https://www.epey.com/kulaklik/philips-she3015.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 870,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 820.48,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-she1455",
+    "slug": "philips-she1455",
+    "name": "Philips SHE1455 Mikrofonlu Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 799,
+    "currency": "TL",
+    "rating": 4.4,
+    "epeyScore": 82,
+    "reviewCount": 180,
+    "image": "/images/headphones/philips-she1455.jpg",
+    "images": [
+      "/images/headphones/philips-she1455.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Dinamik Bas Çıkışlı Sürücüler",
+      "Kabloya Entegre Çağrı Mikrofonu",
+      "Ultra Küçük Kulak İçi Tasarım",
+      "Dış Gürültüleri Engelleyen Silikon Uçlar"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Kablolu 3.5mm)",
+      "anc": "Yok",
+      "batteryLife": "Kablolu",
+      "bluetoothVersion": "Kablolu (3.5mm)",
+      "driverSize": "8.6 mm",
+      "frequencyResponse": "10 Hz - 22.000 Hz",
+      "weightGrams": 11
+    },
+    "storeOffers": [
+      {
+        "id": "so-she1455-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 390,
+        "url": "https://www.epey.com/kulaklik/philips-she1455.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 849,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 799,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-t2206",
+    "slug": "philips-t2206",
+    "name": "Philips T2206 True Wireless Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 703.1,
+    "currency": "TL",
+    "rating": 4.4,
+    "epeyScore": 85,
+    "reviewCount": 820,
+    "image": "/images/headphones/philips-t2206.jpg",
+    "images": [
+      "/images/headphones/philips-t2206.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "Küçük Cep Boy Şarj Kutusu ile 18 Saat Çalma",
+      "IPX4 Su Sıçramasına ve Tere Dayanıklı",
+      "Tek Kulaklıkla Mono Mod Kullanım",
+      "15 Dakikalık Hızlı Şarj"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Yok",
+      "batteryLife": "18 Saat (Kutu ile)",
+      "bluetoothVersion": "5.0",
+      "driverSize": "6 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 37
+    },
+    "storeOffers": [
+      {
+        "id": "so-t2206-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 703.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3400,
+        "url": "https://www.epey.com/kulaklik/philips-t2206.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 750,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 703.1,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-she1405",
+    "slug": "philips-she1405",
+    "name": "Philips SHE1405 Mikrofonlu Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 605.2,
+    "currency": "TL",
+    "rating": 4.4,
+    "epeyScore": 82,
+    "reviewCount": 420,
+    "image": "/images/headphones/philips-she1405.jpg",
+    "images": [
+      "/images/headphones/philips-she1405.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Tüm Telefonlarla Uyumlu Entegre Mikrofon",
+      "Kusursuz Kulak İçi Oturuş",
+      "8.6 mm Dinamik Sürücüler",
+      "1.2 Metre Esnek Kablo"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Kablolu 3.5mm)",
+      "anc": "Yok",
+      "batteryLife": "Kablolu",
+      "bluetoothVersion": "Kablolu (3.5mm)",
+      "driverSize": "8.6 mm",
+      "frequencyResponse": "10 Hz - 22.000 Hz",
+      "weightGrams": 11
+    },
+    "storeOffers": [
+      {
+        "id": "so-she1405-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 605.2,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/kulaklik/philips-she1405.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 650,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 605.2,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-she3555",
+    "slug": "philips-she3555",
+    "name": "Philips SHE3555 Mikrofonlu Renkli Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 499,
+    "currency": "TL",
+    "rating": 4.4,
+    "epeyScore": 82,
+    "reviewCount": 520,
+    "image": "/images/headphones/philips-she3555.jpg",
+    "images": [
+      "/images/headphones/philips-she3555.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Kompakt Tasarım ve Güçlü Bas Çıkışı",
+      "Kablo Üstü Net Mikrofon",
+      "Yumuşak Ergonomik Kulak Uçları",
+      "Dayanıklı Kablo Yapısı"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Kablolu 3.5mm)",
+      "anc": "Yok",
+      "batteryLife": "Kablolu",
+      "bluetoothVersion": "Kablolu (3.5mm)",
+      "driverSize": "8.6 mm",
+      "frequencyResponse": "11 Hz - 22.000 Hz",
+      "weightGrams": 12
+    },
+    "storeOffers": [
+      {
+        "id": "so-she3555-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1900,
+        "url": "https://www.epey.com/kulaklik/philips-she3555.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 549,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-taue101",
+    "slug": "philips-taue101",
+    "name": "Philips TAUE101 Mikrofonlu Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 349,
+    "currency": "TL",
+    "rating": 4.3,
+    "epeyScore": 80,
+    "reviewCount": 650,
+    "image": "/images/headphones/philips-taue101.jpg",
+    "images": [
+      "/images/headphones/philips-taue101.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "14.2 mm Büyük Neodimyum Sürücüler",
+      "Bas Havalandırma Kanalları ile Derin Baslar",
+      "Kablo Üstü Dahili Mikrofon",
+      "Kulak Anatomisine Uygun Ergonomik Tasarım"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Yarı Açık 3.5mm)",
+      "anc": "Yok",
+      "batteryLife": "Kablolu",
+      "bluetoothVersion": "Kablolu (3.5mm)",
+      "driverSize": "14.2 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 13
+    },
+    "storeOffers": [
+      {
+        "id": "so-taue101-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 349,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fiyat/Performans"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/kulaklik/philips-taue101.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 399,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 349,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-tae1126bk-51",
+    "slug": "philips-tae1126bk-51",
+    "name": "Philips TAE1126BK/51 Mikrofonlu Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 332,
+    "currency": "TL",
+    "rating": 4.3,
+    "epeyScore": 79,
+    "reviewCount": 380,
+    "image": "/images/headphones/philips-tae1126bk.jpg",
+    "images": [
+      "/images/headphones/philips-tae1126bk.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "10 mm Dinamik Sürücüler",
+      "Kabloya Entegre Çağrı ve Oynatma Butonu",
+      "Hafif ve Ergonomik Kulak İçi Yastıklar",
+      "Güçlendirilmiş 3.5mm Jack Bağlantısı"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Kablolu 3.5mm)",
+      "anc": "Yok",
+      "batteryLife": "Kablolu",
+      "bluetoothVersion": "Kablolu (3.5mm)",
+      "driverSize": "10 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 12
+    },
+    "storeOffers": [
+      {
+        "id": "so-tae1126-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 332,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 950,
+        "url": "https://www.epey.com/kulaklik/philips-tae1126bk-51.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 369,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 332,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "philips-tak4206",
     "slug": "philips-tak4206",
     "name": "Philips TAK4206 Çocuklar İçin Işıklı Kablosuz Kulaklık (85dB Sınırı)",

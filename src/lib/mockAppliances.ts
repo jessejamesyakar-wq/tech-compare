@@ -2,6 +2,799 @@ import { ApplianceProduct } from './types';
 
 export const mockAppliances: ApplianceProduct[] = [
   {
+    "id": "philips-perfectcare-8000-series-psg8030-20",
+    "slug": "philips-perfectcare-8000-series-psg8030-20",
+    "name": "Philips PerfectCare 8000 PSG8030/20 Akıllı Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 18269.1,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 390,
+    "image": "/images/appliances/philips-psg8030-20.jpg",
+    "images": [
+      "/images/appliances/philips-psg8030-20.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Hareket Sensörlü Otomatik Buhar Püskürtme",
+      "8.0 Bar Basınç & 600g Güçlü Şok Buhar",
+      "OptimalTEMP Kumaş Koruma (Sıfır Yanık Garantisi)",
+      "SteamGlide Elite Çizilmez Taban & 1.8L Su Deposu"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2700,
+      "steamOutputGramsPerMin": 170,
+      "steamBoostGramsPerMin": 600,
+      "pressureBar": 8,
+      "waterTankCapacityLiters": 1.8,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 4.8,
+      "warrantyYears": 2,
+      "color": "Koyu Mavi / Altın"
+    },
+    "storeOffers": [
+      {
+        "id": "so-psg8030-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 18269.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2400,
+        "url": "https://www.epey.com/utu/philips-perfectcare-8000-series-psg8030.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18269.1,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-8000-series-psg8050-30",
+    "slug": "philips-perfectcare-8000-series-psg8050-30",
+    "name": "Philips PerfectCare 8000 PSG8050/30 Akıllı Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 18227.07,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 310,
+    "image": "/images/appliances/philips-psg8050-30.jpg",
+    "images": [
+      "/images/appliances/philips-psg8050-30.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Ultra Güçlü 8.0 Bar Basınç & 600g Şok Buhar",
+      "Akıllı Hareket Sensörlü Otomatik Buhar",
+      "Easy De-Calc Plus Kolay Kireç Temizleme",
+      "Ultra Hafif Ütü Tasarımı (800g)"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2700,
+      "steamOutputGramsPerMin": 170,
+      "steamBoostGramsPerMin": 600,
+      "pressureBar": 8,
+      "waterTankCapacityLiters": 1.8,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 4.8,
+      "warrantyYears": 2,
+      "color": "Mor / Bakır"
+    },
+    "storeOffers": [
+      {
+        "id": "so-psg8050-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 18227.07,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1850,
+        "url": "https://www.epey.com/utu/philips-perfectcare-8000-series-psg8050-30.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 18990,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18227.07,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-elite-plus-gc9682-80",
+    "slug": "philips-perfectcare-elite-plus-gc9682-80",
+    "name": "Philips PerfectCare Elite Plus GC9682/80 Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 17312.1,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 650,
+    "image": "/images/appliances/philips-gc9682-80.jpg",
+    "images": [
+      "/images/appliances/philips-gc9682-80.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "DynamiQ Akıllı Sensör ile Harekete Göre Otomatik Buhar",
+      "8.0 Bar Basınç & 600g Şok Buhar",
+      "T-ionicGlide Üstün Kayganlık Sağlayan Taban",
+      "Ultra Sessiz Buhar Teknolojisi (Silent Steam)"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2700,
+      "steamOutputGramsPerMin": 165,
+      "steamBoostGramsPerMin": 600,
+      "pressureBar": 8,
+      "waterTankCapacityLiters": 1.8,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 5.1,
+      "warrantyYears": 2,
+      "color": "Altın / Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc9682-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 17312.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Elite Plus",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2900,
+        "url": "https://www.epey.com/utu/philips-perfectcare-elite-plus-gc9682-80.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 17999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 17312.1,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-7000-psg7200-30",
+    "slug": "philips-perfectcare-7000-psg7200-30",
+    "name": "Philips PerfectCare 7000 PSG7200/30 Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 16999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 91,
+    "reviewCount": 140,
+    "image": "/images/appliances/philips-psg7200-30.jpg",
+    "images": [
+      "/images/appliances/philips-psg7200-30.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "7.5 Bar Güçlü Basınç & 550g Şok Buhar",
+      "SteamGlide Elite Çizilmeye Dayanıklı Taban",
+      "OptimalTEMP Kumaş Yanmama Garantisi",
+      "1.8L Kolay Doldurulabilir Çıkarılabilir Su Haznesi"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2400,
+      "steamOutputGramsPerMin": 140,
+      "steamBoostGramsPerMin": 550,
+      "pressureBar": 7.5,
+      "waterTankCapacityLiters": 1.8,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 4.4,
+      "warrantyYears": 2,
+      "color": "Koyu Mor / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-psg7200-30-1",
+        "storeName": "Teknosa",
+        "storeLogoColor": "#ff6700",
+        "price": 16999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/utu/philips-perfectcare-7000-psg7200-30.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 17499,
+        "store": "Teknosa"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16999,
+        "store": "Teknosa"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-7000-psg7200-20",
+    "slug": "philips-perfectcare-7000-psg7200-20",
+    "name": "Philips PerfectCare 7000 PSG7200/20 Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 14599,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 230,
+    "image": "/images/appliances/philips-psg7200-20.jpg",
+    "images": [
+      "/images/appliances/philips-psg7200-20.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "7.5 Bar Maksimum Basınç & 550g Şok Buhar",
+      "OptimalTEMP Kumaşa Göre Otomatik Isı",
+      "Easy De-Calc Kireç Toplama Sistemi",
+      "Kompakt ve Şık Gövde Tasarımı"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2400,
+      "steamOutputGramsPerMin": 140,
+      "steamBoostGramsPerMin": 550,
+      "pressureBar": 7.5,
+      "waterTankCapacityLiters": 1.8,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 4.3,
+      "warrantyYears": 2,
+      "color": "Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-psg7200-20-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 14599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Süper Fiyat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1450,
+        "url": "https://www.epey.com/utu/philips-perfectcare-7000-psg7200-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 15299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14599,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-hd4467-90",
+    "slug": "philips-hd4467-90",
+    "name": "Philips HD4467/90 Sağlıklı Masaüstü Elektrikli Izgara & Tost Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 7904.07,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 280,
+    "image": "/images/appliances/philips-hd4467-90.png",
+    "images": [
+      "/images/appliances/philips-hd4467-90.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2000 Watt Yüksek Isı ile Lezzeti Hapseden Mühürleme",
+      "Çift Yüzeyli Çıkarılabilir Döküm Plakalar (Yivli ve Düz)",
+      "180 Derece Açılarak Barbekü Pozisyonuna Dönüşme",
+      "Bulaşık Makinesinde Yıkanabilir Yağ Damlatma Tepsisi"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Elektrikli Izgara & Tost",
+      "powerWatts": 2000,
+      "capacityLiters": 4,
+      "autoShutOff": true,
+      "dishwasherSafeParts": true,
+      "weightKg": 3.9,
+      "warrantyYears": 2,
+      "color": "Metalik Siyah / Paslanmaz Çelik"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hd4467-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 7904.07,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 680,
+        "url": "https://www.epey.com/elektrikli-izgara/philips-hd4467-90.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 8299,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7904.07,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-s9721-41",
+    "slug": "philips-s9721-41",
+    "name": "Philips Series 9000 S9721/41 SmartClean Pro İstasyonlu Tıraş Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 119799.01,
+    "currency": "TL",
+    "rating": 5,
+    "epeyScore": 99,
+    "reviewCount": 140,
+    "image": "/images/appliances/philips-s9721-41.jpg",
+    "images": [
+      "/images/appliances/philips-s9721-41.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "V-Track Precision PRO Bıçaklar ile Eşsiz Yakınlıkta Tıraş",
+      "8 Yöne Esneyebilen ContourDetect Hareketli Başlıklar",
+      "SmartClean PRO Otomatik Temizleme, Kurutma ve Yağlama İstasyonu",
+      "Kişiselleştirilebilir 3 Hız ve Konfor Tıraş Modu"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Tıraş Makinesi",
+      "batteryRuntimeMin": 60,
+      "chargeTimeHours": 1,
+      "quickChargeMin": 5,
+      "wetDryUsage": true,
+      "bladeMaterial": "V-Track Precision PRO Titanyum",
+      "autoCleanDock": true,
+      "weightKg": 0.35,
+      "warrantyYears": 2,
+      "color": "Fırçalanmış Platin / Krom"
+    },
+    "storeOffers": [
+      {
+        "id": "so-s9721-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 119799.01,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ultra Lüks",
+          "SmartClean PRO"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 120,
+        "url": "https://www.epey.com/tiras-makinesi/philips-s9721-41.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 124999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 119799.01,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-3000-serisi-s3120-06",
+    "slug": "philips-3000-serisi-s3120-06",
+    "name": "Philips Series 3000 S3120/06 ComfortCut Kablosuz Tıraş Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 9501,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 310,
+    "image": "/images/appliances/philips-s3120-06.jpg",
+    "images": [
+      "/images/appliances/philips-s3120-06.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "ComfortCut Yuvarlatılmış Kenarlı Cilt Koruyucu Bıçaklar",
+      "4 Yöne Esneyen Döner Flex Başlıklar",
+      "45 Dakika Kablosuz Kullanım",
+      "Açılır Pop-up Favori ve Bıyık Şekillendirici Düzeltici"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Tıraş Makinesi",
+      "batteryRuntimeMin": 45,
+      "chargeTimeHours": 8,
+      "wetDryUsage": false,
+      "bladeMaterial": "ComfortCut Paslanmaz Çelik",
+      "weightKg": 0.22,
+      "warrantyYears": 2,
+      "color": "Siyah / Kırmızı Çizgi"
+    },
+    "storeOffers": [
+      {
+        "id": "so-s3120-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 9501,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 540,
+        "url": "https://www.epey.com/tiras-makinesi/philips-3000-serisi-s3120-06.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 9999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9501,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-3000-serisi-s3133-51",
+    "slug": "philips-3000-serisi-s3133-51",
+    "name": "Philips Shaver Series 3000 S3133/51 Islak Kuru Tıraş Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 4139.08,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 91,
+    "reviewCount": 420,
+    "image": "/images/appliances/philips-s3133-51.jpg",
+    "images": [
+      "/images/appliances/philips-s3133-51.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "5D Pivot & Flex Yüz Hatlarına Mükemmel Uyum",
+      "PowerCut Kendiliğinden Bilenebilen Bıçaklar",
+      "60 Dakika Kablosuz Tıraş ve 1 Saat Tam Şarj",
+      "Islak ve Kuru Kullanıma Uygun Su Geçirmezlik"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Tıraş Makinesi",
+      "batteryRuntimeMin": 60,
+      "chargeTimeHours": 1,
+      "quickChargeMin": 5,
+      "wetDryUsage": true,
+      "bladeMaterial": "PowerCut Çelik",
+      "weightKg": 0.22,
+      "warrantyYears": 2,
+      "color": "Koyu Gece Mavisi"
+    },
+    "storeOffers": [
+      {
+        "id": "so-s3133-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 4139.08,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 870,
+        "url": "https://www.epey.com/tiras-makinesi/philips-3000-serisi-s3133-51.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 4390,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4139.08,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-mg5930-15",
+    "slug": "philips-mg5930-15",
+    "name": "Philips Series 5000 MG5930/15 11'i 1 Arada Erkek Bakım Kiti",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 4139.08,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 360,
+    "image": "/images/appliances/philips-mg5930-15.jpg",
+    "images": [
+      "/images/appliances/philips-mg5930-15.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "BeardSense Sakal Yoğunluğunu Saniyede 125 Kez Okuma",
+      "11 Parça Yüz, Saç ve Vücut Bakım Başlığı",
+      "120 Dakika Kesintisiz Pil Ömrü",
+      "Kendini Bileyen Paslanmaz Çelik Bıçaklar"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Tıraş & Bakım Kiti",
+      "batteryRuntimeMin": 120,
+      "chargeTimeHours": 1,
+      "wetDryUsage": true,
+      "bladeMaterial": "Paslanmaz Çelik",
+      "weightKg": 0.27,
+      "warrantyYears": 2,
+      "color": "Gümüş / Koyu Gri"
+    },
+    "storeOffers": [
+      {
+        "id": "so-mg5930-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 4139.08,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "11'i 1 Arada"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 920,
+        "url": "https://www.epey.com/tiras-makinesi/philips-mg5930-15.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 4350,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4139.08,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-3000x-serisi-x3063-00",
+    "slug": "philips-3000x-serisi-x3063-00",
+    "name": "Philips Series 3000X X3063/00 SkinProtect Islak Kuru Tıraş Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 2299,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 540,
+    "image": "/images/appliances/philips-x3063-00.jpg",
+    "images": [
+      "/images/appliances/philips-x3063-00.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "SkinProtect Koruyucu Kaplama ile %20 Daha Rahat Kayma",
+      "PowerCut Kendiliğinden Bilenebilen Bıçaklar",
+      "45 Dakika Kablosuz Kullanım & 1 Saat Şarj",
+      "Entegre Açılır Bıyık ve Favori Düzeltici"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Tıraş Makinesi",
+      "batteryRuntimeMin": 45,
+      "chargeTimeHours": 1,
+      "wetDryUsage": true,
+      "bladeMaterial": "PowerCut Çelik",
+      "weightKg": 0.2,
+      "warrantyYears": 2,
+      "color": "Gece Mavisi / Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-x3063-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 2299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çok Satan"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/tiras-makinesi/philips-3000x-serisi-x3063-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 2499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2299,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-3000x-serisi-x3021-00",
+    "slug": "philips-3000x-serisi-x3021-00",
+    "name": "Philips Series 3000X X3021/00 Islak Kuru Döner Başlıklı Tıraş Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 2015.2,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 88,
+    "reviewCount": 680,
+    "image": "/images/appliances/philips-x3021-00.jpg",
+    "images": [
+      "/images/appliances/philips-x3021-00.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "4D Flex Başlıklar Yüz Kıvrımlarına Uyum Sağlar",
+      "PowerCut Çelik Bıçaklar ile Pürüzsüz Tıraş",
+      "Köpüklü veya Kuru Kullanım Desteği",
+      "Tek Tuşla Açılan Kolay Temizlik Kapağı"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Tıraş Makinesi",
+      "batteryRuntimeMin": 40,
+      "chargeTimeHours": 1,
+      "wetDryUsage": true,
+      "bladeMaterial": "PowerCut Çelik",
+      "weightKg": 0.19,
+      "warrantyYears": 2,
+      "color": "Koyu Gri / Mavi"
+    },
+    "storeOffers": [
+      {
+        "id": "so-x3021-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 2015.2,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/tiras-makinesi/philips-3000x-serisi-x3021-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 2199,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2015.2,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "philips-perfectcare-8000-psg8130-80",
     "slug": "philips-perfectcare-8000-psg8130-80",
     "name": "Philips PerfectCare 8000 PSG8130/80 Akıllı Buhar Kazanlı Ütü",
