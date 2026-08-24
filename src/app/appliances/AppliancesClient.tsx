@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useMemo, useRef } from 'react';
+import React, { useState, useMemo, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import { ApplianceProduct } from '@/lib/types';
 import { CompactProductCard } from '@/components/catalog/CompactProductCard';
@@ -20,10 +20,104 @@ import {
   Wind,
   Layers,
   ArrowRight,
-  Sparkle
+  Sparkle,
+  Flame,
+  ShieldCheck,
+  Coffee,
+  UtensilsCrossed,
+  Scissors,
+  Shirt,
+  Fan
 } from 'lucide-react';
 
-const SUB_CATEGORIES = [
+interface SubCategoryItem {
+  id: string;
+  label: string;
+  countLabel?: string;
+  icon?: any;
+}
+
+interface SectorPillar {
+  id: string;
+  name: string;
+  shortName: string;
+  icon: any;
+  subCats: SubCategoryItem[];
+  bannerImage: string;
+  badge: string;
+  description: string;
+}
+
+const SECTOR_PILLARS: SectorPillar[] = [
+  {
+    id: 'floorcare',
+    name: '1. Zemin & Hijyen',
+    shortName: 'Zemin & Hijyen',
+    icon: Wind,
+    badge: 'Akıllı Robotik & HEPA',
+    description: 'Robot süpürgeler, dikey şarjlı süpürgeler ve hava temizleme',
+    bannerImage: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=400&q=80',
+    subCats: [
+      { id: 'robot_vacuum', label: 'Robot Süpürgeler', icon: Wifi },
+      { id: 'stick_vacuum', label: 'Dikey Süpürgeler', icon: Zap },
+      { id: 'air_purifier', label: 'Hava Temizleyiciler', icon: Wind }
+    ]
+  },
+  {
+    id: 'kitchen',
+    name: '2. Mutfak & Gastronomi',
+    shortName: 'Mutfak & Gastronomi',
+    icon: UtensilsCrossed,
+    badge: 'Airfryer & Barista',
+    description: 'Sıcak hava fritözleri, tam otomatik espresso ve mutfak robotları',
+    bannerImage: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=400&q=80',
+    subCats: [
+      { id: 'airfryer', label: 'Airfryer & Fritöz', icon: Flame },
+      { id: 'coffee_machine', label: 'Kahve Makineleri', icon: Coffee },
+      { id: 'blender', label: 'Mutfak Şefi & Blender', icon: Layers },
+      { id: 'tea_maker', label: 'Çay & Su Isıtıcı', icon: Zap },
+      { id: 'toaster', label: 'Tost & Izgara', icon: Flame }
+    ]
+  },
+  {
+    id: 'climate',
+    name: '3. İklimlendirme & Hava',
+    shortName: 'İklimlendirme',
+    icon: Fan,
+    badge: 'Konfor & Nem Dengesi',
+    description: 'Hava temizleme, nemlendiriciler ve oda iklimlendirme',
+    bannerImage: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=400&q=80',
+    subCats: [
+      { id: 'air_purifier', label: 'Hava Temizleyiciler', icon: Wind }
+    ]
+  },
+  {
+    id: 'personal_care',
+    name: '4. Kişisel Bakım & Sağlık',
+    shortName: 'Kişisel Bakım',
+    icon: Scissors,
+    badge: 'SenseIQ & İyonik Bakım',
+    description: 'Tıraş makineleri, saç şekillendirme ve elektrikli diş fırçaları',
+    bannerImage: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=400&q=80',
+    subCats: [
+      { id: 'personal_care', label: 'Tıraş & Saç Şekillendirme', icon: Scissors }
+    ]
+  },
+  {
+    id: 'smart_home',
+    name: '5. Giysi & Akıllı Ev',
+    shortName: 'Giysi & Akıllı Ev',
+    icon: Shirt,
+    badge: 'Buhar Gücü & Enerji',
+    description: 'Buhar kazanlı ütüler, kumaş bakımı ve akıllı ev çözümleri',
+    bannerImage: 'https://images.unsplash.com/photo-1582735689369-4fe89db7114c?auto=format&fit=crop&w=400&q=80',
+    subCats: [
+      { id: 'iron', label: 'Buharlı Ütüler', icon: Wind }
+    ]
+  }
+];
+
+const ALL_SUB_CATEGORIES = [
   { id: 'all', label: 'Tüm Ürünler' },
   { id: 'robot_vacuum', label: 'Robot Süpürgeler' },
   { id: 'stick_vacuum', label: 'Dikey Süpürgeler' },
@@ -37,42 +131,12 @@ const SUB_CATEGORIES = [
   { id: 'toaster', label: 'Tost & Izgara' }
 ];
 
-const ROOM_ZONES = [
-  {
-    id: 'all_rooms',
-    name: 'Tüm Odalar',
-    subCats: ['all'],
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=400&q=80',
-    description: 'Evinizdeki tüm akıllı teknolojiler'
-  },
-  {
-    id: 'living_room',
-    name: 'Salon',
-    subCats: ['robot_vacuum', 'stick_vacuum', 'air_purifier'],
-    image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=400&q=80',
-    description: 'Robot & Dikey Süpürgeler, Hava Temizleme'
-  },
-  {
-    id: 'kitchen',
-    name: 'Mutfak',
-    subCats: ['airfryer', 'coffee_machine', 'blender', 'tea_maker', 'toaster'],
-    image: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=400&q=80',
-    description: 'Airfryer, Espresso, Blender & Pişirme'
-  },
-  {
-    id: 'bathroom',
-    name: 'Banyo',
-    subCats: ['personal_care', 'cosmetics'],
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=400&q=80',
-    description: 'Tıraş, Saç Şekillendirme, Diş Bakımı'
-  }
-];
-
 const ITEMS_PER_PAGE = 24;
 
 export default function AppliancesClient({ initialProducts }: { initialProducts: ApplianceProduct[] }) {
   const [products] = useState<ApplianceProduct[]>(initialProducts);
-  const [selectedRoom, setSelectedRoom] = useState('all_rooms');
+  const [activeSector, setActiveSector] = useState<string | null>(null);
+  const [hoveredSector, setHoveredSector] = useState<string | null>(null);
   const [selectedSubCat, setSelectedSubCat] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
@@ -80,7 +144,39 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
   const [priceRange] = useState<number>(150000);
   const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
 
+  const hoverTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const catalogRef = useRef<HTMLDivElement>(null);
+
+  const handleMouseEnterSector = (sectorId: string) => {
+    if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current);
+    setHoveredSector(sectorId);
+  };
+
+  const handleMouseLeaveSector = () => {
+    hoverTimeoutRef.current = setTimeout(() => {
+      setHoveredSector(null);
+    }, 200);
+  };
+
+  const handleSectorClick = (sectorId: string) => {
+    if (activeSector === sectorId) {
+      setActiveSector(null);
+      setSelectedSubCat('all');
+    } else {
+      setActiveSector(sectorId);
+      setSelectedSubCat('all');
+    }
+    setVisibleCount(ITEMS_PER_PAGE);
+  };
+
+  const handleSubCatSelect = (subCatId: string) => {
+    setSelectedSubCat(subCatId);
+    setHoveredSector(null);
+    setVisibleCount(ITEMS_PER_PAGE);
+    if (catalogRef.current) {
+      catalogRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
 
   const allBrands = useMemo(() => {
     return Array.from(new Set(products.map((p) => p.brand))).filter(Boolean);
@@ -93,28 +189,17 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
     );
   };
 
-  const handleRoomSelect = (roomId: string) => {
-    setSelectedRoom(roomId);
-    setSelectedSubCat('all');
-    setVisibleCount(ITEMS_PER_PAGE);
-  };
-
-  const handleSubCatSelect = (subCatId: string) => {
-    setSelectedSubCat(subCatId);
-    setVisibleCount(ITEMS_PER_PAGE);
-    if (catalogRef.current) {
-      catalogRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-  };
-
   const displayProducts = useMemo(() => {
     return products
       .filter((p) => {
-        // Room Zone filter
-        if (selectedRoom !== 'all_rooms') {
-          const roomObj = ROOM_ZONES.find((r) => r.id === selectedRoom);
-          if (roomObj && !roomObj.subCats.includes(p.specs?.subCategory || '')) {
-            return false;
+        // Sector Pillar filter
+        if (activeSector) {
+          const sec = SECTOR_PILLARS.find((s) => s.id === activeSector);
+          if (sec) {
+            const allowedSubCats = sec.subCats.map((sc) => sc.id);
+            if (!allowedSubCats.includes(p.specs?.subCategory || '')) {
+              return false;
+            }
           }
         }
         // Subcategory filter
@@ -141,7 +226,7 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
         if (sortBy === 'rating') return b.rating - a.rating;
         return (b.isPopular ? 1 : 0) - (a.isPopular ? 1 : 0);
       });
-  }, [products, selectedRoom, selectedSubCat, searchQuery, selectedBrands, priceRange, sortBy]);
+  }, [products, activeSector, selectedSubCat, searchQuery, selectedBrands, priceRange, sortBy]);
 
   const paginatedProducts = useMemo(() => {
     return displayProducts.slice(0, visibleCount);
@@ -182,64 +267,136 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
         </p>
       </div>
 
-      {/* 🌟 2. SMART LIFESTYLE ROOM SELECTOR (DARK CURVED HERO BANNER) */}
-      <div className="relative bg-gradient-to-br from-[#063828] via-[#084532] to-[#04281c] rounded-3xl p-6 sm:p-8 lg:p-10 shadow-xl overflow-hidden border border-emerald-800/40 text-white">
-        {/* Subtle Ambient Glows */}
-        <div className="absolute -right-20 -top-20 w-80 h-80 bg-emerald-400/15 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute -left-20 -bottom-20 w-80 h-80 bg-teal-500/10 rounded-full blur-3xl pointer-events-none" />
+      {/* 🌟 2. LUXURY 5-PILLAR MEGA SECTOR HUB (WITH HOVER MEGA FLYOUT) */}
+      <div className="relative z-30">
+        <div className="bg-white/90 backdrop-blur-md border border-slate-200/90 rounded-3xl p-3 sm:p-4 shadow-sm">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2 sm:gap-3">
+            {SECTOR_PILLARS.map((sector) => {
+              const Icon = sector.icon;
+              const isActive = activeSector === sector.id;
+              const isHovered = hoveredSector === sector.id;
 
-        <div className="relative z-10 text-center space-y-2 mb-6 sm:mb-8">
-          <span className="text-[11px] font-black tracking-widest uppercase text-emerald-300/90 block">
-            Smart Lifestyle Room Selector
-          </span>
-          <h2 className="text-2xl sm:text-3xl font-black tracking-tight text-white">
-            Eviniz İçin Akıllı Çözümler
-          </h2>
-        </div>
-
-        {/* Room Cards Row */}
-        <div className="relative z-10 grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 max-w-5xl mx-auto">
-          {ROOM_ZONES.map((room) => {
-            const isSelected = selectedRoom === room.id;
-            return (
-              <button
-                key={room.id}
-                onClick={() => handleRoomSelect(room.id)}
-                className={`group relative rounded-2xl overflow-hidden text-left p-3 sm:p-3.5 flex flex-col justify-between h-28 sm:h-36 transition-all duration-300 cursor-pointer border ${
-                  isSelected
-                    ? 'ring-3 ring-emerald-400 border-white bg-emerald-950/90 shadow-lg scale-102'
-                    : 'border-emerald-800/60 bg-emerald-950/50 hover:bg-emerald-900/60 hover:border-emerald-500/60'
-                }`}
-              >
-                {/* Background Image with Dark Overlay */}
+              return (
                 <div
-                  className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110 opacity-35"
-                  style={{ backgroundImage: `url(${room.image})` }}
-                />
-                <div className={`absolute inset-0 transition-opacity ${isSelected ? 'bg-emerald-950/70' : 'bg-slate-950/60 group-hover:bg-slate-950/40'}`} />
+                  key={sector.id}
+                  className="relative"
+                  onMouseEnter={() => handleMouseEnterSector(sector.id)}
+                  onMouseLeave={handleMouseLeaveSector}
+                >
+                  <button
+                    onClick={() => handleSectorClick(sector.id)}
+                    className={`w-full text-left px-3.5 py-3 rounded-2xl transition-all duration-300 flex items-center justify-between gap-2 border cursor-pointer ${
+                      isActive
+                        ? 'bg-emerald-700 text-white border-emerald-800 shadow-md shadow-emerald-700/20 scale-102 font-black'
+                        : 'bg-slate-50 hover:bg-emerald-50/70 border-slate-200/80 text-slate-700 hover:text-emerald-800 hover:border-emerald-300 font-bold'
+                    }`}
+                  >
+                    <div className="flex items-center gap-2.5 min-w-0">
+                      <div
+                        className={`w-8 h-8 rounded-xl flex items-center justify-center shrink-0 transition-colors ${
+                          isActive
+                            ? 'bg-white/20 text-white'
+                            : 'bg-white text-emerald-700 shadow-2xs border border-slate-100'
+                        }`}
+                      >
+                        <Icon className="w-4 h-4 stroke-[2.2]" />
+                      </div>
+                      <div className="truncate">
+                        <span className="text-xs tracking-tight block truncate">
+                          {sector.shortName}
+                        </span>
+                        <span
+                          className={`text-[10px] font-medium block truncate ${
+                            isActive ? 'text-emerald-100' : 'text-slate-400'
+                          }`}
+                        >
+                          {sector.subCats.length} Alt Kategori
+                        </span>
+                      </div>
+                    </div>
+                    <ChevronDown
+                      className={`w-3.5 h-3.5 shrink-0 transition-transform duration-300 ${
+                        isHovered ? 'rotate-180 text-emerald-600' : 'text-slate-400'
+                      }`}
+                    />
+                  </button>
 
-                {/* Top Badge */}
-                <div className="relative z-10 flex items-center justify-between">
-                  <span className={`text-[10px] font-black px-2 py-0.5 rounded-full ${isSelected ? 'bg-emerald-400 text-slate-950' : 'bg-white/20 text-white/90 backdrop-blur-xs'}`}>
-                    {isSelected ? 'Seçildi ✓' : 'Keşfet'}
-                  </span>
-                  <div className={`w-6 h-6 rounded-full flex items-center justify-center transition-all ${isSelected ? 'bg-emerald-400 text-slate-950' : 'bg-white/20 text-white group-hover:bg-emerald-500 group-hover:text-white'}`}>
-                    <ChevronRight className="w-3.5 h-3.5 stroke-[3]" />
-                  </div>
-                </div>
+                  {/* 🚀 MEGA HOVER FLYOUT MENU */}
+                  {isHovered && (
+                    <div
+                      onMouseEnter={() => handleMouseEnterSector(sector.id)}
+                      onMouseLeave={handleMouseLeaveSector}
+                      className="absolute top-full left-0 mt-2 w-72 sm:w-80 bg-white/98 backdrop-blur-xl border border-slate-200/90 rounded-2xl p-3 shadow-2xl z-50 animate-in fade-in zoom-in-95 duration-200 space-y-1.5"
+                    >
+                      <div className="px-2.5 py-1.5 border-b border-slate-100 flex items-center justify-between">
+                        <span className="text-[10px] font-black uppercase tracking-wider text-emerald-800">
+                          {sector.name}
+                        </span>
+                        <span className="text-[10px] bg-emerald-50 text-emerald-700 font-extrabold px-2 py-0.5 rounded-md">
+                          {sector.badge}
+                        </span>
+                      </div>
 
-                {/* Bottom Room Label */}
-                <div className="relative z-10 space-y-0.5">
-                  <h3 className="text-base sm:text-lg font-black text-white tracking-tight leading-tight group-hover:text-emerald-300 transition-colors">
-                    {room.name}
-                  </h3>
-                  <p className="text-[10px] text-slate-300 font-semibold line-clamp-1 opacity-80">
-                    {room.description}
-                  </p>
+                      <div className="space-y-1 pt-1">
+                        {sector.subCats.map((sc) => {
+                          const SubIcon = sc.icon || Zap;
+                          const isSubSelected = selectedSubCat === sc.id;
+                          return (
+                            <button
+                              key={sc.id}
+                              onClick={() => {
+                                setActiveSector(sector.id);
+                                handleSubCatSelect(sc.id);
+                              }}
+                              className={`w-full text-left px-3 py-2 rounded-xl text-xs font-bold transition-all flex items-center justify-between cursor-pointer ${
+                                isSubSelected
+                                  ? 'bg-emerald-600 text-white'
+                                  : 'hover:bg-emerald-50 text-slate-700 hover:text-emerald-800'
+                              }`}
+                            >
+                              <div className="flex items-center gap-2">
+                                <SubIcon className="w-3.5 h-3.5 text-emerald-600" />
+                                <span>{sc.label}</span>
+                              </div>
+                              <ChevronRight className="w-3.5 h-3.5 opacity-60" />
+                            </button>
+                          );
+                        })}
+                      </div>
+
+                      <div className="pt-2 border-t border-slate-100 px-1">
+                        <button
+                          onClick={() => handleSectorClick(sector.id)}
+                          className="w-full text-center py-1.5 text-[11px] font-black text-emerald-700 hover:text-emerald-800 hover:underline cursor-pointer flex items-center justify-center gap-1"
+                        >
+                          <span>Tüm {sector.shortName} Ürünlerini Filtrele</span>
+                          <ArrowRight className="w-3 h-3" />
+                        </button>
+                      </div>
+                    </div>
+                  )}
                 </div>
+              );
+            })}
+          </div>
+
+          {activeSector && (
+            <div className="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between text-xs px-1">
+              <span className="text-slate-500 font-semibold">
+                Aktif Alan Filtresi: <strong className="text-emerald-700 font-black">{SECTOR_PILLARS.find(s => s.id === activeSector)?.name}</strong>
+              </span>
+              <button
+                onClick={() => {
+                  setActiveSector(null);
+                  setSelectedSubCat('all');
+                  setVisibleCount(ITEMS_PER_PAGE);
+                }}
+                className="text-red-600 hover:text-red-700 font-black text-xs cursor-pointer hover:underline"
+              >
+                Sektör Filtresini Sıfırla ✕
               </button>
-            );
-          })}
+            </div>
+          )}
         </div>
       </div>
 
@@ -247,13 +404,13 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
         
         {/* Card 1: ROBOT SÜPÜRGELER */}
-        <div className="bg-white border border-slate-200 hover:border-emerald-500/80 rounded-3xl p-5 shadow-2xs hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+        <div className="bg-white border border-slate-200/90 hover:border-emerald-500/80 rounded-3xl p-5 shadow-2xs hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
           <div>
             {/* Badges */}
             <div className="flex items-center justify-between mb-3">
               <div className="flex items-center gap-1 bg-amber-50 text-amber-900 border border-amber-200 text-xs font-black px-2.5 py-0.5 rounded-full">
                 <Star className="w-3 h-3 fill-amber-500 text-amber-500" />
-                <span>4.8</span>
+                <span>4.9</span>
               </div>
               <span className="bg-slate-900 text-white text-[10px] font-black px-2.5 py-0.5 rounded-full uppercase tracking-wider">
                 Yeni Nesil
@@ -272,44 +429,47 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
 
             {/* Feature Icons */}
             <div className="flex items-center gap-2 text-slate-400 mt-3 mb-1">
-              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="Akıllı Wi-Fi Haritalama">
+              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="Akıllı Lidar Haritalama">
                 <Wifi className="w-3 h-3" />
               </div>
               <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="Yüksek Emiş Gücü">
                 <Wind className="w-3 h-3" />
               </div>
-              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="Otomatik Paspas">
+              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="Otomatik Paspas & Kurutma">
                 <Layers className="w-3 h-3" />
               </div>
             </div>
 
             {/* Title & Info */}
             <h3 className="text-base font-black text-slate-900 tracking-tight mt-1">
-              ROBOT SÜPÜRGELER
+              ROBOT SÜPÜRGE & PASPAS
             </h3>
             <p className="text-xs text-slate-500 font-semibold line-clamp-1 mb-4">
-              Lidar navigasyon & akıllı paspas istasyonlu modeller
+              Lidar navigasyon & sıcak su paspas yıkama istasyonları
             </p>
           </div>
 
           {/* Action Button */}
           <button
-            onClick={() => handleSubCatSelect('robot_vacuum')}
+            onClick={() => {
+              setActiveSector('floorcare');
+              handleSubCatSelect('robot_vacuum');
+            }}
             className="w-full bg-emerald-700 hover:bg-emerald-600 active:scale-95 text-white font-extrabold text-xs py-3 rounded-2xl shadow-sm transition-all flex items-center justify-center gap-2 cursor-pointer"
           >
-            <span>Robot Süpürge Karşılaştır</span>
+            <span>Robot Süpürgeleri İncele</span>
             <ArrowRight className="w-3.5 h-3.5" />
           </button>
         </div>
 
         {/* Card 2: AIRFRYER & FRİTÖZ */}
-        <div className="bg-white border border-slate-200 hover:border-emerald-500/80 rounded-3xl p-5 shadow-2xs hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+        <div className="bg-white border border-slate-200/90 hover:border-emerald-500/80 rounded-3xl p-5 shadow-2xs hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
           <div>
             {/* Badges */}
             <div className="flex items-center justify-between mb-3">
               <div className="flex items-center gap-1 bg-amber-50 text-amber-900 border border-amber-200 text-xs font-black px-2.5 py-0.5 rounded-full">
                 <Star className="w-3 h-3 fill-amber-500 text-amber-500" />
-                <span>4.9</span>
+                <span>4.8</span>
               </div>
               <span className="bg-rose-600 text-white text-[10px] font-black px-2.5 py-0.5 rounded-full uppercase tracking-wider flex items-center gap-1">
                 <Tag className="w-2.5 h-2.5" />
@@ -321,7 +481,7 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
             <div className="w-full h-44 bg-slate-50 rounded-2xl p-4 flex items-center justify-center overflow-hidden border border-slate-100 group-hover:bg-emerald-50/40 transition-colors">
               <img
                 src={hubCardAirfryer.image || '/images/appliances/philips-682542.jpg'}
-                alt="Airfryer & Fritöz"
+                alt="Airfryer XXL Sıcak Hava"
                 loading="lazy"
                 className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
               />
@@ -332,35 +492,38 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
               <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="Rapid Air Teknolojisi">
                 <Zap className="w-3 h-3" />
               </div>
-              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="Geniş XXL Kapasite">
+              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="XXL Geniş Aile Boyu">
                 <Layers className="w-3 h-3" />
               </div>
-              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="Mobil Uygulama Bağlantılı">
+              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="Wi-Fi Uygulama Bağlantısı">
                 <Wifi className="w-3 h-3" />
               </div>
             </div>
 
             {/* Title & Info */}
             <h3 className="text-base font-black text-slate-900 tracking-tight mt-1">
-              AIRFRYERS & FRİTÖZ
+              AIRFRYER XXL SICAK HAVA
             </h3>
             <p className="text-xs text-slate-500 font-semibold line-clamp-1 mb-4">
-              Çift hazneli, pencereli ve XXL sıcak hava fritözleri
+              Çift hazneli, cam pencereli ve XXL sıcak hava fritözleri
             </p>
           </div>
 
           {/* Action Button */}
           <button
-            onClick={() => handleSubCatSelect('airfryer')}
+            onClick={() => {
+              setActiveSector('kitchen');
+              handleSubCatSelect('airfryer');
+            }}
             className="w-full bg-emerald-700 hover:bg-emerald-600 active:scale-95 text-white font-extrabold text-xs py-3 rounded-2xl shadow-sm transition-all flex items-center justify-center gap-2 cursor-pointer"
           >
-            <span>Modelleri İncele</span>
+            <span>Airfryer Modellerini Gör</span>
             <ArrowRight className="w-3.5 h-3.5" />
           </button>
         </div>
 
         {/* Card 3: KAHVE MAKİNELERİ */}
-        <div className="bg-white border border-slate-200 hover:border-emerald-500/80 rounded-3xl p-5 shadow-2xs hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+        <div className="bg-white border border-slate-200/90 hover:border-emerald-500/80 rounded-3xl p-5 shadow-2xs hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
           <div>
             {/* Badges */}
             <div className="flex items-center justify-between mb-3">
@@ -377,7 +540,7 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
             <div className="w-full h-44 bg-slate-50 rounded-2xl p-4 flex items-center justify-center overflow-hidden border border-slate-100 group-hover:bg-emerald-50/40 transition-colors">
               <img
                 src={hubCardCoffee.image || '/images/appliances/philips-646738.jpg'}
-                alt="Kahve Makineleri"
+                alt="Tam Otomatik Kahve Makineleri"
                 loading="lazy"
                 className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
               />
@@ -391,38 +554,41 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
               <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="LatteGo Süt Köpürtücü">
                 <Sparkle className="w-3 h-3" />
               </div>
-              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="Dokunmatik Ekran">
+              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="Renkli Dokunmatik Ekran">
                 <Layers className="w-3 h-3" />
               </div>
             </div>
 
             {/* Title & Info */}
             <h3 className="text-base font-black text-slate-900 tracking-tight mt-1">
-              KAHVE MAKİNELERİ
+              TAM OTOMATİK KAHVE MAKİNESİ
             </h3>
             <p className="text-xs text-slate-500 font-semibold line-clamp-1 mb-4">
-              Tam otomatik espresso, filtre kahve & Türk kahvesi
+              Çekirdekten fincana tam otomatik espresso & filtre kahve
             </p>
           </div>
 
           {/* Action Button */}
           <button
-            onClick={() => handleSubCatSelect('coffee_machine')}
+            onClick={() => {
+              setActiveSector('kitchen');
+              handleSubCatSelect('coffee_machine');
+            }}
             className="w-full bg-emerald-700 hover:bg-emerald-600 active:scale-95 text-white font-extrabold text-xs py-3 rounded-2xl shadow-sm transition-all flex items-center justify-center gap-2 cursor-pointer"
           >
-            <span>Filtrele & Kıyasla</span>
+            <span>Kahve Makinelerini Kıyasla</span>
             <ArrowRight className="w-3.5 h-3.5" />
           </button>
         </div>
 
         {/* Card 4: KİŞİSEL BAKIM */}
-        <div className="bg-white border border-slate-200 hover:border-emerald-500/80 rounded-3xl p-5 shadow-2xs hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+        <div className="bg-white border border-slate-200/90 hover:border-emerald-500/80 rounded-3xl p-5 shadow-2xs hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
           <div>
             {/* Badges */}
             <div className="flex items-center justify-between mb-3">
               <div className="flex items-center gap-1 bg-amber-50 text-amber-900 border border-amber-200 text-xs font-black px-2.5 py-0.5 rounded-full">
                 <Star className="w-3 h-3 fill-amber-500 text-amber-500" />
-                <span>4.6</span>
+                <span>4.9</span>
               </div>
               <span className="bg-indigo-600 text-white text-[10px] font-black px-2.5 py-0.5 rounded-full uppercase tracking-wider">
                 Haftanın Ürünü
@@ -433,7 +599,7 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
             <div className="w-full h-44 bg-slate-50 rounded-2xl p-4 flex items-center justify-center overflow-hidden border border-slate-100 group-hover:bg-emerald-50/40 transition-colors">
               <img
                 src={hubCardPersonal.image || '/images/appliances/dyson-693303.jpg'}
-                alt="Kişisel Bakım Aletleri"
+                alt="Akıllı Kişisel Bakım Seti"
                 loading="lazy"
                 className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
               />
@@ -444,37 +610,67 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
               <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="SenseIQ & Akıllı Koruma">
                 <Sparkle className="w-3 h-3" />
               </div>
-              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="Kablosuz / Şarjlı Kullanım">
+              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="Kablosuz / Hızlı Şarj">
                 <Zap className="w-3 h-3" />
               </div>
-              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="Hızlı Şarj">
+              <div className="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center text-slate-700" title="İyonik Bakım">
                 <Wind className="w-3 h-3" />
               </div>
             </div>
 
             {/* Title & Info */}
             <h3 className="text-base font-black text-slate-900 tracking-tight mt-1">
-              KİŞİSEL BAKIM
+              AKILLI KİŞİSEL BAKIM SETİ
             </h3>
             <p className="text-xs text-slate-500 font-semibold line-clamp-1 mb-4">
-              Tıraş makineleri, saç şekillendirme & diş fırçaları
+              Tıraş makineleri, saç şekillendirme & elektrikli diş fırçaları
             </p>
           </div>
 
           {/* Action Button */}
           <button
-            onClick={() => handleSubCatSelect('personal_care')}
+            onClick={() => {
+              setActiveSector('personal_care');
+              handleSubCatSelect('personal_care');
+            }}
             className="w-full bg-emerald-700 hover:bg-emerald-600 active:scale-95 text-white font-extrabold text-xs py-3 rounded-2xl shadow-sm transition-all flex items-center justify-center gap-2 cursor-pointer"
           >
-            <span>Seçenekleri Gör</span>
+            <span>Kişisel Bakımı İncele</span>
             <ArrowRight className="w-3.5 h-3.5" />
           </button>
         </div>
 
       </div>
 
-      {/* 🌟 4. CONTROL CENTER & FILTER BAR */}
-      <div ref={catalogRef} className="pt-4 space-y-4">
+      {/* 🌟 4. SPONSORED CAMPAIGN BANNER (MEDIAMARKT / TEKNOLOJİ ŞÖLENİ) */}
+      <div className="relative rounded-3xl overflow-hidden border border-slate-200/90 shadow-sm bg-gradient-to-r from-[#e30613] via-[#b8000b] to-[#800007] text-white p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="space-y-2 max-w-xl text-center md:text-left">
+          <div className="flex items-center justify-center md:justify-start gap-2">
+            <span className="bg-white/20 text-white text-[10px] font-black px-2.5 py-0.5 rounded-full uppercase tracking-wider backdrop-blur-xs">
+              Sponsorlu • Kampanya
+            </span>
+            <span className="text-xs text-white/80 font-bold">MediaMarkt ile Teknoloji Şöleni</span>
+          </div>
+          <h3 className="text-xl sm:text-2xl font-black tracking-tight text-white">
+            Ev ve Yaşam Teknolojilerinde Özel Kulüp İndirimleri!
+          </h3>
+          <p className="text-xs text-white/90 font-medium">
+            Robot süpürgeler, airfryer modelleri ve kahve makinelerinde 8 mağaza arasındaki en avantajlı taksit ve kupon fırsatlarını kaçırmayın.
+          </p>
+        </div>
+
+        <div className="shrink-0 flex flex-col sm:flex-row items-center gap-3">
+          <Link
+            href="/search?q=mediamarkt"
+            className="bg-white hover:bg-slate-100 text-[#e30613] font-black text-xs px-6 py-3.5 rounded-2xl shadow-lg transition-all hover:scale-105 active:scale-95 text-center cursor-pointer"
+          >
+            Hemen Fırsatları Keşfet ➔
+          </Link>
+        </div>
+      </div>
+
+      {/* 🌟 5. CONTROL CENTER & FILTER BAR */}
+      <div ref={catalogRef} className="pt-2 space-y-4">
         
         {/* Search & Sort Panel */}
         <div className="bg-white border border-slate-200/90 rounded-3xl p-5 sm:p-6 shadow-2xs flex flex-col lg:flex-row lg:items-center justify-between gap-4">
@@ -527,7 +723,7 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
 
         {/* Subcategory Pills */}
         <div className="flex items-center gap-2 overflow-x-auto no-scrollbar pb-1">
-          {SUB_CATEGORIES.map((cat) => {
+          {ALL_SUB_CATEGORIES.map((cat) => {
             const isSelected = selectedSubCat === cat.id;
             return (
               <button
@@ -585,7 +781,7 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
 
       </div>
 
-      {/* 🌟 5. PRODUCT CATALOG GRID WITH PAGINATION */}
+      {/* 🌟 6. PRODUCT CATALOG GRID WITH PAGINATION */}
       {paginatedProducts.length > 0 ? (
         <div className="space-y-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -618,7 +814,7 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
           <button
             onClick={() => {
               setSearchQuery('');
-              setSelectedRoom('all_rooms');
+              setActiveSector(null);
               setSelectedSubCat('all');
               setSelectedBrands([]);
               setVisibleCount(ITEMS_PER_PAGE);
