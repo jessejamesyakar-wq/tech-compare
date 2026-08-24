@@ -4258,5 +4258,58 @@ export const mockHeadphones: Product[] = [
         "store": "Samsung TR"
       }
     ]
+  },
+  {
+    "id": "samsung-spigen-samsung-galaxy-buds-2-galaxy-buds-pro-galaxy-buds-live-geo-fit-kilif",
+    "slug": "samsung-spigen-samsung-galaxy-buds-2-galaxy-buds-pro-galaxy-buds-live-geo-fit-kilif",
+    "name": "Spigen Samsung Galaxy Buds 2 / Galaxy Buds Pro / Galaxy Buds Live Geo Fit Kılıf",
+    "brand": "Spigen",
+    "category": "headphones",
+    "basePrice": 999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 340,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/headphones/samsung-831504.jpg",
+    "images": [
+      "/images/headphones/samsung-831504.jpg"
+    ],
+    "highlights": [
+      "Galaxy Buds 2, Buds Pro ve Buds Live ile %100 Uyum",
+      "Geo Fit Darbe Emici Polikarbonat & TPU Gövde",
+      "Karabina Kanca ile Kolay Taşıma ve Kablosuz Şarj Desteği"
+    ],
+    "specs": {
+      "formFactor": "Kulaklık Koruma Kılıfı",
+      "compatibility": "Samsung Galaxy Buds Serisi",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 42
+    },
+    "storeOffers": [
+      {
+        "id": "so-hpacc-831504-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2400,
+        "url": "https://www.epey.com/urun/spigen-samsung-galaxy-buds-2-galaxy-buds-pro-galaxy-buds-live-geo-fit-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 999,
+        "store": "Hepsiburada"
+      }
+    ]
   }
 ];

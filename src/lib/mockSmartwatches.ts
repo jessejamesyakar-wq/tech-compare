@@ -8808,5 +8808,945 @@ export const mockSmartwatches: Product[] = [
         "store": "Samsung TR"
       }
     ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-z-fold5-standli-kordonlu-kilif",
+    "slug": "samsung-samsung-galaxy-z-fold5-standli-kordonlu-kilif",
+    "name": "Samsung Galaxy Z Fold5 Standlı Kordonlu Kılıf",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "basePrice": 1299,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 85,
+    "reviewCount": 527,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/samsung-885807.jpg",
+    "images": [
+      "/images/smartwatches/samsung-885807.jpg"
+    ],
+    "highlights": [
+      "Samsung Galaxy Watch 4 / 5 / 6 Serisi ile %100 Uyumlu Orijinal Kordon",
+      "Hızlı Değiştirilebilir One-Click Mekanizma"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "Aksesuar / Kordon",
+      "displaySizeInches": 0,
+      "batteryLifeDays": 0,
+      "waterResistanceAtm": 5,
+      "os": "Tüm Galaxy Watch Modelleri",
+      "compatibility": [
+        "Galaxy Watch 4",
+        "Galaxy Watch 5",
+        "Galaxy Watch 6",
+        "Galaxy Watch 7",
+        "SmartThings"
+      ],
+      "sensors": [],
+      "connectivity": [
+        "One-Click Pin"
+      ],
+      "weightGrams": 28,
+      "material": "FKM Silikon",
+      "hasGPS": false,
+      "hasHeartRate": false,
+      "hasSpO2": false,
+      "hasECG": false,
+      "hasSleepTracking": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-watchacc-885807-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Samsung Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3600,
+        "url": "https://www.epey.com/urun/samsung-galaxy-z-fold5-standli-kordonlu-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1299,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-watch5-d-tokali-spor-tarzi-kordon-m-l",
+    "slug": "samsung-samsung-galaxy-watch5-d-tokali-spor-tarzi-kordon-m-l",
+    "name": "Samsung Galaxy Watch5 D Tokalı Spor Tarzı Kordon (M/L)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "basePrice": 1299,
+    "currency": "TL",
+    "rating": 4.91,
+    "epeyScore": 88,
+    "reviewCount": 478,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/samsung-885758.jpg",
+    "images": [
+      "/images/smartwatches/samsung-885758.jpg"
+    ],
+    "highlights": [
+      "Samsung Galaxy Watch 4 / 5 / 6 Serisi ile %100 Uyumlu Orijinal Kordon",
+      "Hızlı Değiştirilebilir One-Click Mekanizma"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "Aksesuar / Kordon",
+      "displaySizeInches": 0,
+      "batteryLifeDays": 0,
+      "waterResistanceAtm": 5,
+      "os": "Tüm Galaxy Watch Modelleri",
+      "compatibility": [
+        "Galaxy Watch 4",
+        "Galaxy Watch 5",
+        "Galaxy Watch 6",
+        "Galaxy Watch 7",
+        "SmartThings"
+      ],
+      "sensors": [],
+      "connectivity": [
+        "One-Click Pin"
+      ],
+      "weightGrams": 28,
+      "material": "FKM Silikon",
+      "hasGPS": false,
+      "hasHeartRate": false,
+      "hasSpO2": false,
+      "hasECG": false,
+      "hasSleepTracking": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-watchacc-885758-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Samsung Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3600,
+        "url": "https://www.epey.com/urun/samsung-galaxy-watch5-d-tokali-spor-tarzi-kordon-m-l.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1299,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-watch6-hibrit-deri-kordon-m-l",
+    "slug": "samsung-samsung-galaxy-watch6-hibrit-deri-kordon-m-l",
+    "name": "Samsung Galaxy Watch6 Hibrit Deri Kordon (M/L)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "basePrice": 1899,
+    "currency": "TL",
+    "rating": 4.91,
+    "epeyScore": 90,
+    "reviewCount": 454,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/samsung-885734.jpg",
+    "images": [
+      "/images/smartwatches/samsung-885734.jpg"
+    ],
+    "highlights": [
+      "Samsung Galaxy Watch 4 / 5 / 6 Serisi ile %100 Uyumlu Orijinal Kordon",
+      "Gerçek Deri ve Terletmeyen FKM Floroelastomer Hibrit Tasarım"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "Aksesuar / Kordon",
+      "displaySizeInches": 0,
+      "batteryLifeDays": 0,
+      "waterResistanceAtm": 5,
+      "os": "Tüm Galaxy Watch Modelleri",
+      "compatibility": [
+        "Galaxy Watch 4",
+        "Galaxy Watch 5",
+        "Galaxy Watch 6",
+        "Galaxy Watch 7",
+        "SmartThings"
+      ],
+      "sensors": [],
+      "connectivity": [
+        "One-Click Pin"
+      ],
+      "weightGrams": 28,
+      "material": "Hibrit Deri",
+      "hasGPS": false,
+      "hasHeartRate": false,
+      "hasSpO2": false,
+      "hasECG": false,
+      "hasSleepTracking": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-watchacc-885734-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Samsung Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3600,
+        "url": "https://www.epey.com/urun/samsung-galaxy-watch6-hibrit-deri-kordon-m-l.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1899,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-watch-4-and-amp-watch-5-ridge-spor-kordon-20mm-s-m",
+    "slug": "samsung-samsung-galaxy-watch-4-and-amp-watch-5-ridge-spor-kordon-20mm-s-m",
+    "name": "Samsung Galaxy Watch 4&amp;Watch 5 Ridge Spor Kordon (20mm S/M)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "basePrice": 1299,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 91,
+    "reviewCount": 416,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/samsung-885696.jpg",
+    "images": [
+      "/images/smartwatches/samsung-885696.jpg"
+    ],
+    "highlights": [
+      "Samsung Galaxy Watch 4 / 5 / 6 Serisi ile %100 Uyumlu Orijinal Kordon",
+      "Hızlı Değiştirilebilir One-Click Mekanizma"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "Aksesuar / Kordon",
+      "displaySizeInches": 0,
+      "batteryLifeDays": 0,
+      "waterResistanceAtm": 5,
+      "os": "Tüm Galaxy Watch Modelleri",
+      "compatibility": [
+        "Galaxy Watch 4",
+        "Galaxy Watch 5",
+        "Galaxy Watch 6",
+        "Galaxy Watch 7",
+        "SmartThings"
+      ],
+      "sensors": [],
+      "connectivity": [
+        "One-Click Pin"
+      ],
+      "weightGrams": 28,
+      "material": "FKM Silikon",
+      "hasGPS": false,
+      "hasHeartRate": false,
+      "hasSpO2": false,
+      "hasECG": false,
+      "hasSleepTracking": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-watchacc-885696-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Samsung Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3600,
+        "url": "https://www.epey.com/urun/samsung-galaxy-watch-4watch-5-ridge-spor-kordon-20mm-s-m.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1299,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-watch-4-and-amp-watch-5-spor-kordon-20mm-s-m",
+    "slug": "samsung-samsung-galaxy-watch-4-and-amp-watch-5-spor-kordon-20mm-s-m",
+    "name": "Samsung Galaxy Watch 4&amp;Watch 5 Spor Kordon (20mm S/M)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "basePrice": 1299,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 92,
+    "reviewCount": 365,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/samsung-885645.jpg",
+    "images": [
+      "/images/smartwatches/samsung-885645.jpg"
+    ],
+    "highlights": [
+      "Samsung Galaxy Watch 4 / 5 / 6 Serisi ile %100 Uyumlu Orijinal Kordon",
+      "Hızlı Değiştirilebilir One-Click Mekanizma"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "Aksesuar / Kordon",
+      "displaySizeInches": 0,
+      "batteryLifeDays": 0,
+      "waterResistanceAtm": 5,
+      "os": "Tüm Galaxy Watch Modelleri",
+      "compatibility": [
+        "Galaxy Watch 4",
+        "Galaxy Watch 5",
+        "Galaxy Watch 6",
+        "Galaxy Watch 7",
+        "SmartThings"
+      ],
+      "sensors": [],
+      "connectivity": [
+        "One-Click Pin"
+      ],
+      "weightGrams": 28,
+      "material": "FKM Silikon",
+      "hasGPS": false,
+      "hasHeartRate": false,
+      "hasSpO2": false,
+      "hasECG": false,
+      "hasSleepTracking": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-watchacc-885645-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Samsung Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3600,
+        "url": "https://www.epey.com/urun/samsung-galaxy-watch-4-watch-5-spor-kordon-20mm-s-m.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1299,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-watch6-tokali-hibrit-deri-kordon-m-l",
+    "slug": "samsung-samsung-galaxy-watch6-tokali-hibrit-deri-kordon-m-l",
+    "name": "Samsung Galaxy Watch6 Tokalı Hibrit Deri Kordon (M/L)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "basePrice": 1899,
+    "currency": "TL",
+    "rating": 4.91,
+    "epeyScore": 91,
+    "reviewCount": 364,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/samsung-885644.jpg",
+    "images": [
+      "/images/smartwatches/samsung-885644.jpg"
+    ],
+    "highlights": [
+      "Samsung Galaxy Watch 4 / 5 / 6 Serisi ile %100 Uyumlu Orijinal Kordon",
+      "Gerçek Deri ve Terletmeyen FKM Floroelastomer Hibrit Tasarım"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "Aksesuar / Kordon",
+      "displaySizeInches": 0,
+      "batteryLifeDays": 0,
+      "waterResistanceAtm": 5,
+      "os": "Tüm Galaxy Watch Modelleri",
+      "compatibility": [
+        "Galaxy Watch 4",
+        "Galaxy Watch 5",
+        "Galaxy Watch 6",
+        "Galaxy Watch 7",
+        "SmartThings"
+      ],
+      "sensors": [],
+      "connectivity": [
+        "One-Click Pin"
+      ],
+      "weightGrams": 28,
+      "material": "Hibrit Deri",
+      "hasGPS": false,
+      "hasHeartRate": false,
+      "hasSpO2": false,
+      "hasECG": false,
+      "hasSleepTracking": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-watchacc-885644-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Samsung Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3600,
+        "url": "https://www.epey.com/urun/samsung-galaxy-watch6-tokali-hibrit-deri-kordon-m-l.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1899,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-watch6-tokali-hibrit-deri-kordon-s-m",
+    "slug": "samsung-samsung-galaxy-watch6-tokali-hibrit-deri-kordon-s-m",
+    "name": "Samsung Galaxy Watch6 Tokalı Hibrit Deri Kordon (S/M)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "basePrice": 1899,
+    "currency": "TL",
+    "rating": 4.83,
+    "epeyScore": 90,
+    "reviewCount": 363,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/samsung-885643.jpg",
+    "images": [
+      "/images/smartwatches/samsung-885643.jpg"
+    ],
+    "highlights": [
+      "Samsung Galaxy Watch 4 / 5 / 6 Serisi ile %100 Uyumlu Orijinal Kordon",
+      "Gerçek Deri ve Terletmeyen FKM Floroelastomer Hibrit Tasarım"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "Aksesuar / Kordon",
+      "displaySizeInches": 0,
+      "batteryLifeDays": 0,
+      "waterResistanceAtm": 5,
+      "os": "Tüm Galaxy Watch Modelleri",
+      "compatibility": [
+        "Galaxy Watch 4",
+        "Galaxy Watch 5",
+        "Galaxy Watch 6",
+        "Galaxy Watch 7",
+        "SmartThings"
+      ],
+      "sensors": [],
+      "connectivity": [
+        "One-Click Pin"
+      ],
+      "weightGrams": 28,
+      "material": "Hibrit Deri",
+      "hasGPS": false,
+      "hasHeartRate": false,
+      "hasSpO2": false,
+      "hasECG": false,
+      "hasSleepTracking": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-watchacc-885643-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Samsung Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3600,
+        "url": "https://www.epey.com/urun/samsung-galaxy-watch6-tokali-hibrit-deri-kordon-s-m.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1899,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-watch6-kus-tuyu-kordon-m-l",
+    "slug": "samsung-samsung-galaxy-watch6-kus-tuyu-kordon-m-l",
+    "name": "Samsung Galaxy Watch6 Kuş Tüyü Kordon (M/L)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "basePrice": 1299,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 89,
+    "reviewCount": 504,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/samsung-884784.jpg",
+    "images": [
+      "/images/smartwatches/samsung-884784.jpg"
+    ],
+    "highlights": [
+      "Samsung Galaxy Watch 4 / 5 / 6 Serisi ile %100 Uyumlu Orijinal Kordon",
+      "Hızlı Değiştirilebilir One-Click Mekanizma"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "Aksesuar / Kordon",
+      "displaySizeInches": 0,
+      "batteryLifeDays": 0,
+      "waterResistanceAtm": 5,
+      "os": "Tüm Galaxy Watch Modelleri",
+      "compatibility": [
+        "Galaxy Watch 4",
+        "Galaxy Watch 5",
+        "Galaxy Watch 6",
+        "Galaxy Watch 7",
+        "SmartThings"
+      ],
+      "sensors": [],
+      "connectivity": [
+        "One-Click Pin"
+      ],
+      "weightGrams": 28,
+      "material": "FKM Silikon",
+      "hasGPS": false,
+      "hasHeartRate": false,
+      "hasSpO2": false,
+      "hasECG": false,
+      "hasSleepTracking": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-watchacc-884784-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Samsung Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3600,
+        "url": "https://www.epey.com/urun/samsung-galaxy-watch6-kus-tuyu-kordon-m-l.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1299,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-w6-hasir-kordon-20mm-s-m",
+    "slug": "samsung-samsung-galaxy-w6-hasir-kordon-20mm-s-m",
+    "name": "Samsung Galaxy W6 Hasır Kordon (20mm S/M)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "basePrice": 1899,
+    "currency": "TL",
+    "rating": 4.91,
+    "epeyScore": 91,
+    "reviewCount": 467,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/samsung-884747.jpg",
+    "images": [
+      "/images/smartwatches/samsung-884747.jpg"
+    ],
+    "highlights": [
+      "Samsung Galaxy Watch 4 / 5 / 6 Serisi ile %100 Uyumlu Orijinal Kordon",
+      "Hızlı Değiştirilebilir One-Click Mekanizma"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "Aksesuar / Kordon",
+      "displaySizeInches": 0,
+      "batteryLifeDays": 0,
+      "waterResistanceAtm": 5,
+      "os": "Tüm Galaxy Watch Modelleri",
+      "compatibility": [
+        "Galaxy Watch 4",
+        "Galaxy Watch 5",
+        "Galaxy Watch 6",
+        "Galaxy Watch 7",
+        "SmartThings"
+      ],
+      "sensors": [],
+      "connectivity": [
+        "One-Click Pin"
+      ],
+      "weightGrams": 28,
+      "material": "Paslanmaz Çelik Hasır",
+      "hasGPS": false,
+      "hasHeartRate": false,
+      "hasSpO2": false,
+      "hasECG": false,
+      "hasSleepTracking": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-watchacc-884747-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Samsung Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3600,
+        "url": "https://www.epey.com/urun/samsung-galaxy-w6-hasir-kordon-20mm-s-m.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1899,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-w6-hasir-kordon-20mm-m-l",
+    "slug": "samsung-samsung-galaxy-w6-hasir-kordon-20mm-m-l",
+    "name": "Samsung Galaxy W6 Hasır Kordon (20mm M/L)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "basePrice": 1899,
+    "currency": "TL",
+    "rating": 4.91,
+    "epeyScore": 88,
+    "reviewCount": 464,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/samsung-884744.jpg",
+    "images": [
+      "/images/smartwatches/samsung-884744.jpg"
+    ],
+    "highlights": [
+      "Samsung Galaxy Watch 4 / 5 / 6 Serisi ile %100 Uyumlu Orijinal Kordon",
+      "Hızlı Değiştirilebilir One-Click Mekanizma"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "Aksesuar / Kordon",
+      "displaySizeInches": 0,
+      "batteryLifeDays": 0,
+      "waterResistanceAtm": 5,
+      "os": "Tüm Galaxy Watch Modelleri",
+      "compatibility": [
+        "Galaxy Watch 4",
+        "Galaxy Watch 5",
+        "Galaxy Watch 6",
+        "Galaxy Watch 7",
+        "SmartThings"
+      ],
+      "sensors": [],
+      "connectivity": [
+        "One-Click Pin"
+      ],
+      "weightGrams": 28,
+      "material": "Paslanmaz Çelik Hasır",
+      "hasGPS": false,
+      "hasHeartRate": false,
+      "hasSpO2": false,
+      "hasECG": false,
+      "hasSleepTracking": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-watchacc-884744-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Samsung Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3600,
+        "url": "https://www.epey.com/urun/samsung-galaxy-w6-hasir-kordon-20mm-m-l.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1899,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-tab-s8-kordonlu-tablet-kilifi",
+    "slug": "samsung-samsung-galaxy-tab-s8-kordonlu-tablet-kilifi",
+    "name": "Samsung Galaxy Tab S8 Kordonlu Tablet Kılıfı",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "basePrice": 1299,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 97,
+    "reviewCount": 674,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/samsung-884454.jpg",
+    "images": [
+      "/images/smartwatches/samsung-884454.jpg"
+    ],
+    "highlights": [
+      "Samsung Galaxy Watch 4 / 5 / 6 Serisi ile %100 Uyumlu Orijinal Kordon",
+      "Hızlı Değiştirilebilir One-Click Mekanizma"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "Aksesuar / Kordon",
+      "displaySizeInches": 0,
+      "batteryLifeDays": 0,
+      "waterResistanceAtm": 5,
+      "os": "Tüm Galaxy Watch Modelleri",
+      "compatibility": [
+        "Galaxy Watch 4",
+        "Galaxy Watch 5",
+        "Galaxy Watch 6",
+        "Galaxy Watch 7",
+        "SmartThings"
+      ],
+      "sensors": [],
+      "connectivity": [
+        "One-Click Pin"
+      ],
+      "weightGrams": 28,
+      "material": "FKM Silikon",
+      "hasGPS": false,
+      "hasHeartRate": false,
+      "hasSpO2": false,
+      "hasECG": false,
+      "hasSleepTracking": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-watchacc-884454-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Samsung Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3600,
+        "url": "https://www.epey.com/urun/samsung-galaxy-tab-s8-kordonlu-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1299,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-smarttag-dortlu-4-adet",
+    "slug": "samsung-samsung-galaxy-smarttag-dortlu-4-adet",
+    "name": "Samsung Galaxy SmartTag Dörtlü (4 Adet)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "basePrice": 3499,
+    "currency": "TL",
+    "rating": 4.91,
+    "epeyScore": 97,
+    "reviewCount": 682,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/smartwatches/samsung-866462.jpg",
+    "images": [
+      "/images/smartwatches/samsung-866462.jpg"
+    ],
+    "highlights": [
+      "4 Adet Paket - UWB ve Bluetooth BLE ile Kayıp Eşya Bulucu",
+      "Hızlı Değiştirilebilir One-Click Mekanizma"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "Konumlandırma Tag",
+      "displaySizeInches": 0,
+      "batteryLifeDays": 500,
+      "waterResistanceAtm": 5,
+      "os": "SmartThings Find",
+      "compatibility": [
+        "Galaxy Watch 4",
+        "Galaxy Watch 5",
+        "Galaxy Watch 6",
+        "Galaxy Watch 7",
+        "SmartThings"
+      ],
+      "sensors": [
+        "UWB",
+        "BLE"
+      ],
+      "connectivity": [
+        "BLE",
+        "UWB"
+      ],
+      "weightGrams": 56,
+      "material": "FKM Silikon",
+      "hasGPS": false,
+      "hasHeartRate": false,
+      "hasSpO2": false,
+      "hasECG": false,
+      "hasSleepTracking": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-watchacc-866462-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Samsung Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3600,
+        "url": "https://www.epey.com/gps-takip-cihazi/samsung-ei-t5300-dortlu.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 3499,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-spigen-samsung-galaxy-watch-5-4-44mm-rugged-armor-kilif",
+    "slug": "samsung-spigen-samsung-galaxy-watch-5-4-44mm-rugged-armor-kilif",
+    "name": "Spigen Samsung Galaxy Watch 5/4 (44mm) Rugged Armor Kılıf",
+    "brand": "Spigen",
+    "category": "smartwatches",
+    "basePrice": 1299,
+    "currency": "TL",
+    "rating": 4.83,
+    "epeyScore": 97,
+    "reviewCount": 590,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/samsung-832870.jpg",
+    "images": [
+      "/images/smartwatches/samsung-832870.jpg"
+    ],
+    "highlights": [
+      "Samsung Galaxy Watch 4 / 5 / 6 Serisi ile %100 Uyumlu Orijinal Kordon",
+      "Hızlı Değiştirilebilir One-Click Mekanizma"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "Aksesuar / Kordon",
+      "displaySizeInches": 0,
+      "batteryLifeDays": 0,
+      "waterResistanceAtm": 5,
+      "os": "Tüm Galaxy Watch Modelleri",
+      "compatibility": [
+        "Galaxy Watch 4",
+        "Galaxy Watch 5",
+        "Galaxy Watch 6",
+        "Galaxy Watch 7",
+        "SmartThings"
+      ],
+      "sensors": [],
+      "connectivity": [
+        "One-Click Pin"
+      ],
+      "weightGrams": 28,
+      "material": "FKM Silikon",
+      "hasGPS": false,
+      "hasHeartRate": false,
+      "hasSpO2": false,
+      "hasECG": false,
+      "hasSleepTracking": false
+    },
+    "storeOffers": [
+      {
+        "id": "so-watchacc-832870-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Samsung Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3600,
+        "url": "https://www.epey.com/urun/spigen-samsung-galaxy-watch-5-4-44mm-rugged-armor-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1299,
+        "store": "Samsung TR"
+      }
+    ]
   }
 ];

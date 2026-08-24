@@ -43544,5 +43544,694 @@ export const mockTablets: Product[] = [
         "store": "Samsung TR"
       }
     ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-z-flip5-yuzuklu-silikon-kilif",
+    "slug": "samsung-samsung-galaxy-z-flip5-yuzuklu-silikon-kilif",
+    "name": "Samsung Galaxy Z Flip5 Yüzüklü Silikon Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 1499,
+    "currency": "TL",
+    "rating": 4.83,
+    "epeyScore": 87,
+    "reviewCount": 525,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-885835.jpg",
+    "images": [
+      "/images/tablets/samsung-885835.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Tasarım ve Üstün Malzeme Kalitesi",
+      "Tam Uyumlu Koruyucu Yapı"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy Z Flip5 Yüzüklü Silikon Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 260
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc5-885835-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/urun/samsung-galaxy-z-flip5-yuzuklu-silikon-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1499,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-z-fold5-eco-deri-kilif",
+    "slug": "samsung-samsung-galaxy-z-fold5-eco-deri-kilif",
+    "name": "Samsung Galaxy Z Fold5 Eco Deri Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 2199,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 97,
+    "reviewCount": 509,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-885819.jpg",
+    "images": [
+      "/images/tablets/samsung-885819.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Tasarım ve Üstün Malzeme Kalitesi",
+      "Tam Uyumlu Koruyucu Yapı"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy Z Fold5 Eco Deri Kılıf",
+      "material": "Eco Deri",
+      "weightGrams": 260
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc5-885819-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 2199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/urun/samsung-galaxy-z-fold5-eco-deri-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2199,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-z-fold5-ince-s-pen-kilifi",
+    "slug": "samsung-samsung-galaxy-z-fold5-ince-s-pen-kilifi",
+    "name": "Samsung Galaxy Z Fold5 İnce S Pen Kılıfı",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 1999,
+    "currency": "TL",
+    "rating": 4.83,
+    "epeyScore": 85,
+    "reviewCount": 471,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-885781.jpg",
+    "images": [
+      "/images/tablets/samsung-885781.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Tasarım ve Üstün Malzeme Kalitesi",
+      "Tam Uyumlu Koruyucu Yapı"
+    ],
+    "specs": {
+      "productType": "Stylus Kalem",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy Z Fold5 İnce S Pen Kılıfı",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 14
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc5-885781-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/urun/samsung-galaxy-z-fold5-ince-s-pen-kilifi.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1999,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-s-pen-fold-edition",
+    "slug": "samsung-samsung-galaxy-s-pen-fold-edition",
+    "name": "Samsung Galaxy S Pen Fold Edition",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 1999,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 90,
+    "reviewCount": 473,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-884733.jpg",
+    "images": [
+      "/images/tablets/samsung-884733.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Tasarım ve Üstün Malzeme Kalitesi",
+      "Tam Uyumlu Koruyucu Yapı"
+    ],
+    "specs": {
+      "productType": "Stylus Kalem",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy S Pen Fold Edition",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 14
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc5-884733-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/urun/samsung-galaxy-s-pen-fold-edition.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1999,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-tab-s9-ultra-not-ekrani",
+    "slug": "samsung-samsung-galaxy-tab-s9-ultra-not-ekrani",
+    "name": "Samsung Galaxy Tab S9 Ultra Not Ekranı",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 466,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-884726.jpg",
+    "images": [
+      "/images/tablets/samsung-884726.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Tasarım ve Üstün Malzeme Kalitesi",
+      "Gerçek Kağıt Hissiyatı Veren Not Alma Yüzeyi"
+    ],
+    "specs": {
+      "productType": "Manyetik Tablet Ekran Koruyucu",
+      "screenSizeInches": 14.6,
+      "compatibility": "Samsung Galaxy Tab S9 Ultra Not Ekranı",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 260
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc5-884726-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/urun/samsung-galaxy-tab-s9-ultra-not-ekrani.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-tab-s9-not-ekrani",
+    "slug": "samsung-samsung-galaxy-tab-s9-not-ekrani",
+    "name": "Samsung Galaxy Tab S9+ Not Ekranı",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 97,
+    "reviewCount": 454,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-884714.jpg",
+    "images": [
+      "/images/tablets/samsung-884714.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Tasarım ve Üstün Malzeme Kalitesi",
+      "Gerçek Kağıt Hissiyatı Veren Not Alma Yüzeyi"
+    ],
+    "specs": {
+      "productType": "Manyetik Tablet Ekran Koruyucu",
+      "screenSizeInches": 12.4,
+      "compatibility": "Samsung Galaxy Tab S9+ Not Ekranı",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 260
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc5-884714-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/urun/samsung-galaxy-tab-s9-plus-not-ekrani.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-tab-s9-ultra-gizlilik-ekrani",
+    "slug": "samsung-samsung-galaxy-tab-s9-ultra-gizlilik-ekrani",
+    "name": "Samsung Galaxy Tab S9 Ultra Gizlilik Ekranı",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.83,
+    "epeyScore": 97,
+    "reviewCount": 324,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-884584.jpg",
+    "images": [
+      "/images/tablets/samsung-884584.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Tasarım ve Üstün Malzeme Kalitesi",
+      "Yandan Bakışları Engelleyen 30 Derece Gizlilik Filtresi"
+    ],
+    "specs": {
+      "productType": "Manyetik Tablet Ekran Koruyucu",
+      "screenSizeInches": 14.6,
+      "compatibility": "Samsung Galaxy Tab S9 Ultra Gizlilik Ekranı",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 260
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc5-884584-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/urun/samsung-galaxy-tab-s9-ultra-gizlilik-ekrani.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-tab-s7-s8-ince-klavyeli-tablet-kilifi",
+    "slug": "samsung-samsung-galaxy-tab-s7-s8-ince-klavyeli-tablet-kilifi",
+    "name": "Samsung Galaxy Tab S7/S8 İnce Klavyeli Tablet Kılıfı",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 3999,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 90,
+    "reviewCount": 200,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-884460.jpg",
+    "images": [
+      "/images/tablets/samsung-884460.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Tasarım ve Üstün Malzeme Kalitesi",
+      "Tam Uyumlu Koruyucu Yapı"
+    ],
+    "specs": {
+      "productType": "Klavyeli Tablet Kılıfı",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy Tab S7/S8 İnce Klavyeli Tablet Kılıfı",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 260
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc5-884460-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 3999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/urun/samsung-galaxy-tab-s7-s8-ince-klavyeli-tablet-kilifi.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 3999,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-spigen-samsung-galaxy-note-10-kilif-neo-hybrid-kilif",
+    "slug": "samsung-spigen-samsung-galaxy-note-10-kilif-neo-hybrid-kilif",
+    "name": "Spigen Samsung Galaxy Note 10 Kılıf Neo Hybrid Kılıf",
+    "brand": "Spigen",
+    "category": "tablets",
+    "basePrice": 1499,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 86,
+    "reviewCount": 274,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-839034.jpg",
+    "images": [
+      "/images/tablets/samsung-839034.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Tasarım ve Üstün Malzeme Kalitesi",
+      "Tam Uyumlu Koruyucu Yapı"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf",
+      "screenSizeInches": 11,
+      "compatibility": "Spigen Samsung Galaxy Note 10 Kılıf Neo Hybrid Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 260
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc5-839034-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/urun/spigen-samsung-galaxy-note-10-kilif-neo-hybrid-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1499,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-spigen-samsung-galaxy-tab-a7-lite-rugged-armor-kilif",
+    "slug": "samsung-spigen-samsung-galaxy-tab-a7-lite-rugged-armor-kilif",
+    "name": "Spigen Samsung Galaxy Tab A7 Lite  Rugged Armor Kılıf",
+    "brand": "Spigen",
+    "category": "tablets",
+    "basePrice": 1499,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 86,
+    "reviewCount": 380,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-835290.jpg",
+    "images": [
+      "/images/tablets/samsung-835290.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Tasarım ve Üstün Malzeme Kalitesi",
+      "Tam Uyumlu Koruyucu Yapı"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf",
+      "screenSizeInches": 11,
+      "compatibility": "Spigen Samsung Galaxy Tab A7 Lite  Rugged Armor Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 260
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc5-835290-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/urun/spigen-samsung-tab-a7-lite-rugged-armor-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1499,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-spigen-samsung-galaxy-s20-ultra-hybrid-kilif",
+    "slug": "samsung-spigen-samsung-galaxy-s20-ultra-hybrid-kilif",
+    "name": "Spigen Samsung Galaxy S20 Ultra Hybrid Kılıf",
+    "brand": "Spigen",
+    "category": "tablets",
+    "basePrice": 1499,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 361,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-835271.jpg",
+    "images": [
+      "/images/tablets/samsung-835271.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Tasarım ve Üstün Malzeme Kalitesi",
+      "Tam Uyumlu Koruyucu Yapı"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf",
+      "screenSizeInches": 14.6,
+      "compatibility": "Spigen Samsung Galaxy S20 Ultra Hybrid Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 260
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc5-835271-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/urun/spigen-samsung-galaxy-s20-ultra-hybrid-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1499,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-spigen-samsung-galaxy-tab-a7-tough-armor-pro-kilif",
+    "slug": "samsung-spigen-samsung-galaxy-tab-a7-tough-armor-pro-kilif",
+    "name": "Spigen Samsung Galaxy Tab A7 Tough Armor Pro Kılıf",
+    "brand": "Spigen",
+    "category": "tablets",
+    "basePrice": 1499,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 89,
+    "reviewCount": 493,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-832953.jpg",
+    "images": [
+      "/images/tablets/samsung-832953.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Tasarım ve Üstün Malzeme Kalitesi",
+      "Tam Uyumlu Koruyucu Yapı"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf",
+      "screenSizeInches": 11,
+      "compatibility": "Spigen Samsung Galaxy Tab A7 Tough Armor Pro Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 260
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc5-832953-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/urun/spigen-samsung-galaxy-tab-a7-tough-armor-pro-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1499,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-spigen-samsung-galaxy-tab-s6-lite-tough-armor-pro-kilif",
+    "slug": "samsung-spigen-samsung-galaxy-tab-s6-lite-tough-armor-pro-kilif",
+    "name": "Spigen Samsung Galaxy Tab S6 Lite Tough Armor Pro Kılıf",
+    "brand": "Spigen",
+    "category": "tablets",
+    "basePrice": 1499,
+    "currency": "TL",
+    "rating": 4.83,
+    "epeyScore": 94,
+    "reviewCount": 485,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-832945.jpg",
+    "images": [
+      "/images/tablets/samsung-832945.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Tasarım ve Üstün Malzeme Kalitesi",
+      "Tam Uyumlu Koruyucu Yapı"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf",
+      "screenSizeInches": 11,
+      "compatibility": "Spigen Samsung Galaxy Tab S6 Lite Tough Armor Pro Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 260
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc5-832945-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/urun/spigen-samsung-galaxy-tab-s6-lite-tough-armor-pro-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1499,
+        "store": "Samsung TR"
+      }
+    ]
   }
 ];
