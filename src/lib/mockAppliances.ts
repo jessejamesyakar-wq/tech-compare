@@ -16039,5 +16039,1922 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 15499
       }
     ]
+  },
+  {
+    "id": "dyson-dc26-carbon-fibre-allergy",
+    "slug": "dyson-dc26-carbon-fibre-allergy",
+    "name": "Dyson DC26 Carbon Fibre Allergy Ultra Kompakt Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-116881.jpg",
+    "images": [
+      "/images/appliances/dyson-116881.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 87,
+    "reviewCount": 30,
+    "basePrice": 13999,
+    "currency": "TL",
+    "releaseYear": 2011,
+    "highlights": [
+      "A4 Kağıdı Boyutunda Taban Alanına Sahip Ultra Kompakt Tasarım",
+      "Antistatik Karbon Fiber Kıllar ile Sert Zeminlerde İnce Toz Toplama",
+      "Root Cyclone™ Sabit Hava Akış Gücü",
+      "Hafif ve Dar Alanlarda Kolay Saklanabilir Gövde",
+      "HEPA Alerjen Filtresi"
+    ],
+    "tags": [
+      "Dyson",
+      "DC26",
+      "Ultra Kompakt",
+      "Carbon Fibre",
+      "Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 1100,
+      "suctionPowerPa": 160,
+      "noiseLevelDb": 83,
+      "capacity": "0.68 L",
+      "weightKg": 5.2,
+      "warrantyYears": 5,
+      "color": "Gümüş / Mavi"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 13999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 14999
+      },
+      {
+        "date": "2024-08",
+        "price": 13999
+      }
+    ]
+  },
+  {
+    "id": "dyson-228409-01-cinetic-big-ball-animal-2",
+    "slug": "dyson-228409-01",
+    "name": "Dyson Cinetic Big Ball™ Animal 2 Filtresiz Süpürge (228409-01)",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-150842.jpg",
+    "images": [
+      "/images/appliances/dyson-150842.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 92,
+    "reviewCount": 68,
+    "basePrice": 21499,
+    "currency": "TL",
+    "releaseYear": 2018,
+    "isPopular": true,
+    "highlights": [
+      "Devrilmeyen ve Kendi Kendine Kalkan 2. Nesil Küre Tasarım",
+      "Dyson Cinetic™ Bilimi ile Asla Filtre Değişimi veya Yıkama Gerekmez",
+      "Tangle-Free Karbon Fiber Türbin Başlığı",
+      "Pnömatik Başlık ile Her Zeminde Maksimum Vakum",
+      "Hijyenik Tek Hareketle Toz Boşaltma"
+    ],
+    "tags": [
+      "Dyson",
+      "Cinetic Big Ball 2",
+      "Animal 2",
+      "Devrilmez",
+      "Filtresiz"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 700,
+      "suctionPowerPa": 160,
+      "noiseLevelDb": 80,
+      "capacity": "1.6 L",
+      "weightKg": 8,
+      "warrantyYears": 5,
+      "color": "Antrasit / Mor"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 21499,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 21999,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 23999
+      },
+      {
+        "date": "2024-08",
+        "price": 21499
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc40-upright",
+    "slug": "dyson-dc40",
+    "name": "Dyson DC40 Ball™ Dik Duran Elektrikli Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-144056.jpg",
+    "images": [
+      "/images/appliances/dyson-144056.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 34,
+    "basePrice": 16499,
+    "currency": "TL",
+    "releaseYear": 2012,
+    "highlights": [
+      "Radial Root Cyclone™ Emiş Gücü",
+      "Dyson Ball™ Küre Üzerinde Akıcı Yönlendirme",
+      "Kendini Ayarlayan Temizleme Başlığı",
+      "Teleskopik Hızlı Çıkarılabilir Hortum",
+      "Yıkanabilir Ömür Boyu Filtre"
+    ],
+    "tags": [
+      "Dyson",
+      "DC40",
+      "Dik Süpürge",
+      "Ball"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 1100,
+      "suctionPowerPa": 200,
+      "noiseLevelDb": 83,
+      "capacity": "1.6 L",
+      "weightKg": 6.7,
+      "warrantyYears": 5,
+      "color": "Gümüş / Sarı"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 16499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 17999
+      },
+      {
+        "date": "2024-08",
+        "price": 16499
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc37-origin",
+    "slug": "dyson-dc37-origin",
+    "name": "Dyson DC37 Origin Torbasız Elektrikli Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-117051.jpg",
+    "images": [
+      "/images/appliances/dyson-117051.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 42,
+    "basePrice": 15499,
+    "currency": "TL",
+    "releaseYear": 2012,
+    "highlights": [
+      "Radial Root Cyclone™ Teknolojisi",
+      "Merkezi Ağırlıklı Ball™ Küre Gövde",
+      "Dual Mode Zemin Başlığı",
+      "2 Litre Dayanıklı Polikarbonat Hazne",
+      "290 AW Yüksek Emiş Gücü"
+    ],
+    "tags": [
+      "Dyson",
+      "DC37 Origin",
+      "Ball",
+      "Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 1300,
+      "suctionPowerPa": 290,
+      "noiseLevelDb": 82,
+      "capacity": "2 L",
+      "weightKg": 7.5,
+      "warrantyYears": 5,
+      "color": "Gümüş / Sarı"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 15499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 16999
+      },
+      {
+        "date": "2024-08",
+        "price": 15499
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc45-animal-pro",
+    "slug": "dyson-dc45-animal-pro",
+    "name": "Dyson DC45 Animal Pro Kablosuz El ve Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-397806.jpg",
+    "images": [
+      "/images/appliances/dyson-397806.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 87,
+    "reviewCount": 36,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2012,
+    "highlights": [
+      "Motorlu Doğrudan Tahrikli Fırça Başlığı",
+      "Mini Motorlu Koltuk ve Evcil Hayvan Başlığı Dahil",
+      "Root Cyclone™ Sabit Emiş Sistemi",
+      "20 Dakika Kesintisiz Temizlik Süresi",
+      "2.3 kg Dengeli Alüminyum Borulu Gövde"
+    ],
+    "tags": [
+      "Dyson",
+      "DC45 Animal Pro",
+      "Kablosuz",
+      "Dikey Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 200,
+      "suctionPowerPa": 65,
+      "batteryRuntimeMin": 20,
+      "noiseLevelDb": 85,
+      "capacity": "0.35 L",
+      "weightKg": 2.3,
+      "warrantyYears": 2,
+      "color": "Mavi / Platin"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 11999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 12999
+      },
+      {
+        "date": "2024-08",
+        "price": 11999
+      }
+    ]
+  },
+  {
+    "id": "dyson-dw4-canister",
+    "slug": "dyson-dw4",
+    "name": "Dyson DW4 Klasik Elektrikli Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-156389.jpg",
+    "images": [
+      "/images/appliances/dyson-156389.jpg"
+    ],
+    "rating": 4.5,
+    "epeyScore": 85,
+    "reviewCount": 18,
+    "basePrice": 12499,
+    "currency": "TL",
+    "releaseYear": 2007,
+    "highlights": [
+      "Klasik Dyson Siklon Teknolojisi",
+      "Dayanıklı Sert Zemin ve Halı Başlıkları",
+      "Tampon Korumalı Dayanıklı Gövde",
+      "Yıkanabilir Filtre Sistemi"
+    ],
+    "tags": [
+      "Dyson",
+      "DW4",
+      "Klasik Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 1400,
+      "suctionPowerPa": 240,
+      "noiseLevelDb": 84,
+      "capacity": "2 L",
+      "weightKg": 8,
+      "warrantyYears": 5,
+      "color": "Gri / Sarı"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 12499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 13499
+      },
+      {
+        "date": "2024-08",
+        "price": 12499
+      }
+    ]
+  },
+  {
+    "id": "dyson-v6-slim",
+    "slug": "dyson-v6-slim",
+    "name": "Dyson V6 Slim™ Kablosuz Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-112787.jpg",
+    "images": [
+      "/images/appliances/dyson-112787.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 87,
+    "reviewCount": 39,
+    "basePrice": 11499,
+    "currency": "TL",
+    "releaseYear": 2015,
+    "highlights": [
+      "2.04 kg İnce ve Hafif Gövde Yapısı",
+      "Dyson V6 Dijital Motor (100 AW)",
+      "Motorlu Dar Tabanlı Zemin Başlığı",
+      "20 Dakika Güçlü Emiş",
+      "Kombine Başlık ve Aralık Temizleme Ucu"
+    ],
+    "tags": [
+      "Dyson",
+      "V6 Slim",
+      "Hafif",
+      "Kablosuz Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 350,
+      "suctionPowerPa": 100,
+      "batteryRuntimeMin": 20,
+      "noiseLevelDb": 85,
+      "capacity": "0.4 L",
+      "weightKg": 2.04,
+      "warrantyYears": 2,
+      "color": "Gümüş / Yeşil"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 11499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 12499
+      },
+      {
+        "date": "2024-08",
+        "price": 11499
+      }
+    ]
+  },
+  {
+    "id": "dyson-v10-origin",
+    "slug": "dyson-v10-origin",
+    "name": "Dyson Cyclone V10™ Origin Kablosuz Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-869846.png",
+    "images": [
+      "/images/appliances/dyson-869846.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 64,
+    "basePrice": 17999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": true,
+    "highlights": [
+      "Düz Hatlı 14 Siklon Dizilimi ile 151 AW Güçlü Emiş",
+      "Motorbar™ Saç Dolanmasını Önleyen Zemin Başlığı",
+      "60 Dakikaya Varan Kesintisiz Temizlik Süresi",
+      "Nokta Atışı Hijyenik Hazne Boşaltma Mekanizması",
+      "Gelişmiş Tam Makine Filtrasyonu"
+    ],
+    "tags": [
+      "Dyson",
+      "V10 Origin",
+      "Cyclone V10",
+      "Kablosuz Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 525,
+      "suctionPowerPa": 151,
+      "batteryRuntimeMin": 60,
+      "noiseLevelDb": 82,
+      "capacity": "0.76 L",
+      "weightKg": 2.67,
+      "warrantyYears": 2,
+      "color": "Nikel / Kırmızı"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 17999,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 18499,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 19999
+      },
+      {
+        "date": "2024-08",
+        "price": 17999
+      }
+    ]
+  },
+  {
+    "id": "dyson-v7-motorhead",
+    "slug": "dyson-v7-motorhead",
+    "name": "Dyson V7™ Motorhead Kablosuz Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-101069.jpg",
+    "images": [
+      "/images/appliances/dyson-101069.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 45,
+    "basePrice": 13499,
+    "currency": "TL",
+    "releaseYear": 2017,
+    "highlights": [
+      "Doğrudan Tahrikli Motorlu Halı Temizleme Başlığı",
+      "Dyson V7 Motor ile 100 AW Emiş Gücü",
+      "30 Dakika Kesintisiz Çalışma Süresi",
+      "Tek Hamlede Hijyenik Hazne Tahliyesi",
+      "2.47 kg Ergonomik Tasarım"
+    ],
+    "tags": [
+      "Dyson",
+      "V7 Motorhead",
+      "Kablosuz Süpürge",
+      "Halı Başlığı"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 350,
+      "suctionPowerPa": 100,
+      "batteryRuntimeMin": 30,
+      "noiseLevelDb": 84,
+      "capacity": "0.54 L",
+      "weightKg": 2.47,
+      "warrantyYears": 2,
+      "color": "Fuşya / Nikel"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 13499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 14499
+      },
+      {
+        "date": "2024-08",
+        "price": 13499
+      }
+    ]
+  },
+  {
+    "id": "dyson-v8-animal-plus",
+    "slug": "dyson-v8-animal-plus",
+    "name": "Dyson V8™ Animal Plus Kablosuz Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-142638.png",
+    "images": [
+      "/images/appliances/dyson-142638.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 70,
+    "basePrice": 15999,
+    "currency": "TL",
+    "releaseYear": 2018,
+    "isPopular": true,
+    "highlights": [
+      "Direct Drive Motorlu Halı Başlığı ve Mini Motorlu Evcil Hayvan Ucu",
+      "Dyson V8 Dijital Motor (115 AW)",
+      "40 Dakika Kesintisiz Temizlik",
+      "HEPA Tam Makine Filtrasyonu ile %99.97 Alerjen Tutma",
+      "2.55 kg Dengeli Gövde"
+    ],
+    "tags": [
+      "Dyson",
+      "V8 Animal Plus",
+      "Evcil Hayvan",
+      "Kablosuz Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 425,
+      "suctionPowerPa": 115,
+      "batteryRuntimeMin": 40,
+      "noiseLevelDb": 82,
+      "capacity": "0.54 L",
+      "weightKg": 2.55,
+      "warrantyYears": 2,
+      "color": "Titanyum / Mor"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 15999,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 16499,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 17499
+      },
+      {
+        "date": "2024-08",
+        "price": 15999
+      }
+    ]
+  },
+  {
+    "id": "dyson-gen5outsize-absolute-140min",
+    "slug": "dyson-gen5outsize-absolute",
+    "name": "Dyson Gen5outsize™ Absolute Kablosuz Süpürge (140 dk)",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-886639.png",
+    "images": [
+      "/images/appliances/dyson-886639.png"
+    ],
+    "rating": 5,
+    "epeyScore": 99,
+    "reviewCount": 56,
+    "basePrice": 42999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "280 AW Rekor Emiş Gücü ve Dyson Gen5 Hyperdymium™ Motor",
+      "1.9 Litre Devasa Toz Haznesi (%150 Daha Geniş)",
+      "%25 Daha Geniş Digital Motorbar XL Başlık ile Tek Seferde Daha Fazla Alan",
+      "Çift Değiştirilebilir Batarya ile 140 Dakikaya Varan Çalışma Süresi",
+      "0.1 Mikrona Kadar %99.99 HEPA Filtrasyon ve Fluffy Optic™ Işık"
+    ],
+    "tags": [
+      "Dyson",
+      "Gen5outsize Absolute",
+      "140 dk",
+      "280 AW",
+      "1.9 L Hazne",
+      "Premium"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 752,
+      "suctionPowerPa": 280,
+      "batteryRuntimeMin": 140,
+      "noiseLevelDb": 83,
+      "capacity": "1.9 L",
+      "weightKg": 3.9,
+      "warrantyYears": 2,
+      "color": "Nikel / Parlak Mor / Bakır"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 42999,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 43499,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 46999
+      },
+      {
+        "date": "2024-08",
+        "price": 42999
+      }
+    ]
+  },
+  {
+    "id": "dyson-gen5outsize-140min",
+    "slug": "dyson-gen5outsize",
+    "name": "Dyson Gen5outsize™ Kablosuz Süpürge (140 dk)",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-886565.png",
+    "images": [
+      "/images/appliances/dyson-886565.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 98,
+    "reviewCount": 42,
+    "basePrice": 39999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "highlights": [
+      "280 AW Muazzam Emiş Gücü",
+      "1.9 L Geniş Hazne ve XL Motorlu Temizleme Başlığı",
+      "Çift Batarya Paketi ile 140 Dakika Çalışma",
+      "Dahili Entegre Toz Alma ve Aralık Aparatı",
+      "HEPA Tam Makine Sızdırmazlığı"
+    ],
+    "tags": [
+      "Dyson",
+      "Gen5outsize",
+      "140 dk",
+      "XL Başlık",
+      "Kablosuz Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 752,
+      "suctionPowerPa": 280,
+      "batteryRuntimeMin": 140,
+      "noiseLevelDb": 83,
+      "capacity": "1.9 L",
+      "weightKg": 3.9,
+      "warrantyYears": 2,
+      "color": "Nikel / Kırmızı"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 39999,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 43999
+      },
+      {
+        "date": "2024-08",
+        "price": 39999
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc62-extra",
+    "slug": "dyson-dc62-extra",
+    "name": "Dyson DC62 Extra Kablosuz Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-94452.jpg",
+    "images": [
+      "/images/appliances/dyson-94452.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 87,
+    "reviewCount": 28,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2014,
+    "highlights": [
+      "Dyson V6 Dijital Motor (100 AW)",
+      "Karbon Fiber ve Naylon Kıllı Motorlu Zemin Başlığı",
+      "Genişletilmiş Extra Aksesuar Kiti",
+      "20 Dakika Kesintisiz Güç",
+      "2.06 kg Hafif Gövde"
+    ],
+    "tags": [
+      "Dyson",
+      "DC62 Extra",
+      "Kablosuz Süpürge",
+      "V6 Motor"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 350,
+      "suctionPowerPa": 100,
+      "batteryRuntimeMin": 20,
+      "noiseLevelDb": 85,
+      "capacity": "0.4 L",
+      "weightKg": 2.06,
+      "warrantyYears": 2,
+      "color": "Gümüş / Mor"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 11999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 12999
+      },
+      {
+        "date": "2024-08",
+        "price": 11999
+      }
+    ]
+  },
+  {
+    "id": "dyson-gen5detect-absolute-purple",
+    "slug": "dyson-gen5detect-absolute-mor",
+    "name": "Dyson Gen5detect™ Absolute Kablosuz Süpürge (Mor / Gri)",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-894644.jpg",
+    "images": [
+      "/images/appliances/dyson-894644.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 98,
+    "reviewCount": 85,
+    "basePrice": 35999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "highlights": [
+      "280 AW Dyson En Güçlü Emiş Performansı (Gen5 Motor 135.000 dev/dk)",
+      "Fluffy Optic™ ile 2 Kat Daha Fazla Görünmeyen Tozu Aydınlatma (300 mm Menzil)",
+      "Boru İçine Gizlenmiş Dahili Hızlı Toz Alma Ucu (Tek Tuşla El Süpürgesi)",
+      "0.1 Mikron Partikülleri %99.99 Yakalayan Tam Makine HEPA",
+      "70 Dakika Kesintisiz Çalışma Süresi ve Kullanıcı Dostu Açma/Kapama Düğmesi"
+    ],
+    "tags": [
+      "Dyson",
+      "Gen5detect Absolute",
+      "280 AW",
+      "HEPA",
+      "70 dk Pil",
+      "Mor"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 752,
+      "suctionPowerPa": 280,
+      "batteryRuntimeMin": 70,
+      "noiseLevelDb": 82,
+      "capacity": "0.77 L",
+      "weightKg": 3.5,
+      "warrantyYears": 2,
+      "color": "Demir / Mor"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 35999,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 36499,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 38999
+      },
+      {
+        "date": "2024-08",
+        "price": 35999
+      }
+    ]
+  },
+  {
+    "id": "dyson-gen5detect-absolute-prussian-blue",
+    "slug": "dyson-gen5detect-absolute-prusya-mavisi-bakir",
+    "name": "Dyson Gen5detect™ Absolute Kablosuz Süpürge (Prusya Mavisi / Bakır)",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-894643.png",
+    "images": [
+      "/images/appliances/dyson-894643.png"
+    ],
+    "rating": 5,
+    "epeyScore": 98,
+    "reviewCount": 92,
+    "basePrice": 36999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "highlights": [
+      "Özel Koleksiyon Prusya Mavisi ve Parlak Bakır Renk Kombinasyonu",
+      "280 AW Güçlü Emiş Gücü ve 70 Dakika Pil Dayanımı",
+      "Fluffy Optic™ Gelişmiş Lazer Zemin Aydınlatması",
+      "Tetik Yerine Konforlu Aç/Kapa Düğmesi",
+      "HEPA Tam Makine Filtrasyonu"
+    ],
+    "tags": [
+      "Dyson",
+      "Gen5detect Absolute",
+      "Prusya Mavisi",
+      "Bakır",
+      "Premium"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 752,
+      "suctionPowerPa": 280,
+      "batteryRuntimeMin": 70,
+      "noiseLevelDb": 82,
+      "capacity": "0.77 L",
+      "weightKg": 3.5,
+      "warrantyYears": 2,
+      "color": "Prusya Mavisi / Parlak Bakır"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 36999,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 37499,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 39999
+      },
+      {
+        "date": "2024-08",
+        "price": 36999
+      }
+    ]
+  },
+  {
+    "id": "dyson-v15-detect-extra",
+    "slug": "dyson-v15-detect-extra",
+    "name": "Dyson V15 Detect™ Extra Kablosuz Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-846530.png",
+    "images": [
+      "/images/appliances/dyson-846530.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 74,
+    "basePrice": 30499,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "highlights": [
+      "240 AW Emiş Gücü ve Fluffy Optic™ Aydınlatmalı Başlık",
+      "Ekstra Uzatma Hortumu ve Zor Ulaşılan Yerler Adaptörü",
+      "Piezo Sensörü ile Mikroskobik Toz Sayımı ve LCD Ekran Gösterimi",
+      "Digital Motorbar™ Dolanma Önleyici Başlık",
+      "60 Dakika Pil Süresi"
+    ],
+    "tags": [
+      "Dyson",
+      "V15 Detect Extra",
+      "Kablosuz Süpürge",
+      "Ekstra Başlıklar"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 660,
+      "suctionPowerPa": 240,
+      "batteryRuntimeMin": 60,
+      "noiseLevelDb": 82,
+      "capacity": "0.77 L",
+      "weightKg": 3,
+      "warrantyYears": 2,
+      "color": "Nikel / Kırmızı / Sarı"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 30499,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 32999
+      },
+      {
+        "date": "2024-08",
+        "price": 30499
+      }
+    ]
+  },
+  {
+    "id": "dyson-v10-absolute-plus",
+    "slug": "dyson-cyclone-v10-absolute-plus",
+    "name": "Dyson Cyclone V10™ Absolute Plus Kablosuz Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-837048.png",
+    "images": [
+      "/images/appliances/dyson-837048.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 80,
+    "basePrice": 19499,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": true,
+    "highlights": [
+      "Çift Ana Zemin Başlığı (Direct Drive Halı + Fluffy Yumuşak Silindir)",
+      "Flexi Uzatılabilir Hortum ve Başlık Seti",
+      "151 AW Güçlü Emiş ve 60 Dakika Pil Ömrü",
+      "0.76 L Geniş Hijyenik Hazne",
+      "Tam Makine Filtrasyonu"
+    ],
+    "tags": [
+      "Dyson",
+      "V10 Absolute Plus",
+      "Çift Başlık",
+      "Kablosuz Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 525,
+      "suctionPowerPa": 151,
+      "batteryRuntimeMin": 60,
+      "noiseLevelDb": 82,
+      "capacity": "0.76 L",
+      "weightKg": 2.68,
+      "warrantyYears": 2,
+      "color": "Bakır / Nikel"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 19499,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 19999,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 21999
+      },
+      {
+        "date": "2024-08",
+        "price": 19499
+      }
+    ]
+  },
+  {
+    "id": "dyson-v8-slim-fluffy-plus",
+    "slug": "dyson-v8-slim-fluffy-plus",
+    "name": "Dyson V8™ Slim Fluffy+ Ultra Hafif Kablosuz Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-902473.jpg",
+    "images": [
+      "/images/appliances/dyson-902473.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 62,
+    "basePrice": 16499,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": true,
+    "highlights": [
+      "%40 Daha Küçük ve Hafif Slim Fluffy Başlık ile Mobilya Altlarına Kolay Geçiş",
+      "2.15 kg Ultra Hafif Toplam Ağırlık",
+      "Dyson V8 Motor (115 AW) ve 40 Dakika Çalışma",
+      "Işıklı Aralık Temizleme Başlığı Dahil",
+      "Gelişmiş Filtrasyon"
+    ],
+    "tags": [
+      "Dyson",
+      "V8 Slim Fluffy+",
+      "Ultra Hafif",
+      "Kablosuz Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 425,
+      "suctionPowerPa": 115,
+      "batteryRuntimeMin": 40,
+      "noiseLevelDb": 82,
+      "capacity": "0.54 L",
+      "weightKg": 2.15,
+      "warrantyYears": 2,
+      "color": "Kırmızı / Mavi / Nikel"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 16499,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 17999
+      },
+      {
+        "date": "2024-08",
+        "price": 16499
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc62-animal-pro",
+    "slug": "dyson-dc62-animal-pro",
+    "name": "Dyson DC62 Animal Pro Kablosuz Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-117050.jpg",
+    "images": [
+      "/images/appliances/dyson-117050.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 87,
+    "reviewCount": 31,
+    "basePrice": 12499,
+    "currency": "TL",
+    "releaseYear": 2014,
+    "highlights": [
+      "Doğrudan Tahrikli Karbon Fiber Kıllı Halı Başlığı",
+      "Mini Motorlu Koltuk ve Yatak Temizleme Başlığı",
+      "V6 Motor Gücü (100 AW)",
+      "20 Dakika Kesintisiz Güç",
+      "Hafif Şasi"
+    ],
+    "tags": [
+      "Dyson",
+      "DC62 Animal Pro",
+      "Evcil Hayvan",
+      "Kablosuz Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 350,
+      "suctionPowerPa": 100,
+      "batteryRuntimeMin": 20,
+      "noiseLevelDb": 85,
+      "capacity": "0.4 L",
+      "weightKg": 2.11,
+      "warrantyYears": 2,
+      "color": "Mor / Nikel"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 12499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 13499
+      },
+      {
+        "date": "2024-08",
+        "price": 12499
+      }
+    ]
+  },
+  {
+    "id": "dyson-v12-detect-slim-hepa",
+    "slug": "dyson-v12-detect-slim-hepa",
+    "name": "Dyson V12 Detect Slim™ Absolute HEPA Kablosuz Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-906718.png",
+    "images": [
+      "/images/appliances/dyson-906718.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 88,
+    "basePrice": 27999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "highlights": [
+      "Tam Makine HEPA Filtrasyonu (0.1 Mikron %99.99 Tutma Oranı)",
+      "2.2 kg Ultra Hafif Gövde ve Tek Tuşla Güç Kontrolü",
+      "Fluffy Optic™ Lazer Aydınlatma ve Piezo Akıllı Toz Sensörü",
+      "150 AW Güçlü Emiş ve 60 Dakika Pil Süresi",
+      "Motorbar™ Dolanma Önleyici Başlık Dahil"
+    ],
+    "tags": [
+      "Dyson",
+      "V12 Detect Slim HEPA",
+      "Ultra Hafif",
+      "0.1 Mikron HEPA",
+      "Lazer Işık"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 545,
+      "suctionPowerPa": 150,
+      "batteryRuntimeMin": 60,
+      "noiseLevelDb": 82,
+      "capacity": "0.35 L",
+      "weightKg": 2.2,
+      "warrantyYears": 2,
+      "color": "Parlak Altın / Sarı / Demir"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 27999,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 28499,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 30999
+      },
+      {
+        "date": "2024-08",
+        "price": 27999
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc30-handheld",
+    "slug": "dyson-dc30-14-8v",
+    "name": "Dyson DC30 14.8V Şarjlı El Süpürgesi",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-159497.jpg",
+    "images": [
+      "/images/appliances/dyson-159497.jpg"
+    ],
+    "rating": 4.5,
+    "epeyScore": 84,
+    "reviewCount": 20,
+    "basePrice": 9999,
+    "currency": "TL",
+    "releaseYear": 2009,
+    "highlights": [
+      "Dyson Dijital Motor V2 Teknolojisi",
+      "Root Cyclone™ Sabit Emiş Sistemi",
+      "Kompakt El Tipi Pratik Kullanım",
+      "1.3 kg Hafif Gövde",
+      "Aralık ve Fırça Ucu Entegre"
+    ],
+    "tags": [
+      "Dyson",
+      "DC30",
+      "Şarjlı El Süpürgesi",
+      "Kompakt"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 200,
+      "suctionPowerPa": 40,
+      "batteryRuntimeMin": 10,
+      "noiseLevelDb": 84,
+      "capacity": "0.35 L",
+      "weightKg": 1.3,
+      "warrantyYears": 2,
+      "color": "Gümüş / Sarı"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 9999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 10999
+      },
+      {
+        "date": "2024-08",
+        "price": 9999
+      }
+    ]
+  },
+  {
+    "id": "dyson-360-eye",
+    "slug": "dyson-360-eye",
+    "name": "Dyson 360 Eye™ Akıllı Robot Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-595757.jpg",
+    "images": [
+      "/images/appliances/dyson-595757.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 92,
+    "reviewCount": 50,
+    "basePrice": 26999,
+    "currency": "TL",
+    "releaseYear": 2016,
+    "isPopular": true,
+    "highlights": [
+      "360° Panoramik Kamera ile Kesintisiz Alan Haritalama",
+      "Dyson V2 Dijital Motor ile Diğer Robotlara Göre 2 Kat Güçlü Emiş",
+      "Tam Gövde Genişliğinde Karbon Fiber Motorlu Fırça Rulosu",
+      "Sürekli Çekiş Sağlayan Tank Paleti Tekerlek Sistemi",
+      "Dyson Link Mobil Uygulaması ile Uzaktan Kontrol"
+    ],
+    "tags": [
+      "Dyson",
+      "360 Eye",
+      "Robot Süpürge",
+      "Kamera Navigasyon",
+      "V2 Motor"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürgeler",
+      "powerWatts": 400,
+      "suctionPowerPa": 12000,
+      "batteryRuntimeMin": 45,
+      "mappingTechnology": "360° Panoramic Vision Camera + SLAM",
+      "autoEmptyStation": false,
+      "appControl": true,
+      "noiseLevelDb": 80,
+      "capacity": "0.33 L",
+      "weightKg": 2.44,
+      "warrantyYears": 2,
+      "color": "Gümüş / Mavi"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 26999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 29999
+      },
+      {
+        "date": "2024-08",
+        "price": 26999
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc42-upright-standard",
+    "slug": "dyson-dc42",
+    "name": "Dyson DC42 Ball™ Dik Duran Elektrikli Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-70864.jpg",
+    "images": [
+      "/images/appliances/dyson-70864.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 87,
+    "reviewCount": 26,
+    "basePrice": 16499,
+    "currency": "TL",
+    "releaseYear": 2012,
+    "highlights": [
+      "Dyson Ball™ Küre Üzerinde Akıcı Yönlendirme",
+      "Radial Root Cyclone™ Emiş Sistemi",
+      "Motorlu Halı Rulo Fırçası",
+      "Hızlı Çıkarılabilir Teleskopik Boru",
+      "1.6 L Hazne"
+    ],
+    "tags": [
+      "Dyson",
+      "DC42",
+      "Dik Süpürge",
+      "Ball"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 1200,
+      "suctionPowerPa": 200,
+      "noiseLevelDb": 83,
+      "capacity": "1.6 L",
+      "weightKg": 6.7,
+      "warrantyYears": 5,
+      "color": "Gümüş / Sarı"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 16499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 17999
+      },
+      {
+        "date": "2024-08",
+        "price": 16499
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc21-motorhead",
+    "slug": "dyson-dc21-motorhead",
+    "name": "Dyson DC21 Motorhead Torbasız Elektrikli Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-709159.jpg",
+    "images": [
+      "/images/appliances/dyson-709159.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 86,
+    "reviewCount": 22,
+    "basePrice": 14499,
+    "currency": "TL",
+    "releaseYear": 2008,
+    "highlights": [
+      "Elektrik Motorlu Bağımsız Doğrudan Tahrikli Başlık",
+      "Root Cyclone™ Sabit Emiş Gücü",
+      "Geniş Toz Haznesi",
+      "HEPA Alerjen Filtresi",
+      "1400 W Motor Gücü"
+    ],
+    "tags": [
+      "Dyson",
+      "DC21 Motorhead",
+      "Klasik Süpürge",
+      "Elektrikli Başlık"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 1400,
+      "suctionPowerPa": 250,
+      "noiseLevelDb": 84,
+      "capacity": "2 L",
+      "weightKg": 8.8,
+      "warrantyYears": 5,
+      "color": "Gümüş / Mor"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 14499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 15999
+      },
+      {
+        "date": "2024-08",
+        "price": 14499
+      }
+    ]
+  },
+  {
+    "id": "dyson-v11-animal-extra",
+    "slug": "dyson-v11-animal-extra",
+    "name": "Dyson V11™ Animal Extra Kablosuz Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-608418.jpg",
+    "images": [
+      "/images/appliances/dyson-608418.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 82,
+    "basePrice": 23999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": true,
+    "highlights": [
+      "220 AW Yüksek Emiş Gücü",
+      "High Torque Akıllı Fırça ve Mini Motorlu Evcil Hayvan Başlığı",
+      "Tak-Çıkar Yedeklenebilir Batarya Tasarımı",
+      "LCD Ekranda Gerçek Zamanlı Performans Raporu",
+      "60 Dakika Kesintisiz Çalışma"
+    ],
+    "tags": [
+      "Dyson",
+      "V11 Animal Extra",
+      "Evcil Hayvan",
+      "Kablosuz Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 610,
+      "suctionPowerPa": 220,
+      "batteryRuntimeMin": 60,
+      "noiseLevelDb": 82,
+      "capacity": "0.76 L",
+      "weightKg": 2.97,
+      "warrantyYears": 2,
+      "color": "Mor / Nikel"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 23999,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 24499,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 26999
+      },
+      {
+        "date": "2024-08",
+        "price": 23999
+      }
+    ]
+  },
+  {
+    "id": "dyson-v11-animal-standard",
+    "slug": "dyson-v11-animal-2",
+    "name": "Dyson V11™ Animal Kablosuz Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-175660.png",
+    "images": [
+      "/images/appliances/dyson-175660.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 65,
+    "basePrice": 22499,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "highlights": [
+      "185 AW Emiş Gücü ve Dyson V11 Motor",
+      "High Torque Zemin Başlığı ile Halılarda Derinlemesine Temizlik",
+      "LED Bilgi Ekranı ile Güç Modu Seçimi",
+      "60 Dakika Kesintisiz Güç",
+      "0.76 Litre Hijyenik Hazne"
+    ],
+    "tags": [
+      "Dyson",
+      "V11 Animal",
+      "Kablosuz Süpürge",
+      "High Torque"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 545,
+      "suctionPowerPa": 185,
+      "batteryRuntimeMin": 60,
+      "noiseLevelDb": 82,
+      "capacity": "0.76 L",
+      "weightKg": 2.97,
+      "warrantyYears": 2,
+      "color": "Mor / Demir"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 22499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 24999
+      },
+      {
+        "date": "2024-08",
+        "price": 22499
+      }
+    ]
+  },
+  {
+    "id": "dyson-v11-absolute-extra",
+    "slug": "dyson-v11-absolute-extra",
+    "name": "Dyson V11™ Absolute Extra Kablosuz Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-628788.png",
+    "images": [
+      "/images/appliances/dyson-628788.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 98,
+    "basePrice": 25999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": true,
+    "highlights": [
+      "Çift Ana Zemin Başlığı (High Torque Zemin Algılamalı + Fluffy Yumuşak Silindir)",
+      "220 AW Emiş Gücü ve Dynamic Load Sensor (DLS)",
+      "Tak-Çıkar Batarya ve Renkli LCD Ekran",
+      "60 Dakika Kesintisiz Yüksek Güç",
+      "Zengin 7 Parçalı Aksesuar Seti"
+    ],
+    "tags": [
+      "Dyson",
+      "V11 Absolute Extra",
+      "Çift Başlık",
+      "Kablosuz Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 610,
+      "suctionPowerPa": 220,
+      "batteryRuntimeMin": 60,
+      "noiseLevelDb": 82,
+      "capacity": "0.76 L",
+      "weightKg": 3,
+      "warrantyYears": 2,
+      "color": "Mavi / Nikel"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 25999,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 26499,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 28999
+      },
+      {
+        "date": "2024-08",
+        "price": 25999
+      }
+    ]
+  },
+  {
+    "id": "dyson-v11-absolute-pro",
+    "slug": "dyson-v11-absolute-pro",
+    "name": "Dyson V11™ Absolute Pro Kablosuz Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-647696.png",
+    "images": [
+      "/images/appliances/dyson-647696.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 88,
+    "basePrice": 26999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": true,
+    "highlights": [
+      "Özel Altın Renkli Boru ve Pro Aksesuar Paketi",
+      "High Torque Akıllı Başlık ve Fluffy Başlık Dahil",
+      "220 AW Güçlü Emiş ve LCD Bilgi Ekranı",
+      "Tak-Çıkar Batarya ile Uzatılabilir Çalışma Süresi",
+      "Ayaklı Şarj Ünitesi (Dyson Dok) Uyumlu"
+    ],
+    "tags": [
+      "Dyson",
+      "V11 Absolute Pro",
+      "Altın Boru",
+      "Kablosuz Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 610,
+      "suctionPowerPa": 220,
+      "batteryRuntimeMin": 60,
+      "noiseLevelDb": 82,
+      "capacity": "0.76 L",
+      "weightKg": 3.05,
+      "warrantyYears": 2,
+      "color": "Altın / Nikel"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 26999,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 29999
+      },
+      {
+        "date": "2024-08",
+        "price": 26999
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc45-animal-standard",
+    "slug": "dyson-dc45-animal",
+    "name": "Dyson DC45 Animal Kablosuz Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-117342.jpg",
+    "images": [
+      "/images/appliances/dyson-117342.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 86,
+    "reviewCount": 30,
+    "basePrice": 11499,
+    "currency": "TL",
+    "releaseYear": 2012,
+    "highlights": [
+      "Dyson Dijital Motor DC45",
+      "Karbon Fiber Kıllı Motorlu Fırça Başlığı",
+      "Root Cyclone™ Teknolojisi",
+      "20 Dakika Temizlik Süresi",
+      "2.3 kg Dengeli Gövde"
+    ],
+    "tags": [
+      "Dyson",
+      "DC45 Animal",
+      "Kablosuz Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 200,
+      "suctionPowerPa": 65,
+      "batteryRuntimeMin": 20,
+      "noiseLevelDb": 85,
+      "capacity": "0.35 L",
+      "weightKg": 2.3,
+      "warrantyYears": 2,
+      "color": "Demir / Mor"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 11499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 12499
+      },
+      {
+        "date": "2024-08",
+        "price": 11499
+      }
+    ]
+  },
+  {
+    "id": "dyson-dc35-digital-slim",
+    "slug": "dyson-dc35-digital-slim",
+    "name": "Dyson DC35 Digital Slim™ Kablosuz Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-95707.jpg",
+    "images": [
+      "/images/appliances/dyson-95707.jpg"
+    ],
+    "rating": 4.6,
+    "epeyScore": 86,
+    "reviewCount": 35,
+    "basePrice": 10999,
+    "currency": "TL",
+    "releaseYear": 2011,
+    "highlights": [
+      "Dyson İlk İkonik Şarjlı Dikey Süpürgesi",
+      "Root Cyclone™ Gücü ile Emiş Kaybı Yaşatmayan Siklonlar",
+      "Karbon Fiber Kıllı Motorlu Başlık",
+      "15 Dakika Kesintisiz Güç",
+      "2.25 kg Hafif Alüminyum Borulu Tasarım"
+    ],
+    "tags": [
+      "Dyson",
+      "DC35",
+      "Digital Slim",
+      "Kablosuz Süpürge"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 200,
+      "suctionPowerPa": 65,
+      "batteryRuntimeMin": 15,
+      "noiseLevelDb": 85,
+      "capacity": "0.35 L",
+      "weightKg": 2.25,
+      "warrantyYears": 2,
+      "color": "Saten Mavi / Nikel"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 10999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 11999
+      },
+      {
+        "date": "2024-08",
+        "price": 10999
+      }
+    ]
   }
 ];
