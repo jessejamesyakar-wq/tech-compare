@@ -10006,5 +10006,2100 @@ export const mockAppliances: ApplianceProduct[] = [
         "store": "Trendyol"
       }
     ]
+  },
+  {
+    "id": "dyson-purifier-hot-cool-hp2-de-nox",
+    "slug": "dyson-purifier-hot-pluscool-hp2-de-nox",
+    "name": "Dyson Purifier Hot+Cool™ HP2 De-Nox Hava Temizleyici & Isıtıcı",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-1034279.jpg",
+    "images": [
+      "/images/appliances/dyson-1034279.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 38,
+    "basePrice": 41999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "De-NOx Filtreleme (NO2 ve Şehir Gazlarını Yok Eder)",
+      "HEPA H13 Standardında %99.95 Partikül Yakalama",
+      "Hem Isıtma Hem Güçlü Serinletme Özelliği",
+      "350° Ayarlanabilir Salınım ve Air Multiplier",
+      "MyDyson Akıllı Mobil Uygulama ve Sesli Kontrol"
+    ],
+    "tags": [
+      "Dyson",
+      "Hava Temizleyici",
+      "Isıtıcı",
+      "HEPA H13",
+      "De-NOx",
+      "Akıllı"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "Hava Temizleyici",
+      "powerWatts": 2250,
+      "noiseLevelDb": 42,
+      "appControl": true,
+      "weightKg": 5.7,
+      "warrantyYears": 2,
+      "color": "Gümüş / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 41999,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 42499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 42999,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 44999
+      },
+      {
+        "date": "2024-06",
+        "price": 43499
+      },
+      {
+        "date": "2024-07",
+        "price": 42499
+      },
+      {
+        "date": "2024-08",
+        "price": 41999
+      }
+    ]
+  },
+  {
+    "id": "dyson-airstrait-ceramic-pink",
+    "slug": "dyson-airstrait-ceramic-pink",
+    "name": "Dyson Airstrait Ceramic Pink Islak ve Kuru Saç Düzleştirici",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-1009568.jpg",
+    "images": [
+      "/images/appliances/dyson-1009568.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 74,
+    "basePrice": 18920,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Sıcak Plakalar Olmadan Sadece Hava ile Düzleştirme",
+      "Islak Saçtan Doğrudan Düz Saça Sıfır Isı Hasarı",
+      "Yüksek Basınçlı 45° Açılı Hassas Hava Bıçakları",
+      "Akıllı Isı Kontrolü ile Doğal Parlaklık",
+      "Renkli LCD Ekran ve Otomatik Duraklatma"
+    ],
+    "tags": [
+      "Dyson",
+      "Airstrait",
+      "Saç Düzleştirici",
+      "Kişisel Bakım",
+      "Ceramic Pink"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
+      "powerWatts": 1600,
+      "noiseLevelDb": 72,
+      "weightKg": 0.93,
+      "warrantyYears": 2,
+      "color": "Ceramic Pink / Gül Kurusu"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 18920,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 19199,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 19450,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 21999
+      },
+      {
+        "date": "2024-06",
+        "price": 20499
+      },
+      {
+        "date": "2024-07",
+        "price": 19499
+      },
+      {
+        "date": "2024-08",
+        "price": 18920
+      }
+    ]
+  },
+  {
+    "id": "dyson-supersonic-nural",
+    "slug": "dyson-supersonic-nural",
+    "name": "Dyson Supersonic Nural Akıllı Saç Kurutma Makinesi",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-959210.jpg",
+    "images": [
+      "/images/appliances/dyson-959210.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 92,
+    "basePrice": 21560,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Nural™ Sensör Ağı (Saç Derisini 55°C Optimum Sıcaklıkta Korur)",
+      "Kapsül Aydınlatması (Mesafeye Göre Renk Değiştiren LED)",
+      "Duraklatma Algılama (Yere Bırakıldığında Isıyı ve Sesi Kısar)",
+      "Wave+Curl Yeni Nesil Dalga ve Bukle Difüzörü",
+      "Akıllı Başlık Tanıma ve Hafızalama"
+    ],
+    "tags": [
+      "Dyson",
+      "Supersonic Nural",
+      "Saç Kurutma",
+      "Kişisel Bakım",
+      "Akıllı Sensör"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
+      "powerWatts": 1600,
+      "noiseLevelDb": 75,
+      "weightKg": 0.68,
+      "warrantyYears": 2,
+      "color": "Paten Mavi / Topaz Turuncusu"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 21560,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 21899,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr",
+        "storeLogoColor": "#FF9900"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 22199,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 23999
+      },
+      {
+        "date": "2024-06",
+        "price": 22899
+      },
+      {
+        "date": "2024-07",
+        "price": 21999
+      },
+      {
+        "date": "2024-08",
+        "price": 21560
+      }
+    ]
+  },
+  {
+    "id": "dyson-purifier-hot-cool-gen1",
+    "slug": "dyson-purifier-hot-pluscool-gen1",
+    "name": "Dyson Purifier Hot+Cool Gen1 Hava Temizleme & Isıtma Fanı",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-955214.jpg",
+    "images": [
+      "/images/appliances/dyson-955214.jpg"
+    ],
+    "rating": 4.7,
+    "epeyScore": 92,
+    "reviewCount": 45,
+    "basePrice": 34579.09,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "highlights": [
+      "HEPA H13 Filtreleme ve Aktif Karbon Katmanı",
+      "Termostat Kontrollü Hızlı ve Dengeli Oda Isıtma",
+      "Air Multiplier Teknolojisi ile 350° Salınım",
+      "Gece Modu ve LCD Bilgi Paneli",
+      "Manyetik Gövdeye Tutunan Ergonomik Uzaktan Kumanda"
+    ],
+    "tags": [
+      "Dyson",
+      "Hava Temizleyici",
+      "Gen1",
+      "Isıtıcı",
+      "HEPA"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "Hava Temizleyici",
+      "powerWatts": 2000,
+      "noiseLevelDb": 46,
+      "weightKg": 5.29,
+      "warrantyYears": 2,
+      "color": "Beyaz / Gümüş"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 34579.09,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 35199,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      },
+      {
+        "storeName": "Dyson TR",
+        "price": 35999,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 37999
+      },
+      {
+        "date": "2024-06",
+        "price": 36499
+      },
+      {
+        "date": "2024-07",
+        "price": 35299
+      },
+      {
+        "date": "2024-08",
+        "price": 34579.09
+      }
+    ]
+  },
+  {
+    "id": "dyson-airstrait-prussian-blue",
+    "slug": "dyson-airstrait-mavi",
+    "name": "Dyson Airstrait Prusya Mavisi / Bakır Saç Düzleştirici",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-929751.jpg",
+    "images": [
+      "/images/appliances/dyson-929751.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 68,
+    "basePrice": 18920,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "highlights": [
+      "Sıcak Plakasız Doğal Hava ile Saç Düzleştirme",
+      "Islak/Kuru Modları ve Hızlı Soğuk Hava Kilidi",
+      "Cam Boncuk Termistörleri ile Sıfır Termal Hasar",
+      "Yüksek Yoğunluklu İyon Teknolojisi ile Elektriklenmeyi Önler",
+      "Lüks Prusya Mavisi ve Parlak Bakır Özel Renk Tasarımı"
+    ],
+    "tags": [
+      "Dyson",
+      "Airstrait",
+      "Prusya Mavisi",
+      "Saç Düzleştirici",
+      "Kişisel Bakım"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
+      "powerWatts": 1600,
+      "weightKg": 0.93,
+      "warrantyYears": 2,
+      "color": "Prusya Mavisi / Bakır"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 18920,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 19299,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 19499,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr",
+        "storeLogoColor": "#FF9900"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 21999
+      },
+      {
+        "date": "2024-06",
+        "price": 20499
+      },
+      {
+        "date": "2024-07",
+        "price": 19499
+      },
+      {
+        "date": "2024-08",
+        "price": 18920
+      }
+    ]
+  },
+  {
+    "id": "dyson-purifier-big-quiet-bp02",
+    "slug": "dyson-purifier-big-plusquiet-bp02",
+    "name": "Dyson Purifier Big+Quiet BP02 Geniş Alan Hava Temizleyici",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-1034277.jpg",
+    "images": [
+      "/images/appliances/dyson-1034277.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 29,
+    "basePrice": 40999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "100 m² Geniş Alanlar İçin 10 Metreye Kadar Güçlü Hava Projeksiyonu",
+      "Konik Aerodinamik Sayesinde 56 dB Maksimum Fısıltı Sessizliği",
+      "5 Yıl Değişim Gerektirmeyen Dev HEPA H13 Filtresi",
+      "CO2 Karbondioksit ve Partikül Seviyesini Gerçek Zamanlı Raporlama",
+      "MyDyson Uygulaması ile Akıllı Otomasyon"
+    ],
+    "tags": [
+      "Dyson",
+      "Big+Quiet",
+      "BP02",
+      "Hava Temizleyici",
+      "100m2"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "Hava Temizleyici",
+      "powerWatts": 50,
+      "noiseLevelDb": 56,
+      "appControl": true,
+      "weightKg": 11.9,
+      "warrantyYears": 2,
+      "color": "Saten Mavi / Altın"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 40999,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 41499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 44999
+      },
+      {
+        "date": "2024-06",
+        "price": 42999
+      },
+      {
+        "date": "2024-07",
+        "price": 41499
+      },
+      {
+        "date": "2024-08",
+        "price": 40999
+      }
+    ]
+  },
+  {
+    "id": "dyson-humidify-cool-ph2-de-nox",
+    "slug": "dyson-humidify-pluscool-ph2-de-nox",
+    "name": "Dyson Humidify+Cool PH2 De-NOx 3'ü 1 Arada Nemlendirici & Hava Temizleyici",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-1019018.jpg",
+    "images": [
+      "/images/appliances/dyson-1019018.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 33,
+    "basePrice": 41625,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "3'ü 1 Arada: Arındırır, Hijyenik Nemlendirir ve Serinletir",
+      "UV-C Işık Teknolojisi ile Su Bakterilerini %99.9 Yok Eder",
+      "De-NOx Filtre Katmanı ile Şehir Gazlarını Yakalar",
+      "5 Litre Geniş Su Deposu ile 36 Saate Varan Kesintisiz Nemlendirme",
+      "Derin Temizleme Döngüsü ile Kireçlenmeyi Önleme"
+    ],
+    "tags": [
+      "Dyson",
+      "Nemlendirici",
+      "Hava Temizleyici",
+      "PH2",
+      "UV-C"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "Hava Temizleyici",
+      "powerWatts": 45,
+      "capacity": "5 L",
+      "noiseLevelDb": 44,
+      "appControl": true,
+      "weightKg": 8.2,
+      "warrantyYears": 2,
+      "color": "Beyaz / Gümüş"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 41625,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 42200,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 42500,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 45000
+      },
+      {
+        "date": "2024-06",
+        "price": 43500
+      },
+      {
+        "date": "2024-07",
+        "price": 42200
+      },
+      {
+        "date": "2024-08",
+        "price": 41625
+      }
+    ]
+  },
+  {
+    "id": "dyson-airstrait-nickel-copper",
+    "slug": "dyson-airstrait-nikel-bakir",
+    "name": "Dyson Airstrait Nikel / Bakır Islak Kuru Saç Düzleştirici",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-929773.jpg",
+    "images": [
+      "/images/appliances/dyson-929773.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 52,
+    "basePrice": 18920,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "highlights": [
+      "Gelişmiş Hava Yönlendirme ile Sıcak Plakasız Düzleştirme",
+      "Islak ve Kuru Modlar Arasında Tek Tuşla Geçiş",
+      "Akıllı Isı Sensörleri ile Saçın Doğal Nemini Korur",
+      "Klasik Parlak Nikel ve Bakır Gövde Uyumu",
+      "Dayanıklı Isıya Dayanıklı Altlık Hediyeli"
+    ],
+    "tags": [
+      "Dyson",
+      "Airstrait",
+      "Nikel Bakır",
+      "Saç Düzleştirici",
+      "Kişisel Bakım"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
+      "powerWatts": 1600,
+      "weightKg": 0.93,
+      "warrantyYears": 2,
+      "color": "Nikel / Bakır"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 18920,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 19350,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 21999
+      },
+      {
+        "date": "2024-06",
+        "price": 20499
+      },
+      {
+        "date": "2024-07",
+        "price": 19499
+      },
+      {
+        "date": "2024-08",
+        "price": 18920
+      }
+    ]
+  },
+  {
+    "id": "dyson-pencilwash",
+    "slug": "dyson-pencilwash",
+    "name": "Dyson PencilWash Kablosuz Islak Zemin Temizleyici",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-1046912.png",
+    "images": [
+      "/images/appliances/dyson-1046912.png"
+    ],
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 41,
+    "basePrice": 7989,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "Ultra İnce Kalem Gövde Tasarımı ile Dar Alanlara Kolay Erişim",
+      "Eş Zamanlı Islak Silme ve Kirli Su Ayrıştırma",
+      "35 Dakika Kesintisiz Çalışma Süresi",
+      "Kendi Kendini Temizleyen Mikrofiber Silindir Rulo",
+      "Sadece 1.8 kg Ultra Hafif Ağırlık"
+    ],
+    "tags": [
+      "Dyson",
+      "PencilWash",
+      "Islak Temizleyici",
+      "Dikey Süpürge",
+      "Kablosuz"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 120,
+      "batteryRuntimeMin": 35,
+      "noiseLevelDb": 68,
+      "weightKg": 1.8,
+      "warrantyYears": 2,
+      "color": "Demir / Mor"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 7989,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 8199,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 8299,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr",
+        "storeLogoColor": "#FF9900"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 9499
+      },
+      {
+        "date": "2024-06",
+        "price": 8899
+      },
+      {
+        "date": "2024-07",
+        "price": 8299
+      },
+      {
+        "date": "2024-08",
+        "price": 7989
+      }
+    ]
+  },
+  {
+    "id": "dyson-ontrac-headphones",
+    "slug": "dyson-ontrac",
+    "name": "Dyson OnTrac Aktif Gürültü Engelleyici (ANC) Kablosuz Kulaklık",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-963152.jpg",
+    "images": [
+      "/images/appliances/dyson-963152.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 36,
+    "basePrice": 14309.1,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "Gelişmiş 8 Mikrofonlu Aktif Gürültü Engelleme (ANC)",
+      "ANC Açıkken 55 Saate Varan Olağanüstü Pil Ömrü",
+      "6 Hz - 21 kHz Genişletilmiş Frekans Aralığı ve Derin Baslar",
+      "Özelleştirilebilir Alüminyum Dış Kapaklar ve Kulak Yastıkları",
+      "MyDyson Uygulaması ile Gerçek Zamanlı Ses Maruziyeti Takibi"
+    ],
+    "tags": [
+      "Dyson",
+      "OnTrac",
+      "ANC",
+      "Kulaklık",
+      "Kişisel Bakım",
+      "Kablosuz"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
+      "powerWatts": 15,
+      "batteryRuntimeMin": 3300,
+      "appControl": true,
+      "weightKg": 0.451,
+      "warrantyYears": 2,
+      "color": "CNC Bakır / Gece Mavisi"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 14309.1,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Dyson TR",
+        "price": 14999,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 15299,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 16999
+      },
+      {
+        "date": "2024-06",
+        "price": 15499
+      },
+      {
+        "date": "2024-07",
+        "price": 14899
+      },
+      {
+        "date": "2024-08",
+        "price": 14309.1
+      }
+    ]
+  },
+  {
+    "id": "dyson-cool-cf1",
+    "slug": "dyson-cool-cf1",
+    "name": "Dyson Cool CF1 Kompakt Kanatsız Masaüstü Vantilatör",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-1061050.png",
+    "images": [
+      "/images/appliances/dyson-1061050.png"
+    ],
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 22,
+    "basePrice": 8098.2,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Kanatsız Air Multiplier Kesintisiz Serin Hava Akımı",
+      "Güvenli ve Kolay Temizlenebilir Pürüzsüz Halka Tasarımı",
+      "10 Kademeli Hassas Hava Akışı Hız Ayarı",
+      "Uyku Zamanlayıcısı ve Manyetik Uzaktan Kumanda",
+      "Kompakt Masaüstü ve Komodin Boyutu"
+    ],
+    "tags": [
+      "Dyson",
+      "Cool CF1",
+      "Vantilatör",
+      "Hava Temizleyiciler",
+      "Kanatsız"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "Hava Temizleyiciler",
+      "powerWatts": 40,
+      "noiseLevelDb": 48,
+      "weightKg": 2.1,
+      "warrantyYears": 2,
+      "color": "Beyaz / Gümüş"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 8098.2,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Dyson TR",
+        "price": 8499,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 8699,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 9499
+      },
+      {
+        "date": "2024-06",
+        "price": 8899
+      },
+      {
+        "date": "2024-07",
+        "price": 8399
+      },
+      {
+        "date": "2024-08",
+        "price": 8098.2
+      }
+    ]
+  },
+  {
+    "id": "dyson-purifier-humidify-cool-formaldehyde-ph04",
+    "slug": "dyson-purifier-humidify-plus-cool-formaldehyde-ph04",
+    "name": "Dyson Purifier Humidify+Cool Formaldehyde PH04 Hava Temizleyici",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-846699.jpg",
+    "images": [
+      "/images/appliances/dyson-846699.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 58,
+    "basePrice": 49900,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "highlights": [
+      "Katalitik Filtre ile Formaldehit Moleküllerini Kalıcı Yok Etme",
+      "HEPA H13 Standardında Tamamen Yalıtılmış Hava Kanalları",
+      "UV-C Işık Teknolojisiyle %99.9 Hijyenik Nemlendirme",
+      "Gerçek Zamanlı Hava Kalitesi ve Nem Sensörleri",
+      "MyDyson Akıllı Telefon ve Sesli Asistan Entegrasyonu"
+    ],
+    "tags": [
+      "Dyson",
+      "Formaldehyde",
+      "PH04",
+      "Nemlendirici",
+      "Hava Temizleyici"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "Hava Temizleyici",
+      "powerWatts": 45,
+      "capacity": "5 L",
+      "noiseLevelDb": 45,
+      "appControl": true,
+      "weightKg": 8.05,
+      "warrantyYears": 2,
+      "color": "Beyaz / Parlak Altın"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 49900,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 50499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 52999
+      },
+      {
+        "date": "2024-06",
+        "price": 51499
+      },
+      {
+        "date": "2024-07",
+        "price": 50499
+      },
+      {
+        "date": "2024-08",
+        "price": 49900
+      }
+    ]
+  },
+  {
+    "id": "dyson-purifier-big-quiet-bp04",
+    "slug": "dyson-purifier-big-plusquiet-bp04",
+    "name": "Dyson Purifier Big+Quiet Formaldehyde BP04 Hava Temizleyici",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-1034519.jpg",
+    "images": [
+      "/images/appliances/dyson-1034519.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 97,
+    "reviewCount": 31,
+    "basePrice": 49999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "K-Karbon Filtresi ile NO2 Gazlarını 3 Kat Daha Fazla Yakalama",
+      "CO2 Karbondioksit Sensörü ve Havalandırma Tavsiyeleri",
+      "Formaldehiti Su ve CO2'ye Dönüştürerek Yok Eden Katalitik Katman",
+      "100 m² Geniş Alanlarda 10 Metre İleri Hava Projeksiyonu",
+      "Gelişmiş Akustik Mühendisliği ile 56 dB Maksimum Ses"
+    ],
+    "tags": [
+      "Dyson",
+      "Big+Quiet",
+      "BP04",
+      "K-Karbon",
+      "CO2 Sensörü",
+      "Hava Temizleyici"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "Hava Temizleyici",
+      "powerWatts": 50,
+      "noiseLevelDb": 56,
+      "appControl": true,
+      "weightKg": 11.9,
+      "warrantyYears": 2,
+      "color": "Parlak Mavi / Altın"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 49999,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 50999,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 53999
+      },
+      {
+        "date": "2024-06",
+        "price": 51999
+      },
+      {
+        "date": "2024-07",
+        "price": 50999
+      },
+      {
+        "date": "2024-08",
+        "price": 49999
+      }
+    ]
+  },
+  {
+    "id": "dyson-purifier-cool-formaldehyde-tp09",
+    "slug": "dyson-purifier-cool-formaldehyde-tp09",
+    "name": "Dyson Purifier Cool Formaldehyde TP09 Kule Tipi Hava Temizleyici",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-820050.jpg",
+    "images": [
+      "/images/appliances/dyson-820050.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 88,
+    "basePrice": 54900,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": true,
+    "highlights": [
+      "Katı Hal Formaldehit Sensörü ile Hassas ve Ömür Boyu Algılama",
+      "Katalitik Filtre ile Formaldehit Moleküllerini Yok Etme",
+      "HEPA H13 Tamamen Sızdırmaz Kasa Standardı",
+      "350° Ayarlanabilir Salınım ve Güçlü Serinletici Fan",
+      "MyDyson Uygulaması ve Sesli Kontrol Uyumluluğu"
+    ],
+    "tags": [
+      "Dyson",
+      "TP09",
+      "Formaldehyde",
+      "Hava Temizleyici",
+      "HEPA H13"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "Hava Temizleyici",
+      "powerWatts": 40,
+      "noiseLevelDb": 46,
+      "appControl": true,
+      "weightKg": 4.85,
+      "warrantyYears": 2,
+      "color": "Beyaz / Altın"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 54900,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 55499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 57999
+      },
+      {
+        "date": "2024-06",
+        "price": 56499
+      },
+      {
+        "date": "2024-07",
+        "price": 55499
+      },
+      {
+        "date": "2024-08",
+        "price": 54900
+      }
+    ]
+  },
+  {
+    "id": "dyson-airwrap-id-jasper-plum",
+    "slug": "dyson-airwrap-i-d-jasper-plum",
+    "name": "Dyson Airwrap i.d Jasper Plum (Mor) Akıllı Saç Şekillendirici",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-1009569.jpg",
+    "images": [
+      "/images/appliances/dyson-1009569.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 42,
+    "basePrice": 40000,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "MyDyson i.d curl™ Bluetooth ile Kişiselleştirilmiş Bukle Programı",
+      "Tek Tuşla Otomatik Sarma, Şekillendirme ve Soğuk Sabitleme",
+      "Yeni Nesil Çift Yönlü Konik Airwrap™ Bukle Silindiri",
+      "Aşırı Isı Olmadan Coanda Hava Akımıyla Şekillendirme",
+      "Lüks Jasper Plum (Koyu Mor) ve Özel Saklama Kutusu"
+    ],
+    "tags": [
+      "Dyson",
+      "Airwrap i.d",
+      "Jasper Plum",
+      "Saç Şekillendirici",
+      "Kişisel Bakım"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
+      "powerWatts": 1300,
+      "weightKg": 0.61,
+      "warrantyYears": 2,
+      "color": "Jasper Plum (Koyu Mor)"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 40000,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 40899,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 43000
+      },
+      {
+        "date": "2024-06",
+        "price": 41500
+      },
+      {
+        "date": "2024-07",
+        "price": 40500
+      },
+      {
+        "date": "2024-08",
+        "price": 40000
+      }
+    ]
+  },
+  {
+    "id": "dyson-hepa-big-quiet-formaldehyde-bp06",
+    "slug": "dyson-hepa-big-plusquiet-formaldehyde-bp06",
+    "name": "Dyson HEPA Big+Quiet Formaldehyde BP06 Profesyonel Hava Temizleyici",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-955211.jpg",
+    "images": [
+      "/images/appliances/dyson-955211.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 19,
+    "basePrice": 44999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "highlights": [
+      "Geniş Alanlar ve Ticari Ortamlar İçin 100 m² Kapsama Alanı",
+      "HEPA H13 Standardında %99.95 Partikül Yakalama",
+      "Ömür Boyu Katalitik Formaldehit Yok Edici Filtre",
+      "Konik Difüze Modu ile Rüzgar Hissi Olmadan Sessiz Arıtma",
+      "Gizli Tekerlekleri ile Kolay Oda Değiştirme İmkanı"
+    ],
+    "tags": [
+      "Dyson",
+      "Big+Quiet",
+      "BP06",
+      "Profesyonel",
+      "Hava Temizleyici"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "Hava Temizleyici",
+      "powerWatts": 50,
+      "noiseLevelDb": 56,
+      "appControl": true,
+      "weightKg": 11.9,
+      "warrantyYears": 2,
+      "color": "Gümüş / Nikel"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 44999,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 45999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 48999
+      },
+      {
+        "date": "2024-06",
+        "price": 46999
+      },
+      {
+        "date": "2024-07",
+        "price": 45999
+      },
+      {
+        "date": "2024-08",
+        "price": 44999
+      }
+    ]
+  },
+  {
+    "id": "dyson-pencilvac-fluffycones",
+    "slug": "dyson-pencilvac-fluffycones",
+    "name": "Dyson PencilVac Fluffycones Kablosuz Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-1042092.png",
+    "images": [
+      "/images/appliances/dyson-1042092.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 35,
+    "basePrice": 14549,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "Fluffycones™ Konik Saç Dolanmasını Önleyen İkili Rulo Başlık",
+      "Ultra İnce Kalem Şasi ile Mobilya Altlarına Sıfır Eğimle Erişim",
+      "120 AW Güçlü Emiş Performansı ve HEPA Filtrasyon",
+      "45 Dakika Kesintisiz Batarya Süresi",
+      "1.6 kg Tüy Kadar Hafif Gövde Yapısı"
+    ],
+    "tags": [
+      "Dyson",
+      "PencilVac",
+      "Fluffycones",
+      "Dikey Süpürge",
+      "Kablosuz"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 380,
+      "suctionPowerPa": 120,
+      "batteryRuntimeMin": 45,
+      "noiseLevelDb": 74,
+      "weightKg": 1.6,
+      "warrantyYears": 2,
+      "color": "Gümüş / Sarı"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 14549,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 14899,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 15100,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 16999
+      },
+      {
+        "date": "2024-06",
+        "price": 15799
+      },
+      {
+        "date": "2024-07",
+        "price": 14999
+      },
+      {
+        "date": "2024-08",
+        "price": 14549
+      }
+    ]
+  },
+  {
+    "id": "dyson-cool-am07",
+    "slug": "dyson-cool-am07",
+    "name": "Dyson Cool AM07 Kule Tipi Kanatsız Vantilatör",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-697324.png",
+    "images": [
+      "/images/appliances/dyson-697324.png"
+    ],
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 65,
+    "basePrice": 14100,
+    "currency": "TL",
+    "releaseYear": 2014,
+    "highlights": [
+      "Air Multiplier Teknolojisi ile Kanatsız Güçlü Hava Akımı",
+      "Önceki Nesle Göre %60 Daha Sessiz Akustik Tasarım",
+      "56W Düşük Enerji Tüketimi ve Yüksek Verimlilik",
+      "10 Kademeli Hassas Hız Ayarı ve Salınım Kontrolü",
+      "Manyetik Olarak Cihaza Tutunan Uzaktan Kumanda"
+    ],
+    "tags": [
+      "Dyson",
+      "Cool AM07",
+      "Kule Vantilatör",
+      "Hava Temizleyiciler",
+      "Kanatsız"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "Hava Temizleyiciler",
+      "powerWatts": 56,
+      "noiseLevelDb": 64,
+      "weightKg": 2.85,
+      "warrantyYears": 2,
+      "color": "Beyaz / Gümüş"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 14100,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 14499,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 15999
+      },
+      {
+        "date": "2024-06",
+        "price": 14999
+      },
+      {
+        "date": "2024-07",
+        "price": 14499
+      },
+      {
+        "date": "2024-08",
+        "price": 14100
+      }
+    ]
+  },
+  {
+    "id": "dyson-v11-advanced",
+    "slug": "dyson-v11-advanced",
+    "name": "Dyson V11 Advanced Kablosuz Şarjlı Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-946791.png",
+    "images": [
+      "/images/appliances/dyson-946791.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 77,
+    "basePrice": 45900,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "highlights": [
+      "200 AW Yüksek Emiş Gücü ile Derinlemesine Zemin Temizliği",
+      "Motorbar™ Anti-Tangle Başlık (Saç Dolanmasını Otomatik Çözer)",
+      "Gerçek Zamanlı LCD Ekran (Kalan Süre ve Güç Modu Göstergesi)",
+      "60 Dakika Kesintisiz Çalışma Kapasitesi",
+      "0.76 Litre Nokta Atışı Hijyenik Boşaltmalı Toz Haznesi"
+    ],
+    "tags": [
+      "Dyson",
+      "V11 Advanced",
+      "Dikey Süpürge",
+      "Motorbar",
+      "Kablosuz"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 545,
+      "suctionPowerPa": 200,
+      "batteryRuntimeMin": 60,
+      "noiseLevelDb": 82,
+      "weightKg": 3,
+      "warrantyYears": 2,
+      "color": "Nikel / Mavi"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 45900,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 46499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 48999
+      },
+      {
+        "date": "2024-06",
+        "price": 47499
+      },
+      {
+        "date": "2024-07",
+        "price": 46499
+      },
+      {
+        "date": "2024-08",
+        "price": 45900
+      }
+    ]
+  },
+  {
+    "id": "dyson-purifier-cool-tp07",
+    "slug": "dyson-purifier-cool-tp07",
+    "name": "Dyson Purifier Cool TP07 Kule Tipi Hava Temizleyici Fan",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-846821.jpg",
+    "images": [
+      "/images/appliances/dyson-846821.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 64,
+    "basePrice": 39599.1,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": true,
+    "highlights": [
+      "HEPA H13 Standardında %99.95 Mikroskobik Alerjen Yakalama",
+      "Tamamen Yalıtılmış Hava Kanalı ile Sızıntısız Filtrasyon",
+      "350° Ayarlanabilir Salınım ve Güçlü Serinletici Hava Akımı",
+      "MyDyson Akıllı Mobil Uygulaması ile Gerçek Zamanlı Raporlama",
+      "Gece Modu ile Sessiz Çalışma ve Ekran Karartma"
+    ],
+    "tags": [
+      "Dyson",
+      "TP07",
+      "Hava Temizleyici",
+      "HEPA H13",
+      "Akıllı Fan"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "Hava Temizleyici",
+      "powerWatts": 40,
+      "noiseLevelDb": 50,
+      "appControl": true,
+      "weightKg": 4.65,
+      "warrantyYears": 2,
+      "color": "Beyaz / Gümüş"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 39599.1,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      },
+      {
+        "storeName": "Dyson TR",
+        "price": 40999,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 43999
+      },
+      {
+        "date": "2024-06",
+        "price": 41999
+      },
+      {
+        "date": "2024-07",
+        "price": 40499
+      },
+      {
+        "date": "2024-08",
+        "price": 39599.1
+      }
+    ]
+  },
+  {
+    "id": "dyson-airwrap-complete-long",
+    "slug": "dyson-airwrap-complete-long",
+    "name": "Dyson Airwrap™ Complete Long Çok Amaçlı Saç Şekillendirici",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-1034254.jpg",
+    "images": [
+      "/images/appliances/dyson-1034254.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 110,
+    "basePrice": 29999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "Göğüs Hizası ve Daha Uzun Saçlar İçin Özel Uzun Başlıklar",
+      "Aşırı Isı Hasarı Olmadan Coanda Hava Akımıyla Bukle ve Hacim",
+      "Çift Yönlü 30mm ve 40mm Uzun Airwrap Silindirleri",
+      "Pürüzsüzleştirici Sert ve Yumuşak Düzleştirici Fırçalar",
+      "Lüks Saklama Kutusu ve Hızlı Kurutucu Başlık Dahil"
+    ],
+    "tags": [
+      "Dyson",
+      "Airwrap Complete Long",
+      "Saç Şekillendirici",
+      "Kişisel Bakım",
+      "Uzun Saç"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
+      "powerWatts": 1300,
+      "weightKg": 0.61,
+      "warrantyYears": 2,
+      "color": "Nikel / Bakır"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 29999,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 30499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 32999
+      },
+      {
+        "date": "2024-06",
+        "price": 31499
+      },
+      {
+        "date": "2024-07",
+        "price": 30499
+      },
+      {
+        "date": "2024-08",
+        "price": 29999
+      }
+    ]
+  },
+  {
+    "id": "dyson-airwrap-multi-styler-complete-long-blue",
+    "slug": "dyson-airwrap-multi-styler-complete-long-mavi",
+    "name": "Dyson Airwrap™ Multi-Styler Complete Long (Prusya Mavisi / Bakır)",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-894747.jpg",
+    "images": [
+      "/images/appliances/dyson-894747.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 48,
+    "basePrice": 76399,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "highlights": [
+      "Özel Koleksiyon Prusya Mavisi ve Parlak Bakır Renk Tasarımı",
+      "Yeniden Tasarlanan Çift Yönlü Coanda Hava Başlıkları",
+      "Uzun Saçlar İçin Optimize Edilmiş 30mm ve 40mm Uzun Silindirler",
+      "Elektriklenmeyi Gizleyen Çok Fonksiyonlu Coanda Düzleştirici Kurutucu",
+      "Özel Dokulu Deri Saklama Kutusu ve Seyahat Çantası"
+    ],
+    "tags": [
+      "Dyson",
+      "Airwrap",
+      "Multi-Styler",
+      "Prusya Mavisi",
+      "Kişisel Bakım"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
+      "powerWatts": 1300,
+      "weightKg": 0.61,
+      "warrantyYears": 2,
+      "color": "Prusya Mavisi / Bakır"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 76399,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 79999
+      },
+      {
+        "date": "2024-06",
+        "price": 78000
+      },
+      {
+        "date": "2024-07",
+        "price": 77000
+      },
+      {
+        "date": "2024-08",
+        "price": 76399
+      }
+    ]
+  },
+  {
+    "id": "dyson-supersonic-travel",
+    "slug": "dyson-supersonic-travel",
+    "name": "Dyson Supersonic™ Travel Taşınabilir Saç Kurutma Makinesi",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-1055178.jpg",
+    "images": [
+      "/images/appliances/dyson-1055178.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 30,
+    "basePrice": 14979,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "Seyahat ve Taşınabilirlik İçin Optimize Edilmiş Hafif Gövde",
+      "Dyson V9 Dijital Motor ile Ultra Hızlı Kurutma",
+      "Akıllı Isı Kontrolü ile Saçın Parlaklığını Koruma",
+      "Kompakt Manyetik Şekillendirme Başlıkları",
+      "Darbe Korumalı Özel Seyahat Kılıfı Dahil"
+    ],
+    "tags": [
+      "Dyson",
+      "Supersonic Travel",
+      "Saç Kurutma",
+      "Kişisel Bakım",
+      "Seyahat"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
+      "powerWatts": 1600,
+      "noiseLevelDb": 77,
+      "weightKg": 0.56,
+      "warrantyYears": 2,
+      "color": "Gümüş / Nikel"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 14979,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 15299,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 15450,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr",
+        "storeLogoColor": "#FF9900"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 16999
+      },
+      {
+        "date": "2024-06",
+        "price": 15999
+      },
+      {
+        "date": "2024-07",
+        "price": 15299
+      },
+      {
+        "date": "2024-08",
+        "price": 14979
+      }
+    ]
+  },
+  {
+    "id": "dyson-supersonic-r-122781-01",
+    "slug": "dyson-supersonic-r-122781-01",
+    "name": "Dyson Supersonic r™ Profesyonel Saç Kurutma Makinesi (122781-01)",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-1034253.jpg",
+    "images": [
+      "/images/appliances/dyson-1034253.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 97,
+    "reviewCount": 46,
+    "basePrice": 22999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Profesyonel Stilistler İçin Devrimsel Ergonomik 'r' Kavisli Gövde",
+      "%30 Daha Küçük ve %20 Daha Hafif (Yalnızca 325 Gram)",
+      "RFID Çipli Akıllı Başlıklar (Her Başlığı Tanıyıp Isıyı Otomatik Ayarlar)",
+      "Girdap Isıtıcı Izgaralar ile Eşit ve Odaklanmış Isı Dağılımı",
+      "Derinlemesine Temizlenebilir Uzun Ömürlü Salon Filtresi"
+    ],
+    "tags": [
+      "Dyson",
+      "Supersonic r",
+      "Profesyonel",
+      "RFID Akıllı",
+      "Saç Kurutma",
+      "Kişisel Bakım"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
+      "powerWatts": 1700,
+      "noiseLevelDb": 73,
+      "weightKg": 0.325,
+      "warrantyYears": 2,
+      "color": "Jasper Plum (Koyu Mor)"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Dyson TR",
+        "price": 22999,
+        "inStock": true,
+        "url": "https://www.dyson.com.tr",
+        "storeLogoColor": "#000000"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 23499,
+        "inStock": true,
+        "url": "https://www.trendyol.com",
+        "storeLogoColor": "#F27A1A"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 23800,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 25999
+      },
+      {
+        "date": "2024-06",
+        "price": 24499
+      },
+      {
+        "date": "2024-07",
+        "price": 23499
+      },
+      {
+        "date": "2024-08",
+        "price": 22999
+      }
+    ]
+  },
+  {
+    "id": "dyson-sv27-cyclone-v10-absolute",
+    "slug": "dyson-sv27-cyclone-v10-absolute",
+    "name": "Dyson SV27 Cyclone V10 Absolute Şarjlı Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-1005173.png",
+    "images": [
+      "/images/appliances/dyson-1005173.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 91,
+    "reviewCount": 54,
+    "basePrice": 25790,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "151 AW Güçlü Siklonik Emiş ile Derin Temizlik",
+      "Motorbar™ ve Fluffy™ İkili Ana Başlık Seti",
+      "60 Dakika Kesintisiz Çalışma Kapasitesi",
+      "0.76 Litre Hijyenik Hazne Boşaltma Mekanizması",
+      "Gelişmiş Tüm Makine HEPA Filtrasyonu"
+    ],
+    "tags": [
+      "Dyson",
+      "SV27",
+      "Cyclone V10",
+      "Dikey Süpürge",
+      "Kablosuz"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 525,
+      "suctionPowerPa": 151,
+      "batteryRuntimeMin": 60,
+      "noiseLevelDb": 80,
+      "weightKg": 2.67,
+      "warrantyYears": 2,
+      "color": "Bakır / Demir"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 25790,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 27999
+      },
+      {
+        "date": "2024-06",
+        "price": 26999
+      },
+      {
+        "date": "2024-07",
+        "price": 26199
+      },
+      {
+        "date": "2024-08",
+        "price": 25790
+      }
+    ]
+  },
+  {
+    "id": "dyson-purifier-cool-pc2-de-nox",
+    "slug": "dyson-purifier-cool-pc2-de-nox",
+    "name": "Dyson Purifier Cool PC2 De-NOx Hava Temizleyici Fan",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-995071.png",
+    "images": [
+      "/images/appliances/dyson-995071.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 26,
+    "basePrice": 44499.1,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Gelişmiş De-NOx Filtreleme (Nitrojen Dioksit ve Gazları Yakalama)",
+      "HEPA H13 Standardında Tamamen Sızdırmaz Kasa",
+      "350° Ayarlanabilir Salınım ile Odaya Eşit Hava Dağıtımı",
+      "Air Multiplier Teknolojisi ile Güçlü Serinletici Esinti",
+      "MyDyson Akıllı Telefon Uygulaması ile 7/24 Takip"
+    ],
+    "tags": [
+      "Dyson",
+      "PC2 De-NOx",
+      "Hava Temizleyici",
+      "HEPA H13",
+      "Akıllı"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "Hava Temizleyici",
+      "powerWatts": 40,
+      "noiseLevelDb": 46,
+      "appControl": true,
+      "weightKg": 4.9,
+      "warrantyYears": 2,
+      "color": "Gümüş / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 44499.1,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 47999
+      },
+      {
+        "date": "2024-06",
+        "price": 45999
+      },
+      {
+        "date": "2024-07",
+        "price": 44999
+      },
+      {
+        "date": "2024-08",
+        "price": 44499.1
+      }
+    ]
+  },
+  {
+    "id": "dyson-airwrap-multi-styler-complete-long-copper",
+    "slug": "dyson-airwrap-multi-styler-complete-long",
+    "name": "Dyson Airwrap™ Multi-Styler Complete Long (Parlak Bakır / Nikel)",
+    "brand": "Dyson",
+    "category": "appliances",
+    "image": "/images/appliances/dyson-894748.jpg",
+    "images": [
+      "/images/appliances/dyson-894748.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 61,
+    "basePrice": 30999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "highlights": [
+      "Geliştirilmiş Çift Yönlü Coanda Hava Akımlı Başlıklar",
+      "Uzun Saçlar İçin Özel 30mm ve 40mm Uzun Şekillendirici Silindirler",
+      "Aşırı Isı Olmadan Havayla Hızlı Kurutma ve Şekillendirme",
+      "Bukle, Dalga, Hacim ve Düzleştirme Bir Arada",
+      "Özel Deri Saklama Kutusu Dahil"
+    ],
+    "tags": [
+      "Dyson",
+      "Airwrap Multi-Styler",
+      "Parlak Bakır",
+      "Saç Şekillendirici",
+      "Kişisel Bakım"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
+      "powerWatts": 1300,
+      "weightKg": 0.61,
+      "warrantyYears": 2,
+      "color": "Parlak Bakır / Nikel"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 30999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 33999
+      },
+      {
+        "date": "2024-06",
+        "price": 32499
+      },
+      {
+        "date": "2024-07",
+        "price": 31499
+      },
+      {
+        "date": "2024-08",
+        "price": 30999
+      }
+    ]
   }
 ];

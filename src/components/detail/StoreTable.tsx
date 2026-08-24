@@ -123,7 +123,7 @@ export function StoreTable({ offers = [], currency }: StoreTableProps) {
 
               {/* Badges */}
               <div className="hidden lg:flex items-center gap-2">
-                {offer.badges.map((badge, bIdx) => (
+                {offer.badges?.map((badge, bIdx) => (
                   <span
                     key={bIdx}
                     className="bg-white text-slate-700 text-[11px] px-3 py-1 rounded-xl border border-slate-200 flex items-center gap-1 font-bold shadow-2xs"

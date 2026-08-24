@@ -214,24 +214,24 @@ export interface GenericProduct extends BaseProduct {
 export type Product = Smartphone | TVProduct | LaptopProduct | ApplianceProduct | GenericProduct;
 
 export interface StoreOffer {
-  id: string;
+  id?: string;
   storeName: string;
-  storeLogoColor: string;
+  storeLogoColor?: string;
   price: number;
   subsidyPrice?: number;
   bundlePromotion?: string;
   inStock: boolean;
-  shippingDays: number;
-  badges: string[];
-  sellerRating: number;
-  sellerReviews: number;
-  url: string;
+  shippingDays?: number;
+  badges?: string[];
+  sellerRating?: number;
+  sellerReviews?: number;
+  url?: string;
 }
 
 export interface PriceHistoryPoint {
   date: string;
   price: number;
-  store: string;
+  store?: string;
 }
 
 export interface FilterOptions {
