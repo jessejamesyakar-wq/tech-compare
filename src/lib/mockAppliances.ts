@@ -2,6 +2,409 @@ import { ApplianceProduct } from './types';
 
 export const mockAppliances: ApplianceProduct[] = [
   {
+    "id": "philips-perfectcare-aqua-pro-gc9325-30",
+    "slug": "philips-perfectcare-aqua-pro-gc9325-30",
+    "name": "Philips PerfectCare Aqua Pro GC9325/30 Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 46499.07,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 95,
+    "image": "/images/appliances/philips-gc9325-30.jpg",
+    "images": [
+      "/images/appliances/philips-gc9325-30.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "6.5 Bar Yüksek Buhar Basıncı & 440g Şok Buhar",
+      "2.5 Litre Ekstra Geniş Su Deposu (Kesintisiz Ütüleme)",
+      "T-ionicGlide Üstün Kayganlık ve Dayanıklılık",
+      "OptimalTEMP Kumaş Yanmama Güvencesi"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2100,
+      "steamOutputGramsPerMin": 120,
+      "steamBoostGramsPerMin": 440,
+      "pressureBar": 6.5,
+      "waterTankCapacityLiters": 2.5,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 4.2,
+      "warrantyYears": 2,
+      "color": "Mor / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc9325-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 46499.07,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Aqua Pro 2.5L",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 190,
+        "url": "https://www.epey.com/utu/philips-perfectcare-aqua-pro-gc9325-30.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 48999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 46499.07,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-compact-essential-gc6842-30",
+    "slug": "philips-perfectcare-compact-essential-gc6842-30",
+    "name": "Philips PerfectCare Compact Essential GC6842/30 Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 6949.9,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 680,
+    "image": "/images/appliances/philips-gc6842-30.jpg",
+    "images": [
+      "/images/appliances/philips-gc6842-30.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6.0 Bar Basınç & 360g Şok Buhar",
+      "SteamGlide Plus Çizilmeye Dayanıklı Taban",
+      "Kompakt ve Hafif Tasarım (Güvenli Taşıma Kilidi)",
+      "Smart Calc-Clean Sesli/Işıklı Kireç Temizleme"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2400,
+      "steamOutputGramsPerMin": 120,
+      "steamBoostGramsPerMin": 360,
+      "pressureBar": 6,
+      "waterTankCapacityLiters": 1.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 2.7,
+      "warrantyYears": 2,
+      "color": "Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc6842-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 6949.9,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Compact Essential",
+          "Çok Satan"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2400,
+        "url": "https://www.epey.com/utu/philips-perfectcare-compact-essential-gc6842-30.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 7499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6949.9,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-3000-psg3000-20",
+    "slug": "philips-3000-psg3000-20",
+    "name": "Philips 3000 Serisi PSG3000/20 Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 6010.54,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 390,
+    "image": "/images/appliances/philips-psg3000-20.jpg",
+    "images": [
+      "/images/appliances/philips-psg3000-20.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6.0 Bar Pompa Basıncı & 350g Güçlü Şok Buhar",
+      "Seramik Taban ile Zahmetsiz Kayma",
+      "1.4 Litre Şeffaf Su Haznesi",
+      "Hafif Kompakt Ergonomi"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2400,
+      "steamOutputGramsPerMin": 120,
+      "steamBoostGramsPerMin": 350,
+      "pressureBar": 6,
+      "waterTankCapacityLiters": 1.4,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 2.6,
+      "warrantyYears": 2,
+      "color": "Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-psg3000-20-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 6010.54,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "3000 Serisi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/utu/philips-psg3000-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 6499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6010.54,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-3000-psg3000-30",
+    "slug": "philips-3000-psg3000-30",
+    "name": "Philips 3000 Serisi PSG3000/30 Buhar Kazanlı Ütü (Mor)",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 4799,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 420,
+    "image": "/images/appliances/philips-psg3000-30.png",
+    "images": [
+      "/images/appliances/philips-psg3000-30.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6.0 Bar Basınç & 350g Şok Buhar",
+      "Seramik Çizilmez Taban",
+      "Kompakt Boyut & 1.4L Su Haznesi",
+      "Otomatik Kapanma ve Güvenli Kireç Temizleme"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2400,
+      "steamOutputGramsPerMin": 120,
+      "steamBoostGramsPerMin": 350,
+      "pressureBar": 6,
+      "waterTankCapacityLiters": 1.4,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 2.6,
+      "warrantyYears": 2,
+      "color": "Mor / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-psg3000-30-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 4799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fiyat/Performans",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1500,
+        "url": "https://www.epey.com/utu/philips-3000-psg3000-30.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 5199,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4799,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-s1223-41",
+    "slug": "philips-s1223-41",
+    "name": "Philips Series 1000 S1223/41 Islak & Kuru Döner Başlıklı Tıraş Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 3999,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 88,
+    "reviewCount": 890,
+    "image": "/images/appliances/philips-s1223-41.jpg",
+    "images": [
+      "/images/appliances/philips-s1223-41.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "ComfortCut 3 Yönlü Esnek Döner Bıçaklar",
+      "Aquatec Islak ve Kuru Tıraş Özgürlüğü",
+      "Entegre Açılır Favori ve Bıyık Düzeltici",
+      "40 Dakika Kablosuz Kullanım & Tek Dokunuşla Yıkanabilir Başlık"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Tıraş Makinesi",
+      "batteryRuntimeMin": 40,
+      "chargeTimeHours": 8,
+      "wetDryUsage": true,
+      "bladeMaterial": "ComfortCut Kendiliğinden Bilenen Çelik",
+      "weightKg": 0.28,
+      "warrantyYears": 2,
+      "color": "Koyu Mavi / Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-s1223-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 3999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Islak / Kuru"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/tiras-makinesi/philips-s1223-41.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 4299,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-oneblade-qp2510-11",
+    "slug": "philips-oneblade-qp2510-11",
+    "name": "Philips OneBlade QP2510/11 Hibrit Sakal Şekillendirici",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 3174,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 1450,
+    "image": "/images/appliances/philips-qp2510-11.png",
+    "images": [
+      "/images/appliances/philips-qp2510-11.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "OneBlade Devrim Yaratan Hibrit Kesme Teknolojisi",
+      "2 Farklı Kirli Sakal Tarağı (1, 3 mm)",
+      "30 Dakika Kablosuz Kullanım",
+      "Su Geçirmez Gövde (Kolayca Musluk Altında Temizleme)"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Tıraş & Şekillendirici",
+      "batteryRuntimeMin": 30,
+      "chargeTimeHours": 8,
+      "wetDryUsage": true,
+      "bladeMaterial": "OneBlade Çelik",
+      "weightKg": 0.15,
+      "warrantyYears": 2,
+      "color": "Limon Yeşili / Kömür Grisi"
+    },
+    "storeOffers": [
+      {
+        "id": "so-qp2510-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 3174,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "OneBlade"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4800,
+        "url": "https://www.epey.com/tiras-makinesi/philips-oneblade-qp2510-11.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3399,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3174,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "philips-daily-collection-hd7301-00",
     "slug": "philips-daily-collection-hd7301-00",
     "name": "Philips Daily Collection HD7301/00 Çift Isıtmalı Çay Makinesi",
