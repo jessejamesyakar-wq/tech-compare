@@ -54939,5 +54939,403 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 7820
       }
     ]
+  },
+  {
+    "id": "philips-philips-turbostar-hd962120-airfryer",
+    "slug": "philips-philips-turbostar-hd962120-airfryer",
+    "name": "Philips Turbostar HD9621/20 Airfryer",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-166353.png",
+    "images": [
+      "/images/appliances/philips-166353.png"
+    ],
+    "rating": 4.7,
+    "epeyScore": 87,
+    "reviewCount": 840,
+    "basePrice": 5499,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "TurboStar Teknolojisi ile %90 Daha Az Yağ",
+      "Kompakt Boyut & Kolay Saklama",
+      "QuickClean Çıkarılabilir Sepet"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Fritöz",
+      "TurboStar",
+      "Viva Collection"
+    ],
+    "specs": {
+      "subCategory": "airfryer",
+      "subCategoryLabel": "Viva Collection TurboStar Airfryer",
+      "capacity": "2.2 L (0.8 kg Kapasite)",
+      "powerWatts": 1425,
+      "noiseLevelDb": 55,
+      "weightKg": 5.3,
+      "appControl": false,
+      "programsCount": 1
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 5499,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 5609,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 5444,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 5664,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 5719,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 5004
+      },
+      {
+        "date": "2025-10",
+        "price": 5004
+      },
+      {
+        "date": "2025-11",
+        "price": 5224
+      },
+      {
+        "date": "2025-12",
+        "price": 5224
+      },
+      {
+        "date": "2025-01",
+        "price": 5444
+      },
+      {
+        "date": "2025-02",
+        "price": 5444
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-turbostar-hd964000-airfryer",
+    "slug": "philips-philips-turbostar-hd964000-airfryer",
+    "name": "Philips Turbostar HD9640/00 Airfryer",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-172551.png",
+    "images": [
+      "/images/appliances/philips-172551.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 920,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "TurboStar Teknolojisi: Eşit Sıcak Hava Sirkülasyonu",
+      "QuickControl Çevirmeli Kadran & Dijital Kontrol",
+      "Ön Isıtma Gerektirmeyen Anında Başlatma"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Fritöz",
+      "TurboStar",
+      "Avance Collection",
+      "Dijital"
+    ],
+    "specs": {
+      "subCategory": "airfryer",
+      "subCategoryLabel": "Avance TurboStar Dijital Airfryer",
+      "capacity": "2.2 L (0.8 kg Kapasite)",
+      "powerWatts": 1425,
+      "noiseLevelDb": 55,
+      "weightKg": 5.5,
+      "appControl": false,
+      "programsCount": 4
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 5999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 6119,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 5939,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 6179,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 6239,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 5459
+      },
+      {
+        "date": "2025-10",
+        "price": 5459
+      },
+      {
+        "date": "2025-11",
+        "price": 5699
+      },
+      {
+        "date": "2025-12",
+        "price": 5699
+      },
+      {
+        "date": "2025-01",
+        "price": 5939
+      },
+      {
+        "date": "2025-02",
+        "price": 5939
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-essential-hd921851-airfryer",
+    "slug": "philips-philips-essential-hd921851-airfryer",
+    "name": "Philips Essential HD9218/51 Airfryer",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-801438.png",
+    "images": [
+      "/images/appliances/philips-801438.png"
+    ],
+    "rating": 4.7,
+    "epeyScore": 86,
+    "reviewCount": 760,
+    "basePrice": 4799,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Rapid Air Teknolojisi ile Sağlıklı ve Çıtır Kızartmalar",
+      "Analog Zaman ve Sıcaklık Ayar Düğmeleri",
+      "Bulaşık Makinesinde Yıkanabilir Parçalar"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Fritöz",
+      "Essential",
+      "Daily Collection",
+      "Kompakt"
+    ],
+    "specs": {
+      "subCategory": "airfryer",
+      "subCategoryLabel": "Essential Daily Collection Airfryer",
+      "capacity": "2.2 L (0.8 kg Kapasite)",
+      "powerWatts": 1425,
+      "noiseLevelDb": 55,
+      "weightKg": 4.8,
+      "appControl": false,
+      "programsCount": 1
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 4799,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 4895,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 4751,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 4943,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 4991,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 4367
+      },
+      {
+        "date": "2025-10",
+        "price": 4367
+      },
+      {
+        "date": "2025-11",
+        "price": 4559
+      },
+      {
+        "date": "2025-12",
+        "price": 4559
+      },
+      {
+        "date": "2025-01",
+        "price": 4751
+      },
+      {
+        "date": "2025-02",
+        "price": 4751
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-hd610370",
+    "slug": "philips-philips-hd610370",
+    "name": "Philips HD6103/70",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-130795.jpg",
+    "images": [
+      "/images/appliances/philips-130795.jpg"
+    ],
+    "rating": 4.4,
+    "epeyScore": 76,
+    "reviewCount": 380,
+    "basePrice": 2899,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Geleneksel Derin Yağda Hızlı ve Çıtır Kızartma",
+      "Cool Wall Soğuk Gövde Teknolojisi ile Güvenli Kullanım",
+      "Geniş Yağ Haznesi ve Kolay Temizleme"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Fritöz",
+      "Geleneksel Fritöz",
+      "Yağlı Fritöz"
+    ],
+    "specs": {
+      "subCategory": "airfryer",
+      "subCategoryLabel": "Geleneksel Yağlı Fritöz",
+      "capacity": "2.0 L Yağ / 1.1 kg",
+      "powerWatts": 2000,
+      "noiseLevelDb": 55,
+      "weightKg": 3.5,
+      "appControl": false,
+      "programsCount": 1
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 2899,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 2957,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 2870,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 2986,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 3015,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 2638
+      },
+      {
+        "date": "2025-10",
+        "price": 2638
+      },
+      {
+        "date": "2025-11",
+        "price": 2754
+      },
+      {
+        "date": "2025-12",
+        "price": 2754
+      },
+      {
+        "date": "2025-01",
+        "price": 2870
+      },
+      {
+        "date": "2025-02",
+        "price": 2870
+      }
+    ]
   }
 ];
