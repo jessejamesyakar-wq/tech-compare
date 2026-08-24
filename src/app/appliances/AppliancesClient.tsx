@@ -51,16 +51,19 @@ interface SectorPillar {
 const SECTOR_PILLARS: SectorPillar[] = [
   {
     id: 'floorcare',
-    name: '1. Zemin & Hijyen',
+    name: '1. Zemin & Ev Hijyeni',
     shortName: 'Zemin & Hijyen',
     icon: Wind,
-    badge: 'Akıllı Robotik & HEPA',
-    description: 'Robot süpürgeler, dikey şarjlı süpürgeler ve hava temizleme',
+    badge: 'Robotik & HEPA Filtre',
+    description: 'Robot süpürgeler, dikey şarjlı süpürgeler, halı yıkama ve buharlı temizlik',
     bannerImage: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=400&q=80',
     subCats: [
       { id: 'robot_vacuum', label: 'Robot Süpürgeler', icon: Wifi },
-      { id: 'stick_vacuum', label: 'Dikey Süpürgeler', icon: Zap },
-      { id: 'air_purifier', label: 'Hava Temizleyiciler', icon: Wind }
+      { id: 'stick_vacuum', label: 'Dikey & Şarjlı Süpürgeler', icon: Zap },
+      { id: 'canister_vacuum', label: 'Klasik Toz Torbasız Süpürge', icon: Layers },
+      { id: 'carpet_cleaner', label: 'Halı Yıkama Makineleri', icon: Sparkles },
+      { id: 'steam_cleaner', label: 'Buharlı Temizleyiciler', icon: Wind },
+      { id: 'window_robot', label: 'Cam Silme Robotları', icon: Sparkle }
     ]
   },
   {
@@ -69,26 +72,37 @@ const SECTOR_PILLARS: SectorPillar[] = [
     shortName: 'Mutfak & Gastronomi',
     icon: UtensilsCrossed,
     badge: 'Airfryer & Barista',
-    description: 'Sıcak hava fritözleri, tam otomatik espresso ve mutfak robotları',
+    description: 'Airfryer, espresso, mutfak robotu, tost, çay ve çok amaçlı pişiriciler',
     bannerImage: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=400&q=80',
     subCats: [
-      { id: 'airfryer', label: 'Airfryer & Fritöz', icon: Flame },
-      { id: 'coffee_machine', label: 'Kahve Makineleri', icon: Coffee },
-      { id: 'blender', label: 'Mutfak Şefi & Blender', icon: Layers },
-      { id: 'tea_maker', label: 'Çay & Su Isıtıcı', icon: Zap },
-      { id: 'toaster', label: 'Tost & Izgara', icon: Flame }
+      { id: 'airfryer', label: 'Airfryer & Sıcak Hava Fritözleri', icon: Flame },
+      { id: 'coffee_machine', label: 'Kahve & Espresso Makineleri', icon: Coffee },
+      { id: 'tea_maker', label: 'Çay Makinesi & Su Isıtıcı', icon: Zap },
+      { id: 'toaster', label: 'Tost Makinesi & Izgara', icon: Flame },
+      { id: 'blender', label: 'Mutfak Şefi, Blender & Mikser', icon: Layers },
+      { id: 'chopper', label: 'Rondo & Mutfak Robotu', icon: UtensilsCrossed },
+      { id: 'multi_cooker', label: 'Çok Amaçlı Pişirici & Düdüklü', icon: Flame },
+      { id: 'juicer', label: 'Katı Meyve & Narenciye Sıkacağı', icon: Wind },
+      { id: 'bread_maker', label: 'Ekmek, Yoğurt & Dondurma', icon: Sparkle },
+      { id: 'meat_grinder', label: 'Kıyma & Vakum Makineleri', icon: ShieldCheck },
+      { id: 'kitchen_scale', label: 'Mutfak Terazisi & Termos', icon: Layers }
     ]
   },
   {
     id: 'climate',
-    name: '3. İklimlendirme & Hava',
+    name: '3. Isıtma, Soğutma & İklim',
     shortName: 'İklimlendirme',
     icon: Fan,
-    badge: 'Konfor & Nem Dengesi',
-    description: 'Hava temizleme, nemlendiriciler ve oda iklimlendirme',
+    badge: 'Inverter & Hava Kalitesi',
+    description: 'Klimalar, HEPA hava temizleyiciler, vantilatörler ve akıllı termostatlar',
     bannerImage: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=400&q=80',
     subCats: [
-      { id: 'air_purifier', label: 'Hava Temizleyiciler', icon: Wind }
+      { id: 'air_conditioner', label: 'Klimalar (Duvar & Salon Tipi)', icon: Wind },
+      { id: 'air_purifier', label: 'Hava Temizleyiciler & HEPA', icon: ShieldCheck },
+      { id: 'fan', label: 'Vantilatör & Kule Sirkülatör', icon: Fan },
+      { id: 'humidifier', label: 'Nemlendirici & Nem Alma Cihazı', icon: Wind },
+      { id: 'heater', label: 'Kombi, Şofben & Isıtıcılar', icon: Flame },
+      { id: 'thermostat', label: 'Akıllı Oda Termostatları', icon: Zap }
     ]
   },
   {
@@ -97,22 +111,54 @@ const SECTOR_PILLARS: SectorPillar[] = [
     shortName: 'Kişisel Bakım',
     icon: Scissors,
     badge: 'SenseIQ & İyonik Bakım',
-    description: 'Tıraş makineleri, saç şekillendirme ve elektrikli diş fırçaları',
+    description: 'Tıraş, saç şekillendirme, IPL lazer, elektrikli diş fırçası ve tartılar',
     bannerImage: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=400&q=80',
     subCats: [
-      { id: 'personal_care', label: 'Tıraş & Saç Şekillendirme', icon: Scissors }
+      { id: 'personal_care', label: 'Tıraş Makineleri & OneBlade', icon: Scissors },
+      { id: 'hair_styling', label: 'Saç Kurutma & Şekillendirici', icon: Wind },
+      { id: 'hair_straightener', label: 'Saç Düzleştirici & Maşa', icon: Sparkle },
+      { id: 'ipl_epilator', label: 'IPL Lazer & Epilasyon', icon: Zap },
+      { id: 'electric_toothbrush', label: 'Elektrikli Diş Fırçası & Ağız Duşu', icon: Sparkles },
+      { id: 'smart_scale', label: 'Akıllı Tartı & Vücut Analizi', icon: Layers },
+      { id: 'massage_gun', label: 'Masaj Tabancası & Sağlık', icon: ShieldCheck }
     ]
   },
   {
-    id: 'smart_home',
-    name: '5. Giysi & Akıllı Ev',
+    id: 'major_appliances',
+    name: '5. Beyaz Eşya & Ankastre',
+    shortName: 'Beyaz Eşya',
+    icon: Layers,
+    badge: 'A+++ Tasarruf & Ankastre',
+    description: 'Bulaşık, çamaşır, kurutma, buzdolabı, fırın, ocak ve davlumbaz',
+    bannerImage: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=400&q=80',
+    subCats: [
+      { id: 'dishwasher', label: 'Bulaşık Makineleri', icon: Sparkles },
+      { id: 'washing_machine', label: 'Çamaşır Makineleri', icon: Layers },
+      { id: 'dryer', label: 'Kurutma Makineleri', icon: Wind },
+      { id: 'refrigerator', label: 'Buzdolabı & Dondurucular', icon: Wind },
+      { id: 'built_in_set', label: 'Ankastre Set, Ocak & Fırın', icon: Flame },
+      { id: 'microwave', label: 'Mikrodalga & Mini Fırınlar', icon: Zap },
+      { id: 'range_hood', label: 'Davlumbaz ve Aspiratör', icon: Fan },
+      { id: 'water_dispenser', label: 'Su Sebili & Su Arıtma', icon: Sparkle }
+    ]
+  },
+  {
+    id: 'smart_home_tools',
+    name: '6. Giysi, Yapı Market & Akıllı Ev',
     shortName: 'Giysi & Akıllı Ev',
     icon: Shirt,
     badge: 'Buhar Gücü & Enerji',
-    description: 'Buhar kazanlı ütüler, kumaş bakımı ve akıllı ev çözümleri',
+    description: 'Buhar kazanlı ütüler, güç istasyonları, akıllı kilit/priz ve yapı aletleri',
     bannerImage: 'https://images.unsplash.com/photo-1582735689369-4fe89db7114c?auto=format&fit=crop&w=400&q=80',
     subCats: [
-      { id: 'iron', label: 'Buharlı Ütüler', icon: Wind }
+      { id: 'iron', label: 'Buhar Kazanlı & Buharlı Ütüler', icon: Wind },
+      { id: 'garment_steamer', label: 'Dikey Kırışık Gidericiler', icon: Shirt },
+      { id: 'sewing_machine', label: 'Dikiş Makineleri', icon: Scissors },
+      { id: 'power_station', label: 'Taşınabilir Güç İstasyonu & Jeneratör', icon: Zap },
+      { id: 'smart_plug', label: 'Akıllı Priz, Akıllı Kilit & Güvenlik', icon: ShieldCheck },
+      { id: 'drill', label: 'Matkap, Vidalama & Testere', icon: Layers },
+      { id: 'pressure_washer', label: 'Basınçlı Yıkama & Çim Biçme', icon: Wind },
+      { id: 'laser_measure', label: 'Lazer Metre & Multimetre', icon: Sparkle }
     ]
   }
 ];
@@ -121,14 +167,21 @@ const ALL_SUB_CATEGORIES = [
   { id: 'all', label: 'Tüm Ürünler' },
   { id: 'robot_vacuum', label: 'Robot Süpürgeler' },
   { id: 'stick_vacuum', label: 'Dikey Süpürgeler' },
-  { id: 'personal_care', label: 'Kişisel Bakım' },
-  { id: 'air_purifier', label: 'Hava Temizleyiciler' },
   { id: 'airfryer', label: 'Airfryer & Fritöz' },
   { id: 'coffee_machine', label: 'Kahve Makineleri' },
+  { id: 'personal_care', label: 'Kişisel Bakım' },
+  { id: 'air_purifier', label: 'Hava Temizleyiciler' },
   { id: 'blender', label: 'Mutfak Şefi & Blender' },
   { id: 'iron', label: 'Buharlı Ütüler' },
   { id: 'tea_maker', label: 'Çay & Su Isıtıcı' },
-  { id: 'toaster', label: 'Tost & Izgara' }
+  { id: 'toaster', label: 'Tost & Izgara' },
+  { id: 'dishwasher', label: 'Bulaşık Makineleri' },
+  { id: 'washing_machine', label: 'Çamaşır Makineleri' },
+  { id: 'refrigerator', label: 'Buzdolapları' },
+  { id: 'built_in_set', label: 'Ankastre Set & Fırın' },
+  { id: 'air_conditioner', label: 'Klimalar' },
+  { id: 'power_station', label: 'Güç İstasyonu & Jeneratör' },
+  { id: 'smart_plug', label: 'Akıllı Ev & Priz' }
 ];
 
 const ITEMS_PER_PAGE = 24;
@@ -270,7 +323,7 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
       {/* 🌟 2. LUXURY 5-PILLAR MEGA SECTOR HUB (WITH HOVER MEGA FLYOUT) */}
       <div className="relative z-30">
         <div className="bg-white/90 backdrop-blur-md border border-slate-200/90 rounded-3xl p-3 sm:p-4 shadow-sm">
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2 sm:gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-3">
             {SECTOR_PILLARS.map((sector) => {
               const Icon = sector.icon;
               const isActive = activeSector === sector.id;
