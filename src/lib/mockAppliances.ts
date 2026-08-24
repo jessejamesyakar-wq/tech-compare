@@ -2,6 +2,661 @@ import { ApplianceProduct } from './types';
 
 export const mockAppliances: ApplianceProduct[] = [
   {
+    "id": "philips-hd9350-90",
+    "slug": "philips-hd9350-90",
+    "name": "Philips Daily Collection HD9350/90 1.7L Paslanmaz Çelik Su Isıtıcı (Kettle)",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 1910,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 2800,
+    "image": "/images/appliances/philips-hd9350-90.jpg",
+    "images": [
+      "/images/appliances/philips-hd9350-90.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "2200 Watt Güç ile Ekstra Hızlı Kaynatma",
+      "1.7 Litre Geniş Paslanmaz Çelik Dayanıklı Gövde",
+      "Mikro Gözenekli Çıkarılabilir Kireç Filtresi",
+      "Yaylı Yay Kapak ve Işıklı Güç Göstergesi"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Su Isıtıcı",
+      "powerWatts": 2200,
+      "capacityLiters": 1.7,
+      "waterTankCapacityLiters": 1.7,
+      "dishwasherSafeParts": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 1.1,
+      "warrantyYears": 2,
+      "color": "Fırçalanmış Paslanmaz Çelik"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hd9350-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 1910,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En Çok Satan Su Isıtıcı",
+          "Çelik Gövde"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 9200,
+        "url": "https://www.epey.com/su-isiticisi/philips-hd9350-90.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 2099,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1910,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-hd2637-10",
+    "slug": "philips-hd2637-10",
+    "name": "Philips Viva Collection HD2637/10 2 Dilimli Ekmek Kızartma Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 3015.29,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 750,
+    "image": "/images/appliances/philips-hd2637-10.jpg",
+    "images": [
+      "/images/appliances/philips-hd2637-10.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "950 Watt Güç & %10 Geniş Ekmek Yuvaları (İnce/Kalın Dilimler)",
+      "7 Kademeli Ayarlanabilir Kızartma Kontrolü",
+      "Entegre Çörek ve Poğaça Isıtma Rafı",
+      "Çıkarılabilir Kırıntı Tepsisi ile Kolay Temizlik"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Ekmek Kızartma Makinesi",
+      "powerWatts": 950,
+      "programsCount": 7,
+      "dishwasherSafeParts": true,
+      "autoShutOff": true,
+      "weightKg": 1.5,
+      "warrantyYears": 2,
+      "color": "Metalik Gri / Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hd2637-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 3015.29,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Viva Collection",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1400,
+        "url": "https://www.epey.com/ekmek-kizartma-makinesi/philips-hd2637-10.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3299,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3015.29,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-performer-gc8717-20",
+    "slug": "philips-perfectcare-performer-gc8717-20",
+    "name": "Philips PerfectCare Performer GC8717/20 Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 19999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 310,
+    "image": "/images/appliances/philips-gc8717-20.png",
+    "images": [
+      "/images/appliances/philips-gc8717-20.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.0 Bar Basınç & 330g Şok Buhar",
+      "SteamGlide Plus Çizilmeye Dirençli Taban",
+      "1.8 Litre Çıkarılabilir Su Deposu",
+      "Sıfır Yanık Riski (OptimalTEMP)"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2600,
+      "steamOutputGramsPerMin": 120,
+      "steamBoostGramsPerMin": 330,
+      "pressureBar": 6,
+      "waterTankCapacityLiters": 1.8,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 3.2,
+      "warrantyYears": 2,
+      "color": "Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc8717-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 19999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Performer 6.0 Bar"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 590,
+        "url": "https://www.epey.com/utu/philips-perfectcare-performer-gc8717-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 21200,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-compact-essential-gc6815-20",
+    "slug": "philips-perfectcare-compact-essential-gc6815-20",
+    "name": "Philips PerfectCare Compact Essential GC6815/20 Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 8250,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 520,
+    "image": "/images/appliances/philips-gc6815-20.png",
+    "images": [
+      "/images/appliances/philips-gc6815-20.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6.0 Bar Pompa Basıncı & 360g Şok Buhar",
+      "SteamGlide Plus Kaygan Taban",
+      "Kompakt ve Hafif Tasarım (Taşıma Kilidi ile Güvenli)",
+      "Smart Calc-Clean ile Kolay Kireç Temizliği"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2400,
+      "steamOutputGramsPerMin": 120,
+      "steamBoostGramsPerMin": 360,
+      "pressureBar": 6,
+      "waterTankCapacityLiters": 1.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 2.7,
+      "warrantyYears": 2,
+      "color": "Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc6815-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 8250,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Compact Essential"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1900,
+        "url": "https://www.epey.com/utu/philips-perfectcare-compact-essential-gc6815-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 8899,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8250,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-2000-psg2000-20",
+    "slug": "philips-2000-psg2000-20",
+    "name": "Philips 2000 Serisi PSG2000/20 Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 4415,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 88,
+    "reviewCount": 680,
+    "image": "/images/appliances/philips-psg2000-20.jpg",
+    "images": [
+      "/images/appliances/philips-psg2000-20.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6.0 Bar Basınç & 300g Şok Buhar",
+      "Seramik Taban ile Zahmetsiz Kayma",
+      "1.4 Litre Geniş Su Tankı",
+      "Kompakt Boyut & Akıllı Kireç Temizliği"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2400,
+      "steamOutputGramsPerMin": 110,
+      "steamBoostGramsPerMin": 300,
+      "pressureBar": 6,
+      "waterTankCapacityLiters": 1.4,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 2.5,
+      "warrantyYears": 2,
+      "color": "Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-psg2000-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 4415,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "2000 Serisi F/P",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/utu/philips-2000-psg2000-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 4799,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4415,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-drycare-advanced-hp8233-00",
+    "slug": "philips-drycare-advanced-hp8233-00",
+    "name": "Philips DryCare Advanced HP8233/00 2200W İyonik Saç Kurutma Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 12960,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 420,
+    "image": "/images/appliances/philips-hp8233-00.png",
+    "images": [
+      "/images/appliances/philips-hp8233-00.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "2200 Watt Profesyonel Üfleme Gücü",
+      "ThermoProtect Sıcaklık Koruması ile Saçı Yıpratmadan Kurutma",
+      "2 Kat Daha Fazla İyonik Bakım ile Elektriklenmeyen Parlak Saçlar",
+      "Masaj Başlığı ve 11 mm Şekillendirici Dar Başlık Dahil"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Saç Kurutma Makinesi",
+      "powerWatts": 2200,
+      "programsCount": 6,
+      "weightKg": 0.65,
+      "warrantyYears": 2,
+      "color": "Mor / Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hp8233-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 12960,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "ThermoProtect",
+          "İyonik Bakım"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 920,
+        "url": "https://www.epey.com/sac-kurutma-makinesi/philips-drycare-advanced-hp8233-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 13999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12960,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-bhd510-00",
+    "slug": "philips-bhd510-00",
+    "name": "Philips 5000 Serisi BHD510/00 2300W ThermoShield İyonik Saç Kurutma Makinesi (Siyah)",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 2939.2,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 3400,
+    "image": "/images/appliances/philips-bhd510-00.png",
+    "images": [
+      "/images/appliances/philips-bhd510-00.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "2300 Watt Güçlü DC Motor & 110 km/s Hava Hızı",
+      "ThermoShield Sensörü ile Aşırı Isınmayı Engelleyen Sıcaklık Kontrolü",
+      "Seans Başına 40 Milyon İyon ile Ekstra Parlaklık",
+      "Dar Şekillendirme Başlığı ve Difüzör Hacim Başlığı Dahil"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Saç Kurutma Makinesi",
+      "powerWatts": 2300,
+      "programsCount": 6,
+      "weightKg": 0.6,
+      "warrantyYears": 2,
+      "color": "Metalik Koyu Gri / Mavi"
+    },
+    "storeOffers": [
+      {
+        "id": "so-bhd510-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 2939.2,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En Çok Satan",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 8800,
+        "url": "https://www.epey.com/sac-kurutma-makinesi/philips-bhd510-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3199,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2939.2,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-bodygroom-bg1024-16",
+    "slug": "philips-bodygroom-bg1024-16",
+    "name": "Philips Bodygroom Series 1000 BG1024/16 Vücut Tıraş Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 3033.67,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 89,
+    "reviewCount": 620,
+    "image": "/images/appliances/philips-bg1024-16.jpg",
+    "images": [
+      "/images/appliances/philips-bg1024-16.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Hassas Bölgeler İçin Özel Cilt Koruma Sistemi (0.5 mm Kesim)",
+      "Çift Yönlü Düzeltici ve 3 mm Geçmeli Vücut Tarağı",
+      "%100 Su Geçirmez (Duşta Kullanıma ve Yıkanmaya Uygun)",
+      "1 Adet AA Pil ile 2 Aya Kadar Uzun Kullanım"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Vücut Tıraş Makinesi",
+      "batteryRuntimeMin": 60,
+      "wetDryUsage": true,
+      "bladeMaterial": "Cilt Koruyucu Çelik Bıçaklar",
+      "weightKg": 0.15,
+      "warrantyYears": 2,
+      "color": "Mavi / Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-bg1024-16-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 3033.67,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Bodygroom 1000"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/tiras-makinesi/philips-bodygroom-bg1024-16.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3250,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3033.67,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-qp2520-30",
+    "slug": "philips-qp2520-30",
+    "name": "Philips OneBlade QP2520/30 Hibrit Sakal Şekillendirici & Yedek Bıçak Seti",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 2759.08,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 1890,
+    "image": "/images/appliances/philips-qp2520-30.jpg",
+    "images": [
+      "/images/appliances/philips-qp2520-30.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "OneBlade Çift Yönlü Kesici Bıçak Teknolojisi",
+      "3 Farklı Kirli Sakal Tarağı (1, 3, 5 mm) + Ekstra Yedek Bıçak",
+      "45 Dakika Kablosuz Çalışma Süresi",
+      "Islak veya Kuru Tıraş Özgürlüğü"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Tıraş & Şekillendirici",
+      "batteryRuntimeMin": 45,
+      "chargeTimeHours": 8,
+      "wetDryUsage": true,
+      "bladeMaterial": "OneBlade Çelik",
+      "weightKg": 0.16,
+      "warrantyYears": 2,
+      "color": "Limon Yeşili / Kömür Grisi"
+    },
+    "storeOffers": [
+      {
+        "id": "so-qp2520-30-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 2759.08,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yedek Bıçaklı Set",
+          "Çok Satan"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 6400,
+        "url": "https://www.epey.com/tiras-makinesi/philips-qp2520-30.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 2999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2759.08,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-bodygroom-bg1024-15",
+    "slug": "philips-bodygroom-bg1024-15",
+    "name": "Philips Bodygroom Series 1000 BG1024/15 Duş Tipi Vücut Tıraş Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 1426.3,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 4200,
+    "image": "/images/appliances/philips-bg1024-15.jpg",
+    "images": [
+      "/images/appliances/philips-bg1024-15.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Eşsiz Cilt Koruma Sistemi ile Sıfır Kesik ve Tahriş",
+      "Çift Yönlü Düzeltme & 3 mm Vücut Tarağı",
+      "%100 Su Geçirmez (Duş Askı İpi Dahil)",
+      "AA Pil ile Pratik Kablosuz Kullanım"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Vücut Tıraş Makinesi",
+      "batteryRuntimeMin": 60,
+      "wetDryUsage": true,
+      "bladeMaterial": "Cilt Koruyucu Bıçaklar",
+      "weightKg": 0.15,
+      "warrantyYears": 2,
+      "color": "Siyah / Kırmızı Çizgi"
+    },
+    "storeOffers": [
+      {
+        "id": "so-bg1024-15-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 1426.3,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En Çok Satan Bodygroom",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 14500,
+        "url": "https://www.epey.com/tiras-makinesi/philips-bodygroom-bg1024-15.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1599,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1426.3,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "philips-perfectcare-aqua-pro-gc9325-30",
     "slug": "philips-perfectcare-aqua-pro-gc9325-30",
     "name": "Philips PerfectCare Aqua Pro GC9325/30 Buhar Kazanlı Ütü",

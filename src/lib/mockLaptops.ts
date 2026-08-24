@@ -2,6 +2,1453 @@ import { LaptopProduct } from './types';
 
 export const mockLaptops: LaptopProduct[] = [
   {
+    "id": "philips-27m1c5500vl-00",
+    "slug": "philips-27m1c5500vl-00",
+    "name": "Philips Evnia 27M1C5500VL/00 27\" 165Hz 1ms QHD 1500R Curved Espor Monitörü",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 97400,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 96,
+    "reviewCount": 35,
+    "image": "/images/laptops/philips-27m1c5500vl.jpg",
+    "images": [
+      "/images/laptops/philips-27m1c5500vl.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "27 İnç 1500R Kavisli QHD (2560 x 1440) Fast VA Espor Panel",
+      "165 Hz Tazeleme Hızı & 1 ms MPRT / 4 ms GtG",
+      "HDR10 & Ultra Wide-Color Geniş Renk Gamı (sRGB %126)",
+      "SmartImage Espor Modları ve SmartCrosshair"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "Fast VA 165Hz 2K Curved Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "165Hz QHD Fast VA Engine",
+      "screenSizeInches": 27,
+      "screenResolution": "2560 x 1440 (QHD 2K)",
+      "colorGamut": "sRGB 126%, NTSC 102%",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Ses Çıkışı"
+      ],
+      "weightKg": 5.6,
+      "bodyMaterial": "Evnia 1500R Curved Espor Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-27m1c5500vl-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 97400,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "165Hz QHD Curved"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 120,
+        "url": "https://www.epey.com/monitor/philips-27m1c5500vl-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 99999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 97400,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-276e8vjsb-00",
+    "slug": "philips-276e8vjsb-00",
+    "name": "Philips 276E8VJSB/00 27\" 4K UHD Profesyonel IPS Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 52748.75,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 42,
+    "image": "/images/laptops/philips-276e8vjsb-00.jpg",
+    "images": [
+      "/images/laptops/philips-276e8vjsb-00.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "27 İnç 4K Ultra HD (3840 x 2160) Canlı IPS Panel",
+      "1.07 Milyar Renk (10-Bit Renk Derinliği)",
+      "MultiView ile Aynı Anda İki Cihaz Görüntüleme",
+      "Flicker-Free ve LowBlue Modu ile Göz Koruması"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "4K UHD IPS 10-Bit Pro Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "4K 60Hz IPS Engine",
+      "screenSizeInches": 27,
+      "screenResolution": "3840 x 2160 (4K UHD)",
+      "colorGamut": "sRGB 109%, NTSC 91%",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.2",
+        "Ses Çıkışı"
+      ],
+      "weightKg": 4.8,
+      "bodyMaterial": "İnce Çerçeveli Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-276e8vjsb-00-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 52748.75,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "4K IPS 10-Bit"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 180,
+        "url": "https://www.epey.com/monitor/philips-276e8vjsb-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 54999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 52748.75,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-242b1v-00",
+    "slug": "philips-242b1v-00",
+    "name": "Philips 242B1V/00 23.8\" Gizlilik Filtreli (Privacy Mode) FHD IPS Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 42893.1,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 38,
+    "image": "/images/laptops/philips-242b1v.jpg",
+    "images": [
+      "/images/laptops/philips-242b1v.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "23.8 İnç Full HD IPS Panel & Dahili Philips Privacy Mode (Gizlilik Kalkanı)",
+      "Tek Tuşla Yan Açılardan Ekranın Görünmesini Engelleyen Özel Güvenlik",
+      "PowerSensor Enerji Tasarrufu & Dahili Stereo Hoparlörler",
+      "SmartErgoBase Tam Pivot Stand"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "FHD IPS Privacy Security Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "75Hz FHD IPS Privacy Engine",
+      "screenSizeInches": 23.8,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 106%, NTSC 87%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x DisplayPort 1.2",
+        "1x DVI-D",
+        "1x VGA",
+        "USB 3.2 Hub",
+        "Hoparlör"
+      ],
+      "weightKg": 5.4,
+      "bodyMaterial": "Gizlilik Kalkanlı Pivot Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-242b1v-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 42893.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Philips Privacy Mode",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 150,
+        "url": "https://www.epey.com/monitor/philips-242b1v-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 44999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 42893.1,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-evnia-27m1n3200zs-00",
+    "slug": "philips-evnia-27m1n3200zs-00",
+    "name": "Philips Evnia 27M1N3200ZS/00 27\" 165Hz 1ms IPS Gaming Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 31008.75,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 48,
+    "image": "/images/laptops/philips-evnia-27m1n3200zs.jpg",
+    "images": [
+      "/images/laptops/philips-evnia-27m1n3200zs.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "27 İnç Full HD (1920 x 1080) 165 Hz IPS Espor Panel",
+      "1 ms MPRT / 4 ms GtG & AMD FreeSync Premium Akıcılığı",
+      "Ultra Wide-Color Canlı Renk Skalası (sRGB %122)",
+      "SmartImage Espor Modları ve Kompakt Stand"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "IPS 165Hz FHD Gaming Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "165Hz FHD IPS Engine",
+      "screenSizeInches": 27,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 122%, NTSC 107%",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.2",
+        "Ses Çıkışı"
+      ],
+      "weightKg": 5.1,
+      "bodyMaterial": "Evnia Espor Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-27m1n3200zs-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 31008.75,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "165Hz IPS Espor"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.epey.com/monitor/philips-evnia-27m1n3200zs-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 32500,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 31008.75,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-241b8qjeb-00",
+    "slug": "philips-241b8qjeb-00",
+    "name": "Philips 241B8QJEB/00 23.8\" FHD IPS Pivot Ergonomik Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 12000,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 65,
+    "image": "/images/laptops/philips-241b8qjeb-00.jpg",
+    "images": [
+      "/images/laptops/philips-241b8qjeb-00.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "23.8 İnç Full HD (1920 x 1080) IPS Panel",
+      "SmartErgoBase Tam Pivot ve Yükseklik Ayarlı Stand",
+      "Dahili Stereo Hoparlörler & USB 3.0 Hub",
+      "Flicker-Free ve LowBlue Modu ile Göz Koruması"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "FHD IPS 60Hz Ergonomic Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "60Hz FHD IPS Engine",
+      "screenSizeInches": 23.8,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 104%, NTSC 89%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x DisplayPort 1.2",
+        "1x DVI-D",
+        "1x VGA",
+        "USB 3.0 Hub",
+        "Hoparlör"
+      ],
+      "weightKg": 5,
+      "bodyMaterial": "Pivot Ofis Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-241b8qjeb-00-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 12000,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ergonomik Pivot"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 190,
+        "url": "https://www.epey.com/monitor/philips-241b8qjeb-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 12800,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12000,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-27e1n1300ae-00",
+    "slug": "philips-27e1n1300ae-00",
+    "name": "Philips 27E1N1300AE/00 27\" 100Hz 65W USB-C Ergonomik IPS Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 11101.86,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 95,
+    "image": "/images/laptops/philips-27e1n1300ae.jpg",
+    "images": [
+      "/images/laptops/philips-27e1n1300ae.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "27 İnç Full HD (1920 x 1080) 100 Hz Akıcı IPS Panel",
+      "65W USB-C Tek Kablo Bağlantı ve Dahili Stereo Hoparlörler",
+      "1 ms MPRT Hızlı Tepki & Adaptive-Sync",
+      "Yükseklik Ayarlı Ergonomik Stand"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "100Hz FHD IPS 65W USB-C Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "100Hz FHD IPS Engine",
+      "screenSizeInches": 27,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 109%, NTSC 93%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x USB-C (65W PD)",
+        "USB 3.2 Hub",
+        "Hoparlör"
+      ],
+      "weightKg": 5.2,
+      "bodyMaterial": "Ergonomik Yükseklik Ayarlı Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-27e1n1300ae-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 11101.86,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "100Hz 65W Type-C",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 480,
+        "url": "https://www.epey.com/monitor/philips-27e1n1300ae-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 11899,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11101.86,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-242b1h-00",
+    "slug": "philips-242b1h-00",
+    "name": "Philips 242B1H/00 23.8\" 75Hz Windows Hello Pop-up Kameralı IPS Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 11059.7,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 84,
+    "image": "/images/laptops/philips-242b1h.jpg",
+    "images": [
+      "/images/laptops/philips-242b1h.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "23.8 İnç Full HD IPS Panel & Windows Hello Yüz Tanımalı Pop-up Güvenlik Kamerası",
+      "PowerSensor ve LightSensor Akıllı Parlaklık Kontrolü",
+      "Dahili Stereo Hoparlörler & SmartErgoBase Tam Pivot Stand",
+      "Flicker-Free ve LowBlue Modu ile Göz Koruması"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "FHD IPS Windows Hello Cam Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "75Hz FHD IPS Engine",
+      "screenSizeInches": 23.8,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 102%, NTSC 85%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x DisplayPort 1.2",
+        "1x DVI-D",
+        "1x VGA",
+        "USB 3.2 Hub",
+        "Webcam",
+        "Hoparlör"
+      ],
+      "weightKg": 5.2,
+      "bodyMaterial": "Kameralı Ergonomik Pivot Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-242b1h-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 11059.7,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Windows Hello Web Kamera"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "https://www.epey.com/monitor/philips-242b1h-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 11799,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11059.7,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-27m1n3500ls-00",
+    "slug": "philips-27m1n3500ls-00",
+    "name": "Philips Momentum 27M1N3500LS/00 27\" 165Hz 1ms QHD 1500R Curved VA Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 10999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 160,
+    "image": "/images/laptops/philips-27m1n3500ls.jpg",
+    "images": [
+      "/images/laptops/philips-27m1n3500ls.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "27 İnç 1500R Kavisli QHD (2560 x 1440) VA Espor Panel",
+      "165 Hz Yüksek Tazeleme & 1 ms MPRT / 4 ms GtG",
+      "HDR10 & Dahili Stereo Hoparlörler",
+      "SmartImage Espor Modları ve AMD FreeSync Premium"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "165Hz QHD VA Curved Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "165Hz QHD Fast VA Engine",
+      "screenSizeInches": 27,
+      "screenResolution": "2560 x 1440 (QHD 2K)",
+      "colorGamut": "sRGB 126%, NTSC 102%",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Hoparlör"
+      ],
+      "weightKg": 5.5,
+      "bodyMaterial": "1500R Curved Espor Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-27m1n3500ls-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 10999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "165Hz QHD Curved Fırsat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/monitor/philips-27m1n3500ls-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 11799,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 10999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-272s1m-00",
+    "slug": "philips-272s1m-00",
+    "name": "Philips 272S1M/00 27\" 75Hz FHD IPS Dahili Hoparlörlü Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 9925.4,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 78,
+    "image": "/images/laptops/philips-272s1m.jpg",
+    "images": [
+      "/images/laptops/philips-272s1m.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "27 İnç Full HD (1920 x 1080) Canlı IPS Panel",
+      "Dahili Stereo Hoparlörler & USB 3.2 Hub",
+      "Adaptive-Sync ile Akıcı Görseller",
+      "Flicker-Free ve LowBlue Göz Koruması"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "FHD IPS 75Hz Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "75Hz FHD IPS Engine",
+      "screenSizeInches": 27,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 102%, NTSC 85%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x DisplayPort 1.2",
+        "1x DVI-D",
+        "1x VGA",
+        "USB 3.2 Hub",
+        "Hoparlör"
+      ],
+      "weightKg": 4.9,
+      "bodyMaterial": "Şık Ofis Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-272s1m-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 9925.4,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Dahili Hoparlör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 310,
+        "url": "https://www.epey.com/monitor/philips-272s1m-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 10499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9925.4,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-241b8qjeb-01",
+    "slug": "philips-241b8qjeb-01",
+    "name": "Philips 241B8QJEB/01 23.8\" FHD IPS Pivot Ergonomik Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 9918.09,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 52,
+    "image": "/images/laptops/philips-241b8qjeb-01.jpg",
+    "images": [
+      "/images/laptops/philips-241b8qjeb-01.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "23.8 İnç Full HD (1920 x 1080) IPS Panel",
+      "SmartErgoBase Tam Pivot Ayarı & Dahili Stereo Hoparlörler",
+      "USB 3.0 Hub ve Zengin Girişler (DP, HDMI, DVI, VGA)",
+      "LowBlue Modu ve Flicker-Free Teknolojisi"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "FHD IPS 60Hz Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "60Hz FHD IPS Engine",
+      "screenSizeInches": 23.8,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 104%, NTSC 89%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x DisplayPort 1.2",
+        "1x DVI-D",
+        "1x VGA",
+        "USB 3.0 Hub",
+        "Hoparlör"
+      ],
+      "weightKg": 5,
+      "bodyMaterial": "Pivot Ofis Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-241b8qjeb-01-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 9918.09,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ergonomik Pivot",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 290,
+        "url": "https://www.epey.com/monitor/philips-241b8qjeb-01.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 10500,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9918.09,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-272s1ae-01",
+    "slug": "philips-272s1ae-01",
+    "name": "Philips 272S1AE/01 27\" 75Hz FHD IPS Ergonomik Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 9348.7,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 64,
+    "image": "/images/laptops/philips-272s1ae-01.jpg",
+    "images": [
+      "/images/laptops/philips-272s1ae-01.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "27 İnç Full HD (1920 x 1080) Canlı IPS Panel",
+      "SmartErgoBase Tam Pivot Stand & Dahili Stereo Hoparlörler",
+      "Adaptive-Sync ile Yırtılmasız Akıcılık",
+      "EasyRead ve LowBlue Göz Koruması"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "FHD IPS 75Hz Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "75Hz FHD IPS Engine",
+      "screenSizeInches": 27,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 102%, NTSC 85%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x DisplayPort 1.2",
+        "1x DVI-D",
+        "Hoparlör"
+      ],
+      "weightKg": 5.1,
+      "bodyMaterial": "Pivot Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-272s1ae-01-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 9348.7,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ergonomik Pivot"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 240,
+        "url": "https://www.epey.com/monitor/philips-272s1ae-01.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 9899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9348.7,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-272s1ae-00",
+    "slug": "philips-272s1ae-00",
+    "name": "Philips 272S1AE/00 27\" 75Hz FHD IPS Ergonomik Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 9272.8,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 72,
+    "image": "/images/laptops/philips-272s1ae-00.jpg",
+    "images": [
+      "/images/laptops/philips-272s1ae-00.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "27 İnç Full HD (1920 x 1080) IPS Panel",
+      "SmartErgoBase Tam Pivot Stand & Dahili Hoparlörler",
+      "Adaptive-Sync & Flicker-Free Teknolojisi",
+      "SmartImage Görüntü Optimizasyonu"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "FHD IPS 75Hz Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "75Hz FHD IPS Engine",
+      "screenSizeInches": 27,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 102%, NTSC 85%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x DisplayPort 1.2",
+        "1x DVI-D",
+        "Hoparlör"
+      ],
+      "weightKg": 5.1,
+      "bodyMaterial": "Pivot Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-272s1ae-00-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 9272.8,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ergonomik Pivot"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 310,
+        "url": "https://www.epey.com/monitor/philips-272s1ae-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 9799,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9272.8,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-27e1n1300a-00",
+    "slug": "philips-27e1n1300a-00",
+    "name": "Philips 27E1N1300A/00 27\" 100Hz 1ms 65W USB-C IPS Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 8599,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 92,
+    "reviewCount": 88,
+    "image": "/images/laptops/philips-27e1n1300a.jpg",
+    "images": [
+      "/images/laptops/philips-27e1n1300a.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "27 İnç Full HD (1920 x 1080) 100 Hz IPS Panel",
+      "65W USB-C Tek Kablo Güç ve Görüntü & Dahili Hoparlörler",
+      "1 ms MPRT Tepki Süresi & Adaptive-Sync",
+      "Ultra İnce Çerçeveli Modern Tasarım"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "100Hz FHD IPS 65W USB-C Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "100Hz FHD IPS Engine",
+      "screenSizeInches": 27,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 109%, NTSC 93%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x USB-C (65W PD)",
+        "Hoparlör"
+      ],
+      "weightKg": 4.8,
+      "bodyMaterial": "İnce Çerçeveli Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-27e1n1300a-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 8599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "100Hz 65W USB-C",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 450,
+        "url": "https://www.epey.com/monitor/philips-27e1n1300a-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 9199,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8599,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-242s9jml-00",
+    "slug": "philips-242s9jml-00",
+    "name": "Philips 242S9JML/00 23.8\" 100Hz FHD 65W USB-C Ergonomik VA Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 8459.9,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 42,
+    "image": "/images/laptops/philips-242s9jml.jpg",
+    "images": [
+      "/images/laptops/philips-242s9jml.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "23.8 İnç Full HD (1920 x 1080) 100 Hz Akıcı VA Panel",
+      "65W USB-C Tek Kablo Bağlantısı ve Dahili Stereo Hoparlörler",
+      "SmartErgoBase Tam Pivot Stand",
+      "Flicker-Free ve LowBlue Modu ile Göz Koruması"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "100Hz FHD VA 65W USB-C Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "100Hz FHD VA Engine",
+      "screenSizeInches": 23.8,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 115%, NTSC 96%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x DisplayPort 1.2",
+        "1x USB-C (65W PD)",
+        "USB 3.2 Hub",
+        "Hoparlör"
+      ],
+      "weightKg": 4.8,
+      "bodyMaterial": "Ergonomik Pivot Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-242s9jml-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 8459.9,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "100Hz 65W USB-C"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 190,
+        "url": "https://www.epey.com/monitor/philips-242s9jml-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 8999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8459.9,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-24e1n1300ae-00",
+    "slug": "philips-24e1n1300ae-00",
+    "name": "Philips 24E1N1300AE/00 23.8\" 100Hz 65W USB-C Ergonomik IPS Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 7952.93,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 130,
+    "image": "/images/laptops/philips-24e1n1300ae.jpg",
+    "images": [
+      "/images/laptops/philips-24e1n1300ae.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "23.8 İnç Full HD (1920 x 1080) 100 Hz IPS Panel",
+      "65W USB-C Tek Kablo ile Güç ve Görüntü & Dahili Stereo Hoparlörler",
+      "1 ms MPRT & Yükseklik Ayarlı Ergonomik Stand",
+      "SmartImage Çoklu Görüntü Optimizasyonu"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "100Hz FHD IPS 65W USB-C Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "100Hz FHD IPS Engine",
+      "screenSizeInches": 23.8,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 109%, NTSC 93%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x USB-C (65W PD)",
+        "USB 3.2 Hub",
+        "Hoparlör"
+      ],
+      "weightKg": 4.3,
+      "bodyMaterial": "Ergonomik Yükseklik Ayarlı Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-24e1n1300ae-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 7952.93,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "100Hz 65W USB-C"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 680,
+        "url": "https://www.epey.com/monitor/philips-24e1n1300ae-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 8499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7952.93,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-27e2n2500-00",
+    "slug": "philips-27e2n2500-00",
+    "name": "Philips 27E2N2500/00 27\" 100Hz 1ms FHD IPS Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 7715.66,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 140,
+    "image": "/images/laptops/philips-27e2n2500.jpg",
+    "images": [
+      "/images/laptops/philips-27e2n2500.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "27 İnç Full HD (1920 x 1080) 100 Hz Canlı IPS Panel",
+      "1 ms MPRT Hızlı Tepki Süresi & Adaptive-Sync",
+      "HDR10 & %100 sRGB Renk Doğruluğu",
+      "Ultra İnce Çerçeveli Modern Tasarım"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "100Hz FHD IPS Display Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "100Hz FHD IPS Engine",
+      "screenSizeInches": 27,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 100%, NTSC 85%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x VGA",
+        "Ses Çıkışı"
+      ],
+      "weightKg": 4.6,
+      "bodyMaterial": "İnce Çerçeveli Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-27e2n2500-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 7715.66,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "100Hz IPS Fırsat",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 920,
+        "url": "https://www.epey.com/monitor/philips-27e2n2500-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 8199,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7715.66,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-242s1ae-00",
+    "slug": "philips-242s1ae-00",
+    "name": "Philips 242S1AE/00 23.8\" 75Hz FHD IPS Ergonomik Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 7708.25,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 160,
+    "image": "/images/laptops/philips-242s1ae.jpg",
+    "images": [
+      "/images/laptops/philips-242s1ae.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "23.8 İnç Full HD (1920 x 1080) IPS Panel",
+      "SmartErgoBase Tam Pivot Stand & Dahili Stereo Hoparlörler",
+      "Adaptive-Sync ile Yırtılmasız Görüntü",
+      "Flicker-Free ve LowBlue Göz Koruması"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "FHD IPS 75Hz Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "75Hz FHD IPS Engine",
+      "screenSizeInches": 23.8,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 102%, NTSC 85%",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x DisplayPort 1.2",
+        "1x DVI-D",
+        "1x VGA",
+        "Hoparlör"
+      ],
+      "weightKg": 4.4,
+      "bodyMaterial": "Ergonomik Pivot Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-242s1ae-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 7708.25,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ergonomik Pivot"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/monitor/philips-242s1ae-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 8199,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7708.25,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-evnia-24m2n3200s-00",
+    "slug": "philips-evnia-24m2n3200s-00",
+    "name": "Philips Evnia 24M2N3200S/00 23.8\" 180Hz 0.5ms Fast IPS Gaming Monitör",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 6199,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 290,
+    "image": "/images/laptops/philips-evnia-24m2n3200s.jpg",
+    "images": [
+      "/images/laptops/philips-evnia-24m2n3200s.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "23.8 İnç Full HD Fast IPS 180 Hz Panel",
+      "0.5 ms MPRT / 1 ms GtG ile Sıfır Gölgelenme",
+      "HDR10 & AMD FreeSync Akıcılığı",
+      "Kompakt Şık Evnia Espor Standı"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "Fast IPS 180Hz FHD Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "180Hz FHD Fast IPS Engine",
+      "screenSizeInches": 23.8,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 100%, NTSC 88%",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Ses Çıkışı"
+      ],
+      "weightKg": 4.1,
+      "bodyMaterial": "Evnia Espor Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-evnia24-3200s-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 6199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "180Hz Fast IPS Fırsat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/monitor/philips-evnia-24m2n3200s.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 6699,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 6199,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-27m2n3200nf-00",
+    "slug": "philips-27m2n3200nf-00",
+    "name": "Philips 27M2N3200NF/00 27\" 180Hz 0.5ms Fast IPS Espor Monitörü",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 5459.09,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 310,
+    "image": "/images/laptops/philips-27m2n3200nf.jpg",
+    "images": [
+      "/images/laptops/philips-27m2n3200nf.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "27 İnç Full HD (1920 x 1080) 180 Hz Fast IPS Panel",
+      "0.5 ms MPRT Ultra Hızlı Tepki Süresi",
+      "HDR10 & %100 sRGB Canlı Renkler",
+      "Ultra İnce Çerçeveli Espor Tasarımı"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "Fast IPS 180Hz FHD Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "180Hz FHD Fast IPS Engine",
+      "screenSizeInches": 27,
+      "screenResolution": "1920 x 1080 (Full HD)",
+      "colorGamut": "sRGB 100%, NTSC 88%",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Ses Çıkışı"
+      ],
+      "weightKg": 4.8,
+      "bodyMaterial": "Evnia Espor Kasa"
+    },
+    "storeOffers": [
+      {
+        "id": "so-27m2n3200nf-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 5459.09,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "180Hz Fast IPS Fırsat",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2400,
+        "url": "https://www.epey.com/monitor/philips-27m2n3200nf-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 5899,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5459.09,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-spt6607b",
+    "slug": "philips-spt6607b",
+    "name": "Philips SPT6607B 2.4GHz Kablosuz Klavye Mouse Seti",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Aksesuar",
+    "basePrice": 1627.99,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 89,
+    "reviewCount": 420,
+    "image": "/images/laptops/philips-spt6607b.jpg",
+    "images": [
+      "/images/laptops/philips-spt6607b.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "2.4 GHz Güvenilir Kablosuz Nano Alıcı (Tek Alıcı ile Çift Cihaz)",
+      "Ergonomik Sessiz Tuş Dizilimi & Sıvı Dökülmesine Dayanıklı Tasarım",
+      "1600 DPI Hassas Optik Kablosuz Mouse",
+      "Uzun Pil Ömrü ile Ofis ve Ev Kullanımı İçin İdeal"
+    ],
+    "specs": {
+      "productType": "Aksesuar",
+      "processor": "2.4GHz Wireless Controller",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "1600 DPI Optical Engine",
+      "screenSizeInches": 0,
+      "screenResolution": "Kablosuz Klavye + Mouse",
+      "ports": [
+        "2.4 GHz USB Nano Dongle"
+      ],
+      "weightKg": 0.7,
+      "bodyMaterial": "Mat Siyah Dayanıklı ABS Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "so-spt6607b-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 1627.99,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kablosuz Klavye Mouse Seti"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/klavye-mouse/philips-spt6607b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1799,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1627.99,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "philips-24m1n3200za-00",
     "slug": "philips-24m1n3200za-00",
     "name": "Philips Momentum 24M1N3200ZA/00 23.8\" 165Hz 1ms IPS Gaming Monitör",
