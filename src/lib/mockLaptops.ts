@@ -2,6 +2,79 @@ import { LaptopProduct } from './types';
 
 export const mockLaptops: LaptopProduct[] = [
   {
+    "id": "philips-evnia-27m2n8500-00",
+    "slug": "philips-evnia-27m2n8500-00",
+    "name": "Philips Evnia 27M2N8500/00 27\" 360Hz 0.03ms QHD QD-OLED Espor Monitörü",
+    "brand": "Philips",
+    "category": "laptops",
+    "productType": "Monitör",
+    "basePrice": 99050,
+    "currency": "TL",
+    "rating": 5,
+    "epeyScore": 99,
+    "reviewCount": 38,
+    "image": "/images/laptops/philips-evnia-27m2n8500.jpg",
+    "images": [
+      "/images/laptops/philips-evnia-27m2n8500.jpg"
+    ],
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "27 İnç QHD (2560 x 1440) 3. Nesil QD-OLED Panel",
+      "360 Hz Ultra Yüksek Yenileme Hızı & 0.03 ms GTG Tepki Süresi",
+      "DisplayHDR True Black 400 ile Kusursuz Siyahlar & 1.07 Milyar Renk",
+      "Ambiglow Yeni Nesil Espor Dinamik Aydınlatma"
+    ],
+    "specs": {
+      "productType": "Monitör",
+      "processor": "QD-OLED Gen 3 Espor Engine",
+      "ramGb": 0,
+      "storageGb": 0,
+      "gpu": "360Hz QD-OLED Display Engine",
+      "screenSizeInches": 27,
+      "screenResolution": "2560 x 1440 (QHD 2K)",
+      "colorGamut": "DCI-P3 99.3%",
+      "ports": [
+        "2x HDMI 2.1",
+        "1x DisplayPort 1.4",
+        "USB Hub",
+        "Kulaklık Çıkışı"
+      ],
+      "weightKg": 6.8,
+      "bodyMaterial": "Evnia Lüks Grafit Gövde"
+    },
+    "storeOffers": [
+      {
+        "id": "so-evnia27-1",
+        "storeName": "İtopya",
+        "storeLogoColor": "#e62117",
+        "price": 99050,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "360Hz OLED",
+          "Espor Resmi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 95,
+        "url": "https://www.epey.com/monitor/philips-evnia-27m2n8500-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 104999,
+        "store": "İtopya"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 99050,
+        "store": "İtopya"
+      }
+    ]
+  },
+  {
     "id": "philips-evnia-49m2c8900-00",
     "slug": "philips-evnia-49m2c8900-00",
     "name": "Philips Evnia 49M2C8900/00 49\" 144Hz 0.03ms QD-OLED Kavisli Gaming Monitör",

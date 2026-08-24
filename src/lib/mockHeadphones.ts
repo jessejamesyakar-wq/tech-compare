@@ -2,6 +2,846 @@ import { Product } from './types';
 
 export const mockHeadphones: Product[] = [
   {
+    "id": "philips-tak4206",
+    "slug": "philips-tak4206",
+    "name": "Philips TAK4206 Çocuklar İçin Işıklı Kablosuz Kulaklık (85dB Sınırı)",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 8199,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 140,
+    "image": "/images/headphones/philips-tak4206.jpg",
+    "images": [
+      "/images/headphones/philips-tak4206.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "Çocuk İşitme Sağlığı için 85dB Maksimum Ses Sınırı",
+      "Kulak Kapaklarında Renkli Dinamik LED Işık Panelleri",
+      "28 Saate Kadar Çalma Süresi",
+      "Philips Kulaklık Uygulaması ile Ebeveyn Ses ve Süre Kontrolü"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Çocuk Özel)",
+      "anc": "Yok (İşitme Güvenlikli 85dB)",
+      "batteryLife": "28 Saat",
+      "bluetoothVersion": "5.0",
+      "driverSize": "32 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 128
+    },
+    "storeOffers": [
+      {
+        "id": "so-tak4206-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 8199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çocuk Özel"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 240,
+        "url": "https://www.epey.com/kulaklik/philips-tak4206.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 8599,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8199,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-taa5205",
+    "slug": "philips-taa5205",
+    "name": "Philips TAA5205 TWS IPX7 Su Geçirmez Kulak Kancalı Sporcu Kulaklığı",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 4500,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 95,
+    "image": "/images/headphones/philips-taa5205.jpg",
+    "images": [
+      "/images/headphones/philips-taa5205.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "IPX7 1 Metreye Kadar Tam Su Geçirmezlik",
+      "Çıkarılabilir ve Değiştirilebilir Ergonomik Kulak Kancaları",
+      "Kutu ile 20 Saat Toplam Pil Ömrü",
+      "UV Temizleme Teknolojili Şarj Kutusu"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi Kancalı (TWS Spor)",
+      "anc": "Yok (Pasif Spor Yalıtımı)",
+      "batteryLife": "20 Saat (Kutu ile)",
+      "bluetoothVersion": "5.1",
+      "driverSize": "6 mm Neodimyum",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 58
+    },
+    "storeOffers": [
+      {
+        "id": "so-taa5205-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 4500,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "IPX7 Spor"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 310,
+        "url": "https://www.epey.com/kulaklik/philips-taa5205.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 4799,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4500,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-tat5506",
+    "slug": "philips-tat5506",
+    "name": "Philips TAT5506 Pro ANC Hibrit TWS Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 2540.26,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 92,
+    "reviewCount": 320,
+    "image": "/images/headphones/philips-tat5506.jpg",
+    "images": [
+      "/images/headphones/philips-tat5506.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "Noise Canceling Pro Hibrit Aktif Gürültü Engelleme",
+      "Kutu ile 32 Saate Varan Toplam Çalma Süresi",
+      "Kablosuz Qi Şarj Kutusu Desteği",
+      "IPX5 Su Sıçramasına Karşı Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Var (Noise Canceling Pro)",
+      "batteryLife": "32 Saat (Kutu ile)",
+      "bluetoothVersion": "5.2",
+      "driverSize": "10 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 52
+    },
+    "storeOffers": [
+      {
+        "id": "so-tat5506-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 2540.26,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Pro ANC"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/kulaklik/philips-tat5506.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 2799,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2540.26,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-shm7110",
+    "slug": "philips-shm7110",
+    "name": "Philips SHM7110 Özelleştirilebilir Kapaklı PC Kulaklığı",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 2170.2,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 88,
+    "reviewCount": 110,
+    "image": "/images/headphones/philips-shm7110.jpg",
+    "images": [
+      "/images/headphones/philips-shm7110.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Değiştirilebilir Özel Desenli Kulaklık Kapakları",
+      "Yüksek Hassasiyetli Net Mikrofon",
+      "Kablo Üstü Ses ve Sessize Alma Kontrolü",
+      "Yumuşak Kumaş Kulak Yastıkları ile Saatlerce Konfor"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Kablolu PC)",
+      "anc": "Yok",
+      "batteryLife": "Kablolu",
+      "bluetoothVersion": "Kablolu (3.5mm)",
+      "driverSize": "40 mm",
+      "frequencyResponse": "18 Hz - 22.000 Hz",
+      "weightGrams": 195
+    },
+    "storeOffers": [
+      {
+        "id": "so-shm7110-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 2170.2,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "PC Kulaklık"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 290,
+        "url": "https://www.epey.com/kulaklik/philips-shm7110.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 2299,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2170.2,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-tah5205",
+    "slug": "philips-tah5205",
+    "name": "Philips TAH5205 Bass Boost Kablosuz Kulak Üstü Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 1799.9,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 89,
+    "reviewCount": 310,
+    "image": "/images/headphones/philips-tah5205.jpg",
+    "images": [
+      "/images/headphones/philips-tah5205.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "BASS Boost Güçlendirme Düğmesi",
+      "40 mm Güçlü Neodimyum Sürücüler",
+      "29 Saate Kadar Kesintisiz Çalma Süresi",
+      "Kompakt Düz Katlanır Tasarım"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (Over-Ear)",
+      "anc": "Yok",
+      "batteryLife": "29 Saat",
+      "bluetoothVersion": "5.0",
+      "driverSize": "40 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 212
+    },
+    "storeOffers": [
+      {
+        "id": "so-tah5205-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 1799.9,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Bass Boost"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 870,
+        "url": "https://www.epey.com/kulaklik/philips-tah5205.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1899,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1799.9,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-tauh202",
+    "slug": "philips-tauh202",
+    "name": "Philips TAUH202 Hafif Katlanabilir Kablosuz Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 1248,
+    "currency": "TL",
+    "rating": 4.5,
+    "epeyScore": 86,
+    "reviewCount": 450,
+    "image": "/images/headphones/philips-tauh202.jpg",
+    "images": [
+      "/images/headphones/philips-tauh202.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "15 Saate Kadar Müzik Çalma Süresi",
+      "32 mm Neodimyum Akustik Sürücüler",
+      "Kompakt ve Düz Katlanabilir Ultra Hafif Gövde",
+      "Yankı Önleyici Dahili Mikrofon"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (On-Ear)",
+      "anc": "Yok",
+      "batteryLife": "15 Saat",
+      "bluetoothVersion": "4.2",
+      "driverSize": "32 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 145
+    },
+    "storeOffers": [
+      {
+        "id": "so-tauh202-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 1248,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hafif Tasarım"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1900,
+        "url": "https://www.epey.com/kulaklik/philips-tauh202.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1349,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1248,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-tah1205",
+    "slug": "philips-tah1205",
+    "name": "Philips TAH1205 Kablosuz Kulak Üstü Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 1231.1,
+    "currency": "TL",
+    "rating": 4.5,
+    "epeyScore": 86,
+    "reviewCount": 390,
+    "image": "/images/headphones/philips-tah1205.jpg",
+    "images": [
+      "/images/headphones/philips-tah1205.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "15 Saat Çalma Süresi",
+      "32 mm Sürücüler ile Net Ses",
+      "Ayarlanabilir Kafa Bandı ve Yumuşak Yastıklar",
+      "Kolay Eşleşme ve Bluetooth Kontrolleri"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (On-Ear)",
+      "anc": "Yok",
+      "batteryLife": "15 Saat",
+      "bluetoothVersion": "5.1",
+      "driverSize": "32 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 150
+    },
+    "storeOffers": [
+      {
+        "id": "so-tah1205-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 1231.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1400,
+        "url": "https://www.epey.com/kulaklik/philips-tah1205.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1299,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1231.1,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-tah4205",
+    "slug": "philips-tah4205",
+    "name": "Philips TAH4205 Bass Boost Kablosuz Kulak Üstü Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 1049,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 88,
+    "reviewCount": 820,
+    "image": "/images/headphones/philips-tah4205.jpg",
+    "images": [
+      "/images/headphones/philips-tah4205.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "BASS Boost Butonu ile Anında Güçlü Baslar",
+      "29 Saat Çalma Süresi & 15 Dakika Hızlı Şarj ile 4 Saat Müzik",
+      "Düz Katlanabilir Şık Tasarım",
+      "Çok Fonksiyonlu Kontrol Tuşu"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (On-Ear)",
+      "anc": "Yok",
+      "batteryLife": "29 Saat",
+      "bluetoothVersion": "5.0",
+      "driverSize": "32 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 150
+    },
+    "storeOffers": [
+      {
+        "id": "so-tah4205-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 1049,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Bestseller"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/kulaklik/philips-tah4205.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1149,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1049,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-tah1108bk-00",
+    "slug": "philips-tah1108bk-00",
+    "name": "Philips TAH1108BK/00 Kablosuz Kulak Üstü Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 1016,
+    "currency": "TL",
+    "rating": 4.5,
+    "epeyScore": 85,
+    "reviewCount": 190,
+    "image": "/images/headphones/philips-tah1108bk.jpg",
+    "images": [
+      "/images/headphones/philips-tah1108bk.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "15 Saate Kadar Pil Ömrü",
+      "Hafif ve Rahat Kafa Bandı",
+      "Net Ses ve Dinamik Bas Sürücüleri",
+      "Dahili Mikrofon ile Eller Serbest Görüşme"
+    ],
+    "specs": {
+      "formFactor": "Kulak Üstü (On-Ear)",
+      "anc": "Yok",
+      "batteryLife": "15 Saat",
+      "bluetoothVersion": "5.1",
+      "driverSize": "30 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 140
+    },
+    "storeOffers": [
+      {
+        "id": "so-tah1108-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 1016,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 450,
+        "url": "https://www.epey.com/kulaklik/philips-tah1108bk-00.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1099,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1016,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-tat1138",
+    "slug": "philips-tat1138",
+    "name": "Philips TAT1138 TWS Kablosuz Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 899,
+    "currency": "TL",
+    "rating": 4.5,
+    "epeyScore": 86,
+    "reviewCount": 560,
+    "image": "/images/headphones/philips-tat1138.jpg",
+    "images": [
+      "/images/headphones/philips-tat1138.jpg"
+    ],
+    "releaseYear": 2025,
+    "highlights": [
+      "13 mm Dinamik Sürücüler ile Zengin Ses",
+      "Kutu ile 15 Saat Toplam Çalma Süresi",
+      "IPX4 Su Sıçramasına ve Tere Dayanıklılık",
+      "Yapay Zeka Destekli Net Çağrı Mikrofonu"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS)",
+      "anc": "Yok",
+      "batteryLife": "15 Saat (Kutu ile)",
+      "bluetoothVersion": "5.3",
+      "driverSize": "13 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 39
+    },
+    "storeOffers": [
+      {
+        "id": "so-tat1138-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2400,
+        "url": "https://www.epey.com/kulaklik/philips-tat1138.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 899,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-she-9105",
+    "slug": "philips-she-9105",
+    "name": "Philips SHE9105 Alüminyum Gövdeli Mikrofonlu Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 879.1,
+    "currency": "TL",
+    "rating": 4.5,
+    "epeyScore": 84,
+    "reviewCount": 220,
+    "image": "/images/headphones/philips-she9105.png",
+    "images": [
+      "/images/headphones/philips-she9105.png"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Hassas Titreşim Önleyici Alüminyum Gövde",
+      "8.6 mm Güçlü Neodimyum Sürücüler",
+      "Kabloya Entegre Mikrofon ve Çağrı Butonu",
+      "Dolaşmayı Önleyen Dayanıklı Kumaş Takviyeli Kablo"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (Kablolu 3.5mm)",
+      "anc": "Yok",
+      "batteryLife": "Kablolu",
+      "bluetoothVersion": "Kablolu (3.5mm)",
+      "driverSize": "8.6 mm",
+      "frequencyResponse": "7 Hz - 25.000 Hz",
+      "weightGrams": 14
+    },
+    "storeOffers": [
+      {
+        "id": "so-she9105-1",
+        "storeName": "Vatan",
+        "storeLogoColor": "bg-blue-800",
+        "price": 879.1,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "https://www.epey.com/kulaklik/philips-she-9105.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 929,
+        "store": "Vatan"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 879.1,
+        "store": "Vatan"
+      }
+    ]
+  },
+  {
+    "id": "philips-shb1603",
+    "slug": "philips-shb1603",
+    "name": "Philips SHB1603 Tekli Bluetooth Mono Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 849.9,
+    "currency": "TL",
+    "rating": 4.4,
+    "epeyScore": 82,
+    "reviewCount": 95,
+    "image": "/images/headphones/philips-shb1603.jpg",
+    "images": [
+      "/images/headphones/philips-shb1603.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "Araç İçi ve İş Görüşmeleri için Mono Bluetooth",
+      "Gürültü ve Yankı Engelleyici Mikrofon",
+      "5 Saate Kadar Konuşma Süresi",
+      "Ergonomik Kulak Kancası ile Güvenli Oturuş"
+    ],
+    "specs": {
+      "formFactor": "Mono Kulak İçi (Bluetooth)",
+      "anc": "Yok",
+      "batteryLife": "5 Saat Konuşma",
+      "bluetoothVersion": "5.0",
+      "driverSize": "10 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 9
+    },
+    "storeOffers": [
+      {
+        "id": "so-shb1603-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-orange-500",
+        "price": 849.9,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 180,
+        "url": "https://www.epey.com/kulaklik/philips-shb1603.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 899,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 849.9,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-shq6500",
+    "slug": "philips-shq6500",
+    "name": "Philips SHQ6500 ActionFit Kablosuz Sporcu Kulaklığı IPX2",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 599.9,
+    "currency": "TL",
+    "rating": 4.4,
+    "epeyScore": 83,
+    "reviewCount": 310,
+    "image": "/images/headphones/philips-shq6500.jpg",
+    "images": [
+      "/images/headphones/philips-shq6500.jpg"
+    ],
+    "releaseYear": 2023,
+    "highlights": [
+      "ActionFit Kaymaz C-Kanatlı Kulak Uçları",
+      "Kevlar Takviyeli Yırtılmaz Dayanıklı Kablo",
+      "IPX2 Ter ve Suya Karşı Dayanıklılık",
+      "4.5 Saat Kesintisiz Müzik Çalma"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi Boyun Askılı (Bluetooth)",
+      "anc": "Yok",
+      "batteryLife": "4.5 Saat",
+      "bluetoothVersion": "4.1",
+      "driverSize": "13.6 mm",
+      "frequencyResponse": "15 Hz - 22.000 Hz",
+      "weightGrams": 14
+    },
+    "storeOffers": [
+      {
+        "id": "so-shq6500-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 599.9,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Sporcu Kulaklık"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 920,
+        "url": "https://www.epey.com/kulaklik/philips-shq6500.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 649,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 599.9,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-tat2236",
+    "slug": "philips-tat2236",
+    "name": "Philips TAT2236 TWS Küçük Şarj Kutulu Kulak İçi Kulaklık",
+    "brand": "Philips",
+    "category": "headphones",
+    "basePrice": 590.08,
+    "currency": "TL",
+    "rating": 4.4,
+    "epeyScore": 85,
+    "reviewCount": 940,
+    "image": "/images/headphones/philips-tat2236.jpg",
+    "images": [
+      "/images/headphones/philips-tat2236.jpg"
+    ],
+    "releaseYear": 2024,
+    "highlights": [
+      "Süper Küçük Cep Boy Şarj Kutusu",
+      "Kutu ile Toplam 18 Saat Dinleme Süresi",
+      "IPX4 Su Sıçramalarına Karşı Korumalı",
+      "15 Dakikalık Hızlı Şarj ile 1 Saat Kullanım"
+    ],
+    "specs": {
+      "formFactor": "Kulak İçi (TWS Yarı Açık)",
+      "anc": "Yok",
+      "batteryLife": "18 Saat (Kutu ile)",
+      "bluetoothVersion": "5.0",
+      "driverSize": "12 mm",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 36
+    },
+    "storeOffers": [
+      {
+        "id": "so-tat2236-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 590.08,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Süper Fiyat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 5100,
+        "url": "https://www.epey.com/kulaklik/philips-tat2236.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 650,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 590.08,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "philips-fidelio-l4",
     "slug": "philips-fidelio-l4",
     "name": "Philips Fidelio L4 Hi-Res Premium ANC Kablosuz Kulak Üstü Kulaklık",
