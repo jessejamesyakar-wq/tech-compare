@@ -48091,5 +48091,808 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 14849
       }
     ]
+  },
+  {
+    "id": "philips-philips-ac5659-10",
+    "slug": "philips-philips-ac5659-10",
+    "name": "Philips AC5659-10",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-420627.png",
+    "images": [
+      "/images/appliances/philips-420627.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 580,
+    "basePrice": 27999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Çift Taraflı Emiş ve Çift NanoProtect HEPA Filtreleme",
+      "500 m³/h CADR ile 130 m² Çok Geniş Alan Temizliği",
+      "AeraSense İkili Sensör (PM2.5 ve Zararlı Gazlar)",
+      "Clean Home+ Uygulama ve Wi-Fi Akıllı Kontrolü"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Hava Temizleyici",
+      "5000i Serisi",
+      "Çift Emiş",
+      "HEPA",
+      "Akıllı"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "5000i Serisi Çift Emişli Akıllı Hava Temizleyici",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 24,
+      "capacity": "130 m² (500 m³/h CADR - Çift Taraflı Emiş)",
+      "weightKg": 8.8,
+      "powerWatts": 60
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 27999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 28559,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 27719,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 28839,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 29119,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 25479
+      },
+      {
+        "date": "2025-10",
+        "price": 25479
+      },
+      {
+        "date": "2025-11",
+        "price": 26599
+      },
+      {
+        "date": "2025-12",
+        "price": 26599
+      },
+      {
+        "date": "2025-01",
+        "price": 27719
+      },
+      {
+        "date": "2025-02",
+        "price": 27719
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-ac4550-10",
+    "slug": "philips-philips-ac4550-10",
+    "name": "Philips AC4550-10",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-420620.png",
+    "images": [
+      "/images/appliances/philips-420620.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 510,
+    "basePrice": 22999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Modern Tasarım & 4 Renkli Akıllı Işık Halkası",
+      "400 m³/h CADR ile 104 m² Alan Koruması",
+      "NanoProtect HEPA ve Aktif Karbon Katmanı",
+      "Clean Home+ ile Gerçek Zamanlı Hava Kalite Raporu"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Hava Temizleyici",
+      "4000i Serisi",
+      "HEPA",
+      "Akıllı"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "4000i Serisi Şık Tasarımlı Akıllı Hava Temizleyici",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 26,
+      "capacity": "104 m² (400 m³/h CADR)",
+      "weightKg": 7,
+      "powerWatts": 50
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 22999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 23459,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 22769,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 23689,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 23919,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 20929
+      },
+      {
+        "date": "2025-10",
+        "price": 20929
+      },
+      {
+        "date": "2025-11",
+        "price": 21849
+      },
+      {
+        "date": "2025-12",
+        "price": 21849
+      },
+      {
+        "date": "2025-01",
+        "price": 22769
+      },
+      {
+        "date": "2025-02",
+        "price": 22769
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-ac4012-10",
+    "slug": "philips-philips-ac4012-10",
+    "name": "Philips AC4012-10",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-420619.png",
+    "images": [
+      "/images/appliances/philips-420619.png"
+    ],
+    "rating": 4.6,
+    "epeyScore": 85,
+    "reviewCount": 380,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "VitaShield IPS Çok Kademeli Filtrasyon Sistemi",
+      "Akıllı Hava Kalitesi Sensörü ve Zamanlayıcı",
+      "Düşük Enerji Tüketimi"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Hava Temizleyici",
+      "VitaShield",
+      "Hava Temizleyici"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "VitaShield IPS Kompakt Hava Temizleyici",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 30,
+      "capacity": "60 m²",
+      "weightKg": 4.5,
+      "powerWatts": 30
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 8999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 9179,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 8909,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 9269,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 9359,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 8189
+      },
+      {
+        "date": "2025-10",
+        "price": 8189
+      },
+      {
+        "date": "2025-11",
+        "price": 8549
+      },
+      {
+        "date": "2025-12",
+        "price": 8549
+      },
+      {
+        "date": "2025-01",
+        "price": 8909
+      },
+      {
+        "date": "2025-02",
+        "price": 8909
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-ac3259-10",
+    "slug": "philips-philips-ac3259-10",
+    "name": "Philips AC3259-10",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-157917.png",
+    "images": [
+      "/images/appliances/philips-157917.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 620,
+    "basePrice": 20999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "AeraSense Sayısal Ekran ve Otomatik Mod",
+      "NanoProtect HEPA ile %99.97 Alerjen ve Partikül Filtreleme",
+      "Clean Home+ Wi-Fi Akıllı Ev Entegrasyonu",
+      "Ekstra Sessiz Gece Modu"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Hava Temizleyici",
+      "3000i Serisi",
+      "HEPA",
+      "Akıllı"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "3000i Serisi Akıllı Hava Temizleyici",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 25,
+      "capacity": "95 m² (393 m³/h CADR)",
+      "weightKg": 7.2,
+      "powerWatts": 55
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 20999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 21419,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 20789,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 21629,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 21839,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 19109
+      },
+      {
+        "date": "2025-10",
+        "price": 19109
+      },
+      {
+        "date": "2025-11",
+        "price": 19949
+      },
+      {
+        "date": "2025-12",
+        "price": 19949
+      },
+      {
+        "date": "2025-01",
+        "price": 20789
+      },
+      {
+        "date": "2025-02",
+        "price": 20789
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-ac0820-10",
+    "slug": "philips-philips-ac0820-10",
+    "name": "Philips AC0820-10",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-420628.png",
+    "images": [
+      "/images/appliances/philips-420628.png"
+    ],
+    "rating": 4.7,
+    "epeyScore": 87,
+    "reviewCount": 460,
+    "basePrice": 7499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Kompakt Tasarım & 4 Renkli Hava Kalitesi Göstergesi",
+      "NanoProtect HEPA Filtrasyon",
+      "Tek Tuşla Otomatik ve Sessiz Gece Modu"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Hava Temizleyici",
+      "800 Serisi",
+      "Kompakt",
+      "HEPA"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "800 Serisi Kompakt Hava Temizleyici",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 27,
+      "capacity": "49 m² (190 m³/h CADR)",
+      "weightKg": 2.4,
+      "powerWatts": 22
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 7499,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 7649,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 7424,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 7724,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 7799,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 6824
+      },
+      {
+        "date": "2025-10",
+        "price": 6824
+      },
+      {
+        "date": "2025-11",
+        "price": 7124
+      },
+      {
+        "date": "2025-12",
+        "price": 7124
+      },
+      {
+        "date": "2025-01",
+        "price": 7424
+      },
+      {
+        "date": "2025-02",
+        "price": 7424
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-ac3036-10",
+    "slug": "philips-philips-ac3036-10",
+    "name": "Philips AC3036-10",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-648049.jpg",
+    "images": [
+      "/images/appliances/philips-648049.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 620,
+    "basePrice": 20999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "AeraSense Sayısal Ekran ve Otomatik Mod",
+      "NanoProtect HEPA ile %99.97 Alerjen ve Partikül Filtreleme",
+      "Clean Home+ Wi-Fi Akıllı Ev Entegrasyonu",
+      "Ekstra Sessiz Gece Modu"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Hava Temizleyici",
+      "3000i Serisi",
+      "HEPA",
+      "Akıllı"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "3000i Serisi Akıllı Hava Temizleyici",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 25,
+      "capacity": "135 m² (520 m³/h CADR)",
+      "weightKg": 7.2,
+      "powerWatts": 55
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 20999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 21419,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 20789,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 21629,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 21839,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 19109
+      },
+      {
+        "date": "2025-10",
+        "price": 19109
+      },
+      {
+        "date": "2025-11",
+        "price": 19949
+      },
+      {
+        "date": "2025-12",
+        "price": 19949
+      },
+      {
+        "date": "2025-01",
+        "price": 20789
+      },
+      {
+        "date": "2025-02",
+        "price": 20789
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-ac-4053",
+    "slug": "philips-philips-ac-4053",
+    "name": "Philips AC-4053",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-157916.png",
+    "images": [
+      "/images/appliances/philips-157916.png"
+    ],
+    "rating": 4.6,
+    "epeyScore": 85,
+    "reviewCount": 380,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "VitaShield IPS Çok Kademeli Filtrasyon Sistemi",
+      "Akıllı Hava Kalitesi Sensörü ve Zamanlayıcı",
+      "Düşük Enerji Tüketimi"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Hava Temizleyici",
+      "VitaShield",
+      "Hava Temizleyici"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "VitaShield IPS Kompakt Hava Temizleyici",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 30,
+      "capacity": "60 m²",
+      "weightKg": 4.5,
+      "powerWatts": 30
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 8999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 9179,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 8909,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 9269,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 9359,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 8189
+      },
+      {
+        "date": "2025-10",
+        "price": 8189
+      },
+      {
+        "date": "2025-11",
+        "price": 8549
+      },
+      {
+        "date": "2025-12",
+        "price": 8549
+      },
+      {
+        "date": "2025-01",
+        "price": 8909
+      },
+      {
+        "date": "2025-02",
+        "price": 8909
+      }
+    ]
+  },
+  {
+    "id": "philips-philips-avent-sch580-20",
+    "slug": "philips-philips-avent-sch580-20",
+    "name": "Philips Avent SCH580-20",
+    "brand": "Philips",
+    "category": "appliances",
+    "image": "/images/appliances/philips-416349.png",
+    "images": [
+      "/images/appliances/philips-416349.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 490,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Bebek Odaları İçin Özel Geliştirilmiş Hijyenik Nemlendirme",
+      "Ultrasonik Soğuk Buhar Teknolojisi & Rahatlatıcı Gece Lambası",
+      "Ayarlanabilir Nem Oranı ve Ultra Sessiz Çalışma"
+    ],
+    "tags": [
+      "Philips",
+      "Küçük Ev Aletleri",
+      "Hava Temizleyici",
+      "Avent",
+      "Bebek",
+      "Hava Nemlendirici"
+    ],
+    "specs": {
+      "subCategory": "air_purifier",
+      "subCategoryLabel": "Avent Bebek Odası Hava Nemlendirici & Temizleyici",
+      "autoEmptyStation": false,
+      "autoCleanDock": false,
+      "noiseLevelDb": 22,
+      "capacity": "Bebek Odası (Ultrasonik Soğuk Buhar)",
+      "weightKg": 1.8,
+      "powerWatts": 35
+    },
+    "storeOffers": [
+      {
+        "storeName": "Trendyol",
+        "price": 5999,
+        "inStock": true,
+        "url": "https://www.trendyol.com"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 6119,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "storeName": "Amazon.com.tr",
+        "price": 5939,
+        "inStock": true,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "price": 6179,
+        "inStock": true,
+        "url": "https://www.mediamarkt.com.tr"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 6239,
+        "inStock": true,
+        "url": "https://www.teknosa.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2025-09",
+        "price": 5459
+      },
+      {
+        "date": "2025-10",
+        "price": 5459
+      },
+      {
+        "date": "2025-11",
+        "price": 5699
+      },
+      {
+        "date": "2025-12",
+        "price": 5699
+      },
+      {
+        "date": "2025-01",
+        "price": 5939
+      },
+      {
+        "date": "2025-02",
+        "price": 5939
+      }
+    ]
   }
 ];
