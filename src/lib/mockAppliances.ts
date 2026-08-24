@@ -1449,6 +1449,75 @@ export const mockAppliances: ApplianceProduct[] = [
     ]
   },
   {
+    "id": "dyson-v16-piston-animal-submarine",
+    "slug": "dyson-v16-piston-animal-submarine",
+    "name": "Dyson V16 Piston Animal Submarine Islak ve Kuru Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 47819,
+    "currency": "TL",
+    "rating": 5,
+    "epeyScore": 97,
+    "reviewCount": 780,
+    "image": "/images/appliances/dyson-1031692.png",
+    "images": [
+      "/images/appliances/dyson-1031692.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "280 AW Devasa Emiş Gücü + Submarine Islak Yıkama Başlığı",
+      "70 Dakika Kesintisiz Pil Ömrü",
+      "AI Zemin Tespiti & Akıllı Su Dozajlama",
+      "Evcil Hayvan Tüyleri & Sıvı Döküntüleri İçin Hepsi Bir Arada Çözüm"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 720,
+      "suctionPowerPa": 28000,
+      "batteryRuntimeMin": 70,
+      "noiseLevelDb": 73,
+      "capacity": "800 ml toz, 350 ml temiz su, 400 ml kirli su",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 5,
+      "weightKg": 4.2,
+      "warrantyYears": 2,
+      "color": "Mor / Sarı / Nikel"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-v16sub-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 47819,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "En Üst Model"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3600,
+        "url": "https://www.epey.com/supurge/dyson-v16-piston-animal-submarine.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-09-01",
+        "price": 51999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 47819,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "roborock-s8-maxv-ultra",
     "slug": "roborock-s8-maxv-ultra",
     "name": "Roborock S8 MaxV Ultra Robot Süpürge & Paspas",
@@ -1806,6 +1875,211 @@ export const mockAppliances: ApplianceProduct[] = [
     ]
   },
   {
+    "id": "dyson-spot-scrub-ai",
+    "slug": "dyson-spot-scrub-ai",
+    "name": "Dyson Spot+Scrub Ai Akıllı Robot Süpürge & Paspas",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 49200,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 450,
+    "image": "/images/appliances/dyson-1045254.png",
+    "images": [
+      "/images/appliances/dyson-1045254.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Yapay Zeka Destekli Spot+Scrub Leke Tespiti ve Yoğunlaştırılmış Basınçlı Ovma",
+      "Hyperdymium Motor ile Üstün Emiş Gücü",
+      "LiDAR + 3D ToF Kameralı Hassas Haritalama",
+      "Otomatik Paspas Kaldırma ve Kenar Uzanma Teknolojisi"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 70,
+      "suctionPowerPa": 7500,
+      "batteryRuntimeMin": 90,
+      "noiseLevelDb": 68,
+      "capacity": "450 ml toz, 250 ml su haznesi",
+      "autoCleanDock": true,
+      "appControl": true,
+      "programsCount": 5,
+      "weightKg": 4.6,
+      "warrantyYears": 2,
+      "color": "Siyah / Nikel"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-spotscrub-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 49200,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "AI Teknolojili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1100,
+        "url": "https://www.epey.com/robot-supurge/dyson-spot-plusscrub-ai.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-09-01",
+        "price": 54999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 49200,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dyson-v16-piston-animal",
+    "slug": "dyson-v16-piston-animal",
+    "name": "Dyson V16 Piston Animal Kablosuz Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 41453,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 620,
+    "image": "/images/appliances/dyson-1031675.png",
+    "images": [
+      "/images/appliances/dyson-1031675.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "280 AW Yeni Nesil Piston Hyperdymium Motor Emiş Gücü",
+      "70 Dakika Genişletilmiş Akıllı Batarya Süresi",
+      "Akıllı Zemin ve Tüy Algılayıcı Dinamik Motorbar Başlık",
+      "Yeni Piston Siklon Toz Sıkıştırma Sistemi"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 720,
+      "suctionPowerPa": 28000,
+      "batteryRuntimeMin": 70,
+      "noiseLevelDb": 73,
+      "capacity": "800 ml toz haznesi",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 4,
+      "weightKg": 3.1,
+      "warrantyYears": 2,
+      "color": "Mor / Nikel"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-v16pa-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 41453,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yeni Nesil Amiral Gemisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2400,
+        "url": "https://www.epey.com/supurge/dyson-v16-piston-animal.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-09-01",
+        "price": 44999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 41453,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "dyson-airwrap-co-anda2x",
+    "slug": "dyson-airwrap-co-anda2x",
+    "name": "Dyson Airwrap Co-anda2x™ Çok Amaçlı Saç Şekillendirici",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 35259,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 920,
+    "image": "/images/appliances/dyson-1034296.jpg",
+    "images": [
+      "/images/appliances/dyson-1034296.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Geliştirilmiş 2 Kat Güçlü Coanda Hava Akımı (Co-anda2x™)",
+      "Çift Yönlü Tek Başlıkla Saat Yönü ve Tersi Bukleler",
+      "Akıllı Isı Kontrolü ile Saç Sağlığını Koruma",
+      "Düzleştirici, Hacim Verici ve Kurutucu Başlıklar"
+    ],
+    "specs": {
+      "subCategory": "airfryer",
+      "subCategoryLabel": "Saç Şekillendirici",
+      "powerWatts": 1300,
+      "suctionPowerPa": 0,
+      "batteryRuntimeMin": 0,
+      "noiseLevelDb": 76,
+      "capacity": "Komple Başlık Seti + Deri Kutu",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 5,
+      "weightKg": 0.61,
+      "warrantyYears": 2,
+      "color": "Kupfer / Nikel"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-awco2-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 35259,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/sac-sekillendirici/dyson-airwrap-co-anda2x.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-07-01",
+        "price": 38999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 35259,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "kitchenaid-artisan-4-8l",
     "slug": "kitchenaid-artisan-4-8l",
     "name": "KitchenAid Artisan 4.8L Stand Mikser & Mutfak Şefi",
@@ -2038,6 +2312,144 @@ export const mockAppliances: ApplianceProduct[] = [
       "warrantyYears": 2,
       "color": "Piano Siyah / Krom"
     }
+  },
+  {
+    "id": "dyson-airwrap-id-vinca-blue",
+    "slug": "dyson-airwrap-id-vinca-blue",
+    "name": "Dyson Airwrap i.d Vinca Blue Akıllı Saç Şekillendirici",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 21500,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 1650,
+    "image": "/images/appliances/dyson-1008262.jpg",
+    "images": [
+      "/images/appliances/dyson-1008262.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "İlk Akıllı Bağlantılı Airwrap: MyDyson App ve Bluetooth ile Kişiye Özel Bukle Profili (i.d curl)",
+      "Aşırı Isı Olmadan Yalnızca Coanda Hava Akımı ile Şekillendirme",
+      "Yeni Konik Başlık ve Dalga & Bukle Difüzörü",
+      "Özel Vinca Blue (Mavi) / Bakır Lüks Tasarım"
+    ],
+    "specs": {
+      "subCategory": "airfryer",
+      "subCategoryLabel": "Saç Şekillendirici",
+      "powerWatts": 1300,
+      "suctionPowerPa": 0,
+      "batteryRuntimeMin": 0,
+      "noiseLevelDb": 76,
+      "capacity": "6 Parça Akıllı Başlık Seti + Saklama Kutusu",
+      "autoCleanDock": false,
+      "appControl": true,
+      "programsCount": 6,
+      "weightKg": 0.61,
+      "warrantyYears": 2,
+      "color": "Vinca Blue / Bakır"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-awid-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 21500,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Yılın Ürünü"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5400,
+        "url": "https://www.epey.com/sac-sekillendirici/dyson-airwrap-i-d-vinca-blue.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-08-01",
+        "price": 23999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21500,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "dyson-hushjet-purifier-compact-hj10",
+    "slug": "dyson-hushjet-purifier-compact-hj10",
+    "name": "Dyson Hushjet Kompakt HJ10 Hava Temizleyici",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 19441,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 92,
+    "reviewCount": 880,
+    "image": "/images/appliances/dyson-1043155.jpg",
+    "images": [
+      "/images/appliances/dyson-1043155.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Hushjet Akustik Mühendisliği: Gece Modunda Fısıltı Sessizliğinde Çalışma (24 dB)",
+      "HEPA H13 ve Aktif Karbon 360° Filtrasyon (0.1 mikron parçacıkların %99.95'ini yakalar)",
+      "MyDyson App ile Gerçek Zamanlı Hava Kalitesi Takibi",
+      "Kompakt Masaüstü ve Yatak Odası Tasarımı"
+    ],
+    "specs": {
+      "subCategory": "airfryer",
+      "subCategoryLabel": "Hava Temizleyici",
+      "powerWatts": 40,
+      "suctionPowerPa": 0,
+      "batteryRuntimeMin": 0,
+      "noiseLevelDb": 24,
+      "capacity": "360° HEPA H13 Filtre",
+      "autoCleanDock": false,
+      "appControl": true,
+      "programsCount": 4,
+      "weightKg": 3.2,
+      "warrantyYears": 2,
+      "color": "Beyaz / Gümüş"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-hj10-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 19441,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Sessiz Konfor"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1900,
+        "url": "https://www.epey.com/hava-temizleyici/dyson-hushjet-purifier-compact-hj10.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-07-01",
+        "price": 21999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19441,
+        "store": "Amazon TR"
+      }
+    ]
   },
   {
     "id": "delonghi-magnifica-s-ecam22110b",
@@ -3311,6 +3723,347 @@ export const mockAppliances: ApplianceProduct[] = [
     ]
   },
   {
+    "id": "dyson-v10-konical",
+    "slug": "dyson-v10-konical",
+    "name": "Dyson V10 Konical Kablosuz Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 24399,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 650,
+    "image": "/images/appliances/dyson-1057991.jpg",
+    "images": [
+      "/images/appliances/dyson-1057991.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "151 AW Güçlendirilmiş Emiş & Konik Siklonik Hava Ayrıştırma",
+      "60 Dakika Kesintisiz Pil Süresi",
+      "Motorbar Anti-Tangle Başlık",
+      "Hijyenik Point and Shoot Hazne Tahliyesi"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 525,
+      "suctionPowerPa": 24000,
+      "batteryRuntimeMin": 60,
+      "noiseLevelDb": 76,
+      "capacity": "760 ml toz haznesi",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 3,
+      "weightKg": 2.68,
+      "warrantyYears": 2,
+      "color": "Kırmızı / Nikel"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-v10kon-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 24399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1900,
+        "url": "https://www.epey.com/supurge/dyson-v10-konical.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-06-01",
+        "price": 26999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 24399,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dyson-cyclone-v10-submarine",
+    "slug": "dyson-cyclone-v10-submarine",
+    "name": "Dyson Cyclone V10 Submarine Islak ve Kuru Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 23499,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 91,
+    "reviewCount": 520,
+    "image": "/images/appliances/dyson-1036380.jpg",
+    "images": [
+      "/images/appliances/dyson-1036380.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Submarine Islak Yıkama Başlığı ile V10 Emiş Gücü Bir Arada",
+      "151 AW Emiş Gücü",
+      "60 Dakika Çalışma Süresi",
+      "Motorbar Anti-Tangle Başlık"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 525,
+      "suctionPowerPa": 24000,
+      "batteryRuntimeMin": 60,
+      "noiseLevelDb": 76,
+      "capacity": "760 ml toz, 300 ml temiz su",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 3,
+      "weightKg": 3.8,
+      "warrantyYears": 2,
+      "color": "Sarı / Nikel"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-v10sub-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 23499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1800,
+        "url": "https://www.epey.com/supurge/dyson-cyclone-v10-submarine.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-07-01",
+        "price": 25999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 23499,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "dyson-clean-pluswash-hygiene",
+    "slug": "dyson-clean-pluswash-hygiene",
+    "name": "Dyson Clean+Wash Hygiene Islak Kuru Zemin Temizleyici",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 19999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 91,
+    "reviewCount": 490,
+    "image": "/images/appliances/dyson-1045266.png",
+    "images": [
+      "/images/appliances/dyson-1045266.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Hijyenik Kendi Kendini Temizleyen Rulo ve Ayrıştırma Sistemi",
+      "Katı ve Sıvı Kirleri Ayrı Tepsilerde Depolama",
+      "40 Dakika Çalışma Süresi",
+      "Hafif ve Ergonomik Dikey Kullanım"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 350,
+      "suctionPowerPa": 18000,
+      "batteryRuntimeMin": 40,
+      "noiseLevelDb": 71,
+      "capacity": "800 ml temiz su, 600 ml kirli su",
+      "autoCleanDock": true,
+      "appControl": false,
+      "programsCount": 3,
+      "weightKg": 4.5,
+      "warrantyYears": 2,
+      "color": "Gümüş / Nikel"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-cpwh-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 19999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/supurge/dyson-clean-pluswash-hygiene.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-08-01",
+        "price": 22999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dyson-big-ball-absolute-2",
+    "slug": "dyson-big-ball-absolute-2",
+    "name": "Dyson Big Ball Absolute 2 Toz Torbasız Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 19074,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 1400,
+    "image": "/images/appliances/dyson-1031704.png",
+    "images": [
+      "/images/appliances/dyson-1031704.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Pnömatik Zemin Başlığı & Karbon Fiber Türbin Başlık",
+      "Kendi Kendini Düzelten Big Ball Küre Gövdesi",
+      "2 Tier Radial Siklon Teknolojisi",
+      "Hijyenik Toz Boşaltma"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Toz Torbasız Süpürge",
+      "powerWatts": 700,
+      "suctionPowerPa": 21000,
+      "batteryRuntimeMin": 0,
+      "noiseLevelDb": 80,
+      "capacity": "1.8 L toz haznesi",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 3,
+      "weightKg": 7.96,
+      "warrantyYears": 5,
+      "color": "Kırmızı / Nikel"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-bba2-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 19074,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Garanti"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.epey.com/supurge/dyson-big-ball-absolute-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-04-01",
+        "price": 21999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19074,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dyson-washg1",
+    "slug": "dyson-washg1",
+    "name": "Dyson WashG1 Islak Zemin Temizleyici",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 13999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 91,
+    "reviewCount": 1100,
+    "image": "/images/appliances/dyson-960522.png",
+    "images": [
+      "/images/appliances/dyson-960522.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Dyson’ın İlk Özel Islak Zemin Yıkama Makinesi",
+      "Çift Ters Dönen Yüksek Yoğunluklu Mikrofiber Rulolar",
+      "Katı ve Sıvı Kirleri Otomatik Ayıran Benzersiz Sistem",
+      "1 L Temiz Su ile 290 m² Alan Temizleme Kapasitesi"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 300,
+      "suctionPowerPa": 16000,
+      "batteryRuntimeMin": 35,
+      "noiseLevelDb": 70,
+      "capacity": "1 L temiz su, 800 ml kirli su",
+      "autoCleanDock": true,
+      "appControl": false,
+      "programsCount": 3,
+      "weightKg": 4.9,
+      "warrantyYears": 2,
+      "color": "Siyah / Mavi"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-washg1-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 13999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat",
+          "Yıkama Uzmanı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3800,
+        "url": "https://www.epey.com/supurge/dyson-washg1.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-06-01",
+        "price": 16999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "tefal-pro-express-ultimate-ii",
     "slug": "tefal-pro-express-ultimate-ii",
     "name": "Tefal Pro Express Ultimate II Yüksek Basınçlı Buhar Kazanlı Ütü",
@@ -4336,6 +5089,75 @@ export const mockAppliances: ApplianceProduct[] = [
     ]
   },
   {
+    "id": "dyson-v8-cyclone",
+    "slug": "dyson-v8-cyclone",
+    "name": "Dyson V8 Cyclone Kablosuz Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 17525,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 87,
+    "reviewCount": 890,
+    "image": "/images/appliances/dyson-1045271.png",
+    "images": [
+      "/images/appliances/dyson-1045271.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "115 AW Emiş Gücü",
+      "Yeni De-tangle Motorbar Başlık",
+      "40 Dakika Çalışma Süresi",
+      "Kolay El Süpürgesine Dönüşüm"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 425,
+      "suctionPowerPa": 21000,
+      "batteryRuntimeMin": 40,
+      "noiseLevelDb": 81,
+      "capacity": "540 ml toz haznesi",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 2,
+      "weightKg": 2.55,
+      "warrantyYears": 2,
+      "color": "Gümüş / Sarı"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-v8cyc-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 17525,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime",
+          "Fırsat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/supurge/dyson-v8-cyclone.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05-01",
+        "price": 18999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 17525,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "roborock-h5",
     "slug": "roborock-h5",
     "name": "Roborock H5 Kablosuz Dikey Süpürge",
@@ -4863,6 +5685,74 @@ export const mockAppliances: ApplianceProduct[] = [
     ]
   },
   {
+    "id": "dyson-v15s-detect-submarine",
+    "slug": "dyson-v15s-detect-submarine",
+    "name": "Dyson V15s Detect Submarine Islak ve Kuru Kablosuz Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 39999,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 2200,
+    "image": "/images/appliances/dyson-924664.jpg",
+    "images": [
+      "/images/appliances/dyson-924664.jpg"
+    ],
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Submarine Islak Temizleme Başlığı ile Sert Zeminleri Yıkama",
+      "240 AW Emiş Gücü & Digital Motorbar Başlık",
+      "Işıklı Fluffy Başlık ve Piezo Sensörü",
+      "300 ml Temiz Su Haznesi ile 110 m² Alan Temizliği"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 660,
+      "suctionPowerPa": 26000,
+      "batteryRuntimeMin": 60,
+      "noiseLevelDb": 75,
+      "capacity": "770 ml toz, 300 ml temiz su, 360 ml kirli su",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 4,
+      "weightKg": 4.1,
+      "warrantyYears": 2,
+      "color": "Sarı / Nikel"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-v15sub-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 39999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 6700,
+        "url": "https://www.epey.com/supurge/dyson-v15s-detect-submarine.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-09-01",
+        "price": 29999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 39999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "roborock-dyad-pro-combo",
     "slug": "roborock-dyad-pro-combo",
     "name": "Roborock Dyad Pro Combo 5'i 1 Arada Süpürge",
@@ -5136,6 +6026,89 @@ export const mockAppliances: ApplianceProduct[] = [
     ]
   },
   {
+    "id": "dyson-360-vis-nav",
+    "slug": "dyson-360-vis-nav",
+    "name": "Dyson 360 Vis Nav Robot Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 38799,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 820,
+    "image": "/images/appliances/dyson-901946.png",
+    "images": [
+      "/images/appliances/dyson-901946.png"
+    ],
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Diğer robot süpürgelerin 2 katı emiş gücü (110.000 rpm Hyperdymium motor)",
+      "360° Balıkgözü Kameralı SLAM Navigasyon & 26 LED Işık Halkası",
+      "D-Shape tasarımı ve Köşe Temizleme için Genişleyen Yan Emiş Kanalı",
+      "Tam Boy Fluffy + Fırça Rulosu"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürge",
+      "powerWatts": 65,
+      "suctionPowerPa": 6500,
+      "batteryRuntimeMin": 50,
+      "noiseLevelDb": 74,
+      "capacity": "500 ml toz haznesi",
+      "autoCleanDock": false,
+      "appControl": true,
+      "programsCount": 4,
+      "weightKg": 4.5,
+      "warrantyYears": 2,
+      "color": "Mavi / Nikel"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-360vn-1",
+        "storeName": "Dyson TR Resmi",
+        "storeLogoColor": "#000000",
+        "price": 38799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/robot-supurge/dyson-360-vis-nav.html"
+      },
+      {
+        "id": "so-dy-360vn-2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 39499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/robot-supurge/dyson-360-vis-nav.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-10-01",
+        "price": 44999,
+        "store": "Dyson TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 38799,
+        "store": "Dyson TR"
+      }
+    ]
+  },
+  {
     "id": "roborock-s8-sonic",
     "slug": "roborock-s8",
     "name": "Roborock S8 Sonic Robot Süpürge",
@@ -5269,6 +6242,74 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2026-08-01",
         "price": 32999,
         "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "dyson-v12s-detect-slim-submarine",
+    "slug": "dyson-v12s-detect-slim-submarine",
+    "name": "Dyson V12s Detect Slim Submarine Islak Kuru Kablosuz Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 32999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 1780,
+    "image": "/images/appliances/dyson-1042048.png",
+    "images": [
+      "/images/appliances/dyson-1042048.png"
+    ],
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Submarine Islak Rulo Başlığı ile Sert Zeminleri Eş Zamanlı Yıkama",
+      "150 AW Emiş & Işıklı Fluffy Başlık",
+      "Hafif ve Kompakt (2.4 kg)",
+      "Tek Tuşla Güç Kontrolü & Piezo Toz Sayacı"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 545,
+      "suctionPowerPa": 23000,
+      "batteryRuntimeMin": 60,
+      "noiseLevelDb": 73,
+      "capacity": "350 ml toz, 300 ml temiz su",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 4,
+      "weightKg": 2.4,
+      "warrantyYears": 2,
+      "color": "Sarı / Nikel"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-v12ssub-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 32999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/supurge/dyson-v12s-detect-slim-submarine.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-11-01",
+        "price": 27999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 32999,
+        "store": "Amazon TR"
       }
     ]
   },
@@ -5560,6 +6601,74 @@ export const mockAppliances: ApplianceProduct[] = [
     ]
   },
   {
+    "id": "dyson-v8-advanced",
+    "slug": "dyson-v8-advanced",
+    "name": "Dyson V8 Advanced Kablosuz Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 20310,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 750,
+    "image": "/images/appliances/dyson-967710.jpg",
+    "images": [
+      "/images/appliances/dyson-967710.jpg"
+    ],
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "130 AW Yükseltilmiş Emiş Gücü",
+      "Motorbar Anti-Tangle Saç Temizleme Başlığı",
+      "40 Dakika Kesintisiz Güç",
+      "Gelişmiş Filtrasyon ile %99.99 Parçacık Yakalama"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 425,
+      "suctionPowerPa": 22000,
+      "batteryRuntimeMin": 40,
+      "noiseLevelDb": 82,
+      "capacity": "540 ml toz haznesi",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 2,
+      "weightKg": 2.5,
+      "warrantyYears": 2,
+      "color": "Gümüş / Mor"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-v8adv-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 20310,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2200,
+        "url": "https://www.epey.com/supurge/dyson-v8-advanced.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-10-01",
+        "price": 16999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 20310,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "roborock-s7-pro-ultra",
     "slug": "roborock-s7-pro-ultra",
     "name": "Roborock S7 Pro Ultra Robot Süpürge & Paspas",
@@ -5694,6 +6803,278 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2026-08-01",
         "price": 58999,
         "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "dyson-supersonic-hd07-412525-01",
+    "slug": "dyson-supersonic-hd07-412525-01",
+    "name": "Dyson Supersonic HD07 Prusya Mavisi / Bakır (412525-01)",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 29000,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 91,
+    "reviewCount": 410,
+    "image": "/images/appliances/dyson-894724.jpg",
+    "images": [
+      "/images/appliances/dyson-894724.jpg"
+    ],
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "Özel Koleksiyon: Prusya Mavisi ve Bakır Renk Uyumu",
+      "Lüks Deri Saklama Kutusu Dahil",
+      "Flyaway Başlığı Dahil 5 Manyetik Başlık",
+      "Akıllı Isı Kontrolü"
+    ],
+    "specs": {
+      "subCategory": "airfryer",
+      "subCategoryLabel": "Saç Kurutma Makinesi",
+      "powerWatts": 1600,
+      "suctionPowerPa": 0,
+      "batteryRuntimeMin": 0,
+      "noiseLevelDb": 77,
+      "capacity": "Lüks Saklama Kutusu + 5 Başlık",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 4,
+      "weightKg": 0.66,
+      "warrantyYears": 2,
+      "color": "Prusya Mavisi / Bakır"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-ss-hd07-pmavi",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 29000,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Özel Seri"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "https://www.epey.com/sac-kurutma-makinesi/dyson-supersonic-412525-01.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-05-01",
+        "price": 17999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 29000,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "dyson-supersonic-hd07-386818-01",
+    "slug": "dyson-supersonic-hd07-386818-01",
+    "name": "Dyson Supersonic HD07 Saç Kurutma Makinesi (386818-01)",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 14728,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 91,
+    "reviewCount": 1420,
+    "image": "/images/appliances/dyson-900206.jpg",
+    "images": [
+      "/images/appliances/dyson-900206.jpg"
+    ],
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Flyaway Başlığı ile Elektriklenen Saçları Pürüzsüzleştirme",
+      "Akıllı Termal Isı Kontrol Sensörleri",
+      "Nikel ve Bakır Şık Gövde",
+      "5 Farklı Manyetik Şekillendirme Aparatı"
+    ],
+    "specs": {
+      "subCategory": "airfryer",
+      "subCategoryLabel": "Saç Kurutma Makinesi",
+      "powerWatts": 1600,
+      "suctionPowerPa": 0,
+      "batteryRuntimeMin": 0,
+      "noiseLevelDb": 77,
+      "capacity": "5 Başlık Seti",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 4,
+      "weightKg": 0.66,
+      "warrantyYears": 2,
+      "color": "Nikel / Bakır"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-ss-hd07-nikel",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 14728,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/sac-kurutma-makinesi/dyson-supersonic-386818-01.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 9999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14728,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dyson-supersonic-hd07-426081-01",
+    "slug": "dyson-supersonic-hd07-426081-01",
+    "name": "Dyson Supersonic HD07 Parlak Bakır / Nikel (426081-01)",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 14499,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 91,
+    "reviewCount": 760,
+    "image": "/images/appliances/dyson-894722.jpg",
+    "images": [
+      "/images/appliances/dyson-894722.jpg"
+    ],
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Parlak Bakır ve Nikel Premium Gövde",
+      "Flyaway Pürüzsüzleştirici Başlık Dahil",
+      "Akıllı Termal Koruma Teknolojisi",
+      "Hızlı Kurutma ve Hassas Şekillendirme"
+    ],
+    "specs": {
+      "subCategory": "airfryer",
+      "subCategoryLabel": "Saç Kurutma Makinesi",
+      "powerWatts": 1600,
+      "suctionPowerPa": 0,
+      "batteryRuntimeMin": 0,
+      "noiseLevelDb": 77,
+      "capacity": "5 Başlık Seti",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 4,
+      "weightKg": 0.66,
+      "warrantyYears": 2,
+      "color": "Parlak Bakır / Nikel"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-ss-hd07-pbakir",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 14499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2100,
+        "url": "https://www.epey.com/sac-kurutma-makinesi/dyson-supersonic-426081-01.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-03-01",
+        "price": 11999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dyson-supersonic-hd07-386732-01",
+    "slug": "dyson-supersonic-hd07-386732-01",
+    "name": "Dyson Supersonic HD07 Saç Kurutma Makinesi (386732-01)",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 14080,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 91,
+    "reviewCount": 1850,
+    "image": "/images/appliances/dyson-906253.jpg",
+    "images": [
+      "/images/appliances/dyson-906253.jpg"
+    ],
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Flyaway Başlık ile Tek Hamlede Işıltılı ve Düz Saçlar",
+      "İkonik Fuşya / Nikel Tasarım",
+      "V9 Dijital Motor Gücü",
+      "Dahili Negatif İyon Teknolojisi"
+    ],
+    "specs": {
+      "subCategory": "airfryer",
+      "subCategoryLabel": "Saç Kurutma Makinesi",
+      "powerWatts": 1600,
+      "suctionPowerPa": 0,
+      "batteryRuntimeMin": 0,
+      "noiseLevelDb": 77,
+      "capacity": "5 Başlık Seti",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 4,
+      "weightKg": 0.66,
+      "warrantyYears": 2,
+      "color": "Fuşya / Nikel"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-ss-hd07-fusya",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 14080,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4900,
+        "url": "https://www.epey.com/sac-kurutma-makinesi/dyson-supersonik-386732-01.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 9999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14080,
+        "store": "Trendyol"
       }
     ]
   },
@@ -6038,6 +7419,74 @@ export const mockAppliances: ApplianceProduct[] = [
     ]
   },
   {
+    "id": "dyson-cyclone-v10-total-clean",
+    "slug": "dyson-cyclone-v10-total-clean",
+    "name": "Dyson Cyclone V10 Total Clean Kablosuz Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 21997,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 1950,
+    "image": "/images/appliances/dyson-836855.jpg",
+    "images": [
+      "/images/appliances/dyson-836855.jpg"
+    ],
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "151 AW Emiş Gücü & 60 Dakika Çalışma",
+      "Zengin Aksesuar Seti ile Köşeden Köşeye Temizlik",
+      "Motorbar Başlık ile Saç Dolaşmasına Son",
+      "Tek Hamlede Hijyenik Hazne Boşaltma"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 525,
+      "suctionPowerPa": 24000,
+      "batteryRuntimeMin": 60,
+      "noiseLevelDb": 77,
+      "capacity": "760 ml toz haznesi",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 3,
+      "weightKg": 2.67,
+      "warrantyYears": 2,
+      "color": "Siyah / Nikel"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-v10tc-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 21997,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/supurge/dyson-cyclone-v10-total-clean.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-02-01",
+        "price": 13999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21997,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "roborock-q7-plus",
     "slug": "roborock-q7-plus",
     "name": "Roborock Q7+ Robot Süpürge",
@@ -6174,6 +7623,74 @@ export const mockAppliances: ApplianceProduct[] = [
     ]
   },
   {
+    "id": "dyson-v8-total-clean",
+    "slug": "dyson-v8-total-clean",
+    "name": "Dyson V8 Total Clean Kablosuz Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 19899,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 2800,
+    "image": "/images/appliances/dyson-894691.png",
+    "images": [
+      "/images/appliances/dyson-894691.png"
+    ],
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "115 AW Emiş Gücü & Dijital V8 Motor",
+      "Motorbar Anti-Tangle Başlık (Saç ve Tüyleri Otomatik Çözer)",
+      "Fluffy Yumuşak Rulo Başlık Dahil",
+      "40 Dakika Çalışma Süresi"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 425,
+      "suctionPowerPa": 21000,
+      "batteryRuntimeMin": 40,
+      "noiseLevelDb": 82,
+      "capacity": "540 ml toz haznesi",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 2,
+      "weightKg": 2.6,
+      "warrantyYears": 2,
+      "color": "Kırmızı / Nikel"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-v8tc-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 19899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8200,
+        "url": "https://www.epey.com/supurge/dyson-v8.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 11999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19899,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
     "id": "roborock-q5",
     "slug": "roborock-q5",
     "name": "Roborock Q5 Robot Süpürge",
@@ -6237,6 +7754,144 @@ export const mockAppliances: ApplianceProduct[] = [
       {
         "date": "2026-08-01",
         "price": 17999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dyson-v15-detect-absolute",
+    "slug": "dyson-v15-detect-absolute",
+    "name": "Dyson V15 Detect Absolute Kablosuz Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 37799,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 4300,
+    "image": "/images/appliances/dyson-693303.jpg",
+    "images": [
+      "/images/appliances/dyson-693303.jpg"
+    ],
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "240 AW Güçlü Emiş Performansı & Hyperdymium Motor",
+      "Işıklı Fluffy Başlık ile Görünmeyen Tozları Ortaya Çıkarma",
+      "Akustik Piezo Sensörü ile Toz Boyutu ve Miktarını Sayma",
+      "LCD Ekranda Gerçek Zamanlı Bilimsel Temizlik Kanıtı"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 660,
+      "suctionPowerPa": 26000,
+      "batteryRuntimeMin": 60,
+      "noiseLevelDb": 75,
+      "capacity": "770 ml toz haznesi",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 3,
+      "weightKg": 3,
+      "warrantyYears": 2,
+      "color": "Sarı / Demir"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-v15da-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 37799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı",
+          "En Çok Satan"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 14500,
+        "url": "https://www.epey.com/supurge/dyson-v15-detect-absolute.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2022-01-01",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 37799,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "dyson-v12-detect-slim-absolute",
+    "slug": "dyson-v12-detect-slim-absolute",
+    "name": "Dyson V12 Detect Slim Absolute Kablosuz Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 33399,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 3400,
+    "image": "/images/appliances/dyson-717288.png",
+    "images": [
+      "/images/appliances/dyson-717288.png"
+    ],
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "2.2 kg Ultra Hafif Tasarım & Tek Tuşla Güç Kontrolü (Tetik Tutma Gerektirmez)",
+      "150 AW Güçlü Emiş & Işıklı Fluffy Başlık",
+      "Piezo Sensörlü LCD Ekran (Toz Analizi ve Kalan Süre)",
+      "Motorbar ve Anti-Tangle Konik Saç Başlığı"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 545,
+      "suctionPowerPa": 23000,
+      "batteryRuntimeMin": 60,
+      "noiseLevelDb": 73,
+      "capacity": "350 ml toz haznesi",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 3,
+      "weightKg": 2.2,
+      "warrantyYears": 2,
+      "color": "Sarı / Demir"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-v12dsa-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 33399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Çok Satan"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 9800,
+        "url": "https://www.epey.com/supurge/dyson-v12-detect-slim-absolute.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2022-03-01",
+        "price": 12999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 33399,
         "store": "Hepsiburada"
       }
     ]
@@ -7265,6 +8920,210 @@ export const mockAppliances: ApplianceProduct[] = [
     ]
   },
   {
+    "id": "dyson-cinetic-big-ball-animal-pro-2",
+    "slug": "dyson-cinetic-big-ball-animal-pro-2",
+    "name": "Dyson Cinetic Big Ball Animal Pro 2 Toz Torbasız Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 25016,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 980,
+    "image": "/images/appliances/dyson-98755.png",
+    "images": [
+      "/images/appliances/dyson-98755.png"
+    ],
+    "releaseYear": 2018,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "Evcil Hayvan Tüyleri İçin Tangle-Free Dolaşmaz Türbin Başlık",
+      "Yıkanması Gerekmeyen Cinetic Filtresiz Teknoloji",
+      "Devrilmeyen Ball Küre Tasarımı",
+      "360° Dönen Eklemli Emiş Borusu"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Toz Torbasız Süpürge",
+      "powerWatts": 700,
+      "suctionPowerPa": 22000,
+      "batteryRuntimeMin": 0,
+      "noiseLevelDb": 80,
+      "capacity": "1.5 L toz haznesi",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 3,
+      "weightKg": 8,
+      "warrantyYears": 5,
+      "color": "Gümüş / Mor"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-cbanim2-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 25016,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/supurge/dyson-cinetic-big-ball-animal-pro-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2020-01-01",
+        "price": 5499,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 25016,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "dyson-cyclone-v10-absolute",
+    "slug": "dyson-cyclone-v10-absolute",
+    "name": "Dyson Cyclone V10 Absolute Kablosuz Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 23642,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 3600,
+    "image": "/images/appliances/dyson-108124.png",
+    "images": [
+      "/images/appliances/dyson-108124.png"
+    ],
+    "releaseYear": 2018,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "151 AW Güçlü Emiş & 14 Siklonik Güç Merkezi",
+      "60 Dakika Kesintisiz Pil Ömrü",
+      "Doğrusal Hava Akışı Sayesinde %20 Daha Fazla Emiş",
+      "Direct Drive Halı Başlığı + Fluffy Yumuşak Rulo Başlık"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 525,
+      "suctionPowerPa": 24000,
+      "batteryRuntimeMin": 60,
+      "noiseLevelDb": 77,
+      "capacity": "760 ml toz haznesi",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 3,
+      "weightKg": 2.68,
+      "warrantyYears": 2,
+      "color": "Bakır / Nikel"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-v10abs-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 23642,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 9400,
+        "url": "https://www.epey.com/supurge/dyson-cyclone-v10-absolute.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2020-01-01",
+        "price": 6499,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 23642,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "dyson-cinetic-big-ball-absolute-2",
+    "slug": "dyson-cinetic-big-ball-absolute-2",
+    "name": "Dyson Cinetic Big Ball Absolute 2 Toz Torbasız Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 20505,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 1650,
+    "image": "/images/appliances/dyson-370086.png",
+    "images": [
+      "/images/appliances/dyson-370086.png"
+    ],
+    "releaseYear": 2018,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Dyson Cinetic Bilimi: Filtre Yıkama veya Değiştirme Gerektirmez",
+      "Devrildiğinde Kendi Kendini Düzelten Gövde Mimarisi",
+      "Hijyenik Tek Tuşla Hazne Boşaltma",
+      "Pnömatik Zemin Başlığı & Karbon Fiber Türbin Başlık"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Toz Torbasız Süpürge",
+      "powerWatts": 700,
+      "suctionPowerPa": 22000,
+      "batteryRuntimeMin": 0,
+      "noiseLevelDb": 80,
+      "capacity": "1.5 L toz haznesi",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 3,
+      "weightKg": 8,
+      "warrantyYears": 5,
+      "color": "Gümüş / Kırmızı"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-cbba2-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 20505,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 8900,
+        "url": "https://www.epey.com/supurge/dyson-cinetic-big-ball-absolute-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2020-01-01",
+        "price": 4999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 20505,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "roborock-s55",
     "slug": "roborock-s55",
     "name": "Roborock S55 Robot Süpürge",
@@ -7328,6 +9187,74 @@ export const mockAppliances: ApplianceProduct[] = [
       {
         "date": "2026-08-01",
         "price": 22999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "dyson-big-ball-multi-floor-2",
+    "slug": "dyson-big-ball-multi-floor-2",
+    "name": "Dyson Big Ball Multi Floor 2 Toz Torbasız Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 15449,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 87,
+    "reviewCount": 2400,
+    "image": "/images/appliances/dyson-102283.jpg",
+    "images": [
+      "/images/appliances/dyson-102283.jpg"
+    ],
+    "releaseYear": 2018,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "2 Tier Radial™ Siklon Teknolojisi ile Yüksek Emiş",
+      "Devrilmeyen ve Kendi Kendine Doğrulan Küre Gövde",
+      "Pnömatik Zemin Başlığı ile Otomatik Zemin Ayarı",
+      "1.8 L Ekstra Geniş Hijyenik Toz Haznesi"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Toz Torbasız Süpürge",
+      "powerWatts": 600,
+      "suctionPowerPa": 20000,
+      "batteryRuntimeMin": 0,
+      "noiseLevelDb": 80,
+      "capacity": "1.8 L toz haznesi",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 3,
+      "weightKg": 7.96,
+      "warrantyYears": 5,
+      "color": "Sarı / Gri"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-bbmf2-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 15449,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çok Satan"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 11200,
+        "url": "https://www.epey.com/supurge/dyson-big-ball-multi-floor-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2020-01-01",
+        "price": 3299,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 15449,
         "store": "Trendyol"
       }
     ]
@@ -7941,6 +9868,142 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2026-08-01",
         "price": 21999,
         "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "dyson-supersonic-classic",
+    "slug": "dyson-supersonic-classic",
+    "name": "Dyson Supersonic Saç Kurutma Makinesi",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 14000,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 3100,
+    "image": "/images/appliances/dyson-117291.jpg",
+    "images": [
+      "/images/appliances/dyson-117291.jpg"
+    ],
+    "releaseYear": 2016,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Dyson V9 Dijital Motor & Air Multiplier Teknolojisi",
+      "Aşırı Isı Hasarını Önleyen Akıllı Isı Kontrolü (Saniyede 40 Kez Ölçüm)",
+      "Manyetik 360° Dönebilen Şekillendirme Başlıkları",
+      "Hızlı ve Kontrollü Kurutma"
+    ],
+    "specs": {
+      "subCategory": "airfryer",
+      "subCategoryLabel": "Saç Kurutma Makinesi",
+      "powerWatts": 1600,
+      "suctionPowerPa": 0,
+      "batteryRuntimeMin": 0,
+      "noiseLevelDb": 77,
+      "capacity": "Manyetik Başlıklar",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 4,
+      "weightKg": 0.66,
+      "warrantyYears": 2,
+      "color": "Fuşya / Demir"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-ss-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 14000,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 7800,
+        "url": "https://www.epey.com/sac-kurutma-makinesi/dyson-supersonic.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2020-01-01",
+        "price": 2999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14000,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "dyson-v8-absolute",
+    "slug": "dyson-v8-absolute",
+    "name": "Dyson V8 Absolute Kablosuz Dikey Süpürge",
+    "brand": "Dyson",
+    "category": "appliances",
+    "basePrice": 33074,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 3900,
+    "image": "/images/appliances/dyson-65505.jpg",
+    "images": [
+      "/images/appliances/dyson-65505.jpg"
+    ],
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "115 AW Emiş Gücü",
+      "Tüm Evi Temizleyen Çift Ana Başlık (Direct Drive + Fluffy)",
+      "Gelişmiş Tüm Cihaz HEPA Filtrasyonu",
+      "40 Dakika Kesintisiz Güç"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürge",
+      "powerWatts": 425,
+      "suctionPowerPa": 21000,
+      "batteryRuntimeMin": 40,
+      "noiseLevelDb": 82,
+      "capacity": "540 ml toz haznesi",
+      "autoCleanDock": false,
+      "appControl": false,
+      "programsCount": 2,
+      "weightKg": 2.61,
+      "warrantyYears": 2,
+      "color": "Sarı / Nikel"
+    },
+    "storeOffers": [
+      {
+        "id": "so-dy-v8abs-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 33074,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Klasik Model"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 11000,
+        "url": "https://www.epey.com/supurge/dyson-v8-absolute.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2020-01-01",
+        "price": 4999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 33074,
+        "store": "Trendyol"
       }
     ]
   }
