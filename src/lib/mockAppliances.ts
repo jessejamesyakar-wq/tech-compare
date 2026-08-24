@@ -2,6 +2,402 @@ import { ApplianceProduct } from './types';
 
 export const mockAppliances: ApplianceProduct[] = [
   {
+    "id": "philips-hr2156-90",
+    "slug": "philips-hr2156-90",
+    "name": "Philips Viva Collection HR2156/90 600W 2L ProBlend 5 Cam Hazneli Blender",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 7904.07,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 310,
+    "image": "/images/appliances/philips-hr2156-90.png",
+    "images": [
+      "/images/appliances/philips-hr2156-90.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "600 Watt Güçlü Motor & ProBlend 5 Yıldız Bıçak Teknolojisi",
+      "2 Litre Darbeye Dayanıklı Kırılmaz Cam Sürahi (1.5L Çalışma Kapasitesi)",
+      "Buz Kırma Fonksiyonu ve 8 Kademeli Hız Ayarı",
+      "Bulaşık Makinesinde Yıkanabilir Parçalar"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Blender",
+      "powerWatts": 600,
+      "capacityLiters": 2,
+      "programsCount": 8,
+      "dishwasherSafeParts": true,
+      "autoShutOff": true,
+      "weightKg": 2.9,
+      "warrantyYears": 2,
+      "color": "Siyah / Krom"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hr2156-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 7904.07,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "ProBlend 5 Cam Sürahi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 430,
+        "url": "https://www.epey.com/blender/philips-hr2156-90.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 8490,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7904.07,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-daily-collection-hr2602",
+    "slug": "philips-daily-collection-hr2602",
+    "name": "Philips Daily Collection HR2602/00 350W Kompakt Mini Smoothie Blender",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 7258.68,
+    "currency": "TL",
+    "rating": 4.6,
+    "epeyScore": 89,
+    "reviewCount": 280,
+    "image": "/images/appliances/philips-hr2602.jpg",
+    "images": [
+      "/images/appliances/philips-hr2602.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "350 Watt Kompakt Güç & 4 Yıldızlı Paslanmaz Çelik Bıçak",
+      "0.6 Litre Taşınabilir On-the-Go Şişe ile Yanında Taşıma Kolaylığı",
+      "2 Farklı Hız Kademesi & Kolay Buz Kırma",
+      "Ultra Kompakt Tasarım ve Bulaşık Makinesinde Yıkanabilir Parçalar"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Blender",
+      "powerWatts": 350,
+      "capacityLiters": 0.6,
+      "programsCount": 2,
+      "dishwasherSafeParts": true,
+      "autoShutOff": true,
+      "weightKg": 1.1,
+      "warrantyYears": 2,
+      "color": "İpek Beyazı / Gri"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hr2602-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 7258.68,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Taşınabilir Şişeli Smoothie",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 610,
+        "url": "https://www.epey.com/blender/philips-daily-collection-hr2602.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 7800,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7258.68,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-eco-conscious-hd2640-10",
+    "slug": "philips-eco-conscious-hd2640-10",
+    "name": "Philips Eco Conscious HD2640/10 830W %100 Biyobazlı Doğa Dostu Ekmek Kızartma Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 3690,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 410,
+    "image": "/images/appliances/philips-hd2640-10.jpg",
+    "images": [
+      "/images/appliances/philips-hd2640-10.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "%100 Biyobazlı Plastik ve Çevre Dostu Sürdürülebilir İpek Beyazı Tasarım",
+      "830 Watt Güç & 8 Kademeli Hassas Kızartma Ayarı",
+      "Entegre Çörek Isıtma Rafı & Buz Çözme Fonksiyonu",
+      "Çıkarılabilir Kırıntı Tepsisi ve Toz Kapağı"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Ekmek Kızartma Makinesi",
+      "powerWatts": 830,
+      "programsCount": 8,
+      "dishwasherSafeParts": true,
+      "autoShutOff": true,
+      "weightKg": 1.2,
+      "warrantyYears": 2,
+      "color": "İpek Beyazı / Doğal Ahşap Dokusu"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hd2640-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 3690,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Eco Conscious Doğa Dostu"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1250,
+        "url": "https://www.epey.com/ekmek-kizartma-makinesi/philips-eco-conscious-hd2640-10.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3690,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-aqua-pro-gc9420-80",
+    "slug": "philips-perfectcare-aqua-pro-gc9420-80",
+    "name": "Philips PerfectCare Aqua Pro GC9420/80 6.7 Bar 2.5L Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 35999,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 390,
+    "image": "/images/appliances/philips-gc9420-80.jpg",
+    "images": [
+      "/images/appliances/philips-gc9420-80.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "6.7 Bar Yüksek Basınç & 450g Ekstra Güçlü Şok Buhar (120 g/dk Sürekli Buhar)",
+      "2.5 Litre Dev Su Tankı ile Saatlerce Kesintisiz Ütüleme",
+      "T-ionicGlide Üstün Kaygan Titanyum Taban & OptimalTEMP Sıfır Yanık Garantisi",
+      "Ultra Hafif Ütü Gövdesi ve Kolay Kireç Temizleme Easy De-Calc Plus"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2100,
+      "steamOutputGramsPerMin": 120,
+      "steamBoostGramsPerMin": 450,
+      "pressureBar": 6.7,
+      "waterTankCapacityLiters": 2.5,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 4.2,
+      "warrantyYears": 2,
+      "color": "Koyu Mor / Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc9420-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 35999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "2.5L Dev Kazan",
+          "6.7 Bar"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 820,
+        "url": "https://www.epey.com/utu/philips-perfect-care-aqua-pro-gc9420-80.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 38000,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 35999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-compact-essential-gc6800-20",
+    "slug": "philips-perfectcare-compact-essential-gc6800-20",
+    "name": "Philips PerfectCare Compact Essential GC6800/20 Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 9253.5,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 91,
+    "reviewCount": 320,
+    "image": "/images/appliances/philips-gc6800-20.jpg",
+    "images": [
+      "/images/appliances/philips-gc6800-20.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "5.5 Bar Pompa Basıncı & 220g Şok Buhar (110 g/dk Sürekli Buhar)",
+      "SteamGlide Plus Çizilmeye Karşı Dayanıklı Taban",
+      "OptimalTEMP Teknolojisi ile Sıfır Yanık Garantisi",
+      "1.3 Litre Su Haznesi ve Kompakt Taşıma Kilidi"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2400,
+      "steamOutputGramsPerMin": 110,
+      "steamBoostGramsPerMin": 220,
+      "pressureBar": 5.5,
+      "waterTankCapacityLiters": 1.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 2.8,
+      "warrantyYears": 2,
+      "color": "Açık Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc6800-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 9253.5,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Compact Essential"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 540,
+        "url": "https://www.epey.com/utu/philips-gc6800-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 9900,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9253.5,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-1000-serisi-nt1650-16",
+    "slug": "philips-1000-serisi-nt1650-16",
+    "name": "Philips 1000 Serisi NT1650/16 Burun ve Kulak Kılı Düzeltici",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 999,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 3200,
+    "image": "/images/appliances/philips-nt1650.jpg",
+    "images": [
+      "/images/appliances/philips-nt1650.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "PrecisionTrim Teknolojisi ile Çekmesiz ve Acısız Kesim",
+      "Çift Taraflı Ultra Keskin Koruyucu Bıçak Yapısı",
+      "%100 Su Geçirmez (Musluk Altında Yıkanabilir)",
+      "AA Pil ile Pratik Kablosuz Kullanım"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Burun ve Kulak Kılı Düzeltici",
+      "batteryRuntimeMin": 60,
+      "wetDryUsage": true,
+      "bladeMaterial": "Paslanmaz Çelik PrecisionTrim",
+      "weightKg": 0.11,
+      "warrantyYears": 2,
+      "color": "Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-nt1650-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çok Satan Kişisel Bakım",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 12500,
+        "url": "https://www.epey.com/tiras-makinesi/philips-1000-serisi-nt1650.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1150,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 999,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "philips-all-in-one-cooker-hd2151-62",
     "slug": "philips-all-in-one-cooker-hd2151-62",
     "name": "Philips All-in-One Cooker HD2151/62 5L Akıllı Çok Amaçlı Düdüklü Pişirici",

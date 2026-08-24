@@ -2,6 +2,81 @@ import { Product } from './types';
 
 export const mockTablets: Product[] = [
   {
+    "id": "philips-t7310",
+    "slug": "philips-t7310",
+    "name": "Philips T7310 10.1\" FHD IPS 4G LTE 4GB RAM 64GB Android Tablet",
+    "brand": "Philips",
+    "category": "tablets",
+    "basePrice": 9808.9,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 88,
+    "image": "/images/tablets/philips-t7310.jpg",
+    "images": [
+      "/images/tablets/philips-t7310.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "10.1 İnç Full HD (1920 x 1200) IPS Dokunmatik Canlı Ekran",
+      "4G LTE SIM Kart Yuvası ile Her Yerde Kesintisiz Mobil İnternet",
+      "4 GB RAM & 64 GB Genişletilebilir Dahili Hafıza",
+      "Metalik Sağlam Kasa & Çift Hoparlör Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 10.1,
+      "screenResolution": "1920 x 1200 (FHD)",
+      "panelType": "IPS LCD",
+      "refreshRateHz": 60,
+      "processor": "Octa-Core 2.0 GHz İşlemci",
+      "ramGb": 4,
+      "storageGb": 64,
+      "batteryMah": 6000,
+      "rearCameraMp": "13 MP",
+      "frontCameraMp": "5 MP",
+      "weightGrams": 520,
+      "os": "Android 13",
+      "connectivity": [
+        "4G LTE",
+        "Wi-Fi 5",
+        "Bluetooth 5.0",
+        "USB Type-C",
+        "3.5mm Jak"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "so-t7310-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 9808.9,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "10.1\" FHD 4G LTE",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 450,
+        "url": "https://www.epey.com/tablet/philips-t7310.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 10500,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9808.9,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
     "id": "philips-m10-pro",
     "slug": "philips-m10-pro",
     "name": "Philips M10 Pro 4 GB RAM / 64 GB LTE Tablet",

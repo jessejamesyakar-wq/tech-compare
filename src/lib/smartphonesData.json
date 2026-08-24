@@ -1,5 +1,78 @@
 [
   {
+    "id": "philips-xenium-e227",
+    "slug": "philips-xenium-e227",
+    "name": "Philips Xenium E227 Yaşlı & Acil Durum Uyumlu Şarj Standlı Tuşlu Telefon",
+    "brand": "Philips",
+    "category": "smartphones",
+    "basePrice": 3289,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 340,
+    "image": "/images/phones/philips-xenium-e227.png",
+    "images": [
+      "/images/phones/philips-xenium-e227.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Geniş Tuş Takımı, Büyük Yazı Boyutu ve Arka Acil Durum SOS Düğmesi",
+      "Pratik Masaüstü Şarj Standı ile Kolay Şarj Deneyimi",
+      "1700 mAh Uzun Ömürlü Xenium Batarya ile Haftalarca Bekleme Süresi",
+      "Güçlü Hoparlör & FM Radyo ve El Feneri"
+    ],
+    "specs": {
+      "screenSizeInches": 2.8,
+      "screenResolution": "240 x 320",
+      "panelType": "TFT",
+      "refreshRateHz": 60,
+      "processor": "Single-Core Feature Phone Platform",
+      "ramGb": 0.1,
+      "storageGb": 0.1,
+      "batteryMah": 1700,
+      "rearCameraMp": "0.3 MP",
+      "frontCameraMp": "-",
+      "weightGrams": 118,
+      "os": "Özel Tuşlu Arayüz",
+      "connectivity": [
+        "2G GSM",
+        "Bluetooth",
+        "Masaüstü Şarj Ünitesi"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "so-e227-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 3289,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Masaüstü Şarj Standlı",
+          "SOS Düğmesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/tuslu-telefon/philips-xenium-e227.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 3500,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3289,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "philips-xenium-x818",
     "slug": "philips-xenium-x818",
     "name": "Philips Xenium X818 32 GB",
