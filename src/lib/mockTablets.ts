@@ -42302,5 +42302,1247 @@ export const mockTablets: Product[] = [
         "store": "Hepsiburada"
       }
     ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-s23-ultra-s-pen",
+    "slug": "samsung-samsung-galaxy-s23-ultra-s-pen",
+    "name": "Samsung Galaxy S23 Ultra S Pen",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 1999,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 97,
+    "reviewCount": 355,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-923375.jpg",
+    "images": [
+      "/images/tablets/samsung-923375.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "4096 Basınç Seviyesi ve 2.8ms Ultra Düşük Gecikme"
+    ],
+    "specs": {
+      "productType": "Stylus Kalem",
+      "screenSizeInches": 14.6,
+      "compatibility": "Samsung Galaxy S23 Ultra S Pen",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 14
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-923375-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-s23-ultra-s-pen.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1999,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-s22-akilli-led-kilif",
+    "slug": "samsung-samsung-galaxy-s22-akilli-led-kilif",
+    "name": "Samsung Galaxy S22 Akıllı LED Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 1499,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 97,
+    "reviewCount": 299,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-906119.jpg",
+    "images": [
+      "/images/tablets/samsung-906119.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "Darbe Emici ve Çizilmeye Karşı Üstün Koruma"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf / Aksesuar",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy S22 Akıllı LED Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 320
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-906119-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-s22-akilli-led-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1499,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-s-pen-fold5-edition",
+    "slug": "samsung-samsung-galaxy-s-pen-fold5-edition",
+    "name": "Samsung Galaxy S Pen Fold5 Edition",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 1999,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 95,
+    "reviewCount": 333,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-903753.jpg",
+    "images": [
+      "/images/tablets/samsung-903753.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "4096 Basınç Seviyesi ve 2.8ms Ultra Düşük Gecikme"
+    ],
+    "specs": {
+      "productType": "Stylus Kalem",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy S Pen Fold5 Edition",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 14
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-903753-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-s-pen-fold5-edition.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1999,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-z-flip4-yuzuklu-silikon-kilif",
+    "slug": "samsung-samsung-galaxy-z-flip4-yuzuklu-silikon-kilif",
+    "name": "Samsung Galaxy Z Flip4 Yüzüklü Silikon Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 1499,
+    "currency": "TL",
+    "rating": 4.83,
+    "epeyScore": 90,
+    "reviewCount": 344,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-890164.jpg",
+    "images": [
+      "/images/tablets/samsung-890164.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "Darbe Emici ve Çizilmeye Karşı Üstün Koruma"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf / Aksesuar",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy Z Flip4 Yüzüklü Silikon Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 320
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-890164-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-z-flip-4-yuzuklu-silikon-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1499,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-tab-s7-s7-fe-s8-turkce-klavyeli-kilif",
+    "slug": "samsung-samsung-galaxy-tab-s7-s7-fe-s8-turkce-klavyeli-kilif",
+    "name": "Samsung Galaxy Tab S7+/S7 FE/S8+ Türkçe Klavyeli Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 4999,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 91,
+    "reviewCount": 321,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-890141.jpg",
+    "images": [
+      "/images/tablets/samsung-890141.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "Darbe Emici ve Çizilmeye Karşı Üstün Koruma"
+    ],
+    "specs": {
+      "productType": "Klavyeli Tablet Kılıfı",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy Tab S7+/S7 FE/S8+ Türkçe Klavyeli Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 320
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-890141-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-tab-s7-plus-s7-fe-s8-plus-turkce-klavyeli-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-tab-s8-ultra-kapakli-kilif",
+    "slug": "samsung-samsung-galaxy-tab-s8-ultra-kapakli-kilif",
+    "name": "Samsung Galaxy Tab S8 Ultra Kapaklı Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 2299,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 95,
+    "reviewCount": 301,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-890121.jpg",
+    "images": [
+      "/images/tablets/samsung-890121.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "Darbe Emici ve Çizilmeye Karşı Üstün Koruma"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf / Aksesuar",
+      "screenSizeInches": 14.6,
+      "compatibility": "Samsung Galaxy Tab S8 Ultra Kapaklı Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 320
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-890121-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 2299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-tab-s8-ultra-kapakli-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2299,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-tab-s8-ultra-ayakli-koruyucu-kilif",
+    "slug": "samsung-samsung-galaxy-tab-s8-ultra-ayakli-koruyucu-kilif",
+    "name": "Samsung Galaxy Tab S8 Ultra Ayaklı Koruyucu Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 2299,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 97,
+    "reviewCount": 231,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-890051.jpg",
+    "images": [
+      "/images/tablets/samsung-890051.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "Darbe Emici ve Çizilmeye Karşı Üstün Koruma"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf / Aksesuar",
+      "screenSizeInches": 14.6,
+      "compatibility": "Samsung Galaxy Tab S8 Ultra Ayaklı Koruyucu Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 320
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-890051-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 2299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-tab-s8-ultra-ayakli-koruyucu-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2299,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-tab-s7-s8-kapakli-kilif",
+    "slug": "samsung-samsung-galaxy-tab-s7-s8-kapakli-kilif",
+    "name": "Samsung Galaxy Tab S7/S8 Kapaklı Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 2299,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 89,
+    "reviewCount": 187,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-890007.jpg",
+    "images": [
+      "/images/tablets/samsung-890007.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "Darbe Emici ve Çizilmeye Karşı Üstün Koruma"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf / Aksesuar",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy Tab S7/S8 Kapaklı Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 320
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-890007-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 2299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-tab-s7-s8-kapakli-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2299,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-s23-ultra-kayisli-silikon-kilif",
+    "slug": "samsung-samsung-galaxy-s23-ultra-kayisli-silikon-kilif",
+    "name": "Samsung Galaxy S23 Ultra Kayışlı Silikon Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 1499,
+    "currency": "TL",
+    "rating": 4.83,
+    "epeyScore": 87,
+    "reviewCount": 353,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-886573.jpg",
+    "images": [
+      "/images/tablets/samsung-886573.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "Darbe Emici ve Çizilmeye Karşı Üstün Koruma"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf / Aksesuar",
+      "screenSizeInches": 14.6,
+      "compatibility": "Samsung Galaxy S23 Ultra Kayışlı Silikon Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 320
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-886573-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-s23-ultra-kayisli-silikon-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1499,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-s23-cok-amacli-seffaf-kilif",
+    "slug": "samsung-samsung-galaxy-s23-cok-amacli-seffaf-kilif",
+    "name": "Samsung Galaxy S23+ Çok Amaçlı Şeffaf Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 1499,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 89,
+    "reviewCount": 331,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-886551.jpg",
+    "images": [
+      "/images/tablets/samsung-886551.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "Darbe Emici ve Çizilmeye Karşı Üstün Koruma"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf / Aksesuar",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy S23+ Çok Amaçlı Şeffaf Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 320
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-886551-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-s23-plus-cok-amacli-seffaf-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1499,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-s23-ultra-cok-amacli-seffaf-kilif",
+    "slug": "samsung-samsung-galaxy-s23-ultra-cok-amacli-seffaf-kilif",
+    "name": "Samsung Galaxy S23 Ultra Çok Amaçlı Şeffaf Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 1499,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 97,
+    "reviewCount": 327,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-886547.jpg",
+    "images": [
+      "/images/tablets/samsung-886547.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "Darbe Emici ve Çizilmeye Karşı Üstün Koruma"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf / Aksesuar",
+      "screenSizeInches": 14.6,
+      "compatibility": "Samsung Galaxy S23 Ultra Çok Amaçlı Şeffaf Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 320
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-886547-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-s23-ultra-cok-amacli-seffaf-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1499,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-s23-deri-kilif",
+    "slug": "samsung-samsung-galaxy-s23-deri-kilif",
+    "name": "Samsung Galaxy S23 Deri Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 1899,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 91,
+    "reviewCount": 309,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-886529.jpg",
+    "images": [
+      "/images/tablets/samsung-886529.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "Darbe Emici ve Çizilmeye Karşı Üstün Koruma"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf / Aksesuar",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy S23 Deri Kılıf",
+      "material": "Eco Deri",
+      "weightGrams": 320
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-886529-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-s23-deri-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1899,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-s23-kayisli-silikon-kilif",
+    "slug": "samsung-samsung-galaxy-s23-kayisli-silikon-kilif",
+    "name": "Samsung Galaxy S23 Kayışlı Silikon Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 1499,
+    "currency": "TL",
+    "rating": 4.83,
+    "epeyScore": 90,
+    "reviewCount": 296,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-886516.jpg",
+    "images": [
+      "/images/tablets/samsung-886516.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "Darbe Emici ve Çizilmeye Karşı Üstün Koruma"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf / Aksesuar",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy S23 Kayışlı Silikon Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 320
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-886516-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-s23-kayisli-silikon-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1499,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-s23-smart-view-cuzdan-tipi-kilif",
+    "slug": "samsung-samsung-galaxy-s23-smart-view-cuzdan-tipi-kilif",
+    "name": "Samsung Galaxy S23 Smart View Cüzdan Tipi Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 1899,
+    "currency": "TL",
+    "rating": 4.83,
+    "epeyScore": 90,
+    "reviewCount": 248,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-886468.jpg",
+    "images": [
+      "/images/tablets/samsung-886468.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "Darbe Emici ve Çizilmeye Karşı Üstün Koruma"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf / Aksesuar",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy S23 Smart View Cüzdan Tipi Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 320
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-886468-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-s23-smart-view-cuzdan-tipi-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1899,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-s23-ultra-cerceveli-kilif",
+    "slug": "samsung-samsung-galaxy-s23-ultra-cerceveli-kilif",
+    "name": "Samsung Galaxy S23 Ultra Çerçeveli Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 1499,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 86,
+    "reviewCount": 488,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-886308.jpg",
+    "images": [
+      "/images/tablets/samsung-886308.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "Darbe Emici ve Çizilmeye Karşı Üstün Koruma"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf / Aksesuar",
+      "screenSizeInches": 14.6,
+      "compatibility": "Samsung Galaxy S23 Ultra Çerçeveli Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 320
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-886308-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-s23-ultra-cerceveli-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1499,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-tab-a7-turkce-klavyeli-kilif",
+    "slug": "samsung-samsung-galaxy-tab-a7-turkce-klavyeli-kilif",
+    "name": "Samsung Galaxy Tab A7 Türkçe Klavyeli Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 4999,
+    "currency": "TL",
+    "rating": 4.83,
+    "epeyScore": 96,
+    "reviewCount": 270,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-886090.jpg",
+    "images": [
+      "/images/tablets/samsung-886090.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "Darbe Emici ve Çizilmeye Karşı Üstün Koruma"
+    ],
+    "specs": {
+      "productType": "Klavyeli Tablet Kılıfı",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy Tab A7 Türkçe Klavyeli Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 320
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-886090-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-tab-a7-turkce-klavyeli-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-tab-s9-ultra-mousepadli-klavyeli-kapakli-kilif",
+    "slug": "samsung-samsung-galaxy-tab-s9-ultra-mousepadli-klavyeli-kapakli-kilif",
+    "name": "Samsung Galaxy Tab S9 Ultra Mousepadli Klavyeli Kapaklı Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 4999,
+    "currency": "TL",
+    "rating": 4.83,
+    "epeyScore": 93,
+    "reviewCount": 475,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-885895.jpg",
+    "images": [
+      "/images/tablets/samsung-885895.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "Darbe Emici ve Çizilmeye Karşı Üstün Koruma"
+    ],
+    "specs": {
+      "productType": "Klavyeli Tablet Kılıfı",
+      "screenSizeInches": 14.6,
+      "compatibility": "Samsung Galaxy Tab S9 Ultra Mousepadli Klavyeli Kapaklı Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 320
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-885895-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-tab-s9-ultra-mousepadli-klavyeli-kapakli-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-tab-s9-mousepadli-klavyeli-kapakli-kilif",
+    "slug": "samsung-samsung-galaxy-tab-s9-mousepadli-klavyeli-kapakli-kilif",
+    "name": "Samsung Galaxy Tab S9+ Mousepadli Klavyeli Kapaklı Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 4999,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 89,
+    "reviewCount": 471,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-885891.jpg",
+    "images": [
+      "/images/tablets/samsung-885891.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "Darbe Emici ve Çizilmeye Karşı Üstün Koruma"
+    ],
+    "specs": {
+      "productType": "Klavyeli Tablet Kılıfı",
+      "screenSizeInches": 12.4,
+      "compatibility": "Samsung Galaxy Tab S9+ Mousepadli Klavyeli Kapaklı Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 320
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-885891-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-tab-s9-plus-mousepadli-klavyeli-kapakli-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-tab-s9-ultra-akilli-kapakli-kilif",
+    "slug": "samsung-samsung-galaxy-tab-s9-ultra-akilli-kapakli-kilif",
+    "name": "Samsung Galaxy Tab S9 Ultra Akıllı Kapaklı Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 2299,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 86,
+    "reviewCount": 456,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-885876.jpg",
+    "images": [
+      "/images/tablets/samsung-885876.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "Darbe Emici ve Çizilmeye Karşı Üstün Koruma"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf / Aksesuar",
+      "screenSizeInches": 14.6,
+      "compatibility": "Samsung Galaxy Tab S9 Ultra Akıllı Kapaklı Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 320
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-885876-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 2299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-tab-s9-ultra-akilli-kapakli-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2299,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-tab-s9-akilli-kapakli-kilif",
+    "slug": "samsung-samsung-galaxy-tab-s9-akilli-kapakli-kilif",
+    "name": "Samsung Galaxy Tab S9 Akıllı Kapaklı Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 2299,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 91,
+    "reviewCount": 449,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-885869.jpg",
+    "images": [
+      "/images/tablets/samsung-885869.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "Darbe Emici ve Çizilmeye Karşı Üstün Koruma"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf / Aksesuar",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy Tab S9 Akıllı Kapaklı Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 320
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-885869-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 2299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-tab-s9-akilli-kapakli-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2299,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-z-flip5-halkali-standli-kilif",
+    "slug": "samsung-samsung-galaxy-z-flip5-halkali-standli-kilif",
+    "name": "Samsung Galaxy Z Flip5 Halkalı Standlı Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 1499,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 89,
+    "reviewCount": 435,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-885855.jpg",
+    "images": [
+      "/images/tablets/samsung-885855.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "Darbe Emici ve Çizilmeye Karşı Üstün Koruma"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf / Aksesuar",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy Z Flip5 Halkalı Standlı Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 320
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-885855-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-z-flip5-halkali-standli-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1499,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-z-flip5-akilli-tasarim-kilif",
+    "slug": "samsung-samsung-galaxy-z-flip5-akilli-tasarim-kilif",
+    "name": "Samsung Galaxy Z Flip5 Akıllı Tasarım Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 1499,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 88,
+    "reviewCount": 434,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-885854.jpg",
+    "images": [
+      "/images/tablets/samsung-885854.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "Darbe Emici ve Çizilmeye Karşı Üstün Koruma"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf / Aksesuar",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy Z Flip5 Akıllı Tasarım Kılıf",
+      "material": "Polikarbonat & TPU",
+      "weightGrams": 320
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-885854-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-z-flip5-akilli-tasarim-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1499,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-z-flip5-eco-deri-kilif",
+    "slug": "samsung-samsung-galaxy-z-flip5-eco-deri-kilif",
+    "name": "Samsung Galaxy Z Flip5 Eco Deri Kılıf",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 1899,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 428,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-885848.jpg",
+    "images": [
+      "/images/tablets/samsung-885848.jpg"
+    ],
+    "highlights": [
+      "Samsung Orijinal Üretim ve %100 Cihaz Uyumluluğu",
+      "Premium Kalite Malzeme & Ergonomik Tasarım",
+      "Darbe Emici ve Çizilmeye Karşı Üstün Koruma"
+    ],
+    "specs": {
+      "productType": "Koruyucu Kılıf / Aksesuar",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy Z Flip5 Eco Deri Kılıf",
+      "material": "Eco Deri",
+      "weightGrams": 320
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-885848-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 1899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Samsung Aksesuarı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "https://www.epey.com/urun/samsung-galaxy-z-flip5-eco-deri-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 1899,
+        "store": "Samsung TR"
+      }
+    ]
   }
 ];

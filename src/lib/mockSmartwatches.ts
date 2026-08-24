@@ -8480,5 +8480,333 @@ export const mockSmartwatches: Product[] = [
         "store": "Samsung TR"
       }
     ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-watch-ultra-lte",
+    "slug": "samsung-samsung-galaxy-watch-ultra-lte",
+    "name": "Samsung Galaxy Watch Ultra LTE",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "basePrice": 27999,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 92,
+    "reviewCount": 812,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/samsung-1026462.jpg",
+    "images": [
+      "/images/smartwatches/samsung-1026462.jpg"
+    ],
+    "highlights": [
+      "4G LTE eSIM Desteği ile Telefondan Bağımsız Çağrı ve İnternet",
+      "BioActive Sensör ile Gelişmiş Kalp, EKG ve Uyku Apnesi Takibi",
+      "Safir Kristal Cam ve Zırh Alüminyum / Titanyum Kasa"
+    ],
+    "specs": {
+      "caseSizeMm": 47,
+      "displayType": "Super AMOLED",
+      "displaySizeInches": 1.5,
+      "batteryLifeDays": 4,
+      "waterResistanceAtm": 10,
+      "os": "Wear OS Powered by Samsung",
+      "compatibility": [
+        "Android 11.0 ve üzeri",
+        "Samsung Galaxy Cihazlar"
+      ],
+      "sensors": [
+        "Kalp Atış Hızı",
+        "EKG",
+        "BIA",
+        "SpO2",
+        "İvmeölçer",
+        "Barometre"
+      ],
+      "connectivity": [
+        "4G LTE eSIM",
+        "Bluetooth 5.3",
+        "Wi-Fi",
+        "NFC",
+        "Çift Frekanslı GPS"
+      ],
+      "weightGrams": 60,
+      "material": "Grade 4 Titanyum",
+      "hasGPS": true,
+      "hasHeartRate": true,
+      "hasSpO2": true,
+      "hasECG": true,
+      "hasSleepTracking": true
+    },
+    "storeOffers": [
+      {
+        "id": "so-watch-1026462-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 27999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Samsung Türkiye Garantili",
+          "eSIM Uyumlu"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4800,
+        "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-ultra-lte.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 27999,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-watch-fe-lte",
+    "slug": "samsung-samsung-galaxy-watch-fe-lte",
+    "name": "Samsung Galaxy Watch FE LTE",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "basePrice": 8499,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 86,
+    "reviewCount": 386,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/smartwatches/samsung-949836.jpg",
+    "images": [
+      "/images/smartwatches/samsung-949836.jpg"
+    ],
+    "highlights": [
+      "4G LTE eSIM Desteği ile Telefondan Bağımsız Çağrı ve İnternet",
+      "BioActive Sensör ile Gelişmiş Kalp, EKG ve Uyku Apnesi Takibi",
+      "Safir Kristal Cam ve Zırh Alüminyum / Titanyum Kasa"
+    ],
+    "specs": {
+      "caseSizeMm": 40,
+      "displayType": "Super AMOLED",
+      "displaySizeInches": 1.5,
+      "batteryLifeDays": 2,
+      "waterResistanceAtm": 5,
+      "os": "Wear OS Powered by Samsung",
+      "compatibility": [
+        "Android 11.0 ve üzeri",
+        "Samsung Galaxy Cihazlar"
+      ],
+      "sensors": [
+        "Kalp Atış Hızı",
+        "EKG",
+        "BIA",
+        "SpO2",
+        "İvmeölçer",
+        "Barometre"
+      ],
+      "connectivity": [
+        "4G LTE eSIM",
+        "Bluetooth 5.3",
+        "Wi-Fi",
+        "NFC",
+        "Çift Frekanslı GPS"
+      ],
+      "weightGrams": 33,
+      "material": "Zırh Alüminyum",
+      "hasGPS": true,
+      "hasHeartRate": true,
+      "hasSpO2": true,
+      "hasECG": true,
+      "hasSleepTracking": true
+    },
+    "storeOffers": [
+      {
+        "id": "so-watch-949836-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 8499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Samsung Türkiye Garantili",
+          "eSIM Uyumlu"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4800,
+        "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch-fe-lte.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 8499,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-watch-7-lte-44mm",
+    "slug": "samsung-samsung-galaxy-watch-7-lte-44mm",
+    "name": "Samsung Galaxy Watch 7 LTE (44mm)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "basePrice": 10999,
+    "currency": "TL",
+    "rating": 4.83,
+    "epeyScore": 93,
+    "reviewCount": 861,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/samsung-949111.jpg",
+    "images": [
+      "/images/smartwatches/samsung-949111.jpg"
+    ],
+    "highlights": [
+      "4G LTE eSIM Desteği ile Telefondan Bağımsız Çağrı ve İnternet",
+      "BioActive Sensör ile Gelişmiş Kalp, EKG ve Uyku Apnesi Takibi",
+      "Safir Kristal Cam ve Zırh Alüminyum / Titanyum Kasa"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "Super AMOLED",
+      "displaySizeInches": 1.5,
+      "batteryLifeDays": 2,
+      "waterResistanceAtm": 5,
+      "os": "Wear OS Powered by Samsung",
+      "compatibility": [
+        "Android 11.0 ve üzeri",
+        "Samsung Galaxy Cihazlar"
+      ],
+      "sensors": [
+        "Kalp Atış Hızı",
+        "EKG",
+        "BIA",
+        "SpO2",
+        "İvmeölçer",
+        "Barometre"
+      ],
+      "connectivity": [
+        "4G LTE eSIM",
+        "Bluetooth 5.3",
+        "Wi-Fi",
+        "NFC",
+        "Çift Frekanslı GPS"
+      ],
+      "weightGrams": 33,
+      "material": "Zırh Alüminyum",
+      "hasGPS": true,
+      "hasHeartRate": true,
+      "hasSpO2": true,
+      "hasECG": true,
+      "hasSleepTracking": true
+    },
+    "storeOffers": [
+      {
+        "id": "so-watch-949111-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 10999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Samsung Türkiye Garantili",
+          "eSIM Uyumlu"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4800,
+        "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch7-lte-44mm.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 10999,
+        "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-watch-7-lte-40mm",
+    "slug": "samsung-samsung-galaxy-watch-7-lte-40mm",
+    "name": "Samsung Galaxy Watch 7 LTE (40mm)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "basePrice": 9499,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 92,
+    "reviewCount": 860,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/smartwatches/samsung-949110.jpg",
+    "images": [
+      "/images/smartwatches/samsung-949110.jpg"
+    ],
+    "highlights": [
+      "4G LTE eSIM Desteği ile Telefondan Bağımsız Çağrı ve İnternet",
+      "BioActive Sensör ile Gelişmiş Kalp, EKG ve Uyku Apnesi Takibi",
+      "Safir Kristal Cam ve Zırh Alüminyum / Titanyum Kasa"
+    ],
+    "specs": {
+      "caseSizeMm": 40,
+      "displayType": "Super AMOLED",
+      "displaySizeInches": 1.3,
+      "batteryLifeDays": 2,
+      "waterResistanceAtm": 5,
+      "os": "Wear OS Powered by Samsung",
+      "compatibility": [
+        "Android 11.0 ve üzeri",
+        "Samsung Galaxy Cihazlar"
+      ],
+      "sensors": [
+        "Kalp Atış Hızı",
+        "EKG",
+        "BIA",
+        "SpO2",
+        "İvmeölçer",
+        "Barometre"
+      ],
+      "connectivity": [
+        "4G LTE eSIM",
+        "Bluetooth 5.3",
+        "Wi-Fi",
+        "NFC",
+        "Çift Frekanslı GPS"
+      ],
+      "weightGrams": 33,
+      "material": "Zırh Alüminyum",
+      "hasGPS": true,
+      "hasHeartRate": true,
+      "hasSpO2": true,
+      "hasECG": true,
+      "hasSleepTracking": true
+    },
+    "storeOffers": [
+      {
+        "id": "so-watch-949110-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 9499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Samsung Türkiye Garantili",
+          "eSIM Uyumlu"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4800,
+        "url": "https://www.epey.com/akilli-saat/samsung-galaxy-watch7-lte-40mm.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 9499,
+        "store": "Samsung TR"
+      }
+    ]
   }
 ];
