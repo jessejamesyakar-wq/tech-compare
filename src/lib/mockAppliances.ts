@@ -27127,5 +27127,444 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 15499
       }
     ]
+  },
+  {
+    "id": "dreame-x30-ultra-robot-vacuum",
+    "slug": "dreame-x30-ultra",
+    "name": "Dreame X30 Ultra Amiral Gemisi Robot Süpürge ve Paspas İstasyonu",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-934694.jpg",
+    "images": [
+      "/images/appliances/dreame-934694.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 98,
+    "reviewCount": 165,
+    "basePrice": 52999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "8300 Pa Vormax™ Devasa Emiş Gücü",
+      "MopExtend™ RoboSwing ile Köşelere Ulaşan Esnek Paspas Kolu",
+      "60°C Sıcak Suyla Paspas Yıkama ve Sıcak Hava ile Kurutma İstasyonu",
+      "Paspas Çıkarma ve 10.5 mm Otomatik Paspas Kaldırma Teknolojisi",
+      "AI Action RGB Kamera + 3D Yapay Zekâ Lazer Engelden Kaçınma"
+    ],
+    "tags": [
+      "Dreame",
+      "X30 Ultra",
+      "8300 Pa",
+      "60C Sıcak Su",
+      "RoboSwing",
+      "Amiral Gemisi"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürgeler",
+      "powerWatts": 75,
+      "suctionPowerPa": 8300,
+      "batteryRuntimeMin": 260,
+      "noiseLevelDb": 62,
+      "capacity": "350 ml toz, 4.5 L temiz su",
+      "mappingTechnology": "AI Action RGB + 3D Yapay Zekâ LiDAR",
+      "autoEmptyStation": true,
+      "autoCleanDock": true,
+      "appControl": true,
+      "weightKg": 4.3,
+      "warrantyYears": 2,
+      "color": "Uzay Siyahı"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 52999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 56999
+      },
+      {
+        "date": "2024-08",
+        "price": 52999
+      }
+    ]
+  },
+  {
+    "id": "dreame-c1-window-cleaning-robot",
+    "slug": "dreame-c1",
+    "name": "Dreame C1 Akıllı Cam ve Pencere Temizleme Robotu",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1037688.jpg",
+    "images": [
+      "/images/appliances/dreame-1037688.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 45,
+    "basePrice": 16999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "3800 Pa Yüksek Vakum Tutunma Gücü ile Düşme Emniyetli Cam Temizliği",
+      "Çift Yönlü Ultrasonik Su Püskürtme Teknolojisi",
+      "Köşe ve Kenar Algılayan Akıllı Rota Planlama",
+      "Dahili UPS Güvenlik Bataryası ile Elektrik Kesintisinde 20 Dk Tutunma"
+    ],
+    "tags": [
+      "Dreame",
+      "C1",
+      "Cam Temizleme Robotu",
+      "Pencere Robotu",
+      "Ultrasonik Sprey"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürgeler",
+      "powerWatts": 90,
+      "suctionPowerPa": 3800,
+      "batteryRuntimeMin": 20,
+      "noiseLevelDb": 65,
+      "capacity": "80 ml su tankı",
+      "appControl": true,
+      "weightKg": 1.3,
+      "warrantyYears": 2,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 16999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 18499
+      },
+      {
+        "date": "2024-08",
+        "price": 16999
+      }
+    ]
+  },
+  {
+    "id": "dreame-mova-k10-pro-wet-dry",
+    "slug": "dreame-mova-k10-pro",
+    "name": "Dreame Mova K10 Pro Kablosuz Islak Kuru Zemin Yıkama Süpürgesi",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1019618.jpg",
+    "images": [
+      "/images/appliances/dreame-1019618.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 75,
+    "basePrice": 14499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "18.000 Pa Emiş Gücü ve Islak-Kuru Tek Seferde Temizlik",
+      "İstasyonda Otomatik Fırça Yıkama ve Sıcak Hava Kurutma",
+      "Kenardan Kenara Çift Taraflı Süpürme Başlığı",
+      "Akıllı Kir Algılama Sensörü ve Sesli Yönlendirme Asistanı"
+    ],
+    "tags": [
+      "Dreame",
+      "Mova K10 Pro",
+      "Islak Kuru",
+      "18000 Pa",
+      "Zemin Yıkama"
+    ],
+    "specs": {
+      "subCategory": "stick_vacuum",
+      "subCategoryLabel": "Dikey Süpürgeler",
+      "powerWatts": 220,
+      "suctionPowerPa": 18000,
+      "batteryRuntimeMin": 35,
+      "noiseLevelDb": 74,
+      "capacity": "890 ml temiz su, 600 ml kirli su",
+      "autoCleanDock": true,
+      "weightKg": 3.9,
+      "warrantyYears": 2,
+      "color": "Koyu Gri / Siyah"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 14499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 15999
+      },
+      {
+        "date": "2024-08",
+        "price": 14499
+      }
+    ]
+  },
+  {
+    "id": "dreame-roboticmower-a1",
+    "slug": "dreame-roboticmower-a1",
+    "name": "Dreame Roboticmower A1 Sınırsız Akıllı Robot Çim Biçme Makinesi",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-987579.jpg",
+    "images": [
+      "/images/appliances/dreame-987579.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 96,
+    "reviewCount": 50,
+    "basePrice": 69999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "highlights": [
+      "OmniSense™ 3D Ultra Hassas LiDAR ile Sınır Kablosu Olmadan Haritalama",
+      "2000 m² Alan Kapasitesi ve U-Şekilli Kusursuz Rota Planlaması",
+      "3D Çok Katmanlı Engel Algılama Sensörü ile Canlı ve Nesnelerden Kaçınma",
+      "Uygulamadan Ayarlanabilir 30-70 mm Elektrikli Kesim Yüksekliği",
+      "IPX6 Su Geçirmezlik ve Yağmur Sensörü"
+    ],
+    "tags": [
+      "Dreame",
+      "Roboticmower A1",
+      "Çim Biçme Robotu",
+      "OmniSense LiDAR",
+      "Kablosuz Sınır"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürgeler",
+      "powerWatts": 120,
+      "batteryRuntimeMin": 120,
+      "noiseLevelDb": 59,
+      "mappingTechnology": "OmniSense™ 3D LiDAR",
+      "appControl": true,
+      "weightKg": 12,
+      "warrantyYears": 2,
+      "color": "Gümüş / Siyah"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 69999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 74999
+      },
+      {
+        "date": "2024-08",
+        "price": 69999
+      }
+    ]
+  },
+  {
+    "id": "dreame-roboticmower-a2",
+    "slug": "dreame-roboticmower-a2",
+    "name": "Dreame Roboticmower A2 Gelişmiş Akıllı Robot Çim Biçme Makinesi",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-1042571.jpg",
+    "images": [
+      "/images/appliances/dreame-1042571.jpg"
+    ],
+    "rating": 4.9,
+    "epeyScore": 98,
+    "reviewCount": 35,
+    "basePrice": 84999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "OmniSense™ 2.0 3D Lidar ve HDR AI Kamera ile 3000 m² Geniş Alan Çim Biçme",
+      "Sınır Teli Gerektirmeyen Santimetre Düzeyinde RTK + Lidar Hibrit Navigasyon",
+      "EdgeMaster™ Teknolojisi ile Sıfır Kenar Boşluklu Çim Kesimi",
+      "%45 (24°) Eğim Tırmanma Yeteneği ve Akıllı Bölge Yönetimi"
+    ],
+    "tags": [
+      "Dreame",
+      "Roboticmower A2",
+      "Çim Biçme Robotu",
+      "3000 m2",
+      "EdgeMaster"
+    ],
+    "specs": {
+      "subCategory": "robot_vacuum",
+      "subCategoryLabel": "Robot Süpürgeler",
+      "powerWatts": 140,
+      "batteryRuntimeMin": 180,
+      "noiseLevelDb": 58,
+      "mappingTechnology": "OmniSense™ 2.0 3D LiDAR + AI Kamera",
+      "appControl": true,
+      "weightKg": 12.5,
+      "warrantyYears": 2,
+      "color": "Koyu Titanyum"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 84999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 89999
+      },
+      {
+        "date": "2024-08",
+        "price": 84999
+      }
+    ]
+  },
+  {
+    "id": "dreame-glamour-hair-straightener",
+    "slug": "dreame-glamour",
+    "name": "Dreame Glamour Kablosuz Saç Düzleştirici ve Şekillendirici",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-895827.jpg",
+    "images": [
+      "/images/appliances/dreame-895827.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 65,
+    "basePrice": 6499,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "highlights": [
+      "Kablosuz ve Taşınabilir Şık Kompakt Tasarım (Type-C Hızlı Şarj)",
+      "Turmalin Seramik Kaplama Plakalar ile Saça Zarar Vermeyen Pürüzsüz Düzleştirme",
+      "3 Kademeli Sıcaklık Ayarı (165°C, 185°C, 210°C)",
+      "Negatif İyon Emisyonu ile Elektriklenmeyi ve Kabarmayı Önleme",
+      "30 Dakika Kablosuz Şekillendirme Süresi"
+    ],
+    "tags": [
+      "Dreame",
+      "Glamour",
+      "Kablosuz Düzleştirici",
+      "Saç Şekillendirici",
+      "Kişisel Bakım"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
+      "powerWatts": 45,
+      "batteryRuntimeMin": 30,
+      "noiseLevelDb": 0,
+      "weightKg": 0.26,
+      "warrantyYears": 2,
+      "color": "Gece Pembesi / Rose Gold"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 6499,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 6999
+      },
+      {
+        "date": "2024-08",
+        "price": 6499
+      }
+    ]
+  },
+  {
+    "id": "dreame-d1186-ipl-epilator",
+    "slug": "dreame-d1186",
+    "name": "Dreame D1186 Buz Başlıklı Akıllı IPL Lazer Epilasyon Cihazı",
+    "brand": "Dreame",
+    "category": "appliances",
+    "image": "/images/appliances/dreame-966141.png",
+    "images": [
+      "/images/appliances/dreame-966141.png"
+    ],
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 55,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Sapphire Ice-Cooling Safir Buz Soğutma Teknolojisi (Acısız Uygulama)",
+      "Sonsuz Atım Kapasitesi ve 5 Kademeli Enerji Yoğunluğu Ayarı",
+      "0.5 Saniyede Otomatik Hızlı Flaş Modu ile 10 Dakikada Tüm Vücut Bakımı",
+      "Cilt Tonu Sensörü ile Güvenli Kullanım"
+    ],
+    "tags": [
+      "Dreame",
+      "D1186",
+      "IPL Epilasyon",
+      "Safir Buz Soğutma",
+      "Kişisel Bakım"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Kişisel Bakım",
+      "powerWatts": 60,
+      "noiseLevelDb": 40,
+      "weightKg": 0.32,
+      "warrantyYears": 2,
+      "color": "İnci Beyazı / Altın"
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 8999,
+        "inStock": true,
+        "url": "https://www.hepsiburada.com",
+        "storeLogoColor": "#FF6000"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2024-05",
+        "price": 9799
+      },
+      {
+        "date": "2024-08",
+        "price": 8999
+      }
+    ]
   }
 ];
