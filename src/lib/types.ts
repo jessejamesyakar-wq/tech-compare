@@ -44,6 +44,8 @@ export interface ApplianceSpecs {
   batteryRuntimeMin?: number;
   noiseLevelDb?: number;
   autoCleanDock?: boolean;
+  autoEmptyStation?: boolean;
+  mappingTechnology?: string;
   appControl?: boolean;
   programsCount?: number;
   pressureBar?: number;
