@@ -2,6 +2,407 @@ import { ApplianceProduct } from './types';
 
 export const mockAppliances: ApplianceProduct[] = [
   {
+    "id": "philips-hd2590-90",
+    "slug": "philips-hd2590-90",
+    "name": "Philips Daily Collection HD2590/90 870W Ekmek Kızartma Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 1519,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 3100,
+    "image": "/images/appliances/philips-hd2590-90.png",
+    "images": [
+      "/images/appliances/philips-hd2590-90.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "870 Watt Güç & 8 Farklı Kızartma Kademesi",
+      "Geniş Yuva Tasarımı (Farklı Ekmek Boyutlarına Uyumlu)",
+      "Entegre Çörek / Poğaça Isıtma Rafı",
+      "Çıkarılabilir Kırıntı Tepsisi ile Kolay Temizlik"
+    ],
+    "specs": {
+      "subCategory": "kitchen",
+      "subCategoryLabel": "Ekmek Kızartma Makinesi",
+      "powerWatts": 870,
+      "programsCount": 8,
+      "dishwasherSafeParts": true,
+      "autoShutOff": true,
+      "weightKg": 1.2,
+      "warrantyYears": 2,
+      "color": "Mat Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-hd2590-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 1519,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En Çok Satan Ekmek Kızartma",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 9500,
+        "url": "https://www.epey.com/ekmek-kizartma-makinesi/philips-hd2590-90.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 1699,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1519,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-compact-essential-gc6833-30",
+    "slug": "philips-perfectcare-compact-essential-gc6833-30",
+    "name": "Philips PerfectCare Compact Essential GC6833/30 Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 12995,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 92,
+    "reviewCount": 380,
+    "image": "/images/appliances/philips-gc6833-30.png",
+    "images": [
+      "/images/appliances/philips-gc6833-30.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "5.5 Bar Basınç & 280g Şok Buhar",
+      "SteamGlide Plus Çizilmeye Dayanıklı Taban",
+      "OptimalTEMP ile Sıfır Yanık Riski",
+      "Smart Calc-Clean Akıllı Kireç Temizliği"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2400,
+      "steamOutputGramsPerMin": 110,
+      "steamBoostGramsPerMin": 280,
+      "pressureBar": 5.5,
+      "waterTankCapacityLiters": 1.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 2.8,
+      "warrantyYears": 2,
+      "color": "Mor / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc6833-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 12995,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Compact Essential"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 640,
+        "url": "https://www.epey.com/utu/philips-perfectcare-compact-essential-gc6833-30.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 13800,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12995,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "philips-perfectcare-compact-plus-gc7920-20",
+    "slug": "philips-perfectcare-compact-plus-gc7920-20",
+    "name": "Philips PerfectCare Compact Plus GC7920/20 Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 9299.07,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 920,
+    "image": "/images/appliances/philips-gc7920-20.jpg",
+    "images": [
+      "/images/appliances/philips-gc7920-20.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "6.5 Bar Güçlü Pompa Basıncı & 430g Ekstra Şok Buhar",
+      "SteamGlide Plus Pürüzsüz Kaygan Taban",
+      "1.5 Litre Şeffaf ve Çıkarılabilir Su Deposu",
+      "OptimalTEMP ile Sıfır Yanık Güvencesi"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2400,
+      "steamOutputGramsPerMin": 120,
+      "steamBoostGramsPerMin": 430,
+      "pressureBar": 6.5,
+      "waterTankCapacityLiters": 1.5,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 2.8,
+      "warrantyYears": 2,
+      "color": "Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc7920-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 9299.07,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Compact Plus 6.5 Bar",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "https://www.epey.com/utu/philips-perfectcare-compact-plus-gc7920-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 9999,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9299.07,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-fastcare-compact-gc6734-20",
+    "slug": "philips-fastcare-compact-gc6734-20",
+    "name": "Philips FastCare Compact GC6734/20 Buhar Kazanlı Ütü",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 11074.29,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 450,
+    "image": "/images/appliances/philips-gc6734-20.png",
+    "images": [
+      "/images/appliances/philips-gc6734-20.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "5.2 Bar Pompa Basıncı & 230g Şok Buhar",
+      "Seramik Taban ile Zahmetsiz Kayganlık",
+      "1.3 Litre Geniş Su Deposu & Kompakt Gövde",
+      "Smart Calc-Clean ile Hızlı Kireç Temizliği"
+    ],
+    "specs": {
+      "subCategory": "iron",
+      "subCategoryLabel": "Buhar Kazanlı Ütü",
+      "powerWatts": 2400,
+      "steamOutputGramsPerMin": 110,
+      "steamBoostGramsPerMin": 230,
+      "pressureBar": 5.2,
+      "waterTankCapacityLiters": 1.3,
+      "continuousSteam": true,
+      "autoShutOff": true,
+      "antiCalcSystem": true,
+      "weightKg": 2.9,
+      "warrantyYears": 2,
+      "color": "Mavi / Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "so-gc6734-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 11074.29,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "FastCare Compact"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 580,
+        "url": "https://www.epey.com/utu/philips-gc6734-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 11800,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11074.29,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "philips-oneblade-face-body-qp2620-20",
+    "slug": "philips-oneblade-face-body-qp2620-20",
+    "name": "Philips OneBlade QP2620/20 Yüz ve Vücut Hibrit Şekillendirici",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 4749.05,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 93,
+    "reviewCount": 2900,
+    "image": "/images/appliances/philips-qp2620-20.jpg",
+    "images": [
+      "/images/appliances/philips-qp2620-20.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Hem Yüz Hem Vücut İçin Çift Yönlü OneBlade Bıçak Sistemi",
+      "3 Sakal Tarağı (1, 3, 5 mm) + Cilt Koruyucu Gövde Tarağı (3 mm) ve Hassas Bölge Kalkanı",
+      "Islak ve Kuru Kullanım & Su Altında Kolay Yıkanabilir",
+      "45 Dakika Kablosuz Çalışma Süresi"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Yüz ve Vücut Şekillendirici",
+      "batteryRuntimeMin": 45,
+      "chargeTimeHours": 8,
+      "wetDryUsage": true,
+      "bladeMaterial": "OneBlade Çift Yönlü Çelik",
+      "weightKg": 0.17,
+      "warrantyYears": 2,
+      "color": "Limon Yeşili / Kömür Grisi"
+    },
+    "storeOffers": [
+      {
+        "id": "so-qp2620-1",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "#ff9900",
+        "price": 4749.05,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yüz + Vücut Kiti",
+          "Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 8900,
+        "url": "https://www.epey.com/tiras-makinesi/philips-qp2620-20.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 5100,
+        "store": "Amazon TR"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4749.05,
+        "store": "Amazon TR"
+      }
+    ]
+  },
+  {
+    "id": "philips-series-5000-bt5515-15",
+    "slug": "philips-series-5000-bt5515-15",
+    "name": "Philips Series 5000 BT5515/15 Kendinden Bilenebilen Çelik Bıçaklı Sakal Kesme Makinesi",
+    "brand": "Philips",
+    "category": "appliances",
+    "basePrice": 8549,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 94,
+    "reviewCount": 1650,
+    "image": "/images/appliances/philips-bt5515-15.png",
+    "images": [
+      "/images/appliances/philips-bt5515-15.png"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Lift & Trim PRO Sistemi ile Yatık Kılları Kaldırarak Tek Hamlede Kesim",
+      "40 Kilitli Uzunluk Ayarı (0.4 mm - 20 mm Arası 0.2 mm Hassasiyet)",
+      "90 Dakika Kablosuz Çalışma (1 Saatte Hızlı Şarj / 5 Dk Acil Şarj)",
+      "%100 Su Geçirmez Tam Yıkanabilir Gövde + Detay Başlığı Dahil"
+    ],
+    "specs": {
+      "subCategory": "personal_care",
+      "subCategoryLabel": "Sakal Kesme & Şekillendirici",
+      "batteryRuntimeMin": 90,
+      "chargeTimeHours": 1,
+      "quickChargeMin": 5,
+      "wetDryUsage": true,
+      "bladeMaterial": "Kendinden Bilenebilen Paslanmaz Çelik",
+      "weightKg": 0.22,
+      "warrantyYears": 2,
+      "color": "Gümüş / Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "so-bt5515-1",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 8549,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "40 Uzunluk Ayarı",
+          "90 Dk Pil"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4300,
+        "url": "https://www.epey.com/tiras-makinesi/philips-bt5515-15.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07-01",
+        "price": 9200,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8549,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
     "id": "philips-hd9350-90",
     "slug": "philips-hd9350-90",
     "name": "Philips Daily Collection HD9350/90 1.7L Paslanmaz Çelik Su Isıtıcı (Kettle)",
