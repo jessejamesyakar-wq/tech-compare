@@ -90,7 +90,7 @@ const CATEGORY_BANNERS_ROW2 = [
     id: 'cat-5',
     title: 'Küçük Ev Aletleri',
     subtitle: 'AKILLI EV & MUTFAK',
-    badge: '⚡ DYSON & ROBOROCK',
+    badge: '⚡ DYSON & DREAME',
     image: 'https://images.unsplash.com/photo-1558317374-067fb5f30001?w=800&auto=format&fit=crop&q=80',
     href: '/appliances'
   },
