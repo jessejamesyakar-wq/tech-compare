@@ -110565,5 +110565,66 @@ export const mockLaptops: LaptopProduct[] = [
       }
     ],
     "productType": "Laptop"
+  },
+  {
+    "id": "lg-lg-gram-15z990-u-aas5u1",
+    "slug": "lg-lg-gram-15z990-u-aas5u1",
+    "name": "LG gram 15Z990-U.AAS5U1",
+    "brand": "LG",
+    "category": "laptops",
+    "productType": "Laptop",
+    "basePrice": 44999,
+    "currency": "TL",
+    "rating": 4.88,
+    "epeyScore": 92,
+    "reviewCount": 145,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/laptops/lg-395128.jpg",
+    "images": [
+      "/images/laptops/lg-395128.jpg"
+    ],
+    "highlights": [
+      "15.6\" Full HD IPS Ekran ve Ultra Hafif 1099g Gövde",
+      "Intel Core i7 / i5 İşlemci ile Yüksek Verimlilik",
+      "72Wh Batarya ile Tüm Gün Süren Pil Ömrü",
+      "MIL-STD-810G Askeri Dayanıklılık Standardı"
+    ],
+    "specs": {
+      "productType": "Laptop",
+      "processor": "Intel Core i7-8565U (1.80 GHz - 4.60 GHz)",
+      "ramGb": 16,
+      "storageGb": 512,
+      "screenSizeInches": 15.6,
+      "screenResolution": "1920 x 1080 (FHD IPS)",
+      "gpu": "Intel UHD Graphics 620",
+      "os": "Windows 11 Home",
+      "weightKg": 1.09,
+      "batteryCapacityWh": 72
+    },
+    "storeOffers": [
+      {
+        "id": "so-laptop-395128-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 44999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/laptop/lg-gram-15z990-u-aas5u1.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 44999,
+        "store": "LG TR"
+      }
+    ]
   }
 ];

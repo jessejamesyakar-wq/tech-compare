@@ -4311,5 +4311,1125 @@ export const mockHeadphones: Product[] = [
         "store": "Hepsiburada"
       }
     ]
+  },
+  {
+    "id": "lg-lg-tone-free-fn7",
+    "slug": "lg-lg-tone-free-fn7",
+    "name": "LG Tone Free FN7",
+    "brand": "LG",
+    "category": "headphones",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 382,
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/headphones/lg-859802.jpg",
+    "images": [
+      "/images/headphones/lg-859802.jpg"
+    ],
+    "highlights": [
+      "UVnano Bakteri Temizleme Teknolojisi & Meridian Ses Mühendisliği",
+      "Aktif Gürültü Engelleme (ANC) & Ortam Sesi Modu",
+      "IPX4 Suya Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "TWS Kulak İçi",
+      "anc": "Aktif Gürültü Engelleme (ANC)",
+      "batteryLife": "24 Saat (Kutulu) / 6 Saat",
+      "bluetoothVersion": "3.5mm Jack",
+      "driverSize": "8mm Meridian Dinamik Sürücü",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 5.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-lghp-859802-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/kulaklik/lg-tone-free-fn7.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-quadbeat-3",
+    "slug": "lg-lg-quadbeat-3",
+    "name": "LG QuadBeat 3",
+    "brand": "LG",
+    "category": "headphones",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 96,
+    "reviewCount": 535,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/headphones/lg-349555.jpg",
+    "images": [
+      "/images/headphones/lg-349555.jpg"
+    ],
+    "highlights": [
+      "QuadBeat Çok Katmanlı Diyafram ile Zengin Baslar",
+      "Ergonik Kulak İçi Uyum",
+      "IPX4 Suya Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "Kablolu Kulak İçi 3.5mm",
+      "anc": "Pasif İzolasyon",
+      "batteryLife": "Kablolu Sınırsız",
+      "bluetoothVersion": "3.5mm Jack",
+      "driverSize": "8mm Meridian Dinamik Sürücü",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 5.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-lghp-349555-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/kulaklik/lg-quadbeat-3.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-tone-free-fp9",
+    "slug": "lg-lg-tone-free-fp9",
+    "name": "LG Tone Free FP9",
+    "brand": "LG",
+    "category": "headphones",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 97,
+    "reviewCount": 362,
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/headphones/lg-861782.jpg",
+    "images": [
+      "/images/headphones/lg-861782.jpg"
+    ],
+    "highlights": [
+      "UVnano Bakteri Temizleme Teknolojisi & Meridian Ses Mühendisliği",
+      "Aktif Gürültü Engelleme (ANC) & Ortam Sesi Modu",
+      "IPX4 Suya Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "TWS Kulak İçi",
+      "anc": "Aktif Gürültü Engelleme (ANC)",
+      "batteryLife": "24 Saat (Kutulu) / 6 Saat",
+      "bluetoothVersion": "Bluetooth 5.2",
+      "driverSize": "8mm Meridian Dinamik Sürücü",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 5.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-lghp-861782-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/kulaklik/lg-tone-free-fp9.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-xboom-buds",
+    "slug": "lg-lg-xboom-buds",
+    "name": "LG xboom Buds",
+    "brand": "LG",
+    "category": "headphones",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 87,
+    "reviewCount": 537,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/headphones/lg-1018357.jpg",
+    "images": [
+      "/images/headphones/lg-1018357.jpg"
+    ],
+    "highlights": [
+      "QuadBeat Çok Katmanlı Diyafram ile Zengin Baslar",
+      "Ergonik Kulak İçi Uyum",
+      "IPX4 Suya Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "TWS Kulak İçi",
+      "anc": "Pasif İzolasyon",
+      "batteryLife": "24 Saat (Kutulu) / 6 Saat",
+      "bluetoothVersion": "Bluetooth 5.3",
+      "driverSize": "8mm Meridian Dinamik Sürücü",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 5.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-lghp-1018357-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/kulaklik/lg-xboom-buds.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-gs100sb",
+    "slug": "lg-lg-gs100sb",
+    "name": "LG GS100SB",
+    "brand": "LG",
+    "category": "headphones",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 398,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/headphones/lg-77418.jpg",
+    "images": [
+      "/images/headphones/lg-77418.jpg"
+    ],
+    "highlights": [
+      "QuadBeat Çok Katmanlı Diyafram ile Zengin Baslar",
+      "Ergonik Kulak İçi Uyum",
+      "IPX4 Suya Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "Kablolu Kulak İçi 3.5mm",
+      "anc": "Pasif İzolasyon",
+      "batteryLife": "24 Saat (Kutulu) / 6 Saat",
+      "bluetoothVersion": "3.5mm Jack",
+      "driverSize": "8mm Meridian Dinamik Sürücü",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 5.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-lghp-77418-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/kulaklik/lg-gs100sb.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-le-1400",
+    "slug": "lg-lg-le-1400",
+    "name": "LG LE-1400",
+    "brand": "LG",
+    "category": "headphones",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 562,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/headphones/lg-166382.jpg",
+    "images": [
+      "/images/headphones/lg-166382.jpg"
+    ],
+    "highlights": [
+      "QuadBeat Çok Katmanlı Diyafram ile Zengin Baslar",
+      "Ergonik Kulak İçi Uyum",
+      "IPX4 Suya Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "Kablolu Kulak İçi 3.5mm",
+      "anc": "Pasif İzolasyon",
+      "batteryLife": "24 Saat (Kutulu) / 6 Saat",
+      "bluetoothVersion": "3.5mm Jack",
+      "driverSize": "8mm Meridian Dinamik Sürücü",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 5.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-lghp-166382-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/kulaklik/lg-le-1400.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-quadbeat-2",
+    "slug": "lg-lg-quadbeat-2",
+    "name": "LG QuadBeat 2",
+    "brand": "LG",
+    "category": "headphones",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 97,
+    "reviewCount": 258,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/headphones/lg-97278.jpg",
+    "images": [
+      "/images/headphones/lg-97278.jpg"
+    ],
+    "highlights": [
+      "QuadBeat Çok Katmanlı Diyafram ile Zengin Baslar",
+      "Ergonik Kulak İçi Uyum",
+      "IPX4 Suya Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "Kablolu Kulak İçi 3.5mm",
+      "anc": "Pasif İzolasyon",
+      "batteryLife": "Kablolu Sınırsız",
+      "bluetoothVersion": "3.5mm Jack",
+      "driverSize": "8mm Meridian Dinamik Sürücü",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 5.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-lghp-97278-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/kulaklik/lg-quadbeat-2.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-gruve-hbs-600",
+    "slug": "lg-lg-gruve-hbs-600",
+    "name": "LG Gruve HBS-600",
+    "brand": "LG",
+    "category": "headphones",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 86,
+    "reviewCount": 409,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/headphones/lg-77429.jpg",
+    "images": [
+      "/images/headphones/lg-77429.jpg"
+    ],
+    "highlights": [
+      "QuadBeat Çok Katmanlı Diyafram ile Zengin Baslar",
+      "Ergonik Kulak İçi Uyum",
+      "IPX4 Suya Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "Boyun Askılı Bluetooth",
+      "anc": "Pasif İzolasyon",
+      "batteryLife": "16 Saat",
+      "bluetoothVersion": "Bluetooth 4.1",
+      "driverSize": "8mm Meridian Dinamik Sürücü",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 5.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-lghp-77429-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/kulaklik/lg-gruve-hbs-600.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-tone-free-fn6",
+    "slug": "lg-lg-tone-free-fn6",
+    "name": "LG Tone Free FN6",
+    "brand": "LG",
+    "category": "headphones",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 93,
+    "reviewCount": 485,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/headphones/lg-575505.jpg",
+    "images": [
+      "/images/headphones/lg-575505.jpg"
+    ],
+    "highlights": [
+      "UVnano Bakteri Temizleme Teknolojisi & Meridian Ses Mühendisliği",
+      "Ergonik Kulak İçi Uyum",
+      "IPX4 Suya Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "TWS Kulak İçi",
+      "anc": "Pasif İzolasyon",
+      "batteryLife": "24 Saat (Kutulu) / 6 Saat",
+      "bluetoothVersion": "3.5mm Jack",
+      "driverSize": "8mm Meridian Dinamik Sürücü",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 5.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-lghp-575505-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/kulaklik/lg-tone-free-hbs-fn6.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-tone-free-fn4",
+    "slug": "lg-lg-tone-free-fn4",
+    "name": "LG Tone Free FN4",
+    "brand": "LG",
+    "category": "headphones",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 86,
+    "reviewCount": 426,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/headphones/lg-809446.jpg",
+    "images": [
+      "/images/headphones/lg-809446.jpg"
+    ],
+    "highlights": [
+      "UVnano Bakteri Temizleme Teknolojisi & Meridian Ses Mühendisliği",
+      "Ergonik Kulak İçi Uyum",
+      "IPX4 Suya Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "TWS Kulak İçi",
+      "anc": "Pasif İzolasyon",
+      "batteryLife": "24 Saat (Kutulu) / 6 Saat",
+      "bluetoothVersion": "3.5mm Jack",
+      "driverSize": "8mm Meridian Dinamik Sürücü",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 5.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-lghp-809446-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/kulaklik/lg-tone-free-fn4.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-tone-pro-hbs-770",
+    "slug": "lg-lg-tone-pro-hbs-770",
+    "name": "LG Tone Pro HBS-770",
+    "brand": "LG",
+    "category": "headphones",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 406,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/headphones/lg-369026.jpg",
+    "images": [
+      "/images/headphones/lg-369026.jpg"
+    ],
+    "highlights": [
+      "QuadBeat Çok Katmanlı Diyafram ile Zengin Baslar",
+      "Ergonik Kulak İçi Uyum",
+      "IPX4 Suya Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "Boyun Askılı Bluetooth",
+      "anc": "Pasif İzolasyon",
+      "batteryLife": "16 Saat",
+      "bluetoothVersion": "Bluetooth 4.1",
+      "driverSize": "8mm Meridian Dinamik Sürücü",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 5.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-lghp-369026-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/kulaklik/lg-tone-pro-hbs-770.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-tone-infinim-hbs-900",
+    "slug": "lg-lg-tone-infinim-hbs-900",
+    "name": "LG Tone Infinim HBS-900",
+    "brand": "LG",
+    "category": "headphones",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 91,
+    "reviewCount": 388,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/headphones/lg-77408.jpg",
+    "images": [
+      "/images/headphones/lg-77408.jpg"
+    ],
+    "highlights": [
+      "QuadBeat Çok Katmanlı Diyafram ile Zengin Baslar",
+      "Ergonik Kulak İçi Uyum",
+      "IPX4 Suya Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "Boyun Askılı Bluetooth",
+      "anc": "Pasif İzolasyon",
+      "batteryLife": "16 Saat",
+      "bluetoothVersion": "Bluetooth 4.1",
+      "driverSize": "8mm Meridian Dinamik Sürücü",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 5.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-lghp-77408-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/kulaklik/lg-tone-infinim-hbs-900.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-tone-infinim",
+    "slug": "lg-lg-tone-infinim",
+    "name": "LG Tone Infinim",
+    "brand": "LG",
+    "category": "headphones",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 92,
+    "reviewCount": 449,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/headphones/lg-132269.jpg",
+    "images": [
+      "/images/headphones/lg-132269.jpg"
+    ],
+    "highlights": [
+      "QuadBeat Çok Katmanlı Diyafram ile Zengin Baslar",
+      "Ergonik Kulak İçi Uyum",
+      "IPX4 Suya Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "TWS Kulak İçi",
+      "anc": "Pasif İzolasyon",
+      "batteryLife": "24 Saat (Kutulu) / 6 Saat",
+      "bluetoothVersion": "3.5mm Jack",
+      "driverSize": "8mm Meridian Dinamik Sürücü",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 5.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-lghp-132269-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/kulaklik/lg-tone-infinim.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-hbs-910",
+    "slug": "lg-lg-hbs-910",
+    "name": "LG HBS-910",
+    "brand": "LG",
+    "category": "headphones",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 91,
+    "reviewCount": 463,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/headphones/lg-170683.jpg",
+    "images": [
+      "/images/headphones/lg-170683.jpg"
+    ],
+    "highlights": [
+      "QuadBeat Çok Katmanlı Diyafram ile Zengin Baslar",
+      "Ergonik Kulak İçi Uyum",
+      "IPX4 Suya Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "Boyun Askılı Bluetooth",
+      "anc": "Pasif İzolasyon",
+      "batteryLife": "16 Saat",
+      "bluetoothVersion": "Bluetooth 4.1",
+      "driverSize": "8mm Meridian Dinamik Sürücü",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 5.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-lghp-170683-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/kulaklik/lg-hbs-910.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-hbs-510",
+    "slug": "lg-lg-hbs-510",
+    "name": "LG HBS-510",
+    "brand": "LG",
+    "category": "headphones",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 86,
+    "reviewCount": 209,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/headphones/lg-168429.jpg",
+    "images": [
+      "/images/headphones/lg-168429.jpg"
+    ],
+    "highlights": [
+      "QuadBeat Çok Katmanlı Diyafram ile Zengin Baslar",
+      "Ergonik Kulak İçi Uyum",
+      "IPX4 Suya Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "Boyun Askılı Bluetooth",
+      "anc": "Pasif İzolasyon",
+      "batteryLife": "16 Saat",
+      "bluetoothVersion": "Bluetooth 4.1",
+      "driverSize": "8mm Meridian Dinamik Sürücü",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 5.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-lghp-168429-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/kulaklik/lg-hbs-510.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-tone-active-hbs-a100",
+    "slug": "lg-lg-tone-active-hbs-a100",
+    "name": "LG Tone Active+ HBS-A100",
+    "brand": "LG",
+    "category": "headphones",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 97,
+    "reviewCount": 515,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/headphones/lg-325935.jpg",
+    "images": [
+      "/images/headphones/lg-325935.jpg"
+    ],
+    "highlights": [
+      "QuadBeat Çok Katmanlı Diyafram ile Zengin Baslar",
+      "Ergonik Kulak İçi Uyum",
+      "IPX4 Suya Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "Boyun Askılı Bluetooth",
+      "anc": "Pasif İzolasyon",
+      "batteryLife": "16 Saat",
+      "bluetoothVersion": "Bluetooth 4.1",
+      "driverSize": "8mm Meridian Dinamik Sürücü",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 5.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-lghp-325935-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/kulaklik/lg-tone-activeplus-hbs-a100.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-tone-free-fl7",
+    "slug": "lg-lg-tone-free-fl7",
+    "name": "LG Tone Free FL7",
+    "brand": "LG",
+    "category": "headphones",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 482,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/headphones/lg-575502.jpg",
+    "images": [
+      "/images/headphones/lg-575502.jpg"
+    ],
+    "highlights": [
+      "UVnano Bakteri Temizleme Teknolojisi & Meridian Ses Mühendisliği",
+      "Ergonik Kulak İçi Uyum",
+      "IPX4 Suya Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "TWS Kulak İçi",
+      "anc": "Pasif İzolasyon",
+      "batteryLife": "24 Saat (Kutulu) / 6 Saat",
+      "bluetoothVersion": "3.5mm Jack",
+      "driverSize": "8mm Meridian Dinamik Sürücü",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 5.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-lghp-575502-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/kulaklik/lg-tone-free.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-tone-platinum-hbs-1100",
+    "slug": "lg-lg-tone-platinum-hbs-1100",
+    "name": "LG Tone Platinum HBS-1100",
+    "brand": "LG",
+    "category": "headphones",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 90,
+    "reviewCount": 374,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/headphones/lg-77394.jpg",
+    "images": [
+      "/images/headphones/lg-77394.jpg"
+    ],
+    "highlights": [
+      "QuadBeat Çok Katmanlı Diyafram ile Zengin Baslar",
+      "Ergonik Kulak İçi Uyum",
+      "IPX4 Suya Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "Boyun Askılı Bluetooth",
+      "anc": "Pasif İzolasyon",
+      "batteryLife": "16 Saat",
+      "bluetoothVersion": "Bluetooth 4.1",
+      "driverSize": "8mm Meridian Dinamik Sürücü",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 5.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-lghp-77394-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/kulaklik/lg-tone-platinum-hbs-1100.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-tone-style-sl5",
+    "slug": "lg-lg-tone-style-sl5",
+    "name": "LG Tone Style SL5",
+    "brand": "LG",
+    "category": "headphones",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 94,
+    "reviewCount": 267,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/headphones/lg-202887.jpg",
+    "images": [
+      "/images/headphones/lg-202887.jpg"
+    ],
+    "highlights": [
+      "QuadBeat Çok Katmanlı Diyafram ile Zengin Baslar",
+      "Ergonik Kulak İçi Uyum",
+      "IPX4 Suya Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "TWS Kulak İçi",
+      "anc": "Pasif İzolasyon",
+      "batteryLife": "24 Saat (Kutulu) / 6 Saat",
+      "bluetoothVersion": "3.5mm Jack",
+      "driverSize": "8mm Meridian Dinamik Sürücü",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 5.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-lghp-202887-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/kulaklik/lg-tone-style-sl5.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-tone-flex-xl7",
+    "slug": "lg-lg-tone-flex-xl7",
+    "name": "LG Tone Flex XL7",
+    "brand": "LG",
+    "category": "headphones",
+    "basePrice": 2499,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 266,
+    "releaseYear": 2021,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/headphones/lg-202886.jpg",
+    "images": [
+      "/images/headphones/lg-202886.jpg"
+    ],
+    "highlights": [
+      "QuadBeat Çok Katmanlı Diyafram ile Zengin Baslar",
+      "Ergonik Kulak İçi Uyum",
+      "IPX4 Suya Dayanıklılık"
+    ],
+    "specs": {
+      "formFactor": "TWS Kulak İçi",
+      "anc": "Pasif İzolasyon",
+      "batteryLife": "24 Saat (Kutulu) / 6 Saat",
+      "bluetoothVersion": "3.5mm Jack",
+      "driverSize": "8mm Meridian Dinamik Sürücü",
+      "frequencyResponse": "20 Hz - 20.000 Hz",
+      "weightGrams": 5.2
+    },
+    "storeOffers": [
+      {
+        "id": "so-lghp-202886-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 2499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "https://www.epey.com/kulaklik/lg-tone-flex-xl7.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 2499,
+        "store": "LG TR"
+      }
+    ]
   }
 ];
