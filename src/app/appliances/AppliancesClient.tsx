@@ -10,6 +10,7 @@ import { Search, Sparkles, SlidersHorizontal, Check } from 'lucide-react';
 
 const SUB_CATEGORIES = [
   { id: 'all', label: 'Tüm Ürünler' },
+  { id: 'roborock', label: 'Roborock' },
   { id: 'robot_vacuum', label: 'Robot Süpürgeler' },
   { id: 'airfryer', label: 'Airfryer & Fritöz' },
   { id: 'coffee_machine', label: 'Kahve Makineleri' },
@@ -39,7 +40,13 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
   const displayProducts = products
     .filter((p) => {
       // Subcategory filter
-      if (selectedSubCat !== 'all' && p.specs?.subCategory !== selectedSubCat) return false;
+      if (selectedSubCat !== 'all') {
+        if (selectedSubCat === 'roborock') {
+          if (p.brand !== 'Roborock' && p.specs?.subCategory !== 'roborock') return false;
+        } else if (p.specs?.subCategory !== selectedSubCat) {
+          return false;
+        }
+      }
       // Search query filter
       if (searchQuery) {
         const q = searchQuery.toLowerCase();
