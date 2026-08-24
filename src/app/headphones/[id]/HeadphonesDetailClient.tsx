@@ -138,12 +138,29 @@ export default function HeadphonesDetailClient({ initialProduct }: { initialProd
               Teknik Özellikler
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
-              {Object.entries(specs).map(([key, val]) => (
-                <div key={key} className="flex justify-between p-3 rounded-xl bg-slate-50 border border-slate-100">
-                  <span className="font-bold text-slate-500 capitalize">{key}:</span>
-                  <span className="font-bold text-slate-900 text-right">{String(val)}</span>
-                </div>
-              ))}
+              {Object.entries(specs).map(([key, val]) => {
+                const specLabels: Record<string, string> = {
+                  formFactor: 'Kulaklık Tipi',
+                  anc: 'Gürültü Engelleme (ANC)',
+                  batteryLife: 'Pil Ömrü',
+                  bluetoothVersion: 'Bluetooth Sürümü',
+                  driverSize: 'Sürücü Boyutu',
+                  frequencyResponse: 'Frekans Tepkisi',
+                  weightGrams: 'Ağırlık',
+                  quickCharge: 'Hızlı Şarj',
+                  material: 'Gövde Malzemesi',
+                  airPurification: 'Hava Temizleme Özelliği'
+                };
+                const label = specLabels[key] || key;
+                const displayVal = key === 'weightGrams' && typeof val === 'number' ? `${val} g` : String(val);
+
+                return (
+                  <div key={key} className="flex justify-between items-center p-3 rounded-xl bg-slate-50 border border-slate-100">
+                    <span className="font-bold text-slate-500">{label}:</span>
+                    <span className="font-bold text-slate-900 text-right">{displayVal}</span>
+                  </div>
+                );
+              })}
             </div>
           </div>
         )}
