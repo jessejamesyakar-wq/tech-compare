@@ -110317,5 +110317,253 @@ export const mockLaptops: LaptopProduct[] = [
         "store": "Hepsiburada"
       }
     ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-book4-ultra-intel-core-ultra-9-rtx-4070-32gb-ram-1tb-ssd",
+    "slug": "samsung-samsung-galaxy-book4-ultra-intel-core-ultra-9-rtx-4070-32gb-ram-1tb-ssd",
+    "name": "Samsung Galaxy Book4 Ultra (Intel Core Ultra 9 / RTX 4070 / 32GB RAM / 1TB SSD)",
+    "brand": "Samsung",
+    "category": "laptops",
+    "basePrice": 4999,
+    "currency": "TL",
+    "rating": 4.92,
+    "epeyScore": 94,
+    "reviewCount": 180,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/laptops/samsung-1025804.jpg",
+    "images": [
+      "/images/laptops/samsung-1025804.jpg"
+    ],
+    "highlights": [
+      "16\" 3K (2880x1800) Dynamic AMOLED 2X 120Hz Dokunmatik Ekran",
+      "Intel Core Ultra İşlemci & NVIDIA GeForce RTX 40 Serisi GPU",
+      "Galaxy Connected Experience ve Galaxy AI Entegrasyonu",
+      "16mm Ultra İnce Alüminyum Gövde & 140W Hızlı Şarj"
+    ],
+    "specs": {
+      "productType": "Laptop",
+      "processor": "Intel Core Ultra 9 185H",
+      "ramGb": 32,
+      "storageGb": 1024,
+      "screenSizeInches": 16,
+      "gpu": "NVIDIA GeForce RTX 4070 8GB",
+      "os": "Windows 11 Home",
+      "weightKg": 1.86,
+      "screenResolution": "2880 x 1800 (3K 120Hz AMOLED 2X)",
+      "batteryCapacityWh": 76
+    },
+    "storeOffers": [
+      {
+        "id": "so-laptop-1025804-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Özel Çanta Hediyeli"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/laptop/samsung-galaxy-book4-ultra-np964xgl-x00tt004.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Samsung TR"
+      }
+    ],
+    "productType": "Laptop"
+  },
+  {
+    "id": "samsung-samsung-galaxy-book4-ultra-intel-core-ultra-7-rtx-4050-16gb-ram-512gb-ssd",
+    "slug": "samsung-samsung-galaxy-book4-ultra-intel-core-ultra-7-rtx-4050-16gb-ram-512gb-ssd",
+    "name": "Samsung Galaxy Book4 Ultra (Intel Core Ultra 7 / RTX 4050 / 16GB RAM / 512GB SSD)",
+    "brand": "Samsung",
+    "category": "laptops",
+    "basePrice": 4999,
+    "currency": "TL",
+    "rating": 4.92,
+    "epeyScore": 94,
+    "reviewCount": 180,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/laptops/samsung-1025808.jpg",
+    "images": [
+      "/images/laptops/samsung-1025808.jpg"
+    ],
+    "highlights": [
+      "16\" 3K (2880x1800) Dynamic AMOLED 2X 120Hz Dokunmatik Ekran",
+      "Intel Core Ultra İşlemci & NVIDIA GeForce RTX 40 Serisi GPU",
+      "Galaxy Connected Experience ve Galaxy AI Entegrasyonu",
+      "16mm Ultra İnce Alüminyum Gövde & 140W Hızlı Şarj"
+    ],
+    "specs": {
+      "productType": "Laptop",
+      "processor": "Intel Core Ultra 7 155H",
+      "ramGb": 16,
+      "storageGb": 512,
+      "screenSizeInches": 16,
+      "gpu": "NVIDIA GeForce RTX 4050 6GB",
+      "os": "Windows 11 Home",
+      "weightKg": 1.86,
+      "screenResolution": "2880 x 1800 (3K 120Hz AMOLED 2X)",
+      "batteryCapacityWh": 76
+    },
+    "storeOffers": [
+      {
+        "id": "so-laptop-1025808-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Özel Çanta Hediyeli"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/laptop/samsung-galaxy-book4-ultra-np964xgl-x00tt002.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Samsung TR"
+      }
+    ],
+    "productType": "Laptop"
+  },
+  {
+    "id": "samsung-samsung-galaxy-book4-ultra-intel-core-ultra-7-rtx-4070-32gb-ram-1tb-ssd",
+    "slug": "samsung-samsung-galaxy-book4-ultra-intel-core-ultra-7-rtx-4070-32gb-ram-1tb-ssd",
+    "name": "Samsung Galaxy Book4 Ultra (Intel Core Ultra 7 / RTX 4070 / 32GB RAM / 1TB SSD)",
+    "brand": "Samsung",
+    "category": "laptops",
+    "basePrice": 4999,
+    "currency": "TL",
+    "rating": 4.92,
+    "epeyScore": 94,
+    "reviewCount": 180,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/laptops/samsung-1025792.jpg",
+    "images": [
+      "/images/laptops/samsung-1025792.jpg"
+    ],
+    "highlights": [
+      "16\" 3K (2880x1800) Dynamic AMOLED 2X 120Hz Dokunmatik Ekran",
+      "Intel Core Ultra İşlemci & NVIDIA GeForce RTX 40 Serisi GPU",
+      "Galaxy Connected Experience ve Galaxy AI Entegrasyonu",
+      "16mm Ultra İnce Alüminyum Gövde & 140W Hızlı Şarj"
+    ],
+    "specs": {
+      "productType": "Laptop",
+      "processor": "Intel Core Ultra 7 155H",
+      "ramGb": 32,
+      "storageGb": 1024,
+      "screenSizeInches": 16,
+      "gpu": "NVIDIA GeForce RTX 4070 8GB",
+      "os": "Windows 11 Home",
+      "weightKg": 1.86,
+      "screenResolution": "2880 x 1800 (3K 120Hz AMOLED 2X)",
+      "batteryCapacityWh": 76
+    },
+    "storeOffers": [
+      {
+        "id": "so-laptop-1025792-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Özel Çanta Hediyeli"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/laptop/samsung-galaxy-book4-ultra-np964xgl-x00tt003.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Samsung TR"
+      }
+    ],
+    "productType": "Laptop"
+  },
+  {
+    "id": "samsung-samsung-galaxy-book4-ultra-intel-core-ultra-9-rtx-4070-64gb-ram-2tb-ssd",
+    "slug": "samsung-samsung-galaxy-book4-ultra-intel-core-ultra-9-rtx-4070-64gb-ram-2tb-ssd",
+    "name": "Samsung Galaxy Book4 Ultra (Intel Core Ultra 9 / RTX 4070 / 64GB RAM / 2TB SSD)",
+    "brand": "Samsung",
+    "category": "laptops",
+    "basePrice": 4999,
+    "currency": "TL",
+    "rating": 4.92,
+    "epeyScore": 94,
+    "reviewCount": 180,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/laptops/samsung-1025807.jpg",
+    "images": [
+      "/images/laptops/samsung-1025807.jpg"
+    ],
+    "highlights": [
+      "16\" 3K (2880x1800) Dynamic AMOLED 2X 120Hz Dokunmatik Ekran",
+      "Intel Core Ultra İşlemci & NVIDIA GeForce RTX 40 Serisi GPU",
+      "Galaxy Connected Experience ve Galaxy AI Entegrasyonu",
+      "16mm Ultra İnce Alüminyum Gövde & 140W Hızlı Şarj"
+    ],
+    "specs": {
+      "productType": "Laptop",
+      "processor": "Intel Core Ultra 9 185H",
+      "ramGb": 64,
+      "storageGb": 2048,
+      "screenSizeInches": 16,
+      "gpu": "NVIDIA GeForce RTX 4070 8GB",
+      "os": "Windows 11 Home",
+      "weightKg": 1.86,
+      "screenResolution": "2880 x 1800 (3K 120Hz AMOLED 2X)",
+      "batteryCapacityWh": 76
+    },
+    "storeOffers": [
+      {
+        "id": "so-laptop-1025807-1",
+        "storeName": "Samsung TR",
+        "storeLogoColor": "bg-blue-900",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör",
+          "Özel Çanta Hediyeli"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4500,
+        "url": "https://www.epey.com/laptop/samsung-galaxy-book4-ultra-np964xgl-x00tt001.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Samsung TR"
+      }
+    ],
+    "productType": "Laptop"
   }
 ];

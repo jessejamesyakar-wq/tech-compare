@@ -95,7 +95,7 @@ export const mockTablets: Product[] = [
       "Kompakt ve Hafif Metalik Gövde (Taşıması Kolay)"
     ],
     "specs": {
-      "screenSizeInches": 8.0,
+      "screenSizeInches": 8,
       "screenResolution": "1280 x 800 (HD IPS)",
       "panelType": "IPS LCD",
       "refreshRateHz": 60,
@@ -42083,6 +42083,222 @@ export const mockTablets: Product[] = [
       {
         "date": "2026-08-01",
         "price": 5199,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-tab-s9-gizlilik-ekrani",
+    "slug": "samsung-samsung-galaxy-tab-s9-gizlilik-ekrani",
+    "name": "Samsung Galaxy Tab S9 Gizlilik Ekranı",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 4999,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 84,
+    "reviewCount": 210,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-884486.jpg",
+    "images": [
+      "/images/tablets/samsung-884486.jpg"
+    ],
+    "highlights": [
+      "Samsung Galaxy Tab Serisi ile %100 Birebir Uyum",
+      "Darbe Emici ve Çizilmeye Dayanıklı Güçlendirilmiş Yapı",
+      "Kullanışlı Çok Açılı Stant ve Kalem Bölmesi"
+    ],
+    "specs": {
+      "productType": "Tablet Aksesuar / Kılıf",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy Tab Serisi",
+      "material": "Polikarbonat & Termoplastik Poliüretan",
+      "weightGrams": 280
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-884486-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Gönderi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/urun/samsung-galaxy-tab-s9-gizlilik-ekrani.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "samsung-samsung-galaxy-tab-s7-antimikrobiyal-kaplamali-tablet-kilifi-bt630",
+    "slug": "samsung-samsung-galaxy-tab-s7-antimikrobiyal-kaplamali-tablet-kilifi-bt630",
+    "name": "Samsung Galaxy Tab S7 Antimikrobiyal Kaplamalı Tablet Kılıfı BT630",
+    "brand": "Samsung",
+    "category": "tablets",
+    "basePrice": 4999,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 84,
+    "reviewCount": 210,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-884453.jpg",
+    "images": [
+      "/images/tablets/samsung-884453.jpg"
+    ],
+    "highlights": [
+      "Samsung Galaxy Tab Serisi ile %100 Birebir Uyum",
+      "Darbe Emici ve Çizilmeye Dayanıklı Güçlendirilmiş Yapı",
+      "Kullanışlı Çok Açılı Stant ve Kalem Bölmesi"
+    ],
+    "specs": {
+      "productType": "Tablet Aksesuar / Kılıf",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy Tab Serisi",
+      "material": "Polikarbonat & Termoplastik Poliüretan",
+      "weightGrams": 280
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-884453-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Gönderi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/urun/samsung-galaxy-tab-s7-antimikrobiyal-kaplamali-tablet-kilifi-bt630.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "samsung-spigen-samsung-galaxy-tab-a7-rugged-armor-kilif",
+    "slug": "samsung-spigen-samsung-galaxy-tab-a7-rugged-armor-kilif",
+    "name": "Spigen Samsung Galaxy Tab A7 Rugged Armor Kılıf",
+    "brand": "Spigen",
+    "category": "tablets",
+    "basePrice": 4999,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 84,
+    "reviewCount": 210,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-835295.jpg",
+    "images": [
+      "/images/tablets/samsung-835295.jpg"
+    ],
+    "highlights": [
+      "Samsung Galaxy Tab Serisi ile %100 Birebir Uyum",
+      "Darbe Emici ve Çizilmeye Dayanıklı Güçlendirilmiş Yapı",
+      "Kullanışlı Çok Açılı Stant ve Kalem Bölmesi"
+    ],
+    "specs": {
+      "productType": "Tablet Aksesuar / Kılıf",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy Tab Serisi",
+      "material": "Polikarbonat & Termoplastik Poliüretan",
+      "weightGrams": 280
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-835295-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Gönderi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/urun/spigen-samsung-galaxy-tab-a7-rugged-armor-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 4999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "samsung-spigen-samsung-galaxy-tab-s7-rugged-armor-pro-kilif",
+    "slug": "samsung-spigen-samsung-galaxy-tab-s7-rugged-armor-pro-kilif",
+    "name": "Spigen Samsung Galaxy Tab S7 Rugged Armor Pro  Kılıf",
+    "brand": "Spigen",
+    "category": "tablets",
+    "basePrice": 4999,
+    "currency": "TL",
+    "rating": 4.75,
+    "epeyScore": 84,
+    "reviewCount": 210,
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/tablets/samsung-835268.jpg",
+    "images": [
+      "/images/tablets/samsung-835268.jpg"
+    ],
+    "highlights": [
+      "Samsung Galaxy Tab Serisi ile %100 Birebir Uyum",
+      "Darbe Emici ve Çizilmeye Dayanıklı Güçlendirilmiş Yapı",
+      "Kullanışlı Çok Açılı Stant ve Kalem Bölmesi"
+    ],
+    "specs": {
+      "productType": "Tablet Aksesuar / Kılıf",
+      "screenSizeInches": 11,
+      "compatibility": "Samsung Galaxy Tab Serisi",
+      "material": "Polikarbonat & Termoplastik Poliüretan",
+      "weightGrams": 280
+    },
+    "storeOffers": [
+      {
+        "id": "so-tabacc-835268-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Gönderi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.epey.com/urun/spigen-samsung-galaxy-tab-s7-rugged-armor-pro-kilif.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 4999,
         "store": "Hepsiburada"
       }
     ]
