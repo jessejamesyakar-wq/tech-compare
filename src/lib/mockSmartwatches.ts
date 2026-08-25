@@ -5045,14 +5045,14 @@ export const mockSmartwatches: Product[] = [
     ]
   },
   {
-    "id": "apple-watch-ultra-2-49mm-titanium",
-    "slug": "apple-watch-ultra-2-49mm-titanium",
-    "name": "Apple Watch Ultra 2 (49mm Titanyum GPS + Cellular)",
+    "id": "apple-watch-ultra-2-49mm-black-titanium",
+    "slug": "apple-watch-ultra-2-49mm-black-titanium",
+    "name": "Apple Watch Ultra 2 (49mm Siyah Titanyum GPS + Cellular)",
     "brand": "Apple",
     "category": "smartwatches",
     "rating": 4.9,
-    "reviewCount": 2890,
-    "basePrice": 43999,
+    "reviewCount": 1450,
+    "basePrice": 49999,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -5062,59 +5062,49 @@ export const mockSmartwatches: Product[] = [
       "/images/smartwatches/apple/apple-watch-ultra-2-49mm-titanium.jpg"
     ],
     "highlights": [
-      "49mm Havacılık Sınıfı Titanyum Kasa & 100m Suya Dayanıklılık (WR100)",
-      "3000 Nit Ultra Parlak Hep Açık Retina LTPO2 OLED Ekran",
-      "S9 SiP Çift Çekirdek & Çift Dokunma (Double Tap) Hareketi",
-      "Çift Frekanslı Hassas GPS (L1+L5) & 86 Desibel Acil Durum Sireni"
+      "Elmas Benzeri Karbon (DLC) Kaplamalı Siyah Titanyum Kasa",
+      "S9 SiP Çip & Çift Dokunuş (Double Tap) Hareketi",
+      "3000 nit Ekran Parlaklığı & 100m / 10 ATM Su Geçirmezlik (EN13319)",
+      "72 Saate Varan Düşük Güç Modu Pil Ömrü & Çift Frekanslı Hassas GPS"
     ],
     "tags": [
       "Apple",
-      "Apple Watch Ultra 2",
-      "Titanyum",
-      "watchOS",
-      "4G LTE",
-      "Safir Kristal"
+      "Ultra 2",
+      "Siyah Titanyum",
+      "Cellular",
+      "Safir Kristal",
+      "watchOS 11"
     ],
     "specs": {
       "caseSizeMm": 49,
-      "displayType": "Hep Açık Retina LTPO2 OLED (Safir Kristal)",
+      "displayType": "LTPO OLED Hep Açık Retina (Safir Kristal)",
       "displaySizeInches": 1.92,
       "resolution": "410x502 piksel (3000 nits)",
       "batteryLifeDays": 3,
       "batteryCapacityMah": 564,
       "waterResistanceAtm": 10,
-      "ipRating": "100 Metre Suya Dayanıklılık + IP6X + MIL-STD-810H + EN13319 Dalış",
+      "ipRating": "10 ATM (100m) + IP6X + MIL-STD 810H + EN13319 Dalış",
       "os": "watchOS 11",
-      "processor": "Apple S9 SiP (64-bit Çift Çekirdek, 4 Çekirdekli Neural Engine)",
+      "processor": "Apple S9 SiP (64-bit Çift Çekirdek)",
       "ramGb": 1,
       "storageGb": 64,
-      "compatibility": [
-        "iOS 18 ve üzeri iPhone modelleri"
-      ],
       "sensors": [
-        "Elektriksel Kalp Sensörü (EKG Uygulaması)",
-        "3. Nesil Optik Kalp Sensörü (Yüksek / Düşük Nabız & Ritim Bozukluğu)",
-        "Kandaki Oksijen (SpO2) Sensörü",
-        "Sıcaklık Algılama (Cilt Sıcaklığı & Döngü Takibi)",
-        "Uyku Apnesi Bildirimleri",
-        "Derinlik Göstergesi ve Su Sıcaklığı Sensörü (40m'ye kadar dalış)",
-        "Yüksek G Kuvveti İvmeölçeri (Trafik Kazası Algılama)",
-        "Düşme Algılama",
-        "Jiroskop",
-        "Her Zaman Açık Altimetre",
+        "EKG",
+        "Kandaki Oksijen (SpO2)",
+        "Cilt Sıcaklığı",
+        "Derinlik Ölçer & Su Sıcaklığı",
         "Pusula",
-        "Ortam Işığı Sensörü"
+        "Altimetre"
       ],
       "connectivity": [
-        "LTE ve UMTS (eSIM)",
-        "Çift Frekanslı GPS (L1 ve L5), GLONASS, Galileo, QZSS, BeiDou",
-        "Wi-Fi 4 (802.11n)",
+        "4G LTE (eSIM)",
         "Bluetooth 5.3",
-        "İkinci Nesil Ultra Geniş Bant (UWB 2) Çipi",
-        "Apple Pay (NFC)"
+        "Wi-Fi 4",
+        "NFC (Apple Pay)",
+        "Çift Frekanslı GPS L1+L5"
       ],
       "weightGrams": 61.4,
-      "material": "Doğal Titanyum / Siyah Titanyum & Safir Ön Kristal",
+      "material": "Siyah Grade 5 Titanyum & Safir Kristal",
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
@@ -5123,120 +5113,320 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-apple-ultra2",
-        "storeName": "Apple Store Türkiye",
-        "storeLogoColor": "bg-gray-900",
-        "price": 43999,
+        "id": "st-ap-u2-black",
+        "storeName": "Apple Store TR",
+        "storeLogoColor": "bg-black",
+        "price": 49999,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Resmi Apple Garantili",
-          "Ücretsiz Lazer Baskı"
+          "Apple Resmi Distribütör"
         ],
-        "sellerRating": 4.9,
-        "sellerReviews": 4500,
+        "sellerRating": 5,
+        "sellerReviews": 3200,
         "url": "https://www.apple.com/tr/apple-watch-ultra-2/"
       },
       {
-        "id": "st-hb-ultra2",
+        "id": "st-hb-u2-black",
         "storeName": "Hepsiburada",
         "storeLogoColor": "bg-orange-600",
-        "price": 41999,
+        "price": 47999,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Apple Türkiye Garantili",
-          "Hızlı Kargo"
+          "Hızlı Teslimat"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 2300,
-        "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Ultra+2"
+        "sellerReviews": 1800,
+        "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Ultra+2+Siyah"
       },
       {
-        "id": "st-ty-ultra2",
+        "id": "st-ty-u2-black",
         "storeName": "Trendyol",
         "storeLogoColor": "bg-amber-600",
-        "price": 41749,
+        "price": 47499,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Flaş İndirim",
-          "Kupon Fırsatı"
+          "Kuponlu"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 3400,
-        "url": "https://www.trendyol.com/sr?q=Apple+Watch+Ultra+2"
-      },
-      {
-        "id": "st-mm-ultra2",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 42999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Club Avantajı"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 950,
-        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Apple+Watch+Ultra+2"
-      },
-      {
-        "id": "st-am-ultra2",
-        "storeName": "Amazon",
-        "storeLogoColor": "bg-amber-600",
-        "price": 41499,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Amazon Prime"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 2100,
-        "url": "https://www.amazon.com.tr/s?k=Apple+Watch+Ultra+2"
+        "sellerReviews": 2400,
+        "url": "https://www.trendyol.com/sr?q=Apple+Watch+Ultra+2+Siyah"
       }
     ],
     "priceHistory": [
       {
         "date": "2026-05-01",
-        "price": 45999,
-        "store": "Apple Store Türkiye"
+        "price": 51999,
+        "store": "Apple Store"
       },
       {
         "date": "2026-06-01",
-        "price": 43499,
+        "price": 49499,
         "store": "Hepsiburada"
       },
       {
         "date": "2026-07-01",
-        "price": 42199,
+        "price": 47499,
         "store": "Trendyol"
-      },
-      {
-        "date": "2026-08-01",
-        "price": 41499,
-        "store": "Amazon"
       }
     ],
     "colorOptions": [
       {
         "name": "Siyah Titanyum",
-        "hex": "#1c1917"
+        "hex": "#1c1c1e"
+      }
+    ]
+  },
+  {
+    "id": "apple-watch-ultra-2-49mm-titanium",
+    "slug": "apple-watch-ultra-2-49mm-titanium",
+    "name": "Apple Watch Ultra 2 (49mm Doğal Titanyum GPS + Cellular)",
+    "brand": "Apple",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 2890,
+    "basePrice": 47999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/apple/apple-watch-ultra-2-49mm-titanium.jpg",
+    "images": [
+      "/images/smartwatches/apple/apple-watch-ultra-2-49mm-titanium.jpg"
+    ],
+    "highlights": [
+      "Hafif ve Ultra Dayanıklı Grade 5 Titanyum Kasa",
+      "S9 SiP Çip, Çift Dokunuş (Double Tap) ve Cihaz İçi Siri",
+      "3000 nits Ultra Parlak Safir Kristal Ekran",
+      "Çift Frekanslı Hassas GPS & EN13319 40m Rekreasyonel Dalış"
+    ],
+    "tags": [
+      "Apple",
+      "Ultra 2",
+      "Doğal Titanyum",
+      "Cellular",
+      "Safir Kristal"
+    ],
+    "specs": {
+      "caseSizeMm": 49,
+      "displayType": "LTPO OLED Hep Açık Retina",
+      "displaySizeInches": 1.92,
+      "resolution": "410x502 piksel (3000 nits)",
+      "batteryLifeDays": 3,
+      "batteryCapacityMah": 564,
+      "waterResistanceAtm": 10,
+      "ipRating": "10 ATM + IP6X + MIL-STD 810H + EN13319",
+      "os": "watchOS 11",
+      "processor": "Apple S9 SiP",
+      "ramGb": 1,
+      "storageGb": 64,
+      "sensors": [
+        "EKG",
+        "SpO2",
+        "Cilt Sıcaklığı",
+        "Derinlik Ölçer",
+        "Pusula",
+        "Altimetre"
+      ],
+      "connectivity": [
+        "4G LTE (eSIM)",
+        "Bluetooth 5.3",
+        "Wi-Fi 4",
+        "NFC",
+        "Çift GPS L1+L5"
+      ],
+      "weightGrams": 61.4,
+      "material": "Doğal Grade 5 Titanyum & Safir Kristal",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true,
+      "hasCellular": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-u2-nat",
+        "storeName": "Hepsiburada",
+        "price": 46499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2100,
+        "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Ultra+2"
       },
       {
+        "id": "st-ty-u2-nat",
+        "storeName": "Trendyol",
+        "price": 45999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En İyi Fiyat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2900,
+        "url": "https://www.trendyol.com/sr?q=Apple+Watch+Ultra+2"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 49999,
+        "store": "Apple"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 47999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 45999,
+        "store": "Trendyol"
+      }
+    ],
+    "colorOptions": [
+      {
         "name": "Doğal Titanyum",
-        "hex": "#a8a29e"
+        "hex": "#d1d5db"
+      }
+    ]
+  },
+  {
+    "id": "apple-watch-series-10-46mm-titanium-cellular",
+    "slug": "apple-watch-series-10-46mm-titanium-cellular",
+    "name": "Apple Watch Series 10 (46mm Parlak Titanyum GPS + Cellular)",
+    "brand": "Apple",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 980,
+    "basePrice": 38999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/apple/apple-watch-series-10-46mm.jpg",
+    "images": [
+      "/images/smartwatches/apple/apple-watch-series-10-46mm.jpg"
+    ],
+    "highlights": [
+      "Havacılık Sınıfı Parlak Titanyum Kasa & Safir Kristal Ekran",
+      "Geniş Açılı OLED Ekran (Ultra Geniş İzleme Açısı)",
+      "9.7mm ile Şimdiye Kadarki En İnce Apple Watch",
+      "S10 SiP Çip & Uyku Apnesi Bildirimi & Hoparlörden Doğrudan Müzik"
+    ],
+    "tags": [
+      "Apple",
+      "Series 10",
+      "46mm",
+      "Titanyum",
+      "Cellular",
+      "Safir Cam"
+    ],
+    "specs": {
+      "caseSizeMm": 46,
+      "displayType": "Geniş Açılı LTPO3 OLED Hep Açık Retina (Safir Kristal)",
+      "displaySizeInches": 1.96,
+      "resolution": "416x496 piksel (2000 nits)",
+      "batteryLifeDays": 1.8,
+      "batteryCapacityMah": 327,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM (50m) + IP6X + 6m Şnorkelle Dalış",
+      "os": "watchOS 11",
+      "processor": "Apple S10 SiP (4 Çekirdekli Neural Engine)",
+      "ramGb": 1,
+      "storageGb": 64,
+      "sensors": [
+        "EKG",
+        "SpO2",
+        "Cilt Sıcaklığı",
+        "Derinlik Ölçer",
+        "Su Sıcaklığı",
+        "Uyku Apnesi"
+      ],
+      "connectivity": [
+        "4G LTE (eSIM)",
+        "Bluetooth 5.3",
+        "Wi-Fi 4",
+        "NFC",
+        "GPS L1"
+      ],
+      "weightGrams": 41.7,
+      "material": "Parlak Grade 5 Titanyum & Safir Kristal",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true,
+      "hasCellular": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-ap-s10-46ti",
+        "storeName": "Apple Store TR",
+        "price": 38999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 1400,
+        "url": "https://www.apple.com/tr/apple-watch-series-10/"
+      },
+      {
+        "id": "st-hb-s10-46ti",
+        "storeName": "Hepsiburada",
+        "price": 37499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Series+10+46mm+Titanyum"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 39999,
+        "store": "Apple"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 37499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Doğal Titanyum",
+        "hex": "#d1d5db"
+      },
+      {
+        "name": "Altın Titanyum",
+        "hex": "#fef08a"
+      },
+      {
+        "name": "Arduvaz Titanyum",
+        "hex": "#334155"
       }
     ]
   },
   {
     "id": "apple-watch-series-10-46mm",
     "slug": "apple-watch-series-10-46mm",
-    "name": "Apple Watch Series 10 (46mm)",
+    "name": "Apple Watch Series 10 (46mm Alüminyum GPS)",
     "brand": "Apple",
     "category": "smartwatches",
-    "rating": 4.9,
-    "reviewCount": 1650,
+    "rating": 4.8,
+    "reviewCount": 2150,
     "basePrice": 19999,
     "currency": "TL",
     "releaseYear": 2024,
@@ -5247,55 +5437,47 @@ export const mockSmartwatches: Product[] = [
       "/images/smartwatches/apple/apple-watch-series-10-46mm.jpg"
     ],
     "highlights": [
-      "Şimdiye Kadarki En Büyük & En Gelişmiş Geniş Açılı OLED Ekran (%30 Daha Geniş)",
-      "Yalnızca 9.7mm İnce Tasarım & %10 Daha Hafif Kasa",
-      "Apple S10 SiP & Yeni Nesil 4 Çekirdekli Neural Engine",
-      "30 Dakikada %80 Süper Hızlı Şarj & Uyku Apnesi Bildirimleri"
+      "Ultra İnce 9.7mm Alüminyum Gövde & Geniş Açılı OLED Ekran",
+      "Apple S10 SiP Çip & 4 Çekirdekli Neural Engine",
+      "30 Dakikada %80 Hızlı Şarj Desteği",
+      "Derinlik Ölçer, Su Sıcaklığı Sensörü ve Uyku Apnesi Bildirimleri"
     ],
     "tags": [
       "Apple",
-      "Apple Watch Series 10",
+      "Series 10",
       "46mm",
-      "Geniş Açılı OLED",
+      "Alüminyum",
       "watchOS 11"
     ],
     "specs": {
       "caseSizeMm": 46,
-      "displayType": "Geniş Açılı LTPO3 OLED (2000 nits)",
+      "displayType": "Geniş Açılı LTPO3 OLED Hep Açık Retina",
       "displaySizeInches": 1.96,
-      "resolution": "416x496 piksel",
-      "batteryLifeDays": 1.5,
+      "resolution": "416x496 piksel (2000 nits)",
+      "batteryLifeDays": 1.8,
       "batteryCapacityMah": 327,
       "waterResistanceAtm": 5,
-      "ipRating": "50 Metre Suya Dayanıklılık (WR50) + IP6X Toza Dayanıklılık",
+      "ipRating": "5 ATM (50m) + IP6X",
       "os": "watchOS 11",
-      "processor": "Apple S10 SiP (64-bit Çift Çekirdekli İşlemci)",
+      "processor": "Apple S10 SiP",
       "ramGb": 1,
       "storageGb": 64,
-      "compatibility": [
-        "iOS 18 ve üzeri iPhone modelleri"
-      ],
       "sensors": [
-        "Elektriksel Kalp Sensörü (EKG)",
-        "3. Nesil Optik Kalp Sensörü",
-        "Uyku Apnesi Tespiti",
-        "Cilt Sıcaklığı Algılama",
-        "Derinlik Ölçer (6 metreye kadar şnorkelle dalış)",
-        "Su Sıcaklığı Sensörü",
-        "Trafik Kazası Algılama",
-        "Düşme Algılama",
-        "Pusula",
-        "Her Zaman Açık Altimetre"
+        "EKG",
+        "SpO2",
+        "Cilt Sıcaklığı",
+        "Derinlik Ölçer (6m)",
+        "Su Sıcaklığı",
+        "İvmeölçer"
       ],
       "connectivity": [
-        "Wi-Fi 4 (802.11n)",
         "Bluetooth 5.3",
-        "2. Nesil Ultra Geniş Bant (UWB)",
-        "L1 GPS, GLONASS, Galileo, QZSS, BeiDou",
-        "NFC (Apple Pay)"
+        "Wi-Fi 4",
+        "NFC (Apple Pay)",
+        "GPS"
       ],
       "weightGrams": 36.4,
-      "material": "Havacılık Sınıfı Alüminyum / Parlak Titanyum",
+      "material": "Alüminyum & İyon-X Cam",
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
@@ -5303,93 +5485,70 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-apple-s10-46",
-        "storeName": "Apple Store Türkiye",
-        "storeLogoColor": "bg-gray-900",
+        "id": "st-ap-s10-46",
+        "storeName": "Apple Store TR",
         "price": 19999,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Resmi Distribütör Garantili"
+          "Distribütör"
         ],
-        "sellerRating": 4.9,
-        "sellerReviews": 3200,
+        "sellerRating": 5,
+        "sellerReviews": 2400,
         "url": "https://www.apple.com/tr/apple-watch-series-10/"
       },
       {
         "id": "st-hb-s10-46",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 18899,
+        "price": 18499,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Apple Garantili",
-          "Kargo Bedava"
+          "Çok Satan"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1450,
+        "sellerReviews": 1890,
         "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Series+10+46mm"
       },
       {
         "id": "st-ty-s10-46",
         "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 18749,
+        "price": 18299,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Flaş Fırsat"
+          "Kuponlu"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 2100,
+        "sellerReviews": 2600,
         "url": "https://www.trendyol.com/sr?q=Apple+Watch+Series+10+46mm"
-      },
-      {
-        "id": "st-am-s10-46",
-        "storeName": "Amazon",
-        "storeLogoColor": "bg-amber-600",
-        "price": 18699,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 1600,
-        "url": "https://www.amazon.com.tr/s?k=Apple+Watch+Series+10+46mm"
       }
     ],
     "priceHistory": [
       {
         "date": "2026-05-01",
-        "price": 21999,
-        "store": "Apple Store Türkiye"
+        "price": 20999,
+        "store": "Apple"
       },
       {
         "date": "2026-06-01",
-        "price": 19999,
+        "price": 19299,
         "store": "Hepsiburada"
       },
       {
         "date": "2026-07-01",
-        "price": 19199,
+        "price": 18299,
         "store": "Trendyol"
-      },
-      {
-        "date": "2026-08-01",
-        "price": 18699,
-        "store": "Amazon"
       }
     ],
     "colorOptions": [
       {
         "name": "Simsiyah (Jet Black)",
-        "hex": "#000000"
+        "hex": "#0a0a0a"
       },
       {
-        "name": "Gül Altın (Rose Gold)",
-        "hex": "#e0a899"
+        "name": "Gül Altın",
+        "hex": "#f43f5e"
       },
       {
         "name": "Gümüş",
@@ -5400,11 +5559,11 @@ export const mockSmartwatches: Product[] = [
   {
     "id": "apple-watch-series-10-42mm",
     "slug": "apple-watch-series-10-42mm",
-    "name": "Apple Watch Series 10 (42mm)",
+    "name": "Apple Watch Series 10 (42mm Alüminyum GPS)",
     "brand": "Apple",
     "category": "smartwatches",
     "rating": 4.8,
-    "reviewCount": 1320,
+    "reviewCount": 1650,
     "basePrice": 18499,
     "currency": "TL",
     "releaseYear": 2024,
@@ -5415,51 +5574,45 @@ export const mockSmartwatches: Product[] = [
       "/images/smartwatches/apple/apple-watch-series-10-42mm.jpg"
     ],
     "highlights": [
-      "Kompakt 42mm Geniş Açılı OLED Ekran (2000 nits)",
-      "9.7mm İnce & Yalnızca 30.0g Ultra Hafif Alüminyum Gövde",
-      "Apple S10 SiP Gücü & Uyku Apnesi Takibi",
-      "30 Dakikada %80 Hızlı Şarj Desteği"
+      "9.7mm Kompakt ve İnce Gövde (30.0g)",
+      "Geniş Açılı OLED Ekran (Series 9 41mm'den %9 Daha Geniş)",
+      "S10 SiP Çip & Hızlı Şarj (%80 / 30 dk)",
+      "Derinlik Ölçer ve Su Sıcaklığı Sensörü"
     ],
     "tags": [
       "Apple",
-      "Apple Watch Series 10",
+      "Series 10",
       "42mm",
-      "watchOS 11",
       "Kompakt"
     ],
     "specs": {
       "caseSizeMm": 42,
-      "displayType": "Geniş Açılı LTPO3 OLED",
+      "displayType": "Geniş Açılı LTPO3 OLED Hep Açık Retina",
       "displaySizeInches": 1.77,
       "resolution": "374x446 piksel (2000 nits)",
-      "batteryLifeDays": 1.5,
+      "batteryLifeDays": 1.8,
       "batteryCapacityMah": 282,
       "waterResistanceAtm": 5,
-      "ipRating": "50 Metre Suya Dayanıklılık + IP6X",
+      "ipRating": "5 ATM (50m) + IP6X",
       "os": "watchOS 11",
       "processor": "Apple S10 SiP",
       "ramGb": 1,
       "storageGb": 64,
-      "compatibility": [
-        "iOS 18 ve üzeri iPhone modelleri"
-      ],
       "sensors": [
         "EKG",
-        "Optik Kalp Sensörü",
-        "Uyku Apnesi Bildirimi",
-        "Sıcaklık Algılama",
+        "SpO2",
+        "Cilt Sıcaklığı",
         "Derinlik Ölçer",
-        "Kaza Algılama"
+        "Su Sıcaklığı"
       ],
       "connectivity": [
-        "Wi-Fi 4",
         "Bluetooth 5.3",
-        "UWB 2",
-        "GPS",
-        "NFC"
+        "Wi-Fi 4",
+        "NFC",
+        "GPS"
       ],
       "weightGrams": 30,
-      "material": "Alüminyum Kasa & İyon-X Cam",
+      "material": "Alüminyum & İyon-X Cam",
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
@@ -5469,29 +5622,27 @@ export const mockSmartwatches: Product[] = [
       {
         "id": "st-hb-s10-42",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 17499,
+        "price": 17299,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Apple Türkiye Garantili"
+          "Distribütör"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 980,
+        "sellerReviews": 1200,
         "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Series+10+42mm"
       },
       {
         "id": "st-ty-s10-42",
         "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 17349,
+        "price": 16999,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Süper Fiyat"
+          "Fırsat"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1200,
+        "sellerReviews": 1750,
         "url": "https://www.trendyol.com/sr?q=Apple+Watch+Series+10+42mm"
       }
     ],
@@ -5499,27 +5650,22 @@ export const mockSmartwatches: Product[] = [
       {
         "date": "2026-06-01",
         "price": 18499,
-        "store": "Apple Store Türkiye"
+        "store": "Apple"
       },
       {
         "date": "2026-07-01",
-        "price": 17899,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "2026-08-01",
-        "price": 17349,
+        "price": 16999,
         "store": "Trendyol"
       }
     ],
     "colorOptions": [
       {
-        "name": "Simsiyah (Jet Black)",
-        "hex": "#000000"
+        "name": "Simsiyah",
+        "hex": "#0a0a0a"
       },
       {
-        "name": "Gül Altın (Rose Gold)",
-        "hex": "#e0a899"
+        "name": "Gül Altın",
+        "hex": "#f43f5e"
       },
       {
         "name": "Gümüş",
@@ -5528,14 +5674,121 @@ export const mockSmartwatches: Product[] = [
     ]
   },
   {
-    "id": "apple-watch-series-9-45mm",
-    "slug": "apple-watch-series-9-45mm",
-    "name": "Apple Watch Series 9 (45mm)",
+    "id": "apple-watch-series-9-45mm-steel-cellular",
+    "slug": "apple-watch-series-9-45mm-steel-cellular",
+    "name": "Apple Watch Series 9 (45mm Paslanmaz Çelik GPS + Cellular)",
     "brand": "Apple",
     "category": "smartwatches",
     "rating": 4.8,
-    "reviewCount": 2150,
-    "basePrice": 15999,
+    "reviewCount": 1120,
+    "basePrice": 31999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/apple/apple-watch-series-9-45mm.jpg",
+    "images": [
+      "/images/smartwatches/apple/apple-watch-series-9-45mm.jpg"
+    ],
+    "highlights": [
+      "Cilalı Paslanmaz Çelik Kasa & Safir Kristal Cam",
+      "4G LTE Bağımsız eSIM",
+      "S9 SiP Çip & Çift Dokunuş",
+      "2000 nits Ekran Parlaklığı"
+    ],
+    "tags": [
+      "Apple",
+      "Series 9",
+      "45mm",
+      "Paslanmaz Çelik",
+      "Cellular"
+    ],
+    "specs": {
+      "caseSizeMm": 45,
+      "displayType": "LTPO OLED (Safir Kristal)",
+      "displaySizeInches": 1.9,
+      "resolution": "396x484 piksel (2000 nits)",
+      "batteryLifeDays": 1.5,
+      "batteryCapacityMah": 308,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM + IP6X",
+      "os": "watchOS 10",
+      "processor": "Apple S9 SiP",
+      "ramGb": 1,
+      "storageGb": 64,
+      "sensors": [
+        "EKG",
+        "SpO2",
+        "Cilt Sıcaklığı",
+        "İvmeölçer",
+        "Barometre"
+      ],
+      "connectivity": [
+        "4G LTE (eSIM)",
+        "Bluetooth 5.3",
+        "Wi-Fi 4",
+        "NFC",
+        "GPS"
+      ],
+      "weightGrams": 51.5,
+      "material": "Paslanmaz Çelik & Safir Kristal",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true,
+      "hasCellular": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-sm-s9-45ss",
+        "storeName": "Apple Store",
+        "price": 31999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Distribütör"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 890,
+        "url": "https://www.apple.com/tr/apple-watch-series-9/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 33999,
+        "store": "Apple"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 31999,
+        "store": "Apple"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Grafit",
+        "hex": "#1f2937"
+      },
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      },
+      {
+        "name": "Altın Çelik",
+        "hex": "#fef08a"
+      }
+    ]
+  },
+  {
+    "id": "apple-watch-series-9-45mm",
+    "slug": "apple-watch-series-9-45mm",
+    "name": "Apple Watch Series 9 (45mm Alüminyum GPS)",
+    "brand": "Apple",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 3100,
+    "basePrice": 16499,
     "currency": "TL",
     "releaseYear": 2023,
     "isPopular": true,
@@ -5545,51 +5798,47 @@ export const mockSmartwatches: Product[] = [
       "/images/smartwatches/apple/apple-watch-series-9-45mm.jpg"
     ],
     "highlights": [
-      "Apple S9 SiP ile Çift Dokunma (Double Tap) Hareketi",
-      "2000 Nit Parlak Hep Açık Retina Ekran & 1 Nit Gece Modu",
-      "Elektriksel Kalp Sensörü (EKG) ve Kandaki Oksijen (SpO2)",
-      "Trafik Kazası Algılama ve Düşme Algılama Güvenlik Özellikleri"
+      "Apple S9 SiP Çift Çekirdekli Çip ve Çift Dokunuş (Double Tap)",
+      "2000 nits Parlaklığa Ulaşan Hep Açık Retina Ekran",
+      "Kandaki Oksijen (SpO2), EKG ve Cilt Sıcaklığı Algılama",
+      "iPhone İçin Hassas Bulma (2. Nesil Ultra Geniş Bant - UWB)"
     ],
     "tags": [
       "Apple",
       "Series 9",
       "45mm",
       "Double Tap",
-      "watchOS"
+      "Alüminyum"
     ],
     "specs": {
       "caseSizeMm": 45,
-      "displayType": "Hep Açık Retina LTPO OLED (2000 nits)",
+      "displayType": "LTPO OLED Hep Açık Retina (2000 nits)",
       "displaySizeInches": 1.9,
       "resolution": "396x484 piksel",
       "batteryLifeDays": 1.5,
       "batteryCapacityMah": 308,
       "waterResistanceAtm": 5,
-      "ipRating": "50 Metre Suya Dayanıklılık + IP6X",
-      "os": "watchOS 10 (watchOS 11 yükseltilebilir)",
-      "processor": "Apple S9 SiP (4 Çekirdekli Neural Engine)",
+      "ipRating": "5 ATM (50m) + IP6X",
+      "os": "watchOS 10",
+      "processor": "Apple S9 SiP (64-bit Çift Çekirdek)",
       "ramGb": 1,
       "storageGb": 64,
-      "compatibility": [
-        "iOS 17 ve üzeri"
-      ],
       "sensors": [
         "EKG",
-        "Optik Kalp Sensörü",
         "SpO2",
-        "Sıcaklık Sensörü",
-        "Trafik Kazası Algılama",
-        "Düşme Algılama"
+        "Cilt Sıcaklığı",
+        "İvmeölçer",
+        "Jiroskop",
+        "Ortam Işığı"
       ],
       "connectivity": [
-        "Wi-Fi 4",
         "Bluetooth 5.3",
-        "UWB 2",
-        "GPS",
-        "NFC"
+        "Wi-Fi 4",
+        "NFC",
+        "GPS / GLONASS / Galileo"
       ],
       "weightGrams": 38.7,
-      "material": "Alüminyum Kasa",
+      "material": "Alüminyum Kasa & İyon-X Cam",
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
@@ -5599,46 +5848,44 @@ export const mockSmartwatches: Product[] = [
       {
         "id": "st-hb-s9-45",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 14999,
+        "price": 15499,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Apple Türkiye Garantili"
+          "Distribütör Garantili"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1800,
+        "sellerReviews": 2400,
         "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Series+9+45mm"
       },
       {
         "id": "st-ty-s9-45",
         "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 14799,
+        "price": 15299,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "İndirimli Fiyat"
+          "En İyi Fiyat"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 2400,
+        "sellerReviews": 3100,
         "url": "https://www.trendyol.com/sr?q=Apple+Watch+Series+9+45mm"
       }
     ],
     "priceHistory": [
       {
         "date": "2026-05-01",
-        "price": 16999,
-        "store": "Apple Store Türkiye"
+        "price": 17499,
+        "store": "Apple"
       },
       {
         "date": "2026-06-01",
-        "price": 15499,
+        "price": 16199,
         "store": "Hepsiburada"
       },
       {
         "date": "2026-07-01",
-        "price": 14799,
+        "price": 15299,
         "store": "Trendyol"
       }
     ],
@@ -5649,7 +5896,7 @@ export const mockSmartwatches: Product[] = [
       },
       {
         "name": "Yıldız Işığı",
-        "hex": "#f1f5f9"
+        "hex": "#fef3c7"
       },
       {
         "name": "Gümüş",
@@ -5657,36 +5904,32 @@ export const mockSmartwatches: Product[] = [
       },
       {
         "name": "Pembe",
-        "hex": "#f472b6"
-      },
-      {
-        "name": "Kırmızı (PRODUCT)RED",
-        "hex": "#dc2626"
+        "hex": "#fb7185"
       }
     ]
   },
   {
     "id": "apple-watch-series-9-41mm",
     "slug": "apple-watch-series-9-41mm",
-    "name": "Apple Watch Series 9 (41mm)",
+    "name": "Apple Watch Series 9 (41mm Alüminyum GPS)",
     "brand": "Apple",
     "category": "smartwatches",
     "rating": 4.8,
-    "reviewCount": 1450,
-    "basePrice": 14499,
+    "reviewCount": 2200,
+    "basePrice": 15499,
     "currency": "TL",
     "releaseYear": 2023,
-    "isPopular": false,
+    "isPopular": true,
     "isFeatured": false,
     "image": "/images/smartwatches/apple/apple-watch-series-9-41mm.jpg",
     "images": [
       "/images/smartwatches/apple/apple-watch-series-9-41mm.jpg"
     ],
     "highlights": [
-      "41mm Kompakt ve Zarif Gövde (31.9g)",
-      "S9 SiP & Çift Dokunma ile Tek Elle Kontrol",
-      "2000 Nit Parlak Retina Ekran",
-      "Gelişmiş Sağlık Sensörleri (EKG, SpO2, Sıcaklık)"
+      "S9 SiP Çip & Çift Dokunuş",
+      "2000 nits Hep Açık Retina Ekran",
+      "EKG & Cilt Sıcaklığı",
+      "31.9g Zarif Kasa"
     ],
     "tags": [
       "Apple",
@@ -5696,36 +5939,31 @@ export const mockSmartwatches: Product[] = [
     ],
     "specs": {
       "caseSizeMm": 41,
-      "displayType": "Hep Açık Retina LTPO OLED",
+      "displayType": "LTPO OLED (2000 nits)",
       "displaySizeInches": 1.69,
-      "resolution": "352x430 piksel (2000 nits)",
+      "resolution": "352x430 piksel",
       "batteryLifeDays": 1.5,
       "batteryCapacityMah": 282,
       "waterResistanceAtm": 5,
-      "ipRating": "50 Metre Suya Dayanıklılık + IP6X",
+      "ipRating": "5 ATM + IP6X",
       "os": "watchOS 10",
       "processor": "Apple S9 SiP",
       "ramGb": 1,
       "storageGb": 64,
-      "compatibility": [
-        "iOS 17 ve üzeri"
-      ],
       "sensors": [
         "EKG",
-        "Optik Kalp Sensörü",
         "SpO2",
-        "Sıcaklık",
-        "Kaza Algılama"
+        "Cilt Sıcaklığı",
+        "İvmeölçer"
       ],
       "connectivity": [
-        "Wi-Fi",
         "Bluetooth 5.3",
-        "UWB 2",
-        "GPS",
-        "NFC"
+        "Wi-Fi 4",
+        "NFC",
+        "GPS"
       ],
       "weightGrams": 31.9,
-      "material": "Alüminyum Kasa",
+      "material": "Alüminyum & İyon-X Cam",
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
@@ -5735,27 +5973,26 @@ export const mockSmartwatches: Product[] = [
       {
         "id": "st-hb-s9-41",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 13799,
+        "price": 14499,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Fırsat"
+          "Distribütör"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 890,
+        "sellerReviews": 1600,
         "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Series+9+41mm"
       }
     ],
     "priceHistory": [
       {
         "date": "2026-06-01",
-        "price": 14499,
-        "store": "Apple Store Türkiye"
+        "price": 15499,
+        "store": "Apple"
       },
       {
         "date": "2026-07-01",
-        "price": 13799,
+        "price": 14499,
         "store": "Hepsiburada"
       }
     ],
@@ -5766,42 +6003,148 @@ export const mockSmartwatches: Product[] = [
       },
       {
         "name": "Yıldız Işığı",
-        "hex": "#f1f5f9"
+        "hex": "#fef3c7"
       },
       {
         "name": "Pembe",
-        "hex": "#f472b6"
+        "hex": "#fb7185"
       }
     ]
   },
   {
-    "id": "apple-watch-se-2-44mm",
-    "slug": "apple-watch-se-2-44mm",
-    "name": "Apple Watch SE 2. Nesil (44mm)",
+    "id": "apple-watch-se-2-44mm-cellular",
+    "slug": "apple-watch-se-2-44mm-cellular",
+    "name": "Apple Watch SE 2. Nesil (44mm GPS + Cellular)",
     "brand": "Apple",
     "category": "smartwatches",
-    "rating": 4.8,
-    "reviewCount": 3100,
-    "basePrice": 11499,
+    "rating": 4.7,
+    "reviewCount": 940,
+    "basePrice": 13999,
     "currency": "TL",
-    "releaseYear": 2023,
-    "isPopular": true,
+    "releaseYear": 2022,
+    "isPopular": false,
     "isFeatured": false,
     "image": "/images/smartwatches/apple/apple-watch-se-2-44mm.jpg",
     "images": [
       "/images/smartwatches/apple/apple-watch-se-2-44mm.jpg"
     ],
     "highlights": [
-      "Apple S8 SiP Güçlü İşlemci ile %20 Daha Hızlı Performans",
-      "Trafik Kazası Algılama & Düşme Algılama Acil Güvenlik",
-      "50 Metreye Kadar Suya Dayanıklı Tasarım (Yüzme Takibi)",
-      "Yüksek / Düşük Kalp Atış Hızı ve Düzensiz Ritim Bildirimleri"
+      "4G LTE Bağımsız eSIM ile Telefonsuz Bağlantı",
+      "S8 SiP Çip ile Hızlı Performans",
+      "Trafik Kazası Algılama ve Acil SOS",
+      "Aile Kurulumu ile Çocuklar İçin İdeal"
     ],
     "tags": [
       "Apple",
-      "Apple Watch SE",
+      "SE 2",
       "44mm",
-      "Bütçe Dostu",
+      "Cellular",
+      "Aile Kurulumu"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "Retina LTPO OLED (1000 nits)",
+      "displaySizeInches": 1.78,
+      "resolution": "368x448 piksel",
+      "batteryLifeDays": 1.5,
+      "batteryCapacityMah": 296,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM (50m)",
+      "os": "watchOS 10",
+      "processor": "Apple S8 SiP",
+      "ramGb": 1,
+      "storageGb": 32,
+      "sensors": [
+        "Optik Kalp (2. Nesil)",
+        "İvmeölçer",
+        "Jiroskop",
+        "Altimetre"
+      ],
+      "connectivity": [
+        "4G LTE (eSIM)",
+        "Bluetooth 5.3",
+        "Wi-Fi 4",
+        "NFC",
+        "GPS"
+      ],
+      "weightGrams": 32.9,
+      "material": "Alüminyum & Kompozit Arka Yüzey",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true,
+      "hasCellular": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-se2-44lte",
+        "storeName": "Hepsiburada",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+SE+44mm+Cellular"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 13999,
+        "store": "Apple"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 12999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Yarısı",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Yıldız Işığı",
+        "hex": "#fef3c7"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "apple-watch-se-2-44mm",
+    "slug": "apple-watch-se-2-44mm",
+    "name": "Apple Watch SE 2. Nesil (44mm GPS)",
+    "brand": "Apple",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 3800,
+    "basePrice": 10999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/smartwatches/apple/apple-watch-se-2-44mm.jpg",
+    "images": [
+      "/images/smartwatches/apple/apple-watch-se-2-44mm.jpg"
+    ],
+    "highlights": [
+      "Apple S8 SiP Çift Çekirdekli Hızlı İşlemci (Series 8 ile Aynı)",
+      "Trafik Kazası Algılama, Düşme Algılama & Acil SOS",
+      "50 Metre Suya Dayanıklılık ve Yüzme Takibi",
+      "Uyku Aşamaları Takibi & Kalp Atış Hızı Bildirimleri"
+    ],
+    "tags": [
+      "Apple",
+      "SE 2",
+      "44mm",
+      "Fiyat/Performans",
       "watchOS"
     ],
     "specs": {
@@ -5812,29 +6155,25 @@ export const mockSmartwatches: Product[] = [
       "batteryLifeDays": 1.5,
       "batteryCapacityMah": 296,
       "waterResistanceAtm": 5,
-      "ipRating": "50 Metre Suya Dayanıklılık (WR50)",
-      "os": "watchOS 10 / 11",
-      "processor": "Apple S8 SiP (64-bit Çift Çekirdek)",
+      "ipRating": "5 ATM (50m) Su Geçirmezlik",
+      "os": "watchOS 10",
+      "processor": "Apple S8 SiP",
       "ramGb": 1,
       "storageGb": 32,
-      "compatibility": [
-        "iOS 17 ve üzeri"
-      ],
       "sensors": [
-        "2. Nesil Optik Kalp Sensörü",
-        "Trafik Kazası Algılama",
-        "Düşme Algılama",
-        "Altimetre",
-        "Pusula"
+        "Optik Kalp Sensörü (2. Nesil)",
+        "Yüksek G İvmeölçeri",
+        "Jiroskop",
+        "Altimetre"
       ],
       "connectivity": [
-        "Wi-Fi",
         "Bluetooth 5.3",
-        "GPS / GLONASS / Galileo / QZSS",
-        "NFC"
+        "Wi-Fi 4",
+        "NFC (Apple Pay)",
+        "GPS"
       ],
       "weightGrams": 32.9,
-      "material": "%100 Geri Dönüştürülmüş Alüminyum & Naylon Kompozit Arka Yüzey",
+      "material": "Alüminyum Kasa & İyon-X Cam",
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
@@ -5844,67 +6183,45 @@ export const mockSmartwatches: Product[] = [
       {
         "id": "st-hb-se2-44",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 10499,
+        "price": 9999,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Çok Satan",
-          "Apple Türkiye Garantili"
+          "En Çok Satan Apple Saat"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 2800,
-        "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+SE+44mm"
+        "sellerReviews": 4500,
+        "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+SE+2+44mm"
       },
       {
         "id": "st-ty-se2-44",
         "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 10299,
+        "price": 9849,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
           "Süper Fırsat"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 3600,
-        "url": "https://www.trendyol.com/sr?q=Apple+Watch+SE+44mm"
-      },
-      {
-        "id": "st-am-se2-44",
-        "storeName": "Amazon",
-        "storeLogoColor": "bg-amber-600",
-        "price": 10199,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Prime Teslimat"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 2100,
-        "url": "https://www.amazon.com.tr/s?k=Apple+Watch+SE+44mm"
+        "sellerReviews": 5200,
+        "url": "https://www.trendyol.com/sr?q=Apple+Watch+SE+2+44mm"
       }
     ],
     "priceHistory": [
       {
         "date": "2026-05-01",
-        "price": 11999,
-        "store": "Apple Store Türkiye"
+        "price": 11499,
+        "store": "Apple"
       },
       {
         "date": "2026-06-01",
-        "price": 10899,
+        "price": 10499,
         "store": "Hepsiburada"
       },
       {
         "date": "2026-07-01",
-        "price": 10399,
+        "price": 9849,
         "store": "Trendyol"
-      },
-      {
-        "date": "2026-08-01",
-        "price": 10199,
-        "store": "Amazon"
       }
     ],
     "colorOptions": [
@@ -5914,7 +6231,7 @@ export const mockSmartwatches: Product[] = [
       },
       {
         "name": "Yıldız Işığı",
-        "hex": "#f1f5f9"
+        "hex": "#fef3c7"
       },
       {
         "name": "Gümüş",
@@ -5925,14 +6242,14 @@ export const mockSmartwatches: Product[] = [
   {
     "id": "apple-watch-se-2-40mm",
     "slug": "apple-watch-se-2-40mm",
-    "name": "Apple Watch SE 2. Nesil (40mm)",
+    "name": "Apple Watch SE 2. Nesil (40mm GPS)",
     "brand": "Apple",
     "category": "smartwatches",
-    "rating": 4.8,
-    "reviewCount": 2750,
+    "rating": 4.7,
+    "reviewCount": 3100,
     "basePrice": 9999,
     "currency": "TL",
-    "releaseYear": 2023,
+    "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
     "image": "/images/smartwatches/apple/apple-watch-se-2-40mm.jpg",
@@ -5940,47 +6257,44 @@ export const mockSmartwatches: Product[] = [
       "/images/smartwatches/apple/apple-watch-se-2-40mm.jpg"
     ],
     "highlights": [
-      "Kompakt ve İnce 40mm Kasa (Yalnızca 26.4g)",
-      "Apple S8 SiP Hızlı İşlemci",
-      "Kaza ve Düşme Algılama Acil Güvenlik",
-      "50 Metre Suya Dayanıklılık"
+      "S8 SiP Çip & Trafik Kazası Algılama",
+      "Yalnızca 26.4g Ultra Hafif Alüminyum Kasa",
+      "50m Su Geçirmezlik",
+      "Kalp Atış Hızı & Uyku Takibi"
     ],
     "tags": [
       "Apple",
-      "Apple Watch SE",
+      "SE 2",
       "40mm",
-      "Fiyat / Performans"
+      "Kompakt"
     ],
     "specs": {
       "caseSizeMm": 40,
       "displayType": "Retina LTPO OLED",
       "displaySizeInches": 1.57,
-      "resolution": "324x394 piksel (1000 nits)",
+      "resolution": "324x394 piksel",
       "batteryLifeDays": 1.5,
       "batteryCapacityMah": 245,
       "waterResistanceAtm": 5,
-      "ipRating": "50 Metre Suya Dayanıklılık (WR50)",
-      "os": "watchOS 10 / 11",
+      "ipRating": "5 ATM (50m)",
+      "os": "watchOS 10",
       "processor": "Apple S8 SiP",
       "ramGb": 1,
       "storageGb": 32,
-      "compatibility": [
-        "iOS 17 ve üzeri"
-      ],
       "sensors": [
-        "Optik Kalp Sensörü",
-        "Kaza Algılama",
-        "Düşme Algılama",
+        "Optik Kalp",
+        "İvmeölçer",
+        "Jiroskop",
         "Altimetre"
       ],
       "connectivity": [
-        "Wi-Fi",
         "Bluetooth 5.3",
-        "GPS",
-        "NFC"
+        "Wi-Fi 4",
+        "NFC",
+        "GPS"
       ],
       "weightGrams": 26.4,
-      "material": "Alüminyum",
+      "material": "Alüminyum Kasa",
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
@@ -5990,46 +6304,39 @@ export const mockSmartwatches: Product[] = [
       {
         "id": "st-hb-se2-40",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 9299,
+        "price": 8999,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Apple Türkiye Garantili"
+          "Distribütör"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 2200,
-        "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+SE+40mm"
+        "sellerReviews": 2900,
+        "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+SE+2+40mm"
       },
       {
         "id": "st-ty-se2-40",
         "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 9149,
+        "price": 8849,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Avantajlı Fiyat"
+          "Fırsat"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 3100,
-        "url": "https://www.trendyol.com/sr?q=Apple+Watch+SE+40mm"
+        "sellerReviews": 3600,
+        "url": "https://www.trendyol.com/sr?q=Apple+Watch+SE+2+40mm"
       }
     ],
     "priceHistory": [
       {
         "date": "2026-06-01",
         "price": 9999,
-        "store": "Apple Store Türkiye"
+        "store": "Apple"
       },
       {
         "date": "2026-07-01",
-        "price": 9499,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "2026-08-01",
-        "price": 9149,
+        "price": 8849,
         "store": "Trendyol"
       }
     ],
@@ -6040,7 +6347,7 @@ export const mockSmartwatches: Product[] = [
       },
       {
         "name": "Yıldız Işığı",
-        "hex": "#f1f5f9"
+        "hex": "#fef3c7"
       },
       {
         "name": "Gümüş",
@@ -6051,12 +6358,12 @@ export const mockSmartwatches: Product[] = [
   {
     "id": "apple-watch-ultra-49mm",
     "slug": "apple-watch-ultra-49mm",
-    "name": "Apple Watch Ultra (49mm Titanyum)",
+    "name": "Apple Watch Ultra (49mm Titanyum GPS + Cellular)",
     "brand": "Apple",
     "category": "smartwatches",
     "rating": 4.8,
-    "reviewCount": 2200,
-    "basePrice": 37999,
+    "reviewCount": 3400,
+    "basePrice": 38999,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -6066,51 +6373,50 @@ export const mockSmartwatches: Product[] = [
       "/images/smartwatches/apple/apple-watch-ultra-49mm.jpg"
     ],
     "highlights": [
-      "49mm Havacılık Sınıfı Titanyum Kasa & 100m Su Geçirmezlik",
-      "2000 Nit Retina OLED Safir Kristal Ekran",
-      "Özelleştirilebilir Turuncu Eylem Düğmesi & 86dB Siren",
-      "Çift Frekanslı GPS L1+L5 & EKG + SpO2 Sensörleri"
+      "49mm Havacılık Sınıfı Titanyum Kasa ve Düz Safir Kristal Ön Cam",
+      "2000 nits Parlaklık ve Özelleştirilebilir Turuncu Eylem Düğmesi",
+      "100 Metre Suya Dayanıklılık & 86 Desibel Acil Durum Sireni",
+      "Çift Frekanslı Hassas GPS (L1 ve L5) ile Kusursuz Rota Takibi"
     ],
     "tags": [
       "Apple",
-      "Watch Ultra",
+      "Ultra",
+      "49mm",
       "Titanyum",
-      "Safir Cam",
-      "Dalış"
+      "Cellular",
+      "Safir Kristal"
     ],
     "specs": {
       "caseSizeMm": 49,
-      "displayType": "Hep Açık Retina OLED (Safir Kristal)",
+      "displayType": "LTPO OLED Hep Açık Retina (2000 nits)",
       "displaySizeInches": 1.92,
-      "resolution": "410x502 piksel (2000 nits)",
+      "resolution": "410x502 piksel",
       "batteryLifeDays": 2.5,
       "batteryCapacityMah": 542,
       "waterResistanceAtm": 10,
-      "ipRating": "100 Metre Suya Dayanıklılık + MIL-STD-810H",
+      "ipRating": "10 ATM (100m) + IP6X + MIL-STD 810H + EN13319",
       "os": "watchOS 10",
-      "processor": "Apple S8 SiP",
+      "processor": "Apple S8 SiP (64-bit Çift Çekirdek)",
       "ramGb": 1,
       "storageGb": 32,
-      "compatibility": [
-        "iOS 16 ve üzeri"
-      ],
       "sensors": [
         "EKG",
-        "Optik Nabız",
         "SpO2",
         "Cilt Sıcaklığı",
-        "Derinlik Ölçer",
-        "86dB Siren"
+        "Derinlik Göstergesi",
+        "Su Sıcaklığı",
+        "Pusula",
+        "Altimetre"
       ],
       "connectivity": [
-        "LTE",
-        "Wi-Fi",
+        "4G LTE (eSIM)",
         "Bluetooth 5.3",
-        "Çift GPS",
-        "NFC"
+        "Wi-Fi 4",
+        "NFC (Apple Pay)",
+        "Çift GPS (L1+L5)"
       ],
       "weightGrams": 61.3,
-      "material": "Titanyum",
+      "material": "Grade 5 Titanyum & Safir Kristal",
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
@@ -6119,53 +6425,52 @@ export const mockSmartwatches: Product[] = [
     },
     "storeOffers": [
       {
-        "id": "st-hb-ultra1",
+        "id": "st-hb-u1",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 36499,
+        "price": 36999,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Apple Türkiye Garantili"
+          "Distribütör Garantili"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1400,
+        "sellerReviews": 2400,
         "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Ultra"
       }
     ],
     "priceHistory": [
       {
         "date": "2026-05-01",
-        "price": 38999,
-        "store": "Apple Store"
+        "price": 39999,
+        "store": "Apple"
       },
       {
         "date": "2026-06-01",
-        "price": 37499,
+        "price": 37999,
         "store": "Hepsiburada"
       },
       {
         "date": "2026-07-01",
-        "price": 36499,
-        "store": "Trendyol"
+        "price": 36999,
+        "store": "Hepsiburada"
       }
     ],
     "colorOptions": [
       {
-        "name": "Doğal Titanyum",
-        "hex": "#a8a29e"
+        "name": "Titanyum",
+        "hex": "#cbd5e1"
       }
     ]
   },
   {
     "id": "apple-watch-series-8-45mm",
     "slug": "apple-watch-series-8-45mm",
-    "name": "Apple Watch Series 8 (45mm)",
+    "name": "Apple Watch Series 8 (45mm Alüminyum GPS)",
     "brand": "Apple",
     "category": "smartwatches",
     "rating": 4.7,
-    "reviewCount": 1890,
-    "basePrice": 13499,
+    "reviewCount": 2900,
+    "basePrice": 13999,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -6175,48 +6480,45 @@ export const mockSmartwatches: Product[] = [
       "/images/smartwatches/apple/apple-watch-series-8-45mm.jpg"
     ],
     "highlights": [
-      "Gelişmiş Sıcaklık Algılama & Kadın Sağlığı Döngü Takibi",
-      "Trafik Kazası Algılama ve Düşme Bildirimi",
-      "EKG ve Kandaki Oksijen (SpO2) Monitörü",
-      "45mm Geniş Hep Açık Retina Ekran"
+      "S8 SiP Çip & Cilt Sıcaklığı Algılama",
+      "Trafik Kazası Algılama & Düşme Algılama",
+      "Hep Açık Retina Ekran (1000 nits)",
+      "EKG ve SpO2 Takibi"
     ],
     "tags": [
       "Apple",
       "Series 8",
       "45mm",
-      "watchOS"
+      "Alüminyum"
     ],
     "specs": {
       "caseSizeMm": 45,
-      "displayType": "Hep Açık Retina OLED (1000 nits)",
+      "displayType": "LTPO OLED Hep Açık Retina",
       "displaySizeInches": 1.9,
       "resolution": "396x484 piksel",
       "batteryLifeDays": 1.5,
       "batteryCapacityMah": 308,
       "waterResistanceAtm": 5,
-      "ipRating": "50 Metre Suya Dayanıklılık + IP6X",
-      "os": "watchOS 9 / 10",
+      "ipRating": "5 ATM + IP6X",
+      "os": "watchOS 10",
       "processor": "Apple S8 SiP",
       "ramGb": 1,
       "storageGb": 32,
-      "compatibility": [
-        "iOS 16 ve üzeri"
-      ],
       "sensors": [
         "EKG",
-        "Optik Kalp",
         "SpO2",
-        "Sıcaklık Sensörü",
-        "Kaza Algılama"
+        "Cilt Sıcaklığı",
+        "İvmeölçer",
+        "Barometre"
       ],
       "connectivity": [
-        "Wi-Fi",
         "Bluetooth 5.3",
-        "GPS",
-        "NFC"
+        "Wi-Fi 4",
+        "NFC",
+        "GPS"
       ],
       "weightGrams": 38.8,
-      "material": "Alüminyum",
+      "material": "Alüminyum & İyon-X Cam",
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
@@ -6226,28 +6528,27 @@ export const mockSmartwatches: Product[] = [
       {
         "id": "st-hb-s8-45",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 12899,
+        "price": 12999,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Fırsat"
+          "Distribütör"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1200,
+        "sellerReviews": 1900,
         "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Series+8+45mm"
       }
     ],
     "priceHistory": [
       {
         "date": "2026-06-01",
-        "price": 13499,
+        "price": 13999,
         "store": "Hepsiburada"
       },
       {
         "date": "2026-07-01",
-        "price": 12899,
-        "store": "Trendyol"
+        "price": 12999,
+        "store": "Hepsiburada"
       }
     ],
     "colorOptions": [
@@ -6257,27 +6558,23 @@ export const mockSmartwatches: Product[] = [
       },
       {
         "name": "Yıldız Işığı",
-        "hex": "#f1f5f9"
+        "hex": "#fef3c7"
       },
       {
         "name": "Gümüş",
         "hex": "#e2e8f0"
-      },
-      {
-        "name": "Kırmızı (PRODUCT)RED",
-        "hex": "#dc2626"
       }
     ]
   },
   {
     "id": "apple-watch-series-8-41mm",
     "slug": "apple-watch-series-8-41mm",
-    "name": "Apple Watch Series 8 (41mm)",
+    "name": "Apple Watch Series 8 (41mm Alüminyum GPS)",
     "brand": "Apple",
     "category": "smartwatches",
     "rating": 4.7,
-    "reviewCount": 1200,
-    "basePrice": 12499,
+    "reviewCount": 1950,
+    "basePrice": 12999,
     "currency": "TL",
     "releaseYear": 2022,
     "isPopular": false,
@@ -6287,45 +6584,40 @@ export const mockSmartwatches: Product[] = [
       "/images/smartwatches/apple/apple-watch-series-8-41mm.jpg"
     ],
     "highlights": [
-      "41mm İnce & Zarif Kasa Tasarımı (32.0g)",
-      "Sıcaklık Algılama & Döngü Takibi",
-      "EKG, Kandaki Oksijen ve Düşme Algılama",
-      "Hızlı Şarj Özelliği"
+      "Cilt Sıcaklığı Sensörü & Kadın Sağlığı",
+      "Trafik Kazası Algılama",
+      "Hep Açık Retina Ekran",
+      "EKG Takibi"
     ],
     "tags": [
       "Apple",
       "Series 8",
-      "41mm",
-      "Kompakt"
+      "41mm"
     ],
     "specs": {
       "caseSizeMm": 41,
-      "displayType": "Hep Açık Retina OLED",
+      "displayType": "LTPO OLED",
       "displaySizeInches": 1.69,
       "resolution": "352x430 piksel",
       "batteryLifeDays": 1.5,
       "batteryCapacityMah": 282,
       "waterResistanceAtm": 5,
-      "ipRating": "50 Metre Suya Dayanıklılık",
-      "os": "watchOS 9 / 10",
+      "ipRating": "5 ATM + IP6X",
+      "os": "watchOS 10",
       "processor": "Apple S8 SiP",
       "ramGb": 1,
       "storageGb": 32,
-      "compatibility": [
-        "iOS 16 ve üzeri"
-      ],
       "sensors": [
         "EKG",
-        "Optik Kalp",
         "SpO2",
-        "Sıcaklık",
-        "Kaza Algılama"
+        "Cilt Sıcaklığı",
+        "İvmeölçer"
       ],
       "connectivity": [
-        "Wi-Fi",
         "Bluetooth 5.3",
-        "GPS",
-        "NFC"
+        "Wi-Fi 4",
+        "NFC",
+        "GPS"
       ],
       "weightGrams": 32,
       "material": "Alüminyum",
@@ -6338,28 +6630,27 @@ export const mockSmartwatches: Product[] = [
       {
         "id": "st-hb-s8-41",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
         "price": 11999,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Uygun Fiyat"
+          "Fırsat"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 760,
+        "sellerReviews": 1200,
         "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Series+8+41mm"
       }
     ],
     "priceHistory": [
       {
         "date": "2026-06-01",
-        "price": 12499,
+        "price": 12999,
         "store": "Hepsiburada"
       },
       {
         "date": "2026-07-01",
         "price": 11999,
-        "store": "Trendyol"
+        "store": "Hepsiburada"
       }
     ],
     "colorOptions": [
@@ -6369,19 +6660,19 @@ export const mockSmartwatches: Product[] = [
       },
       {
         "name": "Yıldız Işığı",
-        "hex": "#f1f5f9"
+        "hex": "#fef3c7"
       }
     ]
   },
   {
     "id": "apple-watch-series-7-45mm",
     "slug": "apple-watch-series-7-45mm",
-    "name": "Apple Watch Series 7 (45mm)",
+    "name": "Apple Watch Series 7 (45mm Alüminyum GPS)",
     "brand": "Apple",
     "category": "smartwatches",
     "rating": 4.7,
-    "reviewCount": 2300,
-    "basePrice": 10999,
+    "reviewCount": 3200,
+    "basePrice": 11999,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": false,
@@ -6391,48 +6682,44 @@ export const mockSmartwatches: Product[] = [
       "/images/smartwatches/apple/apple-watch-series-7-45mm.jpg"
     ],
     "highlights": [
-      "%20 Daha Geniş Ekran Alanı & Kırılmaya En Dayanıklı Ön Kristal",
-      "EKG ve Kandaki Oksijen (SpO2) Ölçümü",
-      "33 Daha Hızlı Şarj (45 dakikada %80)",
-      "IP6X Toza ve WR50 Suya Dayanıklılık"
+      "%20 Daha Geniş Ekran & 1.7mm İnce Çerçeve",
+      "QWERTY Tam Klavye Desteği",
+      "IP6X Toza Dayanıklılık & Çatlamaya Dayanıklı Ön Kristal",
+      "33 Dakikada %80 Hızlı Şarj"
     ],
     "tags": [
       "Apple",
       "Series 7",
       "45mm",
-      "watchOS"
+      "Hızlı Şarj"
     ],
     "specs": {
       "caseSizeMm": 45,
-      "displayType": "Hep Açık Retina OLED",
+      "displayType": "LTPO OLED Hep Açık Retina",
       "displaySizeInches": 1.9,
       "resolution": "396x484 piksel",
       "batteryLifeDays": 1.5,
-      "batteryCapacityMah": 309,
+      "batteryCapacityMah": 308,
       "waterResistanceAtm": 5,
-      "ipRating": "WR50 + IP6X",
-      "os": "watchOS 8 / 9 / 10",
+      "ipRating": "5 ATM + IP6X",
+      "os": "watchOS 10",
       "processor": "Apple S7 SiP",
       "ramGb": 1,
       "storageGb": 32,
-      "compatibility": [
-        "iOS 15 ve üzeri"
-      ],
       "sensors": [
         "EKG",
-        "Optik Kalp Sensörü",
         "SpO2",
-        "İvmeölçer",
-        "Jiroskop"
+        "Optik Kalp (3. Nesil)",
+        "Altimetre"
       ],
       "connectivity": [
-        "Wi-Fi",
         "Bluetooth 5.0",
-        "GPS",
-        "NFC"
+        "Wi-Fi 4",
+        "NFC",
+        "GPS"
       ],
       "weightGrams": 38.8,
-      "material": "Alüminyum",
+      "material": "Alüminyum Kasa",
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
@@ -6442,28 +6729,27 @@ export const mockSmartwatches: Product[] = [
       {
         "id": "st-hb-s7-45",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 10499,
+        "price": 10999,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Avantajlı"
+          "Distribütör"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1900,
+        "sellerReviews": 2100,
         "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Series+7+45mm"
       }
     ],
     "priceHistory": [
       {
         "date": "2026-06-01",
-        "price": 10999,
+        "price": 11999,
         "store": "Hepsiburada"
       },
       {
         "date": "2026-07-01",
-        "price": 10499,
-        "store": "Trendyol"
+        "price": 10999,
+        "store": "Hepsiburada"
       }
     ],
     "colorOptions": [
@@ -6473,7 +6759,7 @@ export const mockSmartwatches: Product[] = [
       },
       {
         "name": "Yıldız Işığı",
-        "hex": "#f1f5f9"
+        "hex": "#fef3c7"
       },
       {
         "name": "Yeşil",
@@ -6488,12 +6774,12 @@ export const mockSmartwatches: Product[] = [
   {
     "id": "apple-watch-series-7-41mm",
     "slug": "apple-watch-series-7-41mm",
-    "name": "Apple Watch Series 7 (41mm)",
+    "name": "Apple Watch Series 7 (41mm Alüminyum GPS)",
     "brand": "Apple",
     "category": "smartwatches",
-    "rating": 4.6,
-    "reviewCount": 1600,
-    "basePrice": 9999,
+    "rating": 4.7,
+    "reviewCount": 2100,
+    "basePrice": 10999,
     "currency": "TL",
     "releaseYear": 2021,
     "isPopular": false,
@@ -6503,44 +6789,38 @@ export const mockSmartwatches: Product[] = [
       "/images/smartwatches/apple/apple-watch-series-7-41mm.jpg"
     ],
     "highlights": [
-      "41mm Kompakt Boyut & Büyük Ekran Oranı",
-      "EKG ve Kandaki Oksijen Sensörü",
-      "Hızlı Şarj Teknolojisi",
-      "Alüminyum Şık Kasa (32.0g)"
+      "Genişletilmiş Ekran & İnce Çerçeveler",
+      "Hızlı Şarj & EKG",
+      "IP6X Toza Dayanıklılık"
     ],
     "tags": [
       "Apple",
       "Series 7",
-      "41mm",
-      "Kompakt"
+      "41mm"
     ],
     "specs": {
       "caseSizeMm": 41,
-      "displayType": "Hep Açık Retina OLED",
+      "displayType": "LTPO OLED",
       "displaySizeInches": 1.69,
       "resolution": "352x430 piksel",
       "batteryLifeDays": 1.5,
       "batteryCapacityMah": 284,
       "waterResistanceAtm": 5,
-      "ipRating": "WR50 + IP6X",
-      "os": "watchOS 8 / 9 / 10",
+      "ipRating": "5 ATM + IP6X",
+      "os": "watchOS 10",
       "processor": "Apple S7 SiP",
       "ramGb": 1,
       "storageGb": 32,
-      "compatibility": [
-        "iOS 15 ve üzeri"
-      ],
       "sensors": [
         "EKG",
-        "Optik Kalp",
         "SpO2",
-        "İvmeölçer"
+        "Optik Kalp"
       ],
       "connectivity": [
-        "Wi-Fi",
         "Bluetooth 5.0",
-        "GPS",
-        "NFC"
+        "Wi-Fi",
+        "NFC",
+        "GPS"
       ],
       "weightGrams": 32,
       "material": "Alüminyum",
@@ -6553,28 +6833,27 @@ export const mockSmartwatches: Product[] = [
       {
         "id": "st-hb-s7-41",
         "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 9499,
+        "price": 9999,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Uygun Fiyat"
+          "Fırsat"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 950,
+        "sellerReviews": 1400,
         "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Series+7+41mm"
       }
     ],
     "priceHistory": [
       {
         "date": "2026-06-01",
-        "price": 9999,
+        "price": 10999,
         "store": "Hepsiburada"
       },
       {
         "date": "2026-07-01",
-        "price": 9499,
-        "store": "Trendyol"
+        "price": 9999,
+        "store": "Hepsiburada"
       }
     ],
     "colorOptions": [
@@ -6584,7 +6863,999 @@ export const mockSmartwatches: Product[] = [
       },
       {
         "name": "Yıldız Işığı",
-        "hex": "#f1f5f9"
+        "hex": "#fef3c7"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#1d4ed8"
+      }
+    ]
+  },
+  {
+    "id": "apple-watch-series-6-44mm",
+    "slug": "apple-watch-series-6-44mm",
+    "name": "Apple Watch Series 6 (44mm Alüminyum GPS)",
+    "brand": "Apple",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 3600,
+    "basePrice": 9499,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/apple/apple-watch-series-7-45mm.jpg",
+    "images": [
+      "/images/smartwatches/apple/apple-watch-series-7-45mm.jpg"
+    ],
+    "highlights": [
+      "İlk Kandaki Oksijen (SpO2) Sensörü",
+      "Apple S6 SiP (A13 Bionic Tabanlı Çift Çekirdek)",
+      "2.5 Kat Daha Parlak Hep Açık Ekran",
+      "Her Zaman Açık Altimetre & EKG"
+    ],
+    "tags": [
+      "Apple",
+      "Series 6",
+      "44mm",
+      "SpO2"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "LTPO OLED Hep Açık Retina",
+      "displaySizeInches": 1.78,
+      "resolution": "368x448 piksel",
+      "batteryLifeDays": 1.5,
+      "batteryCapacityMah": 303,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM (50m)",
+      "os": "watchOS 9",
+      "processor": "Apple S6 SiP",
+      "ramGb": 1,
+      "storageGb": 32,
+      "sensors": [
+        "SpO2",
+        "EKG",
+        "Optik Kalp",
+        "Her Zaman Açık Altimetre"
+      ],
+      "connectivity": [
+        "Bluetooth 5.0",
+        "Wi-Fi (2.4/5GHz)",
+        "NFC",
+        "U1 Çip (UWB)",
+        "GPS"
+      ],
+      "weightGrams": 36.5,
+      "material": "Alüminyum",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-s6-44",
+        "storeName": "Hepsiburada",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2400,
+        "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Series+6+44mm"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 9499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Uzay Grisi",
+        "hex": "#374151"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#e2e8f0"
+      },
+      {
+        "name": "Mavi",
+        "hex": "#1d4ed8"
+      },
+      {
+        "name": "Kırmızı (PRODUCT)RED",
+        "hex": "#dc2626"
+      }
+    ]
+  },
+  {
+    "id": "apple-watch-se-1-44mm",
+    "slug": "apple-watch-se-1-44mm",
+    "name": "Apple Watch SE 1. Nesil (44mm GPS)",
+    "brand": "Apple",
+    "category": "smartwatches",
+    "rating": 4.6,
+    "reviewCount": 2900,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/apple/apple-watch-se.jpg",
+    "images": [
+      "/images/smartwatches/apple/apple-watch-se.jpg"
+    ],
+    "highlights": [
+      "S5 SiP Çift Çekirdekli İşlemci",
+      "Büyük Retina Ekran",
+      "Düşme Algılama & Acil SOS",
+      "50m Suya Dayanıklılık"
+    ],
+    "tags": [
+      "Apple",
+      "SE 1",
+      "44mm"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "Retina LTPO OLED",
+      "displaySizeInches": 1.78,
+      "resolution": "368x448 piksel",
+      "batteryLifeDays": 1.5,
+      "batteryCapacityMah": 296,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM",
+      "os": "watchOS 9",
+      "processor": "Apple S5 SiP",
+      "ramGb": 1,
+      "storageGb": 32,
+      "sensors": [
+        "Optik Kalp (2. Nesil)",
+        "İvmeölçer",
+        "Jiroskop",
+        "Altimetre"
+      ],
+      "connectivity": [
+        "Bluetooth 5.0",
+        "Wi-Fi",
+        "NFC",
+        "GPS"
+      ],
+      "weightGrams": 36.3,
+      "material": "Alüminyum",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-se1-44",
+        "storeName": "Hepsiburada",
+        "price": 7499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Uygun"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1800,
+        "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+SE+44mm"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 7999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Uzay Grisi",
+        "hex": "#374151"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#e2e8f0"
+      },
+      {
+        "name": "Altın",
+        "hex": "#fef08a"
+      }
+    ]
+  },
+  {
+    "id": "apple-watch-series-5-44mm",
+    "slug": "apple-watch-series-5-44mm",
+    "name": "Apple Watch Series 5 (44mm Alüminyum GPS)",
+    "brand": "Apple",
+    "category": "smartwatches",
+    "rating": 4.6,
+    "reviewCount": 2400,
+    "basePrice": 6999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/apple/apple-watch-series-5.jpg",
+    "images": [
+      "/images/smartwatches/apple/apple-watch-series-5.jpg"
+    ],
+    "highlights": [
+      "İlk Hep Açık (Always-On) Retina Ekran",
+      "Dahili Pusula & Yükseklik Göstergesi",
+      "EKG ve Düşme Algılama",
+      "32 GB Depolama"
+    ],
+    "tags": [
+      "Apple",
+      "Series 5",
+      "44mm",
+      "Always-On"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "LTPO OLED Hep Açık Retina",
+      "displaySizeInches": 1.78,
+      "resolution": "368x448 piksel",
+      "batteryLifeDays": 1.5,
+      "batteryCapacityMah": 296,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM",
+      "os": "watchOS 9",
+      "processor": "Apple S5 SiP",
+      "ramGb": 1,
+      "storageGb": 32,
+      "sensors": [
+        "EKG",
+        "Optik Kalp (2. Nesil)",
+        "Dahili Pusula",
+        "Barometre"
+      ],
+      "connectivity": [
+        "Bluetooth 5.0",
+        "Wi-Fi",
+        "NFC",
+        "GPS"
+      ],
+      "weightGrams": 36.5,
+      "material": "Alüminyum",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-s5-44",
+        "storeName": "Hepsiburada",
+        "price": 6599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Klasik"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 1400,
+        "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Series+5+44mm"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 6999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 6599,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Uzay Grisi",
+        "hex": "#374151"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "apple-watch-series-4-44mm",
+    "slug": "apple-watch-series-4-44mm",
+    "name": "Apple Watch Series 4 (44mm Alüminyum GPS)",
+    "brand": "Apple",
+    "category": "smartwatches",
+    "rating": 4.6,
+    "reviewCount": 3100,
+    "basePrice": 5499,
+    "currency": "TL",
+    "releaseYear": 2018,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/apple/apple-watch-series-4-aluminum.jpg",
+    "images": [
+      "/images/smartwatches/apple/apple-watch-series-4-aluminum.jpg"
+    ],
+    "highlights": [
+      "Yeniden Tasarlanan %30 Daha Geniş Kasa",
+      "İlk Elektriksel Kalp Sensörü (EKG)",
+      "İlk Düşme Algılama Özelliği",
+      "Dokunsal Geri Bildirimli Digital Crown"
+    ],
+    "tags": [
+      "Apple",
+      "Series 4",
+      "44mm",
+      "EKG"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "LTPO OLED Retina",
+      "displaySizeInches": 1.78,
+      "resolution": "368x448 piksel",
+      "batteryLifeDays": 1.5,
+      "batteryCapacityMah": 292,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM",
+      "os": "watchOS 8",
+      "processor": "Apple S4 SiP (64-bit Çift Çekirdek)",
+      "ramGb": 1,
+      "storageGb": 16,
+      "sensors": [
+        "EKG",
+        "Optik Kalp (2. Nesil)",
+        "Düşme Algılama İvmeölçeri"
+      ],
+      "connectivity": [
+        "Bluetooth 5.0",
+        "Wi-Fi",
+        "NFC",
+        "GPS"
+      ],
+      "weightGrams": 36.7,
+      "material": "Alüminyum",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-s4-44",
+        "storeName": "Hepsiburada",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Efsane Kasa"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1900,
+        "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Series+4+44mm"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 5499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 4999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Uzay Grisi",
+        "hex": "#374151"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "apple-watch-series-3-42mm",
+    "slug": "apple-watch-series-3-42mm",
+    "name": "Apple Watch Series 3 (42mm Alüminyum GPS)",
+    "brand": "Apple",
+    "category": "smartwatches",
+    "rating": 4.6,
+    "reviewCount": 4800,
+    "basePrice": 4299,
+    "currency": "TL",
+    "releaseYear": 2017,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/apple/apple-watch-42mm.jpg",
+    "images": [
+      "/images/smartwatches/apple/apple-watch-42mm.jpg"
+    ],
+    "highlights": [
+      "Apple S3 Çift Çekirdekli İşlemci",
+      "Dahili GPS & Barometrik Altimetre",
+      "50m Suya Dayanıklılık & Siri Konuşma",
+      "Optik Kalp Atış Hızı Takibi"
+    ],
+    "tags": [
+      "Apple",
+      "Series 3",
+      "42mm",
+      "Klasik"
+    ],
+    "specs": {
+      "caseSizeMm": 42,
+      "displayType": "OLED Retina (1000 nits)",
+      "displaySizeInches": 1.65,
+      "resolution": "312x390 piksel",
+      "batteryLifeDays": 1.5,
+      "batteryCapacityMah": 279,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM (50m)",
+      "os": "watchOS 8",
+      "processor": "Apple S3",
+      "ramGb": 0.75,
+      "storageGb": 8,
+      "sensors": [
+        "Optik Kalp Sensörü",
+        "Altimetre",
+        "İvmeölçer",
+        "Jiroskop"
+      ],
+      "connectivity": [
+        "Bluetooth 4.2",
+        "Wi-Fi",
+        "NFC",
+        "GPS"
+      ],
+      "weightGrams": 32.3,
+      "material": "Alüminyum Kasa & İyon-X Cam",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-s3-42",
+        "storeName": "Hepsiburada",
+        "price": 3999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Klasik Apple"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Series+3+42mm"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 4299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Uzay Grisi",
+        "hex": "#374151"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "apple-watch-series-3-38mm",
+    "slug": "apple-watch-series-3-38mm",
+    "name": "Apple Watch Series 3 (38mm Alüminyum GPS)",
+    "brand": "Apple",
+    "category": "smartwatches",
+    "rating": 4.5,
+    "reviewCount": 3100,
+    "basePrice": 3899,
+    "currency": "TL",
+    "releaseYear": 2017,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/apple/apple-watch-38mm.jpg",
+    "images": [
+      "/images/smartwatches/apple/apple-watch-38mm.jpg"
+    ],
+    "highlights": [
+      "Kompakt 38mm Kasa (26.7g)",
+      "Dahili GPS & 50m Su Geçirmezlik",
+      "Kalp Atış Hızı Takibi"
+    ],
+    "tags": [
+      "Apple",
+      "Series 3",
+      "38mm"
+    ],
+    "specs": {
+      "caseSizeMm": 38,
+      "displayType": "OLED Retina",
+      "displaySizeInches": 1.5,
+      "resolution": "272x340 piksel",
+      "batteryLifeDays": 1.5,
+      "batteryCapacityMah": 262,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM",
+      "os": "watchOS 8",
+      "processor": "Apple S3",
+      "ramGb": 0.75,
+      "storageGb": 8,
+      "sensors": [
+        "Optik Kalp",
+        "Altimetre",
+        "İvmeölçer"
+      ],
+      "connectivity": [
+        "Bluetooth 4.2",
+        "Wi-Fi",
+        "NFC",
+        "GPS"
+      ],
+      "weightGrams": 26.7,
+      "material": "Alüminyum",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-s3-38",
+        "storeName": "Hepsiburada",
+        "price": 3699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kompakt"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1900,
+        "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Series+3+38mm"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 3899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3699,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Uzay Grisi",
+        "hex": "#374151"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "apple-watch-series-2-42mm",
+    "slug": "apple-watch-series-2-42mm",
+    "name": "Apple Watch Series 2 (42mm Alüminyum GPS)",
+    "brand": "Apple",
+    "category": "smartwatches",
+    "rating": 4.5,
+    "reviewCount": 1800,
+    "basePrice": 3299,
+    "currency": "TL",
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/apple/apple-watch-sport-42mm.jpg",
+    "images": [
+      "/images/smartwatches/apple/apple-watch-sport-42mm.jpg"
+    ],
+    "highlights": [
+      "İlk 50m Su Geçirmez Apple Watch & Yüzme Takibi",
+      "Dahili GPS & Çift Çekirdekli S2 Çip",
+      "2 Kat Daha Parlak 1000 nit Ekran"
+    ],
+    "tags": [
+      "Apple",
+      "Series 2",
+      "42mm",
+      "Su Geçirmez"
+    ],
+    "specs": {
+      "caseSizeMm": 42,
+      "displayType": "OLED Retina (1000 nits)",
+      "displaySizeInches": 1.65,
+      "resolution": "312x390 piksel",
+      "batteryLifeDays": 1.5,
+      "batteryCapacityMah": 334,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM (50m)",
+      "os": "watchOS 6",
+      "processor": "Apple S2 Çift Çekirdek",
+      "ramGb": 0.512,
+      "storageGb": 8,
+      "sensors": [
+        "Optik Kalp",
+        "İvmeölçer",
+        "Jiroskop"
+      ],
+      "connectivity": [
+        "Bluetooth 4.0",
+        "Wi-Fi",
+        "NFC",
+        "GPS"
+      ],
+      "weightGrams": 34.2,
+      "material": "Alüminyum",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-s2-42",
+        "storeName": "Hepsiburada",
+        "price": 3199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Klasik"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 950,
+        "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Series+2"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 3499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3199,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Uzay Grisi",
+        "hex": "#374151"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "apple-watch-series-1-42mm",
+    "slug": "apple-watch-series-1-42mm",
+    "name": "Apple Watch Series 1 (42mm Alüminyum)",
+    "brand": "Apple",
+    "category": "smartwatches",
+    "rating": 4.4,
+    "reviewCount": 1600,
+    "basePrice": 2799,
+    "currency": "TL",
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/apple/apple-watch-sport-42mm.jpg",
+    "images": [
+      "/images/smartwatches/apple/apple-watch-sport-42mm.jpg"
+    ],
+    "highlights": [
+      "Apple S1P Çift Çekirdekli İşlemci",
+      "Kalp Atış Hızı Takibi",
+      "Sıçramaya Dayanıklı IPX7 Gövde"
+    ],
+    "tags": [
+      "Apple",
+      "Series 1",
+      "42mm"
+    ],
+    "specs": {
+      "caseSizeMm": 42,
+      "displayType": "OLED Retina (450 nits)",
+      "displaySizeInches": 1.65,
+      "resolution": "312x390 piksel",
+      "batteryLifeDays": 1.2,
+      "batteryCapacityMah": 250,
+      "waterResistanceAtm": 1,
+      "ipRating": "IPX7",
+      "os": "watchOS 6",
+      "processor": "Apple S1P",
+      "ramGb": 0.512,
+      "storageGb": 8,
+      "sensors": [
+        "Optik Kalp",
+        "İvmeölçer",
+        "Jiroskop"
+      ],
+      "connectivity": [
+        "Bluetooth 4.0",
+        "Wi-Fi",
+        "NFC"
+      ],
+      "weightGrams": 30,
+      "material": "Alüminyum",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": false,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-s1-42",
+        "storeName": "Hepsiburada",
+        "price": 2699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Klasik"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Series+1"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 2999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 2699,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Uzay Grisi",
+        "hex": "#374151"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "apple-watch-1st-gen-42mm-steel",
+    "slug": "apple-watch-1st-gen-42mm-steel",
+    "name": "Apple Watch 1. Nesil (42mm Paslanmaz Çelik & Safir Kristal)",
+    "brand": "Apple",
+    "category": "smartwatches",
+    "rating": 4.5,
+    "reviewCount": 2200,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/apple/apple-watch-42mm.jpg",
+    "images": [
+      "/images/smartwatches/apple/apple-watch-42mm.jpg"
+    ],
+    "highlights": [
+      "Tarihteki İlk Apple Watch",
+      "316L Soğuk Dövme Paslanmaz Çelik Kasa & Safir Kristal Ön Cam",
+      "Seramik Arka Yüzey & Digital Crown & Taptic Engine"
+    ],
+    "tags": [
+      "Apple",
+      "1. Nesil",
+      "Paslanmaz Çelik",
+      "Koleksiyon"
+    ],
+    "specs": {
+      "caseSizeMm": 42,
+      "displayType": "OLED Retina (Safir Kristal)",
+      "displaySizeInches": 1.65,
+      "resolution": "312x390 piksel",
+      "batteryLifeDays": 1,
+      "batteryCapacityMah": 250,
+      "waterResistanceAtm": 1,
+      "ipRating": "IPX7",
+      "os": "watchOS 4",
+      "processor": "Apple S1 SiP",
+      "ramGb": 0.512,
+      "storageGb": 8,
+      "sensors": [
+        "Optik Nabız Sensörü",
+        "İvmeölçer",
+        "Jiroskop"
+      ],
+      "connectivity": [
+        "Bluetooth 4.0",
+        "Wi-Fi",
+        "NFC"
+      ],
+      "weightGrams": 50,
+      "material": "316L Paslanmaz Çelik & Safir Kristal & Seramik",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": false,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-gen1-42",
+        "storeName": "Hepsiburada",
+        "price": 3399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Koleksiyonluk"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 920,
+        "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+1.+Nesil"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 3699,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3399,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Paslanmaz Çelik",
+        "hex": "#e2e8f0"
+      },
+      {
+        "name": "Uzay Siyahı Çelik",
+        "hex": "#0f172a"
+      }
+    ]
+  },
+  {
+    "id": "apple-watch-edition-1st-gen-42mm-gold",
+    "slug": "apple-watch-edition-1st-gen-42mm-gold",
+    "name": "Apple Watch Edition 1. Nesil (42mm 18 Ayar Sarı/Pembe Altın)",
+    "brand": "Apple",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 420,
+    "basePrice": 159999,
+    "currency": "TL",
+    "releaseYear": 2015,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/apple/apple-watch-edition-42mm.jpg",
+    "images": [
+      "/images/smartwatches/apple/apple-watch-edition-42mm.jpg"
+    ],
+    "highlights": [
+      "Özel Olarak Sertleştirilmiş 18 Ayar Masif Altın Gövde",
+      "Cilalı Safir Kristal Ekran & Zirkonya Seramik Arka Yüzey",
+      "Tarihin En Prestijli ve Nadide Apple Cihazı",
+      "Deri Manyetik Kordon & Özel Ahşap / Deri Şarj Kutusu"
+    ],
+    "tags": [
+      "Apple",
+      "Edition",
+      "18 Ayar Altın",
+      "Koleksiyonluk",
+      "Lüks"
+    ],
+    "specs": {
+      "caseSizeMm": 42,
+      "displayType": "OLED Retina (Safir Kristal Cam)",
+      "displaySizeInches": 1.65,
+      "resolution": "312x390 piksel",
+      "batteryLifeDays": 1,
+      "batteryCapacityMah": 250,
+      "waterResistanceAtm": 1,
+      "ipRating": "IPX7",
+      "os": "watchOS 4",
+      "processor": "Apple S1 SiP",
+      "ramGb": 0.512,
+      "storageGb": 8,
+      "sensors": [
+        "Optik Nabız",
+        "İvmeölçer",
+        "Jiroskop"
+      ],
+      "connectivity": [
+        "Bluetooth 4.0",
+        "Wi-Fi",
+        "NFC"
+      ],
+      "weightGrams": 69,
+      "material": "18 Ayar Sarı / Pembe Altın & Safir Kristal & Seramik",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": false,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-edition-gold",
+        "storeName": "Apple Exclusive",
+        "price": 159999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "18 Ayar Masif Altın"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 120,
+        "url": "https://www.apple.com/tr/watch/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 169999,
+        "store": "Apple"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 159999,
+        "store": "Apple"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "18 Ayar Sarı Altın",
+        "hex": "#eab308"
+      },
+      {
+        "name": "18 Ayar Gül Altın",
+        "hex": "#fb7185"
       }
     ]
   },
