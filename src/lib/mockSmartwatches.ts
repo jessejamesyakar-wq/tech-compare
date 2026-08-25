@@ -14,10 +14,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/ultra-case-unselect-gallery-1-202409_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1724898127393",
+    "image": "/images/smartwatches/apple/apple-watch-ultra-2-49mm-titanium.jpg",
     "images": [
-      "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/ultra-case-unselect-gallery-1-202409_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1724898127393",
-      "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/ultra-case-unselect-gallery-2-202409_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1724898128362"
+      "/images/smartwatches/apple/apple-watch-ultra-2-49mm-titanium.jpg"
     ],
     "highlights": [
       "49mm Havacılık Sınıfı Titanyum Kasa & 100m Suya Dayanıklılık (WR100)",
@@ -200,10 +199,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/s10-case-unselect-gallery-1-202409_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1724898127393",
+    "image": "/images/smartwatches/apple/apple-watch-series-10-46mm.jpg",
     "images": [
-      "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/s10-case-unselect-gallery-1-202409_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1724898127393",
-      "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/s10-case-unselect-gallery-2-202409_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1724898128362"
+      "/images/smartwatches/apple/apple-watch-series-10-46mm.jpg"
     ],
     "highlights": [
       "Şimdiye Kadarki En Büyük & En Gelişmiş Geniş Açılı OLED Ekran (%30 Daha Geniş)",
@@ -369,9 +367,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/s10-case-unselect-gallery-1-202409_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1724898127393",
+    "image": "/images/smartwatches/apple/apple-watch-series-10-42mm.jpg",
     "images": [
-      "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/s10-case-unselect-gallery-1-202409_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1724898127393"
+      "/images/smartwatches/apple/apple-watch-series-10-42mm.jpg"
     ],
     "highlights": [
       "Kompakt 42mm Geniş Açılı OLED Ekran (2000 nits)",
@@ -499,9 +497,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/s9-case-unselect-gallery-1-202309_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1693345842880",
+    "image": "/images/smartwatches/apple/apple-watch-series-9-45mm.jpg",
     "images": [
-      "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/s9-case-unselect-gallery-1-202309_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1693345842880"
+      "/images/smartwatches/apple/apple-watch-series-9-45mm.jpg"
     ],
     "highlights": [
       "Apple S9 SiP ile Çift Dokunma (Double Tap) Hareketi",
@@ -637,9 +635,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2023,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/s9-case-unselect-gallery-1-202309_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1693345842880",
+    "image": "/images/smartwatches/apple/apple-watch-series-9-41mm.jpg",
     "images": [
-      "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/s9-case-unselect-gallery-1-202309_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1693345842880"
+      "/images/smartwatches/apple/apple-watch-series-9-41mm.jpg"
     ],
     "highlights": [
       "41mm Kompakt ve Zarif Gövde (31.9g)",
@@ -746,9 +744,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/se-case-unselect-gallery-1-202309_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1693345842880",
+    "image": "/images/smartwatches/apple/apple-watch-se-2-44mm.jpg",
     "images": [
-      "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/se-case-unselect-gallery-1-202309_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1693345842880"
+      "/images/smartwatches/apple/apple-watch-se-2-44mm.jpg"
     ],
     "highlights": [
       "Apple S8 SiP Güçlü İşlemci ile %20 Daha Hızlı Performans",
@@ -894,9 +892,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/se-case-unselect-gallery-1-202309_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1693345842880",
+    "image": "/images/smartwatches/apple/apple-watch-se-2-40mm.jpg",
     "images": [
-      "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/se-case-unselect-gallery-1-202309_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1693345842880"
+      "/images/smartwatches/apple/apple-watch-se-2-40mm.jpg"
     ],
     "highlights": [
       "Kompakt ve İnce 40mm Kasa (Yalnızca 26.4g)",
@@ -1020,9 +1018,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/ultra-case-unselect-gallery-1-202209_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1660780287232",
+    "image": "/images/smartwatches/apple/apple-watch-ultra-49mm.jpg",
     "images": [
-      "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/ultra-case-unselect-gallery-1-202209_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1660780287232"
+      "/images/smartwatches/apple/apple-watch-ultra-49mm.jpg"
     ],
     "highlights": [
       "49mm Havacılık Sınıfı Titanyum Kasa & 100m Su Geçirmezlik",
@@ -1129,9 +1127,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/s8-case-unselect-gallery-1-202209_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1660780287232",
+    "image": "/images/smartwatches/apple/apple-watch-series-8-45mm.jpg",
     "images": [
-      "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/s8-case-unselect-gallery-1-202209_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1660780287232"
+      "/images/smartwatches/apple/apple-watch-series-8-45mm.jpg"
     ],
     "highlights": [
       "Gelişmiş Sıcaklık Algılama & Kadın Sağlığı Döngü Takibi",
@@ -1241,9 +1239,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/s8-case-unselect-gallery-1-202209_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1660780287232",
+    "image": "/images/smartwatches/apple/apple-watch-series-8-41mm.jpg",
     "images": [
-      "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/s8-case-unselect-gallery-1-202209_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1660780287232"
+      "/images/smartwatches/apple/apple-watch-series-8-41mm.jpg"
     ],
     "highlights": [
       "41mm İnce & Zarif Kasa Tasarımı (32.0g)",
@@ -1345,9 +1343,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/s7-case-unselect-gallery-1-202109_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1631650392000",
+    "image": "/images/smartwatches/apple/apple-watch-series-7-45mm.jpg",
     "images": [
-      "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/s7-case-unselect-gallery-1-202109_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1631650392000"
+      "/images/smartwatches/apple/apple-watch-series-7-45mm.jpg"
     ],
     "highlights": [
       "%20 Daha Geniş Ekran Alanı & Kırılmaya En Dayanıklı Ön Kristal",
@@ -1457,9 +1455,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/s7-case-unselect-gallery-1-202109_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1631650392000",
+    "image": "/images/smartwatches/apple/apple-watch-series-7-41mm.jpg",
     "images": [
-      "https://store.storeimages.cdn-apple.com/4664/as-images.apple.com/is/s7-case-unselect-gallery-1-202109_GEO_TR?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=1631650392000"
+      "/images/smartwatches/apple/apple-watch-series-7-41mm.jpg"
     ],
     "highlights": [
       "41mm Kompakt Boyut & Büyük Ekran Oranı",
@@ -1560,11 +1558,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2407/gallery/tr-galaxy-watch-ultra-l705-sm-l705fztaatur-thumb-542385150?$Q90_330_330_F_PNG$",
+    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-ultra-47mm-lte.jpg",
     "images": [
-      "https://images.samsung.com/is/image/samsung/p6pim/tr/2407/gallery/tr-galaxy-watch-ultra-l705-sm-l705fztaatur-thumb-542385150?$Q90_330_330_F_PNG$",
-      "https://images.samsung.com/is/image/samsung/p6pim/tr/2407/gallery/tr-galaxy-watch-ultra-l705-sm-l705fztaatur-542385154?$650_519_PNG$",
-      "https://images.samsung.com/is/image/samsung/p6pim/tr/2407/gallery/tr-galaxy-watch-ultra-l705-sm-l705fztaatur-542385155?$650_519_PNG$"
+      "/images/smartwatches/samsung/samsung-galaxy-watch-ultra-47mm-lte.jpg"
     ],
     "highlights": [
       "Grade 4 Titanyum Gövde & 10 ATM / 100m Suya Dayanıklılık",
@@ -1764,10 +1760,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": true,
-    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2407/gallery/tr-galaxy-watch7-l310-sm-l310nzaatur-thumb-542384759?$Q90_330_330_F_PNG$",
+    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-7-44mm.jpg",
     "images": [
-      "https://images.samsung.com/is/image/samsung/p6pim/tr/2407/gallery/tr-galaxy-watch7-l310-sm-l310nzaatur-thumb-542384759?$Q90_330_330_F_PNG$",
-      "https://images.samsung.com/is/image/samsung/p6pim/tr/2407/gallery/tr-galaxy-watch7-l310-sm-l310nzaatur-542384763?$650_519_PNG$"
+      "/images/smartwatches/samsung/samsung-galaxy-watch-7-44mm.jpg"
     ],
     "highlights": [
       "1.5\" Super AMOLED Safir Kristal Ekran & Zırhlı Alüminyum Kasa",
@@ -1928,9 +1923,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2407/gallery/tr-galaxy-watch7-l300-sm-l300nzaatur-thumb-542384462?$Q90_330_330_F_PNG$",
+    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-7-40mm.jpg",
     "images": [
-      "https://images.samsung.com/is/image/samsung/p6pim/tr/2407/gallery/tr-galaxy-watch7-l300-sm-l300nzaatur-thumb-542384462?$Q90_330_330_F_PNG$"
+      "/images/smartwatches/samsung/samsung-galaxy-watch-7-40mm.jpg"
     ],
     "highlights": [
       "1.3\" Super AMOLED Safir Cam Kompakt ve Zarif Kasa (28.8g)",
@@ -2054,9 +2049,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-r861nzsaatur/gallery/tr-galaxy-watch-fe-r861-sm-r861nzsaatur-thumb-542171120?$Q90_330_330_F_PNG$",
+    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-fe-40mm.jpg",
     "images": [
-      "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-r861nzsaatur/gallery/tr-galaxy-watch-fe-r861-sm-r861nzsaatur-thumb-542171120?$Q90_330_330_F_PNG$"
+      "/images/smartwatches/samsung/samsung-galaxy-watch-fe-40mm.jpg"
     ],
     "highlights": [
       "Safir Kristal Cam ile Çizilmelere Karşı Maksimum Koruma",
@@ -2196,9 +2191,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2024,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-r390nzaatur/gallery/tr-galaxy-fit3-r390-sm-r390nzaatur-thumb-539829462?$Q90_330_330_F_PNG$",
+    "image": "/images/smartwatches/samsung/samsung-galaxy-fit-3.png",
     "images": [
-      "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-r390nzaatur/gallery/tr-galaxy-fit3-r390-sm-r390nzaatur-thumb-539829462?$Q90_330_330_F_PNG$"
+      "/images/smartwatches/samsung/samsung-galaxy-fit-3.png"
     ],
     "highlights": [
       "1.6\" Geniş Renkli AMOLED Ekran (256x402 piksel)",
@@ -2339,9 +2334,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2307/gallery/tr-galaxy-watch6-classic-r960-sm-r960nzkatur-thumb-537407073?$Q90_330_330_F_PNG$",
+    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-6-classic-47mm.png",
     "images": [
-      "https://images.samsung.com/is/image/samsung/p6pim/tr/2307/gallery/tr-galaxy-watch6-classic-r960-sm-r960nzkatur-thumb-537407073?$Q90_330_330_F_PNG$"
+      "/images/smartwatches/samsung/samsung-galaxy-watch-6-classic-47mm.png"
     ],
     "highlights": [
       "İkonik Fiziksel Dönen Çerçeve (Rotating Bezel)",
@@ -2464,9 +2459,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2023,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2307/gallery/tr-galaxy-watch6-classic-r950-sm-r950nzkatur-thumb-537406836?$Q90_330_330_F_PNG$",
+    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-6-classic-43mm.png",
     "images": [
-      "https://images.samsung.com/is/image/samsung/p6pim/tr/2307/gallery/tr-galaxy-watch6-classic-r950-sm-r950nzkatur-thumb-537406836?$Q90_330_330_F_PNG$"
+      "/images/smartwatches/samsung/samsung-galaxy-watch-6-classic-43mm.png"
     ],
     "highlights": [
       "Fiziksel Dönen Çerçeve & Klasik Saat Görünümü",
@@ -2567,9 +2562,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2023,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2307/gallery/tr-galaxy-watch6-r940-sm-r940nzkatur-thumb-537406603?$Q90_330_330_F_PNG$",
+    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-6-44mm.png",
     "images": [
-      "https://images.samsung.com/is/image/samsung/p6pim/tr/2307/gallery/tr-galaxy-watch6-r940-sm-r940nzkatur-thumb-537406603?$Q90_330_330_F_PNG$"
+      "/images/smartwatches/samsung/samsung-galaxy-watch-6-44mm.png"
     ],
     "highlights": [
       "İnce Çerçeveli 1.5\" Super AMOLED Safir Cam Ekran",
@@ -2691,9 +2686,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2023,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2307/gallery/tr-galaxy-watch6-r930-sm-r930nzkatur-thumb-537406322?$Q90_330_330_F_PNG$",
+    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-6-40mm.png",
     "images": [
-      "https://images.samsung.com/is/image/samsung/p6pim/tr/2307/gallery/tr-galaxy-watch6-r930-sm-r930nzkatur-thumb-537406322?$Q90_330_330_F_PNG$"
+      "/images/smartwatches/samsung/samsung-galaxy-watch-6-40mm.png"
     ],
     "highlights": [
       "1.3\" Super AMOLED Safir Kristal Ekran",
@@ -2793,9 +2788,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2022,
     "isPopular": true,
     "isFeatured": false,
-    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2208/gallery/tr-galaxy-watch5-pro-r920-sm-r920nzkatur-thumb-533185361?$Q90_330_330_F_PNG$",
+    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-5-pro-45mm.jpg",
     "images": [
-      "https://images.samsung.com/is/image/samsung/p6pim/tr/2208/gallery/tr-galaxy-watch5-pro-r920-sm-r920nzkatur-thumb-533185361?$Q90_330_330_F_PNG$"
+      "/images/smartwatches/samsung/samsung-galaxy-watch-5-pro-45mm.jpg"
     ],
     "highlights": [
       "Safir Kristal Ekran & Hafif ve Güçlü Titanyum Kasa",
@@ -2917,9 +2912,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2022,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2208/gallery/tr-galaxy-watch5-44mm-r910-sm-r910nzaatur-thumb-533184918?$Q90_330_330_F_PNG$",
+    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-5-44mm.jpg",
     "images": [
-      "https://images.samsung.com/is/image/samsung/p6pim/tr/2208/gallery/tr-galaxy-watch5-44mm-r910-sm-r910nzaatur-thumb-533184918?$Q90_330_330_F_PNG$"
+      "/images/smartwatches/samsung/samsung-galaxy-watch-5-44mm.jpg"
     ],
     "highlights": [
       "Safir Kristal Cam ile 1.6 Kat Daha Dayanıklı Ekran",
@@ -3023,9 +3018,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-r890nzkatur/gallery/tr-galaxy-watch4-classic-398513-sm-r890nzkatur-thumb-488825852?$Q90_330_330_F_PNG$",
+    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-46mm.jpg",
     "images": [
-      "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-r890nzkatur/gallery/tr-galaxy-watch4-classic-398513-sm-r890nzkatur-thumb-488825852?$Q90_330_330_F_PNG$"
+      "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-46mm.jpg"
     ],
     "highlights": [
       "Paslanmaz Çelik Kasa & Dönen Çerçeve ile Klasik Tasarım",
@@ -3126,9 +3121,9 @@ export const mockSmartwatches: Product[] = [
     "releaseYear": 2021,
     "isPopular": false,
     "isFeatured": false,
-    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-r870nzkatur/gallery/tr-galaxy-watch4-398492-sm-r870nzkatur-thumb-488819586?$Q90_330_330_F_PNG$",
+    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-44mm.jpg",
     "images": [
-      "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-r870nzkatur/gallery/tr-galaxy-watch4-398492-sm-r870nzkatur-thumb-488819586?$Q90_330_330_F_PNG$"
+      "/images/smartwatches/samsung/samsung-galaxy-watch-4-44mm.jpg"
     ],
     "highlights": [
       "1.4\" Super AMOLED Ekran & Hafif Alüminyum Tasarım (30.3g)",
@@ -6906,6 +6901,404 @@ export const mockSmartwatches: Product[] = [
         "date": "2026-08-01",
         "price": 1299,
         "store": "Samsung TR"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-watch-5-40mm",
+    "slug": "samsung-galaxy-watch-5-40mm",
+    "name": "Samsung Galaxy Watch 5 (40mm)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 1120,
+    "basePrice": 4499,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-5-40mm.jpg",
+    "images": [
+      "/images/smartwatches/samsung/samsung-galaxy-watch-5-40mm.jpg"
+    ],
+    "highlights": [
+      "1.2\" Super AMOLED Safir Kristal Ekran",
+      "BioActive Sensör (EKG, BIA Vücut Analizi)",
+      "Armor Aluminum Hafif Kasa (28.7g)",
+      "Hızlı Şarj ve Wear OS"
+    ],
+    "tags": [
+      "Samsung",
+      "Watch 5",
+      "40mm",
+      "Safir Cam"
+    ],
+    "specs": {
+      "caseSizeMm": 40,
+      "displayType": "Super AMOLED (Safir Kristal)",
+      "displaySizeInches": 1.2,
+      "resolution": "396x396 piksel",
+      "batteryLifeDays": 1.5,
+      "batteryCapacityMah": 284,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM + IP68",
+      "os": "Wear OS",
+      "processor": "Exynos W920",
+      "ramGb": 1.5,
+      "storageGb": 16,
+      "sensors": [
+        "BioActive (EKG, BIA, Nabız)",
+        "Sıcaklık",
+        "İvmeölçer"
+      ],
+      "connectivity": [
+        "Bluetooth 5.2",
+        "Wi-Fi",
+        "NFC",
+        "GPS"
+      ],
+      "weightGrams": 28.7,
+      "material": "Armor Aluminum",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-w5-40",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 4199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Distribütör Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+5+40mm"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 4499,
+        "store": "Samsung"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 4199,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Grafit",
+        "hex": "#1f2937"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#e2e8f0"
+      },
+      {
+        "name": "Pembe Altın",
+        "hex": "#fb7185"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-watch-4-classic-42mm",
+    "slug": "samsung-galaxy-watch-4-classic-42mm",
+    "name": "Samsung Galaxy Watch 4 Classic (42mm Dönen Çerçeveli)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 1400,
+    "basePrice": 3899,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-42mm.jpg",
+    "images": [
+      "/images/smartwatches/samsung/samsung-galaxy-watch-4-classic-42mm.jpg"
+    ],
+    "highlights": [
+      "Fiziksel Dönen Çerçeve & Paslanmaz Çelik Kasa",
+      "1.2\" Super AMOLED Ekran",
+      "BioActive Sensör (BIA Vücut Analizi, EKG)",
+      "Wear OS Powered by Samsung"
+    ],
+    "tags": [
+      "Samsung",
+      "Watch 4 Classic",
+      "42mm",
+      "Dönen Çerçeve"
+    ],
+    "specs": {
+      "caseSizeMm": 42,
+      "displayType": "Super AMOLED",
+      "displaySizeInches": 1.2,
+      "resolution": "396x396 piksel",
+      "batteryLifeDays": 1.5,
+      "batteryCapacityMah": 247,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM + IP68",
+      "os": "Wear OS",
+      "processor": "Exynos W920",
+      "ramGb": 1.5,
+      "storageGb": 16,
+      "sensors": [
+        "BioActive (EKG, BIA)",
+        "İvmeölçer",
+        "Jiroskop"
+      ],
+      "connectivity": [
+        "Bluetooth 5.0",
+        "Wi-Fi",
+        "NFC",
+        "GPS"
+      ],
+      "weightGrams": 46.5,
+      "material": "Paslanmaz Çelik",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-w4c-42",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Uygun Fiyat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 950,
+        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+4+Classic+42mm"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 3899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3699,
+        "store": "Trendyol"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-watch-4-40mm",
+    "slug": "samsung-galaxy-watch-4-40mm",
+    "name": "Samsung Galaxy Watch 4 (40mm)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "rating": 4.6,
+    "reviewCount": 1650,
+    "basePrice": 3199,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/samsung/samsung-galaxy-watch-4-40mm.jpg",
+    "images": [
+      "/images/smartwatches/samsung/samsung-galaxy-watch-4-40mm.jpg"
+    ],
+    "highlights": [
+      "1.2\" Super AMOLED Ekran & Yalnızca 25.9g Ultra Hafif Alüminyum Gövde",
+      "BioActive Sensör (EKG, Tansiyon, BIA)",
+      "90+ Egzersiz Modu",
+      "Wear OS ve Google Play"
+    ],
+    "tags": [
+      "Samsung",
+      "Watch 4",
+      "40mm",
+      "Kompakt"
+    ],
+    "specs": {
+      "caseSizeMm": 40,
+      "displayType": "Super AMOLED",
+      "displaySizeInches": 1.2,
+      "resolution": "396x396 piksel",
+      "batteryLifeDays": 1.5,
+      "batteryCapacityMah": 247,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM + IP68",
+      "os": "Wear OS",
+      "processor": "Exynos W920",
+      "ramGb": 1.5,
+      "storageGb": 16,
+      "sensors": [
+        "BioActive (EKG, BIA)",
+        "İvmeölçer",
+        "Jiroskop"
+      ],
+      "connectivity": [
+        "Bluetooth 5.0",
+        "Wi-Fi",
+        "NFC",
+        "GPS"
+      ],
+      "weightGrams": 25.9,
+      "material": "Armor Aluminum",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-w4-40",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 2999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fiyat / Performans"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+4+40mm"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 3199,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 2999,
+        "store": "Trendyol"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#e2e8f0"
+      },
+      {
+        "name": "Pembe Altın",
+        "hex": "#fb7185"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-fit-2",
+    "slug": "samsung-galaxy-fit-2",
+    "name": "Samsung Galaxy Fit 2 Akıllı Bileklik",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "rating": 4.6,
+    "reviewCount": 3400,
+    "basePrice": 1499,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/samsung/samsung-galaxy-fit-2.jpg",
+    "images": [
+      "/images/smartwatches/samsung/samsung-galaxy-fit-2.jpg"
+    ],
+    "highlights": [
+      "1.1\" Renkli 3D Kavisli AMOLED Ekran",
+      "21 Güne Varan Ultra Uzun Pil Ömrü",
+      "5 ATM / 50m Su Geçirmezlik",
+      "Otomatik Antrenman ve Uyku Takibi"
+    ],
+    "tags": [
+      "Samsung",
+      "Fit 2",
+      "Akıllı Bileklik",
+      "21 Gün Pil Ömrü"
+    ],
+    "specs": {
+      "caseSizeMm": 38,
+      "displayType": "AMOLED",
+      "displaySizeInches": 1.1,
+      "resolution": "126x294 piksel",
+      "batteryLifeDays": 21,
+      "batteryCapacityMah": 159,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM + IP68",
+      "os": "FreeRTOS",
+      "sensors": [
+        "Optik Kalp Sensörü",
+        "İvmeölçer",
+        "Jiroskop"
+      ],
+      "connectivity": [
+        "Bluetooth 5.1"
+      ],
+      "weightGrams": 21,
+      "material": "Polikarbonat & Silikon Kordon",
+      "hasMicrophone": false,
+      "hasSpeaker": false,
+      "hasGPS": false,
+      "hasNFC": false
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-fit2",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 1399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4100,
+        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Fit+2"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 1499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 1399,
+        "store": "Trendyol"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Kırmızı",
+        "hex": "#dc2626"
       }
     ]
   }
