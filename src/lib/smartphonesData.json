@@ -25685,175 +25685,8 @@
     "priceFormatted": "8.999 TL"
   },
   {
-    "id": "apple-iphone-17-pro-max-2tb-1",
-    "slug": "vivo-x300-ultra",
-    "name": "vivo X300 Ultra",
-    "brand": "Vivo",
-    "category": "smartphones",
-    "basePrice": 157999,
-    "currency": "TL",
-    "rating": 4.7,
-    "reviewCount": 608,
-    "releaseYear": 2026,
-    "isPopular": true,
-    "isFeatured": true,
-    "highlights": [
-      "Resmi Lansman Renkleri (2 Renk): Zümrüt Yeşili, Obsidyen Siyahı",
-      "Hex Renk Paleti: #87A55F, #282a2d",
-      "1 İnç Sony LYT-900 & Çift Deri Tasarım: Okyanus Mavi, Sepya Kahve, Gece Siyahı",
-      "Apple Apple iPhone 17 Pro Max (2 TB) Orijinal Türkiye Garantili",
-      "A19 Pro Çip & Lazer Kaynaklı Buhar Odası (Vapor Chamber) Soğutma",
-      "Üçlü 48 MP Pro Fusion Kamera & 8x Optik-Kalite Zoom (200mm Tetraprism)",
-      "18 MP Center Stage Ön Kamera (Grup Selfieleri & Dual Capture Video)",
-      "Dövme Alüminyum Unibody Gövde & Ceramic Shield 2 Çizilmez Cam",
-      "iOS 26 & Apple Intelligence (Canlı Çeviri, Visual Intelligence, Clean Up)"
-    ],
-    "image": "/images/phones/apple/apple-iphone-16-pro.jpg",
-    "images": [
-      "/images/phones/apple/apple-iphone-16-pro.jpg"
-    ],
-    "storeOffers": [
-      {
-        "id": "st-hb-a-0",
-        "storeName": "Hepsiburada",
-        "storeLogoColor": "bg-orange-600",
-        "price": 157367,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Distribütör"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 12000,
-        "url": "https://www.vatanbilgisayar.com/apple-apple-iphone-17-pro-max-2-tb/"
-      },
-      {
-        "id": "st-ty-a-0",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 158315,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Fırsat Ürünü"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 9500,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-vt-a-0",
-        "storeName": "Vatan Bilgisayar",
-        "storeLogoColor": "bg-blue-800",
-        "price": 157999,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Resmi Garanti"
-        ],
-        "sellerRating": 4.9,
-        "sellerReviews": 18000,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      },
-      {
-        "id": "st-mm-a-0",
-        "storeName": "MediaMarkt",
-        "storeLogoColor": "bg-red-600",
-        "price": 159263,
-        "inStock": true,
-        "shippingDays": 1,
-        "badges": [
-          "Mağazadan Teslim"
-        ],
-        "sellerRating": 4.8,
-        "sellerReviews": 8400,
-        "url": "https://www.vatanbilgisayar.com/-/"
-      }
-    ],
-    "priceHistory": [
-      {
-        "date": "Ekim 2025",
-        "price": 170639,
-        "store": "Apple TR"
-      },
-      {
-        "date": "Aralık 2025",
-        "price": 164319,
-        "store": "Hepsiburada"
-      },
-      {
-        "date": "Şubat 2026",
-        "price": 159579,
-        "store": "Trendyol"
-      },
-      {
-        "date": "Mart 2026",
-        "price": 157999,
-        "store": "Vatan Bilgisayar"
-      }
-    ],
-    "specs": {
-      "screen": {
-        "size": "6.9\"",
-        "type": "Super Retina XDR OLED (ProMotion 120Hz, Anti-Reflective)",
-        "resolution": "2868 x 1320 px",
-        "refreshRate": 120,
-        "ppi": 460,
-        "brightnessNits": 3000
-      },
-      "processor": {
-        "chip": "Apple A19 Pro",
-        "cores": "6 Çekirdek (Neural Accelerators + Lazer Buhar Odası Soğutma)",
-        "process": "3nm N3E",
-        "antutuScore": 2450000
-      },
-      "memory": {
-        "ramGb": 12,
-        "ramType": "LPDDR5X",
-        "storageGb": 2048,
-        "storageOptions": [
-          2048
-        ],
-        "expandableStorage": false
-      },
-      "camera": {
-        "mainMp": "48 MP Pro Fusion (24/48 mm, f/1.78, 2.44µm)",
-        "ultrawideMp": "48 MP Fusion Ultra Wide (13 mm, f/2.2, Makro)",
-        "telephotoMp": "48 MP Fusion Telephoto (100/200 mm, 4x ve 8x Optik Zoom)",
-        "selfieMp": "18 MP Center Stage (Otomatik Kadraj & Dual Capture Video)",
-        "videoRes": "4K @ 120fps Dolby Vision / ProRes RAW / Apple Log 2 / Genlock",
-        "dxomarkScore": 168
-      },
-      "battery": {
-        "capacitymAh": 5085,
-        "chargingWatts": 40,
-        "wirelessCharging": true,
-        "reverseWireless": false
-      },
-      "connectivity": {
-        "has5G": true,
-        "wifiStandard": "Wi-Fi 7",
-        "bluetooth": "Bluetooth 6.0",
-        "hasNFC": true,
-        "hasesim": true
-      },
-      "build": {
-        "weightGrams": 221,
-        "thicknessMm": 7.8,
-        "waterResistance": "IP68 (6m 30dk)",
-        "frameMaterial": "Dövme Alüminyum Unibody & Titanyum Kenarlar"
-      },
-      "software": {
-        "osName": "iOS 26 (Apple Intelligence Dahil)",
-        "updateYears": 7
-      }
-    },
-    "price": 157999,
-    "priceFormatted": "157.999 TL"
-  },
-  {
     "id": "vivo-vivo-x300-ultra",
-    "slug": "vivo-x300-ultra-2",
+    "slug": "vivo-x300-ultra",
     "name": "vivo X300 Ultra",
     "brand": "Vivo",
     "category": "smartphones",
@@ -25865,16 +25698,28 @@
     "isPopular": true,
     "isFeatured": true,
     "highlights": [
-      "Resmi Lansman Renkleri (3 Renk): Zümrüt Yeşili, Obsidyen Siyahı, Safir Mavisi",
-      "Hex Renk Paleti: #87A55F, #282a2d, #1e2a4a",
-      "Orijinal Vivo Türkiye Stüdyo Çekimi",
-      "Snapdragon 8 Elite Gen 4 Yüksek Verimli İşlemci",
-      "6000 mAh Batarya Kapasitesi (100W Hızlı Şarj)",
-      "50 MP 1-inç Sony LYT-900 (f/1.75 OIS)"
+      "6.82\" 2K LTPO AMOLED 120Hz Ekran",
+      "Snapdragon 8 Elite Yonga Seti (3nm TSMC)",
+      "200 MP ZEISS APO Periskop + 50 MP 1-inç Sony LYT-900 Kamera",
+      "6000 mAh Batarya & 100W Hızlı Şarj / 50W Kablosuz",
+      "IP68 / IP69 Suya ve Toza Tam Dayanıklılık"
     ],
-    "image": "/images/phones/vivo/3db8068eaabaf92aa0087ecf4a698de3.png",
+    "image": "https://resim.epey.com/1048095/b_vivo-x300-ultra-2.png",
     "images": [
-      "/images/phones/vivo/3db8068eaabaf92aa0087ecf4a698de3.png"
+      "https://resim.epey.com/1048095/b_vivo-x300-ultra-2.png",
+      "https://resim.epey.com/1048095/b_vivo-x300-ultra-3.png",
+      "https://resim.epey.com/1048095/b_vivo-x300-ultra-7.png",
+      "https://resim.epey.com/1048095/b_vivo-x300-ultra-6.png",
+      "https://resim.epey.com/1048095/b_vivo-x300-ultra-9.png",
+      "https://resim.epey.com/1048095/b_vivo-x300-ultra-4.png",
+      "https://resim.epey.com/1048095/b_vivo-x300-ultra-5.png",
+      "https://resim.epey.com/1048095/b_vivo-x300-ultra-8.png",
+      "https://resim.epey.com/1048095/b_vivo-x300-ultra-1.jpg",
+      "https://resim.epey.com/1048095/b_vivo-x300-ultra-2.jpg",
+      "https://resim.epey.com/1048095/b_vivo-x300-ultra-3.jpg",
+      "https://resim.epey.com/1048095/b_vivo-x300-ultra-4.jpg",
+      "https://resim.epey.com/1048095/b_vivo-x300-ultra-5.jpg",
+      "https://resim.epey.com/1048095/b_vivo-x300-ultra-6.jpg"
     ],
     "storeOffers": [
       {
@@ -26015,7 +25860,21 @@
       }
     },
     "price": 89999,
-    "priceFormatted": "89.999 TL"
+    "priceFormatted": "89.999 TL",
+    "colorOptions": [
+      {
+        "name": "Zümrüt Yeşili",
+        "hex": "#87A55F"
+      },
+      {
+        "name": "Obsidyen Siyahı",
+        "hex": "#282A2D"
+      },
+      {
+        "name": "Titanyum Grisi",
+        "hex": "#8E9196"
+      }
+    ]
   },
   {
     "id": "xiaomi-xiaomi-mi-10t-lite-5g-10480",
