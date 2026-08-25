@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Product } from '@/lib/types';
-import { ArrowRight, Store, ShieldCheck, Tag } from 'lucide-react';
+import { ArrowRight, Store } from 'lucide-react';
 
 export interface CompactProductCardProps {
   product: Product;
@@ -14,11 +14,7 @@ export interface CompactProductCardProps {
 }
 
 export function CompactProductCard({
-  product,
-  index = 0,
-  badgeType,
-  customBadgeText,
-  oldPrice
+  product
 }: CompactProductCardProps) {
   const href =
     product.category === 'tvs'
@@ -60,144 +56,54 @@ export function CompactProductCard({
     setImgSrc(product.image || fallbackImg);
   }, [product.image, fallbackImg]);
 
-  // Clean Headphone, Smartwatch, Appliances, Tablets & TVs Specific Card Layout
-  if (
-    product.category === 'headphones' ||
-    product.category === 'smartwatches' ||
-    product.category === 'appliances' ||
-    product.category === 'tablets' ||
-    product.category === 'tvs'
-  ) {
-    const specs = (product.specs || {}) as Record<string, any>;
-    let subInfo = '';
+  // Clean Unified Card Layout for all categories
+  const specs = (product.specs || {}) as Record<string, any>;
+  let subInfo = '';
 
-    if (product.category === 'headphones') {
-      const formFactor = specs.formFactor || '';
-      const anc = specs.anc && specs.anc !== 'Yok' ? 'Gürültü Engelleme' : '';
-      const battery = specs.batteryLife ? `${specs.batteryLife} Pil` : '';
-      subInfo = [anc, battery, formFactor].filter(Boolean).slice(0, 2).join(' • ') || (product.highlights?.[0] || '');
-    } else if (product.category === 'smartwatches') {
-      const caseSize = specs.caseSize || specs.size || '';
-      const material = specs.caseMaterial || specs.material || '';
-      const gps = specs.gps || specs.connectivity || '';
-      const battery = specs.batteryLife ? `${specs.batteryLife} Pil` : '';
-      subInfo = [caseSize, material, gps, battery].filter(Boolean).slice(0, 2).join(' • ') || (product.highlights?.[0] || '');
-    } else if (product.category === 'tablets') {
-      const screen = specs.screenSize ? `${specs.screenSize}"` : (specs.screen?.size ? `${specs.screen.size}"` : '');
-      const chip = specs.processor?.chip || specs.processor || specs.chipset || '';
-      const storage = specs.storage || (specs.memory?.storageGb ? `${specs.memory.storageGb} GB` : '');
-      subInfo = [screen, chip, storage].filter(Boolean).slice(0, 3).join(' • ') || (product.highlights?.[0] || '');
-    } else if (product.category === 'tvs') {
-      const sizeMatch = product.name.match(/\b(\d+(?:\.\d+)?)"/);
-      const inch = sizeMatch ? `${sizeMatch[1]}"` : (specs.screenSizeInches ? `${specs.screenSizeInches}"` : '');
-      const tech = specs.displayTech || '';
-      const refresh = specs.refreshRateHz ? `${specs.refreshRateHz}Hz` : '';
-      const os = specs.smartOs || '';
-      subInfo = [inch, tech, refresh, os].filter(Boolean).slice(0, 3).join(' • ') || (product.highlights?.[0] || '');
-    } else {
-      // Appliances
-      const suction = specs.suctionPowerPa ? `${Number(specs.suctionPowerPa).toLocaleString()} Pa Emiş` : '';
-      const power = specs.powerWatts ? `${specs.powerWatts}W` : '';
-      const cap = specs.capacity || (specs.capacityLiters ? `${specs.capacityLiters} L` : '');
-      const subLabel = specs.subCategoryLabel || '';
-      subInfo = [suction, power, cap, subLabel].filter(Boolean).slice(0, 2).join(' • ') || (product.highlights?.[0] || '');
-    }
-
-    return (
-      <div className="group relative bg-white border border-slate-200/90 hover:border-slate-400/80 rounded-3xl p-4 sm:p-4.5 transition-all duration-300 shadow-xs hover:shadow-xl hover:-translate-y-1 flex flex-col justify-between overflow-hidden">
-        {/* Product Image Box */}
-        <Link href={href} className="block relative mb-2">
-          <div className="w-full h-48 sm:h-52 bg-slate-50/90 rounded-2xl p-4 flex items-center justify-center overflow-hidden border border-slate-100 group-hover:bg-slate-100/60 transition-colors">
-            <img
-              src={imgSrc}
-              alt={product.name}
-              loading="lazy"
-              onError={() => setImgSrc(fallbackImg)}
-              className="max-h-full max-w-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300 ease-out drop-shadow-xs"
-            />
-          </div>
-        </Link>
-
-        {/* Product Brand & Title */}
-        <div className="space-y-1">
-          <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider block">
-            {product.brand}
-          </span>
-
-          <Link href={href} className="block">
-            <h4 className="text-sm font-bold text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-2 leading-snug">
-              {product.name}
-            </h4>
-          </Link>
-
-          {subInfo && (
-            <p className="text-xs text-slate-500 font-medium line-clamp-1 pt-0.5">
-              {subInfo}
-            </p>
-          )}
-        </div>
-
-        {/* Seller & Price Comparison Info */}
-        <div className="mt-3 pt-2.5 border-t border-slate-100/90 space-y-2">
-          <div>
-            <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider flex items-center justify-between">
-              <span>En Düşük Fiyat</span>
-              <span className="text-emerald-700 font-bold lowercase flex items-center gap-1">
-                <Store className="w-3 h-3" />
-                {offerCount} satıcıda fiyat
-              </span>
-            </div>
-            <div className="flex items-baseline justify-between pt-0.5">
-              <div className="text-base sm:text-lg font-black text-slate-900 tracking-tight tabular-nums">
-                ₺{minPrice.toLocaleString()}
-              </div>
-              {maxPrice > minPrice && (
-                <span className="text-[11px] font-medium text-slate-400 tabular-nums">
-                  ₺{maxPrice.toLocaleString()}&apos;ye kadar
-                </span>
-              )}
-            </div>
-          </div>
-
-          {/* Top 2 Stores Comparison Chips */}
-          {offers.length > 0 ? (
-            <div className="flex items-center gap-1.5 flex-wrap pt-0.5">
-              {offers.slice(0, 2).map((offer, oIdx) => (
-                <span
-                  key={oIdx}
-                  className="text-[10px] font-semibold bg-slate-100/80 text-slate-700 px-2 py-0.5 rounded-md flex items-center gap-1"
-                >
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-                  <span className="font-bold">{offer.storeName.replace('.com.tr', '')}</span>: ₺{offer.price.toLocaleString()}
-                </span>
-              ))}
-            </div>
-          ) : (
-            <div className="flex items-center gap-1 text-[11px] text-slate-500 font-medium pt-0.5">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-              <span>Yetkili Satıcı Fiyatları</span>
-            </div>
-          )}
-
-          {/* Compare Prices Link */}
-          <Link
-            href={href}
-            className="w-full bg-slate-900 hover:bg-emerald-600 text-white text-[11px] font-bold py-2 px-3 rounded-xl flex items-center justify-center gap-1.5 transition-all mt-1"
-          >
-            <span>Fiyatları Karşılaştır ({offerCount} Mağaza)</span>
-            <ArrowRight className="w-3 h-3" />
-          </Link>
-        </div>
-      </div>
-    );
+  if (product.category === 'smartphones') {
+    const screen = specs.screen?.size ? `${specs.screen.size}"` : (specs.screenSize ? `${specs.screenSize}"` : '');
+    const chipRaw = specs.processor?.chip || specs.processor || '';
+    const chip = chipRaw.split(' ')[0] + (chipRaw.split(' ')[1] ? ' ' + chipRaw.split(' ')[1] : '');
+    const cam = specs.camera?.mainMp ? `${specs.camera.mainMp.split(' ')[0]} MP` : '';
+    const storage = specs.memory?.storageGb ? `${specs.memory.storageGb} GB` : (specs.storage ? `${specs.storage} GB` : '');
+    subInfo = [screen, chip, cam, storage].filter(Boolean).slice(0, 3).join(' • ') || (product.highlights?.[0] || '');
+  } else if (product.category === 'headphones') {
+    const formFactor = specs.formFactor || '';
+    const anc = specs.anc && specs.anc !== 'Yok' ? 'Gürültü Engelleme' : '';
+    const battery = specs.batteryLife ? `${specs.batteryLife} Pil` : '';
+    subInfo = [anc, battery, formFactor].filter(Boolean).slice(0, 2).join(' • ') || (product.highlights?.[0] || '');
+  } else if (product.category === 'smartwatches') {
+    const caseSize = specs.caseSize || specs.size || '';
+    const material = specs.caseMaterial || specs.material || '';
+    const gps = specs.gps || specs.connectivity || '';
+    const battery = specs.batteryLife ? `${specs.batteryLife} Pil` : '';
+    subInfo = [caseSize, material, gps, battery].filter(Boolean).slice(0, 2).join(' • ') || (product.highlights?.[0] || '');
+  } else if (product.category === 'tablets') {
+    const screen = specs.screenSize ? `${specs.screenSize}"` : (specs.screen?.size ? `${specs.screen.size}"` : '');
+    const chip = specs.processor?.chip || specs.processor || specs.chipset || '';
+    const storage = specs.storage || (specs.memory?.storageGb ? `${specs.memory.storageGb} GB` : '');
+    subInfo = [screen, chip, storage].filter(Boolean).slice(0, 3).join(' • ') || (product.highlights?.[0] || '');
+  } else if (product.category === 'tvs') {
+    const sizeMatch = product.name.match(/\b(\d+(?:\.\d+)?)"/);
+    const inch = sizeMatch ? `${sizeMatch[1]}"` : (specs.screenSizeInches ? `${specs.screenSizeInches}"` : '');
+    const tech = specs.displayTech || '';
+    const refresh = specs.refreshRateHz ? `${specs.refreshRateHz}Hz` : '';
+    const os = specs.smartOs || '';
+    subInfo = [inch, tech, refresh, os].filter(Boolean).slice(0, 3).join(' • ') || (product.highlights?.[0] || '');
+  } else {
+    // Appliances and generic
+    const suction = specs.suctionPowerPa ? `${Number(specs.suctionPowerPa).toLocaleString()} Pa Emiş` : '';
+    const power = specs.powerWatts ? `${specs.powerWatts}W` : '';
+    const cap = specs.capacity || (specs.capacityLiters ? `${specs.capacityLiters} L` : '');
+    const subLabel = specs.subCategoryLabel || '';
+    subInfo = [suction, power, cap, subLabel].filter(Boolean).slice(0, 2).join(' • ') || (product.highlights?.[0] || '');
   }
 
-  // Standard Category Layout (Consoles, TVs, Tablets, etc.)
   return (
-    <div className="group relative bg-white border border-slate-200 hover:border-slate-300 rounded-2xl p-3.5 transition-all duration-200 shadow-2xs hover:shadow-lg flex flex-col justify-between overflow-hidden">
+    <div className="group relative bg-white border border-slate-200/90 hover:border-slate-400/80 rounded-3xl p-4 sm:p-4.5 transition-all duration-300 shadow-xs hover:shadow-xl hover:-translate-y-1 flex flex-col justify-between overflow-hidden">
       {/* Product Image Box */}
-      <Link href={href} className="block relative my-1">
-        <div className="w-full h-44 sm:h-48 bg-slate-50 rounded-xl p-3 sm:p-4 flex items-center justify-center overflow-hidden border border-slate-100 group-hover:bg-slate-100/70 transition-all">
+      <Link href={href} className="block relative mb-2">
+        <div className="w-full h-48 sm:h-52 bg-slate-50/90 rounded-2xl p-4 flex items-center justify-center overflow-hidden border border-slate-100 group-hover:bg-slate-100/60 transition-colors">
           <img
             src={imgSrc}
             alt={product.name}
@@ -208,50 +114,76 @@ export function CompactProductCard({
         </div>
       </Link>
 
-      {/* Product Title & Brand */}
-      <div className="space-y-1 mt-1">
-        <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest block">
+      {/* Product Brand & Title */}
+      <div className="space-y-1">
+        <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider block">
           {product.brand}
         </span>
 
         <Link href={href} className="block">
-          <h4 className="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-2 leading-snug">
+          <h4 className="text-sm font-bold text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-2 leading-snug">
             {product.name}
           </h4>
         </Link>
+
+        {subInfo && (
+          <p className="text-xs text-slate-500 font-medium line-clamp-1 pt-0.5">
+            {subInfo}
+          </p>
+        )}
       </div>
 
       {/* Seller & Price Comparison Info */}
-      <div className="mt-3 pt-2.5 border-t border-slate-100 space-y-1.5">
-        <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider flex items-center justify-between">
-          <span>En Düşük Fiyat</span>
-          <span className="text-emerald-700 font-bold lowercase flex items-center gap-1">
-            <Store className="w-3 h-3" />
-            {offerCount} satıcı
-          </span>
-        </div>
-
-        <div className="flex items-baseline justify-between">
-          <div className="text-sm sm:text-base font-black text-slate-900 tracking-tight tabular-nums">
-            ₺{minPrice.toLocaleString()}
-          </div>
-          {maxPrice > minPrice && (
-            <span className="text-[10px] text-slate-400 font-semibold tabular-nums">
-              ₺{maxPrice.toLocaleString()}&apos;ye kadar
+      <div className="mt-3 pt-2.5 border-t border-slate-100/90 space-y-2">
+        <div>
+          <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider flex items-center justify-between">
+            <span>En Düşük Fiyat</span>
+            <span className="text-emerald-700 font-bold lowercase flex items-center gap-1">
+              <Store className="w-3 h-3" />
+              {offerCount} satıcıda fiyat
             </span>
-          )}
+          </div>
+          <div className="flex items-baseline justify-between pt-0.5">
+            <div className="text-base sm:text-lg font-black text-slate-900 tracking-tight tabular-nums">
+              ₺{minPrice.toLocaleString()}
+            </div>
+            {maxPrice > minPrice && (
+              <span className="text-[11px] font-medium text-slate-400 tabular-nums">
+                ₺{maxPrice.toLocaleString()}&apos;ye kadar
+              </span>
+            )}
+          </div>
         </div>
 
-        {/* Action button */}
+        {/* Top 2 Stores Comparison Chips */}
+        {offers.length > 0 ? (
+          <div className="flex items-center gap-1.5 flex-wrap pt-0.5">
+            {offers.slice(0, 2).map((offer, oIdx) => (
+              <span
+                key={oIdx}
+                className="text-[10px] font-semibold bg-slate-100/80 text-slate-700 px-2 py-0.5 rounded-md flex items-center gap-1"
+              >
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+                <span className="font-bold">{offer.storeName.replace('.com.tr', '')}</span>: ₺{offer.price.toLocaleString()}
+              </span>
+            ))}
+          </div>
+        ) : (
+          <div className="flex items-center gap-1 text-[11px] text-slate-500 font-medium pt-0.5">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+            <span>Yetkili Satıcı Fiyatları</span>
+          </div>
+        )}
+
+        {/* Compare Prices Link */}
         <Link
           href={href}
-          className="w-full bg-slate-100 hover:bg-slate-900 hover:text-white text-slate-800 text-[11px] font-bold py-1.5 px-3 rounded-lg flex items-center justify-center gap-1 transition-all mt-1"
+          className="w-full bg-slate-900 hover:bg-emerald-600 text-white text-[11px] font-bold py-2 px-3 rounded-xl flex items-center justify-center gap-1.5 transition-all mt-1"
         >
-          <span>Fiyatları Karşılaştır ({offerCount} Satıcı)</span>
+          <span>Fiyatları Karşılaştır ({offerCount} Mağaza)</span>
           <ArrowRight className="w-3 h-3" />
         </Link>
       </div>
     </div>
   );
 }
-
