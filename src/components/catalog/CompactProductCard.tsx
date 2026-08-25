@@ -60,9 +60,9 @@ export function CompactProductCard({
     setImgSrc(product.image || fallbackImg);
   }, [product.image, fallbackImg]);
 
-  // Clean Headphone & Smartwatch Specific Card Layout
-  if (product.category === 'headphones' || product.category === 'smartwatches') {
-    const specs = (product.specs || {}) as Record<string, string>;
+  // Clean Headphone, Smartwatch & Appliances Specific Card Layout
+  if (product.category === 'headphones' || product.category === 'smartwatches' || product.category === 'appliances') {
+    const specs = (product.specs || {}) as Record<string, any>;
     let subInfo = '';
 
     if (product.category === 'headphones') {
@@ -70,13 +70,19 @@ export function CompactProductCard({
       const anc = specs.anc && specs.anc !== 'Yok' ? 'Gürültü Engelleme' : '';
       const battery = specs.batteryLife ? `${specs.batteryLife} Pil` : '';
       subInfo = [anc, battery, formFactor].filter(Boolean).slice(0, 2).join(' • ') || (product.highlights?.[0] || '');
-    } else {
-      // Smartwatches
+    } else if (product.category === 'smartwatches') {
       const caseSize = specs.caseSize || specs.size || '';
       const material = specs.caseMaterial || specs.material || '';
       const gps = specs.gps || specs.connectivity || '';
       const battery = specs.batteryLife ? `${specs.batteryLife} Pil` : '';
       subInfo = [caseSize, material, gps, battery].filter(Boolean).slice(0, 2).join(' • ') || (product.highlights?.[0] || '');
+    } else {
+      // Appliances
+      const suction = specs.suctionPowerPa ? `${Number(specs.suctionPowerPa).toLocaleString()} Pa Emiş` : '';
+      const power = specs.powerWatts ? `${specs.powerWatts}W` : '';
+      const cap = specs.capacity || (specs.capacityLiters ? `${specs.capacityLiters} L` : '');
+      const subLabel = specs.subCategoryLabel || '';
+      subInfo = [suction, power, cap, subLabel].filter(Boolean).slice(0, 2).join(' • ') || (product.highlights?.[0] || '');
     }
 
     return (
