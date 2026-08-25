@@ -76,13 +76,50 @@ export interface ApplianceSpecs {
   speedSettings?: number;
   turboFunction?: boolean;
   warrantyYears?: number;
+  brand?: string;
+  model?: string;
   color?: string;
+  volumeLiters?: number;
+  capacityKg?: number;
+  energyClass?: string;
+  energyClassCooling?: string;
+  energyClassHeating?: string;
+  spinSpeedRpm?: number;
+  quickWashMin?: number;
+  placeSettings?: number;
+  programCount?: number;
+  drawerCount?: number;
+  btuCapacity?: number;
+  gasType?: string;
+  motorType?: string;
+  noiseDb?: number;
+  noFrost?: boolean;
+  coolingType?: string;
+  refrigeratorType?: string;
+  freezerType?: string;
+  dryingType?: string;
+  inverter?: boolean;
+  inverterMotor?: boolean;
+  steamFunction?: boolean;
+  smartConnect?: boolean;
+  autoDoorOpen?: boolean;
+  autoDry?: boolean;
+  waterConsumptionLiters?: number;
 }
 
 export interface ApplianceProduct extends BaseProduct {
   category: 'appliances';
   specs: ApplianceSpecs;
   subCategory?: string;
+  subCategoryLabel?: string;
+  minPrice?: number;
+  maxPrice?: number;
+  storeCount?: number;
+  inStock?: boolean;
+  pros?: string[];
+  cons?: string[];
+  createdAt?: string;
+  updatedAt?: string;
 }
 
 export interface SmartphoneSpecs {
@@ -250,6 +287,11 @@ export interface StoreOffer {
   badges?: string[];
   sellerRating?: number;
   sellerReviews?: number;
+  merchantRating?: number;
+  reviewCount?: number;
+  shippingFee?: number;
+  freeShipping?: boolean;
+  warrantyType?: string;
   url?: string;
 }
 

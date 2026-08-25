@@ -2,6 +2,4825 @@ import { ApplianceProduct } from "./types";
 
 export const mockAppliances: ApplianceProduct[] = [
   {
+    "id": "appliance-major_appliances-refrigerator-100",
+    "slug": "arcelik-570471-mb-buzdolabi",
+    "name": "Arçelik 570471 MB No-Frost Buzdolabı",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "subCategory": "refrigerator",
+    "subCategoryLabel": "Buzdolabı",
+    "image": "https://cdn.cimri.io/image/1200x1200/arcelik-570471-mb-buzdolabi_1040647948.jpg",
+    "rating": 4.7,
+    "reviewCount": 97,
+    "basePrice": 27844.73,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Geniş 477 L net iç hacim",
+      "ProSmart Inverter Kompresör",
+      "AeroFlow homojen soğutma teknolojisi",
+      "Sessiz çalışma (38 dB)"
+    ],
+    "minPrice": 27844.73,
+    "maxPrice": 30432,
+    "storeCount": 5,
+    "inStock": true,
+    "isPopular": true,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "refrigerator",
+      "subCategoryLabel": "Buzdolabı",
+      "brand": "Arçelik",
+      "model": "Arçelik 570471 MB No-Frost Buzdolabı",
+      "volumeLiters": 477,
+      "energyClass": "E",
+      "noiseDb": 38,
+      "noFrost": true,
+      "color": "Beyaz",
+      "coolingType": "No-Frost",
+      "refrigeratorType": "Çift Kapılı (Üstten Donduruculu)",
+      "warrantyYears": 3,
+      "inverterMotor": true
+    },
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "price": 27844.73,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/arcelik-570471-mb-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 28471,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/arcelik-570471-mb-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 29253,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/arcelik-570471-mb-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 29531,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/arcelik-570471-mb-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 30432,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/arcelik-570471-mb-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 25839
+      },
+      {
+        "date": "2026-04-01",
+        "price": 25568
+      },
+      {
+        "date": "2026-05-01",
+        "price": 26513
+      },
+      {
+        "date": "2026-06-01",
+        "price": 26647
+      },
+      {
+        "date": "2026-07-01",
+        "price": 26723
+      },
+      {
+        "date": "2026-08-01",
+        "price": 27526
+      },
+      {
+        "date": "2026-08-25",
+        "price": 27844.73
+      }
+    ],
+    "pros": [
+      "Geniş 477 L net iç hacim",
+      "ProSmart Inverter Kompresör",
+      "AeroFlow homojen soğutma teknolojisi",
+      "Sessiz çalışma (38 dB)"
+    ],
+    "cons": [
+      "Su pınarı bulunmuyor"
+    ],
+    "createdAt": "2026-08-25T15:13:53.754Z",
+    "updatedAt": "2026-08-25T15:13:53.754Z"
+  },
+  {
+    "id": "appliance-major_appliances-washing_machine-101",
+    "slug": "bosch-wga242x3tr-camasir-makinesi",
+    "name": "Bosch WGA242X3TR 9 kg 1200 Devir Çamaşır Makinesi",
+    "brand": "Bosch",
+    "category": "appliances",
+    "subCategory": "washing_machine",
+    "subCategoryLabel": "Çamaşır Makinesi",
+    "image": "https://cdn.cimri.io/image/1200x1200/bosch-wga242x3tr-camasir-makinesi_744799014.jpg",
+    "rating": 4.8,
+    "reviewCount": 236,
+    "basePrice": 24569,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "EcoSilence Drive fırçasız motor (10 yıl motor garantisi)",
+      "A sınıfı enerji verimliliği",
+      "Leke çıkarma opsiyonu (AntiStain)",
+      "SpeedPerfect ile %65 zaman tasarrufu"
+    ],
+    "minPrice": 24569,
+    "maxPrice": 26721,
+    "storeCount": 5,
+    "inStock": true,
+    "isPopular": true,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "washing_machine",
+      "subCategoryLabel": "Çamaşır Makinesi",
+      "brand": "Bosch",
+      "model": "Bosch WGA242X3TR 9 kg 1200 Devir Çamaşır Makinesi",
+      "capacityKg": 9,
+      "spinSpeedRpm": 1200,
+      "energyClass": "A",
+      "motorType": "EcoSilence Drive Inverter",
+      "noiseDb": 71,
+      "quickWashMin": 15,
+      "color": "Gümüş / Inox",
+      "warrantyYears": 3,
+      "steamFunction": true
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 24569,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/bosch-wga242x3tr-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 25060,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/bosch-wga242x3tr-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 25855,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/bosch-wga242x3tr-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 26003,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/bosch-wga242x3tr-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 26721,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/bosch-wga242x3tr-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 22258
+      },
+      {
+        "date": "2026-04-01",
+        "price": 22287
+      },
+      {
+        "date": "2026-05-01",
+        "price": 22822
+      },
+      {
+        "date": "2026-06-01",
+        "price": 23910
+      },
+      {
+        "date": "2026-07-01",
+        "price": 23745
+      },
+      {
+        "date": "2026-08-01",
+        "price": 24171
+      },
+      {
+        "date": "2026-08-25",
+        "price": 24569
+      }
+    ],
+    "pros": [
+      "EcoSilence Drive fırçasız motor (10 yıl motor garantisi)",
+      "A sınıfı enerji verimliliği",
+      "Leke çıkarma opsiyonu (AntiStain)",
+      "SpeedPerfect ile %65 zaman tasarrufu"
+    ],
+    "cons": [
+      "Wi-Fi bağlantısı yok"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-washing_machine-102",
+    "slug": "altus-al-cm-71045r-camasir-makinesi",
+    "name": "Altus AL CM 71045R 7 kg 1000 Devir Çamaşır Makinesi",
+    "brand": "Altus",
+    "category": "appliances",
+    "subCategory": "washing_machine",
+    "subCategoryLabel": "Çamaşır Makinesi",
+    "image": "https://cdn.cimri.io/image/1200x1200/altus-al-cm-71045r-camasir-makinesi_744801123.jpg",
+    "rating": 4.6,
+    "reviewCount": 282,
+    "basePrice": 16598.67,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Fiyat/performans lideri",
+      "Hızlı 14 dakika yıkama programı",
+      "Kompakt boyutlar",
+      "Yaygın Arçelik yetkili servis ağı"
+    ],
+    "minPrice": 16598.67,
+    "maxPrice": 18640,
+    "storeCount": 7,
+    "inStock": true,
+    "isPopular": true,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "washing_machine",
+      "subCategoryLabel": "Çamaşır Makinesi",
+      "brand": "Altus",
+      "model": "Altus AL CM 71045R 7 kg 1000 Devir Çamaşır Makinesi",
+      "capacityKg": 7,
+      "spinSpeedRpm": 1000,
+      "energyClass": "C",
+      "motorType": "Universal Motor",
+      "noiseDb": 72,
+      "quickWashMin": 14,
+      "color": "Beyaz",
+      "warrantyYears": 3
+    },
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "price": 16598.67,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/altus-al-cm-71045r-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 17005,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/altus-al-cm-71045r-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 17218,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/altus-al-cm-71045r-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 17514,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/altus-al-cm-71045r-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 18077,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/altus-al-cm-71045r-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "price": 18366,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/altus-al-cm-71045r-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 18640,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.teknosa.com/urun/altus-al-cm-71045r-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 14902
+      },
+      {
+        "date": "2026-04-01",
+        "price": 15600
+      },
+      {
+        "date": "2026-05-01",
+        "price": 15902
+      },
+      {
+        "date": "2026-06-01",
+        "price": 15687
+      },
+      {
+        "date": "2026-07-01",
+        "price": 16165
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16455
+      },
+      {
+        "date": "2026-08-25",
+        "price": 16598.67
+      }
+    ],
+    "pros": [
+      "Fiyat/performans lideri",
+      "Hızlı 14 dakika yıkama programı",
+      "Kompakt boyutlar",
+      "Yaygın Arçelik yetkili servis ağı"
+    ],
+    "cons": [
+      "1000 devir sıkma hızı",
+      "Inverter motor değil"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-refrigerator-103",
+    "slug": "dijitsu-dbd-200-tmf-buzdolabi",
+    "name": "Dijitsu DBD 200 TMF Çift Kapılı Buzdolabı",
+    "brand": "Dijitsu",
+    "category": "appliances",
+    "subCategory": "refrigerator",
+    "subCategoryLabel": "Buzdolabı",
+    "image": "https://cdn.cimri.io/image/1200x1200/dijitsu-dbd-200-tmf-buzdolabi_645201144.jpg",
+    "rating": 4.5,
+    "reviewCount": 104,
+    "basePrice": 14306.53,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Ekonomik fiyat",
+      "Ofis ve yazlıklar için ideal boyut",
+      "Çift kapılı bölme düzeni"
+    ],
+    "minPrice": 14306.53,
+    "maxPrice": 15958,
+    "storeCount": 7,
+    "inStock": true,
+    "isPopular": true,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "refrigerator",
+      "subCategoryLabel": "Buzdolabı",
+      "brand": "Dijitsu",
+      "model": "Dijitsu DBD 200 TMF Çift Kapılı Buzdolabı",
+      "volumeLiters": 200,
+      "energyClass": "F",
+      "noiseDb": 41,
+      "noFrost": false,
+      "color": "Beyaz",
+      "coolingType": "Statik",
+      "refrigeratorType": "Çift Kapılı",
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "idefix",
+        "price": 14306.53,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/dijitsu-dbd-200-tmf-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 14599,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/dijitsu-dbd-200-tmf-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 15093,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/dijitsu-dbd-200-tmf-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 15361,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/dijitsu-dbd-200-tmf-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 15644,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/dijitsu-dbd-200-tmf-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 15733,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/dijitsu-dbd-200-tmf-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 15958,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.teknosa.com/urun/dijitsu-dbd-200-tmf-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 13045
+      },
+      {
+        "date": "2026-04-01",
+        "price": 13338
+      },
+      {
+        "date": "2026-05-01",
+        "price": 13325
+      },
+      {
+        "date": "2026-06-01",
+        "price": 13507
+      },
+      {
+        "date": "2026-07-01",
+        "price": 14032
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13877
+      },
+      {
+        "date": "2026-08-25",
+        "price": 14306.53
+      }
+    ],
+    "pros": [
+      "Ekonomik fiyat",
+      "Ofis ve yazlıklar için ideal boyut",
+      "Çift kapılı bölme düzeni"
+    ],
+    "cons": [
+      "Statik soğutma (Defrost gerektirir)",
+      "F sınıfı enerji tüketimi"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-washing_machine-104",
+    "slug": "arcelik-10121-camasir-makinesi",
+    "name": "Arçelik 10121 10 kg 1200 Devir Çamaşır Makinesi",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "subCategory": "washing_machine",
+    "subCategoryLabel": "Çamaşır Makinesi",
+    "image": "https://cdn.cimri.io/image/1200x1200/arcelik-10121-camasir-makinesi_781190244.jpg",
+    "rating": 4.7,
+    "reviewCount": 363,
+    "basePrice": 26399.04,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "10 kg devasa yıkama kapasitesi",
+      "ProSmart Inverter Motor",
+      "Buhar Destekli Yıkama (SteamCure)",
+      "A sınıfı maksimum enerji tasarrufu"
+    ],
+    "minPrice": 26399.04,
+    "maxPrice": 29781,
+    "storeCount": 7,
+    "inStock": true,
+    "isPopular": true,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "washing_machine",
+      "subCategoryLabel": "Çamaşır Makinesi",
+      "brand": "Arçelik",
+      "model": "Arçelik 10121 10 kg 1200 Devir Çamaşır Makinesi",
+      "capacityKg": 10,
+      "spinSpeedRpm": 1200,
+      "energyClass": "A",
+      "motorType": "ProSmart Inverter",
+      "noiseDb": 72,
+      "quickWashMin": 14,
+      "color": "Beyaz",
+      "warrantyYears": 3,
+      "steamFunction": true
+    },
+    "storeOffers": [
+      {
+        "storeName": "idefix",
+        "price": 26399.04,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/arcelik-10121-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 27153,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/arcelik-10121-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 27519,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/arcelik-10121-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 28082,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/arcelik-10121-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 28483,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/arcelik-10121-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 28994,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/arcelik-10121-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 29781,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.teknosa.com/urun/arcelik-10121-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 24222
+      },
+      {
+        "date": "2026-04-01",
+        "price": 24850
+      },
+      {
+        "date": "2026-05-01",
+        "price": 25106
+      },
+      {
+        "date": "2026-06-01",
+        "price": 25498
+      },
+      {
+        "date": "2026-07-01",
+        "price": 25275
+      },
+      {
+        "date": "2026-08-01",
+        "price": 26017
+      },
+      {
+        "date": "2026-08-25",
+        "price": 26399.04
+      }
+    ],
+    "pros": [
+      "10 kg devasa yıkama kapasitesi",
+      "ProSmart Inverter Motor",
+      "Buhar Destekli Yıkama (SteamCure)",
+      "A sınıfı maksimum enerji tasarrufu"
+    ],
+    "cons": [
+      "Standart beyaz renk seçeneği"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-refrigerator-105",
+    "slug": "ugur-ues-206-d2k-r65-buzdolabi",
+    "name": "Uğur UES 206 D2K R65 Çift Kapılı Buzdolabı",
+    "brand": "Uğur",
+    "category": "appliances",
+    "subCategory": "refrigerator",
+    "subCategoryLabel": "Buzdolabı",
+    "image": "https://cdn.cimri.io/image/1200x1200/ugur-ues-206-d2k-r65-buzdolabi_612204122.jpg",
+    "rating": 4.6,
+    "reviewCount": 317,
+    "basePrice": 14198.99,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Uğur soğutma kalitesi",
+      "Düşük elektrik sarfiyatı (R600a gaz)",
+      "Kompakt ergonomik gövde"
+    ],
+    "minPrice": 14198.99,
+    "maxPrice": 15294,
+    "storeCount": 5,
+    "inStock": true,
+    "isPopular": true,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "refrigerator",
+      "subCategoryLabel": "Buzdolabı",
+      "brand": "Uğur",
+      "model": "Uğur UES 206 D2K R65 Çift Kapılı Buzdolabı",
+      "volumeLiters": 206,
+      "energyClass": "E",
+      "noiseDb": 40,
+      "noFrost": false,
+      "color": "Beyaz",
+      "coolingType": "Statik",
+      "refrigeratorType": "Çift Kapılı",
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "price": 14198.99,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/ugur-ues-206-d2k-r65-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 14570,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/ugur-ues-206-d2k-r65-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 14752,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/ugur-ues-206-d2k-r65-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 15240,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/ugur-ues-206-d2k-r65-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 15294,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/ugur-ues-206-d2k-r65-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 13011
+      },
+      {
+        "date": "2026-04-01",
+        "price": 13373
+      },
+      {
+        "date": "2026-05-01",
+        "price": 13595
+      },
+      {
+        "date": "2026-06-01",
+        "price": 13528
+      },
+      {
+        "date": "2026-07-01",
+        "price": 13765
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13828
+      },
+      {
+        "date": "2026-08-25",
+        "price": 14198.99
+      }
+    ],
+    "pros": [
+      "Uğur soğutma kalitesi",
+      "Düşük elektrik sarfiyatı (R600a gaz)",
+      "Kompakt ergonomik gövde"
+    ],
+    "cons": [
+      "Statik dondurucu"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-washing_machine-106",
+    "slug": "bosch-wga25203tr-camasir-makinesi",
+    "name": "Bosch WGA25203TR 10 kg 1200 Devir Çamaşır Makinesi",
+    "brand": "Bosch",
+    "category": "appliances",
+    "subCategory": "washing_machine",
+    "subCategoryLabel": "Çamaşır Makinesi",
+    "image": "https://cdn.cimri.io/image/1200x1200/bosch-wga25203tr-camasir-makinesi_744799015.jpg",
+    "rating": 4.7,
+    "reviewCount": 154,
+    "basePrice": 27700,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "10 kg geniş tambur hacmi",
+      "EcoSilence Drive fırçasız motor",
+      "AntiStain 4 farklı zorlu leke çıkarma",
+      "A sınıfı enerji standardı"
+    ],
+    "minPrice": 27700,
+    "maxPrice": 29978,
+    "storeCount": 5,
+    "inStock": true,
+    "isPopular": true,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "washing_machine",
+      "subCategoryLabel": "Çamaşır Makinesi",
+      "brand": "Bosch",
+      "model": "Bosch WGA25203TR 10 kg 1200 Devir Çamaşır Makinesi",
+      "capacityKg": 10,
+      "spinSpeedRpm": 1200,
+      "energyClass": "A",
+      "motorType": "EcoSilence Drive Inverter",
+      "noiseDb": 71,
+      "quickWashMin": 15,
+      "color": "Beyaz",
+      "warrantyYears": 3,
+      "steamFunction": true
+    },
+    "storeOffers": [
+      {
+        "storeName": "idefix",
+        "price": 27700,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/bosch-wga25203tr-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 28225,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/bosch-wga25203tr-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 28818,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/bosch-wga25203tr-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 29622,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/bosch-wga25203tr-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 29978,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/bosch-wga25203tr-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 25678
+      },
+      {
+        "date": "2026-04-01",
+        "price": 25850
+      },
+      {
+        "date": "2026-05-01",
+        "price": 25890
+      },
+      {
+        "date": "2026-06-01",
+        "price": 26355
+      },
+      {
+        "date": "2026-07-01",
+        "price": 27371
+      },
+      {
+        "date": "2026-08-01",
+        "price": 27232
+      },
+      {
+        "date": "2026-08-25",
+        "price": 27700
+      }
+    ],
+    "pros": [
+      "10 kg geniş tambur hacmi",
+      "EcoSilence Drive fırçasız motor",
+      "AntiStain 4 farklı zorlu leke çıkarma",
+      "A sınıfı enerji standardı"
+    ],
+    "cons": [
+      "Daha yüksek fiyat segmenti"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-freezer-107",
+    "slug": "altus-al-708-ne-derin-dondurucu",
+    "name": "Altus AL 708 NE 7 Çekmeceli No-Frost Derin Dondurucu",
+    "brand": "Altus",
+    "category": "appliances",
+    "subCategory": "freezer",
+    "subCategoryLabel": "Derin Dondurucu",
+    "image": "https://cdn.cimri.io/image/1200x1200/altus-al-708-ne-derin-dondurucu_744801124.jpg",
+    "rating": 4.9,
+    "reviewCount": 245,
+    "basePrice": 16479,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "7 adet geniş bölme ve çekmece",
+      "No-Frost teknolojisi (Buzlanma yapmaz)",
+      "Hızlı dondurma fonksiyonu",
+      "Elektrik kesintisinde 16 saat koruma"
+    ],
+    "minPrice": 16479,
+    "maxPrice": 17978,
+    "storeCount": 5,
+    "inStock": true,
+    "isPopular": true,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "freezer",
+      "subCategoryLabel": "Derin Dondurucu",
+      "brand": "Altus",
+      "model": "Altus AL 708 NE 7 Çekmeceli No-Frost Derin Dondurucu",
+      "volumeLiters": 256,
+      "energyClass": "E",
+      "noiseDb": 39,
+      "noFrost": true,
+      "drawerCount": 7,
+      "color": "Beyaz",
+      "freezerType": "Dikey / Çekmeceli",
+      "warrantyYears": 3
+    },
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "price": 16479,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/altus-al-708-ne-derin-dondurucu",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 16920,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/altus-al-708-ne-derin-dondurucu",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 17133,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/altus-al-708-ne-derin-dondurucu",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 17674,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/altus-al-708-ne-derin-dondurucu",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 17978,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/altus-al-708-ne-derin-dondurucu",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 14964
+      },
+      {
+        "date": "2026-04-01",
+        "price": 15357
+      },
+      {
+        "date": "2026-05-01",
+        "price": 15288
+      },
+      {
+        "date": "2026-06-01",
+        "price": 15829
+      },
+      {
+        "date": "2026-07-01",
+        "price": 16132
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16019
+      },
+      {
+        "date": "2026-08-25",
+        "price": 16479
+      }
+    ],
+    "pros": [
+      "7 adet geniş bölme ve çekmece",
+      "No-Frost teknolojisi (Buzlanma yapmaz)",
+      "Hızlı dondurma fonksiyonu",
+      "Elektrik kesintisinde 16 saat koruma"
+    ],
+    "cons": [
+      "Elektronik dijital ekran kapağın içinde"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-washing_machine-108",
+    "slug": "arcelik-11140-mx-camasir-makinesi",
+    "name": "Arçelik 11140 MX 11 kg 1400 Devir Çamaşır Makinesi",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "subCategory": "washing_machine",
+    "subCategoryLabel": "Çamaşır Makinesi",
+    "image": "https://cdn.cimri.io/image/1200x1200/arcelik-11140-mx-camasir-makinesi_781190245.jpg",
+    "rating": 4.8,
+    "reviewCount": 378,
+    "basePrice": 26263.02,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "11 kg ultra yüksek kapasite (Yorgan yıkayabilir)",
+      "1400 devir güçlü sıkma",
+      "SteamCure buharlı havalandırma",
+      "Modern antrasit şık tasarım"
+    ],
+    "minPrice": 26263.02,
+    "maxPrice": 29523,
+    "storeCount": 7,
+    "inStock": true,
+    "isPopular": true,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "washing_machine",
+      "subCategoryLabel": "Çamaşır Makinesi",
+      "brand": "Arçelik",
+      "model": "Arçelik 11140 MX 11 kg 1400 Devir Çamaşır Makinesi",
+      "capacityKg": 11,
+      "spinSpeedRpm": 1400,
+      "energyClass": "A",
+      "motorType": "ProSmart Inverter",
+      "noiseDb": 72,
+      "quickWashMin": 14,
+      "color": "Manhattan Gri / Inox",
+      "warrantyYears": 3,
+      "steamFunction": true
+    },
+    "storeOffers": [
+      {
+        "storeName": "idefix",
+        "price": 26263.02,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/arcelik-11140-mx-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 26848,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/arcelik-11140-mx-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 27420,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/arcelik-11140-mx-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 27766,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/arcelik-11140-mx-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 28605,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/arcelik-11140-mx-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 29065,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/arcelik-11140-mx-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 29523,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.teknosa.com/urun/arcelik-11140-mx-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 23938
+      },
+      {
+        "date": "2026-04-01",
+        "price": 23995
+      },
+      {
+        "date": "2026-05-01",
+        "price": 24291
+      },
+      {
+        "date": "2026-06-01",
+        "price": 25521
+      },
+      {
+        "date": "2026-07-01",
+        "price": 25174
+      },
+      {
+        "date": "2026-08-01",
+        "price": 25951
+      },
+      {
+        "date": "2026-08-25",
+        "price": 26263.02
+      }
+    ],
+    "pros": [
+      "11 kg ultra yüksek kapasite (Yorgan yıkayabilir)",
+      "1400 devir güçlü sıkma",
+      "SteamCure buharlı havalandırma",
+      "Modern antrasit şık tasarım"
+    ],
+    "cons": [
+      "Geniş tambur derinliği (64 cm)"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-washing_machine-109",
+    "slug": "arcelik-7121-camasir-makinesi",
+    "name": "Arçelik 7121 7 kg 1200 Devir Çamaşır Makinesi",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "subCategory": "washing_machine",
+    "subCategoryLabel": "Çamaşır Makinesi",
+    "image": "https://cdn.cimri.io/image/1200x1200/arcelik-7121-camasir-makinesi_781190246.jpg",
+    "rating": 4.5,
+    "reviewCount": 227,
+    "basePrice": 19129,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Kompakt 7 kg gövde",
+      "ProSmart Inverter sessiz motor",
+      "1200 devir sıkma gücü",
+      "Çocuk kilidi ve su taşma emniyeti"
+    ],
+    "minPrice": 19129,
+    "maxPrice": 21092,
+    "storeCount": 6,
+    "inStock": true,
+    "isPopular": true,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "washing_machine",
+      "subCategoryLabel": "Çamaşır Makinesi",
+      "brand": "Arçelik",
+      "model": "Arçelik 7121 7 kg 1200 Devir Çamaşır Makinesi",
+      "capacityKg": 7,
+      "spinSpeedRpm": 1200,
+      "energyClass": "C",
+      "motorType": "ProSmart Inverter",
+      "noiseDb": 72,
+      "quickWashMin": 14,
+      "color": "Beyaz",
+      "warrantyYears": 3
+    },
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "price": 19129,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/arcelik-7121-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 19701,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/arcelik-7121-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 19998,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/arcelik-7121-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 20348,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/arcelik-7121-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 20619,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/arcelik-7121-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "price": 21092,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/arcelik-7121-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 17469
+      },
+      {
+        "date": "2026-04-01",
+        "price": 17685
+      },
+      {
+        "date": "2026-05-01",
+        "price": 18000
+      },
+      {
+        "date": "2026-06-01",
+        "price": 18500
+      },
+      {
+        "date": "2026-07-01",
+        "price": 18472
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19197
+      },
+      {
+        "date": "2026-08-25",
+        "price": 19129
+      }
+    ],
+    "pros": [
+      "Kompakt 7 kg gövde",
+      "ProSmart Inverter sessiz motor",
+      "1200 devir sıkma gücü",
+      "Çocuk kilidi ve su taşma emniyeti"
+    ],
+    "cons": [
+      "Buhar fonksiyonu bulunmuyor"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-climate_heating-air_conditioner-110",
+    "slug": "copa-viva-line-12000-btu-inverter-a-split-klima",
+    "name": "Copa Viva Line 12000 BTU Inverter A++ Split Klima",
+    "brand": "Copa",
+    "category": "appliances",
+    "subCategory": "air_conditioner",
+    "subCategoryLabel": "Klima & İklimlendirme",
+    "image": "https://cdn.cimri.io/image/1200x1200/copa-viva-line-12000-btu-inverter-a-split-klima_811204122.jpg",
+    "rating": 4.9,
+    "reviewCount": 330,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "R32 yeni nesil çevre dostu gaz",
+      "A++ yüksek soğutma verimi",
+      "22 dB ultra sessiz uyku modu",
+      "Turbo hızlı soğutma & ısıtma"
+    ],
+    "minPrice": 21999,
+    "maxPrice": 24253,
+    "storeCount": 6,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "climate_heating",
+      "masterCategoryLabel": "Isıtma & Soğutma / İklimlendirme",
+      "subCategory": "air_conditioner",
+      "subCategoryLabel": "Klima & İklimlendirme",
+      "brand": "Copa",
+      "model": "Copa Viva Line 12000 BTU Inverter A++ Split Klima",
+      "btuCapacity": 12000,
+      "energyClassCooling": "A++",
+      "energyClassHeating": "A+",
+      "gasType": "R32 Çevreci Gaz",
+      "inverter": true,
+      "noiseDb": 22,
+      "color": "Beyaz",
+      "warrantyYears": 3
+    },
+    "storeOffers": [
+      {
+        "storeName": "idefix",
+        "price": 21999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/copa-viva-line-12000-btu-inverter-a-split-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 22490,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/copa-viva-line-12000-btu-inverter-a-split-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 23181,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/copa-viva-line-12000-btu-inverter-a-split-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 23355,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/copa-viva-line-12000-btu-inverter-a-split-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 23708,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/copa-viva-line-12000-btu-inverter-a-split-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 24253,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/copa-viva-line-12000-btu-inverter-a-split-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 20020
+      },
+      {
+        "date": "2026-04-01",
+        "price": 20455
+      },
+      {
+        "date": "2026-05-01",
+        "price": 20650
+      },
+      {
+        "date": "2026-06-01",
+        "price": 21386
+      },
+      {
+        "date": "2026-07-01",
+        "price": 21620
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21892
+      },
+      {
+        "date": "2026-08-25",
+        "price": 21999
+      }
+    ],
+    "pros": [
+      "R32 yeni nesil çevre dostu gaz",
+      "A++ yüksek soğutma verimi",
+      "22 dB ultra sessiz uyku modu",
+      "Turbo hızlı soğutma & ısıtma"
+    ],
+    "cons": [
+      "Wi-Fi modülü opsiyonel"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-climate_heating-air_conditioner-111",
+    "slug": "regal-luna-a-7000-btu-inverter-duvar-tipi-klima",
+    "name": "Regal Luna A++ 7000 BTU Inverter Duvar Tipi Klima",
+    "brand": "Regal",
+    "category": "appliances",
+    "subCategory": "air_conditioner",
+    "subCategoryLabel": "Klima & İklimlendirme",
+    "image": "https://cdn.cimri.io/image/1200x1200/regal-luna-a-7000-btu-inverter-duvar-tipi-klima_811204123.jpg",
+    "rating": 4.7,
+    "reviewCount": 382,
+    "basePrice": 19799.1,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Küçük odalar ve yatak odaları için ideal",
+      "Düşük elektrik faturası (A++)",
+      "Vestel servis güvencesi",
+      "Dijital gizli gösterge"
+    ],
+    "minPrice": 19799.1,
+    "maxPrice": 21943,
+    "storeCount": 6,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "climate_heating",
+      "masterCategoryLabel": "Isıtma & Soğutma / İklimlendirme",
+      "subCategory": "air_conditioner",
+      "subCategoryLabel": "Klima & İklimlendirme",
+      "brand": "Regal",
+      "model": "Regal Luna A++ 7000 BTU Inverter Duvar Tipi Klima",
+      "btuCapacity": 7000,
+      "energyClassCooling": "A++",
+      "energyClassHeating": "A+",
+      "gasType": "R32",
+      "inverter": true,
+      "noiseDb": 24,
+      "color": "Beyaz",
+      "warrantyYears": 3
+    },
+    "storeOffers": [
+      {
+        "storeName": "idefix",
+        "price": 19799.1,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/regal-luna-a-7000-btu-inverter-duvar-tipi-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 20301,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/regal-luna-a-7000-btu-inverter-duvar-tipi-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 20822,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/regal-luna-a-7000-btu-inverter-duvar-tipi-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 21061,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/regal-luna-a-7000-btu-inverter-duvar-tipi-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 21366,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/regal-luna-a-7000-btu-inverter-duvar-tipi-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 21943,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/regal-luna-a-7000-btu-inverter-duvar-tipi-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 17988
+      },
+      {
+        "date": "2026-04-01",
+        "price": 18043
+      },
+      {
+        "date": "2026-05-01",
+        "price": 18823
+      },
+      {
+        "date": "2026-06-01",
+        "price": 18632
+      },
+      {
+        "date": "2026-07-01",
+        "price": 19239
+      },
+      {
+        "date": "2026-08-01",
+        "price": 19239
+      },
+      {
+        "date": "2026-08-25",
+        "price": 19799.1
+      }
+    ],
+    "pros": [
+      "Küçük odalar ve yatak odaları için ideal",
+      "Düşük elektrik faturası (A++)",
+      "Vestel servis güvencesi",
+      "Dijital gizli gösterge"
+    ],
+    "cons": [
+      "Büyük salonlar için yetersiz kapasite (7000 BTU)"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-refrigerator-112",
+    "slug": "beko-970471-mb-buzdolabi",
+    "name": "Beko 970471 MB No-Frost Buzdolabı",
+    "brand": "Beko",
+    "category": "appliances",
+    "subCategory": "refrigerator",
+    "subCategoryLabel": "Buzdolabı",
+    "image": "https://cdn.cimri.io/image/1200x1200/beko-970471-mb-buzdolabi_781190247.jpg",
+    "rating": 4.8,
+    "reviewCount": 261,
+    "basePrice": 26999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "HarvestFresh 3 ışık teknolojisi ile vitamin koruma",
+      "477 L geniş iç kullanım alanı",
+      "ProSmart Inverter Kompresör",
+      "38 dB fısıltı sessizliğinde"
+    ],
+    "minPrice": 26999,
+    "maxPrice": 29427,
+    "storeCount": 5,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "refrigerator",
+      "subCategoryLabel": "Buzdolabı",
+      "brand": "Beko",
+      "model": "Beko 970471 MB No-Frost Buzdolabı",
+      "volumeLiters": 477,
+      "energyClass": "E",
+      "noiseDb": 38,
+      "noFrost": true,
+      "color": "Beyaz",
+      "coolingType": "No-Frost",
+      "refrigeratorType": "Çift Kapılı",
+      "warrantyYears": 3,
+      "inverterMotor": true
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 26999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/beko-970471-mb-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 27767,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/beko-970471-mb-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 28444,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/beko-970471-mb-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 28543,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/beko-970471-mb-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 29427,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/beko-970471-mb-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 24128
+      },
+      {
+        "date": "2026-04-01",
+        "price": 25384
+      },
+      {
+        "date": "2026-05-01",
+        "price": 25327
+      },
+      {
+        "date": "2026-06-01",
+        "price": 25858
+      },
+      {
+        "date": "2026-07-01",
+        "price": 25997
+      },
+      {
+        "date": "2026-08-01",
+        "price": 26600
+      },
+      {
+        "date": "2026-08-25",
+        "price": 26999
+      }
+    ],
+    "pros": [
+      "HarvestFresh 3 ışık teknolojisi ile vitamin koruma",
+      "477 L geniş iç kullanım alanı",
+      "ProSmart Inverter Kompresör",
+      "38 dB fısıltı sessizliğinde"
+    ],
+    "cons": [
+      "Dondurucu üst kısımda"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-dishwasher-113",
+    "slug": "bosch-sms26dw00t-6-programli-bulasik-makinesi",
+    "name": "Bosch SMS26DW00T 6 Programlı Bulaşık Makinesi",
+    "brand": "Bosch",
+    "category": "appliances",
+    "subCategory": "dishwasher",
+    "subCategoryLabel": "Bulaşık Makinesi",
+    "image": "https://cdn.cimri.io/image/1200x1200/bosch-sms26dw00t-6-programli-bulasik-makinesi_744799016.jpg",
+    "rating": 4.6,
+    "reviewCount": 226,
+    "basePrice": 19199,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "EcoSilence Drive uzun ömürlü sessiz motor",
+      "6 farklı zengin yıkama programı",
+      "HijyenEkstra yüksek sıcaklıkta sterilizasyon",
+      "ActiveWater su tasarruf sistemi"
+    ],
+    "minPrice": 19199,
+    "maxPrice": 20920,
+    "storeCount": 5,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "dishwasher",
+      "subCategoryLabel": "Bulaşık Makinesi",
+      "brand": "Bosch",
+      "model": "Bosch SMS26DW00T 6 Programlı Bulaşık Makinesi",
+      "placeSettings": 13,
+      "programCount": 6,
+      "energyClass": "E",
+      "noiseDb": 48,
+      "waterConsumptionLiters": 9.5,
+      "motorType": "EcoSilence Drive",
+      "color": "Beyaz",
+      "warrantyYears": 3
+    },
+    "storeOffers": [
+      {
+        "storeName": "idefix",
+        "price": 19199,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/bosch-sms26dw00t-6-programli-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 19643,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/bosch-sms26dw00t-6-programli-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 20057,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/bosch-sms26dw00t-6-programli-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 20386,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/bosch-sms26dw00t-6-programli-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 20920,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/bosch-sms26dw00t-6-programli-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 17318
+      },
+      {
+        "date": "2026-04-01",
+        "price": 17481
+      },
+      {
+        "date": "2026-05-01",
+        "price": 18151
+      },
+      {
+        "date": "2026-06-01",
+        "price": 18668
+      },
+      {
+        "date": "2026-07-01",
+        "price": 18491
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18807
+      },
+      {
+        "date": "2026-08-25",
+        "price": 19199
+      }
+    ],
+    "pros": [
+      "EcoSilence Drive uzun ömürlü sessiz motor",
+      "6 farklı zengin yıkama programı",
+      "HijyenEkstra yüksek sıcaklıkta sterilizasyon",
+      "ActiveWater su tasarruf sistemi"
+    ],
+    "cons": [
+      "Çatal bıçak çekmecesi yerine sepetli tasarım"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-refrigerator-114",
+    "slug": "bosch-kdn55nwe0n-buzdolabi",
+    "name": "Bosch KDN55NWE0N No-Frost Buzdolabı",
+    "brand": "Bosch",
+    "category": "appliances",
+    "subCategory": "refrigerator",
+    "subCategoryLabel": "Buzdolabı",
+    "image": "https://cdn.cimri.io/image/1200x1200/bosch-kdn55nwe0n-buzdolabi_744799017.jpg",
+    "rating": 4.6,
+    "reviewCount": 451,
+    "basePrice": 30200,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "MultiAirflow dengeli hava sirkülasyonu",
+      "VitaFresh tazelik çekmecesi ile sebze ve meyveler 2 kat taze",
+      "485 L net iç kapasite",
+      "Süper dondurma fonksiyonu"
+    ],
+    "minPrice": 30200,
+    "maxPrice": 33079,
+    "storeCount": 6,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "refrigerator",
+      "subCategoryLabel": "Buzdolabı",
+      "brand": "Bosch",
+      "model": "Bosch KDN55NWE0N No-Frost Buzdolabı",
+      "volumeLiters": 485,
+      "energyClass": "E",
+      "noiseDb": 39,
+      "noFrost": true,
+      "color": "Beyaz",
+      "coolingType": "No-Frost",
+      "refrigeratorType": "Çift Kapılı (Üstten Donduruculu)",
+      "warrantyYears": 3,
+      "inverterMotor": true
+    },
+    "storeOffers": [
+      {
+        "storeName": "N11",
+        "price": 30200,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/bosch-kdn55nwe0n-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 30747,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/bosch-kdn55nwe0n-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 31574,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/bosch-kdn55nwe0n-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 32115,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/bosch-kdn55nwe0n-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 32606,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/bosch-kdn55nwe0n-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "price": 33079,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/bosch-kdn55nwe0n-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 27298
+      },
+      {
+        "date": "2026-04-01",
+        "price": 28184
+      },
+      {
+        "date": "2026-05-01",
+        "price": 28827
+      },
+      {
+        "date": "2026-06-01",
+        "price": 28554
+      },
+      {
+        "date": "2026-07-01",
+        "price": 28836
+      },
+      {
+        "date": "2026-08-01",
+        "price": 29787
+      },
+      {
+        "date": "2026-08-25",
+        "price": 30200
+      }
+    ],
+    "pros": [
+      "MultiAirflow dengeli hava sirkülasyonu",
+      "VitaFresh tazelik çekmecesi ile sebze ve meyveler 2 kat taze",
+      "485 L net iç kapasite",
+      "Süper dondurma fonksiyonu"
+    ],
+    "cons": [
+      "Standart beyaz dış kaplama"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-refrigerator-115",
+    "slug": "dijitsu-dbd-250-buzdolabi",
+    "name": "Dijitsu DBD 250 No-Frost Çift Kapılı Buzdolabı",
+    "brand": "Dijitsu",
+    "category": "appliances",
+    "subCategory": "refrigerator",
+    "subCategoryLabel": "Buzdolabı",
+    "image": "https://cdn.cimri.io/image/1200x1200/dijitsu-dbd-250-buzdolabi_645201145.jpg",
+    "rating": 4.7,
+    "reviewCount": 230,
+    "basePrice": 15599,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Ulaşılabilir bütçe dostu fiyat",
+      "250 litre orta boy hacim",
+      "Kullanışlı iç cam raflar"
+    ],
+    "minPrice": 15599,
+    "maxPrice": 17350,
+    "storeCount": 6,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "refrigerator",
+      "subCategoryLabel": "Buzdolabı",
+      "brand": "Dijitsu",
+      "model": "Dijitsu DBD 250 No-Frost Çift Kapılı Buzdolabı",
+      "volumeLiters": 250,
+      "energyClass": "F",
+      "noiseDb": 41,
+      "noFrost": false,
+      "color": "Beyaz",
+      "coolingType": "Statik / Çift Kapılı",
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "Carrefoursa",
+        "price": 15599,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 900,
+        "url": "https://www.carrefoursa.com/urun/dijitsu-dbd-250-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 16048,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/dijitsu-dbd-250-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 16284,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/dijitsu-dbd-250-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 16574,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/dijitsu-dbd-250-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 16856,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/dijitsu-dbd-250-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 17350,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/dijitsu-dbd-250-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 14430
+      },
+      {
+        "date": "2026-04-01",
+        "price": 14290
+      },
+      {
+        "date": "2026-05-01",
+        "price": 14598
+      },
+      {
+        "date": "2026-06-01",
+        "price": 15020
+      },
+      {
+        "date": "2026-07-01",
+        "price": 15425
+      },
+      {
+        "date": "2026-08-01",
+        "price": 15285
+      },
+      {
+        "date": "2026-08-25",
+        "price": 15599
+      }
+    ],
+    "pros": [
+      "Ulaşılabilir bütçe dostu fiyat",
+      "250 litre orta boy hacim",
+      "Kullanışlı iç cam raflar"
+    ],
+    "cons": [
+      "F sınıfı enerji verimliliği"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-refrigerator-116",
+    "slug": "altus-al-305-be-mini-buzdolabi",
+    "name": "Altus AL 305 BE Mini Büro Tipi Buzdolabı",
+    "brand": "Altus",
+    "category": "appliances",
+    "subCategory": "refrigerator",
+    "subCategoryLabel": "Buzdolabı",
+    "image": "https://cdn.cimri.io/image/1200x1200/altus-al-305-be-mini-buzdolabi_744801125.jpg",
+    "rating": 4.5,
+    "reviewCount": 356,
+    "basePrice": 5848.9,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Büro, otel, öğrenci evi ve yazlıklar için mükemmel",
+      "Fısıltı seviyesinde sessiz (37 dB)",
+      "Değiştirilebilir kapı yönü",
+      "Küçük buzluk bölmesi"
+    ],
+    "minPrice": 5848.9,
+    "maxPrice": 6464,
+    "storeCount": 6,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "refrigerator",
+      "subCategoryLabel": "Buzdolabı",
+      "brand": "Altus",
+      "model": "Altus AL 305 BE Mini Büro Tipi Buzdolabı",
+      "volumeLiters": 90,
+      "energyClass": "E",
+      "noiseDb": 37,
+      "noFrost": false,
+      "color": "Beyaz",
+      "coolingType": "Statik Büro Tipi",
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "price": 5848.9,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/altus-al-305-be-mini-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 6025,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/altus-al-305-be-mini-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 6159,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/altus-al-305-be-mini-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 6287,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/altus-al-305-be-mini-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 6388,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/altus-al-305-be-mini-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "price": 6464,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/altus-al-305-be-mini-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 5346
+      },
+      {
+        "date": "2026-04-01",
+        "price": 5390
+      },
+      {
+        "date": "2026-05-01",
+        "price": 5492
+      },
+      {
+        "date": "2026-06-01",
+        "price": 5631
+      },
+      {
+        "date": "2026-07-01",
+        "price": 5599
+      },
+      {
+        "date": "2026-08-01",
+        "price": 5698
+      },
+      {
+        "date": "2026-08-25",
+        "price": 5848.9
+      }
+    ],
+    "pros": [
+      "Büro, otel, öğrenci evi ve yazlıklar için mükemmel",
+      "Fısıltı seviyesinde sessiz (37 dB)",
+      "Değiştirilebilir kapı yönü",
+      "Küçük buzluk bölmesi"
+    ],
+    "cons": [
+      "90 L sınırlı hacim"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-washing_machine-117",
+    "slug": "profilo-cga242x3tr-camasir-makinesi",
+    "name": "Profilo CGA242X3TR 9 kg 1200 Devir Çamaşır Makinesi",
+    "brand": "Profilo",
+    "category": "appliances",
+    "subCategory": "washing_machine",
+    "subCategoryLabel": "Çamaşır Makinesi",
+    "image": "https://cdn.cimri.io/image/1200x1200/profilo-cga242x3tr-camasir-makinesi_744799018.jpg",
+    "rating": 4.6,
+    "reviewCount": 512,
+    "basePrice": 22304.19,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "A sınıfı ultra yüksek enerji tasarrufu",
+      "SilentPlus Inverter motor (10 yıl motor garantisi)",
+      "JetPlus ile %65'e varan süre kısaltma",
+      "EkstraEkle ile unuttuğunuz çamaşırları sonradan ekleme"
+    ],
+    "minPrice": 22304.19,
+    "maxPrice": 24900,
+    "storeCount": 7,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "washing_machine",
+      "subCategoryLabel": "Çamaşır Makinesi",
+      "brand": "Profilo",
+      "model": "Profilo CGA242X3TR 9 kg 1200 Devir Çamaşır Makinesi",
+      "capacityKg": 9,
+      "spinSpeedRpm": 1200,
+      "energyClass": "A",
+      "motorType": "SilentPlus Inverter Motor (10 Yıl Garantili)",
+      "noiseDb": 71,
+      "quickWashMin": 15,
+      "color": "Gümüş / Inox",
+      "warrantyYears": 3,
+      "steamFunction": true
+    },
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "price": 22304.19,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/profilo-cga242x3tr-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 22641,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/profilo-cga242x3tr-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 23357,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/profilo-cga242x3tr-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 23915,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/profilo-cga242x3tr-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 24072,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/profilo-cga242x3tr-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "price": 24744,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/profilo-cga242x3tr-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 24900,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.teknosa.com/urun/profilo-cga242x3tr-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 20385
+      },
+      {
+        "date": "2026-04-01",
+        "price": 20301
+      },
+      {
+        "date": "2026-05-01",
+        "price": 20868
+      },
+      {
+        "date": "2026-06-01",
+        "price": 21416
+      },
+      {
+        "date": "2026-07-01",
+        "price": 21920
+      },
+      {
+        "date": "2026-08-01",
+        "price": 21666
+      },
+      {
+        "date": "2026-08-25",
+        "price": 22304.19
+      }
+    ],
+    "pros": [
+      "A sınıfı ultra yüksek enerji tasarrufu",
+      "SilentPlus Inverter motor (10 yıl motor garantisi)",
+      "JetPlus ile %65'e varan süre kısaltma",
+      "EkstraEkle ile unuttuğunuz çamaşırları sonradan ekleme"
+    ],
+    "cons": [
+      "Sıkma devrinde 1400 devir opsiyonu yok"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-dishwasher-118",
+    "slug": "arcelik-a-600-b-bulasik-makinesi",
+    "name": "Arçelik A 600 B 6 Programlı Bulaşık Makinesi",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "subCategory": "dishwasher",
+    "subCategoryLabel": "Bulaşık Makinesi",
+    "image": "https://cdn.cimri.io/image/1200x1200/arcelik-a-600-b-bulasik-makinesi_781190248.jpg",
+    "rating": 4.5,
+    "reviewCount": 351,
+    "basePrice": 19188,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "14 kişilik geniş kapasite",
+      "CornerWash teknolojisi ile köşelere tam ulaşan su püskürtme",
+      "ProSmart Inverter motor ile 46 dB sessizlik",
+      "Hızlı 58 dakika tam yıkama"
+    ],
+    "minPrice": 19188,
+    "maxPrice": 21693,
+    "storeCount": 7,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "dishwasher",
+      "subCategoryLabel": "Bulaşık Makinesi",
+      "brand": "Arçelik",
+      "model": "Arçelik A 600 B 6 Programlı Bulaşık Makinesi",
+      "placeSettings": 14,
+      "programCount": 6,
+      "energyClass": "D",
+      "noiseDb": 46,
+      "waterConsumptionLiters": 9.9,
+      "motorType": "ProSmart Inverter",
+      "color": "Beyaz",
+      "warrantyYears": 3
+    },
+    "storeOffers": [
+      {
+        "storeName": "idefix",
+        "price": 19188,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/arcelik-a-600-b-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 19663,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/arcelik-a-600-b-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 20091,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/arcelik-a-600-b-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 20406,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/arcelik-a-600-b-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 20904,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/arcelik-a-600-b-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 21168,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/arcelik-a-600-b-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 21693,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.teknosa.com/urun/arcelik-a-600-b-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 17117
+      },
+      {
+        "date": "2026-04-01",
+        "price": 17961
+      },
+      {
+        "date": "2026-05-01",
+        "price": 18246
+      },
+      {
+        "date": "2026-06-01",
+        "price": 18404
+      },
+      {
+        "date": "2026-07-01",
+        "price": 18814
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18765
+      },
+      {
+        "date": "2026-08-25",
+        "price": 19188
+      }
+    ],
+    "pros": [
+      "14 kişilik geniş kapasite",
+      "CornerWash teknolojisi ile köşelere tam ulaşan su püskürtme",
+      "ProSmart Inverter motor ile 46 dB sessizlik",
+      "Hızlı 58 dakika tam yıkama"
+    ],
+    "cons": [
+      "D sınıfı enerji etiketi"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-climate_heating-air_conditioner-119",
+    "slug": "baymak-elegant-eco-12000-btu-duvar-tipi-klima",
+    "name": "Baymak Elegant Eco 12000 BTU Duvar Tipi Inverter Klima",
+    "brand": "Baymak",
+    "category": "appliances",
+    "subCategory": "air_conditioner",
+    "subCategoryLabel": "Klima & İklimlendirme",
+    "image": "https://cdn.cimri.io/image/1200x1200/baymak-elegant-eco-12000-btu-duvar-tipi-klima_811204124.jpg",
+    "rating": 4.7,
+    "reviewCount": 508,
+    "basePrice": 23999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "5 yıl tam garanti avantajı",
+      "I Feel teknolojisi (Kumandanın olduğu yerin sıcaklığını ölçer)",
+      "Gümüş iyon ve aktif karbon filtre",
+      "A++ enerji tasarrufu"
+    ],
+    "minPrice": 23999,
+    "maxPrice": 25949,
+    "storeCount": 5,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "climate_heating",
+      "masterCategoryLabel": "Isıtma & Soğutma / İklimlendirme",
+      "subCategory": "air_conditioner",
+      "subCategoryLabel": "Klima & İklimlendirme",
+      "brand": "Baymak",
+      "model": "Baymak Elegant Eco 12000 BTU Duvar Tipi Inverter Klima",
+      "btuCapacity": 12000,
+      "energyClassCooling": "A++",
+      "energyClassHeating": "A+",
+      "gasType": "R32",
+      "inverter": true,
+      "noiseDb": 23,
+      "color": "Beyaz",
+      "warrantyYears": 5
+    },
+    "storeOffers": [
+      {
+        "storeName": "idefix",
+        "price": 23999,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/baymak-elegant-eco-12000-btu-duvar-tipi-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 24612,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/baymak-elegant-eco-12000-btu-duvar-tipi-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 24905,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/baymak-elegant-eco-12000-btu-duvar-tipi-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 25518,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/baymak-elegant-eco-12000-btu-duvar-tipi-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 25949,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/baymak-elegant-eco-12000-btu-duvar-tipi-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 22084
+      },
+      {
+        "date": "2026-04-01",
+        "price": 22257
+      },
+      {
+        "date": "2026-05-01",
+        "price": 22514
+      },
+      {
+        "date": "2026-06-01",
+        "price": 22853
+      },
+      {
+        "date": "2026-07-01",
+        "price": 23647
+      },
+      {
+        "date": "2026-08-01",
+        "price": 24056
+      },
+      {
+        "date": "2026-08-25",
+        "price": 23999
+      }
+    ],
+    "pros": [
+      "5 yıl tam garanti avantajı",
+      "I Feel teknolojisi (Kumandanın olduğu yerin sıcaklığını ölçer)",
+      "Gümüş iyon ve aktif karbon filtre",
+      "A++ enerji tasarrufu"
+    ],
+    "cons": [
+      "Standart boyutlu dış ünite"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-washing_machine-120",
+    "slug": "bosch-wgk264z0tr-camasir-makinesi",
+    "name": "Bosch WGK264Z0TR 10 kg 1400 Devir Çamaşır Makinesi",
+    "brand": "Bosch",
+    "category": "appliances",
+    "subCategory": "washing_machine",
+    "subCategoryLabel": "Çamaşır Makinesi",
+    "image": "https://cdn.cimri.io/image/1200x1200/bosch-wgk264z0tr-camasir-makinesi_744799019.jpg",
+    "rating": 4.6,
+    "reviewCount": 184,
+    "basePrice": 36489.01,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Home Connect ile telefondan uzaktan kontrol",
+      "i-DOS otomatik sıvı deterjan dozajlama sistemi",
+      "1400 devir maksimum kuruluk",
+      "Ödüllü antrasit premium tasarım"
+    ],
+    "minPrice": 36489.01,
+    "maxPrice": 39425,
+    "storeCount": 5,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "washing_machine",
+      "subCategoryLabel": "Çamaşır Makinesi",
+      "brand": "Bosch",
+      "model": "Bosch WGK264Z0TR 10 kg 1400 Devir Çamaşır Makinesi",
+      "capacityKg": 10,
+      "spinSpeedRpm": 1400,
+      "energyClass": "A",
+      "motorType": "EcoSilence Drive Inverter",
+      "noiseDb": 70,
+      "quickWashMin": 15,
+      "color": "Antrasit / Siyah Inox",
+      "warrantyYears": 3,
+      "steamFunction": true,
+      "smartConnect": true
+    },
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "price": 36489.01,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/bosch-wgk264z0tr-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 37691,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/bosch-wgk264z0tr-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 38076,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/bosch-wgk264z0tr-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 39134,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/bosch-wgk264z0tr-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 39425,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/bosch-wgk264z0tr-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 32704
+      },
+      {
+        "date": "2026-04-01",
+        "price": 33612
+      },
+      {
+        "date": "2026-05-01",
+        "price": 34253
+      },
+      {
+        "date": "2026-06-01",
+        "price": 35106
+      },
+      {
+        "date": "2026-07-01",
+        "price": 35370
+      },
+      {
+        "date": "2026-08-01",
+        "price": 36398
+      },
+      {
+        "date": "2026-08-25",
+        "price": 36489.01
+      }
+    ],
+    "pros": [
+      "Home Connect ile telefondan uzaktan kontrol",
+      "i-DOS otomatik sıvı deterjan dozajlama sistemi",
+      "1400 devir maksimum kuruluk",
+      "Ödüllü antrasit premium tasarım"
+    ],
+    "cons": [
+      "Üst segment fiyat seviyesi"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-dishwasher-121",
+    "slug": "hoover-hf-3e53eow-17-5-programli-bulasik-makinesi",
+    "name": "Hoover HF 3E53EOW-17 5 Programlı Bulaşık Makinesi",
+    "brand": "Hoover",
+    "category": "appliances",
+    "subCategory": "dishwasher",
+    "subCategoryLabel": "Bulaşık Makinesi",
+    "image": "https://cdn.cimri.io/image/1200x1200/hoover-hf-3e53eow-17-5-programli-bulasik-makinesi_791204122.jpg",
+    "rating": 4.8,
+    "reviewCount": 405,
+    "basePrice": 13222.78,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Piyasadaki en uygun fiyatlı 13 kişilik bulaşık makinelerinden biri",
+      "Hızlı 49 dakika yıkama programı",
+      "Kullanımı çok kolay döner program seçici"
+    ],
+    "minPrice": 13222.78,
+    "maxPrice": 14786,
+    "storeCount": 7,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "dishwasher",
+      "subCategoryLabel": "Bulaşık Makinesi",
+      "brand": "Hoover",
+      "model": "Hoover HF 3E53EOW-17 5 Programlı Bulaşık Makinesi",
+      "placeSettings": 13,
+      "programCount": 5,
+      "energyClass": "E",
+      "noiseDb": 49,
+      "waterConsumptionLiters": 10.4,
+      "color": "Beyaz",
+      "warrantyYears": 2
+    },
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "price": 13222.78,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/hoover-hf-3e53eow-17-5-programli-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 13564,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/hoover-hf-3e53eow-17-5-programli-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 13921,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/hoover-hf-3e53eow-17-5-programli-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 14209,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/hoover-hf-3e53eow-17-5-programli-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 14244,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/hoover-hf-3e53eow-17-5-programli-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "price": 14643,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/hoover-hf-3e53eow-17-5-programli-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 14786,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.teknosa.com/urun/hoover-hf-3e53eow-17-5-programli-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 12009
+      },
+      {
+        "date": "2026-04-01",
+        "price": 12444
+      },
+      {
+        "date": "2026-05-01",
+        "price": 12319
+      },
+      {
+        "date": "2026-06-01",
+        "price": 12547
+      },
+      {
+        "date": "2026-07-01",
+        "price": 13018
+      },
+      {
+        "date": "2026-08-01",
+        "price": 13223
+      },
+      {
+        "date": "2026-08-25",
+        "price": 13222.78
+      }
+    ],
+    "pros": [
+      "Piyasadaki en uygun fiyatlı 13 kişilik bulaşık makinelerinden biri",
+      "Hızlı 49 dakika yıkama programı",
+      "Kullanımı çok kolay döner program seçici"
+    ],
+    "cons": [
+      "Inverter motora sahip değil"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-refrigerator-122",
+    "slug": "profilo-bd2176wexn-buzdolabi",
+    "name": "Profilo BD2176WEXN No-Frost Kombi Tipi Buzdolabı",
+    "brand": "Profilo",
+    "category": "appliances",
+    "subCategory": "refrigerator",
+    "subCategoryLabel": "Buzdolabı",
+    "image": "https://cdn.cimri.io/image/1200x1200/profilo-bd2176wexn-buzdolabi_744799020.jpg",
+    "rating": 4.7,
+    "reviewCount": 146,
+    "basePrice": 35184.6,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Alttan donduruculu ergonomik kombi tasarım",
+      "508 L devasa net iç kullanım alanı",
+      "EkstraFresh nem kontrollü sebzelik",
+      "Parmak izi tutmayan Inox dış yüzey"
+    ],
+    "minPrice": 35184.6,
+    "maxPrice": 37831,
+    "storeCount": 5,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "refrigerator",
+      "subCategoryLabel": "Buzdolabı",
+      "brand": "Profilo",
+      "model": "Profilo BD2176WEXN No-Frost Kombi Tipi Buzdolabı",
+      "volumeLiters": 508,
+      "energyClass": "E",
+      "noiseDb": 40,
+      "noFrost": true,
+      "color": "Kolay Temizlenebilir Inox",
+      "coolingType": "No-Frost Kombi (Alttan Donduruculu)",
+      "refrigeratorType": "Kombi No-Frost",
+      "warrantyYears": 3,
+      "inverterMotor": true
+    },
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "price": 35184.6,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/profilo-bd2176wexn-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 35944,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/profilo-bd2176wexn-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 36446,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/profilo-bd2176wexn-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 37598,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/profilo-bd2176wexn-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 37831,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/profilo-bd2176wexn-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 32285
+      },
+      {
+        "date": "2026-04-01",
+        "price": 32027
+      },
+      {
+        "date": "2026-05-01",
+        "price": 32631
+      },
+      {
+        "date": "2026-06-01",
+        "price": 33279
+      },
+      {
+        "date": "2026-07-01",
+        "price": 34265
+      },
+      {
+        "date": "2026-08-01",
+        "price": 34706
+      },
+      {
+        "date": "2026-08-25",
+        "price": 35184.6
+      }
+    ],
+    "pros": [
+      "Alttan donduruculu ergonomik kombi tasarım",
+      "508 L devasa net iç kullanım alanı",
+      "EkstraFresh nem kontrollü sebzelik",
+      "Parmak izi tutmayan Inox dış yüzey"
+    ],
+    "cons": [
+      "Geniş mutfak alanı gerektirir (75 cm genişlik)"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-refrigerator-123",
+    "slug": "bosch-kgn86aid2n-inox-buzdolabi",
+    "name": "Bosch KGN86AID2N XXL No-Frost Kombi Buzdolabı",
+    "brand": "Bosch",
+    "category": "appliances",
+    "subCategory": "refrigerator",
+    "subCategoryLabel": "Buzdolabı",
+    "image": "https://cdn.cimri.io/image/1200x1200/bosch-kgn86aid2n-inox-buzdolabi_744799021.jpg",
+    "rating": 4.5,
+    "reviewCount": 297,
+    "basePrice": 55805,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "631 L devasa XXL iç hacim (86 cm genişlik)",
+      "VitaFresh Plus ile yiyecekler 3 kat daha uzun taze kalır",
+      "MultiAirflow homojen hava dağılımı",
+      "Premium LED iç aydınlatma ve dijital kapı ekranı"
+    ],
+    "minPrice": 55805,
+    "maxPrice": 60675,
+    "storeCount": 5,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "refrigerator",
+      "subCategoryLabel": "Buzdolabı",
+      "brand": "Bosch",
+      "model": "Bosch KGN86AID2N XXL No-Frost Kombi Buzdolabı",
+      "volumeLiters": 631,
+      "energyClass": "D",
+      "noiseDb": 39,
+      "noFrost": true,
+      "color": "Inox / Parmak İzi Tutmaz Çelik",
+      "coolingType": "No-Frost XXL Kombi",
+      "refrigeratorType": "Kombi XXL",
+      "warrantyYears": 3,
+      "inverterMotor": true
+    },
+    "storeOffers": [
+      {
+        "storeName": "idefix",
+        "price": 55805,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/bosch-kgn86aid2n-inox-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 56874,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/bosch-kgn86aid2n-inox-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 58290,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/bosch-kgn86aid2n-inox-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 59173,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/bosch-kgn86aid2n-inox-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 60675,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/bosch-kgn86aid2n-inox-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 50894
+      },
+      {
+        "date": "2026-04-01",
+        "price": 51046
+      },
+      {
+        "date": "2026-05-01",
+        "price": 52034
+      },
+      {
+        "date": "2026-06-01",
+        "price": 54034
+      },
+      {
+        "date": "2026-07-01",
+        "price": 55090
+      },
+      {
+        "date": "2026-08-01",
+        "price": 55408
+      },
+      {
+        "date": "2026-08-25",
+        "price": 55805
+      }
+    ],
+    "pros": [
+      "631 L devasa XXL iç hacim (86 cm genişlik)",
+      "VitaFresh Plus ile yiyecekler 3 kat daha uzun taze kalır",
+      "MultiAirflow homojen hava dağılımı",
+      "Premium LED iç aydınlatma ve dijital kapı ekranı"
+    ],
+    "cons": [
+      "Standart mutfak dolaplarına sığmayabilir (86 cm genişlik)"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-refrigerator-124",
+    "slug": "arcelik-270477-eb-ai-buzdolabi",
+    "name": "Arçelik 270477 EB AI Akıllı No-Frost Buzdolabı",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "subCategory": "refrigerator",
+    "subCategoryLabel": "Buzdolabı",
+    "image": "https://cdn.cimri.io/image/1200x1200/arcelik-270477-eb-ai-buzdolabi_781190249.jpg",
+    "rating": 4.8,
+    "reviewCount": 304,
+    "basePrice": 39109,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "HomeWhiz yapay zeka destekli enerji tasarruf algoritması",
+      "AeroFlow eşit hava sirkülasyonu",
+      "FullFresh+ tazelik teknolojisi",
+      "37 dB fısıltı sessizliğinde"
+    ],
+    "minPrice": 39109,
+    "maxPrice": 43840,
+    "storeCount": 7,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "refrigerator",
+      "subCategoryLabel": "Buzdolabı",
+      "brand": "Arçelik",
+      "model": "Arçelik 270477 EB AI Akıllı No-Frost Buzdolabı",
+      "volumeLiters": 477,
+      "energyClass": "E",
+      "noiseDb": 37,
+      "noFrost": true,
+      "color": "Beyaz",
+      "coolingType": "No-Frost Kombi",
+      "refrigeratorType": "Kombi No-Frost (Alttan Donduruculu)",
+      "warrantyYears": 3,
+      "inverterMotor": true,
+      "smartConnect": true
+    },
+    "storeOffers": [
+      {
+        "storeName": "idefix",
+        "price": 39109,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/arcelik-270477-eb-ai-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 40093,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/arcelik-270477-eb-ai-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 41002,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/arcelik-270477-eb-ai-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 41801,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/arcelik-270477-eb-ai-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 42052,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/arcelik-270477-eb-ai-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 43139,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/arcelik-270477-eb-ai-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 43840,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.teknosa.com/urun/arcelik-270477-eb-ai-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 35770
+      },
+      {
+        "date": "2026-04-01",
+        "price": 36394
+      },
+      {
+        "date": "2026-05-01",
+        "price": 36093
+      },
+      {
+        "date": "2026-06-01",
+        "price": 37236
+      },
+      {
+        "date": "2026-07-01",
+        "price": 38305
+      },
+      {
+        "date": "2026-08-01",
+        "price": 37853
+      },
+      {
+        "date": "2026-08-25",
+        "price": 39109
+      }
+    ],
+    "pros": [
+      "HomeWhiz yapay zeka destekli enerji tasarruf algoritması",
+      "AeroFlow eşit hava sirkülasyonu",
+      "FullFresh+ tazelik teknolojisi",
+      "37 dB fısıltı sessizliğinde"
+    ],
+    "cons": [
+      "Sadece beyaz renk seçeneği"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-climate_heating-air_conditioner-125",
+    "slug": "arcelik-12325-a-enerji-sinifi12000-btu-duvar-tipi-klima",
+    "name": "Arçelik 12325 A++ Enerji Sınıfı 12000 BTU Duvar Tipi Klima",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "subCategory": "air_conditioner",
+    "subCategoryLabel": "Klima & İklimlendirme",
+    "image": "https://cdn.cimri.io/image/1200x1200/arcelik-12325-a-enerji-sinifi12000-btu-duvar-tipi-klima_781190250.jpg",
+    "rating": 4.5,
+    "reviewCount": 235,
+    "basePrice": 25145.02,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "HomeWhiz ile akıllı telefondan her yerden kontrol",
+      "A++ yüksek enerji verimliliği",
+      "Hızlı soğutma & ısıtma (Jet Cool/Jet Heat)",
+      "Kendi kendini temizleme özelliği (Self Clean)"
+    ],
+    "minPrice": 25145.02,
+    "maxPrice": 28209,
+    "storeCount": 7,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "climate_heating",
+      "masterCategoryLabel": "Isıtma & Soğutma / İklimlendirme",
+      "subCategory": "air_conditioner",
+      "subCategoryLabel": "Klima & İklimlendirme",
+      "brand": "Arçelik",
+      "model": "Arçelik 12325 A++ Enerji Sınıfı 12000 BTU Duvar Tipi Klima",
+      "btuCapacity": 12000,
+      "energyClassCooling": "A++",
+      "energyClassHeating": "A+",
+      "gasType": "R32",
+      "inverter": true,
+      "noiseDb": 22,
+      "color": "Beyaz",
+      "warrantyYears": 3,
+      "smartConnect": true
+    },
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "price": 25145.02,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/arcelik-12325-a-enerji-sinifi12000-btu-duvar-tipi-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 25859,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/arcelik-12325-a-enerji-sinifi12000-btu-duvar-tipi-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 26059,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/arcelik-12325-a-enerji-sinifi12000-btu-duvar-tipi-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 26791,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/arcelik-12325-a-enerji-sinifi12000-btu-duvar-tipi-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 27362,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/arcelik-12325-a-enerji-sinifi12000-btu-duvar-tipi-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "price": 27556,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/arcelik-12325-a-enerji-sinifi12000-btu-duvar-tipi-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 28209,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.teknosa.com/urun/arcelik-12325-a-enerji-sinifi12000-btu-duvar-tipi-klima",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 22486
+      },
+      {
+        "date": "2026-04-01",
+        "price": 23696
+      },
+      {
+        "date": "2026-05-01",
+        "price": 23317
+      },
+      {
+        "date": "2026-06-01",
+        "price": 23850
+      },
+      {
+        "date": "2026-07-01",
+        "price": 24288
+      },
+      {
+        "date": "2026-08-01",
+        "price": 25161
+      },
+      {
+        "date": "2026-08-25",
+        "price": 25145.02
+      }
+    ],
+    "pros": [
+      "HomeWhiz ile akıllı telefondan her yerden kontrol",
+      "A++ yüksek enerji verimliliği",
+      "Hızlı soğutma & ısıtma (Jet Cool/Jet Heat)",
+      "Kendi kendini temizleme özelliği (Self Clean)"
+    ],
+    "cons": [
+      "Yetkili servis montaj randevusu yaz aylarında yoğun olabilir"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-refrigerator-126",
+    "slug": "bosch-kgn55cie0n-inox-buzdolabi",
+    "name": "Bosch KGN55CIE0N No-Frost Inox Kombi Buzdolabı",
+    "brand": "Bosch",
+    "category": "appliances",
+    "subCategory": "refrigerator",
+    "subCategoryLabel": "Buzdolabı",
+    "image": "https://cdn.cimri.io/image/1200x1200/bosch-kgn55cie0n-inox-buzdolabi_744799022.jpg",
+    "rating": 4.6,
+    "reviewCount": 376,
+    "basePrice": 38577.67,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "C sınıfı olağanüstü yüksek enerji verimliliği (Elektrik tasarrufu)",
+      "VitaFresh XXL çekmeceleri",
+      "Alttan donduruculu modern mimari",
+      "Inox leke tutmaz gövde"
+    ],
+    "minPrice": 38577.67,
+    "maxPrice": 41907,
+    "storeCount": 5,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "refrigerator",
+      "subCategoryLabel": "Buzdolabı",
+      "brand": "Bosch",
+      "model": "Bosch KGN55CIE0N No-Frost Inox Kombi Buzdolabı",
+      "volumeLiters": 483,
+      "energyClass": "C",
+      "noiseDb": 38,
+      "noFrost": true,
+      "color": "Kolay Temizlenebilir Çelik Inox",
+      "coolingType": "No-Frost Kombi",
+      "refrigeratorType": "Kombi No-Frost (Alttan Donduruculu)",
+      "warrantyYears": 3,
+      "inverterMotor": true
+    },
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "price": 38577.67,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/bosch-kgn55cie0n-inox-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 39706,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/bosch-kgn55cie0n-inox-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 40588,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/bosch-kgn55cie0n-inox-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 40920,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/bosch-kgn55cie0n-inox-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 41907,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/bosch-kgn55cie0n-inox-buzdolabi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 35447
+      },
+      {
+        "date": "2026-04-01",
+        "price": 35935
+      },
+      {
+        "date": "2026-05-01",
+        "price": 35662
+      },
+      {
+        "date": "2026-06-01",
+        "price": 37101
+      },
+      {
+        "date": "2026-07-01",
+        "price": 37162
+      },
+      {
+        "date": "2026-08-01",
+        "price": 37894
+      },
+      {
+        "date": "2026-08-25",
+        "price": 38577.67
+      }
+    ],
+    "pros": [
+      "C sınıfı olağanüstü yüksek enerji verimliliği (Elektrik tasarrufu)",
+      "VitaFresh XXL çekmeceleri",
+      "Alttan donduruculu modern mimari",
+      "Inox leke tutmaz gövde"
+    ],
+    "cons": [
+      "Dondurucu çekmece sayısı 2 adet"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-dishwasher-127",
+    "slug": "samsung-dw60dg540-bulasik-makinesi",
+    "name": "Samsung DW60DG540 6 Programlı Bulaşık Makinesi",
+    "brand": "Samsung",
+    "category": "appliances",
+    "subCategory": "dishwasher",
+    "subCategoryLabel": "Bulaşık Makinesi",
+    "image": "https://cdn.cimri.io/image/1200x1200/samsung-dw60dg540-bulasik-makinesi_751204122.jpg",
+    "rating": 4.8,
+    "reviewCount": 242,
+    "basePrice": 18656.55,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Otomatik Kapı Açma (Auto Open Door) ile lekesiz kurutma",
+      "Digital Inverter motor (10 yıl motor garantisi)",
+      "14 kişilik geniş kapasite",
+      "44 dB son derece sessiz çalışma"
+    ],
+    "minPrice": 18656.55,
+    "maxPrice": 21046,
+    "storeCount": 7,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "dishwasher",
+      "subCategoryLabel": "Bulaşık Makinesi",
+      "brand": "Samsung",
+      "model": "Samsung DW60DG540 6 Programlı Bulaşık Makinesi",
+      "placeSettings": 14,
+      "programCount": 6,
+      "energyClass": "D",
+      "noiseDb": 44,
+      "waterConsumptionLiters": 10.5,
+      "motorType": "Digital Inverter Motor",
+      "color": "Beyaz",
+      "warrantyYears": 3,
+      "autoDoorOpen": true
+    },
+    "storeOffers": [
+      {
+        "storeName": "idefix",
+        "price": 18656.55,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/samsung-dw60dg540-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 19266,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/samsung-dw60dg540-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 19538,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/samsung-dw60dg540-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 19792,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/samsung-dw60dg540-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 20320,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/samsung-dw60dg540-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 20591,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/samsung-dw60dg540-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 21046,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.teknosa.com/urun/samsung-dw60dg540-bulasik-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 16706
+      },
+      {
+        "date": "2026-04-01",
+        "price": 17263
+      },
+      {
+        "date": "2026-05-01",
+        "price": 17683
+      },
+      {
+        "date": "2026-06-01",
+        "price": 18103
+      },
+      {
+        "date": "2026-07-01",
+        "price": 17781
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18628
+      },
+      {
+        "date": "2026-08-25",
+        "price": 18656.55
+      }
+    ],
+    "pros": [
+      "Otomatik Kapı Açma (Auto Open Door) ile lekesiz kurutma",
+      "Digital Inverter motor (10 yıl motor garantisi)",
+      "14 kişilik geniş kapasite",
+      "44 dB son derece sessiz çalışma"
+    ],
+    "cons": [
+      "Wi-Fi bağlantısı bu modelde yer almıyor"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-washing_machine-128",
+    "slug": "arcelik-9120-dmx-camasir-makinesi",
+    "name": "Arçelik 9120 DMX 9 kg 1200 Devir Çamaşır Makinesi",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "subCategory": "washing_machine",
+    "subCategoryLabel": "Çamaşır Makinesi",
+    "image": "https://cdn.cimri.io/image/1200x1200/arcelik-9120-dmx-camasir-makinesi_781190251.jpg",
+    "rating": 4.8,
+    "reviewCount": 455,
+    "basePrice": 25883.05,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "SteamCure buhar teknolojisi ile kırışık azaltma",
+      "A sınıfı enerji standardı",
+      "Şık Manhattan Gri renk",
+      "ProSmart Inverter Motor ile 10 yıl motor güvencesi"
+    ],
+    "minPrice": 25883.05,
+    "maxPrice": 28489,
+    "storeCount": 6,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "washing_machine",
+      "subCategoryLabel": "Çamaşır Makinesi",
+      "brand": "Arçelik",
+      "model": "Arçelik 9120 DMX 9 kg 1200 Devir Çamaşır Makinesi",
+      "capacityKg": 9,
+      "spinSpeedRpm": 1200,
+      "energyClass": "A",
+      "motorType": "ProSmart Inverter",
+      "noiseDb": 72,
+      "quickWashMin": 14,
+      "color": "Manhattan Gri",
+      "warrantyYears": 3,
+      "steamFunction": true
+    },
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "price": 25883.05,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/arcelik-9120-dmx-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 26496,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/arcelik-9120-dmx-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 27043,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/arcelik-9120-dmx-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 27404,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/arcelik-9120-dmx-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 28023,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/arcelik-9120-dmx-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "price": 28489,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/arcelik-9120-dmx-camasir-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 23307
+      },
+      {
+        "date": "2026-04-01",
+        "price": 23546
+      },
+      {
+        "date": "2026-05-01",
+        "price": 24543
+      },
+      {
+        "date": "2026-06-01",
+        "price": 24550
+      },
+      {
+        "date": "2026-07-01",
+        "price": 25392
+      },
+      {
+        "date": "2026-08-01",
+        "price": 25224
+      },
+      {
+        "date": "2026-08-25",
+        "price": 25883.05
+      }
+    ],
+    "pros": [
+      "SteamCure buhar teknolojisi ile kırışık azaltma",
+      "A sınıfı enerji standardı",
+      "Şık Manhattan Gri renk",
+      "ProSmart Inverter Motor ile 10 yıl motor güvencesi"
+    ],
+    "cons": [
+      "1400 devir seçeneği yok"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-dryer-129",
+    "slug": "bosch-wqa24201tr-camasir-kurutma-makinesi",
+    "name": "Bosch WQA24201TR 9 kg Isı Pompalı Kurutma Makinesi",
+    "brand": "Bosch",
+    "category": "appliances",
+    "subCategory": "dryer",
+    "subCategoryLabel": "Kurutma Makinesi",
+    "image": "https://cdn.cimri.io/image/1200x1200/bosch-wqa24201tr-camasir-kurutma-makinesi_744799023.jpg",
+    "rating": 4.8,
+    "reviewCount": 236,
+    "basePrice": 27909,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Isı pompalı (Heat Pump) teknoloji ile çamaşırları yıpratmadan düşük sıcaklıkta kurutma",
+      "A++ yüksek enerji tasarrufu",
+      "AutoDry nem sensörleri ile tam kıvamında kurutma",
+      "Hassas kurutma tambur yapısı"
+    ],
+    "minPrice": 27909,
+    "maxPrice": 30632,
+    "storeCount": 6,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "dryer",
+      "subCategoryLabel": "Kurutma Makinesi",
+      "brand": "Bosch",
+      "model": "Bosch WQA24201TR 9 kg Isı Pompalı Kurutma Makinesi",
+      "capacityKg": 9,
+      "energyClass": "A++",
+      "noiseDb": 64,
+      "dryingType": "Isı Pompalı (Heat Pump)",
+      "color": "Beyaz",
+      "warrantyYears": 3,
+      "autoDry": true
+    },
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "price": 27909,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/bosch-wqa24201tr-camasir-kurutma-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 28389,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/bosch-wqa24201tr-camasir-kurutma-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 29264,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/bosch-wqa24201tr-camasir-kurutma-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 29825,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/bosch-wqa24201tr-camasir-kurutma-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 30258,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/bosch-wqa24201tr-camasir-kurutma-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "price": 30632,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/bosch-wqa24201tr-camasir-kurutma-makinesi",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 25561
+      },
+      {
+        "date": "2026-04-01",
+        "price": 26146
+      },
+      {
+        "date": "2026-05-01",
+        "price": 26653
+      },
+      {
+        "date": "2026-06-01",
+        "price": 27129
+      },
+      {
+        "date": "2026-07-01",
+        "price": 27099
+      },
+      {
+        "date": "2026-08-01",
+        "price": 27518
+      },
+      {
+        "date": "2026-08-25",
+        "price": 27909
+      }
+    ],
+    "pros": [
+      "Isı pompalı (Heat Pump) teknoloji ile çamaşırları yıpratmadan düşük sıcaklıkta kurutma",
+      "A++ yüksek enerji tasarrufu",
+      "AutoDry nem sensörleri ile tam kıvamında kurutma",
+      "Hassas kurutma tambur yapısı"
+    ],
+    "cons": [
+      "Kurutma süreleri klasik rezistanslı modellere göre biraz daha uzun"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-freezer-130",
+    "slug": "samsung-rz20dg3001wwtr-derin-dondurucu",
+    "name": "Samsung RZ20DG3001WWTR 6 Çekmeceli No-Frost Derin Dondurucu",
+    "brand": "Samsung",
+    "category": "appliances",
+    "subCategory": "freezer",
+    "subCategoryLabel": "Derin Dondurucu",
+    "image": "https://cdn.cimri.io/image/1200x1200/samsung-rz20dg3001wwtr-derin-dondurucu_751204123.jpg",
+    "rating": 4.8,
+    "reviewCount": 224,
+    "basePrice": 18650,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "No-Frost teknolojisi ile karlanmaya ve buzlanmaya son",
+      "Digital Inverter Kompresör (20 yıl kompresör garantisi)",
+      "All-Around Cooling eşit soğutma",
+      "6 adet fonksiyonel çekmece"
+    ],
+    "minPrice": 18650,
+    "maxPrice": 20182,
+    "storeCount": 5,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "freezer",
+      "subCategoryLabel": "Derin Dondurucu",
+      "brand": "Samsung",
+      "model": "Samsung RZ20DG3001WWTR 6 Çekmeceli No-Frost Derin Dondurucu",
+      "volumeLiters": 200,
+      "energyClass": "E",
+      "noiseDb": 39,
+      "noFrost": true,
+      "drawerCount": 6,
+      "color": "Beyaz",
+      "freezerType": "Dikey / Çekmeceli",
+      "warrantyYears": 3,
+      "inverterMotor": true
+    },
+    "storeOffers": [
+      {
+        "storeName": "idefix",
+        "price": 18650,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/samsung-rz20dg3001wwtr-derin-dondurucu",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 18978,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/samsung-rz20dg3001wwtr-derin-dondurucu",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 19517,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/samsung-rz20dg3001wwtr-derin-dondurucu",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 19953,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/samsung-rz20dg3001wwtr-derin-dondurucu",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "N11",
+        "price": 20182,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/samsung-rz20dg3001wwtr-derin-dondurucu",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 17225
+      },
+      {
+        "date": "2026-04-01",
+        "price": 17255
+      },
+      {
+        "date": "2026-05-01",
+        "price": 17353
+      },
+      {
+        "date": "2026-06-01",
+        "price": 18018
+      },
+      {
+        "date": "2026-07-01",
+        "price": 18183
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18312
+      },
+      {
+        "date": "2026-08-25",
+        "price": 18650
+      }
+    ],
+    "pros": [
+      "No-Frost teknolojisi ile karlanmaya ve buzlanmaya son",
+      "Digital Inverter Kompresör (20 yıl kompresör garantisi)",
+      "All-Around Cooling eşit soğutma",
+      "6 adet fonksiyonel çekmece"
+    ],
+    "cons": [
+      "200 L orta seviye hacim"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
+    "id": "appliance-major_appliances-freezer-131",
+    "slug": "ugur-ued-7238-dtk-nf-dgt-ds-r65-derin-dondurucu",
+    "name": "Uğur UED 7238 DTK NF DGT D/S R65 238 lt No-Frost 7 Çekmeceli Derin Dondurucu",
+    "brand": "Uğur",
+    "category": "appliances",
+    "subCategory": "freezer",
+    "subCategoryLabel": "Derin Dondurucu",
+    "image": "https://cdn.cimri.io/image/1200x1200/ugur-ued-7238-dtk-nf-dgt-ds-r65-derin-dondurucu_612204123.jpg",
+    "rating": 4.7,
+    "reviewCount": 330,
+    "basePrice": 26550,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "highlights": [
+      "Uğur profesyonel soğutma tecrübesi",
+      "Dijital dokunmatik sıcaklık kontrol paneli",
+      "7 bölmeli geniş ergonomik iç düzen",
+      "Şık Inox dış gövde"
+    ],
+    "minPrice": 26550,
+    "maxPrice": 29958,
+    "storeCount": 7,
+    "inStock": true,
+    "isPopular": false,
+    "specs": {
+      "masterCategory": "major_appliances",
+      "masterCategoryLabel": "Beyaz Eşya & Ankastre",
+      "subCategory": "freezer",
+      "subCategoryLabel": "Derin Dondurucu",
+      "brand": "Uğur",
+      "model": "Uğur UED 7238 DTK NF DGT D/S R65 238 lt No-Frost 7 Çekmeceli Derin Dondurucu",
+      "volumeLiters": 238,
+      "energyClass": "E",
+      "noiseDb": 39,
+      "noFrost": true,
+      "drawerCount": 7,
+      "color": "Inox / Paslanmaz Görünümlü",
+      "freezerType": "Dikey / Çekmeceli",
+      "warrantyYears": 3
+    },
+    "storeOffers": [
+      {
+        "storeName": "N11",
+        "price": 26550,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.6,
+        "reviewCount": 850,
+        "url": "https://www.n11.com/urun/ugur-ued-7238-dtk-nf-dgt-ds-r65-derin-dondurucu",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "price": 27280,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "url": "https://www.trendyol.com/urun/ugur-ued-7238-dtk-nf-dgt-ds-r65-derin-dondurucu",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "price": 27644,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 1890,
+        "url": "https://www.hepsiburada.com/urun/ugur-ued-7238-dtk-nf-dgt-ds-r65-derin-dondurucu",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "price": 28103,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.9,
+        "reviewCount": 2400,
+        "url": "https://www.amazontr.com/urun/ugur-ued-7238-dtk-nf-dgt-ds-r65-derin-dondurucu",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "PttAVM",
+        "price": 28733,
+        "shippingFee": 0,
+        "freeShipping": true,
+        "inStock": true,
+        "merchantRating": 4.5,
+        "reviewCount": 620,
+        "url": "https://www.pttavm.com/urun/ugur-ued-7238-dtk-nf-dgt-ds-r65-derin-dondurucu",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "price": 29511,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.7,
+        "reviewCount": 910,
+        "url": "https://www.idefix.com/urun/ugur-ued-7238-dtk-nf-dgt-ds-r65-derin-dondurucu",
+        "warrantyType": "Resmi Distribütör Garantili"
+      },
+      {
+        "storeName": "Teknosa",
+        "price": 29958,
+        "shippingFee": 49.9,
+        "freeShipping": false,
+        "inStock": true,
+        "merchantRating": 4.8,
+        "reviewCount": 1100,
+        "url": "https://www.teknosa.com/urun/ugur-ued-7238-dtk-nf-dgt-ds-r65-derin-dondurucu",
+        "warrantyType": "Resmi Distribütör Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 24464
+      },
+      {
+        "date": "2026-04-01",
+        "price": 24609
+      },
+      {
+        "date": "2026-05-01",
+        "price": 25052
+      },
+      {
+        "date": "2026-06-01",
+        "price": 25802
+      },
+      {
+        "date": "2026-07-01",
+        "price": 25396
+      },
+      {
+        "date": "2026-08-01",
+        "price": 26281
+      },
+      {
+        "date": "2026-08-25",
+        "price": 26550
+      }
+    ],
+    "pros": [
+      "Uğur profesyonel soğutma tecrübesi",
+      "Dijital dokunmatik sıcaklık kontrol paneli",
+      "7 bölmeli geniş ergonomik iç düzen",
+      "Şık Inox dış gövde"
+    ],
+    "cons": [
+      "Açılışta güçlü vakum yapar (sağlam tutma kolu var)"
+    ],
+    "createdAt": "2026-08-25T15:13:53.755Z",
+    "updatedAt": "2026-08-25T15:13:53.755Z"
+  },
+  {
     "id": "philips-cafe-gaia-hd7548-20",
     "slug": "philips-cafe-gaia-hd7548-20",
     "name": "Philips Cafe Gaia HD7548/20 1000W Çelik Termoslu Filtre Kahve Makinesi",
@@ -67,7 +4886,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 26344,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Kahve Makinesi",
+    "minPrice": 26344,
+    "maxPrice": 29505
   },
   {
     "id": "philips-senseo-select-csa250",
@@ -136,7 +4959,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 29543,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Kahve Makinesi",
+    "minPrice": 29543,
+    "maxPrice": 33088
   },
   {
     "id": "philips-senseo-csa230-50",
@@ -204,7 +5031,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 29543,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Kahve Makinesi",
+    "minPrice": 29543,
+    "maxPrice": 33088
   },
   {
     "id": "philips-cucina-hr1565-40",
@@ -271,7 +5102,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 22849.09,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Mikser",
+    "minPrice": 22849.09,
+    "maxPrice": 25591
   },
   {
     "id": "philips-cafe-gourmet-hd5416-60",
@@ -341,7 +5176,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 14360.28,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Kahve Makinesi",
+    "minPrice": 14360.28,
+    "maxPrice": 16084
   },
   {
     "id": "philips-senseo-hd6553",
@@ -409,7 +5248,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 8540.66,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Kahve Makinesi",
+    "minPrice": 8540.66,
+    "maxPrice": 9566
   },
   {
     "id": "philips-hr1364",
@@ -476,7 +5319,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 6602.07,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Blender",
+    "minPrice": 6602.07,
+    "maxPrice": 7394
   },
   {
     "id": "philips-eco-conscious-edition-hd5120-00",
@@ -545,7 +5392,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 5265,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Kahve Makinesi",
+    "minPrice": 5265,
+    "maxPrice": 5897
   },
   {
     "id": "philips-hd7462-20-daily-collection",
@@ -613,7 +5464,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 2785,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Kahve Makinesi",
+    "minPrice": 2785,
+    "maxPrice": 3119
   },
   {
     "id": "philips-daily-collection-hd7461",
@@ -681,7 +5536,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 2688.4,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Kahve Makinesi",
+    "minPrice": 2688.4,
+    "maxPrice": 3011
   },
   {
     "id": "philips-daily-collection-hd7459-20",
@@ -750,7 +5609,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 2659.95,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Kahve Makinesi",
+    "minPrice": 2659.95,
+    "maxPrice": 2979
   },
   {
     "id": "philips-gc4860-22",
@@ -819,7 +5682,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 14413.04,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 14413.04,
+    "maxPrice": 16143
   },
   {
     "id": "philips-azur-gc4870-35",
@@ -889,7 +5756,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 13940.7,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 13940.7,
+    "maxPrice": 15614
   },
   {
     "id": "philips-azur-gc4870-22",
@@ -958,7 +5829,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 12606.3,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 12606.3,
+    "maxPrice": 14119
   },
   {
     "id": "philips-gc4930-11",
@@ -1028,7 +5903,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 11340,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 11340,
+    "maxPrice": 12701
   },
   {
     "id": "philips-gc4551-20",
@@ -1097,7 +5976,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 10183.5,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 10183.5,
+    "maxPrice": 11406
   },
   {
     "id": "philips-azur-gc4567-80",
@@ -1167,7 +6050,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 9672,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 9672,
+    "maxPrice": 10833
   },
   {
     "id": "philips-perfectcare-gc3929-64",
@@ -1236,7 +6123,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 8835,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 8835,
+    "maxPrice": 9895
   },
   {
     "id": "philips-azur-gc4554-40",
@@ -1305,7 +6196,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 7035.6,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 7035.6,
+    "maxPrice": 7880
   },
   {
     "id": "philips-azur-gc4850-22",
@@ -1374,7 +6269,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 6742.5,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 6742.5,
+    "maxPrice": 7552
   },
   {
     "id": "philips-azur-gc4552-00",
@@ -1444,7 +6343,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 6499,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "philips-dst3040-70",
@@ -1513,7 +6416,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 4649.07,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 4649.07,
+    "maxPrice": 5207
   },
   {
     "id": "philips-azur-gc4860-37",
@@ -1582,7 +6489,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 4185,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 4185,
+    "maxPrice": 4687
   },
   {
     "id": "philips-azur-steam-iron-gc4537-70",
@@ -1651,7 +6562,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 3673,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 3673,
+    "maxPrice": 4114
   },
   {
     "id": "philips-dst7022-40",
@@ -1720,7 +6635,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 2715.3,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 2715.3,
+    "maxPrice": 3041
   },
   {
     "id": "philips-hr7310-00",
@@ -1787,7 +6706,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 26456,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Mutfak Robotu",
+    "minPrice": 26456,
+    "maxPrice": 29631
   },
   {
     "id": "philips-hd7546-20-cafe-gaia",
@@ -1856,7 +6779,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 3555.7,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Kahve Makinesi",
+    "minPrice": 3555.7,
+    "maxPrice": 3982
   },
   {
     "id": "philips-9000-serisi-hc9450-20",
@@ -1924,7 +6851,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 10550,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş Makinesi",
+    "minPrice": 10550,
+    "maxPrice": 11816
   },
   {
     "id": "philips-azur-gc4909-60",
@@ -1993,7 +6924,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 12000,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 12000,
+    "maxPrice": 13440
   },
   {
     "id": "philips-azur-8000-dst8020-20",
@@ -2063,7 +6998,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 11482.6,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 11482.6,
+    "maxPrice": 12861
   },
   {
     "id": "philips-perfectcare-xpress-gc5060-02",
@@ -2132,7 +7071,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 9676.28,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 9676.28,
+    "maxPrice": 10837
   },
   {
     "id": "philips-gc4902-20",
@@ -2201,7 +7144,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 8999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 8999,
+    "maxPrice": 10079
   },
   {
     "id": "philips-azur-gc4905-40",
@@ -2271,7 +7218,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 7125.38,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 7125.38,
+    "maxPrice": 7980
   },
   {
     "id": "philips-gc5034-20",
@@ -2340,7 +7291,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 6525,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 6525,
+    "maxPrice": 7308
   },
   {
     "id": "philips-azur-8000-dst8021-30",
@@ -2409,7 +7364,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 5389,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 5389,
+    "maxPrice": 6036
   },
   {
     "id": "philips-azur-7000-dst7051-30",
@@ -2479,7 +7438,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 4900,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 4900,
+    "maxPrice": 5488
   },
   {
     "id": "philips-azur-gc4564-20",
@@ -2548,7 +7511,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 4399.12,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 4399.12,
+    "maxPrice": 4927
   },
   {
     "id": "philips-azur-dst7020-20",
@@ -2617,7 +7584,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 3131.1,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 3131.1,
+    "maxPrice": 3507
   },
   {
     "id": "philips-7000-dst7040-80",
@@ -2686,7 +7657,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 3119,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 3119,
+    "maxPrice": 3493
   },
   {
     "id": "philips-dst7031-70",
@@ -2756,7 +7731,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 2969,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 2969,
+    "maxPrice": 3325
   },
   {
     "id": "philips-7000-dst7041-20",
@@ -2825,7 +7804,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 2859,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 2859,
+    "maxPrice": 3202
   },
   {
     "id": "philips-7000-series-dst7030-20",
@@ -2894,7 +7877,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 2714,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 2714,
+    "maxPrice": 3040
   },
   {
     "id": "philips-l-or-barista-lm8012-60",
@@ -2964,7 +7951,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 13949.07,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Kahve Makinesi",
+    "minPrice": 13949.07,
+    "maxPrice": 15623
   },
   {
     "id": "philips-hd7888-01-all-in-1-brew",
@@ -3033,7 +8024,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 23717.12,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Kahve Makinesi",
+    "minPrice": 23717.12,
+    "maxPrice": 26563
   },
   {
     "id": "philips-hr2203-80-soupmaker",
@@ -3101,7 +8096,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 22884,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Blender",
+    "minPrice": 22884,
+    "maxPrice": 25630
   },
   {
     "id": "philips-hd9365-10",
@@ -3168,7 +8167,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 5895.3,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Su Isıtıcı",
+    "minPrice": 5895.3,
+    "maxPrice": 6603
   },
   {
     "id": "philips-5000-hd9339-80",
@@ -3235,7 +8238,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 2199,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Su Isıtıcı",
+    "minPrice": 2199,
+    "maxPrice": 2463
   },
   {
     "id": "philips-hd2581",
@@ -3302,7 +8309,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 1399,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Ekmek Kızartma Makinesi",
+    "minPrice": 1399,
+    "maxPrice": 1567
   },
   {
     "id": "philips-hd9318-20",
@@ -3369,7 +8380,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 1299,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Su Isıtıcı",
+    "minPrice": 1299,
+    "maxPrice": 1455
   },
   {
     "id": "philips-azur-elite-gc5037-80",
@@ -3438,7 +8453,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 27900,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 27900,
+    "maxPrice": 31248
   },
   {
     "id": "philips-hi5910-20",
@@ -3509,7 +8528,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 19999,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 19999,
+    "maxPrice": 22399
   },
   {
     "id": "philips-azur-elite-gc5032-20",
@@ -3578,7 +8601,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 12935.12,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 12935.12,
+    "maxPrice": 14487
   },
   {
     "id": "philips-gc5036-20",
@@ -3647,7 +8674,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 8819.02,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 8819.02,
+    "maxPrice": 9877
   },
   {
     "id": "philips-azur-8000-dst8050-20",
@@ -3717,7 +8748,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 5798,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 5798,
+    "maxPrice": 6494
   },
   {
     "id": "philips-azur-8000-dst8040-30",
@@ -3786,7 +8821,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 5099,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 5099,
+    "maxPrice": 5711
   },
   {
     "id": "philips-azur-dst8030-70",
@@ -3855,7 +8894,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 4849,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 4849,
+    "maxPrice": 5431
   },
   {
     "id": "philips-azur-dst7510-80",
@@ -3925,7 +8968,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 3899,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 3899,
+    "maxPrice": 4367
   },
   {
     "id": "philips-azur-dst7061-30",
@@ -3994,7 +9041,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 3675,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 3675,
+    "maxPrice": 4116
   },
   {
     "id": "philips-dst7511-80",
@@ -4063,7 +9114,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 3179,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 3179,
+    "maxPrice": 3560
   },
   {
     "id": "philips-bhd029-00",
@@ -4129,7 +9184,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 10621,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Saç Kurutma Makinesi",
+    "minPrice": 10621,
+    "maxPrice": 11896
   },
   {
     "id": "philips-hp4935-22",
@@ -4196,7 +9255,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 8630.4,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Saç Kurutma Makinesi",
+    "minPrice": 8630.4,
+    "maxPrice": 9666
   },
   {
     "id": "philips-bhd274-00",
@@ -4262,7 +9325,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 8200,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Saç Kurutma Makinesi",
+    "minPrice": 8200,
+    "maxPrice": 9184
   },
   {
     "id": "philips-hc5630-15",
@@ -4331,7 +9398,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 2653.2,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş Makinesi",
+    "minPrice": 2653.2,
+    "maxPrice": 2972
   },
   {
     "id": "philips-mg3710-15",
@@ -4398,7 +9469,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 2457.84,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş Makinesi",
+    "minPrice": 2457.84,
+    "maxPrice": 2753
   },
   {
     "id": "philips-3000-serisi-bhd350-10",
@@ -4464,7 +9539,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 1723.25,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Saç Kurutma Makinesi",
+    "minPrice": 1723.25,
+    "maxPrice": 1930
   },
   {
     "id": "philips-senseo-select-csa240",
@@ -4534,7 +9613,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 11176.04,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Kahve Makinesi",
+    "minPrice": 11176.04,
+    "maxPrice": 12517
   },
   {
     "id": "philips-hd2650-90",
@@ -4600,7 +9683,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 8999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Ekmek Kızartma Makinesi",
+    "minPrice": 8999,
+    "maxPrice": 10079
   },
   {
     "id": "philips-hd4646-20",
@@ -4668,7 +9755,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 3228.4,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Su Isıtıcı",
+    "minPrice": 3228.4,
+    "maxPrice": 3616
   },
   {
     "id": "philips-azur-8000-dst8070-80",
@@ -4737,7 +9828,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 8322.57,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buharlı Ütü",
+    "minPrice": 8322.57,
+    "maxPrice": 9321
   },
   {
     "id": "philips-hi5922-30",
@@ -4807,7 +9902,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 9500,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 9500,
+    "maxPrice": 10640
   },
   {
     "id": "philips-bhd290-00",
@@ -4873,7 +9972,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 11610,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Saç Kurutma Makinesi",
+    "minPrice": 11610,
+    "maxPrice": 13003
   },
   {
     "id": "philips-hp8230-50",
@@ -4939,7 +10042,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 10664,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Saç Kurutma Makinesi",
+    "minPrice": 10664,
+    "maxPrice": 11944
   },
   {
     "id": "philips-bhd500-00",
@@ -5005,7 +10112,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 2199,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Saç Kurutma Makinesi",
+    "minPrice": 2199,
+    "maxPrice": 2463
   },
   {
     "id": "philips-hr2156-90",
@@ -5072,7 +10183,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 7904.07,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Blender",
+    "minPrice": 7904.07,
+    "maxPrice": 8853
   },
   {
     "id": "philips-daily-collection-hr2602",
@@ -5140,7 +10255,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 7258.68,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Blender",
+    "minPrice": 7258.68,
+    "maxPrice": 8130
   },
   {
     "id": "philips-eco-conscious-hd2640-10",
@@ -5206,7 +10325,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 3690,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Ekmek Kızartma Makinesi",
+    "minPrice": 3690,
+    "maxPrice": 4133
   },
   {
     "id": "philips-perfectcare-aqua-pro-gc9420-80",
@@ -5277,7 +10400,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 35999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 35999,
+    "maxPrice": 40319
   },
   {
     "id": "philips-perfectcare-compact-essential-gc6800-20",
@@ -5347,7 +10474,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 9253.5,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 9253.5,
+    "maxPrice": 10364
   },
   {
     "id": "philips-1000-serisi-nt1650-16",
@@ -5413,7 +10544,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 999,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Burun ve Kulak Kılı Düzeltici",
+    "minPrice": 999,
+    "maxPrice": 1119
   },
   {
     "id": "philips-all-in-one-cooker-hd2151-62",
@@ -5481,7 +10616,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 23215.6,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Çok Amaçlı Pişirici",
+    "minPrice": 23215.6,
+    "maxPrice": 26001
   },
   {
     "id": "philips-hd9359-90",
@@ -5551,7 +10690,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 19812,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Su Isıtıcı",
+    "minPrice": 19812,
+    "maxPrice": 22189
   },
   {
     "id": "philips-hd2566-70",
@@ -5617,7 +10760,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 13413,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Ekmek Kızartma Makinesi",
+    "minPrice": 13413,
+    "maxPrice": 15023
   },
   {
     "id": "philips-all-in-one-8500-ais8540-80",
@@ -5687,7 +10834,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 90929,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar İstasyonu",
+    "minPrice": 90929,
+    "maxPrice": 101840
   },
   {
     "id": "philips-hi5918-20",
@@ -5757,7 +10908,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 20459.07,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 20459.07,
+    "maxPrice": 22914
   },
   {
     "id": "philips-hi5920-20",
@@ -5828,7 +10983,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 18506.07,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 18506.07,
+    "maxPrice": 20727
   },
   {
     "id": "philips-fastcare-compact-gc6707-20",
@@ -5898,7 +11057,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 16023.9,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 16023.9,
+    "maxPrice": 17947
   },
   {
     "id": "philips-perfectcare-compact-essential-gc6802-30",
@@ -5969,7 +11132,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 13972.32,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 13972.32,
+    "maxPrice": 15649
   },
   {
     "id": "philips-perfectcare-compact-essential-gc6820-20",
@@ -6039,7 +11206,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 9299.91,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 9299.91,
+    "maxPrice": 10416
   },
   {
     "id": "philips-bodygroom-bg1026-60",
@@ -6104,7 +11275,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 4299,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Vücut Tıraş Makinesi",
+    "minPrice": 4299,
+    "maxPrice": 4815
   },
   {
     "id": "philips-nt3650-16",
@@ -6170,7 +11345,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 1091.55,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Burun ve Kulak Kılı Düzeltici",
+    "minPrice": 1091.55,
+    "maxPrice": 1223
   },
   {
     "id": "philips-hd2590-90",
@@ -6237,7 +11416,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 1519,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Ekmek Kızartma Makinesi",
+    "minPrice": 1519,
+    "maxPrice": 1701
   },
   {
     "id": "philips-perfectcare-compact-essential-gc6833-30",
@@ -6307,7 +11490,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 12995,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 12995,
+    "maxPrice": 14554
   },
   {
     "id": "philips-perfectcare-compact-plus-gc7920-20",
@@ -6378,7 +11565,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 9299.07,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 9299.07,
+    "maxPrice": 10415
   },
   {
     "id": "philips-fastcare-compact-gc6734-20",
@@ -6448,7 +11639,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 11074.29,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 11074.29,
+    "maxPrice": 12403
   },
   {
     "id": "philips-oneblade-face-body-qp2620-20",
@@ -6515,7 +11710,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 4749.05,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Yüz ve Vücut Şekillendirici",
+    "minPrice": 4749.05,
+    "maxPrice": 5319
   },
   {
     "id": "philips-series-5000-bt5515-15",
@@ -6583,7 +11782,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 8549,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Sakal Kesme & Şekillendirici",
+    "minPrice": 8549,
+    "maxPrice": 9575
   },
   {
     "id": "philips-hd9350-90",
@@ -6652,7 +11855,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 1910,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Su Isıtıcı",
+    "minPrice": 1910,
+    "maxPrice": 2139
   },
   {
     "id": "philips-hd2637-10",
@@ -6719,7 +11926,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 3015.29,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Ekmek Kızartma Makinesi",
+    "minPrice": 3015.29,
+    "maxPrice": 3377
   },
   {
     "id": "philips-perfectcare-performer-gc8717-20",
@@ -6789,7 +12000,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 19999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 19999,
+    "maxPrice": 22399
   },
   {
     "id": "philips-perfectcare-compact-essential-gc6815-20",
@@ -6859,7 +12074,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 8250,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 8250,
+    "maxPrice": 9240
   },
   {
     "id": "philips-2000-psg2000-20",
@@ -6930,7 +12149,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 4415,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 4415,
+    "maxPrice": 4945
   },
   {
     "id": "philips-drycare-advanced-hp8233-00",
@@ -6995,7 +12218,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 12960,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Saç Kurutma Makinesi",
+    "minPrice": 12960,
+    "maxPrice": 14515
   },
   {
     "id": "philips-bhd510-00",
@@ -7060,7 +12287,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 2939.2,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Saç Kurutma Makinesi",
+    "minPrice": 2939.2,
+    "maxPrice": 3292
   },
   {
     "id": "philips-bodygroom-bg1024-16",
@@ -7125,7 +12356,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 3033.67,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Vücut Tıraş Makinesi",
+    "minPrice": 3033.67,
+    "maxPrice": 3398
   },
   {
     "id": "philips-qp2520-30",
@@ -7192,7 +12427,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 2759.08,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Şekillendirici",
+    "minPrice": 2759.08,
+    "maxPrice": 3090
   },
   {
     "id": "philips-bodygroom-bg1024-15",
@@ -7258,7 +12497,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 1426.3,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Vücut Tıraş Makinesi",
+    "minPrice": 1426.3,
+    "maxPrice": 1597
   },
   {
     "id": "philips-perfectcare-aqua-pro-gc9325-30",
@@ -7329,7 +12572,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 46499.07,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 46499.07,
+    "maxPrice": 52079
   },
   {
     "id": "philips-perfectcare-compact-essential-gc6842-30",
@@ -7400,7 +12647,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 6949.9,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 6949.9,
+    "maxPrice": 7784
   },
   {
     "id": "philips-3000-psg3000-20",
@@ -7470,7 +12721,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 6010.54,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 6010.54,
+    "maxPrice": 6732
   },
   {
     "id": "philips-3000-psg3000-30",
@@ -7541,7 +12796,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 4799,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 4799,
+    "maxPrice": 5375
   },
   {
     "id": "philips-s1223-41",
@@ -7607,7 +12866,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 3999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş Makinesi",
+    "minPrice": 3999,
+    "maxPrice": 4479
   },
   {
     "id": "philips-oneblade-qp2510-11",
@@ -7673,7 +12936,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 3174,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Şekillendirici",
+    "minPrice": 3174,
+    "maxPrice": 3555
   },
   {
     "id": "philips-daily-collection-hd7301-00",
@@ -7742,7 +13009,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 1814,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Çay Makinesi",
+    "minPrice": 1814,
+    "maxPrice": 2032
   },
   {
     "id": "philips-2200-serisi-lattego-ep2231-40",
@@ -7812,7 +13083,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 21995.1,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "coffee_machine",
+    "subCategoryLabel": "Tam Otomatik Kahve Makinesi",
+    "minPrice": 21995.1,
+    "maxPrice": 24635
   },
   {
     "id": "philips-2200-serisi-ep2220-10",
@@ -7881,7 +13156,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 10399,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "coffee_machine",
+    "subCategoryLabel": "Tam Otomatik Kahve Makinesi",
+    "minPrice": 10399,
+    "maxPrice": 11647
   },
   {
     "id": "philips-perfectcare-aqua-pro-gc9324-20",
@@ -7952,7 +13231,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 32559.12,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 32559.12,
+    "maxPrice": 36466
   },
   {
     "id": "philips-perfectcare-performer-gc8723-20",
@@ -8022,7 +13305,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 20099,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 20099,
+    "maxPrice": 22511
   },
   {
     "id": "philips-perfectcare-aqua-pro-gc9330-20",
@@ -8092,7 +13379,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 19599.02,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 19599.02,
+    "maxPrice": 21951
   },
   {
     "id": "philips-perfectcare-compact-gc7844-20",
@@ -8163,7 +13454,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 18584.15,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 18584.15,
+    "maxPrice": 20814
   },
   {
     "id": "philips-perfect-care-aqua-pro-gc9315-30",
@@ -8233,7 +13528,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 17948.07,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 17948.07,
+    "maxPrice": 20102
   },
   {
     "id": "philips-perfectcare-performer-gc8721-30",
@@ -8303,7 +13602,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 14199,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 14199,
+    "maxPrice": 15903
   },
   {
     "id": "philips-perfectcare-compact-plus-gc7933-30",
@@ -8374,7 +13677,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 13538.1,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 13538.1,
+    "maxPrice": 15163
   },
   {
     "id": "philips-perfectcare-7014-10",
@@ -8444,7 +13751,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 13206,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 13206,
+    "maxPrice": 14791
   },
   {
     "id": "philips-gc8752-30",
@@ -8514,7 +13825,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 12961.52,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 12961.52,
+    "maxPrice": 14517
   },
   {
     "id": "philips-bodygroom-bg-3015-15",
@@ -8580,7 +13895,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 7999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Vücut Bakım Kiti",
+    "minPrice": 7999,
+    "maxPrice": 8959
   },
   {
     "id": "philips-bodygroom-bg3017-01",
@@ -8647,7 +13966,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 4680,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Vücut Tıraş Makinesi",
+    "minPrice": 4680,
+    "maxPrice": 5242
   },
   {
     "id": "philips-bg3010-15",
@@ -8713,7 +14036,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 4599.08,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Vücut Tıraş Makinesi",
+    "minPrice": 4599.08,
+    "maxPrice": 5151
   },
   {
     "id": "philips-oneblade-qp2520-20",
@@ -8780,7 +14107,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 2849.05,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Şekillendirici",
+    "minPrice": 2849.05,
+    "maxPrice": 3191
   },
   {
     "id": "philips-5400-serisi-lattego-ep5144-70",
@@ -8850,7 +14181,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 30799.12,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "coffee_machine",
+    "subCategoryLabel": "Tam Otomatik Kahve Makinesi",
+    "minPrice": 30799.12,
+    "maxPrice": 34495
   },
   {
     "id": "philips-2200-serisi-ep2220-40",
@@ -8919,7 +14254,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 17900,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "coffee_machine",
+    "subCategoryLabel": "Tam Otomatik Kahve Makinesi",
+    "minPrice": 17900,
+    "maxPrice": 20048
   },
   {
     "id": "philips-800-serisi-ep0820-00",
@@ -8988,7 +14327,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 12199,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "coffee_machine",
+    "subCategoryLabel": "Tam Otomatik Kahve Makinesi",
+    "minPrice": 12199,
+    "maxPrice": 13663
   },
   {
     "id": "philips-perfectcare-gc8962-40",
@@ -9059,7 +14402,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 46548,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 46548,
+    "maxPrice": 52134
   },
   {
     "id": "philips-perfectcare-psg7150-30",
@@ -9129,7 +14476,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 18082.92,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 18082.92,
+    "maxPrice": 20253
   },
   {
     "id": "philips-perfectcare-elite-silence-gc9640-60",
@@ -9199,7 +14550,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 17399.1,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 17399.1,
+    "maxPrice": 19487
   },
   {
     "id": "philips-perfectcare-7000-series-psg7024-20",
@@ -9269,7 +14624,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 16275,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 16275,
+    "maxPrice": 18228
   },
   {
     "id": "philips-psg6024-30",
@@ -9339,7 +14698,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 9199,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 9199,
+    "maxPrice": 10303
   },
   {
     "id": "philips-psg6026-20",
@@ -9409,7 +14772,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 8999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 8999,
+    "maxPrice": 10079
   },
   {
     "id": "philips-mg7750-49",
@@ -9477,7 +14844,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 18500,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Profesyonel Bakım Kiti",
+    "minPrice": 18500,
+    "maxPrice": 20720
   },
   {
     "id": "philips-bodygroom-5000-serisi-bg5020-15",
@@ -9543,7 +14914,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 7839.91,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Vücut Bakım Kiti",
+    "minPrice": 7839.91,
+    "maxPrice": 8781
   },
   {
     "id": "philips-s5445-03",
@@ -9610,7 +14985,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 3499,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş Makinesi",
+    "minPrice": 3499,
+    "maxPrice": 3919
   },
   {
     "id": "philips-oneblade-qp2824-10",
@@ -9676,7 +15055,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 1775,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Yüz ve Vücut Şekillendirici",
+    "minPrice": 1775,
+    "maxPrice": 1988
   },
   {
     "id": "philips-oneblade-qp2724-10",
@@ -9743,7 +15126,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 1299,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Şekillendirici",
+    "minPrice": 1299,
+    "maxPrice": 1455
   },
   {
     "id": "philips-5400-serisi-ep5443-70",
@@ -9813,7 +15200,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 30075.27,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "coffee_machine",
+    "subCategoryLabel": "Tam Otomatik Kahve Makinesi",
+    "minPrice": 30075.27,
+    "maxPrice": 33684
   },
   {
     "id": "philips-4300-serisi-lattego-ep4346-70",
@@ -9882,7 +15273,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 26700,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "coffee_machine",
+    "subCategoryLabel": "Tam Otomatik Kahve Makinesi",
+    "minPrice": 26700,
+    "maxPrice": 29904
   },
   {
     "id": "philips-5400-serisi-lattego-ep5447-90",
@@ -9951,7 +15346,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 22838,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "coffee_machine",
+    "subCategoryLabel": "Tam Otomatik Kahve Makinesi",
+    "minPrice": 22838,
+    "maxPrice": 25579
   },
   {
     "id": "philips-3200-serisi-lattego-ep3246-70",
@@ -10020,7 +15419,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 17064.57,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "coffee_machine",
+    "subCategoryLabel": "Tam Otomatik Kahve Makinesi",
+    "minPrice": 17064.57,
+    "maxPrice": 19112
   },
   {
     "id": "philips-3300-serisi-lattego-ep3347-90",
@@ -10090,7 +15493,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 16569,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "coffee_machine",
+    "subCategoryLabel": "Tam Otomatik Kahve Makinesi",
+    "minPrice": 16569,
+    "maxPrice": 18557
   },
   {
     "id": "philips-1200-serisi-ep1220-00",
@@ -10159,7 +15566,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 15616.3,
         "store": "Teknosa"
       }
-    ]
+    ],
+    "subCategory": "coffee_machine",
+    "subCategoryLabel": "Tam Otomatik Kahve Makinesi",
+    "minPrice": 15616.3,
+    "maxPrice": 17490
   },
   {
     "id": "philips-2300-serisi-lattego-ep2331-10",
@@ -10228,7 +15639,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 13336.2,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "coffee_machine",
+    "subCategoryLabel": "Tam Otomatik Kahve Makinesi",
+    "minPrice": 13336.2,
+    "maxPrice": 14937
   },
   {
     "id": "philips-hd4407-20",
@@ -10293,7 +15708,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 4351.47,
         "store": "Vatan"
       }
-    ]
+    ],
+    "subCategory": "toaster",
+    "subCategoryLabel": "Tost Makinesi & Izgara",
+    "minPrice": 4351.47,
+    "maxPrice": 4874
   },
   {
     "id": "philips-perfectcare-7000-series-psg7040-10",
@@ -10363,7 +15782,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 27899.07,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 27899.07,
+    "maxPrice": 31247
   },
   {
     "id": "philips-gc9635-20-perfectcare-elite",
@@ -10433,7 +15856,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 19529.07,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 19529.07,
+    "maxPrice": 21873
   },
   {
     "id": "philips-perfectcare-psg6042-20",
@@ -10503,7 +15930,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 9689.9,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 9689.9,
+    "maxPrice": 10853
   },
   {
     "id": "philips-oneblade-pro-qp6520-20",
@@ -10570,7 +16001,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 20692.6,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Şekillendirici",
+    "minPrice": 20692.6,
+    "maxPrice": 23176
   },
   {
     "id": "philips-bg7025-15",
@@ -10637,7 +16072,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 20611.25,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Vücut Bakım Kiti",
+    "minPrice": 20611.25,
+    "maxPrice": 23085
   },
   {
     "id": "philips-oneblade-pro-qp6550-15",
@@ -10703,7 +16142,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 8450,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Şekillendirici",
+    "minPrice": 8450,
+    "maxPrice": 9464
   },
   {
     "id": "philips-oneblade-pro-qp6530-15",
@@ -10769,7 +16212,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 7349,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Şekillendirici",
+    "minPrice": 7349,
+    "maxPrice": 8231
   },
   {
     "id": "philips-5000-serisi-bg5021-16",
@@ -10836,7 +16283,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 5519.08,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Vücut Bakım Kiti",
+    "minPrice": 5519.08,
+    "maxPrice": 6181
   },
   {
     "id": "philips-mg5730-15",
@@ -10902,7 +16353,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 4967.08,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Bakım Kiti",
+    "minPrice": 4967.08,
+    "maxPrice": 5563
   },
   {
     "id": "philips-5000-serisi-mg5940-15",
@@ -10969,7 +16424,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 2749,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Bakım Kiti",
+    "minPrice": 2749,
+    "maxPrice": 3079
   },
   {
     "id": "philips-mg5950-15",
@@ -11035,7 +16494,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 2683,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Bakım Kiti",
+    "minPrice": 2683,
+    "maxPrice": 3005
   },
   {
     "id": "philips-5000-serisi-mg5920-15",
@@ -11101,7 +16564,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 2579.68,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Bakım Kiti",
+    "minPrice": 2579.68,
+    "maxPrice": 2889
   },
   {
     "id": "philips-s1323-41",
@@ -11167,7 +16634,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 2578.3,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş Makinesi",
+    "minPrice": 2578.3,
+    "maxPrice": 2888
   },
   {
     "id": "philips-oneblade-qp1424-10",
@@ -11234,7 +16705,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 1395,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Şekillendirici",
+    "minPrice": 1395,
+    "maxPrice": 1562
   },
   {
     "id": "philips-oneblade-qp2724-20",
@@ -11301,7 +16776,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 1319,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Şekillendirici",
+    "minPrice": 1319,
+    "maxPrice": 1477
   },
   {
     "id": "philips-perfectcare-8000-series-psg8030-20",
@@ -11371,7 +16850,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 18269.1,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 18269.1,
+    "maxPrice": 20461
   },
   {
     "id": "philips-perfectcare-8000-series-psg8050-30",
@@ -11441,7 +16924,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 18227.07,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 18227.07,
+    "maxPrice": 20414
   },
   {
     "id": "philips-perfectcare-elite-plus-gc9682-80",
@@ -11512,7 +16999,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 17312.1,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 17312.1,
+    "maxPrice": 19390
   },
   {
     "id": "philips-perfectcare-7000-psg7200-30",
@@ -11582,7 +17073,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 16999,
         "store": "Teknosa"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 16999,
+    "maxPrice": 19039
   },
   {
     "id": "philips-perfectcare-7000-psg7200-20",
@@ -11652,7 +17147,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 14599,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 14599,
+    "maxPrice": 16351
   },
   {
     "id": "philips-hd4467-90",
@@ -11718,7 +17217,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 7904.07,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "kitchen",
+    "subCategoryLabel": "Elektrikli Izgara & Tost",
+    "minPrice": 7904.07,
+    "maxPrice": 8853
   },
   {
     "id": "philips-s9721-41",
@@ -11787,7 +17290,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 119799.01,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş Makinesi",
+    "minPrice": 119799.01,
+    "maxPrice": 134175
   },
   {
     "id": "philips-3000-serisi-s3120-06",
@@ -11853,7 +17360,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 9501,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş Makinesi",
+    "minPrice": 9501,
+    "maxPrice": 10641
   },
   {
     "id": "philips-3000-serisi-s3133-51",
@@ -11920,7 +17431,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 4139.08,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş Makinesi",
+    "minPrice": 4139.08,
+    "maxPrice": 4636
   },
   {
     "id": "philips-mg5930-15",
@@ -11986,7 +17501,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 4139.08,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Bakım Kiti",
+    "minPrice": 4139.08,
+    "maxPrice": 4636
   },
   {
     "id": "philips-3000x-serisi-x3063-00",
@@ -12052,7 +17571,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 2299,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş Makinesi",
+    "minPrice": 2299,
+    "maxPrice": 2575
   },
   {
     "id": "philips-3000x-serisi-x3021-00",
@@ -12118,7 +17641,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 2015.2,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş Makinesi",
+    "minPrice": 2015.2,
+    "maxPrice": 2257
   },
   {
     "id": "philips-perfectcare-8000-psg8130-80",
@@ -12188,7 +17715,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 27500,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 27500,
+    "maxPrice": 30800
   },
   {
     "id": "philips-perfectcare-7000-psg7300-20",
@@ -12258,7 +17789,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 19761.57,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 19761.57,
+    "maxPrice": 22133
   },
   {
     "id": "philips-perfectcare-7000-psg7300-70",
@@ -12328,7 +17863,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 19331.1,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 19331.1,
+    "maxPrice": 21651
   },
   {
     "id": "philips-perfectcare-8000-psg8160-30",
@@ -12398,7 +17937,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 18796.1,
         "store": "Teknosa"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 18796.1,
+    "maxPrice": 21052
   },
   {
     "id": "philips-perfectcare-7000-psg7300-80",
@@ -12468,7 +18011,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 16529.1,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 16529.1,
+    "maxPrice": 18513
   },
   {
     "id": "philips-norelco-9800-s9987-85",
@@ -12537,7 +18084,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 37399,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş Makinesi",
+    "minPrice": 37399,
+    "maxPrice": 41887
   },
   {
     "id": "philips-9000-serisi-sp9872-22",
@@ -12606,7 +18157,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 21990,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş Makinesi",
+    "minPrice": 21990,
+    "maxPrice": 24629
   },
   {
     "id": "philips-s5880-81",
@@ -12673,7 +18228,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 15960.7,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş Makinesi",
+    "minPrice": 15960.7,
+    "maxPrice": 17876
   },
   {
     "id": "philips-mg7715-15",
@@ -12739,7 +18298,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 13719.91,
         "store": "Vatan"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Bakım Kiti",
+    "minPrice": 13719.91,
+    "maxPrice": 15366
   },
   {
     "id": "philips-mg7736-15",
@@ -12805,7 +18368,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 9245,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Bakım Kiti",
+    "minPrice": 9245,
+    "maxPrice": 10354
   },
   {
     "id": "philips-mg7745-15",
@@ -12871,7 +18438,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 8599.1,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Bakım Kiti",
+    "minPrice": 8599.1,
+    "maxPrice": 9631
   },
   {
     "id": "philips-7000-serisi-mg7950-15",
@@ -12937,7 +18508,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 8385,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Bakım Kiti",
+    "minPrice": 8385,
+    "maxPrice": 9391
   },
   {
     "id": "philips-s5887-10",
@@ -13003,7 +18578,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 4802,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş Makinesi",
+    "minPrice": 4802,
+    "maxPrice": 5378
   },
   {
     "id": "philips-mg7930-15",
@@ -13069,7 +18648,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 4129,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Bakım Kiti",
+    "minPrice": 4129,
+    "maxPrice": 4624
   },
   {
     "id": "philips-3000-serisi-s3144-00",
@@ -13135,7 +18718,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 2499,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş Makinesi",
+    "minPrice": 2499,
+    "maxPrice": 2799
   },
   {
     "id": "philips-perfectcare-9000-psg9050-20",
@@ -13239,7 +18826,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 28499,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 28499,
+    "maxPrice": 31919
   },
   {
     "id": "philips-perfectcare-8000-psg8300-30",
@@ -13324,7 +18915,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 23979.29,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 23979.29,
+    "maxPrice": 26857
   },
   {
     "id": "philips-perfectcare-8000-psg8300-20",
@@ -13394,7 +18989,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 22295,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 22295,
+    "maxPrice": 24970
   },
   {
     "id": "philips-perfectcare-8000-psg8200-70",
@@ -13464,7 +19063,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 20999,
         "store": "Teknosa"
       }
-    ]
+    ],
+    "subCategory": "iron",
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 20999,
+    "maxPrice": 23519
   },
   {
     "id": "philips-shaver-s9711-31",
@@ -13533,7 +19136,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 145800.23,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş Makinesi",
+    "minPrice": 145800.23,
+    "maxPrice": 163296
   },
   {
     "id": "philips-multigroom-7720-15",
@@ -13602,7 +19209,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 15679.91,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Bakım Kiti",
+    "minPrice": 15679.91,
+    "maxPrice": 17561
   },
   {
     "id": "philips-norelco-multigroom-7000",
@@ -13668,7 +19279,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 9635,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Bakım Kiti",
+    "minPrice": 9635,
+    "maxPrice": 10791
   },
   {
     "id": "philips-8000-serisi-s8692-35",
@@ -13735,7 +19350,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 8447.67,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş Makinesi",
+    "minPrice": 8447.67,
+    "maxPrice": 9461
   },
   {
     "id": "philips-5000-serisi-s5587-10",
@@ -13801,7 +19420,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 6879.1,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş Makinesi",
+    "minPrice": 6879.1,
+    "maxPrice": 7705
   },
   {
     "id": "philips-7000-serisi-mg7940-15",
@@ -13867,7 +19490,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 4692,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Bakım Kiti",
+    "minPrice": 4692,
+    "maxPrice": 5255
   },
   {
     "id": "philips-7000-serisi-mg7920-15",
@@ -13933,7 +19560,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 3981,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş & Bakım Kiti",
+    "minPrice": 3981,
+    "maxPrice": 4459
   },
   {
     "id": "philips-aquatouch-s5070-06",
@@ -13999,7 +19630,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 24749,
         "store": "Vatan"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Tıraş Makinesi",
+    "minPrice": 24749,
+    "maxPrice": 27719
   },
   {
     "id": "philips-sonicare-protectiveclean-5100",
@@ -14064,7 +19699,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 3499,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Elektrikli Diş Fırçası",
+    "minPrice": 3499,
+    "maxPrice": 3919
   },
   {
     "id": "philips-hr3770-00",
@@ -14130,7 +19769,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 7167.62,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "blender",
+    "subCategoryLabel": "Mutfak Şefi & Blender",
+    "minPrice": 7167.62,
+    "maxPrice": 8028
   },
   {
     "id": "philips-power-alkaline-aa-12li",
@@ -14193,7 +19836,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 298,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "power_station",
+    "subCategoryLabel": "Pil & Güç",
+    "minPrice": 298,
+    "maxPrice": 334
   },
   {
     "id": "roborock-saros-20-sonic",
@@ -14278,7 +19925,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 79999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 79999,
+    "maxPrice": 89599
   },
   {
     "id": "roborock-saros-20",
@@ -14348,7 +19999,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 78319,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 78319,
+    "maxPrice": 87717
   },
   {
     "id": "roborock-saros-z70",
@@ -14418,7 +20073,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 66521,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 66521,
+    "maxPrice": 74504
   },
   {
     "id": "roborock-qrevo-edge-2-pro",
@@ -14488,7 +20147,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 63999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 63999,
+    "maxPrice": 71679
   },
   {
     "id": "roborock-qrevo-curv-2-pro",
@@ -14558,7 +20221,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 63900,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 63900,
+    "maxPrice": 71568
   },
   {
     "id": "roborock-qrevo-curvx",
@@ -14628,7 +20295,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 62999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 62999,
+    "maxPrice": 70559
   },
   {
     "id": "roborock-saros-10r",
@@ -14698,7 +20369,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 61499,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 61499,
+    "maxPrice": 68879
   },
   {
     "id": "roborock-qrevo-curv-2-flow",
@@ -14768,7 +20443,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 56700,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 56700,
+    "maxPrice": 63504
   },
   {
     "id": "roborock-f25-steam",
@@ -14839,7 +20518,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 27528,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 27528,
+    "maxPrice": 30831
   },
   {
     "id": "roborock-qrevo-edge-2",
@@ -14909,7 +20592,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 59649,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 59649,
+    "maxPrice": 66807
   },
   {
     "id": "roborock-qrevo-edge-5v1",
@@ -14979,7 +20666,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 50999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 50999,
+    "maxPrice": 57119
   },
   {
     "id": "roborock-qrevo-2-pro",
@@ -15049,7 +20740,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 47398,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 47398,
+    "maxPrice": 53086
   },
   {
     "id": "roborock-qrevo-c-pro",
@@ -15119,7 +20814,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 46800,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 46800,
+    "maxPrice": 52416
   },
   {
     "id": "roborock-qrevo-l-pro",
@@ -15189,7 +20888,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 39999,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 39999,
+    "maxPrice": 44799
   },
   {
     "id": "roborock-s9-plus",
@@ -15260,7 +20963,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 26979,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 26979,
+    "maxPrice": 30216
   },
   {
     "id": "roborock-f25-ultra",
@@ -15331,7 +21038,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 25518,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 25518,
+    "maxPrice": 28580
   },
   {
     "id": "roborock-h60-hub-ultra",
@@ -15401,7 +21112,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 22199,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 22199,
+    "maxPrice": 24863
   },
   {
     "id": "roborock-s9",
@@ -15471,7 +21186,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 20499,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 20499,
+    "maxPrice": 22959
   },
   {
     "id": "roborock-f25-rt",
@@ -15541,7 +21260,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 19210,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 19210,
+    "maxPrice": 21515
   },
   {
     "id": "roborock-f25-ace",
@@ -15612,7 +21335,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 18909,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 18909,
+    "maxPrice": 21178
   },
   {
     "id": "roborock-h60",
@@ -15682,7 +21409,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 14386,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 14386,
+    "maxPrice": 16112
   },
   {
     "id": "dyson-v16-piston-animal-submarine",
@@ -15753,7 +21484,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 47819,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 47819,
+    "maxPrice": 53557
   },
   {
     "id": "roborock-s8-maxv-ultra",
@@ -15838,7 +21573,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 71725,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 71725,
+    "maxPrice": 80332
   },
   {
     "id": "roborock-qrevo-curv-5a1",
@@ -15908,7 +21647,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 70525,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 70525,
+    "maxPrice": 78988
   },
   {
     "id": "roborock-qrevo-curv",
@@ -15978,7 +21721,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 67375,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 67375,
+    "maxPrice": 75460
   },
   {
     "id": "roborock-qrevo-master",
@@ -16049,7 +21796,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 66021,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 66021,
+    "maxPrice": 73944
   },
   {
     "id": "roborock-qrevo-slim",
@@ -16120,7 +21871,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 59999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 59999,
+    "maxPrice": 67199
   },
   {
     "id": "dyson-spot-scrub-ai",
@@ -16191,7 +21946,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 49200,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 49200,
+    "maxPrice": 55104
   },
   {
     "id": "dyson-v16-piston-animal",
@@ -16261,7 +22020,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 41453,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 41453,
+    "maxPrice": 46427
   },
   {
     "id": "dyson-airwrap-co-anda2x",
@@ -16331,7 +22094,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 35259,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 35259,
+    "maxPrice": 39490
   },
   {
     "id": "kitchenaid-artisan-4-8l",
@@ -16449,7 +22216,10 @@ export const mockAppliances: ApplianceProduct[] = [
       "color": "Empire Kırmızı / Mat Siyah",
       "masterCategory": "kitchen",
       "masterCategoryLabel": "Mutfak Aletleri"
-    }
+    },
+    "subCategoryLabel": "Stand Mikser / Mutfak Şefi",
+    "minPrice": 28999,
+    "maxPrice": 32479
   },
   {
     "id": "dyson-airwrap-id-vinca-blue",
@@ -16520,7 +22290,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 21500,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 21500,
+    "maxPrice": 24080
   },
   {
     "id": "dyson-hushjet-purifier-compact-hj10",
@@ -16591,7 +22365,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 19441,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyici",
+    "minPrice": 19441,
+    "maxPrice": 21774
   },
   {
     "id": "delonghi-magnifica-s-ecam22110b",
@@ -16711,7 +22489,10 @@ export const mockAppliances: ApplianceProduct[] = [
       "color": "Siyah",
       "masterCategory": "kitchen",
       "masterCategoryLabel": "Mutfak Aletleri"
-    }
+    },
+    "subCategoryLabel": "Tam Otomatik Kahve Makinesi",
+    "minPrice": 16999,
+    "maxPrice": 19039
   },
   {
     "id": "tefal-optigrill-elite-akilli-izgara",
@@ -16830,7 +22611,10 @@ export const mockAppliances: ApplianceProduct[] = [
       "color": "Inox / Siyah",
       "masterCategory": "kitchen",
       "masterCategoryLabel": "Mutfak Aletleri"
-    }
+    },
+    "subCategoryLabel": "Elektrikli Izgara & Tost Makinesi",
+    "minPrice": 9999,
+    "maxPrice": 11199
   },
   {
     "id": "roborock-qrevo-pro",
@@ -16900,7 +22684,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 64800,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 64800,
+    "maxPrice": 72576
   },
   {
     "id": "roborock-qrevo-c",
@@ -16970,7 +22758,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 56999,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 56999,
+    "maxPrice": 63839
   },
   {
     "id": "roborock-qrevo-maxv",
@@ -17040,7 +22832,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 49999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 49999,
+    "maxPrice": 55999
   },
   {
     "id": "roborock-qrevo-plus",
@@ -17110,7 +22906,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 47999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 47999,
+    "maxPrice": 53759
   },
   {
     "id": "roborock-qrevo-s",
@@ -17180,7 +22980,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 44898,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 44898,
+    "maxPrice": 50286
   },
   {
     "id": "roborock-qrevo-l",
@@ -17250,7 +23054,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 37999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 37999,
+    "maxPrice": 42559
   },
   {
     "id": "roborock-q8-max-pro-plus",
@@ -17320,7 +23128,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 30599,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 30599,
+    "maxPrice": 34271
   },
   {
     "id": "roborock-s8-pro-plus",
@@ -17390,7 +23202,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 30450,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 30450,
+    "maxPrice": 34104
   },
   {
     "id": "roborock-flexi-pro",
@@ -17460,7 +23276,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 29999,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 29999,
+    "maxPrice": 33599
   },
   {
     "id": "roborock-q8-plus",
@@ -17530,7 +23350,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 25590,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 25590,
+    "maxPrice": 28661
   },
   {
     "id": "dyson-v10-konical",
@@ -17600,7 +23424,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 24399,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 24399,
+    "maxPrice": 27327
   },
   {
     "id": "dyson-cyclone-v10-submarine",
@@ -17670,7 +23498,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 23499,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 23499,
+    "maxPrice": 26319
   },
   {
     "id": "dyson-clean-pluswash-hygiene",
@@ -17740,7 +23572,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 19999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 19999,
+    "maxPrice": 22399
   },
   {
     "id": "dyson-big-ball-absolute-2",
@@ -17810,7 +23646,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 19074,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Toz Torbasız Süpürge",
+    "minPrice": 19074,
+    "maxPrice": 21363
   },
   {
     "id": "dyson-washg1",
@@ -17881,7 +23721,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 13999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 13999,
+    "maxPrice": 15679
   },
   {
     "id": "tefal-pro-express-ultimate-ii",
@@ -18000,7 +23844,10 @@ export const mockAppliances: ApplianceProduct[] = [
       "color": "Mavi / Beyaz",
       "masterCategory": "home_tools",
       "masterCategoryLabel": "Ütü & Ev Gereçleri"
-    }
+    },
+    "subCategoryLabel": "Buhar Kazanlı Ütü",
+    "minPrice": 12999,
+    "maxPrice": 14559
   },
   {
     "id": "cosori-dual-blaze-6-4l",
@@ -18119,7 +23966,10 @@ export const mockAppliances: ApplianceProduct[] = [
       "color": "Koyu Gri / Mat Siyah",
       "masterCategory": "kitchen",
       "masterCategoryLabel": "Mutfak Aletleri"
-    }
+    },
+    "subCategoryLabel": "Airfryer / Sıcak Hava Fritözü",
+    "minPrice": 7999,
+    "maxPrice": 8959
   },
   {
     "id": "arzum-okka-grandio-duo",
@@ -18237,7 +24087,10 @@ export const mockAppliances: ApplianceProduct[] = [
       "color": "Krom / Bakır / Siyah",
       "masterCategory": "kitchen",
       "masterCategoryLabel": "Mutfak Aletleri"
-    }
+    },
+    "subCategoryLabel": "Türk Kahvesi Makinesi",
+    "minPrice": 7499,
+    "maxPrice": 8399
   },
   {
     "id": "karaca-caysever-robotea-connect",
@@ -18356,7 +24209,10 @@ export const mockAppliances: ApplianceProduct[] = [
       "color": "Siyah / Rose Gold",
       "masterCategory": "kitchen",
       "masterCategoryLabel": "Mutfak Aletleri"
-    }
+    },
+    "subCategoryLabel": "Otomatik Çay Makinesi & Kettle",
+    "minPrice": 5999,
+    "maxPrice": 6719
   },
   {
     "id": "nutribullet-pro-900w",
@@ -18475,7 +24331,10 @@ export const mockAppliances: ApplianceProduct[] = [
       "color": "Şampanya / Gümüş",
       "masterCategory": "kitchen",
       "masterCategoryLabel": "Mutfak Aletleri"
-    }
+    },
+    "subCategoryLabel": "Smoothie & Kişisel Blender",
+    "minPrice": 3999,
+    "maxPrice": 4479
   },
   {
     "id": "roborock-q10-s5",
@@ -18545,7 +24404,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 23999,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 23999,
+    "maxPrice": 26879
   },
   {
     "id": "xiaomi-robot-vacuum-x20-plus",
@@ -18668,7 +24531,10 @@ export const mockAppliances: ApplianceProduct[] = [
       "color": "Beyaz",
       "masterCategory": "cleaning",
       "masterCategoryLabel": "Süpürge & Temizlik"
-    }
+    },
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 19999,
+    "maxPrice": 22399
   },
   {
     "id": "roborock-flexi-lite",
@@ -18738,7 +24604,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 19999,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 19999,
+    "maxPrice": 22399
   },
   {
     "id": "roborock-q8",
@@ -18808,7 +24678,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 19975,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 19975,
+    "maxPrice": 22372
   },
   {
     "id": "dyson-v8-cyclone",
@@ -18879,7 +24753,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 17525,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 17525,
+    "maxPrice": 19628
   },
   {
     "id": "roborock-h5",
@@ -18949,7 +24827,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 13999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 13999,
+    "maxPrice": 15679
   },
   {
     "id": "roborock-q8-max-pro",
@@ -19020,7 +24902,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 13439,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 13439,
+    "maxPrice": 15052
   },
   {
     "id": "roborock-s8-pro",
@@ -19091,7 +24977,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 12999,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 12999,
+    "maxPrice": 14559
   },
   {
     "id": "tefal-dual-easy-fry-and-grill",
@@ -19210,7 +25100,10 @@ export const mockAppliances: ApplianceProduct[] = [
       "color": "Inox Paslanmaz Çelik",
       "masterCategory": "kitchen",
       "masterCategoryLabel": "Mutfak Aletleri"
-    }
+    },
+    "subCategoryLabel": "Airfryer / Sıcak Hava Fritözü",
+    "minPrice": 8499,
+    "maxPrice": 9519
   },
   {
     "id": "roborock-q7-tf",
@@ -19280,7 +25173,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 13790,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 13790,
+    "maxPrice": 15445
   },
   {
     "id": "roborock-s8-pro-ultra",
@@ -19350,7 +25247,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 179657,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 179657,
+    "maxPrice": 201216
   },
   {
     "id": "roborock-zeo-one",
@@ -19420,7 +25321,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 54999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Çamaşır ve Kurutma",
+    "minPrice": 54999,
+    "maxPrice": 61599
   },
   {
     "id": "dyson-v15s-detect-submarine",
@@ -19490,7 +25395,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 39999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 39999,
+    "maxPrice": 44799
   },
   {
     "id": "roborock-dyad-pro-combo",
@@ -19561,7 +25470,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 32999,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 32999,
+    "maxPrice": 36959
   },
   {
     "id": "roborock-s7-max-ultra",
@@ -19631,7 +25544,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 75650,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 75650,
+    "maxPrice": 84728
   },
   {
     "id": "roborock-s8-plus",
@@ -19701,7 +25618,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 67162,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 67162,
+    "maxPrice": 75221
   },
   {
     "id": "roborock-qrevo",
@@ -19771,7 +25692,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 39999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 39999,
+    "maxPrice": 44799
   },
   {
     "id": "dyson-360-vis-nav",
@@ -19856,7 +25781,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 38799,
         "store": "Dyson TR"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 38799,
+    "maxPrice": 43455
   },
   {
     "id": "roborock-s8-sonic",
@@ -19926,7 +25855,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 35400,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 35400,
+    "maxPrice": 39648
   },
   {
     "id": "roborock-q8-max-plus",
@@ -19997,7 +25930,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 32999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 32999,
+    "maxPrice": 36959
   },
   {
     "id": "dyson-v12s-detect-slim-submarine",
@@ -20067,7 +26004,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 32999,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 32999,
+    "maxPrice": 36959
   },
   {
     "id": "roborock-q5-pro-plus",
@@ -20137,7 +26078,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 28999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 28999,
+    "maxPrice": 32479
   },
   {
     "id": "roborock-dyad-pro",
@@ -20207,7 +26152,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 26999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 26999,
+    "maxPrice": 30239
   },
   {
     "id": "roborock-q8-max",
@@ -20292,7 +26241,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 18220,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 18220,
+    "maxPrice": 20406
   },
   {
     "id": "roborock-q5-pro",
@@ -20362,7 +26315,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 38690,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 38690,
+    "maxPrice": 43333
   },
   {
     "id": "dyson-v8-advanced",
@@ -20432,7 +26389,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 20310,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 20310,
+    "maxPrice": 22747
   },
   {
     "id": "roborock-s7-pro-ultra",
@@ -20503,7 +26464,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 98137,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 98137,
+    "maxPrice": 109913
   },
   {
     "id": "roborock-s7-maxv-ultra",
@@ -20574,7 +26539,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 58999,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 58999,
+    "maxPrice": 66079
   },
   {
     "id": "dyson-supersonic-hd07-412525-01",
@@ -20644,7 +26613,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 29000,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 29000,
+    "maxPrice": 32480
   },
   {
     "id": "dyson-supersonic-hd07-386818-01",
@@ -20714,7 +26687,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 14728,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 14728,
+    "maxPrice": 16495
   },
   {
     "id": "dyson-supersonic-hd07-426081-01",
@@ -20784,7 +26761,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 14499,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 14499,
+    "maxPrice": 16239
   },
   {
     "id": "dyson-supersonic-hd07-386732-01",
@@ -20854,7 +26835,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 14080,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 14080,
+    "maxPrice": 15770
   },
   {
     "id": "roborock-s7-maxv",
@@ -20924,7 +26909,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 57915,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 57915,
+    "maxPrice": 64865
   },
   {
     "id": "roborock-q7-max-plus",
@@ -20994,7 +26983,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 44580,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 44580,
+    "maxPrice": 49930
   },
   {
     "id": "roborock-s7-maxv-plus",
@@ -21064,7 +27057,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 42999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 42999,
+    "maxPrice": 48159
   },
   {
     "id": "roborock-q7-max",
@@ -21134,7 +27131,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 38054,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 38054,
+    "maxPrice": 42620
   },
   {
     "id": "roborock-q5-plus",
@@ -21204,7 +27205,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 24999,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 24999,
+    "maxPrice": 27999
   },
   {
     "id": "dyson-cyclone-v10-total-clean",
@@ -21274,7 +27279,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 21997,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 21997,
+    "maxPrice": 24637
   },
   {
     "id": "roborock-q7-plus",
@@ -21344,7 +27353,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 41999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 41999,
+    "maxPrice": 47039
   },
   {
     "id": "roborock-q7",
@@ -21414,7 +27427,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 40053,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 40053,
+    "maxPrice": 44859
   },
   {
     "id": "dyson-v8-total-clean",
@@ -21484,7 +27501,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 19899,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 19899,
+    "maxPrice": 22287
   },
   {
     "id": "roborock-q5",
@@ -21554,7 +27575,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 17999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 17999,
+    "maxPrice": 20159
   },
   {
     "id": "dyson-v15-detect-absolute",
@@ -21625,7 +27650,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 37799,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 37799,
+    "maxPrice": 42335
   },
   {
     "id": "dyson-v12-detect-slim-absolute",
@@ -21696,7 +27725,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 33399,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 33399,
+    "maxPrice": 37407
   },
   {
     "id": "roborock-g10",
@@ -21766,7 +27799,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 39999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 39999,
+    "maxPrice": 44799
   },
   {
     "id": "roborock-s7-plus",
@@ -21837,7 +27874,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 38499,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 38499,
+    "maxPrice": 43119
   },
   {
     "id": "roborock-s7",
@@ -21908,7 +27949,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 27550,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 27550,
+    "maxPrice": 30856
   },
   {
     "id": "roborock-vacuum-s7-auto-empty-dock",
@@ -21978,7 +28023,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 11499,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Süpürge Aksesuar & İstasyon",
+    "minPrice": 11499,
+    "maxPrice": 12879
   },
   {
     "id": "roborock-h7",
@@ -22048,7 +28097,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 44774,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 44774,
+    "maxPrice": 50147
   },
   {
     "id": "roborock-dyad-wet-and-dry",
@@ -22118,7 +28171,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 28311,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 28311,
+    "maxPrice": 31708
   },
   {
     "id": "roborock-e5",
@@ -22188,7 +28245,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 16999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 16999,
+    "maxPrice": 19039
   },
   {
     "id": "roborock-s6-maxv",
@@ -22258,7 +28319,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 49551,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 49551,
+    "maxPrice": 55497
   },
   {
     "id": "roborock-s6-pure",
@@ -22328,7 +28393,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 59699,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 59699,
+    "maxPrice": 66863
   },
   {
     "id": "roborock-h6",
@@ -22398,7 +28467,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 18999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 18999,
+    "maxPrice": 21279
   },
   {
     "id": "roborock-e4",
@@ -22468,7 +28541,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 15499,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 15499,
+    "maxPrice": 17359
   },
   {
     "id": "roborock-s5-max",
@@ -22539,7 +28616,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 36487,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 36487,
+    "maxPrice": 40865
   },
   {
     "id": "roborock-s6",
@@ -22609,7 +28690,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 31999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 31999,
+    "maxPrice": 35839
   },
   {
     "id": "roborock-s4",
@@ -22679,7 +28764,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 19999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 19999,
+    "maxPrice": 22399
   },
   {
     "id": "roborock-xiaowa-e202",
@@ -22749,7 +28838,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 13999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 13999,
+    "maxPrice": 15679
   },
   {
     "id": "dyson-cinetic-big-ball-animal-pro-2",
@@ -22819,7 +28912,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 25016,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Toz Torbasız Süpürge",
+    "minPrice": 25016,
+    "maxPrice": 28018
   },
   {
     "id": "dyson-cyclone-v10-absolute",
@@ -22889,7 +28986,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 23642,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 23642,
+    "maxPrice": 26479
   },
   {
     "id": "dyson-cinetic-big-ball-absolute-2",
@@ -22959,7 +29060,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 20505,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Toz Torbasız Süpürge",
+    "minPrice": 20505,
+    "maxPrice": 22966
   },
   {
     "id": "roborock-s55",
@@ -23029,7 +29134,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 22999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 22999,
+    "maxPrice": 25759
   },
   {
     "id": "dyson-big-ball-multi-floor-2",
@@ -23099,7 +29208,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 15449,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Toz Torbasız Süpürge",
+    "minPrice": 15449,
+    "maxPrice": 17303
   },
   {
     "id": "roborock-s5",
@@ -23169,7 +29282,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 22499,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 22499,
+    "maxPrice": 25199
   },
   {
     "id": "roborock-s552-00",
@@ -23239,7 +29356,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 21499,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 21499,
+    "maxPrice": 24079
   },
   {
     "id": "roborock-s502-00",
@@ -23309,7 +29430,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 21499,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 21499,
+    "maxPrice": 24079
   },
   {
     "id": "roborock-e35",
@@ -23379,7 +29504,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 17499,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 17499,
+    "maxPrice": 19599
   },
   {
     "id": "roborock-e20",
@@ -23449,7 +29578,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 14999,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 14999,
+    "maxPrice": 16799
   },
   {
     "id": "roborock-e25",
@@ -23519,7 +29652,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 14499,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 14499,
+    "maxPrice": 16239
   },
   {
     "id": "roborock-xiaowa-lite-c102",
@@ -23589,7 +29726,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 11999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 11999,
+    "maxPrice": 13439
   },
   {
     "id": "roborock-c10",
@@ -23659,7 +29800,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 11999,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 11999,
+    "maxPrice": 13439
   },
   {
     "id": "roborock-s50",
@@ -23729,7 +29874,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 21999,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge",
+    "minPrice": 21999,
+    "maxPrice": 24639
   },
   {
     "id": "dyson-supersonic-classic",
@@ -23799,7 +29948,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 14000,
         "store": "Amazon TR"
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 14000,
+    "maxPrice": 15680
   },
   {
     "id": "dyson-v8-absolute",
@@ -23869,7 +30022,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 33074,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürge",
+    "minPrice": 33074,
+    "maxPrice": 37043
   },
   {
     "id": "dyson-purifier-hot-cool-hp2-de-nox",
@@ -23956,7 +30113,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 41999
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyici",
+    "minPrice": 41999,
+    "maxPrice": 47039
   },
   {
     "id": "dyson-airstrait-ceramic-pink",
@@ -24041,7 +30202,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 18920
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 18920,
+    "maxPrice": 21190
   },
   {
     "id": "dyson-supersonic-nural",
@@ -24126,7 +30291,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 21560
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 21560,
+    "maxPrice": 24147
   },
   {
     "id": "dyson-purifier-hot-cool-gen1",
@@ -24210,7 +30379,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 34579.09
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyici",
+    "minPrice": 34579.09,
+    "maxPrice": 38729
   },
   {
     "id": "dyson-airstrait-prussian-blue",
@@ -24293,7 +30466,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 18920
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 18920,
+    "maxPrice": 21190
   },
   {
     "id": "dyson-purifier-big-quiet-bp02",
@@ -24371,7 +30548,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 40999
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyici",
+    "minPrice": 40999,
+    "maxPrice": 45919
   },
   {
     "id": "dyson-humidify-cool-ph2-de-nox",
@@ -24457,7 +30638,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 41625
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyici",
+    "minPrice": 41625,
+    "maxPrice": 46620
   },
   {
     "id": "dyson-airstrait-nickel-copper",
@@ -24532,7 +30717,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 18920
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 18920,
+    "maxPrice": 21190
   },
   {
     "id": "dyson-pencilwash",
@@ -24617,7 +30806,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 7989
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 7989,
+    "maxPrice": 8948
   },
   {
     "id": "dyson-ontrac-headphones",
@@ -24703,7 +30896,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 14309.1
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 14309.1,
+    "maxPrice": 16026
   },
   {
     "id": "dyson-cool-cf1",
@@ -24786,7 +30983,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 8098.2
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyiciler",
+    "minPrice": 8098.2,
+    "maxPrice": 9070
   },
   {
     "id": "dyson-purifier-humidify-cool-formaldehyde-ph04",
@@ -24865,7 +31066,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 49900
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyici",
+    "minPrice": 49900,
+    "maxPrice": 55888
   },
   {
     "id": "dyson-purifier-big-quiet-bp04",
@@ -24945,7 +31150,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 49999
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyici",
+    "minPrice": 49999,
+    "maxPrice": 55999
   },
   {
     "id": "dyson-purifier-cool-formaldehyde-tp09",
@@ -25023,7 +31232,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 54900
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyici",
+    "minPrice": 54900,
+    "maxPrice": 61488
   },
   {
     "id": "dyson-airwrap-id-jasper-plum",
@@ -25099,7 +31312,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 40000
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 40000,
+    "maxPrice": 44800
   },
   {
     "id": "dyson-hepa-big-quiet-formaldehyde-bp06",
@@ -25176,7 +31393,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 44999
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyici",
+    "minPrice": 44999,
+    "maxPrice": 50399
   },
   {
     "id": "dyson-pencilvac-fluffycones",
@@ -25262,7 +31483,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 14549
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 14549,
+    "maxPrice": 16295
   },
   {
     "id": "dyson-cool-am07",
@@ -25338,7 +31563,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 14100
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyiciler",
+    "minPrice": 14100,
+    "maxPrice": 15792
   },
   {
     "id": "dyson-v11-advanced",
@@ -25417,7 +31646,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 45900
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 45900,
+    "maxPrice": 51408
   },
   {
     "id": "dyson-purifier-cool-tp07",
@@ -25495,7 +31728,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 39599.1
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyici",
+    "minPrice": 39599.1,
+    "maxPrice": 44351
   },
   {
     "id": "dyson-airwrap-complete-long",
@@ -25571,7 +31808,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 29999
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 29999,
+    "maxPrice": 33599
   },
   {
     "id": "dyson-airwrap-multi-styler-complete-long-blue",
@@ -25639,7 +31880,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 76399
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 76399,
+    "maxPrice": 85567
   },
   {
     "id": "dyson-supersonic-travel",
@@ -25723,7 +31968,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 14979
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 14979,
+    "maxPrice": 16776
   },
   {
     "id": "dyson-supersonic-r-122781-01",
@@ -25809,7 +32058,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 22999
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 22999,
+    "maxPrice": 25759
   },
   {
     "id": "dyson-sv27-cyclone-v10-absolute",
@@ -25880,7 +32133,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 25790
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 25790,
+    "maxPrice": 28885
   },
   {
     "id": "dyson-purifier-cool-pc2-de-nox",
@@ -25950,7 +32207,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 44499.1
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyici",
+    "minPrice": 44499.1,
+    "maxPrice": 49839
   },
   {
     "id": "dyson-airwrap-multi-styler-complete-long-copper",
@@ -26018,7 +32279,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 30999
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 30999,
+    "maxPrice": 34719
   },
   {
     "id": "dyson-chitosan-post-style-serum",
@@ -26091,7 +32356,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 3499
       }
-    ]
+    ],
+    "subCategory": "cosmetics",
+    "subCategoryLabel": "Kozmetik",
+    "minPrice": 3499,
+    "maxPrice": 3919
   },
   {
     "id": "dyson-chitosan-pre-style-cream-curly",
@@ -26156,7 +32425,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 1499
       }
-    ]
+    ],
+    "subCategory": "cosmetics",
+    "subCategoryLabel": "Kozmetik",
+    "minPrice": 1499,
+    "maxPrice": 1679
   },
   {
     "id": "dyson-chitosan-pre-style-cream-straight",
@@ -26221,7 +32494,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 1499
       }
-    ]
+    ],
+    "subCategory": "cosmetics",
+    "subCategoryLabel": "Kozmetik",
+    "minPrice": 1499,
+    "maxPrice": 1679
   },
   {
     "id": "dyson-chitosan-pre-style-cream-straight-fine-581866",
@@ -26282,7 +32559,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 1499
       }
-    ]
+    ],
+    "subCategory": "cosmetics",
+    "subCategoryLabel": "Kozmetik",
+    "minPrice": 1499,
+    "maxPrice": 1679
   },
   {
     "id": "dyson-chitosan-pre-style-cream-curly-thick-100ml",
@@ -26343,7 +32624,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 3099
       }
-    ]
+    ],
+    "subCategory": "cosmetics",
+    "subCategoryLabel": "Kozmetik",
+    "minPrice": 3099,
+    "maxPrice": 3471
   },
   {
     "id": "dyson-chitosan-pre-style-cream-straight-thick-521874",
@@ -26411,7 +32696,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 3099
       }
-    ]
+    ],
+    "subCategory": "cosmetics",
+    "subCategoryLabel": "Kozmetik",
+    "minPrice": 3099,
+    "maxPrice": 3471
   },
   {
     "id": "dyson-chitosan-pre-style-cream-straight-fine-100ml",
@@ -26472,7 +32761,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 3099
       }
-    ]
+    ],
+    "subCategory": "cosmetics",
+    "subCategoryLabel": "Kozmetik",
+    "minPrice": 3099,
+    "maxPrice": 3471
   },
   {
     "id": "dyson-omega-hydrating-hair-oil-30ml",
@@ -26541,7 +32834,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 2699
       }
-    ]
+    ],
+    "subCategory": "cosmetics",
+    "subCategoryLabel": "Kozmetik",
+    "minPrice": 2699,
+    "maxPrice": 3023
   },
   {
     "id": "dyson-supersonic-113277-01",
@@ -26602,7 +32899,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 20999
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 20999,
+    "maxPrice": 23519
   },
   {
     "id": "dyson-airstrait-strawberry-bronze",
@@ -26670,7 +32971,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 18920
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 18920,
+    "maxPrice": 21190
   },
   {
     "id": "dyson-corrale-copper",
@@ -26746,7 +33051,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 20768
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 20768,
+    "maxPrice": 23260
   },
   {
     "id": "dyson-zone-air-purifying-headphones",
@@ -26808,7 +33117,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 23999
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyici",
+    "minPrice": 23999,
+    "maxPrice": 26879
   },
   {
     "id": "dyson-dc52-allergy",
@@ -26871,7 +33184,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 19999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 19999,
+    "maxPrice": 22399
   },
   {
     "id": "dyson-dc37c-allergy",
@@ -26934,7 +33251,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 16499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 16499,
+    "maxPrice": 18479
   },
   {
     "id": "dyson-dc37-animal-turbine",
@@ -26997,7 +33318,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 17999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 17999,
+    "maxPrice": 20159
   },
   {
     "id": "dyson-dc33c-origin",
@@ -27060,7 +33385,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 14999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 14999,
+    "maxPrice": 16799
   },
   {
     "id": "dyson-dc37c-parquet",
@@ -27122,7 +33451,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 15999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 15999,
+    "maxPrice": 17919
   },
   {
     "id": "dyson-dc46-allergy-parquet",
@@ -27185,7 +33518,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 14499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 14499,
+    "maxPrice": 16239
   },
   {
     "id": "dyson-ball-parquet",
@@ -27248,7 +33585,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 17499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 17499,
+    "maxPrice": 19599
   },
   {
     "id": "dyson-dc33c-pro",
@@ -27310,7 +33651,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 16999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 16999,
+    "maxPrice": 19039
   },
   {
     "id": "dyson-ball-multi-floor",
@@ -27372,7 +33717,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 15449
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 15449,
+    "maxPrice": 17303
   },
   {
     "id": "dyson-dc33c-allergy",
@@ -27434,7 +33783,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 15200
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 15200,
+    "maxPrice": 17024
   },
   {
     "id": "dyson-dc52-animal-complete",
@@ -27497,7 +33850,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 21999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 21999,
+    "maxPrice": 24639
   },
   {
     "id": "dyson-dc52-total-animal",
@@ -27559,7 +33916,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 21499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 21499,
+    "maxPrice": 24079
   },
   {
     "id": "dyson-dc52-animal-turbine",
@@ -27621,7 +33982,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 20999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 20999,
+    "maxPrice": 23519
   },
   {
     "id": "dyson-dc52-allergy-parquet",
@@ -27684,7 +34049,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 20499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 20499,
+    "maxPrice": 22959
   },
   {
     "id": "dyson-dc52-allergy-musclehead-parquet",
@@ -27747,7 +34116,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 20999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 20999,
+    "maxPrice": 23519
   },
   {
     "id": "dyson-dc37-allergy-parquet",
@@ -27809,7 +34182,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 15999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 15999,
+    "maxPrice": 17919
   },
   {
     "id": "dyson-cinetic-big-ball-parquet",
@@ -27873,7 +34250,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 19500
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 19500,
+    "maxPrice": 21840
   },
   {
     "id": "dyson-dc33c-origin-plus",
@@ -27935,7 +34316,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 15499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 15499,
+    "maxPrice": 17359
   },
   {
     "id": "dyson-dc42-allergy",
@@ -27998,7 +34383,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 16999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 16999,
+    "maxPrice": 19039
   },
   {
     "id": "dyson-dc63-allergy",
@@ -28061,7 +34450,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 15999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 15999,
+    "maxPrice": 17919
   },
   {
     "id": "dyson-small-ball-multifloor",
@@ -28124,7 +34517,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 16499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 16499,
+    "maxPrice": 18479
   },
   {
     "id": "dyson-cinetic-big-ball-animal",
@@ -28187,7 +34584,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 19999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 19999,
+    "maxPrice": 22399
   },
   {
     "id": "dyson-ball-all-floors-dc25",
@@ -28249,7 +34650,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 16999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 16999,
+    "maxPrice": 19039
   },
   {
     "id": "dyson-dc51-multi-floor",
@@ -28312,7 +34717,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 15999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 15999,
+    "maxPrice": 17919
   },
   {
     "id": "dyson-dc33c-stubborn",
@@ -28374,7 +34783,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 15999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 15999,
+    "maxPrice": 17919
   },
   {
     "id": "dyson-dc29db",
@@ -28436,7 +34849,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 14499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 14499,
+    "maxPrice": 16239
   },
   {
     "id": "dyson-cinetic-big-ball-parquet-2",
@@ -28507,7 +34924,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 20999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 20999,
+    "maxPrice": 23519
   },
   {
     "id": "dyson-big-ball-allergy-2",
@@ -28570,7 +34991,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 17999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 17999,
+    "maxPrice": 20159
   },
   {
     "id": "dyson-big-ball-up-top-2",
@@ -28633,7 +35058,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 18499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 18499,
+    "maxPrice": 20719
   },
   {
     "id": "dyson-dc36-carbon-fibre",
@@ -28696,7 +35125,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 14999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 14999,
+    "maxPrice": 16799
   },
   {
     "id": "dyson-v15-detect-standard",
@@ -28768,7 +35201,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 28999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 28999,
+    "maxPrice": 32479
   },
   {
     "id": "dyson-dc20-stowaway",
@@ -28830,7 +35267,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 13999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 13999,
+    "maxPrice": 15679
   },
   {
     "id": "dyson-big-ball-parquet",
@@ -28893,7 +35334,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 17499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 17499,
+    "maxPrice": 19599
   },
   {
     "id": "dyson-v8-fluffy",
@@ -28964,7 +35409,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 15499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 15499,
+    "maxPrice": 17359
   },
   {
     "id": "dyson-v7-fluffy",
@@ -29027,7 +35476,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 13999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 13999,
+    "maxPrice": 15679
   },
   {
     "id": "dyson-v6-plus",
@@ -29090,7 +35543,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 11999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 11999,
+    "maxPrice": 13439
   },
   {
     "id": "dyson-v15-detect-hepa",
@@ -29161,7 +35618,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 32999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 32999,
+    "maxPrice": 36959
   },
   {
     "id": "dyson-v15s-detect-submarine-absolute",
@@ -29233,7 +35694,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 34999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 34999,
+    "maxPrice": 39199
   },
   {
     "id": "dyson-v15-detect-total-clean",
@@ -29296,7 +35761,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 30999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 30999,
+    "maxPrice": 34719
   },
   {
     "id": "dyson-v6-animal-pro",
@@ -29359,7 +35828,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 12999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 12999,
+    "maxPrice": 14559
   },
   {
     "id": "dyson-dc23-animal",
@@ -29421,7 +35894,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 14999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 14999,
+    "maxPrice": 16799
   },
   {
     "id": "dyson-dc24-multi-floor",
@@ -29483,7 +35960,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 13499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 13499,
+    "maxPrice": 15119
   },
   {
     "id": "dyson-dc24-ball",
@@ -29545,7 +36026,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 13499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 13499,
+    "maxPrice": 15119
   },
   {
     "id": "dyson-v6-total-clean",
@@ -29608,7 +36093,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 13499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 13499,
+    "maxPrice": 15119
   },
   {
     "id": "dyson-360-heurist",
@@ -29683,7 +36172,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 31999
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 31999,
+    "maxPrice": 35839
   },
   {
     "id": "dyson-v11-torque-drive-extra",
@@ -29755,7 +36248,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 24999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 24999,
+    "maxPrice": 27999
   },
   {
     "id": "dyson-hot-cool-jet-focus-am09",
@@ -29832,7 +36329,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 19999
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyici",
+    "minPrice": 19999,
+    "maxPrice": 22399
   },
   {
     "id": "dyson-cinetic-big-ball-animal-pro",
@@ -29895,7 +36396,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 20999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 20999,
+    "maxPrice": 23519
   },
   {
     "id": "dyson-dc32-animalpro",
@@ -29957,7 +36462,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 14999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 14999,
+    "maxPrice": 16799
   },
   {
     "id": "dyson-cinetic-big-ball-musclehead",
@@ -30020,7 +36529,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 19999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 19999,
+    "maxPrice": 22399
   },
   {
     "id": "dyson-dc33c-up-top",
@@ -30082,7 +36595,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 15499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 15499,
+    "maxPrice": 17359
   },
   {
     "id": "dyson-dc26-carbon-fibre-allergy",
@@ -30145,7 +36662,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 13999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 13999,
+    "maxPrice": 15679
   },
   {
     "id": "dyson-228409-01-cinetic-big-ball-animal-2",
@@ -30216,7 +36737,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 21499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 21499,
+    "maxPrice": 24079
   },
   {
     "id": "dyson-dc40-upright",
@@ -30278,7 +36803,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 16499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 16499,
+    "maxPrice": 18479
   },
   {
     "id": "dyson-dc37-origin",
@@ -30340,7 +36869,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 15499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 15499,
+    "maxPrice": 17359
   },
   {
     "id": "dyson-dc45-animal-pro",
@@ -30403,7 +36936,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 11999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 11999,
+    "maxPrice": 13439
   },
   {
     "id": "dyson-dw4-canister",
@@ -30463,7 +37000,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 12499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 12499,
+    "maxPrice": 13999
   },
   {
     "id": "dyson-v6-slim",
@@ -30526,7 +37067,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 11499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 11499,
+    "maxPrice": 12879
   },
   {
     "id": "dyson-v10-origin",
@@ -30597,7 +37142,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 17999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 17999,
+    "maxPrice": 20159
   },
   {
     "id": "dyson-v7-motorhead",
@@ -30660,7 +37209,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 13499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 13499,
+    "maxPrice": 15119
   },
   {
     "id": "dyson-v8-animal-plus",
@@ -30731,7 +37284,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 15999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 15999,
+    "maxPrice": 17919
   },
   {
     "id": "dyson-gen5outsize-absolute-140min",
@@ -30805,7 +37362,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 42999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 42999,
+    "maxPrice": 48159
   },
   {
     "id": "dyson-gen5outsize-140min",
@@ -30869,7 +37430,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 39999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 39999,
+    "maxPrice": 44799
   },
   {
     "id": "dyson-dc62-extra",
@@ -30932,7 +37497,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 11999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 11999,
+    "maxPrice": 13439
   },
   {
     "id": "dyson-gen5detect-absolute-purple",
@@ -31005,7 +37574,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 35999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 35999,
+    "maxPrice": 40319
   },
   {
     "id": "dyson-gen5detect-absolute-prussian-blue",
@@ -31077,7 +37650,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 36999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 36999,
+    "maxPrice": 41439
   },
   {
     "id": "dyson-v15-detect-extra",
@@ -31140,7 +37717,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 30499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 30499,
+    "maxPrice": 34159
   },
   {
     "id": "dyson-v10-absolute-plus",
@@ -31211,7 +37792,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 19499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 19499,
+    "maxPrice": 21839
   },
   {
     "id": "dyson-v8-slim-fluffy-plus",
@@ -31275,7 +37860,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 16499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 16499,
+    "maxPrice": 18479
   },
   {
     "id": "dyson-dc62-animal-pro",
@@ -31338,7 +37927,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 12499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 12499,
+    "maxPrice": 13999
   },
   {
     "id": "dyson-v12-detect-slim-hepa",
@@ -31410,7 +38003,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 27999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 27999,
+    "maxPrice": 31359
   },
   {
     "id": "dyson-dc30-handheld",
@@ -31473,7 +38070,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 9999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 9999,
+    "maxPrice": 11199
   },
   {
     "id": "dyson-360-eye",
@@ -31541,7 +38142,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 26999
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 26999,
+    "maxPrice": 30239
   },
   {
     "id": "dyson-dc42-upright-standard",
@@ -31603,7 +38208,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 16499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 16499,
+    "maxPrice": 18479
   },
   {
     "id": "dyson-dc21-motorhead",
@@ -31665,7 +38274,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 14499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 14499,
+    "maxPrice": 16239
   },
   {
     "id": "dyson-v11-animal-extra",
@@ -31736,7 +38349,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 23999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 23999,
+    "maxPrice": 26879
   },
   {
     "id": "dyson-v11-animal-standard",
@@ -31799,7 +38416,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 22499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 22499,
+    "maxPrice": 25199
   },
   {
     "id": "dyson-v11-absolute-extra",
@@ -31870,7 +38491,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 25999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 25999,
+    "maxPrice": 29119
   },
   {
     "id": "dyson-v11-absolute-pro",
@@ -31934,7 +38559,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 26999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 26999,
+    "maxPrice": 30239
   },
   {
     "id": "dyson-dc45-animal-standard",
@@ -31996,7 +38625,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 11499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 11499,
+    "maxPrice": 12879
   },
   {
     "id": "dyson-dc35-digital-slim",
@@ -32059,7 +38692,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 10999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 10999,
+    "maxPrice": 12319
   },
   {
     "id": "dyson-v12-detect-slim-absolute-plus",
@@ -32131,7 +38768,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 28999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 28999,
+    "maxPrice": 32479
   },
   {
     "id": "dyson-v7-animal-extra",
@@ -32194,7 +38835,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 13999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 13999,
+    "maxPrice": 15679
   },
   {
     "id": "dyson-outsize-plus",
@@ -32260,7 +38905,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 34999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 34999,
+    "maxPrice": 39199
   },
   {
     "id": "dyson-outsize-standard",
@@ -32324,7 +38973,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 31999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 31999,
+    "maxPrice": 35839
   },
   {
     "id": "dyson-v11-total-clean",
@@ -32395,7 +39048,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 24999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 24999,
+    "maxPrice": 27999
   },
   {
     "id": "dyson-v11-standard-model",
@@ -32458,7 +39115,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 22999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 22999,
+    "maxPrice": 25759
   },
   {
     "id": "dyson-v11-extra-model",
@@ -32521,7 +39182,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 23999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 23999,
+    "maxPrice": 26879
   },
   {
     "id": "dyson-v10-extra-model",
@@ -32591,7 +39256,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 18499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 18499,
+    "maxPrice": 20719
   },
   {
     "id": "dyson-v11-torque-drive-standard",
@@ -32655,7 +39324,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 23499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 23499,
+    "maxPrice": 26319
   },
   {
     "id": "dyson-v11-absolute-extra-pro",
@@ -32728,7 +39401,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 27999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 27999,
+    "maxPrice": 31359
   },
   {
     "id": "dyson-v11-absolute-standard",
@@ -32799,7 +39476,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 24499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 24499,
+    "maxPrice": 27439
   },
   {
     "id": "dyson-v10-animal-standard",
@@ -32864,7 +39545,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 18499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 18499,
+    "maxPrice": 20719
   },
   {
     "id": "dyson-v8-extra-standard",
@@ -32927,7 +39612,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 15499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 15499,
+    "maxPrice": 17359
   },
   {
     "id": "dyson-v8-origin-standard",
@@ -32989,7 +39678,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 14999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 14999,
+    "maxPrice": 16799
   },
   {
     "id": "dyson-v6-cord-free-standard",
@@ -33052,7 +39745,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 10999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 10999,
+    "maxPrice": 12319
   },
   {
     "id": "dyson-v12-detect-slim-extra-model",
@@ -33124,7 +39821,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 26999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 26999,
+    "maxPrice": 30239
   },
   {
     "id": "dyson-omni-glide-plus",
@@ -33189,7 +39890,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 16999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 16999,
+    "maxPrice": 19039
   },
   {
     "id": "dyson-omni-glide-standard",
@@ -33253,7 +39958,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 15499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 15499,
+    "maxPrice": 17359
   },
   {
     "id": "dyson-v6-cord-free-extra-model",
@@ -33315,7 +40024,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 11499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 11499,
+    "maxPrice": 12879
   },
   {
     "id": "dyson-dc16-handheld",
@@ -33379,7 +40092,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 8999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 8999,
+    "maxPrice": 10079
   },
   {
     "id": "dyson-dc34-animal-handheld",
@@ -33442,7 +40159,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 10499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 10499,
+    "maxPrice": 11759
   },
   {
     "id": "dyson-dc43h-handheld",
@@ -33505,7 +40226,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 10999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 10999,
+    "maxPrice": 12319
   },
   {
     "id": "dyson-v8-parquet-model",
@@ -33569,7 +40294,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 15999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 15999,
+    "maxPrice": 17919
   },
   {
     "id": "dyson-airstrait-jasper-plum",
@@ -33640,7 +40369,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 20999
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 20999,
+    "maxPrice": 23519
   },
   {
     "id": "dyson-corrale-pink-fuchsia",
@@ -33710,7 +40443,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 17999
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 17999,
+    "maxPrice": 20159
   },
   {
     "id": "dyson-gen5detect-standard-iron",
@@ -33783,7 +40520,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 34999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 34999,
+    "maxPrice": 39199
   },
   {
     "id": "dyson-chitosan-pre-style-curly-fine",
@@ -33844,7 +40585,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 2199
       }
-    ]
+    ],
+    "subCategory": "cosmetics",
+    "subCategoryLabel": "Kozmetik & Saç Bakımı",
+    "minPrice": 2199,
+    "maxPrice": 2463
   },
   {
     "id": "dyson-supersonic-origin-475202-01",
@@ -33905,7 +40650,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 15499
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 15499,
+    "maxPrice": 17359
   },
   {
     "id": "dyson-supersonic-special-edition-453981-01",
@@ -33974,7 +40723,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 16999
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 16999,
+    "maxPrice": 19039
   },
   {
     "id": "dyson-airstrait-amber-silk",
@@ -34045,7 +40798,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 20999
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 20999,
+    "maxPrice": 23519
   },
   {
     "id": "dyson-hepa-big-quiet-formaldehyde-bp03",
@@ -34117,7 +40874,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 38999
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyiciler",
+    "minPrice": 38999,
+    "maxPrice": 43679
   },
   {
     "id": "dyson-airwrap-id-ceramic-patina",
@@ -34188,7 +40949,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 24999
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 24999,
+    "maxPrice": 27999
   },
   {
     "id": "dyson-airwrap-id-ceramic-pink",
@@ -34259,7 +41024,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 24999
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 24999,
+    "maxPrice": 27999
   },
   {
     "id": "dyson-car-boat-handheld",
@@ -34330,7 +41099,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 14499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 14499,
+    "maxPrice": 16239
   },
   {
     "id": "dyson-airwrap-complete-long-grey",
@@ -34399,7 +41172,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 22999
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 22999,
+    "maxPrice": 25759
   },
   {
     "id": "dyson-corrale-prussian-blue",
@@ -34468,7 +41245,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 18499
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 18499,
+    "maxPrice": 20719
   },
   {
     "id": "dyson-purifier-hot-cool-autoreact",
@@ -34539,7 +41320,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 24999
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyiciler",
+    "minPrice": 24999,
+    "maxPrice": 27999
   },
   {
     "id": "dyson-purifier-hot-cool-formaldehyde-hp09",
@@ -34610,7 +41395,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 28999
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyiciler",
+    "minPrice": 28999,
+    "maxPrice": 32479
   },
   {
     "id": "dyson-pure-cool-tp01",
@@ -34678,7 +41467,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 17499
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyiciler",
+    "minPrice": 17499,
+    "maxPrice": 19599
   },
   {
     "id": "dyson-purifier-humidify-cool-autoreact",
@@ -34742,7 +41535,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 31999
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyiciler",
+    "minPrice": 31999,
+    "maxPrice": 35839
   },
   {
     "id": "dyson-purifier-cool-autoreact-tp7a",
@@ -34810,7 +41607,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 21999
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyiciler",
+    "minPrice": 21999,
+    "maxPrice": 24639
   },
   {
     "id": "dyson-airwrap-special-gift-edition",
@@ -34871,7 +41672,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 21999
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 21999,
+    "maxPrice": 24639
   },
   {
     "id": "dyson-corrale-purple-black",
@@ -34932,7 +41737,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 17499
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 17499,
+    "maxPrice": 19599
   },
   {
     "id": "dyson-airwrap-smooth-control",
@@ -34992,7 +41801,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 20499
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 20499,
+    "maxPrice": 22959
   },
   {
     "id": "dyson-pure-cool-me-bp01",
@@ -35053,7 +41866,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 12999
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyiciler",
+    "minPrice": 12999,
+    "maxPrice": 14559
   },
   {
     "id": "dyson-airwrap-complete-fuchsia-classic",
@@ -35122,7 +41939,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 21999
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 21999,
+    "maxPrice": 24639
   },
   {
     "id": "dyson-pure-hot-cool-hp04",
@@ -35183,7 +42004,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 23999
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyiciler",
+    "minPrice": 23999,
+    "maxPrice": 26879
   },
   {
     "id": "dyson-pure-hot-cool-link-hp02",
@@ -35244,7 +42069,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 20999
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyiciler",
+    "minPrice": 20999,
+    "maxPrice": 23519
   },
   {
     "id": "dyson-am11-pure-cool-tower",
@@ -35304,7 +42133,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 15999
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyiciler",
+    "minPrice": 15999,
+    "maxPrice": 17919
   },
   {
     "id": "dyson-am11-tower-fan",
@@ -35365,7 +42198,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 13999
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyiciler",
+    "minPrice": 13999,
+    "maxPrice": 15679
   },
   {
     "id": "dyson-am08-tower-fan",
@@ -35425,7 +42262,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 13499
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyiciler",
+    "minPrice": 13499,
+    "maxPrice": 15119
   },
   {
     "id": "dyson-am01-desk-fan",
@@ -35486,7 +42327,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 9999
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyiciler",
+    "minPrice": 9999,
+    "maxPrice": 11199
   },
   {
     "id": "dyson-am03-pedestal-fan",
@@ -35546,7 +42391,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 14499
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyiciler",
+    "minPrice": 14499,
+    "maxPrice": 16239
   },
   {
     "id": "dreame-bot-l10-pro",
@@ -35613,7 +42462,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 30000
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 30000,
+    "maxPrice": 33600
   },
   {
     "id": "dreame-mop-f9",
@@ -35679,7 +42532,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 21999
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 21999,
+    "maxPrice": 24639
   },
   {
     "id": "dreame-bot-d9-max",
@@ -35753,7 +42610,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 10899
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 10899,
+    "maxPrice": 12207
   },
   {
     "id": "dreame-bot-l20-ultra",
@@ -35831,7 +42692,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 46993.5
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 46993.5,
+    "maxPrice": 52633
   },
   {
     "id": "dreame-bot-l10s-ultra",
@@ -35908,7 +42773,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 31365
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 31365,
+    "maxPrice": 35129
   },
   {
     "id": "dreame-d10-plus",
@@ -35976,7 +42845,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 24337.5
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 24337.5,
+    "maxPrice": 27258
   },
   {
     "id": "dreame-bot-d10s",
@@ -36042,7 +42915,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 16549.5
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 16549.5,
+    "maxPrice": 18535
   },
   {
     "id": "dreame-bot-d10s-plus",
@@ -36110,7 +42987,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 26590
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 26590,
+    "maxPrice": 29781
   },
   {
     "id": "dreame-bot-l10s-pro",
@@ -36176,7 +43057,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 19470
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 19470,
+    "maxPrice": 21806
   },
   {
     "id": "dreame-glory-hair-dryer",
@@ -36247,7 +43132,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 4499
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 4499,
+    "maxPrice": 5039
   },
   {
     "id": "dreame-gleam-hair-dryer",
@@ -36316,7 +43205,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 3149.1
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 3149.1,
+    "maxPrice": 3527
   },
   {
     "id": "dreame-r10-pro-stick-vacuum",
@@ -36388,7 +43281,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 13999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 13999,
+    "maxPrice": 15679
   },
   {
     "id": "dreame-t10-stick-vacuum",
@@ -36452,7 +43349,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 25000
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 25000,
+    "maxPrice": 28000
   },
   {
     "id": "dreame-r10-stick-vacuum",
@@ -36515,7 +43416,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 38230
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 38230,
+    "maxPrice": 42818
   },
   {
     "id": "dreame-r20-stick-vacuum",
@@ -36589,7 +43494,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 14999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 14999,
+    "maxPrice": 16799
   },
   {
     "id": "dreame-h12-dual-wet-dry",
@@ -36656,7 +43565,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 17700
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 17700,
+    "maxPrice": 19824
   },
   {
     "id": "dreame-x60-ultra-complete",
@@ -36734,7 +43647,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 71999.04
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 71999.04,
+    "maxPrice": 80639
   },
   {
     "id": "dreame-x40-ultra",
@@ -36812,7 +43729,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 33899
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 33899,
+    "maxPrice": 37967
   },
   {
     "id": "dreame-x50-ultra-complete",
@@ -36889,7 +43810,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 46718
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 46718,
+    "maxPrice": 52324
   },
   {
     "id": "dreame-l10s-pro-gen-2",
@@ -36963,7 +43888,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 9016
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 9016,
+    "maxPrice": 10098
   },
   {
     "id": "dreame-bot-l10s-pro-ultra-heat",
@@ -37040,7 +43969,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 28600
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 28600,
+    "maxPrice": 32032
   },
   {
     "id": "dreame-x50-pro-ultra-complete",
@@ -37117,7 +44050,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 59630
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 59630,
+    "maxPrice": 66786
   },
   {
     "id": "dreame-l40-ultra-ce",
@@ -37193,7 +44130,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 33499
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 33499,
+    "maxPrice": 37519
   },
   {
     "id": "dreame-l40-ultra-ae",
@@ -37269,7 +44210,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 38219.02
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 38219.02,
+    "maxPrice": 42805
   },
   {
     "id": "dreame-l10s-plus",
@@ -37343,7 +44288,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 15441.98
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 15441.98,
+    "maxPrice": 17295
   },
   {
     "id": "dreame-z30-stick-vacuum",
@@ -37417,7 +44366,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 20974.5
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 20974.5,
+    "maxPrice": 23491
   },
   {
     "id": "dreame-l50-ultra",
@@ -37493,7 +44446,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 43239.06
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 43239.06,
+    "maxPrice": 48428
   },
   {
     "id": "dreame-f20-robot-vacuum",
@@ -37566,7 +44523,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 16170
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 16170,
+    "maxPrice": 18110
   },
   {
     "id": "dreame-d30-ultra",
@@ -37642,7 +44603,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 38799
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 38799,
+    "maxPrice": 43455
   },
   {
     "id": "dreame-f10-robot-vacuum",
@@ -37715,7 +44680,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 12706.03
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 12706.03,
+    "maxPrice": 14231
   },
   {
     "id": "dreame-x60-max-ultra-complete",
@@ -37786,7 +44755,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 133279.49
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 133279.49,
+    "maxPrice": 149273
   },
   {
     "id": "dreame-d20-robot-vacuum",
@@ -37859,7 +44832,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 15806.15
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 15806.15,
+    "maxPrice": 17703
   },
   {
     "id": "dreame-l10s-ultra-gen-2",
@@ -37935,7 +44912,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 33999
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 33999,
+    "maxPrice": 38079
   },
   {
     "id": "dreame-d9-max-gen-2",
@@ -38009,7 +44990,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 9963
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 9963,
+    "maxPrice": 11159
   },
   {
     "id": "dreame-d20-ultra",
@@ -38084,7 +45069,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 30999
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 30999,
+    "maxPrice": 34719
   },
   {
     "id": "dreame-u10-stick-vacuum",
@@ -38155,7 +45144,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 7439.07
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 7439.07,
+    "maxPrice": 8332
   },
   {
     "id": "dreame-h15-mix-wet-dry",
@@ -38230,7 +45223,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 31499.04
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 31499.04,
+    "maxPrice": 35279
   },
   {
     "id": "dreame-matrix-10-ultra",
@@ -38308,7 +45305,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 79999
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 79999,
+    "maxPrice": 89599
   },
   {
     "id": "dreame-l50-ultra-ce",
@@ -38384,7 +45385,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 42630
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 42630,
+    "maxPrice": 47746
   },
   {
     "id": "dreame-aqua-10-ultra-roller",
@@ -38462,7 +45467,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 66499
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 66499,
+    "maxPrice": 74479
   },
   {
     "id": "dreame-z30-slim-stick-vacuum",
@@ -38534,7 +45543,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 16660
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 16660,
+    "maxPrice": 18659
   },
   {
     "id": "dreame-l40-ultra",
@@ -38610,7 +45623,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 41999
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 41999,
+    "maxPrice": 47039
   },
   {
     "id": "dreame-l40-plus",
@@ -38684,7 +45701,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 26499
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 26499,
+    "maxPrice": 29679
   },
   {
     "id": "dreame-r20-ultra-aquacycle",
@@ -38757,7 +45778,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 16399
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 16399,
+    "maxPrice": 18367
   },
   {
     "id": "dreame-h14-dual-wet-dry",
@@ -38832,7 +45857,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 22999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 22999,
+    "maxPrice": 25759
   },
   {
     "id": "dreame-z20-stick-vacuum",
@@ -38905,7 +45934,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 19899
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 19899,
+    "maxPrice": 22287
   },
   {
     "id": "dreame-h12-core-wet-dry",
@@ -38978,7 +46011,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 9999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 9999,
+    "maxPrice": 11199
   },
   {
     "id": "dreame-h16-pro-steam",
@@ -39053,7 +46090,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 34999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 34999,
+    "maxPrice": 39199
   },
   {
     "id": "dreame-airstyle-pro-hi",
@@ -39124,7 +46165,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 16119
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 16119,
+    "maxPrice": 18053
   },
   {
     "id": "dreame-pm20-air-purifier",
@@ -39196,7 +46241,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 26699.1
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyiciler",
+    "minPrice": 26699.1,
+    "maxPrice": 29903
   },
   {
     "id": "dreame-h12-pro-flexreach",
@@ -39269,7 +46318,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 14210
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 14210,
+    "maxPrice": 15915
   },
   {
     "id": "dreame-l40-robot-vacuum",
@@ -39342,7 +46395,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 22540
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 22540,
+    "maxPrice": 25245
   },
   {
     "id": "dreame-pm10-air-purifier",
@@ -39412,7 +46469,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 21292.1
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Hava Temizleyiciler",
+    "minPrice": 21292.1,
+    "maxPrice": 23847
   },
   {
     "id": "dreame-l40s-pro",
@@ -39488,7 +46549,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 47429
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 47429,
+    "maxPrice": 53120
   },
   {
     "id": "dreame-n10-stick-vacuum",
@@ -39559,7 +46624,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 7999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 7999,
+    "maxPrice": 8959
   },
   {
     "id": "dreame-air-style-rls3l",
@@ -39629,7 +46698,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 8599.1
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 8599.1,
+    "maxPrice": 9631
   },
   {
     "id": "dreame-h14-pro-wet-dry",
@@ -39696,7 +46769,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 73401
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 73401,
+    "maxPrice": 82209
   },
   {
     "id": "dreame-z10-stick-vacuum",
@@ -39760,7 +46837,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 18599.07
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 18599.07,
+    "maxPrice": 20831
   },
   {
     "id": "dreame-d10-plus-gen-2",
@@ -39828,7 +46909,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 30000.1
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 30000.1,
+    "maxPrice": 33600
   },
   {
     "id": "dreame-bot-l10-plus",
@@ -39894,7 +46979,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 18999
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 18999,
+    "maxPrice": 21279
   },
   {
     "id": "dreame-bot-w10",
@@ -39961,7 +47050,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 27999
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 27999,
+    "maxPrice": 31359
   },
   {
     "id": "dreame-bot-z10-pro",
@@ -40028,7 +47121,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 19999
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 19999,
+    "maxPrice": 22399
   },
   {
     "id": "dreame-d9-pro-robot-vacuum",
@@ -40092,7 +47189,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 11499
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 11499,
+    "maxPrice": 12879
   },
   {
     "id": "dreame-bot-l10-ultra",
@@ -40160,7 +47261,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 29999
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 29999,
+    "maxPrice": 33599
   },
   {
     "id": "dreame-bot-d9",
@@ -40225,7 +47330,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 9499
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 9499,
+    "maxPrice": 10639
   },
   {
     "id": "dreame-s10-pro",
@@ -40292,7 +47401,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 32999
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 32999,
+    "maxPrice": 36959
   },
   {
     "id": "dreame-l10-prime",
@@ -40358,7 +47471,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 24999
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 24999,
+    "maxPrice": 27999
   },
   {
     "id": "dreame-s10",
@@ -40424,7 +47541,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 28999
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 28999,
+    "maxPrice": 32479
   },
   {
     "id": "dreame-v10-plus-stick-vacuum",
@@ -40486,7 +47607,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 8499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 8499,
+    "maxPrice": 9519
   },
   {
     "id": "dreame-bot-d10s-pro",
@@ -40551,7 +47676,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 17999
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 17999,
+    "maxPrice": 20159
   },
   {
     "id": "dreame-trouver-power-11",
@@ -40613,7 +47742,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 6999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 6999,
+    "maxPrice": 7839
   },
   {
     "id": "dreame-v11-stick-vacuum",
@@ -40679,7 +47812,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 10999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 10999,
+    "maxPrice": 12319
   },
   {
     "id": "dreame-xr-premium-stick-vacuum",
@@ -40741,7 +47878,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 9499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 9499,
+    "maxPrice": 10639
   },
   {
     "id": "dreame-v11-se-stick-vacuum",
@@ -40804,7 +47945,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 9999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 9999,
+    "maxPrice": 11199
   },
   {
     "id": "dreame-v9-stick-vacuum",
@@ -40867,7 +48012,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 7499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 7499,
+    "maxPrice": 8399
   },
   {
     "id": "dreame-t30-stick-vacuum",
@@ -40933,7 +48082,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 15999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 15999,
+    "maxPrice": 17919
   },
   {
     "id": "dreame-v10-pro-stick-vacuum",
@@ -40996,7 +48149,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 8999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 8999,
+    "maxPrice": 10079
   },
   {
     "id": "dreame-v10-stick-vacuum",
@@ -41058,7 +48215,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 8299
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 8299,
+    "maxPrice": 9295
   },
   {
     "id": "dreame-trouver-solo-10",
@@ -41120,7 +48281,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 5999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 5999,
+    "maxPrice": 6719
   },
   {
     "id": "dreame-t20-stick-vacuum",
@@ -41185,7 +48350,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 11999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 11999,
+    "maxPrice": 13439
   },
   {
     "id": "dreame-v12-pro-stick-vacuum",
@@ -41251,7 +48420,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 16499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 16499,
+    "maxPrice": 18479
   },
   {
     "id": "dreame-xr-stick-vacuum",
@@ -41313,7 +48486,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 8799
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 8799,
+    "maxPrice": 9855
   },
   {
     "id": "dreame-p10-stick-vacuum",
@@ -41376,7 +48553,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 6499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "dreame-p10-pro-stick-vacuum",
@@ -41438,7 +48619,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 7999
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 7999,
+    "maxPrice": 8959
   },
   {
     "id": "dreame-h11-max-wet-dry",
@@ -41504,7 +48689,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 11499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 11499,
+    "maxPrice": 12879
   },
   {
     "id": "dreame-airstyle-pro-7in1-mor",
@@ -41567,7 +48756,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 15499
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 15499,
+    "maxPrice": 17359
   },
   {
     "id": "dreame-airstyle-pro-7in1-amber-gold",
@@ -41630,7 +48823,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 15499
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 15499,
+    "maxPrice": 17359
   },
   {
     "id": "dreame-x30-ultra-robot-vacuum",
@@ -41701,7 +48898,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 52999
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 52999,
+    "maxPrice": 59359
   },
   {
     "id": "dreame-c1-window-cleaning-robot",
@@ -41766,7 +48967,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 16999
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 16999,
+    "maxPrice": 19039
   },
   {
     "id": "dreame-mova-k10-pro-wet-dry",
@@ -41830,7 +49035,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 14499
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Dikey Süpürgeler",
+    "minPrice": 14499,
+    "maxPrice": 16239
   },
   {
     "id": "dreame-roboticmower-a1",
@@ -41895,7 +49104,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 69999
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 69999,
+    "maxPrice": 78399
   },
   {
     "id": "dreame-roboticmower-a2",
@@ -41960,7 +49173,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 84999
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürgeler",
+    "minPrice": 84999,
+    "maxPrice": 95199
   },
   {
     "id": "dreame-glamour-hair-straightener",
@@ -42023,7 +49240,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 6499
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "dreame-d1186-ipl-epilator",
@@ -42083,7 +49304,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2024-08",
         "price": 8999
       }
-    ]
+    ],
+    "subCategory": "personal_care",
+    "subCategoryLabel": "Kişisel Bakım",
+    "minPrice": 8999,
+    "maxPrice": 10079
   },
   {
     "id": "philips-philips-homerun-7000-serisi-aqua-xu7100",
@@ -42187,7 +49412,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 33858
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Akıllı İstasyonlu Robot Süpürge",
+    "minPrice": 34200,
+    "maxPrice": 38304
   },
   {
     "id": "philips-philips-homerun-7000-series-aqua-xu7000",
@@ -42290,7 +49519,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 19415
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge ve Mop",
+    "minPrice": 19611,
+    "maxPrice": 21964
   },
   {
     "id": "philips-philips-fc991907-marathon-ultimate-650-w",
@@ -42392,7 +49625,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 24867
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Elektrikli Süpürge",
+    "minPrice": 25118,
+    "maxPrice": 28132
   },
   {
     "id": "philips-philips-fc992307-marathon-ultimate-650-w",
@@ -42494,7 +49731,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 19334
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Elektrikli Süpürge",
+    "minPrice": 19529,
+    "maxPrice": 21872
   },
   {
     "id": "philips-philips-marathon-daily-xb715107",
@@ -42596,7 +49837,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9899
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Elektrikli Süpürge",
+    "minPrice": 9999,
+    "maxPrice": 11199
   },
   {
     "id": "philips-philips-marathon-ultimate-xb912507",
@@ -42698,7 +49943,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 10770
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Elektrikli Süpürge",
+    "minPrice": 10879,
+    "maxPrice": 12184
   },
   {
     "id": "philips-philips-marathon-ultimate-xb918507",
@@ -42800,7 +50049,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 14750
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Elektrikli Süpürge",
+    "minPrice": 14899,
+    "maxPrice": 16687
   },
   {
     "id": "philips-philips-fc974907-powerpro-max",
@@ -42901,7 +50154,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 8236
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Elektrikli Süpürge",
+    "minPrice": 8319,
+    "maxPrice": 9317
   },
   {
     "id": "philips-philips-marathon-ultimate-xb914507",
@@ -43003,7 +50260,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 12738
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Elektrikli Süpürge",
+    "minPrice": 12867,
+    "maxPrice": 14411
   },
   {
     "id": "philips-philips-fc975007-powerpro-max",
@@ -43104,7 +50365,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 14849
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Elektrikli Süpürge",
+    "minPrice": 14999,
+    "maxPrice": 16799
   },
   {
     "id": "philips-philips-fc975107-powerpro-max",
@@ -43205,7 +50470,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 41432
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Elektrikli Süpürge",
+    "minPrice": 41850,
+    "maxPrice": 46872
   },
   {
     "id": "philips-philips-fc933009",
@@ -43305,7 +50574,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 15626
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Kompakt Süpürge",
+    "minPrice": 15784,
+    "maxPrice": 17678
   },
   {
     "id": "philips-philips-marathon-daily-xb715007",
@@ -43407,7 +50680,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9638
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Elektrikli Süpürge",
+    "minPrice": 9735,
+    "maxPrice": 10903
   },
   {
     "id": "philips-philips-fc933007",
@@ -43507,7 +50784,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6434
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Kompakt Süpürge",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "philips-philips-fc933107-powerpro-city",
@@ -43608,7 +50889,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 5874
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Kompakt Süpürge",
+    "minPrice": 5933,
+    "maxPrice": 6645
   },
   {
     "id": "philips-philips-fc933207-powerpro-city",
@@ -43709,7 +50994,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7008
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Kompakt Süpürge",
+    "minPrice": 7079,
+    "maxPrice": 7928
   },
   {
     "id": "philips-philips-marathon-ultimate-xb915507",
@@ -43811,7 +51100,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 13364
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Elektrikli Süpürge",
+    "minPrice": 13499,
+    "maxPrice": 15119
   },
   {
     "id": "philips-philips-fc974409-powerpro-expert",
@@ -43912,7 +51205,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 27323
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Elektrikli Süpürge",
+    "minPrice": 27599,
+    "maxPrice": 30911
   },
   {
     "id": "philips-philips-fc992507-marathon-ultimate",
@@ -44014,7 +51311,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 29693
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Elektrikli Süpürge",
+    "minPrice": 29993,
+    "maxPrice": 33592
   },
   {
     "id": "philips-philips-homerun-3000-series-aqua",
@@ -44118,7 +51419,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 29205
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Akıllı İstasyonlu Robot Süpürge",
+    "minPrice": 29500,
+    "maxPrice": 33040
   },
   {
     "id": "philips-philips-homerun-3000-series-aqua-870331",
@@ -44221,7 +51526,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 14453
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge ve Mop",
+    "minPrice": 14599,
+    "maxPrice": 16351
   },
   {
     "id": "philips-philips-fc932307-powerpro-compact",
@@ -44322,7 +51631,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 13959
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Kompakt Süpürge",
+    "minPrice": 14100,
+    "maxPrice": 15792
   },
   {
     "id": "philips-philips-fc974509-powerpro-expert",
@@ -44423,7 +51736,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 44707
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Elektrikli Süpürge",
+    "minPrice": 45159,
+    "maxPrice": 50578
   },
   {
     "id": "philips-philips-2000-series-xb214209",
@@ -44523,7 +51840,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7127
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Kompakt Süpürge",
+    "minPrice": 7199,
+    "maxPrice": 8063
   },
   {
     "id": "philips-philips-2000-series-xb212209",
@@ -44623,7 +51944,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6336
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Kompakt Süpürge",
+    "minPrice": 6400,
+    "maxPrice": 7168
   },
   {
     "id": "philips-philips-fc953209-powerpro-active",
@@ -44724,7 +52049,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 17770
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Elektrikli Süpürge",
+    "minPrice": 17949,
+    "maxPrice": 20103
   },
   {
     "id": "philips-philips-fc972909-powerpro-expert",
@@ -44825,7 +52154,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 35140
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Elektrikli Süpürge",
+    "minPrice": 35495,
+    "maxPrice": 39754
   },
   {
     "id": "philips-philips-xb212309",
@@ -44925,7 +52258,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 4949
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Kompakt Süpürge",
+    "minPrice": 4999,
+    "maxPrice": 5599
   },
   {
     "id": "philips-philips-3000-series-xd311009",
@@ -45025,7 +52362,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 8656
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbalı Elektrikli Süpürge",
+    "minPrice": 8743,
+    "maxPrice": 9792
   },
   {
     "id": "philips-philips-marathon-ultimate-xb912509",
@@ -45127,7 +52468,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 16572
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Elektrikli Süpürge",
+    "minPrice": 16739,
+    "maxPrice": 18748
   },
   {
     "id": "philips-philips-xc805701-aqua-plus",
@@ -45230,7 +52575,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 16829
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Mop Özellikli Şarjlı Dikey Süpürge",
+    "minPrice": 16999,
+    "maxPrice": 19039
   },
   {
     "id": "philips-philips-xc705701-aqua",
@@ -45333,7 +52682,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 15334
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Mop Özellikli Şarjlı Dikey Süpürge",
+    "minPrice": 15489,
+    "maxPrice": 17348
   },
   {
     "id": "philips-philips-fc672401-speedpro",
@@ -45435,7 +52788,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 23165
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Şarjlı Dikey Süpürge",
+    "minPrice": 23399,
+    "maxPrice": 26207
   },
   {
     "id": "philips-philips-aqua-plus-8000-series-xc834901",
@@ -45538,7 +52895,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 28904
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Mop Özellikli Şarjlı Dikey Süpürge",
+    "minPrice": 29196,
+    "maxPrice": 32700
   },
   {
     "id": "philips-philips-xc704001-speedpro-max",
@@ -45640,7 +53001,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 23017
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Şarjlı Dikey Süpürge",
+    "minPrice": 23249,
+    "maxPrice": 26039
   },
   {
     "id": "philips-philips-speedpro-max-xc704301",
@@ -45742,7 +53107,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 26276
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Şarjlı Dikey Süpürge",
+    "minPrice": 26541,
+    "maxPrice": 29726
   },
   {
     "id": "philips-philips-speedpro-max-fc682301",
@@ -45844,7 +53213,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 31304
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Şarjlı Dikey Süpürge",
+    "minPrice": 31620,
+    "maxPrice": 35414
   },
   {
     "id": "philips-philips-xc804301",
@@ -45946,7 +53319,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 36736
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Şarjlı Dikey Süpürge",
+    "minPrice": 37107,
+    "maxPrice": 41560
   },
   {
     "id": "philips-philips-fc878109",
@@ -46049,7 +53426,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 28633
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Ultra Sessiz Torbalı Elektrikli Süpürge",
+    "minPrice": 28922,
+    "maxPrice": 32393
   },
   {
     "id": "philips-philips-fc878507",
@@ -46152,7 +53533,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 29699
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Ultra Sessiz Torbalı Elektrikli Süpürge",
+    "minPrice": 29999,
+    "maxPrice": 33599
   },
   {
     "id": "philips-philips-fc837109-performer-compact",
@@ -46253,7 +53638,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 17514
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Kompakt Torbalı Elektrikli Süpürge",
+    "minPrice": 17691,
+    "maxPrice": 19814
   },
   {
     "id": "philips-philips-fc702001",
@@ -46353,7 +53742,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 25688
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Buharlı Temizleyici ve Süpürge",
+    "minPrice": 25947,
+    "maxPrice": 29061
   },
   {
     "id": "philips-philips-aqua-trio-9000-series-xw938301",
@@ -46457,7 +53850,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 24749
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "3'ü 1 Arada Islak & Kuru Yıkamalı Dikey Süpürge",
+    "minPrice": 24999,
+    "maxPrice": 27999
   },
   {
     "id": "philips-philips-fc702501",
@@ -46557,7 +53954,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 23017
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Buharlı Temizleyici ve Süpürge",
+    "minPrice": 23249,
+    "maxPrice": 26039
   },
   {
     "id": "philips-philips-aqua-trio-9000-series-xw946311",
@@ -46661,7 +54062,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 22571
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "3'ü 1 Arada Islak & Kuru Yıkamalı Dikey Süpürge",
+    "minPrice": 22799,
+    "maxPrice": 25535
   },
   {
     "id": "philips-philips-aqua-plus-8000-series-xc805301",
@@ -46764,7 +54169,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 13631
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Mop Özellikli Şarjlı Dikey Süpürge",
+    "minPrice": 13769,
+    "maxPrice": 15421
   },
   {
     "id": "philips-philips-xb214210",
@@ -46864,7 +54273,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 4949
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Torbasız Elektrikli Süpürge",
+    "minPrice": 4999,
+    "maxPrice": 5599
   },
   {
     "id": "philips-philips-ac322010",
@@ -46966,7 +54379,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 16631
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Akıllı Hava Temizleyici",
+    "minPrice": 16799,
+    "maxPrice": 18815
   },
   {
     "id": "philips-philips-xc655701",
@@ -47068,7 +54485,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 13086
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Şarjlı Dikey Süpürge",
+    "minPrice": 13218,
+    "maxPrice": 14804
   },
   {
     "id": "philips-philips-air-performer-8000-3-1-arada",
@@ -47171,7 +54592,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 19799
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "3'ü 1 Arada Hava Temizleyici, Isıtıcı & Fan",
+    "minPrice": 19999,
+    "maxPrice": 22399
   },
   {
     "id": "philips-philips-xc655201",
@@ -47273,7 +54698,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 10419
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Şarjlı Dikey Süpürge",
+    "minPrice": 10524,
+    "maxPrice": 11787
   },
   {
     "id": "philips-philips-pureprotect-quiet-2200-serisi-ac222010",
@@ -47374,7 +54803,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 13433
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Akıllı Hava Temizleyici",
+    "minPrice": 13569,
+    "maxPrice": 15197
   },
   {
     "id": "philips-philips-xc645310",
@@ -47476,7 +54909,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9551
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Şarjlı Dikey Süpürge",
+    "minPrice": 9647,
+    "maxPrice": 10805
   },
   {
     "id": "philips-philips-7000-serisi-aqua-xc705501",
@@ -47579,7 +55016,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 13699
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Mop Özellikli Şarjlı Dikey Süpürge",
+    "minPrice": 13837,
+    "maxPrice": 15497
   },
   {
     "id": "philips-philips-6000-series-xc655101",
@@ -47681,7 +55122,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 10196
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Şarjlı Dikey Süpürge",
+    "minPrice": 10299,
+    "maxPrice": 11535
   },
   {
     "id": "philips-philips-xu5100",
@@ -47785,7 +55230,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 20528
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "İstasyonlu Akıllı Robot Süpürge",
+    "minPrice": 20735,
+    "maxPrice": 23223
   },
   {
     "id": "philips-philips-homerun-9000-serisi-xu910010",
@@ -47890,7 +55339,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 37223
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "All-in-One İstasyonlu Amiral Gemisi Robot Süpürge",
+    "minPrice": 37599,
+    "maxPrice": 42111
   },
   {
     "id": "philips-philips-2000-series-xu2100-aqua",
@@ -47992,7 +55445,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 17423
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "İstasyonlu Robot Süpürge ve Mop",
+    "minPrice": 17599,
+    "maxPrice": 19711
   },
   {
     "id": "philips-philips-xc645610",
@@ -48094,7 +55551,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11598
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Şarjlı Dikey Süpürge",
+    "minPrice": 11715,
+    "maxPrice": 13121
   },
   {
     "id": "philips-philips-xc655301",
@@ -48196,7 +55657,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11771
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Şarjlı Dikey Süpürge",
+    "minPrice": 11890,
+    "maxPrice": 13317
   },
   {
     "id": "philips-philips-7000-serisi-aqua-xc705301",
@@ -48299,7 +55764,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 13364
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Mop Özellikli Şarjlı Dikey Süpürge",
+    "minPrice": 13499,
+    "maxPrice": 15119
   },
   {
     "id": "philips-philips-xu5000",
@@ -48403,7 +55872,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 15344
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Lazer Haritalamalı Robot Süpürge ve Mop",
+    "minPrice": 15499,
+    "maxPrice": 17359
   },
   {
     "id": "philips-philips-xc645110",
@@ -48504,7 +55977,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9633
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Şarjlı Dikey Süpürge",
+    "minPrice": 9730,
+    "maxPrice": 10898
   },
   {
     "id": "philips-philips-ac065110",
@@ -48604,7 +56081,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6880
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Kompakt Yatak Odası Hava Temizleyici",
+    "minPrice": 6949,
+    "maxPrice": 7783
   },
   {
     "id": "philips-philips-xc645210",
@@ -48705,7 +56186,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9577
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Şarjlı Dikey Süpürge",
+    "minPrice": 9674,
+    "maxPrice": 10835
   },
   {
     "id": "philips-philips-ac342010",
@@ -48807,7 +56292,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 18809
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Geniş Alan Akıllı Hava Temizleyici",
+    "minPrice": 18999,
+    "maxPrice": 21279
   },
   {
     "id": "philips-philips-xc805401-aqua-plus",
@@ -48910,7 +56399,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 16136
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Mop Özellikli Şarjlı Dikey Süpürge",
+    "minPrice": 16299,
+    "maxPrice": 18255
   },
   {
     "id": "philips-philips-aqua-plus-8000-xc815310",
@@ -49013,7 +56506,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 17669
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Mop Özellikli Şarjlı Dikey Süpürge",
+    "minPrice": 17847,
+    "maxPrice": 19989
   },
   {
     "id": "philips-philips-xw726311-aquatrio",
@@ -49117,7 +56614,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 14481
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Islak & Kuru Yıkamalı Kablosuz Dikey Süpürge",
+    "minPrice": 14627,
+    "maxPrice": 16382
   },
   {
     "id": "philips-philips-homerun-2000-series-aqua",
@@ -49219,7 +56720,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 12839
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robot Süpürge ve Mop (2000 Serisi)",
+    "minPrice": 12969,
+    "maxPrice": 14525
   },
   {
     "id": "philips-philips-aqua-trio-7000-series-xw7110",
@@ -49323,7 +56828,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 18413
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Islak & Kuru Yıkamalı Kablosuz Dikey Süpürge",
+    "minPrice": 18599,
+    "maxPrice": 20831
   },
   {
     "id": "philips-philips-aqua-7000-xc715310",
@@ -49426,7 +56935,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 16216
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Mop Özellikli Şarjlı Dikey Süpürge",
+    "minPrice": 16380,
+    "maxPrice": 18346
   },
   {
     "id": "philips-philips-oneup-3000-xv310101",
@@ -49527,7 +57040,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 4391
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Kompakt Şarjlı Dikey Süpürge",
+    "minPrice": 4435,
+    "maxPrice": 4967
   },
   {
     "id": "philips-philips-ac095113",
@@ -49627,7 +57144,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9335
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Kompakt Yatak Odası Hava Temizleyici",
+    "minPrice": 9429,
+    "maxPrice": 10560
   },
   {
     "id": "philips-philips-air-purifier-ac1711-10",
@@ -49727,7 +57248,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 33659
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Kompakt Oda Hava Temizleyici (1000i Serisi)",
+    "minPrice": 33999,
+    "maxPrice": 38079
   },
   {
     "id": "philips-philips-ac2939-10",
@@ -49829,7 +57354,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 26135
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Akıllı Hava Temizleyici (2000i Serisi)",
+    "minPrice": 26399,
+    "maxPrice": 29567
   },
   {
     "id": "philips-philips-3000-serisi-xw319211",
@@ -49933,7 +57462,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7424
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Islak & Kuru Yıkamalı Kablosuz Dikey Süpürge",
+    "minPrice": 7499,
+    "maxPrice": 8399
   },
   {
     "id": "philips-philips-ac295953",
@@ -50035,7 +57568,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 20950
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Akıllı Hava Temizleyici (2000i Serisi)",
+    "minPrice": 21162,
+    "maxPrice": 23701
   },
   {
     "id": "philips-philips-performer-xd812210",
@@ -50137,7 +57674,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 22275
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Yüksek Emiş Güçlü Torbalı Elektrikli Süpürge",
+    "minPrice": 22500,
+    "maxPrice": 25200
   },
   {
     "id": "philips-philips-xc645010",
@@ -50238,7 +57779,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11302
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Şarjlı Dikey Süpürge",
+    "minPrice": 11416,
+    "maxPrice": 12786
   },
   {
     "id": "philips-philips-aquatrio-9000-series-xw946511",
@@ -50342,7 +57887,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 32017
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "3'ü 1 Arada Islak & Kuru Yıkamalı Dikey Süpürge",
+    "minPrice": 32340,
+    "maxPrice": 36221
   },
   {
     "id": "philips-philips-xb212210",
@@ -50442,7 +57991,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 5064
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "2000 Serisi Torbasız Elektrikli Süpürge",
+    "minPrice": 5115,
+    "maxPrice": 5729
   },
   {
     "id": "philips-philips-ac085011",
@@ -50542,7 +58095,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 16393
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Kompakt Yatak Odası Hava Temizleyici",
+    "minPrice": 16559,
+    "maxPrice": 18546
   },
   {
     "id": "philips-philips-performer-xd815212",
@@ -50644,7 +58201,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 39589
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Yüksek Emiş Güçlü Torbalı Elektrikli Süpürge",
+    "minPrice": 39989,
+    "maxPrice": 44788
   },
   {
     "id": "philips-philips-ac1215-10",
@@ -50744,7 +58305,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 25798
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Kompakt Oda Hava Temizleyici (1000i Serisi)",
+    "minPrice": 26059,
+    "maxPrice": 29186
   },
   {
     "id": "philips-philips-xb9000",
@@ -50847,7 +58412,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 18782
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Marathon Ultimate Torbasız Elektrikli Süpürge",
+    "minPrice": 18972,
+    "maxPrice": 21249
   },
   {
     "id": "philips-philips-xc715710",
@@ -50948,7 +58517,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 22414
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Şarjlı Dikey Süpürge",
+    "minPrice": 22640,
+    "maxPrice": 25357
   },
   {
     "id": "philips-philips-xv511311",
@@ -51049,7 +58622,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 5778
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Kompakt Şarjlı Dikey Süpürge",
+    "minPrice": 5836,
+    "maxPrice": 6536
   },
   {
     "id": "philips-philips-aqua-8000-serisi-xc815610",
@@ -51152,7 +58729,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 21977
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Mop Özellikli Şarjlı Dikey Süpürge",
+    "minPrice": 22199,
+    "maxPrice": 24863
   },
   {
     "id": "philips-philips-xv511301",
@@ -51253,7 +58834,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 5520
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Kompakt Şarjlı Dikey Süpürge",
+    "minPrice": 5576,
+    "maxPrice": 6245
   },
   {
     "id": "philips-philips-amf220-15-3-1-arada",
@@ -51356,7 +58941,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 29075
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "3'ü 1 Arada Hava Temizleyici, Fan ve Isıtıcı",
+    "minPrice": 29369,
+    "maxPrice": 32893
   },
   {
     "id": "philips-philips-fc876601-powerpro",
@@ -51457,7 +59046,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 8414
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Torbasız Elektrikli Süpürge",
+    "minPrice": 8499,
+    "maxPrice": 9519
   },
   {
     "id": "philips-philips-fc955509-powerpro-active",
@@ -51558,7 +59151,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7919
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Active Torbasız Elektrikli Süpürge",
+    "minPrice": 7999,
+    "maxPrice": 8959
   },
   {
     "id": "philips-philips-fc974709-powerpro-expert",
@@ -51660,7 +59257,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9404
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Expert Torbasız Elektrikli Süpürge",
+    "minPrice": 9499,
+    "maxPrice": 10639
   },
   {
     "id": "philips-philips-fc972409-powerpro-expert",
@@ -51762,7 +59363,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9404
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Expert Torbasız Elektrikli Süpürge",
+    "minPrice": 9499,
+    "maxPrice": 10639
   },
   {
     "id": "philips-philips-fc992407-marathon-ultimate-650-w",
@@ -51864,7 +59469,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 14849
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Marathon Ultimate Torbasız Elektrikli Süpürge",
+    "minPrice": 14999,
+    "maxPrice": 16799
   },
   {
     "id": "philips-philips-powerpro-fc876901",
@@ -51965,7 +59574,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 8414
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Torbasız Elektrikli Süpürge",
+    "minPrice": 8499,
+    "maxPrice": 9519
   },
   {
     "id": "philips-philips-fc876101-powerpro",
@@ -52066,7 +59679,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 8414
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Torbasız Elektrikli Süpürge",
+    "minPrice": 8499,
+    "maxPrice": 9519
   },
   {
     "id": "philips-philips-fc992907",
@@ -52168,7 +59785,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 14849
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Marathon Ultimate Torbasız Elektrikli Süpürge",
+    "minPrice": 14999,
+    "maxPrice": 16799
   },
   {
     "id": "philips-philips-fc992109-powerpro-ultimate",
@@ -52269,7 +59890,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 12869
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Ultimate Torbasız Elektrikli Süpürge",
+    "minPrice": 12999,
+    "maxPrice": 14559
   },
   {
     "id": "philips-philips-fc992607-marathon-ultimate",
@@ -52371,7 +59996,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 14849
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Marathon Ultimate Torbasız Elektrikli Süpürge",
+    "minPrice": 14999,
+    "maxPrice": 16799
   },
   {
     "id": "philips-philips-fc863301-powerpro-active",
@@ -52472,7 +60101,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7919
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Active Torbasız Elektrikli Süpürge",
+    "minPrice": 7999,
+    "maxPrice": 8959
   },
   {
     "id": "philips-philips-fc863202",
@@ -52573,7 +60206,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7919
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Active Torbasız Elektrikli Süpürge",
+    "minPrice": 7999,
+    "maxPrice": 8959
   },
   {
     "id": "philips-philips-fc933409-powerpro-compact",
@@ -52674,7 +60311,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6434
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Compact Torbasız Elektrikli Süpürge",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "philips-philips-fc847501-powerpro-compact",
@@ -52775,7 +60416,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6434
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Compact Torbasız Elektrikli Süpürge",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "philips-philips-fc992069-powerpro-ultimate",
@@ -52876,7 +60521,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 12869
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Ultimate Torbasız Elektrikli Süpürge",
+    "minPrice": 12999,
+    "maxPrice": 14559
   },
   {
     "id": "philips-philips-fc982807",
@@ -52977,7 +60626,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 8414
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Torbasız Elektrikli Süpürge",
+    "minPrice": 8499,
+    "maxPrice": 9519
   },
   {
     "id": "philips-philips-fc993107",
@@ -53079,7 +60732,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 14849
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Marathon Ultimate Torbasız Elektrikli Süpürge",
+    "minPrice": 14999,
+    "maxPrice": 16799
   },
   {
     "id": "philips-philips-fc8470-powerpro-cyclonic",
@@ -53180,7 +60837,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6434
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Compact Torbasız Elektrikli Süpürge",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "philips-philips-fc877091-powerpro-expert",
@@ -53282,7 +60943,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9404
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Expert Torbasız Elektrikli Süpürge",
+    "minPrice": 9499,
+    "maxPrice": 10639
   },
   {
     "id": "philips-philips-fc847891-powerpro-compact",
@@ -53383,7 +61048,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6434
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Compact Torbasız Elektrikli Süpürge",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "philips-philips-fc972109-powerpro-expert",
@@ -53485,7 +61154,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9404
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Expert Torbasız Elektrikli Süpürge",
+    "minPrice": 9499,
+    "maxPrice": 10639
   },
   {
     "id": "philips-philips-fc952109-powerpro-active",
@@ -53586,7 +61259,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7919
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Active Torbasız Elektrikli Süpürge",
+    "minPrice": 7999,
+    "maxPrice": 8959
   },
   {
     "id": "philips-philips-fc952509-powerpro-active",
@@ -53687,7 +61364,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7919
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Active Torbasız Elektrikli Süpürge",
+    "minPrice": 7999,
+    "maxPrice": 8959
   },
   {
     "id": "philips-philips-fc991201-marathon-ultimate-2400-w",
@@ -53789,7 +61470,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 14849
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Marathon Ultimate Torbasız Elektrikli Süpürge",
+    "minPrice": 14999,
+    "maxPrice": 16799
   },
   {
     "id": "philips-philips-fc991101-powerpro-ultimate-2200-w",
@@ -53890,7 +61575,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 12869
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Ultimate Torbasız Elektrikli Süpürge",
+    "minPrice": 12999,
+    "maxPrice": 14559
   },
   {
     "id": "philips-philips-fc971201-powerpro-expert",
@@ -53992,7 +61681,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9404
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Expert Torbasız Elektrikli Süpürge",
+    "minPrice": 9499,
+    "maxPrice": 10639
   },
   {
     "id": "philips-philips-fc919201-performerpro",
@@ -54095,7 +61788,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11879
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Yüksek Emiş Güçlü Torbalı Elektrikli Süpürge",
+    "minPrice": 11999,
+    "maxPrice": 13439
   },
   {
     "id": "philips-philips-fc919401-performerpro",
@@ -54198,7 +61895,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11879
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Yüksek Emiş Güçlü Torbalı Elektrikli Süpürge",
+    "minPrice": 11999,
+    "maxPrice": 13439
   },
   {
     "id": "philips-philips-fc955309",
@@ -54299,7 +62000,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7919
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Active Torbasız Elektrikli Süpürge",
+    "minPrice": 7999,
+    "maxPrice": 8959
   },
   {
     "id": "philips-philips-fc974109-powerpro-expert",
@@ -54400,7 +62105,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9404
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Expert Torbasız Elektrikli Süpürge",
+    "minPrice": 9499,
+    "maxPrice": 10639
   },
   {
     "id": "philips-philips-fc955209-powerpro-active",
@@ -54501,7 +62210,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7919
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Active / Max Torbasız Elektrikli Süpürge",
+    "minPrice": 7999,
+    "maxPrice": 8959
   },
   {
     "id": "philips-philips-fc917007",
@@ -54601,7 +62314,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6434
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Kompakt Torbasız Elektrikli Süpürge",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "philips-philips-fc923801-marathon-2200-w",
@@ -54702,7 +62419,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 10394
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Marathon Klasik Torbasız Elektrikli Süpürge",
+    "minPrice": 10499,
+    "maxPrice": 11759
   },
   {
     "id": "philips-philips-fc920501-marathon-2200-w",
@@ -54803,7 +62524,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 10394
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Marathon Klasik Torbasız Elektrikli Süpürge",
+    "minPrice": 10499,
+    "maxPrice": 11759
   },
   {
     "id": "philips-philips-fc922501-2200-w",
@@ -54904,7 +62629,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 10394
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Marathon Klasik Torbasız Elektrikli Süpürge",
+    "minPrice": 10499,
+    "maxPrice": 11759
   },
   {
     "id": "philips-philips-fc8952-aquaaction",
@@ -55006,7 +62735,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 10889
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Su Filtreli Elektrikli Süpürge",
+    "minPrice": 10999,
+    "maxPrice": 12319
   },
   {
     "id": "philips-philips-fc895001-aquaaction",
@@ -55108,7 +62841,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 10889
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Su Filtreli Elektrikli Süpürge",
+    "minPrice": 10999,
+    "maxPrice": 12319
   },
   {
     "id": "philips-philips-fc974209-powerpro-expert",
@@ -55209,7 +62946,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9404
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Expert Torbasız Elektrikli Süpürge",
+    "minPrice": 9499,
+    "maxPrice": 10639
   },
   {
     "id": "philips-philips-performer-expert-fc872809",
@@ -55311,7 +63052,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9899
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Performer Expert Torbalı Elektrikli Süpürge",
+    "minPrice": 9999,
+    "maxPrice": 11199
   },
   {
     "id": "philips-philips-fc993207-marathon-ultimate",
@@ -55413,7 +63158,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 14849
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Marathon Ultimate Torbasız Elektrikli Süpürge",
+    "minPrice": 14999,
+    "maxPrice": 16799
   },
   {
     "id": "philips-philips-fc872109-performer-expert",
@@ -55515,7 +63264,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9899
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Performer Expert Torbalı Elektrikli Süpürge",
+    "minPrice": 9999,
+    "maxPrice": 11199
   },
   {
     "id": "philips-philips-xb915409",
@@ -55617,7 +63370,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 14849
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Marathon Ultimate Torbasız Elektrikli Süpürge",
+    "minPrice": 14999,
+    "maxPrice": 16799
   },
   {
     "id": "philips-philips-fc872709-performer-expert",
@@ -55719,7 +63476,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9899
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Performer Expert Torbalı Elektrikli Süpürge",
+    "minPrice": 9999,
+    "maxPrice": 11199
   },
   {
     "id": "philips-philips-fc872609-performer-expert",
@@ -55821,7 +63582,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9899
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Performer Expert Torbalı Elektrikli Süpürge",
+    "minPrice": 9999,
+    "maxPrice": 11199
   },
   {
     "id": "philips-philips-fc865401-performer-active",
@@ -55922,7 +63687,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 8414
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Performer Active Torbalı Elektrikli Süpürge",
+    "minPrice": 8499,
+    "maxPrice": 9519
   },
   {
     "id": "philips-philips-fc865701-performer-active",
@@ -56023,7 +63792,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 8414
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Performer Active Torbalı Elektrikli Süpürge",
+    "minPrice": 8499,
+    "maxPrice": 9519
   },
   {
     "id": "philips-philips-xb212509",
@@ -56123,7 +63896,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6434
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Kompakt Torbasız Elektrikli Süpürge",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "philips-philips-fc933109-powerpro-compact",
@@ -56223,7 +64000,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6434
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Kompakt Torbasız Elektrikli Süpürge",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "philips-philips-fc933309-powerpro-city",
@@ -56323,7 +64104,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6434
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Kompakt Torbasız Elektrikli Süpürge",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "philips-philips-fc993407",
@@ -56425,7 +64210,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 14849
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Marathon Ultimate Torbasız Elektrikli Süpürge",
+    "minPrice": 14999,
+    "maxPrice": 16799
   },
   {
     "id": "philips-philips-performer-active-fc857709",
@@ -56526,7 +64315,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 8414
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Performer Active Torbalı Elektrikli Süpürge",
+    "minPrice": 8499,
+    "maxPrice": 9519
   },
   {
     "id": "philips-philips-fc957107-powerpro-max",
@@ -56627,7 +64420,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7919
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Active / Max Torbasız Elektrikli Süpürge",
+    "minPrice": 7999,
+    "maxPrice": 8959
   },
   {
     "id": "philips-philips-fc992807",
@@ -56729,7 +64526,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 14849
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Marathon Ultimate Torbasız Elektrikli Süpürge",
+    "minPrice": 14999,
+    "maxPrice": 16799
   },
   {
     "id": "philips-philips-fc8210",
@@ -56829,7 +64630,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6434
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Kompakt Torbalı Elektrikli Süpürge",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "philips-philips-fc814401",
@@ -56929,7 +64734,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6434
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Kompakt Torbasız Elektrikli Süpürge",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "philips-philips-fc824109",
@@ -57029,7 +64838,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6434
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Kompakt Torbalı Elektrikli Süpürge",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "philips-philips-fc883201",
@@ -57134,7 +64947,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 13859
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "SmartPro Compact Akıllı Robot Süpürge",
+    "minPrice": 13999,
+    "maxPrice": 15679
   },
   {
     "id": "philips-philips-fc845201-powerlife",
@@ -57235,7 +65052,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6434
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerLife Torbalı Elektrikli Süpürge",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "philips-philips-fc845501-powerlife",
@@ -57336,7 +65157,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6434
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerLife Torbalı Elektrikli Süpürge",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "philips-philips-smartpro-active-fc882201",
@@ -57441,7 +65266,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 12869
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "SmartPro Robot Süpürge",
+    "minPrice": 12999,
+    "maxPrice": 14559
   },
   {
     "id": "philips-philips-speedpro-aqua-fc671901",
@@ -57545,7 +65374,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11384
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "SpeedPro Aqua / PowerPro Aqua Şarjlı Dikey Süpürge & Paspas",
+    "minPrice": 11499,
+    "maxPrice": 12879
   },
   {
     "id": "philips-philips-powerpro-duo-fc616901",
@@ -57647,7 +65480,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7919
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Duo 2'si 1 Arada Şarjlı Dikey Süpürge",
+    "minPrice": 7999,
+    "maxPrice": 8959
   },
   {
     "id": "philips-philips-fc640501",
@@ -57751,7 +65588,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11384
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "SpeedPro Aqua / PowerPro Aqua Şarjlı Dikey Süpürge & Paspas",
+    "minPrice": 11499,
+    "maxPrice": 12879
   },
   {
     "id": "philips-philips-fc640401",
@@ -57855,7 +65696,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11384
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "SpeedPro Aqua / PowerPro Aqua Şarjlı Dikey Süpürge & Paspas",
+    "minPrice": 11499,
+    "maxPrice": 12879
   },
   {
     "id": "philips-philips-8000-series-xc804901",
@@ -57958,7 +65803,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 15839
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "SpeedPro Max Kablosuz Şarjlı Dikey Süpürge",
+    "minPrice": 15999,
+    "maxPrice": 17919
   },
   {
     "id": "philips-philips-xc704101-speedpro-max",
@@ -58061,7 +65910,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 15839
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "SpeedPro Max Kablosuz Şarjlı Dikey Süpürge",
+    "minPrice": 15999,
+    "maxPrice": 17919
   },
   {
     "id": "philips-philips-fc680201",
@@ -58164,7 +66017,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 15839
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "SpeedPro Max Kablosuz Şarjlı Dikey Süpürge",
+    "minPrice": 15999,
+    "maxPrice": 17919
   },
   {
     "id": "philips-philips-fc616801",
@@ -58266,7 +66123,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7919
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Duo 2'si 1 Arada Şarjlı Dikey Süpürge",
+    "minPrice": 7999,
+    "maxPrice": 8959
   },
   {
     "id": "philips-philips-fc614401",
@@ -58368,7 +66229,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 3959
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "MiniVac Şarjlı El Süpürgesi",
+    "minPrice": 3999,
+    "maxPrice": 4479
   },
   {
     "id": "philips-philips-fc616202-powerpro-duo",
@@ -58470,7 +66335,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7919
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "PowerPro Duo 2'si 1 Arada Şarjlı Dikey Süpürge",
+    "minPrice": 7999,
+    "maxPrice": 8959
   },
   {
     "id": "philips-philips-eco-fc614801",
@@ -58572,7 +66441,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 3959
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "MiniVac Şarjlı El Süpürgesi",
+    "minPrice": 3999,
+    "maxPrice": 4479
   },
   {
     "id": "philips-philips-fc878107",
@@ -58675,7 +66548,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11879
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Performer Silent Ekstra Sessiz Torbalı Süpürge",
+    "minPrice": 11999,
+    "maxPrice": 13439
   },
   {
     "id": "philips-philips-fc878409",
@@ -58778,7 +66655,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11879
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Performer Silent Ekstra Sessiz Torbalı Süpürge",
+    "minPrice": 11999,
+    "maxPrice": 13439
   },
   {
     "id": "philips-philips-fc-684301-triathlon",
@@ -58881,7 +66762,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 15839
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Halı Yıkama ve Islak & Kuru Elektrikli Süpürge",
+    "minPrice": 15999,
+    "maxPrice": 17919
   },
   {
     "id": "philips-philips-fc881201",
@@ -58986,7 +66871,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 12869
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "SmartPro Robot Süpürge",
+    "minPrice": 12999,
+    "maxPrice": 14559
   },
   {
     "id": "philips-philips-fc878509",
@@ -59089,7 +66978,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11879
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Performer Silent Ekstra Sessiz Torbalı Süpürge",
+    "minPrice": 11999,
+    "maxPrice": 13439
   },
   {
     "id": "philips-philips-fc878309",
@@ -59192,7 +67085,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11879
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Performer Silent Ekstra Sessiz Torbalı Süpürge",
+    "minPrice": 11999,
+    "maxPrice": 13439
   },
   {
     "id": "philips-philips-fc845891-powerlife",
@@ -59292,7 +67189,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 5939
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Kompakt Torbalı Elektrikli Süpürge",
+    "minPrice": 5999,
+    "maxPrice": 6719
   },
   {
     "id": "philips-philips-fc858009",
@@ -59394,7 +67295,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 8909
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Performer Active Torbalı Elektrikli Süpürge",
+    "minPrice": 8999,
+    "maxPrice": 10079
   },
   {
     "id": "philips-philips-fc857909-performer-active",
@@ -59496,7 +67401,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 8909
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Performer Active Torbalı Elektrikli Süpürge",
+    "minPrice": 8999,
+    "maxPrice": 10079
   },
   {
     "id": "philips-philips-fc814601",
@@ -59596,7 +67505,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 5939
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Kompakt Torbasız Elektrikli Süpürge",
+    "minPrice": 5999,
+    "maxPrice": 6719
   },
   {
     "id": "philips-philips-fc881001-smartpro-aktif",
@@ -59701,7 +67614,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 12869
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "SmartPro Robot Süpürge",
+    "minPrice": 12999,
+    "maxPrice": 14559
   },
   {
     "id": "philips-philips-fc824509",
@@ -59801,7 +67718,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 5939
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Kompakt Torbalı Elektrikli Süpürge",
+    "minPrice": 5999,
+    "maxPrice": 6719
   },
   {
     "id": "philips-philips-fc824409",
@@ -59901,7 +67822,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 5939
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Kompakt Torbalı Elektrikli Süpürge",
+    "minPrice": 5999,
+    "maxPrice": 6719
   },
   {
     "id": "philips-philips-fc895509-performer-ultimate-750-w",
@@ -60004,7 +67929,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 12374
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Performer Ultimate Torbalı Elektrikli Süpürge",
+    "minPrice": 12499,
+    "maxPrice": 13999
   },
   {
     "id": "philips-philips-powergo-fc824309",
@@ -60104,7 +68033,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 5939
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Kompakt Torbalı Elektrikli Süpürge",
+    "minPrice": 5999,
+    "maxPrice": 6719
   },
   {
     "id": "philips-philips-fc857609",
@@ -60206,7 +68139,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 8909
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Performer Active Torbalı Elektrikli Süpürge",
+    "minPrice": 8999,
+    "maxPrice": 10079
   },
   {
     "id": "philips-philips-fc837509-performer-compact",
@@ -60306,7 +68243,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 5939
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Kompakt Torbalı Elektrikli Süpürge",
+    "minPrice": 5999,
+    "maxPrice": 6719
   },
   {
     "id": "philips-philips-fc857809",
@@ -60408,7 +68349,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 8909
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Performer Active Torbalı Elektrikli Süpürge",
+    "minPrice": 8999,
+    "maxPrice": 10079
   },
   {
     "id": "philips-philips-fc882001-smartpro",
@@ -60513,7 +68458,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11879
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "SmartPro Compact Robot Süpürge",
+    "minPrice": 11999,
+    "maxPrice": 13439
   },
   {
     "id": "philips-philips-fc879201-smartpro-easy",
@@ -60618,7 +68567,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11879
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "SmartPro Easy Ultra İnce Robot Süpürge",
+    "minPrice": 11999,
+    "maxPrice": 13439
   },
   {
     "id": "philips-philips-fc877601",
@@ -60723,7 +68676,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11879
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "SmartPro Compact Robot Süpürge",
+    "minPrice": 11999,
+    "maxPrice": 13439
   },
   {
     "id": "philips-philips-fc832609",
@@ -60823,7 +68780,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 5939
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Kompakt Torbalı Elektrikli Süpürge",
+    "minPrice": 5999,
+    "maxPrice": 6719
   },
   {
     "id": "philips-philips-fc879601-smartpro-easy",
@@ -60928,7 +68889,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11879
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "SmartPro Easy Ultra İnce Robot Süpürge",
+    "minPrice": 11999,
+    "maxPrice": 13439
   },
   {
     "id": "philips-philips-fc877401",
@@ -61033,7 +68998,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11879
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "SmartPro Compact Robot Süpürge",
+    "minPrice": 11999,
+    "maxPrice": 13439
   },
   {
     "id": "philips-philips-fc871501",
@@ -61138,7 +69107,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11879
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "SmartPro Compact Robot Süpürge",
+    "minPrice": 11999,
+    "maxPrice": 13439
   },
   {
     "id": "philips-philips-fc871001-smartpro",
@@ -61243,7 +69216,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11879
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "SmartPro Compact Robot Süpürge",
+    "minPrice": 11999,
+    "maxPrice": 13439
   },
   {
     "id": "philips-philips-fc878609-performer-silent",
@@ -61346,7 +69323,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11879
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Performer Silent Ekstra Sessiz Torbalı Süpürge",
+    "minPrice": 11999,
+    "maxPrice": 13439
   },
   {
     "id": "philips-philips-minivac-fc604801",
@@ -61448,7 +69429,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 3959
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "MiniVac Şarjlı El Süpürgesi",
+    "minPrice": 3999,
+    "maxPrice": 4479
   },
   {
     "id": "philips-philips-fc824609",
@@ -61548,7 +69533,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 5939
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "Kompakt Torbalı Elektrikli Süpürge",
+    "minPrice": 5999,
+    "maxPrice": 6719
   },
   {
     "id": "philips-philips-fc614901",
@@ -61650,7 +69639,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 3959
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "MiniVac Şarjlı El Süpürgesi",
+    "minPrice": 3999,
+    "maxPrice": 4479
   },
   {
     "id": "philips-philips-fc672201",
@@ -61753,7 +69746,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 10889
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "SpeedPro / PowerPro Uno Şarjlı Dikey Süpürge",
+    "minPrice": 10999,
+    "maxPrice": 12319
   },
   {
     "id": "philips-philips-fc672701",
@@ -61856,7 +69853,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 10889
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "SpeedPro / PowerPro Uno Şarjlı Dikey Süpürge",
+    "minPrice": 10999,
+    "maxPrice": 12319
   },
   {
     "id": "philips-philips-fc672301",
@@ -61959,7 +69960,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 10889
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "SpeedPro / PowerPro Uno Şarjlı Dikey Süpürge",
+    "minPrice": 10999,
+    "maxPrice": 12319
   },
   {
     "id": "philips-philips-fc614201",
@@ -62061,7 +70066,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 3959
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "MiniVac Şarjlı El Süpürgesi",
+    "minPrice": 3999,
+    "maxPrice": 4479
   },
   {
     "id": "philips-philips-fc617101",
@@ -62164,7 +70173,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 10889
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "SpeedPro / PowerPro Uno Şarjlı Dikey Süpürge",
+    "minPrice": 10999,
+    "maxPrice": 12319
   },
   {
     "id": "philips-philips-fc702801",
@@ -62266,7 +70279,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9404
       }
-    ]
+    ],
+    "subCategory": "stick_vacuum",
+    "subCategoryLabel": "SteamPlus Buharlı Temizleyici ve Süpürge",
+    "minPrice": 9499,
+    "maxPrice": 10639
   },
   {
     "id": "philips-philips-3000i-serisi-ac303310",
@@ -62369,7 +70386,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 24749
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "3000i Serisi Akıllı Hava Temizleyici",
+    "minPrice": 24999,
+    "maxPrice": 27999
   },
   {
     "id": "philips-philips-robbie-premium",
@@ -62475,7 +70496,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 18809
       }
-    ]
+    ],
+    "subCategory": "robot_vacuum",
+    "subCategoryLabel": "Robbie Premium Lazer Navigasyonlu Robot Süpürge",
+    "minPrice": 18999,
+    "maxPrice": 21279
   },
   {
     "id": "philips-philips-ac305551",
@@ -62578,7 +70603,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 24749
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "3000i Serisi Akıllı Hava Temizleyici",
+    "minPrice": 24999,
+    "maxPrice": 27999
   },
   {
     "id": "philips-philips-gopure-style-gp5611",
@@ -62680,7 +70709,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 4454
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "GoPure Araç İçi UV-C & HEPA Hava Temizleyici",
+    "minPrice": 4499,
+    "maxPrice": 5039
   },
   {
     "id": "philips-philips-ac083010",
@@ -62781,7 +70814,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7919
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "800 Serisi Kompakt Hava Temizleyici",
+    "minPrice": 7999,
+    "maxPrice": 8959
   },
   {
     "id": "philips-philips-ac2889-10",
@@ -62883,7 +70920,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 14849
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "2000i / 1000i Serisi Akıllı Hava Temizleyici",
+    "minPrice": 14999,
+    "maxPrice": 16799
   },
   {
     "id": "philips-philips-ac4080-10",
@@ -62986,7 +71027,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 21779
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "2'si 1 Arada Hava Temizleyici ve Nemlendirici",
+    "minPrice": 21999,
+    "maxPrice": 24639
   },
   {
     "id": "philips-philips-ac1214-10",
@@ -63088,7 +71133,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 14849
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "2000i / 1000i Serisi Akıllı Hava Temizleyici",
+    "minPrice": 14999,
+    "maxPrice": 16799
   },
   {
     "id": "philips-philips-ac2882-10",
@@ -63190,7 +71239,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 14849
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "2000i / 1000i Serisi Akıllı Hava Temizleyici",
+    "minPrice": 14999,
+    "maxPrice": 16799
   },
   {
     "id": "philips-philips-ac3829-10",
@@ -63293,7 +71346,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 21779
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "2'si 1 Arada Hava Temizleyici ve Nemlendirici",
+    "minPrice": 21999,
+    "maxPrice": 24639
   },
   {
     "id": "philips-philips-ac2729-10",
@@ -63396,7 +71453,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 21779
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "2'si 1 Arada Hava Temizleyici ve Nemlendirici",
+    "minPrice": 21999,
+    "maxPrice": 24639
   },
   {
     "id": "philips-philips-ac2887-10",
@@ -63498,7 +71559,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 14849
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "2000i / 1000i Serisi Akıllı Hava Temizleyici",
+    "minPrice": 14999,
+    "maxPrice": 16799
   },
   {
     "id": "philips-philips-ac5659-10",
@@ -63602,7 +71667,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 27719
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "5000i Serisi Çift Emişli Akıllı Hava Temizleyici",
+    "minPrice": 27999,
+    "maxPrice": 31359
   },
   {
     "id": "philips-philips-ac4550-10",
@@ -63705,7 +71774,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 22769
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "4000i Serisi Şık Tasarımlı Akıllı Hava Temizleyici",
+    "minPrice": 22999,
+    "maxPrice": 25759
   },
   {
     "id": "philips-philips-ac4012-10",
@@ -63806,7 +71879,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 8909
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "VitaShield IPS Kompakt Hava Temizleyici",
+    "minPrice": 8999,
+    "maxPrice": 10079
   },
   {
     "id": "philips-philips-ac3259-10",
@@ -63909,7 +71986,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 20789
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "3000i Serisi Akıllı Hava Temizleyici",
+    "minPrice": 20999,
+    "maxPrice": 23519
   },
   {
     "id": "philips-philips-ac0820-10",
@@ -64011,7 +72092,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7424
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "800 Serisi Kompakt Hava Temizleyici",
+    "minPrice": 7499,
+    "maxPrice": 8399
   },
   {
     "id": "philips-philips-ac3036-10",
@@ -64114,7 +72199,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 20789
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "3000i Serisi Akıllı Hava Temizleyici",
+    "minPrice": 20999,
+    "maxPrice": 23519
   },
   {
     "id": "philips-philips-ac-4053",
@@ -64215,7 +72304,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 8909
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "VitaShield IPS Kompakt Hava Temizleyici",
+    "minPrice": 8999,
+    "maxPrice": 10079
   },
   {
     "id": "philips-philips-avent-sch580-20",
@@ -64317,7 +72410,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 5939
       }
-    ]
+    ],
+    "subCategory": "air_purifier",
+    "subCategoryLabel": "Avent Bebek Odası Hava Nemlendirici & Temizleyici",
+    "minPrice": 5999,
+    "maxPrice": 6719
   },
   {
     "id": "philips-philips-na35000-airfryer",
@@ -64421,7 +72518,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 8701
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Çift Hazneli Dual Basket Airfryer",
+    "minPrice": 8789,
+    "maxPrice": 9844
   },
   {
     "id": "philips-philips-premium-xxl-hd986790-airfryer",
@@ -64525,7 +72626,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11385
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Premium XXL Smart Sensing Airfryer",
+    "minPrice": 11500,
+    "maxPrice": 12880
   },
   {
     "id": "philips-philips-premium-xxl-hd965090-airfryer",
@@ -64629,7 +72734,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9404
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Premium XXL Smart Sensing Airfryer",
+    "minPrice": 9499,
+    "maxPrice": 10639
   },
   {
     "id": "philips-philips-premium-xxl-hd987020-airfryer",
@@ -64733,7 +72842,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 19799
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Premium XXL Smart Sensing Airfryer",
+    "minPrice": 19999,
+    "maxPrice": 22399
   },
   {
     "id": "philips-philips-viva-collection-hd963090-airfryer",
@@ -64837,7 +72950,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7238
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Premium XXL Smart Sensing Airfryer",
+    "minPrice": 7311,
+    "maxPrice": 8188
   },
   {
     "id": "philips-philips-essential-hd926090-xl-airfryer",
@@ -64941,7 +73058,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11681
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Essential / 3000 Series XL Airfryer",
+    "minPrice": 11799,
+    "maxPrice": 13215
   },
   {
     "id": "philips-philips-hd988090-airfryer",
@@ -65046,7 +73167,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 22574
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Airfryer Combi 7000 Serisi XXL",
+    "minPrice": 22802,
+    "maxPrice": 25538
   },
   {
     "id": "philips-philips-hd987590-airfryer",
@@ -65151,7 +73276,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 19515
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Airfryer Combi 7000 Serisi XXL",
+    "minPrice": 19712,
+    "maxPrice": 22077
   },
   {
     "id": "philips-philips-essential-dijital-xxl-5000-series-hd928596-airfryer",
@@ -65255,7 +73384,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 5726
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "5000 Series XXL Bağlantılı Airfryer",
+    "minPrice": 5784,
+    "maxPrice": 6478
   },
   {
     "id": "philips-philips-hd927090-xl-airfryer",
@@ -65359,7 +73492,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6929
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Essential / 3000 Series XL Airfryer",
+    "minPrice": 6999,
+    "maxPrice": 7839
   },
   {
     "id": "philips-philips-xl-hd927096-airfryer",
@@ -65463,7 +73600,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11311
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Essential / 3000 Series XL Airfryer",
+    "minPrice": 11425,
+    "maxPrice": 12796
   },
   {
     "id": "philips-philips-3000-series-l-hd925290-airfryer",
@@ -65565,7 +73706,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 5247
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "3000 / 2000 / 1000 Series Kompakt Airfryer",
+    "minPrice": 5300,
+    "maxPrice": 5936
   },
   {
     "id": "philips-philips-essential-3000-series-hd920090-airfryer",
@@ -65667,7 +73812,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 8909
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "3000 / 2000 / 1000 Series Kompakt Airfryer",
+    "minPrice": 8999,
+    "maxPrice": 10079
   },
   {
     "id": "philips-philips-3000-series-xl-hd925780-airfryer",
@@ -65771,7 +73920,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9503
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "3000 Series Pencereli Hazne Airfryer",
+    "minPrice": 9599,
+    "maxPrice": 10751
   },
   {
     "id": "philips-philips-3000-series-hd924390-airfryer",
@@ -65873,7 +74026,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7328
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "3000 / 2000 / 1000 Series Kompakt Airfryer",
+    "minPrice": 7402,
+    "maxPrice": 8290
   },
   {
     "id": "philips-philips-5000-series-hd925560-airfryer",
@@ -65977,7 +74134,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6268
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "5000 Series Bağlantılı Airfryer",
+    "minPrice": 6331,
+    "maxPrice": 7091
   },
   {
     "id": "philips-philips-essential-hd9270-70-airfryer",
@@ -66081,7 +74242,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7691
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Essential / 3000 Series XL Airfryer",
+    "minPrice": 7769,
+    "maxPrice": 8701
   },
   {
     "id": "philips-philips-hd922020-airfryer",
@@ -66183,7 +74348,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7148
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "3000 / 2000 / 1000 Series Kompakt Airfryer",
+    "minPrice": 7220,
+    "maxPrice": 8086
   },
   {
     "id": "philips-philips-na32200-airfryer",
@@ -66287,7 +74456,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 3690
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "3000 Series Pencereli Hazne Airfryer",
+    "minPrice": 3727,
+    "maxPrice": 4174
   },
   {
     "id": "philips-philips-3000-series-dual-basket-airfryer",
@@ -66391,7 +74564,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 17916
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Çift Hazneli Dual Basket Airfryer",
+    "minPrice": 18097,
+    "maxPrice": 20269
   },
   {
     "id": "philips-philips-na12000-airfryer",
@@ -66493,7 +74670,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6335
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "3000 / 2000 / 1000 Series Kompakt Airfryer",
+    "minPrice": 6399,
+    "maxPrice": 7167
   },
   {
     "id": "philips-philips-na55500-airfryer",
@@ -66597,7 +74778,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 12623
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Çift Hazneli Dual Basket Airfryer",
+    "minPrice": 12750,
+    "maxPrice": 14280
   },
   {
     "id": "philips-philips-2000-series",
@@ -66699,7 +74884,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 10113
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "3000 / 2000 / 1000 Series Kompakt Airfryer",
+    "minPrice": 10215,
+    "maxPrice": 11441
   },
   {
     "id": "philips-philips-1000-series-airfryer",
@@ -66801,7 +74990,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 30096
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "3000 / 2000 / 1000 Series Kompakt Airfryer",
+    "minPrice": 30400,
+    "maxPrice": 34048
   },
   {
     "id": "philips-philips-3000-series-xl-927066-airfryer",
@@ -66905,7 +75098,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6929
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Essential / 3000 Series XL Airfryer",
+    "minPrice": 6999,
+    "maxPrice": 7839
   },
   {
     "id": "philips-philips-3000-series-xl-927020-airfryer",
@@ -67009,7 +75206,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6929
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Essential / 3000 Series XL Airfryer",
+    "minPrice": 6999,
+    "maxPrice": 7839
   },
   {
     "id": "philips-philips-spectre-xl-double-hd927060-airfryer",
@@ -67113,7 +75314,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6929
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Essential / 3000 Series XL Airfryer",
+    "minPrice": 6999,
+    "maxPrice": 7839
   },
   {
     "id": "philips-philips-essential-xl-hd927066-airfryer",
@@ -67217,7 +75422,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6929
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Essential / 3000 Series XL Airfryer",
+    "minPrice": 6999,
+    "maxPrice": 7839
   },
   {
     "id": "philips-philips-hd965190-airfryer",
@@ -67321,7 +75530,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9404
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Premium XXL Smart Sensing Airfryer",
+    "minPrice": 9499,
+    "maxPrice": 10639
   },
   {
     "id": "philips-philips-premium-xxl-hd986090-airfryer",
@@ -67425,7 +75638,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9404
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Premium XXL Smart Sensing Airfryer",
+    "minPrice": 9499,
+    "maxPrice": 10639
   },
   {
     "id": "philips-philips-xxl-hd965290-airfryer",
@@ -67528,7 +75745,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 11879
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Premium XXL Twin TurboStar Airfryer",
+    "minPrice": 11999,
+    "maxPrice": 13439
   },
   {
     "id": "philips-philips-premium-xxl-hd965091-airfryer",
@@ -67631,7 +75852,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9800
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Premium XXL Twin TurboStar Airfryer",
+    "minPrice": 9899,
+    "maxPrice": 11087
   },
   {
     "id": "philips-philips-premium-xxl-hd965096-airfryer",
@@ -67734,7 +75959,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9800
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Premium XXL Twin TurboStar Airfryer",
+    "minPrice": 9899,
+    "maxPrice": 11087
   },
   {
     "id": "philips-philips-5000-series-connected-hd928090-airfryer",
@@ -67838,7 +76067,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7424
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "5000 Series Connected XL Airfryer",
+    "minPrice": 7499,
+    "maxPrice": 8399
   },
   {
     "id": "philips-philips-3000-serisi-hd927091-airfryer",
@@ -67940,7 +76173,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6929
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "3000 Series XL Airfryer",
+    "minPrice": 6999,
+    "maxPrice": 7839
   },
   {
     "id": "philips-philips-hd920021-airfryer",
@@ -68041,7 +76278,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 4949
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "3000 / Viva / Daily Series Kompakt Airfryer",
+    "minPrice": 4999,
+    "maxPrice": 5599
   },
   {
     "id": "philips-philips-hd920091-airfryer",
@@ -68142,7 +76383,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 4949
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "3000 / Viva / Daily Series Kompakt Airfryer",
+    "minPrice": 4999,
+    "maxPrice": 5599
   },
   {
     "id": "philips-philips-3000-series-l-hd920011-airfryer",
@@ -68243,7 +76488,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 4949
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "3000 / Viva / Daily Series Kompakt Airfryer",
+    "minPrice": 4999,
+    "maxPrice": 5599
   },
   {
     "id": "philips-philips-hd925221-airfryer",
@@ -68344,7 +76593,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 5444
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "3000 / Viva / Daily Series Kompakt Airfryer",
+    "minPrice": 5499,
+    "maxPrice": 6159
   },
   {
     "id": "philips-philips-essential-hd925270-airfryer",
@@ -68445,7 +76698,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 5444
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "3000 / Viva / Daily Series Kompakt Airfryer",
+    "minPrice": 5499,
+    "maxPrice": 6159
   },
   {
     "id": "philips-philips-3000-series-hd925291-airfryer",
@@ -68546,7 +76803,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 5444
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "3000 / Viva / Daily Series Kompakt Airfryer",
+    "minPrice": 5499,
+    "maxPrice": 6159
   },
   {
     "id": "philips-philips-hd618020",
@@ -68648,7 +76909,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 3464
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Geleneksel Yağlı Fritöz",
+    "minPrice": 3499,
+    "maxPrice": 3919
   },
   {
     "id": "philips-philips-hd615952",
@@ -68750,7 +77015,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 3464
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Geleneksel Yağlı Fritöz",
+    "minPrice": 3499,
+    "maxPrice": 3919
   },
   {
     "id": "philips-philips-xxl-hd975020-airfryer",
@@ -68853,7 +77122,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 9800
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Premium XXL Twin TurboStar Airfryer",
+    "minPrice": 9899,
+    "maxPrice": 11087
   },
   {
     "id": "philips-philips-hd925210-airfryer",
@@ -68954,7 +77227,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 5444
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "3000 / Viva / Daily Series Kompakt Airfryer",
+    "minPrice": 5499,
+    "maxPrice": 6159
   },
   {
     "id": "philips-philips-hd6157",
@@ -69056,7 +77333,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 3464
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Geleneksel Yağlı Fritöz",
+    "minPrice": 3499,
+    "maxPrice": 3919
   },
   {
     "id": "philips-philips-avance-collection-xl-hd924030-airfryer-siyah",
@@ -69158,7 +77439,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7820
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Avance Collection XL Airfryer",
+    "minPrice": 7899,
+    "maxPrice": 8847
   },
   {
     "id": "philips-philips-avance-collection-xl-hd924030-airfryer-beyaz",
@@ -69260,7 +77545,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7820
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Avance Collection XL Airfryer",
+    "minPrice": 7899,
+    "maxPrice": 8847
   },
   {
     "id": "philips-philips-hd-6134",
@@ -69362,7 +77651,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 3464
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Geleneksel Yağlı Fritöz",
+    "minPrice": 3499,
+    "maxPrice": 3919
   },
   {
     "id": "philips-philips-premium-hd974110-airfryer",
@@ -69464,7 +77757,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6434
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "TurboStar & Viva Collection Airfryer",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "philips-philips-daily-collection-hd921680-airfryer",
@@ -69565,7 +77862,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 4949
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "3000 / Viva / Daily Series Kompakt Airfryer",
+    "minPrice": 4999,
+    "maxPrice": 5599
   },
   {
     "id": "philips-philips-viva-collection-hd962180-airfryer",
@@ -69667,7 +77968,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6434
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "TurboStar & Viva Collection Airfryer",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "philips-philips-turbostar-hd962190-airfryer",
@@ -69769,7 +78074,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6434
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "TurboStar & Viva Collection Airfryer",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "philips-philips-turbostar-hd964190-airfryer",
@@ -69871,7 +78180,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6434
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "TurboStar & Viva Collection Airfryer",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "philips-philips-avance-collection-hd964220-airfryer",
@@ -69973,7 +78286,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6434
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "TurboStar & Viva Collection Airfryer",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "philips-philips-viva-collection-digitaler-hd923620-airfryer",
@@ -70074,7 +78391,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 5444
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "3000 / Viva / Daily Series Kompakt Airfryer",
+    "minPrice": 5499,
+    "maxPrice": 6159
   },
   {
     "id": "philips-philips-hd922040-airfryer",
@@ -70175,7 +78496,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 4949
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "3000 / Viva / Daily Series Kompakt Airfryer",
+    "minPrice": 4999,
+    "maxPrice": 5599
   },
   {
     "id": "philips-philips-viva-collection-hd962196-airfryer",
@@ -70277,7 +78602,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 6434
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "TurboStar & Viva Collection Airfryer",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "philips-philips-premium-hd976290-airfryer",
@@ -70380,7 +78709,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 12869
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Premium XXL Twin TurboStar Airfryer",
+    "minPrice": 12999,
+    "maxPrice": 14559
   },
   {
     "id": "philips-philips-avance-collection-xl-hd924090-airfryer",
@@ -70482,7 +78815,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 7820
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Avance Collection XL Airfryer",
+    "minPrice": 7899,
+    "maxPrice": 8847
   },
   {
     "id": "philips-philips-turbostar-hd962120-airfryer",
@@ -70583,7 +78920,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 5444
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Viva Collection TurboStar Airfryer",
+    "minPrice": 5499,
+    "maxPrice": 6159
   },
   {
     "id": "philips-philips-turbostar-hd964000-airfryer",
@@ -70685,7 +79026,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 5939
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Avance TurboStar Dijital Airfryer",
+    "minPrice": 5999,
+    "maxPrice": 6719
   },
   {
     "id": "philips-philips-essential-hd921851-airfryer",
@@ -70787,7 +79132,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 4751
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Essential Daily Collection Airfryer",
+    "minPrice": 4799,
+    "maxPrice": 5375
   },
   {
     "id": "philips-philips-hd610370",
@@ -70888,7 +79237,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "date": "2025-02",
         "price": 2870
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Geleneksel Yağlı Fritöz",
+    "minPrice": 2899,
+    "maxPrice": 3247
   },
   {
     "id": "arcelik-telve-k-3300",
@@ -70966,7 +79319,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 3499,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "coffee_machine",
+    "subCategoryLabel": "Türk Kahvesi Makinesi",
+    "minPrice": 3499,
+    "maxPrice": 3919
   },
   {
     "id": "arcelik-imperium-telve-k-3400",
@@ -71026,7 +79383,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 8999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "coffee_machine",
+    "subCategoryLabel": "Türk Kahvesi Makinesi",
+    "minPrice": 8999,
+    "maxPrice": 10079
   },
   {
     "id": "arcelik-gurme-k-3285-ci",
@@ -71086,7 +79447,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 5499,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "tea_maker",
+    "subCategoryLabel": "Çay Makinesi",
+    "minPrice": 5499,
+    "maxPrice": 6159
   },
   {
     "id": "arcelik-fra-4244-resital",
@@ -71146,7 +79511,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 6499,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "airfryer",
+    "subCategoryLabel": "Airfryer & Fritöz",
+    "minPrice": 6499,
+    "maxPrice": 7279
   },
   {
     "id": "arcelik-12325-ekolojik-inverter",
@@ -71224,7 +79593,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 27999,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "air_conditioner",
+    "subCategoryLabel": "Klima",
+    "minPrice": 27999,
+    "maxPrice": 31359
   },
   {
     "id": "arcelik-18325-ekolojik-inverter",
@@ -71283,7 +79656,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 36999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "air_conditioner",
+    "subCategoryLabel": "Klima",
+    "minPrice": 36999,
+    "maxPrice": 41439
   },
   {
     "id": "arcelik-1045-sp",
@@ -71340,7 +79717,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 7999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "water_dispenser",
+    "subCategoryLabel": "Su Sebili",
+    "minPrice": 7999,
+    "maxPrice": 8959
   },
   {
     "id": "philips-add4902bk",
@@ -71397,7 +79778,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 9499,
         "store": "Trendyol"
       }
-    ]
+    ],
+    "subCategory": "water_dispenser",
+    "subCategoryLabel": "Su Sebili",
+    "minPrice": 9499,
+    "maxPrice": 10639
   },
   {
     "id": "arcelik-09325-ekolojik",
@@ -71454,7 +79839,11 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 23999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "air_conditioner",
+    "subCategoryLabel": "Klima",
+    "minPrice": 23999,
+    "maxPrice": 26879
   },
   {
     "id": "arcelik-24325-ekolojik",
@@ -71511,6 +79900,10 @@ export const mockAppliances: ApplianceProduct[] = [
         "price": 42999,
         "store": "Hepsiburada"
       }
-    ]
+    ],
+    "subCategory": "air_conditioner",
+    "subCategoryLabel": "Klima",
+    "minPrice": 42999,
+    "maxPrice": 48159
   }
 ];

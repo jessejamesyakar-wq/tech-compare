@@ -118,7 +118,7 @@ export default function ApplianceDetailClient({ initialApplianceProduct }: { ini
                 </span>
                 <div className="flex items-baseline gap-2">
                   <span className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
-                    {product.basePrice.toLocaleString('tr-TR')}
+                    {(product.basePrice || product.minPrice || 0).toLocaleString('tr-TR')}
                   </span>
                   <span className="text-base font-bold text-emerald-700">TL</span>
                 </div>
@@ -221,6 +221,106 @@ export default function ApplianceDetailClient({ initialApplianceProduct }: { ini
             </div>
           )}
 
+          {product.specs.energyClass && (
+            <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 flex items-center gap-3">
+              <Sparkles className="w-5 h-5 text-emerald-600" />
+              <div>
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Enerji Sınıfı</span>
+                <span className="text-xs font-black text-emerald-700">{product.specs.energyClass} Sınıfı</span>
+              </div>
+            </div>
+          )}
+
+          {product.specs.volumeLiters && (
+            <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 flex items-center gap-3">
+              <Layers className="w-5 h-5 text-emerald-600" />
+              <div>
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Net Hacim</span>
+                <span className="text-xs font-black text-slate-900">{product.specs.volumeLiters} Litre</span>
+              </div>
+            </div>
+          )}
+
+          {product.specs.capacityKg && (
+            <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 flex items-center gap-3">
+              <Layers className="w-5 h-5 text-emerald-600" />
+              <div>
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Kapasite</span>
+                <span className="text-xs font-black text-slate-900">{product.specs.capacityKg} kg</span>
+              </div>
+            </div>
+          )}
+
+          {product.specs.spinSpeedRpm && (
+            <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 flex items-center gap-3">
+              <Gauge className="w-5 h-5 text-emerald-600" />
+              <div>
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Sıkma Hızı</span>
+                <span className="text-xs font-black text-slate-900">{product.specs.spinSpeedRpm} Devir / Dakika</span>
+              </div>
+            </div>
+          )}
+
+          {product.specs.btuCapacity && (
+            <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 flex items-center gap-3">
+              <Zap className="w-5 h-5 text-emerald-600" />
+              <div>
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Klima Kapasitesi</span>
+                <span className="text-xs font-black text-slate-900">{product.specs.btuCapacity.toLocaleString('tr-TR')} BTU/h</span>
+              </div>
+            </div>
+          )}
+
+          {product.specs.placeSettings && (
+            <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 flex items-center gap-3">
+              <Layers className="w-5 h-5 text-emerald-600" />
+              <div>
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Yıkama Kapasitesi</span>
+                <span className="text-xs font-black text-slate-900">{product.specs.placeSettings} Kişilik Yemek Takımı</span>
+              </div>
+            </div>
+          )}
+
+          {product.specs.drawerCount && (
+            <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 flex items-center gap-3">
+              <Layers className="w-5 h-5 text-emerald-600" />
+              <div>
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Bölme Düzeni</span>
+                <span className="text-xs font-black text-slate-900">{product.specs.drawerCount} Çekmeceli</span>
+              </div>
+            </div>
+          )}
+
+          {product.specs.motorType && (
+            <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 flex items-center gap-3">
+              <PlugZap className="w-5 h-5 text-emerald-600" />
+              <div>
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Motor Teknolojisi</span>
+                <span className="text-xs font-black text-slate-900">{product.specs.motorType}</span>
+              </div>
+            </div>
+          )}
+
+          {product.specs.noiseDb && (
+            <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 flex items-center gap-3">
+              <Volume2 className="w-5 h-5 text-emerald-600" />
+              <div>
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Ses Seviyesi</span>
+                <span className="text-xs font-black text-slate-900">{product.specs.noiseDb} dB</span>
+              </div>
+            </div>
+          )}
+
+          {product.specs.refrigeratorType && (
+            <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 flex items-center gap-3">
+              <Layers className="w-5 h-5 text-emerald-600" />
+              <div>
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Dolap Tipi</span>
+                <span className="text-xs font-black text-slate-900">{product.specs.refrigeratorType}</span>
+              </div>
+            </div>
+          )}
+
           {product.specs.color && (
             <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 flex items-center gap-3">
               <Sparkles className="w-5 h-5 text-emerald-600" />
@@ -304,14 +404,14 @@ export default function ApplianceDetailClient({ initialApplianceProduct }: { ini
       </div>
 
       {/* Stores Price Comparison Table */}
-      <StoreTable offers={product.storeOffers} currency={product.currency} />
+      <StoreTable offers={product.storeOffers} currency={product.currency || 'TL'} />
 
       {/* 6-Month Price History Chart */}
-      <PriceHistoryChart data={product.priceHistory} currency={product.currency} />
+      <PriceHistoryChart data={product.priceHistory} currency={product.currency || 'TL'} />
 
       {/* Price Alert Modal */}
       <PriceAlertModal
-        phone={product}
+        phone={product as any}
         isOpen={alertModalOpen}
         onClose={() => setAlertModalOpen(false)}
       />
