@@ -12,9 +12,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-cafe-gaia-hd7548-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-cafe-gaia-hd7548-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -78,9 +78,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 95,
     "reviewCount": 380,
-    "image": "/images/appliances/philips-senseo-csa250-10.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-senseo-csa250-10.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -145,9 +145,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 290,
-    "image": "/images/appliances/philips-senseo-csa230-50.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-senseo-csa230-50.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -211,9 +211,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 340,
-    "image": "/images/appliances/philips-hr1565-40.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hr1565-40.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -276,9 +276,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 620,
-    "image": "/images/appliances/philips-hd5416-60.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hd5416-60.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -344,9 +344,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 92,
     "reviewCount": 920,
-    "image": "/images/appliances/philips-senseo-hd6553.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-senseo-hd6553.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -410,9 +410,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 480,
-    "image": "/images/appliances/philips-hr1364.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hr1364.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -475,9 +475,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 790,
-    "image": "/images/appliances/philips-hd5120-00.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hd5120-00.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -542,9 +542,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 3800,
-    "image": "/images/appliances/philips-hd7462-20.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hd7462-20.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -608,9 +608,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 3100,
-    "image": "/images/appliances/philips-hd7461-20.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hd7461-20.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -674,9 +674,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 3600,
-    "image": "/images/appliances/philips-hd7459-filtre-kahve-makinesi.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hd7459-filtre-kahve-makinesi.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -741,9 +741,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-gc4860-22.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc4860-22.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -808,9 +808,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 380,
-    "image": "/images/appliances/philips-gc4870-35.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc4870-35.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -876,9 +876,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-gc4870-22.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc4870-22.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -943,9 +943,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 95,
     "reviewCount": 520,
-    "image": "/images/appliances/philips-gc4930-11.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc4930-11.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1011,9 +1011,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 92,
     "reviewCount": 380,
-    "image": "/images/appliances/philips-gc4551-20.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc4551-20.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1078,9 +1078,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 460,
-    "image": "/images/appliances/philips-gc4567-80.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc4567-80.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1146,9 +1146,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 680,
-    "image": "/images/appliances/philips-gc3929-64.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc3929-64.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1213,9 +1213,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 92,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-gc4554-40.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc4554-40.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1280,9 +1280,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 390,
-    "image": "/images/appliances/philips-gc4850-22.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc4850-22.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1347,9 +1347,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 92,
     "reviewCount": 450,
-    "image": "/images/appliances/philips-gc4552-00.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc4552-00.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1415,9 +1415,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 92,
     "reviewCount": 890,
-    "image": "/images/appliances/philips-dst3040-70.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-dst3040-70.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1482,9 +1482,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 92,
     "reviewCount": 780,
-    "image": "/images/appliances/philips-gc4860-37.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc4860-37.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1549,9 +1549,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 920,
-    "image": "/images/appliances/philips-gc4537-70.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc4537-70.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1616,9 +1616,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 2600,
-    "image": "/images/appliances/philips-dst7022-40.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-dst7022-40.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -1683,9 +1683,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-hr7310-00.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hr7310-00.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1748,9 +1748,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 1900,
-    "image": "/images/appliances/philips-hd7546-20.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hd7546-20.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -1815,9 +1815,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 98,
     "reviewCount": 780,
-    "image": "/images/appliances/philips-hc9450-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hc9450-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -1881,9 +1881,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 95,
     "reviewCount": 340,
-    "image": "/images/appliances/philips-gc4909-60.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc4909-60.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -1948,9 +1948,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 96,
     "reviewCount": 480,
-    "image": "/images/appliances/philips-dst8020-20.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-dst8020-20.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -2016,9 +2016,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 93,
     "reviewCount": 280,
-    "image": "/images/appliances/philips-gc5060-02.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc5060-02.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -2083,9 +2083,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 92,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-gc4902-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc4902-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -2150,9 +2150,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 520,
-    "image": "/images/appliances/philips-gc4905-40.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc4905-40.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -2218,9 +2218,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 95,
     "reviewCount": 620,
-    "image": "/images/appliances/philips-gc5034-20.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc5034-20.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -2285,9 +2285,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 95,
     "reviewCount": 940,
-    "image": "/images/appliances/philips-dst8021-30.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-dst8021-30.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -2352,9 +2352,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 450,
-    "image": "/images/appliances/philips-dst7051-30.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-dst7051-30.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -2420,9 +2420,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 92,
     "reviewCount": 880,
-    "image": "/images/appliances/philips-gc4564-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc4564-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -2487,9 +2487,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 1600,
-    "image": "/images/appliances/philips-dst7020-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-dst7020-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -2554,9 +2554,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 1900,
-    "image": "/images/appliances/philips-dst7040-80.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-dst7040-80.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -2621,9 +2621,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 1400,
-    "image": "/images/appliances/philips-dst7031-70.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-dst7031-70.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -2689,9 +2689,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 2200,
-    "image": "/images/appliances/philips-dst7041-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-dst7041-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -2756,9 +2756,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 2400,
-    "image": "/images/appliances/philips-dst7030-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-dst7030-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -2823,9 +2823,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 520,
-    "image": "/images/appliances/philips-l-or-barista-lm8012-60.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-l-or-barista-lm8012-60.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -2891,9 +2891,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 97,
     "reviewCount": 380,
-    "image": "/images/appliances/philips-hd7888-01-all-in-1-brew.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hd7888-01-all-in-1-brew.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -2958,9 +2958,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-hr2203-80.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hr2203-80.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -3024,9 +3024,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 290,
-    "image": "/images/appliances/philips-hd9365-10.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hd9365-10.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -3089,9 +3089,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 2900,
-    "image": "/images/appliances/philips-5000-hd9339-80.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-5000-hd9339-80.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -3154,9 +3154,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 3400,
-    "image": "/images/appliances/philips-hd2581.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hd2581.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -3219,9 +3219,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 2100,
-    "image": "/images/appliances/philips-hd9318-20.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hd9318-20.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -3284,9 +3284,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 98,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-gc5037-80.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc5037-80.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -3351,9 +3351,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 190,
-    "image": "/images/appliances/philips-hi5910-20.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hi5910-20.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -3420,9 +3420,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 96,
     "reviewCount": 380,
-    "image": "/images/appliances/philips-gc5032-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc5032-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -3487,9 +3487,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 95,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-gc5036-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc5036-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -3554,9 +3554,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 97,
     "reviewCount": 1800,
-    "image": "/images/appliances/philips-dst8050-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-dst8050-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -3622,9 +3622,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 96,
     "reviewCount": 1400,
-    "image": "/images/appliances/philips-dst8040-30.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-dst8040-30.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -3689,9 +3689,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 95,
     "reviewCount": 980,
-    "image": "/images/appliances/philips-dst8030-70.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-dst8030-70.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -3756,9 +3756,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 95,
     "reviewCount": 1600,
-    "image": "/images/appliances/philips-dst7510-80.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-dst7510-80.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -3824,9 +3824,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 1100,
-    "image": "/images/appliances/philips-dst7061-30.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-dst7061-30.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -3891,9 +3891,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 95,
     "reviewCount": 1500,
-    "image": "/images/appliances/philips-dst7511-80.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-dst7511-80.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -3958,9 +3958,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 180,
-    "image": "/images/appliances/philips-bhd029-00.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-bhd029-00.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -4022,9 +4022,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 220,
-    "image": "/images/appliances/philips-hp4935-22.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hp4935-22.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -4087,9 +4087,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 340,
-    "image": "/images/appliances/philips-bhd274-00.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-bhd274-00.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -4151,9 +4151,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 2200,
-    "image": "/images/appliances/philips-hc5630-15.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hc5630-15.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -4218,9 +4218,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 92,
     "reviewCount": 3800,
-    "image": "/images/appliances/philips-mg3710-15.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-mg3710-15.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -4283,9 +4283,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 3100,
-    "image": "/images/appliances/philips-bhd350-10.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-bhd350-10.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -4347,9 +4347,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 380,
-    "image": "/images/appliances/philips-senseo-select-csa240.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-senseo-select-csa240.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -4415,9 +4415,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 340,
-    "image": "/images/appliances/philips-hd2650-90.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hd2650-90.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -4479,9 +4479,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 1850,
-    "image": "/images/appliances/philips-hd4646-20.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hd4646-20.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -4545,9 +4545,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 97,
     "reviewCount": 940,
-    "image": "/images/appliances/philips-dst8070-80.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-dst8070-80.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -4612,9 +4612,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-hi5922-30.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hi5922-30.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -4680,9 +4680,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 220,
-    "image": "/images/appliances/philips-bhd290-00.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-bhd290-00.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -4744,9 +4744,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 390,
-    "image": "/images/appliances/philips-hp8230-50.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hp8230-50.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -4808,9 +4808,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 3800,
-    "image": "/images/appliances/philips-bhd500.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-bhd500.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -4872,9 +4872,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-hr2156-90.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hr2156-90.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -4937,9 +4937,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.6,
     "epeyScore": 89,
     "reviewCount": 280,
-    "image": "/images/appliances/philips-hr2602.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hr2602.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -5003,9 +5003,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 410,
-    "image": "/images/appliances/philips-hd2640-10.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hd2640-10.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -5067,9 +5067,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 390,
-    "image": "/images/appliances/philips-gc9420-80.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc9420-80.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -5136,9 +5136,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 320,
-    "image": "/images/appliances/philips-gc6800-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc6800-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -5204,9 +5204,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 3200,
-    "image": "/images/appliances/philips-nt1650.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-nt1650.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -5268,9 +5268,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 480,
-    "image": "/images/appliances/philips-hd2151-62.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hd2151-62.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -5334,9 +5334,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 320,
-    "image": "/images/appliances/philips-hd9359-90.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hd9359-90.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -5402,9 +5402,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.6,
     "epeyScore": 88,
     "reviewCount": 180,
-    "image": "/images/appliances/philips-hd2566-70.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hd2566-70.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -5466,9 +5466,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 98,
     "reviewCount": 95,
-    "image": "/images/appliances/philips-ais8540-80.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-ais8540-80.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -5534,9 +5534,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 140,
-    "image": "/images/appliances/philips-hi5918-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hi5918-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -5602,9 +5602,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 160,
-    "image": "/images/appliances/philips-hi5920-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hi5920-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -5671,9 +5671,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-gc6707-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc6707-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -5739,9 +5739,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 290,
-    "image": "/images/appliances/philips-gc6802-30.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc6802-30.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -5808,9 +5808,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-gc6820-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc6820-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -5876,9 +5876,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.6,
     "epeyScore": 89,
     "reviewCount": 380,
-    "image": "/images/appliances/philips-bg1026-60.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-bg1026-60.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -5939,9 +5939,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 4800,
-    "image": "/images/appliances/philips-nt3650-16.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-nt3650-16.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -6003,9 +6003,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 3100,
-    "image": "/images/appliances/philips-hd2590-90.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hd2590-90.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -6068,9 +6068,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 380,
-    "image": "/images/appliances/philips-gc6833-30.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc6833-30.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -6136,9 +6136,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 920,
-    "image": "/images/appliances/philips-gc7920-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc7920-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -6205,9 +6205,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 450,
-    "image": "/images/appliances/philips-gc6734-20.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc6734-20.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -6273,9 +6273,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 2900,
-    "image": "/images/appliances/philips-qp2620-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-qp2620-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -6338,9 +6338,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 1650,
-    "image": "/images/appliances/philips-bt5515-15.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-bt5515-15.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -6404,9 +6404,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 2800,
-    "image": "/images/appliances/philips-hd9350-90.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hd9350-90.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -6471,9 +6471,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 750,
-    "image": "/images/appliances/philips-hd2637-10.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hd2637-10.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -6536,9 +6536,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-gc8717-20.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc8717-20.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -6604,9 +6604,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 520,
-    "image": "/images/appliances/philips-gc6815-20.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc6815-20.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -6672,9 +6672,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.6,
     "epeyScore": 88,
     "reviewCount": 680,
-    "image": "/images/appliances/philips-psg2000-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-psg2000-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -6741,9 +6741,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-hp8233-00.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hp8233-00.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -6804,9 +6804,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 3400,
-    "image": "/images/appliances/philips-bhd510-00.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-bhd510-00.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -6867,9 +6867,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.6,
     "epeyScore": 89,
     "reviewCount": 620,
-    "image": "/images/appliances/philips-bg1024-16.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-bg1024-16.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -6930,9 +6930,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 1890,
-    "image": "/images/appliances/philips-qp2520-30.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-qp2520-30.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -6995,9 +6995,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 4200,
-    "image": "/images/appliances/philips-bg1024-15.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-bg1024-15.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -7059,9 +7059,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 95,
-    "image": "/images/appliances/philips-gc9325-30.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc9325-30.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -7128,9 +7128,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 680,
-    "image": "/images/appliances/philips-gc6842-30.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc6842-30.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -7197,9 +7197,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 390,
-    "image": "/images/appliances/philips-psg3000-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-psg3000-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -7265,9 +7265,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-psg3000-30.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-psg3000-30.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -7334,9 +7334,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.6,
     "epeyScore": 88,
     "reviewCount": 890,
-    "image": "/images/appliances/philips-s1223-41.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-s1223-41.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -7398,9 +7398,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 1450,
-    "image": "/images/appliances/philips-qp2510-11.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-qp2510-11.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -7462,9 +7462,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 1400,
-    "image": "/images/appliances/philips-hd7301-00.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hd7301-00.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -7529,9 +7529,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 880,
-    "image": "/images/appliances/philips-ep2231-40.jpg",
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-ep2231-40.jpg"
+      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -7597,9 +7597,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 1600,
-    "image": "/images/appliances/philips-ep2220-10.jpg",
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-ep2220-10.jpg"
+      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -7664,9 +7664,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 95,
     "reviewCount": 180,
-    "image": "/images/appliances/philips-gc9324-20.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc9324-20.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -7733,9 +7733,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 290,
-    "image": "/images/appliances/philips-gc8723-20.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc8723-20.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -7801,9 +7801,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 350,
-    "image": "/images/appliances/philips-gc9330-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc9330-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -7869,9 +7869,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-gc7844-20.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc7844-20.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -7938,9 +7938,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 380,
-    "image": "/images/appliances/philips-gc9315-30.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc9315-30.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -8006,9 +8006,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-gc8721-30.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc8721-30.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -8074,9 +8074,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 490,
-    "image": "/images/appliances/philips-gc7933-30.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc7933-30.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -8143,9 +8143,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 360,
-    "image": "/images/appliances/philips-7014-10.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-7014-10.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -8211,9 +8211,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 520,
-    "image": "/images/appliances/philips-gc8752-30.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc8752-30.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -8279,9 +8279,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 540,
-    "image": "/images/appliances/philips-bg3015-15.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-bg3015-15.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -8343,9 +8343,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 780,
-    "image": "/images/appliances/philips-bg3017-01.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-bg3017-01.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -8408,9 +8408,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 920,
-    "image": "/images/appliances/philips-bg3010-15.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-bg3010-15.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -8472,9 +8472,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 3100,
-    "image": "/images/appliances/philips-qp2520-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-qp2520-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -8537,9 +8537,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 98,
     "reviewCount": 440,
-    "image": "/images/appliances/philips-ep5144-70.jpg",
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-ep5144-70.jpg"
+      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -8605,9 +8605,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 950,
-    "image": "/images/appliances/philips-ep2220-40.jpg",
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-ep2220-40.jpg"
+      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -8672,9 +8672,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.6,
     "epeyScore": 89,
     "reviewCount": 390,
-    "image": "/images/appliances/philips-ep0820-00.jpg",
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-ep0820-00.jpg"
+      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -8739,9 +8739,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 97,
     "reviewCount": 210,
-    "image": "/images/appliances/philips-gc8962-40.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc8962-40.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -8808,9 +8808,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 390,
-    "image": "/images/appliances/philips-psg7150-30.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-psg7150-30.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -8876,9 +8876,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-gc9640-60.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc9640-60.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -8944,9 +8944,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-psg7024-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-psg7024-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -9012,9 +9012,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 91,
     "reviewCount": 650,
-    "image": "/images/appliances/philips-psg6024-30.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-psg6024-30.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -9080,9 +9080,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 90,
     "reviewCount": 580,
-    "image": "/images/appliances/philips-psg6026-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-psg6026-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -9148,9 +9148,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 98,
     "reviewCount": 410,
-    "image": "/images/appliances/philips-mg7750-49.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-mg7750-49.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -9214,9 +9214,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-bg5020-15.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-bg5020-15.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -9278,9 +9278,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 780,
-    "image": "/images/appliances/philips-s5445-03.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-s5445-03.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -9343,9 +9343,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 1200,
-    "image": "/images/appliances/philips-qp2824-10.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-qp2824-10.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -9407,9 +9407,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 2200,
-    "image": "/images/appliances/philips-qp2724-10.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-qp2724-10.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -9472,9 +9472,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 98,
     "reviewCount": 520,
-    "image": "/images/appliances/philips-ep5443-70.jpg",
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-ep5443-70.jpg"
+      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -9540,9 +9540,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 95,
     "reviewCount": 380,
-    "image": "/images/appliances/philips-ep4346-70.png",
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-ep4346-70.png"
+      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -9607,9 +9607,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 97,
     "reviewCount": 940,
-    "image": "/images/appliances/philips-ep5447-90.jpg",
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-ep5447-90.jpg"
+      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -9674,9 +9674,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 810,
-    "image": "/images/appliances/philips-ep3246-70.jpg",
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-ep3246-70.jpg"
+      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -9741,9 +9741,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 1100,
-    "image": "/images/appliances/philips-ep3347-90.jpg",
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-ep3347-90.jpg"
+      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -9809,9 +9809,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 680,
-    "image": "/images/appliances/philips-ep1220-00.jpg",
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-ep1220-00.jpg"
+      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -9876,9 +9876,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 920,
-    "image": "/images/appliances/philips-ep2331-10.jpg",
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-ep2331-10.jpg"
+      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -9943,9 +9943,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.6,
     "epeyScore": 88,
     "reviewCount": 190,
-    "image": "/images/appliances/philips-hd4407-20.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hd4407-20.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2023,
     "isPopular": false,
@@ -10006,9 +10006,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 95,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-psg7040-10.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-psg7040-10.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -10074,9 +10074,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 94,
     "reviewCount": 480,
-    "image": "/images/appliances/philips-gc9635-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc9635-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -10142,9 +10142,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 91,
     "reviewCount": 720,
-    "image": "/images/appliances/philips-psg6042-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-psg6042-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -10210,9 +10210,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-qp6520-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-qp6520-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -10275,9 +10275,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 97,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-bg7025-15.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-bg7025-15.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -10340,9 +10340,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 650,
-    "image": "/images/appliances/philips-qp6550-15.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-qp6550-15.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -10404,9 +10404,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 480,
-    "image": "/images/appliances/philips-qp6530-15.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-qp6530-15.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -10468,9 +10468,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 390,
-    "image": "/images/appliances/philips-bg5021-16.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-bg5021-16.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -10533,9 +10533,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 890,
-    "image": "/images/appliances/philips-mg5730-15.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-mg5730-15.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -10597,9 +10597,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 760,
-    "image": "/images/appliances/philips-mg5940-15.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-mg5940-15.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -10662,9 +10662,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 450,
-    "image": "/images/appliances/philips-mg5950-15.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-mg5950-15.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -10726,9 +10726,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 91,
     "reviewCount": 520,
-    "image": "/images/appliances/philips-mg5920-15.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-mg5920-15.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -10790,9 +10790,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 840,
-    "image": "/images/appliances/philips-s1323-41.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-s1323-41.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -10854,9 +10854,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 1400,
-    "image": "/images/appliances/philips-qp1424-10.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-qp1424-10.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -10919,9 +10919,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 91,
     "reviewCount": 1800,
-    "image": "/images/appliances/philips-qp2724-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-qp2724-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -10984,9 +10984,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 94,
     "reviewCount": 390,
-    "image": "/images/appliances/philips-psg8030-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-psg8030-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -11052,9 +11052,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 94,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-psg8050-30.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-psg8050-30.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -11120,9 +11120,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 95,
     "reviewCount": 650,
-    "image": "/images/appliances/philips-gc9682-80.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-gc9682-80.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -11189,9 +11189,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 91,
     "reviewCount": 140,
-    "image": "/images/appliances/philips-psg7200-30.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-psg7200-30.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -11257,9 +11257,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 90,
     "reviewCount": 230,
-    "image": "/images/appliances/philips-psg7200-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-psg7200-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -11325,9 +11325,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 280,
-    "image": "/images/appliances/philips-hd4467-90.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hd4467-90.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -11389,9 +11389,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 5,
     "epeyScore": 99,
     "reviewCount": 140,
-    "image": "/images/appliances/philips-s9721-41.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-s9721-41.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -11456,9 +11456,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-s3120-06.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-s3120-06.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -11520,9 +11520,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 91,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-s3133-51.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-s3133-51.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -11585,9 +11585,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 360,
-    "image": "/images/appliances/philips-mg5930-15.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-mg5930-15.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -11649,9 +11649,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 540,
-    "image": "/images/appliances/philips-x3063-00.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-x3063-00.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -11713,9 +11713,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.6,
     "epeyScore": 88,
     "reviewCount": 680,
-    "image": "/images/appliances/philips-x3021-00.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-x3021-00.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -11777,9 +11777,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-psg8130-80.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-psg8130-80.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -11845,9 +11845,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 180,
-    "image": "/images/appliances/philips-psg7300-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-psg7300-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -11913,9 +11913,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 160,
-    "image": "/images/appliances/philips-psg7300-70.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-psg7300-70.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -11981,9 +11981,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 94,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-psg8160-30.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-psg8160-30.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -12049,9 +12049,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 91,
     "reviewCount": 290,
-    "image": "/images/appliances/philips-psg7300-80.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-psg7300-80.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -12117,9 +12117,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 98,
     "reviewCount": 310,
-    "image": "/images/appliances/philips-s9987-85.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-s9987-85.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -12184,9 +12184,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 97,
     "reviewCount": 450,
-    "image": "/images/appliances/philips-sp9872-22.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-sp9872-22.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -12251,9 +12251,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 220,
-    "image": "/images/appliances/philips-s5880-81.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-s5880-81.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -12316,9 +12316,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 380,
-    "image": "/images/appliances/philips-mg7715-15.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-mg7715-15.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -12380,9 +12380,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 95,
     "reviewCount": 490,
-    "image": "/images/appliances/philips-mg7736-15.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-mg7736-15.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -12444,9 +12444,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 340,
-    "image": "/images/appliances/philips-mg7745-15.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-mg7745-15.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -12508,9 +12508,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 520,
-    "image": "/images/appliances/philips-mg7950-15.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-mg7950-15.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -12572,9 +12572,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 680,
-    "image": "/images/appliances/philips-s5887-10.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-s5887-10.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -12636,9 +12636,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-mg7930-15.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-mg7930-15.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -12700,9 +12700,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 780,
-    "image": "/images/appliances/philips-s3144-00.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-s3144-00.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -12764,9 +12764,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 5,
     "epeyScore": 98,
     "reviewCount": 420,
-    "image": "/images/appliances/philips-psg9050-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-psg9050-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -12866,9 +12866,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 95,
     "reviewCount": 275,
-    "image": "/images/appliances/philips-psg8300-30.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-psg8300-30.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -12949,9 +12949,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 94,
     "reviewCount": 312,
-    "image": "/images/appliances/philips-psg8300-20.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-psg8300-20.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -13017,9 +13017,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 93,
     "reviewCount": 145,
-    "image": "/images/appliances/philips-psg8200-70.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-psg8200-70.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -13085,9 +13085,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 96,
     "reviewCount": 198,
-    "image": "/images/appliances/philips-shaver-s9711-31.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-shaver-s9711-31.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -13152,9 +13152,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 97,
     "reviewCount": 650,
-    "image": "/images/appliances/philips-mg7720-15.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-mg7720-15.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -13219,9 +13219,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 390,
-    "image": "/images/appliances/philips-norelco-7000.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-norelco-7000.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -13283,9 +13283,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 95,
     "reviewCount": 260,
-    "image": "/images/appliances/philips-s8692-35.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-s8692-35.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -13348,9 +13348,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 410,
-    "image": "/images/appliances/philips-s5587-10.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-s5587-10.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -13412,9 +13412,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 94,
     "reviewCount": 610,
-    "image": "/images/appliances/philips-mg7940-15.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-mg7940-15.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -13476,9 +13476,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 540,
-    "image": "/images/appliances/philips-mg7920-15.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-mg7920-15.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -13540,9 +13540,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 90,
     "reviewCount": 320,
-    "image": "/images/appliances/philips-aquatouch-s5070.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-aquatouch-s5070.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2023,
     "isPopular": false,
@@ -13604,9 +13604,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 94,
     "reviewCount": 186,
-    "image": "/images/appliances/philips-sonicare-5100.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-sonicare-5100.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -13667,9 +13667,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 195,
-    "image": "/images/appliances/philips-hr3770-00.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-hr3770-00.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -13731,9 +13731,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 89,
     "reviewCount": 520,
-    "image": "/images/appliances/philips-alkaline-aa-12li.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-alkaline-aa-12li.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -13792,9 +13792,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 92,
     "reviewCount": 380,
-    "image": "/images/appliances/roborock-1041447.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1041447.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -13875,9 +13875,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 91,
     "reviewCount": 340,
-    "image": "/images/appliances/roborock-1041296.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1041296.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -13943,9 +13943,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 90,
     "reviewCount": 220,
-    "image": "/images/appliances/roborock-986568.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-986568.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -14011,9 +14011,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 89,
     "reviewCount": 310,
-    "image": "/images/appliances/roborock-1057912.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1057912.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -14079,9 +14079,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 90,
     "reviewCount": 290,
-    "image": "/images/appliances/roborock-1027319.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1027319.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -14147,9 +14147,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 89,
     "reviewCount": 310,
-    "image": "/images/appliances/roborock-1009676.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1009676.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -14215,9 +14215,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 90,
     "reviewCount": 420,
-    "image": "/images/appliances/roborock-986489.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-986489.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -14283,9 +14283,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 89,
     "reviewCount": 380,
-    "image": "/images/appliances/roborock-1037345.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1037345.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -14351,9 +14351,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 89,
     "reviewCount": 350,
-    "image": "/images/appliances/roborock-1068883.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1068883.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -14420,9 +14420,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 88,
     "reviewCount": 310,
-    "image": "/images/appliances/roborock-1063837.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1063837.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -14488,9 +14488,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 88,
     "reviewCount": 340,
-    "image": "/images/appliances/roborock-1027243.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1027243.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -14556,9 +14556,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 88,
     "reviewCount": 290,
-    "image": "/images/appliances/roborock-1063859.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1063859.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -14624,9 +14624,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 87,
     "reviewCount": 310,
-    "image": "/images/appliances/roborock-1047129.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1047129.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -14692,9 +14692,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 87,
     "reviewCount": 380,
-    "image": "/images/appliances/roborock-1057325.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1057325.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -14760,9 +14760,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 88,
     "reviewCount": 320,
-    "image": "/images/appliances/roborock-1063627.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1063627.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -14829,9 +14829,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 88,
     "reviewCount": 420,
-    "image": "/images/appliances/roborock-1037511.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1037511.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -14898,9 +14898,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 87,
     "reviewCount": 390,
-    "image": "/images/appliances/roborock-1025041.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1025041.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -14966,9 +14966,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 86,
     "reviewCount": 260,
-    "image": "/images/appliances/roborock-1063625.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1063625.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -15034,9 +15034,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 86,
     "reviewCount": 380,
-    "image": "/images/appliances/roborock-1019019.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1019019.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -15102,9 +15102,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 86,
     "reviewCount": 650,
-    "image": "/images/appliances/roborock-1019033.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1019033.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": true,
@@ -15171,9 +15171,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 84,
     "reviewCount": 460,
-    "image": "/images/appliances/roborock-1032070.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1032070.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2025,
     "isPopular": false,
@@ -15239,9 +15239,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 5,
     "epeyScore": 97,
     "reviewCount": 780,
-    "image": "/images/appliances/dyson-1031692.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1031692.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -15308,9 +15308,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 92,
     "reviewCount": 940,
-    "image": "/images/appliances/roborock-918677.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-918677.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -15391,9 +15391,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 91,
     "reviewCount": 420,
-    "image": "/images/appliances/roborock-1008865.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1008865.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -15459,9 +15459,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 91,
     "reviewCount": 650,
-    "image": "/images/appliances/roborock-966620.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-966620.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -15527,9 +15527,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 91,
     "reviewCount": 520,
-    "image": "/images/appliances/roborock-993209.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-993209.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -15596,9 +15596,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 90,
     "reviewCount": 450,
-    "image": "/images/appliances/roborock-993440.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-993440.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -15665,9 +15665,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 94,
     "reviewCount": 450,
-    "image": "/images/appliances/dyson-1045254.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1045254.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -15734,9 +15734,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 96,
     "reviewCount": 620,
-    "image": "/images/appliances/dyson-1031675.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1031675.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -15802,9 +15802,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 95,
     "reviewCount": 920,
-    "image": "/images/appliances/dyson-1034296.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1034296.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -15879,9 +15879,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "4.8 Litre ve 3 Litre İkili Paslanmaz Çelik Kase",
       "Hamur Çengeli, Düz Çırpıcı ve Tel Çırpıcı Dahil"
     ],
-    "image": "https://images.unsplash.com/photo-1594385208974-2e75f8d7bb48?w=800&auto=format&fit=crop&q=80",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1594385208974-2e75f8d7bb48?w=800&auto=format&fit=crop&q=80"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "storeOffers": [
       {
@@ -15986,9 +15986,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 95,
     "reviewCount": 1650,
-    "image": "/images/appliances/dyson-1008262.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1008262.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -16055,9 +16055,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 92,
     "reviewCount": 880,
-    "image": "/images/appliances/dyson-1043155.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1043155.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -16133,9 +16133,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "Tek Tuşla Espresso & Long Coffee Hazırlama",
       "Çıkarılabilir Demleme Ünitesi ile Kolay ve Hijyenik Temizlik"
     ],
-    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=800&auto=format&fit=crop&q=80",
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=800&auto=format&fit=crop&q=80"
+      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80"
     ],
     "storeOffers": [
       {
@@ -16251,9 +16251,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "Mühürleme Takviyesi (Searing Boost) ile Restoran Kalitesinde Izgara Çizgileri",
       "12 Otomatik Program: Kırmızı Et, Tavuk, Burger, Balık, Tost, Sebze"
     ],
-    "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=800&auto=format&fit=crop&q=80",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=800&auto=format&fit=crop&q=80"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "storeOffers": [
       {
@@ -16359,9 +16359,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 88,
     "reviewCount": 490,
-    "image": "/images/appliances/roborock-985761.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-985761.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -16427,9 +16427,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 86,
     "reviewCount": 340,
-    "image": "/images/appliances/roborock-1006780.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1006780.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -16495,9 +16495,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 88,
     "reviewCount": 780,
-    "image": "/images/appliances/roborock-918691.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-918691.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -16563,9 +16563,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 88,
     "reviewCount": 670,
-    "image": "/images/appliances/roborock-993326.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-993326.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -16631,9 +16631,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 88,
     "reviewCount": 590,
-    "image": "/images/appliances/roborock-970301.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-970301.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -16699,9 +16699,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 86,
     "reviewCount": 410,
-    "image": "/images/appliances/roborock-1006781.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1006781.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -16767,9 +16767,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 86,
     "reviewCount": 780,
-    "image": "/images/appliances/roborock-1009050.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1009050.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -16835,9 +16835,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 87,
     "reviewCount": 470,
-    "image": "/images/appliances/roborock-1009199.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1009199.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -16903,9 +16903,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 87,
     "reviewCount": 410,
-    "image": "/images/appliances/roborock-935292.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-935292.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -16971,9 +16971,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 86,
     "reviewCount": 520,
-    "image": "/images/appliances/roborock-1017835.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1017835.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -17039,9 +17039,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 90,
     "reviewCount": 650,
-    "image": "/images/appliances/dyson-1057991.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1057991.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -17107,9 +17107,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 91,
     "reviewCount": 520,
-    "image": "/images/appliances/dyson-1036380.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1036380.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -17175,9 +17175,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 91,
     "reviewCount": 490,
-    "image": "/images/appliances/dyson-1045266.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1045266.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -17243,9 +17243,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 88,
     "reviewCount": 1400,
-    "image": "/images/appliances/dyson-1031704.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1031704.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -17311,9 +17311,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 91,
     "reviewCount": 1100,
-    "image": "/images/appliances/dyson-960522.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-960522.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -17389,9 +17389,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "Durilium AirGlide Autoclean Taban ile Zahmetsiz Kayganlık",
       "%100 Güvenli: Tüm Kumaşlarda Yanma Riski Olmadan Ütüleme"
     ],
-    "image": "https://images.philips.com/is/image/philipsconsumer/55pus8508_12-ims-tr?wid=960",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://images.philips.com/is/image/philipsconsumer/55pus8508_12-ims-tr?wid=960"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "storeOffers": [
       {
@@ -17506,9 +17506,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "VeSync Mobil Uygulama ile Wi-Fi Uzaktan Kontrol ve Tarifler",
       "12 Özelleştirilebilir Pişirme Programı ve Bulaşık Makinesinde Yıkanabilir"
     ],
-    "image": "https://images.unsplash.com/photo-1584992236310-6edddc08acff?w=800&auto=format&fit=crop&q=80",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1584992236310-6edddc08acff?w=800&auto=format&fit=crop&q=80"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "storeOffers": [
       {
@@ -17623,9 +17623,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "Akıllı Su Teknolojisi: Fincan Boyutunu Seçin, Suyu Otomatik Alsın",
       "Taşma Önleyici Akıllı Pişirme Sensörü & Dokunmatik Panel"
     ],
-    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=800&auto=format&fit=crop&q=80",
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=800&auto=format&fit=crop&q=80"
+      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80"
     ],
     "storeOffers": [
       {
@@ -17739,9 +17739,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "Karaca Connect Uygulaması ile Yataktan veya İşten Çayı Hazırlama",
       "Biberon Maması ve Filtre Kahve için Özel Sıcaklık Kademeleri"
     ],
-    "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=800&auto=format&fit=crop&q=80",
+    "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=800&auto=format&fit=crop&q=80"
+      "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=800&q=80"
     ],
     "storeOffers": [
       {
@@ -17856,9 +17856,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "BPA-Free 900 ml & 700 ml Taşınabilir Seyahat Bardakları",
       "Kolay Temizlenebilir, Saniyeler İçinde Karıştır ve Çık"
     ],
-    "image": "https://images.unsplash.com/photo-1570222094114-d054a817e56b?w=800&auto=format&fit=crop&q=80",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1570222094114-d054a817e56b?w=800&auto=format&fit=crop&q=80"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "storeOffers": [
       {
@@ -17964,9 +17964,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 85,
     "reviewCount": 310,
-    "image": "/images/appliances/roborock-1027546.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1027546.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -18041,9 +18041,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "LDS Lazer Navigasyon & Milimetrik Hassas Engelden Kaçınma",
       "Mi Home / Xiaomi Home ve Google Assistant Entegrasyonu"
     ],
-    "image": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=800&auto=format&fit=crop&q=80",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=800&auto=format&fit=crop&q=80"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "storeOffers": [
       {
@@ -18153,9 +18153,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 85,
     "reviewCount": 510,
-    "image": "/images/appliances/roborock-989529.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-989529.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -18221,9 +18221,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 84,
     "reviewCount": 380,
-    "image": "/images/appliances/roborock-1017829.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1017829.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -18289,9 +18289,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 87,
     "reviewCount": 890,
-    "image": "/images/appliances/dyson-1045271.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1045271.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -18358,9 +18358,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 84,
     "reviewCount": 390,
-    "image": "/images/appliances/roborock-966432.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-966432.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -18426,9 +18426,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 84,
     "reviewCount": 620,
-    "image": "/images/appliances/roborock-1009041.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1009041.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -18495,9 +18495,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 83,
     "reviewCount": 530,
-    "image": "/images/appliances/roborock-1007544.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1007544.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -18573,9 +18573,9 @@ export const mockAppliances: ApplianceProduct[] = [
       "Döküm Alüminyum Izgara Plakası ile Dumansız Izgara Deneyimi",
       "8 Otomatik Program & %70 Enerji Tasarrufu"
     ],
-    "image": "https://images.unsplash.com/photo-1584992236310-6edddc08acff?w=800&auto=format&fit=crop&q=80",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1584992236310-6edddc08acff?w=800&auto=format&fit=crop&q=80"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "storeOffers": [
       {
@@ -18681,9 +18681,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.6,
     "epeyScore": 82,
     "reviewCount": 310,
-    "image": "/images/appliances/roborock-1028939.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-1028939.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -18749,9 +18749,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 91,
     "reviewCount": 1420,
-    "image": "/images/appliances/roborock-845218.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-845218.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2023,
     "isPopular": true,
@@ -18817,9 +18817,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 92,
     "reviewCount": 380,
-    "image": "/images/appliances/roborock-916788.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-916788.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2023,
     "isPopular": true,
@@ -18885,9 +18885,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 95,
     "reviewCount": 2200,
-    "image": "/images/appliances/dyson-924664.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-924664.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2023,
     "isPopular": true,
@@ -18953,9 +18953,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 89,
     "reviewCount": 940,
-    "image": "/images/appliances/roborock-938988.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-938988.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2023,
     "isPopular": true,
@@ -19022,9 +19022,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 89,
     "reviewCount": 650,
-    "image": "/images/appliances/roborock-910435.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-910435.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2023,
     "isPopular": false,
@@ -19090,9 +19090,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 89,
     "reviewCount": 680,
-    "image": "/images/appliances/roborock-845213.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-845213.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2023,
     "isPopular": false,
@@ -19158,9 +19158,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 87,
     "reviewCount": 980,
-    "image": "/images/appliances/roborock-890201.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-890201.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2023,
     "isPopular": true,
@@ -19226,9 +19226,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 92,
     "reviewCount": 820,
-    "image": "/images/appliances/dyson-901946.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-901946.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2023,
     "isPopular": true,
@@ -19309,9 +19309,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 88,
     "reviewCount": 920,
-    "image": "/images/appliances/roborock-845022.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-845022.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2023,
     "isPopular": true,
@@ -19377,9 +19377,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 87,
     "reviewCount": 1100,
-    "image": "/images/appliances/roborock-898423.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-898423.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2023,
     "isPopular": true,
@@ -19446,9 +19446,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 93,
     "reviewCount": 1780,
-    "image": "/images/appliances/dyson-1042048.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1042048.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2023,
     "isPopular": true,
@@ -19514,9 +19514,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 86,
     "reviewCount": 920,
-    "image": "/images/appliances/roborock-898194.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-898194.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2023,
     "isPopular": true,
@@ -19582,9 +19582,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 87,
     "reviewCount": 1250,
-    "image": "/images/appliances/roborock-939056.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-939056.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2023,
     "isPopular": true,
@@ -19650,9 +19650,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 86,
     "reviewCount": 1600,
-    "image": "/images/appliances/roborock-898199.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-898199.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2023,
     "isPopular": true,
@@ -19733,9 +19733,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 84,
     "reviewCount": 450,
-    "image": "/images/appliances/roborock-898149.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-898149.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2023,
     "isPopular": false,
@@ -19801,9 +19801,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 88,
     "reviewCount": 750,
-    "image": "/images/appliances/dyson-967710.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-967710.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2023,
     "isPopular": false,
@@ -19869,9 +19869,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 90,
     "reviewCount": 1120,
-    "image": "/images/appliances/roborock-836725.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-836725.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2022,
     "isPopular": true,
@@ -19938,9 +19938,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 91,
     "reviewCount": 2100,
-    "image": "/images/appliances/roborock-742034.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-742034.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2022,
     "isPopular": true,
@@ -20007,9 +20007,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 91,
     "reviewCount": 410,
-    "image": "/images/appliances/dyson-894724.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-894724.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2022,
     "isPopular": false,
@@ -20075,9 +20075,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 91,
     "reviewCount": 1420,
-    "image": "/images/appliances/dyson-900206.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-900206.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2022,
     "isPopular": false,
@@ -20143,9 +20143,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 91,
     "reviewCount": 760,
-    "image": "/images/appliances/dyson-894722.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-894722.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2022,
     "isPopular": false,
@@ -20211,9 +20211,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 91,
     "reviewCount": 1850,
-    "image": "/images/appliances/dyson-906253.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-906253.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2022,
     "isPopular": false,
@@ -20279,9 +20279,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 89,
     "reviewCount": 790,
-    "image": "/images/appliances/roborock-770066.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-770066.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2022,
     "isPopular": false,
@@ -20347,9 +20347,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 86,
     "reviewCount": 880,
-    "image": "/images/appliances/roborock-770110.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-770110.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2022,
     "isPopular": false,
@@ -20415,9 +20415,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 88,
     "reviewCount": 1450,
-    "image": "/images/appliances/roborock-834667.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-834667.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2022,
     "isPopular": false,
@@ -20483,9 +20483,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 85,
     "reviewCount": 1450,
-    "image": "/images/appliances/roborock-768094.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-768094.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2022,
     "isPopular": true,
@@ -20551,9 +20551,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 85,
     "reviewCount": 1100,
-    "image": "/images/appliances/roborock-816764.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-816764.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2022,
     "isPopular": false,
@@ -20619,9 +20619,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 90,
     "reviewCount": 1950,
-    "image": "/images/appliances/dyson-836855.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-836855.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2022,
     "isPopular": true,
@@ -20687,9 +20687,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 84,
     "reviewCount": 390,
-    "image": "/images/appliances/roborock-816771.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-816771.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2022,
     "isPopular": false,
@@ -20755,9 +20755,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 83,
     "reviewCount": 310,
-    "image": "/images/appliances/roborock-816769.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-816769.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2022,
     "isPopular": false,
@@ -20823,9 +20823,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 88,
     "reviewCount": 2800,
-    "image": "/images/appliances/dyson-894691.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-894691.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2022,
     "isPopular": true,
@@ -20891,9 +20891,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 83,
     "reviewCount": 890,
-    "image": "/images/appliances/roborock-816606.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-816606.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2022,
     "isPopular": false,
@@ -20959,9 +20959,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 94,
     "reviewCount": 4300,
-    "image": "/images/appliances/dyson-693303.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-693303.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2021,
     "isPopular": true,
@@ -21028,9 +21028,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 93,
     "reviewCount": 3400,
-    "image": "/images/appliances/dyson-717288.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-717288.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2021,
     "isPopular": true,
@@ -21097,9 +21097,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 87,
     "reviewCount": 780,
-    "image": "/images/appliances/roborock-755154.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-755154.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2021,
     "isPopular": false,
@@ -21165,9 +21165,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 88,
     "reviewCount": 3200,
-    "image": "/images/appliances/roborock-719051.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-719051.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2021,
     "isPopular": true,
@@ -21234,9 +21234,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 86,
     "reviewCount": 2200,
-    "image": "/images/appliances/roborock-646700.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-646700.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2021,
     "isPopular": true,
@@ -21303,9 +21303,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 86,
     "reviewCount": 380,
-    "image": "/images/appliances/roborock-878032.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-878032.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2021,
     "isPopular": false,
@@ -21371,9 +21371,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 85,
     "reviewCount": 410,
-    "image": "/images/appliances/roborock-732772.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-732772.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2021,
     "isPopular": false,
@@ -21439,9 +21439,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 84,
     "reviewCount": 710,
-    "image": "/images/appliances/roborock-795097.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-795097.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2021,
     "isPopular": false,
@@ -21507,9 +21507,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.6,
     "epeyScore": 81,
     "reviewCount": 950,
-    "image": "/images/appliances/roborock-729162.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-729162.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2021,
     "isPopular": false,
@@ -21575,9 +21575,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 85,
     "reviewCount": 980,
-    "image": "/images/appliances/roborock-597674.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-597674.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2020,
     "isPopular": false,
@@ -21643,9 +21643,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 82,
     "reviewCount": 620,
-    "image": "/images/appliances/roborock-583760.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-583760.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2020,
     "isPopular": false,
@@ -21711,9 +21711,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 84,
     "reviewCount": 1650,
-    "image": "/images/appliances/roborock-626129.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-626129.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2020,
     "isPopular": false,
@@ -21779,9 +21779,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.6,
     "epeyScore": 80,
     "reviewCount": 1600,
-    "image": "/images/appliances/roborock-598486.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-598486.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2020,
     "isPopular": false,
@@ -21847,9 +21847,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 84,
     "reviewCount": 3400,
-    "image": "/images/appliances/roborock-594241.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-594241.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2019,
     "isPopular": true,
@@ -21916,9 +21916,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 83,
     "reviewCount": 1850,
-    "image": "/images/appliances/roborock-591027.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-591027.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2019,
     "isPopular": false,
@@ -21984,9 +21984,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.6,
     "epeyScore": 81,
     "reviewCount": 650,
-    "image": "/images/appliances/roborock-613561.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-613561.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2019,
     "isPopular": false,
@@ -22052,9 +22052,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.5,
     "epeyScore": 78,
     "reviewCount": 450,
-    "image": "/images/appliances/roborock-633546.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-633546.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2019,
     "isPopular": false,
@@ -22120,9 +22120,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 89,
     "reviewCount": 980,
-    "image": "/images/appliances/dyson-98755.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-98755.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2018,
     "isPopular": false,
@@ -22188,9 +22188,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 90,
     "reviewCount": 3600,
-    "image": "/images/appliances/dyson-108124.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-108124.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2018,
     "isPopular": true,
@@ -22256,9 +22256,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 89,
     "reviewCount": 1650,
-    "image": "/images/appliances/dyson-370086.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-370086.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2018,
     "isPopular": true,
@@ -22324,9 +22324,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 82,
     "reviewCount": 2900,
-    "image": "/images/appliances/roborock-594537.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-594537.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2018,
     "isPopular": false,
@@ -22392,9 +22392,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 87,
     "reviewCount": 2400,
-    "image": "/images/appliances/dyson-102283.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-102283.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2018,
     "isPopular": true,
@@ -22460,9 +22460,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.6,
     "epeyScore": 82,
     "reviewCount": 4200,
-    "image": "/images/appliances/roborock-404410.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-404410.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2018,
     "isPopular": false,
@@ -22528,9 +22528,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.6,
     "epeyScore": 81,
     "reviewCount": 620,
-    "image": "/images/appliances/roborock-442296.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-442296.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2018,
     "isPopular": false,
@@ -22596,9 +22596,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.6,
     "epeyScore": 81,
     "reviewCount": 780,
-    "image": "/images/appliances/roborock-605149.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-605149.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2018,
     "isPopular": false,
@@ -22664,9 +22664,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.6,
     "epeyScore": 80,
     "reviewCount": 910,
-    "image": "/images/appliances/roborock-594523.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-594523.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2018,
     "isPopular": false,
@@ -22732,9 +22732,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.5,
     "epeyScore": 79,
     "reviewCount": 880,
-    "image": "/images/appliances/roborock-598465.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-598465.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2018,
     "isPopular": false,
@@ -22800,9 +22800,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.5,
     "epeyScore": 79,
     "reviewCount": 540,
-    "image": "/images/appliances/roborock-594504.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-594504.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2018,
     "isPopular": false,
@@ -22868,9 +22868,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.4,
     "epeyScore": 76,
     "reviewCount": 670,
-    "image": "/images/appliances/roborock-594551.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-594551.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2018,
     "isPopular": false,
@@ -22936,9 +22936,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.4,
     "epeyScore": 76,
     "reviewCount": 420,
-    "image": "/images/appliances/roborock-415426.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-415426.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2018,
     "isPopular": false,
@@ -23004,9 +23004,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 82,
     "reviewCount": 3800,
-    "image": "/images/appliances/roborock-591050.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/roborock-591050.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2017,
     "isPopular": false,
@@ -23072,9 +23072,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.8,
     "epeyScore": 90,
     "reviewCount": 3100,
-    "image": "/images/appliances/dyson-117291.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-117291.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2016,
     "isPopular": true,
@@ -23140,9 +23140,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.7,
     "epeyScore": 88,
     "reviewCount": 3900,
-    "image": "/images/appliances/dyson-65505.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-65505.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2016,
     "isPopular": false,
@@ -23203,9 +23203,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Purifier Hot+Cool™ HP2 De-Nox Hava Temizleyici & Isıtıcı",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1034279.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1034279.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -23288,9 +23288,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Airstrait Ceramic Pink Islak ve Kuru Saç Düzleştirici",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1009568.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1009568.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -23371,9 +23371,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Supersonic Nural Akıllı Saç Kurutma Makinesi",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-959210.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-959210.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -23454,9 +23454,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Purifier Hot+Cool Gen1 Hava Temizleme & Isıtma Fanı",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-955214.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-955214.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 92,
@@ -23536,9 +23536,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Airstrait Prusya Mavisi / Bakır Saç Düzleştirici",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-929751.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-929751.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -23617,9 +23617,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Purifier Big+Quiet BP02 Geniş Alan Hava Temizleyici",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1034277.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1034277.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -23693,9 +23693,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Humidify+Cool PH2 De-NOx 3'ü 1 Arada Nemlendirici & Hava Temizleyici",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1019018.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1019018.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -23777,9 +23777,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Airstrait Nikel / Bakır Islak Kuru Saç Düzleştirici",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-929773.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-929773.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -23850,9 +23850,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson PencilWash Kablosuz Islak Zemin Temizleyici",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1046912.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1046912.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 91,
@@ -23933,9 +23933,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson OnTrac Aktif Gürültü Engelleyici (ANC) Kablosuz Kulaklık",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-963152.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-963152.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 93,
@@ -24017,9 +24017,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Cool CF1 Kompakt Kanatsız Masaüstü Vantilatör",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1061050.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1061050.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 90,
@@ -24098,9 +24098,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Purifier Humidify+Cool Formaldehyde PH04 Hava Temizleyici",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-846699.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-846699.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -24175,9 +24175,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Purifier Big+Quiet Formaldehyde BP04 Hava Temizleyici",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1034519.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1034519.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -24253,9 +24253,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Purifier Cool Formaldehyde TP09 Kule Tipi Hava Temizleyici",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-820050.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-820050.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -24329,9 +24329,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Airwrap i.d Jasper Plum (Mor) Akıllı Saç Şekillendirici",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1009569.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1009569.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -24403,9 +24403,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson HEPA Big+Quiet Formaldehyde BP06 Profesyonel Hava Temizleyici",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-955211.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-955211.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -24478,9 +24478,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson PencilVac Fluffycones Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1042092.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1042092.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 92,
@@ -24562,9 +24562,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Cool AM07 Kule Tipi Kanatsız Vantilatör",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-697324.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-697324.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 89,
@@ -24636,9 +24636,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V11 Advanced Kablosuz Şarjlı Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-946791.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-946791.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 93,
@@ -24713,9 +24713,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Purifier Cool TP07 Kule Tipi Hava Temizleyici Fan",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-846821.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-846821.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 93,
@@ -24789,9 +24789,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Airwrap™ Complete Long Çok Amaçlı Saç Şekillendirici",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1034254.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1034254.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -24863,9 +24863,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Airwrap™ Multi-Styler Complete Long (Prusya Mavisi / Bakır)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-894747.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-894747.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -24929,9 +24929,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Supersonic™ Travel Taşınabilir Saç Kurutma Makinesi",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1055178.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1055178.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 92,
@@ -25011,9 +25011,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Supersonic r™ Profesyonel Saç Kurutma Makinesi (122781-01)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1034253.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1034253.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -25095,9 +25095,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson SV27 Cyclone V10 Absolute Şarjlı Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1005173.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1005173.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -25164,9 +25164,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Purifier Cool PC2 De-NOx Hava Temizleyici Fan",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-995071.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-995071.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -25232,9 +25232,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Airwrap™ Multi-Styler Complete Long (Parlak Bakır / Nikel)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-894748.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-894748.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -25298,9 +25298,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Chitosan™ Şekillendirme Sonrası Saç Serumu (100 ml)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1034308.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1034308.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -25369,9 +25369,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Chitosan™ Şekillendirme Öncesi Saç Kremi (Kıvırcık ve Kalın Telli)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1034313.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1034313.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -25432,9 +25432,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Chitosan™ Şekillendirme Öncesi Saç Kremi (Düz ve Dalgalı)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1034314.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1034314.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 88,
@@ -25495,9 +25495,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Chitosan™ Şekillendirme Öncesi Saç Kremi (Düz/Dalgalı İnce Telli - 581866-01)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1034312.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1034312.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 88,
@@ -25554,9 +25554,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Chitosan™ Şekillendirme Öncesi Saç Kremi (Kıvırcık/Bukleli Kalın Telli 100 ml)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1034307.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1034307.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -25613,9 +25613,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Chitosan™ Şekillendirme Öncesi Saç Kremi (Düz/Dalgalı Kalın Telli - 521874-01)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1034310.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1034310.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -25679,9 +25679,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Chitosan™ Şekillendirme Öncesi Saç Kremi (Düz/Dalgalı İnce Telli 100 ml)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1034309.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1034309.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -25738,9 +25738,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Omega Nemlendirici Saç Bakım Yağı (30 ml)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1034306.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1034306.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 90,
@@ -25805,9 +25805,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Supersonic™ Saç Kurutma Makinesi (113277-01)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1034281.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1034281.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 94,
@@ -25864,9 +25864,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Airstrait™ Strawberry Bronze (Bronz) Saç Düzleştirici",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-973366.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-973366.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -25930,9 +25930,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Corrale™ Kablosuz Saç Düzleştirici (Parlak Bakır / Nikel)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-894740.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-894740.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 93,
@@ -26004,9 +26004,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Zone™ Kişisel Hava Temizleyicili ANC Kulaklık",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-924840.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-924840.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 92,
@@ -26064,9 +26064,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC52 Allergy Filtresiz Toz Torbasız Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-30482.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-30482.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -26125,9 +26125,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC37c Allergy Torbasız Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-30216.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-30216.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 89,
@@ -26186,9 +26186,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC37 Animal Turbine Evcil Hayvan Süpürgesi",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-4390.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-4390.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -26247,9 +26247,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC33C Origin Torbasız Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-30218.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-30218.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -26308,9 +26308,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC37c Parquet Sert Zemin Süpürgesi",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-30217.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-30217.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 89,
@@ -26368,9 +26368,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC46 Allergy Parquet Kompakt Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-4388.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-4388.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -26429,9 +26429,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Ball™ Parquet Torbasız Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-113304.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-113304.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -26490,9 +26490,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC33C Pro Torbasız Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-94408.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-94408.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -26550,9 +26550,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Ball™ Multi Floor Torbasız Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-98895.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-98895.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -26610,9 +26610,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC33C Allergy Torbasız Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-92313.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-92313.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -26670,9 +26670,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC52 Animal Complete Filtresiz Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-4377.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-4377.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 91,
@@ -26731,9 +26731,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC52 Total Animal Filtresiz Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-32523.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-32523.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -26791,9 +26791,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC52 Animal Turbine Filtresiz Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-30439.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-30439.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -26851,9 +26851,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC52 Allergy Parquet Filtresiz Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-30215.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-30215.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -26912,9 +26912,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC52 Allergy Musclehead Parquet Filtresiz Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-4386.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-4386.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -26973,9 +26973,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC37 Allergy Parquet Torbasız Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-31526.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-31526.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -27033,9 +27033,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Cinetic Big Ball™ Parquet Devrilmez Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-65504.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-65504.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -27095,9 +27095,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC33C Origin Plus Torbasız Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-90369.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-90369.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -27155,9 +27155,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC42 Allergy Dik Duran Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-4394.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-4394.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -27216,9 +27216,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC63 Allergy Ultra Kompakt Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-31032.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-31032.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -27277,9 +27277,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Small Ball™ Multifloor Kompakt Dik Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-69563.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-69563.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -27338,9 +27338,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Cinetic Big Ball™ Animal Devrilmez Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-65503.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-65503.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -27399,9 +27399,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Ball™ All Floors DC25 Dik Duran Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-159499.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-159499.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -27459,9 +27459,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC51 Multi Floor Kompakt Dik Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-4392.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-4392.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -27520,9 +27520,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC33C Stubborn Torbasız Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-94407.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-94407.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -27580,9 +27580,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC29DB Origin Torbasız Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-159498.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-159498.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -27640,9 +27640,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Cinetic Big Ball™ Parquet 2 Filtresiz Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-102278.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-102278.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 91,
@@ -27709,9 +27709,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Big Ball™ Allergy 2 Torbasız Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-104956.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-104956.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -27770,9 +27770,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Big Ball™ Up Top 2 Torbasız Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-112788.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-112788.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -27831,9 +27831,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC36 Carbon Fibre Kompakt Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-108674.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-108674.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -27892,9 +27892,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V15 Detect™ Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-894936.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-894936.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -27962,9 +27962,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC20 Stowaway Klasik Torbasız Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-747136.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-747136.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 86,
@@ -28022,9 +28022,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Big Ball™ Parquet Devrilmez Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-94240.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-94240.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -28083,9 +28083,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V8™ Fluffy Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-155943.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-155943.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 92,
@@ -28152,9 +28152,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V7™ Fluffy Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-104272.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-104272.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 90,
@@ -28213,9 +28213,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V6+™ Kablosuz El ve Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-42647.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-42647.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 87,
@@ -28274,9 +28274,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V15 Detect™ Absolute HEPA Kablosuz Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-921563.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-921563.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -28343,9 +28343,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V15s Detect Submarine™ Absolute Islak & Kuru Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-924793.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-924793.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -28413,9 +28413,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V15 Detect™ Total Clean Kablosuz Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-921547.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-921547.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -28474,9 +28474,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V6™ Animal Pro Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-30869.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-30869.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 88,
@@ -28535,9 +28535,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC23 Animal Torbasız Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-399168.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-399168.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -28595,9 +28595,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC24 Multi Floor Kompakt Dik Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-116879.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-116879.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 86,
@@ -28655,9 +28655,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC24 Ball™ Dik Duran Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-117341.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-117341.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 86,
@@ -28715,9 +28715,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V6™ Total Clean Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-30868.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-30868.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 89,
@@ -28776,9 +28776,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson 360 Heurist™ Akıllı Robot Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-626272.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-626272.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -28849,9 +28849,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V11™ Torque Drive Extra Kablosuz Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-709952.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-709952.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -28919,9 +28919,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Hot+Cool™ Jet Focus AM09 Isıtıcı ve Vantilatör",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-136331.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-136331.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 94,
@@ -28994,9 +28994,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Cinetic Big Ball™ Animal Pro Filtresiz Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-90368.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-90368.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -29055,9 +29055,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC32 Animalpro Torbasız Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-171938.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-171938.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -29115,9 +29115,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Cinetic Big Ball™ Musclehead Devrilmez Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-94406.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-94406.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -29176,9 +29176,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC33C Up Top Torbasız Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-68617.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-68617.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -29236,9 +29236,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC26 Carbon Fibre Allergy Ultra Kompakt Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-116881.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-116881.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 87,
@@ -29297,9 +29297,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Cinetic Big Ball™ Animal 2 Filtresiz Süpürge (228409-01)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-150842.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-150842.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 92,
@@ -29366,9 +29366,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC40 Ball™ Dik Duran Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-144056.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-144056.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -29426,9 +29426,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC37 Origin Torbasız Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-117051.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-117051.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -29486,9 +29486,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC45 Animal Pro Kablosuz El ve Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-397806.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-397806.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 87,
@@ -29547,9 +29547,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DW4 Klasik Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-156389.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-156389.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.5,
     "epeyScore": 85,
@@ -29605,9 +29605,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V6 Slim™ Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-112787.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-112787.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 87,
@@ -29666,9 +29666,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Cyclone V10™ Origin Kablosuz Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-869846.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-869846.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 93,
@@ -29735,9 +29735,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V7™ Motorhead Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-101069.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-101069.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 89,
@@ -29796,9 +29796,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V8™ Animal Plus Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-142638.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-142638.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 92,
@@ -29865,9 +29865,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Gen5outsize™ Absolute Kablosuz Süpürge (140 dk)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-886639.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-886639.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 5,
     "epeyScore": 99,
@@ -29937,9 +29937,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Gen5outsize™ Kablosuz Süpürge (140 dk)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-886565.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-886565.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 98,
@@ -29999,9 +29999,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC62 Extra Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-94452.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-94452.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 87,
@@ -30060,9 +30060,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Gen5detect™ Absolute Kablosuz Süpürge (Mor / Gri)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-894644.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-894644.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 98,
@@ -30131,9 +30131,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Gen5detect™ Absolute Kablosuz Süpürge (Prusya Mavisi / Bakır)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-894643.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-894643.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 5,
     "epeyScore": 98,
@@ -30201,9 +30201,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V15 Detect™ Extra Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-846530.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-846530.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -30262,9 +30262,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Cyclone V10™ Absolute Plus Kablosuz Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-837048.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-837048.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -30331,9 +30331,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V8™ Slim Fluffy+ Ultra Hafif Kablosuz Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-902473.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-902473.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 92,
@@ -30393,9 +30393,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC62 Animal Pro Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-117050.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-117050.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 87,
@@ -30454,9 +30454,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V12 Detect Slim™ Absolute HEPA Kablosuz Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-906718.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-906718.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -30524,9 +30524,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC30 14.8V Şarjlı El Süpürgesi",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-159497.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-159497.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.5,
     "epeyScore": 84,
@@ -30585,9 +30585,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson 360 Eye™ Akıllı Robot Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-595757.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-595757.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 92,
@@ -30651,9 +30651,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC42 Ball™ Dik Duran Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-70864.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-70864.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -30711,9 +30711,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC21 Motorhead Torbasız Elektrikli Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-709159.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-709159.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 86,
@@ -30771,9 +30771,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V11™ Animal Extra Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-608418.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-608418.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -30840,9 +30840,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V11™ Animal Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-175660.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-175660.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -30901,9 +30901,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V11™ Absolute Extra Kablosuz Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-628788.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-628788.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -30970,9 +30970,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V11™ Absolute Pro Kablosuz Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-647696.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-647696.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -31032,9 +31032,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC45 Animal Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-117342.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-117342.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 86,
@@ -31092,9 +31092,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC35 Digital Slim™ Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-95707.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-95707.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 86,
@@ -31153,9 +31153,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V12 Detect Slim™ Absolute Plus Kablosuz Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-837023.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-837023.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -31223,9 +31223,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V7™ Animal Extra Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-556782.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-556782.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 89,
@@ -31284,9 +31284,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Outsize+™ Ekstra Geniş Hazneli Kablosuz Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-837399.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-837399.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -31348,9 +31348,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Outsize™ Ekstra Geniş Hazneli Kablosuz Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-837397.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-837397.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 95,
@@ -31410,9 +31410,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V11™ Total Clean Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-901792.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-901792.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -31479,9 +31479,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V11™ Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-894699.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-894699.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -31540,9 +31540,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V11™ Extra Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-855992.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-855992.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -31601,9 +31601,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Cyclone V10™ Extra Kablosuz Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-837606.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-837606.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 93,
@@ -31669,9 +31669,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V11™ Torque Drive Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-677800.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-677800.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -31731,9 +31731,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V11™ Absolute Extra Pro Çift Bataryalı Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-628787.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-628787.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 5,
     "epeyScore": 97,
@@ -31802,9 +31802,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V11™ Absolute Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-174361.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-174361.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 95,
@@ -31871,9 +31871,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Cyclone V10™ Animal Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-115151.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-115151.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 93,
@@ -31934,9 +31934,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V8™ Extra Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-855919.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-855919.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -31995,9 +31995,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V8™ Origin Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-807014.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-807014.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 90,
@@ -32055,9 +32055,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V6™ Cord Free Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-115023.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-115023.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 87,
@@ -32116,9 +32116,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V12 Detect Slim™ Extra Kablosuz Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-842285.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-842285.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -32186,9 +32186,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Omni-Glide+™ 360° Dönebilen Kablosuz Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-865545.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-865545.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 92,
@@ -32249,9 +32249,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Omni-Glide™ Çok Yönlü Kablosuz Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-693357.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-693357.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 91,
@@ -32311,9 +32311,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V6™ Cord Free Extra Kablosuz Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-105095.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-105095.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 87,
@@ -32371,9 +32371,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC16 Root 6™ El Tipi Şarjlı Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-117587.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-117587.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.4,
     "epeyScore": 82,
@@ -32433,9 +32433,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC34 Animal Şarjlı El Süpürgesi",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-99868.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-99868.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -32494,9 +32494,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson DC43H Mattress™ Güçlü El Süpürgesi",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-96864.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-96864.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 86,
@@ -32555,9 +32555,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson V8™ Parquet Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-613095.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-613095.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 92,
@@ -32617,9 +32617,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Airstrait™ Islak ve Kuru Saç Düzleştirici (Jasper Plum / Mor)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1009627.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1009627.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 98,
@@ -32686,9 +32686,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Corrale™ Kablosuz Saç Düzleştirici (Pembe / Fuşya)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-599570.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-599570.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 95,
@@ -32754,9 +32754,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Gen5detect™ Kablosuz Dikey Süpürge",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1052642.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1052642.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 98,
@@ -32825,9 +32825,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Chitosan™ Şekillendirme Öncesi Saç Kremi (Kıvırcık ve Bukleli İnce Telli Saçlar - 100ml)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1034311.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1034311.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 92,
@@ -32884,9 +32884,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Supersonic™ Origin Saç Kurutma Makinesi (475202-01)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1034252.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1034252.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 95,
@@ -32943,9 +32943,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Supersonic™ Saç Kurutma Makinesi Özel Seri (453981-01)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1034280.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1034280.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -33010,9 +33010,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Airstrait™ Islak ve Kuru Saç Düzleştirici (Amber Silk / Kehribar İpeği)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1034251.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1034251.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 5,
     "epeyScore": 98,
@@ -33079,9 +33079,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson HEPA Big+Quiet™ Formaldehyde Hava Temizleyici (BP03)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1034527.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1034527.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 5,
     "epeyScore": 99,
@@ -33149,9 +33149,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Airwrap i.d.™ Akıllı Saç Şekillendirici (Ceramic Patina / Nane Yeşili)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1009975.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1009975.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 5,
     "epeyScore": 99,
@@ -33218,9 +33218,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Airwrap i.d.™ Akıllı Saç Şekillendirici (Ceramic Pink / Gül Kurusu)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-1009973.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-1009973.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 5,
     "epeyScore": 99,
@@ -33287,9 +33287,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Car+Boat™ Araç ve Tekne Şarjlı El Süpürgesi",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-998682.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-998682.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 92,
@@ -33356,9 +33356,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Airwrap™ Multi-Styler Complete Long (Gri / Nikel)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-894743.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-894743.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -33423,9 +33423,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Corrale™ Kablosuz Saç Düzleştirici (Prusya Mavisi / Bakır)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-894738.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-894738.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -33490,9 +33490,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Purifier Hot+Cool™ Autoreact Sıcak/Soğuk Hava Temizleyici (HP7A)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-894706.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-894706.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -33559,9 +33559,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Purifier Hot+Cool™ Formaldehyde Sıcak/Soğuk Hava Temizleyici (HP09)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-846759.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-846759.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 5,
     "epeyScore": 98,
@@ -33628,9 +33628,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Pure Cool™ Kule Tipi Hava Temizleyici ve Vantilatör (TP01)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-846711.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-846711.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 92,
@@ -33694,9 +33694,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Purifier Humidify+Cool™ Autoreact Hava Temizleyici ve Nemlendirici (PH7A)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-795893.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-795893.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -33756,9 +33756,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Purifier Cool™ Autoreact Kule Tipi Hava Temizleyici (TP7A)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-760044.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-760044.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 95,
@@ -33822,9 +33822,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Airwrap™ Özel Seri Hediye Seti (Bakır / Gümüş)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-732463.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-732463.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -33881,9 +33881,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Corrale™ Kablosuz Saç Düzleştirici (Mor / Siyah)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-616285.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-616285.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 95,
@@ -33940,9 +33940,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Airwrap™ Smooth+Control Saç Şekillendirici",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-610997.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-610997.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 95,
@@ -33998,9 +33998,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Pure Cool Me™ Kişisel Hava Temizleyici ve Fan (BP01)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-570035.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-570035.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 91,
@@ -34057,9 +34057,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Airwrap™ Complete Saç Şekillendirici Seti (Fuşya / Nikel)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-572550.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-572550.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 96,
@@ -34124,9 +34124,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Pure Hot+Cool™ Sıcak/Soğuk Hava Temizleyici (HP04)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-569064.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-569064.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 95,
@@ -34183,9 +34183,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson Pure Hot+Cool Link™ Akıllı Sıcak/Soğuk Hava Temizleyici (HP02)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-428685.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-428685.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 93,
@@ -34242,9 +34242,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson AM11 Pure Cool™ Kule Tipi Hava Temizleyici",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-106725.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-106725.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 90,
@@ -34300,9 +34300,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson AM11 Air Multiplier™ Kule Vantilatör",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-77360.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-77360.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 89,
@@ -34359,9 +34359,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson AM08 Kule Tipi Pervanesiz Vantilatör",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-77216.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-77216.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 88,
@@ -34417,9 +34417,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson AM01 Air Multiplier™ Masaüstü Vantilatör (30 cm)",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-76487.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-76487.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.5,
     "epeyScore": 86,
@@ -34476,9 +34476,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dyson AM03 Ayaklı Pervanesiz Vantilatör",
     "brand": "Dyson",
     "category": "appliances",
-    "image": "/images/appliances/dyson-76488.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dyson-76488.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 88,
@@ -34534,9 +34534,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Bot L10 Pro Akıllı Robot Süpürge ve Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-695611.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-695611.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 92,
@@ -34599,9 +34599,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Mop F9 Robot Süpürge ve Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-586322.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-586322.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 86,
@@ -34663,9 +34663,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Bot D9 Max Akıllı Robot Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-737287.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-737287.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -34735,9 +34735,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Bot L20 Ultra All-in-One Robot Süpürge & Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-899013.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-899013.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 98,
@@ -34811,9 +34811,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Bot L10S Ultra Akıllı İstasyonlu Robot Süpürge & Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-809651.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-809651.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -34886,9 +34886,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame D10 Plus Otomatik Çöp Boşaltma İstasyonlu Robot Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-807044.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-807044.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 93,
@@ -34952,9 +34952,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Bot D10S Akıllı Robot Süpürge ve Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-864485.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-864485.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 92,
@@ -35016,9 +35016,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Bot D10S Plus Otomatik Toz İstasyonlu AI Robot Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-864939.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-864939.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -35082,9 +35082,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Bot L10S Pro Çift Döner Paspaslı Robot Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-848608.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-848608.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -35146,9 +35146,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Hair Glory Yüksek Hızlı İyonik Saç Kurutma Makinesi",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-895764.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-895764.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -35215,9 +35215,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Hair Gleam Yüksek Hızlı Saç Kurutma Makinesi",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-895776.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-895776.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -35282,9 +35282,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame R10 Pro Kablosuz Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-901895.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-901895.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -35352,9 +35352,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame T10 Kablosuz Şarjlı Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-697151.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-697151.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 90,
@@ -35414,9 +35414,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame R10 Kablosuz Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-901904.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-901904.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 92,
@@ -35475,9 +35475,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame R20 Akıllı Lazerli Kablosuz Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-886698.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-886698.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -35547,9 +35547,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame H12 Dual Islak & Kuru Zemin Yıkama ve Dikey Süpürge (4'ü 1 Arada)",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-886692.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-886692.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -35612,9 +35612,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame X60 Ultra Complete Amiral Gemisi Robot Süpürge & Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1055824.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1055824.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 5,
     "epeyScore": 99,
@@ -35688,9 +35688,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame X40 Ultra Akıllı Robot Süpürge & Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-941495.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-941495.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 98,
@@ -35764,9 +35764,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame X50 Ultra Complete Robot Süpürge & Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1004989.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1004989.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 5,
     "epeyScore": 99,
@@ -35839,9 +35839,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame L10S Pro Gen 2 Akıllı Robot Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-965046.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-965046.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 93,
@@ -35911,9 +35911,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Bot L10S Pro Ultra Heat Robot Süpürge & Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-971084.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-971084.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -35986,9 +35986,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame X50 Pro Ultra Complete Akıllı Robot Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1055827.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1055827.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 5,
     "epeyScore": 99,
@@ -36061,9 +36061,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame L40 Ultra CE Robot Süpürge & Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1018453.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1018453.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 98,
@@ -36135,9 +36135,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame L40 Ultra AE Robot Süpürge & Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1035879.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1035879.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 98,
@@ -36209,9 +36209,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame L10S Plus Otomatik Toz Boşaltmalı Robot Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-963397.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-963397.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -36281,9 +36281,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Z30 Flagship Akıllı Kablosuz Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-971067.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-971067.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 5,
     "epeyScore": 99,
@@ -36353,9 +36353,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame L50 Ultra All-in-One Robot Süpürge & Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1055828.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1055828.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 98,
@@ -36427,9 +36427,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame F20 Akıllı Robot Süpürge ve Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1055752.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1055752.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 92,
@@ -36498,9 +36498,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame D30 Ultra All-in-One Robot Süpürge & Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1056011.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1056011.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -36572,9 +36572,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame F10 Robot Süpürge ve Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1052457.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1052457.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 90,
@@ -36643,9 +36643,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame X60 Max Ultra Complete Üst Segment Robot Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1041550.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1041550.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 5,
     "epeyScore": 100,
@@ -36712,9 +36712,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame D20 Akıllı Robot Süpürge ve Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1034297.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1034297.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 92,
@@ -36783,9 +36783,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame L10S Ultra Gen 2 All-in-One Robot Süpürge & Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-971228.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-971228.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -36857,9 +36857,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame D9 Max Gen 2 Akıllı Robot Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-965041.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-965041.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 92,
@@ -36929,9 +36929,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame D20 Ultra Tam Otomatik Robot Süpürge & Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1018459.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1018459.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 95,
@@ -37002,9 +37002,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame U10 Kablosuz Şarjlı Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-971064.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-971064.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 89,
@@ -37071,9 +37071,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame H15 Mix Akıllı Islak & Kuru Zemin Yıkama ve Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1059928.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1059928.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 5,
     "epeyScore": 98,
@@ -37144,9 +37144,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Matrix 10 Ultra Flagship Robot Süpürge & Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1056707.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1056707.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 5,
     "epeyScore": 99,
@@ -37220,9 +37220,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame L50 Ultra CE Robot Süpürge & Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1055830.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1055830.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 98,
@@ -37294,9 +37294,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Aqua 10 Ultra Roller Islak Rulolu Robot Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1055829.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1055829.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 5,
     "epeyScore": 99,
@@ -37370,9 +37370,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Z30 Slim Hafif Kablosuz Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1055799.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1055799.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 95,
@@ -37440,9 +37440,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame L40 Ultra Akıllı Robot Süpürge & Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-971200.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-971200.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 98,
@@ -37514,9 +37514,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame L40 Plus Otomatik Toz İstasyonlu Robot Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1056684.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1056684.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 95,
@@ -37586,9 +37586,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame R20 Ultra AquaCycle Islak & Kuru Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1052626.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1052626.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -37657,9 +37657,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame H14 Dual Islak & Kuru Zemin Yıkama ve Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1005012.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1005012.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -37730,9 +37730,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Z20 Akıllı Kablosuz Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-971161.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-971161.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -37801,9 +37801,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame H12 Core Islak & Kuru Akıllı Zemin Yıkama Makinesi",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-946922.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-946922.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 92,
@@ -37872,9 +37872,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame H16 Pro Steam Buharlı Islak & Kuru Zemin Yıkama Makinesi",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1056613.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1056613.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 5,
     "epeyScore": 99,
@@ -37945,9 +37945,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame AirStyle Pro HI Çok Fonksiyonlu Saç Şekillendirici ve Kurutucu",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1056578.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1056578.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -38014,9 +38014,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame PM20 Akıllı HEPA Hava Temizleme Cihazı",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1056407.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1056407.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 95,
@@ -38084,9 +38084,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame H12 Pro FlexReach Esnek Gövdeli Zemin Yıkama Makinesi",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1052627.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1052627.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 95,
@@ -38155,9 +38155,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame L40 Akıllı Robot Süpürge ve Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1052545.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1052545.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -38226,9 +38226,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame PM10 Akıllı Kompakt Hava Temizleme Cihazı",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1052456.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1052456.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 93,
@@ -38294,9 +38294,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame L40s Pro All-in-One Robot Süpürge & Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1034168.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1034168.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 98,
@@ -38368,9 +38368,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame N10 Kablosuz Şarjlı Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1010219.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1010219.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 90,
@@ -38437,9 +38437,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Air Style RLS3L Saç Şekillendirici ve Kurutma Seti",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1005031.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1005031.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -38505,9 +38505,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame H14 Pro Akıllı Zemin Yıkama ve Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-971286.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-971286.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 98,
@@ -38570,9 +38570,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Z10 Kablosuz Şarjlı Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-965101.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-965101.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -38632,9 +38632,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame D10 Plus Gen 2 Otomatik Toz Boşaltmalı Robot Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-965034.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-965034.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -38698,9 +38698,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Bot L10 Plus Otomatik Toz Boşaltmalı Robot Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-803654.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-803654.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 93,
@@ -38762,9 +38762,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Bot W10 Otomatik Paspas Yıkamalı Robot Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-742742.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-742742.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 95,
@@ -38827,9 +38827,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Bot Z10 Pro Otomatik Çöp Boşaltmalı AI Robot Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-719931.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-719931.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -38892,9 +38892,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame D9 Pro Akıllı Robot Süpürge ve Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-744750.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-744750.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 91,
@@ -38954,9 +38954,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Bot L10 Ultra All-in-One Robot Süpürge & Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-901625.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-901625.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -39020,9 +39020,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Bot D9 Robot Süpürge ve Paspas",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-642427.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-642427.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 89,
@@ -39083,9 +39083,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame S10 Pro All-in-One Robot Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-803983.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-803983.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -39148,9 +39148,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame L10 Prime Otomatik Paspas Yıkamalı Robot Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-860728.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-860728.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -39212,9 +39212,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame S10 All-in-One Robot Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-803704.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-803704.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 95,
@@ -39276,9 +39276,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame V10 Plus Kablosuz Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-717295.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-717295.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 91,
@@ -39336,9 +39336,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Bot D10S Pro AI Kameralı Robot Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-864934.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-864934.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -39399,9 +39399,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Trouver Power 11 Kablosuz Şarjlı Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-642405.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-642405.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 89,
@@ -39459,9 +39459,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame V11 OLED Ekranlı Kablosuz Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-602880.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-602880.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -39523,9 +39523,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame XR Premium Kablosuz Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-663867.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-663867.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 92,
@@ -39583,9 +39583,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame V11 SE Kablosuz Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-710850.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-710850.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 93,
@@ -39644,9 +39644,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame V9 Kablosuz Şarjlı Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-556766.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-556766.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 89,
@@ -39705,9 +39705,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame T30 Akıllı Karbon Fiber Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-719334.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-719334.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -39769,9 +39769,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame V10 Pro Renkli Ekranlı Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-605375.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-605375.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 92,
@@ -39830,9 +39830,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame V10 Boreas Kablosuz Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-556765.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-556765.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 90,
@@ -39890,9 +39890,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Trouver Solo 10 Hafif Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-642408.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-642408.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.5,
     "epeyScore": 87,
@@ -39950,9 +39950,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame T20 Akıllı Kablosuz Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-640153.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-640153.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -40013,9 +40013,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame V12 Pro Ultra Güçlü Karbon Fiber Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-916690.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-916690.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -40077,9 +40077,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame XR Kablosuz Şarjlı Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-577506.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-577506.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 91,
@@ -40137,9 +40137,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame P10 Kablosuz Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-729373.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-729373.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 90,
@@ -40198,9 +40198,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame P10 Pro Kablosuz Dikey Süpürge",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-836056.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-836056.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 92,
@@ -40258,9 +40258,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame H11 Max Islak & Kuru Akıllı Zemin Yıkama Makinesi",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-738798.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-738798.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -40322,9 +40322,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame AirStyle Pro 7in1 Saç Şekillendirici (Mor)",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1045328.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1045328.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -40383,9 +40383,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame AirStyle Pro 7in1 Saç Şekillendirici (Amber Gold)",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1045327.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1045327.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -40444,9 +40444,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame X30 Ultra Amiral Gemisi Robot Süpürge ve Paspas İstasyonu",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-934694.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-934694.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 98,
@@ -40513,9 +40513,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame C1 Akıllı Cam ve Pencere Temizleme Robotu",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1037688.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1037688.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -40576,9 +40576,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Mova K10 Pro Kablosuz Islak Kuru Zemin Yıkama Süpürgesi",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1019618.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1019618.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 95,
@@ -40638,9 +40638,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Roboticmower A1 Sınırsız Akıllı Robot Çim Biçme Makinesi",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-987579.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-987579.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -40701,9 +40701,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Roboticmower A2 Gelişmiş Akıllı Robot Çim Biçme Makinesi",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-1042571.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-1042571.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 98,
@@ -40764,9 +40764,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame Glamour Kablosuz Saç Düzleştirici ve Şekillendirici",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-895827.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-895827.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 95,
@@ -40825,9 +40825,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Dreame D1186 Buz Başlıklı Akıllı IPL Lazer Epilasyon Cihazı",
     "brand": "Dreame",
     "category": "appliances",
-    "image": "/images/appliances/dreame-966141.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/dreame-966141.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -40883,9 +40883,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips HomeRun 7000 Serisi Aqua XU7100",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-861921.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-861921.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 92,
@@ -40985,9 +40985,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips HomeRun 7000 Series Aqua XU7000",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-861912.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-861912.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -41086,9 +41086,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9919/07 Marathon Ultimate (650 W)",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-32047.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-32047.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -41186,9 +41186,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9923/07 Marathon Ultimate (650 W)",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-31026.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-31026.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -41286,9 +41286,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Marathon Daily XB7151/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-878443.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-878443.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -41386,9 +41386,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Marathon Ultimate XB9125/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-345076.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-345076.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -41486,9 +41486,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Marathon Ultimate XB9185/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-345073.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-345073.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -41586,9 +41586,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9749/07 PowerPro Max",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-779795.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-779795.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -41685,9 +41685,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Marathon Ultimate XB9145/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-345075.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-345075.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -41785,9 +41785,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9750/07 PowerPro Max",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-158463.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-158463.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -41884,9 +41884,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9751/07 PowerPro Max",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-156362.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-156362.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -41983,9 +41983,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9330/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428817.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-428817.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -42081,9 +42081,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Marathon Daily XB7150/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-878450.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-878450.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -42181,9 +42181,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9330/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-863312.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-863312.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -42279,9 +42279,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9331/07 PowerPro City",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-90131.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-90131.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -42378,9 +42378,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9332/07 PowerPro City",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-90388.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-90388.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -42477,9 +42477,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Marathon Ultimate XB9155/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-345074.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-345074.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -42577,9 +42577,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9744/09 PowerPro Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428826.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-428826.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -42676,9 +42676,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9925/07 Marathon Ultimate",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-122491.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-122491.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -42776,9 +42776,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips HomeRun 3000 Series Aqua",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-870342.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-870342.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 87,
@@ -42878,9 +42878,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips HomeRun 3000 Series Aqua",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-870331.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-870331.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -42979,9 +42979,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9323/07 PowerPro Compact",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-32024.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-32024.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -43078,9 +43078,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9745/09 PowerPro Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-628739.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-628739.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -43177,9 +43177,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 2000 Series XB2142/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-856000.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-856000.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.5,
     "epeyScore": 81,
@@ -43275,9 +43275,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 2000 Series XB2122/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-856002.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-856002.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.5,
     "epeyScore": 81,
@@ -43373,9 +43373,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9532/09 PowerPro Active",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-50975.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-50975.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 83,
@@ -43472,9 +43472,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9729/09 PowerPro Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428818.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-428818.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -43571,9 +43571,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XB2123/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-856003.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-856003.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.5,
     "epeyScore": 81,
@@ -43669,9 +43669,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 3000 Series XD3110/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-626150.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-626150.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 83,
@@ -43767,9 +43767,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Marathon Ultimate XB9125/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-855922.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-855922.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -43867,9 +43867,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XC8057_01 Aqua Plus",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-904444.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-904444.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -43968,9 +43968,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XC7057/01 Aqua",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-929083.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-929083.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -44069,9 +44069,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC6724/01 SpeedPro",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-573718.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-573718.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -44169,9 +44169,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Aqua Plus 8000 Series XC8349/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-779779.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-779779.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -44270,9 +44270,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XC7040/01 SpeedPro Max",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-873679.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-873679.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -44370,9 +44370,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips SpeedPro Max XC7043/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-628738.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-628738.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -44470,9 +44470,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips SpeedPro Max FC6823/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-156360.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-156360.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -44570,9 +44570,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XC8043/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-578827.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-578827.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -44670,9 +44670,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8781/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-863399.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-863399.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -44771,9 +44771,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8785/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-130000.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-130000.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -44872,9 +44872,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8371/09 Performer Compact",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-54101.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-54101.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -44971,9 +44971,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC7020/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-32399.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-32399.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.5,
     "epeyScore": 83,
@@ -45069,9 +45069,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Aqua Trio 9000 Series XW9383/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-855169.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-855169.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 93,
@@ -45171,9 +45171,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC7025/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-69647.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-69647.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.5,
     "epeyScore": 83,
@@ -45269,9 +45269,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Aqua Trio 9000 Series XW9463/11",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-969779.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-969779.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 93,
@@ -45371,9 +45371,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Aqua Plus 8000 Series XC8053/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-969094.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-969094.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -45472,9 +45472,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XB2142/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1030547.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-1030547.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.5,
     "epeyScore": 82,
@@ -45570,9 +45570,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC3220/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-997697.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-997697.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -45670,9 +45670,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XC6557/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-989523.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-989523.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -45770,9 +45770,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Air Performer 8000 3'ü 1 Arada",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-862521.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-862521.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 94,
@@ -45871,9 +45871,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XC6552/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-989795.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-989795.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -45971,9 +45971,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips PureProtect Quiet 2200 Serisi AC2220/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1043487.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-1043487.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -46070,9 +46070,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XC6453/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1037133.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-1037133.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -46170,9 +46170,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 7000 Serisi Aqua XC7055/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-968510.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-968510.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -46271,9 +46271,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 6000 Series XC6551/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1056817.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-1056817.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -46371,9 +46371,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XU5100",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1028008.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-1028008.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 89,
@@ -46473,9 +46473,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips HomeRun 9000 Serisi XU9100/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-974260.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-974260.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -46576,9 +46576,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 2000 Series XU2100 Aqua",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-960534.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-960534.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 86,
@@ -46676,9 +46676,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XC6456/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1065725.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-1065725.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -46776,9 +46776,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XC6553/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-989783.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-989783.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -46876,9 +46876,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 7000 Serisi Aqua XC7053/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-969511.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-969511.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -46977,9 +46977,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XU5000",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1028033.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-1028033.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -47079,9 +47079,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XC6451/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1061461.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-1061461.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -47178,9 +47178,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC0651/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-955251.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-955251.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -47276,9 +47276,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XC6452/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1065727.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-1065727.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -47375,9 +47375,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC3420/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-997700.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-997700.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -47475,9 +47475,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XC8054/01 Aqua Plus",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-974138.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-974138.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -47576,9 +47576,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Aqua Plus 8000 XC8153/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1065740.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-1065740.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -47677,9 +47677,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XW7263/11 Aquatrio",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-989520.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-989520.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -47779,9 +47779,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips HomeRun 2000 Series Aqua",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-959290.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-959290.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -47879,9 +47879,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Aqua Trio 7000 Series XW7110",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-904468.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-904468.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -47981,9 +47981,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Aqua 7000 XC7153/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1065726.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-1065726.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -48082,9 +48082,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips OneUp 3000 XV3101/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1061610.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-1061610.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -48181,9 +48181,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC0951/13",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-995352.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-995352.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -48279,9 +48279,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Air Purifier AC1711-10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-778398.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-778398.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -48377,9 +48377,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC2939-10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-695964.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-695964.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -48477,9 +48477,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 3000 Serisi XW3192/11",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1061060.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-1061060.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -48579,9 +48579,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC2959/53",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-955250.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-955250.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -48679,9 +48679,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Performer XD8122/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-946786.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-946786.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -48779,9 +48779,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XC6450/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1065742.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-1065742.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -48878,9 +48878,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AquaTrio 9000 Series XW9465/11",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1062027.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-1062027.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 94,
@@ -48980,9 +48980,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XB2122/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1061612.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-1061612.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -49078,9 +49078,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC0850/11",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-849729.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-849729.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -49176,9 +49176,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Performer XD8152/12",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-946781.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-946781.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -49276,9 +49276,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC1215-10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-695960.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-695960.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -49374,9 +49374,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XB9000",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-974236.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-974236.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 94,
@@ -49475,9 +49475,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XC7157/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1065741.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-1065741.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -49574,9 +49574,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XV5113/11",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1061607.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-1061607.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -49673,9 +49673,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Aqua 8000 Serisi XC8156/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1061074.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-1061074.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -49774,9 +49774,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XV5113/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1065743.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-1065743.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -49873,9 +49873,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips  AMF220-15 3'ü 1 Arada",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-729537.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-729537.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -49974,9 +49974,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8766/01 PowerPro",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4125.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-4125.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -50073,9 +50073,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9555/09 PowerPro Active",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-709129.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-709129.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -50172,9 +50172,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9747/09  PowerPro Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-745843.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-745843.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -50272,9 +50272,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9724/09 PowerPro Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-43519.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-43519.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -50372,9 +50372,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9924/07 Marathon Ultimate (650 W)",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-31025.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-31025.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -50472,9 +50472,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips PowerPro FC8769/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-396034.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-396034.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -50571,9 +50571,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8761/01 PowerPro",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-30455.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-30455.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -50670,9 +50670,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9929/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-111539.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-111539.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -50770,9 +50770,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9921/09 PowerPro Ultimate",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428823.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-428823.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -50869,9 +50869,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9926/07 Marathon Ultimate",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-127545.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-127545.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -50969,9 +50969,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8633/01 PowerPro Active",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-31081.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-31081.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -51068,9 +51068,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8632/02",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-31030.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-31030.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -51167,9 +51167,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9334/09 PowerPro Compact",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-707583.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-707583.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -51266,9 +51266,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8475/01 PowerPro Compact",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4126.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-4126.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -51365,9 +51365,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9920/69 PowerPro Ultimate",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-902776.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-902776.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -51464,9 +51464,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9828/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-129499.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-129499.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -51563,9 +51563,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9931/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-112253.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-112253.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -51663,9 +51663,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8470 PowerPro Cyclonic",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-25584.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-25584.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -51762,9 +51762,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8770/91 PowerPro Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-104959.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-104959.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -51862,9 +51862,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8478/91 PowerPro Compact",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-32075.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-32075.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -51961,9 +51961,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9721/09 PowerPro Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-32030.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-32030.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -52061,9 +52061,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9521/09 PowerPro Active",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-32026.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-32026.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -52160,9 +52160,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9525/09 PowerPro Active",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-146763.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-146763.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -52259,9 +52259,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9912/01 Marathon Ultimate (2400 W)",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4119.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-4119.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -52359,9 +52359,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9911/01 PowerPro Ultimate (2200 W)",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4120.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-4120.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -52458,9 +52458,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9712/01 PowerPro Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-30453.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-30453.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -52558,9 +52558,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9192/01 PerformerPro",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4115.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-4115.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -52659,9 +52659,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9194/01 PerformerPro",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4114.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-4114.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -52760,9 +52760,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9553/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-608507.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-608507.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -52859,9 +52859,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9741/09 PowerPro Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-396033.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-396033.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -52958,9 +52958,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9552/09 PowerPro Active",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428821.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-428821.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -53057,9 +53057,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9170/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-704867.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-704867.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -53155,9 +53155,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9238/01 Marathon (2200 W)",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4118.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-4118.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -53254,9 +53254,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9205/01 Marathon (2200 W)",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4123.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-4123.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -53353,9 +53353,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9225/01 (2200 W)",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4121.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-4121.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -53452,9 +53452,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8952 AquaAction",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-729613.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-729613.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -53552,9 +53552,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8950/01 AquaAction",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4124.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-4124.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -53652,9 +53652,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9742/09 PowerPro Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-714549.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-714549.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -53751,9 +53751,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Performer Expert FC8728/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-155473.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-155473.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -53851,9 +53851,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9932/07 Marathon Ultimate",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-77050.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-77050.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 94,
@@ -53951,9 +53951,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8721/09 Performer Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-32063.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-32063.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -54051,9 +54051,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XB9154/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-714547.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-714547.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 94,
@@ -54151,9 +54151,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8727/09 Performer Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-32019.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-32019.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -54251,9 +54251,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8726/09 Performer Expert",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-32014.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-32014.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -54351,9 +54351,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8654/01 Performer Active",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4117.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-4117.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -54450,9 +54450,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8657/01 Performer Active",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-4116.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-4116.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -54549,9 +54549,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XB2125/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-707582.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-707582.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -54647,9 +54647,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9331/09 PowerPro Compact",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-729398.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-729398.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -54745,9 +54745,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9333/09 PowerPro City",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-723914.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-723914.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -54843,9 +54843,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9934/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-110224.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-110224.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 94,
@@ -54943,9 +54943,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Performer Active FC8577/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-608505.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-608505.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -55042,9 +55042,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9571/07 PowerPro Max",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-392013.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-392013.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -55141,9 +55141,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC9928/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-110225.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-110225.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 94,
@@ -55241,9 +55241,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8210",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-671765.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-671765.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -55339,9 +55339,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8144/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-569231.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-569231.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -55437,9 +55437,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8241/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-608506.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-608506.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -55535,9 +55535,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8832/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-595626.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-595626.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -55638,9 +55638,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8452/01 PowerLife",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-30452.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-30452.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -55737,9 +55737,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8455/01 PowerLife",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-30451.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-30451.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -55836,9 +55836,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips SmartPro Active FC8822/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-595715.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-595715.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -55939,9 +55939,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Speedpro Aqua FC6719/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-865510.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-865510.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -56041,9 +56041,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips PowerPro Duo FC6169/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428816.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-428816.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -56141,9 +56141,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC6405/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428819.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-428819.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -56243,9 +56243,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC6404/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-155472.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-155472.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -56345,9 +56345,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 8000 Series XC8049/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-695596.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-695596.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -56446,9 +56446,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XC7041/01 SpeedPro Max",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-710829.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-710829.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -56547,9 +56547,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC6802/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-608504.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-608504.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -56648,9 +56648,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC6168/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-161574.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-161574.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -56748,9 +56748,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC6144/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-78373.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-78373.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -56848,9 +56848,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC6162/02 PowerPro Duo",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-32537.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-32537.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -56948,9 +56948,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips ECO FC6148/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-73005.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-73005.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -57048,9 +57048,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8781/07",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-130001.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-130001.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -57149,9 +57149,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8784/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-707586.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-707586.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -57250,9 +57250,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC 6843/01 Triathlon",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-652234.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-652234.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -57351,9 +57351,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8812/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-595636.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-595636.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -57454,9 +57454,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8785/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-720640.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-720640.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -57555,9 +57555,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8783/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-695519.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-695519.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -57656,9 +57656,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8458/91 PowerLife",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-32068.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-32068.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -57754,9 +57754,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8580/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-738803.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-738803.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 88,
@@ -57854,9 +57854,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8579/09 Performer Active",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-707585.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-707585.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 88,
@@ -57954,9 +57954,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8146/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-633526.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-633526.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -58052,9 +58052,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8810/01 SmartPro Aktif",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-694369.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-694369.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -58155,9 +58155,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8245/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428815.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-428815.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -58253,9 +58253,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8244/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-608508.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-608508.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -58351,9 +58351,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8955/09 Performer Ultimate (750 W)",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-66089.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-66089.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 92,
@@ -58452,9 +58452,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips PowerGo FC8243/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-723794.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-723794.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -58550,9 +58550,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8576/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-155474.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-155474.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 88,
@@ -58650,9 +58650,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8375/09 Performer Compact",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428820.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-428820.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -58748,9 +58748,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8578/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-608503.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-608503.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 88,
@@ -58848,9 +58848,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8820/01 SmartPro",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-595687.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-595687.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -58951,9 +58951,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8792/01 SmartPro Easy",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-595721.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-595721.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -59054,9 +59054,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8776/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-595662.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-595662.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -59157,9 +59157,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8326/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428825.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-428825.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -59255,9 +59255,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8796/01 SmartPro Easy",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-899158.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-899158.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -59358,9 +59358,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8774/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-584318.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-584318.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -59461,9 +59461,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8715/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-595698.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-595698.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -59564,9 +59564,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8710/01 SmartPro",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-595675.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-595675.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -59667,9 +59667,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8786/09 Performer Silent",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-707581.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-707581.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -59768,9 +59768,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Minivac FC6048/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-613509.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-613509.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -59868,9 +59868,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC8246/09",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-707584.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-707584.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 84,
@@ -59966,9 +59966,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC6149/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-76280.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-76280.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -60066,9 +60066,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC6722/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428822.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-428822.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -60167,9 +60167,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC6727/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-553585.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-553585.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -60268,9 +60268,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC6723/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-677722.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-677722.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -60369,9 +60369,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC6142/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-77038.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-77038.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -60469,9 +60469,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC6171/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-428824.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-428824.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -60570,9 +60570,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips FC7028/01",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-120592.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-120592.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -60670,9 +60670,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 3000i Serisi AC3033/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-420618.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-420618.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -60771,9 +60771,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Robbie Premium",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-963394.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-963394.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 89,
@@ -60875,9 +60875,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC3055/51",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-955254.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-955254.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -60976,9 +60976,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Gopure Style GP5611",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-914151.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-914151.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -61076,9 +61076,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC0830/10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-850541.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-850541.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -61175,9 +61175,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC2889-10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-157918.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-157918.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -61275,9 +61275,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC4080-10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-157915.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-157915.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -61376,9 +61376,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC1214-10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-157914.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-157914.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -61476,9 +61476,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC2882-10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-157919.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-157919.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -61576,9 +61576,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC3829-10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-169198.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-169198.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -61677,9 +61677,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC2729-10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-169205.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-169205.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -61778,9 +61778,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC2887-10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-397462.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-397462.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -61878,9 +61878,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC5659-10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-420627.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-420627.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -61980,9 +61980,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC4550-10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-420620.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-420620.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 94,
@@ -62081,9 +62081,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC4012-10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-420619.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-420619.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -62180,9 +62180,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC3259-10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-157917.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-157917.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -62281,9 +62281,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC0820-10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-420628.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-420628.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -62381,9 +62381,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC3036-10",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-648049.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-648049.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -62482,9 +62482,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips AC-4053",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-157916.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-157916.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.6,
     "epeyScore": 85,
@@ -62581,9 +62581,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Avent SCH580-20",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-416349.png",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-416349.png"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -62681,9 +62681,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips NA350/00 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-932002.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-932002.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -62783,9 +62783,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Premium XXL HD9867/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-694149.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-694149.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -62885,9 +62885,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Premium XXL HD9650/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-145556.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-145556.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -62987,9 +62987,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Premium XXL HD9870/20 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-801347.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-801347.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -63089,9 +63089,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Viva Collection HD9630/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-145550.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-145550.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -63191,9 +63191,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Essential HD9260/90 XL Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-584240.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-584240.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -63293,9 +63293,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips HD9880/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-877307.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-877307.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -63396,9 +63396,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips HD9875/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-890838.jpg",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-890838.jpg"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 97,
@@ -63499,9 +63499,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Essential Dijital XXL 5000 Series HD9285/96 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-863885.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-863885.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 92,
@@ -63601,9 +63601,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips HD9270/90 XL Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-740841.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-740841.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -63703,9 +63703,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XL HD9270/96 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-791852.jpg",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-791852.jpg"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -63805,9 +63805,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 3000 Series L HD9252/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-629293.jpg",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-629293.jpg"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -63905,9 +63905,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Essential 3000 Series HD9200/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-803022.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-803022.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -64005,9 +64005,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 3000 Series XL HD9257/80 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-890850.jpg",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-890850.jpg"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -64107,9 +64107,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 3000 Series HD9243/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-890845.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-890845.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -64207,9 +64207,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 5000 Series HD9255/60 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-838197.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-838197.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 92,
@@ -64309,9 +64309,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Essential HD9270-70 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-869214.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-869214.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -64411,9 +64411,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips HD9220/20 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-130794.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-130794.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -64511,9 +64511,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips NA322/00 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-995339.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-995339.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -64613,9 +64613,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 3000 Series Dual Basket Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-973099.jpg",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-973099.jpg"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -64715,9 +64715,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips NA120/00 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-999943.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-999943.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -64815,9 +64815,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips NA555/00 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-995351.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-995351.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -64917,9 +64917,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 2000 Series",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-1046376.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-1046376.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -65017,9 +65017,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 1000 Series Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-973119.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-973119.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 88,
@@ -65117,9 +65117,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 3000 Series XL 9270/66 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-863889.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-863889.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -65219,9 +65219,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 3000 Series XL 9270/20 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-859766.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-859766.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -65321,9 +65321,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Spectre XL Double HD9270/60 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-838156.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-838156.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -65423,9 +65423,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Essential XL HD9270/66 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-760093.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-760093.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -65525,9 +65525,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips HD9651/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-854822.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-854822.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -65627,9 +65627,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Premium XXL HD9860/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-851512.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-851512.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 96,
@@ -65729,9 +65729,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XXL HD9652/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-173975.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-173975.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -65830,9 +65830,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Premium XXL HD9650/91 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-791855.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-791855.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -65931,9 +65931,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Premium XXL HD9650/96 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-162331.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-162331.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -66032,9 +66032,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 5000 Series Connected HD9280/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-838158.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-838158.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 93,
@@ -66134,9 +66134,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 3000 Serisi HD9270/91 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-838152.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-838152.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 91,
@@ -66234,9 +66234,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips HD9200/21 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-854824.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-854824.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -66333,9 +66333,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips HD9200/91 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-854825.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-854825.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -66432,9 +66432,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 3000 Series L HD9200/11 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-853842.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-853842.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -66531,9 +66531,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips HD9252/21 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-847938.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-847938.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -66630,9 +66630,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Essential HD9252/70 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-791865.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-791865.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -66729,9 +66729,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips 3000 Series HD9252/91 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-791862.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-791862.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -66828,9 +66828,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips HD6180/20",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-169041.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-169041.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.5,
     "epeyScore": 78,
@@ -66928,9 +66928,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips HD6159/52",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-401632.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-401632.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.5,
     "epeyScore": 78,
@@ -67028,9 +67028,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips XXL HD9750/20 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-420799.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-420799.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -67129,9 +67129,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips HD9252/10 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-838372.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-838372.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -67228,9 +67228,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips HD6157",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-82918.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-82918.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.5,
     "epeyScore": 78,
@@ -67328,9 +67328,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Avance Collection XL HD9240/30 Airfryer (Siyah)",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-803082.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-803082.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -67428,9 +67428,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Avance Collection XL HD9240/30 Airfryer (Beyaz)",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-91237.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-91237.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -67528,9 +67528,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips HD 6134",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-674898.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-674898.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.5,
     "epeyScore": 78,
@@ -67628,9 +67628,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Premium HD9741/10 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-141185.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-141185.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -67728,9 +67728,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Daily Collection HD9216/80 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-647393.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-647393.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -67827,9 +67827,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Viva Collection HD9621/80 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-647394.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-647394.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -67927,9 +67927,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips TurboStar HD9621/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-199840.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-199840.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -68027,9 +68027,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips TurboStar HD9641/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-157640.jpg",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-157640.jpg"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -68127,9 +68127,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Avance Collection HD9642/20 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-173973.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-173973.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -68227,9 +68227,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Viva Collection Digitaler HD9236/20 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-584237.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-584237.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -68326,9 +68326,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips HD9220/40 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-203654.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-203654.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -68425,9 +68425,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Viva Collection HD9621/96 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-162333.jpg",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-162333.jpg"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 90,
@@ -68525,9 +68525,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Premium HD9762/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-159171.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-159171.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.9,
     "epeyScore": 95,
@@ -68626,9 +68626,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Avance Collection XL HD9240/90 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-203653.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-203653.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -68726,9 +68726,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Turbostar HD9621/20 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-166353.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-166353.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 87,
@@ -68825,9 +68825,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Turbostar HD9640/00 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-172551.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-172551.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.8,
     "epeyScore": 89,
@@ -68925,9 +68925,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips Essential HD9218/51 Airfryer",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-801438.png",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-801438.png"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.7,
     "epeyScore": 86,
@@ -69025,9 +69025,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "name": "Philips HD6103/70",
     "brand": "Philips",
     "category": "appliances",
-    "image": "/images/appliances/philips-130795.jpg",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "/images/appliances/philips-130795.jpg"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "rating": 4.4,
     "epeyScore": 76,
@@ -69129,9 +69129,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.89,
     "epeyScore": 95,
     "reviewCount": 1420,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -69206,9 +69206,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.86,
     "epeyScore": 93,
     "reviewCount": 980,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -69264,9 +69264,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.92,
     "epeyScore": 96,
     "reviewCount": 650,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -69323,9 +69323,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.88,
     "epeyScore": 94,
     "reviewCount": 1100,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://cdn.cimri.io/image/1200x1200/arcelik-901-kmp-i-9-kg-beyaz-camasir-kurutma-makinesi_944334653.jpg",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://cdn.cimri.io/image/1200x1200/arcelik-901-kmp-i-9-kg-beyaz-camasir-kurutma-makinesi_944334653.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -69381,9 +69381,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.91,
     "epeyScore": 96,
     "reviewCount": 780,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://cdn.cimri.io/image/1200x1200/arcelik-901-kmp-i-9-kg-beyaz-camasir-kurutma-makinesi_944334653.jpg",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://cdn.cimri.io/image/1200x1200/arcelik-901-kmp-i-9-kg-beyaz-camasir-kurutma-makinesi_944334653.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -69439,9 +69439,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.85,
     "epeyScore": 91,
     "reviewCount": 1650,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1585837575652-267c041d77d4?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1585837575652-267c041d77d4?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -69516,9 +69516,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 95,
     "reviewCount": 890,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1585837575652-267c041d77d4?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1585837575652-267c041d77d4?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -69574,9 +69574,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.94,
     "epeyScore": 97,
     "reviewCount": 420,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1585837575652-267c041d77d4?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1585837575652-267c041d77d4?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -69633,9 +69633,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.91,
     "epeyScore": 96,
     "reviewCount": 1350,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -69709,9 +69709,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.96,
     "epeyScore": 98,
     "reviewCount": 490,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -69766,9 +69766,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.92,
     "epeyScore": 95,
     "reviewCount": 880,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -69836,9 +69836,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 94,
     "reviewCount": 560,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -69893,9 +69893,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.88,
     "epeyScore": 92,
     "reviewCount": 620,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -69947,9 +69947,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.95,
     "epeyScore": 96,
     "reviewCount": 4500,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -70023,9 +70023,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.98,
     "epeyScore": 98,
     "reviewCount": 1850,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -70081,9 +70081,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.91,
     "epeyScore": 94,
     "reviewCount": 1400,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -70139,9 +70139,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 94,
     "reviewCount": 890,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -70197,9 +70197,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.92,
     "epeyScore": 95,
     "reviewCount": 1650,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -70273,9 +70273,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.93,
     "epeyScore": 96,
     "reviewCount": 920,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -70330,9 +70330,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.89,
     "epeyScore": 93,
     "reviewCount": 720,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -70387,9 +70387,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.87,
     "epeyScore": 91,
     "reviewCount": 940,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -70444,9 +70444,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.88,
     "epeyScore": 92,
     "reviewCount": 650,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -70499,9 +70499,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.91,
     "epeyScore": 94,
     "reviewCount": 410,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -70554,9 +70554,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 94,
     "reviewCount": 680,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -70611,9 +70611,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.92,
     "epeyScore": 95,
     "reviewCount": 520,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -70665,9 +70665,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.95,
     "epeyScore": 97,
     "reviewCount": 890,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -70719,9 +70719,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.88,
     "epeyScore": 93,
     "reviewCount": 460,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1585837575652-267c041d77d4?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1585837575652-267c041d77d4?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -70775,9 +70775,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.82,
     "epeyScore": 89,
     "reviewCount": 780,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1585837575652-267c041d77d4?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1585837575652-267c041d77d4?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -70831,9 +70831,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 93,
     "reviewCount": 1600,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -70887,9 +70887,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.93,
     "epeyScore": 96,
     "reviewCount": 380,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -70943,9 +70943,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.96,
     "epeyScore": 98,
     "reviewCount": 190,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -70999,9 +70999,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.97,
     "epeyScore": 98,
     "reviewCount": 310,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1585837575652-267c041d77d4?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1585837575652-267c041d77d4?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -71055,9 +71055,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.91,
     "epeyScore": 95,
     "reviewCount": 160,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": false,
@@ -71110,9 +71110,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.85,
     "epeyScore": 90,
     "reviewCount": 3800,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -71164,9 +71164,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.93,
     "epeyScore": 95,
     "reviewCount": 1420,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -71218,9 +71218,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.91,
     "epeyScore": 94,
     "reviewCount": 1840,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://cdn.cimri.io/image/1200x1200/arcelik-570471-mb-buzdolabi_1040647948.jpg",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://cdn.cimri.io/image/1200x1200/arcelik-570471-mb-buzdolabi_1040647948.jpg"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -71307,9 +71307,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.93,
     "epeyScore": 95,
     "reviewCount": 960,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -71377,9 +71377,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.92,
     "epeyScore": 95,
     "reviewCount": 1450,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -71447,9 +71447,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.88,
     "epeyScore": 91,
     "reviewCount": 640,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -71662,9 +71662,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.94,
     "epeyScore": 96,
     "reviewCount": 1650,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -71732,9 +71732,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.87,
     "epeyScore": 90,
     "reviewCount": 2200,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -71802,9 +71802,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.85,
     "epeyScore": 89,
     "reviewCount": 3100,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1585837575652-267c041d77d4?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1585837575652-267c041d77d4?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -71872,9 +71872,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 93,
     "reviewCount": 1540,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1585837575652-267c041d77d4?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1585837575652-267c041d77d4?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -71942,9 +71942,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.84,
     "epeyScore": 88,
     "reviewCount": 520,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -71998,9 +71998,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.9,
     "epeyScore": 92,
     "reviewCount": 780,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -72054,9 +72054,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.91,
     "epeyScore": 94,
     "reviewCount": 650,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
@@ -72109,9 +72109,9 @@ export const mockAppliances: ApplianceProduct[] = [
     "rating": 4.95,
     "epeyScore": 97,
     "reviewCount": 420,
-    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"
     ],
     "releaseYear": 2024,
     "isPopular": true,
