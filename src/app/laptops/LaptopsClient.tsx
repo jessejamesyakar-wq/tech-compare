@@ -25,9 +25,6 @@ export default function LaptopsClient({ initialLaptops }: { initialLaptops: Lapt
   // Filter State
   const [filters, setFilters] = useState<LaptopFilterState>({
     brands: [],
-    productTypes: [],
-    lenovoSeries: [],
-    appleSeries: [],
     minPrice: 0,
     maxPrice: 250000,
     minScreenInch: 0,
@@ -44,32 +41,6 @@ export default function LaptopsClient({ initialLaptops }: { initialLaptops: Lapt
       // Brand filter
       if (filters.brands.length > 0) {
         if (!filters.brands.some((b) => b.toLowerCase() === laptop.brand.toLowerCase())) {
-          return false;
-        }
-      }
-
-      // Apple Series filter
-      if (filters.appleSeries && filters.appleSeries.length > 0) {
-        const matchApple = filters.appleSeries.some((s) =>
-          laptop.brand.toLowerCase() === 'apple' &&
-          (laptop.name.toLowerCase().includes(s.toLowerCase()) ||
-           laptop.slug.toLowerCase().includes(s.toLowerCase().replace(' ', '-')))
-        );
-        if (!matchApple) return false;
-      }
-
-      // Lenovo Series filter
-      if (filters.lenovoSeries && filters.lenovoSeries.length > 0) {
-        const matchSeries = filters.lenovoSeries.some((s) =>
-          laptop.name.toLowerCase().includes(s.toLowerCase()) ||
-          laptop.slug.toLowerCase().includes(s.toLowerCase())
-        );
-        if (!matchSeries) return false;
-      }
-
-      // Product Type filter
-      if (filters.productTypes.length > 0) {
-        if (!filters.productTypes.includes(laptop.specs?.productType || laptop.productType)) {
           return false;
         }
       }
@@ -175,7 +146,7 @@ export default function LaptopsClient({ initialLaptops }: { initialLaptops: Lapt
           </div>
 
           {/* Active Search & Filter Tags Bar */}
-          {(filters.brands.length > 0 || (filters.appleSeries || []).length > 0 || (filters.lenovoSeries || []).length > 0 || filters.productTypes.length > 0 || filters.searchQuery) && (
+          {(filters.brands.length > 0 || filters.searchQuery) && (
             <div className="flex flex-wrap items-center gap-2 bg-emerald-50/60 border border-emerald-200/80 p-3 rounded-2xl">
               <span className="text-xs font-bold text-emerald-800">Aktif Filtreler:</span>
 
@@ -196,73 +167,22 @@ export default function LaptopsClient({ initialLaptops }: { initialLaptops: Lapt
                 </span>
               ))}
 
-              {(filters.appleSeries || []).map((s) => (
-                <span
-                  key={s}
-                  className="bg-slate-900 text-white font-extrabold text-xs px-3 py-1 rounded-full flex items-center gap-1 shadow-2xs"
-                >
-                  <span>MacBook: {s}</span>
+              {filters.searchQuery && (
+                <span className="bg-white border border-emerald-300 text-emerald-800 font-extrabold text-xs px-3 py-1 rounded-full flex items-center gap-1 shadow-2xs">
+                  <span>Arama: {filters.searchQuery}</span>
                   <button
-                    onClick={() =>
-                      setFilters({
-                        ...filters,
-                        appleSeries: (filters.appleSeries || []).filter((x) => x !== s)
-                      })
-                    }
-                    className="hover:text-rose-300 font-bold ml-1"
-                  >
-                    ×
-                  </button>
-                </span>
-              ))}
-
-              {(filters.lenovoSeries || []).map((s) => (
-                <span
-                  key={s}
-                  className="bg-emerald-600 text-white font-extrabold text-xs px-3 py-1 rounded-full flex items-center gap-1 shadow-2xs"
-                >
-                  <span>Lenovo: {s}</span>
-                  <button
-                    onClick={() =>
-                      setFilters({
-                        ...filters,
-                        lenovoSeries: (filters.lenovoSeries || []).filter((x) => x !== s)
-                      })
-                    }
-                    className="hover:text-rose-200 font-bold ml-1"
-                  >
-                    ×
-                  </button>
-                </span>
-              ))}
-
-              {filters.productTypes.map((t) => (
-                <span
-                  key={t}
-                  className="bg-white border border-emerald-300 text-emerald-800 font-extrabold text-xs px-3 py-1 rounded-full flex items-center gap-1 shadow-2xs"
-                >
-                  <span>Tip: {t}</span>
-                  <button
-                    onClick={() =>
-                      setFilters({
-                        ...filters,
-                        productTypes: filters.productTypes.filter((x) => x !== t)
-                      })
-                    }
+                    onClick={() => setFilters({ ...filters, searchQuery: '' })}
                     className="hover:text-rose-600 font-bold ml-1"
                   >
                     ×
                   </button>
                 </span>
-              ))}
+              )}
 
               <button
                 onClick={() =>
                   setFilters({
                     brands: [],
-                    productTypes: [],
-                    lenovoSeries: [],
-                    appleSeries: [],
                     minPrice: 0,
                     maxPrice: 250000,
                     minScreenInch: 0,
