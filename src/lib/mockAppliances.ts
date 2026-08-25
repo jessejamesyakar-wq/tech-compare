@@ -69758,31 +69758,30 @@ export const mockAppliances: ApplianceProduct[] = [
   {
     "id": "arcelik-270481-mb",
     "slug": "arcelik-270481-mb",
-    "name": "Arçelik 270481 MB 481 Litre No-Frost Alttan Donduruculu Beyaz Buzdolabı",
+    "name": "Arçelik 270481 MB 481 Litre No-Frost Kombi Tipi Buzdolabı",
     "brand": "Arçelik",
     "category": "appliances",
-    "basePrice": 24999,
+    "basePrice": 27499,
     "currency": "TL",
-    "rating": 4.86,
-    "epeyScore": 92,
-    "reviewCount": 820,
+    "rating": 4.92,
+    "epeyScore": 95,
+    "reviewCount": 880,
     "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
     "images": [
       "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
     ],
     "releaseYear": 2024,
-    "isPopular": false,
-    "isFeatured": false,
+    "isPopular": true,
+    "isFeatured": true,
     "highlights": [
-      "481 Litre Net Hacim & Kombi Tipi Alttan Donduruculu",
-      "AeroFlow No-Frost Soğutma Sistemi",
-      "Hızlı Dondurma ve Hızlı Soğutma Modları",
-      "Sessiz ve Dayanıklı ProSmart Inverter Kompresör"
+      "481 Litre Net Hacim & Alttan Donduruculu Ergonomik Düzen",
+      "AeroFlow Çift Fanlı Hava Dağıtımı & VitaminZone Işık Teknolojisi",
+      "ProSmart Inverter Kompresör ile A++ Eşdeğeri Yüksek Tasarruf",
+      "Hızlı Soğutma ve Hızlı Dondurma Butonları"
     ],
     "specs": {
       "subCategory": "refrigerator",
       "subCategoryLabel": "Buzdolabı",
-      "capacity": "481 Litre",
       "capacityLiters": 481,
       "noiseLevelDb": 38,
       "warrantyYears": 3,
@@ -69790,25 +69789,39 @@ export const mockAppliances: ApplianceProduct[] = [
     },
     "storeOffers": [
       {
-        "id": "arcelik-270481-mb-ty",
-        "storeName": "Trendyol",
-        "storeLogoColor": "bg-amber-600",
-        "price": 24999,
+        "id": "arcelik-270481-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 27499,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
-          "Ekonomik Kombi Tipi"
+          "Kombi Tipi No-Frost"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1540,
+        "sellerReviews": 1600,
+        "url": "#"
+      },
+      {
+        "id": "arcelik-270481-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 27899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Bayi"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1950,
         "url": "#"
       }
     ],
     "priceHistory": [
       {
         "date": "2026-07",
-        "price": 24999,
-        "store": "Trendyol"
+        "price": 27499,
+        "store": "Hepsiburada"
       }
     ]
   },
@@ -71475,6 +71488,667 @@ export const mockAppliances: ApplianceProduct[] = [
       {
         "date": "2026-07",
         "price": 14499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-901-kmp-i",
+    "slug": "arcelik-901-kmp-i",
+    "name": "Arçelik 901 KMP I 9 kg A++ Isı Pompalı Çamaşır Kurutma Makinesi (Inox Detaylı)",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 19499,
+    "currency": "TL",
+    "rating": 4.93,
+    "epeyScore": 96,
+    "reviewCount": 1280,
+    "image": "https://cdn.cimri.io/image/1200x1200/arcelik-901-kmp-i-9-kg-beyaz-camasir-kurutma-makinesi_944334653.jpg",
+    "images": [
+      "https://cdn.cimri.io/image/1200x1200/arcelik-901-kmp-i-9-kg-beyaz-camasir-kurutma-makinesi_944334653.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "9 kg Kurutma Kapasitesi & A++ Enerji Sınıfı Heat Pump Teknolojisi",
+      "ProSmart Inverter Motor ile Düşük Enerji Tüketimi & 64 dB Sessiz",
+      "Akıllı Nem Algılama Sensörü ile Kumaşa Göre Otomatik Süre",
+      "Koku Giderme ve Hijyenik Havalandırma Programları"
+    ],
+    "specs": {
+      "subCategory": "dryer",
+      "subCategoryLabel": "Kurutma Makinesi",
+      "capacity": "9 kg",
+      "noiseLevelDb": 64,
+      "warrantyYears": 3,
+      "color": "Beyaz / Inox Kapak"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-901-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 19499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "🔥 Cimri Sayfa 2 En Popüler"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2100,
+        "url": "#"
+      },
+      {
+        "id": "arcelik-901-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 19799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Montaj"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "#"
+      },
+      {
+        "id": "arcelik-901-amz",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-amber-500",
+        "price": 19999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 950,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 19499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08",
+        "price": 19499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-800-km",
+    "slug": "arcelik-800-km",
+    "name": "Arçelik 800 KM 8 kg A++ Isı Pompalı Çamaşır Kurutma Makinesi",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 16499,
+    "currency": "TL",
+    "rating": 4.89,
+    "epeyScore": 92,
+    "reviewCount": 940,
+    "image": "https://cdn.cimri.io/image/1200x1200/arcelik-901-kmp-i-9-kg-beyaz-camasir-kurutma-makinesi_944334653.jpg",
+    "images": [
+      "https://cdn.cimri.io/image/1200x1200/arcelik-901-kmp-i-9-kg-beyaz-camasir-kurutma-makinesi_944334653.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "8 kg Kurutma Kapasitesi & A++ Enerji Verimliliği",
+      "Isı Pompalı Düşük Sıcaklıkta Kumaş Koruyucu Kurutma",
+      "Otomatik Kırışık Önleme ve Kolay Ütüleme Fonksiyonu",
+      "Zaman Erteleme (0-24 Saat) ve LED Gösterge Paneli"
+    ],
+    "specs": {
+      "subCategory": "dryer",
+      "subCategoryLabel": "Kurutma Makinesi",
+      "capacity": "8 kg",
+      "noiseLevelDb": 65,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-800-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 16499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fiyat / Performans"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1800,
+        "url": "#"
+      },
+      {
+        "id": "arcelik-800-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 16799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2400,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 16499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-10143-ycm",
+    "slug": "arcelik-10143-ycm",
+    "name": "Arçelik 10143 YCM 10 kg 1400 Devir ProSmart Çamaşır Makinesi",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 19999,
+    "currency": "TL",
+    "rating": 4.94,
+    "epeyScore": 96,
+    "reviewCount": 1650,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "10 kg Geniş Yıkama Kapasitesi & 1400 Devir Yüksek Devirli Sıkma",
+      "SteamCure Buharlı Yıkama ve Anti-Alerji Plus Programı",
+      "SilentTech Özel Yan Duvar Tasarımı ile Titreşimsiz Çalışma",
+      "10 Yıl Motor Garantili Fırçasız Inverter Motor"
+    ],
+    "specs": {
+      "subCategory": "washing_machine",
+      "subCategoryLabel": "Çamaşır Makinesi",
+      "capacity": "10 kg",
+      "noiseLevelDb": 71,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-10143-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 19999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "10 kg 1400 Devir"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2800,
+        "url": "#"
+      },
+      {
+        "id": "arcelik-10143-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 20299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Buhar Destekli"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 19999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-8100-m",
+    "slug": "arcelik-8100-m",
+    "name": "Arçelik 8100 M 8 kg 1000 Devir Çamaşır Makinesi",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 14299,
+    "currency": "TL",
+    "rating": 4.87,
+    "epeyScore": 90,
+    "reviewCount": 2200,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "8 kg Yıkama Kapasitesi & 1000 Devir Sıkma",
+      "Hızlı 14 Dakika Günlük Mini Yıkama Programı",
+      "Dengesiz Yük Kontrolü ve Taşma Emniyet Sistemi",
+      "Ekonomik Su ve Enerji Tüketimi"
+    ],
+    "specs": {
+      "subCategory": "washing_machine",
+      "subCategoryLabel": "Çamaşır Makinesi",
+      "capacity": "8 kg",
+      "noiseLevelDb": 72,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-8100-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En Çok Satan Ekonomik"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4300,
+        "url": "#"
+      },
+      {
+        "id": "arcelik-8100-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 14499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Peşin Fiyatına Taksit"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3600,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 14299,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-6133",
+    "slug": "arcelik-6133",
+    "name": "Arçelik 6133 3 Programlı Beyaz Bulaşık Makinesi",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 13999,
+    "currency": "TL",
+    "rating": 4.85,
+    "epeyScore": 89,
+    "reviewCount": 3100,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "3 Temel Yıkama Programı (Ekonomi 50°C, Yoğun 70°C, Hızlı 58 dk)",
+      "13 Kişilik Geniş Yemek Takımı Yıkama Kapasitesi",
+      "Yarım Yük (Half Load) Yıkama Seçeneği ile Su Tasarrufu",
+      "Paslanmaz Çelik Taban ve Dayanıklı İç Gövde"
+    ],
+    "specs": {
+      "subCategory": "dishwasher",
+      "subCategoryLabel": "Bulaşık Makinesi",
+      "capacity": "13 Kişilik",
+      "noiseLevelDb": 49,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-6133-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 13999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En Çok Satan 3 Programlı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 5100,
+        "url": "#"
+      },
+      {
+        "id": "arcelik-6133-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Gönderim"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4200,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 13999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-6155",
+    "slug": "arcelik-6155",
+    "name": "Arçelik 6155 5 Programlı HijyenMax Bulaşık Makinesi",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 16499,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 1540,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "5 Programlı (Ekonomi, Yoğun, Quick&Shine, Mini 30, Otomatik)",
+      "HijyenMax Ekstra Yüksek Sıcaklıkta Virüs ve Bakteri Arındırma",
+      "14 Kişilik Kapasite & Ayarlanabilir Üst Sepet Mekanizması",
+      "47 dB Düşük Ses Seviyesi ve Su Taşma Emniyeti"
+    ],
+    "specs": {
+      "subCategory": "dishwasher",
+      "subCategoryLabel": "Bulaşık Makinesi",
+      "capacity": "14 Kişilik",
+      "noiseLevelDb": 47,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-6155-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 16499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HijyenMax Teknolojili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2400,
+        "url": "#"
+      },
+      {
+        "id": "arcelik-6155-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 16699,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Peşin Fiyatına Taksit"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2900,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 16499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-2031-mb",
+    "slug": "arcelik-2031-mb",
+    "name": "Arçelik 2031 MB 3 Çekmeceli Tezgah Altı Mini Derin Dondurucu (102 Litre)",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 10999,
+    "currency": "TL",
+    "rating": 4.84,
+    "epeyScore": 88,
+    "reviewCount": 520,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "102 Litre Net Hacim & 3 Şeffaf Geniş Çekmece",
+      "Tezgah Altına Mükemmel Uyum Sağlayan Kompakt Boyutlar",
+      "Hızlı Dondurma Özelliği & Ayarlanabilir Termostat",
+      "Elektrik Kesintisinde 13 Saat Koruma"
+    ],
+    "specs": {
+      "subCategory": "deep_freezer",
+      "subCategoryLabel": "Derin Dondurucu",
+      "capacityLiters": 102,
+      "noiseLevelDb": 37,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-2031-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 10999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Tezgah Altı Mini"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 10999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-2105-sandik",
+    "slug": "arcelik-2105-sandik",
+    "name": "Arçelik 2105 Sandık Tipi Yatay Derin Dondurucu (205 Litre Joker Özellikli)",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 15499,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 92,
+    "reviewCount": 780,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "205 Litre Net Hacim & Joker Özelliği (İster Soğutucu İster Dondurucu)",
+      "Tel Sepet Aksesuarı ve İç LED Aydınlatma",
+      "Kilitlenebilir Üst Kapak ve Kolay Açma Kolu",
+      "-15°C Dış Ortam Çalışabilme Dayanıklılığı"
+    ],
+    "specs": {
+      "subCategory": "deep_freezer",
+      "subCategoryLabel": "Derin Dondurucu",
+      "capacityLiters": 205,
+      "noiseLevelDb": 39,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-2105-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 15499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Joker Fonksiyonlu"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 15499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-09325-ekolojik",
+    "slug": "arcelik-09325-ekolojik",
+    "name": "Arçelik 09325 Ekolojik 9.000 BTU A++ Inverter Duvar Tipi Klima",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 23999,
+    "currency": "TL",
+    "rating": 4.91,
+    "epeyScore": 94,
+    "reviewCount": 650,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "9.000 BTU Soğutma & 11.000 BTU Isıtma Gücü",
+      "A++ Enerji Sınıfı ve Çevre Dostu R32 Gaz",
+      "HomeWhiz Wi-Fi ile Dilediğiniz Yerden Sıcaklık Kontrolü",
+      "IonFresh Hava Temizleme ve Sessiz Uyku Modu"
+    ],
+    "specs": {
+      "subCategory": "air_conditioner",
+      "subCategoryLabel": "Klima",
+      "noiseLevelDb": 22,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-09325-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 23999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Montaj"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1100,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 23999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-24325-ekolojik",
+    "slug": "arcelik-24325-ekolojik",
+    "name": "Arçelik 24325 Ekolojik 24.000 BTU A++ Inverter Duvar Tipi Klima",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 42999,
+    "currency": "TL",
+    "rating": 4.95,
+    "epeyScore": 97,
+    "reviewCount": 420,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "24.000 BTU Yüksek Soğutma Kapasitesi (Büyük Salon ve İşyerleri İçin)",
+      "A++ Enerji Sınıfı Inverter & 4 Yönlü Otomatik Hava Salınımı",
+      "HomeWhiz Akıllı Wi-Fi Entegrasyonu",
+      "Kendi Kendini Temizleyen Evaporatör ile Kokusuz Hava"
+    ],
+    "specs": {
+      "subCategory": "air_conditioner",
+      "subCategoryLabel": "Klima",
+      "noiseLevelDb": 31,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-24325-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 42999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "24.000 BTU Salon Tipi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 42999,
         "store": "Hepsiburada"
       }
     ]
