@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Product } from '@/lib/types';
-import { Truck, CheckCircle2, Zap, Tag } from 'lucide-react';
+import { ArrowRight, Store, ShieldCheck, Tag } from 'lucide-react';
 
 export interface CompactProductCardProps {
   product: Product;
@@ -39,13 +39,11 @@ export function CompactProductCard({
       ? `/monitors/${product.slug}`
       : `/phones/${product.slug}`;
 
-  // Calculated fake old price for demo discount look if not provided
-  const computedOldPrice = oldPrice || (index % 2 === 0 ? Math.round(product.basePrice * 1.12 / 100) * 100 : undefined);
-  const isDiscounted = Boolean(computedOldPrice && computedOldPrice > product.basePrice);
-
-  // Badge logic
-  const showBadge = badgeType !== 'none';
-  const isRedDiscount = badgeType === 'discount' || (isDiscounted && badgeType !== 'featured');
+  const offers = product.storeOffers || [];
+  const offerCount = offers.length > 0 ? offers.length : 3;
+  const prices = offers.map((o) => o.price).filter((p) => p > 0);
+  const minPrice = prices.length > 0 ? Math.min(...prices) : product.basePrice;
+  const maxPrice = prices.length > 0 ? Math.max(...prices) : Math.round(product.basePrice * 1.08);
 
   const fallbackImg =
     product.category === 'appliances'
@@ -81,8 +79,6 @@ export function CompactProductCard({
       subInfo = [caseSize, material, gps, battery].filter(Boolean).slice(0, 2).join(' • ') || (product.highlights?.[0] || '');
     }
 
-    const offerCount = product.storeOffers?.length || 3;
-
     return (
       <div className="group relative bg-white border border-slate-200/90 hover:border-slate-400/80 rounded-3xl p-4 sm:p-4.5 transition-all duration-300 shadow-xs hover:shadow-xl hover:-translate-y-1 flex flex-col justify-between overflow-hidden">
         {/* Product Image Box */}
@@ -117,55 +113,67 @@ export function CompactProductCard({
           )}
         </div>
 
-        {/* Price & Store Comparison Info */}
-        <div className="mt-3 pt-2.5 border-t border-slate-100/90 space-y-1.5">
-          <div className="flex items-baseline justify-between">
-            <div className="text-base sm:text-lg font-black text-slate-900 tracking-tight tabular-nums">
-              ₺{product.basePrice.toLocaleString()}
-            </div>
-            {computedOldPrice && computedOldPrice > product.basePrice && (
-              <span className="text-[11px] font-semibold text-slate-400 line-through tabular-nums">
-                ₺{computedOldPrice.toLocaleString()}
+        {/* Seller & Price Comparison Info */}
+        <div className="mt-3 pt-2.5 border-t border-slate-100/90 space-y-2">
+          <div>
+            <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider flex items-center justify-between">
+              <span>En Düşük Fiyat</span>
+              <span className="text-emerald-700 font-bold lowercase flex items-center gap-1">
+                <Store className="w-3 h-3" />
+                {offerCount} satıcıda fiyat
               </span>
-            )}
+            </div>
+            <div className="flex items-baseline justify-between pt-0.5">
+              <div className="text-base sm:text-lg font-black text-slate-900 tracking-tight tabular-nums">
+                ₺{minPrice.toLocaleString()}
+              </div>
+              {maxPrice > minPrice && (
+                <span className="text-[11px] font-medium text-slate-400 tabular-nums">
+                  ₺{maxPrice.toLocaleString()}&apos;ye kadar
+                </span>
+              )}
+            </div>
           </div>
 
-          <div className="flex items-center justify-between text-[11px] font-medium text-slate-500 pt-0.5">
-            <span className="text-emerald-700 font-semibold flex items-center gap-1">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block" />
-              Stokta Var / Hızlı Kargo
-            </span>
-            <span className="text-slate-600 font-semibold hover:text-slate-900 transition-colors">
-              {offerCount} Karşılaştır
-            </span>
-          </div>
+          {/* Top 2 Stores Comparison Chips */}
+          {offers.length > 0 ? (
+            <div className="flex items-center gap-1.5 flex-wrap pt-0.5">
+              {offers.slice(0, 2).map((offer, oIdx) => (
+                <span
+                  key={oIdx}
+                  className="text-[10px] font-semibold bg-slate-100/80 text-slate-700 px-2 py-0.5 rounded-md flex items-center gap-1"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+                  <span className="font-bold">{offer.storeName.replace('.com.tr', '')}</span>: ₺{offer.price.toLocaleString()}
+                </span>
+              ))}
+            </div>
+          ) : (
+            <div className="flex items-center gap-1 text-[11px] text-slate-500 font-medium pt-0.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+              <span>Yetkili Satıcı Fiyatları</span>
+            </div>
+          )}
+
+          {/* Compare Prices Link */}
+          <Link
+            href={href}
+            className="w-full bg-slate-900 hover:bg-emerald-600 text-white text-[11px] font-bold py-2 px-3 rounded-xl flex items-center justify-center gap-1.5 transition-all mt-1"
+          >
+            <span>Fiyatları Karşılaştır ({offerCount} Mağaza)</span>
+            <ArrowRight className="w-3 h-3" />
+          </Link>
         </div>
       </div>
     );
   }
 
+  // Standard Category Layout (Consoles, TVs, Tablets, etc.)
   return (
-    <div className="group relative bg-white border border-slate-200 hover:border-emerald-500/60 rounded-2xl p-3 sm:p-3.5 transition-all duration-200 shadow-2xs hover:shadow-lg flex flex-col justify-between overflow-hidden">
-      
-      {/* Top Badges */}
-      {showBadge && (
-        <div className="absolute top-2.5 left-2.5 z-10 flex items-center gap-1">
-          {isRedDiscount ? (
-            <div className="bg-rose-600 text-white text-[9px] font-black px-2 py-0.5 rounded-md shadow-xs uppercase tracking-wider flex items-center gap-1">
-              <Tag className="w-2.5 h-2.5" />
-              <span>{customBadgeText || '%12 İNDİRİM'}</span>
-            </div>
-          ) : (
-            <div className="w-7 h-7 rounded-full bg-slate-900 text-white flex items-center justify-center text-[8px] font-black uppercase tracking-tighter shadow-md border border-slate-700">
-              <span>{customBadgeText || 'YENİ'}</span>
-            </div>
-          )}
-        </div>
-      )}
-
+    <div className="group relative bg-white border border-slate-200 hover:border-slate-300 rounded-2xl p-3.5 transition-all duration-200 shadow-2xs hover:shadow-lg flex flex-col justify-between overflow-hidden">
       {/* Product Image Box */}
       <Link href={href} className="block relative my-1">
-        <div className="w-full h-44 sm:h-48 bg-slate-50 rounded-xl p-3 sm:p-4 flex items-center justify-center overflow-hidden border border-slate-200/80 group-hover:bg-slate-100/80 group-hover:border-emerald-400 transition-all">
+        <div className="w-full h-44 sm:h-48 bg-slate-50 rounded-xl p-3 sm:p-4 flex items-center justify-center overflow-hidden border border-slate-100 group-hover:bg-slate-100/70 transition-all">
           <img
             src={imgSrc}
             alt={product.name}
@@ -178,52 +186,48 @@ export function CompactProductCard({
 
       {/* Product Title & Brand */}
       <div className="space-y-1 mt-1">
-        <span className="text-[9px] font-extrabold text-emerald-700 uppercase tracking-widest block">
+        <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest block">
           {product.brand}
         </span>
 
         <Link href={href} className="block">
-          <h4 className="text-xs font-black text-slate-800 group-hover:text-emerald-700 transition-colors line-clamp-2 leading-snug">
+          <h4 className="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-2 leading-snug">
             {product.name}
           </h4>
         </Link>
       </div>
 
-      {/* Price & Strikethrough Area */}
-      <div className="mt-2.5 pt-2 border-t border-slate-100 space-y-1">
-        {computedOldPrice && computedOldPrice > product.basePrice ? (
-          <div className="flex items-center gap-1.5">
-            <span className="line-through text-slate-400 text-[11px] font-bold tabular-nums">
-              {computedOldPrice.toLocaleString()} ₺
-            </span>
-            <span className="text-[9px] font-black text-rose-600 bg-rose-50 px-1 rounded">
-              -{(100 - Math.round((product.basePrice / computedOldPrice) * 100))}%
-            </span>
-          </div>
-        ) : (
-          <div className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">
-            En Ucuz Mağaza
-          </div>
-        )}
-
-        <div className="text-sm sm:text-base font-black text-emerald-700 tracking-tight tabular-nums">
-          {product.basePrice.toLocaleString()} ₺
-        </div>
-
-        {/* Thin Stock/Fast Delivery Status Bar */}
-        <div className="pt-1.5 flex items-center gap-1.5">
-          <div className="h-1 flex-1 bg-slate-100 rounded-full overflow-hidden">
-            <div
-              className={`h-full rounded-full ${index % 2 === 0 ? 'bg-emerald-500 w-4/5' : 'bg-blue-500 w-full'}`}
-            />
-          </div>
-          <span className="text-[9px] font-bold text-slate-500 flex items-center gap-0.5 shrink-0">
-            <Truck className="w-2.5 h-2.5 text-emerald-600" />
-            <span>{index % 2 === 0 ? 'Hızlı Kargo' : 'Aynı Gün'}</span>
+      {/* Seller & Price Comparison Info */}
+      <div className="mt-3 pt-2.5 border-t border-slate-100 space-y-1.5">
+        <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider flex items-center justify-between">
+          <span>En Düşük Fiyat</span>
+          <span className="text-emerald-700 font-bold lowercase flex items-center gap-1">
+            <Store className="w-3 h-3" />
+            {offerCount} satıcı
           </span>
         </div>
-      </div>
 
+        <div className="flex items-baseline justify-between">
+          <div className="text-sm sm:text-base font-black text-slate-900 tracking-tight tabular-nums">
+            ₺{minPrice.toLocaleString()}
+          </div>
+          {maxPrice > minPrice && (
+            <span className="text-[10px] text-slate-400 font-semibold tabular-nums">
+              ₺{maxPrice.toLocaleString()}&apos;ye kadar
+            </span>
+          )}
+        </div>
+
+        {/* Action button */}
+        <Link
+          href={href}
+          className="w-full bg-slate-100 hover:bg-slate-900 hover:text-white text-slate-800 text-[11px] font-bold py-1.5 px-3 rounded-lg flex items-center justify-center gap-1 transition-all mt-1"
+        >
+          <span>Fiyatları Karşılaştır ({offerCount} Satıcı)</span>
+          <ArrowRight className="w-3 h-3" />
+        </Link>
+      </div>
     </div>
   );
 }
+
