@@ -47,8 +47,20 @@ export function CompactProductCard({
   const showBadge = badgeType !== 'none';
   const isRedDiscount = badgeType === 'discount' || (isDiscounted && badgeType !== 'featured');
 
-  const fallbackImg = 'https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80';
+  const fallbackImg =
+    product.category === 'appliances'
+      ? 'https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=800&q=80'
+      : product.category === 'tvs'
+      ? 'https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80'
+      : product.category === 'laptops'
+      ? 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80'
+      : 'https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=800&q=80';
+
   const [imgSrc, setImgSrc] = React.useState(product.image || fallbackImg);
+
+  React.useEffect(() => {
+    setImgSrc(product.image || fallbackImg);
+  }, [product.image, fallbackImg]);
 
   return (
     <div className="group relative bg-white border border-slate-200 hover:border-emerald-500/60 rounded-2xl p-3 sm:p-3.5 transition-all duration-200 shadow-2xs hover:shadow-lg flex flex-col justify-between overflow-hidden">

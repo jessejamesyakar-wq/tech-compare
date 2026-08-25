@@ -178,7 +178,7 @@ export interface WhiteGoodsGridItem {
   id: string;
   label: string;
   subCategoryKey: string;
-  image: string;
+  icon: any;
   subPills?: { id: string; label: string }[];
 }
 
@@ -187,91 +187,91 @@ export const WHITE_GOODS_GRID_ITEMS: WhiteGoodsGridItem[] = [
     id: 'refrigerator',
     label: 'Buzdolabı',
     subCategoryKey: 'refrigerator',
-    image: 'https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg'
+    icon: Wind
   },
   {
     id: 'washing_machine',
     label: 'Çamaşır Makinesi',
     subCategoryKey: 'washing_machine',
-    image: 'https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg'
+    icon: Layers
   },
   {
     id: 'air_conditioner',
     label: 'Klima',
     subCategoryKey: 'air_conditioner',
-    image: 'https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg'
+    icon: Fan
   },
   {
     id: 'dishwasher',
     label: 'Bulaşık Makinesi',
     subCategoryKey: 'dishwasher',
-    image: 'https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg'
+    icon: Sparkles
   },
   {
     id: 'deep_freezer',
     label: 'Derin Dondurucu',
     subCategoryKey: 'deep_freezer',
-    image: 'https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg'
+    icon: ShieldCheck
   },
   {
     id: 'dryer',
     label: 'Kurutma Makinesi',
     subCategoryKey: 'dryer',
-    image: 'https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg'
+    icon: Wind
   },
   {
     id: 'water_dispenser',
     label: 'Su Sebili',
     subCategoryKey: 'water_dispenser',
-    image: 'https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg'
+    icon: Sparkle
   },
   {
     id: 'oven',
     label: 'Fırın',
     subCategoryKey: 'oven',
-    image: 'https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg'
+    icon: Flame
   },
   {
     id: 'hob',
     label: 'Ocak',
     subCategoryKey: 'hob',
-    image: 'https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg'
+    icon: Flame
   },
   {
     id: 'built_in_set',
     label: 'Ankastre Set',
     subCategoryKey: 'built_in_set',
-    image: 'https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg'
+    icon: Layers
   },
   {
     id: 'range_hood',
     label: 'Davlumbaz',
     subCategoryKey: 'range_hood',
-    image: 'https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg'
+    icon: Fan
   },
   {
     id: 'aspirator',
     label: 'Aspiratör',
     subCategoryKey: 'aspirator',
-    image: 'https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg'
+    icon: Fan
   },
   {
     id: 'microwave',
     label: 'Mikrodalga Fırın',
     subCategoryKey: 'microwave',
-    image: 'https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg'
+    icon: Zap
   },
   {
     id: 'spare_parts',
     label: 'Beyaz Eşya Yedek Parça',
     subCategoryKey: 'spare_parts',
-    image: 'https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg'
+    icon: ShieldCheck
   },
   {
     id: 'industrial_equipment',
     label: 'Endüstriyel Servis Ekipmanları',
     subCategoryKey: 'industrial_equipment',
-    image: 'https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg',
+    icon: UtensilsCrossed,
     subPills: [
       { id: 'service_unit', label: 'Servis Ünitesi' },
       { id: 'display_fridge', label: 'Teşhir Dolabı' },
@@ -282,19 +282,19 @@ export const WHITE_GOODS_GRID_ITEMS: WhiteGoodsGridItem[] = [
     id: 'deli_cabinet',
     label: 'Şarküteri Dolabı',
     subCategoryKey: 'deli_cabinet',
-    image: 'https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg'
+    icon: Layers
   },
   {
     id: 'bottle_cooler',
     label: 'Şişe Soğutucu',
     subCategoryKey: 'bottle_cooler',
-    image: 'https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg'
+    icon: Wind
   },
   {
     id: 'commercial_dishwasher',
     label: 'Sanayi Tipi Bulaşık Makinesi',
     subCategoryKey: 'commercial_dishwasher',
-    image: 'https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg'
+    icon: Sparkles
   }
 ];
 
@@ -382,6 +382,16 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
 
   const handleSubCatSelect = (subCatId: string) => {
     setSelectedSubCat(subCatId);
+    if (subCatId === 'all') {
+      setActiveSector(null);
+    } else {
+      const matchingSector = SECTOR_PILLARS.find((s) =>
+        s.subCats.some((sc) => sc.id === subCatId)
+      );
+      if (matchingSector) {
+        setActiveSector(matchingSector.id);
+      }
+    }
     setHoveredSector(null);
     setVisibleCount(ITEMS_PER_PAGE);
     if (catalogRef.current) {
@@ -403,8 +413,75 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
   const displayProducts = useMemo(() => {
     return products
       .filter((p) => {
-        // Sector Pillar filter
-        if (activeSector) {
+        // Subcategory filter has direct priority
+        if (selectedSubCat !== 'all') {
+          const prodSubCat = p.specs?.subCategory || '';
+          const prodLabel = (p.specs?.subCategoryLabel || '').toLowerCase();
+          const prodName = p.name.toLowerCase();
+
+          let subMatch = prodSubCat === selectedSubCat;
+          if (!subMatch) {
+            if (selectedSubCat === 'coffee_machine') {
+              subMatch = prodLabel.includes('kahve') || prodName.includes('kahve') || prodName.includes('espresso') || prodName.includes('senseo') || prodName.includes('telve');
+            } else if (selectedSubCat === 'blender') {
+              subMatch = prodLabel.includes('blender') || prodLabel.includes('mikser') || prodLabel.includes('robot') || prodName.includes('blender') || prodName.includes('mikser') || prodName.includes('mutfak robotu');
+            } else if (selectedSubCat === 'iron') {
+              subMatch = prodLabel.includes('ütü') || prodName.includes('ütü') || prodName.includes('azur') || prodName.includes('perfectcare');
+            } else if (selectedSubCat === 'personal_care') {
+              subMatch = prodLabel.includes('tıraş') || prodLabel.includes('saç') || prodLabel.includes('epilasyon') || prodLabel.includes('diş') || prodName.includes('tıraş') || prodName.includes('oneblade') || prodName.includes('hairclipper');
+            } else if (selectedSubCat === 'airfryer') {
+              subMatch = prodLabel.includes('airfryer') || prodLabel.includes('fritöz') || prodName.includes('airfryer') || prodName.includes('fritöz');
+            } else if (selectedSubCat === 'robot_vacuum') {
+              subMatch = prodLabel.includes('robot') || prodName.includes('robot');
+            } else if (selectedSubCat === 'stick_vacuum') {
+              subMatch = prodLabel.includes('dikey') || prodLabel.includes('şarjlı süpürge') || prodName.includes('dikey');
+            } else if (selectedSubCat === 'air_purifier') {
+              subMatch = prodLabel.includes('hava') || prodName.includes('hava temizleyici');
+            } else if (selectedSubCat === 'air_conditioner') {
+              subMatch = prodLabel.includes('klima') || prodName.includes('klima') || prodName.includes('inverter');
+            } else if (selectedSubCat === 'tea_maker') {
+              subMatch = prodLabel.includes('çay') || prodLabel.includes('su ısıtıcı') || prodName.includes('çay') || prodName.includes('kettle');
+            } else if (selectedSubCat === 'toaster') {
+              subMatch = prodLabel.includes('tost') || prodLabel.includes('ızgara') || prodName.includes('tost');
+            } else if (selectedSubCat === 'washing_machine') {
+              subMatch = prodLabel.includes('çamaşır') || prodName.includes('çamaşır');
+            } else if (selectedSubCat === 'dishwasher') {
+              subMatch = (prodLabel.includes('bulaşık') || prodName.includes('bulaşık')) && !prodName.includes('sanayi');
+            } else if (selectedSubCat === 'refrigerator') {
+              subMatch = (prodLabel.includes('buzdolabı') || prodName.includes('buzdolabı')) && !prodName.includes('şarküteri') && !prodName.includes('şişe');
+            } else if (selectedSubCat === 'deep_freezer') {
+              subMatch = prodLabel.includes('dondurucu') || prodName.includes('dondurucu');
+            } else if (selectedSubCat === 'dryer') {
+              subMatch = prodLabel.includes('kurutma') || prodName.includes('kurutma');
+            } else if (selectedSubCat === 'water_dispenser') {
+              subMatch = prodLabel.includes('sebil') || prodName.includes('sebil') || prodName.includes('arıtma');
+            } else if (selectedSubCat === 'oven') {
+              subMatch = (prodLabel.includes('fırın') || prodName.includes('fırın')) && !prodName.includes('mikrodalga');
+            } else if (selectedSubCat === 'hob') {
+              subMatch = prodLabel.includes('ocak') || prodName.includes('ocak');
+            } else if (selectedSubCat === 'built_in_set') {
+              subMatch = prodLabel.includes('ankastre set') || prodName.includes('ankastre set') || prodName.includes('3\'lü') || prodName.includes('trio');
+            } else if (selectedSubCat === 'range_hood') {
+              subMatch = prodLabel.includes('davlumbaz') || prodName.includes('davlumbaz');
+            } else if (selectedSubCat === 'aspirator') {
+              subMatch = prodLabel.includes('aspiratör') || prodName.includes('aspiratör');
+            } else if (selectedSubCat === 'microwave') {
+              subMatch = prodLabel.includes('mikrodalga') || prodName.includes('mikrodalga');
+            } else if (selectedSubCat === 'spare_parts') {
+              subMatch = prodLabel.includes('yedek parça') || prodLabel.includes('aksesuar') || prodName.includes('ayak') || prodName.includes('aparat') || prodName.includes('filtre');
+            } else if (selectedSubCat === 'industrial_equipment') {
+              subMatch = prodLabel.includes('endüstriyel') || prodName.includes('servis ünitesi') || prodName.includes('benmari') || prodName.includes('banket');
+            } else if (selectedSubCat === 'deli_cabinet') {
+              subMatch = prodLabel.includes('şarküteri') || prodName.includes('şarküteri') || prodName.includes('et dolabı');
+            } else if (selectedSubCat === 'bottle_cooler') {
+              subMatch = prodLabel.includes('şişe') || prodName.includes('şişe soğutucu') || prodName.includes('meşrubat');
+            } else if (selectedSubCat === 'commercial_dishwasher') {
+              subMatch = prodLabel.includes('sanayi') || prodName.includes('sanayi tipi bulaşık') || prodName.includes('tabak/saat');
+            }
+          }
+          if (!subMatch) return false;
+        } else if (activeSector) {
+          // Sector Pillar filter when selectedSubCat is 'all'
           const sec = SECTOR_PILLARS.find((s) => s.id === activeSector);
           if (sec) {
             const allowedSubCats = [sec.id, ...sec.subCats.map((sc) => sc.id)];
@@ -474,9 +551,13 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
                   prodSubCat === 'washing_machine' ||
                   prodSubCat === 'dryer' ||
                   prodSubCat === 'refrigerator' ||
+                  prodSubCat === 'deep_freezer' ||
                   prodSubCat === 'built_in_set' ||
                   prodSubCat === 'microwave' ||
                   prodSubCat === 'range_hood' ||
+                  prodSubCat === 'aspirator' ||
+                  prodSubCat === 'oven' ||
+                  prodSubCat === 'hob' ||
                   prodSubCat === 'water_dispenser' ||
                   prodSubCat === 'major_appliances' ||
                   prodLabel.includes('çamaşır') ||
@@ -495,74 +576,6 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
           }
         }
 
-        // Subcategory filter
-        if (selectedSubCat !== 'all') {
-          const prodSubCat = p.specs?.subCategory || '';
-          const prodLabel = (p.specs?.subCategoryLabel || '').toLowerCase();
-          const prodName = p.name.toLowerCase();
-
-          let subMatch = prodSubCat === selectedSubCat;
-          if (!subMatch) {
-            if (selectedSubCat === 'coffee_machine') {
-              subMatch = prodLabel.includes('kahve') || prodName.includes('kahve') || prodName.includes('espresso') || prodName.includes('senseo') || prodName.includes('telve');
-            } else if (selectedSubCat === 'blender') {
-              subMatch = prodLabel.includes('blender') || prodLabel.includes('mikser') || prodLabel.includes('robot') || prodName.includes('blender') || prodName.includes('mikser') || prodName.includes('mutfak robotu');
-            } else if (selectedSubCat === 'iron') {
-              subMatch = prodLabel.includes('ütü') || prodName.includes('ütü') || prodName.includes('azur') || prodName.includes('perfectcare');
-            } else if (selectedSubCat === 'personal_care') {
-              subMatch = prodLabel.includes('tıraş') || prodLabel.includes('saç') || prodLabel.includes('epilasyon') || prodLabel.includes('diş') || prodName.includes('tıraş') || prodName.includes('oneblade') || prodName.includes('hairclipper');
-            } else if (selectedSubCat === 'airfryer') {
-              subMatch = prodLabel.includes('airfryer') || prodLabel.includes('fritöz') || prodName.includes('airfryer') || prodName.includes('fritöz');
-            } else if (selectedSubCat === 'robot_vacuum') {
-              subMatch = prodLabel.includes('robot') || prodName.includes('robot');
-            } else if (selectedSubCat === 'stick_vacuum') {
-              subMatch = prodLabel.includes('dikey') || prodLabel.includes('şarjlı süpürge') || prodName.includes('dikey');
-            } else if (selectedSubCat === 'air_purifier') {
-              subMatch = prodLabel.includes('hava') || prodName.includes('hava temizleyici');
-            } else if (selectedSubCat === 'air_conditioner') {
-              subMatch = prodLabel.includes('klima') || prodName.includes('klima') || prodName.includes('inverter');
-            } else if (selectedSubCat === 'tea_maker') {
-              subMatch = prodLabel.includes('çay') || prodLabel.includes('su ısıtıcı') || prodName.includes('çay') || prodName.includes('kettle');
-            } else if (selectedSubCat === 'toaster') {
-              subMatch = prodLabel.includes('tost') || prodLabel.includes('ızgara') || prodName.includes('tost');
-            } else if (selectedSubCat === 'washing_machine') {
-              subMatch = prodLabel.includes('çamaşır') || prodName.includes('çamaşır');
-            } else if (selectedSubCat === 'dishwasher') {
-              subMatch = (prodLabel.includes('bulaşık') || prodName.includes('bulaşık')) && !prodName.includes('sanayi');
-            } else if (selectedSubCat === 'refrigerator') {
-              subMatch = (prodLabel.includes('buzdolabı') || prodName.includes('buzdolabı')) && !prodName.includes('şarküteri') && !prodName.includes('şişe');
-            } else if (selectedSubCat === 'deep_freezer') {
-              subMatch = prodLabel.includes('dondurucu') || prodName.includes('dondurucu');
-            } else if (selectedSubCat === 'dryer') {
-              subMatch = prodLabel.includes('kurutma') || prodName.includes('kurutma');
-            } else if (selectedSubCat === 'water_dispenser') {
-              subMatch = prodLabel.includes('sebil') || prodName.includes('sebil') || prodName.includes('arıtma');
-            } else if (selectedSubCat === 'oven') {
-              subMatch = (prodLabel.includes('fırın') || prodName.includes('fırın')) && !prodName.includes('mikrodalga');
-            } else if (selectedSubCat === 'hob') {
-              subMatch = prodLabel.includes('ocak') || prodName.includes('ocak');
-            } else if (selectedSubCat === 'built_in_set') {
-              subMatch = prodLabel.includes('ankastre set') || prodName.includes('ankastre set') || prodName.includes('3\'lü') || prodName.includes('trio');
-            } else if (selectedSubCat === 'range_hood') {
-              subMatch = prodLabel.includes('davlumbaz') || prodName.includes('davlumbaz');
-            } else if (selectedSubCat === 'aspirator') {
-              subMatch = prodLabel.includes('aspiratör') || prodName.includes('aspiratör');
-            } else if (selectedSubCat === 'microwave') {
-              subMatch = prodLabel.includes('mikrodalga') || prodName.includes('mikrodalga');
-            } else if (selectedSubCat === 'spare_parts') {
-              subMatch = prodLabel.includes('yedek parça') || prodLabel.includes('aksesuar') || prodName.includes('ayak') || prodName.includes('aparat') || prodName.includes('filtre');
-            } else if (selectedSubCat === 'industrial_equipment') {
-              subMatch = prodLabel.includes('endüstriyel') || prodName.includes('servis ünitesi') || prodName.includes('benmari') || prodName.includes('banket');
-            } else if (selectedSubCat === 'deli_cabinet') {
-              subMatch = prodLabel.includes('şarküteri') || prodName.includes('şarküteri') || prodName.includes('et dolabı');
-            } else if (selectedSubCat === 'bottle_cooler') {
-              subMatch = prodLabel.includes('şişe') || prodName.includes('şişe soğutucu') || prodName.includes('meşrubat');
-            } else if (selectedSubCat === 'commercial_dishwasher') {
-              subMatch = prodLabel.includes('sanayi') || prodName.includes('sanayi tipi bulaşık') || prodName.includes('tabak/saat');
-            }
-          }
-          if (!subMatch) return false;
-        }
         // Search query filter
         if (searchQuery) {
           const q = searchQuery.toLowerCase();
@@ -790,28 +803,27 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5">
           {WHITE_GOODS_GRID_ITEMS.map((item) => {
             const isSelected = selectedSubCat === item.subCategoryKey;
+            const ItemIcon = item.icon || Layers;
             return (
               <div
                 key={item.id}
                 onClick={() => {
-                  setActiveSector('major_appliances');
                   handleSubCatSelect(item.subCategoryKey);
                 }}
                 className={`bg-white border rounded-2xl p-4 shadow-2xs hover:shadow-md transition-all duration-200 cursor-pointer flex flex-col justify-between group ${
                   isSelected
                     ? 'border-emerald-600 ring-2 ring-emerald-500/20 bg-emerald-50/20'
-                    : 'border-slate-200 hover:border-slate-300 hover:bg-slate-50/50'
+                    : 'border-slate-200 hover:border-emerald-400 hover:bg-slate-50/50'
                 }`}
               >
                 <div className="flex items-center justify-between gap-3">
                   <div className="flex items-center gap-3.5 min-w-0">
-                    <div className="w-12 h-12 rounded-xl bg-slate-50 border border-slate-100 p-1.5 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
-                      <img
-                        src={item.image}
-                        alt={item.label}
-                        loading="lazy"
-                        className="max-h-full max-w-full object-contain"
-                      />
+                    <div className={`w-11 h-11 rounded-xl flex items-center justify-center shrink-0 group-hover:scale-105 transition-all shadow-2xs ${
+                      isSelected
+                        ? 'bg-emerald-600 text-white'
+                        : 'bg-emerald-50 text-emerald-700 border border-emerald-100 group-hover:bg-emerald-600 group-hover:text-white'
+                    }`}>
+                      <ItemIcon className="w-5 h-5" />
                     </div>
                     <span className={`text-sm font-bold truncate transition-colors ${
                       isSelected ? 'text-emerald-700 font-black' : 'text-slate-800 group-hover:text-emerald-700'
@@ -832,7 +844,6 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
                         key={sp.id}
                         onClick={(e) => {
                           e.stopPropagation();
-                          setActiveSector('major_appliances');
                           handleSubCatSelect(item.subCategoryKey);
                         }}
                         className="text-[11px] font-semibold text-slate-600 bg-slate-50 hover:bg-emerald-50 hover:text-emerald-700 border border-slate-200 px-2.5 py-1 rounded-full transition-colors"
