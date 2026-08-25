@@ -81,11 +81,24 @@ export default function ConsolesClient({ initialProducts }: { initialProducts: P
 
       {/* Grid */}
       <div className="space-y-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {displayProducts.slice(0, visibleCount).map((product, idx) => (
-            <CompactProductCard key={product.id} product={product} index={idx} />
-          ))}
-        </div>
+        {displayProducts.length === 0 ? (
+          <div className="bg-white border border-slate-200 rounded-3xl p-12 text-center max-w-md mx-auto shadow-2xs">
+            <div className="w-16 h-16 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center mx-auto mb-4 text-3xl shadow-xs">
+              🎮
+            </div>
+            <h3 className="text-base font-black text-slate-800 mb-1">Oyun Konsolları Sıfırlandı</h3>
+            <p className="text-xs text-slate-500 font-medium leading-relaxed">
+              Kategori başarıyla temizlendi. Epey&apos;den konsol listesi ve teknik özellikleri yüklenmeye hazır!
+            </p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {displayProducts.slice(0, visibleCount).map((product, idx) => (
+              <CompactProductCard key={product.id} product={product} index={idx} />
+            ))}
+          </div>
+        )}
+
 
         {/* Load More Button */}
         {visibleCount < displayProducts.length && (
