@@ -2103,5 +2103,2005 @@ export const mockMonitors: Product[] = [
         "store": "Hepsiburada"
       }
     ]
+  },
+  {
+    "id": "lg-ultrafine-32un880-b",
+    "slug": "lg-ultrafine-32un880-b",
+    "name": "LG UltraFine 32UN880-B 31.5 inç 4K UHD Ergo Stand USB-C IPS Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.93,
+    "epeyScore": 95,
+    "reviewCount": 480,
+    "basePrice": 23499,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://resim.epey.com/642618/m_lg-32un880-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/642618/m_lg-32un880-b-1.jpg"
+    ],
+    "highlights": [
+      "31.5 inç 4K UHD (3840x2160) Canlı IPS Panel",
+      "C-Kelepçeli Tam Hareketli Profesyonel Ergo Stand",
+      "USB Type-C 60W Güç İletimi (PD)",
+      "HDR10 & DCI-P3 %95 & Dahili 2x5W MaxxAudio Hoparlör"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "hdrSupport": "HDR10",
+      "colorGamut": "DCI-P3 %95",
+      "stand": "Tam Hareketli C-Kelepçe Ergo Stand",
+      "usbTypeCPowerWatts": 60,
+      "audioSpeakers": "2x5W MaxxAudio",
+      "ports": [
+        "1x USB-C (60W)",
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "2x USB 3.0 Downstream"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-un880",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 23499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ergo Stand Hediyeli"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "#"
+      },
+      {
+        "id": "amz-lg-un880",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-yellow-500",
+        "price": 23999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 25499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 23499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-32gq850-b",
+    "slug": "lg-ultragear-32gq850-b",
+    "name": "LG UltraGear 32GQ850-B 31.5 inç 240Hz/260Hz(OC) 1ms QHD Nano IPS ATW Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.96,
+    "epeyScore": 97,
+    "reviewCount": 560,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://resim.epey.com/869586/m_lg-32gq850-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/869586/m_lg-32gq850-b-1.jpg"
+    ],
+    "highlights": [
+      "31.5 inç QHD (2560x1440) Nano IPS with ATW Polarizer",
+      "240Hz (O/C 260Hz) Zirve Tazeleme Hızı & 1ms GtG",
+      "VESA DisplayHDR 600 & DCI-P3 %98",
+      "HDMI 2.1 x2 & Hexagon RGB Lighting & DTS Headphone:X"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "2560x1440 (QHD)",
+      "panelType": "Nano IPS (ATW Polarizer)",
+      "refreshRateHz": 260,
+      "responseTimeMs": 1,
+      "syncTechnology": "NVIDIA G-Sync Compatible / AMD FreeSync Premium Pro",
+      "hdrSupport": "VESA DisplayHDR 600",
+      "colorGamut": "DCI-P3 %98",
+      "ports": [
+        "2x HDMI 2.1",
+        "1x DisplayPort 1.4 (DSC)",
+        "USB 3.0 Hub",
+        "4-Pole DTS HP:X"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-gq850",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "🔥 260Hz ATW Polarizer"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1450,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 31999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 28999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultrafine-32un88a-w",
+    "slug": "lg-ultrafine-32un88a-w",
+    "name": "LG UltraFine 32UN88A-W 31.5 inç 4K UHD Ergo Stand USB-C IPS Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.91,
+    "epeyScore": 94,
+    "reviewCount": 310,
+    "basePrice": 22999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/685822/m_lg-ultrafine-32un88a-w-1.jpg",
+    "images": [
+      "https://resim.epey.com/685822/m_lg-ultrafine-32un88a-w-1.jpg"
+    ],
+    "highlights": [
+      "31.5 inç 4K UHD IPS Ekran",
+      "Tam Ergonomik Ergo Kol Standı",
+      "USB Type-C 60W Güç İletimi",
+      "HDR10 & sRGB %99 & 2x5W Hoparlör"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "hdrSupport": "HDR10",
+      "stand": "Ergo Stand",
+      "ports": [
+        "1x USB-C (60W)",
+        "2x HDMI",
+        "1x DP",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "ty-lg-un88a",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 22999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 620,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 22999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-34gp950g-b",
+    "slug": "lg-ultragear-34gp950g-b",
+    "name": "LG UltraGear 34GP950G-B 34 inç 180Hz 1ms WQHD Curved Nano IPS G-Sync Ultimate Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.97,
+    "epeyScore": 98,
+    "reviewCount": 420,
+    "basePrice": 38499,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://resim.epey.com/717879/m_lg-ultragear-34gp950g-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/717879/m_lg-ultragear-34gp950g-b-1.jpg"
+    ],
+    "highlights": [
+      "34 inç 21:9 WQHD (3440x1440) Kavisli Nano IPS Panel",
+      "NVIDIA G-Sync Ultimate Dahili Donanım Modülü",
+      "180Hz (O/C) Yenileme Hızı & 1ms GtG",
+      "VESA DisplayHDR 600 & Sphere Lighting 2.0 Arkadan RGB"
+    ],
+    "specs": {
+      "screenSizeInches": 34,
+      "resolution": "3440x1440 (WQHD)",
+      "aspectRatio": "21:9",
+      "panelType": "Nano IPS (1900R Curved)",
+      "refreshRateHz": 180,
+      "responseTimeMs": 1,
+      "syncTechnology": "NVIDIA G-Sync Ultimate Dedicated Chipset",
+      "hdrSupport": "VESA DisplayHDR 600",
+      "colorGamut": "DCI-P3 %98",
+      "ports": [
+        "1x DisplayPort 1.4",
+        "1x HDMI 2.0",
+        "USB 3.0 Hub",
+        "Sphere Lighting RGB"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-gp950",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 38499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "👑 G-Sync Ultimate Şampiyonu"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 780,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 41999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 38499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultrafine-27un880p-b",
+    "slug": "lg-ultrafine-27un880p-b",
+    "name": "LG UltraFine 27UN880P-B 27 inç 4K UHD VESA DisplayHDR 400 Ergo Stand IPS Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 380,
+    "basePrice": 19999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/862559/m_lg-ultrafine-27un880p-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/862559/m_lg-ultrafine-27un880p-b-1.jpg"
+    ],
+    "highlights": [
+      "27 inç 4K UHD (3840x2160) Ultra Net IPS Panel",
+      "VESA DisplayHDR 400 & DCI-P3 %95",
+      "Tam Hareketli Ergo Kol Standı",
+      "USB Type-C 60W Hızlı Güç İletimi"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "hdrSupport": "VESA DisplayHDR 400",
+      "colorGamut": "DCI-P3 %95",
+      "stand": "Ergo Stand",
+      "usbTypeCPowerWatts": 60,
+      "ports": [
+        "1x USB-C (60W)",
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-27un880p",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 19999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 650,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 19999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultrafine-27un880-b",
+    "slug": "lg-ultrafine-27un880-b",
+    "name": "LG UltraFine 27UN880-B 27 inç 4K UHD HDR10 Ergo Stand IPS Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.88,
+    "epeyScore": 92,
+    "reviewCount": 290,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/642619/m_lg-ultrafine-27un880-b-ergo-2.jpg",
+    "images": [
+      "https://resim.epey.com/642619/m_lg-ultrafine-27un880-b-ergo-2.jpg"
+    ],
+    "highlights": [
+      "27 inç 4K UHD IPS Ekran",
+      "Ergo Stand: İleri-Geri, Eğim, Dikey, Yükseklik",
+      "USB-C 60W & HDR10",
+      "Dahili 2x5W MaxxAudio Hoparlör"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "hdrSupport": "HDR10",
+      "stand": "Ergo Stand",
+      "ports": [
+        "1x USB-C (60W)",
+        "2x HDMI",
+        "1x DP"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "vt-lg-27un880",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-800",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Stokta"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 510,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 18999,
+        "store": "Vatan"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-34gk950f-b",
+    "slug": "lg-ultragear-34gk950f-b",
+    "name": "LG UltraGear 34GK950F-B 34 inç 144Hz 1ms WQHD Curved Nano IPS Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.92,
+    "epeyScore": 94,
+    "reviewCount": 360,
+    "basePrice": 26999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/700870/m_lg-ultragear-34gk950f-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/700870/m_lg-ultragear-34gk950f-b-1.jpg"
+    ],
+    "highlights": [
+      "34 inç UltraWide 21:9 WQHD (3440x1440) Kavisli Panel",
+      "Nano IPS 1ms & 144Hz Tazeleme Hızı",
+      "Radeon FreeSync 2 HDR & VESA DisplayHDR 400",
+      "DCI-P3 %98 Sinematik Renk Kapsamı"
+    ],
+    "specs": {
+      "screenSizeInches": 34,
+      "resolution": "3440x1440 (WQHD)",
+      "panelType": "Nano IPS (1900R Curved)",
+      "refreshRateHz": 144,
+      "responseTimeMs": 1,
+      "hdrSupport": "VESA DisplayHDR 400",
+      "colorGamut": "DCI-P3 %98",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-34gk950f",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 26999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "İthalatçı Garantili"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 430,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 26999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultrawide-34wp75c-b",
+    "slug": "lg-ultrawide-34wp75c-b",
+    "name": "LG UltraWide 34WP75C-B 34 inç 160Hz 1ms WQHD Curved Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.87,
+    "epeyScore": 92,
+    "reviewCount": 410,
+    "basePrice": 19999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/841140/m_lg-ultrawide-34wp75c-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/841140/m_lg-ultrawide-34wp75c-b-1.jpg"
+    ],
+    "highlights": [
+      "34 inç 21:9 WQHD (3440x1440) 1800R Kavisli VA Panel",
+      "160Hz Hızlı Yenileme & 1ms MBR",
+      "HDR10 & sRGB %99",
+      "2x7W MaxxAudio Stereo Hoparlör"
+    ],
+    "specs": {
+      "screenSizeInches": 34,
+      "resolution": "3440x1440 (WQHD)",
+      "panelType": "VA (1800R Curved)",
+      "refreshRateHz": 160,
+      "responseTimeMs": 1,
+      "hdrSupport": "HDR10",
+      "audioSpeakers": "2x7W MaxxAudio",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-34wp75c",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 19999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Geniş Ekran Fırsatı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 870,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 19999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultrawide-38wp85c-w",
+    "slug": "lg-ultrawide-38wp85c-w",
+    "name": "LG UltraWide 38WP85C-W 37.5 inç WQHD+ Curved IPS USB-C 90W Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.94,
+    "epeyScore": 96,
+    "reviewCount": 280,
+    "basePrice": 36999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://resim.epey.com/841281/m_lg-ultrawide-38wp85c-w-1.jpg",
+    "images": [
+      "https://resim.epey.com/841281/m_lg-ultrawide-38wp85c-w-1.jpg"
+    ],
+    "highlights": [
+      "37.5 inç 21:9 WQHD+ (3840x1600) Ultra Geniş Kavisli IPS Panel",
+      "USB Type-C 90W Güç İletimi",
+      "HDR10 & DCI-P3 %95 Profesyonel Renk",
+      "Dahili 2x10W Zengin Bas Stereo Hoparlör"
+    ],
+    "specs": {
+      "screenSizeInches": 37.5,
+      "resolution": "3840x1600 (WQHD+)",
+      "aspectRatio": "21:9",
+      "panelType": "IPS (2300R Curved)",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "hdrSupport": "HDR10",
+      "colorGamut": "DCI-P3 %95",
+      "usbTypeCPowerWatts": 90,
+      "audioSpeakers": "2x10W Rich Bass Hoparlör",
+      "ports": [
+        "1x USB-C (90W PD)",
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-38wp85c",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 36999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "İş & Kodlama İstasyonu"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 540,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 39999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 36999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultrawide-ergo-38wq88c-w",
+    "slug": "lg-ultrawide-ergo-38wq88c-w",
+    "name": "LG UltraWide Ergo 38WQ88C-W 37.5 inç WQHD+ Curved IPS Ergo Stand KVM Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.96,
+    "epeyScore": 97,
+    "reviewCount": 320,
+    "basePrice": 42499,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://resim.epey.com/841354/m_lg-ultrawide-38wq88c-w-9.jpg",
+    "images": [
+      "https://resim.epey.com/841354/m_lg-ultrawide-38wq88c-w-9.jpg"
+    ],
+    "highlights": [
+      "37.5 inç 21:9 WQHD+ (3840x1600) Kavisli IPS Panel",
+      "Tam Hareketli C-Kelepçe Ergo Kol Standı",
+      "USB Type-C 90W PD & Dahili KVM Anahtarı",
+      "HDR10 & DCI-P3 %95 & 2x10W Rich Bass"
+    ],
+    "specs": {
+      "screenSizeInches": 37.5,
+      "resolution": "3840x1600 (WQHD+)",
+      "aspectRatio": "21:9",
+      "panelType": "IPS (2300R Curved)",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "hdrSupport": "HDR10",
+      "stand": "Tam Hareketli Ergo Kol",
+      "usbTypeCPowerWatts": 90,
+      "kvmSwitch": true,
+      "audioSpeakers": "2x10W Stereo",
+      "ports": [
+        "1x USB-C (90W PD)",
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-38wq88c",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 42499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "⭐ Ergo Kol + KVM Switch"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 490,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 45999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 42499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-38wk95c-w",
+    "slug": "lg-38wk95c-w",
+    "name": "LG 38WK95C-W 37.5 inç WQHD+ Curved IPS USB-C Bluetooth Hoparlörlü Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 240,
+    "basePrice": 32999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/121172/m_lg-38wk95c-w-5.jpg",
+    "images": [
+      "https://resim.epey.com/121172/m_lg-38wk95c-w-5.jpg"
+    ],
+    "highlights": [
+      "37.5 inç 21:9 WQHD+ (3840x1600) Kavisli IPS Panel",
+      "USB Type-C 60W & HDR10",
+      "sRGB %99 Renk Doğruluğu",
+      "Dahili 2x10W Bluetooth Ses Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 37.5,
+      "resolution": "3840x1600 (WQHD+)",
+      "panelType": "IPS (Curved)",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "hdrSupport": "HDR10",
+      "audioSpeakers": "2x10W Rich Bass + Bluetooth Audio",
+      "ports": [
+        "1x USB-C (60W)",
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.2",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-38wk95c",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 32999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Bluetooth Ses"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 350,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 32999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-27uk850-w",
+    "slug": "lg-27uk850-w",
+    "name": "LG 27UK850-W 27 inç 4K UHD IPS USB-C FreeSync Pivot Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.86,
+    "epeyScore": 91,
+    "reviewCount": 610,
+    "basePrice": 16499,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/155852/m_lg-27uk850-w-1.jpg",
+    "images": [
+      "https://resim.epey.com/155852/m_lg-27uk850-w-1.jpg"
+    ],
+    "highlights": [
+      "27 inç 4K UHD (3840x2160) IPS Panel",
+      "HDR10 & sRGB %99",
+      "USB Type-C 60W Tek Kablo Bağlantısı",
+      "Dahili 2x5W MaxxAudio & Pivot Stand"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "hdrSupport": "HDR10",
+      "stand": "Yükseklik & Pivot & Eğim",
+      "ports": [
+        "1x USB-C (60W)",
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.2",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-27uk850",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 16499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Klasik 4K USB-C"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 920,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 16499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-27ul850-w",
+    "slug": "lg-27ul850-w",
+    "name": "LG 27UL850-W 27 inç 4K UHD VESA DisplayHDR 400 IPS USB-C Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.89,
+    "epeyScore": 92,
+    "reviewCount": 490,
+    "basePrice": 17999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/417396/m_lg-27ul850-w-1.jpg",
+    "images": [
+      "https://resim.epey.com/417396/m_lg-27ul850-w-1.jpg"
+    ],
+    "highlights": [
+      "27 inç 4K UHD IPS Panel",
+      "VESA DisplayHDR 400 & sRGB %99",
+      "USB Type-C 60W PD",
+      "Donanımsal Renk Kalibrasyonu Desteği"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "hdrSupport": "VESA DisplayHDR 400",
+      "ports": [
+        "1x USB-C (60W)",
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-27ul850",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 17999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "DisplayHDR 400"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 730,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 17999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-34gn850-b",
+    "slug": "lg-34gn850-b",
+    "name": "LG 34GN850-B 34 inç 160Hz 1ms WQHD Curved Nano IPS Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.95,
+    "epeyScore": 96,
+    "reviewCount": 670,
+    "basePrice": 31999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://resim.epey.com/743694/m_lg-34gn850-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/743694/m_lg-34gn850-b-1.jpg"
+    ],
+    "highlights": [
+      "34 inç 21:9 WQHD (3440x1440) Kavisli Nano IPS Panel",
+      "160Hz (O/C) Yenileme Hızı & 1ms (GtG)",
+      "VESA DisplayHDR 400 & DCI-P3 %98",
+      "G-Sync Compatible & AMD FreeSync Premium"
+    ],
+    "specs": {
+      "screenSizeInches": 34,
+      "resolution": "3440x1440 (WQHD)",
+      "panelType": "Nano IPS (1900R Curved)",
+      "refreshRateHz": 160,
+      "responseTimeMs": 1,
+      "syncTechnology": "NVIDIA G-Sync Compatible / FreeSync Premium",
+      "hdrSupport": "VESA DisplayHDR 400",
+      "colorGamut": "DCI-P3 %98",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-34gn850",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 31999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Efsane Nano IPS"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 34999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 31999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-27up550p-w",
+    "slug": "lg-27up550p-w",
+    "name": "LG 27UP550P-W 27 inç 4K UHD IPS USB-C 96W PD Pivot Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.84,
+    "epeyScore": 90,
+    "reviewCount": 290,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/862539/m_lg-27up550-w-1.jpg",
+    "images": [
+      "https://resim.epey.com/862539/m_lg-27up550-w-1.jpg"
+    ],
+    "highlights": [
+      "27 inç 4K UHD (3840x2160) Canlı IPS Panel",
+      "USB Type-C 96W Ekstrem Hızlı Güç İletimi",
+      "HDR10 & AMD FreeSync & Dynamic Action Sync",
+      "Ergonomik Yükseklik, Eğim ve Pivot Standı"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "hdrSupport": "HDR10",
+      "usbTypeCPowerWatts": 96,
+      "stand": "Yükseklik & Pivot & Eğim",
+      "ports": [
+        "1x USB-C (96W PD)",
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-27up550p",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "96W Type-C Hızlı Şarj"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 540,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-27up550-w",
+    "slug": "lg-27up550-w",
+    "name": "LG 27UP550-W 27 inç 4K UHD HDR10 IPS USB-C 96W Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.82,
+    "epeyScore": 89,
+    "reviewCount": 220,
+    "basePrice": 14499,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/775325/m_lg-27up550-w-1.jpg",
+    "images": [
+      "https://resim.epey.com/775325/m_lg-27up550-w-1.jpg"
+    ],
+    "highlights": [
+      "27 inç 4K UHD IPS Panel",
+      "USB-C 96W Güç İletimi",
+      "HDR10 & FreeSync",
+      "Pivot & Yükseklik Ayarlı Stand"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "hdrSupport": "HDR10",
+      "usbTypeCPowerWatts": 96,
+      "ports": [
+        "1x USB-C (96W)",
+        "2x HDMI",
+        "1x DP"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "ty-lg-27up550",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Orijinal Distribütör"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 410,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 14499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "lg-27uk670-b",
+    "slug": "lg-27uk670-b",
+    "name": "LG 27UK670-B 27 inç 4K UHD IPS USB-C Çift Yönlü Pivot Profesyonel Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.9,
+    "epeyScore": 92,
+    "reviewCount": 180,
+    "basePrice": 49156,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/636887/m_lg-27uk670-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/636887/m_lg-27uk670-b-1.jpg"
+    ],
+    "highlights": [
+      "27 inç 4K UHD (3840x2160) Endüstriyel IPS Panel",
+      "USB Type-C 40W & sRGB %99 Renk Doğruluğu",
+      "Çift Yönlü Çift Pivot ve Yükseklik Standı",
+      "Dahili Güç Adaptörü & Güvenilir Kurumsal Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS (Kurumsal Dayanıklılık)",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "colorGamut": "sRGB %99",
+      "stand": "Çift Yönlü Pivot & Yükseklik",
+      "ports": [
+        "1x USB-C",
+        "1x DisplayPort",
+        "2x HDMI",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-27uk670",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 49156,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kurumsal Seri"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 190,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 49156,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-43bn70u-b",
+    "slug": "lg-43bn70u-b",
+    "name": "LG 43BN70U-B 42.5 inç 4K UHD 4-Screen PBP USB-C 60W Dev IPS Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.93,
+    "epeyScore": 95,
+    "reviewCount": 310,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://resim.epey.com/871768/m_lg-43bn70u-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/871768/m_lg-43bn70u-b-1.jpg"
+    ],
+    "highlights": [
+      "42.5 inç 4K UHD (3840x2160) Devasa IPS Ekran",
+      "4 Farklı Cihazı Aynı Anda Gösteren Picture-by-Picture (4PBP)",
+      "USB Type-C 60W & 4x HDMI Girişi",
+      "Dahili 2x10W Zengin Bas Stereo Hoparlör & Uzaktan Kumanda"
+    ],
+    "specs": {
+      "screenSizeInches": 42.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS Düz (Flat)",
+      "refreshRateHz": 60,
+      "responseTimeMs": 8,
+      "hdrSupport": "HDR10",
+      "pbpSupport": "4 Ekran Bölme (4PBP & PIP)",
+      "usbTypeCPowerWatts": 60,
+      "audioSpeakers": "2x10W Rich Bass Stereo Hoparlör",
+      "ports": [
+        "4x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "1x USB-C (60W)",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-43bn70u",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Borsa / CCTV / Çoklu Ekran"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 460,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 37999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 34999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-32gp83b-b",
+    "slug": "lg-ultragear-32gp83b-b",
+    "name": "LG UltraGear 32GP83B-B 31.5 inç 165Hz 1ms QHD Nano IPS Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.91,
+    "epeyScore": 93,
+    "reviewCount": 520,
+    "basePrice": 19999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/721127/m_lg-32gp83-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/721127/m_lg-32gp83-b-1.jpg"
+    ],
+    "highlights": [
+      "31.5 inç QHD (2560x1440) Nano IPS 1ms Panel",
+      "165Hz Hızlı Tazeleme & HDR10",
+      "DCI-P3 %98 Renk Kapsamı",
+      "NVIDIA G-Sync Compatible & AMD FreeSync"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "2560x1440 (QHD)",
+      "panelType": "Nano IPS",
+      "refreshRateHz": 165,
+      "responseTimeMs": 1,
+      "hdrSupport": "HDR10",
+      "colorGamut": "DCI-P3 %98",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Kulaklık"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-32gp83b",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 19999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Nano IPS 165Hz"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 940,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 19999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-32up550-w",
+    "slug": "lg-32up550-w",
+    "name": "LG 32UP550-W 31.5 inç 4K UHD VA HDR10 USB-C 96W Hoparlörlü Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.83,
+    "epeyScore": 90,
+    "reviewCount": 340,
+    "basePrice": 15999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/721128/m_lg-32up550-w-1.jpg",
+    "images": [
+      "https://resim.epey.com/721128/m_lg-32up550-w-1.jpg"
+    ],
+    "highlights": [
+      "31.5 inç 4K UHD (3840x2160) Yüksek Kontrastlı VA Panel",
+      "USB Type-C 96W PD Güç İletimi",
+      "HDR10 & DCI-P3 %90 & AMD FreeSync",
+      "Dahili 2x5W MaxxAudio Hoparlörler"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "VA",
+      "refreshRateHz": 60,
+      "responseTimeMs": 4,
+      "contrastRatio": "3000:1",
+      "hdrSupport": "HDR10",
+      "usbTypeCPowerWatts": 96,
+      "audioSpeakers": "2x5W MaxxAudio",
+      "ports": [
+        "1x USB-C (96W)",
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-32up550",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 15999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "32 inç 4K 96W USB-C"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 15999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-27gn88a-b",
+    "slug": "lg-ultragear-27gn88a-b",
+    "name": "LG UltraGear 27GN88A-B 27 inç 144Hz 1ms QHD Nano IPS Ergo Stand Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.93,
+    "epeyScore": 94,
+    "reviewCount": 410,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://resim.epey.com/723347/m_lg-27gn88a-b-2.jpg",
+    "images": [
+      "https://resim.epey.com/723347/m_lg-27gn88a-b-2.jpg"
+    ],
+    "highlights": [
+      "27 inç QHD (2560x1440) Nano IPS 1ms Panel",
+      "144Hz & HDR10 & DCI-P3 %98",
+      "Masa Alanından Tasarruf Sağlayan C-Kelepçe Ergo Kol",
+      "NVIDIA G-Sync Compatible & AMD FreeSync"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "2560x1440 (QHD)",
+      "panelType": "Nano IPS",
+      "refreshRateHz": 144,
+      "responseTimeMs": 1,
+      "hdrSupport": "HDR10",
+      "colorGamut": "DCI-P3 %98",
+      "stand": "Tam Hareketli Ergo Kol Standı",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-27gn88a",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ergo Stand Oyuncu Monitörü"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 830,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-27gp850-b",
+    "slug": "lg-ultragear-27gp850-b",
+    "name": "LG UltraGear 27GP850-B 27 inç 165Hz/180Hz(OC) 1ms QHD Nano IPS DisplayHDR 400 Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.94,
+    "epeyScore": 95,
+    "reviewCount": 980,
+    "basePrice": 17499,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://resim.epey.com/698846/m_lg-ultragear-27gp850-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/698846/m_lg-ultragear-27gp850-b-1.jpg"
+    ],
+    "highlights": [
+      "27 inç QHD (2560x1440) Nano IPS 1ms GtG Hız",
+      "180Hz (O/C) Yenileme Hızı & VESA DisplayHDR 400",
+      "DCI-P3 %98 Profesyonel Sinematik Renk",
+      "NVIDIA G-Sync Compatible & AMD FreeSync Premium"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "2560x1440 (QHD)",
+      "panelType": "Nano IPS",
+      "refreshRateHz": 180,
+      "responseTimeMs": 1,
+      "syncTechnology": "G-Sync Compatible & FreeSync Premium",
+      "hdrSupport": "VESA DisplayHDR 400",
+      "colorGamut": "DCI-P3 %98",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "USB 3.0 Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-27gp850",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 17499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "🔥 Türkiye Çok Satan Oyuncu Monitörü"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2400,
+        "url": "#"
+      },
+      {
+        "id": "vt-lg-27gp850",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-800",
+        "price": 17999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1100,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 18999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 17499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultrawide-34wp65c-b",
+    "slug": "lg-ultrawide-34wp65c-b",
+    "name": "LG UltraWide 34WP65C-B 34 inç 160Hz 1ms WQHD Curved Hoparlörlü Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.86,
+    "epeyScore": 91,
+    "reviewCount": 310,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/776225/m_lg-ultrawide-34wp65c-b-3.jpg",
+    "images": [
+      "https://resim.epey.com/776225/m_lg-ultrawide-34wp65c-b-3.jpg"
+    ],
+    "highlights": [
+      "34 inç 21:9 WQHD (3440x1440) 1800R Kavisli Panel",
+      "160Hz & 1ms MBR & AMD FreeSync Premium",
+      "HDR10 & sRGB %99 Renk Kapsamı",
+      "Dahili 2x7W Waves MaxxAudio Hoparlör"
+    ],
+    "specs": {
+      "screenSizeInches": 34,
+      "resolution": "3440x1440 (WQHD)",
+      "panelType": "VA (1800R Curved)",
+      "refreshRateHz": 160,
+      "responseTimeMs": 1,
+      "hdrSupport": "HDR10",
+      "audioSpeakers": "2x7W MaxxAudio",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Kulaklık"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-34wp65c",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kavisli 160Hz"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 670,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ergo-dual-27qp88d-b",
+    "slug": "lg-ergo-dual-27qp88d-b",
+    "name": "LG Ergo-Dual 27QP88D-B Çift 27 inç QHD IPS Daisy Chain Tek Direkli Ergo Stand Monitör Seti",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.97,
+    "epeyScore": 97,
+    "reviewCount": 260,
+    "basePrice": 33999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://resim.epey.com/774446/m_lg-ergo-dual-27qp88d-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/774446/m_lg-ergo-dual-27qp88d-b-1.jpg"
+    ],
+    "highlights": [
+      "Kutudan Çıkan Çift 27 inç QHD (2560x1440) IPS Monitör",
+      "Tek C-Kelepçeli Direk Üzerinde 2 Ayrı Tam Hareketli Kol",
+      "USB Type-C 65W & Daisy Chain (Papatya Dizimi Çift Ekran)",
+      "HDR10 & sRGB %99 & Yan Yana / Üst Üste Çoklu Yerleşim"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "2560x1440 (QHD) (x2 Panel)",
+      "panelType": "IPS (x2 Monitör)",
+      "refreshRateHz": 75,
+      "responseTimeMs": 5,
+      "hdrSupport": "HDR10",
+      "stand": "Tek Direkli Çift Kollu Ergo Dual Stand",
+      "usbTypeCPowerWatts": 65,
+      "daisyChain": true,
+      "ports": [
+        "1x USB-C (65W)",
+        "1x DisplayPort Out (Daisy Chain)",
+        "1x DisplayPort In",
+        "2x HDMI",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-27qp88d",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 33999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "👑 Çift 27 inç Monitör Paketi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 530,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 36999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 33999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-32gp750-b",
+    "slug": "lg-ultragear-32gp750-b",
+    "name": "LG UltraGear 32GP750-B 31.5 inç 165Hz 1ms QHD IPS DisplayHDR 400 Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.9,
+    "epeyScore": 92,
+    "reviewCount": 460,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/836723/m_lg-ultragear-32gp750-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/836723/m_lg-ultragear-32gp750-b-1.jpg"
+    ],
+    "highlights": [
+      "31.5 inç QHD (2560x1440) IPS Panel",
+      "165Hz & 1ms MBR & VESA DisplayHDR 400",
+      "sRGB %99 Renk Kapsamı",
+      "AMD FreeSync Premium & NVIDIA G-Sync Compatible"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "2560x1440 (QHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 165,
+      "responseTimeMs": 1,
+      "syncTechnology": "FreeSync Premium / G-Sync Compatible",
+      "hdrSupport": "VESA DisplayHDR 400",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Kulaklık"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-32gp750",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "32 inç QHD IPS"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "#"
+      },
+      {
+        "id": "vt-lg-32gp750",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-800",
+        "price": 25499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Bayi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 420,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 26999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 24999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-43un700-b",
+    "slug": "lg-43un700-b",
+    "name": "LG 43UN700-B 42.5 inç 4K UHD 4-Ekran PBP USB-C 60W IPS Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.92,
+    "epeyScore": 94,
+    "reviewCount": 390,
+    "basePrice": 32499,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/603026/m_lg-43un700-1.jpg",
+    "images": [
+      "https://resim.epey.com/603026/m_lg-43un700-1.jpg"
+    ],
+    "highlights": [
+      "42.5 inç 4K UHD (3840x2160) IPS Ekran",
+      "4 Farklı Kaynağı Bölünmüş Ekranda Gösterme (4PBP)",
+      "USB-C 60W & 4x HDMI Girişi",
+      "2x10W Rich Bass Stereo Ses Sistemi"
+    ],
+    "specs": {
+      "screenSizeInches": 42.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "responseTimeMs": 8,
+      "hdrSupport": "HDR10",
+      "usbTypeCPowerWatts": 60,
+      "audioSpeakers": "2x10W Rich Bass",
+      "ports": [
+        "4x HDMI",
+        "1x DisplayPort",
+        "1x USB-C (60W)",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-43un700",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 32499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çoklu Ekran"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 32499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-43ud79-b",
+    "slug": "lg-43ud79-b",
+    "name": "LG 43UD79-B 42.5 inç 4K UHD IPS 4PBP Çoklu Kaynak Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.88,
+    "epeyScore": 91,
+    "reviewCount": 270,
+    "basePrice": 29999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/120461/m_lg-43ud79-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/120461/m_lg-43ud79-b-1.jpg"
+    ],
+    "highlights": [
+      "42.5 inç 4K UHD IPS Panel",
+      "4 HDMI & 1 DP & 1 USB-C Girişi",
+      "Picture-by-Picture 4 Ekran Görüntüleme",
+      "Harman Kardon Destekli 2x10W Dahili Hoparlör"
+    ],
+    "specs": {
+      "screenSizeInches": 42.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "responseTimeMs": 8,
+      "audioSpeakers": "2x10W Harman Kardon",
+      "ports": [
+        "4x HDMI",
+        "1x DP",
+        "1x USB-C",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-43ud79",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 29999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Harman Kardon Ses"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 380,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 29999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultrawide-34wn780-b",
+    "slug": "lg-ultrawide-34wn780-b",
+    "name": "LG UltraWide 34WN780-B 34 inç WQHD IPS Ergo Stand Hoparlörlü Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.91,
+    "epeyScore": 93,
+    "reviewCount": 350,
+    "basePrice": 23999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/647149/m_lg-lg-ultrawide-34wn780-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/647149/m_lg-lg-ultrawide-34wn780-b-1.jpg"
+    ],
+    "highlights": [
+      "34 inç 21:9 UltraWide QHD (3440x1440) Düz IPS Panel",
+      "Tam Hareketli C-Kelepçeli Ergo Stand Kolu",
+      "HDR10 & sRGB %99 Renk Doğruluğu",
+      "Dahili 2x7W Waves MaxxAudio Hoparlörler"
+    ],
+    "specs": {
+      "screenSizeInches": 34,
+      "resolution": "3440x1440 (WQHD)",
+      "panelType": "IPS Düz (Flat)",
+      "refreshRateHz": 75,
+      "responseTimeMs": 5,
+      "hdrSupport": "HDR10",
+      "stand": "Tam Hareketli Ergo Stand",
+      "audioSpeakers": "2x7W MaxxAudio",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-34wn780",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 23999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ergo Stand Düz UltraWide"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 690,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 23999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-32ul750-w",
+    "slug": "lg-32ul750-w",
+    "name": "LG 32UL750-W 31.5 inç 4K UHD VESA DisplayHDR 600 USB-C VA Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 380,
+    "basePrice": 21999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/677618/m_lg-32ul750-w-tr-1.jpg",
+    "images": [
+      "https://resim.epey.com/677618/m_lg-32ul750-w-tr-1.jpg"
+    ],
+    "highlights": [
+      "31.5 inç 4K UHD (3840x2160) VA Panel",
+      "VESA DisplayHDR 600 Zirve Parlaklık",
+      "DCI-P3 %95 Sinematik Renk Gamutu",
+      "USB Type-C 60W PD & Dahili 2x5W MaxxAudio"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "VA",
+      "refreshRateHz": 60,
+      "responseTimeMs": 4,
+      "contrastRatio": "3000:1",
+      "hdrSupport": "VESA DisplayHDR 600",
+      "colorGamut": "DCI-P3 %95",
+      "usbTypeCPowerWatts": 60,
+      "audioSpeakers": "2x5W MaxxAudio",
+      "ports": [
+        "1x USB-C (60W)",
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-32ul750",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "DisplayHDR 600"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 540,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 21999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-32gk850f-b",
+    "slug": "lg-32gk850f-b",
+    "name": "LG 32GK850F-B 31.5 inç 144Hz 1ms QHD VESA DisplayHDR 400 FreeSync 2 Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.89,
+    "epeyScore": 92,
+    "reviewCount": 470,
+    "basePrice": 19499,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/167611/m_lg-32gk850f-1.jpg",
+    "images": [
+      "https://resim.epey.com/167611/m_lg-32gk850f-1.jpg"
+    ],
+    "highlights": [
+      "31.5 inç QHD (2560x1440) VA Panel",
+      "144Hz Yenileme Hızı & 1ms MBR",
+      "VESA DisplayHDR 400 & DCI-P3 %95",
+      "Radeon FreeSync 2 HDR & Yükseklik / Pivot Stand"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "2560x1440 (QHD)",
+      "panelType": "VA Düz",
+      "refreshRateHz": 144,
+      "responseTimeMs": 1,
+      "syncTechnology": "Radeon FreeSync 2 HDR",
+      "hdrSupport": "VESA DisplayHDR 400",
+      "colorGamut": "DCI-P3 %95",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.2",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-32gk850f",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 19499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "FreeSync 2 HDR"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 690,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 19499,
+        "store": "Hepsiburada"
+      }
+    ]
   }
 ];
