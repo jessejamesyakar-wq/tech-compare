@@ -7,8 +7,8 @@ export const mockConsoles: Product[] = [
     "name": "Sony PlayStation 5 Pro (PS5 Pro) 2TB SSD Oyun Konsolu",
     "brand": "Sony",
     "category": "consoles",
-    "rating": 4.98,
-    "reviewCount": 880,
+    "rating": 4.95,
+    "reviewCount": 860,
     "basePrice": 63649.1,
     "currency": "TL",
     "releaseYear": 2024,
@@ -53,63 +53,63 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "960253-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 63919,
+        "price": 63869,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "960253-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 64469,
+        "price": 64299,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       },
       {
         "id": "960253-3",
         "storeName": "Vatan Bilgisayar",
         "storeLogoColor": "#003d79",
-        "price": 64619,
+        "price": 64429,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1290,
+        "sellerReviews": 1040,
         "url": "https://www.vatanbilgisayar.com"
       },
       {
         "id": "960253-4",
         "storeName": "MediaMarkt",
         "storeLogoColor": "#df0000",
-        "price": 65169,
+        "price": 64859,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1570,
+        "sellerReviews": 1280,
         "url": "https://www.mediamarkt.com.tr"
       }
     ],
@@ -138,8 +138,8 @@ export const mockConsoles: Product[] = [
     "name": "Sony PlayStation 5 Slim 1TB Blu-ray Sürücülü Oyun Konsolu (CFI-2000A01)",
     "brand": "Sony",
     "category": "consoles",
-    "rating": 4.9,
-    "reviewCount": 720,
+    "rating": 4.86,
+    "reviewCount": 700,
     "basePrice": 38975.04,
     "currency": "TL",
     "releaseYear": 2023,
@@ -184,63 +184,63 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "908887-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 39245,
+        "price": 39195,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "908887-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 39795,
+        "price": 39625,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       },
       {
         "id": "908887-3",
         "storeName": "Vatan Bilgisayar",
         "storeLogoColor": "#003d79",
-        "price": 39945,
+        "price": 39755,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1290,
+        "sellerReviews": 1040,
         "url": "https://www.vatanbilgisayar.com"
       },
       {
         "id": "908887-4",
         "storeName": "MediaMarkt",
         "storeLogoColor": "#df0000",
-        "price": 40495,
+        "price": 40185,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1570,
+        "sellerReviews": 1280,
         "url": "https://www.mediamarkt.com.tr"
       }
     ],
@@ -269,8 +269,8 @@ export const mockConsoles: Product[] = [
     "name": "Sony PlayStation 5 Slim Digital Edition 1TB Oyun Konsolu (CFI-2000B01)",
     "brand": "Sony",
     "category": "consoles",
-    "rating": 4.9,
-    "reviewCount": 720,
+    "rating": 4.86,
+    "reviewCount": 700,
     "basePrice": 32699,
     "currency": "TL",
     "releaseYear": 2023,
@@ -315,63 +315,63 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "908934-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 32969,
+        "price": 32919,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "908934-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 33519,
+        "price": 33349,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       },
       {
         "id": "908934-3",
         "storeName": "Vatan Bilgisayar",
         "storeLogoColor": "#003d79",
-        "price": 33669,
+        "price": 33479,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1290,
+        "sellerReviews": 1040,
         "url": "https://www.vatanbilgisayar.com"
       },
       {
         "id": "908934-4",
         "storeName": "MediaMarkt",
         "storeLogoColor": "#df0000",
-        "price": 34219,
+        "price": 33909,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1570,
+        "sellerReviews": 1280,
         "url": "https://www.mediamarkt.com.tr"
       }
     ],
@@ -400,8 +400,8 @@ export const mockConsoles: Product[] = [
     "name": "Sony PlayStation 5 825GB Standart Blu-ray Oyun Konsolu (CFI-1015A)",
     "brand": "Sony",
     "category": "consoles",
-    "rating": 4.9,
-    "reviewCount": 712,
+    "rating": 4.86,
+    "reviewCount": 692,
     "basePrice": 36161.02,
     "currency": "TL",
     "releaseYear": 2020,
@@ -446,63 +446,63 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "430620-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 36431,
+        "price": 36381,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "430620-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 36981,
+        "price": 36811,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       },
       {
         "id": "430620-3",
         "storeName": "Vatan Bilgisayar",
         "storeLogoColor": "#003d79",
-        "price": 37131,
+        "price": 36941,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1290,
+        "sellerReviews": 1040,
         "url": "https://www.vatanbilgisayar.com"
       },
       {
         "id": "430620-4",
         "storeName": "MediaMarkt",
         "storeLogoColor": "#df0000",
-        "price": 37681,
+        "price": 37371,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1570,
+        "sellerReviews": 1280,
         "url": "https://www.mediamarkt.com.tr"
       }
     ],
@@ -531,8 +531,8 @@ export const mockConsoles: Product[] = [
     "name": "Sony PlayStation 5 Digital Edition 825GB Oyun Konsolu (CFI-1015B)",
     "brand": "Sony",
     "category": "consoles",
-    "rating": 4.9,
-    "reviewCount": 712,
+    "rating": 4.86,
+    "reviewCount": 692,
     "basePrice": 33724.1,
     "currency": "TL",
     "releaseYear": 2020,
@@ -577,63 +577,63 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "568287-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 33994,
+        "price": 33944,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "568287-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 34544,
+        "price": 34374,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       },
       {
         "id": "568287-3",
         "storeName": "Vatan Bilgisayar",
         "storeLogoColor": "#003d79",
-        "price": 34694,
+        "price": 34504,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1290,
+        "sellerReviews": 1040,
         "url": "https://www.vatanbilgisayar.com"
       },
       {
         "id": "568287-4",
         "storeName": "MediaMarkt",
         "storeLogoColor": "#df0000",
-        "price": 35244,
+        "price": 34934,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1570,
+        "sellerReviews": 1280,
         "url": "https://www.mediamarkt.com.tr"
       }
     ],
@@ -662,8 +662,8 @@ export const mockConsoles: Product[] = [
     "name": "Asus ROG Xbox Ally X El Konsolu AMD Ryzen AI Z2 Extreme (RC73XA)",
     "brand": "Asus",
     "category": "consoles",
-    "rating": 4.89,
-    "reviewCount": 696,
+    "rating": 4.85,
+    "reviewCount": 676,
     "basePrice": 62369.01,
     "currency": "TL",
     "releaseYear": 2025,
@@ -708,35 +708,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "1024535-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 62639,
+        "price": 62589,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "1024535-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 63189,
+        "price": 63019,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -765,8 +765,8 @@ export const mockConsoles: Product[] = [
     "name": "MSI Claw 8 AI+ El Konsolu Intel Core Ultra 7 258V (CLAW8A2001)",
     "brand": "MSI",
     "category": "consoles",
-    "rating": 4.89,
-    "reviewCount": 696,
+    "rating": 4.85,
+    "reviewCount": 676,
     "basePrice": 77697.84,
     "currency": "TL",
     "releaseYear": 2024,
@@ -811,63 +811,63 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "975529-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 77968,
+        "price": 77918,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "975529-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 78518,
+        "price": 78348,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       },
       {
         "id": "975529-3",
         "storeName": "Vatan Bilgisayar",
         "storeLogoColor": "#003d79",
-        "price": 78668,
+        "price": 78478,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1290,
+        "sellerReviews": 1040,
         "url": "https://www.vatanbilgisayar.com"
       },
       {
         "id": "975529-4",
         "storeName": "MediaMarkt",
         "storeLogoColor": "#df0000",
-        "price": 79218,
+        "price": 78908,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1570,
+        "sellerReviews": 1280,
         "url": "https://www.mediamarkt.com.tr"
       }
     ],
@@ -896,8 +896,8 @@ export const mockConsoles: Product[] = [
     "name": "MSI Claw A8 El Konsolu AMD Ryzen Z2 Extreme (BZ2EM-024TR)",
     "brand": "MSI",
     "category": "consoles",
-    "rating": 4.88,
-    "reviewCount": 680,
+    "rating": 4.84,
+    "reviewCount": 660,
     "basePrice": 67165.05,
     "currency": "TL",
     "releaseYear": 2025,
@@ -942,63 +942,63 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "1042179-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 67435,
+        "price": 67385,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "1042179-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 67985,
+        "price": 67815,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       },
       {
         "id": "1042179-3",
         "storeName": "Vatan Bilgisayar",
         "storeLogoColor": "#003d79",
-        "price": 68135,
+        "price": 67945,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1290,
+        "sellerReviews": 1040,
         "url": "https://www.vatanbilgisayar.com"
       },
       {
         "id": "1042179-4",
         "storeName": "MediaMarkt",
         "storeLogoColor": "#df0000",
-        "price": 68685,
+        "price": 68375,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1570,
+        "sellerReviews": 1280,
         "url": "https://www.mediamarkt.com.tr"
       }
     ],
@@ -1027,8 +1027,8 @@ export const mockConsoles: Product[] = [
     "name": "Asus ROG Ally 2023 512GB AMD Ryzen Z1 Extreme (RC71L-NH021)",
     "brand": "Asus",
     "category": "consoles",
-    "rating": 4.85,
-    "reviewCount": 600,
+    "rating": 4.79,
+    "reviewCount": 580,
     "basePrice": 97017.2,
     "currency": "TL",
     "releaseYear": 2023,
@@ -1073,21 +1073,21 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "902784-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 97287,
+        "price": 97237,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       }
     ],
@@ -1116,8 +1116,8 @@ export const mockConsoles: Product[] = [
     "name": "Asus ROG Xbox Ally AMD Ryzen Z2 A 512GB El Konsolu (RC73YA)",
     "brand": "Asus",
     "category": "consoles",
-    "rating": 4.83,
-    "reviewCount": 560,
+    "rating": 4.77,
+    "reviewCount": 540,
     "basePrice": 38219.02,
     "currency": "TL",
     "releaseYear": 2025,
@@ -1162,21 +1162,21 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "1024538-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 38489,
+        "price": 38439,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       }
     ],
@@ -1205,8 +1205,8 @@ export const mockConsoles: Product[] = [
     "name": "Valve Steam Deck OLED 1 TB Taşınabilir Oyun Konsolu",
     "brand": "Steam",
     "category": "consoles",
-    "rating": 4.81,
-    "reviewCount": 528,
+    "rating": 4.75,
+    "reviewCount": 508,
     "basePrice": 69979,
     "currency": "TL",
     "releaseYear": 2023,
@@ -1251,21 +1251,21 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "934851-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 70249,
+        "price": 70199,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       }
     ],
@@ -1294,8 +1294,8 @@ export const mockConsoles: Product[] = [
     "name": "Valve Steam Deck OLED 512 GB Taşınabilir Oyun Konsolu",
     "brand": "Steam",
     "category": "consoles",
-    "rating": 4.81,
-    "reviewCount": 512,
+    "rating": 4.74,
+    "reviewCount": 492,
     "basePrice": 50000,
     "currency": "TL",
     "releaseYear": 2023,
@@ -1340,49 +1340,49 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "934838-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 50270,
+        "price": 50220,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "934838-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 50820,
+        "price": 50650,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       },
       {
         "id": "934838-3",
         "storeName": "Vatan Bilgisayar",
         "storeLogoColor": "#003d79",
-        "price": 50970,
+        "price": 50780,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1290,
+        "sellerReviews": 1040,
         "url": "https://www.vatanbilgisayar.com"
       }
     ],
@@ -1411,8 +1411,8 @@ export const mockConsoles: Product[] = [
     "name": "Valve Steam Deck LCD 512 GB Oyun Konsolu (V004287-10)",
     "brand": "Steam",
     "category": "consoles",
-    "rating": 4.8,
-    "reviewCount": 496,
+    "rating": 4.73,
+    "reviewCount": 476,
     "basePrice": 54979,
     "currency": "TL",
     "releaseYear": 2022,
@@ -1457,21 +1457,21 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "862165-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 55249,
+        "price": 55199,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       }
     ],
@@ -1500,8 +1500,8 @@ export const mockConsoles: Product[] = [
     "name": "Nintendo Switch 2 Hibrit Oyun Konsolu 256GB",
     "brand": "Nintendo",
     "category": "consoles",
-    "rating": 4.79,
-    "reviewCount": 488,
+    "rating": 4.73,
+    "reviewCount": 468,
     "basePrice": 27498.53,
     "currency": "TL",
     "releaseYear": 2025,
@@ -1546,63 +1546,63 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "982167-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 27769,
+        "price": 27719,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "982167-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 28319,
+        "price": 28149,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       },
       {
         "id": "982167-3",
         "storeName": "Vatan Bilgisayar",
         "storeLogoColor": "#003d79",
-        "price": 28469,
+        "price": 28279,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1290,
+        "sellerReviews": 1040,
         "url": "https://www.vatanbilgisayar.com"
       },
       {
         "id": "982167-4",
         "storeName": "MediaMarkt",
         "storeLogoColor": "#df0000",
-        "price": 29019,
+        "price": 28709,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1570,
+        "sellerReviews": 1280,
         "url": "https://www.mediamarkt.com.tr"
       }
     ],
@@ -1631,12 +1631,12 @@ export const mockConsoles: Product[] = [
     "name": "Nintendo Switch OLED Model Oyun Konsolu 64GB",
     "brand": "Nintendo",
     "category": "consoles",
-    "rating": 4.75,
-    "reviewCount": 392,
+    "rating": 4.68,
+    "reviewCount": 372,
     "basePrice": 19348,
     "currency": "TL",
     "releaseYear": 2021,
-    "isPopular": false,
+    "isPopular": true,
     "isFeatured": false,
     "image": "/images/consoles/724754.jpg",
     "images": [
@@ -1677,63 +1677,63 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "724754-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 19618,
+        "price": 19568,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "724754-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 20168,
+        "price": 19998,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       },
       {
         "id": "724754-3",
         "storeName": "Vatan Bilgisayar",
         "storeLogoColor": "#003d79",
-        "price": 20318,
+        "price": 20128,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1290,
+        "sellerReviews": 1040,
         "url": "https://www.vatanbilgisayar.com"
       },
       {
         "id": "724754-4",
         "storeName": "MediaMarkt",
         "storeLogoColor": "#df0000",
-        "price": 20868,
+        "price": 20558,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1570,
+        "sellerReviews": 1280,
         "url": "https://www.mediamarkt.com.tr"
       }
     ],
@@ -1762,12 +1762,12 @@ export const mockConsoles: Product[] = [
     "name": "Sony PlayStation 4 Slim 1 TB Oyun Konsolu (CUH-2200)",
     "brand": "Sony",
     "category": "consoles",
-    "rating": 4.75,
-    "reviewCount": 392,
+    "rating": 4.68,
+    "reviewCount": 372,
     "basePrice": 15940,
     "currency": "TL",
     "releaseYear": 2016,
-    "isPopular": false,
+    "isPopular": true,
     "isFeatured": false,
     "image": "/images/consoles/80276.png",
     "images": [
@@ -1808,49 +1808,49 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "80276-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 16210,
+        "price": 16160,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "80276-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 16760,
+        "price": 16590,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       },
       {
         "id": "80276-3",
         "storeName": "Vatan Bilgisayar",
         "storeLogoColor": "#003d79",
-        "price": 16910,
+        "price": 16720,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1290,
+        "sellerReviews": 1040,
         "url": "https://www.vatanbilgisayar.com"
       }
     ],
@@ -1879,12 +1879,12 @@ export const mockConsoles: Product[] = [
     "name": "Nintendo Switch Standart Hibrit Oyun Konsolu 32GB (Yeni Pil Revizyonu)",
     "brand": "Nintendo",
     "category": "consoles",
-    "rating": 4.74,
-    "reviewCount": 384,
+    "rating": 4.67,
+    "reviewCount": 364,
     "basePrice": 21577.5,
     "currency": "TL",
     "releaseYear": 2019,
-    "isPopular": false,
+    "isPopular": true,
     "isFeatured": false,
     "image": "/images/consoles/80860.jpg",
     "images": [
@@ -1925,21 +1925,21 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "80860-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 21848,
+        "price": 21798,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       }
     ],
@@ -1968,8 +1968,8 @@ export const mockConsoles: Product[] = [
     "name": "Sony PlayStation 4 Slim 500 GB Oyun Konsolu (CUH-2000)",
     "brand": "Sony",
     "category": "consoles",
-    "rating": 4.74,
-    "reviewCount": 376,
+    "rating": 4.67,
+    "reviewCount": 356,
     "basePrice": 13349,
     "currency": "TL",
     "releaseYear": 2016,
@@ -2014,63 +2014,63 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "80266-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 13619,
+        "price": 13569,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "80266-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 14169,
+        "price": 13999,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       },
       {
         "id": "80266-3",
         "storeName": "Vatan Bilgisayar",
         "storeLogoColor": "#003d79",
-        "price": 14319,
+        "price": 14129,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1290,
+        "sellerReviews": 1040,
         "url": "https://www.vatanbilgisayar.com"
       },
       {
         "id": "80266-4",
         "storeName": "MediaMarkt",
         "storeLogoColor": "#df0000",
-        "price": 14869,
+        "price": 14559,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1570,
+        "sellerReviews": 1280,
         "url": "https://www.mediamarkt.com.tr"
       }
     ],
@@ -2099,8 +2099,8 @@ export const mockConsoles: Product[] = [
     "name": "Sony PlayStation 4 500 GB Mat Kasa Oyun Konsolu (CUH-1200)",
     "brand": "Sony",
     "category": "consoles",
-    "rating": 4.74,
-    "reviewCount": 368,
+    "rating": 4.66,
+    "reviewCount": 348,
     "basePrice": 13990,
     "currency": "TL",
     "releaseYear": 2015,
@@ -2145,21 +2145,21 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "80150-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 14260,
+        "price": 14210,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       }
     ],
@@ -2188,8 +2188,8 @@ export const mockConsoles: Product[] = [
     "name": "Nintendo Switch Lite 32GB Kompakt Taşınabilir El Konsolu",
     "brand": "Nintendo",
     "category": "consoles",
-    "rating": 4.69,
-    "reviewCount": 280,
+    "rating": 4.61,
+    "reviewCount": 260,
     "basePrice": 12198.06,
     "currency": "TL",
     "releaseYear": 2019,
@@ -2234,63 +2234,63 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "174653-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 12468,
+        "price": 12418,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "174653-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 13018,
+        "price": 12848,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       },
       {
         "id": "174653-3",
         "storeName": "Vatan Bilgisayar",
         "storeLogoColor": "#003d79",
-        "price": 13168,
+        "price": 12978,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1290,
+        "sellerReviews": 1040,
         "url": "https://www.vatanbilgisayar.com"
       },
       {
         "id": "174653-4",
         "storeName": "MediaMarkt",
         "storeLogoColor": "#df0000",
-        "price": 13718,
+        "price": 13408,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.9,
-        "sellerReviews": 1570,
+        "sellerReviews": 1280,
         "url": "https://www.mediamarkt.com.tr"
       }
     ],
@@ -2319,8 +2319,8 @@ export const mockConsoles: Product[] = [
     "name": "Sony PlayStation 3 Slim 500 GB Oyun Konsolu (CECH-3000)",
     "brand": "Sony",
     "category": "consoles",
-    "rating": 4.67,
-    "reviewCount": 224,
+    "rating": 4.58,
+    "reviewCount": 204,
     "basePrice": 10990,
     "currency": "TL",
     "releaseYear": 2011,
@@ -2365,21 +2365,21 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "82204-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 11260,
+        "price": 11210,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       }
     ],
@@ -2408,8 +2408,8 @@ export const mockConsoles: Product[] = [
     "name": "Sony PlayStation 3 Slim 320 GB Oyun Konsolu (CECH-2500)",
     "brand": "Sony",
     "category": "consoles",
-    "rating": 4.66,
-    "reviewCount": 216,
+    "rating": 4.58,
+    "reviewCount": 196,
     "basePrice": 9990,
     "currency": "TL",
     "releaseYear": 2010,
@@ -2454,21 +2454,21 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "82198-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 10260,
+        "price": 10210,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       }
     ],
@@ -2497,8 +2497,8 @@ export const mockConsoles: Product[] = [
     "name": "Sony PlayStation 3 Super Slim 500 GB Oyun Konsolu (CECH-4000)",
     "brand": "Sony",
     "category": "consoles",
-    "rating": 4.66,
-    "reviewCount": 200,
+    "rating": 4.57,
+    "reviewCount": 180,
     "basePrice": 10490,
     "currency": "TL",
     "releaseYear": 2012,
@@ -2543,21 +2543,21 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "82184-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 10760,
+        "price": 10710,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       }
     ],
@@ -2586,8 +2586,8 @@ export const mockConsoles: Product[] = [
     "name": "Asus ROG Ally X El Konsolu 1TB AMD Ryzen Z1 Extreme (RC72LA)",
     "brand": "Asus",
     "category": "consoles",
-    "rating": 4.92,
-    "reviewCount": 760,
+    "rating": 4.88,
+    "reviewCount": 740,
     "basePrice": 48999,
     "currency": "TL",
     "releaseYear": 2024,
@@ -2632,35 +2632,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "942574-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 49269,
+        "price": 49219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "942574-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 49819,
+        "price": 49649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -2689,8 +2689,8 @@ export const mockConsoles: Product[] = [
     "name": "Lenovo Legion Go 1 TB Taşınabilir Oyun Konsolu (8.8 inç 144Hz QHD+)",
     "brand": "Lenovo",
     "category": "consoles",
-    "rating": 4.92,
-    "reviewCount": 744,
+    "rating": 4.87,
+    "reviewCount": 724,
     "basePrice": 39999,
     "currency": "TL",
     "releaseYear": 2023,
@@ -2717,7 +2717,7 @@ export const mockConsoles: Product[] = [
       "ramType": "LPDDR5X (7500 MHz)",
       "resolution": "8.8 inç 2560x1600 QHD+ 144Hz 500 Nit IPS Dokunmatik Ekran",
       "hdr": true,
-      "wifi": "Wi-Fi 6E (802.11axe)",
+      "wifi": "Wi-Fi 6E",
       "bluetooth": "5.2",
       "hdmi": "Çift USB 4.0 / DisplayPort 1.4",
       "weightKg": 0.854
@@ -2735,35 +2735,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "973322-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 40269,
+        "price": 40219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "973322-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 40819,
+        "price": 40649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -2792,8 +2792,8 @@ export const mockConsoles: Product[] = [
     "name": "MSI Claw 8 EX AI+ 1 TB Taşınabilir Oyun Konsolu (Lunar Lake)",
     "brand": "MSI",
     "category": "consoles",
-    "rating": 4.92,
-    "reviewCount": 744,
+    "rating": 4.87,
+    "reviewCount": 724,
     "basePrice": 79999,
     "currency": "TL",
     "releaseYear": 2025,
@@ -2838,35 +2838,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "1058630-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 80269,
+        "price": 80219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "1058630-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 80819,
+        "price": 80649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -2895,8 +2895,8 @@ export const mockConsoles: Product[] = [
     "name": "Asus ROG Ally 2023 Extreme 512GB (RC71L-NH001W)",
     "brand": "Asus",
     "category": "consoles",
-    "rating": 4.9,
-    "reviewCount": 704,
+    "rating": 4.85,
+    "reviewCount": 684,
     "basePrice": 34999,
     "currency": "TL",
     "releaseYear": 2023,
@@ -2941,35 +2941,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "867459-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 35269,
+        "price": 35219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "867459-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 35819,
+        "price": 35649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -2998,8 +2998,8 @@ export const mockConsoles: Product[] = [
     "name": "Asus ROG Xbox Ally X20 Bundle 1TB (RC74XA-TW004W)",
     "brand": "Asus",
     "category": "consoles",
-    "rating": 4.9,
-    "reviewCount": 704,
+    "rating": 4.85,
+    "reviewCount": 684,
     "basePrice": 65999,
     "currency": "TL",
     "releaseYear": 2025,
@@ -3044,35 +3044,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "1059392-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 66269,
+        "price": 66219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "1059392-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 66819,
+        "price": 66649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -3101,8 +3101,8 @@ export const mockConsoles: Product[] = [
     "name": "Acer Nitro Blaze 7 2TB El Konsolu AMD Ryzen 7 8840HS (GN771)",
     "brand": "Acer",
     "category": "consoles",
-    "rating": 4.89,
-    "reviewCount": 696,
+    "rating": 4.85,
+    "reviewCount": 676,
     "basePrice": 42999,
     "currency": "TL",
     "releaseYear": 2024,
@@ -3147,35 +3147,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "959344-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 43269,
+        "price": 43219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "959344-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 43819,
+        "price": 43649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -3204,8 +3204,8 @@ export const mockConsoles: Product[] = [
     "name": "Lenovo Legion Go 512 GB Taşınabilir Oyun Konsolu (83E10031TR)",
     "brand": "Lenovo",
     "category": "consoles",
-    "rating": 4.88,
-    "reviewCount": 680,
+    "rating": 4.84,
+    "reviewCount": 660,
     "basePrice": 34999,
     "currency": "TL",
     "releaseYear": 2023,
@@ -3250,35 +3250,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "892469-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 35269,
+        "price": 35219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "892469-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 35819,
+        "price": 35649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -3307,8 +3307,8 @@ export const mockConsoles: Product[] = [
     "name": "MSI Claw 7 AI+ 512 GB El Konsolu (CLAW7A2001)",
     "brand": "MSI",
     "category": "consoles",
-    "rating": 4.88,
-    "reviewCount": 672,
+    "rating": 4.83,
+    "reviewCount": 652,
     "basePrice": 47999,
     "currency": "TL",
     "releaseYear": 2024,
@@ -3353,35 +3353,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "975543-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 48269,
+        "price": 48219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "975543-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 48819,
+        "price": 48649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -3410,8 +3410,8 @@ export const mockConsoles: Product[] = [
     "name": "Acer Nitro Blaze 11 2TB El Konsolu AMD Ryzen 7 (GN7112U)",
     "brand": "Acer",
     "category": "consoles",
-    "rating": 4.88,
-    "reviewCount": 664,
+    "rating": 4.83,
+    "reviewCount": 644,
     "basePrice": 43999,
     "currency": "TL",
     "releaseYear": 2024,
@@ -3456,35 +3456,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "986356-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 44269,
+        "price": 44219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "986356-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 44819,
+        "price": 44649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -3513,8 +3513,8 @@ export const mockConsoles: Product[] = [
     "name": "Acer Nitro Blaze 8 2TB El Konsolu (GN782U)",
     "brand": "Acer",
     "category": "consoles",
-    "rating": 4.88,
-    "reviewCount": 664,
+    "rating": 4.83,
+    "reviewCount": 644,
     "basePrice": 41999,
     "currency": "TL",
     "releaseYear": 2024,
@@ -3559,35 +3559,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "986354-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 42269,
+        "price": 42219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "986354-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 42819,
+        "price": 42649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -3616,8 +3616,8 @@ export const mockConsoles: Product[] = [
     "name": "Lenovo Legion Go S 1TB Taşınabilir Oyun Konsolu (83L3002BTR)",
     "brand": "Lenovo",
     "category": "consoles",
-    "rating": 4.87,
-    "reviewCount": 656,
+    "rating": 4.82,
+    "reviewCount": 636,
     "basePrice": 32999,
     "currency": "TL",
     "releaseYear": 2025,
@@ -3662,35 +3662,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "975394-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 33269,
+        "price": 33219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "975394-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 33819,
+        "price": 33649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -3719,8 +3719,8 @@ export const mockConsoles: Product[] = [
     "name": "Zotac Zone 512GB AMOLED 120Hz El Konsolu (ZGC-G1A1W-01)",
     "brand": "Zotac",
     "category": "consoles",
-    "rating": 4.87,
-    "reviewCount": 648,
+    "rating": 4.82,
+    "reviewCount": 628,
     "basePrice": 37999,
     "currency": "TL",
     "releaseYear": 2024,
@@ -3765,35 +3765,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "943073-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 38269,
+        "price": 38219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "943073-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 38819,
+        "price": 38649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -3822,8 +3822,8 @@ export const mockConsoles: Product[] = [
     "name": "MSI Claw A1M Intel Core Ultra 7 155H / 1 TB (A1M-089TR)",
     "brand": "MSI",
     "category": "consoles",
-    "rating": 4.85,
-    "reviewCount": 608,
+    "rating": 4.8,
+    "reviewCount": 588,
     "basePrice": 33999,
     "currency": "TL",
     "releaseYear": 2024,
@@ -3868,35 +3868,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "918423-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 34269,
+        "price": 34219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "918423-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 34819,
+        "price": 34649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -3925,8 +3925,8 @@ export const mockConsoles: Product[] = [
     "name": "MSI Claw A1M Intel Core Ultra 7 155H / 512 GB (A1M-088TR)",
     "brand": "MSI",
     "category": "consoles",
-    "rating": 4.84,
-    "reviewCount": 592,
+    "rating": 4.79,
+    "reviewCount": 572,
     "basePrice": 29999,
     "currency": "TL",
     "releaseYear": 2024,
@@ -3971,35 +3971,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "936357-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 30269,
+        "price": 30219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "936357-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 30819,
+        "price": 30649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -4028,8 +4028,8 @@ export const mockConsoles: Product[] = [
     "name": "MSI Claw A1M Intel Core Ultra 5 135H / 512 GB (A1M-087TR)",
     "brand": "MSI",
     "category": "consoles",
-    "rating": 4.84,
-    "reviewCount": 584,
+    "rating": 4.78,
+    "reviewCount": 564,
     "basePrice": 26999,
     "currency": "TL",
     "releaseYear": 2024,
@@ -4074,35 +4074,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "936358-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 27269,
+        "price": 27219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "936358-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 27819,
+        "price": 27649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -4131,8 +4131,8 @@ export const mockConsoles: Product[] = [
     "name": "Ayaneo 2 32GB RAM / 2TB SSD Taşınabilir Oyun Konsolu",
     "brand": "Ayaneo",
     "category": "consoles",
-    "rating": 4.83,
-    "reviewCount": 568,
+    "rating": 4.77,
+    "reviewCount": 548,
     "basePrice": 38999,
     "currency": "TL",
     "releaseYear": 2023,
@@ -4177,35 +4177,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "890202-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 39269,
+        "price": 39219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "890202-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 39819,
+        "price": 39649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -4234,8 +4234,8 @@ export const mockConsoles: Product[] = [
     "name": "Valve Steam Deck LCD 2 TB Taşınabilir Oyun Konsolu",
     "brand": "Steam",
     "category": "consoles",
-    "rating": 4.82,
-    "reviewCount": 544,
+    "rating": 4.76,
+    "reviewCount": 524,
     "basePrice": 39999,
     "currency": "TL",
     "releaseYear": 2023,
@@ -4280,35 +4280,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "910087-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 40269,
+        "price": 40219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "910087-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 40819,
+        "price": 40649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -4337,13 +4337,13 @@ export const mockConsoles: Product[] = [
     "name": "Microsoft Xbox One X 1 TB 4K HDR Oyun Konsolu",
     "brand": "Microsoft",
     "category": "consoles",
-    "rating": 4.81,
-    "reviewCount": 528,
+    "rating": 4.75,
+    "reviewCount": 508,
     "basePrice": 16999,
     "currency": "TL",
     "releaseYear": 2017,
     "isPopular": true,
-    "isFeatured": false,
+    "isFeatured": true,
     "image": "/images/consoles/83965.jpg",
     "images": [
       "/images/consoles/83965.jpg"
@@ -4383,35 +4383,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "83965-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 17269,
+        "price": 17219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "83965-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 17819,
+        "price": 17649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -4440,8 +4440,8 @@ export const mockConsoles: Product[] = [
     "name": "Ayaneo 2 16GB RAM / 2TB SSD Oyun Konsolu",
     "brand": "Ayaneo",
     "category": "consoles",
-    "rating": 4.81,
-    "reviewCount": 520,
+    "rating": 4.75,
+    "reviewCount": 500,
     "basePrice": 34999,
     "currency": "TL",
     "releaseYear": 2023,
@@ -4486,35 +4486,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "890203-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 35269,
+        "price": 35219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "890203-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 35819,
+        "price": 35649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -4543,8 +4543,8 @@ export const mockConsoles: Product[] = [
     "name": "Valve Steam Deck LCD 1 TB Taşınabilir Oyun Konsolu",
     "brand": "Steam",
     "category": "consoles",
-    "rating": 4.81,
-    "reviewCount": 512,
+    "rating": 4.74,
+    "reviewCount": 492,
     "basePrice": 33999,
     "currency": "TL",
     "releaseYear": 2023,
@@ -4589,35 +4589,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "910088-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 34269,
+        "price": 34219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "910088-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 34819,
+        "price": 34649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -4646,8 +4646,8 @@ export const mockConsoles: Product[] = [
     "name": "Sony PlayStation 4 Pro 500 Million Limited Edition 2 TB (CUH-7100)",
     "brand": "Sony",
     "category": "consoles",
-    "rating": 4.8,
-    "reviewCount": 504,
+    "rating": 4.74,
+    "reviewCount": 484,
     "basePrice": 28999,
     "currency": "TL",
     "releaseYear": 2018,
@@ -4692,35 +4692,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "617955-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 29269,
+        "price": 29219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "617955-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 29819,
+        "price": 29649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -4749,8 +4749,8 @@ export const mockConsoles: Product[] = [
     "name": "Valve Steam Deck LCD 256 GB Oyun Konsolu (V004284-30)",
     "brand": "Steam",
     "category": "consoles",
-    "rating": 4.79,
-    "reviewCount": 488,
+    "rating": 4.73,
+    "reviewCount": 468,
     "basePrice": 28999,
     "currency": "TL",
     "releaseYear": 2022,
@@ -4795,35 +4795,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "865477-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 29269,
+        "price": 29219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "865477-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 29819,
+        "price": 29649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -4852,8 +4852,8 @@ export const mockConsoles: Product[] = [
     "name": "Ayaneo 2 16GB RAM / 1TB SSD Taşınabilir Oyun Konsolu",
     "brand": "Ayaneo",
     "category": "consoles",
-    "rating": 4.79,
-    "reviewCount": 488,
+    "rating": 4.73,
+    "reviewCount": 468,
     "basePrice": 31999,
     "currency": "TL",
     "releaseYear": 2023,
@@ -4898,35 +4898,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "890017-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 32269,
+        "price": 32219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "890017-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 32819,
+        "price": 32649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -4955,12 +4955,12 @@ export const mockConsoles: Product[] = [
     "name": "Valve Steam Deck LCD 64 GB eMMC Oyun Konsolu (V004281-30)",
     "brand": "Steam",
     "category": "consoles",
-    "rating": 4.79,
-    "reviewCount": 472,
+    "rating": 4.72,
+    "reviewCount": 452,
     "basePrice": 24999,
     "currency": "TL",
     "releaseYear": 2022,
-    "isPopular": false,
+    "isPopular": true,
     "isFeatured": false,
     "image": "/images/consoles/862171.jpg",
     "images": [
@@ -5001,35 +5001,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "862171-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 25269,
+        "price": 25219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "862171-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 25819,
+        "price": 25649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -5058,12 +5058,12 @@ export const mockConsoles: Product[] = [
     "name": "Sony PlayStation 4 Pro 1 TB 4K HDR Oyun Konsolu (CUH-7200)",
     "brand": "Sony",
     "category": "consoles",
-    "rating": 4.79,
-    "reviewCount": 472,
+    "rating": 4.72,
+    "reviewCount": 452,
     "basePrice": 18999,
     "currency": "TL",
     "releaseYear": 2016,
-    "isPopular": false,
+    "isPopular": true,
     "isFeatured": false,
     "image": "/images/consoles/80278.png",
     "images": [
@@ -5104,35 +5104,35 @@ export const mockConsoles: Product[] = [
           "Ücretsiz Kargo"
         ],
         "sellerRating": 4.7,
-        "sellerReviews": 450,
+        "sellerReviews": 320,
         "url": "https://www.amazon.com.tr"
       },
       {
         "id": "80278-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 19269,
+        "price": 19219,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 730,
+        "sellerReviews": 560,
         "url": "https://www.hepsiburada.com"
       },
       {
         "id": "80278-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 19819,
+        "price": 19649,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
           "Aynı Gün Kargo"
         ],
         "sellerRating": 4.8,
-        "sellerReviews": 1010,
+        "sellerReviews": 800,
         "url": "https://www.trendyol.com"
       }
     ],
@@ -5152,6 +5152,2066 @@ export const mockConsoles: Product[] = [
       {
         "date": "2026-08-01",
         "price": 18999
+      }
+    ]
+  },
+  {
+    "id": "console-80840",
+    "slug": "microsoft-microsoft-xbox-one-s-2-tb-4k-hdr-blu-ray-s-r-c-l-oyun-konsolu-80840",
+    "name": "Microsoft Xbox One S 2 TB 4K HDR Blu-ray Sürücülü Oyun Konsolu",
+    "brand": "Microsoft",
+    "category": "consoles",
+    "rating": 4.69,
+    "reviewCount": 396,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2016,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/80840.jpg",
+    "images": [
+      "/images/consoles/80840.jpg"
+    ],
+    "highlights": [
+      "2 TB Devasa Sabit Disk ile En Yüksek Xbox One S Kapasitesi",
+      "4K Ultra HD Blu-ray ve HDR10 Yüksek Dinamik Aralık Desteği",
+      "Dahili Güç Kaynağı ve Orijinal Xbox One Kasasına Göre %40 Daha Küçük Gövde",
+      "Bluetooth Özellikli Kablosuz Xbox One Kontrolcü"
+    ],
+    "specs": {
+      "deviceType": "Sabit",
+      "storageGb": 2048,
+      "fps": "60 fps",
+      "tflops": 1.4,
+      "processor": "Özel AMD 8 Çekirdek x86 (1.75 GHz)",
+      "gpu": "AMD Radeon GCN (1.4 TFLOPs 914 MHz)",
+      "ramGb": 8,
+      "ramType": "DDR3 (32MB ESRAM)",
+      "resolution": "1080p Full HD (4K HDR Video & Akış Çıkışı)",
+      "hdr": true,
+      "wifi": "Wi-Fi 5 (802.11ac)",
+      "bluetooth": "4.0",
+      "hdmi": "HDMI 2.0a Giriş ve Çıkış + Optik Ses (Toslink)",
+      "weightKg": 2.9
+    },
+    "storeOffers": [
+      {
+        "id": "80840-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "80840-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 15219,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 560,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "80840-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 15649,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 16199
+      },
+      {
+        "date": "2026-04-15",
+        "price": 15749
+      },
+      {
+        "date": "2026-06-01",
+        "price": 15299
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14999
+      }
+    ]
+  },
+  {
+    "id": "console-890989",
+    "slug": "razer-razer-edge-kishi-v2-pro-ta-nabilir-oyun-konsolu-rz80-04610100-b3g1-890989",
+    "name": "Razer Edge & Kishi V2 Pro Taşınabilir Oyun Konsolu (RZ80-04610100-B3G1)",
+    "brand": "Razer",
+    "category": "consoles",
+    "rating": 4.68,
+    "reviewCount": 372,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/890989.jpg",
+    "images": [
+      "/images/consoles/890989.jpg"
+    ],
+    "highlights": [
+      "6.8 inç 144Hz Ultra Akıcı FHD+ AMOLED Dokunmatik Ekran",
+      "Snapdragon G3x Gen 1 Özel Oyun Yonga Seti ve Aktif Fan Soğutma",
+      "HyperSense Dokunsal Geri Bildirimli Ayrılabilir Kishi V2 Pro Kontrolcü",
+      "Android Tabanlı Yerel Oyun, Xbox Cloud Gaming ve Steam Link Desteği"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 128,
+      "fps": "60 fps",
+      "tflops": 1.38,
+      "processor": "Qualcomm Snapdragon G3x Gen 1 (8 Çekirdek Kryo 3.0 GHz)",
+      "gpu": "Adreno Grafik Birimi (1.38 TFLOPs)",
+      "ramGb": 8,
+      "ramType": "LPDDR5",
+      "resolution": "6.8 inç 2400x1080 FHD+ 144Hz AMOLED Dokunmatik Ekran",
+      "hdr": true,
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "5.2",
+      "hdmi": "USB-C DisplayPort",
+      "weightKg": 0.401
+    },
+    "storeOffers": [
+      {
+        "id": "890989-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "890989-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 25219,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 560,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "890989-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 25649,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 26999
+      },
+      {
+        "date": "2026-04-15",
+        "price": 26249
+      },
+      {
+        "date": "2026-06-01",
+        "price": 25499
+      },
+      {
+        "date": "2026-08-01",
+        "price": 24999
+      }
+    ]
+  },
+  {
+    "id": "console-80264",
+    "slug": "sony-sony-playstation-4-1-tb-orijinal-kasa-oyun-konsolu-cuh-1216b-80264",
+    "name": "Sony PlayStation 4 1 TB Orijinal Kasa Oyun Konsolu (CUH-1216B)",
+    "brand": "Sony",
+    "category": "consoles",
+    "rating": 4.67,
+    "reviewCount": 364,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2015,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/80264.jpg",
+    "images": [
+      "/images/consoles/80264.jpg"
+    ],
+    "highlights": [
+      "1 TB Geniş Depolama Kapasitesi",
+      "CUH-1200 Serisi Mat Kapaklı Sessiz Tasarım Revizyonu",
+      "Optik Ses Çıkışı ile Ev Sinema Sistemlerine Bağlantı",
+      "DualShock 4 Kablosuz Oyun Kolu"
+    ],
+    "specs": {
+      "deviceType": "Sabit",
+      "storageGb": 1024,
+      "fps": "60 fps",
+      "tflops": 1.84,
+      "processor": "AMD Jaguar (8 Çekirdek 1.6 GHz)",
+      "gpu": "AMD Radeon (1.84 TFLOPs)",
+      "ramGb": 8,
+      "ramType": "GDDR5",
+      "resolution": "1080p Full HD / HDR",
+      "hdr": true,
+      "wifi": "Wi-Fi 4 (802.11n)",
+      "bluetooth": "2.1",
+      "hdmi": "HDMI 1.4 & Optik Dijital Ses Çıkışı",
+      "weightKg": 2.5
+    },
+    "storeOffers": [
+      {
+        "id": "80264-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "80264-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 15219,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 560,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "80264-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 15649,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 16199
+      },
+      {
+        "date": "2026-04-15",
+        "price": 15749
+      },
+      {
+        "date": "2026-06-01",
+        "price": 15299
+      },
+      {
+        "date": "2026-08-01",
+        "price": 14999
+      }
+    ]
+  },
+  {
+    "id": "console-80838",
+    "slug": "microsoft-microsoft-xbox-one-s-1-tb-blu-ray-s-r-c-l-oyun-konsolu-80838",
+    "name": "Microsoft Xbox One S 1 TB Blu-ray Sürücülü Oyun Konsolu",
+    "brand": "Microsoft",
+    "category": "consoles",
+    "rating": 4.67,
+    "reviewCount": 364,
+    "basePrice": 12999,
+    "currency": "TL",
+    "releaseYear": 2016,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/80838.jpg",
+    "images": [
+      "/images/consoles/80838.jpg"
+    ],
+    "highlights": [
+      "1 TB Sabit Disk Depolama Alanı",
+      "4K Ultra HD Blu-ray Sürücü ve HDR Oyun Desteği",
+      "Entegre İç Güç Kaynağı ile Kompakt Form",
+      "Xbox Kablosuz Kontrol Cihazı"
+    ],
+    "specs": {
+      "deviceType": "Sabit",
+      "storageGb": 1024,
+      "fps": "60 fps",
+      "tflops": 1.4,
+      "processor": "AMD Jaguar (8 Çekirdek 1.75 GHz)",
+      "gpu": "AMD Radeon (1.4 TFLOPs)",
+      "ramGb": 8,
+      "ramType": "DDR3",
+      "resolution": "1080p Full HD / 4K HDR Video",
+      "hdr": true,
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "4.0",
+      "hdmi": "HDMI 2.0a",
+      "weightKg": 2.9
+    },
+    "storeOffers": [
+      {
+        "id": "80838-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "80838-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 13219,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 560,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "80838-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 13649,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 14039
+      },
+      {
+        "date": "2026-04-15",
+        "price": 13649
+      },
+      {
+        "date": "2026-06-01",
+        "price": 13259
+      },
+      {
+        "date": "2026-08-01",
+        "price": 12999
+      }
+    ]
+  },
+  {
+    "id": "console-391532",
+    "slug": "microsoft-microsoft-xbox-one-s-all-digital-edition-1-tb-njp-00024-391532",
+    "name": "Microsoft Xbox One S All-Digital Edition 1 TB (NJP-00024)",
+    "brand": "Microsoft",
+    "category": "consoles",
+    "rating": 4.67,
+    "reviewCount": 364,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/391532.jpg",
+    "images": [
+      "/images/consoles/391532.jpg"
+    ],
+    "highlights": [
+      "Tamamen Dijital Disksiz Hafif Kasa Tasarımı",
+      "1 TB Geniş Dahili Sabit Disk Depolama",
+      "Xbox Game Pass Kütüphanesi ile Yüzlerce Oyuna Anında Erişim",
+      "Bulut Kayıtları ve Dijital Oyun İndirme Kolaylığı"
+    ],
+    "specs": {
+      "deviceType": "Sabit",
+      "storageGb": 1024,
+      "fps": "60 fps",
+      "tflops": 1.4,
+      "processor": "AMD Jaguar (8 Çekirdek 1.75 GHz)",
+      "gpu": "AMD Radeon (1.4 TFLOPs)",
+      "ramGb": 8,
+      "ramType": "DDR3",
+      "resolution": "1080p Full HD / HDR",
+      "hdr": true,
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "4.0",
+      "hdmi": "HDMI 2.0a",
+      "weightKg": 2.7
+    },
+    "storeOffers": [
+      {
+        "id": "391532-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "391532-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 12219,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 560,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "391532-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 12649,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 12959
+      },
+      {
+        "date": "2026-04-15",
+        "price": 12599
+      },
+      {
+        "date": "2026-06-01",
+        "price": 12239
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11999
+      }
+    ]
+  },
+  {
+    "id": "console-80305",
+    "slug": "microsoft-microsoft-xbox-one-s-500-gb-blu-ray-s-r-c-l-oyun-konsolu-80305",
+    "name": "Microsoft Xbox One S 500 GB Blu-ray Sürücülü Oyun Konsolu",
+    "brand": "Microsoft",
+    "category": "consoles",
+    "rating": 4.66,
+    "reviewCount": 348,
+    "basePrice": 10999,
+    "currency": "TL",
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/consoles/80305.jpg",
+    "images": [
+      "/images/consoles/80305.jpg"
+    ],
+    "highlights": [
+      "500 GB HDD Depolama & 4K UHD Blu-ray Oynatıcı",
+      "HDR Canlı Renk Desteği ve Akıcı 60 FPS Oynanış",
+      "Zengin Xbox One ve Geriye Dönük Xbox 360 Oyun Arşivi",
+      "Beyaz Şık Kompakt Kasa"
+    ],
+    "specs": {
+      "deviceType": "Sabit",
+      "storageGb": 500,
+      "fps": "60 fps",
+      "tflops": 1.4,
+      "processor": "AMD Jaguar (8 Çekirdek 1.75 GHz)",
+      "gpu": "AMD Radeon (1.4 TFLOPs)",
+      "ramGb": 8,
+      "ramType": "DDR3",
+      "resolution": "1080p Full HD / HDR",
+      "hdr": true,
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "4.0",
+      "hdmi": "HDMI 2.0a",
+      "weightKg": 2.9
+    },
+    "storeOffers": [
+      {
+        "id": "80305-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 10999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "80305-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 11219,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 560,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "80305-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 11649,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 11879
+      },
+      {
+        "date": "2026-04-15",
+        "price": 11549
+      },
+      {
+        "date": "2026-06-01",
+        "price": 11219
+      },
+      {
+        "date": "2026-08-01",
+        "price": 10999
+      }
+    ]
+  },
+  {
+    "id": "console-80855",
+    "slug": "nintendo-nintendo-wii-u-premium-32-gb-siyah-oyun-konsolu-80855",
+    "name": "Nintendo Wii U Premium 32 GB Siyah Oyun Konsolu",
+    "brand": "Nintendo",
+    "category": "consoles",
+    "rating": 4.62,
+    "reviewCount": 276,
+    "basePrice": 9999,
+    "currency": "TL",
+    "releaseYear": 2012,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/consoles/80855.jpg",
+    "images": [
+      "/images/consoles/80855.jpg"
+    ],
+    "highlights": [
+      "6.2 inç Dokunmatik Ekranlı Yenilikçi Wii U GamePad Tablet Kontrolcü",
+      "32 GB Dahili Flash Hafıza & SD Kart ile Genişletme",
+      "Tüm Orijinal Nintendo Wii Oyunları ve Kumandaları ile Tam Uyumluluk",
+      "Super Mario 3D World, Mario Kart 8, Zelda Wind Waker HD gibi Klasikler"
+    ],
+    "specs": {
+      "deviceType": "Sabit",
+      "storageGb": 32,
+      "fps": "60 fps",
+      "tflops": 1.4,
+      "processor": "IBM PowerPC Espresso (3 Çekirdek 1.24 GHz)",
+      "gpu": "AMD Radeon Latte Grafik İşlemci",
+      "ramGb": 2,
+      "ramType": "DDR3 (1GB Sistem + 1GB Oyun)",
+      "resolution": "1080p Full HD",
+      "hdr": false,
+      "wifi": "Wi-Fi 4 (802.11n)",
+      "bluetooth": "4.0",
+      "hdmi": "HDMI + AV Multi",
+      "weightKg": 1.5
+    },
+    "storeOffers": [
+      {
+        "id": "80855-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 9999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "80855-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 10219,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 560,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "80855-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 10649,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 10799
+      },
+      {
+        "date": "2026-04-15",
+        "price": 10499
+      },
+      {
+        "date": "2026-06-01",
+        "price": 10199
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9999
+      }
+    ]
+  },
+  {
+    "id": "console-80849",
+    "slug": "nintendo-nintendo-wii-u-basic-8-gb-beyaz-oyun-konsolu-80849",
+    "name": "Nintendo Wii U Basic 8 GB Beyaz Oyun Konsolu",
+    "brand": "Nintendo",
+    "category": "consoles",
+    "rating": 4.62,
+    "reviewCount": 276,
+    "basePrice": 8499,
+    "currency": "TL",
+    "releaseYear": 2012,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/consoles/80849.jpg",
+    "images": [
+      "/images/consoles/80849.jpg"
+    ],
+    "highlights": [
+      "Wii U GamePad Dokunmatik Ekran ile İkinci Ekran Oyun Deneyimi",
+      "8 GB Dahili Depolama & USB Harici Disk Bağlantı Desteği",
+      "Wii U Çift Ekran Oyun Mekanikleri",
+      "Beyaz Renk Temiz Tasarım"
+    ],
+    "specs": {
+      "deviceType": "Sabit",
+      "storageGb": 8,
+      "fps": "60 fps",
+      "tflops": 1.4,
+      "processor": "IBM Espresso (3 Çekirdek 1.24 GHz)",
+      "gpu": "AMD Radeon Latte",
+      "ramGb": 2,
+      "ramType": "DDR3",
+      "resolution": "1080p Full HD",
+      "hdr": false,
+      "wifi": "Wi-Fi 4",
+      "bluetooth": "4.0",
+      "hdmi": "HDMI",
+      "weightKg": 1.5
+    },
+    "storeOffers": [
+      {
+        "id": "80849-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 8499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "80849-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 8719,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 560,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "80849-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 9149,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 9179
+      },
+      {
+        "date": "2026-04-15",
+        "price": 8924
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8669
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8499
+      }
+    ]
+  },
+  {
+    "id": "console-391517",
+    "slug": "sony-sony-playstation-3-slim-1-tb-zel-depolamal-oyun-konsolu-391517",
+    "name": "Sony PlayStation 3 Slim 1 TB Özel Depolamalı Oyun Konsolu",
+    "brand": "Sony",
+    "category": "consoles",
+    "rating": 4.59,
+    "reviewCount": 220,
+    "basePrice": 11499,
+    "currency": "TL",
+    "releaseYear": 2011,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/consoles/391517.jpg",
+    "images": [
+      "/images/consoles/391517.jpg"
+    ],
+    "highlights": [
+      "1 TB Yükseltilmiş Devasa Dahili Sabit Disk",
+      "Yüzlerce PS3 Exclusive Oyunu Tek Bir Konsolda Saklama İmkanı",
+      "Blu-ray Film Oynatma ve HDMI 1080p Ses/Görüntü",
+      "DualShock 3 Kablosuz Kol"
+    ],
+    "specs": {
+      "deviceType": "Sabit",
+      "storageGb": 1024,
+      "fps": "60 fps",
+      "tflops": 0.23,
+      "processor": "Cell Broadband Engine (3.2 GHz)",
+      "gpu": "Nvidia RSX (0.23 TFLOPs)",
+      "ramGb": 0.512,
+      "ramType": "256MB XDR + 256MB GDDR3",
+      "resolution": "1080p Full HD",
+      "hdr": false,
+      "wifi": "802.11b/g",
+      "bluetooth": "2.0",
+      "hdmi": "HDMI 1.3",
+      "weightKg": 2.6
+    },
+    "storeOffers": [
+      {
+        "id": "391517-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 11499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "391517-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 11719,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 560,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "391517-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 12149,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 12419
+      },
+      {
+        "date": "2026-04-15",
+        "price": 12074
+      },
+      {
+        "date": "2026-06-01",
+        "price": 11729
+      },
+      {
+        "date": "2026-08-01",
+        "price": 11499
+      }
+    ]
+  },
+  {
+    "id": "console-910119",
+    "slug": "sony-sony-playstation-3-slim-750-gb-oyun-konsolu-910119",
+    "name": "Sony PlayStation 3 Slim 750 GB Oyun Konsolu",
+    "brand": "Sony",
+    "category": "consoles",
+    "rating": 4.59,
+    "reviewCount": 212,
+    "basePrice": 10799,
+    "currency": "TL",
+    "releaseYear": 2011,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/consoles/910119.jpg",
+    "images": [
+      "/images/consoles/910119.jpg"
+    ],
+    "highlights": [
+      "750 GB Genişletilmiş Sabit Disk Kapasitesi",
+      "Sessiz ve Güvenilir Slim Kasa Donanımı",
+      "Blu-ray ve DVD Oynatıcı Entegrasyonu",
+      "DualShock 3 Titreşimli Kontrolcü"
+    ],
+    "specs": {
+      "deviceType": "Sabit",
+      "storageGb": 750,
+      "fps": "60 fps",
+      "tflops": 0.23,
+      "processor": "Cell Broadband Engine (3.2 GHz)",
+      "gpu": "Nvidia RSX (0.23 TFLOPs)",
+      "ramGb": 0.512,
+      "ramType": "256MB XDR + 256MB GDDR3",
+      "resolution": "1080p Full HD",
+      "hdr": false,
+      "wifi": "802.11b/g",
+      "bluetooth": "2.0",
+      "hdmi": "HDMI 1.3",
+      "weightKg": 2.6
+    },
+    "storeOffers": [
+      {
+        "id": "910119-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 10799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "910119-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 11019,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 560,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "910119-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 11449,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 11663
+      },
+      {
+        "date": "2026-04-15",
+        "price": 11339
+      },
+      {
+        "date": "2026-06-01",
+        "price": 11015
+      },
+      {
+        "date": "2026-08-01",
+        "price": 10799
+      }
+    ]
+  },
+  {
+    "id": "console-82201",
+    "slug": "sony-sony-playstation-3-slim-250-gb-oyun-konsolu-cech-2000b-82201",
+    "name": "Sony PlayStation 3 Slim 250 GB Oyun Konsolu (CECH-2000B)",
+    "brand": "Sony",
+    "category": "consoles",
+    "rating": 4.58,
+    "reviewCount": 196,
+    "basePrice": 9499,
+    "currency": "TL",
+    "releaseYear": 2009,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/consoles/82201.jpg",
+    "images": [
+      "/images/consoles/82201.jpg"
+    ],
+    "highlights": [
+      "250 GB Sabit Disk Depolama Alanı",
+      "Klasik PS3 Slim Mat Siyah Kasa",
+      "Optik Ses Çıkışı ve HDMI Desteği",
+      "DualShock 3 Kablosuz Oyun Kolu"
+    ],
+    "specs": {
+      "deviceType": "Sabit",
+      "storageGb": 250,
+      "fps": "60 fps",
+      "tflops": 0.23,
+      "processor": "Cell Broadband Engine (3.2 GHz)",
+      "gpu": "Nvidia RSX (0.23 TFLOPs)",
+      "ramGb": 0.512,
+      "ramType": "256MB XDR + 256MB GDDR3",
+      "resolution": "1080p Full HD",
+      "hdr": false,
+      "wifi": "802.11b/g",
+      "bluetooth": "2.0",
+      "hdmi": "HDMI 1.3",
+      "weightKg": 3.2
+    },
+    "storeOffers": [
+      {
+        "id": "82201-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 9499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "82201-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 9719,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 560,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "82201-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 10149,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 10259
+      },
+      {
+        "date": "2026-04-15",
+        "price": 9974
+      },
+      {
+        "date": "2026-06-01",
+        "price": 9689
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9499
+      }
+    ]
+  },
+  {
+    "id": "console-82202",
+    "slug": "sony-sony-playstation-3-slim-160-gb-oyun-konsolu-cech-2500a-82202",
+    "name": "Sony PlayStation 3 Slim 160 GB Oyun Konsolu (CECH-2500A)",
+    "brand": "Sony",
+    "category": "consoles",
+    "rating": 4.57,
+    "reviewCount": 188,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2010,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/consoles/82202.jpg",
+    "images": [
+      "/images/consoles/82202.jpg"
+    ],
+    "highlights": [
+      "160 GB Dahili Sabit Disk Kapasitesi",
+      "Enerji Tasarruflu Slim Donanım Revizyonu",
+      "Geniş PS3 Oyun ve PSN Kütüphanesi",
+      "DualShock 3 Kol"
+    ],
+    "specs": {
+      "deviceType": "Sabit",
+      "storageGb": 160,
+      "fps": "60 fps",
+      "tflops": 0.23,
+      "processor": "Cell Broadband Engine (3.2 GHz)",
+      "gpu": "Nvidia RSX (0.23 TFLOPs)",
+      "ramGb": 0.512,
+      "ramType": "256MB XDR + 256MB GDDR3",
+      "resolution": "1080p Full HD",
+      "hdr": false,
+      "wifi": "802.11b/g",
+      "bluetooth": "2.0",
+      "hdmi": "HDMI 1.3",
+      "weightKg": 2.6
+    },
+    "storeOffers": [
+      {
+        "id": "82202-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "82202-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 9219,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 560,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "82202-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 9649,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 9719
+      },
+      {
+        "date": "2026-04-15",
+        "price": 9449
+      },
+      {
+        "date": "2026-06-01",
+        "price": 9179
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8999
+      }
+    ]
+  },
+  {
+    "id": "console-82203",
+    "slug": "sony-sony-playstation-3-slim-120-gb-oyun-konsolu-cech-2000a-82203",
+    "name": "Sony PlayStation 3 Slim 120 GB Oyun Konsolu (CECH-2000A)",
+    "brand": "Sony",
+    "category": "consoles",
+    "rating": 4.57,
+    "reviewCount": 188,
+    "basePrice": 8499,
+    "currency": "TL",
+    "releaseYear": 2009,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/consoles/82203.jpg",
+    "images": [
+      "/images/consoles/82203.jpg"
+    ],
+    "highlights": [
+      "120 GB HDD ile İlk Nesil Slim Kasa Modeli",
+      "Blu-ray Disk Sürücüsü ile Film ve Oyun Oynatma",
+      "HDMI 1080p Yüksek Çözünürlük Çıkışı",
+      "Kablosuz DualShock 3 Kolu"
+    ],
+    "specs": {
+      "deviceType": "Sabit",
+      "storageGb": 120,
+      "fps": "60 fps",
+      "tflops": 0.23,
+      "processor": "Cell Broadband Engine (3.2 GHz)",
+      "gpu": "Nvidia RSX (0.23 TFLOPs)",
+      "ramGb": 0.512,
+      "ramType": "256MB XDR + 256MB GDDR3",
+      "resolution": "1080p Full HD",
+      "hdr": false,
+      "wifi": "802.11b/g",
+      "bluetooth": "2.0",
+      "hdmi": "HDMI 1.3",
+      "weightKg": 3.2
+    },
+    "storeOffers": [
+      {
+        "id": "82203-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 8499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "82203-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 8719,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 560,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "82203-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 9149,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 9179
+      },
+      {
+        "date": "2026-04-15",
+        "price": 8924
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8669
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8499
+      }
+    ]
+  },
+  {
+    "id": "console-391516",
+    "slug": "sony-sony-playstation-3-super-slim-320-gb-oyun-konsolu-391516",
+    "name": "Sony PlayStation 3 Super Slim 320 GB Oyun Konsolu",
+    "brand": "Sony",
+    "category": "consoles",
+    "rating": 4.56,
+    "reviewCount": 172,
+    "basePrice": 9799,
+    "currency": "TL",
+    "releaseYear": 2012,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/consoles/391516.jpg",
+    "images": [
+      "/images/consoles/391516.jpg"
+    ],
+    "highlights": [
+      "320 GB Dahili HDD & Üstten Kayan Kapaklı Super Slim Tasarım",
+      "En Hafif ve Kompakt PlayStation 3 Modeli",
+      "Sessiz Disk Okuma Mekanizması",
+      "DualShock 3 Kablosuz Oyun Kolu"
+    ],
+    "specs": {
+      "deviceType": "Sabit",
+      "storageGb": 320,
+      "fps": "60 fps",
+      "tflops": 0.23,
+      "processor": "Cell Broadband Engine (3.2 GHz)",
+      "gpu": "Nvidia RSX (0.23 TFLOPs)",
+      "ramGb": 0.512,
+      "ramType": "256MB XDR + 256MB GDDR3",
+      "resolution": "1080p Full HD",
+      "hdr": false,
+      "wifi": "802.11b/g",
+      "bluetooth": "2.0",
+      "hdmi": "HDMI 1.3",
+      "weightKg": 2.1
+    },
+    "storeOffers": [
+      {
+        "id": "391516-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 9799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "391516-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 10019,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 560,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "391516-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 10449,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 10583
+      },
+      {
+        "date": "2026-04-15",
+        "price": 10289
+      },
+      {
+        "date": "2026-06-01",
+        "price": 9995
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9799
+      }
+    ]
+  },
+  {
+    "id": "console-82196",
+    "slug": "sony-sony-playstation-3-super-slim-250-gb-oyun-konsolu-cech-4000b-82196",
+    "name": "Sony PlayStation 3 Super Slim 250 GB Oyun Konsolu (CECH-4000B)",
+    "brand": "Sony",
+    "category": "consoles",
+    "rating": 4.56,
+    "reviewCount": 172,
+    "basePrice": 9299,
+    "currency": "TL",
+    "releaseYear": 2012,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/consoles/82196.jpg",
+    "images": [
+      "/images/consoles/82196.jpg"
+    ],
+    "highlights": [
+      "250 GB Sabit Disk Depolama Kapasitesi",
+      "Super Slim Ultra Kompakt Şık Gövde",
+      "Blu-ray ve DVD Oynatıcı Özelliği",
+      "DualShock 3 Kolu"
+    ],
+    "specs": {
+      "deviceType": "Sabit",
+      "storageGb": 250,
+      "fps": "60 fps",
+      "tflops": 0.23,
+      "processor": "Cell Broadband Engine (3.2 GHz)",
+      "gpu": "Nvidia RSX (0.23 TFLOPs)",
+      "ramGb": 0.512,
+      "ramType": "256MB XDR + 256MB GDDR3",
+      "resolution": "1080p Full HD",
+      "hdr": false,
+      "wifi": "802.11b/g",
+      "bluetooth": "2.0",
+      "hdmi": "HDMI 1.3",
+      "weightKg": 2.1
+    },
+    "storeOffers": [
+      {
+        "id": "82196-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 9299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "82196-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 9519,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 560,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "82196-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 9949,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 10043
+      },
+      {
+        "date": "2026-04-15",
+        "price": 9764
+      },
+      {
+        "date": "2026-06-01",
+        "price": 9485
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9299
+      }
+    ]
+  },
+  {
+    "id": "console-82197",
+    "slug": "sony-sony-playstation-3-super-slim-12-gb-flash-haf-zal-konsol-cech-4000a-82197",
+    "name": "Sony PlayStation 3 Super Slim 12 GB Flash Hafızalı Konsol (CECH-4000A)",
+    "brand": "Sony",
+    "category": "consoles",
+    "rating": 4.56,
+    "reviewCount": 164,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2012,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/consoles/82197.jpg",
+    "images": [
+      "/images/consoles/82197.jpg"
+    ],
+    "highlights": [
+      "12 GB Hızlı Dahili Flash Bellek (2.5 inç HDD Takma Kızağı Desteği)",
+      "Ultra Hafif Kayan Kapaklı Gövde Mimarisi",
+      "Tüm PS3 Diskli Oyunlarıyla Tam Uyum",
+      "DualShock 3 Kablosuz Oyun Kolu"
+    ],
+    "specs": {
+      "deviceType": "Sabit",
+      "storageGb": 12,
+      "fps": "60 fps",
+      "tflops": 0.23,
+      "processor": "Cell Broadband Engine (3.2 GHz)",
+      "gpu": "Nvidia RSX (0.23 TFLOPs)",
+      "ramGb": 0.512,
+      "ramType": "256MB XDR + 256MB GDDR3",
+      "resolution": "1080p Full HD",
+      "hdr": false,
+      "wifi": "802.11b/g",
+      "bluetooth": "2.0",
+      "hdmi": "HDMI 1.3",
+      "weightKg": 2.1
+    },
+    "storeOffers": [
+      {
+        "id": "82197-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 7999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "82197-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 8219,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 560,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "82197-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 8649,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 8639
+      },
+      {
+        "date": "2026-04-15",
+        "price": 8399
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8159
+      },
+      {
+        "date": "2026-08-01",
+        "price": 7999
+      }
+    ]
+  },
+  {
+    "id": "console-1035711",
+    "slug": "steam-valve-steam-machine-512-gb-salon-oyun-konsolu-1035711",
+    "name": "Valve Steam Machine 512 GB Salon Oyun Konsolu",
+    "brand": "Steam",
+    "category": "consoles",
+    "rating": 4.7,
+    "reviewCount": 380,
+    "basePrice": 31999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/1035711.jpg",
+    "images": [
+      "/images/consoles/1035711.jpg"
+    ],
+    "highlights": [
+      "Salon Televizyonu Odaklı SteamOS 3.0 Gücü ve Steam Big Picture Deneyimi",
+      "512 GB M.2 NVMe SSD & Hızlı Yükleme Süreleri",
+      "Steam Controller ve Tüm Bluetooth/USB Kontrolcüler ile Uyum",
+      "Tüm Steam PC Kütüphanesini Salonda Oynama İmkanı"
+    ],
+    "specs": {
+      "deviceType": "Sabit",
+      "storageGb": 512,
+      "fps": "60 fps",
+      "tflops": 1.4,
+      "processor": "AMD Zen 4 (6 Çekirdek / 12 İzlek)",
+      "gpu": "AMD RDNA 3 Özel Grafik Birimi (8.0 TFLOPs)",
+      "ramGb": 16,
+      "ramType": "DDR5",
+      "resolution": "4K 60/120Hz / HDR10",
+      "hdr": true,
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "5.3",
+      "hdmi": "HDMI 2.1 & DisplayPort 1.4",
+      "weightKg": 2.4
+    },
+    "storeOffers": [
+      {
+        "id": "1035711-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 31999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "1035711-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 32219,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 560,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "1035711-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 32649,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 34559
+      },
+      {
+        "date": "2026-04-15",
+        "price": 33599
+      },
+      {
+        "date": "2026-06-01",
+        "price": 32639
+      },
+      {
+        "date": "2026-08-01",
+        "price": 31999
+      }
+    ]
+  },
+  {
+    "id": "console-1026303",
+    "slug": "lenovo-lenovo-legion-go-2-ta-nabilir-oyun-konsolu-amd-ryzen-z2-extreme-1026303",
+    "name": "Lenovo Legion Go 2 Taşınabilir Oyun Konsolu (AMD Ryzen Z2 Extreme)",
+    "brand": "Lenovo",
+    "category": "consoles",
+    "rating": 4.7,
+    "reviewCount": 380,
+    "basePrice": 59999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/1026303.jpg",
+    "images": [
+      "/images/consoles/1026303.jpg"
+    ],
+    "highlights": [
+      "Yeni Nesil 8.8 inç 144Hz 2.5K Canlı OLED Dokunmatik Ekran",
+      "AMD Ryzen Z2 Extreme & 24 GB Ultra Yüksek Hızlı RAM",
+      "Geliştirilmiş TrueStrike 2 Kollar ve Hassas Manyetik Hall Joystickler",
+      "Çift USB4 Portu ile eGPU ve Harici Çoklu Monitör Desteği"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 1024,
+      "fps": "144 fps",
+      "tflops": 8.2,
+      "processor": "AMD Ryzen Z2 Extreme (8 Çekirdek AI Boost)",
+      "gpu": "AMD RDNA 3.5 (8.2 TFLOPs)",
+      "ramGb": 24,
+      "ramType": "LPDDR5X (8533 MHz)",
+      "resolution": "8.8 inç 2560x1600 144Hz OLED Dokunmatik Ekran",
+      "hdr": true,
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "5.4",
+      "hdmi": "Çift USB4 Type-C (DP 1.4)",
+      "weightKg": 0.82
+    },
+    "storeOffers": [
+      {
+        "id": "1026303-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 59999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "1026303-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 60219,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 560,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "1026303-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 60649,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 64799
+      },
+      {
+        "date": "2026-04-15",
+        "price": 62999
+      },
+      {
+        "date": "2026-06-01",
+        "price": 61199
+      },
+      {
+        "date": "2026-08-01",
+        "price": 59999
+      }
+    ]
+  },
+  {
+    "id": "console-933198",
+    "slug": "anbernic-anbernic-rg35xx-h-retro-ta-nabilir-el-konsolu-64gb-933198",
+    "name": "Anbernic RG35XX H Retro Taşınabilir El Konsolu 64GB",
+    "brand": "Anbernic",
+    "category": "consoles",
+    "rating": 4.7,
+    "reviewCount": 380,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/consoles/933198.jpg",
+    "images": [
+      "/images/consoles/933198.jpg"
+    ],
+    "highlights": [
+      "Çift Analog Joystickli Yatay Ergonomik Retro Tasarım",
+      "30+ Klasik Konsol Emülatörü Desteği (PS1, N64, GBA, Arcade)",
+      "Mini HDMI ile Televizyona Bağlayıp 2 Kişilik Kablosuz Oyun Desteği",
+      "3300 mAh Batarya ile 8 Saate Varan Uzun Oyun Süresi"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 64,
+      "fps": "60 fps",
+      "tflops": 1.4,
+      "processor": "Allwinner H700 (4 Çekirdek ARM Cortex-A53 1.5 GHz)",
+      "gpu": "Mali-G31 MP2",
+      "ramGb": 1,
+      "ramType": "LPDDR4",
+      "resolution": "3.5 inç 640x480 OCA Tam Lamine IPS Ekran",
+      "hdr": false,
+      "wifi": "Wi-Fi 5 (5GHz Desteği)",
+      "bluetooth": "4.2",
+      "hdmi": "Mini HDMI TV Çıkışı",
+      "weightKg": 0.18
+    },
+    "storeOffers": [
+      {
+        "id": "933198-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "933198-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 3719,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 560,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "933198-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 4149,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 3779
+      },
+      {
+        "date": "2026-04-15",
+        "price": 3674
+      },
+      {
+        "date": "2026-06-01",
+        "price": 3569
+      },
+      {
+        "date": "2026-08-01",
+        "price": 3499
+      }
+    ]
+  },
+  {
+    "id": "console-910090",
+    "slug": "ayaneo-ayaneo-geek-6800u-512gb-ta-nabilir-oyun-konsolu-910090",
+    "name": "Ayaneo Geek 6800U 512GB Taşınabilir Oyun Konsolu",
+    "brand": "Ayaneo",
+    "category": "consoles",
+    "rating": 4.7,
+    "reviewCount": 380,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/910090.jpg",
+    "images": [
+      "/images/consoles/910090.jpg"
+    ],
+    "highlights": [
+      "AMD Ryzen 7 6800U İşlemci ve Radeon 680M Grafik Gücü",
+      "Hall Effect Manyetik Kollar ve Hassas Tetik Tuşları",
+      "50.25Wh Batarya ve 35W Hızlı Şarj Desteği",
+      "Windows 11 Home & AYASpace Arayüzü"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 512,
+      "fps": "60 fps",
+      "tflops": 3.38,
+      "processor": "AMD Ryzen 7 6800U (8 Çekirdek 2.7-4.7 GHz)",
+      "gpu": "AMD Radeon 680M (3.38 TFLOPs)",
+      "ramGb": 16,
+      "ramType": "LPDDR5 (6400 MHz)",
+      "resolution": "7 inç 1280x800 Slim Çerçeveli IPS Dokunmatik Ekran",
+      "hdr": true,
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "5.2",
+      "hdmi": "Çift USB4 Type-C",
+      "weightKg": 0.68
+    },
+    "storeOffers": [
+      {
+        "id": "910090-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 320,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "910090-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 29219,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 560,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "910090-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 29649,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 800,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 31319
+      },
+      {
+        "date": "2026-04-15",
+        "price": 30449
+      },
+      {
+        "date": "2026-06-01",
+        "price": 29579
+      },
+      {
+        "date": "2026-08-01",
+        "price": 28999
       }
     ]
   }
