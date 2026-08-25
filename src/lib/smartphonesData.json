@@ -1,5 +1,704 @@
 [
   {
+    "id": "apple-apple-iphone-17-512-gb-1027085",
+    "slug": "apple-iphone-17-512-gb",
+    "name": "Apple iPhone 17 (512 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/1023347/b_apple-iphone-17-2.png",
+    "images": [
+      "https://resim.epey.com/1023347/b_apple-iphone-17-2.png",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-2.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-5.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-3.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-4.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-1.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-6.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-9.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-15.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-11.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-13.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-7.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-10.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-16.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-12.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-14.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-8.jpg"
+    ],
+    "rating": 4.85,
+    "epeyScore": 89,
+    "reviewCount": 1850,
+    "basePrice": 94999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6.3\" Super Retina XDR OLED (120Hz ProMotion & Her Zaman Açık Ekran)",
+      "Apple A19 Bionic (3nm N3P) Yonga Seti & Apple Intelligence",
+      "48 MP Dual Fusion Kamera Sistemi (4K Dolby Vision HDR @ 60fps / Mekansal Video)",
+      "3877 mAh Batarya & MagSafe Hızlı Şarj",
+      "Havacılık Sınıfı Alüminyum Gövde & Ceramic Shield 2"
+    ],
+    "pros": [
+      "Apple A19 çip ve Apple Intelligence yapay zeka entegrasyonu",
+      "120Hz ProMotion ekran desteği ile akıcı arayüz",
+      "Gelişmiş 48 MP Fusion kamera ile 2x kayıpsız optik telefoto kırpma",
+      "Göz alıcı pastel renk seçenekleri ve hafif ergonomik gövde"
+    ],
+    "cons": [
+      "5x optik periskop lens sadece Pro modellerinde mevcut",
+      "Kutudan şarj adaptörü çıkmıyor"
+    ],
+    "colorOptions": [
+      {
+        "name": "Deniz Mavisi",
+        "hex": "#587B8D"
+      },
+      {
+        "name": "Zümrüt Yeşili",
+        "hex": "#7E9B8A"
+      },
+      {
+        "name": "Pudra Pembesi",
+        "hex": "#E7BAC0"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F5F5F7"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#212124"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 94524,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/iphone-17/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 4200,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 94809,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/iphone-17/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5600,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 94999,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/iphone-17/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3800,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 95949,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/iphone-17/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 1200,
+        "warrantyType": "Yetkili Apple Satıcısı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 96424,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/iphone-17/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1900,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 96899,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/iphone-17/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 2300,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 102599
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 99749
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 97849
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 95949
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 94999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.3\"",
+        "type": "Super Retina XDR OLED (120Hz ProMotion)",
+        "resolution": "2556 x 1179 piksel",
+        "refreshRate": 120,
+        "ppi": 460,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A19 Bionic (3 nm)",
+        "cores": "6 Çekirdek (2x Performans + 4x Verimlilik)",
+        "process": "TSMC 3nm (N3P)",
+        "antutuScore": 2150000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          128,
+          256,
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.6, Sensor-shift OIS, 26mm",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı, f/2.2, 120˚ Makro",
+        "selfieMp": "18 MP Center Stage TrueDepth, f/1.9, 4K 60fps",
+        "videoRes": "4K @ 60 fps Dolby Vision HDR / Mekansal Video",
+        "dxomarkScore": 154
+      },
+      "battery": {
+        "capacitymAh": 3877,
+        "chargingWatts": 30,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 172,
+        "thicknessMm": 7.8,
+        "waterResistance": "IP68 (6 metre derinlikte 30 dakikaya kadar)",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum & Ceramic Shield"
+      },
+      "software": {
+        "osName": "iOS 26 (Apple Intelligence)",
+        "updateYears": 6
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-17-256-gb-1027084",
+    "slug": "apple-iphone-17-256-gb",
+    "name": "Apple iPhone 17 (256 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/1023347/b_apple-iphone-17-2.png",
+    "images": [
+      "https://resim.epey.com/1023347/b_apple-iphone-17-2.png",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-2.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-5.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-3.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-4.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-1.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-6.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-9.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-15.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-11.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-13.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-7.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-10.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-16.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-12.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-14.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-8.jpg"
+    ],
+    "rating": 4.85,
+    "epeyScore": 88,
+    "reviewCount": 1650,
+    "basePrice": 84999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "6.3\" Super Retina XDR OLED (120Hz ProMotion & Her Zaman Açık Ekran)",
+      "Apple A19 Bionic (3nm N3P) Yonga Seti & Apple Intelligence",
+      "48 MP Dual Fusion Kamera Sistemi (4K Dolby Vision HDR @ 60fps / Mekansal Video)",
+      "3877 mAh Batarya & MagSafe Hızlı Şarj",
+      "Havacılık Sınıfı Alüminyum Gövde & Ceramic Shield 2"
+    ],
+    "pros": [
+      "Apple A19 çip ve Apple Intelligence yapay zeka entegrasyonu",
+      "120Hz ProMotion ekran desteği ile akıcı arayüz",
+      "Gelişmiş 48 MP Fusion kamera ile 2x kayıpsız optik telefoto kırpma",
+      "Göz alıcı pastel renk seçenekleri ve hafif ergonomik gövde"
+    ],
+    "cons": [
+      "5x optik periskop lens sadece Pro modellerinde mevcut",
+      "Kutudan şarj adaptörü çıkmıyor"
+    ],
+    "colorOptions": [
+      {
+        "name": "Deniz Mavisi",
+        "hex": "#587B8D"
+      },
+      {
+        "name": "Zümrüt Yeşili",
+        "hex": "#7E9B8A"
+      },
+      {
+        "name": "Pudra Pembesi",
+        "hex": "#E7BAC0"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F5F5F7"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#212124"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 84574,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/iphone-17/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 4200,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 84829,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/iphone-17/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5600,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 84999,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/iphone-17/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3800,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 85849,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/iphone-17/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 1200,
+        "warrantyType": "Yetkili Apple Satıcısı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 86274,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/iphone-17/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1900,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 86699,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/iphone-17/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 2300,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 91799
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 89249
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 87549
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 85849
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 84999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.3\"",
+        "type": "Super Retina XDR OLED (120Hz ProMotion)",
+        "resolution": "2556 x 1179 piksel",
+        "refreshRate": 120,
+        "ppi": 460,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A19 Bionic (3 nm)",
+        "cores": "6 Çekirdek (2x Performans + 4x Verimlilik)",
+        "process": "TSMC 3nm (N3P)",
+        "antutuScore": 2150000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          128,
+          256,
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.6, Sensor-shift OIS, 26mm",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı, f/2.2, 120˚ Makro",
+        "selfieMp": "18 MP Center Stage TrueDepth, f/1.9, 4K 60fps",
+        "videoRes": "4K @ 60 fps Dolby Vision HDR / Mekansal Video",
+        "dxomarkScore": 154
+      },
+      "battery": {
+        "capacitymAh": 3877,
+        "chargingWatts": 30,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 172,
+        "thicknessMm": 7.8,
+        "waterResistance": "IP68 (6 metre derinlikte 30 dakikaya kadar)",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum & Ceramic Shield"
+      },
+      "software": {
+        "osName": "iOS 26 (Apple Intelligence)",
+        "updateYears": 6
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-17-128-gb-1023347",
+    "slug": "apple-iphone-17-128-gb",
+    "name": "Apple iPhone 17 (128 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/1023347/b_apple-iphone-17-2.png",
+    "images": [
+      "https://resim.epey.com/1023347/b_apple-iphone-17-2.png",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-2.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-5.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-3.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-4.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-1.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-6.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-9.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-15.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-11.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-13.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-7.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-10.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-16.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-12.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-14.jpg",
+      "https://resim.epey.com/1023347/b_apple-iphone-17-8.jpg"
+    ],
+    "rating": 4.85,
+    "epeyScore": 87,
+    "reviewCount": 1450,
+    "basePrice": 77999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6.3\" Super Retina XDR OLED (120Hz ProMotion & Her Zaman Açık Ekran)",
+      "Apple A19 Bionic (3nm N3P) Yonga Seti & Apple Intelligence",
+      "48 MP Dual Fusion Kamera Sistemi (4K Dolby Vision HDR @ 60fps / Mekansal Video)",
+      "3877 mAh Batarya & MagSafe Hızlı Şarj",
+      "Havacılık Sınıfı Alüminyum Gövde & Ceramic Shield 2"
+    ],
+    "pros": [
+      "Apple A19 çip ve Apple Intelligence yapay zeka entegrasyonu",
+      "120Hz ProMotion ekran desteği ile akıcı arayüz",
+      "Gelişmiş 48 MP Fusion kamera ile 2x kayıpsız optik telefoto kırpma",
+      "Göz alıcı pastel renk seçenekleri ve hafif ergonomik gövde"
+    ],
+    "cons": [
+      "5x optik periskop lens sadece Pro modellerinde mevcut",
+      "Kutudan şarj adaptörü çıkmıyor"
+    ],
+    "colorOptions": [
+      {
+        "name": "Deniz Mavisi",
+        "hex": "#587B8D"
+      },
+      {
+        "name": "Zümrüt Yeşili",
+        "hex": "#7E9B8A"
+      },
+      {
+        "name": "Pudra Pembesi",
+        "hex": "#E7BAC0"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F5F5F7"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#212124"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 77609,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/iphone-17/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 4200,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 77843,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/iphone-17/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5600,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 77999,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/iphone-17/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3800,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 78779,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/iphone-17/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 1200,
+        "warrantyType": "Yetkili Apple Satıcısı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 79169,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/iphone-17/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1900,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 79559,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/iphone-17/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 2300,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 84239
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 81899
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 80339
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 78779
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 77999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.3\"",
+        "type": "Super Retina XDR OLED (120Hz ProMotion)",
+        "resolution": "2556 x 1179 piksel",
+        "refreshRate": 120,
+        "ppi": 460,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A19 Bionic (3 nm)",
+        "cores": "6 Çekirdek (2x Performans + 4x Verimlilik)",
+        "process": "TSMC 3nm (N3P)",
+        "antutuScore": 2150000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 128,
+        "storageOptions": [
+          128,
+          256,
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.6, Sensor-shift OIS, 26mm",
+        "ultrawideMp": "48 MP Ultra Geniş Açılı, f/2.2, 120˚ Makro",
+        "selfieMp": "18 MP Center Stage TrueDepth, f/1.9, 4K 60fps",
+        "videoRes": "4K @ 60 fps Dolby Vision HDR / Mekansal Video",
+        "dxomarkScore": 154
+      },
+      "battery": {
+        "capacitymAh": 3877,
+        "chargingWatts": 30,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 172,
+        "thicknessMm": 7.8,
+        "waterResistance": "IP68 (6 metre derinlikte 30 dakikaya kadar)",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum & Ceramic Shield"
+      },
+      "software": {
+        "osName": "iOS 26 (Apple Intelligence)",
+        "updateYears": 6
+      }
+    }
+  },
+  {
     "id": "apple-apple-iphone-17-pro-max-2-tb-1027080",
     "slug": "apple-iphone-17-pro-max-2-tb",
     "name": "Apple iPhone 17 Pro Max (2 TB)",
