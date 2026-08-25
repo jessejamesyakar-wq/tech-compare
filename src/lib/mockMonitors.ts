@@ -4103,5 +4103,1871 @@ export const mockMonitors: Product[] = [
         "store": "Hepsiburada"
       }
     ]
+  },
+  {
+    "id": "lg-ultragear-32gn650-b",
+    "slug": "lg-ultragear-32gn650-b",
+    "name": "LG UltraGear 32GN650-B 31.5 inç 165Hz 1ms QHD VA HDR10 Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.88,
+    "epeyScore": 92,
+    "reviewCount": 620,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://resim.epey.com/674001/m_lg-32gn650b-aeu-1.jpg",
+    "images": [
+      "https://resim.epey.com/674001/m_lg-32gn650b-aeu-1.jpg"
+    ],
+    "highlights": [
+      "31.5 inç QHD (2560x1440) Yüksek Çözünürlüklü VA Panel",
+      "165Hz Yenileme Hızı & 1ms MBR Tepki Süresi",
+      "HDR10 & sRGB %95 Renk Gamutu",
+      "AMD FreeSync Premium & Dynamic Action Sync"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "2560x1440 (QHD)",
+      "panelType": "VA Düz",
+      "refreshRateHz": 165,
+      "responseTimeMs": 1,
+      "syncTechnology": "AMD FreeSync Premium",
+      "hdrSupport": "HDR10",
+      "stand": "Yükseklik & Eğim & Pivot",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Kulaklık"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-32gn650",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "🔥 Çok Satan 32 inç QHD 165Hz"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1450,
+        "url": "#"
+      },
+      {
+        "id": "vt-lg-32gn650",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-800",
+        "price": 15499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 780,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 16499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-34uc79g-b",
+    "slug": "lg-34uc79g-b",
+    "name": "LG 34UC79G-B 34 inç 144Hz 1ms WFHD Curved IPS UltraWide Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.82,
+    "epeyScore": 89,
+    "reviewCount": 380,
+    "basePrice": 16999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/93421/m_lg-34uc79g-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/93421/m_lg-34uc79g-b-1.jpg"
+    ],
+    "highlights": [
+      "34 inç 21:9 UltraWide Kavisli IPS Panel",
+      "144Hz Akıcı Yenileme & 1ms MBR",
+      "AMD FreeSync Teknolojisi",
+      "Özel Nişangah (Crosshair) & Siyah Dengeleyici"
+    ],
+    "specs": {
+      "screenSizeInches": 34,
+      "resolution": "2560x1080 (WFHD)",
+      "aspectRatio": "21:9",
+      "panelType": "IPS (Curved)",
+      "refreshRateHz": 144,
+      "responseTimeMs": 1,
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.2",
+        "USB 3.0 Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-34uc79g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 16999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Curved UltraWide"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 520,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 16999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultrawide-35wn65c-b",
+    "slug": "lg-ultrawide-35wn65c-b",
+    "name": "LG UltraWide 35WN65C-B 35 inç 100Hz WQHD Curved HDR10 Hoparlörlü Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.87,
+    "epeyScore": 91,
+    "reviewCount": 440,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/642616/m_lg-35wn65c-b-3.jpg",
+    "images": [
+      "https://resim.epey.com/642616/m_lg-35wn65c-b-3.jpg"
+    ],
+    "highlights": [
+      "35 inç 21:9 UltraWide QHD (3440x1440) 1800R Kavisli Panel",
+      "100Hz Yenileme Hızı & HDR10 & sRGB %99",
+      "Dahili 2x7W Waves MaxxAudio Güçlü Hoparlörler",
+      "AMD FreeSync & Yükseklik Ayarlı Stand"
+    ],
+    "specs": {
+      "screenSizeInches": 35,
+      "resolution": "3440x1440 (WQHD)",
+      "aspectRatio": "21:9",
+      "panelType": "VA (1800R Curved)",
+      "refreshRateHz": 100,
+      "responseTimeMs": 5,
+      "hdrSupport": "HDR10",
+      "audioSpeakers": "2x7W MaxxAudio",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-35wn65c",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "35 inç Dev Kavisli"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-32gk850g-b",
+    "slug": "lg-32gk850g-b",
+    "name": "LG 32GK850G-B 31.5 inç 165Hz QHD G-Sync Sphere RGB Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.91,
+    "epeyScore": 93,
+    "reviewCount": 350,
+    "basePrice": 19999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/110050/m_lg-32gk850g-b-2.jpg",
+    "images": [
+      "https://resim.epey.com/110050/m_lg-32gk850g-b-2.jpg"
+    ],
+    "highlights": [
+      "31.5 inç QHD (2560x1440) VA Panel",
+      "144Hz (O/C 165Hz) & NVIDIA G-Sync Dahili Donanım Çipi",
+      "Sphere Lighting Arkadan 6 Renkli RGB Işıklandırma",
+      "Pivot, Yükseklik ve Eğim Ayarlı Ergonomik Ayak"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "2560x1440 (QHD)",
+      "panelType": "VA",
+      "refreshRateHz": 165,
+      "responseTimeMs": 5,
+      "syncTechnology": "NVIDIA G-Sync Hardware Chipset",
+      "ports": [
+        "1x HDMI",
+        "1x DisplayPort 1.2",
+        "USB 3.0 Hub",
+        "RGB Aydınlatma"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-32gk850g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 19999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "G-Sync Dahili Çip"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 610,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 19999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-34wl750-b",
+    "slug": "lg-34wl750-b",
+    "name": "LG 34WL750-B 34 inç WQHD IPS HDR10 UltraWide Düz Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.86,
+    "epeyScore": 90,
+    "reviewCount": 270,
+    "basePrice": 19499,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/405137/m_lg-34wl750-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/405137/m_lg-34wl750-b-1.jpg"
+    ],
+    "highlights": [
+      "34 inç 21:9 UltraWide WQHD (3440x1440) Düz IPS Panel",
+      "HDR10 & sRGB %99 Profesyonel Renk",
+      "AMD FreeSync & Dinamik Aksiyon Senkronizasyonu",
+      "Çift HDMI 2.0 & DisplayPort Girişi"
+    ],
+    "specs": {
+      "screenSizeInches": 34,
+      "resolution": "3440x1440 (WQHD)",
+      "aspectRatio": "21:9",
+      "panelType": "IPS Düz (Flat)",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "hdrSupport": "HDR10",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Kulaklık"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-34wl750",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 19499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Düz 34 inç IPS"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 430,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 19499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-32un500-w",
+    "slug": "lg-32un500-w",
+    "name": "LG 32UN500-W 31.5 inç 4K UHD VA HDR10 AMD FreeSync Hoparlörlü Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.83,
+    "epeyScore": 89,
+    "reviewCount": 390,
+    "basePrice": 14799,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/638638/m_lg-ultrafine-32un500-1.jpg",
+    "images": [
+      "https://resim.epey.com/638638/m_lg-ultrafine-32un500-1.jpg"
+    ],
+    "highlights": [
+      "31.5 inç 4K UHD (3840x2160) Yüksek Kontrastlı VA Panel",
+      "HDR10 & DCI-P3 %90 Sinematik Renk Gamutu",
+      "Dahili 2x5W Waves MaxxAudio Stereo Hoparlörler",
+      "AMD FreeSync & Dynamic Action Sync"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "VA",
+      "refreshRateHz": 60,
+      "responseTimeMs": 4,
+      "contrastRatio": "3000:1",
+      "hdrSupport": "HDR10",
+      "audioSpeakers": "2x5W MaxxAudio",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Kulaklık"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-32un500",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 14799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Uygun Fiyatlı 32 inç 4K"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 980,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 14799,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-32gn550p-b",
+    "slug": "lg-ultragear-32gn550p-b",
+    "name": "LG UltraGear 32GN550P-B 31.5 inç 165Hz 1ms FHD HDR10 Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.81,
+    "epeyScore": 88,
+    "reviewCount": 310,
+    "basePrice": 12999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/890921/m_lg-ultragear-32gn550-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/890921/m_lg-ultragear-32gn550-b-1.jpg"
+    ],
+    "highlights": [
+      "31.5 inç Full HD (1920x1080) VA Ekran",
+      "165Hz Hızlı Yenileme & 1ms MBR",
+      "HDR10 & AMD FreeSync Premium",
+      "Pivot & Yükseklik Ayarlı Stand"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "VA",
+      "refreshRateHz": 165,
+      "responseTimeMs": 1,
+      "hdrSupport": "HDR10",
+      "stand": "Yükseklik & Pivot",
+      "ports": [
+        "2x HDMI",
+        "1x DisplayPort",
+        "Kulaklık"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-32gn550p",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "165Hz Büyük Ekran"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 590,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 12999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-32gn550-b",
+    "slug": "lg-ultragear-32gn550-b",
+    "name": "LG UltraGear 32GN550-B 31.5 inç 165Hz 1ms FHD FreeSync Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 87,
+    "reviewCount": 420,
+    "basePrice": 12499,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/636890/m_lg-ultragear-32gn550-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/636890/m_lg-ultragear-32gn550-b-1.jpg"
+    ],
+    "highlights": [
+      "31.5 inç Full HD VA Panel",
+      "165Hz & 1ms MBR Tepki",
+      "AMD FreeSync & G-Sync Uyumlu",
+      "Siyah Dengeleyici & DAS"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "VA",
+      "refreshRateHz": 165,
+      "responseTimeMs": 1,
+      "ports": [
+        "2x HDMI",
+        "1x DP"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "ty-lg-32gn550",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 12499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fiyat Performans"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 680,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 12499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "lg-27ul600-w",
+    "slug": "lg-27ul600-w",
+    "name": "LG 27UL600-W 27 inç 4K UHD VESA DisplayHDR 400 IPS FreeSync Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.87,
+    "epeyScore": 91,
+    "reviewCount": 510,
+    "basePrice": 15999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/692518/m_lg-27ul600-tr-1.jpg",
+    "images": [
+      "https://resim.epey.com/692518/m_lg-27ul600-tr-1.jpg"
+    ],
+    "highlights": [
+      "27 inç 4K UHD (3840x2160) Canlı IPS Panel",
+      "VESA DisplayHDR 400 & sRGB %99",
+      "Radeon FreeSync & Dinamik Aksiyon Senkronizasyonu",
+      "3 Tarafı Çerçevesiz İnce ve Şık Tasarım"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "hdrSupport": "VESA DisplayHDR 400",
+      "colorGamut": "sRGB %99",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Kulaklık"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-27ul600",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 15999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çok Satan 4K IPS"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1100,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 15999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-27gs65f-b",
+    "slug": "lg-ultragear-27gs65f-b",
+    "name": "LG UltraGear 27GS65F-B 27 inç 180Hz 1ms IPS FHD HDR10 Pivot Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.91,
+    "epeyScore": 92,
+    "reviewCount": 480,
+    "basePrice": 14900,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://resim.epey.com/964449/m_lg-ultragear-27gs65f-b-8806096123195-9.jpg",
+    "images": [
+      "https://resim.epey.com/964449/m_lg-ultragear-27gs65f-b-8806096123195-9.jpg"
+    ],
+    "highlights": [
+      "27 inç Full HD (1920x1080) Ultra Hızlı IPS Panel",
+      "180Hz Yüksek Yenileme Hızı & 1ms GtG Tepki",
+      "HDR10 & sRGB %99 Renk Kapsamı",
+      "NVIDIA G-Sync Compatible & AMD FreeSync & Tam Ergonomik Pivot Stand"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 180,
+      "responseTimeMs": 1,
+      "syncTechnology": "NVIDIA G-Sync Compatible / AMD FreeSync",
+      "hdrSupport": "HDR10",
+      "stand": "Yükseklik & Eğim & Pivot",
+      "ports": [
+        "1x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Kulaklık"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-27gs65f",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 14900,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "🔥 2024 Model 180Hz IPS"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1250,
+        "url": "#"
+      },
+      {
+        "id": "vt-lg-27gs65f",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-800",
+        "price": 15199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 640,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 15999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 14900,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-34uc89g-b",
+    "slug": "lg-34uc89g-b",
+    "name": "LG 34UC89G-B 34 inç 166Hz 1ms Curved WFHD G-Sync UltraWide Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.88,
+    "epeyScore": 90,
+    "reviewCount": 310,
+    "basePrice": 17999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/101316/m_lg-34uc89g-b-9.jpg",
+    "images": [
+      "https://resim.epey.com/101316/m_lg-34uc89g-b-9.jpg"
+    ],
+    "highlights": [
+      "34 inç 21:9 Kavisli UltraWide IPS Panel",
+      "144Hz (O/C 166Hz) & NVIDIA G-Sync Donanımsal Çip",
+      "Dynamic Action Sync & 1ms MBR",
+      "Crosshair Nişangah & Siyah Dengeleyici"
+    ],
+    "specs": {
+      "screenSizeInches": 34,
+      "resolution": "2560x1080 (WFHD)",
+      "aspectRatio": "21:9",
+      "panelType": "IPS (Curved)",
+      "refreshRateHz": 166,
+      "responseTimeMs": 1,
+      "syncTechnology": "NVIDIA G-Sync Hardware Modül",
+      "ports": [
+        "1x HDMI 1.4",
+        "1x DisplayPort 1.2",
+        "USB 3.0 Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-34uc89g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 17999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "G-Sync UltraWide"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 490,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 17999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-27md5kl-b",
+    "slug": "lg-27md5kl-b",
+    "name": "LG UltraFine 5K 27MD5KL-B 27 inç 5K UHD (5120x2880) IPS Thunderbolt 3 Mac Uyumlu Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.98,
+    "epeyScore": 98,
+    "reviewCount": 740,
+    "basePrice": 47999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://resim.epey.com/190999/m_lg-27md5kl-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/190999/m_lg-27md5kl-b-1.jpg"
+    ],
+    "highlights": [
+      "27 inç 5K (5120x2880) 218 PPI Zirve Çözünürlük & DCI-P3 %99",
+      "Thunderbolt 3 (94W Şarj) ile MacBook / Mac Studio Tam Entegrasyon",
+      "Dahili Full HD Kamera, Mikrofon ve Stereo Hoparlör",
+      "Apple macOS Menü Çubuğundan Doğrudan Parlaklık ve Ses Kontrolü"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "5120x2880 (5K UHD)",
+      "panelType": "IPS (500 nits Parlaklık)",
+      "refreshRateHz": 60,
+      "responseTimeMs": 14,
+      "colorGamut": "DCI-P3 %99",
+      "thunderbolt3PowerWatts": 94,
+      "builtInCamera": "Dahili Full HD Kamera ve Mikrofon",
+      "audioSpeakers": "Dahili Zengin Stereo Hoparlör",
+      "ports": [
+        "1x Thunderbolt 3 (94W PD)",
+        "3x USB-C (5Gbps Downstream)"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-5k",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 47999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "👑 Apple Mac Resmi Uyumlu 5K"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1890,
+        "url": "#"
+      },
+      {
+        "id": "ty-lg-5k",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 48499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 920,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 51999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 47999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultrawide-34wn650-w",
+    "slug": "lg-ultrawide-34wn650-w",
+    "name": "LG UltraWide 34WN650-W 34 inç WFHD IPS VESA DisplayHDR 400 Hoparlörlü Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.85,
+    "epeyScore": 89,
+    "reviewCount": 390,
+    "basePrice": 17499,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/698738/m_lg-34wn650w-1.jpg",
+    "images": [
+      "https://resim.epey.com/698738/m_lg-34wn650w-1.jpg"
+    ],
+    "highlights": [
+      "34 inç 21:9 UltraWide Full HD (2560x1080) Düz IPS Panel",
+      "VESA DisplayHDR 400 & sRGB %99",
+      "Dahili 2x7W MaxxAudio Stereo Hoparlör",
+      "AMD FreeSync & Yükseklik Ayarlı Ergonomik Ayak"
+    ],
+    "specs": {
+      "screenSizeInches": 34,
+      "resolution": "2560x1080 (WFHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 75,
+      "responseTimeMs": 5,
+      "hdrSupport": "VESA DisplayHDR 400",
+      "audioSpeakers": "2x7W MaxxAudio",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Kulaklık"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-34wn650",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 17499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "HDR400 Hoparlörlü"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 610,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 17499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultrawide-34wn700-b",
+    "slug": "lg-ultrawide-34wn700-b",
+    "name": "LG UltraWide 34WN700-B 34 inç WQHD IPS HDR10 Düz Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.88,
+    "epeyScore": 91,
+    "reviewCount": 420,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/618471/m_lg-34wn700-b-6.jpg",
+    "images": [
+      "https://resim.epey.com/618471/m_lg-34wn700-b-6.jpg"
+    ],
+    "highlights": [
+      "34 inç 21:9 UltraWide QHD (3440x1440) Düz IPS Ekran",
+      "HDR10 & sRGB %99 Renk Kapsamı",
+      "Picture-by-Picture & OnScreen Control",
+      "Çift HDMI 2.0 & DisplayPort 1.4 Girişi"
+    ],
+    "specs": {
+      "screenSizeInches": 34,
+      "resolution": "3440x1440 (WQHD)",
+      "panelType": "IPS Düz (Flat)",
+      "refreshRateHz": 75,
+      "responseTimeMs": 5,
+      "hdrSupport": "HDR10",
+      "colorGamut": "sRGB %99",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Kulaklık"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-34wn700",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Düz WQHD IPS"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 870,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultrawide-29wq600-w",
+    "slug": "lg-ultrawide-29wq600-w",
+    "name": "LG UltraWide 29WQ600-W 29 inç 100Hz 1ms WFHD IPS HDR10 USB-C Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.89,
+    "epeyScore": 90,
+    "reviewCount": 520,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/856775/m_lg-ultrawide-29wq600-w-1.jpg",
+    "images": [
+      "https://resim.epey.com/856775/m_lg-ultrawide-29wq600-w-1.jpg"
+    ],
+    "highlights": [
+      "29 inç 21:9 UltraWide Full HD (2560x1080) IPS Panel",
+      "100Hz Akıcı Yenileme Hızı & 1ms MBR",
+      "USB Type-C & Dahili 2x7W MaxxAudio Hoparlörler",
+      "HDR10 & sRGB %99 & AMD FreeSync"
+    ],
+    "specs": {
+      "screenSizeInches": 29,
+      "resolution": "2560x1080 (WFHD)",
+      "aspectRatio": "21:9",
+      "panelType": "IPS",
+      "refreshRateHz": 100,
+      "responseTimeMs": 1,
+      "hdrSupport": "HDR10",
+      "audioSpeakers": "2x7W MaxxAudio",
+      "ports": [
+        "1x USB-C",
+        "1x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Kulaklık"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-29wq600",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "100Hz USB-C UltraWide"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 18999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-27gn800-b",
+    "slug": "lg-ultragear-27gn800-b",
+    "name": "LG UltraGear 27GN800-B 27 inç 144Hz 1ms QHD IPS HDR10 Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.92,
+    "epeyScore": 93,
+    "reviewCount": 780,
+    "basePrice": 15499,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/644748/m_lg-ultragear-27gn800-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/644748/m_lg-ultragear-27gn800-b-1.jpg"
+    ],
+    "highlights": [
+      "27 inç QHD (2560x1440) Ultra Net IPS Ekran",
+      "144Hz Yenileme Hızı & 1ms GtG Hız",
+      "HDR10 & sRGB %99 Renk Kapsamı",
+      "NVIDIA G-Sync Compatible & AMD FreeSync Premium"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "2560x1440 (QHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 144,
+      "responseTimeMs": 1,
+      "syncTechnology": "NVIDIA G-Sync / FreeSync Premium",
+      "hdrSupport": "HDR10",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Kulaklık"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-27gn800",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 15499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çok Satan QHD 144Hz"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1650,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 15499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-27gn65r-b",
+    "slug": "lg-ultragear-27gn65r-b",
+    "name": "LG UltraGear 27GN65R-B 27 inç 144Hz 1ms IPS FHD HDR10 Pivot Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.88,
+    "epeyScore": 90,
+    "reviewCount": 610,
+    "basePrice": 14419,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/862534/m_lg-ultragear-27gn650-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/862534/m_lg-ultragear-27gn650-b-1.jpg"
+    ],
+    "highlights": [
+      "27 inç Full HD IPS 1ms GtG Panel",
+      "144Hz & HDR10 & sRGB %99",
+      "NVIDIA G-Sync Compatible & FreeSync Premium",
+      "Tam Ergonomik Pivot ve Yükseklik Ayarlı Stand"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 144,
+      "responseTimeMs": 1,
+      "stand": "Yükseklik & Pivot & Eğim",
+      "ports": [
+        "1x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Kulaklık"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-27gn65r",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 14419,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Pivot Ergonomik"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1100,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 14419,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-32qn650-b",
+    "slug": "lg-32qn650-b",
+    "name": "LG 32QN650-B 31.5 inç QHD IPS HDR10 FreeSync Pivot Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.89,
+    "epeyScore": 90,
+    "reviewCount": 370,
+    "basePrice": 13999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/620614/m_lg-32qn650-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/620614/m_lg-32qn650-b-1.jpg"
+    ],
+    "highlights": [
+      "31.5 inç QHD (2560x1440) Canlı IPS Ekran",
+      "HDR10 & sRGB %99 Profesyonel Renk Doğruluğu",
+      "AMD FreeSync & Reader Mode & Flicker Safe",
+      "Yükseklik ve Eğim Ayarlı Ergonomik Ayak"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "2560x1440 (QHD)",
+      "panelType": "IPS Düz",
+      "refreshRateHz": 75,
+      "responseTimeMs": 5,
+      "hdrSupport": "HDR10",
+      "ports": [
+        "2x HDMI",
+        "1x DP",
+        "Kulaklık"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-32qn650",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 13999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Büyük Ekran QHD IPS"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 690,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 13999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-27ud58-b",
+    "slug": "lg-27ud58-b",
+    "name": "LG 27UD58-B 27 inç 4K UHD IPS AMD FreeSync Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.79,
+    "epeyScore": 87,
+    "reviewCount": 450,
+    "basePrice": 12999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/93627/m_lg-27ud58-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/93627/m_lg-27ud58-b-1.jpg"
+    ],
+    "highlights": [
+      "27 inç 4K UHD (3840x2160) IPS Panel",
+      "AMD FreeSync & 4K 60Hz Akıcılık",
+      "Screen Split 2.0 Çoklu Ekran Yazılımı",
+      "Siyah Dengeleyici & DAS Modu"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.2",
+        "Kulaklık"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-27ud58",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 12999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ekonomik 4K"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 780,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 12999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-27gl63t-b",
+    "slug": "lg-ultragear-27gl63t-b",
+    "name": "LG UltraGear 27GL63T-B 27 inç 144Hz 1ms FHD IPS G-Sync Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 390,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/598517/m_lg-ultragear-27gl63t-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/598517/m_lg-ultragear-27gl63t-b-1.jpg"
+    ],
+    "highlights": [
+      "27 inç Full HD IPS Panel",
+      "144Hz & 1ms MBR Tepki",
+      "NVIDIA G-Sync Compatible",
+      "HDR10 & Dynamic Action Sync"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 144,
+      "responseTimeMs": 1,
+      "ports": [
+        "1x HDMI",
+        "1x DisplayPort",
+        "Kulaklık"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "ty-lg-27gl63t",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "144Hz IPS"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 540,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 11999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-27gl650f-b",
+    "slug": "lg-ultragear-27gl650f-b",
+    "name": "LG UltraGear 27GL650F-B 27 inç 144Hz 1ms IPS FHD HDR10 Pivot Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.83,
+    "epeyScore": 89,
+    "reviewCount": 520,
+    "basePrice": 12499,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/427498/m_lg-ultragear-27gl650f-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/427498/m_lg-ultragear-27gl650f-b-1.jpg"
+    ],
+    "highlights": [
+      "27 inç Full HD IPS Panel",
+      "144Hz & 1ms MBR & HDR10",
+      "Radeon FreeSync & G-Sync Compatible",
+      "Pivot ve Yükseklik Ayarlı Stand"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 144,
+      "responseTimeMs": 1,
+      "stand": "Pivot & Yükseklik",
+      "ports": [
+        "2x HDMI",
+        "1x DP"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-27gl650f",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 12499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "G-Sync Compatible"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 810,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 12499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-34wk650-w",
+    "slug": "lg-34wk650-w",
+    "name": "LG 34WK650-W 34 inç WFHD IPS HDR10 UltraWide Hoparlörlü Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.81,
+    "epeyScore": 88,
+    "reviewCount": 310,
+    "basePrice": 16499,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/112686/m_lg-34wk650-w-1.jpg",
+    "images": [
+      "https://resim.epey.com/112686/m_lg-34wk650-w-1.jpg"
+    ],
+    "highlights": [
+      "34 inç 21:9 WFHD (2560x1080) Düz IPS Panel",
+      "HDR10 & sRGB %99 Renk Kapsamı",
+      "Dahili 2x5W MaxxAudio Hoparlörler",
+      "AMD FreeSync & Yükseklik Ayarlı Ayak"
+    ],
+    "specs": {
+      "screenSizeInches": 34,
+      "resolution": "2560x1080 (WFHD)",
+      "panelType": "IPS Düz",
+      "refreshRateHz": 75,
+      "responseTimeMs": 5,
+      "hdrSupport": "HDR10",
+      "audioSpeakers": "2x5W MaxxAudio",
+      "ports": [
+        "2x HDMI",
+        "1x DisplayPort"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-34wk650",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 16499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "UltraWide Klasik"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 430,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 16499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultrawide-34wr50qc-b",
+    "slug": "lg-ultrawide-34wr50qc-b",
+    "name": "LG UltraWide 34WR50QC-B 34 inç 100Hz WQHD 1800R Curved Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.87,
+    "epeyScore": 91,
+    "reviewCount": 290,
+    "basePrice": 17999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/906128/m_lg-ultrawide-34wr50qc-b-2.jpg",
+    "images": [
+      "https://resim.epey.com/906128/m_lg-ultrawide-34wr50qc-b-2.jpg"
+    ],
+    "highlights": [
+      "34 inç 21:9 WQHD (3440x1440) 1800R Kavisli Panel",
+      "100Hz Yenileme & HDR10 & sRGB %99",
+      "Dual Controller & OnScreen Control",
+      "AMD FreeSync & Titreşimsiz Göz Koruma"
+    ],
+    "specs": {
+      "screenSizeInches": 34,
+      "resolution": "3440x1440 (WQHD)",
+      "panelType": "VA (1800R Curved)",
+      "refreshRateHz": 100,
+      "responseTimeMs": 5,
+      "hdrSupport": "HDR10",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Kulaklık"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-34wr50qc",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 17999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Yeni 2024 Kavisli WQHD"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 620,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 17999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-32gn600-b",
+    "slug": "lg-ultragear-32gn600-b",
+    "name": "LG UltraGear 32GN600-B 31.5 inç 165Hz 1ms QHD VA HDR10 Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.88,
+    "epeyScore": 91,
+    "reviewCount": 710,
+    "basePrice": 13999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/642548/m_lg-ultragear-32gn600-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/642548/m_lg-ultragear-32gn600-b-1.jpg"
+    ],
+    "highlights": [
+      "31.5 inç QHD (2560x1440) Yüksek Çözünürlüklü VA Panel",
+      "165Hz Hızlı Tazeleme & 1ms MBR",
+      "HDR10 & sRGB %95 & AMD FreeSync Premium",
+      "Dinamik Aksiyon Senkronizasyonu & Siyah Dengeleyici"
+    ],
+    "specs": {
+      "screenSizeInches": 31.5,
+      "resolution": "2560x1440 (QHD)",
+      "panelType": "VA Düz",
+      "refreshRateHz": 165,
+      "responseTimeMs": 1,
+      "syncTechnology": "AMD FreeSync Premium",
+      "hdrSupport": "HDR10",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Kulaklık"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-32gn600",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 13999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "🔥 F/P QHD 165Hz Oyuncu"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1780,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 13999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-27gn650-b",
+    "slug": "lg-ultragear-27gn650-b",
+    "name": "LG Ultragear 27GN650-B 27 inç 144Hz 1ms FHD IPS HDR10 G-Sync Pivot Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.87,
+    "epeyScore": 90,
+    "reviewCount": 540,
+    "basePrice": 13499,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/691756/m_lg-ultragear-27gn650-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/691756/m_lg-ultragear-27gn650-b-1.jpg"
+    ],
+    "highlights": [
+      "27 inç Full HD IPS 1ms (GtG) Panel",
+      "144Hz & HDR10 & sRGB %99",
+      "NVIDIA G-Sync Compatible & AMD FreeSync Premium",
+      "Yükseklik, Eğim ve Pivot Ayarlı Stand"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 144,
+      "responseTimeMs": 1,
+      "stand": "Yükseklik & Pivot",
+      "ports": [
+        "2x HDMI",
+        "1x DP"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-27gn650",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 13499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Pivot IPS 144Hz"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 760,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 13499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-29ub67-b",
+    "slug": "lg-29ub67-b",
+    "name": "LG 29UB67-B 29 inç UltraWide FHD IPS Çift Yönlü Pivot Hoparlörlü Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.82,
+    "epeyScore": 88,
+    "reviewCount": 220,
+    "basePrice": 14999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/565602/m_lg-29ub67-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/565602/m_lg-29ub67-b-1.jpg"
+    ],
+    "highlights": [
+      "29 inç 21:9 UltraWide Full HD IPS Panel",
+      "Çift Yönlü Tam Ergonomik Pivot Stand",
+      "4-Screen Split Çoklu Pencere Desteği",
+      "Dahili 2x7W Stereo Hoparlörler"
+    ],
+    "specs": {
+      "screenSizeInches": 29,
+      "resolution": "2560x1080 (WFHD)",
+      "aspectRatio": "21:9",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "audioSpeakers": "2x7W Stereo",
+      "ports": [
+        "2x HDMI",
+        "1x DP",
+        "1x DVI-D",
+        "USB Hub"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-29ub67",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kurumsal Pivot UltraWide"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 310,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 14999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultrawide-29wp60g-b",
+    "slug": "lg-ultrawide-29wp60g-b",
+    "name": "LG UltraWide 29WP60G-B 29 inç 75Hz 1ms WFHD IPS USB-C Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.86,
+    "epeyScore": 89,
+    "reviewCount": 470,
+    "basePrice": 11999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/685823/m_lg-29wp60g-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/685823/m_lg-29wp60g-b-1.jpg"
+    ],
+    "highlights": [
+      "29 inç 21:9 UltraWide IPS Ekran",
+      "USB Type-C Bağlantı Noktası",
+      "1ms MBR & 75Hz & AMD FreeSync",
+      "HDR10 & sRGB %99 Renk Kapsamı"
+    ],
+    "specs": {
+      "screenSizeInches": 29,
+      "resolution": "2560x1080 (WFHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 75,
+      "responseTimeMs": 1,
+      "hdrSupport": "HDR10",
+      "ports": [
+        "1x USB-C",
+        "1x HDMI 2.0",
+        "1x DP 1.4",
+        "Kulaklık"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-29wp60g",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 11999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "USB-C UltraWide"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 980,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 11999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-ultragear-24gn650-b",
+    "slug": "lg-ultragear-24gn650-b",
+    "name": "LG UltraGear 24GN650-B 23.8 inç 144Hz 1ms IPS FHD HDR10 Pivot Gaming Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.9,
+    "epeyScore": 91,
+    "reviewCount": 920,
+    "basePrice": 9499,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://resim.epey.com/642620/m_lg-ultragear-24gn650-b-1.jpg",
+    "images": [
+      "https://resim.epey.com/642620/m_lg-ultragear-24gn650-b-1.jpg"
+    ],
+    "highlights": [
+      "23.8 inç Full HD IPS 1ms (GtG) E-Spor Ekranı",
+      "144Hz & HDR10 & sRGB %99",
+      "AMD FreeSync Premium & Dynamic Action Sync",
+      "Yükseklik, Eğim ve Pivot Ayarlı Ergonomik Ayak"
+    ],
+    "specs": {
+      "screenSizeInches": 23.8,
+      "resolution": "1920x1080 (FHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 144,
+      "responseTimeMs": 1,
+      "syncTechnology": "AMD FreeSync Premium",
+      "hdrSupport": "HDR10",
+      "stand": "Yükseklik & Pivot & Eğim",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.4",
+        "Kulaklık"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-24gn650",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 9499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "🔥 24 inç Pivot IPS Şampiyonu"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2100,
+        "url": "#"
+      },
+      {
+        "id": "amz-lg-24gn650",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-yellow-500",
+        "price": 9599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1400,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 9999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 9499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "lg-24ud58-b",
+    "slug": "lg-24ud58-b",
+    "name": "LG 24UD58-B 23.8 inç 4K UHD (3840x2160) IPS 187 PPI AMD FreeSync Monitör",
+    "brand": "LG",
+    "category": "monitors",
+    "rating": 4.83,
+    "epeyScore": 88,
+    "reviewCount": 310,
+    "basePrice": 11499,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://resim.epey.com/713784/m_lg-24ud58-1.jpg",
+    "images": [
+      "https://resim.epey.com/713784/m_lg-24ud58-1.jpg"
+    ],
+    "highlights": [
+      "23.8 inç 4K UHD (3840x2160) Ultra Yüksek Piksel Yoğunluğu (187 PPI)",
+      "Canlı IPS Panel & AMD FreeSync 4K 60Hz",
+      "Screen Split Çoklu Ekran Yönetimi",
+      "Fotoğraf & Tasarım İçin Ultra Keskin Piksel Netliği"
+    ],
+    "specs": {
+      "screenSizeInches": 23.8,
+      "resolution": "3840x2160 (4K UHD)",
+      "panelType": "IPS",
+      "refreshRateHz": 60,
+      "responseTimeMs": 5,
+      "pixelDensity": "187 PPI",
+      "ports": [
+        "2x HDMI 2.0",
+        "1x DisplayPort 1.2",
+        "Kulaklık"
+      ]
+    },
+    "storeOffers": [
+      {
+        "id": "hb-lg-24ud58",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 11499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "24 inç 4K Ultra Net"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 480,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 11499,
+        "store": "Hepsiburada"
+      }
+    ]
   }
 ];
