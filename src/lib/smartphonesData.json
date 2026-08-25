@@ -1,5 +1,3463 @@
 [
   {
+    "id": "apple-apple-iphone-17-pro-max-2-tb-1027080",
+    "slug": "apple-iphone-17-pro-max-2-tb",
+    "name": "Apple iPhone 17 Pro Max (2 TB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/1027080/k_apple-iphone-17-pro-max-2tb-2.png",
+    "images": [
+      "https://resim.epey.com/1027080/k_apple-iphone-17-pro-max-2tb-2.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 2130,
+    "basePrice": 159140.8,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "6.9\" Super Retina XDR OLED Ekran (120Hz ProMotion)",
+      "Apple A19 Pro (2 nm) Yonga Seti (TSMC 2nm)",
+      "48 MP Kamera Sistemi (4K Dolby Vision HDR @ 120 fps / ProRes Log)",
+      "4832 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Titanyum / Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A19 Pro (2 nm) ile sektörün en yüksek tek çekirdek ve yapay zeka performansı",
+      "4K Dolby Vision HDR @ 120 fps / ProRes Log ile sinematik stüdyo kalitesinde video kaydı",
+      "ProMotion 120Hz ekran ve titanyum kasa ergonomisi",
+      "4832 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "iOS 26 ekosistemi ve Apple Intelligence yapay zeka araçları"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat aralığı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Çöl Titanyum",
+        "hex": "#BEA892"
+      },
+      {
+        "name": "Natürel Titanyum",
+        "hex": "#9E9992"
+      },
+      {
+        "name": "Beyaz Titanyum",
+        "hex": "#F2F1ED"
+      },
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#3C3B3A"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 159141,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-2tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 161050,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-2tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 162005,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-2tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 162642,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-2tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 163119,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-2tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 164711,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-2tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 165506,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-2tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 166302,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-2tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 171872
+      },
+      {
+        "date": "Eki 2025",
+        "price": 167098
+      },
+      {
+        "date": "Kas 2025",
+        "price": 162324
+      },
+      {
+        "date": "Ara 2025",
+        "price": 165506
+      },
+      {
+        "date": "Oca 2026",
+        "price": 160732
+      },
+      {
+        "date": "Şub 2026",
+        "price": 159141
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.9\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2868 x 1320 piksel",
+        "refreshRate": 120,
+        "ppi": 460,
+        "brightnessNits": 2500
+      },
+      "processor": {
+        "chip": "Apple A19 Pro (2 nm)",
+        "cores": "6 Çekirdek (2x Performans + 4x Verimlilik)",
+        "process": "TSMC 2nm",
+        "antutuScore": 2420000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 2048,
+        "storageOptions": [
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP, f/1.78, OIS, Sensor-shift",
+        "ultrawideMp": "48 MP, f/2.2, 120˚ Macro",
+        "telephotoMp": "48 MP Periskop Telefoto (5x Optik Zoom, OIS)",
+        "selfieMp": "24 MP TrueDepth, f/1.9, OIS, 4K 60fps",
+        "videoRes": "4K Dolby Vision HDR @ 120 fps / ProRes Log",
+        "dxomarkScore": 162
+      },
+      "battery": {
+        "capacitymAh": 4832,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 227,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 (6 metre derinliğe kadar 30 dk)",
+        "frameMaterial": "Titanyum (Grade 5)"
+      },
+      "software": {
+        "osName": "iOS 26 / iOS 18",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-17-pro-max-1-tb-1027079",
+    "slug": "apple-iphone-17-pro-max-1-tb",
+    "name": "Apple iPhone 17 Pro Max (1 TB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/1027079/k_apple-iphone-17-pro-max-1tb-2.png",
+    "images": [
+      "https://resim.epey.com/1027079/k_apple-iphone-17-pro-max-1tb-2.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 93,
+    "reviewCount": 2010,
+    "basePrice": 141399,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "6.9\" Super Retina XDR OLED Ekran (120Hz ProMotion)",
+      "Apple A19 Pro (2 nm) Yonga Seti (TSMC 2nm)",
+      "48 MP Kamera Sistemi (4K Dolby Vision HDR @ 120 fps / ProRes Log)",
+      "4832 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Titanyum / Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A19 Pro (2 nm) ile sektörün en yüksek tek çekirdek ve yapay zeka performansı",
+      "4K Dolby Vision HDR @ 120 fps / ProRes Log ile sinematik stüdyo kalitesinde video kaydı",
+      "ProMotion 120Hz ekran ve titanyum kasa ergonomisi",
+      "4832 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "iOS 26 ekosistemi ve Apple Intelligence yapay zeka araçları"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat aralığı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Çöl Titanyum",
+        "hex": "#BEA892"
+      },
+      {
+        "name": "Natürel Titanyum",
+        "hex": "#9E9992"
+      },
+      {
+        "name": "Beyaz Titanyum",
+        "hex": "#F2F1ED"
+      },
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#3C3B3A"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 141399,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 143096,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 143944,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 144510,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 144934,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 146348,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 147055,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 147762,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 152711
+      },
+      {
+        "date": "Eki 2025",
+        "price": 148469
+      },
+      {
+        "date": "Kas 2025",
+        "price": 144227
+      },
+      {
+        "date": "Ara 2025",
+        "price": 147055
+      },
+      {
+        "date": "Oca 2026",
+        "price": 142813
+      },
+      {
+        "date": "Şub 2026",
+        "price": 141399
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.9\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2868 x 1320 piksel",
+        "refreshRate": 120,
+        "ppi": 460,
+        "brightnessNits": 2500
+      },
+      "processor": {
+        "chip": "Apple A19 Pro (2 nm)",
+        "cores": "6 Çekirdek (2x Performans + 4x Verimlilik)",
+        "process": "TSMC 2nm",
+        "antutuScore": 2420000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 1024,
+        "storageOptions": [
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP, f/1.78, OIS, Sensor-shift",
+        "ultrawideMp": "48 MP, f/2.2, 120˚ Macro",
+        "telephotoMp": "48 MP Periskop Telefoto (5x Optik Zoom, OIS)",
+        "selfieMp": "24 MP TrueDepth, f/1.9, OIS, 4K 60fps",
+        "videoRes": "4K Dolby Vision HDR @ 120 fps / ProRes Log",
+        "dxomarkScore": 162
+      },
+      "battery": {
+        "capacitymAh": 4832,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 227,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 (6 metre derinliğe kadar 30 dk)",
+        "frameMaterial": "Titanyum (Grade 5)"
+      },
+      "software": {
+        "osName": "iOS 26 / iOS 18",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-17-pro-max-512-gb-1027078",
+    "slug": "apple-iphone-17-pro-max-512-gb",
+    "name": "Apple iPhone 17 Pro Max (512 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/1027078/k_apple-iphone-17-pro-max-512gb-2.png",
+    "images": [
+      "https://resim.epey.com/1027078/k_apple-iphone-17-pro-max-512gb-2.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 92,
+    "reviewCount": 1890,
+    "basePrice": 120999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "6.9\" Super Retina XDR OLED Ekran (120Hz ProMotion)",
+      "Apple A19 Pro (2 nm) Yonga Seti (TSMC 2nm)",
+      "48 MP Kamera Sistemi (4K Dolby Vision HDR @ 120 fps / ProRes Log)",
+      "4832 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Titanyum / Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A19 Pro (2 nm) ile sektörün en yüksek tek çekirdek ve yapay zeka performansı",
+      "4K Dolby Vision HDR @ 120 fps / ProRes Log ile sinematik stüdyo kalitesinde video kaydı",
+      "ProMotion 120Hz ekran ve titanyum kasa ergonomisi",
+      "4832 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "iOS 26 ekosistemi ve Apple Intelligence yapay zeka araçları"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat aralığı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Çöl Titanyum",
+        "hex": "#BEA892"
+      },
+      {
+        "name": "Natürel Titanyum",
+        "hex": "#9E9992"
+      },
+      {
+        "name": "Beyaz Titanyum",
+        "hex": "#F2F1ED"
+      },
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#3C3B3A"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 120999,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 122451,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 123177,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 123661,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 124024,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 125234,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 125839,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 126444,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 130679
+      },
+      {
+        "date": "Eki 2025",
+        "price": 127049
+      },
+      {
+        "date": "Kas 2025",
+        "price": 123419
+      },
+      {
+        "date": "Ara 2025",
+        "price": 125839
+      },
+      {
+        "date": "Oca 2026",
+        "price": 122209
+      },
+      {
+        "date": "Şub 2026",
+        "price": 120999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.9\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2868 x 1320 piksel",
+        "refreshRate": 120,
+        "ppi": 460,
+        "brightnessNits": 2500
+      },
+      "processor": {
+        "chip": "Apple A19 Pro (2 nm)",
+        "cores": "6 Çekirdek (2x Performans + 4x Verimlilik)",
+        "process": "TSMC 2nm",
+        "antutuScore": 2420000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP, f/1.78, OIS, Sensor-shift",
+        "ultrawideMp": "48 MP, f/2.2, 120˚ Macro",
+        "telephotoMp": "48 MP Periskop Telefoto (5x Optik Zoom, OIS)",
+        "selfieMp": "24 MP TrueDepth, f/1.9, OIS, 4K 60fps",
+        "videoRes": "4K Dolby Vision HDR @ 120 fps / ProRes Log",
+        "dxomarkScore": 162
+      },
+      "battery": {
+        "capacitymAh": 4832,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 227,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 (6 metre derinliğe kadar 30 dk)",
+        "frameMaterial": "Titanyum (Grade 5)"
+      },
+      "software": {
+        "osName": "iOS 26 / iOS 18",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-17-pro-1-tb-1027083",
+    "slug": "apple-iphone-17-pro-1-tb",
+    "name": "Apple iPhone 17 Pro (1 TB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/1027083/k_apple-iphone-17-pro-1tb-2.png",
+    "images": [
+      "https://resim.epey.com/1027083/k_apple-iphone-17-pro-1tb-2.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 92,
+    "reviewCount": 1770,
+    "basePrice": 126261.53,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6.3\" Super Retina XDR OLED Ekran (120Hz ProMotion)",
+      "Apple A19 Pro (2 nm) Yonga Seti (TSMC 2nm)",
+      "48 MP Kamera Sistemi (4K Dolby Vision HDR @ 120 fps / ProRes Log)",
+      "3988 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Titanyum / Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A19 Pro (2 nm) ile sektörün en yüksek tek çekirdek ve yapay zeka performansı",
+      "4K Dolby Vision HDR @ 120 fps / ProRes Log ile sinematik stüdyo kalitesinde video kaydı",
+      "ProMotion 120Hz ekran ve titanyum kasa ergonomisi",
+      "3988 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "iOS 26 ekosistemi ve Apple Intelligence yapay zeka araçları"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat aralığı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Çöl Titanyum",
+        "hex": "#BEA892"
+      },
+      {
+        "name": "Natürel Titanyum",
+        "hex": "#9E9992"
+      },
+      {
+        "name": "Beyaz Titanyum",
+        "hex": "#F2F1ED"
+      },
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#3C3B3A"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 126262,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 127777,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 128534,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 129039,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 129418,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 130681,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 131312,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 131943,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 136362
+      },
+      {
+        "date": "Eki 2025",
+        "price": 132575
+      },
+      {
+        "date": "Kas 2025",
+        "price": 128787
+      },
+      {
+        "date": "Ara 2025",
+        "price": 131312
+      },
+      {
+        "date": "Oca 2026",
+        "price": 127524
+      },
+      {
+        "date": "Şub 2026",
+        "price": 126262
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.3\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2622 x 1206 piksel",
+        "refreshRate": 120,
+        "ppi": 460,
+        "brightnessNits": 2500
+      },
+      "processor": {
+        "chip": "Apple A19 Pro (2 nm)",
+        "cores": "6 Çekirdek (2x Performans + 4x Verimlilik)",
+        "process": "TSMC 2nm",
+        "antutuScore": 2420000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 1024,
+        "storageOptions": [
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP, f/1.78, OIS, Sensor-shift",
+        "ultrawideMp": "48 MP, f/2.2, 120˚ Macro",
+        "telephotoMp": "48 MP Periskop Telefoto (5x Optik Zoom, OIS)",
+        "selfieMp": "24 MP TrueDepth, f/1.9, OIS, 4K 60fps",
+        "videoRes": "4K Dolby Vision HDR @ 120 fps / ProRes Log",
+        "dxomarkScore": 162
+      },
+      "battery": {
+        "capacitymAh": 3988,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 199,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 (6 metre derinliğe kadar 30 dk)",
+        "frameMaterial": "Titanyum (Grade 5)"
+      },
+      "software": {
+        "osName": "iOS 26 / iOS 18",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-17-pro-max-256-gb-1023353",
+    "slug": "apple-iphone-17-pro-max-256-gb",
+    "name": "Apple iPhone 17 Pro Max (256 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/1023353/k_apple-iphone-17-pro-max-2.png",
+    "images": [
+      "https://resim.epey.com/1023353/k_apple-iphone-17-pro-max-2.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 91,
+    "reviewCount": 1650,
+    "basePrice": 111999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6.9\" Super Retina XDR OLED Ekran (120Hz ProMotion)",
+      "Apple A19 Pro (2 nm) Yonga Seti (TSMC 2nm)",
+      "48 MP Kamera Sistemi (4K Dolby Vision HDR @ 120 fps / ProRes Log)",
+      "4832 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Titanyum / Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A19 Pro (2 nm) ile sektörün en yüksek tek çekirdek ve yapay zeka performansı",
+      "4K Dolby Vision HDR @ 120 fps / ProRes Log ile sinematik stüdyo kalitesinde video kaydı",
+      "ProMotion 120Hz ekran ve titanyum kasa ergonomisi",
+      "4832 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "iOS 26 ekosistemi ve Apple Intelligence yapay zeka araçları"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat aralığı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Çöl Titanyum",
+        "hex": "#BEA892"
+      },
+      {
+        "name": "Natürel Titanyum",
+        "hex": "#9E9992"
+      },
+      {
+        "name": "Beyaz Titanyum",
+        "hex": "#F2F1ED"
+      },
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#3C3B3A"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 111999,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 113343,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 114015,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 114463,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 114799,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 115919,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 116479,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 117039,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 120959
+      },
+      {
+        "date": "Eki 2025",
+        "price": 117599
+      },
+      {
+        "date": "Kas 2025",
+        "price": 114239
+      },
+      {
+        "date": "Ara 2025",
+        "price": 116479
+      },
+      {
+        "date": "Oca 2026",
+        "price": 113119
+      },
+      {
+        "date": "Şub 2026",
+        "price": 111999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.9\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2868 x 1320 piksel",
+        "refreshRate": 120,
+        "ppi": 460,
+        "brightnessNits": 2500
+      },
+      "processor": {
+        "chip": "Apple A19 Pro (2 nm)",
+        "cores": "6 Çekirdek (2x Performans + 4x Verimlilik)",
+        "process": "TSMC 2nm",
+        "antutuScore": 2420000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP, f/1.78, OIS, Sensor-shift",
+        "ultrawideMp": "48 MP, f/2.2, 120˚ Macro",
+        "telephotoMp": "48 MP Periskop Telefoto (5x Optik Zoom, OIS)",
+        "selfieMp": "24 MP TrueDepth, f/1.9, OIS, 4K 60fps",
+        "videoRes": "4K Dolby Vision HDR @ 120 fps / ProRes Log",
+        "dxomarkScore": 162
+      },
+      "battery": {
+        "capacitymAh": 4832,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 227,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 (6 metre derinliğe kadar 30 dk)",
+        "frameMaterial": "Titanyum (Grade 5)"
+      },
+      "software": {
+        "osName": "iOS 26 / iOS 18",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-17-pro-512-gb-1027082",
+    "slug": "apple-iphone-17-pro-512-gb",
+    "name": "Apple iPhone 17 Pro (512 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/1027082/k_apple-iphone-17-pro-512gb-2.png",
+    "images": [
+      "https://resim.epey.com/1027082/k_apple-iphone-17-pro-512gb-2.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 90,
+    "reviewCount": 1530,
+    "basePrice": 109999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6.3\" Super Retina XDR OLED Ekran (120Hz ProMotion)",
+      "Apple A19 Pro (2 nm) Yonga Seti (TSMC 2nm)",
+      "48 MP Kamera Sistemi (4K Dolby Vision HDR @ 120 fps / ProRes Log)",
+      "3988 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Titanyum / Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A19 Pro (2 nm) ile sektörün en yüksek tek çekirdek ve yapay zeka performansı",
+      "4K Dolby Vision HDR @ 120 fps / ProRes Log ile sinematik stüdyo kalitesinde video kaydı",
+      "ProMotion 120Hz ekran ve titanyum kasa ergonomisi",
+      "3988 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "iOS 26 ekosistemi ve Apple Intelligence yapay zeka araçları"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat aralığı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Çöl Titanyum",
+        "hex": "#BEA892"
+      },
+      {
+        "name": "Natürel Titanyum",
+        "hex": "#9E9992"
+      },
+      {
+        "name": "Beyaz Titanyum",
+        "hex": "#F2F1ED"
+      },
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#3C3B3A"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 109999,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 111319,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 111979,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 112419,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 112749,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 113849,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 114399,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 114949,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 118799
+      },
+      {
+        "date": "Eki 2025",
+        "price": 115499
+      },
+      {
+        "date": "Kas 2025",
+        "price": 112199
+      },
+      {
+        "date": "Ara 2025",
+        "price": 114399
+      },
+      {
+        "date": "Oca 2026",
+        "price": 111099
+      },
+      {
+        "date": "Şub 2026",
+        "price": 109999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.3\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2622 x 1206 piksel",
+        "refreshRate": 120,
+        "ppi": 460,
+        "brightnessNits": 2500
+      },
+      "processor": {
+        "chip": "Apple A19 Pro (2 nm)",
+        "cores": "6 Çekirdek (2x Performans + 4x Verimlilik)",
+        "process": "TSMC 2nm",
+        "antutuScore": 2420000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP, f/1.78, OIS, Sensor-shift",
+        "ultrawideMp": "48 MP, f/2.2, 120˚ Macro",
+        "telephotoMp": "48 MP Periskop Telefoto (5x Optik Zoom, OIS)",
+        "selfieMp": "24 MP TrueDepth, f/1.9, OIS, 4K 60fps",
+        "videoRes": "4K Dolby Vision HDR @ 120 fps / ProRes Log",
+        "dxomarkScore": 162
+      },
+      "battery": {
+        "capacitymAh": 3988,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 199,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 (6 metre derinliğe kadar 30 dk)",
+        "frameMaterial": "Titanyum (Grade 5)"
+      },
+      "software": {
+        "osName": "iOS 26 / iOS 18",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-16-pro-max-1-tb-960862",
+    "slug": "apple-iphone-16-pro-max-1-tb",
+    "name": "Apple iPhone 16 Pro Max (1 TB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/960862/k_apple-iphone-16-pro-max-1tb-2.png",
+    "images": [
+      "https://resim.epey.com/960862/k_apple-iphone-16-pro-max-1tb-2.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 90,
+    "reviewCount": 1410,
+    "basePrice": 148214.7,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.9\" Super Retina XDR OLED Ekran (120Hz ProMotion)",
+      "Apple A18 Pro (3 nm) Yonga Seti (TSMC 3nm (N3E))",
+      "48 MP Fusion Kamera Sistemi (4K @ 120 fps Dolby Vision HDR / 4K ProRes Log)",
+      "4685 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Titanyum / Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A18 Pro (3 nm) ile sektörün en yüksek tek çekirdek ve yapay zeka performansı",
+      "4K @ 120 fps Dolby Vision HDR / 4K ProRes Log ile sinematik stüdyo kalitesinde video kaydı",
+      "ProMotion 120Hz ekran ve titanyum kasa ergonomisi",
+      "4685 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "iOS 26 ekosistemi ve Apple Intelligence yapay zeka araçları"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat aralığı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Çöl Titanyum",
+        "hex": "#BEA892"
+      },
+      {
+        "name": "Natürel Titanyum",
+        "hex": "#9E9992"
+      },
+      {
+        "name": "Beyaz Titanyum",
+        "hex": "#F2F1ED"
+      },
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#3C3B3A"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 148215,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 149993,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 150883,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 151475,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 151920,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 153402,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 154143,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 154884,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 160072
+      },
+      {
+        "date": "Eki 2025",
+        "price": 155625
+      },
+      {
+        "date": "Kas 2025",
+        "price": 151179
+      },
+      {
+        "date": "Ara 2025",
+        "price": 154143
+      },
+      {
+        "date": "Oca 2026",
+        "price": 149697
+      },
+      {
+        "date": "Şub 2026",
+        "price": 148215
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.9\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2868 x 1320 piksel",
+        "refreshRate": 120,
+        "ppi": 460,
+        "brightnessNits": 2500
+      },
+      "processor": {
+        "chip": "Apple A18 Pro (3 nm)",
+        "cores": "6 Çekirdek (2x 4.04 GHz + 4x 2.20 GHz)",
+        "process": "TSMC 3nm (N3E)",
+        "antutuScore": 1820000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 1024,
+        "storageOptions": [
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.78, 2. nesil Sensor-shift OIS",
+        "ultrawideMp": "48 MP, f/2.2, 120˚ Hibrit Odak",
+        "telephotoMp": "12 MP Tetraprizma Telefoto (5x Optik Zoom, 120mm, 3D Sensor-shift OIS)",
+        "selfieMp": "12 MP TrueDepth, f/1.9, OIS, Otomatik Odak",
+        "videoRes": "4K @ 120 fps Dolby Vision HDR / 4K ProRes Log",
+        "dxomarkScore": 157
+      },
+      "battery": {
+        "capacitymAh": 4685,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 227,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 (6 metre derinliğe kadar 30 dk)",
+        "frameMaterial": "Titanyum (Grade 5)"
+      },
+      "software": {
+        "osName": "iOS 26 / iOS 18",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-17-pro-256-gb-1023349",
+    "slug": "apple-iphone-17-pro-256-gb",
+    "name": "Apple iPhone 17 Pro (256 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/1023349/k_apple-iphone-17-pro-2.png",
+    "images": [
+      "https://resim.epey.com/1023349/k_apple-iphone-17-pro-2.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 89,
+    "reviewCount": 1290,
+    "basePrice": 97999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.3\" Super Retina XDR OLED Ekran (120Hz ProMotion)",
+      "Apple A19 Pro (2 nm) Yonga Seti (TSMC 2nm)",
+      "48 MP Kamera Sistemi (4K Dolby Vision HDR @ 120 fps / ProRes Log)",
+      "3988 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Titanyum / Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A19 Pro (2 nm) ile sektörün en yüksek tek çekirdek ve yapay zeka performansı",
+      "4K Dolby Vision HDR @ 120 fps / ProRes Log ile sinematik stüdyo kalitesinde video kaydı",
+      "ProMotion 120Hz ekran ve titanyum kasa ergonomisi",
+      "3988 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "iOS 26 ekosistemi ve Apple Intelligence yapay zeka araçları"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat aralığı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Çöl Titanyum",
+        "hex": "#BEA892"
+      },
+      {
+        "name": "Natürel Titanyum",
+        "hex": "#9E9992"
+      },
+      {
+        "name": "Beyaz Titanyum",
+        "hex": "#F2F1ED"
+      },
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#3C3B3A"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 97999,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 99175,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 99763,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 100155,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 100449,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 101429,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 101919,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 102409,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-17-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 105839
+      },
+      {
+        "date": "Eki 2025",
+        "price": 102899
+      },
+      {
+        "date": "Kas 2025",
+        "price": 99959
+      },
+      {
+        "date": "Ara 2025",
+        "price": 101919
+      },
+      {
+        "date": "Oca 2026",
+        "price": 98979
+      },
+      {
+        "date": "Şub 2026",
+        "price": 97999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.3\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2622 x 1206 piksel",
+        "refreshRate": 120,
+        "ppi": 460,
+        "brightnessNits": 2500
+      },
+      "processor": {
+        "chip": "Apple A19 Pro (2 nm)",
+        "cores": "6 Çekirdek (2x Performans + 4x Verimlilik)",
+        "process": "TSMC 2nm",
+        "antutuScore": 2420000
+      },
+      "memory": {
+        "ramGb": 12,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP, f/1.78, OIS, Sensor-shift",
+        "ultrawideMp": "48 MP, f/2.2, 120˚ Macro",
+        "telephotoMp": "48 MP Periskop Telefoto (5x Optik Zoom, OIS)",
+        "selfieMp": "24 MP TrueDepth, f/1.9, OIS, 4K 60fps",
+        "videoRes": "4K Dolby Vision HDR @ 120 fps / ProRes Log",
+        "dxomarkScore": 162
+      },
+      "battery": {
+        "capacitymAh": 3988,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 199,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 (6 metre derinliğe kadar 30 dk)",
+        "frameMaterial": "Titanyum (Grade 5)"
+      },
+      "software": {
+        "osName": "iOS 26 / iOS 18",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-16-pro-max-512-gb-960861",
+    "slug": "apple-iphone-16-pro-max-512-gb",
+    "name": "Apple iPhone 16 Pro Max (512 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/960861/k_apple-iphone-16-pro-max-512gb-2.png",
+    "images": [
+      "https://resim.epey.com/960861/k_apple-iphone-16-pro-max-512gb-2.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 89,
+    "reviewCount": 1170,
+    "basePrice": 127702,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.9\" Super Retina XDR OLED Ekran (120Hz ProMotion)",
+      "Apple A18 Pro (3 nm) Yonga Seti (TSMC 3nm (N3E))",
+      "48 MP Fusion Kamera Sistemi (4K @ 120 fps Dolby Vision HDR / 4K ProRes Log)",
+      "4685 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Titanyum / Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A18 Pro (3 nm) ile sektörün en yüksek tek çekirdek ve yapay zeka performansı",
+      "4K @ 120 fps Dolby Vision HDR / 4K ProRes Log ile sinematik stüdyo kalitesinde video kaydı",
+      "ProMotion 120Hz ekran ve titanyum kasa ergonomisi",
+      "4685 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "iOS 26 ekosistemi ve Apple Intelligence yapay zeka araçları"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat aralığı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Çöl Titanyum",
+        "hex": "#BEA892"
+      },
+      {
+        "name": "Natürel Titanyum",
+        "hex": "#9E9992"
+      },
+      {
+        "name": "Beyaz Titanyum",
+        "hex": "#F2F1ED"
+      },
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#3C3B3A"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 127702,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 129234,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 130001,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 130511,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 130895,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 132172,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 132810,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 133449,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 137918
+      },
+      {
+        "date": "Eki 2025",
+        "price": 134087
+      },
+      {
+        "date": "Kas 2025",
+        "price": 130256
+      },
+      {
+        "date": "Ara 2025",
+        "price": 132810
+      },
+      {
+        "date": "Oca 2026",
+        "price": 128979
+      },
+      {
+        "date": "Şub 2026",
+        "price": 127702
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.9\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2868 x 1320 piksel",
+        "refreshRate": 120,
+        "ppi": 460,
+        "brightnessNits": 2500
+      },
+      "processor": {
+        "chip": "Apple A18 Pro (3 nm)",
+        "cores": "6 Çekirdek (2x 4.04 GHz + 4x 2.20 GHz)",
+        "process": "TSMC 3nm (N3E)",
+        "antutuScore": 1820000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.78, 2. nesil Sensor-shift OIS",
+        "ultrawideMp": "48 MP, f/2.2, 120˚ Hibrit Odak",
+        "telephotoMp": "12 MP Tetraprizma Telefoto (5x Optik Zoom, 120mm, 3D Sensor-shift OIS)",
+        "selfieMp": "12 MP TrueDepth, f/1.9, OIS, Otomatik Odak",
+        "videoRes": "4K @ 120 fps Dolby Vision HDR / 4K ProRes Log",
+        "dxomarkScore": 157
+      },
+      "battery": {
+        "capacitymAh": 4685,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 227,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 (6 metre derinliğe kadar 30 dk)",
+        "frameMaterial": "Titanyum (Grade 5)"
+      },
+      "software": {
+        "osName": "iOS 26 / iOS 18",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-16-pro-max-256-gb-952387",
+    "slug": "apple-iphone-16-pro-max-256-gb",
+    "name": "Apple iPhone 16 Pro Max (256 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/952387/k_apple-iphone-16-pro-max-2.png",
+    "images": [
+      "https://resim.epey.com/952387/k_apple-iphone-16-pro-max-2.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 88,
+    "reviewCount": 1050,
+    "basePrice": 96525,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.9\" Super Retina XDR OLED Ekran (120Hz ProMotion)",
+      "Apple A18 Pro (3 nm) Yonga Seti (TSMC 3nm (N3E))",
+      "48 MP Fusion Kamera Sistemi (4K @ 120 fps Dolby Vision HDR / 4K ProRes Log)",
+      "4685 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Titanyum / Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A18 Pro (3 nm) ile sektörün en yüksek tek çekirdek ve yapay zeka performansı",
+      "4K @ 120 fps Dolby Vision HDR / 4K ProRes Log ile sinematik stüdyo kalitesinde video kaydı",
+      "ProMotion 120Hz ekran ve titanyum kasa ergonomisi",
+      "4685 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "iOS 26 ekosistemi ve Apple Intelligence yapay zeka araçları"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat aralığı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Çöl Titanyum",
+        "hex": "#BEA892"
+      },
+      {
+        "name": "Natürel Titanyum",
+        "hex": "#9E9992"
+      },
+      {
+        "name": "Beyaz Titanyum",
+        "hex": "#F2F1ED"
+      },
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#3C3B3A"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 96525,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 97683,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 98262,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 98649,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 98938,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 99903,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 100386,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 100869,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 104247
+      },
+      {
+        "date": "Eki 2025",
+        "price": 101351
+      },
+      {
+        "date": "Kas 2025",
+        "price": 98456
+      },
+      {
+        "date": "Ara 2025",
+        "price": 100386
+      },
+      {
+        "date": "Oca 2026",
+        "price": 97490
+      },
+      {
+        "date": "Şub 2026",
+        "price": 96525
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.9\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2868 x 1320 piksel",
+        "refreshRate": 120,
+        "ppi": 460,
+        "brightnessNits": 2500
+      },
+      "processor": {
+        "chip": "Apple A18 Pro (3 nm)",
+        "cores": "6 Çekirdek (2x 4.04 GHz + 4x 2.20 GHz)",
+        "process": "TSMC 3nm (N3E)",
+        "antutuScore": 1820000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.78, 2. nesil Sensor-shift OIS",
+        "ultrawideMp": "48 MP, f/2.2, 120˚ Hibrit Odak",
+        "telephotoMp": "12 MP Tetraprizma Telefoto (5x Optik Zoom, 120mm, 3D Sensor-shift OIS)",
+        "selfieMp": "12 MP TrueDepth, f/1.9, OIS, Otomatik Odak",
+        "videoRes": "4K @ 120 fps Dolby Vision HDR / 4K ProRes Log",
+        "dxomarkScore": 157
+      },
+      "battery": {
+        "capacitymAh": 4685,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 227,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 (6 metre derinliğe kadar 30 dk)",
+        "frameMaterial": "Titanyum (Grade 5)"
+      },
+      "software": {
+        "osName": "iOS 26 / iOS 18",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-16-pro-256-gb-960858",
+    "slug": "apple-iphone-16-pro-256-gb",
+    "name": "Apple iPhone 16 Pro (256 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/960858/k_apple-iphone-16-pro-256gb-2.png",
+    "images": [
+      "https://resim.epey.com/960858/k_apple-iphone-16-pro-256gb-2.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 86,
+    "reviewCount": 930,
+    "basePrice": 113406.05,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.3\" Super Retina XDR OLED Ekran (120Hz ProMotion)",
+      "Apple A18 Pro (3 nm) Yonga Seti (TSMC 3nm (N3E))",
+      "48 MP Fusion Kamera Sistemi (4K @ 120 fps Dolby Vision HDR / 4K ProRes Log)",
+      "3582 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Titanyum / Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A18 Pro (3 nm) ile sektörün en yüksek tek çekirdek ve yapay zeka performansı",
+      "4K @ 120 fps Dolby Vision HDR / 4K ProRes Log ile sinematik stüdyo kalitesinde video kaydı",
+      "ProMotion 120Hz ekran ve titanyum kasa ergonomisi",
+      "3582 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "iOS 26 ekosistemi ve Apple Intelligence yapay zeka araçları"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat aralığı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Çöl Titanyum",
+        "hex": "#BEA892"
+      },
+      {
+        "name": "Natürel Titanyum",
+        "hex": "#9E9992"
+      },
+      {
+        "name": "Beyaz Titanyum",
+        "hex": "#F2F1ED"
+      },
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#3C3B3A"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 113406,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 114767,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 115447,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 115901,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 116241,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 117375,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 117942,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 118509,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 122479
+      },
+      {
+        "date": "Eki 2025",
+        "price": 119076
+      },
+      {
+        "date": "Kas 2025",
+        "price": 115674
+      },
+      {
+        "date": "Ara 2025",
+        "price": 117942
+      },
+      {
+        "date": "Oca 2026",
+        "price": 114540
+      },
+      {
+        "date": "Şub 2026",
+        "price": 113406
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.3\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2622 x 1206 piksel",
+        "refreshRate": 120,
+        "ppi": 460,
+        "brightnessNits": 2500
+      },
+      "processor": {
+        "chip": "Apple A18 Pro (3 nm)",
+        "cores": "6 Çekirdek (2x 4.04 GHz + 4x 2.20 GHz)",
+        "process": "TSMC 3nm (N3E)",
+        "antutuScore": 1820000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.78, 2. nesil Sensor-shift OIS",
+        "ultrawideMp": "48 MP, f/2.2, 120˚ Hibrit Odak",
+        "telephotoMp": "12 MP Tetraprizma Telefoto (5x Optik Zoom, 120mm, 3D Sensor-shift OIS)",
+        "selfieMp": "12 MP TrueDepth, f/1.9, OIS, Otomatik Odak",
+        "videoRes": "4K @ 120 fps Dolby Vision HDR / 4K ProRes Log",
+        "dxomarkScore": 157
+      },
+      "battery": {
+        "capacitymAh": 3582,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 199,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 (6 metre derinliğe kadar 30 dk)",
+        "frameMaterial": "Titanyum (Grade 5)"
+      },
+      "software": {
+        "osName": "iOS 26 / iOS 18",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-15-pro-max-1-tb-895854",
+    "slug": "apple-iphone-15-pro-max-1-tb",
+    "name": "Apple iPhone 15 Pro Max (1 TB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/895854/k_apple-iphone-15-pro-max-1tb-3.png",
+    "images": [
+      "https://resim.epey.com/895854/k_apple-iphone-15-pro-max-1tb-3.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 85,
+    "reviewCount": 810,
+    "basePrice": 122000,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.7\" Super Retina XDR OLED Ekran (120Hz ProMotion)",
+      "Apple A17 Pro (3 nm) Yonga Seti (TSMC 3nm)",
+      "48 MP Kamera Sistemi (4K @ 60 fps Dolby Vision HDR / ProRes Log)",
+      "4441 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Titanyum / Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A17 Pro (3 nm) ile sektörün en yüksek tek çekirdek ve yapay zeka performansı",
+      "4K @ 60 fps Dolby Vision HDR / ProRes Log ile sinematik stüdyo kalitesinde video kaydı",
+      "ProMotion 120Hz ekran ve titanyum kasa ergonomisi",
+      "4441 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "iOS 26 ekosistemi ve Apple Intelligence yapay zeka araçları"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat aralığı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Çöl Titanyum",
+        "hex": "#BEA892"
+      },
+      {
+        "name": "Natürel Titanyum",
+        "hex": "#9E9992"
+      },
+      {
+        "name": "Beyaz Titanyum",
+        "hex": "#F2F1ED"
+      },
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#3C3B3A"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 122000,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-15-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 123464,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-15-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 124196,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-15-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 124684,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-15-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 125050,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-15-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 126270,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-15-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 126880,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-15-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 127490,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-15-pro-max-1tb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 131760
+      },
+      {
+        "date": "Eki 2025",
+        "price": 128100
+      },
+      {
+        "date": "Kas 2025",
+        "price": 124440
+      },
+      {
+        "date": "Ara 2025",
+        "price": 126880
+      },
+      {
+        "date": "Oca 2026",
+        "price": 123220
+      },
+      {
+        "date": "Şub 2026",
+        "price": 122000
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.7\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2868 x 1320 piksel",
+        "refreshRate": 120,
+        "ppi": 460,
+        "brightnessNits": 2500
+      },
+      "processor": {
+        "chip": "Apple A17 Pro (3 nm)",
+        "cores": "6 Çekirdek (2x 3.78 GHz + 4x 2.11 GHz)",
+        "process": "TSMC 3nm",
+        "antutuScore": 1540000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 1024,
+        "storageOptions": [
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP, f/1.78, 2. nesil Sensor-shift OIS",
+        "ultrawideMp": "12 MP, f/2.2, 120˚ Ultra Geniş",
+        "telephotoMp": "12 MP Periskop Telefoto (5x Optik Zoom, 120mm)",
+        "selfieMp": "12 MP TrueDepth, f/1.9, OIS, 4K 60fps",
+        "videoRes": "4K @ 60 fps Dolby Vision HDR / ProRes Log",
+        "dxomarkScore": 154
+      },
+      "battery": {
+        "capacitymAh": 4441,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 227,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 (6 metre derinliğe kadar 30 dk)",
+        "frameMaterial": "Titanyum (Grade 5)"
+      },
+      "software": {
+        "osName": "iOS 26 / iOS 18",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-15-pro-max-512-gb-895853",
+    "slug": "apple-iphone-15-pro-max-512-gb",
+    "name": "Apple iPhone 15 Pro Max (512 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/895853/k_apple-iphone-15-pro-max-512gb-3.png",
+    "images": [
+      "https://resim.epey.com/895853/k_apple-iphone-15-pro-max-512gb-3.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 84,
+    "reviewCount": 690,
+    "basePrice": 102923.05,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.7\" Super Retina XDR OLED Ekran (120Hz ProMotion)",
+      "Apple A17 Pro (3 nm) Yonga Seti (TSMC 3nm)",
+      "48 MP Kamera Sistemi (4K @ 60 fps Dolby Vision HDR / ProRes Log)",
+      "4441 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Titanyum / Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A17 Pro (3 nm) ile sektörün en yüksek tek çekirdek ve yapay zeka performansı",
+      "4K @ 60 fps Dolby Vision HDR / ProRes Log ile sinematik stüdyo kalitesinde video kaydı",
+      "ProMotion 120Hz ekran ve titanyum kasa ergonomisi",
+      "4441 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "iOS 26 ekosistemi ve Apple Intelligence yapay zeka araçları"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat aralığı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Çöl Titanyum",
+        "hex": "#BEA892"
+      },
+      {
+        "name": "Natürel Titanyum",
+        "hex": "#9E9992"
+      },
+      {
+        "name": "Beyaz Titanyum",
+        "hex": "#F2F1ED"
+      },
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#3C3B3A"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 102923,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-15-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 104158,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-15-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 104776,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-15-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 105187,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-15-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 105496,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-15-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 106525,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-15-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 107040,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-15-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 107555,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-15-pro-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 111157
+      },
+      {
+        "date": "Eki 2025",
+        "price": 108069
+      },
+      {
+        "date": "Kas 2025",
+        "price": 104982
+      },
+      {
+        "date": "Ara 2025",
+        "price": 107040
+      },
+      {
+        "date": "Oca 2026",
+        "price": 103952
+      },
+      {
+        "date": "Şub 2026",
+        "price": 102923
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.7\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2868 x 1320 piksel",
+        "refreshRate": 120,
+        "ppi": 460,
+        "brightnessNits": 2500
+      },
+      "processor": {
+        "chip": "Apple A17 Pro (3 nm)",
+        "cores": "6 Çekirdek (2x 3.78 GHz + 4x 2.11 GHz)",
+        "process": "TSMC 3nm",
+        "antutuScore": 1540000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP, f/1.78, 2. nesil Sensor-shift OIS",
+        "ultrawideMp": "12 MP, f/2.2, 120˚ Ultra Geniş",
+        "telephotoMp": "12 MP Periskop Telefoto (5x Optik Zoom, 120mm)",
+        "selfieMp": "12 MP TrueDepth, f/1.9, OIS, 4K 60fps",
+        "videoRes": "4K @ 60 fps Dolby Vision HDR / ProRes Log",
+        "dxomarkScore": 154
+      },
+      "battery": {
+        "capacitymAh": 4441,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 227,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 (6 metre derinliğe kadar 30 dk)",
+        "frameMaterial": "Titanyum (Grade 5)"
+      },
+      "software": {
+        "osName": "iOS 26 / iOS 18",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-16-pro-128-gb-952452",
+    "slug": "apple-iphone-16-pro-128-gb",
+    "name": "Apple iPhone 16 Pro (128 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/952452/k_apple-iphone-16-pro-2.png",
+    "images": [
+      "https://resim.epey.com/952452/k_apple-iphone-16-pro-2.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 84,
+    "reviewCount": 570,
+    "basePrice": 88669.1,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.3\" Super Retina XDR OLED Ekran (120Hz ProMotion)",
+      "Apple A18 Pro (3 nm) Yonga Seti (TSMC 3nm (N3E))",
+      "48 MP Fusion Kamera Sistemi (4K @ 120 fps Dolby Vision HDR / 4K ProRes Log)",
+      "3582 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Titanyum / Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A18 Pro (3 nm) ile sektörün en yüksek tek çekirdek ve yapay zeka performansı",
+      "4K @ 120 fps Dolby Vision HDR / 4K ProRes Log ile sinematik stüdyo kalitesinde video kaydı",
+      "ProMotion 120Hz ekran ve titanyum kasa ergonomisi",
+      "3582 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "iOS 26 ekosistemi ve Apple Intelligence yapay zeka araçları"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat aralığı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Çöl Titanyum",
+        "hex": "#BEA892"
+      },
+      {
+        "name": "Natürel Titanyum",
+        "hex": "#9E9992"
+      },
+      {
+        "name": "Beyaz Titanyum",
+        "hex": "#F2F1ED"
+      },
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#3C3B3A"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 88669,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 89733,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 90265,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 90620,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 90886,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 91773,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 92216,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 92659,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 95763
+      },
+      {
+        "date": "Eki 2025",
+        "price": 93103
+      },
+      {
+        "date": "Kas 2025",
+        "price": 90442
+      },
+      {
+        "date": "Ara 2025",
+        "price": 92216
+      },
+      {
+        "date": "Oca 2026",
+        "price": 89556
+      },
+      {
+        "date": "Şub 2026",
+        "price": 88669
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.3\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2622 x 1206 piksel",
+        "refreshRate": 120,
+        "ppi": 460,
+        "brightnessNits": 2500
+      },
+      "processor": {
+        "chip": "Apple A18 Pro (3 nm)",
+        "cores": "6 Çekirdek (2x 4.04 GHz + 4x 2.20 GHz)",
+        "process": "TSMC 3nm (N3E)",
+        "antutuScore": 1820000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 128,
+        "storageOptions": [
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.78, 2. nesil Sensor-shift OIS",
+        "ultrawideMp": "48 MP, f/2.2, 120˚ Hibrit Odak",
+        "telephotoMp": "12 MP Tetraprizma Telefoto (5x Optik Zoom, 120mm, 3D Sensor-shift OIS)",
+        "selfieMp": "12 MP TrueDepth, f/1.9, OIS, Otomatik Odak",
+        "videoRes": "4K @ 120 fps Dolby Vision HDR / 4K ProRes Log",
+        "dxomarkScore": 157
+      },
+      "battery": {
+        "capacitymAh": 3582,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 199,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 (6 metre derinliğe kadar 30 dk)",
+        "frameMaterial": "Titanyum (Grade 5)"
+      },
+      "software": {
+        "osName": "iOS 26 / iOS 18",
+        "updateYears": 7
+      }
+    }
+  },
+  {
     "id": "philips-xenium-e2125",
     "slug": "philips-xenium-e2125",
     "name": "Philips Xenium E2125 Çift Hatlı Tuşlu Cep Telefonu",
