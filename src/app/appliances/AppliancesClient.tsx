@@ -2,6 +2,7 @@
 
 import React, { useState, useMemo, useRef, useEffect } from 'react';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import { ApplianceProduct } from '@/lib/types';
 import { CompactProductCard } from '@/components/catalog/CompactProductCard';
 import { CategoryBar } from '@/components/layout/CategoryBar';
@@ -187,6 +188,9 @@ const ALL_SUB_CATEGORIES = [
 const ITEMS_PER_PAGE = 24;
 
 export default function AppliancesClient({ initialProducts }: { initialProducts: ApplianceProduct[] }) {
+  const searchParams = useSearchParams();
+  const brandParam = searchParams.get('brand');
+
   const [products] = useState<ApplianceProduct[]>(initialProducts);
   const [activeSector, setActiveSector] = useState<string | null>(null);
   const [hoveredSector, setHoveredSector] = useState<string | null>(null);
@@ -196,6 +200,15 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
   const [sortBy, setSortBy] = useState('popular');
   const [priceRange] = useState<number>(150000);
   const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
+
+  useEffect(() => {
+    if (brandParam) {
+      const matchedBrand = products.find(
+        (p) => p.brand.toLowerCase() === brandParam.toLowerCase()
+      )?.brand || brandParam;
+      setSelectedBrands([matchedBrand]);
+    }
+  }, [brandParam, products]);
 
   const hoverTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const catalogRef = useRef<HTMLDivElement>(null);
@@ -304,11 +317,33 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
               } else if (activeSector === 'climate') {
                 matched =
                   prodSubCat === 'air_purifier' ||
+                  prodSubCat === 'air_conditioner' ||
                   prodSubCat === 'climate' ||
                   prodLabel.includes('hava') ||
                   prodLabel.includes('klima') ||
                   prodName.includes('hava') ||
                   prodName.includes('klima');
+              } else if (activeSector === 'major_appliances') {
+                matched =
+                  prodSubCat === 'dishwasher' ||
+                  prodSubCat === 'washing_machine' ||
+                  prodSubCat === 'dryer' ||
+                  prodSubCat === 'refrigerator' ||
+                  prodSubCat === 'built_in_set' ||
+                  prodSubCat === 'microwave' ||
+                  prodSubCat === 'range_hood' ||
+                  prodSubCat === 'water_dispenser' ||
+                  prodSubCat === 'major_appliances' ||
+                  prodLabel.includes('çamaşır') ||
+                  prodLabel.includes('bulaşık') ||
+                  prodLabel.includes('buzdolabı') ||
+                  prodLabel.includes('kurutma') ||
+                  prodLabel.includes('fırın') ||
+                  prodLabel.includes('ocak') ||
+                  prodName.includes('çamaşır') ||
+                  prodName.includes('bulaşık') ||
+                  prodName.includes('buzdolabı') ||
+                  prodName.includes('kurutma');
               }
             }
             if (!matched) return false;
@@ -324,7 +359,7 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
           let subMatch = prodSubCat === selectedSubCat;
           if (!subMatch) {
             if (selectedSubCat === 'coffee_machine') {
-              subMatch = prodLabel.includes('kahve') || prodName.includes('kahve') || prodName.includes('espresso') || prodName.includes('senseo');
+              subMatch = prodLabel.includes('kahve') || prodName.includes('kahve') || prodName.includes('espresso') || prodName.includes('senseo') || prodName.includes('telve');
             } else if (selectedSubCat === 'blender') {
               subMatch = prodLabel.includes('blender') || prodLabel.includes('mikser') || prodLabel.includes('robot') || prodName.includes('blender') || prodName.includes('mikser') || prodName.includes('mutfak robotu');
             } else if (selectedSubCat === 'iron') {
@@ -339,10 +374,22 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
               subMatch = prodLabel.includes('dikey') || prodLabel.includes('şarjlı süpürge') || prodName.includes('dikey');
             } else if (selectedSubCat === 'air_purifier') {
               subMatch = prodLabel.includes('hava') || prodName.includes('hava temizleyici');
+            } else if (selectedSubCat === 'air_conditioner') {
+              subMatch = prodLabel.includes('klima') || prodName.includes('klima') || prodName.includes('inverter');
             } else if (selectedSubCat === 'tea_maker') {
               subMatch = prodLabel.includes('çay') || prodLabel.includes('su ısıtıcı') || prodName.includes('çay') || prodName.includes('kettle');
             } else if (selectedSubCat === 'toaster') {
               subMatch = prodLabel.includes('tost') || prodLabel.includes('ızgara') || prodName.includes('tost');
+            } else if (selectedSubCat === 'washing_machine') {
+              subMatch = prodLabel.includes('çamaşır') || prodName.includes('çamaşır');
+            } else if (selectedSubCat === 'dishwasher') {
+              subMatch = prodLabel.includes('bulaşık') || prodName.includes('bulaşık');
+            } else if (selectedSubCat === 'refrigerator') {
+              subMatch = prodLabel.includes('buzdolabı') || prodName.includes('buzdolabı');
+            } else if (selectedSubCat === 'dryer') {
+              subMatch = prodLabel.includes('kurutma') || prodName.includes('kurutma');
+            } else if (selectedSubCat === 'built_in_set') {
+              subMatch = prodLabel.includes('ankastre') || prodLabel.includes('fırın') || prodLabel.includes('ocak') || prodName.includes('fırın') || prodName.includes('ocak') || prodName.includes('davlumbaz');
             }
           }
           if (!subMatch) return false;
@@ -356,7 +403,7 @@ export default function AppliancesClient({ initialProducts }: { initialProducts:
           if (!matchesName && !matchesBrand && !matchesSubCat) return false;
         }
         // Brand filter
-        if (selectedBrands.length > 0 && !selectedBrands.includes(p.brand)) return false;
+        if (selectedBrands.length > 0 && !selectedBrands.some(b => b.toLowerCase() === p.brand.toLowerCase())) return false;
         // Price filter
         if (p.basePrice > priceRange) return false;
         return true;

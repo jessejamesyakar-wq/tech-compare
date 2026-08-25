@@ -94,6 +94,20 @@ const BRAND_CONFIGS: BrandConfig[] = [
     )
   },
   {
+    name: 'Arçelik',
+    categoryTag: 'Beyaz Eşya & Yaşam',
+    isMultiCategory: true,
+    searchFilter: 'Arçelik',
+    href: '/appliances?brand=Arçelik',
+    renderDefaultLogo: () => (
+      <div className="flex items-center gap-1">
+        <span className="text-sm font-black text-[#E30613] tracking-tight">
+          arçelik
+        </span>
+      </div>
+    )
+  },
+  {
     name: 'Philips',
     categoryTag: 'Televizyon Ekosistemi',
     isMultiCategory: true,

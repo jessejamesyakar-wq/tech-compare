@@ -1,4 +1,4 @@
-import { ApplianceProduct } from './types';
+import { ApplianceProduct } from "./types";
 
 export const mockAppliances: ApplianceProduct[] = [
   {
@@ -69115,6 +69115,1194 @@ export const mockAppliances: ApplianceProduct[] = [
       {
         "date": "2025-02",
         "price": 2870
+      }
+    ]
+  },
+  {
+    "id": "arcelik-10120-m",
+    "slug": "arcelik-10120-m",
+    "name": "Arçelik 10120 M 10 kg 1200 Devir ProSmart Inverter Buhar Destekli Çamaşır Makinesi",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 17999,
+    "currency": "TL",
+    "rating": 4.89,
+    "epeyScore": 95,
+    "reviewCount": 1420,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "10 kg Geniş Yıkama Kapasitesi & 1200 Devir Sıkma Hızı",
+      "ProSmart Inverter Motor (10 Yıl Motor Garantisi & Sessiz Çalışma)",
+      "SteamCure Buhar Teknolojisi ile %99.9 Alerjen Temizliği ve Kolay Ütüleme",
+      "Leke Programı (24 Farklı Zorlu Lekeye Özel Sıcaklık ve Tambur Hareketi)"
+    ],
+    "specs": {
+      "subCategory": "washing_machine",
+      "subCategoryLabel": "Çamaşır Makinesi",
+      "capacity": "10 kg",
+      "powerWatts": 2200,
+      "programsCount": 15,
+      "noiseLevelDb": 72,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-10120-m-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 17999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "🔥 Çok Satan 10 kg"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "#"
+      },
+      {
+        "id": "arcelik-10120-m-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 18299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Bayi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1890,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 19499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07",
+        "price": 17999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-9120-m",
+    "slug": "arcelik-9120-m",
+    "name": "Arçelik 9120 M 9 kg 1200 Devir ProSmart Inverter Buharlı Çamaşır Makinesi",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 15999,
+    "currency": "TL",
+    "rating": 4.86,
+    "epeyScore": 93,
+    "reviewCount": 980,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "9 kg Yıkama Kapasitesi & 1200 Devir Sıkma",
+      "ProSmart Inverter Motor Teknolojisi",
+      "SteamCure Buharlı Havalandırma ve Kırışık Giderme",
+      "Hızlı 14 Dakika Yıkama Programı"
+    ],
+    "specs": {
+      "subCategory": "washing_machine",
+      "subCategoryLabel": "Çamaşır Makinesi",
+      "capacity": "9 kg",
+      "powerWatts": 2000,
+      "programsCount": 15,
+      "noiseLevelDb": 73,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-9120-m-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 15999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fiyat Performans"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2100,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 15999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-12140-pm",
+    "slug": "arcelik-12140-pm",
+    "name": "Arçelik 12140 PM 12 kg 1400 Devir ProSmart Inverter Ultra Geniş Tambur Çamaşır Makinesi",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 23999,
+    "currency": "TL",
+    "rating": 4.92,
+    "epeyScore": 96,
+    "reviewCount": 650,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "12 kg Devasa Yıkama Kapasitesi (Yorgan ve Battaniyeler İçin İdeal)",
+      "1400 Devir Ultra Hızlı Sıkma",
+      "HomeWhiz Wi-Fi Akıllı Telefon Üzerinden Kontrol",
+      "Deterjan Otomatik Dozajlama & SteamCure+"
+    ],
+    "specs": {
+      "subCategory": "washing_machine",
+      "subCategoryLabel": "Çamaşır Makinesi",
+      "capacity": "12 kg",
+      "powerWatts": 2400,
+      "programsCount": 16,
+      "appControl": true,
+      "noiseLevelDb": 71,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-12140-pm-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 23999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "12 kg Dev Kapasite"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 23999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-900-km",
+    "slug": "arcelik-900-km",
+    "name": "Arçelik 900 KM 9 kg Isı Pompalı A++ Enerji Sınıfı Kurutma Makinesi",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 17499,
+    "currency": "TL",
+    "rating": 4.88,
+    "epeyScore": 94,
+    "reviewCount": 1100,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "9 kg Kurutma Kapasitesi & Isı Pompalı (Heat Pump) A++ Enerji Tasarrufu",
+      "ProSmart Inverter Motor ile Kumaş Dokusunu Koruyan Hassas Kurutma",
+      "Kırışık Önleme Fonksiyonu & Akıllı Nem Sensörü",
+      "Direkt Su Tahliye İmkanı ve Filtre Temizleme Uyarısı"
+    ],
+    "specs": {
+      "subCategory": "dryer",
+      "subCategoryLabel": "Kurutma Makinesi",
+      "capacity": "9 kg",
+      "powerWatts": 900,
+      "programsCount": 15,
+      "noiseLevelDb": 64,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-900-km-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 17499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "🔥 Çok Satan Isı Pompalı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2450,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 17499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-1000-km",
+    "slug": "arcelik-1000-km",
+    "name": "Arçelik 1000 KM 10 kg Isı Pompalı ProSmart Inverter Kurutma Makinesi",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 21999,
+    "currency": "TL",
+    "rating": 4.91,
+    "epeyScore": 96,
+    "reviewCount": 780,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "10 kg Yüksek Kurutma Kapasitesi",
+      "Isı Pompalı A++ Enerji Verimliliği",
+      "HomeWhiz Wi-Fi Akıllı Kontrol",
+      "Koku Giderme & Hijyenik Havalandırma Programları"
+    ],
+    "specs": {
+      "subCategory": "dryer",
+      "subCategoryLabel": "Kurutma Makinesi",
+      "capacity": "10 kg",
+      "powerWatts": 900,
+      "appControl": true,
+      "noiseLevelDb": 63,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-1000-km-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 21999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "10 kg ProSmart Inverter"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1400,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 21999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-6144",
+    "slug": "arcelik-6144",
+    "name": "Arçelik 6144 4 Programlı HijyenMax Bulaşık Makinesi",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 13999,
+    "currency": "TL",
+    "rating": 4.85,
+    "epeyScore": 91,
+    "reviewCount": 1650,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "4 Fonksiyonel Yıkama Programı (Yoğun 70°C, Ekonomi 50°C, Hızlı 58 dk, Mini 30 dk)",
+      "HijyenMax Ekstra Sıcak Durulama ile Bakteri ve Virüslere Karşı %99.9 Koruma",
+      "14 Kişilik Geniş Yemek Takımı Kapasitesi & Yarım Yük Yıkama",
+      "Paslanmaz Çelik Taban ve Yüksekliği Ayarlanabilir Üst Sepet"
+    ],
+    "specs": {
+      "subCategory": "dishwasher",
+      "subCategoryLabel": "Bulaşık Makinesi",
+      "capacity": "14 Kişilik",
+      "powerWatts": 1800,
+      "programsCount": 4,
+      "noiseLevelDb": 48,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-6144-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 13999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "🔥 En Çok Satan Bulaşık Makinesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3800,
+        "url": "#"
+      },
+      {
+        "id": "arcelik-6144-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 14199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2100,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 14999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 13999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-6167",
+    "slug": "arcelik-6167",
+    "name": "Arçelik 6167 6 Programlı CornerWash & Otomatik Kapı Açma Bulaşık Makinesi",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 17999,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 890,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "CornerWash 3 Kollu Dairesel Püskürtme Teknolojisi (Köşelerde Kalan Bulaşık Bırakmaz)",
+      "Otomatik Kapı Açma (SelfDry) ile Mükemmel ve L организация Kurutma",
+      "6 Program & ProSmart Inverter Sessiz Motor (44 dB)",
+      "15 Kişilik Geniş Kapasite & 3. Çatal Bıçak Çekmecesi"
+    ],
+    "specs": {
+      "subCategory": "dishwasher",
+      "subCategoryLabel": "Bulaşık Makinesi",
+      "capacity": "15 Kişilik",
+      "powerWatts": 1800,
+      "programsCount": 6,
+      "noiseLevelDb": 44,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-6167-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 17999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "CornerWash & SelfDry"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1650,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 17999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-6188-i",
+    "slug": "arcelik-6188-i",
+    "name": "Arçelik 6188 I 8 Programlı Inox Paslanmaz Çelik CornerWash & AutoDos Bulaşık Makinesi",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 22999,
+    "currency": "TL",
+    "rating": 4.94,
+    "epeyScore": 97,
+    "reviewCount": 420,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "highlights": [
+      "Inox Parmak İzi Bırakmaz Paslanmaz Çelik Gövde",
+      "AutoDos Deterjan Otomatik Dozajlama & CornerWash",
+      "HomeWhiz Wi-Fi Akıllı Bağlantı & 8 Program",
+      "Ultra Sessiz 42 dB Çalışma Seviyesi"
+    ],
+    "specs": {
+      "subCategory": "dishwasher",
+      "subCategoryLabel": "Bulaşık Makinesi",
+      "capacity": "16 Kişilik",
+      "powerWatts": 1900,
+      "programsCount": 8,
+      "appControl": true,
+      "noiseLevelDb": 42,
+      "warrantyYears": 3,
+      "color": "Inox Paslanmaz Çelik"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-6188-i-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 22999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "👑 Premium Inox 8 Program"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 22999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-270560-ei",
+    "slug": "arcelik-270560-ei",
+    "name": "Arçelik 270560 EI 560 Litre No-Frost Çift Kapılı Inox Kombi Tipi Buzdolabı",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 32999,
+    "currency": "TL",
+    "rating": 4.91,
+    "epeyScore": 96,
+    "reviewCount": 1350,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "560 Litre Toplam Net Hacim & Alttan Donduruculu Kombi Tipi Tasarım",
+      "FullFresh+ Teknolojisi ile Sebze ve Meyveleri 3 Kata Kadar Daha Uzun Süre Taze Tutma",
+      "AeroFlow Çift Soğutma Sistemi (Koku Karışmasını Önler)",
+      "Inox Leke Tutmayan Paslanmaz Çelik Yüzey & ProSmart Inverter Kompresör"
+    ],
+    "specs": {
+      "subCategory": "refrigerator",
+      "subCategoryLabel": "Buzdolabı",
+      "capacity": "560 Litre",
+      "capacityLiters": 560,
+      "noiseLevelDb": 38,
+      "warrantyYears": 3,
+      "color": "Inox Paslanmaz Çelik"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-270560-ei-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 32999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "🔥 Çok Satan 560L Inox Kombi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2900,
+        "url": "#"
+      },
+      {
+        "id": "arcelik-270560-ei-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 33499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Satıcı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1800,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 35999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 32999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-283720-ei",
+    "slug": "arcelik-283720-ei",
+    "name": "Arçelik 283720 EI 720 Litre Gardırop Tipi 4 Kapılı Inox No-Frost Buzdolabı",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 59999,
+    "currency": "TL",
+    "rating": 4.96,
+    "epeyScore": 98,
+    "reviewCount": 490,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "720 Litre Devasa Fransız Kapılı (French Door) 4 Kapılı Tasarım",
+      "Joker Bölme (İster Dondurucu İster Soğutucu Olarak Ayarlanabilen Bölüm)",
+      "VitaminZone Doğal Gün Işığı Döngüsü ile Vitamin Koruma",
+      "Otomatik Buz Yapıcı & Su Sebili & ProSmart Inverter"
+    ],
+    "specs": {
+      "subCategory": "refrigerator",
+      "subCategoryLabel": "Buzdolabı",
+      "capacity": "720 Litre",
+      "capacityLiters": 720,
+      "noiseLevelDb": 37,
+      "warrantyYears": 3,
+      "color": "Inox Paslanmaz Çelik"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-283720-ei-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 59999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "👑 Gardırop Tipi 4 Kapılı Dev"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1100,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 59999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-270481-mb",
+    "slug": "arcelik-270481-mb",
+    "name": "Arçelik 270481 MB 481 Litre No-Frost Alttan Donduruculu Beyaz Buzdolabı",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 24999,
+    "currency": "TL",
+    "rating": 4.86,
+    "epeyScore": 92,
+    "reviewCount": 820,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "481 Litre Net Hacim & Kombi Tipi Alttan Donduruculu",
+      "AeroFlow No-Frost Soğutma Sistemi",
+      "Hızlı Dondurma ve Hızlı Soğutma Modları",
+      "Sessiz ve Dayanıklı ProSmart Inverter Kompresör"
+    ],
+    "specs": {
+      "subCategory": "refrigerator",
+      "subCategoryLabel": "Buzdolabı",
+      "capacity": "481 Litre",
+      "capacityLiters": 481,
+      "noiseLevelDb": 38,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-270481-mb-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ekonomik Kombi Tipi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1540,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 24999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-afc-340-b",
+    "slug": "arcelik-afc-340-b",
+    "name": "Arçelik AFC 340 B Buhar Destekli Ankastre Fırın - Dokunmatik Ekran",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 16999,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 560,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "SteamAid Buhar Destekli Pişirme (Dışı Çıtır İçi Yumuşacık Ekmek ve Börekler)",
+      "71 Litre Geniş İç Hacim & Teleskopik Ray Sistemi",
+      "Katalitik Arka Duvar ile Kendi Kendini Temizleyen Yüzey",
+      "15 Farklı Pişirme Fonksiyonu & 3D Pişirme"
+    ],
+    "specs": {
+      "subCategory": "built_in_set",
+      "subCategoryLabel": "Ankastre Fırın",
+      "capacityLiters": 71,
+      "powerWatts": 3100,
+      "programsCount": 15,
+      "warrantyYears": 3,
+      "color": "Siyah Cam"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-afc-340-b-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 16999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Buhar Destekli Ankastre"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 16999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-ocd-t-651-eb",
+    "slug": "arcelik-ocd-t-651-eb",
+    "name": "Arçelik OCD T 651 EB 65 cm 4 Gözü Gazlı Wok Gözlü Siyah Cam Ankastre Ocak",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 9999,
+    "currency": "TL",
+    "rating": 4.88,
+    "epeyScore": 92,
+    "reviewCount": 620,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "65 cm Geniş Siyah Temperli Cam Yüzey",
+      "Yüksek Verimli Çift Alevli Wok Yanıcı Gözü (5 kW Güç)",
+      "Döküm Izgara & Gaz Emniyet Sistemi",
+      "Düğmeden Otomatik Ateşleme"
+    ],
+    "specs": {
+      "subCategory": "built_in_set",
+      "subCategoryLabel": "Ankastre Ocak",
+      "warrantyYears": 3,
+      "color": "Siyah Cam"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-ocd-t-651-eb-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 9999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Wok Gözlü Cam Ocak"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 950,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 9999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-telve-k-3300",
+    "slug": "arcelik-telve-k-3300",
+    "name": "Arçelik Telve K 3300 Otomatik Türk Kahvesi Makinesi - Cooksense & Antispill",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 3499,
+    "currency": "TL",
+    "rating": 4.95,
+    "epeyScore": 96,
+    "reviewCount": 4500,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "Cooksense Pişmeyi Algılama Teknolojisi ile Kusursuz Bol Köpük",
+      "Antispill Taşmayı Önleyici Güvenlik Sensörü",
+      "Tek Seferde 3 Fincan Kahve Hazırlama Kapasitesi",
+      "Sesli ve Işıklı Uyarı & Tek Tuşla Kolay Kullanım"
+    ],
+    "specs": {
+      "subCategory": "coffee_machine",
+      "subCategoryLabel": "Türk Kahvesi Makinesi",
+      "powerWatts": 670,
+      "capacity": "3 Fincan",
+      "autoShutOff": true,
+      "warrantyYears": 2,
+      "color": "Kırmızı / Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-telve-k3300-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 3499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "🔥 Efsane Türk Kahvesi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 9500,
+        "url": "#"
+      },
+      {
+        "id": "arcelik-telve-k3300-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 3549,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çok Satan"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 7800,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 3799,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07",
+        "price": 3499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-imperium-telve-k-3400",
+    "slug": "arcelik-imperium-telve-k-3400",
+    "name": "Arçelik Imperium Telve K 3400 İndüksiyonlu Çift Cezveli Su Tanklı Türk Kahvesi Makinesi",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 8999,
+    "currency": "TL",
+    "rating": 4.98,
+    "epeyScore": 98,
+    "reviewCount": 1850,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "İndüksiyon Isıtma Teknolojisi (Közde Kahve Lezzeti ve Hızlı Pişirme)",
+      "1.5 Litre Dahili Su Tankı ile Otomatik Su Besleme",
+      "Çift Paslanmaz Çelik Cezve ile Aynı Anda 6 Fincan Kahve",
+      "Fincan Boyutu ve Şeker Seviyesi Ayarı"
+    ],
+    "specs": {
+      "subCategory": "coffee_machine",
+      "subCategoryLabel": "Türk Kahvesi Makinesi",
+      "powerWatts": 1200,
+      "capacity": "6 Fincan",
+      "waterTankCapacityLiters": 1.5,
+      "autoShutOff": true,
+      "warrantyYears": 2,
+      "color": "Inox Paslanmaz Çelik"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-imperium-telve-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 8999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "👑 Profesyonel İndüksiyonlu"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 8999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-gurme-k-3285-ci",
+    "slug": "arcelik-gurme-k-3285-ci",
+    "name": "Arçelik Gurme K 3285 CI Otomatik Çay Demleme Makinesi & Cam Demlik",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 5499,
+    "currency": "TL",
+    "rating": 4.91,
+    "epeyScore": 94,
+    "reviewCount": 1400,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "Otomatik Çay Demleme Teknolojisi (Zaman Ayarlı Demleme)",
+      "Özel Filtreleme Sistemi ile Çay Yapraklarını Yakmadan Demleme",
+      "Cam Demlik ve Paslanmaz Çelik Su Isıtıcı Gövdesi",
+      "Sıcak Tutma Fonksiyonu ve Farklı Çay Türü Sıcaklık Ayarları"
+    ],
+    "specs": {
+      "subCategory": "tea_maker",
+      "subCategoryLabel": "Çay Makinesi",
+      "powerWatts": 1750,
+      "capacityLiters": 1.8,
+      "keepWarmHours": 2,
+      "autoShutOff": true,
+      "warrantyYears": 2,
+      "color": "Inox / Siyah"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-gurme-cay-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 5499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Otomatik Çay Demleme"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2400,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 5499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-fra-4244-resital",
+    "slug": "arcelik-fra-4244-resital",
+    "name": "Arçelik FRA 4244 Resital 8.5 Litre Çift Hazneli Smart Sync Airfryer Sıcak Hava Fritözü",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 6499,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 94,
+    "reviewCount": 890,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "8.5 Litre Devasa Çift Hazne (2 x 4.25L Bağımsız Pişirme Sepeti)",
+      "Smart Sync Eş Zamanlı Pişirme Bitirme Teknolojisi",
+      "9 Otomatik Pişirme Programı (Tavuk, Et, Balık, Sebze, Hamurişi, Kurutma)",
+      "%90 Daha Az Yağ ile Sağlıklı ve Çıtır Kızartmalar"
+    ],
+    "specs": {
+      "subCategory": "airfryer",
+      "subCategoryLabel": "Airfryer & Fritöz",
+      "powerWatts": 2400,
+      "capacityLiters": 8.5,
+      "programsCount": 9,
+      "dishwasherSafeParts": true,
+      "warrantyYears": 2,
+      "color": "Mat Siyah / Bakır Detay"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-fra-4244-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 6499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "🔥 Çift Hazneli 8.5L Airfryer"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1600,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 6499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-12325-ekolojik-inverter",
+    "slug": "arcelik-12325-ekolojik-inverter",
+    "name": "Arçelik 12325 Ekolojik Inverter 12.000 BTU A++ R32 Duvar Tipi Klima",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 27999,
+    "currency": "TL",
+    "rating": 4.92,
+    "epeyScore": 95,
+    "reviewCount": 1650,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "12.000 BTU Soğutma & 13.000 BTU Isıtma Kapasitesi",
+      "A++ Soğutma & A+ Isıtma Enerji Sınıfı (R32 Çevre Dostu Gaz)",
+      "HomeWhiz Wi-Fi ile Cep Telefonundan Uzaktan Açma / Kapama ve Sıcaklık Ayarı",
+      "Hızlı Soğutma (Jet Cool) & Kendi Kendini Temizleyen İyonizer Filtre"
+    ],
+    "specs": {
+      "subCategory": "air_conditioner",
+      "subCategoryLabel": "Klima",
+      "powerWatts": 1100,
+      "appControl": true,
+      "noiseLevelDb": 22,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-12325-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 27999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "🔥 Çok Satan 12.000 BTU Inverter"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3400,
+        "url": "#"
+      },
+      {
+        "id": "arcelik-12325-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 28499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Ücretsiz Montaj"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2100,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06",
+        "price": 29999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-07",
+        "price": 27999,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-18325-ekolojik-inverter",
+    "slug": "arcelik-18325-ekolojik-inverter",
+    "name": "Arçelik 18325 Ekolojik Inverter 18.000 BTU A++ R32 Duvar Tipi Klima",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 36999,
+    "currency": "TL",
+    "rating": 4.93,
+    "epeyScore": 96,
+    "reviewCount": 920,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "18.000 BTU Yüksek Güçlü Soğutma (Geniş Salonlar İçin)",
+      "HomeWhiz Wi-Fi Akıllı Kontrol & R32 Gaz",
+      "Ultra Sessiz Çalışma ve Otomatik Hava Yönlendirme (4 Yönlü)",
+      "Enerji Kontrolü (Energy Control) ile %40-\\%80 Tasarruf Modları"
+    ],
+    "specs": {
+      "subCategory": "air_conditioner",
+      "subCategoryLabel": "Klima",
+      "powerWatts": 1600,
+      "appControl": true,
+      "noiseLevelDb": 27,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-18325-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 36999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Geniş Alan 18.000 BTU"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1750,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 36999,
+        "store": "Hepsiburada"
       }
     ]
   }
