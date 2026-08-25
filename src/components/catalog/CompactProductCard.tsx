@@ -90,6 +90,13 @@ export function CompactProductCard({
     const refresh = specs.refreshRateHz ? `${specs.refreshRateHz}Hz` : '';
     const os = specs.smartOs || '';
     subInfo = [inch, tech, refresh, os].filter(Boolean).slice(0, 3).join(' • ') || (product.highlights?.[0] || '');
+  } else if (product.category === 'laptops') {
+    const inch = specs.screenSizeInches ? `${specs.screenSizeInches}"` : '';
+    const cpu = specs.processor ? (specs.processor.includes('Apple') ? specs.processor.split(' (')[0] : specs.processor.split(' ')[0] + ' ' + (specs.processor.split(' ')[1] || '')) : '';
+    const ram = specs.ramGb ? `${specs.ramGb}GB RAM` : '';
+    const storage = specs.storageGb ? `${specs.storageGb >= 1000 ? (specs.storageGb / 1000) + 'TB' : specs.storageGb + 'GB'}` : '';
+    const gpu = specs.gpu && !specs.gpu.toLowerCase().includes('intel') && !specs.gpu.toLowerCase().includes('iris') ? specs.gpu.split(' ')[0] + ' ' + (specs.gpu.split(' ')[1] || '') : '';
+    subInfo = [inch, cpu, gpu || ram, storage].filter(Boolean).slice(0, 3).join(' • ') || (product.highlights?.[0] || '');
   } else {
     // Appliances and generic
     const suction = specs.suctionPowerPa ? `${Number(specs.suctionPowerPa).toLocaleString()} Pa Emiş` : '';

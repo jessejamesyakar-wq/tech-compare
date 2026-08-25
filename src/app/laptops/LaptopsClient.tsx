@@ -1,266 +1,300 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, Suspense } from 'react';
 import Link from 'next/link';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { LaptopProduct } from '@/lib/types';
-import { LaptopFilterSidebar, LaptopFilterState } from '@/components/catalog/LaptopFilterSidebar';
-import { LaptopMediaMarktCard } from '@/components/catalog/LaptopMediaMarktCard';
-import {
-  SlidersHorizontal,
-  ChevronDown,
-  Sparkles,
-  Laptop as LaptopIcon,
-  Search,
-  RotateCcw
-} from 'lucide-react';
+import { CompactProductCard } from '@/components/catalog/CompactProductCard';
+import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
+import { Search, ChevronDown } from 'lucide-react';
 
-const ITEMS_PER_PAGE = 20;
+const ITEMS_PER_PAGE = 24;
 
-export default function LaptopsClient({ initialLaptops }: { initialLaptops: LaptopProduct[] }) {
-  const [laptops] = useState<LaptopProduct[]>(initialLaptops);
-  const [loading, setLoading] = useState<boolean>(false);
-  const [mobileFilterOpen, setMobileFilterOpen] = useState<boolean>(false);
-  const [visibleCount, setVisibleCount] = useState<number>(ITEMS_PER_PAGE);
+const TABS = [
+  { id: 'all', label: 'Tümü' },
+  { id: 'gaming', label: 'Oyun Bilgisayarı' },
+  { id: 'ultrabook', label: 'Ultrabook & Premium' },
+  { id: 'workstation', label: 'İş & Mühendislik' },
+  { id: 'daily', label: 'Günlük & Öğrenci' }
+];
 
-  // Filter State
-  const [filters, setFilters] = useState<LaptopFilterState>({
-    brands: [],
-    minPrice: 0,
-    maxPrice: 250000,
-    minScreenInch: 0,
-    maxScreenInch: 18,
-    searchQuery: ''
-  });
+function LaptopsContent({ initialLaptops }: { initialLaptops: LaptopProduct[] }) {
+  const router = useRouter();
+  const searchParams = useSearchParams();
 
-  // Sort State
-  const [sortBy, setSortBy] = useState<string>('best');
+  const [products] = useState<LaptopProduct[]>(initialLaptops);
+  const [activeTab, setActiveTab] = useState<string>('all');
+  const [searchQuery, setSearchQuery] = useState('');
+  const [sortBy, setSortBy] = useState('popular');
+  const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
 
-  // Filter Logic
-  const filteredLaptops = useMemo(() => {
-    return laptops.filter((laptop) => {
-      // Brand filter
-      if (filters.brands.length > 0) {
-        if (!filters.brands.some((b) => b.toLowerCase() === laptop.brand.toLowerCase())) {
+  const brandParam = searchParams.get('brand');
+  const selectedBrand = brandParam || 'all';
+
+  // Available top brands derived dynamically
+  const brands = useMemo(() => {
+    const counts = new Map<string, number>();
+    products.forEach((p) => {
+      if (p.brand) counts.set(p.brand, (counts.get(p.brand) || 0) + 1);
+    });
+    return Array.from(counts.entries())
+      .sort((a, b) => b[1] - a[1])
+      .map(([brand]) => brand)
+      .slice(0, 12);
+  }, [products]);
+
+  const handleSelectBrand = (brandName: string) => {
+    const params = new URLSearchParams(searchParams.toString());
+    if (brandName === 'all') {
+      params.delete('brand');
+    } else {
+      params.set('brand', brandName);
+    }
+    setVisibleCount(ITEMS_PER_PAGE);
+    router.push(`/laptops?${params.toString()}`, { scroll: false });
+  };
+
+  const displayProducts = useMemo(() => {
+    return products
+      .filter((p) => {
+        // Brand filter
+        if (selectedBrand !== 'all' && p.brand.toLowerCase() !== selectedBrand.toLowerCase()) {
           return false;
         }
-      }
 
-      // Price filter
-      if (laptop.basePrice < filters.minPrice || laptop.basePrice > filters.maxPrice) {
-        return false;
-      }
+        // Search filter
+        if (searchQuery) {
+          const q = searchQuery.toLowerCase();
+          const matchesName = p.name.toLowerCase().includes(q);
+          const matchesBrand = p.brand.toLowerCase().includes(q);
+          const matchesCpu = (p.specs?.processor || '').toLowerCase().includes(q);
+          const matchesGpu = (p.specs?.gpu || '').toLowerCase().includes(q);
+          if (!matchesName && !matchesBrand && !matchesCpu && !matchesGpu) return false;
+        }
 
-      // Screen size filter
-      const inch = laptop.specs?.screenSizeInches || 15.6;
-      if (inch < filters.minScreenInch || inch > filters.maxScreenInch) {
-        return false;
-      }
+        // Tab filter
+        const pName = p.name.toLowerCase();
+        const gpu = (p.specs?.gpu || '').toLowerCase();
+        const price = p.basePrice || 0;
 
-      // Search query
-      if (filters.searchQuery) {
-        const q = filters.searchQuery.toLowerCase();
-        const matchName = laptop.name.toLowerCase().includes(q);
-        const matchBrand = laptop.brand.toLowerCase().includes(q);
-        const matchChip = (laptop.specs?.processor || '').toLowerCase().includes(q);
-        if (!matchName && !matchBrand && !matchChip) return false;
-      }
+        if (activeTab === 'gaming') {
+          return (
+            gpu.includes('rtx') ||
+            gpu.includes('radeon rx') ||
+            pName.includes('rog') ||
+            pName.includes('tuf') ||
+            pName.includes('legion') ||
+            pName.includes('loq') ||
+            pName.includes('victus') ||
+            pName.includes('omen') ||
+            pName.includes('katana') ||
+            pName.includes('raider') ||
+            pName.includes('predator') ||
+            pName.includes('nitro')
+          );
+        } else if (activeTab === 'ultrabook') {
+          return (
+            pName.includes('macbook') ||
+            pName.includes('xps') ||
+            pName.includes('zenbook') ||
+            pName.includes('yoga') ||
+            pName.includes('spectre') ||
+            pName.includes('envy') ||
+            pName.includes('gram') ||
+            (price >= 45000 && !gpu.includes('rtx 4080') && !gpu.includes('rtx 4090'))
+          );
+        } else if (activeTab === 'workstation') {
+          return (
+            pName.includes('thinkpad') ||
+            pName.includes('proart') ||
+            pName.includes('zbook') ||
+            pName.includes('precision') ||
+            pName.includes('macbook pro 16') ||
+            gpu.includes('rtx 4090') ||
+            gpu.includes('rtx 4080')
+          );
+        } else if (activeTab === 'daily') {
+          return (
+            pName.includes('ideapad') ||
+            pName.includes('vivobook') ||
+            pName.includes('aspire') ||
+            pName.includes('pavilion') ||
+            pName.includes('matebook') ||
+            price < 35000
+          );
+        }
 
-      return true;
-    });
-  }, [laptops, filters]);
-
-  // Sort Logic
-  const sortedLaptops = useMemo(() => {
-    return [...filteredLaptops].sort((a, b) => {
-      if (sortBy === 'priceAsc') return a.basePrice - b.basePrice;
-      if (sortBy === 'priceDesc') return b.basePrice - a.basePrice;
-      if (sortBy === 'newest') return (b.releaseYear || 2025) - (a.releaseYear || 2025);
-      if (sortBy === 'rating') return (b.rating || 0) - (a.rating || 0);
-      // 'best' default sort: combination of rating score and isPopular/isFeatured
-      return (b.rating || 0) * 100 + (b.reviewCount || 0) - ((a.rating || 0) * 100 + (a.reviewCount || 0));
-    });
-  }, [filteredLaptops, sortBy]);
-
-  const paginatedLaptops = useMemo(() => {
-    return sortedLaptops.slice(0, visibleCount);
-  }, [sortedLaptops, visibleCount]);
+        return true;
+      })
+      .sort((a, b) => {
+        if (sortBy === 'priceAsc') return a.basePrice - b.basePrice;
+        if (sortBy === 'priceDesc') return b.basePrice - a.basePrice;
+        if (sortBy === 'rating') return b.rating - a.rating;
+        if (sortBy === 'newest') return (b.releaseYear || 2024) - (a.releaseYear || 2024);
+        return (b.isPopular ? 1 : 0) - (a.isPopular ? 1 : 0);
+      });
+  }, [products, selectedBrand, searchQuery, activeTab, sortBy]);
 
   return (
-    <div className="space-y-6 py-2">
-      <div className="flex flex-col lg:flex-row gap-8 items-start">
-        
-        {/* Sticky Accordion Filter Sidebar */}
-        <LaptopFilterSidebar
-          laptops={laptops}
-          filters={filters}
-          onFilterChange={setFilters}
-          totalProductsCount={sortedLaptops.length}
-          isOpenMobile={mobileFilterOpen}
-          onCloseMobile={() => setMobileFilterOpen(false)}
-        />
-
-        {/* Main Content Area */}
-        <div className="flex-1 w-full space-y-6">
-          
-          {/* Top Bar Header (MediaMarkt style Title & Sort Dropdown) */}
-          <div className="bg-white border border-slate-200 rounded-3xl p-5 shadow-2xs flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-            <div>
-              <h1 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight flex items-center gap-2">
-                <LaptopIcon className="w-6 h-6 text-emerald-600" />
-                <span>Bilgisayar & Laptop ({sortedLaptops.length} ürün)</span>
-              </h1>
-              <p className="text-xs text-slate-500 font-medium mt-0.5">
-                Lenovo (ThinkPad, Yoga, IdeaPad, Legion, LOQ, ThinkBook), Apple, Asus, HP ve Dell modellerinde 8 mağaza canlı fiyat takibi
-              </p>
-            </div>
-
-            <div className="flex items-center gap-3">
-              {/* Mobile Filter Toggle Button */}
-              <button
-                onClick={() => setMobileFilterOpen(true)}
-                className="lg:hidden bg-slate-900 text-white font-extrabold text-xs px-4 py-2.5 rounded-xl flex items-center gap-2 shadow-xs cursor-pointer"
-              >
-                <SlidersHorizontal className="w-4 h-4 text-emerald-400" />
-                <span>Filtrele ({sortedLaptops.length})</span>
-              </button>
-
-              {/* Sort Dropdown (MediaMarkt Style "Sırala") */}
-              <div className="flex items-center gap-2 bg-slate-50 border border-slate-200 rounded-2xl px-3.5 py-2">
-                <label htmlFor="sort-select" className="text-xs font-bold text-slate-500 whitespace-nowrap">
-                  Sırala
-                </label>
-                <select
-                  id="sort-select"
-                  value={sortBy}
-                  onChange={(e) => setSortBy(e.target.value)}
-                  className="bg-transparent text-xs font-black text-slate-900 outline-none cursor-pointer pr-1"
-                >
-                  <option value="best">En iyi sonuçlar</option>
-                  <option value="priceAsc">Fiyat: Düşükten Yükseğe</option>
-                  <option value="priceDesc">Fiyat: Yüksekten Düşüğe</option>
-                  <option value="rating">En Yüksek Puanlılar</option>
-                  <option value="newest">En Yeniler (2026)</option>
-                </select>
-              </div>
-            </div>
-          </div>
-
-          {/* Active Search & Filter Tags Bar */}
-          {(filters.brands.length > 0 || filters.searchQuery) && (
-            <div className="flex flex-wrap items-center gap-2 bg-emerald-50/60 border border-emerald-200/80 p-3 rounded-2xl">
-              <span className="text-xs font-bold text-emerald-800">Aktif Filtreler:</span>
-
-              {filters.brands.map((b) => (
-                <span
-                  key={b}
-                  className="bg-white border border-emerald-300 text-emerald-800 font-extrabold text-xs px-3 py-1 rounded-full flex items-center gap-1 shadow-2xs"
-                >
-                  <span>Marka: {b}</span>
-                  <button
-                    onClick={() =>
-                      setFilters({ ...filters, brands: filters.brands.filter((x) => x !== b) })
-                    }
-                    className="hover:text-rose-600 font-bold ml-1"
-                  >
-                    ×
-                  </button>
-                </span>
-              ))}
-
-              {filters.searchQuery && (
-                <span className="bg-white border border-emerald-300 text-emerald-800 font-extrabold text-xs px-3 py-1 rounded-full flex items-center gap-1 shadow-2xs">
-                  <span>Arama: {filters.searchQuery}</span>
-                  <button
-                    onClick={() => setFilters({ ...filters, searchQuery: '' })}
-                    className="hover:text-rose-600 font-bold ml-1"
-                  >
-                    ×
-                  </button>
-                </span>
-              )}
-
-              <button
-                onClick={() =>
-                  setFilters({
-                    brands: [],
-                    minPrice: 0,
-                    maxPrice: 250000,
-                    minScreenInch: 0,
-                    maxScreenInch: 18,
-                    searchQuery: ''
-                  })
-                }
-                className="text-xs font-extrabold text-rose-600 hover:underline ml-auto"
-              >
-                Filtreleri Temizle
-              </button>
-            </div>
-          )}
-
-          {/* Product List Stack (MediaMarkt List View Format) */}
-          {loading ? (
-            <div className="space-y-4">
-              {[...Array(4)].map((_, i) => (
-                <div key={i} className="h-64 bg-slate-100 rounded-3xl animate-pulse" />
-              ))}
-            </div>
-          ) : sortedLaptops.length === 0 ? (
-            <div className="bg-white border border-slate-200 rounded-3xl p-12 text-center space-y-4">
-              <div className="w-16 h-16 rounded-full bg-slate-100 text-slate-400 flex items-center justify-center mx-auto">
-                <Search className="w-8 h-8" />
-              </div>
-              <h3 className="text-lg font-black text-slate-900">Aradığınız kriterlere uygun bilgisayar bulunamadı</h3>
-              <p className="text-xs text-slate-500 max-w-md mx-auto font-medium">
-                Filtre kriterlerinizi genişleterek veya arama teriminizi değiştirerek tekrar deneyebilirsiniz.
-              </p>
-              <button
-                onClick={() =>
-                  setFilters({
-                    brands: [],
-                    productTypes: [],
-                    lenovoSeries: [],
-                    appleSeries: [],
-                    minPrice: 0,
-                    maxPrice: 250000,
-                    minScreenInch: 0,
-                    maxScreenInch: 18,
-                    searchQuery: ''
-                  })
-                }
-                className="bg-emerald-600 hover:bg-emerald-500 text-white font-black text-xs px-6 py-3 rounded-full shadow-md"
-              >
-                Tüm Filtreleri Temizle
-              </button>
-            </div>
-          ) : (
-            <div className="space-y-6">
-              <div className="space-y-4">
-                {paginatedLaptops.map((laptop, idx) => (
-                  <LaptopMediaMarktCard key={laptop.id} laptop={laptop} index={idx} />
-                ))}
-              </div>
-
-              {/* Load More Button */}
-              {visibleCount < sortedLaptops.length && (
-                <div className="text-center pt-4">
-                  <button
-                    onClick={() => setVisibleCount((prev) => prev + ITEMS_PER_PAGE)}
-                    className="inline-flex items-center gap-2 bg-slate-900 hover:bg-emerald-600 text-white font-extrabold text-xs px-8 py-3.5 rounded-2xl shadow-md transition-all cursor-pointer hover:scale-105 active:scale-95"
-                  >
-                    <span>Daha Fazla Laptop Göster ({sortedLaptops.length - visibleCount} model kaldı)</span>
-                    <ChevronDown className="w-4 h-4" />
-                  </button>
-                  <p className="text-[11px] text-slate-400 mt-2 font-semibold">
-                    {visibleCount} / {sortedLaptops.length} model listeleniyor
-                  </p>
-                </div>
-              )}
-            </div>
-          )}
-
+    <div className="space-y-8 pb-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Top Header Section - Minimalist & Centered */}
+      <div className="pt-4 pb-2 text-center space-y-3">
+        <div className="text-xs text-slate-400 font-semibold flex items-center justify-center gap-1.5">
+          <Link href="/" className="hover:text-slate-900 transition-colors">Ana Sayfa</Link>
+          <span>/</span>
+          <span className="text-slate-800 font-bold">Bilgisayar & Laptop</span>
         </div>
 
+        <div className="flex items-center justify-center gap-2.5">
+          <h1 className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
+            Bilgisayar & Laptop
+          </h1>
+          <span className="text-[11px] font-bold bg-slate-100 text-slate-600 px-3 py-1 rounded-full">
+            {displayProducts.length} Model
+          </span>
+        </div>
+
+        <p className="text-xs sm:text-sm text-slate-500 font-medium max-w-md mx-auto">
+          MacBook, Gaming ve Ultrabook bilgisayarlar ile canlı mağaza fiyat karşılaştırmaları
+        </p>
+
+        {/* Minimalist Search & Sort Bar */}
+        <div className="max-w-xl mx-auto pt-2 flex items-center gap-2">
+          <div className="relative flex-1">
+            <Search className="w-4 h-4 text-slate-400 absolute left-4 top-1/2 -translate-y-1/2" />
+            <input
+              type="text"
+              placeholder="Laptop ara (model, marka, işlemci, ekran kartı)..."
+              value={searchQuery}
+              onChange={(e) => {
+                setSearchQuery(e.target.value);
+                setVisibleCount(ITEMS_PER_PAGE);
+              }}
+              className="w-full bg-slate-50 hover:bg-slate-100/80 focus:bg-white border border-slate-200/90 focus:border-slate-800 rounded-full pl-10 pr-4 py-2.5 text-xs font-semibold text-slate-800 outline-none transition-all shadow-2xs placeholder:text-slate-400"
+            />
+          </div>
+
+          <select
+            value={sortBy}
+            onChange={(e) => {
+              setSortBy(e.target.value);
+              setVisibleCount(ITEMS_PER_PAGE);
+            }}
+            className="bg-slate-50 hover:bg-slate-100/80 border border-slate-200/90 rounded-full px-4 py-2.5 text-xs font-bold text-slate-800 outline-none cursor-pointer transition-all shadow-2xs"
+          >
+            <option value="popular">Öne Çıkanlar</option>
+            <option value="priceAsc">Fiyat: Düşükten Yükseğe</option>
+            <option value="priceDesc">Fiyat: Yüksekten Düşüğe</option>
+            <option value="rating">En Yüksek Puanlılar</option>
+            <option value="newest">En Yeni Çıkanlar</option>
+          </select>
+        </div>
       </div>
+
+      {/* Segmented Form Factor Tabs (Apple / Scandinavian Style) */}
+      <div className="border-b border-slate-200/80 flex items-center justify-center gap-2 sm:gap-8 overflow-x-auto scrollbar-none">
+        {TABS.map((tab) => {
+          const isActive = activeTab === tab.id;
+          return (
+            <button
+              key={tab.id}
+              onClick={() => {
+                setActiveTab(tab.id);
+                setVisibleCount(ITEMS_PER_PAGE);
+              }}
+              className={`pb-3 px-3 text-xs sm:text-sm font-bold tracking-tight transition-all relative cursor-pointer whitespace-nowrap ${
+                isActive ? 'text-slate-900' : 'text-slate-400 hover:text-slate-700'
+              }`}
+            >
+              <span>{tab.label}</span>
+              {isActive && (
+                <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-slate-900 rounded-full" />
+              )}
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Minimalist Brand Chips */}
+      <div className="flex items-center justify-center gap-1.5 flex-wrap pt-1">
+        <button
+          onClick={() => handleSelectBrand('all')}
+          className={`px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all cursor-pointer ${
+            selectedBrand === 'all'
+              ? 'bg-slate-900 text-white shadow-xs'
+              : 'bg-slate-100 hover:bg-slate-200 text-slate-600'
+          }`}
+        >
+          Tüm Markalar
+        </button>
+        {brands.map((b) => {
+          const isSelected = selectedBrand.toLowerCase() === b.toLowerCase();
+          return (
+            <button
+              key={b}
+              onClick={() => handleSelectBrand(isSelected ? 'all' : b)}
+              className={`px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all cursor-pointer ${
+                isSelected
+                  ? 'bg-slate-900 text-white shadow-xs'
+                  : 'bg-slate-100 hover:bg-slate-200 text-slate-600'
+              }`}
+            >
+              {b}
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Products Grid */}
+      {displayProducts.length > 0 ? (
+        <div className="space-y-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
+            {displayProducts.slice(0, visibleCount).map((product, idx) => (
+              <CompactProductCard key={product.id} product={product} index={idx} />
+            ))}
+          </div>
+
+          {/* Load More Button */}
+          {visibleCount < displayProducts.length && (
+            <div className="text-center pt-6">
+              <button
+                onClick={() => setVisibleCount((prev) => prev + ITEMS_PER_PAGE)}
+                className="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs px-8 py-3.5 rounded-full shadow-sm transition-all cursor-pointer hover:scale-105 active:scale-95"
+              >
+                <span>Daha Fazla Laptop Göster ({displayProducts.length - visibleCount} model kaldı)</span>
+                <ChevronDown className="w-4 h-4" />
+              </button>
+              <p className="text-[11px] text-slate-400 mt-2 font-medium">
+                {visibleCount} / {displayProducts.length} model listeleniyor
+              </p>
+            </div>
+          )}
+        </div>
+      ) : (
+        <div className="bg-slate-50 border border-slate-200/80 rounded-3xl p-12 text-center space-y-3">
+          <p className="text-sm font-bold text-slate-700">Seçilen filtrelere uygun bilgisayar modeli bulunamadı.</p>
+          <button
+            onClick={() => {
+              setSearchQuery('');
+              handleSelectBrand('all');
+              setActiveTab('all');
+            }}
+            className="text-xs text-emerald-700 font-bold underline cursor-pointer hover:text-emerald-800"
+          >
+            Filtreleri Temizle
+          </button>
+        </div>
+      )}
+
+      <CategoryIconStrip />
     </div>
+  );
+}
+
+export default function LaptopsClient({ initialLaptops }: { initialLaptops: LaptopProduct[] }) {
+  return (
+    <Suspense fallback={<div className="p-8 text-center text-xs text-slate-400">Yükleniyor...</div>}>
+      <LaptopsContent initialLaptops={initialLaptops} />
+    </Suspense>
   );
 }
