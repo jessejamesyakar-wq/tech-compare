@@ -10,6 +10,7 @@ import { Language } from '@/lib/types';
 import { searchProducts } from '@/lib/data';
 import { Product } from '@/lib/types';
 import { Logo } from './Logo';
+import { CategoryBar } from './CategoryBar';
 import {
   Smartphone as PhoneIcon,
   Tv as TvIcon,
@@ -274,6 +275,9 @@ export function Navbar() {
           </div>
         </div>
       </div>
+
+      {/* Global Persistent Category Navigation Bar */}
+      <CategoryBar />
     </header>
   );
 }

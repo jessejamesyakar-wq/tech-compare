@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { LaptopProduct } from '@/lib/types';
 import { LaptopFilterSidebar, LaptopFilterState } from '@/components/catalog/LaptopFilterSidebar';
 import { LaptopMediaMarktCard } from '@/components/catalog/LaptopMediaMarktCard';
-import { CategoryBar } from '@/components/layout/CategoryBar';
 import {
   SlidersHorizontal,
   ChevronDown,
@@ -117,9 +116,6 @@ export default function LaptopsClient({ initialLaptops }: { initialLaptops: Lapt
 
   return (
     <div className="space-y-6 py-2">
-      {/* Category Navigation Bar */}
-      <CategoryBar />
-
       <div className="flex flex-col lg:flex-row gap-8 items-start">
         
         {/* Sticky Accordion Filter Sidebar */}

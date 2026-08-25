@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { ApplianceProduct } from '@/lib/types';
 import { CompactProductCard } from '@/components/catalog/CompactProductCard';
-import { CategoryBar } from '@/components/layout/CategoryBar';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
 import {
   Search,
@@ -469,9 +468,6 @@ export default function AppliancesClient({
 
   return (
     <div className="space-y-8 pb-16">
-      {/* 1. Global Navigation Bar */}
-      <CategoryBar />
-
       {/* 2. Hero Section */}
       <div className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-emerald-950 text-white rounded-3xl p-6 sm:p-10 shadow-xl overflow-hidden border border-slate-700/50">
         <div className="absolute -right-16 -bottom-16 w-80 h-80 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />

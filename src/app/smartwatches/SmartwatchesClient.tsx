@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Product } from '@/lib/types';
 import { CompactProductCard } from '@/components/catalog/CompactProductCard';
-import { CategoryBar } from '@/components/layout/CategoryBar';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
 import { BrandPillBar } from '@/components/catalog/BrandPillBar';
 import { Search, Watch, X, ChevronDown } from 'lucide-react';
@@ -68,8 +67,6 @@ function SmartwatchesContent({ initialProducts }: { initialProducts: Product[] }
 
   return (
     <div className="space-y-6 pb-12">
-      <CategoryBar />
-
       {/* Header Banner */}
       <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-2xs flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>

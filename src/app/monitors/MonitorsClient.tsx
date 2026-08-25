@@ -4,7 +4,6 @@ import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { Product } from '@/lib/types';
 import { CompactProductCard } from '@/components/catalog/CompactProductCard';
-import { CategoryBar } from '@/components/layout/CategoryBar';
 import { Sparkles, ArrowLeft, Search, Filter, Monitor, Zap, Award } from 'lucide-react';
 
 const ITEMS_PER_PAGE = 24;
@@ -28,8 +27,6 @@ export default function MonitorsClient({ initialProducts }: { initialProducts: P
 
   return (
     <div className="space-y-6 pb-12">
-      <CategoryBar />
-
       {/* Header Banner */}
       <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-indigo-950 text-white border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl flex flex-col sm:flex-row sm:items-center justify-between gap-4 relative overflow-hidden">
         <div className="space-y-2 relative z-10">

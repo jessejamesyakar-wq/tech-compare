@@ -10,7 +10,6 @@ import { getStoredProducts } from '@/lib/adminData';
 import { popularComparisonsList } from '@/lib/mockData';
 import { Smartphone, TVProduct } from '@/lib/types';
 import { calculateTVScore } from '@/lib/tvScoring';
-import { CategoryBar } from '@/components/layout/CategoryBar';
 import { HeroCarousel, getDynamicHeroSlides } from '@/components/promo/HeroCarousel';
 import { HeroThumbnailStrip } from '@/components/promo/HeroThumbnailStrip';
 import { WeeklyPromoStrip } from '@/components/promo/WeeklyPromoStrip';
@@ -268,9 +267,6 @@ export default function HomePage() {
 
   return (
     <div className="space-y-8 py-2">
-
-      {/* 1. Upper Category Bar (Navbar Sub-Bar with Top Underline Indicator) */}
-      <CategoryBar />
 
       {/* 2. Hero Banner & Interactive Showcase Slider */}
       <HeroCarousel activeIndex={heroIndex} onSelect={setHeroIndex} />
