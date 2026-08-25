@@ -5089,12 +5089,17 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 1,
       "storageGb": 64,
       "sensors": [
-        "EKG",
-        "Kandaki Oksijen (SpO2)",
-        "Cilt Sıcaklığı",
-        "Derinlik Ölçer & Su Sıcaklığı",
-        "Pusula",
-        "Altimetre"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre",
+        "Elektriksel Kalp Sensörü (EKG / ECG)",
+        "Kandaki Oksijen Sensörü (SpO2)",
+        "Cilt Sıcaklığı Sensörü (Ovülasyon ve Uyku Takibi)",
+        "Trafik Kazası Algılama (Yüksek G İvmeölçeri)",
+        "Uyku Apnesi Bildirimi",
+        "Derinlik Göstergesi ve Su Sıcaklığı Sensörü"
       ],
       "connectivity": [
         "4G LTE (eSIM)",
@@ -5109,7 +5114,12 @@ export const mockSmartwatches: Product[] = [
       "hasSpeaker": true,
       "hasGPS": true,
       "hasNFC": true,
-      "hasCellular": true
+      "hasCellular": true,
+      "internalStorageGB": 64,
+      "casingMaterial": "Titanyum (Havacılık / Grade 5)",
+      "displaySizeInch": 1.99,
+      "waterResistance": "100m (10 ATM) / EN13319 40m Tüplü Dalış ve Yüksek Hızlı Su Sporları",
+      "voiceCalling": true
     },
     "storeOffers": [
       {
@@ -5223,12 +5233,17 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 1,
       "storageGb": 64,
       "sensors": [
-        "EKG",
-        "SpO2",
-        "Cilt Sıcaklığı",
-        "Derinlik Ölçer",
-        "Pusula",
-        "Altimetre"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre",
+        "Elektriksel Kalp Sensörü (EKG / ECG)",
+        "Kandaki Oksijen Sensörü (SpO2)",
+        "Cilt Sıcaklığı Sensörü (Ovülasyon ve Uyku Takibi)",
+        "Trafik Kazası Algılama (Yüksek G İvmeölçeri)",
+        "Uyku Apnesi Bildirimi",
+        "Derinlik Göstergesi ve Su Sıcaklığı Sensörü"
       ],
       "connectivity": [
         "4G LTE (eSIM)",
@@ -5243,7 +5258,12 @@ export const mockSmartwatches: Product[] = [
       "hasSpeaker": true,
       "hasGPS": true,
       "hasNFC": true,
-      "hasCellular": true
+      "hasCellular": true,
+      "internalStorageGB": 64,
+      "casingMaterial": "Titanyum (Havacılık / Grade 5)",
+      "displaySizeInch": 1.99,
+      "waterResistance": "100m (10 ATM) / EN13319 40m Tüplü Dalış ve Yüksek Hızlı Su Sporları",
+      "voiceCalling": true
     },
     "storeOffers": [
       {
@@ -5342,12 +5362,16 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 1,
       "storageGb": 64,
       "sensors": [
-        "EKG",
-        "SpO2",
-        "Cilt Sıcaklığı",
-        "Derinlik Ölçer",
-        "Su Sıcaklığı",
-        "Uyku Apnesi"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Elektriksel Kalp Sensörü (EKG / ECG)",
+        "Kandaki Oksijen Sensörü (SpO2)",
+        "Cilt Sıcaklığı Sensörü (Ovülasyon ve Uyku Takibi)",
+        "Trafik Kazası Algılama (Yüksek G İvmeölçeri)",
+        "Uyku Apnesi Bildirimi",
+        "Derinlik Göstergesi ve Su Sıcaklığı Sensörü"
       ],
       "connectivity": [
         "4G LTE (eSIM)",
@@ -5362,7 +5386,12 @@ export const mockSmartwatches: Product[] = [
       "hasSpeaker": true,
       "hasGPS": true,
       "hasNFC": true,
-      "hasCellular": true
+      "hasCellular": true,
+      "internalStorageGB": 64,
+      "casingMaterial": "Titanyum (Havacılık / Grade 5)",
+      "displaySizeInch": 1.96,
+      "waterResistance": "IPX7 Su Sıçramalarına Karşı Dayanıklı",
+      "voiceCalling": true
     },
     "storeOffers": [
       {
@@ -5463,12 +5492,15 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 1,
       "storageGb": 64,
       "sensors": [
-        "EKG",
-        "SpO2",
-        "Cilt Sıcaklığı",
-        "Derinlik Ölçer (6m)",
-        "Su Sıcaklığı",
-        "İvmeölçer"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Elektriksel Kalp Sensörü (EKG / ECG)",
+        "Kandaki Oksijen Sensörü (SpO2)",
+        "Cilt Sıcaklığı Sensörü (Ovülasyon ve Uyku Takibi)",
+        "Trafik Kazası Algılama (Yüksek G İvmeölçeri)",
+        "Uyku Apnesi Bildirimi"
       ],
       "connectivity": [
         "Bluetooth 5.3",
@@ -5481,7 +5513,13 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
-      "hasNFC": true
+      "hasNFC": true,
+      "internalStorageGB": 64,
+      "casingMaterial": "%100 Geri Dönüştürülmüş Alüminyum Alaşım",
+      "displaySizeInch": 1.96,
+      "waterResistance": "IPX7 Su Sıçramalarına Karşı Dayanıklı",
+      "voiceCalling": true,
+      "hasCellular": false
     },
     "storeOffers": [
       {
@@ -5599,11 +5637,15 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 1,
       "storageGb": 64,
       "sensors": [
-        "EKG",
-        "SpO2",
-        "Cilt Sıcaklığı",
-        "Derinlik Ölçer",
-        "Su Sıcaklığı"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Elektriksel Kalp Sensörü (EKG / ECG)",
+        "Kandaki Oksijen Sensörü (SpO2)",
+        "Cilt Sıcaklığı Sensörü (Ovülasyon ve Uyku Takibi)",
+        "Trafik Kazası Algılama (Yüksek G İvmeölçeri)",
+        "Uyku Apnesi Bildirimi"
       ],
       "connectivity": [
         "Bluetooth 5.3",
@@ -5616,7 +5658,13 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
-      "hasNFC": true
+      "hasNFC": true,
+      "internalStorageGB": 64,
+      "casingMaterial": "%100 Geri Dönüştürülmüş Alüminyum Alaşım",
+      "displaySizeInch": 1.69,
+      "waterResistance": "IPX7 Su Sıçramalarına Karşı Dayanıklı",
+      "voiceCalling": true,
+      "hasCellular": false
     },
     "storeOffers": [
       {
@@ -5717,11 +5765,15 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 1,
       "storageGb": 64,
       "sensors": [
-        "EKG",
-        "SpO2",
-        "Cilt Sıcaklığı",
-        "İvmeölçer",
-        "Barometre"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre",
+        "Elektriksel Kalp Sensörü (EKG / ECG)",
+        "Kandaki Oksijen Sensörü (SpO2)",
+        "Cilt Sıcaklığı Sensörü (Ovülasyon ve Uyku Takibi)",
+        "Trafik Kazası Algılama (Yüksek G İvmeölçeri)"
       ],
       "connectivity": [
         "4G LTE (eSIM)",
@@ -5736,7 +5788,12 @@ export const mockSmartwatches: Product[] = [
       "hasSpeaker": true,
       "hasGPS": true,
       "hasNFC": true,
-      "hasCellular": true
+      "hasCellular": true,
+      "internalStorageGB": 64,
+      "casingMaterial": "Paslanmaz Çelik & Safir Kristal",
+      "displaySizeInch": 1.9,
+      "waterResistance": "50m (5 ATM) Su Geçirmezlik (ISO 22810:2010)",
+      "voiceCalling": true
     },
     "storeOffers": [
       {
@@ -5824,12 +5881,15 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 1,
       "storageGb": 64,
       "sensors": [
-        "EKG",
-        "SpO2",
-        "Cilt Sıcaklığı",
-        "İvmeölçer",
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
         "Jiroskop",
-        "Ortam Işığı"
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre",
+        "Elektriksel Kalp Sensörü (EKG / ECG)",
+        "Kandaki Oksijen Sensörü (SpO2)",
+        "Cilt Sıcaklığı Sensörü (Ovülasyon ve Uyku Takibi)",
+        "Trafik Kazası Algılama (Yüksek G İvmeölçeri)"
       ],
       "connectivity": [
         "Bluetooth 5.3",
@@ -5842,7 +5902,13 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
-      "hasNFC": true
+      "hasNFC": true,
+      "internalStorageGB": 64,
+      "casingMaterial": "%100 Geri Dönüştürülmüş Alüminyum Alaşım",
+      "displaySizeInch": 1.9,
+      "waterResistance": "50m (5 ATM) Su Geçirmezlik (ISO 22810:2010)",
+      "voiceCalling": true,
+      "hasCellular": false
     },
     "storeOffers": [
       {
@@ -5951,10 +6017,15 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 1,
       "storageGb": 64,
       "sensors": [
-        "EKG",
-        "SpO2",
-        "Cilt Sıcaklığı",
-        "İvmeölçer"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre",
+        "Elektriksel Kalp Sensörü (EKG / ECG)",
+        "Kandaki Oksijen Sensörü (SpO2)",
+        "Cilt Sıcaklığı Sensörü (Ovülasyon ve Uyku Takibi)",
+        "Trafik Kazası Algılama (Yüksek G İvmeölçeri)"
       ],
       "connectivity": [
         "Bluetooth 5.3",
@@ -5967,7 +6038,13 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
-      "hasNFC": true
+      "hasNFC": true,
+      "internalStorageGB": 64,
+      "casingMaterial": "%100 Geri Dönüştürülmüş Alüminyum Alaşım",
+      "displaySizeInch": 1.69,
+      "waterResistance": "50m (5 ATM) Su Geçirmezlik (ISO 22810:2010)",
+      "voiceCalling": true,
+      "hasCellular": false
     },
     "storeOffers": [
       {
@@ -6055,10 +6132,11 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 1,
       "storageGb": 32,
       "sensors": [
-        "Optik Kalp (2. Nesil)",
-        "İvmeölçer",
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
         "Jiroskop",
-        "Altimetre"
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre"
       ],
       "connectivity": [
         "4G LTE (eSIM)",
@@ -6073,7 +6151,12 @@ export const mockSmartwatches: Product[] = [
       "hasSpeaker": true,
       "hasGPS": true,
       "hasNFC": true,
-      "hasCellular": true
+      "hasCellular": true,
+      "internalStorageGB": 32,
+      "casingMaterial": "%100 Geri Dönüştürülmüş Alüminyum Alaşım",
+      "displaySizeInch": 1.78,
+      "waterResistance": "50m (5 ATM) Su Geçirmezlik (ISO 22810:2010)",
+      "voiceCalling": true
     },
     "storeOffers": [
       {
@@ -6161,10 +6244,11 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 1,
       "storageGb": 32,
       "sensors": [
-        "Optik Kalp Sensörü (2. Nesil)",
-        "Yüksek G İvmeölçeri",
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
         "Jiroskop",
-        "Altimetre"
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre"
       ],
       "connectivity": [
         "Bluetooth 5.3",
@@ -6177,7 +6261,13 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
-      "hasNFC": true
+      "hasNFC": true,
+      "internalStorageGB": 32,
+      "casingMaterial": "%100 Geri Dönüştürülmüş Alüminyum Alaşım",
+      "displaySizeInch": 1.78,
+      "waterResistance": "50m (5 ATM) Su Geçirmezlik (ISO 22810:2010)",
+      "voiceCalling": true,
+      "hasCellular": false
     },
     "storeOffers": [
       {
@@ -6282,10 +6372,11 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 1,
       "storageGb": 32,
       "sensors": [
-        "Optik Kalp",
-        "İvmeölçer",
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
         "Jiroskop",
-        "Altimetre"
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre"
       ],
       "connectivity": [
         "Bluetooth 5.3",
@@ -6298,7 +6389,13 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
-      "hasNFC": true
+      "hasNFC": true,
+      "internalStorageGB": 32,
+      "casingMaterial": "%100 Geri Dönüştürülmüş Alüminyum Alaşım",
+      "displaySizeInch": 1.57,
+      "waterResistance": "50m (5 ATM) Su Geçirmezlik (ISO 22810:2010)",
+      "voiceCalling": true,
+      "hasCellular": false
     },
     "storeOffers": [
       {
@@ -6400,13 +6497,16 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 1,
       "storageGb": 32,
       "sensors": [
-        "EKG",
-        "SpO2",
-        "Cilt Sıcaklığı",
-        "Derinlik Göstergesi",
-        "Su Sıcaklığı",
-        "Pusula",
-        "Altimetre"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre",
+        "Elektriksel Kalp Sensörü (EKG / ECG)",
+        "Kandaki Oksijen Sensörü (SpO2)",
+        "Cilt Sıcaklığı Sensörü (Ovülasyon ve Uyku Takibi)",
+        "Trafik Kazası Algılama (Yüksek G İvmeölçeri)",
+        "Derinlik Göstergesi ve Su Sıcaklığı Sensörü"
       ],
       "connectivity": [
         "4G LTE (eSIM)",
@@ -6421,7 +6521,12 @@ export const mockSmartwatches: Product[] = [
       "hasSpeaker": true,
       "hasGPS": true,
       "hasNFC": true,
-      "hasCellular": true
+      "hasCellular": true,
+      "internalStorageGB": 64,
+      "casingMaterial": "Titanyum (Havacılık / Grade 5)",
+      "displaySizeInch": 1.99,
+      "waterResistance": "100m (10 ATM) / EN13319 40m Tüplü Dalış ve Yüksek Hızlı Su Sporları",
+      "voiceCalling": true
     },
     "storeOffers": [
       {
@@ -6505,11 +6610,15 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 1,
       "storageGb": 32,
       "sensors": [
-        "EKG",
-        "SpO2",
-        "Cilt Sıcaklığı",
-        "İvmeölçer",
-        "Barometre"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre",
+        "Elektriksel Kalp Sensörü (EKG / ECG)",
+        "Kandaki Oksijen Sensörü (SpO2)",
+        "Cilt Sıcaklığı Sensörü (Ovülasyon ve Uyku Takibi)",
+        "Trafik Kazası Algılama (Yüksek G İvmeölçeri)"
       ],
       "connectivity": [
         "Bluetooth 5.3",
@@ -6522,7 +6631,13 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
-      "hasNFC": true
+      "hasNFC": true,
+      "internalStorageGB": 32,
+      "casingMaterial": "%100 Geri Dönüştürülmüş Alüminyum Alaşım",
+      "displaySizeInch": 1.9,
+      "waterResistance": "50m (5 ATM) Su Geçirmezlik (ISO 22810:2010)",
+      "voiceCalling": true,
+      "hasCellular": false
     },
     "storeOffers": [
       {
@@ -6608,10 +6723,15 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 1,
       "storageGb": 32,
       "sensors": [
-        "EKG",
-        "SpO2",
-        "Cilt Sıcaklığı",
-        "İvmeölçer"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre",
+        "Elektriksel Kalp Sensörü (EKG / ECG)",
+        "Kandaki Oksijen Sensörü (SpO2)",
+        "Cilt Sıcaklığı Sensörü (Ovülasyon ve Uyku Takibi)",
+        "Trafik Kazası Algılama (Yüksek G İvmeölçeri)"
       ],
       "connectivity": [
         "Bluetooth 5.3",
@@ -6624,7 +6744,13 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
-      "hasNFC": true
+      "hasNFC": true,
+      "internalStorageGB": 32,
+      "casingMaterial": "%100 Geri Dönüştürülmüş Alüminyum Alaşım",
+      "displaySizeInch": 1.69,
+      "waterResistance": "50m (5 ATM) Su Geçirmezlik (ISO 22810:2010)",
+      "voiceCalling": true,
+      "hasCellular": false
     },
     "storeOffers": [
       {
@@ -6707,10 +6833,13 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 1,
       "storageGb": 32,
       "sensors": [
-        "EKG",
-        "SpO2",
-        "Optik Kalp (3. Nesil)",
-        "Altimetre"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre",
+        "Elektriksel Kalp Sensörü (EKG / ECG)",
+        "Kandaki Oksijen Sensörü (SpO2)"
       ],
       "connectivity": [
         "Bluetooth 5.0",
@@ -6723,7 +6852,13 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
-      "hasNFC": true
+      "hasNFC": true,
+      "internalStorageGB": 32,
+      "casingMaterial": "%100 Geri Dönüştürülmüş Alüminyum Alaşım",
+      "displaySizeInch": 1.9,
+      "waterResistance": "50m (5 ATM) Su Geçirmezlik (ISO 22810:2010)",
+      "voiceCalling": true,
+      "hasCellular": false
     },
     "storeOffers": [
       {
@@ -6812,9 +6947,13 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 1,
       "storageGb": 32,
       "sensors": [
-        "EKG",
-        "SpO2",
-        "Optik Kalp"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre",
+        "Elektriksel Kalp Sensörü (EKG / ECG)",
+        "Kandaki Oksijen Sensörü (SpO2)"
       ],
       "connectivity": [
         "Bluetooth 5.0",
@@ -6827,7 +6966,13 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
-      "hasNFC": true
+      "hasNFC": true,
+      "internalStorageGB": 32,
+      "casingMaterial": "%100 Geri Dönüştürülmüş Alüminyum Alaşım",
+      "displaySizeInch": 1.69,
+      "waterResistance": "50m (5 ATM) Su Geçirmezlik (ISO 22810:2010)",
+      "voiceCalling": true,
+      "hasCellular": false
     },
     "storeOffers": [
       {
@@ -6914,10 +7059,13 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 1,
       "storageGb": 32,
       "sensors": [
-        "SpO2",
-        "EKG",
-        "Optik Kalp",
-        "Her Zaman Açık Altimetre"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre",
+        "Elektriksel Kalp Sensörü (EKG / ECG)",
+        "Kandaki Oksijen Sensörü (SpO2)"
       ],
       "connectivity": [
         "Bluetooth 5.0",
@@ -6931,7 +7079,13 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
-      "hasNFC": true
+      "hasNFC": true,
+      "internalStorageGB": 32,
+      "casingMaterial": "%100 Geri Dönüştürülmüş Alüminyum Alaşım",
+      "displaySizeInch": 1.78,
+      "waterResistance": "50m (5 ATM) Su Geçirmezlik (ISO 22810:2010)",
+      "voiceCalling": true,
+      "hasCellular": false
     },
     "storeOffers": [
       {
@@ -7021,10 +7175,11 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 1,
       "storageGb": 32,
       "sensors": [
-        "Optik Kalp (2. Nesil)",
-        "İvmeölçer",
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
         "Jiroskop",
-        "Altimetre"
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre"
       ],
       "connectivity": [
         "Bluetooth 5.0",
@@ -7037,7 +7192,13 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
-      "hasNFC": true
+      "hasNFC": true,
+      "internalStorageGB": 32,
+      "casingMaterial": "%100 Geri Dönüştürülmüş Alüminyum Alaşım",
+      "displaySizeInch": 1.78,
+      "waterResistance": "50m (5 ATM) Su Geçirmezlik (ISO 22810:2010)",
+      "voiceCalling": true,
+      "hasCellular": false
     },
     "storeOffers": [
       {
@@ -7124,10 +7285,12 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 1,
       "storageGb": 32,
       "sensors": [
-        "EKG",
-        "Optik Kalp (2. Nesil)",
-        "Dahili Pusula",
-        "Barometre"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre",
+        "Elektriksel Kalp Sensörü (EKG / ECG)"
       ],
       "connectivity": [
         "Bluetooth 5.0",
@@ -7140,7 +7303,13 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
-      "hasNFC": true
+      "hasNFC": true,
+      "internalStorageGB": 32,
+      "casingMaterial": "%100 Geri Dönüştürülmüş Alüminyum Alaşım",
+      "displaySizeInch": 1.78,
+      "waterResistance": "50m (5 ATM) Su Geçirmezlik (ISO 22810:2010)",
+      "voiceCalling": true,
+      "hasCellular": false
     },
     "storeOffers": [
       {
@@ -7223,9 +7392,12 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 1,
       "storageGb": 16,
       "sensors": [
-        "EKG",
-        "Optik Kalp (2. Nesil)",
-        "Düşme Algılama İvmeölçeri"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre",
+        "Elektriksel Kalp Sensörü (EKG / ECG)"
       ],
       "connectivity": [
         "Bluetooth 5.0",
@@ -7238,7 +7410,13 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
-      "hasNFC": true
+      "hasNFC": true,
+      "internalStorageGB": 16,
+      "casingMaterial": "%100 Geri Dönüştürülmüş Alüminyum Alaşım",
+      "displaySizeInch": 1.78,
+      "waterResistance": "50m (5 ATM) Su Geçirmezlik (ISO 22810:2010)",
+      "voiceCalling": true,
+      "hasCellular": false
     },
     "storeOffers": [
       {
@@ -7321,10 +7499,11 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 0.75,
       "storageGb": 8,
       "sensors": [
-        "Optik Kalp Sensörü",
-        "Altimetre",
-        "İvmeölçer",
-        "Jiroskop"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre"
       ],
       "connectivity": [
         "Bluetooth 4.2",
@@ -7337,7 +7516,13 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
-      "hasNFC": true
+      "hasNFC": true,
+      "internalStorageGB": 8,
+      "casingMaterial": "%100 Geri Dönüştürülmüş Alüminyum Alaşım",
+      "displaySizeInch": 1.65,
+      "waterResistance": "50m (5 ATM) Su Geçirmezlik (ISO 22810:2010)",
+      "voiceCalling": true,
+      "hasCellular": false
     },
     "storeOffers": [
       {
@@ -7418,9 +7603,11 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 0.75,
       "storageGb": 8,
       "sensors": [
-        "Optik Kalp",
-        "Altimetre",
-        "İvmeölçer"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre"
       ],
       "connectivity": [
         "Bluetooth 4.2",
@@ -7433,7 +7620,13 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
-      "hasNFC": true
+      "hasNFC": true,
+      "internalStorageGB": 8,
+      "casingMaterial": "%100 Geri Dönüştürülmüş Alüminyum Alaşım",
+      "displaySizeInch": 1.5,
+      "waterResistance": "50m (5 ATM) Su Geçirmezlik (ISO 22810:2010)",
+      "voiceCalling": true,
+      "hasCellular": false
     },
     "storeOffers": [
       {
@@ -7515,9 +7708,11 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 0.512,
       "storageGb": 8,
       "sensors": [
-        "Optik Kalp",
-        "İvmeölçer",
-        "Jiroskop"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre"
       ],
       "connectivity": [
         "Bluetooth 4.0",
@@ -7530,7 +7725,13 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
-      "hasNFC": true
+      "hasNFC": true,
+      "internalStorageGB": 8,
+      "casingMaterial": "%100 Geri Dönüştürülmüş Alüminyum Alaşım",
+      "displaySizeInch": 1.65,
+      "waterResistance": "50m (5 ATM) Su Geçirmezlik (ISO 22810:2010)",
+      "voiceCalling": true,
+      "hasCellular": false
     },
     "storeOffers": [
       {
@@ -7611,9 +7812,10 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 0.512,
       "storageGb": 8,
       "sensors": [
-        "Optik Kalp",
-        "İvmeölçer",
-        "Jiroskop"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü"
       ],
       "connectivity": [
         "Bluetooth 4.0",
@@ -7625,7 +7827,13 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": false,
-      "hasNFC": true
+      "hasNFC": true,
+      "internalStorageGB": 8,
+      "casingMaterial": "%100 Geri Dönüştürülmüş Alüminyum Alaşım",
+      "displaySizeInch": 1.65,
+      "waterResistance": "IPX7 Su Sıçramalarına Karşı Dayanıklı",
+      "voiceCalling": true,
+      "hasCellular": false
     },
     "storeOffers": [
       {
@@ -7707,9 +7915,10 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 0.512,
       "storageGb": 8,
       "sensors": [
-        "Optik Nabız Sensörü",
-        "İvmeölçer",
-        "Jiroskop"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü"
       ],
       "connectivity": [
         "Bluetooth 4.0",
@@ -7721,7 +7930,13 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": false,
-      "hasNFC": true
+      "hasNFC": true,
+      "internalStorageGB": 8,
+      "casingMaterial": "Paslanmaz Çelik & Safir Kristal",
+      "displaySizeInch": 1.65,
+      "waterResistance": "IPX7 Su Sıçramalarına Karşı Dayanıklı",
+      "voiceCalling": true,
+      "hasCellular": false
     },
     "storeOffers": [
       {
@@ -7805,9 +8020,10 @@ export const mockSmartwatches: Product[] = [
       "ramGb": 0.512,
       "storageGb": 8,
       "sensors": [
-        "Optik Nabız",
-        "İvmeölçer",
-        "Jiroskop"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü"
       ],
       "connectivity": [
         "Bluetooth 4.0",
@@ -7819,7 +8035,13 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": false,
-      "hasNFC": true
+      "hasNFC": true,
+      "internalStorageGB": 8,
+      "casingMaterial": "18 Ayar Som Sarı/Pembe Altın",
+      "displaySizeInch": 1.65,
+      "waterResistance": "IPX7 Su Sıçramalarına Karşı Dayanıklı",
+      "voiceCalling": true,
+      "hasCellular": false
     },
     "storeOffers": [
       {
@@ -9581,12 +9803,16 @@ export const mockSmartwatches: Product[] = [
       "ipRating": "5 ATM (50m) + IP6X + 6m Dalış",
       "os": "watchOS 11",
       "sensors": [
-        "Elektriksel Kalp (EKG)",
-        "Üçüncü Nesil Optik Nabız",
-        "Kandaki Oksijen (SpO2)",
-        "Cilt Sıcaklığı",
-        "Derinlik Ölçer",
-        "Su Sıcaklığı"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Elektriksel Kalp Sensörü (EKG / ECG)",
+        "Kandaki Oksijen Sensörü (SpO2)",
+        "Cilt Sıcaklığı Sensörü (Ovülasyon ve Uyku Takibi)",
+        "Trafik Kazası Algılama (Yüksek G İvmeölçeri)",
+        "Uyku Apnesi Bildirimi",
+        "Derinlik Göstergesi ve Su Sıcaklığı Sensörü"
       ],
       "connectivity": [
         "4G LTE (eSIM)",
@@ -9601,7 +9827,12 @@ export const mockSmartwatches: Product[] = [
       "hasSpeaker": true,
       "hasGPS": true,
       "hasNFC": true,
-      "hasCellular": true
+      "hasCellular": true,
+      "internalStorageGB": 64,
+      "casingMaterial": "Titanyum (Havacılık / Grade 5)",
+      "displaySizeInch": 1.96,
+      "waterResistance": "IPX7 Su Sıçramalarına Karşı Dayanıklı",
+      "voiceCalling": true
     },
     "storeOffers": [
       {
@@ -9679,11 +9910,16 @@ export const mockSmartwatches: Product[] = [
       "ipRating": "5 ATM (50m) + IP6X + 6m Dalış",
       "os": "watchOS 11",
       "sensors": [
-        "Elektriksel Kalp (EKG)",
-        "Üçüncü Nesil Optik Nabız",
-        "SpO2",
-        "Cilt Sıcaklığı",
-        "Derinlik Ölçer"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Elektriksel Kalp Sensörü (EKG / ECG)",
+        "Kandaki Oksijen Sensörü (SpO2)",
+        "Cilt Sıcaklığı Sensörü (Ovülasyon ve Uyku Takibi)",
+        "Trafik Kazası Algılama (Yüksek G İvmeölçeri)",
+        "Uyku Apnesi Bildirimi",
+        "Derinlik Göstergesi ve Su Sıcaklığı Sensörü"
       ],
       "connectivity": [
         "4G LTE (eSIM)",
@@ -9698,7 +9934,12 @@ export const mockSmartwatches: Product[] = [
       "hasSpeaker": true,
       "hasGPS": true,
       "hasNFC": true,
-      "hasCellular": true
+      "hasCellular": true,
+      "internalStorageGB": 64,
+      "casingMaterial": "Titanyum (Havacılık / Grade 5)",
+      "displaySizeInch": 1.69,
+      "waterResistance": "IPX7 Su Sıçramalarına Karşı Dayanıklı",
+      "voiceCalling": true
     },
     "storeOffers": [
       {
@@ -9783,10 +10024,13 @@ export const mockSmartwatches: Product[] = [
       "ipRating": "5 ATM (50m) + IP6X",
       "os": "watchOS",
       "sensors": [
-        "Elektriksel Kalp (EKG)",
-        "Üçüncü Nesil Optik Nabız",
-        "Kandaki Oksijen (SpO2)",
-        "Barometre"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre",
+        "Elektriksel Kalp Sensörü (EKG / ECG)",
+        "Kandaki Oksijen Sensörü (SpO2)"
       ],
       "connectivity": [
         "Wi-Fi",
@@ -9799,7 +10043,13 @@ export const mockSmartwatches: Product[] = [
       "hasMicrophone": true,
       "hasSpeaker": true,
       "hasGPS": true,
-      "hasNFC": true
+      "hasNFC": true,
+      "internalStorageGB": 32,
+      "casingMaterial": "%100 Geri Dönüştürülmüş Alüminyum Alaşım",
+      "displaySizeInch": 1.9,
+      "waterResistance": "50m (5 ATM) Su Geçirmezlik (ISO 22810:2010)",
+      "voiceCalling": true,
+      "hasCellular": false
     },
     "storeOffers": [
       {
@@ -9880,11 +10130,15 @@ export const mockSmartwatches: Product[] = [
       "ipRating": "5 ATM (50m) + IP6X",
       "os": "watchOS",
       "sensors": [
-        "Elektriksel Kalp (EKG)",
-        "Üçüncü Nesil Optik Nabız",
-        "SpO2",
-        "Cilt Sıcaklığı",
-        "İvmeölçer"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre",
+        "Elektriksel Kalp Sensörü (EKG / ECG)",
+        "Kandaki Oksijen Sensörü (SpO2)",
+        "Cilt Sıcaklığı Sensörü (Ovülasyon ve Uyku Takibi)",
+        "Trafik Kazası Algılama (Yüksek G İvmeölçeri)"
       ],
       "connectivity": [
         "4G LTE (eSIM)",
@@ -9899,7 +10153,12 @@ export const mockSmartwatches: Product[] = [
       "hasSpeaker": true,
       "hasGPS": true,
       "hasNFC": true,
-      "hasCellular": true
+      "hasCellular": true,
+      "internalStorageGB": 32,
+      "casingMaterial": "Paslanmaz Çelik & Safir Kristal",
+      "displaySizeInch": 1.9,
+      "waterResistance": "50m (5 ATM) Su Geçirmezlik (ISO 22810:2010)",
+      "voiceCalling": true
     },
     "storeOffers": [
       {
@@ -9984,10 +10243,12 @@ export const mockSmartwatches: Product[] = [
       "ipRating": "5 ATM (50m)",
       "os": "watchOS",
       "sensors": [
-        "Elektriksel Kalp (EKG)",
-        "İkinci Nesil Optik Nabız",
-        "Manyetik Pusula",
-        "Barometrik Altimetre"
+        "Optik Kalp Atış Hızı Sensörü",
+        "İvmeölçer (Düşme Algılama)",
+        "Jiroskop",
+        "Ortam Işığı Sensörü",
+        "Barometrik Altimetre",
+        "Elektriksel Kalp Sensörü (EKG / ECG)"
       ],
       "connectivity": [
         "4G LTE (eSIM)",
@@ -10002,7 +10263,12 @@ export const mockSmartwatches: Product[] = [
       "hasSpeaker": true,
       "hasGPS": true,
       "hasNFC": true,
-      "hasCellular": true
+      "hasCellular": true,
+      "internalStorageGB": 32,
+      "casingMaterial": "Saf Beyaz Zirkonyum Seramik",
+      "displaySizeInch": 1.78,
+      "waterResistance": "50m (5 ATM) Su Geçirmezlik (ISO 22810:2010)",
+      "voiceCalling": true
     },
     "storeOffers": [
       {
