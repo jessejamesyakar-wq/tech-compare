@@ -1,5 +1,668 @@
 [
   {
+    "id": "apple-apple-iphone-17e-512-gb-1048094",
+    "slug": "apple-iphone-17e-512-gb",
+    "name": "Apple iPhone 17e (512 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-1.png",
+    "images": [
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-1.png",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-7.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-10.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-4.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-5.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-8.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-2.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-6.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-9.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 84,
+    "reviewCount": 1650,
+    "basePrice": 62999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6.1\" OLED Ekran (Çentiksiz Dynamic Island Tasarımı)",
+      "Apple A19 (3nm) Yonga Seti & Apple Intelligence",
+      "48 MP Fusion Ana Kamera (4K 60fps Dolby Vision & 2x Optik Kalite Zoom)",
+      "3400 mAh Batarya & MagSafe 25W Hızlı Şarj",
+      "Yüksek Fiyat/Performans Odaklı Apple Giriş Segmenti"
+    ],
+    "pros": [
+      "En uygun fiyatla Apple A19 çip ve Apple Intelligence desteği",
+      "Kompakt, hafif ve tek elle kullanımı son derece rahat kasa",
+      "48 MP güçlü Fusion kamera sistemi",
+      "USB-C şarj ve MagSafe uyumluluğu"
+    ],
+    "cons": [
+      "60Hz ekran yenileme hızı",
+      "Ultra geniş açı lensi bulunmuyor"
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Yarısı",
+        "hex": "#1C1D21"
+      },
+      {
+        "name": "Yıldız Işığı",
+        "hex": "#FAF7F2"
+      },
+      {
+        "name": "Adaçayı Yeşili",
+        "hex": "#879986"
+      },
+      {
+        "name": "Mercan Pembesi",
+        "hex": "#E7857B"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 62684,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 4200,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 62873,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5400,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 62999,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3700,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 63629,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 1300,
+        "warrantyType": "Yetkili Apple Satıcısı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 63944,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1900,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 64259,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 2400,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 66779
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 65519
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 64259
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 63629
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 62999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.1\"",
+        "type": "OLED (Super Retina XDR)",
+        "resolution": "2532 x 1170 piksel",
+        "refreshRate": 60,
+        "ppi": 460,
+        "brightnessNits": 1800
+      },
+      "processor": {
+        "chip": "Apple A19 (3 nm)",
+        "cores": "6 Çekirdek (2x Performans + 4x Verimlilik)",
+        "process": "TSMC 3nm (N3P)",
+        "antutuScore": 1950000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          128,
+          256,
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.6, 26mm, Sensor-shift OIS",
+        "selfieMp": "12 MP TrueDepth, f/1.9, 4K 60fps",
+        "videoRes": "4K @ 60 fps Dolby Vision HDR",
+        "dxomarkScore": 144
+      },
+      "battery": {
+        "capacitymAh": 3400,
+        "chargingWatts": 25,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.3",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 164,
+        "thicknessMm": 7.7,
+        "waterResistance": "IP68 (6 metre derinlikte 30 dakikaya kadar)",
+        "frameMaterial": "Alüminyum Kasa & Ceramic Shield"
+      },
+      "software": {
+        "osName": "iOS 26 (Apple Intelligence)",
+        "updateYears": 6
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-17e-256-gb-1048093",
+    "slug": "apple-iphone-17e-256-gb",
+    "name": "Apple iPhone 17e (256 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-1.png",
+    "images": [
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-1.png",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-7.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-10.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-4.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-5.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-8.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-2.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-6.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-9.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 83,
+    "reviewCount": 1650,
+    "basePrice": 54999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6.1\" OLED Ekran (Çentiksiz Dynamic Island Tasarımı)",
+      "Apple A19 (3nm) Yonga Seti & Apple Intelligence",
+      "48 MP Fusion Ana Kamera (4K 60fps Dolby Vision & 2x Optik Kalite Zoom)",
+      "3400 mAh Batarya & MagSafe 25W Hızlı Şarj",
+      "Yüksek Fiyat/Performans Odaklı Apple Giriş Segmenti"
+    ],
+    "pros": [
+      "En uygun fiyatla Apple A19 çip ve Apple Intelligence desteği",
+      "Kompakt, hafif ve tek elle kullanımı son derece rahat kasa",
+      "48 MP güçlü Fusion kamera sistemi",
+      "USB-C şarj ve MagSafe uyumluluğu"
+    ],
+    "cons": [
+      "60Hz ekran yenileme hızı",
+      "Ultra geniş açı lensi bulunmuyor"
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Yarısı",
+        "hex": "#1C1D21"
+      },
+      {
+        "name": "Yıldız Işığı",
+        "hex": "#FAF7F2"
+      },
+      {
+        "name": "Adaçayı Yeşili",
+        "hex": "#879986"
+      },
+      {
+        "name": "Mercan Pembesi",
+        "hex": "#E7857B"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 54724,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 4200,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 54889,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5400,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 54999,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3700,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 55549,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 1300,
+        "warrantyType": "Yetkili Apple Satıcısı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 55824,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1900,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 56099,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 2400,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 58299
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 57199
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 56099
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 55549
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 54999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.1\"",
+        "type": "OLED (Super Retina XDR)",
+        "resolution": "2532 x 1170 piksel",
+        "refreshRate": 60,
+        "ppi": 460,
+        "brightnessNits": 1800
+      },
+      "processor": {
+        "chip": "Apple A19 (3 nm)",
+        "cores": "6 Çekirdek (2x Performans + 4x Verimlilik)",
+        "process": "TSMC 3nm (N3P)",
+        "antutuScore": 1950000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          128,
+          256,
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.6, 26mm, Sensor-shift OIS",
+        "selfieMp": "12 MP TrueDepth, f/1.9, 4K 60fps",
+        "videoRes": "4K @ 60 fps Dolby Vision HDR",
+        "dxomarkScore": 144
+      },
+      "battery": {
+        "capacitymAh": 3400,
+        "chargingWatts": 25,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.3",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 164,
+        "thicknessMm": 7.7,
+        "waterResistance": "IP68 (6 metre derinlikte 30 dakikaya kadar)",
+        "frameMaterial": "Alüminyum Kasa & Ceramic Shield"
+      },
+      "software": {
+        "osName": "iOS 26 (Apple Intelligence)",
+        "updateYears": 6
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-17e-128-gb-1048092",
+    "slug": "apple-iphone-17e-128-gb",
+    "name": "Apple iPhone 17e (128 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-1.png",
+    "images": [
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-1.png",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-7.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-10.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-4.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-5.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-8.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-2.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-6.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-9.jpg",
+      "https://resim.epey.com/1048094/b_apple-iphone-17e-512gb-3.jpg"
+    ],
+    "rating": 4.8,
+    "epeyScore": 82,
+    "reviewCount": 1650,
+    "basePrice": 47999,
+    "currency": "TL",
+    "releaseYear": 2026,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "6.1\" OLED Ekran (Çentiksiz Dynamic Island Tasarımı)",
+      "Apple A19 (3nm) Yonga Seti & Apple Intelligence",
+      "48 MP Fusion Ana Kamera (4K 60fps Dolby Vision & 2x Optik Kalite Zoom)",
+      "3400 mAh Batarya & MagSafe 25W Hızlı Şarj",
+      "Yüksek Fiyat/Performans Odaklı Apple Giriş Segmenti"
+    ],
+    "pros": [
+      "En uygun fiyatla Apple A19 çip ve Apple Intelligence desteği",
+      "Kompakt, hafif ve tek elle kullanımı son derece rahat kasa",
+      "48 MP güçlü Fusion kamera sistemi",
+      "USB-C şarj ve MagSafe uyumluluğu"
+    ],
+    "cons": [
+      "60Hz ekran yenileme hızı",
+      "Ultra geniş açı lensi bulunmuyor"
+    ],
+    "colorOptions": [
+      {
+        "name": "Gece Yarısı",
+        "hex": "#1C1D21"
+      },
+      {
+        "name": "Yıldız Işığı",
+        "hex": "#FAF7F2"
+      },
+      {
+        "name": "Adaçayı Yeşili",
+        "hex": "#879986"
+      },
+      {
+        "name": "Mercan Pembesi",
+        "hex": "#E7857B"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 47759,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 4200,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 47903,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5400,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 47999,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3700,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 48479,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 1300,
+        "warrantyType": "Yetkili Apple Satıcısı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 48719,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1900,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 48959,
+        "currency": "TL",
+        "url": "https://www.apple.com/tr/",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 2400,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Ekim 2025",
+        "price": 50879
+      },
+      {
+        "date": "Kasım 2025",
+        "price": 49919
+      },
+      {
+        "date": "Aralık 2025",
+        "price": 48959
+      },
+      {
+        "date": "Ocak 2026",
+        "price": 48479
+      },
+      {
+        "date": "Şubat 2026",
+        "price": 47999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.1\"",
+        "type": "OLED (Super Retina XDR)",
+        "resolution": "2532 x 1170 piksel",
+        "refreshRate": 60,
+        "ppi": 460,
+        "brightnessNits": 1800
+      },
+      "processor": {
+        "chip": "Apple A19 (3 nm)",
+        "cores": "6 Çekirdek (2x Performans + 4x Verimlilik)",
+        "process": "TSMC 3nm (N3P)",
+        "antutuScore": 1950000
+      },
+      "memory": {
+        "ramGb": 8,
+        "ramType": "LPDDR5X",
+        "storageGb": 128,
+        "storageOptions": [
+          128,
+          256,
+          512
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "48 MP Fusion, f/1.6, 26mm, Sensor-shift OIS",
+        "selfieMp": "12 MP TrueDepth, f/1.9, 4K 60fps",
+        "videoRes": "4K @ 60 fps Dolby Vision HDR",
+        "dxomarkScore": 144
+      },
+      "battery": {
+        "capacitymAh": 3400,
+        "chargingWatts": 25,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 (802.11be)",
+        "bluetooth": "5.3",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 164,
+        "thicknessMm": 7.7,
+        "waterResistance": "IP68 (6 metre derinlikte 30 dakikaya kadar)",
+        "frameMaterial": "Alüminyum Kasa & Ceramic Shield"
+      },
+      "software": {
+        "osName": "iOS 26 (Apple Intelligence)",
+        "updateYears": 6
+      }
+    }
+  },
+  {
     "id": "apple-apple-iphone-air-1-tb-1027085",
     "slug": "apple-iphone-air-1-tb",
     "name": "Apple iPhone Air (1 TB)",
@@ -5044,11 +5707,29 @@
     "name": "Apple iPhone 16 Plus (128 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "https://resim.epey.com/959953/b_apple-iphone-16-plus-2.png",
+    "image": "https://resim.epey.com/960854/b_apple-iphone-16-512gb-2.png",
     "images": [
-      "https://resim.epey.com/959953/b_apple-iphone-16-plus-2.png",
-      "/images/phones/apple/apple-iphone-16-plus.jpg",
-      "/images/phones/apple/apple-iphone-16.jpg"
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-2.png",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-4.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-3.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-2.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-1.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-5.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-6.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-7.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-8.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-9.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-10.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-11.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-12.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-13.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-14.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-15.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-16.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-17.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-18.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-19.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-20.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 78,
@@ -6579,10 +7260,29 @@
     "name": "Apple iPhone 16 (128 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "https://resim.epey.com/959779/b_apple-iphone-16-2.png",
+    "image": "https://resim.epey.com/960854/b_apple-iphone-16-512gb-2.png",
     "images": [
-      "https://resim.epey.com/959779/b_apple-iphone-16-2.png",
-      "/images/phones/apple/apple-iphone-16.jpg"
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-2.png",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-4.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-3.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-2.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-1.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-5.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-6.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-7.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-8.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-9.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-10.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-11.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-12.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-13.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-14.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-15.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-16.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-17.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-18.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-19.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-20.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 75,
@@ -11391,10 +12091,29 @@
     "name": "Apple iPhone 16 (256 GB)",
     "brand": "Apple",
     "category": "smartphones",
-    "image": "https://resim.epey.com/960853/b_apple-iphone-16-256gb-2.png",
+    "image": "https://resim.epey.com/960854/b_apple-iphone-16-512gb-2.png",
     "images": [
-      "https://resim.epey.com/960853/b_apple-iphone-16-256gb-2.png",
-      "/images/phones/apple/apple-iphone-16.jpg"
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-2.png",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-4.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-3.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-2.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-1.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-5.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-6.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-7.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-8.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-9.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-10.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-11.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-12.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-13.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-14.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-15.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-16.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-17.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-18.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-19.jpg",
+      "https://resim.epey.com/960854/b_apple-iphone-16-512gb-20.jpg"
     ],
     "rating": 4.8,
     "epeyScore": 77,
