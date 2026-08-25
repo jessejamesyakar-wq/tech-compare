@@ -60,12 +60,13 @@ export function CompactProductCard({
     setImgSrc(product.image || fallbackImg);
   }, [product.image, fallbackImg]);
 
-  // Clean Headphone, Smartwatch, Appliances & Tablets Specific Card Layout
+  // Clean Headphone, Smartwatch, Appliances, Tablets & TVs Specific Card Layout
   if (
     product.category === 'headphones' ||
     product.category === 'smartwatches' ||
     product.category === 'appliances' ||
-    product.category === 'tablets'
+    product.category === 'tablets' ||
+    product.category === 'tvs'
   ) {
     const specs = (product.specs || {}) as Record<string, any>;
     let subInfo = '';
@@ -86,6 +87,13 @@ export function CompactProductCard({
       const chip = specs.processor?.chip || specs.processor || specs.chipset || '';
       const storage = specs.storage || (specs.memory?.storageGb ? `${specs.memory.storageGb} GB` : '');
       subInfo = [screen, chip, storage].filter(Boolean).slice(0, 3).join(' • ') || (product.highlights?.[0] || '');
+    } else if (product.category === 'tvs') {
+      const sizeMatch = product.name.match(/\b(\d+(?:\.\d+)?)"/);
+      const inch = sizeMatch ? `${sizeMatch[1]}"` : (specs.screenSizeInches ? `${specs.screenSizeInches}"` : '');
+      const tech = specs.displayTech || '';
+      const refresh = specs.refreshRateHz ? `${specs.refreshRateHz}Hz` : '';
+      const os = specs.smartOs || '';
+      subInfo = [inch, tech, refresh, os].filter(Boolean).slice(0, 3).join(' • ') || (product.highlights?.[0] || '');
     } else {
       // Appliances
       const suction = specs.suctionPowerPa ? `${Number(specs.suctionPowerPa).toLocaleString()} Pa Emiş` : '';
