@@ -3,7 +3,7 @@ import { Product } from './types';
 export const mockConsoles: Product[] = [
   {
     "id": "console-960253",
-    "slug": "sony-sony-playstation-5-pro-2048gb",
+    "slug": "sony-sony-playstation-5-pro-ps5-pro-2tb-ssd-oyun-konsolu-960253",
     "name": "Sony PlayStation 5 Pro (PS5 Pro) 2TB SSD Oyun Konsolu",
     "brand": "Sony",
     "category": "consoles",
@@ -33,7 +33,7 @@ export const mockConsoles: Product[] = [
       "gpu": "AMD RDNA Destekli Özel Grafik İşlemci (16.7 TFLOPs)",
       "ramGb": 16,
       "ramType": "GDDR6 (2GB DDR5 Yardımcı)",
-      "resolution": "4K 120Hz / 8K HDR (PSSR Yapay Zeka Çözünürlük)",
+      "resolution": "4K 120Hz / 8K HDR (PSSR AI Çözünürlük)",
       "hdr": true,
       "wifi": "Wi-Fi 7 (802.11be)",
       "bluetooth": "5.3",
@@ -134,7 +134,7 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-908887",
-    "slug": "sony-sony-playstation-5-slim-1024gb",
+    "slug": "sony-sony-playstation-5-slim-1tb-blu-ray-s-r-c-l-oyun-konsolu-cfi-2000a01-908887",
     "name": "Sony PlayStation 5 Slim 1TB Blu-ray Sürücülü Oyun Konsolu (CFI-2000A01)",
     "brand": "Sony",
     "category": "consoles",
@@ -265,7 +265,7 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-908934",
-    "slug": "sony-sony-playstation-5-slim-digital-edition-1024gb",
+    "slug": "sony-sony-playstation-5-slim-digital-edition-1tb-oyun-konsolu-cfi-2000b01-908934",
     "name": "Sony PlayStation 5 Slim Digital Edition 1TB Oyun Konsolu (CFI-2000B01)",
     "brand": "Sony",
     "category": "consoles",
@@ -396,7 +396,7 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-430620",
-    "slug": "sony-sony-playstation-5-825gb",
+    "slug": "sony-sony-playstation-5-825gb-standart-blu-ray-oyun-konsolu-cfi-1015a-430620",
     "name": "Sony PlayStation 5 825GB Standart Blu-ray Oyun Konsolu (CFI-1015A)",
     "brand": "Sony",
     "category": "consoles",
@@ -527,7 +527,7 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-568287",
-    "slug": "sony-sony-playstation-5-digital-edition-825gb",
+    "slug": "sony-sony-playstation-5-digital-edition-825gb-oyun-konsolu-cfi-1015b-568287",
     "name": "Sony PlayStation 5 Digital Edition 825GB Oyun Konsolu (CFI-1015B)",
     "brand": "Sony",
     "category": "consoles",
@@ -658,7 +658,7 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-1024535",
-    "slug": "asus-asus-rog-xbox-ally-x-1024gb",
+    "slug": "asus-asus-rog-xbox-ally-x-el-konsolu-amd-ryzen-ai-z2-extreme-rc73xa-1024535",
     "name": "Asus ROG Xbox Ally X El Konsolu AMD Ryzen AI Z2 Extreme (RC73XA)",
     "brand": "Asus",
     "category": "consoles",
@@ -761,7 +761,7 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-975529",
-    "slug": "msi-msi-claw-8-ai-1024gb",
+    "slug": "msi-msi-claw-8-ai-el-konsolu-intel-core-ultra-7-258v-claw8a2001-975529",
     "name": "MSI Claw 8 AI+ El Konsolu Intel Core Ultra 7 258V (CLAW8A2001)",
     "brand": "MSI",
     "category": "consoles",
@@ -892,7 +892,7 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-1042179",
-    "slug": "msi-msi-claw-a8-1024gb",
+    "slug": "msi-msi-claw-a8-el-konsolu-amd-ryzen-z2-extreme-bz2em-024tr-1042179",
     "name": "MSI Claw A8 El Konsolu AMD Ryzen Z2 Extreme (BZ2EM-024TR)",
     "brand": "MSI",
     "category": "consoles",
@@ -1023,7 +1023,7 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-902784",
-    "slug": "asus-asus-rog-ally-2023-512gb",
+    "slug": "asus-asus-rog-ally-2023-512gb-amd-ryzen-z1-extreme-rc71l-nh021-902784",
     "name": "Asus ROG Ally 2023 512GB AMD Ryzen Z1 Extreme (RC71L-NH021)",
     "brand": "Asus",
     "category": "consoles",
@@ -1112,7 +1112,7 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-1024538",
-    "slug": "asus-asus-rog-xbox-ally-512gb",
+    "slug": "asus-asus-rog-xbox-ally-amd-ryzen-z2-a-512gb-el-konsolu-rc73ya-1024538",
     "name": "Asus ROG Xbox Ally AMD Ryzen Z2 A 512GB El Konsolu (RC73YA)",
     "brand": "Asus",
     "category": "consoles",
@@ -1201,7 +1201,7 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-934851",
-    "slug": "steam-steam-deck-oled-1024gb",
+    "slug": "steam-valve-steam-deck-oled-1-tb-ta-nabilir-oyun-konsolu-934851",
     "name": "Valve Steam Deck OLED 1 TB Taşınabilir Oyun Konsolu",
     "brand": "Steam",
     "category": "consoles",
@@ -1290,7 +1290,7 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-934838",
-    "slug": "steam-steam-deck-oled-512gb",
+    "slug": "steam-valve-steam-deck-oled-512-gb-ta-nabilir-oyun-konsolu-934838",
     "name": "Valve Steam Deck OLED 512 GB Taşınabilir Oyun Konsolu",
     "brand": "Steam",
     "category": "consoles",
@@ -1407,7 +1407,7 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-862165",
-    "slug": "steam-steam-deck-512gb",
+    "slug": "steam-valve-steam-deck-lcd-512-gb-oyun-konsolu-v004287-10-862165",
     "name": "Valve Steam Deck LCD 512 GB Oyun Konsolu (V004287-10)",
     "brand": "Steam",
     "category": "consoles",
@@ -1496,7 +1496,7 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-982167",
-    "slug": "nintendo-nintendo-switch-2-256gb",
+    "slug": "nintendo-nintendo-switch-2-hibrit-oyun-konsolu-256gb-982167",
     "name": "Nintendo Switch 2 Hibrit Oyun Konsolu 256GB",
     "brand": "Nintendo",
     "category": "consoles",
@@ -1627,7 +1627,7 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-724754",
-    "slug": "nintendo-nintendo-switch-oled-64gb",
+    "slug": "nintendo-nintendo-switch-oled-model-oyun-konsolu-64gb-724754",
     "name": "Nintendo Switch OLED Model Oyun Konsolu 64GB",
     "brand": "Nintendo",
     "category": "consoles",
@@ -1758,7 +1758,7 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-80276",
-    "slug": "sony-sony-playstation-4-slim-1024gb",
+    "slug": "sony-sony-playstation-4-slim-1-tb-oyun-konsolu-cuh-2200-80276",
     "name": "Sony PlayStation 4 Slim 1 TB Oyun Konsolu (CUH-2200)",
     "brand": "Sony",
     "category": "consoles",
@@ -1875,7 +1875,7 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-80860",
-    "slug": "nintendo-nintendo-switch-32gb",
+    "slug": "nintendo-nintendo-switch-standart-hibrit-oyun-konsolu-32gb-yeni-pil-revizyonu-80860",
     "name": "Nintendo Switch Standart Hibrit Oyun Konsolu 32GB (Yeni Pil Revizyonu)",
     "brand": "Nintendo",
     "category": "consoles",
@@ -1964,7 +1964,7 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-80266",
-    "slug": "sony-sony-playstation-4-slim-500gb",
+    "slug": "sony-sony-playstation-4-slim-500-gb-oyun-konsolu-cuh-2000-80266",
     "name": "Sony PlayStation 4 Slim 500 GB Oyun Konsolu (CUH-2000)",
     "brand": "Sony",
     "category": "consoles",
@@ -2095,7 +2095,7 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-80150",
-    "slug": "sony-sony-playstation-4-500gb",
+    "slug": "sony-sony-playstation-4-500-gb-mat-kasa-oyun-konsolu-cuh-1200-80150",
     "name": "Sony PlayStation 4 500 GB Mat Kasa Oyun Konsolu (CUH-1200)",
     "brand": "Sony",
     "category": "consoles",
@@ -2184,7 +2184,7 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-174653",
-    "slug": "nintendo-nintendo-switch-lite-32gb",
+    "slug": "nintendo-nintendo-switch-lite-32gb-kompakt-ta-nabilir-el-konsolu-174653",
     "name": "Nintendo Switch Lite 32GB Kompakt Taşınabilir El Konsolu",
     "brand": "Nintendo",
     "category": "consoles",
@@ -2315,7 +2315,7 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-82204",
-    "slug": "sony-sony-playstation-3-slim-500gb",
+    "slug": "sony-sony-playstation-3-slim-500-gb-oyun-konsolu-cech-3000-82204",
     "name": "Sony PlayStation 3 Slim 500 GB Oyun Konsolu (CECH-3000)",
     "brand": "Sony",
     "category": "consoles",
@@ -2404,7 +2404,7 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-82198",
-    "slug": "sony-sony-playstation-3-slim-320gb",
+    "slug": "sony-sony-playstation-3-slim-320-gb-oyun-konsolu-cech-2500-82198",
     "name": "Sony PlayStation 3 Slim 320 GB Oyun Konsolu (CECH-2500)",
     "brand": "Sony",
     "category": "consoles",
@@ -2493,7 +2493,7 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-82184",
-    "slug": "sony-sony-playstation-3-super-slim-500gb",
+    "slug": "sony-sony-playstation-3-super-slim-500-gb-oyun-konsolu-cech-4000-82184",
     "name": "Sony PlayStation 3 Super Slim 500 GB Oyun Konsolu (CECH-4000)",
     "brand": "Sony",
     "category": "consoles",
@@ -2582,13 +2582,13 @@ export const mockConsoles: Product[] = [
   },
   {
     "id": "console-942574",
-    "slug": "asus-asus-rog-ally-x-1024gb",
+    "slug": "asus-asus-rog-ally-x-el-konsolu-1tb-amd-ryzen-z1-extreme-rc72la-942574",
     "name": "Asus ROG Ally X El Konsolu 1TB AMD Ryzen Z1 Extreme (RC72LA)",
     "brand": "Asus",
     "category": "consoles",
     "rating": 4.92,
     "reviewCount": 760,
-    "basePrice": 45000,
+    "basePrice": 48999,
     "currency": "TL",
     "releaseYear": 2024,
     "isPopular": true,
@@ -2624,7 +2624,7 @@ export const mockConsoles: Product[] = [
         "id": "942574-0",
         "storeName": "Amazon.com.tr",
         "storeLogoColor": "#ff9900",
-        "price": 45000,
+        "price": 48999,
         "inStock": true,
         "shippingDays": 1,
         "badges": [
@@ -2639,7 +2639,7 @@ export const mockConsoles: Product[] = [
         "id": "942574-1",
         "storeName": "Hepsiburada",
         "storeLogoColor": "#ff6000",
-        "price": 45270,
+        "price": 49269,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
@@ -2653,7 +2653,7 @@ export const mockConsoles: Product[] = [
         "id": "942574-2",
         "storeName": "Trendyol",
         "storeLogoColor": "#f27a1a",
-        "price": 45820,
+        "price": 49819,
         "inStock": true,
         "shippingDays": 2,
         "badges": [
@@ -2667,19 +2667,2491 @@ export const mockConsoles: Product[] = [
     "priceHistory": [
       {
         "date": "2026-03-01",
-        "price": 48600
+        "price": 52919
       },
       {
         "date": "2026-04-15",
-        "price": 47250
+        "price": 51449
       },
       {
         "date": "2026-06-01",
-        "price": 45900
+        "price": 49979
       },
       {
         "date": "2026-08-01",
-        "price": 45000
+        "price": 48999
+      }
+    ]
+  },
+  {
+    "id": "console-973322",
+    "slug": "lenovo-lenovo-legion-go-1-tb-ta-nabilir-oyun-konsolu-8-8-in-144hz-qhd-973322",
+    "name": "Lenovo Legion Go 1 TB Taşınabilir Oyun Konsolu (8.8 inç 144Hz QHD+)",
+    "brand": "Lenovo",
+    "category": "consoles",
+    "rating": 4.92,
+    "reviewCount": 744,
+    "basePrice": 39999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "/images/consoles/973322.jpg",
+    "images": [
+      "/images/consoles/973322.jpg"
+    ],
+    "highlights": [
+      "8.8 inç Devasa 144Hz 2.5K (2560x1600) PureSight Oyun Ekranı",
+      "Ayrılabilir Legion TrueStrike Kontrolcüleri ve Özel FPS Mouse Modu",
+      "AMD Ryzen Z1 Extreme & 1 TB M.2 NVMe SSD Depolama",
+      "Çift USB 4.0 Portu ile Harici eGPU ve Ekran Desteği"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 1024,
+      "fps": "144 fps",
+      "tflops": 8.2,
+      "processor": "AMD Ryzen Z1 Extreme (8 Çekirdek / 16 İzlek 3.3-5.1 GHz)",
+      "gpu": "AMD RDNA 3 (8.2 TFLOPs)",
+      "ramGb": 16,
+      "ramType": "LPDDR5X (7500 MHz)",
+      "resolution": "8.8 inç 2560x1600 QHD+ 144Hz 500 Nit IPS Dokunmatik Ekran",
+      "hdr": true,
+      "wifi": "Wi-Fi 6E (802.11axe)",
+      "bluetooth": "5.2",
+      "hdmi": "Çift USB 4.0 / DisplayPort 1.4",
+      "weightKg": 0.854
+    },
+    "storeOffers": [
+      {
+        "id": "973322-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 39999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "973322-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 40269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "973322-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 40819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 43199
+      },
+      {
+        "date": "2026-04-15",
+        "price": 41999
+      },
+      {
+        "date": "2026-06-01",
+        "price": 40799
+      },
+      {
+        "date": "2026-08-01",
+        "price": 39999
+      }
+    ]
+  },
+  {
+    "id": "console-1058630",
+    "slug": "msi-msi-claw-8-ex-ai-1-tb-ta-nabilir-oyun-konsolu-lunar-lake-1058630",
+    "name": "MSI Claw 8 EX AI+ 1 TB Taşınabilir Oyun Konsolu (Lunar Lake)",
+    "brand": "MSI",
+    "category": "consoles",
+    "rating": 4.92,
+    "reviewCount": 744,
+    "basePrice": 79999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/1058630.jpg",
+    "images": [
+      "/images/consoles/1058630.jpg"
+    ],
+    "highlights": [
+      "Intel Core Ultra 7 258V & 32 GB 8533MHz Bellek ile Yüksek AI ve Oyun Gücü",
+      "8 inç 120Hz VRR Ekran ve Geliştirilmiş Ergonomik Gövde",
+      "80Wh Batarya ile Uzun Pil Ömrü ve Hızlı Şarj Desteği",
+      "Hall Effect Manyetik Joystickler ve Tetik Tuşları"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 1024,
+      "fps": "120 fps",
+      "tflops": 7.68,
+      "processor": "Intel Core Ultra 7 258V (8 Çekirdek AI Boost NPU)",
+      "gpu": "Intel Arc 140V (7.68 TFLOPs)",
+      "ramGb": 32,
+      "ramType": "LPDDR5X (8533 MHz)",
+      "resolution": "8 inç 1920x1080 120Hz VRR Dokunmatik IPS",
+      "hdr": true,
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "5.4",
+      "hdmi": "Thunderbolt 4 / DisplayPort",
+      "weightKg": 0.795
+    },
+    "storeOffers": [
+      {
+        "id": "1058630-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 79999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "1058630-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 80269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "1058630-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 80819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 86399
+      },
+      {
+        "date": "2026-04-15",
+        "price": 83999
+      },
+      {
+        "date": "2026-06-01",
+        "price": 81599
+      },
+      {
+        "date": "2026-08-01",
+        "price": 79999
+      }
+    ]
+  },
+  {
+    "id": "console-867459",
+    "slug": "asus-asus-rog-ally-2023-extreme-512gb-rc71l-nh001w-867459",
+    "name": "Asus ROG Ally 2023 Extreme 512GB (RC71L-NH001W)",
+    "brand": "Asus",
+    "category": "consoles",
+    "rating": 4.9,
+    "reviewCount": 704,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/867459.jpg",
+    "images": [
+      "/images/consoles/867459.jpg"
+    ],
+    "highlights": [
+      "8.6 TFLOPs Grafik Gücü ile Tüm PC Oyunlarında Yüksek Performans",
+      "120Hz Full HD Dokunmatik Ekran ve FreeSync Premium Desteği",
+      "Zero Gravity Çift Fanlı Sessiz Soğutma Mimarisi",
+      "Windows 11 ile Xbox Game Pass, Epic Games ve Steam Kütüphaneleri"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 512,
+      "fps": "120 fps",
+      "tflops": 8.6,
+      "processor": "AMD Ryzen Z1 Extreme (8 Çekirdek 3.3-5.1 GHz)",
+      "gpu": "AMD RDNA 3 (8.6 TFLOPs)",
+      "ramGb": 16,
+      "ramType": "LPDDR5 (6400 MHz)",
+      "resolution": "7 inç 1080p FHD 120Hz 500 Nit Dokunmatik Ekran",
+      "hdr": true,
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "5.2",
+      "hdmi": "USB-C DisplayPort 1.4 & XG Mobile",
+      "weightKg": 0.608
+    },
+    "storeOffers": [
+      {
+        "id": "867459-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "867459-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 35269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "867459-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 35819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 37799
+      },
+      {
+        "date": "2026-04-15",
+        "price": 36749
+      },
+      {
+        "date": "2026-06-01",
+        "price": 35699
+      },
+      {
+        "date": "2026-08-01",
+        "price": 34999
+      }
+    ]
+  },
+  {
+    "id": "console-1059392",
+    "slug": "asus-asus-rog-xbox-ally-x20-bundle-1tb-rc74xa-tw004w-1059392",
+    "name": "Asus ROG Xbox Ally X20 Bundle 1TB (RC74XA-TW004W)",
+    "brand": "Asus",
+    "category": "consoles",
+    "rating": 4.9,
+    "reviewCount": 704,
+    "basePrice": 65999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/1059392.jpg",
+    "images": [
+      "/images/consoles/1059392.jpg"
+    ],
+    "highlights": [
+      "Özel Xbox Bundle Paketi & 24 GB Yüksek Hızlı RAM",
+      "AMD Ryzen AI Z2 Extreme İşlemci ile Üst Düzey Taşınabilir Performans",
+      "1 TB NVMe SSD & 80Wh Uzun Ömürlü Batarya",
+      "Geliştirilmiş D-Pad ve Çift USB Type-C Portu"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 1024,
+      "fps": "120 fps",
+      "tflops": 5.53,
+      "processor": "AMD Ryzen AI Z2 Extreme (8 Çekirdek)",
+      "gpu": "AMD RDNA 3.5 (5.53 TFLOPs)",
+      "ramGb": 24,
+      "ramType": "LPDDR5X",
+      "resolution": "7 inç 1080p FHD 120Hz Dokunmatik IPS",
+      "hdr": true,
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "5.4",
+      "hdmi": "USB-C DisplayPort 1.4",
+      "weightKg": 0.678
+    },
+    "storeOffers": [
+      {
+        "id": "1059392-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 65999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "1059392-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 66269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "1059392-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 66819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 71279
+      },
+      {
+        "date": "2026-04-15",
+        "price": 69299
+      },
+      {
+        "date": "2026-06-01",
+        "price": 67319
+      },
+      {
+        "date": "2026-08-01",
+        "price": 65999
+      }
+    ]
+  },
+  {
+    "id": "console-959344",
+    "slug": "acer-acer-nitro-blaze-7-2tb-el-konsolu-amd-ryzen-7-8840hs-gn771-959344",
+    "name": "Acer Nitro Blaze 7 2TB El Konsolu AMD Ryzen 7 8840HS (GN771)",
+    "brand": "Acer",
+    "category": "consoles",
+    "rating": 4.89,
+    "reviewCount": 696,
+    "basePrice": 42999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/959344.jpg",
+    "images": [
+      "/images/consoles/959344.jpg"
+    ],
+    "highlights": [
+      "144Hz Ultra Akıcı Full HD Dokunmatik IPS Ekran (FreeSync Premium)",
+      "AMD Ryzen 7 8840HS Hawk Point İşlemci ve 39 TOPS Ryzen AI Gücü",
+      "2 TB M.2 2280 NVMe SSD Devasa Depolama Alanı",
+      "Acer Game Space Uygulaması ile Kolay Oyun Yönetimi"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 2048,
+      "fps": "60 fps",
+      "tflops": 8.2,
+      "processor": "AMD Ryzen 7 8840HS (8 Çekirdek / 16 İzlek 3.3-5.1 GHz Ryzen AI)",
+      "gpu": "AMD Radeon 780M (8.2 TFLOPs)",
+      "ramGb": 16,
+      "ramType": "LPDDR5X (7500 MHz)",
+      "resolution": "7 inç 1920x1080 FHD 144Hz 500 Nit 100% sRGB Dokunmatik IPS",
+      "hdr": true,
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "5.3",
+      "hdmi": "Çift USB4 Type-C (DisplayPort 1.4 & PD Şarj)",
+      "weightKg": 0.67
+    },
+    "storeOffers": [
+      {
+        "id": "959344-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 42999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "959344-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 43269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "959344-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 43819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 46439
+      },
+      {
+        "date": "2026-04-15",
+        "price": 45149
+      },
+      {
+        "date": "2026-06-01",
+        "price": 43859
+      },
+      {
+        "date": "2026-08-01",
+        "price": 42999
+      }
+    ]
+  },
+  {
+    "id": "console-892469",
+    "slug": "lenovo-lenovo-legion-go-512-gb-ta-nabilir-oyun-konsolu-83e10031tr-892469",
+    "name": "Lenovo Legion Go 512 GB Taşınabilir Oyun Konsolu (83E10031TR)",
+    "brand": "Lenovo",
+    "category": "consoles",
+    "rating": 4.88,
+    "reviewCount": 680,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/892469.jpg",
+    "images": [
+      "/images/consoles/892469.jpg"
+    ],
+    "highlights": [
+      "8.8 inç QHD+ 144Hz Dokunmatik Ekran & Çıkarılabilir Joypadler",
+      "Optik Sensörlü FPS Mouse Modu ile Nişan Alma Avantajı",
+      "512 GB NVMe SSD & MicroSD Kart Girişi",
+      "Lenovo Legion Space Oyun Başlatıcı"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 512,
+      "fps": "60 fps",
+      "tflops": 8.2,
+      "processor": "AMD Ryzen Z1 Extreme (8 Çekirdek 3.3 GHz)",
+      "gpu": "AMD RDNA 3 (8.2 TFLOPs)",
+      "ramGb": 16,
+      "ramType": "LPDDR5X (7500 MHz)",
+      "resolution": "8.8 inç 2560x1600 QHD+ 144Hz Dokunmatik IPS",
+      "hdr": true,
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "5.2",
+      "hdmi": "Çift USB 4.0",
+      "weightKg": 0.854
+    },
+    "storeOffers": [
+      {
+        "id": "892469-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "892469-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 35269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "892469-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 35819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 37799
+      },
+      {
+        "date": "2026-04-15",
+        "price": 36749
+      },
+      {
+        "date": "2026-06-01",
+        "price": 35699
+      },
+      {
+        "date": "2026-08-01",
+        "price": 34999
+      }
+    ]
+  },
+  {
+    "id": "console-975543",
+    "slug": "msi-msi-claw-7-ai-512-gb-el-konsolu-claw7a2001-975543",
+    "name": "MSI Claw 7 AI+ 512 GB El Konsolu (CLAW7A2001)",
+    "brand": "MSI",
+    "category": "consoles",
+    "rating": 4.88,
+    "reviewCount": 672,
+    "basePrice": 47999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/975543.jpg",
+    "images": [
+      "/images/consoles/975543.jpg"
+    ],
+    "highlights": [
+      "7 inç 120Hz VRR Dokunmatik Ekran & Kompakt Taşınabilir Boyut",
+      "Intel Lunar Lake AI Mimarisi & Geliştirilmiş Pil Verimliliği",
+      "Hall Effect Manyetik Analog Kollar ve Tetikler",
+      "Thunderbolt 4 ile Hızlı Şarj ve Harici Monitör Bağlantısı"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 512,
+      "fps": "120 fps",
+      "tflops": 4.1,
+      "processor": "Intel Core Ultra 7 258V (2.2 GHz)",
+      "gpu": "Intel Arc 140V (4.1 TFLOPs)",
+      "ramGb": 16,
+      "ramType": "LPDDR5X",
+      "resolution": "7 inç 1080p FHD 120Hz VRR Dokunmatik IPS",
+      "hdr": true,
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "5.4",
+      "hdmi": "Thunderbolt 4 / DisplayPort",
+      "weightKg": 0.675
+    },
+    "storeOffers": [
+      {
+        "id": "975543-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 47999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "975543-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 48269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "975543-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 48819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 51839
+      },
+      {
+        "date": "2026-04-15",
+        "price": 50399
+      },
+      {
+        "date": "2026-06-01",
+        "price": 48959
+      },
+      {
+        "date": "2026-08-01",
+        "price": 47999
+      }
+    ]
+  },
+  {
+    "id": "console-986356",
+    "slug": "acer-acer-nitro-blaze-11-2tb-el-konsolu-amd-ryzen-7-gn7112u-986356",
+    "name": "Acer Nitro Blaze 11 2TB El Konsolu AMD Ryzen 7 (GN7112U)",
+    "brand": "Acer",
+    "category": "consoles",
+    "rating": 4.88,
+    "reviewCount": 664,
+    "basePrice": 43999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/986356.jpg",
+    "images": [
+      "/images/consoles/986356.jpg"
+    ],
+    "highlights": [
+      "2 TB Ultra Geniş Dahili NVMe SSD Depolama Kapasitesi",
+      "144Hz Akıcı IPS Panel ve FreeSync Desteği",
+      "AMD Ryzen AI Teknolojisi ile Optimize Edilmiş Performans",
+      "Çift USB4 Girişi ile Zengin Bağlantı Seçenekleri"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 2048,
+      "fps": "60 fps",
+      "tflops": 8.2,
+      "processor": "AMD Ryzen 7 8840HS (8 Çekirdek 3.3 GHz)",
+      "gpu": "AMD Radeon 780M (8.2 TFLOPs)",
+      "ramGb": 16,
+      "ramType": "LPDDR5X",
+      "resolution": "7 inç 1080p FHD 144Hz IPS Ekran",
+      "hdr": true,
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "5.3",
+      "hdmi": "Çift USB4",
+      "weightKg": 0.67
+    },
+    "storeOffers": [
+      {
+        "id": "986356-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 43999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "986356-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 44269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "986356-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 44819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 47519
+      },
+      {
+        "date": "2026-04-15",
+        "price": 46199
+      },
+      {
+        "date": "2026-06-01",
+        "price": 44879
+      },
+      {
+        "date": "2026-08-01",
+        "price": 43999
+      }
+    ]
+  },
+  {
+    "id": "console-986354",
+    "slug": "acer-acer-nitro-blaze-8-2tb-el-konsolu-gn782u-986354",
+    "name": "Acer Nitro Blaze 8 2TB El Konsolu (GN782U)",
+    "brand": "Acer",
+    "category": "consoles",
+    "rating": 4.88,
+    "reviewCount": 664,
+    "basePrice": 41999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/986354.jpg",
+    "images": [
+      "/images/consoles/986354.jpg"
+    ],
+    "highlights": [
+      "2 TB Geniş Depolama & 144Hz Full HD Ekran",
+      "Ryzen 7 8840HS ile Yüksek Kare Hızlı Oyun Deneyimi",
+      "Ergonomik Nitro Oyun Tutuş Gövdesi",
+      "Hızlı PD Şarj ve Çoklu Ekran Desteği"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 2048,
+      "fps": "60 fps",
+      "tflops": 8.2,
+      "processor": "AMD Ryzen 7 8840HS (3.3 GHz)",
+      "gpu": "AMD Radeon 780M (8.2 TFLOPs)",
+      "ramGb": 16,
+      "ramType": "LPDDR5X",
+      "resolution": "7 inç 1080p FHD 144Hz IPS",
+      "hdr": true,
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "5.3",
+      "hdmi": "Çift USB4",
+      "weightKg": 0.67
+    },
+    "storeOffers": [
+      {
+        "id": "986354-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 41999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "986354-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 42269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "986354-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 42819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 45359
+      },
+      {
+        "date": "2026-04-15",
+        "price": 44099
+      },
+      {
+        "date": "2026-06-01",
+        "price": 42839
+      },
+      {
+        "date": "2026-08-01",
+        "price": 41999
+      }
+    ]
+  },
+  {
+    "id": "console-975394",
+    "slug": "lenovo-lenovo-legion-go-s-1tb-ta-nabilir-oyun-konsolu-83l3002btr-975394",
+    "name": "Lenovo Legion Go S 1TB Taşınabilir Oyun Konsolu (83L3002BTR)",
+    "brand": "Lenovo",
+    "category": "consoles",
+    "rating": 4.87,
+    "reviewCount": 656,
+    "basePrice": 32999,
+    "currency": "TL",
+    "releaseYear": 2025,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/975394.jpg",
+    "images": [
+      "/images/consoles/975394.jpg"
+    ],
+    "highlights": [
+      "8 inç 120Hz 16:10 Oranında Geniş Dokunmatik Ekran",
+      "AMD Ryzen Z2 Go ile Optimize Edilmiş Güç Tüketimi",
+      "1 TB Dahili Hızlı NVMe SSD Depolama",
+      "Hafifletilmiş ve Kompakt Legion Kasa Tasarımı"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 1024,
+      "fps": "120 fps",
+      "tflops": 3.38,
+      "processor": "AMD Ryzen Z2 Go (8 Çekirdek 3.0 GHz)",
+      "gpu": "AMD RDNA 3 Entegre Grafik (3.38 TFLOPs)",
+      "ramGb": 16,
+      "ramType": "LPDDR5X",
+      "resolution": "8 inç 1920x1200 120Hz Dokunmatik IPS",
+      "hdr": true,
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "5.3",
+      "hdmi": "USB-C DisplayPort 1.4",
+      "weightKg": 0.72
+    },
+    "storeOffers": [
+      {
+        "id": "975394-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 32999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "975394-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 33269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "975394-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 33819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 35639
+      },
+      {
+        "date": "2026-04-15",
+        "price": 34649
+      },
+      {
+        "date": "2026-06-01",
+        "price": 33659
+      },
+      {
+        "date": "2026-08-01",
+        "price": 32999
+      }
+    ]
+  },
+  {
+    "id": "console-943073",
+    "slug": "zotac-zotac-zone-512gb-amoled-120hz-el-konsolu-zgc-g1a1w-01-943073",
+    "name": "Zotac Zone 512GB AMOLED 120Hz El Konsolu (ZGC-G1A1W-01)",
+    "brand": "Zotac",
+    "category": "consoles",
+    "rating": 4.87,
+    "reviewCount": 648,
+    "basePrice": 37999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/943073.jpg",
+    "images": [
+      "/images/consoles/943073.jpg"
+    ],
+    "highlights": [
+      "7 inç 120Hz 800 Nit Parlak AMOLED Dokunmatik Ekran (Sonsuz Kontrast)",
+      "Çift Trackpad & Çift Ayarlanabilir Döner Kadran (Radial Dial)",
+      "2 Kademeli Ayarlanabilir Hall Effect Tetik Tuşları",
+      "AMD Ryzen 7 8840U & Çift USB4 Genişleme Portu"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 512,
+      "fps": "60 fps",
+      "tflops": 8.2,
+      "processor": "AMD Ryzen 7 8840U (8 Çekirdek 3.3-5.1 GHz)",
+      "gpu": "AMD Radeon 780M (8.2 TFLOPs)",
+      "ramGb": 16,
+      "ramType": "LPDDR5X (7500 MHz)",
+      "resolution": "7 inç 1080p FHD 120Hz 800 Nit Canlı AMOLED Dokunmatik Ekran",
+      "hdr": true,
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "5.2",
+      "hdmi": "Çift USB4 DisplayPort 1.4",
+      "weightKg": 0.692
+    },
+    "storeOffers": [
+      {
+        "id": "943073-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 37999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "943073-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 38269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "943073-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 38819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 41039
+      },
+      {
+        "date": "2026-04-15",
+        "price": 39899
+      },
+      {
+        "date": "2026-06-01",
+        "price": 38759
+      },
+      {
+        "date": "2026-08-01",
+        "price": 37999
+      }
+    ]
+  },
+  {
+    "id": "console-918423",
+    "slug": "msi-msi-claw-a1m-intel-core-ultra-7-155h-1-tb-a1m-089tr-918423",
+    "name": "MSI Claw A1M Intel Core Ultra 7 155H / 1 TB (A1M-089TR)",
+    "brand": "MSI",
+    "category": "consoles",
+    "rating": 4.85,
+    "reviewCount": 608,
+    "basePrice": 33999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/918423.jpg",
+    "images": [
+      "/images/consoles/918423.jpg"
+    ],
+    "highlights": [
+      "Intel Core Ultra 7 155H İşlemci ve Intel XeSS AI Çözünürlük Ölçekleme",
+      "7 inç 120Hz VRR Akıcı Dokunmatik Panel",
+      "53Wh Batarya ile Sınıfının En Uzun Süreli Pil Ömürlerinden Biri",
+      "Cooler Boost HyperFlow Çift Fanlı İleri Seviye Termal Tasarım"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 1024,
+      "fps": "60 fps",
+      "tflops": 4.6,
+      "processor": "Intel Core Ultra 7 155H (16 Çekirdek / 22 İzlek Intel AI Boost)",
+      "gpu": "Intel Arc Graphics (4.6 TFLOPs)",
+      "ramGb": 16,
+      "ramType": "LPDDR5 (6400 MHz)",
+      "resolution": "7 inç 1080p FHD 120Hz VRR 500 Nit Dokunmatik IPS",
+      "hdr": true,
+      "wifi": "Wi-Fi 7 (802.11be)",
+      "bluetooth": "5.4",
+      "hdmi": "Thunderbolt 4 / DisplayPort",
+      "weightKg": 0.675
+    },
+    "storeOffers": [
+      {
+        "id": "918423-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 33999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "918423-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 34269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "918423-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 34819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 36719
+      },
+      {
+        "date": "2026-04-15",
+        "price": 35699
+      },
+      {
+        "date": "2026-06-01",
+        "price": 34679
+      },
+      {
+        "date": "2026-08-01",
+        "price": 33999
+      }
+    ]
+  },
+  {
+    "id": "console-936357",
+    "slug": "msi-msi-claw-a1m-intel-core-ultra-7-155h-512-gb-a1m-088tr-936357",
+    "name": "MSI Claw A1M Intel Core Ultra 7 155H / 512 GB (A1M-088TR)",
+    "brand": "MSI",
+    "category": "consoles",
+    "rating": 4.84,
+    "reviewCount": 592,
+    "basePrice": 29999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/936357.jpg",
+    "images": [
+      "/images/consoles/936357.jpg"
+    ],
+    "highlights": [
+      "Intel Core Ultra 7 Gücü & 512 GB Yüksek Hızlı SSD",
+      "120Hz VRR Dokunmatik Ekran & Hall Effect Sensörlü Kontroller",
+      "Wi-Fi 7 ve Thunderbolt 4 Bağlantı Hızı",
+      "Ergonomik Avuç İçi Tasarımı"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 512,
+      "fps": "60 fps",
+      "tflops": 4.6,
+      "processor": "Intel Core Ultra 7 155H (16 Çekirdek)",
+      "gpu": "Intel Arc Graphics (4.6 TFLOPs)",
+      "ramGb": 16,
+      "ramType": "LPDDR5",
+      "resolution": "7 inç 1080p FHD 120Hz VRR IPS",
+      "hdr": true,
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "5.4",
+      "hdmi": "Thunderbolt 4",
+      "weightKg": 0.675
+    },
+    "storeOffers": [
+      {
+        "id": "936357-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 29999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "936357-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 30269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "936357-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 30819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 32399
+      },
+      {
+        "date": "2026-04-15",
+        "price": 31499
+      },
+      {
+        "date": "2026-06-01",
+        "price": 30599
+      },
+      {
+        "date": "2026-08-01",
+        "price": 29999
+      }
+    ]
+  },
+  {
+    "id": "console-936358",
+    "slug": "msi-msi-claw-a1m-intel-core-ultra-5-135h-512-gb-a1m-087tr-936358",
+    "name": "MSI Claw A1M Intel Core Ultra 5 135H / 512 GB (A1M-087TR)",
+    "brand": "MSI",
+    "category": "consoles",
+    "rating": 4.84,
+    "reviewCount": 584,
+    "basePrice": 26999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/936358.jpg",
+    "images": [
+      "/images/consoles/936358.jpg"
+    ],
+    "highlights": [
+      "Intel Core Ultra 5 135H ile Yüksek Enerji Tasarrufu",
+      "120Hz Full HD VRR Ekran ile Yırtılmasız Oyun",
+      "RGB Aydınlatmalı Manyetik Joystickler",
+      "MSI Center M Kolay Kontrol Paneli"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 512,
+      "fps": "60 fps",
+      "tflops": 4.5,
+      "processor": "Intel Core Ultra 5 135H (14 Çekirdek 1.7-4.6 GHz)",
+      "gpu": "Intel Arc Graphics (4.5 TFLOPs)",
+      "ramGb": 16,
+      "ramType": "LPDDR5",
+      "resolution": "7 inç 1080p FHD 120Hz VRR IPS",
+      "hdr": true,
+      "wifi": "Wi-Fi 7",
+      "bluetooth": "5.4",
+      "hdmi": "Thunderbolt 4",
+      "weightKg": 0.675
+    },
+    "storeOffers": [
+      {
+        "id": "936358-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 26999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "936358-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 27269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "936358-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 27819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 29159
+      },
+      {
+        "date": "2026-04-15",
+        "price": 28349
+      },
+      {
+        "date": "2026-06-01",
+        "price": 27539
+      },
+      {
+        "date": "2026-08-01",
+        "price": 26999
+      }
+    ]
+  },
+  {
+    "id": "console-890202",
+    "slug": "ayaneo-ayaneo-2-32gb-ram-2tb-ssd-ta-nabilir-oyun-konsolu-890202",
+    "name": "Ayaneo 2 32GB RAM / 2TB SSD Taşınabilir Oyun Konsolu",
+    "brand": "Ayaneo",
+    "category": "consoles",
+    "rating": 4.83,
+    "reviewCount": 568,
+    "basePrice": 38999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/890202.jpg",
+    "images": [
+      "/images/consoles/890202.jpg"
+    ],
+    "highlights": [
+      "Tek Parça Tamamen Çerçevesiz Ön Cam Tasarımı",
+      "32 GB Devasa RAM ve 2 TB NVMe SSD ile Sınırsız Güç",
+      "AMD Ryzen 7 6800U & Radeon 680M Grafik Mimarisi",
+      "Hall Effect Joystick ve Doğrusal Tetikleyiciler"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 2048,
+      "fps": "60 fps",
+      "tflops": 3.38,
+      "processor": "AMD Ryzen 7 6800U (8 Çekirdek 2.7-4.7 GHz)",
+      "gpu": "AMD Radeon 680M (3.38 TFLOPs)",
+      "ramGb": 32,
+      "ramType": "LPDDR5 (6400 MHz)",
+      "resolution": "7 inç 1920x1200 FHD Çerçevesiz Cam Dokunmatik IPS",
+      "hdr": true,
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "5.2",
+      "hdmi": "Çift USB4 Type-C",
+      "weightKg": 0.68
+    },
+    "storeOffers": [
+      {
+        "id": "890202-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 38999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "890202-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 39269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "890202-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 39819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 42119
+      },
+      {
+        "date": "2026-04-15",
+        "price": 40949
+      },
+      {
+        "date": "2026-06-01",
+        "price": 39779
+      },
+      {
+        "date": "2026-08-01",
+        "price": 38999
+      }
+    ]
+  },
+  {
+    "id": "console-910087",
+    "slug": "steam-valve-steam-deck-lcd-2-tb-ta-nabilir-oyun-konsolu-910087",
+    "name": "Valve Steam Deck LCD 2 TB Taşınabilir Oyun Konsolu",
+    "brand": "Steam",
+    "category": "consoles",
+    "rating": 4.82,
+    "reviewCount": 544,
+    "basePrice": 39999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/910087.jpg",
+    "images": [
+      "/images/consoles/910087.jpg"
+    ],
+    "highlights": [
+      "2 TB Genişletilmiş Özel NVMe SSD Depolama Alanı",
+      "SteamOS 3.0 ile Tüm Steam Oyun Kütüphanesine Doğrudan Erişim",
+      "Hassas Çift Dokunmatik Yüzey (Trackpad) ve Dahili Jiroskop",
+      "MicroSD Kart Yuvası ile Ek Depolama"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 2048,
+      "fps": "60 fps",
+      "tflops": 1.6,
+      "processor": "AMD Zen 2 (4 Çekirdek 2.4-3.5 GHz)",
+      "gpu": "AMD RDNA 2 (1.6 TFLOPs)",
+      "ramGb": 16,
+      "ramType": "LPDDR5",
+      "resolution": "7 inç 1280x800 Dokunmatik IPS",
+      "hdr": false,
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "5.0",
+      "hdmi": "USB-C DisplayPort 1.4",
+      "weightKg": 0.669
+    },
+    "storeOffers": [
+      {
+        "id": "910087-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 39999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "910087-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 40269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "910087-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 40819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 43199
+      },
+      {
+        "date": "2026-04-15",
+        "price": 41999
+      },
+      {
+        "date": "2026-06-01",
+        "price": 40799
+      },
+      {
+        "date": "2026-08-01",
+        "price": 39999
+      }
+    ]
+  },
+  {
+    "id": "console-83965",
+    "slug": "microsoft-microsoft-xbox-one-x-1-tb-4k-hdr-oyun-konsolu-83965",
+    "name": "Microsoft Xbox One X 1 TB 4K HDR Oyun Konsolu",
+    "brand": "Microsoft",
+    "category": "consoles",
+    "rating": 4.81,
+    "reviewCount": 528,
+    "basePrice": 16999,
+    "currency": "TL",
+    "releaseYear": 2017,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/83965.jpg",
+    "images": [
+      "/images/consoles/83965.jpg"
+    ],
+    "highlights": [
+      "6 TFLOPs Güç ile Döneminin Dünyanın En Güçlü Oyun Konsolu",
+      "Gerçek Yerel 4K Oyun Deneyimi ve 4K Ultra HD Blu-ray Oynatıcı",
+      "12 GB GDDR5 Grafik Belleği ve Buhar Odası (Vapor Chamber) Soğutma",
+      "Dolby Atmos, DTS:X ve Xbox Game Pass Desteği"
+    ],
+    "specs": {
+      "deviceType": "Sabit",
+      "storageGb": 1024,
+      "fps": "60 fps",
+      "tflops": 6,
+      "processor": "Özel AMD 8 Çekirdek x86 İşlemci (2.3 GHz)",
+      "gpu": "AMD Radeon (6 TFLOPs Grafik Gücü)",
+      "ramGb": 12,
+      "ramType": "GDDR5 (326 GB/s Bant Genişliği)",
+      "resolution": "Gerçek Yerel 4K UHD 60 FPS / HDR10",
+      "hdr": true,
+      "wifi": "Wi-Fi 5 (802.11ac)",
+      "bluetooth": "4.0",
+      "hdmi": "HDMI 2.0b Giriş & Çıkış + Optik Ses",
+      "weightKg": 3.81
+    },
+    "storeOffers": [
+      {
+        "id": "83965-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 16999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "83965-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 17269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "83965-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 17819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 18359
+      },
+      {
+        "date": "2026-04-15",
+        "price": 17849
+      },
+      {
+        "date": "2026-06-01",
+        "price": 17339
+      },
+      {
+        "date": "2026-08-01",
+        "price": 16999
+      }
+    ]
+  },
+  {
+    "id": "console-890203",
+    "slug": "ayaneo-ayaneo-2-16gb-ram-2tb-ssd-oyun-konsolu-890203",
+    "name": "Ayaneo 2 16GB RAM / 2TB SSD Oyun Konsolu",
+    "brand": "Ayaneo",
+    "category": "consoles",
+    "rating": 4.81,
+    "reviewCount": 520,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/890203.jpg",
+    "images": [
+      "/images/consoles/890203.jpg"
+    ],
+    "highlights": [
+      "2 TB Devasa NVMe Depolama & Çerçevesiz Kristal Cam Ekran",
+      "AMD Ryzen 7 6800U İşlemci ile Akıcı AAA Oyun Performansı",
+      "Çift Eksenli Lineer Motor ile Gerçekçi Titreşim",
+      "AYASpace Oyun ve Güç Yönetim Yazılımı"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 2048,
+      "fps": "60 fps",
+      "tflops": 3.38,
+      "processor": "AMD Ryzen 7 6800U (2.7 GHz)",
+      "gpu": "AMD Radeon 680M (3.38 TFLOPs)",
+      "ramGb": 16,
+      "ramType": "LPDDR5",
+      "resolution": "7 inç 1920x1200 IPS Dokunmatik Ekran",
+      "hdr": true,
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "5.2",
+      "hdmi": "Çift USB4",
+      "weightKg": 0.68
+    },
+    "storeOffers": [
+      {
+        "id": "890203-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "890203-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 35269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "890203-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 35819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 37799
+      },
+      {
+        "date": "2026-04-15",
+        "price": 36749
+      },
+      {
+        "date": "2026-06-01",
+        "price": 35699
+      },
+      {
+        "date": "2026-08-01",
+        "price": 34999
+      }
+    ]
+  },
+  {
+    "id": "console-910088",
+    "slug": "steam-valve-steam-deck-lcd-1-tb-ta-nabilir-oyun-konsolu-910088",
+    "name": "Valve Steam Deck LCD 1 TB Taşınabilir Oyun Konsolu",
+    "brand": "Steam",
+    "category": "consoles",
+    "rating": 4.81,
+    "reviewCount": 512,
+    "basePrice": 33999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/910088.jpg",
+    "images": [
+      "/images/consoles/910088.jpg"
+    ],
+    "highlights": [
+      "1 TB Hızlı NVMe SSD Depolama ile Onlarca Büyük Oyun Yükleme İmkanı",
+      "SteamOS Ekosistemi ve Ergonomik Kontroller",
+      "Özelleştirilebilir 4 Arka Tuş ve Dokunsal Tetikler",
+      "Bluetooth Kulaklık ve Kontrolcü Desteği"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 1024,
+      "fps": "60 fps",
+      "tflops": 1.6,
+      "processor": "AMD Zen 2 (2.4 GHz)",
+      "gpu": "AMD RDNA 2 (1.6 TFLOPs)",
+      "ramGb": 16,
+      "ramType": "LPDDR5",
+      "resolution": "7 inç 1280x800 IPS",
+      "hdr": false,
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "5.0",
+      "hdmi": "USB-C DisplayPort",
+      "weightKg": 0.669
+    },
+    "storeOffers": [
+      {
+        "id": "910088-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 33999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "910088-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 34269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "910088-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 34819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 36719
+      },
+      {
+        "date": "2026-04-15",
+        "price": 35699
+      },
+      {
+        "date": "2026-06-01",
+        "price": 34679
+      },
+      {
+        "date": "2026-08-01",
+        "price": 33999
+      }
+    ]
+  },
+  {
+    "id": "console-617955",
+    "slug": "sony-sony-playstation-4-pro-500-million-limited-edition-2-tb-cuh-7100-617955",
+    "name": "Sony PlayStation 4 Pro 500 Million Limited Edition 2 TB (CUH-7100)",
+    "brand": "Sony",
+    "category": "consoles",
+    "rating": 4.8,
+    "reviewCount": 504,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2018,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/617955.jpg",
+    "images": [
+      "/images/consoles/617955.jpg"
+    ],
+    "highlights": [
+      "Dünya Çapında Sadece 50.000 Adet Üretilen Özel Saydam Koyu Mavi Kasa",
+      "2 TB Devasa Dahili Depolama Kapasitesi",
+      "Koleksiyonluk Bakır Plaka Üzerinde Özel Üretim Seri Numarası",
+      "Özel PlayStation Camera ve Şeffaf DualShock 4 Kol Dahil"
+    ],
+    "specs": {
+      "deviceType": "Sabit",
+      "storageGb": 2048,
+      "fps": "60 fps",
+      "tflops": 4.2,
+      "processor": "AMD Jaguar (8 Çekirdek 2.1 GHz)",
+      "gpu": "AMD Radeon GCN (4.2 TFLOPs)",
+      "ramGb": 8,
+      "ramType": "GDDR5 (1GB DDR3 Yardımcı)",
+      "resolution": "4K Dinamik / HDR10",
+      "hdr": true,
+      "wifi": "Wi-Fi 5 (802.11ac)",
+      "bluetooth": "4.0",
+      "hdmi": "HDMI 2.0a & Optik Ses Çıkışı",
+      "weightKg": 3.3
+    },
+    "storeOffers": [
+      {
+        "id": "617955-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "617955-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 29269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "617955-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 29819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 31319
+      },
+      {
+        "date": "2026-04-15",
+        "price": 30449
+      },
+      {
+        "date": "2026-06-01",
+        "price": 29579
+      },
+      {
+        "date": "2026-08-01",
+        "price": 28999
+      }
+    ]
+  },
+  {
+    "id": "console-865477",
+    "slug": "steam-valve-steam-deck-lcd-256-gb-oyun-konsolu-v004284-30-865477",
+    "name": "Valve Steam Deck LCD 256 GB Oyun Konsolu (V004284-30)",
+    "brand": "Steam",
+    "category": "consoles",
+    "rating": 4.79,
+    "reviewCount": 488,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/865477.jpg",
+    "images": [
+      "/images/consoles/865477.jpg"
+    ],
+    "highlights": [
+      "256 GB NVMe SSD ile Hızlı Yükleme ve Sistem Performansı",
+      "SteamOS ve Linux Masaüstü Modu Esnekliği",
+      "Dahili Çift Trackpad ve Hareket Algılayıcı Jiroskop",
+      "MicroSD Kart ile Kolay Hafıza Artırma"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 256,
+      "fps": "60 fps",
+      "tflops": 1.6,
+      "processor": "AMD Zen 2 (2.4 GHz)",
+      "gpu": "AMD RDNA 2 (1.6 TFLOPs)",
+      "ramGb": 16,
+      "ramType": "LPDDR5",
+      "resolution": "7 inç 1280x800 IPS",
+      "hdr": false,
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "5.0",
+      "hdmi": "USB-C DisplayPort 1.4",
+      "weightKg": 0.669
+    },
+    "storeOffers": [
+      {
+        "id": "865477-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "865477-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 29269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "865477-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 29819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 31319
+      },
+      {
+        "date": "2026-04-15",
+        "price": 30449
+      },
+      {
+        "date": "2026-06-01",
+        "price": 29579
+      },
+      {
+        "date": "2026-08-01",
+        "price": 28999
+      }
+    ]
+  },
+  {
+    "id": "console-890017",
+    "slug": "ayaneo-ayaneo-2-16gb-ram-1tb-ssd-ta-nabilir-oyun-konsolu-890017",
+    "name": "Ayaneo 2 16GB RAM / 1TB SSD Taşınabilir Oyun Konsolu",
+    "brand": "Ayaneo",
+    "category": "consoles",
+    "rating": 4.79,
+    "reviewCount": 488,
+    "basePrice": 31999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/consoles/890017.jpg",
+    "images": [
+      "/images/consoles/890017.jpg"
+    ],
+    "highlights": [
+      "1 TB NVMe SSD ve 16 GB 6400MHz Yüksek Hızlı RAM",
+      "7 inç Çerçevesiz Cam Full HD Dokunmatik Ekran",
+      "Hall Effect Joystickler ile Kusursuz Kontrol Hassasiyeti",
+      "Parmak İzi Okuyucu ile Hızlı Windows Girişi"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 1024,
+      "fps": "60 fps",
+      "tflops": 3.38,
+      "processor": "AMD Ryzen 7 6800U (2.7 GHz)",
+      "gpu": "AMD Radeon 680M (3.38 TFLOPs)",
+      "ramGb": 16,
+      "ramType": "LPDDR5",
+      "resolution": "7 inç 1920x1200 IPS Dokunmatik Ekran",
+      "hdr": true,
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "5.2",
+      "hdmi": "Çift USB4",
+      "weightKg": 0.68
+    },
+    "storeOffers": [
+      {
+        "id": "890017-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 31999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "890017-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 32269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "890017-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 32819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 34559
+      },
+      {
+        "date": "2026-04-15",
+        "price": 33599
+      },
+      {
+        "date": "2026-06-01",
+        "price": 32639
+      },
+      {
+        "date": "2026-08-01",
+        "price": 31999
+      }
+    ]
+  },
+  {
+    "id": "console-862171",
+    "slug": "steam-valve-steam-deck-lcd-64-gb-emmc-oyun-konsolu-v004281-30-862171",
+    "name": "Valve Steam Deck LCD 64 GB eMMC Oyun Konsolu (V004281-30)",
+    "brand": "Steam",
+    "category": "consoles",
+    "rating": 4.79,
+    "reviewCount": 472,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/consoles/862171.jpg",
+    "images": [
+      "/images/consoles/862171.jpg"
+    ],
+    "highlights": [
+      "En Uygun Fiyatlı Steam Deck Modeli (M.2 NVMe SSD Yükseltilebilir)",
+      "Tüm Steam Oyun Kütüphanesini Taşınabilir Oynama İmkânı",
+      "MicroSD Kart Yuvası ile Saniyeler İçinde Hafıza Artırma",
+      "Çift Trackpad ve Arka Makro Tuşları"
+    ],
+    "specs": {
+      "deviceType": "Taşınabilir (El Konsolu)",
+      "storageGb": 64,
+      "fps": "60 fps",
+      "tflops": 1.6,
+      "processor": "AMD Zen 2 (2.4 GHz)",
+      "gpu": "AMD RDNA 2 (1.6 TFLOPs)",
+      "ramGb": 16,
+      "ramType": "LPDDR5",
+      "resolution": "7 inç 1280x800 IPS",
+      "hdr": false,
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "5.0",
+      "hdmi": "USB-C DisplayPort",
+      "weightKg": 0.669
+    },
+    "storeOffers": [
+      {
+        "id": "862171-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 24999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "862171-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 25269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "862171-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 25819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 26999
+      },
+      {
+        "date": "2026-04-15",
+        "price": 26249
+      },
+      {
+        "date": "2026-06-01",
+        "price": 25499
+      },
+      {
+        "date": "2026-08-01",
+        "price": 24999
+      }
+    ]
+  },
+  {
+    "id": "console-80278",
+    "slug": "sony-sony-playstation-4-pro-1-tb-4k-hdr-oyun-konsolu-cuh-7200-80278",
+    "name": "Sony PlayStation 4 Pro 1 TB 4K HDR Oyun Konsolu (CUH-7200)",
+    "brand": "Sony",
+    "category": "consoles",
+    "rating": 4.79,
+    "reviewCount": 472,
+    "basePrice": 18999,
+    "currency": "TL",
+    "releaseYear": 2016,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/consoles/80278.png",
+    "images": [
+      "/images/consoles/80278.png"
+    ],
+    "highlights": [
+      "4.2 TFLOPs Grafik Gücü ile Dinamik 4K Çözünürlük ve Gelişmiş Grafikler",
+      "1 TB Dahili Sabit Disk Kapasitesi",
+      "PS4 Pro Enhanced Oyunlarında Daha Yüksek ve Kararlı Kare Hızları (FPS)",
+      "Optik Ses Çıkışı ve DualShock 4 Kablosuz Kol"
+    ],
+    "specs": {
+      "deviceType": "Sabit",
+      "storageGb": 1024,
+      "fps": "60 fps",
+      "tflops": 4.2,
+      "processor": "AMD Jaguar (8 Çekirdek 2.1 GHz)",
+      "gpu": "AMD Radeon GCN (4.2 TFLOPs)",
+      "ramGb": 8,
+      "ramType": "GDDR5",
+      "resolution": "4K Dinamik / HDR10",
+      "hdr": true,
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "4.0",
+      "hdmi": "HDMI 2.0a & Optik Ses",
+      "weightKg": 3.3
+    },
+    "storeOffers": [
+      {
+        "id": "80278-0",
+        "storeName": "Amazon.com.tr",
+        "storeLogoColor": "#ff9900",
+        "price": 18999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.7,
+        "sellerReviews": 450,
+        "url": "https://www.amazon.com.tr"
+      },
+      {
+        "id": "80278-1",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "#ff6000",
+        "price": 19269,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 730,
+        "url": "https://www.hepsiburada.com"
+      },
+      {
+        "id": "80278-2",
+        "storeName": "Trendyol",
+        "storeLogoColor": "#f27a1a",
+        "price": 19819,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1010,
+        "url": "https://www.trendyol.com"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-03-01",
+        "price": 20519
+      },
+      {
+        "date": "2026-04-15",
+        "price": 19949
+      },
+      {
+        "date": "2026-06-01",
+        "price": 19379
+      },
+      {
+        "date": "2026-08-01",
+        "price": 18999
       }
     ]
   }
