@@ -155,12 +155,12 @@ function SmartwatchesContent({ initialProducts }: { initialProducts: Product[] }
         </p>
 
         {/* Minimalist Search & Sort Bar */}
-        <div className="max-w-xl mx-auto pt-2 flex items-center gap-2">
+        <div className="max-w-xl mx-auto pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-2">
           <div className="relative flex-1">
             <Search className="w-4 h-4 text-slate-400 absolute left-4 top-1/2 -translate-y-1/2" />
             <input
               type="text"
-              placeholder="Akıllı saat ara (model, marka, kasa materyali)..."
+              placeholder="Akıllı saat ara (model, marka, materyal)..."
               value={searchQuery}
               onChange={(e) => {
                 setSearchQuery(e.target.value);
@@ -176,7 +176,7 @@ function SmartwatchesContent({ initialProducts }: { initialProducts: Product[] }
               setSortBy(e.target.value);
               setVisibleCount(ITEMS_PER_PAGE);
             }}
-            className="bg-slate-50 hover:bg-slate-100/80 border border-slate-200/90 rounded-full px-4 py-2.5 text-xs font-bold text-slate-800 outline-none cursor-pointer transition-all shadow-2xs"
+            className="bg-slate-50 hover:bg-slate-100/80 border border-slate-200/90 rounded-full px-4 py-2.5 text-xs font-bold text-slate-800 outline-none cursor-pointer transition-all shadow-2xs shrink-0"
           >
             <option value="popular">Öne Çıkanlar</option>
             <option value="priceAsc">Fiyat: Düşükten Yükseğe</option>
@@ -187,7 +187,7 @@ function SmartwatchesContent({ initialProducts }: { initialProducts: Product[] }
       </div>
 
       {/* Segmented Form Factor Tabs (Apple / Scandinavian Style) */}
-      <div className="border-b border-slate-200/80 flex items-center justify-center gap-2 sm:gap-8 overflow-x-auto scrollbar-none">
+      <div className="border-b border-slate-200/80 flex items-center justify-start sm:justify-center gap-2 sm:gap-8 overflow-x-auto scrollbar-none pb-0.5 px-2 -mx-2">
         {TABS.map((tab) => {
           const isActive = activeTab === tab.id;
           return (
@@ -197,7 +197,7 @@ function SmartwatchesContent({ initialProducts }: { initialProducts: Product[] }
                 setActiveTab(tab.id);
                 setVisibleCount(ITEMS_PER_PAGE);
               }}
-              className={`pb-3 px-3 text-xs sm:text-sm font-bold tracking-tight transition-all relative cursor-pointer whitespace-nowrap ${
+              className={`pb-3 px-3 text-xs sm:text-sm font-bold tracking-tight transition-all relative cursor-pointer whitespace-nowrap shrink-0 ${
                 isActive ? 'text-slate-900' : 'text-slate-400 hover:text-slate-700'
               }`}
             >
@@ -211,10 +211,10 @@ function SmartwatchesContent({ initialProducts }: { initialProducts: Product[] }
       </div>
 
       {/* Minimalist Brand Chips */}
-      <div className="flex items-center justify-center gap-1.5 flex-wrap pt-1">
+      <div className="flex items-center justify-start sm:justify-center gap-1.5 overflow-x-auto sm:flex-wrap pb-1 scrollbar-none px-2 -mx-2">
         <button
           onClick={() => handleSelectBrand('all')}
-          className={`px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all cursor-pointer ${
+          className={`px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all cursor-pointer whitespace-nowrap shrink-0 ${
             selectedBrand === 'all'
               ? 'bg-slate-900 text-white shadow-xs'
               : 'bg-slate-100 hover:bg-slate-200 text-slate-600'
@@ -228,7 +228,7 @@ function SmartwatchesContent({ initialProducts }: { initialProducts: Product[] }
             <button
               key={b}
               onClick={() => handleSelectBrand(isSelected ? 'all' : b)}
-              className={`px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all cursor-pointer ${
+              className={`px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all cursor-pointer whitespace-nowrap shrink-0 ${
                 isSelected
                   ? 'bg-slate-900 text-white shadow-xs'
                   : 'bg-slate-100 hover:bg-slate-200 text-slate-600'
@@ -243,7 +243,7 @@ function SmartwatchesContent({ initialProducts }: { initialProducts: Product[] }
       {/* Products Grid */}
       {displayProducts.length > 0 ? (
         <div className="space-y-10">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
             {displayProducts.slice(0, visibleCount).map((product, idx) => (
               <CompactProductCard key={product.id} product={product} index={idx} />
             ))}
