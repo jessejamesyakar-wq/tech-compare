@@ -71193,5 +71193,290 @@ export const mockAppliances: ApplianceProduct[] = [
         "store": "Trendyol"
       }
     ]
+  },
+  {
+    "id": "arcelik-570471-mb",
+    "slug": "arcelik-570471-mb",
+    "name": "Arçelik 570471 MB 477 Litre No-Frost Çift Kapılı Beyaz Buzdolabı",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 26499,
+    "currency": "TL",
+    "rating": 4.91,
+    "epeyScore": 94,
+    "reviewCount": 1840,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "477 Litre Toplam Net Hacim & AeroFlow Çift Hava Sirkülasyonu",
+      "No-Frost Karlanma ve Buzlanma Yapmayan Soğutma",
+      "FullFresh+ ile Sebze ve Meyvelerde 30 Güne Kadar Tazelik",
+      "ProSmart Inverter Kompresör & 38 dB Süper Sessiz Çalışma"
+    ],
+    "specs": {
+      "subCategory": "refrigerator",
+      "subCategoryLabel": "Buzdolabı",
+      "capacityLiters": 477,
+      "noiseLevelDb": 38,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-570471-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 26499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "🔥 Cimri En Çok Satan Buzdolabı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2450,
+        "url": "#"
+      },
+      {
+        "id": "arcelik-570471-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 26899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hızlı Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3100,
+        "url": "#"
+      },
+      {
+        "id": "arcelik-570471-amz",
+        "storeName": "Amazon TR",
+        "storeLogoColor": "bg-amber-500",
+        "price": 26999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 26499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08",
+        "price": 26499,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-570475-mb",
+    "slug": "arcelik-570475-mb",
+    "name": "Arçelik 570475 MB 508 Litre Geniş Hacimli No-Frost Kombi Buzdolabı",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 28999,
+    "currency": "TL",
+    "rating": 4.93,
+    "epeyScore": 95,
+    "reviewCount": 960,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "508 Litre Geniş İç Hacim & Alttan Donduruculu Ergonomik Tasarım",
+      "VitaminZone Doğal Gün Işığı Döngüsü ile Vitamin Koruma",
+      "Cool Control Çok Yönlü Soğutma Sistemi",
+      "Kapı Açık Alarmı & LED Yan Panel Aydınlatması"
+    ],
+    "specs": {
+      "subCategory": "refrigerator",
+      "subCategoryLabel": "Buzdolabı",
+      "capacityLiters": 508,
+      "noiseLevelDb": 38,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-570475-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 28999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "VitaminZone"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1800,
+        "url": "#"
+      },
+      {
+        "id": "arcelik-570475-med",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 29499,
+        "inStock": true,
+        "shippingDays": 2,
+        "badges": [
+          "Yetkili Satıcı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 950,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 28999,
+        "store": "Hepsiburada"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-9140-pm",
+    "slug": "arcelik-9140-pm",
+    "name": "Arçelik 9140 PM 9 kg 1400 Devir ProSmart Inverter Çamaşır Makinesi",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 18499,
+    "currency": "TL",
+    "rating": 4.92,
+    "epeyScore": 95,
+    "reviewCount": 1450,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "highlights": [
+      "9 kg Yıkama Kapasitesi & 1400 Devir Yüksek Sıkma Gücü",
+      "SteamCure Buharlı Kırışık Azaltma ve Hijyen Programı",
+      "HomeWhiz Bluetooth / Wi-Fi ile Akıllı Telefon Kontrolü",
+      "10 Yıl Motor Garantili ProSmart Inverter Motor"
+    ],
+    "specs": {
+      "subCategory": "washing_machine",
+      "subCategoryLabel": "Çamaşır Makinesi",
+      "capacity": "9 kg",
+      "noiseLevelDb": 72,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-9140-ty",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 18499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "🔥 1400 Devir Buharlı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2900,
+        "url": "#"
+      },
+      {
+        "id": "arcelik-9140-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 18799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Peşin Fiyatına Taksit"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3400,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 18499,
+        "store": "Trendyol"
+      }
+    ]
+  },
+  {
+    "id": "arcelik-2051-mb",
+    "slug": "arcelik-2051-mb",
+    "name": "Arçelik 2051 MB 5 Çekmeceli Dikey Derin Dondurucu (168 Litre)",
+    "brand": "Arçelik",
+    "category": "appliances",
+    "basePrice": 14499,
+    "currency": "TL",
+    "rating": 4.88,
+    "epeyScore": 91,
+    "reviewCount": 640,
+    "image": "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg",
+    "images": [
+      "https://cdn.dsmcdn.com/mnresize/600/-/ty1155/product/media/images/prod/QC/20240129/17/0458f3ff-fe10-333e-b83b-f6cebb748a60/1_org_zoom.jpg"
+    ],
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "highlights": [
+      "168 Litre Net Hacim & 5 Kullanışlı Şeffaf Çekmece",
+      "Hızlı Dondurma (Fast Freeze) Fonksiyonu",
+      "A+ Enerji Tasarruflu ve 37 dB Sessiz Kompresör",
+      "Değiştirilebilir Kapı Açılış Yönü"
+    ],
+    "specs": {
+      "subCategory": "deep_freezer",
+      "subCategoryLabel": "Derin Dondurucu",
+      "capacityLiters": 168,
+      "noiseLevelDb": 37,
+      "warrantyYears": 3,
+      "color": "Beyaz"
+    },
+    "storeOffers": [
+      {
+        "id": "arcelik-2051-hb",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-500",
+        "price": 14499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "5 Çekmeceli Dikey"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1100,
+        "url": "#"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-07",
+        "price": 14499,
+        "store": "Hepsiburada"
+      }
+    ]
   }
 ];
