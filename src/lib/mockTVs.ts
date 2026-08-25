@@ -94638,5 +94638,2315 @@ export const mockTVs: TVProduct[] = [
         "store": "LG TR"
       }
     ]
+  },
+  {
+    "id": "lg-lg-ultragear-24gl600f-b",
+    "slug": "lg-lg-ultragear-24gl600f-b",
+    "name": "LG UltraGear 24GL600F-B",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 94,
+    "reviewCount": 563,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-167943.jpg",
+    "images": [
+      "/images/tvs/lg-167943.jpg"
+    ],
+    "highlights": [
+      "23.8\" Fast IPS 1ms Full HD (1920x1080) Monitör",
+      "144Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 23.8,
+      "displayTech": "Fast IPS",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 144,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "695 x 590 x 260 mm",
+      "weightKg": 5.1,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-167943-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-ultragear-24gl600f-b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-ultragear-34gx900a-b",
+    "slug": "lg-lg-ultragear-34gx900a-b",
+    "name": "LG UltraGear 34GX900A-B",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 89,
+    "reviewCount": 488,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-1033868.jpg",
+    "images": [
+      "/images/tvs/lg-1033868.jpg"
+    ],
+    "highlights": [
+      "34\" OLED 0.03ms UWQHD Curved (3440x1440) Monitör",
+      "240Hz Yenileme Hızı & DisplayHDR True Black 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 34,
+      "displayTech": "OLED",
+      "resolution": "UWQHD Curved (3440x1440)",
+      "refreshRateHz": 240,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "DisplayHDR True Black 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "954 x 590 x 260 mm",
+      "weightKg": 9.5,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-1033868-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-ultragear-34gx900a-b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-32uq750p-w",
+    "slug": "lg-lg-32uq750p-w",
+    "name": "LG 32UQ750P-W",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 87,
+    "reviewCount": 362,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-930542.jpg",
+    "images": [
+      "/images/tvs/lg-930542.jpg"
+    ],
+    "highlights": [
+      "32\" Fast IPS 1ms 4K Ultra HD (3840x2160) Monitör",
+      "144Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "Fast IPS",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "903 x 590 x 260 mm",
+      "weightKg": 7.2,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-930542-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-32uq750p-w.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-ultrawide-34wq650-w",
+    "slug": "lg-lg-ultrawide-34wq650-w",
+    "name": "LG UltraWide 34WQ650-W",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 97,
+    "reviewCount": 573,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-874353.jpg",
+    "images": [
+      "/images/tvs/lg-874353.jpg"
+    ],
+    "highlights": [
+      "34\" Fast IPS 1ms UWQHD Curved (3440x1440) Monitör",
+      "144Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 34,
+      "displayTech": "Fast IPS",
+      "resolution": "UWQHD Curved (3440x1440)",
+      "refreshRateHz": 144,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 14,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "954 x 590 x 260 mm",
+      "weightKg": 9.5,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-874353-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-ultrawide-34wq650-w.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-ultragear-24gn65r-b",
+    "slug": "lg-lg-ultragear-24gn65r-b",
+    "name": "LG UltraGear 24GN65R-B",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 89,
+    "reviewCount": 602,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-856782.jpg",
+    "images": [
+      "/images/tvs/lg-856782.jpg"
+    ],
+    "highlights": [
+      "23.8\" Fast IPS 1ms Full HD (1920x1080) Monitör",
+      "144Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 23.8,
+      "displayTech": "Fast IPS",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 144,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "695 x 590 x 260 mm",
+      "weightKg": 5.1,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-856782-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-ultragear-24gn65r-b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-27up85np-w",
+    "slug": "lg-lg-27up85np-w",
+    "name": "LG 27UP85NP-W",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 540,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-914320.jpg",
+    "images": [
+      "/images/tvs/lg-914320.jpg"
+    ],
+    "highlights": [
+      "27\" Fast IPS 1ms 4K Ultra HD (3840x2160) Monitör",
+      "144Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "displayTech": "Fast IPS",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "776 x 590 x 260 mm",
+      "weightKg": 5.1,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-914320-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-27up85np-w.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-ultragear-27gs75q-b",
+    "slug": "lg-lg-ultragear-27gs75q-b",
+    "name": "LG UltraGear 27GS75Q-B",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 95,
+    "reviewCount": 320,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-989700.jpg",
+    "images": [
+      "/images/tvs/lg-989700.jpg"
+    ],
+    "highlights": [
+      "27\" Fast IPS 1ms QHD (2560x1440) Monitör",
+      "180Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "displayTech": "Fast IPS",
+      "resolution": "QHD (2560x1440)",
+      "refreshRateHz": 180,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "776 x 590 x 260 mm",
+      "weightKg": 5.1,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-989700-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-ultragear-27gs75q-b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-ultragear-27g550b-b",
+    "slug": "lg-lg-ultragear-27g550b-b",
+    "name": "LG UltraGear 27G550B-B",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 85,
+    "reviewCount": 370,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-1065350.jpg",
+    "images": [
+      "/images/tvs/lg-1065350.jpg"
+    ],
+    "highlights": [
+      "27\" Fast IPS 1ms Full HD (1920x1080) Monitör",
+      "180Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "displayTech": "Fast IPS",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 180,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "776 x 590 x 260 mm",
+      "weightKg": 5.1,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-1065350-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-ultragear-27g550b-b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-32un550-w",
+    "slug": "lg-lg-32un550-w",
+    "name": "LG 32UN550-W",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 87,
+    "reviewCount": 559,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-698739.jpg",
+    "images": [
+      "/images/tvs/lg-698739.jpg"
+    ],
+    "highlights": [
+      "32\" Fast IPS 1ms 4K Ultra HD (3840x2160) Monitör",
+      "100Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "Fast IPS",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 100,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "903 x 590 x 260 mm",
+      "weightKg": 7.2,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-698739-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-32un550-w.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-ultrawide-29wq600-w",
+    "slug": "lg-lg-ultrawide-29wq600-w",
+    "name": "LG UltraWide 29WQ600-W",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 95,
+    "reviewCount": 595,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-856775.jpg",
+    "images": [
+      "/images/tvs/lg-856775.jpg"
+    ],
+    "highlights": [
+      "29\" Fast IPS 1ms UltraWide FHD (2560x1080) Monitör",
+      "100Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 29,
+      "displayTech": "Fast IPS",
+      "resolution": "UltraWide FHD (2560x1080)",
+      "refreshRateHz": 100,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 14,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "827 x 590 x 260 mm",
+      "weightKg": 7.2,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-856775-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-ultrawide-29wq600-w.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-24mp450p-b",
+    "slug": "lg-lg-24mp450p-b",
+    "name": "LG 24MP450P-B",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 582,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-859162.jpg",
+    "images": [
+      "/images/tvs/lg-859162.jpg"
+    ],
+    "highlights": [
+      "23.8\" Fast IPS 1ms Full HD (1920x1080) Monitör",
+      "100Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 23.8,
+      "displayTech": "Fast IPS",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 100,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "695 x 590 x 260 mm",
+      "weightKg": 5.1,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-859162-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-24mp450p-b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-myview-27sr50f-w",
+    "slug": "lg-lg-myview-27sr50f-w",
+    "name": "LG MyView 27SR50F-W",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 87,
+    "reviewCount": 517,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-921897.jpg",
+    "images": [
+      "/images/tvs/lg-921897.jpg"
+    ],
+    "highlights": [
+      "27\" Fast IPS 1ms Full HD (1920x1080) Monitör",
+      "100Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "displayTech": "Fast IPS",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 100,
+      "smartOs": "webOS 24",
+      "audioPowerWatts": 14,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 3,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "LG ThinQ AI Sesli Asistan",
+      "dimensionsWithStand": "776 x 590 x 260 mm",
+      "weightKg": 5.1,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-921897-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-27sr50f-w.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-ultragear-27gl83ap-b",
+    "slug": "lg-lg-ultragear-27gl83ap-b",
+    "name": "LG UltraGear 27GL83AP-B",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 340,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-890920.jpg",
+    "images": [
+      "/images/tvs/lg-890920.jpg"
+    ],
+    "highlights": [
+      "27\" Fast IPS 1ms QHD (2560x1440) Monitör",
+      "144Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "displayTech": "Fast IPS",
+      "resolution": "QHD (2560x1440)",
+      "refreshRateHz": 144,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "776 x 590 x 260 mm",
+      "weightKg": 5.1,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-890920-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-ultragear-27gl83ap-b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-myview-32sr85u-w",
+    "slug": "lg-lg-myview-32sr85u-w",
+    "name": "LG MyView 32SR85U-W",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 92,
+    "reviewCount": 561,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-942741.jpg",
+    "images": [
+      "/images/tvs/lg-942741.jpg"
+    ],
+    "highlights": [
+      "32\" Fast IPS 1ms 4K Ultra HD (3840x2160) Monitör",
+      "100Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "Fast IPS",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 100,
+      "smartOs": "webOS 24",
+      "audioPowerWatts": 14,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 3,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "LG ThinQ AI Sesli Asistan",
+      "dimensionsWithStand": "903 x 590 x 260 mm",
+      "weightKg": 7.2,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-942741-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-32sr85u-w.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-ultragear-24gs65f-b",
+    "slug": "lg-lg-ultragear-24gs65f-b",
+    "name": "LG UltraGear 24GS65F-B",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 96,
+    "reviewCount": 344,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-963324.jpg",
+    "images": [
+      "/images/tvs/lg-963324.jpg"
+    ],
+    "highlights": [
+      "23.8\" Fast IPS 1ms Full HD (1920x1080) Monitör",
+      "180Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 23.8,
+      "displayTech": "Fast IPS",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 180,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "695 x 590 x 260 mm",
+      "weightKg": 5.1,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-963324-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-ultragear-24gs65f-b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-ultragear-27g523b-b",
+    "slug": "lg-lg-ultragear-27g523b-b",
+    "name": "LG UltraGear 27G523B-B",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 87,
+    "reviewCount": 413,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-1062193.jpg",
+    "images": [
+      "/images/tvs/lg-1062193.jpg"
+    ],
+    "highlights": [
+      "27\" Fast IPS 1ms Full HD (1920x1080) Monitör",
+      "180Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "displayTech": "Fast IPS",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 180,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "776 x 590 x 260 mm",
+      "weightKg": 5.1,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-1062193-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-ultragear-27g523b-b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-ultrawide-29wq500-b",
+    "slug": "lg-lg-ultrawide-29wq500-b",
+    "name": "LG UltraWide 29WQ500-B",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 93,
+    "reviewCount": 365,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-862545.jpg",
+    "images": [
+      "/images/tvs/lg-862545.jpg"
+    ],
+    "highlights": [
+      "29\" Fast IPS 1ms UltraWide FHD (2560x1080) Monitör",
+      "100Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 29,
+      "displayTech": "Fast IPS",
+      "resolution": "UltraWide FHD (2560x1080)",
+      "refreshRateHz": 100,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 14,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "827 x 590 x 260 mm",
+      "weightKg": 7.2,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-862545-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-ultrawide-29wq500-b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-ultragear-24gn60r-b",
+    "slug": "lg-lg-ultragear-24gn60r-b",
+    "name": "LG UltraGear 24GN60R-B",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.9,
+    "epeyScore": 88,
+    "reviewCount": 601,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-856781.jpg",
+    "images": [
+      "/images/tvs/lg-856781.jpg"
+    ],
+    "highlights": [
+      "23.8\" Fast IPS 1ms Full HD (1920x1080) Monitör",
+      "144Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 23.8,
+      "displayTech": "Fast IPS",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 144,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "695 x 590 x 260 mm",
+      "weightKg": 5.1,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-856781-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-ultragear-24gn60r-b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-ultragear-24gq50f-b",
+    "slug": "lg-lg-ultragear-24gq50f-b",
+    "name": "LG UltraGear 24GQ50F-B",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 376,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-847356.jpg",
+    "images": [
+      "/images/tvs/lg-847356.jpg"
+    ],
+    "highlights": [
+      "23.8\" Fast IPS 1ms Full HD (1920x1080) Monitör",
+      "144Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 23.8,
+      "displayTech": "Fast IPS",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 144,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "695 x 590 x 260 mm",
+      "weightKg": 5.1,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-847356-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-ultragear-24gq50f-b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-27mr400-b",
+    "slug": "lg-lg-27mr400-b",
+    "name": "LG 27MR400-B",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 93,
+    "reviewCount": 551,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-908331.jpg",
+    "images": [
+      "/images/tvs/lg-908331.jpg"
+    ],
+    "highlights": [
+      "27\" Fast IPS 1ms Full HD (1920x1080) Monitör",
+      "100Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "displayTech": "Fast IPS",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 100,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "776 x 590 x 260 mm",
+      "weightKg": 5.1,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-908331-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-27mr400-b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-27mp400-b",
+    "slug": "lg-lg-27mp400-b",
+    "name": "LG 27MP400-B",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 88,
+    "reviewCount": 546,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-721126.jpg",
+    "images": [
+      "/images/tvs/lg-721126.jpg"
+    ],
+    "highlights": [
+      "27\" Fast IPS 1ms Full HD (1920x1080) Monitör",
+      "100Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "displayTech": "Fast IPS",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 100,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "776 x 590 x 260 mm",
+      "weightKg": 5.1,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-721126-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-27mp400-b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-24mp400-b",
+    "slug": "lg-lg-24mp400-b",
+    "name": "LG 24MP400-B",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 90,
+    "reviewCount": 419,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-714199.jpg",
+    "images": [
+      "/images/tvs/lg-714199.jpg"
+    ],
+    "highlights": [
+      "23.8\" Fast IPS 1ms Full HD (1920x1080) Monitör",
+      "100Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 23.8,
+      "displayTech": "Fast IPS",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 100,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "695 x 590 x 260 mm",
+      "weightKg": 5.1,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-714199-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-24mp400-b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-ultragear-34gs95qe-b",
+    "slug": "lg-lg-ultragear-34gs95qe-b",
+    "name": "LG UltraGear 34GS95QE-B",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 86,
+    "reviewCount": 568,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-942748.jpg",
+    "images": [
+      "/images/tvs/lg-942748.jpg"
+    ],
+    "highlights": [
+      "34\" OLED 0.03ms UWQHD Curved (3440x1440) Monitör",
+      "240Hz Yenileme Hızı & DisplayHDR True Black 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 34,
+      "displayTech": "OLED",
+      "resolution": "UWQHD Curved (3440x1440)",
+      "refreshRateHz": 240,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "DisplayHDR True Black 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "954 x 590 x 260 mm",
+      "weightKg": 9.5,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-942748-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-ultragear-34gs95qe-b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-ultrafine-32un88ap-w",
+    "slug": "lg-lg-ultrafine-32un88ap-w",
+    "name": "LG UltraFine 32UN88AP-W",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 607,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-869587.jpg",
+    "images": [
+      "/images/tvs/lg-869587.jpg"
+    ],
+    "highlights": [
+      "32\" Fast IPS 1ms 4K Ultra HD (3840x2160) Monitör",
+      "144Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "Fast IPS",
+      "resolution": "4K Ultra HD (3840x2160)",
+      "refreshRateHz": 144,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 3,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "903 x 590 x 260 mm",
+      "weightKg": 7.2,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-869587-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-ultrafine-32un88ap-w.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-ultrawide-34wr55qc-b",
+    "slug": "lg-lg-ultrawide-34wr55qc-b",
+    "name": "LG UltraWide 34WR55QC-B",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 88,
+    "reviewCount": 363,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-930543.jpg",
+    "images": [
+      "/images/tvs/lg-930543.jpg"
+    ],
+    "highlights": [
+      "34\" Fast IPS 1ms UWQHD Curved (3440x1440) Monitör",
+      "144Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 34,
+      "displayTech": "Fast IPS",
+      "resolution": "UWQHD Curved (3440x1440)",
+      "refreshRateHz": 144,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 14,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "954 x 590 x 260 mm",
+      "weightKg": 9.5,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-930543-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-ultrawide-34wr55qc-b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-ultragear-27gs60f-b",
+    "slug": "lg-lg-ultragear-27gs60f-b",
+    "name": "LG UltraGear 27GS60F-B",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.7,
+    "epeyScore": 87,
+    "reviewCount": 435,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-943815.jpg",
+    "images": [
+      "/images/tvs/lg-943815.jpg"
+    ],
+    "highlights": [
+      "27\" Fast IPS 1ms Full HD (1920x1080) Monitör",
+      "180Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "displayTech": "Fast IPS",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 180,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "776 x 590 x 260 mm",
+      "weightKg": 5.1,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-943815-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-ultragear-27gs60f-b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-ultragear-32gn500-b",
+    "slug": "lg-lg-ultragear-32gn500-b",
+    "name": "LG UltraGear 32GN500-B",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 85,
+    "reviewCount": 295,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-618475.jpg",
+    "images": [
+      "/images/tvs/lg-618475.jpg"
+    ],
+    "highlights": [
+      "32\" Fast IPS 1ms Full HD (1920x1080) Monitör",
+      "144Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "Fast IPS",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 144,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "903 x 590 x 260 mm",
+      "weightKg": 7.2,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-618475-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-ultragear-32gn500-b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-ultragear-24gs50f-b",
+    "slug": "lg-lg-ultragear-24gs50f-b",
+    "name": "LG UltraGear 24GS50F-B",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 89,
+    "reviewCount": 376,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-958156.jpg",
+    "images": [
+      "/images/tvs/lg-958156.jpg"
+    ],
+    "highlights": [
+      "23.8\" Fast IPS 1ms Full HD (1920x1080) Monitör",
+      "180Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 23.8,
+      "displayTech": "Fast IPS",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 180,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "695 x 590 x 260 mm",
+      "weightKg": 5.1,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-958156-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-ultragear-24gs50f-b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-27mp450p-b",
+    "slug": "lg-lg-27mp450p-b",
+    "name": "LG 27MP450P-B",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 95,
+    "reviewCount": 576,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-866356.jpg",
+    "images": [
+      "/images/tvs/lg-866356.jpg"
+    ],
+    "highlights": [
+      "27\" Fast IPS 1ms Full HD (1920x1080) Monitör",
+      "100Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 27,
+      "displayTech": "Fast IPS",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 100,
+      "smartOs": "LG Gaming OSD Control",
+      "audioPowerWatts": 10,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 2,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "Yok",
+      "dimensionsWithStand": "776 x 590 x 260 mm",
+      "weightKg": 5.1,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-866356-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-27mp450p-b.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-myview-32sr50f-w",
+    "slug": "lg-lg-myview-32sr50f-w",
+    "name": "LG MyView 32SR50F-W",
+    "brand": "LG",
+    "category": "tvs",
+    "basePrice": 14999,
+    "currency": "TL",
+    "rating": 4.8,
+    "epeyScore": 86,
+    "reviewCount": 503,
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "/images/tvs/lg-921883.jpg",
+    "images": [
+      "/images/tvs/lg-921883.jpg"
+    ],
+    "highlights": [
+      "32\" Fast IPS 1ms Full HD (1920x1080) Monitör",
+      "100Hz Yenileme Hızı & HDR10 / DisplayHDR 400",
+      "NVIDIA G-Sync & AMD FreeSync Premium Desteği",
+      "HDMI & DisplayPort Bağlantıları, Ergonomik Stant Tasarımı"
+    ],
+    "specs": {
+      "screenSizeInches": 32,
+      "displayTech": "Fast IPS",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRateHz": 100,
+      "smartOs": "webOS 24",
+      "audioPowerWatts": 14,
+      "hdrFormats": [
+        "HDR10",
+        "VESA DisplayHDR 400"
+      ],
+      "gamingFeatures": [
+        "G-Sync Compatible",
+        "FreeSync Premium",
+        "Black Stabilizer",
+        "Dynamic Action Sync",
+        "Crosshair"
+      ],
+      "hdmiPorts": 2,
+      "usbPorts": 3,
+      "energyClass": "F",
+      "processorEngine": "LG Display Processing Engine",
+      "dolbyAtmos": false,
+      "voiceControl": "LG ThinQ AI Sesli Asistan",
+      "dimensionsWithStand": "903 x 590 x 260 mm",
+      "weightKg": 7.2,
+      "bezelStyle": "3 Taraflı Çerçevesiz İnce Tasarım"
+    },
+    "storeOffers": [
+      {
+        "id": "so-lgmon3-921883-1",
+        "storeName": "LG TR",
+        "storeLogoColor": "bg-red-600",
+        "price": 14999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi LG Türkiye Garantili",
+          "0 Ölü Piksel Garantisi"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 4200,
+        "url": "https://www.epey.com/monitor/lg-32sr50f-w.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "price": 14999,
+        "store": "LG TR"
+      }
+    ]
   }
 ];
