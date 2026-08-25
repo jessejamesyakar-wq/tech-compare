@@ -12,19 +12,42 @@ const ITEMS_PER_PAGE = 24;
 export default function ConsolesClient({ initialProducts }: { initialProducts: Product[] }) {
   const [products] = useState<Product[]>(initialProducts);
   const [searchQuery, setSearchQuery] = useState('');
+  const [selectedBrand, setSelectedBrand] = useState<string>('all');
+  const [selectedType, setSelectedType] = useState<string>('all');
   const [sortBy, setSortBy] = useState('popular');
   const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
 
+  const brands = useMemo(() => {
+    const set = new Set<string>();
+    products.forEach((p) => {
+      if (p.brand) set.add(p.brand);
+    });
+    return Array.from(set);
+  }, [products]);
+
   const displayProducts = useMemo(() => {
     return products
-      .filter((p) => !searchQuery || p.name.toLowerCase().includes(searchQuery.toLowerCase()) || p.brand.toLowerCase().includes(searchQuery.toLowerCase()))
+      .filter((p) => {
+        const matchesSearch =
+          !searchQuery ||
+          p.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          p.brand.toLowerCase().includes(searchQuery.toLowerCase());
+        const matchesBrand = selectedBrand === 'all' || p.brand === selectedBrand;
+        const pType = (p.specs as any)?.deviceType || '';
+        const matchesType =
+          selectedType === 'all' ||
+          (selectedType === 'handheld' && (pType.includes('Taşınabilir') || pType.includes('Hibrit') || pType.includes('El Konsolu'))) ||
+          (selectedType === 'home' && (pType.includes('Sabit') || pType.includes('Hibrit')));
+
+        return matchesSearch && matchesBrand && matchesType;
+      })
       .sort((a, b) => {
         if (sortBy === 'priceAsc') return a.basePrice - b.basePrice;
         if (sortBy === 'priceDesc') return b.basePrice - a.basePrice;
         if (sortBy === 'rating') return b.rating - a.rating;
         return (b.isPopular ? 1 : 0) - (a.isPopular ? 1 : 0);
       });
-  }, [products, searchQuery, sortBy]);
+  }, [products, searchQuery, selectedBrand, selectedType, sortBy]);
 
   return (
     <div className="space-y-6 pb-12">
@@ -76,6 +99,64 @@ export default function ConsolesClient({ initialProducts }: { initialProducts: P
             <option value="priceDesc">Fiyat: Yüksekten Düşüğe</option>
             <option value="rating">En Yüksek Puanlılar</option>
           </select>
+        </div>
+      </div>
+
+      {/* Filter Tabs / Pills */}
+      <div className="flex flex-wrap items-center justify-between gap-3 bg-white border border-slate-200/80 rounded-2xl p-3 shadow-2xs">
+        {/* Brand Selector */}
+        <div className="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0 scrollbar-none">
+          <button
+            onClick={() => setSelectedBrand('all')}
+            className={`px-3.5 py-1.5 rounded-xl text-xs font-black transition-all cursor-pointer ${
+              selectedBrand === 'all'
+                ? 'bg-emerald-600 text-white shadow-xs'
+                : 'bg-slate-100 hover:bg-slate-200 text-slate-700'
+            }`}
+          >
+            Tüm Markalar
+          </button>
+          {brands.map((b) => (
+            <button
+              key={b}
+              onClick={() => setSelectedBrand(b)}
+              className={`px-3.5 py-1.5 rounded-xl text-xs font-black transition-all cursor-pointer ${
+                selectedBrand === b
+                  ? 'bg-emerald-600 text-white shadow-xs'
+                  : 'bg-slate-100 hover:bg-slate-200 text-slate-700'
+              }`}
+            >
+              {b}
+            </button>
+          ))}
+        </div>
+
+        {/* Device Type Toggle */}
+        <div className="flex items-center gap-1 bg-slate-100 p-1 rounded-xl text-xs font-bold">
+          <button
+            onClick={() => setSelectedType('all')}
+            className={`px-3 py-1 rounded-lg transition-all cursor-pointer ${
+              selectedType === 'all' ? 'bg-white text-slate-900 shadow-2xs' : 'text-slate-500 hover:text-slate-800'
+            }`}
+          >
+            Tümü
+          </button>
+          <button
+            onClick={() => setSelectedType('home')}
+            className={`px-3 py-1 rounded-lg transition-all cursor-pointer ${
+              selectedType === 'home' ? 'bg-white text-slate-900 shadow-2xs' : 'text-slate-500 hover:text-slate-800'
+            }`}
+          >
+            Sabit
+          </button>
+          <button
+            onClick={() => setSelectedType('handheld')}
+            className={`px-3 py-1 rounded-lg transition-all cursor-pointer ${
+              selectedType === 'handheld' ? 'bg-white text-slate-900 shadow-2xs' : 'text-slate-500 hover:text-slate-800'
+            }`}
+          >
+            El Konsolu
+          </button>
         </div>
       </div>
 
