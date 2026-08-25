@@ -9538,5 +9538,504 @@ export const mockSmartwatches: Product[] = [
         "hex": "#94a3b8"
       }
     ]
+  },
+  {
+    "id": "apple-watch-hermes-series-10-46mm",
+    "slug": "apple-watch-hermes-series-10-46mm",
+    "name": "Apple Watch Hermès Series 10 (46mm Parlak Titanyum Cellular Grand H)",
+    "brand": "Apple",
+    "category": "smartwatches",
+    "rating": 5,
+    "reviewCount": 140,
+    "basePrice": 79999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": true,
+    "image": "/images/smartwatches/apple/apple-watch-series-10-46mm.jpg",
+    "images": [
+      "/images/smartwatches/apple/apple-watch-series-10-46mm.jpg"
+    ],
+    "highlights": [
+      "Özel Hermès Grand H Metal Kordon & Özel Hermès Kadranları",
+      "Havacılık Sınıfı Parlak Titanyum Kasa & Safir Kristal Cam",
+      "4G LTE Bağımsız eSIM & Apple S10 SiP Çip",
+      "Geniş Açılı LTPO3 OLED Ekran & Uyku Apnesi Bildirimi"
+    ],
+    "tags": [
+      "Apple",
+      "Hermès",
+      "Series 10",
+      "46mm",
+      "Titanyum",
+      "Lüks"
+    ],
+    "specs": {
+      "caseSizeMm": 46,
+      "displayType": "Geniş Açılı LTPO3 OLED Retina (2000 nits)",
+      "displaySizeInches": 1.96,
+      "resolution": "416x496 piksel",
+      "batteryLifeDays": 1.5,
+      "batteryCapacityMah": 327,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM (50m) + IP6X + 6m Dalış",
+      "os": "watchOS 11",
+      "sensors": [
+        "Elektriksel Kalp (EKG)",
+        "Üçüncü Nesil Optik Nabız",
+        "Kandaki Oksijen (SpO2)",
+        "Cilt Sıcaklığı",
+        "Derinlik Ölçer",
+        "Su Sıcaklığı"
+      ],
+      "connectivity": [
+        "4G LTE (eSIM)",
+        "Wi-Fi 4 (802.11n)",
+        "Bluetooth 5.3",
+        "NFC (Apple Pay)",
+        "Çift Frekanslı Hassas GPS L1+L5"
+      ],
+      "weightGrams": 41.7,
+      "material": "Parlak Grade 5 Titanyum & Safir Kristal & Hermès Paslanmaz Çelik Kordon",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true,
+      "hasCellular": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-ap-hermes-10",
+        "storeName": "Apple Store Zorlu Center",
+        "storeLogoColor": "bg-black",
+        "price": 79999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Hermès Özel Seri"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 950,
+        "url": "https://www.apple.com/tr/apple-watch-hermes/"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 79999,
+        "store": "Apple Store"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 79999,
+        "store": "Apple Store"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Hermès Parlak Titanyum / Grand H",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "apple-watch-series-10-42mm-titanium-cellular",
+    "slug": "apple-watch-series-10-42mm-titanium-cellular",
+    "name": "Apple Watch Series 10 (42mm Parlak Titanyum Cellular)",
+    "brand": "Apple",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 620,
+    "basePrice": 39999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/apple/apple-watch-series-10-42mm.jpg",
+    "images": [
+      "/images/smartwatches/apple/apple-watch-series-10-42mm.jpg"
+    ],
+    "highlights": [
+      "Havacılık Sınıfı Cilalı Parlak Titanyum Kasa & Safir Kristal Cam",
+      "4G LTE Bağımsız eSIM & Apple S10 SiP Çip",
+      "Yalnızca 34.4g Ultra Hafif ve 9.7mm İnce Tasarım",
+      "Hızlı Şarj: 30 Dakikada %80 Dolum"
+    ],
+    "tags": [
+      "Apple",
+      "Series 10",
+      "42mm",
+      "Titanyum",
+      "Cellular"
+    ],
+    "specs": {
+      "caseSizeMm": 42,
+      "displayType": "Geniş Açılı LTPO3 OLED Retina (2000 nits)",
+      "displaySizeInches": 1.77,
+      "resolution": "374x446 piksel",
+      "batteryLifeDays": 1.5,
+      "batteryCapacityMah": 282,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM (50m) + IP6X + 6m Dalış",
+      "os": "watchOS 11",
+      "sensors": [
+        "Elektriksel Kalp (EKG)",
+        "Üçüncü Nesil Optik Nabız",
+        "SpO2",
+        "Cilt Sıcaklığı",
+        "Derinlik Ölçer"
+      ],
+      "connectivity": [
+        "4G LTE (eSIM)",
+        "Wi-Fi 4",
+        "Bluetooth 5.3",
+        "NFC (Apple Pay)",
+        "GPS L1+L5"
+      ],
+      "weightGrams": 34.4,
+      "material": "Parlak Titanyum & Safir Kristal Cam",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true,
+      "hasCellular": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-s10-42-tit",
+        "storeName": "Hepsiburada",
+        "price": 38999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Series+10+Titanyum"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 39999,
+        "store": "Apple"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 38999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Doğal Titanyum",
+        "hex": "#d1d5db"
+      },
+      {
+        "name": "Altın Titanyum",
+        "hex": "#fbbf24"
+      },
+      {
+        "name": "Arduvaz Titanyum",
+        "hex": "#374151"
+      }
+    ]
+  },
+  {
+    "id": "apple-watch-nike-series-7-45mm-gps",
+    "slug": "apple-watch-nike-series-7-45mm-gps",
+    "name": "Apple Watch Nike Series 7 (45mm Alüminyum GPS)",
+    "brand": "Apple",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 3100,
+    "basePrice": 13999,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/apple/apple-watch-series-7-45mm.jpg",
+    "images": [
+      "/images/smartwatches/apple/apple-watch-series-7-45mm.jpg"
+    ],
+    "highlights": [
+      "Özel Delikli Nefes Alabilir Nike Spor Kordon & Nike Run Club Entegrasyonu",
+      "Özel Nike Bounce ve Nike Analog Kadranları",
+      "Genişletilmiş Retina Ekran & QWERTY Tam Klavye",
+      "IP6X Toza Dayanıklılık ve WR50 Su Geçirmezlik"
+    ],
+    "tags": [
+      "Apple",
+      "Nike Series 7",
+      "45mm",
+      "Koşu",
+      "Nike Kordon"
+    ],
+    "specs": {
+      "caseSizeMm": 45,
+      "displayType": "Hep Açık LTPO OLED Retina (1000 nits)",
+      "displaySizeInches": 1.9,
+      "resolution": "396x484 piksel",
+      "batteryLifeDays": 1.5,
+      "batteryCapacityMah": 308,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM (50m) + IP6X",
+      "os": "watchOS",
+      "sensors": [
+        "Elektriksel Kalp (EKG)",
+        "Üçüncü Nesil Optik Nabız",
+        "Kandaki Oksijen (SpO2)",
+        "Barometre"
+      ],
+      "connectivity": [
+        "Wi-Fi",
+        "Bluetooth 5.0",
+        "NFC (Apple Pay)",
+        "GPS"
+      ],
+      "weightGrams": 38.8,
+      "material": "%100 Geri Dönüştürülmüş Alüminyum & İyon-X Cam & Nike Kordon",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-nike-s7",
+        "storeName": "Hepsiburada",
+        "price": 13499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Nike Edition"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2400,
+        "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Nike+Series+7"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 13999,
+        "store": "Apple"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 13499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Yıldız Işığı Nike",
+        "hex": "#f1f5f9"
+      },
+      {
+        "name": "Gece Yarısı Nike",
+        "hex": "#0f172a"
+      }
+    ]
+  },
+  {
+    "id": "apple-watch-series-8-45mm-stainless-cellular",
+    "slug": "apple-watch-series-8-45mm-stainless-cellular",
+    "name": "Apple Watch Series 8 (45mm Paslanmaz Çelik Cellular)",
+    "brand": "Apple",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 1850,
+    "basePrice": 26999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/apple/apple-watch-series-8-45mm.jpg",
+    "images": [
+      "/images/smartwatches/apple/apple-watch-series-8-45mm.jpg"
+    ],
+    "highlights": [
+      "Ayna Parlaklığında Paslanmaz Çelik Kasa & Safir Kristal Cam",
+      "4G LTE Bağımsız eSIM & Cilt Sıcaklığı Sensörü",
+      "Trafik Kazası Algılama & Düşme Algılama Acil SOS",
+      "Hep Açık Retina Ekran & EKG Kalp Analizi"
+    ],
+    "tags": [
+      "Apple",
+      "Series 8",
+      "45mm",
+      "Paslanmaz Çelik",
+      "Cellular"
+    ],
+    "specs": {
+      "caseSizeMm": 45,
+      "displayType": "Hep Açık LTPO OLED Retina (Safir Kristal)",
+      "displaySizeInches": 1.9,
+      "resolution": "396x484 piksel",
+      "batteryLifeDays": 1.5,
+      "batteryCapacityMah": 308,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM (50m) + IP6X",
+      "os": "watchOS",
+      "sensors": [
+        "Elektriksel Kalp (EKG)",
+        "Üçüncü Nesil Optik Nabız",
+        "SpO2",
+        "Cilt Sıcaklığı",
+        "İvmeölçer"
+      ],
+      "connectivity": [
+        "4G LTE (eSIM)",
+        "Wi-Fi",
+        "Bluetooth 5.3",
+        "NFC (Apple Pay)",
+        "GPS"
+      ],
+      "weightGrams": 51.5,
+      "material": "316L Paslanmaz Çelik & Safir Kristal Cam & Seramik Arka Kapak",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true,
+      "hasCellular": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-s8-ss",
+        "storeName": "Hepsiburada",
+        "price": 25999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Distribütör"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1400,
+        "url": "https://www.hepsiburada.com/ara?q=Apple+Watch+Series+8+Cellular"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 26999,
+        "store": "Apple"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 25999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Gümüş Çelik",
+        "hex": "#e2e8f0"
+      },
+      {
+        "name": "Grafit Çelik",
+        "hex": "#334155"
+      },
+      {
+        "name": "Altın Çelik",
+        "hex": "#f59e0b"
+      }
+    ]
+  },
+  {
+    "id": "apple-watch-edition-series-5-ceramic-44mm",
+    "slug": "apple-watch-edition-series-5-ceramic-44mm",
+    "name": "Apple Watch Edition Series 5 (44mm Beyaz Saf Seramik Cellular)",
+    "brand": "Apple",
+    "category": "smartwatches",
+    "rating": 5,
+    "reviewCount": 380,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "/images/smartwatches/apple/apple-watch-edition-series-5.jpg",
+    "images": [
+      "/images/smartwatches/apple/apple-watch-edition-series-5.jpg"
+    ],
+    "highlights": [
+      "Çelikten 4 Kat Daha Sert Saf Beyaz Parlak Seramik Kasa",
+      "Safir Kristal Cam & 4G LTE Bağımsız eSIM",
+      "İlk Hep Açık (Always-On) Retina Ekran Nesli",
+      "Dahili Manyetik Pusula & EKG Kalp Grafiği"
+    ],
+    "tags": [
+      "Apple",
+      "Edition",
+      "Series 5",
+      "Beyaz Seramik",
+      "Koleksiyonluk"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "Hep Açık LTPO OLED Retina (Safir Kristal)",
+      "displaySizeInches": 1.78,
+      "resolution": "368x448 piksel",
+      "batteryLifeDays": 1.5,
+      "batteryCapacityMah": 296,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM (50m)",
+      "os": "watchOS",
+      "sensors": [
+        "Elektriksel Kalp (EKG)",
+        "İkinci Nesil Optik Nabız",
+        "Manyetik Pusula",
+        "Barometrik Altimetre"
+      ],
+      "connectivity": [
+        "4G LTE (eSIM)",
+        "Wi-Fi",
+        "Bluetooth 5.0",
+        "NFC (Apple Pay)",
+        "GPS"
+      ],
+      "weightGrams": 46.7,
+      "material": "Saf Zirkonya Beyaz Seramik Kasa & Safir Kristal",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true,
+      "hasCellular": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-ep-ceramic-5",
+        "storeName": "Epey Outlet / Apple Koleksiyon",
+        "price": 34999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Koleksiyonluk Seri"
+        ],
+        "sellerRating": 5,
+        "sellerReviews": 210,
+        "url": "https://www.epey.com/akilli-saat/apple-watch-edition-series-5-ceramic.html"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 36999,
+        "store": "Apple"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 34999,
+        "store": "Epey"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Saf Beyaz Seramik",
+        "hex": "#ffffff"
+      }
+    ]
   }
 ];
