@@ -2,6 +2,1680 @@ import { Product } from './types';
 
 export const mockSmartwatches: Product[] = [
   {
+    "id": "samsung-galaxy-watch-ultra-47mm-lte",
+    "slug": "samsung-galaxy-watch-ultra-47mm-lte",
+    "name": "Samsung Galaxy Watch Ultra (47mm LTE)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "rating": 4.9,
+    "reviewCount": 1840,
+    "basePrice": 29999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2407/gallery/tr-galaxy-watch-ultra-l705-sm-l705fztaatur-thumb-542385150?$Q90_330_330_F_PNG$",
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2407/gallery/tr-galaxy-watch-ultra-l705-sm-l705fztaatur-thumb-542385150?$Q90_330_330_F_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2407/gallery/tr-galaxy-watch-ultra-l705-sm-l705fztaatur-542385154?$650_519_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2407/gallery/tr-galaxy-watch-ultra-l705-sm-l705fztaatur-542385155?$650_519_PNG$"
+    ],
+    "highlights": [
+      "Grade 4 Titanyum Gövde & 10 ATM / 100m Suya Dayanıklılık",
+      "Exynos W1000 (3nm 5-Çekirdek) Üst Düzey Performans",
+      "590 mAh Batarya ile 100 Saate Varan Güç Tasarrufu",
+      "Çift Frekanslı Hassas GPS (L1+L5) & Acil Durum Sireni (86dB)"
+    ],
+    "tags": [
+      "Samsung",
+      "Galaxy Watch Ultra",
+      "Titanyum",
+      "Wear OS",
+      "4G LTE",
+      "Safir Cam"
+    ],
+    "specs": {
+      "caseSizeMm": 47,
+      "displayType": "Super AMOLED (Safir Kristal Cam)",
+      "displaySizeInches": 1.5,
+      "resolution": "480x480 piksel (3000 nits)",
+      "batteryLifeDays": 4.2,
+      "batteryCapacityMah": 590,
+      "waterResistanceAtm": 10,
+      "ipRating": "IP68 + MIL-STD-810H + 10 ATM",
+      "os": "Wear OS 5 (One UI 6 Watch)",
+      "processor": "Samsung Exynos W1000 (3 nm, 5 Çekirdek)",
+      "ramGb": 2,
+      "storageGb": 32,
+      "compatibility": [
+        "Android 11 ve üzeri"
+      ],
+      "sensors": [
+        "BioActive Sensör (Optik Kalp Atış Hızı + EKG + BIA Biyoelektrik Empedans)",
+        "Kandaki Oksijen (SpO2)",
+        "Cilt Sıcaklığı Sensörü",
+        "Kan Basıncı (Tansiyon) Ölçümü",
+        "AGEs (İleri Glikasyon) İndeksi",
+        "İvmeölçer",
+        "Barometre",
+        "Jiroskop",
+        "Jeomanyetik Sensör",
+        "Işık Sensörü"
+      ],
+      "connectivity": [
+        "4G LTE (eSIM)",
+        "Bluetooth 5.3",
+        "Wi-Fi 802.11 a/b/g/n (2.4/5GHz)",
+        "NFC",
+        "Çift Frekanslı GPS (L1+L5) / GLONASS / Galileo / BeiDou"
+      ],
+      "weightGrams": 60.5,
+      "material": "Havacılık Sınıfı Titanyum (Grade 4) & Safir Kristal",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true,
+      "hasCellular": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-samsung-watch-ultra",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "bg-blue-900",
+        "price": 29999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili",
+          "Ücretsiz Kargo"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2450,
+        "url": "https://www.samsung.com/tr/watches/galaxy-watch-ultra/"
+      },
+      {
+        "id": "st-hb-watch-ultra",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 28499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Türkiye Garantili",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1980,
+        "url": "https://www.hepsiburada.com/ara?q=Samsung+Galaxy+Watch+Ultra"
+      },
+      {
+        "id": "st-ty-watch-ultra",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 28299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Flaş Fırsat",
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 3120,
+        "url": "https://www.trendyol.com/sr?q=Samsung+Galaxy+Watch+Ultra"
+      },
+      {
+        "id": "st-mm-watch-ultra",
+        "storeName": "MediaMarkt",
+        "storeLogoColor": "bg-red-600",
+        "price": 29499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Club İndirimi",
+          "Aynı Gün Kargo"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 890,
+        "url": "https://www.mediamarkt.com.tr/tr/search.html?query=Galaxy+Watch+Ultra"
+      },
+      {
+        "id": "st-va-watch-ultra",
+        "storeName": "Vatan Bilgisayar",
+        "storeLogoColor": "bg-blue-700",
+        "price": 29999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Mağazadan Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 760,
+        "url": "https://www.vatanbilgisayar.com/arama/Galaxy-Watch-Ultra/"
+      },
+      {
+        "id": "st-am-watch-ultra",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 28199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Amazon Prime",
+          "Günün Fırsatı"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2100,
+        "url": "https://www.amazon.com.tr/s?k=Samsung+Galaxy+Watch+Ultra"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 32999,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 30999,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 29499,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 28199,
+        "store": "Amazon"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Titanyum Gri",
+        "hex": "#4b5563"
+      },
+      {
+        "name": "Titanyum Beyaz",
+        "hex": "#f3f4f6"
+      },
+      {
+        "name": "Titanyum Gümüş",
+        "hex": "#cbd5e1"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-watch-7-44mm",
+    "slug": "samsung-galaxy-watch-7-44mm",
+    "name": "Samsung Galaxy Watch 7 (44mm)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 1240,
+    "basePrice": 10999,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": true,
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2407/gallery/tr-galaxy-watch7-l310-sm-l310nzaatur-thumb-542384759?$Q90_330_330_F_PNG$",
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2407/gallery/tr-galaxy-watch7-l310-sm-l310nzaatur-thumb-542384759?$Q90_330_330_F_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2407/gallery/tr-galaxy-watch7-l310-sm-l310nzaatur-542384763?$650_519_PNG$"
+    ],
+    "highlights": [
+      "1.5\" Super AMOLED Safir Kristal Ekran & Zırhlı Alüminyum Kasa",
+      "Exynos W1000 3nm 5 Çekirdekli Yeni Nesil İşlemci",
+      "Yapay Zekalı Galaxy AI Enerji Skoru & Uyku Koçluğu",
+      "Çift Frekanslı GPS L1+L5 & Gelişmiş BioActive Sensör"
+    ],
+    "tags": [
+      "Samsung",
+      "Galaxy Watch 7",
+      "44mm",
+      "Galaxy AI",
+      "Safir Cam",
+      "Wear OS"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "Super AMOLED (Safir Kristal)",
+      "displaySizeInches": 1.5,
+      "resolution": "480x480 piksel (2000 nits)",
+      "batteryLifeDays": 2,
+      "batteryCapacityMah": 425,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM + IP68 + MIL-STD-810H",
+      "os": "Wear OS 5 (One UI 6 Watch)",
+      "processor": "Exynos W1000 (3nm, 5 Çekirdek)",
+      "ramGb": 2,
+      "storageGb": 32,
+      "compatibility": [
+        "Android 11 ve üzeri"
+      ],
+      "sensors": [
+        "BioActive Sensör (Optik Nabız + EKG + BIA Vücut Analizi)",
+        "SpO2 Kandaki Oksijen",
+        "Cilt Sıcaklığı Sensörü",
+        "Tansiyon Ölçümü",
+        "İvmeölçer",
+        "Barometre",
+        "Jiroskop",
+        "Işık Sensörü"
+      ],
+      "connectivity": [
+        "Bluetooth 5.3",
+        "Wi-Fi 802.11 a/b/g/n (2.4/5GHz)",
+        "NFC",
+        "Çift Frekanslı GPS (L1+L5) / GLONASS / Galileo / BeiDou"
+      ],
+      "weightGrams": 33.8,
+      "material": "Armor Aluminum (Zırhlı Alüminyum)",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-samsung-w7-44",
+        "storeName": "Samsung Türkiye",
+        "storeLogoColor": "bg-blue-900",
+        "price": 10999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 2100,
+        "url": "https://www.samsung.com/tr/watches/galaxy-watch7/"
+      },
+      {
+        "id": "st-hb-w7-44",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 9899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü",
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1450,
+        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+7+44mm"
+      },
+      {
+        "id": "st-ty-w7-44",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 9799,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çok Satan",
+          "Hızlı Teslimat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2300,
+        "url": "https://www.trendyol.com/sr?q=Galaxy+Watch+7+44mm"
+      },
+      {
+        "id": "st-am-w7-44",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 9749,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1800,
+        "url": "https://www.amazon.com.tr/s?k=Galaxy+Watch+7+44mm"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 11999,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 10499,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 9999,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 9749,
+        "store": "Amazon"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Haki Yeşil",
+        "hex": "#3b4d3c"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-watch-7-40mm",
+    "slug": "samsung-galaxy-watch-7-40mm",
+    "name": "Samsung Galaxy Watch 7 (40mm)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 960,
+    "basePrice": 9499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2407/gallery/tr-galaxy-watch7-l300-sm-l300nzaatur-thumb-542384462?$Q90_330_330_F_PNG$",
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2407/gallery/tr-galaxy-watch7-l300-sm-l300nzaatur-thumb-542384462?$Q90_330_330_F_PNG$"
+    ],
+    "highlights": [
+      "1.3\" Super AMOLED Safir Cam Kompakt ve Zarif Kasa (28.8g)",
+      "Exynos W1000 3nm 5 Çekirdekli Yeni Nesil İşlemci",
+      "Galaxy AI Destekli Enerji Skoru ve Sağlık Koçluğu",
+      "Çift Frekanslı GPS & EKG + Vücut Kompozisyonu Analizi"
+    ],
+    "tags": [
+      "Samsung",
+      "Galaxy Watch 7",
+      "40mm",
+      "Galaxy AI",
+      "Kompakt"
+    ],
+    "specs": {
+      "caseSizeMm": 40,
+      "displayType": "Super AMOLED (Safir Kristal)",
+      "displaySizeInches": 1.3,
+      "resolution": "432x432 piksel (2000 nits)",
+      "batteryLifeDays": 1.8,
+      "batteryCapacityMah": 300,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM + IP68 + MIL-STD-810H",
+      "os": "Wear OS 5 (One UI 6 Watch)",
+      "processor": "Exynos W1000 (3nm, 5 Çekirdek)",
+      "ramGb": 2,
+      "storageGb": 32,
+      "compatibility": [
+        "Android 11 ve üzeri"
+      ],
+      "sensors": [
+        "BioActive Sensör (Optik Nabız + EKG + BIA Analizi)",
+        "SpO2 Kandaki Oksijen",
+        "Cilt Sıcaklığı",
+        "Tansiyon",
+        "İvmeölçer",
+        "Jiroskop",
+        "Barometre"
+      ],
+      "connectivity": [
+        "Bluetooth 5.3",
+        "Wi-Fi 2.4/5GHz",
+        "NFC",
+        "Çift GPS L1+L5"
+      ],
+      "weightGrams": 28.8,
+      "material": "Armor Aluminum & Safir Kristal",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-w7-40",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 950,
+        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+7+40mm"
+      },
+      {
+        "id": "st-ty-w7-40",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1200,
+        "url": "https://www.trendyol.com/sr?q=Galaxy+Watch+7+40mm"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 9499,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 8799,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 8399,
+        "store": "Trendyol"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Yeşil",
+        "hex": "#3b4d3c"
+      },
+      {
+        "name": "Krem Bej",
+        "hex": "#f5f5dc"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-watch-fe-40mm",
+    "slug": "samsung-galaxy-watch-fe-40mm",
+    "name": "Samsung Galaxy Watch FE (40mm)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 810,
+    "basePrice": 5499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-r861nzsaatur/gallery/tr-galaxy-watch-fe-r861-sm-r861nzsaatur-thumb-542171120?$Q90_330_330_F_PNG$",
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-r861nzsaatur/gallery/tr-galaxy-watch-fe-r861-sm-r861nzsaatur-thumb-542171120?$Q90_330_330_F_PNG$"
+    ],
+    "highlights": [
+      "Safir Kristal Cam ile Çizilmelere Karşı Maksimum Koruma",
+      "Gelişmiş BioActive Sensör ile EKG, Tansiyon & BIA Vücut Analizi",
+      "100+ Egzersiz Modu ve Kişiselleştirilmiş Kalp Atış Hızı Bölgeleri",
+      "Dahili Hoparlör ve Mikrofon ile Doğrudan Telefon Görüşmesi"
+    ],
+    "tags": [
+      "Samsung",
+      "Galaxy Watch FE",
+      "Bütçe Dostu",
+      "Safir Cam",
+      "Wear OS"
+    ],
+    "specs": {
+      "caseSizeMm": 40,
+      "displayType": "Super AMOLED (Safir Kristal)",
+      "displaySizeInches": 1.2,
+      "resolution": "396x396 piksel",
+      "batteryLifeDays": 1.6,
+      "batteryCapacityMah": 247,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM + IP68 + MIL-STD-810H",
+      "os": "Wear OS (One UI Watch)",
+      "processor": "Exynos W920 (Dual Core 1.18 GHz)",
+      "ramGb": 1.5,
+      "storageGb": 16,
+      "compatibility": [
+        "Android 11 ve üzeri"
+      ],
+      "sensors": [
+        "BioActive (Nabız, EKG, BIA)",
+        "İvmeölçer",
+        "Jiroskop",
+        "Işık",
+        "Barometre"
+      ],
+      "connectivity": [
+        "Bluetooth 5.0",
+        "Wi-Fi 2.4/5GHz",
+        "NFC",
+        "GPS / GLONASS / Galileo"
+      ],
+      "weightGrams": 26.6,
+      "material": "Alüminyum Kasa & Safir Cam",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-wfe",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 4999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat Ürünü"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 870,
+        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+FE"
+      },
+      {
+        "id": "st-ty-wfe",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 4899,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En İyi Fiyat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1100,
+        "url": "https://www.trendyol.com/sr?q=Galaxy+Watch+FE"
+      },
+      {
+        "id": "st-am-wfe",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 4849,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Prime Teslimat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 640,
+        "url": "https://www.amazon.com.tr/s?k=Galaxy+Watch+FE"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 5499,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 5199,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 4849,
+        "store": "Amazon"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#e2e8f0"
+      },
+      {
+        "name": "Pembe Altın",
+        "hex": "#f43f5e"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-fit-3",
+    "slug": "samsung-galaxy-fit-3",
+    "name": "Samsung Galaxy Fit 3 Akıllı Bileklik",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 2420,
+    "basePrice": 2499,
+    "currency": "TL",
+    "releaseYear": 2024,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-r390nzaatur/gallery/tr-galaxy-fit3-r390-sm-r390nzaatur-thumb-539829462?$Q90_330_330_F_PNG$",
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-r390nzaatur/gallery/tr-galaxy-fit3-r390-sm-r390nzaatur-thumb-539829462?$Q90_330_330_F_PNG$"
+    ],
+    "highlights": [
+      "1.6\" Geniş Renkli AMOLED Ekran (256x402 piksel)",
+      "13 Güne Kadar Kesintisiz Pil Ömrü & Hızlı Şarj (%65 / 30 dk)",
+      "Kumlama Alüminyum Şık Gövde (Yalnızca 18.5g)",
+      "Düşme Algılama, Acil SOS & 100+ Spor Takibi"
+    ],
+    "tags": [
+      "Samsung",
+      "Galaxy Fit 3",
+      "Akıllı Bileklik",
+      "13 Gün Pil Ömrü",
+      "AMOLED"
+    ],
+    "specs": {
+      "caseSizeMm": 40,
+      "displayType": "AMOLED",
+      "displaySizeInches": 1.6,
+      "resolution": "256x402 piksel (302 PPI)",
+      "batteryLifeDays": 13,
+      "batteryCapacityMah": 208,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM + IP68",
+      "os": "FreeRTOS",
+      "compatibility": [
+        "Android 10 ve üzeri"
+      ],
+      "sensors": [
+        "Optik Kalp Atış Hızı Sensörü",
+        "SpO2 Kandaki Oksijen Monitörü",
+        "İvmeölçer",
+        "Barometre",
+        "Jiroskop",
+        "Ortam Işığı Sensörü"
+      ],
+      "connectivity": [
+        "Bluetooth 5.3"
+      ],
+      "weightGrams": 18.5,
+      "material": "Kumlama Alüminyum Gövde",
+      "hasMicrophone": false,
+      "hasSpeaker": false,
+      "hasGPS": false,
+      "hasNFC": false
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-fit3",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 2199,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Çok Satan 1.",
+          "Kargo Bedava"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 3200,
+        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Fit+3"
+      },
+      {
+        "id": "st-ty-fit3",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 2149,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Süper Fırsat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 4500,
+        "url": "https://www.trendyol.com/sr?q=Galaxy+Fit+3"
+      },
+      {
+        "id": "st-am-fit3",
+        "storeName": "Amazon",
+        "storeLogoColor": "bg-amber-600",
+        "price": 2129,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Amazon Prime"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1980,
+        "url": "https://www.amazon.com.tr/s?k=Galaxy+Fit+3"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 2499,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 2299,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 2199,
+        "store": "Trendyol"
+      },
+      {
+        "date": "2026-08-01",
+        "price": 2129,
+        "store": "Amazon"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Koyu Gri",
+        "hex": "#1f2937"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#e2e8f0"
+      },
+      {
+        "name": "Pembe Altın",
+        "hex": "#fb7185"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-watch-6-classic-47mm",
+    "slug": "samsung-galaxy-watch-6-classic-47mm",
+    "name": "Samsung Galaxy Watch 6 Classic (47mm Dönen Çerçeveli)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 1650,
+    "basePrice": 8999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2307/gallery/tr-galaxy-watch6-classic-r960-sm-r960nzkatur-thumb-537407073?$Q90_330_330_F_PNG$",
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2307/gallery/tr-galaxy-watch6-classic-r960-sm-r960nzkatur-thumb-537407073?$Q90_330_330_F_PNG$"
+    ],
+    "highlights": [
+      "İkonik Fiziksel Dönen Çerçeve (Rotating Bezel)",
+      "1.5\" Geniş Safir Kristal Super AMOLED Ekran (480x480)",
+      "Paslanmaz Çelik Premium Kasa & Hibrit Deri Kordon",
+      "BioActive Sensör (EKG, Tansiyon, BIA Vücut Analizi)"
+    ],
+    "tags": [
+      "Samsung",
+      "Watch 6 Classic",
+      "47mm",
+      "Dönen Çerçeve",
+      "Paslanmaz Çelik"
+    ],
+    "specs": {
+      "caseSizeMm": 47,
+      "displayType": "Super AMOLED (Safir Kristal)",
+      "displaySizeInches": 1.5,
+      "resolution": "480x480 piksel (2000 nits)",
+      "batteryLifeDays": 1.8,
+      "batteryCapacityMah": 425,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM + IP68 + MIL-STD-810H",
+      "os": "Wear OS (One UI Watch)",
+      "processor": "Exynos W930 (Çift Çekirdek 1.4 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "compatibility": [
+        "Android 10 ve üzeri"
+      ],
+      "sensors": [
+        "BioActive (EKG, Nabız, BIA)",
+        "Sıcaklık",
+        "İvmeölçer",
+        "Barometre",
+        "Jiroskop",
+        "3D Pusula"
+      ],
+      "connectivity": [
+        "Bluetooth 5.3",
+        "Wi-Fi 2.4/5GHz",
+        "NFC",
+        "GPS / GLONASS / Galileo / BeiDou"
+      ],
+      "weightGrams": 59,
+      "material": "Paslanmaz Çelik & Safir Kristal",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-w6c-47",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 8499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Distribütör Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+6+Classic+47mm"
+      },
+      {
+        "id": "st-ty-w6c-47",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 8299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "En İyi Fiyat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1600,
+        "url": "https://www.trendyol.com/sr?q=Galaxy+Watch+6+Classic+47mm"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 9499,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 8799,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 8299,
+        "store": "Trendyol"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-watch-6-classic-43mm",
+    "slug": "samsung-galaxy-watch-6-classic-43mm",
+    "name": "Samsung Galaxy Watch 6 Classic (43mm Dönen Çerçeveli)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 920,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2307/gallery/tr-galaxy-watch6-classic-r950-sm-r950nzkatur-thumb-537406836?$Q90_330_330_F_PNG$",
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2307/gallery/tr-galaxy-watch6-classic-r950-sm-r950nzkatur-thumb-537406836?$Q90_330_330_F_PNG$"
+    ],
+    "highlights": [
+      "Fiziksel Dönen Çerçeve & Klasik Saat Görünümü",
+      "1.3\" Safir Kristal Super AMOLED Ekran",
+      "Paslanmaz Çelik Gövde (52g)",
+      "BioActive Sensör ile EKG, Tansiyon ve BIA"
+    ],
+    "tags": [
+      "Samsung",
+      "Watch 6 Classic",
+      "43mm",
+      "Dönen Çerçeve"
+    ],
+    "specs": {
+      "caseSizeMm": 43,
+      "displayType": "Super AMOLED (Safir Kristal)",
+      "displaySizeInches": 1.3,
+      "resolution": "432x432 piksel",
+      "batteryLifeDays": 1.6,
+      "batteryCapacityMah": 300,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM + IP68 + MIL-STD-810H",
+      "os": "Wear OS (One UI Watch)",
+      "processor": "Exynos W930 (1.4 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "compatibility": [
+        "Android 10 ve üzeri"
+      ],
+      "sensors": [
+        "BioActive (EKG, Tansiyon, BIA)",
+        "Sıcaklık",
+        "İvmeölçer",
+        "Jiroskop"
+      ],
+      "connectivity": [
+        "Bluetooth 5.3",
+        "Wi-Fi",
+        "NFC",
+        "GPS"
+      ],
+      "weightGrams": 52,
+      "material": "Paslanmaz Çelik",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-w6c-43",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Distribütör Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 890,
+        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+6+Classic+43mm"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 7999,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-watch-6-44mm",
+    "slug": "samsung-galaxy-watch-6-44mm",
+    "name": "Samsung Galaxy Watch 6 (44mm)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 1420,
+    "basePrice": 6999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2307/gallery/tr-galaxy-watch6-r940-sm-r940nzkatur-thumb-537406603?$Q90_330_330_F_PNG$",
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2307/gallery/tr-galaxy-watch6-r940-sm-r940nzkatur-thumb-537406603?$Q90_330_330_F_PNG$"
+    ],
+    "highlights": [
+      "İnce Çerçeveli 1.5\" Super AMOLED Safir Cam Ekran",
+      "Armor Aluminum Dayanıklı ve Hafif Kasa (33.3g)",
+      "Gelişmiş Uyku Koçluğu ve Kişisel Kalp Atış Hızı Bölgeleri",
+      "Exynos W930 Hızlı İşlemci & 2 GB RAM"
+    ],
+    "tags": [
+      "Samsung",
+      "Watch 6",
+      "44mm",
+      "Wear OS",
+      "Safir Cam"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "Super AMOLED (Safir Kristal)",
+      "displaySizeInches": 1.5,
+      "resolution": "480x480 piksel (2000 nits)",
+      "batteryLifeDays": 1.8,
+      "batteryCapacityMah": 425,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM + IP68 + MIL-STD-810H",
+      "os": "Wear OS (One UI Watch)",
+      "processor": "Exynos W930 (1.4 GHz)",
+      "ramGb": 2,
+      "storageGb": 16,
+      "compatibility": [
+        "Android 10 ve üzeri"
+      ],
+      "sensors": [
+        "BioActive (EKG, Tansiyon, BIA)",
+        "Sıcaklık",
+        "İvmeölçer",
+        "Jiroskop",
+        "Barometre"
+      ],
+      "connectivity": [
+        "Bluetooth 5.3",
+        "Wi-Fi 2.4/5GHz",
+        "NFC",
+        "GPS / GLONASS / Galileo"
+      ],
+      "weightGrams": 33.3,
+      "material": "Armor Aluminum",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-w6-44",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 6499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Fırsat"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1200,
+        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+6+44mm"
+      },
+      {
+        "id": "st-ty-w6-44",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 6399,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kuponlu Ürün"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1800,
+        "url": "https://www.trendyol.com/sr?q=Galaxy+Watch+6+44mm"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 7499,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 6899,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 6399,
+        "store": "Trendyol"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Grafit Siyah",
+        "hex": "#1f2937"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-watch-6-40mm",
+    "slug": "samsung-galaxy-watch-6-40mm",
+    "name": "Samsung Galaxy Watch 6 (40mm)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 1100,
+    "basePrice": 5999,
+    "currency": "TL",
+    "releaseYear": 2023,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2307/gallery/tr-galaxy-watch6-r930-sm-r930nzkatur-thumb-537406322?$Q90_330_330_F_PNG$",
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2307/gallery/tr-galaxy-watch6-r930-sm-r930nzkatur-thumb-537406322?$Q90_330_330_F_PNG$"
+    ],
+    "highlights": [
+      "1.3\" Super AMOLED Safir Kristal Ekran",
+      "Kompakt ve İnce Tasarım (28.7g)",
+      "BioActive Sensör (EKG, Tansiyon, BIA)",
+      "Exynos W930 Güçlü İşlemci"
+    ],
+    "tags": [
+      "Samsung",
+      "Watch 6",
+      "40mm",
+      "Safir Cam"
+    ],
+    "specs": {
+      "caseSizeMm": 40,
+      "displayType": "Super AMOLED (Safir Kristal)",
+      "displaySizeInches": 1.3,
+      "resolution": "432x432 piksel",
+      "batteryLifeDays": 1.6,
+      "batteryCapacityMah": 300,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM + IP68 + MIL-STD-810H",
+      "os": "Wear OS (One UI Watch)",
+      "processor": "Exynos W930",
+      "ramGb": 2,
+      "storageGb": 16,
+      "compatibility": [
+        "Android 10 ve üzeri"
+      ],
+      "sensors": [
+        "BioActive (EKG, Nabız, BIA)",
+        "Sıcaklık",
+        "İvmeölçer"
+      ],
+      "connectivity": [
+        "Bluetooth 5.3",
+        "Wi-Fi",
+        "NFC",
+        "GPS"
+      ],
+      "weightGrams": 28.7,
+      "material": "Armor Aluminum",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-w6-40",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 5499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Distribütör Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 900,
+        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+6+40mm"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 5999,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 5499,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Grafit",
+        "hex": "#1f2937"
+      },
+      {
+        "name": "Altın",
+        "hex": "#eab308"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-watch-5-pro-45mm",
+    "slug": "samsung-galaxy-watch-5-pro-45mm",
+    "name": "Samsung Galaxy Watch 5 Pro (45mm Titanyum)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "rating": 4.8,
+    "reviewCount": 1950,
+    "basePrice": 7999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": true,
+    "isFeatured": false,
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2208/gallery/tr-galaxy-watch5-pro-r920-sm-r920nzkatur-thumb-533185361?$Q90_330_330_F_PNG$",
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2208/gallery/tr-galaxy-watch5-pro-r920-sm-r920nzkatur-thumb-533185361?$Q90_330_330_F_PNG$"
+    ],
+    "highlights": [
+      "Safir Kristal Ekran & Hafif ve Güçlü Titanyum Kasa",
+      "590 mAh Devasa Batarya (80 Saate Varan Kullanım)",
+      "GPX Rota İçe Aktarma & Track Back (Geri Dönüş Rotası)",
+      "D-Tokalı Manyetik Spor Kordon & BioActive Sensör"
+    ],
+    "tags": [
+      "Samsung",
+      "Watch 5 Pro",
+      "Titanyum",
+      "590 mAh",
+      "GPX Rota"
+    ],
+    "specs": {
+      "caseSizeMm": 45,
+      "displayType": "Super AMOLED (29GPa Safir Kristal)",
+      "displaySizeInches": 1.4,
+      "resolution": "450x450 piksel",
+      "batteryLifeDays": 3.5,
+      "batteryCapacityMah": 590,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM + IP68 + MIL-STD-810H",
+      "os": "Wear OS (One UI Watch)",
+      "processor": "Exynos W920 (1.18 GHz)",
+      "ramGb": 1.5,
+      "storageGb": 16,
+      "compatibility": [
+        "Android 8.0 ve üzeri"
+      ],
+      "sensors": [
+        "BioActive (EKG, Tansiyon, BIA)",
+        "Cilt Sıcaklığı",
+        "İvmeölçer",
+        "Barometre",
+        "Jiroskop"
+      ],
+      "connectivity": [
+        "Bluetooth 5.2",
+        "Wi-Fi 2.4/5GHz",
+        "NFC",
+        "GPS / GLONASS / Galileo / BeiDou"
+      ],
+      "weightGrams": 46.5,
+      "material": "Titanyum Kasa & Safir Kristal",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-w5pro",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 7499,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Resmi Distribütör Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 1800,
+        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+5+Pro"
+      },
+      {
+        "id": "st-ty-w5pro",
+        "storeName": "Trendyol",
+        "storeLogoColor": "bg-amber-600",
+        "price": 7299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Kupon Fırsatı"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 2400,
+        "url": "https://www.trendyol.com/sr?q=Galaxy+Watch+5+Pro"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-05-01",
+        "price": 8499,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-06-01",
+        "price": 7799,
+        "store": "Hepsiburada"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 7299,
+        "store": "Trendyol"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Gri Titanyum",
+        "hex": "#64748b"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-watch-5-44mm",
+    "slug": "samsung-galaxy-watch-5-44mm",
+    "name": "Samsung Galaxy Watch 5 (44mm)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 1380,
+    "basePrice": 4999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2208/gallery/tr-galaxy-watch5-44mm-r910-sm-r910nzaatur-thumb-533184918?$Q90_330_330_F_PNG$",
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/2208/gallery/tr-galaxy-watch5-44mm-r910-sm-r910nzaatur-thumb-533184918?$Q90_330_330_F_PNG$"
+    ],
+    "highlights": [
+      "Safir Kristal Cam ile 1.6 Kat Daha Dayanıklı Ekran",
+      "Armor Aluminum Gövde ve Gelişmiş BioActive Sensör",
+      "Hızlı Şarj Desteği (30 dakikada %45 şarj)",
+      "Vücut Kompozisyonu Analizi (BIA) ve EKG"
+    ],
+    "tags": [
+      "Samsung",
+      "Watch 5",
+      "44mm",
+      "Safir Cam"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "Super AMOLED (Safir Kristal)",
+      "displaySizeInches": 1.4,
+      "resolution": "450x450 piksel",
+      "batteryLifeDays": 1.7,
+      "batteryCapacityMah": 410,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM + IP68 + MIL-STD-810H",
+      "os": "Wear OS (One UI Watch)",
+      "processor": "Exynos W920",
+      "ramGb": 1.5,
+      "storageGb": 16,
+      "compatibility": [
+        "Android 8.0 ve üzeri"
+      ],
+      "sensors": [
+        "BioActive (EKG, BIA, Nabız)",
+        "Sıcaklık",
+        "İvmeölçer"
+      ],
+      "connectivity": [
+        "Bluetooth 5.2",
+        "Wi-Fi",
+        "NFC",
+        "GPS"
+      ],
+      "weightGrams": 33.5,
+      "material": "Armor Aluminum",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-w5-44",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 4599,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Samsung Garantili"
+        ],
+        "sellerRating": 4.9,
+        "sellerReviews": 950,
+        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+5+44mm"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 4999,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 4599,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Grafit",
+        "hex": "#1f2937"
+      },
+      {
+        "name": "Safir Mavi",
+        "hex": "#2563eb"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-watch-4-classic-46mm",
+    "slug": "samsung-galaxy-watch-4-classic-46mm",
+    "name": "Samsung Galaxy Watch 4 Classic (46mm)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "rating": 4.7,
+    "reviewCount": 2200,
+    "basePrice": 4299,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-r890nzkatur/gallery/tr-galaxy-watch4-classic-398513-sm-r890nzkatur-thumb-488825852?$Q90_330_330_F_PNG$",
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-r890nzkatur/gallery/tr-galaxy-watch4-classic-398513-sm-r890nzkatur-thumb-488825852?$Q90_330_330_F_PNG$"
+    ],
+    "highlights": [
+      "Paslanmaz Çelik Kasa & Dönen Çerçeve ile Klasik Tasarım",
+      "1.4\" Super AMOLED Ekran (Gorilla Glass DX)",
+      "BioActive Sensör ile Vücut Kompozisyonu Analizi (BIA)",
+      "Wear OS Powered by Samsung ile Google Play Uygulamaları"
+    ],
+    "tags": [
+      "Samsung",
+      "Watch 4 Classic",
+      "46mm",
+      "Dönen Çerçeve"
+    ],
+    "specs": {
+      "caseSizeMm": 46,
+      "displayType": "Super AMOLED (Gorilla Glass DX)",
+      "displaySizeInches": 1.4,
+      "resolution": "450x450 piksel",
+      "batteryLifeDays": 1.5,
+      "batteryCapacityMah": 361,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM + IP68 + MIL-STD-810G",
+      "os": "Wear OS (One UI Watch)",
+      "processor": "Exynos W920 (5nm)",
+      "ramGb": 1.5,
+      "storageGb": 16,
+      "compatibility": [
+        "Android 6.0 ve üzeri"
+      ],
+      "sensors": [
+        "BioActive (EKG, Tansiyon, BIA)",
+        "İvmeölçer",
+        "Jiroskop",
+        "Barometre"
+      ],
+      "connectivity": [
+        "Bluetooth 5.0",
+        "Wi-Fi",
+        "NFC",
+        "GPS"
+      ],
+      "weightGrams": 52,
+      "material": "Paslanmaz Çelik",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-w4c-46",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3999,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Avantajlı Fiyat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1600,
+        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+4+Classic+46mm"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 4299,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3999,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#e2e8f0"
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-watch-4-44mm",
+    "slug": "samsung-galaxy-watch-4-44mm",
+    "name": "Samsung Galaxy Watch 4 (44mm)",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "rating": 4.6,
+    "reviewCount": 1950,
+    "basePrice": 3499,
+    "currency": "TL",
+    "releaseYear": 2021,
+    "isPopular": false,
+    "isFeatured": false,
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-r870nzkatur/gallery/tr-galaxy-watch4-398492-sm-r870nzkatur-thumb-488819586?$Q90_330_330_F_PNG$",
+    "images": [
+      "https://images.samsung.com/is/image/samsung/p6pim/tr/sm-r870nzkatur/gallery/tr-galaxy-watch4-398492-sm-r870nzkatur-thumb-488819586?$Q90_330_330_F_PNG$"
+    ],
+    "highlights": [
+      "1.4\" Super AMOLED Ekran & Hafif Alüminyum Tasarım (30.3g)",
+      "BioActive Sensör (EKG, Tansiyon, BIA Vücut Analizi)",
+      "Wear OS ve Google Haritalar / Google Cüzdan Entegrasyonu",
+      "90+ Egzersiz Modu ve Otomatik Antrenman Algılama"
+    ],
+    "tags": [
+      "Samsung",
+      "Watch 4",
+      "44mm",
+      "Wear OS",
+      "Alüminyum"
+    ],
+    "specs": {
+      "caseSizeMm": 44,
+      "displayType": "Super AMOLED (Gorilla Glass DX+)",
+      "displaySizeInches": 1.4,
+      "resolution": "450x450 piksel",
+      "batteryLifeDays": 1.5,
+      "batteryCapacityMah": 361,
+      "waterResistanceAtm": 5,
+      "ipRating": "5 ATM + IP68 + MIL-STD-810G",
+      "os": "Wear OS (One UI Watch)",
+      "processor": "Exynos W920 (5nm)",
+      "ramGb": 1.5,
+      "storageGb": 16,
+      "compatibility": [
+        "Android 6.0 ve üzeri"
+      ],
+      "sensors": [
+        "BioActive (EKG, BIA)",
+        "İvmeölçer",
+        "Jiroskop",
+        "Barometre"
+      ],
+      "connectivity": [
+        "Bluetooth 5.0",
+        "Wi-Fi",
+        "NFC",
+        "GPS"
+      ],
+      "weightGrams": 30.3,
+      "material": "Armor Aluminum",
+      "hasMicrophone": true,
+      "hasSpeaker": true,
+      "hasGPS": true,
+      "hasNFC": true
+    },
+    "storeOffers": [
+      {
+        "id": "st-hb-w4-44",
+        "storeName": "Hepsiburada",
+        "storeLogoColor": "bg-orange-600",
+        "price": 3299,
+        "inStock": true,
+        "shippingDays": 1,
+        "badges": [
+          "Uygun Fiyat"
+        ],
+        "sellerRating": 4.8,
+        "sellerReviews": 1400,
+        "url": "https://www.hepsiburada.com/ara?q=Galaxy+Watch+4+44mm"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2026-06-01",
+        "price": 3499,
+        "store": "Samsung Türkiye"
+      },
+      {
+        "date": "2026-07-01",
+        "price": 3299,
+        "store": "Hepsiburada"
+      }
+    ],
+    "colorOptions": [
+      {
+        "name": "Siyah",
+        "hex": "#0f172a"
+      },
+      {
+        "name": "Gümüş",
+        "hex": "#e2e8f0"
+      },
+      {
+        "name": "Yeşil",
+        "hex": "#166534"
+      }
+    ]
+  },
+  {
     "id": "huawei-huawei_watch_3_pro-10941",
     "slug": "huawei_watch_3_pro-10941",
     "name": "Huawei Watch 3 Pro",
