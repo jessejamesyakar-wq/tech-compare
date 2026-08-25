@@ -97,6 +97,11 @@ export function CompactProductCard({
     const storage = specs.storageGb ? `${specs.storageGb >= 1000 ? (specs.storageGb / 1000) + 'TB' : specs.storageGb + 'GB'}` : '';
     const gpu = specs.gpu && !specs.gpu.toLowerCase().includes('intel') && !specs.gpu.toLowerCase().includes('iris') ? specs.gpu.split(' ')[0] + ' ' + (specs.gpu.split(' ')[1] || '') : '';
     subInfo = [inch, cpu, gpu || ram, storage].filter(Boolean).slice(0, 3).join(' • ') || (product.highlights?.[0] || '');
+  } else if (product.category === 'consoles') {
+    const storage = specs.storage || specs.capacity || (product.name.includes('2TB') ? '2 TB SSD' : product.name.includes('1TB') ? '1 TB SSD' : product.name.includes('825GB') ? '825 GB SSD' : '');
+    const res = specs.resolution || specs.outputResolution || (product.name.includes('Pro') ? '4K 120 FPS' : '4K HDR');
+    const type = specs.deviceType || (product.name.toLowerCase().includes('el konsolu') ? 'Taşınabilir El Konsolu' : 'Sabit Ev Konsolu');
+    subInfo = [storage, res, type].filter(Boolean).slice(0, 3).join(' • ') || (product.highlights?.[0] || '');
   } else {
     // Appliances and generic
     const suction = specs.suctionPowerPa ? `${Number(specs.suctionPowerPa).toLocaleString()} Pa Emiş` : '';
