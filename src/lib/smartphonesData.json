@@ -11,7 +11,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 94,
-    "reviewCount": 3150,
+    "reviewCount": 3250,
     "basePrice": 159140.8,
     "currency": "TL",
     "releaseYear": 2026,
@@ -259,7 +259,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 93,
-    "reviewCount": 3070,
+    "reviewCount": 3190,
     "basePrice": 141399,
     "currency": "TL",
     "releaseYear": 2026,
@@ -507,7 +507,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 92,
-    "reviewCount": 2990,
+    "reviewCount": 3130,
     "basePrice": 120999,
     "currency": "TL",
     "releaseYear": 2026,
@@ -755,7 +755,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 92,
-    "reviewCount": 2910,
+    "reviewCount": 3070,
     "basePrice": 126261.53,
     "currency": "TL",
     "releaseYear": 2026,
@@ -1003,7 +1003,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 91,
-    "reviewCount": 2830,
+    "reviewCount": 3010,
     "basePrice": 111999,
     "currency": "TL",
     "releaseYear": 2026,
@@ -1221,7 +1221,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
         "bluetooth": "5.3 / 5.4",
         "hasNFC": true,
@@ -1251,7 +1251,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 90,
-    "reviewCount": 2750,
+    "reviewCount": 2950,
     "basePrice": 109999,
     "currency": "TL",
     "releaseYear": 2026,
@@ -1499,7 +1499,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 90,
-    "reviewCount": 2670,
+    "reviewCount": 2890,
     "basePrice": 148214.7,
     "currency": "TL",
     "releaseYear": 2025,
@@ -1717,7 +1717,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
         "bluetooth": "5.3 / 5.4",
         "hasNFC": true,
@@ -1747,7 +1747,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 89,
-    "reviewCount": 2590,
+    "reviewCount": 2830,
     "basePrice": 97999,
     "currency": "TL",
     "releaseYear": 2026,
@@ -1965,7 +1965,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
         "bluetooth": "5.3 / 5.4",
         "hasNFC": true,
@@ -1995,7 +1995,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 89,
-    "reviewCount": 2510,
+    "reviewCount": 2770,
     "basePrice": 127702,
     "currency": "TL",
     "releaseYear": 2025,
@@ -2213,7 +2213,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
         "bluetooth": "5.3 / 5.4",
         "hasNFC": true,
@@ -2243,7 +2243,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 88,
-    "reviewCount": 2430,
+    "reviewCount": 2710,
     "basePrice": 96525,
     "currency": "TL",
     "releaseYear": 2025,
@@ -2461,7 +2461,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
         "bluetooth": "5.3 / 5.4",
         "hasNFC": true,
@@ -2491,7 +2491,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 86,
-    "reviewCount": 2350,
+    "reviewCount": 2650,
     "basePrice": 113406.05,
     "currency": "TL",
     "releaseYear": 2025,
@@ -2709,7 +2709,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
         "bluetooth": "5.3 / 5.4",
         "hasNFC": true,
@@ -2739,7 +2739,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 85,
-    "reviewCount": 2270,
+    "reviewCount": 2590,
     "basePrice": 122000,
     "currency": "TL",
     "releaseYear": 2023,
@@ -2987,7 +2987,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 84,
-    "reviewCount": 2190,
+    "reviewCount": 2530,
     "basePrice": 102923.05,
     "currency": "TL",
     "releaseYear": 2023,
@@ -3235,7 +3235,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 84,
-    "reviewCount": 2110,
+    "reviewCount": 2470,
     "basePrice": 88669.1,
     "currency": "TL",
     "releaseYear": 2025,
@@ -3453,7 +3453,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
         "bluetooth": "5.3 / 5.4",
         "hasNFC": true,
@@ -3483,7 +3483,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 78,
-    "reviewCount": 2030,
+    "reviewCount": 2410,
     "basePrice": 64989,
     "currency": "TL",
     "releaseYear": 2025,
@@ -3704,7 +3704,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
         "bluetooth": "5.3 / 5.4",
         "hasNFC": true,
@@ -3734,7 +3734,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 77,
-    "reviewCount": 1950,
+    "reviewCount": 2350,
     "basePrice": 63049,
     "currency": "TL",
     "releaseYear": 2022,
@@ -3982,7 +3982,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 77,
-    "reviewCount": 1870,
+    "reviewCount": 2290,
     "basePrice": 63535,
     "currency": "TL",
     "releaseYear": 2022,
@@ -4200,7 +4200,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
         "bluetooth": "5.3 / 5.4",
         "hasNFC": true,
@@ -4230,7 +4230,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 77,
-    "reviewCount": 1790,
+    "reviewCount": 2230,
     "basePrice": 107999,
     "currency": "TL",
     "releaseYear": 2021,
@@ -4478,7 +4478,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 76,
-    "reviewCount": 1710,
+    "reviewCount": 2170,
     "basePrice": 58899.05,
     "currency": "TL",
     "releaseYear": 2025,
@@ -4698,7 +4698,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
         "bluetooth": "5.3 / 5.4",
         "hasNFC": true,
@@ -4728,7 +4728,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 75,
-    "reviewCount": 1630,
+    "reviewCount": 2110,
     "basePrice": 90525.47,
     "currency": "TL",
     "releaseYear": 2021,
@@ -4976,7 +4976,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 75,
-    "reviewCount": 1550,
+    "reviewCount": 2050,
     "basePrice": 62594.7,
     "currency": "TL",
     "releaseYear": 2025,
@@ -5197,7 +5197,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
         "bluetooth": "5.3 / 5.4",
         "hasNFC": true,
@@ -5227,7 +5227,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 75,
-    "reviewCount": 1470,
+    "reviewCount": 1990,
     "basePrice": 70809,
     "currency": "TL",
     "releaseYear": 2022,
@@ -5475,7 +5475,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 75,
-    "reviewCount": 1390,
+    "reviewCount": 1930,
     "basePrice": 46999,
     "currency": "TL",
     "releaseYear": 2025,
@@ -5695,7 +5695,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
         "bluetooth": "5.3 / 5.4",
         "hasNFC": true,
@@ -5725,7 +5725,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 74,
-    "reviewCount": 1310,
+    "reviewCount": 1870,
     "basePrice": 74999,
     "currency": "TL",
     "releaseYear": 2023,
@@ -5976,7 +5976,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 73,
-    "reviewCount": 1230,
+    "reviewCount": 1810,
     "basePrice": 41799.05,
     "currency": "TL",
     "releaseYear": 2025,
@@ -6196,7 +6196,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
         "bluetooth": "5.3 / 5.4",
         "hasNFC": true,
@@ -6226,7 +6226,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 73,
-    "reviewCount": 1150,
+    "reviewCount": 1750,
     "basePrice": 79999,
     "currency": "TL",
     "releaseYear": 2021,
@@ -6474,7 +6474,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 73,
-    "reviewCount": 1070,
+    "reviewCount": 1690,
     "basePrice": 70949.9,
     "currency": "TL",
     "releaseYear": 2021,
@@ -6722,7 +6722,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 72,
-    "reviewCount": 990,
+    "reviewCount": 1630,
     "basePrice": 76499,
     "currency": "TL",
     "releaseYear": 2023,
@@ -6973,7 +6973,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 53,
-    "reviewCount": 910,
+    "reviewCount": 1570,
     "basePrice": 32401.05,
     "currency": "TL",
     "releaseYear": 2020,
@@ -7194,7 +7194,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
         "bluetooth": "5.3 / 5.4",
         "hasNFC": true,
@@ -7224,7 +7224,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 50,
-    "reviewCount": 830,
+    "reviewCount": 1510,
     "basePrice": 23279,
     "currency": "TL",
     "releaseYear": 2019,
@@ -7475,7 +7475,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 47,
-    "reviewCount": 750,
+    "reviewCount": 1450,
     "basePrice": 41279.04,
     "currency": "TL",
     "releaseYear": 2020,
@@ -7686,7 +7686,7 @@
         "mainMp": "12 MP, f/1.8, OIS",
         "selfieMp": "7 MP FaceTime HD, f/2.2",
         "videoRes": "4K @ 60 fps",
-        "dxomarkScore": 101
+        "dxomarkScore": 104
       },
       "battery": {
         "capacitymAh": 1821,
@@ -7695,7 +7695,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
         "bluetooth": "5.3 / 5.4",
         "hasNFC": true,
@@ -7725,7 +7725,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 44,
-    "reviewCount": 670,
+    "reviewCount": 1390,
     "basePrice": 29759.04,
     "currency": "TL",
     "releaseYear": 2020,
@@ -7936,7 +7936,7 @@
         "mainMp": "12 MP, f/1.8, OIS",
         "selfieMp": "7 MP FaceTime HD, f/2.2",
         "videoRes": "4K @ 60 fps",
-        "dxomarkScore": 101
+        "dxomarkScore": 104
       },
       "battery": {
         "capacitymAh": 1821,
@@ -7958,7 +7958,7 @@
         "frameMaterial": "Havacılık Sınıfı Alüminyum"
       },
       "software": {
-        "osName": "iOS 18",
+        "osName": "iOS 13",
         "updateYears": 7
       }
     }
@@ -7975,7 +7975,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 43,
-    "reviewCount": 590,
+    "reviewCount": 1330,
     "basePrice": 35519.04,
     "currency": "TL",
     "releaseYear": 2018,
@@ -8184,9 +8184,10 @@
       },
       "camera": {
         "mainMp": "12 MP, f/1.8, 26mm, OIS",
+        "telephotoMp": "12 MP, f/2.4, 52mm (2x Optik Zoom, OIS)",
         "selfieMp": "7 MP TrueDepth, f/2.2",
         "videoRes": "4K @ 60 fps",
-        "dxomarkScore": 104
+        "dxomarkScore": 106
       },
       "battery": {
         "capacitymAh": 2942,
@@ -8225,7 +8226,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 22,
-    "reviewCount": 510,
+    "reviewCount": 1270,
     "basePrice": 16269,
     "currency": "TL",
     "releaseYear": 2014,
@@ -8475,7 +8476,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 88,
-    "reviewCount": 430,
+    "reviewCount": 1210,
     "basePrice": 119999,
     "currency": "TL",
     "releaseYear": 2025,
@@ -8693,7 +8694,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
         "bluetooth": "5.3 / 5.4",
         "hasNFC": true,
@@ -8723,7 +8724,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 87,
-    "reviewCount": 350,
+    "reviewCount": 1150,
     "basePrice": 104999,
     "currency": "TL",
     "releaseYear": 2025,
@@ -8941,7 +8942,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
         "bluetooth": "5.3 / 5.4",
         "hasNFC": true,
@@ -8971,7 +8972,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 83,
-    "reviewCount": 270,
+    "reviewCount": 1090,
     "basePrice": 99999,
     "currency": "TL",
     "releaseYear": 2023,
@@ -9219,7 +9220,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 79,
-    "reviewCount": 190,
+    "reviewCount": 1030,
     "basePrice": 89999,
     "currency": "TL",
     "releaseYear": 2022,
@@ -9467,7 +9468,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 78,
-    "reviewCount": 110,
+    "reviewCount": 970,
     "basePrice": 79999,
     "currency": "TL",
     "releaseYear": 2022,
@@ -9715,7 +9716,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 77,
-    "reviewCount": 30,
+    "reviewCount": 910,
     "basePrice": 67999,
     "currency": "TL",
     "releaseYear": 2025,
@@ -9936,7 +9937,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
         "bluetooth": "5.3 / 5.4",
         "hasNFC": true,
@@ -9966,7 +9967,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 74,
-    "reviewCount": -50,
+    "reviewCount": 850,
     "basePrice": 74999,
     "currency": "TL",
     "releaseYear": 2021,
@@ -10184,7 +10185,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
         "bluetooth": "5.3 / 5.4",
         "hasNFC": true,
@@ -10214,7 +10215,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 74,
-    "reviewCount": -130,
+    "reviewCount": 790,
     "basePrice": 84999,
     "currency": "TL",
     "releaseYear": 2021,
@@ -10462,7 +10463,7 @@
     ],
     "rating": 4.9,
     "epeyScore": 73,
-    "reviewCount": -210,
+    "reviewCount": 730,
     "basePrice": 68999,
     "currency": "TL",
     "releaseYear": 2023,
@@ -10683,7 +10684,7 @@
         "reverseWireless": false
       },
       "connectivity": {
-        "has5G": false,
+        "has5G": true,
         "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
         "bluetooth": "5.3 / 5.4",
         "hasNFC": true,
@@ -10697,6 +10698,3761 @@
       },
       "software": {
         "osName": "iOS 17",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-11-pro-max-64-gb-224036",
+    "slug": "apple-iphone-11-pro-max-64-gb",
+    "name": "Apple iPhone 11 Pro Max (64 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/224036/k_apple-iphone-11-pro-max-2.png",
+    "images": [
+      "https://resim.epey.com/224036/k_apple-iphone-11-pro-max-2.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 59,
+    "reviewCount": 670,
+    "basePrice": 36999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.5\" Super Retina XDR OLED Ekran (120Hz ProMotion)",
+      "Apple A13 Bionic (7 nm+) Yonga Seti (TSMC 7nm+)",
+      "12 MP Kamera Sistemi (4K @ 60 fps)",
+      "3969 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Titanyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A13 Bionic (7 nm+) ile üstün tek/çoklu çekirdek ve yapay zeka performansı",
+      "4K @ 60 fps ile profesyonel stüdyo kalitesinde video kaydı",
+      "ProMotion 120Hz ekran ve titanyum kasa ergonomisi",
+      "3969 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "Gelişmiş Apple Intelligence yapay zeka araçları ve uzun vadeli güncelleme desteği"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat farkı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Çöl Titanyum",
+        "hex": "#BEA892"
+      },
+      {
+        "name": "Natürel Titanyum",
+        "hex": "#9E9992"
+      },
+      {
+        "name": "Beyaz Titanyum",
+        "hex": "#F2F1ED"
+      },
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#3C3B3A"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 36999,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 37443,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 37665,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 37813,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 37924,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 38294,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 38479,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 38664,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-pro-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 39959
+      },
+      {
+        "date": "Eki 2025",
+        "price": 38849
+      },
+      {
+        "date": "Kas 2025",
+        "price": 37739
+      },
+      {
+        "date": "Ara 2025",
+        "price": 38479
+      },
+      {
+        "date": "Oca 2026",
+        "price": 37369
+      },
+      {
+        "date": "Şub 2026",
+        "price": 36999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.5\"",
+        "type": "Liquid Retina IPS LCD",
+        "resolution": "2868 x 1320 piksel",
+        "refreshRate": 120,
+        "ppi": 460,
+        "brightnessNits": 2500
+      },
+      "processor": {
+        "chip": "Apple A13 Bionic (7 nm+)",
+        "cores": "6 Çekirdek (2x 2.65 GHz + 4x 1.8 GHz)",
+        "process": "TSMC 7nm+",
+        "antutuScore": 850000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR5X",
+        "storageGb": 64,
+        "storageOptions": [
+          64,
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "12 MP, f/1.8, 26mm, OIS",
+        "ultrawideMp": "12 MP, f/2.4, 13mm, 120˚ Ultra Geniş",
+        "telephotoMp": "12 MP, f/2.0, 52mm (2x Optik Zoom, OIS)",
+        "selfieMp": "12 MP TrueDepth, f/2.2, 4K 60fps",
+        "videoRes": "4K @ 60 fps",
+        "dxomarkScore": 124
+      },
+      "battery": {
+        "capacitymAh": 3969,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 227,
+        "thicknessMm": 8.25,
+        "waterResistance": "Yok",
+        "frameMaterial": "Titanyum (Grade 5)"
+      },
+      "software": {
+        "osName": "iOS 13",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-11-pro-64-gb-224024",
+    "slug": "apple-iphone-11-pro-64-gb",
+    "name": "Apple iPhone 11 Pro (64 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/224024/k_apple-iphone-11-pro-3.png",
+    "images": [
+      "https://resim.epey.com/224024/k_apple-iphone-11-pro-3.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 57,
+    "reviewCount": 610,
+    "basePrice": 33999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "5.8\" Super Retina XDR OLED Ekran (120Hz ProMotion)",
+      "Apple A13 Bionic (7 nm+) Yonga Seti (TSMC 7nm+)",
+      "12 MP Kamera Sistemi (4K @ 60 fps)",
+      "3046 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Titanyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A13 Bionic (7 nm+) ile üstün tek/çoklu çekirdek ve yapay zeka performansı",
+      "4K @ 60 fps ile profesyonel stüdyo kalitesinde video kaydı",
+      "ProMotion 120Hz ekran ve titanyum kasa ergonomisi",
+      "3046 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "Gelişmiş Apple Intelligence yapay zeka araçları ve uzun vadeli güncelleme desteği"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat farkı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Çöl Titanyum",
+        "hex": "#BEA892"
+      },
+      {
+        "name": "Natürel Titanyum",
+        "hex": "#9E9992"
+      },
+      {
+        "name": "Beyaz Titanyum",
+        "hex": "#F2F1ED"
+      },
+      {
+        "name": "Siyah Titanyum",
+        "hex": "#3C3B3A"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 33999,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 34407,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 34611,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 34747,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 34849,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 35189,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 35359,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 35529,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-pro.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 36719
+      },
+      {
+        "date": "Eki 2025",
+        "price": 35699
+      },
+      {
+        "date": "Kas 2025",
+        "price": 34679
+      },
+      {
+        "date": "Ara 2025",
+        "price": 35359
+      },
+      {
+        "date": "Oca 2026",
+        "price": 34339
+      },
+      {
+        "date": "Şub 2026",
+        "price": 33999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "5.8\"",
+        "type": "Liquid Retina IPS LCD",
+        "resolution": "2622 x 1206 piksel",
+        "refreshRate": 120,
+        "ppi": 460,
+        "brightnessNits": 2500
+      },
+      "processor": {
+        "chip": "Apple A13 Bionic (7 nm+)",
+        "cores": "6 Çekirdek (2x 2.65 GHz + 4x 1.8 GHz)",
+        "process": "TSMC 7nm+",
+        "antutuScore": 850000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR5X",
+        "storageGb": 64,
+        "storageOptions": [
+          64,
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "12 MP, f/1.8, 26mm, OIS",
+        "ultrawideMp": "12 MP, f/2.4, 13mm, 120˚ Ultra Geniş",
+        "telephotoMp": "12 MP, f/2.0, 52mm (2x Optik Zoom, OIS)",
+        "selfieMp": "12 MP TrueDepth, f/2.2, 4K 60fps",
+        "videoRes": "4K @ 60 fps",
+        "dxomarkScore": 124
+      },
+      "battery": {
+        "capacitymAh": 3046,
+        "chargingWatts": 45,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 199,
+        "thicknessMm": 8.25,
+        "waterResistance": "Yok",
+        "frameMaterial": "Titanyum (Grade 5)"
+      },
+      "software": {
+        "osName": "iOS 13",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-xs-max-512-gb-131639",
+    "slug": "apple-iphone-xs-max-512-gb",
+    "name": "Apple iPhone XS Max (512 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/131639/k_apple-iphone-xs-max-512gb-1.png",
+    "images": [
+      "https://resim.epey.com/131639/k_apple-iphone-xs-max-512gb-1.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 56,
+    "reviewCount": 550,
+    "basePrice": 27999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.5\" Super Retina XDR OLED Ekran (60Hz )",
+      "Apple A14 Bionic (5 nm) Yonga Seti (TSMC 5nm)",
+      "12 MP Kamera Sistemi (4K @ 60 fps)",
+      "3174 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Havacılık Sınıfı Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A14 Bionic (5 nm) ile üstün tek/çoklu çekirdek ve yapay zeka performansı",
+      "4K @ 60 fps ile profesyonel stüdyo kalitesinde video kaydı",
+      "Kompakt ve zarif tasarım",
+      "3174 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "Gelişmiş Apple Intelligence yapay zeka araçları ve uzun vadeli güncelleme desteği"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat farkı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Lacivert",
+        "hex": "#3B4D61"
+      },
+      {
+        "name": "Deniz Yeşili",
+        "hex": "#879F93"
+      },
+      {
+        "name": "Pembe",
+        "hex": "#EAC2BC"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F9F6EF"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#2E3033"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 27999,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 28335,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 28503,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 28615,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 28699,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 28979,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 29119,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 29259,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 30239
+      },
+      {
+        "date": "Eki 2025",
+        "price": 29399
+      },
+      {
+        "date": "Kas 2025",
+        "price": 28559
+      },
+      {
+        "date": "Ara 2025",
+        "price": 29119
+      },
+      {
+        "date": "Oca 2026",
+        "price": 28279
+      },
+      {
+        "date": "Şub 2026",
+        "price": 27999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.5\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2868 x 1320 piksel",
+        "refreshRate": 60,
+        "ppi": 460,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A14 Bionic (5 nm)",
+        "cores": "6 Çekirdek (2x 3.1 GHz + 4x 1.8 GHz)",
+        "process": "TSMC 5nm",
+        "antutuScore": 1120000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          64,
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "12 MP, f/1.8, 26mm, OIS",
+        "telephotoMp": "12 MP, f/2.4, 52mm (2x Optik Zoom, OIS)",
+        "selfieMp": "7 MP TrueDepth, f/2.2",
+        "videoRes": "4K @ 60 fps",
+        "dxomarkScore": 106
+      },
+      "battery": {
+        "capacitymAh": 3174,
+        "chargingWatts": 30,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 227,
+        "thicknessMm": 8.25,
+        "waterResistance": "IP68 (Suya / Toza Dayanıklılık)",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum"
+      },
+      "software": {
+        "osName": "iOS 14",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-xs-512-gb-131614",
+    "slug": "apple-iphone-xs-512-gb",
+    "name": "Apple iPhone XS (512 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/131614/k_apple-iphone-xs-512gb-8.png",
+    "images": [
+      "https://resim.epey.com/131614/k_apple-iphone-xs-512gb-8.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 55,
+    "reviewCount": 490,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "5.8\" Super Retina XDR OLED Ekran (60Hz )",
+      "Apple A14 Bionic (5 nm) Yonga Seti (TSMC 5nm)",
+      "12 MP Kamera Sistemi (4K @ 60 fps)",
+      "2658 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Havacılık Sınıfı Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A14 Bionic (5 nm) ile üstün tek/çoklu çekirdek ve yapay zeka performansı",
+      "4K @ 60 fps ile profesyonel stüdyo kalitesinde video kaydı",
+      "Kompakt ve zarif tasarım",
+      "2658 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "Gelişmiş Apple Intelligence yapay zeka araçları ve uzun vadeli güncelleme desteği"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat farkı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Lacivert",
+        "hex": "#3B4D61"
+      },
+      {
+        "name": "Deniz Yeşili",
+        "hex": "#879F93"
+      },
+      {
+        "name": "Pembe",
+        "hex": "#EAC2BC"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F9F6EF"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#2E3033"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 24999,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 25299,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 25449,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 25549,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 25624,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 25874,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 25999,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 26124,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-512gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 26999
+      },
+      {
+        "date": "Eki 2025",
+        "price": 26249
+      },
+      {
+        "date": "Kas 2025",
+        "price": 25499
+      },
+      {
+        "date": "Ara 2025",
+        "price": 25999
+      },
+      {
+        "date": "Oca 2026",
+        "price": 25249
+      },
+      {
+        "date": "Şub 2026",
+        "price": 24999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "5.8\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2556 x 1179 piksel",
+        "refreshRate": 60,
+        "ppi": 460,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A14 Bionic (5 nm)",
+        "cores": "6 Çekirdek (2x 3.1 GHz + 4x 1.8 GHz)",
+        "process": "TSMC 5nm",
+        "antutuScore": 1120000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR5X",
+        "storageGb": 512,
+        "storageOptions": [
+          64,
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "12 MP, f/1.8, 26mm, OIS",
+        "telephotoMp": "12 MP, f/2.4, 52mm (2x Optik Zoom, OIS)",
+        "selfieMp": "7 MP TrueDepth, f/2.2",
+        "videoRes": "4K @ 60 fps",
+        "dxomarkScore": 106
+      },
+      "battery": {
+        "capacitymAh": 2658,
+        "chargingWatts": 30,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 170,
+        "thicknessMm": 7.8,
+        "waterResistance": "IP68 (Suya / Toza Dayanıklılık)",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum"
+      },
+      "software": {
+        "osName": "iOS 14",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-xs-max-256-gb-131638",
+    "slug": "apple-iphone-xs-max-256-gb",
+    "name": "Apple iPhone XS Max (256 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/131638/k_apple-iphone-xs-max-256gb-1.png",
+    "images": [
+      "https://resim.epey.com/131638/k_apple-iphone-xs-max-256gb-1.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 55,
+    "reviewCount": 430,
+    "basePrice": 27999,
+    "currency": "TL",
+    "releaseYear": 2018,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.5\" Super Retina XDR OLED Ekran (60Hz )",
+      "Apple A12 Bionic (7 nm) Yonga Seti (TSMC 7nm)",
+      "12 MP Kamera Sistemi (4K @ 60 fps)",
+      "3174 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Havacılık Sınıfı Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A12 Bionic (7 nm) ile üstün tek/çoklu çekirdek ve yapay zeka performansı",
+      "4K @ 60 fps ile profesyonel stüdyo kalitesinde video kaydı",
+      "Kompakt ve zarif tasarım",
+      "3174 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "Gelişmiş Apple Intelligence yapay zeka araçları ve uzun vadeli güncelleme desteği"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat farkı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Lacivert",
+        "hex": "#3B4D61"
+      },
+      {
+        "name": "Deniz Yeşili",
+        "hex": "#879F93"
+      },
+      {
+        "name": "Pembe",
+        "hex": "#EAC2BC"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F9F6EF"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#2E3033"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 27999,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 28335,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 28503,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 28615,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 28699,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 28979,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 29119,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 29259,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 30239
+      },
+      {
+        "date": "Eki 2025",
+        "price": 29399
+      },
+      {
+        "date": "Kas 2025",
+        "price": 28559
+      },
+      {
+        "date": "Ara 2025",
+        "price": 29119
+      },
+      {
+        "date": "Oca 2026",
+        "price": 28279
+      },
+      {
+        "date": "Şub 2026",
+        "price": 27999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.5\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2868 x 1320 piksel",
+        "refreshRate": 60,
+        "ppi": 460,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A12 Bionic (7 nm)",
+        "cores": "6 Çekirdek (2x 2.5 GHz + 4x 1.6 GHz)",
+        "process": "TSMC 7nm",
+        "antutuScore": 680000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          64,
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "12 MP, f/1.8, 26mm, OIS",
+        "telephotoMp": "12 MP, f/2.4, 52mm (2x Optik Zoom, OIS)",
+        "selfieMp": "7 MP TrueDepth, f/2.2",
+        "videoRes": "4K @ 60 fps",
+        "dxomarkScore": 106
+      },
+      "battery": {
+        "capacitymAh": 3174,
+        "chargingWatts": 30,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 227,
+        "thicknessMm": 8.25,
+        "waterResistance": "Yok",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum"
+      },
+      "software": {
+        "osName": "iOS 12",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-11-256-gb-335126",
+    "slug": "apple-iphone-11-256-gb",
+    "name": "Apple iPhone 11 (256 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/335126/k_apple-iphone-11-256gb-2.png",
+    "images": [
+      "https://resim.epey.com/335126/k_apple-iphone-11-256gb-2.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 55,
+    "reviewCount": 370,
+    "basePrice": 34999,
+    "currency": "TL",
+    "releaseYear": 2019,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.1\" Super Retina XDR OLED Ekran (60Hz )",
+      "Apple A13 Bionic (7 nm+) Yonga Seti (TSMC 7nm+)",
+      "12 MP Kamera Sistemi (4K @ 60 fps)",
+      "3110 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Havacılık Sınıfı Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A13 Bionic (7 nm+) ile üstün tek/çoklu çekirdek ve yapay zeka performansı",
+      "4K @ 60 fps ile profesyonel stüdyo kalitesinde video kaydı",
+      "Kompakt ve zarif tasarım",
+      "3110 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "Gelişmiş Apple Intelligence yapay zeka araçları ve uzun vadeli güncelleme desteği"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat farkı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Lacivert",
+        "hex": "#3B4D61"
+      },
+      {
+        "name": "Deniz Yeşili",
+        "hex": "#879F93"
+      },
+      {
+        "name": "Pembe",
+        "hex": "#EAC2BC"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F9F6EF"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#2E3033"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 34999,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 35419,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 35629,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 35769,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 35874,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 36224,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 36399,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 36574,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-11-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 37799
+      },
+      {
+        "date": "Eki 2025",
+        "price": 36749
+      },
+      {
+        "date": "Kas 2025",
+        "price": 35699
+      },
+      {
+        "date": "Ara 2025",
+        "price": 36399
+      },
+      {
+        "date": "Oca 2026",
+        "price": 35349
+      },
+      {
+        "date": "Şub 2026",
+        "price": 34999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.1\"",
+        "type": "Liquid Retina IPS LCD",
+        "resolution": "2556 x 1179 piksel",
+        "refreshRate": 60,
+        "ppi": 460,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A13 Bionic (7 nm+)",
+        "cores": "6 Çekirdek (2x 2.65 GHz + 4x 1.8 GHz)",
+        "process": "TSMC 7nm+",
+        "antutuScore": 850000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          64,
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "12 MP, f/1.8, 26mm, OIS",
+        "ultrawideMp": "12 MP, f/2.4, 13mm, 120˚ Ultra Geniş",
+        "selfieMp": "12 MP TrueDepth, f/2.2, 4K 60fps",
+        "videoRes": "4K @ 60 fps",
+        "dxomarkScore": 119
+      },
+      "battery": {
+        "capacitymAh": 3110,
+        "chargingWatts": 30,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 170,
+        "thicknessMm": 7.8,
+        "waterResistance": "Yok",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum"
+      },
+      "software": {
+        "osName": "iOS 13",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-se-3-2022-256-gb-758822",
+    "slug": "apple-iphone-se-3-2022-256-gb",
+    "name": "Apple iPhone SE 3 (2022) (256 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/758822/k_apple-iphone-se-2022-256gb-1.png",
+    "images": [
+      "https://resim.epey.com/758822/k_apple-iphone-se-2022-256gb-1.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 54,
+    "reviewCount": 310,
+    "basePrice": 31999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "4.7\" Super Retina XDR OLED Ekran (60Hz )",
+      "Apple A15 Bionic (5 nm) Yonga Seti (TSMC 5nm)",
+      "12 MP Kamera Sistemi (4K @ 60 fps)",
+      "2018 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Havacılık Sınıfı Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A15 Bionic (5 nm) ile üstün tek/çoklu çekirdek ve yapay zeka performansı",
+      "4K @ 60 fps ile profesyonel stüdyo kalitesinde video kaydı",
+      "Kompakt ve zarif tasarım",
+      "2018 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "Gelişmiş Apple Intelligence yapay zeka araçları ve uzun vadeli güncelleme desteği"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat farkı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Lacivert",
+        "hex": "#3B4D61"
+      },
+      {
+        "name": "Deniz Yeşili",
+        "hex": "#879F93"
+      },
+      {
+        "name": "Pembe",
+        "hex": "#EAC2BC"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F9F6EF"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#2E3033"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 31999,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 32383,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 32575,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 32703,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 32799,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 33119,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 33279,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 33439,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 34559
+      },
+      {
+        "date": "Eki 2025",
+        "price": 33599
+      },
+      {
+        "date": "Kas 2025",
+        "price": 32639
+      },
+      {
+        "date": "Ara 2025",
+        "price": 33279
+      },
+      {
+        "date": "Oca 2026",
+        "price": 32319
+      },
+      {
+        "date": "Şub 2026",
+        "price": 31999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "4.7\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2556 x 1179 piksel",
+        "refreshRate": 60,
+        "ppi": 460,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A15 Bionic (5 nm)",
+        "cores": "6 Çekirdek (2x 3.23 GHz + 4x 1.82 GHz)",
+        "process": "TSMC 5nm",
+        "antutuScore": 1280000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          64,
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "12 MP, f/1.8, OIS",
+        "selfieMp": "7 MP FaceTime HD, f/2.2",
+        "videoRes": "4K @ 60 fps",
+        "dxomarkScore": 104
+      },
+      "battery": {
+        "capacitymAh": 2018,
+        "chargingWatts": 30,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 170,
+        "thicknessMm": 7.8,
+        "waterResistance": "Yok",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum"
+      },
+      "software": {
+        "osName": "iOS 15",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-xs-256-gb-131610",
+    "slug": "apple-iphone-xs-256-gb",
+    "name": "Apple iPhone XS (256 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/131610/k_apple-iphone-xs-256gb-8.png",
+    "images": [
+      "https://resim.epey.com/131610/k_apple-iphone-xs-256gb-8.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 54,
+    "reviewCount": 250,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2018,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "5.8\" Super Retina XDR OLED Ekran (60Hz )",
+      "Apple A12 Bionic (7 nm) Yonga Seti (TSMC 7nm)",
+      "12 MP Kamera Sistemi (4K @ 60 fps)",
+      "2658 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Havacılık Sınıfı Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A12 Bionic (7 nm) ile üstün tek/çoklu çekirdek ve yapay zeka performansı",
+      "4K @ 60 fps ile profesyonel stüdyo kalitesinde video kaydı",
+      "Kompakt ve zarif tasarım",
+      "2658 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "Gelişmiş Apple Intelligence yapay zeka araçları ve uzun vadeli güncelleme desteği"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat farkı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Lacivert",
+        "hex": "#3B4D61"
+      },
+      {
+        "name": "Deniz Yeşili",
+        "hex": "#879F93"
+      },
+      {
+        "name": "Pembe",
+        "hex": "#EAC2BC"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F9F6EF"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#2E3033"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 24999,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 25299,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 25449,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 25549,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 25624,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 25874,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 25999,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 26124,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 26999
+      },
+      {
+        "date": "Eki 2025",
+        "price": 26249
+      },
+      {
+        "date": "Kas 2025",
+        "price": 25499
+      },
+      {
+        "date": "Ara 2025",
+        "price": 25999
+      },
+      {
+        "date": "Oca 2026",
+        "price": 25249
+      },
+      {
+        "date": "Şub 2026",
+        "price": 24999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "5.8\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2556 x 1179 piksel",
+        "refreshRate": 60,
+        "ppi": 460,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A12 Bionic (7 nm)",
+        "cores": "6 Çekirdek (2x 2.5 GHz + 4x 1.6 GHz)",
+        "process": "TSMC 7nm",
+        "antutuScore": 680000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          64,
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "12 MP, f/1.8, 26mm, OIS",
+        "telephotoMp": "12 MP, f/2.4, 52mm (2x Optik Zoom, OIS)",
+        "selfieMp": "7 MP TrueDepth, f/2.2",
+        "videoRes": "4K @ 60 fps",
+        "dxomarkScore": 106
+      },
+      "battery": {
+        "capacitymAh": 2658,
+        "chargingWatts": 30,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 170,
+        "thicknessMm": 7.8,
+        "waterResistance": "Yok",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum"
+      },
+      "software": {
+        "osName": "iOS 12",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-se-3-2022-128-gb-758817",
+    "slug": "apple-iphone-se-3-2022-128-gb",
+    "name": "Apple iPhone SE 3 (2022) (128 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/758817/k_apple-iphone-se-2022-128gb-1.png",
+    "images": [
+      "https://resim.epey.com/758817/k_apple-iphone-se-2022-128gb-1.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 53,
+    "reviewCount": 190,
+    "basePrice": 28999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "4.7\" Super Retina XDR OLED Ekran (60Hz )",
+      "Apple A15 Bionic (5 nm) Yonga Seti (TSMC 5nm)",
+      "12 MP Kamera Sistemi (4K @ 60 fps)",
+      "2018 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Havacılık Sınıfı Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A15 Bionic (5 nm) ile üstün tek/çoklu çekirdek ve yapay zeka performansı",
+      "4K @ 60 fps ile profesyonel stüdyo kalitesinde video kaydı",
+      "Kompakt ve zarif tasarım",
+      "2018 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "Gelişmiş Apple Intelligence yapay zeka araçları ve uzun vadeli güncelleme desteği"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat farkı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Lacivert",
+        "hex": "#3B4D61"
+      },
+      {
+        "name": "Deniz Yeşili",
+        "hex": "#879F93"
+      },
+      {
+        "name": "Pembe",
+        "hex": "#EAC2BC"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F9F6EF"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#2E3033"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 28999,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022-128gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 29347,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022-128gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 29521,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022-128gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 29637,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022-128gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 29724,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022-128gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 30014,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022-128gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 30159,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022-128gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 30304,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022-128gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 31319
+      },
+      {
+        "date": "Eki 2025",
+        "price": 30449
+      },
+      {
+        "date": "Kas 2025",
+        "price": 29579
+      },
+      {
+        "date": "Ara 2025",
+        "price": 30159
+      },
+      {
+        "date": "Oca 2026",
+        "price": 29289
+      },
+      {
+        "date": "Şub 2026",
+        "price": 28999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "4.7\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2556 x 1179 piksel",
+        "refreshRate": 60,
+        "ppi": 460,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A15 Bionic (5 nm)",
+        "cores": "6 Çekirdek (2x 3.23 GHz + 4x 1.82 GHz)",
+        "process": "TSMC 5nm",
+        "antutuScore": 1280000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR5X",
+        "storageGb": 128,
+        "storageOptions": [
+          64,
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "12 MP, f/1.8, OIS",
+        "selfieMp": "7 MP FaceTime HD, f/2.2",
+        "videoRes": "4K @ 60 fps",
+        "dxomarkScore": 104
+      },
+      "battery": {
+        "capacitymAh": 2018,
+        "chargingWatts": 30,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 170,
+        "thicknessMm": 7.8,
+        "waterResistance": "IP68 (Suya / Toza Dayanıklılık)",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum"
+      },
+      "software": {
+        "osName": "iOS 14",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-x-256-gb-92486",
+    "slug": "apple-iphone-x-256-gb",
+    "name": "Apple iPhone X (256 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/92486/k_apple-iphone-x-256gb-2.png",
+    "images": [
+      "https://resim.epey.com/92486/k_apple-iphone-x-256gb-2.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 51,
+    "reviewCount": 130,
+    "basePrice": 22999,
+    "currency": "TL",
+    "releaseYear": 2017,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "5.8\" Super Retina XDR OLED Ekran (60Hz )",
+      "Apple A11 Bionic (10 nm) Yonga Seti (TSMC 10nm)",
+      "12 MP Kamera Sistemi (4K @ 60 fps)",
+      "2716 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Havacılık Sınıfı Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A11 Bionic (10 nm) ile üstün tek/çoklu çekirdek ve yapay zeka performansı",
+      "4K @ 60 fps ile profesyonel stüdyo kalitesinde video kaydı",
+      "Kompakt ve zarif tasarım",
+      "2716 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "Gelişmiş Apple Intelligence yapay zeka araçları ve uzun vadeli güncelleme desteği"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat farkı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Lacivert",
+        "hex": "#3B4D61"
+      },
+      {
+        "name": "Deniz Yeşili",
+        "hex": "#879F93"
+      },
+      {
+        "name": "Pembe",
+        "hex": "#EAC2BC"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F9F6EF"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#2E3033"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 22999,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-x-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 23275,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-x-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 23413,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-x-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 23505,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-x-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 23574,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-x-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 23804,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-x-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 23919,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-x-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 24034,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-x-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 24839
+      },
+      {
+        "date": "Eki 2025",
+        "price": 24149
+      },
+      {
+        "date": "Kas 2025",
+        "price": 23459
+      },
+      {
+        "date": "Ara 2025",
+        "price": 23919
+      },
+      {
+        "date": "Oca 2026",
+        "price": 23229
+      },
+      {
+        "date": "Şub 2026",
+        "price": 22999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "5.8\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2556 x 1179 piksel",
+        "refreshRate": 60,
+        "ppi": 460,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A11 Bionic (10 nm)",
+        "cores": "6 Çekirdek (2x Monsoon + 4x Mistral)",
+        "process": "TSMC 10nm",
+        "antutuScore": 520000
+      },
+      "memory": {
+        "ramGb": 3,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          64,
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "12 MP, f/1.8, 26mm, OIS",
+        "telephotoMp": "12 MP, f/2.4, 52mm (2x Optik Zoom, OIS)",
+        "selfieMp": "7 MP TrueDepth, f/2.2",
+        "videoRes": "4K @ 60 fps",
+        "dxomarkScore": 106
+      },
+      "battery": {
+        "capacitymAh": 2716,
+        "chargingWatts": 30,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 170,
+        "thicknessMm": 7.8,
+        "waterResistance": "Yok",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum"
+      },
+      "software": {
+        "osName": "iOS 11",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-xs-max-64-gb-127714",
+    "slug": "apple-iphone-xs-max-64-gb",
+    "name": "Apple iPhone XS Max (64 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/127714/k_apple-iphone-xs-max-1.png",
+    "images": [
+      "https://resim.epey.com/127714/k_apple-iphone-xs-max-1.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 51,
+    "reviewCount": 70,
+    "basePrice": 27999,
+    "currency": "TL",
+    "releaseYear": 2018,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.5\" Super Retina XDR OLED Ekran (60Hz )",
+      "Apple A12 Bionic (7 nm) Yonga Seti (TSMC 7nm)",
+      "12 MP Kamera Sistemi (4K @ 60 fps)",
+      "3174 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Havacılık Sınıfı Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A12 Bionic (7 nm) ile üstün tek/çoklu çekirdek ve yapay zeka performansı",
+      "4K @ 60 fps ile profesyonel stüdyo kalitesinde video kaydı",
+      "Kompakt ve zarif tasarım",
+      "3174 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "Gelişmiş Apple Intelligence yapay zeka araçları ve uzun vadeli güncelleme desteği"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat farkı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Lacivert",
+        "hex": "#3B4D61"
+      },
+      {
+        "name": "Deniz Yeşili",
+        "hex": "#879F93"
+      },
+      {
+        "name": "Pembe",
+        "hex": "#EAC2BC"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F9F6EF"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#2E3033"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 27999,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 28335,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 28503,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 28615,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 28699,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 28979,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 29119,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 29259,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs-max.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 30239
+      },
+      {
+        "date": "Eki 2025",
+        "price": 29399
+      },
+      {
+        "date": "Kas 2025",
+        "price": 28559
+      },
+      {
+        "date": "Ara 2025",
+        "price": 29119
+      },
+      {
+        "date": "Oca 2026",
+        "price": 28279
+      },
+      {
+        "date": "Şub 2026",
+        "price": 27999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.5\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2868 x 1320 piksel",
+        "refreshRate": 60,
+        "ppi": 460,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A12 Bionic (7 nm)",
+        "cores": "6 Çekirdek (2x 2.5 GHz + 4x 1.6 GHz)",
+        "process": "TSMC 7nm",
+        "antutuScore": 680000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR5X",
+        "storageGb": 64,
+        "storageOptions": [
+          64,
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "12 MP, f/1.8, 26mm, OIS",
+        "telephotoMp": "12 MP, f/2.4, 52mm (2x Optik Zoom, OIS)",
+        "selfieMp": "7 MP TrueDepth, f/2.2",
+        "videoRes": "4K @ 60 fps",
+        "dxomarkScore": 106
+      },
+      "battery": {
+        "capacitymAh": 3174,
+        "chargingWatts": 30,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 227,
+        "thicknessMm": 8.25,
+        "waterResistance": "Yok",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum"
+      },
+      "software": {
+        "osName": "iOS 12",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-se-3-2022-758749",
+    "slug": "apple-iphone-se-3-2022",
+    "name": "Apple iPhone SE 3 (2022)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/758749/k_apple-iphone-se-2022-1.png",
+    "images": [
+      "https://resim.epey.com/758749/k_apple-iphone-se-2022-1.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 50,
+    "reviewCount": 10,
+    "basePrice": 19999,
+    "currency": "TL",
+    "releaseYear": 2022,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "4.7\" Super Retina XDR OLED Ekran (60Hz )",
+      "Apple A15 Bionic (5 nm) Yonga Seti (TSMC 5nm)",
+      "12 MP Kamera Sistemi (4K @ 60 fps)",
+      "2018 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Havacılık Sınıfı Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A15 Bionic (5 nm) ile üstün tek/çoklu çekirdek ve yapay zeka performansı",
+      "4K @ 60 fps ile profesyonel stüdyo kalitesinde video kaydı",
+      "Kompakt ve zarif tasarım",
+      "2018 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "Gelişmiş Apple Intelligence yapay zeka araçları ve uzun vadeli güncelleme desteği"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat farkı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Lacivert",
+        "hex": "#3B4D61"
+      },
+      {
+        "name": "Deniz Yeşili",
+        "hex": "#879F93"
+      },
+      {
+        "name": "Pembe",
+        "hex": "#EAC2BC"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F9F6EF"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#2E3033"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 19999,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 20239,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 20359,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 20439,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 20499,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 20699,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 20799,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 20899,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2022.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 21599
+      },
+      {
+        "date": "Eki 2025",
+        "price": 20999
+      },
+      {
+        "date": "Kas 2025",
+        "price": 20399
+      },
+      {
+        "date": "Ara 2025",
+        "price": 20799
+      },
+      {
+        "date": "Oca 2026",
+        "price": 20199
+      },
+      {
+        "date": "Şub 2026",
+        "price": 19999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "4.7\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2556 x 1179 piksel",
+        "refreshRate": 60,
+        "ppi": 460,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A15 Bionic (5 nm)",
+        "cores": "6 Çekirdek (2x 3.23 GHz + 4x 1.82 GHz)",
+        "process": "TSMC 5nm",
+        "antutuScore": 1280000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR5X",
+        "storageGb": 64,
+        "storageOptions": [
+          64,
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "12 MP, f/1.8, OIS",
+        "selfieMp": "7 MP FaceTime HD, f/2.2",
+        "videoRes": "4K @ 60 fps",
+        "dxomarkScore": 104
+      },
+      "battery": {
+        "capacitymAh": 2018,
+        "chargingWatts": 30,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": true,
+        "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 170,
+        "thicknessMm": 7.8,
+        "waterResistance": "IP68 (Suya / Toza Dayanıklılık)",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum"
+      },
+      "software": {
+        "osName": "iOS 15",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-xs-64-gb-126668",
+    "slug": "apple-iphone-xs-64-gb",
+    "name": "Apple iPhone XS (64 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/126668/k_apple-iphone-xs-8.png",
+    "images": [
+      "https://resim.epey.com/126668/k_apple-iphone-xs-8.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 50,
+    "reviewCount": -50,
+    "basePrice": 24999,
+    "currency": "TL",
+    "releaseYear": 2018,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "5.8\" Super Retina XDR OLED Ekran (60Hz )",
+      "Apple A12 Bionic (7 nm) Yonga Seti (TSMC 7nm)",
+      "12 MP Kamera Sistemi (4K @ 60 fps)",
+      "2658 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Havacılık Sınıfı Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A12 Bionic (7 nm) ile üstün tek/çoklu çekirdek ve yapay zeka performansı",
+      "4K @ 60 fps ile profesyonel stüdyo kalitesinde video kaydı",
+      "Kompakt ve zarif tasarım",
+      "2658 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "Gelişmiş Apple Intelligence yapay zeka araçları ve uzun vadeli güncelleme desteği"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat farkı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Lacivert",
+        "hex": "#3B4D61"
+      },
+      {
+        "name": "Deniz Yeşili",
+        "hex": "#879F93"
+      },
+      {
+        "name": "Pembe",
+        "hex": "#EAC2BC"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F9F6EF"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#2E3033"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 24999,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 25299,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 25449,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 25549,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 25624,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 25874,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 25999,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 26124,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xs.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 26999
+      },
+      {
+        "date": "Eki 2025",
+        "price": 26249
+      },
+      {
+        "date": "Kas 2025",
+        "price": 25499
+      },
+      {
+        "date": "Ara 2025",
+        "price": 25999
+      },
+      {
+        "date": "Oca 2026",
+        "price": 25249
+      },
+      {
+        "date": "Şub 2026",
+        "price": 24999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "5.8\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2556 x 1179 piksel",
+        "refreshRate": 60,
+        "ppi": 460,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A12 Bionic (7 nm)",
+        "cores": "6 Çekirdek (2x 2.5 GHz + 4x 1.6 GHz)",
+        "process": "TSMC 7nm",
+        "antutuScore": 680000
+      },
+      "memory": {
+        "ramGb": 4,
+        "ramType": "LPDDR5X",
+        "storageGb": 64,
+        "storageOptions": [
+          64,
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "12 MP, f/1.8, 26mm, OIS",
+        "telephotoMp": "12 MP, f/2.4, 52mm (2x Optik Zoom, OIS)",
+        "selfieMp": "7 MP TrueDepth, f/2.2",
+        "videoRes": "4K @ 60 fps",
+        "dxomarkScore": 106
+      },
+      "battery": {
+        "capacitymAh": 2658,
+        "chargingWatts": 30,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 170,
+        "thicknessMm": 7.8,
+        "waterResistance": "Yok",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum"
+      },
+      "software": {
+        "osName": "iOS 12",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-se-2-2020-256-gb-548607",
+    "slug": "apple-iphone-se-2-2020-256-gb",
+    "name": "Apple iPhone SE 2 (2020) (256 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/548607/k_apple-iphone-se-2020-256gb-11.png",
+    "images": [
+      "https://resim.epey.com/548607/k_apple-iphone-se-2020-256gb-11.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 48,
+    "reviewCount": -110,
+    "basePrice": 26999,
+    "currency": "TL",
+    "releaseYear": 2020,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "4.7\" Super Retina XDR OLED Ekran (60Hz )",
+      "Apple A13 Bionic (7 nm+) Yonga Seti (TSMC 7nm+)",
+      "12 MP Kamera Sistemi (4K @ 60 fps)",
+      "1821 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Havacılık Sınıfı Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A13 Bionic (7 nm+) ile üstün tek/çoklu çekirdek ve yapay zeka performansı",
+      "4K @ 60 fps ile profesyonel stüdyo kalitesinde video kaydı",
+      "Kompakt ve zarif tasarım",
+      "1821 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "Gelişmiş Apple Intelligence yapay zeka araçları ve uzun vadeli güncelleme desteği"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat farkı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Lacivert",
+        "hex": "#3B4D61"
+      },
+      {
+        "name": "Deniz Yeşili",
+        "hex": "#879F93"
+      },
+      {
+        "name": "Pembe",
+        "hex": "#EAC2BC"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F9F6EF"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#2E3033"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 26999,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2020-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 27323,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2020-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 27485,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2020-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 27593,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2020-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 27674,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2020-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 27944,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2020-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 28079,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2020-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 28214,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-se-2020-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 29159
+      },
+      {
+        "date": "Eki 2025",
+        "price": 28349
+      },
+      {
+        "date": "Kas 2025",
+        "price": 27539
+      },
+      {
+        "date": "Ara 2025",
+        "price": 28079
+      },
+      {
+        "date": "Oca 2026",
+        "price": 27269
+      },
+      {
+        "date": "Şub 2026",
+        "price": 26999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "4.7\"",
+        "type": "Super Retina XDR OLED (LTPO)",
+        "resolution": "2556 x 1179 piksel",
+        "refreshRate": 60,
+        "ppi": 460,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A13 Bionic (7 nm+)",
+        "cores": "6 Çekirdek (2x 2.65 GHz + 4x 1.8 GHz)",
+        "process": "TSMC 7nm+",
+        "antutuScore": 850000
+      },
+      "memory": {
+        "ramGb": 3,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          64,
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "12 MP, f/1.8, OIS",
+        "selfieMp": "7 MP FaceTime HD, f/2.2",
+        "videoRes": "4K @ 60 fps",
+        "dxomarkScore": 104
+      },
+      "battery": {
+        "capacitymAh": 1821,
+        "chargingWatts": 30,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 170,
+        "thicknessMm": 7.8,
+        "waterResistance": "Yok",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum"
+      },
+      "software": {
+        "osName": "iOS 13",
+        "updateYears": 7
+      }
+    }
+  },
+  {
+    "id": "apple-apple-iphone-xr-256-gb-138630",
+    "slug": "apple-iphone-xr-256-gb",
+    "name": "Apple iPhone XR (256 GB)",
+    "brand": "Apple",
+    "category": "smartphones",
+    "image": "https://resim.epey.com/138630/k_apple-iphone-xr-256gb-4.png",
+    "images": [
+      "https://resim.epey.com/138630/k_apple-iphone-xr-256gb-4.png"
+    ],
+    "rating": 4.9,
+    "epeyScore": 47,
+    "reviewCount": -170,
+    "basePrice": 26999,
+    "currency": "TL",
+    "releaseYear": 2018,
+    "isPopular": false,
+    "isFeatured": false,
+    "highlights": [
+      "6.1\" Super Retina XDR OLED Ekran (60Hz )",
+      "Apple A12 Bionic (7 nm) Yonga Seti (TSMC 7nm)",
+      "12 MP Kamera Sistemi (4K @ 60 fps)",
+      "2942 mAh Uzun Ömürlü Batarya & Hızlı Şarj Desteği",
+      "Havacılık Sınıfı Alüminyum Gövde & IP68 Suya / Toza Dayanıklılık"
+    ],
+    "pros": [
+      "Apple A12 Bionic (7 nm) ile üstün tek/çoklu çekirdek ve yapay zeka performansı",
+      "4K @ 60 fps ile profesyonel stüdyo kalitesinde video kaydı",
+      "Kompakt ve zarif tasarım",
+      "2942 mAh kapasite ile gün boyu kesintisiz yoğun kullanım",
+      "Gelişmiş Apple Intelligence yapay zeka araçları ve uzun vadeli güncelleme desteği"
+    ],
+    "cons": [
+      "Kutu içeriğinde şarj adaptörü bulunmuyor",
+      "Üst depolama seçeneklerinde fiyat farkı yüksek"
+    ],
+    "colorOptions": [
+      {
+        "name": "Lacivert",
+        "hex": "#3B4D61"
+      },
+      {
+        "name": "Deniz Yeşili",
+        "hex": "#879F93"
+      },
+      {
+        "name": "Pembe",
+        "hex": "#EAC2BC"
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#F9F6EF"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#2E3033"
+      }
+    ],
+    "storeOffers": [
+      {
+        "storeName": "PttAVM",
+        "storeLogo": "/stores/pttavm.png",
+        "price": 26999,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xr-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1420,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Hepsiburada",
+        "storeLogo": "/stores/hepsiburada.png",
+        "price": 27323,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xr-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 3840,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Trendyol",
+        "storeLogo": "/stores/trendyol.png",
+        "price": 27485,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xr-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 5210,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Amazon TR",
+        "storeLogo": "/stores/amazontr.png",
+        "price": 27593,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xr-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.9,
+        "reviewCount": 2980,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "idefix",
+        "storeLogo": "/stores/idefix.png",
+        "price": 27674,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xr-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 920,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "Troy Apple",
+        "storeLogo": "/stores/troyapple.png",
+        "price": 27944,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xr-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 5,
+        "reviewCount": 810,
+        "warrantyType": "Resmi Apple Yetkili Satıcı"
+      },
+      {
+        "storeName": "Teknosa",
+        "storeLogo": "/stores/teknosa.png",
+        "price": 28079,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xr-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.7,
+        "reviewCount": 1150,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      },
+      {
+        "storeName": "MediaMarkt",
+        "storeLogo": "/stores/mediamarkt.png",
+        "price": 28214,
+        "currency": "TL",
+        "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-xr-256gb.html",
+        "inStock": true,
+        "freeShipping": true,
+        "shippingFee": 0,
+        "merchantRating": 4.8,
+        "reviewCount": 1680,
+        "warrantyType": "2 Yıl Apple Türkiye Garantili"
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "Eyl 2025",
+        "price": 29159
+      },
+      {
+        "date": "Eki 2025",
+        "price": 28349
+      },
+      {
+        "date": "Kas 2025",
+        "price": 27539
+      },
+      {
+        "date": "Ara 2025",
+        "price": 28079
+      },
+      {
+        "date": "Oca 2026",
+        "price": 27269
+      },
+      {
+        "date": "Şub 2026",
+        "price": 26999
+      }
+    ],
+    "specs": {
+      "screen": {
+        "size": "6.1\"",
+        "type": "Liquid Retina IPS LCD",
+        "resolution": "2556 x 1179 piksel",
+        "refreshRate": 60,
+        "ppi": 460,
+        "brightnessNits": 2000
+      },
+      "processor": {
+        "chip": "Apple A12 Bionic (7 nm)",
+        "cores": "6 Çekirdek (2x 2.5 GHz + 4x 1.6 GHz)",
+        "process": "TSMC 7nm",
+        "antutuScore": 680000
+      },
+      "memory": {
+        "ramGb": 3,
+        "ramType": "LPDDR5X",
+        "storageGb": 256,
+        "storageOptions": [
+          64,
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
+        "expandableStorage": false
+      },
+      "camera": {
+        "mainMp": "12 MP, f/1.8, 26mm, OIS",
+        "telephotoMp": "12 MP, f/2.4, 52mm (2x Optik Zoom, OIS)",
+        "selfieMp": "7 MP TrueDepth, f/2.2",
+        "videoRes": "4K @ 60 fps",
+        "dxomarkScore": 106
+      },
+      "battery": {
+        "capacitymAh": 2942,
+        "chargingWatts": 30,
+        "wirelessCharging": true,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 7 / Wi-Fi 6E",
+        "bluetooth": "5.3 / 5.4",
+        "hasNFC": true,
+        "hasesim": true
+      },
+      "build": {
+        "weightGrams": 170,
+        "thicknessMm": 7.8,
+        "waterResistance": "Yok",
+        "frameMaterial": "Havacılık Sınıfı Alüminyum"
+      },
+      "software": {
+        "osName": "iOS 12",
         "updateYears": 7
       }
     }
