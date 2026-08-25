@@ -1,44 +1,56 @@
 'use client';
 
-import React, { useState, useEffect, useMemo, Suspense } from 'react';
+import React, { useState, useMemo, Suspense } from 'react';
 import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Product } from '@/lib/types';
 import { CompactProductCard } from '@/components/catalog/CompactProductCard';
 import { CategoryIconStrip } from '@/components/layout/CategoryIconStrip';
-import { BrandPillBar } from '@/components/catalog/BrandPillBar';
-import { Search, Tablet, X, ChevronDown } from 'lucide-react';
+import { Search, ChevronDown } from 'lucide-react';
 
 const ITEMS_PER_PAGE = 24;
+
+const TABS = [
+  { id: 'all', label: 'Tümü' },
+  { id: 'flagship', label: 'Amiral Gemisi & Pro' },
+  { id: 'air_mid', label: 'Air & Orta Segment' },
+  { id: 'compact', label: 'Kompakt & Mini' },
+  { id: 'entry', label: 'Öğrenci & Giriş Seviyesi' }
+];
 
 function TabletsContent({ initialProducts }: { initialProducts: Product[] }) {
   const router = useRouter();
   const searchParams = useSearchParams();
-  
+
   const [products] = useState<Product[]>(initialProducts);
+  const [activeTab, setActiveTab] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState('');
-  const [sortBy, setSortBy] = useState('newest');
+  const [sortBy, setSortBy] = useState('popular');
   const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
 
   const brandParam = searchParams.get('brand');
-  const selectedBrands = useMemo(() => {
-    return brandParam ? brandParam.split(',').filter(Boolean) : [];
-  }, [brandParam]);
+  const selectedBrand = brandParam || 'all';
 
-  const handleSelectBrand = (brandName: string | null) => {
+  // Available top brands derived dynamically
+  const brands = useMemo(() => {
+    const counts = new Map<string, number>();
+    products.forEach((p) => {
+      if (p.brand) counts.set(p.brand, (counts.get(p.brand) || 0) + 1);
+    });
+    return Array.from(counts.entries())
+      .sort((a, b) => b[1] - a[1])
+      .map(([brand]) => brand)
+      .slice(0, 12);
+  }, [products]);
+
+  const handleSelectBrand = (brandName: string) => {
     const params = new URLSearchParams(searchParams.toString());
-    if (!brandName) {
+    if (brandName === 'all') {
       params.delete('brand');
     } else {
-      if (selectedBrands.includes(brandName)) {
-        const next = selectedBrands.filter((b) => b !== brandName);
-        if (next.length === 0) params.delete('brand');
-        else params.set('brand', next.join(','));
-      } else {
-        // Toggle or set brand
-        params.set('brand', brandName);
-      }
+      params.set('brand', brandName);
     }
+    setVisibleCount(ITEMS_PER_PAGE);
     router.push(`/tablets?${params.toString()}`, { scroll: false });
   };
 
@@ -46,138 +58,186 @@ function TabletsContent({ initialProducts }: { initialProducts: Product[] }) {
     return products
       .filter((p) => {
         // Brand filter
-        if (selectedBrands.length > 0 && !selectedBrands.includes(p.brand)) {
+        if (selectedBrand !== 'all' && p.brand.toLowerCase() !== selectedBrand.toLowerCase()) {
           return false;
         }
-        // Search query filter
+
+        // Search filter
         if (searchQuery) {
           const q = searchQuery.toLowerCase();
           const matchesName = p.name.toLowerCase().includes(q);
           const matchesBrand = p.brand.toLowerCase().includes(q);
-          return matchesName || matchesBrand;
+          if (!matchesName && !matchesBrand) return false;
         }
+
+        // Tab filter
+        const pName = p.name.toLowerCase();
+        const specs = (p.specs as any) || {};
+        const screenSize = parseFloat(specs.screenSize || specs.screen?.size || '0');
+
+        if (activeTab === 'flagship') {
+          return (
+            pName.includes('pro') ||
+            pName.includes('ultra') ||
+            pName.includes('m4') ||
+            pName.includes('s10') ||
+            pName.includes('s9 ultra') ||
+            pName.includes('s9+') ||
+            pName.includes('matepad pro')
+          );
+        } else if (activeTab === 'air_mid') {
+          return (
+            pName.includes('air') ||
+            pName.includes('fe') ||
+            pName.includes('pad 6') ||
+            pName.includes('pad 7') ||
+            pName.includes('redmi pad') ||
+            pName.includes('magicpad') ||
+            pName.includes('oneplus pad')
+          );
+        } else if (activeTab === 'compact') {
+          return (
+            pName.includes('mini') ||
+            pName.includes('y700') ||
+            (screenSize > 0 && screenSize <= 9.0) ||
+            pName.includes('8.4') ||
+            pName.includes('8.7')
+          );
+        } else if (activeTab === 'entry') {
+          return (
+            pName.includes('tab a') ||
+            pName.includes('10. nesil') ||
+            pName.includes('9. nesil') ||
+            pName.includes('pad 9') ||
+            pName.includes('pad x') ||
+            pName.includes('nxtpaper') ||
+            p.basePrice < 8000
+          );
+        }
+
         return true;
       })
       .sort((a, b) => {
         if (sortBy === 'priceAsc') return a.basePrice - b.basePrice;
         if (sortBy === 'priceDesc') return b.basePrice - a.basePrice;
-        if (sortBy === 'rating') {
-          const ratingDiff = (b.rating || 0) - (a.rating || 0);
-          if (ratingDiff !== 0) return ratingDiff;
-          return (b.releaseYear || 0) - (a.releaseYear || 0);
-        }
-        if (sortBy === 'popular') {
-          const popDiff = (b.isPopular ? 1 : 0) - (a.isPopular ? 1 : 0);
-          if (popDiff !== 0) return popDiff;
-          const yearDiff = (b.releaseYear || 0) - (a.releaseYear || 0);
-          if (yearDiff !== 0) return yearDiff;
-          return (b.rating || 0) - (a.rating || 0);
-        }
-        // Default / 'newest': Yeniden Eskiye (En Yeni Çıkış Yılı En Üstte)
-        const yearDiff = (b.releaseYear || 0) - (a.releaseYear || 0);
-        if (yearDiff !== 0) return yearDiff;
-        const ratingDiff = (b.rating || 0) - (a.rating || 0);
-        if (ratingDiff !== 0) return ratingDiff;
-        return (b.basePrice || 0) - (a.basePrice || 0);
+        if (sortBy === 'rating') return b.rating - a.rating;
+        return (b.isPopular ? 1 : 0) - (a.isPopular ? 1 : 0);
       });
-  }, [products, selectedBrands, searchQuery, sortBy]);
+  }, [products, selectedBrand, searchQuery, activeTab, sortBy]);
 
   return (
-    <div className="space-y-6 pb-12">
-      {/* Header Banner */}
-      <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-2xs flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-        <div>
-          <div className="text-xs text-slate-500 font-bold flex items-center gap-1.5 mb-2">
-            <Link href="/" className="hover:text-emerald-700">Ana Sayfa</Link>
-            <span>&gt;</span>
-            <span className="text-slate-900 font-black">Tabletler</span>
-            {selectedBrands.length > 0 && (
-              <>
-                <span>&gt;</span>
-                <span className="text-emerald-700 font-black">{selectedBrands.join(', ')}</span>
-              </>
-            )}
-          </div>
-
-          <h1 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight flex items-center gap-2">
-            <span>Tabletler</span>
-            {selectedBrands.length > 0 && (
-              <span className="text-emerald-600">({selectedBrands.join(', ')})</span>
-            )}
-            <span className="text-xs bg-emerald-100 text-emerald-800 font-extrabold px-3 py-1 rounded-full">
-              {displayProducts.length} Model
-            </span>
-          </h1>
-          <p className="text-xs text-slate-500 font-medium mt-1">
-            Canlı mağaza fiyatları, teknik özellikler ve marka filtreleme
-          </p>
+    <div className="space-y-8 pb-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Top Header Section - Minimalist & Centered */}
+      <div className="pt-4 pb-2 text-center space-y-3">
+        <div className="text-xs text-slate-400 font-semibold flex items-center justify-center gap-1.5">
+          <Link href="/" className="hover:text-slate-900 transition-colors">Ana Sayfa</Link>
+          <span>/</span>
+          <span className="text-slate-800 font-bold">Tabletler</span>
         </div>
 
-        <div className="flex items-center gap-3">
-          <div className="relative">
-            <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+        <div className="flex items-center justify-center gap-2.5">
+          <h1 className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
+            Tabletler
+          </h1>
+          <span className="text-[11px] font-bold bg-slate-100 text-slate-600 px-3 py-1 rounded-full">
+            {displayProducts.length} Model
+          </span>
+        </div>
+
+        <p className="text-xs sm:text-sm text-slate-500 font-medium max-w-md mx-auto">
+          En popüler iPad, Galaxy Tab, Huawei MatePad serileri ve canlı mağaza fiyat karşılaştırmaları
+        </p>
+
+        {/* Minimalist Search & Sort Bar */}
+        <div className="max-w-xl mx-auto pt-2 flex items-center gap-2">
+          <div className="relative flex-1">
+            <Search className="w-4 h-4 text-slate-400 absolute left-4 top-1/2 -translate-y-1/2" />
             <input
               type="text"
-              placeholder="Tabletler içinde ara..."
+              placeholder="Tablet ara (model, marka, ekran boyutu, işlemci)..."
               value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="bg-slate-50 border border-slate-200 focus:border-emerald-500 rounded-2xl pl-9 pr-4 py-2 text-xs font-bold outline-none w-60"
+              onChange={(e) => {
+                setSearchQuery(e.target.value);
+                setVisibleCount(ITEMS_PER_PAGE);
+              }}
+              className="w-full bg-slate-50 hover:bg-slate-100/80 focus:bg-white border border-slate-200/90 focus:border-slate-800 rounded-full pl-10 pr-4 py-2.5 text-xs font-semibold text-slate-800 outline-none transition-all shadow-2xs placeholder:text-slate-400"
             />
-            {searchQuery && (
-              <button onClick={() => setSearchQuery('')} className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600">
-                <X className="w-3.5 h-3.5" />
-              </button>
-            )}
           </div>
 
           <select
             value={sortBy}
-            onChange={(e) => setSortBy(e.target.value)}
-            className="bg-slate-50 border border-slate-200 rounded-2xl px-3 py-2 text-xs font-bold text-slate-800 outline-none cursor-pointer"
+            onChange={(e) => {
+              setSortBy(e.target.value);
+              setVisibleCount(ITEMS_PER_PAGE);
+            }}
+            className="bg-slate-50 hover:bg-slate-100/80 border border-slate-200/90 rounded-full px-4 py-2.5 text-xs font-bold text-slate-800 outline-none cursor-pointer transition-all shadow-2xs"
           >
-            <option value="newest">En Yeniler (Çıkış Yılı)</option>
             <option value="popular">Öne Çıkanlar</option>
-            <option value="rating">En Yüksek Puanlılar</option>
             <option value="priceAsc">Fiyat: Düşükten Yükseğe</option>
             <option value="priceDesc">Fiyat: Yüksekten Düşüğe</option>
+            <option value="rating">En Yüksek Puanlılar</option>
           </select>
         </div>
       </div>
 
-      {/* Brand Pill Bar */}
-      <BrandPillBar
-        category="tablets"
-        selectedBrands={selectedBrands}
-        onSelectBrand={handleSelectBrand}
-      />
+      {/* Segmented Form Factor Tabs (Apple / Scandinavian Style) */}
+      <div className="border-b border-slate-200/80 flex items-center justify-center gap-2 sm:gap-8 overflow-x-auto scrollbar-none">
+        {TABS.map((tab) => {
+          const isActive = activeTab === tab.id;
+          return (
+            <button
+              key={tab.id}
+              onClick={() => {
+                setActiveTab(tab.id);
+                setVisibleCount(ITEMS_PER_PAGE);
+              }}
+              className={`pb-3 px-3 text-xs sm:text-sm font-bold tracking-tight transition-all relative cursor-pointer whitespace-nowrap ${
+                isActive ? 'text-slate-900' : 'text-slate-400 hover:text-slate-700'
+              }`}
+            >
+              <span>{tab.label}</span>
+              {isActive && (
+                <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-slate-900 rounded-full" />
+              )}
+            </button>
+          );
+        })}
+      </div>
 
-      {/* Active Brand Filter Tag */}
-      {selectedBrands.length > 0 && (
-        <div className="flex items-center gap-2">
-          <span className="text-xs text-slate-500 font-bold">Aktif Marka Filtresi:</span>
-          {selectedBrands.map((b) => (
+      {/* Minimalist Brand Chips */}
+      <div className="flex items-center justify-center gap-1.5 flex-wrap pt-1">
+        <button
+          onClick={() => handleSelectBrand('all')}
+          className={`px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all cursor-pointer ${
+            selectedBrand === 'all'
+              ? 'bg-slate-900 text-white shadow-xs'
+              : 'bg-slate-100 hover:bg-slate-200 text-slate-600'
+          }`}
+        >
+          Tüm Markalar
+        </button>
+        {brands.map((b) => {
+          const isSelected = selectedBrand.toLowerCase() === b.toLowerCase();
+          return (
             <button
               key={b}
-              onClick={() => handleSelectBrand(b)}
-              className="inline-flex items-center gap-1 px-3 py-1 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-full text-xs font-bold hover:bg-emerald-100 transition-colors"
+              onClick={() => handleSelectBrand(isSelected ? 'all' : b)}
+              className={`px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all cursor-pointer ${
+                isSelected
+                  ? 'bg-slate-900 text-white shadow-xs'
+                  : 'bg-slate-100 hover:bg-slate-200 text-slate-600'
+              }`}
             >
-              <span>{b}</span>
-              <X className="w-3 h-3" />
+              {b}
             </button>
-          ))}
-          <button
-            onClick={() => handleSelectBrand(null)}
-            className="text-xs text-rose-600 hover:text-rose-700 font-bold ml-2 underline"
-          >
-            Tümünü Temizle
-          </button>
-        </div>
-      )}
+          );
+        })}
+      </div>
 
-      {/* Grid */}
+      {/* Products Grid */}
       {displayProducts.length > 0 ? (
-        <div className="space-y-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="space-y-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
             {displayProducts.slice(0, visibleCount).map((product, idx) => (
               <CompactProductCard key={product.id} product={product} index={idx} />
             ))}
@@ -185,33 +245,32 @@ function TabletsContent({ initialProducts }: { initialProducts: Product[] }) {
 
           {/* Load More Button */}
           {visibleCount < displayProducts.length && (
-            <div className="text-center pt-4">
+            <div className="text-center pt-6">
               <button
                 onClick={() => setVisibleCount((prev) => prev + ITEMS_PER_PAGE)}
-                className="inline-flex items-center gap-2 bg-slate-900 hover:bg-emerald-600 text-white font-extrabold text-xs px-8 py-3.5 rounded-2xl shadow-md transition-all cursor-pointer hover:scale-105 active:scale-95"
+                className="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs px-8 py-3.5 rounded-full shadow-sm transition-all cursor-pointer hover:scale-105 active:scale-95"
               >
                 <span>Daha Fazla Tablet Göster ({displayProducts.length - visibleCount} model kaldı)</span>
                 <ChevronDown className="w-4 h-4" />
               </button>
-              <p className="text-[11px] text-slate-400 mt-2 font-semibold">
+              <p className="text-[11px] text-slate-400 mt-2 font-medium">
                 {visibleCount} / {displayProducts.length} model listeleniyor
               </p>
             </div>
           )}
         </div>
       ) : (
-        <div className="bg-white border border-slate-200 rounded-3xl p-12 text-center space-y-3">
-          <Tablet className="w-12 h-12 text-slate-300 mx-auto" />
-          <h3 className="text-base font-bold text-slate-800">Seçilen kriterlere uygun tablet bulunamadı</h3>
-          <p className="text-xs text-slate-500">Farklı bir marka veya arama terimi deneyebilirsiniz.</p>
+        <div className="bg-slate-50 border border-slate-200/80 rounded-3xl p-12 text-center space-y-3">
+          <p className="text-sm font-bold text-slate-700">Seçilen filtrelere uygun tablet modeli bulunamadı.</p>
           <button
             onClick={() => {
               setSearchQuery('');
-              handleSelectBrand(null);
+              handleSelectBrand('all');
+              setActiveTab('all');
             }}
-            className="px-4 py-2 bg-emerald-600 text-white rounded-xl text-xs font-bold hover:bg-emerald-700 transition-colors"
+            className="text-xs text-emerald-700 font-bold underline cursor-pointer hover:text-emerald-800"
           >
-            Filtreleri Sıfırla
+            Filtreleri Temizle
           </button>
         </div>
       )}
@@ -223,7 +282,7 @@ function TabletsContent({ initialProducts }: { initialProducts: Product[] }) {
 
 export default function TabletsClient({ initialProducts }: { initialProducts: Product[] }) {
   return (
-    <Suspense fallback={<div className="p-12 text-center text-slate-400 font-bold">Yükleniyor...</div>}>
+    <Suspense fallback={<div className="p-8 text-center text-xs text-slate-400">Yükleniyor...</div>}>
       <TabletsContent initialProducts={initialProducts} />
     </Suspense>
   );
