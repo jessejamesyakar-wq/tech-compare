@@ -95,7 +95,7 @@ const BRAND_CONFIGS: BrandConfig[] = [
   },
   {
     name: 'Arçelik',
-    categoryTag: 'Beyaz Eşya & Yaşam',
+    categoryTag: 'Ev Teknolojileri',
     isMultiCategory: true,
     searchFilter: 'Arçelik',
     href: '/appliances?brand=Arçelik',

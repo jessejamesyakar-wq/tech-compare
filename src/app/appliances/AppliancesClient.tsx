@@ -53,8 +53,8 @@ export const MASTER_CATEGORIES: MasterCategory[] = [
     label: 'Tüm Ev Teknolojileri',
     shortLabel: 'Tümü',
     icon: Sparkles,
-    badge: '935 Model',
-    description: 'Tüm robot süpürgeler, mutfak aletleri, beyaz eşya ve iklimlendirme ürünleri',
+    badge: '900 Model',
+    description: 'Robot süpürgeler, küçük ev aletleri, mutfak teknolojileri, kişisel bakım ve iklimlendirme',
     colorClass: {
       active: 'bg-emerald-600 text-white border-emerald-600 shadow-md',
       pill: 'bg-emerald-50 text-emerald-700 border-emerald-200',
@@ -91,25 +91,11 @@ export const MASTER_CATEGORIES: MasterCategory[] = [
     }
   },
   {
-    id: 'major_appliances',
-    label: 'Beyaz Eşya & Ankastre',
-    shortLabel: 'Beyaz Eşya',
-    icon: Layers,
-    badge: '39 Model',
-    description: 'Buzdolabı, çamaşır, bulaşık, kurutma makineleri, fırın, ocak ve davlumbaz',
-    colorClass: {
-      active: 'bg-indigo-600 text-white border-indigo-600 shadow-md',
-      pill: 'bg-indigo-50 text-indigo-700 border-indigo-200',
-      border: 'border-indigo-500',
-      text: 'text-indigo-700'
-    }
-  },
-  {
     id: 'climate',
     label: 'Isıtma & İklimlendirme',
     shortLabel: 'Klima & Hava',
     icon: Fan,
-    badge: '66 Model',
+    badge: '70 Model',
     description: 'Inverter klimalar, hava temizleme cihazları, vantilatör ve nemlendiriciler',
     colorClass: {
       active: 'bg-teal-600 text-white border-teal-600 shadow-md',
@@ -154,9 +140,7 @@ export const SUB_CATEGORIES_BY_MASTER: Record<string, { id: string; label: strin
     { id: 'robot_vacuum', label: 'Robot Süpürgeler' },
     { id: 'airfryer', label: 'Airfryer & Fritöz' },
     { id: 'coffee_machine', label: 'Kahve Makineleri' },
-    { id: 'refrigerator', label: 'Buzdolapları' },
-    { id: 'washing_machine', label: 'Çamaşır Makineleri' },
-    { id: 'dishwasher', label: 'Bulaşık Makineleri' },
+    { id: 'air_purifier', label: 'Hava Temizleyiciler' },
     { id: 'air_conditioner', label: 'Klimalar' },
     { id: 'personal_care', label: 'Tıraş & Bakım' },
     { id: 'iron', label: 'Buharlı Ütüler' }
@@ -177,21 +161,6 @@ export const SUB_CATEGORIES_BY_MASTER: Record<string, { id: string; label: strin
     { id: 'blender', label: 'Blender & Mutfak Robotu' },
     { id: 'toaster', label: 'Tost Makineleri & Izgara' },
     { id: 'chopper', label: 'Rondo & Doğrayıcı' }
-  ],
-  major_appliances: [
-    { id: 'all', label: 'Tüm Beyaz Eşyalar' },
-    { id: 'refrigerator', label: 'Buzdolabı' },
-    { id: 'washing_machine', label: 'Çamaşır Makinesi' },
-    { id: 'dryer', label: 'Kurutma Makinesi' },
-    { id: 'dishwasher', label: 'Bulaşık Makinesi' },
-    { id: 'deep_freezer', label: 'Derin Dondurucu' },
-    { id: 'built_in_set', label: 'Ankastre Set' },
-    { id: 'oven', label: 'Fırın' },
-    { id: 'hob', label: 'Ocak' },
-    { id: 'range_hood', label: 'Davlumbaz & Aspiratör' },
-    { id: 'microwave', label: 'Mikrodalga Fırın' },
-    { id: 'spare_parts', label: 'Yedek Parça & Aksesuar' },
-    { id: 'commercial_dishwasher', label: 'Sanayi Tipi Ekipman' }
   ],
   climate: [
     { id: 'all', label: 'Tüm İklimlendirme' },
@@ -250,14 +219,14 @@ export const SPOTLIGHT_CARDS = [
     accent: 'from-orange-950/90 to-slate-900/90'
   },
   {
-    id: 'refrigerator',
-    masterCategory: 'major_appliances',
-    title: 'No-Frost Buzdolabı & Dondurucu',
-    subtitle: 'Geniş İç Hacim, Inverter Kompresör & A+++',
-    image: 'https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=600&q=80',
-    count: '39+ Model',
-    tag: 'Beyaz Eşya',
-    accent: 'from-indigo-950/90 to-slate-900/90'
+    id: 'air_purifier',
+    masterCategory: 'climate',
+    title: 'Hava Temizleyici & Nemlendirici',
+    subtitle: 'HEPA 13 Filtre, Akıllı Hava Kalitesi Sensörü',
+    image: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=600&q=80',
+    count: '45+ Model',
+    tag: 'Temiz Hava',
+    accent: 'from-emerald-950/90 to-slate-900/90'
   },
   {
     id: 'air_conditioner',
