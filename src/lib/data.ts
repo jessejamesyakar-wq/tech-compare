@@ -330,7 +330,7 @@ export async function searchProducts(query: string): Promise<Product[]> {
     // Check if ALL query tokens match somewhere in product properties
     const specStr = p.specs ? JSON.stringify(p.specs).toLowerCase() : '';
     const tagsStr = p.tags ? p.tags.join(' ').toLowerCase() : '';
-    const highlightsStr = p.highlights ? p.highlights.join(' ').toLowerCase() : '';
+    const highlightsStr = p.highlights ? (p.highlights || []).join(' ').toLowerCase() : '';
 
     const allTokensMatch = tokens.every((token) => {
       return (

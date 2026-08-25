@@ -113,7 +113,7 @@ export default function MonitorDetailClient({ initialProduct }: { initialProduct
               <span>Öne Çıkan Özellikler</span>
             </h3>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-              {initialProduct.highlights.map((h, i) => (
+              {(initialProduct.highlights || []).map((h, i) => (
                 <li key={i} className="text-xs text-slate-700 font-medium flex items-start gap-1.5">
                   <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0 mt-0.5" />
                   <span>{h}</span>
@@ -152,7 +152,7 @@ export default function MonitorDetailClient({ initialProduct }: { initialProduct
             </h3>
 
             <div className="space-y-2">
-              {initialProduct.storeOffers.map((offer, idx) => (
+              {(initialProduct.storeOffers || []).map((offer, idx) => (
                 <div key={idx} className="flex items-center justify-between p-3.5 bg-white border border-slate-200 rounded-xl hover:border-emerald-500 transition-colors">
                   <div className="flex items-center gap-3">
                     <span className={`w-8 h-8 rounded-lg ${offer.storeLogoColor || 'bg-slate-800'} text-white font-black text-xs flex items-center justify-center`}>

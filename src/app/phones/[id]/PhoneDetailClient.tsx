@@ -97,7 +97,7 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
 
             {/* Highlights Chips */}
             <div className="flex flex-wrap gap-2 mb-6">
-              {phone.highlights.map((h, idx) => (
+              {(phone.highlights || []).map((h, idx) => (
                 <span key={idx} className="bg-slate-50 text-slate-700 text-xs px-3 py-1.5 rounded-xl border border-slate-200 flex items-center gap-1.5 font-medium">
                   <Check className="w-3.5 h-3.5 text-emerald-600" />
                   <span>{h}</span>
@@ -213,7 +213,7 @@ export default function PhoneDetailClient({ initialPhone }: { initialPhone: Smar
             '@type': 'Product',
             name: phone.name,
             image: [phone.image, ...(phone.images || [])],
-            description: phone.highlights.join('. '),
+            description: (phone.highlights || []).join('. '),
             brand: {
               '@type': 'Brand',
               name: phone.brand

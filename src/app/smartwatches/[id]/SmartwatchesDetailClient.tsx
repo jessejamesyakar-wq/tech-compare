@@ -120,7 +120,7 @@ export default function SmartwatchesDetailClient({ initialProduct }: { initialPr
                 Öne Çıkan Özellikler
               </h3>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs font-semibold text-slate-700">
-                {product.highlights.map((h, i) => (
+                {(product.highlights || []).map((h, i) => (
                   <li key={i} className="flex items-start gap-2 bg-slate-50 p-2.5 rounded-xl border border-slate-100">
                     <Check className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
                     <span>{h}</span>

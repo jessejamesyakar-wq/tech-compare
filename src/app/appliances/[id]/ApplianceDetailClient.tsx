@@ -147,7 +147,7 @@ export default function ApplianceDetailClient({ initialApplianceProduct }: { ini
                 Öne Çıkan Özellikler
               </h3>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                {product.highlights.map((h, i) => (
+                {(product.highlights || []).map((h, i) => (
                   <li key={i} className="flex items-start gap-2 text-xs font-medium text-slate-700 bg-slate-50/80 p-2.5 rounded-xl border border-slate-100">
                     <Check className="w-3.5 h-3.5 text-emerald-600 mt-0.5 shrink-0" />
                     <span>{h}</span>

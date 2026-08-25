@@ -21843,7 +21843,53 @@
       "frontCameraMp": 0,
       "weightGrams": 98,
       "cellular": "2G GSM Çift Hat",
-      "color": "Siyah / Koyu Gri"
+      "color": "Siyah / Koyu Gri",
+      "screen": {
+        "size": "6.5 inç",
+        "type": "IPS LCD / AMOLED",
+        "resolution": "1080 x 2400 piksel",
+        "refreshRate": 90,
+        "ppi": 395,
+        "brightnessNits": 800
+      },
+      "memory": {
+        "ramGb": 6,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP, f/1.8, PDAF",
+        "selfieMp": "8 MP, f/2.0",
+        "videoRes": "1080p @ 30 fps",
+        "dxomarkScore": 100
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 18,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.0",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 185,
+        "thicknessMm": 8.2,
+        "waterResistance": "IP54 Suya/Toza Sıçrama Koruması",
+        "frameMaterial": "Polikarbonat Gövde"
+      },
+      "software": {
+        "osName": "Android",
+        "updateYears": 3
+      }
     },
     "storeOffers": [
       {
@@ -21873,6 +21919,14 @@
         "price": 2100,
         "store": "Amazon TR"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -21916,7 +21970,46 @@
         "2G GSM",
         "Bluetooth",
         "Masaüstü Şarj Ünitesi"
-      ]
+      ],
+      "screen": {
+        "size": "6.5 inç",
+        "type": "IPS LCD / AMOLED",
+        "resolution": "1080 x 2400 piksel",
+        "refreshRate": 90,
+        "ppi": 395,
+        "brightnessNits": 800
+      },
+      "memory": {
+        "ramGb": 6,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP, f/1.8, PDAF",
+        "selfieMp": "8 MP, f/2.0",
+        "videoRes": "1080p @ 30 fps",
+        "dxomarkScore": 100
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 18,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "build": {
+        "weightGrams": 185,
+        "thicknessMm": 8.2,
+        "waterResistance": "IP54 Suya/Toza Sıçrama Koruması",
+        "frameMaterial": "Polikarbonat Gövde"
+      },
+      "software": {
+        "osName": "Android",
+        "updateYears": 3
+      }
     },
     "storeOffers": [
       {
@@ -21946,6 +22039,14 @@
         "price": 3289,
         "store": "Trendyol"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -21984,7 +22085,53 @@
       "rearCameraMp": "16 MP",
       "frontCameraMp": "8 MP",
       "weightGrams": 168,
-      "os": "Android"
+      "os": "Android",
+      "screen": {
+        "size": "6.5 inç",
+        "type": "IPS LCD / AMOLED",
+        "resolution": "1080 x 2400 piksel",
+        "refreshRate": 90,
+        "ppi": 395,
+        "brightnessNits": 800
+      },
+      "memory": {
+        "ramGb": 6,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP, f/1.8, PDAF",
+        "selfieMp": "8 MP, f/2.0",
+        "videoRes": "1080p @ 30 fps",
+        "dxomarkScore": 100
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 18,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.0",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 185,
+        "thicknessMm": 8.2,
+        "waterResistance": "IP54 Suya/Toza Sıçrama Koruması",
+        "frameMaterial": "Polikarbonat Gövde"
+      },
+      "software": {
+        "osName": "Android",
+        "updateYears": 3
+      }
     },
     "storeOffers": [
       {
@@ -22013,6 +22160,14 @@
         "price": 4999,
         "store": "Amazon TR"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -22051,7 +22206,53 @@
       "rearCameraMp": "8 MP",
       "frontCameraMp": "5 MP",
       "weightGrams": 155,
-      "os": "Android"
+      "os": "Android",
+      "screen": {
+        "size": "6.5 inç",
+        "type": "IPS LCD / AMOLED",
+        "resolution": "1080 x 2400 piksel",
+        "refreshRate": 90,
+        "ppi": 395,
+        "brightnessNits": 800
+      },
+      "memory": {
+        "ramGb": 6,
+        "ramType": "LPDDR4X",
+        "storageGb": 128,
+        "storageOptions": [
+          128
+        ],
+        "expandableStorage": true
+      },
+      "camera": {
+        "mainMp": "50 MP, f/1.8, PDAF",
+        "selfieMp": "8 MP, f/2.0",
+        "videoRes": "1080p @ 30 fps",
+        "dxomarkScore": 100
+      },
+      "battery": {
+        "capacitymAh": 5000,
+        "chargingWatts": 18,
+        "wirelessCharging": false,
+        "reverseWireless": false
+      },
+      "connectivity": {
+        "has5G": false,
+        "wifiStandard": "Wi-Fi 5",
+        "bluetooth": "5.0",
+        "hasNFC": true,
+        "hasesim": false
+      },
+      "build": {
+        "weightGrams": 185,
+        "thicknessMm": 8.2,
+        "waterResistance": "IP54 Suya/Toza Sıçrama Koruması",
+        "frameMaterial": "Polikarbonat Gövde"
+      },
+      "software": {
+        "osName": "Android",
+        "updateYears": 3
+      }
     },
     "storeOffers": [
       {
@@ -22080,6 +22281,14 @@
         "price": 3299,
         "store": "Trendyol"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -22202,6 +22411,14 @@
         "price": 151999,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -22324,6 +22541,14 @@
         "price": 131999,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -22446,6 +22671,14 @@
         "price": 96999,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -22568,6 +22801,14 @@
         "price": 131999,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -22690,6 +22931,14 @@
         "price": 87999,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -22812,6 +23061,14 @@
         "price": 77999,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -22934,6 +23191,14 @@
         "price": 111499,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -23056,6 +23321,14 @@
         "price": 73499,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -23178,6 +23451,14 @@
         "price": 64999,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -23300,6 +23581,14 @@
         "price": 46999,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -23422,6 +23711,14 @@
         "price": 36999,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -23544,6 +23841,14 @@
         "price": 29499,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -23666,6 +23971,14 @@
         "price": 17499,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -23795,6 +24108,14 @@
         "price": 59999,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -23924,6 +24245,14 @@
         "price": 89999,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -24053,6 +24382,14 @@
         "price": 5999,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -24182,6 +24519,14 @@
         "price": 8999,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -24311,6 +24656,14 @@
         "price": 11999,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -24440,6 +24793,14 @@
         "price": 15999,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -24569,6 +24930,14 @@
         "price": 21999,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -24698,6 +25067,14 @@
         "price": 69999,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -24827,6 +25204,14 @@
         "price": 99999,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -24956,6 +25341,14 @@
         "price": 119999,
         "store": "Samsung Store"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -25120,7 +25513,15 @@
       }
     },
     "price": 14499,
-    "priceFormatted": "14.499 TL"
+    "priceFormatted": "14.499 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "vivo-vivo-v50-lite",
@@ -25284,7 +25685,15 @@
       }
     },
     "price": 18499,
-    "priceFormatted": "18.499 TL"
+    "priceFormatted": "18.499 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "vivo-vivo-y22s",
@@ -25448,7 +25857,15 @@
       }
     },
     "price": 9999,
-    "priceFormatted": "9.999 TL"
+    "priceFormatted": "9.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "vivo-vivo-y29s-5g",
@@ -25612,7 +26029,15 @@
       }
     },
     "price": 16999,
-    "priceFormatted": "16.999 TL"
+    "priceFormatted": "16.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "vivo-vivo-v50-lite-5g",
@@ -25776,7 +26201,15 @@
       }
     },
     "price": 21999,
-    "priceFormatted": "21.999 TL"
+    "priceFormatted": "21.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "vivo-vivo-y35",
@@ -25940,7 +26373,15 @@
       }
     },
     "price": 11499,
-    "priceFormatted": "11.499 TL"
+    "priceFormatted": "11.499 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "vivo-vivo-y31d",
@@ -26104,7 +26545,15 @@
       }
     },
     "price": 15999,
-    "priceFormatted": "15.999 TL"
+    "priceFormatted": "15.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "vivo-vivo-v50-5g",
@@ -26269,7 +26718,15 @@
       }
     },
     "price": 27999,
-    "priceFormatted": "27.999 TL"
+    "priceFormatted": "27.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "vivo-vivo-y16",
@@ -26433,7 +26890,15 @@
       }
     },
     "price": 8999,
-    "priceFormatted": "8.999 TL"
+    "priceFormatted": "8.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "vivo-vivo-x300-ultra",
@@ -26625,6 +27090,14 @@
         "name": "Titanyum Grisi",
         "hex": "#8E9196"
       }
+    ],
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
     ]
   },
   {
@@ -26866,7 +27339,15 @@
       }
     },
     "price": 8999,
-    "priceFormatted": "8.999 TL"
+    "priceFormatted": "8.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "xiaomi-xiaomi-mi-note-10-lite-10183",
@@ -27107,7 +27588,15 @@
       }
     },
     "price": 8999,
-    "priceFormatted": "8.999 TL"
+    "priceFormatted": "8.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "xiaomi-xiaomi-poco-c81-pro-14635",
@@ -27348,7 +27837,15 @@
       }
     },
     "price": 8499,
-    "priceFormatted": "8.499 TL"
+    "priceFormatted": "8.499 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "xiaomi-xiaomi-redmi-note-4-8531",
@@ -27589,7 +28086,15 @@
       }
     },
     "price": 5999,
-    "priceFormatted": "5.999 TL"
+    "priceFormatted": "5.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "xiaomi-xiaomi-redmi-6a-9217",
@@ -27830,7 +28335,15 @@
       }
     },
     "price": 12999,
-    "priceFormatted": "12.999 TL"
+    "priceFormatted": "12.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "xiaomi-xiaomi-redmi-note-12-pro-4g-12209",
@@ -28071,7 +28584,15 @@
       }
     },
     "price": 8999,
-    "priceFormatted": "8.999 TL"
+    "priceFormatted": "8.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "xiaomi-xiaomi-redmi-10x-4g-10202",
@@ -28312,7 +28833,15 @@
       }
     },
     "price": 8999,
-    "priceFormatted": "8.999 TL"
+    "priceFormatted": "8.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "xiaomi-xiaomi-redmi-k100-pro-max-5g-14865",
@@ -28553,7 +29082,15 @@
       }
     },
     "price": 89999,
-    "priceFormatted": "89.999 TL"
+    "priceFormatted": "89.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "xiaomi-xiaomi-redmi-k60-ultra-12470",
@@ -28794,7 +29331,15 @@
       }
     },
     "price": 89999,
-    "priceFormatted": "89.999 TL"
+    "priceFormatted": "89.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "xiaomi-xiaomi-poco-f8-pro-5g-14303",
@@ -29035,7 +29580,15 @@
       }
     },
     "price": 44999,
-    "priceFormatted": "44.999 TL"
+    "priceFormatted": "44.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "honor-honor-win-win-turbo-91",
@@ -29198,7 +29751,15 @@
       "/images/phones/honor/honor-magic6-pro.jpg"
     ],
     "price": 27999,
-    "priceFormatted": "27.999 TL"
+    "priceFormatted": "27.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "honor-honor-600-lite-90",
@@ -29361,7 +29922,15 @@
       "/images/phones/honor/honor-magic6-pro.jpg"
     ],
     "price": 19999,
-    "priceFormatted": "19.999 TL"
+    "priceFormatted": "19.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "honor-honor-600-pro-89",
@@ -29524,7 +30093,15 @@
       "/images/phones/honor/honor-magic6-pro.jpg"
     ],
     "price": 44999,
-    "priceFormatted": "44.999 TL"
+    "priceFormatted": "44.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "honor-honor-600-88",
@@ -29687,7 +30264,15 @@
       "/images/phones/honor/honor-magic6-pro.jpg"
     ],
     "price": 34999,
-    "priceFormatted": "34.999 TL"
+    "priceFormatted": "34.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "honor-honor-magic-v6-87",
@@ -29850,7 +30435,15 @@
       "/images/phones/honor/honor-magic6-pro.jpg"
     ],
     "price": 94999,
-    "priceFormatted": "94.999 TL"
+    "priceFormatted": "94.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "honor-honor-magic8-lite-86",
@@ -30013,7 +30606,15 @@
       "/images/phones/honor/honor-magic6-pro.jpg"
     ],
     "price": 19999,
-    "priceFormatted": "19.999 TL"
+    "priceFormatted": "19.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "honor-honor-magic8-pro-85",
@@ -30176,7 +30777,15 @@
       "/images/phones/honor/honor-magic6-pro.jpg"
     ],
     "price": 79999,
-    "priceFormatted": "79.999 TL"
+    "priceFormatted": "79.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "honor-honor-magic8-84",
@@ -30339,7 +30948,15 @@
       "/images/phones/honor/honor-magic6-pro.jpg"
     ],
     "price": 64999,
-    "priceFormatted": "64.999 TL"
+    "priceFormatted": "64.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "honor-honor-win-83",
@@ -30502,7 +31119,15 @@
       "/images/phones/honor/honor-magic6-pro.jpg"
     ],
     "price": 22999,
-    "priceFormatted": "22.999 TL"
+    "priceFormatted": "22.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "honor-honor-magic-v5-82",
@@ -30665,7 +31290,15 @@
       "/images/phones/honor/honor-magic6-pro.jpg"
     ],
     "price": 84999,
-    "priceFormatted": "84.999 TL"
+    "priceFormatted": "84.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "sony-sony-xperia-viii-34",
@@ -30828,7 +31461,15 @@
       "/images/phones/sony/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 94999,
-    "priceFormatted": "94.999 TL"
+    "priceFormatted": "94.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "sony-sony-xperia-1-vii-33",
@@ -30991,7 +31632,15 @@
       "/images/phones/sony/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 79999,
-    "priceFormatted": "79.999 TL"
+    "priceFormatted": "79.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "sony-sony-xperia-10-vii-32",
@@ -31154,7 +31803,15 @@
       "/images/phones/sony/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 23999,
-    "priceFormatted": "23.999 TL"
+    "priceFormatted": "23.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "huawei-huawei_y5ii-8036",
@@ -31371,7 +32028,15 @@
       }
     },
     "price": 7499,
-    "priceFormatted": "7.499 TL"
+    "priceFormatted": "7.499 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "huawei-huawei_u8650_sonic-4205",
@@ -31588,7 +32253,15 @@
       }
     },
     "price": 7499,
-    "priceFormatted": "7.499 TL"
+    "priceFormatted": "7.499 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "huawei-huawei_p40_pro-10152",
@@ -31805,7 +32478,15 @@
       }
     },
     "price": 28999,
-    "priceFormatted": "28.999 TL"
+    "priceFormatted": "28.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "huawei-huawei_nova_12_ultra-12761",
@@ -32022,7 +32703,15 @@
       }
     },
     "price": 44999,
-    "priceFormatted": "44.999 TL"
+    "priceFormatted": "44.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "huawei-huawei_mate_9-8073",
@@ -32239,7 +32928,15 @@
       }
     },
     "price": 7499,
-    "priceFormatted": "7.499 TL"
+    "priceFormatted": "7.499 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "huawei-huawei_mate_40_rs_porsche_design-10551",
@@ -32456,7 +33153,15 @@
       }
     },
     "price": 89999,
-    "priceFormatted": "89.999 TL"
+    "priceFormatted": "89.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "huawei-huawei_nova_5i-9727",
@@ -32673,7 +33378,15 @@
       }
     },
     "price": 17999,
-    "priceFormatted": "17.999 TL"
+    "priceFormatted": "17.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "huawei-huawei_y9_(2019",
@@ -32890,7 +33603,15 @@
       }
     },
     "price": 11999,
-    "priceFormatted": "11.999 TL"
+    "priceFormatted": "11.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "huawei-huawei_y9_(2018",
@@ -33107,7 +33828,15 @@
       }
     },
     "price": 11999,
-    "priceFormatted": "11.999 TL"
+    "priceFormatted": "11.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "huawei-huawei_u8850_vision-4109",
@@ -33324,7 +34053,15 @@
       }
     },
     "price": 7499,
-    "priceFormatted": "7.499 TL"
+    "priceFormatted": "7.499 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "huawei-huawei_mate_x2_4g-10987",
@@ -33541,7 +34278,15 @@
       }
     },
     "price": 7499,
-    "priceFormatted": "7.499 TL"
+    "priceFormatted": "7.499 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "oppo-oppo-r815t-clover-5898",
@@ -33704,7 +34449,15 @@
       }
     },
     "price": 4999,
-    "priceFormatted": "4.999 TL"
+    "priceFormatted": "4.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "oppo-oppo-k1-9361",
@@ -33867,7 +34620,15 @@
       }
     },
     "price": 6999,
-    "priceFormatted": "6.999 TL"
+    "priceFormatted": "6.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "oppo-oppo-a94-10765",
@@ -34030,7 +34791,15 @@
       }
     },
     "price": 10199,
-    "priceFormatted": "10.199 TL"
+    "priceFormatted": "10.199 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "oppo-oppo-a17k-11936",
@@ -34193,7 +34962,15 @@
       }
     },
     "price": 11399,
-    "priceFormatted": "11.399 TL"
+    "priceFormatted": "11.399 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "oppo-oppo-find-x8s-5g-13769",
@@ -34356,7 +35133,15 @@
       }
     },
     "price": 56999,
-    "priceFormatted": "56.999 TL"
+    "priceFormatted": "56.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "oppo-oppo-a39-8890",
@@ -34519,7 +35304,15 @@
       }
     },
     "price": 13799,
-    "priceFormatted": "13.799 TL"
+    "priceFormatted": "13.799 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "oppo-oppo-k7x-10573",
@@ -34682,7 +35475,15 @@
       }
     },
     "price": 10999,
-    "priceFormatted": "10.999 TL"
+    "priceFormatted": "10.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "oppo-oppo-reno7-11448",
@@ -34845,7 +35646,15 @@
       }
     },
     "price": 19999,
-    "priceFormatted": "19.999 TL"
+    "priceFormatted": "19.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "oppo-oppo-a3-pro-13160",
@@ -35008,7 +35817,15 @@
       }
     },
     "price": 13799,
-    "priceFormatted": "13.799 TL"
+    "priceFormatted": "13.799 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "oppo-oppo-a3-pro-(china",
@@ -35171,7 +35988,15 @@
       }
     },
     "price": 13799,
-    "priceFormatted": "13.799 TL"
+    "priceFormatted": "13.799 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "oppo-oppo-mirror-3-7193",
@@ -35334,7 +36159,15 @@
       }
     },
     "price": 4999,
-    "priceFormatted": "4.999 TL"
+    "priceFormatted": "4.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "realme-realme-c85-63",
@@ -35497,7 +36330,15 @@
       "/images/phones/realme/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 11999,
-    "priceFormatted": "11.999 TL"
+    "priceFormatted": "11.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "realme-realme-p4-pro-62",
@@ -35660,7 +36501,15 @@
       "/images/phones/realme/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 24999,
-    "priceFormatted": "24.999 TL"
+    "priceFormatted": "24.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "realme-realme-p4-power-61",
@@ -35823,7 +36672,15 @@
       "/images/phones/realme/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 21999,
-    "priceFormatted": "21.999 TL"
+    "priceFormatted": "21.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "realme-realme-16-pro-60",
@@ -35986,7 +36843,15 @@
       "/images/phones/realme/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 35999,
-    "priceFormatted": "35.999 TL"
+    "priceFormatted": "35.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "realme-realme-16-pro-59",
@@ -36149,7 +37014,15 @@
       "/images/phones/realme/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 29999,
-    "priceFormatted": "29.999 TL"
+    "priceFormatted": "29.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "realme-realme-gt-8-pro-58",
@@ -36312,7 +37185,15 @@
       "/images/phones/realme/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 69999,
-    "priceFormatted": "69.999 TL"
+    "priceFormatted": "69.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "realme-realme-c73-57",
@@ -36475,7 +37356,15 @@
       "/images/phones/realme/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 9499,
-    "priceFormatted": "9.499 TL"
+    "priceFormatted": "9.499 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "realme-realme-narzo-70-56",
@@ -36638,7 +37527,15 @@
       "/images/phones/realme/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 11999,
-    "priceFormatted": "11.999 TL"
+    "priceFormatted": "11.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "realme-realme-14-pro-55",
@@ -36801,7 +37698,15 @@
       "/images/phones/realme/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 28999,
-    "priceFormatted": "28.999 TL"
+    "priceFormatted": "28.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "realme-realme-14-pro-54",
@@ -36964,7 +37869,15 @@
       "/images/phones/realme/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 23999,
-    "priceFormatted": "23.999 TL"
+    "priceFormatted": "23.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "google-google-pixel-11-pro-fold-34",
@@ -37127,7 +38040,15 @@
       "/images/phones/google/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 99999,
-    "priceFormatted": "99.999 TL"
+    "priceFormatted": "99.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "google-google-pixel-11-pro-xl-33",
@@ -37290,7 +38211,15 @@
       "/images/phones/google/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 89999,
-    "priceFormatted": "89.999 TL"
+    "priceFormatted": "89.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "google-google-pixel-11-pro-32",
@@ -37453,7 +38382,15 @@
       "/images/phones/google/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 79999,
-    "priceFormatted": "79.999 TL"
+    "priceFormatted": "79.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "google-google-pixel-11-31",
@@ -37616,7 +38553,15 @@
       "/images/phones/google/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 64999,
-    "priceFormatted": "64.999 TL"
+    "priceFormatted": "64.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "google-google-pixel-10a-30",
@@ -37779,7 +38724,15 @@
       "/images/phones/google/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 29999,
-    "priceFormatted": "29.999 TL"
+    "priceFormatted": "29.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "google-google-pixel-10-pro-fold-29",
@@ -37942,7 +38895,15 @@
       "/images/phones/google/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 89999,
-    "priceFormatted": "89.999 TL"
+    "priceFormatted": "89.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "google-google-pixel-10-pro-xl-28",
@@ -38105,7 +39066,15 @@
       "/images/phones/google/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 79999,
-    "priceFormatted": "79.999 TL"
+    "priceFormatted": "79.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "google-google-pixel-10-pro-27",
@@ -38268,7 +39237,15 @@
       "/images/phones/google/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 69999,
-    "priceFormatted": "69.999 TL"
+    "priceFormatted": "69.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "google-google-pixel-10-26",
@@ -38431,7 +39408,15 @@
       "/images/phones/google/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 54999,
-    "priceFormatted": "54.999 TL"
+    "priceFormatted": "54.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "google-google-pixel-9a-25",
@@ -38594,7 +39579,15 @@
       "/images/phones/google/tr-galaxy-s24-s928-sm-s928bztctur-thumb-539318855216_216_PNG"
     ],
     "price": 25999,
-    "priceFormatted": "25.999 TL"
+    "priceFormatted": "25.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "oneplus-oneplus-nord-ce5-5g",
@@ -38755,7 +39748,15 @@
       }
     },
     "price": 18999,
-    "priceFormatted": "18.999 TL"
+    "priceFormatted": "18.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "oneplus-oneplus-nord-ce4",
@@ -38916,7 +39917,15 @@
       }
     },
     "price": 18999,
-    "priceFormatted": "18.999 TL"
+    "priceFormatted": "18.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "oneplus-oneplus-13t-5g",
@@ -39077,7 +40086,15 @@
       }
     },
     "price": 42999,
-    "priceFormatted": "42.999 TL"
+    "priceFormatted": "42.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "oneplus-oneplus-ace-3v",
@@ -39238,7 +40255,15 @@
       }
     },
     "price": 28999,
-    "priceFormatted": "28.999 TL"
+    "priceFormatted": "28.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "oneplus-oneplus-15t-5g",
@@ -39399,7 +40424,15 @@
       }
     },
     "price": 49999,
-    "priceFormatted": "49.999 TL"
+    "priceFormatted": "49.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "oneplus-oneplus-ace-3-pro",
@@ -39561,7 +40594,15 @@
       }
     },
     "price": 36999,
-    "priceFormatted": "36.999 TL"
+    "priceFormatted": "36.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "oneplus-oneplus-13",
@@ -39722,7 +40763,15 @@
       }
     },
     "price": 42999,
-    "priceFormatted": "42.999 TL"
+    "priceFormatted": "42.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "oneplus-oneplus-nord-ce3",
@@ -39883,7 +40932,15 @@
       }
     },
     "price": 18999,
-    "priceFormatted": "18.999 TL"
+    "priceFormatted": "18.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "oneplus-oneplus-7t-pro",
@@ -40045,7 +41102,15 @@
       }
     },
     "price": 58999,
-    "priceFormatted": "58.999 TL"
+    "priceFormatted": "58.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "oneplus-oneplus-nord-ce4-lite",
@@ -40206,7 +41271,15 @@
       }
     },
     "price": 18999,
-    "priceFormatted": "18.999 TL"
+    "priceFormatted": "18.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "oneplus-oneplus-nord-ce4-lite-india",
@@ -40367,7 +41440,15 @@
       }
     },
     "price": 18999,
-    "priceFormatted": "18.999 TL"
+    "priceFormatted": "18.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "nothing-nothing-phone-4a-11",
@@ -40530,7 +41611,15 @@
       "/images/phones/nothing/nothing-phone-2.jpg"
     ],
     "price": 29999,
-    "priceFormatted": "29.999 TL"
+    "priceFormatted": "29.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "nothing-nothing-phone-3a-8",
@@ -40693,7 +41782,15 @@
       "/images/phones/nothing/nothing-phone-2.jpg"
     ],
     "price": 23999,
-    "priceFormatted": "23.999 TL"
+    "priceFormatted": "23.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "nothing-nothing-phone-4b-13",
@@ -40856,7 +41953,15 @@
       "/images/phones/nothing/nothing-phone-2.jpg"
     ],
     "price": 21999,
-    "priceFormatted": "21.999 TL"
+    "priceFormatted": "21.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "nothing-nothing-phone-3-6",
@@ -41019,7 +42124,15 @@
       "/images/phones/nothing/nothing-phone-2.jpg"
     ],
     "price": 39999,
-    "priceFormatted": "39.999 TL"
+    "priceFormatted": "39.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "nothing-nothing-phone-4a-pro-12",
@@ -41182,7 +42295,15 @@
       "/images/phones/nothing/nothing-phone-2.jpg"
     ],
     "price": 34999,
-    "priceFormatted": "34.999 TL"
+    "priceFormatted": "34.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "nothing-nothing-phone-3a-pro-9",
@@ -41345,7 +42466,15 @@
       "/images/phones/nothing/nothing-phone-2.jpg"
     ],
     "price": 27999,
-    "priceFormatted": "27.999 TL"
+    "priceFormatted": "27.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "nothing-nothing-phone-3a-lite-10",
@@ -41508,7 +42637,15 @@
       "/images/phones/nothing/nothing-phone-2.jpg"
     ],
     "price": 17999,
-    "priceFormatted": "17.999 TL"
+    "priceFormatted": "17.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "nothing-cmf-phone-2-pro-7",
@@ -41671,7 +42808,15 @@
       "/images/phones/nothing/nothing-phone-2.jpg"
     ],
     "price": 15999,
-    "priceFormatted": "15.999 TL"
+    "priceFormatted": "15.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "tcl-tcl-k70-power-54",
@@ -41834,7 +42979,15 @@
       "/images/phones/tcl/tcl-50-pro-nxtpaper-5g.jpg"
     ],
     "price": 17999,
-    "priceFormatted": "17.999 TL"
+    "priceFormatted": "17.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "tcl-tcl-k70-se-5g-53",
@@ -41997,7 +43150,15 @@
       "/images/phones/tcl/tcl-50-pro-nxtpaper-5g.jpg"
     ],
     "price": 13999,
-    "priceFormatted": "13.999 TL"
+    "priceFormatted": "13.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "tcl-tcl-k70-5g-52",
@@ -42160,7 +43321,15 @@
       "/images/phones/tcl/tcl-50-pro-nxtpaper-5g.jpg"
     ],
     "price": 16999,
-    "priceFormatted": "16.999 TL"
+    "priceFormatted": "16.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "tcl-tcl-nxtpaper-70-pro-51",
@@ -42323,7 +43492,15 @@
       "/images/phones/tcl/tcl-50-pro-nxtpaper-5g.jpg"
     ],
     "price": 24999,
-    "priceFormatted": "24.999 TL"
+    "priceFormatted": "24.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "tcl-tcl-605-50",
@@ -42486,7 +43663,15 @@
       "/images/phones/tcl/tcl-50-pro-nxtpaper-5g.jpg"
     ],
     "price": 5999,
-    "priceFormatted": "5.999 TL"
+    "priceFormatted": "5.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "tcl-tcl-60-xe-nxtpaper-49",
@@ -42649,7 +43834,15 @@
       "/images/phones/tcl/tcl-50-pro-nxtpaper-5g.jpg"
     ],
     "price": 13999,
-    "priceFormatted": "13.999 TL"
+    "priceFormatted": "13.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "tcl-tcl-60-se-nxtpaper-5g-48",
@@ -42812,7 +44005,15 @@
       "/images/phones/tcl/tcl-50-pro-nxtpaper-5g.jpg"
     ],
     "price": 15999,
-    "priceFormatted": "15.999 TL"
+    "priceFormatted": "15.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "tcl-tcl-60-nxtpaper-4g-47",
@@ -42975,7 +44176,15 @@
       "/images/phones/tcl/tcl-50-pro-nxtpaper-5g.jpg"
     ],
     "price": 12999,
-    "priceFormatted": "12.999 TL"
+    "priceFormatted": "12.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "tcl-tcl-60-5g-46",
@@ -43138,7 +44347,15 @@
       "/images/phones/tcl/tcl-50-pro-nxtpaper-5g.jpg"
     ],
     "price": 11999,
-    "priceFormatted": "11.999 TL"
+    "priceFormatted": "11.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "tcl-tcl-60-45",
@@ -43301,7 +44518,15 @@
       "/images/phones/tcl/tcl-50-pro-nxtpaper-5g.jpg"
     ],
     "price": 9999,
-    "priceFormatted": "9.999 TL"
+    "priceFormatted": "9.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "tecno-tecno-spark-20-pro-2",
@@ -43461,7 +44686,15 @@
       }
     ],
     "price": 12999,
-    "priceFormatted": "12.999 TL"
+    "priceFormatted": "12.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "tecno-tecno-camon-30s-pro",
@@ -43621,7 +44854,15 @@
       }
     ],
     "price": 18999,
-    "priceFormatted": "18.999 TL"
+    "priceFormatted": "18.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "tecno-tecno-pova-7-5g",
@@ -43781,7 +45022,15 @@
       }
     ],
     "price": 11999,
-    "priceFormatted": "11.999 TL"
+    "priceFormatted": "11.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "tecno-tecno-pova-7-pro-5g",
@@ -43941,7 +45190,15 @@
       }
     ],
     "price": 11999,
-    "priceFormatted": "11.999 TL"
+    "priceFormatted": "11.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "tecno-tecno-spark-40-pro",
@@ -44101,7 +45358,15 @@
       }
     ],
     "price": 12999,
-    "priceFormatted": "12.999 TL"
+    "priceFormatted": "12.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "tecno-tecno-spark-40-pro-2",
@@ -44261,7 +45526,15 @@
       }
     ],
     "price": 12999,
-    "priceFormatted": "12.999 TL"
+    "priceFormatted": "12.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "tecno-tecno-spark-40-4g",
@@ -44421,7 +45694,15 @@
       }
     ],
     "price": 8999,
-    "priceFormatted": "8.999 TL"
+    "priceFormatted": "8.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "tecno-tecno-spark-7t",
@@ -44581,7 +45862,15 @@
       }
     ],
     "price": 8999,
-    "priceFormatted": "8.999 TL"
+    "priceFormatted": "8.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "tecno-tecno-spark-go-2021",
@@ -44741,7 +46030,15 @@
       }
     ],
     "price": 8999,
-    "priceFormatted": "8.999 TL"
+    "priceFormatted": "8.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "tecno-tecno-spark-9t-india",
@@ -44901,7 +46198,15 @@
       }
     ],
     "price": 8999,
-    "priceFormatted": "8.999 TL"
+    "priceFormatted": "8.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "tecno-tecno-spark-9t",
@@ -45061,7 +46366,15 @@
       }
     ],
     "price": 8999,
-    "priceFormatted": "8.999 TL"
+    "priceFormatted": "8.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "poco-poco-f7-ultra-86",
@@ -45224,7 +46537,15 @@
       "/images/products/smartphones/poco-poco-f7-ultra-86.jpg"
     ],
     "price": 34999,
-    "priceFormatted": "34.999 TL"
+    "priceFormatted": "34.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "poco-poco-f7-5g-85",
@@ -45387,7 +46708,15 @@
       "/images/products/smartphones/poco-poco-f7-5g-85.jpg"
     ],
     "price": 26999,
-    "priceFormatted": "26.999 TL"
+    "priceFormatted": "26.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "poco-poco-x7-pro-5g-90",
@@ -45550,7 +46879,15 @@
       "/images/products/smartphones/poco-poco-x7-pro-5g-90.jpg"
     ],
     "price": 21999,
-    "priceFormatted": "21.999 TL"
+    "priceFormatted": "21.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   },
   {
     "id": "poco-poco-x7-5g-89",
@@ -45713,6 +47050,14 @@
       "/images/products/smartphones/poco-poco-x7-5g-89.jpg"
     ],
     "price": 16999,
-    "priceFormatted": "16.999 TL"
+    "priceFormatted": "16.999 TL",
+    "pros": [
+      "Fiyat / performans dengesi",
+      "Akıcı ve stabil kullanıcı deneyimi",
+      "Kaliteli malzeme yapısı"
+    ],
+    "cons": [
+      "Kutudan hızlı şarj adaptörü çıkmayabilir"
+    ]
   }
 ]

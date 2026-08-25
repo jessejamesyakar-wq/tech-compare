@@ -98,7 +98,7 @@ export default function TVDetailClient({ initialTVProduct }: { initialTVProduct:
 
             {/* Highlights Chips */}
             <div className="flex flex-wrap gap-2 mb-6">
-              {tv.highlights.map((h, idx) => (
+              {(tv.highlights || []).map((h, idx) => (
                 <span key={idx} className="bg-slate-50 text-slate-700 text-xs px-3 py-1.5 rounded-xl border border-slate-200 flex items-center gap-1.5 font-medium">
                   <Check className="w-3.5 h-3.5 text-emerald-600" />
                   <span>{h}</span>
@@ -263,7 +263,7 @@ export default function TVDetailClient({ initialTVProduct }: { initialTVProduct:
             '@type': 'Product',
             name: tv.name,
             image: [tv.image, ...(tv.images || [])],
-            description: tv.highlights.join('. '),
+            description: (tv.highlights || []).join('. '),
             brand: {
               '@type': 'Brand',
               name: tv.brand
