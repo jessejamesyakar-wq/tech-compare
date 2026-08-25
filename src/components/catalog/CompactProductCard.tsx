@@ -62,13 +62,25 @@ export function CompactProductCard({
     setImgSrc(product.image || fallbackImg);
   }, [product.image, fallbackImg]);
 
-  // Clean Headphone Specific Card Layout
-  if (product.category === 'headphones') {
+  // Clean Headphone & Smartwatch Specific Card Layout
+  if (product.category === 'headphones' || product.category === 'smartwatches') {
     const specs = (product.specs || {}) as Record<string, string>;
-    const formFactor = specs.formFactor || '';
-    const anc = specs.anc && specs.anc !== 'Yok' ? 'Gürültü Engelleme' : '';
-    const battery = specs.batteryLife ? `${specs.batteryLife} Pil` : '';
-    const subInfo = [anc, battery, formFactor].filter(Boolean).slice(0, 2).join(' • ') || (product.highlights?.[0] || '');
+    let subInfo = '';
+
+    if (product.category === 'headphones') {
+      const formFactor = specs.formFactor || '';
+      const anc = specs.anc && specs.anc !== 'Yok' ? 'Gürültü Engelleme' : '';
+      const battery = specs.batteryLife ? `${specs.batteryLife} Pil` : '';
+      subInfo = [anc, battery, formFactor].filter(Boolean).slice(0, 2).join(' • ') || (product.highlights?.[0] || '');
+    } else {
+      // Smartwatches
+      const caseSize = specs.caseSize || specs.size || '';
+      const material = specs.caseMaterial || specs.material || '';
+      const gps = specs.gps || specs.connectivity || '';
+      const battery = specs.batteryLife ? `${specs.batteryLife} Pil` : '';
+      subInfo = [caseSize, material, gps, battery].filter(Boolean).slice(0, 2).join(' • ') || (product.highlights?.[0] || '');
+    }
+
     const offerCount = product.storeOffers?.length || 3;
 
     return (
