@@ -11,6 +11,7 @@ import {
   getAllSmartwatches,
   getAllHeadphones,
   getAllConsoles,
+  getAllMonitors,
 } from '@/lib/data';
 import { getStoredProducts } from '@/lib/adminData';
 import { saveBrandLogoToIDB, getAllBrandLogosFromIDB, deleteBrandLogoFromIDB } from '@/lib/idbBrandLogos';
@@ -262,7 +263,8 @@ export function BrandLogoBar({ onSelectBrand }: { onSelectBrand?: (brand: string
       getAllSmartwatches(),
       getAllHeadphones(),
       getAllConsoles(),
-    ]).then(([phones, tvs, laptops, appliances, tablets, smartwatches, headphones, consoles]) => {
+      getAllMonitors(),
+    ]).then(([phones, tvs, laptops, appliances, tablets, smartwatches, headphones, consoles, monitors]) => {
       const counts: { [b: string]: number } = {};
       const allProducts = [
         ...phones,
@@ -273,6 +275,7 @@ export function BrandLogoBar({ onSelectBrand }: { onSelectBrand?: (brand: string
         ...smartwatches,
         ...headphones,
         ...consoles,
+        ...monitors,
       ];
 
       allProducts.forEach((p) => {

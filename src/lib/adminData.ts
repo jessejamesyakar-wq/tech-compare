@@ -7,6 +7,7 @@ import { mockSmartwatches } from './mockSmartwatches';
 import { mockHeadphones } from './mockHeadphones';
 import { mockConsoles } from './mockConsoles';
 import { mockAppliances } from './mockAppliances';
+import { mockMonitors } from './mockMonitors';
 
 const allMockProducts: Product[] = [
   ...mockSmartphones,
@@ -16,7 +17,8 @@ const allMockProducts: Product[] = [
   ...mockSmartwatches,
   ...mockHeadphones,
   ...mockConsoles,
-  ...mockAppliances
+  ...mockAppliances,
+  ...mockMonitors
 ];
 
 // In-memory product store initialized strictly from mockData files

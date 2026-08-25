@@ -17,7 +17,7 @@ export interface BaseProduct {
   slug: string;
   name: string;
   brand: string;
-  category: 'smartphones' | 'tvs' | 'laptops' | 'tablets' | 'smartwatches' | 'headphones' | 'consoles' | 'appliances';
+  category: 'smartphones' | 'tvs' | 'laptops' | 'tablets' | 'smartwatches' | 'headphones' | 'consoles' | 'appliances' | 'monitors';
   image: string;
   images?: string[];
   rating: number;
@@ -230,7 +230,7 @@ export interface LaptopProduct extends BaseProduct {
 }
 
 export interface GenericProduct extends BaseProduct {
-  category: 'tablets' | 'smartwatches' | 'headphones' | 'consoles';
+  category: 'tablets' | 'smartwatches' | 'headphones' | 'consoles' | 'monitors';
   specs?: Record<string, unknown>;
 }
 

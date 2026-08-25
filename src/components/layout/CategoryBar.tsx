@@ -13,7 +13,8 @@ import {
   Gamepad2,
   Sliders,
   Sparkles,
-  PlugZap
+  PlugZap,
+  Monitor
 } from 'lucide-react';
 
 export function CategoryBar() {
@@ -28,6 +29,7 @@ export function CategoryBar() {
     { id: 'tablets', label: 'Tabletler', href: '/tablets', icon: Tablet },
     { id: 'smartwatches', label: 'Akıllı Saatler', href: '/smartwatches', icon: Watch },
     { id: 'headphones', label: 'Ses & Kulaklık', href: '/headphones', icon: Headphones },
+    { id: 'monitors', label: 'Monitörler', href: '/monitors', icon: Monitor },
     { id: 'consoles', label: 'Oyun Konsolları', href: '/consoles', icon: Gamepad2 },
     { id: 'compare', label: 'Karşılaştırma Masası', href: '/compare', icon: Sliders }
   ];
@@ -47,6 +49,7 @@ export function CategoryBar() {
               (cat.id === 'tablets' && pathname.startsWith('/tablets')) ||
               (cat.id === 'smartwatches' && pathname.startsWith('/smartwatches')) ||
               (cat.id === 'headphones' && pathname.startsWith('/headphones')) ||
+              (cat.id === 'monitors' && pathname.startsWith('/monitors')) ||
               (cat.id === 'consoles' && pathname.startsWith('/consoles'));
 
             return (

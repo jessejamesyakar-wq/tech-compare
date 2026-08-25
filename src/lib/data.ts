@@ -127,6 +127,19 @@ export async function getConsoleById(id: string): Promise<Product | undefined> {
   );
 }
 
+export async function getMonitorById(id: string): Promise<Product | undefined> {
+  const decoded = decodeURIComponent(id).toLowerCase().trim();
+  const all = getStoredProducts();
+  return all.find(
+    (p) =>
+      (p.id.toLowerCase() === decoded ||
+        p.slug.toLowerCase() === decoded ||
+        p.slug.toLowerCase().replace(/_/g, '-') === decoded.replace(/_/g, '-') ||
+        p.name.toLowerCase() === decoded) &&
+      p.category === 'monitors'
+  );
+}
+
 export async function getTVById(id: string): Promise<TVProduct | undefined> {
   const decoded = decodeURIComponent(id).toLowerCase().trim();
   const all = getStoredProducts().filter((p) => p.category === 'tvs') as TVProduct[];
@@ -381,6 +394,11 @@ export async function getAllHeadphones(): Promise<Product[]> {
 export async function getAllConsoles(): Promise<Product[]> {
   const all = deduplicateProducts(getStoredProducts());
   return all.filter((p) => p.category === 'consoles');
+}
+
+export async function getAllMonitors(): Promise<Product[]> {
+  const all = deduplicateProducts(getStoredProducts());
+  return all.filter((p) => p.category === 'monitors');
 }
 
 export interface DynamicCategoryDistribution {

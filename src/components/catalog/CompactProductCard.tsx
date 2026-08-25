@@ -35,6 +35,8 @@ export function CompactProductCard({
       ? `/headphones/${product.slug}`
       : product.category === 'consoles'
       ? `/consoles/${product.slug}`
+      : product.category === 'monitors'
+      ? `/monitors/${product.slug}`
       : `/phones/${product.slug}`;
 
   // Calculated fake old price for demo discount look if not provided
