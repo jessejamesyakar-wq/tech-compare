@@ -191,13 +191,15 @@ export default function ApplianceDetailClient({ initialApplianceProduct }: { ini
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 flex items-center gap-3">
-            <PlugZap className="w-5 h-5 text-emerald-600" />
-            <div>
-              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Motor / Güç</span>
-              <span className="text-xs font-black text-slate-900">{product.specs.powerWatts} Watt</span>
+          {product.specs.powerWatts && (
+            <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 flex items-center gap-3">
+              <PlugZap className="w-5 h-5 text-emerald-600" />
+              <div>
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Motor / Güç</span>
+                <span className="text-xs font-black text-slate-900">{product.specs.powerWatts} Watt</span>
+              </div>
             </div>
-          </div>
+          )}
 
           {product.specs.capacity && (
             <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 flex items-center gap-3">
@@ -205,6 +207,26 @@ export default function ApplianceDetailClient({ initialApplianceProduct }: { ini
               <div>
                 <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Kapasite / Hacim</span>
                 <span className="text-xs font-black text-slate-900">{product.specs.capacity}</span>
+              </div>
+            </div>
+          )}
+
+          {product.specs.capacityLiters && (
+            <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 flex items-center gap-3">
+              <Layers className="w-5 h-5 text-emerald-600" />
+              <div>
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Net İç Hacim</span>
+                <span className="text-xs font-black text-slate-900">{product.specs.capacityLiters} Litre</span>
+              </div>
+            </div>
+          )}
+
+          {product.specs.color && (
+            <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 flex items-center gap-3">
+              <Sparkles className="w-5 h-5 text-emerald-600" />
+              <div>
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Renk & Kaplama</span>
+                <span className="text-xs font-black text-slate-900">{product.specs.color}</span>
               </div>
             </div>
           )}
